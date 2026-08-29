@@ -62,10 +62,20 @@ The app includes one responsive, top-of-page ad slot. It stays hidden in product
 
 After Google approves the site and creates a display ad unit:
 
-1. Set `VITE_ADSENSE_CLIENT_ID` (the `ca-pub-...` publisher client ID) and `VITE_ADSENSE_TOP_SLOT` (the numeric ad slot ID) as Cloudflare Pages build environment variables for Preview and Production.
-2. Set the Cloudflare Pages Function variable `ADSENSE_PUBLISHER_ID` (the matching `pub-...` ID). The `/ads.txt` Function will then return Google's direct-seller line; without it, `/ads.txt` deliberately returns 404 instead of the SPA shell.
+1. Set `VITE_ADSENSE_CLIENT_ID` (the `ca-pub-...` publisher client ID) and `VITE_ADSENSE_TOP_SLOT` (the numeric ad slot ID) in the environment used by the Vite build. The current `tensift` Pages project uses Wrangler Direct Upload, so these values must be present locally before `npm run build`; Cloudflare dashboard build variables only affect a remote Pages build. Keep them in an untracked `.env.production` file or set them in the shell for the deployment command.
+2. Set the Cloudflare Pages Function variable `ADSENSE_PUBLISHER_ID` (the matching `pub-...` ID) under Settings > Variables and Secrets for Production. The `/ads.txt` Function will then return Google's direct-seller line; without it, `/ads.txt` deliberately returns 404 instead of the SPA shell.
 3. Review the privacy/consent requirements for the countries you serve before enabling personalized advertising.
 4. Never click live ads or ask players to click them. Use the Google test workflow while validating the integration.
+
+For a Direct Upload deployment, run the build and deploy from this project directory after setting the two public Vite values (do not commit a `.env.production` file):
+
+```powershell
+$env:VITE_ADSENSE_CLIENT_ID = 'ca-pub-XXXXXXXXXXXXXXXX'
+$env:VITE_ADSENSE_TOP_SLOT = '1234567890'
+npm run build
+npm run cf:deploy
+Remove-Item Env:VITE_ADSENSE_CLIENT_ID, Env:VITE_ADSENSE_TOP_SLOT
+```
 
 The public identifiers are safe to embed in the browser bundle; never put API tokens or Cloudflare credentials in a `VITE_*` variable. The ad code follows Google's asynchronous responsive unit format and keeps the slot separated from the game controls.
 
