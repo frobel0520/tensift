@@ -50,6 +50,6 @@ Prototype approved; SD implementation is complete; the Cloudflare Pages producti
 - No account or server-side session; local streaks are not competitive-grade records.
 - Content ambiguity and second-solution risk remain the largest product risks.
 - Some new rules are intentionally everyday interpretations (usual room, usual venue, or main ingredient); blind playtesting should confirm that each has one dominant answer.
-- The second batch adds color, plant-part, grain, writing-system-region, material-source, wheel-count, and character-type rules. Languages now uses Greek, East Asian, Indian, and Latin script regions; Breakfast and Wheeled Things use more globally understandable replacements for the previous regional options. These still need the same second-solution review before their release dates.
+- The second batch adds color, plant-part, grain, language-family, material-source, wheel-count, and character-type rules. Languages now uses Hellenic, Germanic, Indo-Aryan, and Romance families; Breakfast replaces Rice pudding with Rice bread, and Wheeled Things replaces Tuk-tuk/Pedicab with more descriptive options. These still need the same second-solution review before their release dates.
 - Ads are integrated and configured but may not monetize until Google account/site approval; analytics, privacy/consent, and release-content operations are not yet implemented.
 - A top banner must reserve stable height and remain clearly distinct from game controls to avoid accidental ad clicks and layout shift.

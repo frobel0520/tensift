@@ -15,7 +15,7 @@
     {"itemId": "breakfast-waffles", "label": "Gofres"},
     {"itemId": "breakfast-congee", "label": "Gachas de arroz"},
     {"itemId": "breakfast-rice-cakes", "label": "Tortitas de arroz"},
-    {"itemId": "breakfast-rice-pudding", "label": "Arroz con leche"},
+    {"itemId": "breakfast-rice-bread", "label": "Pan de arroz"},
     {"itemId": "breakfast-rice-cereal", "label": "Cereal de arroz"}
   ],
   "rows": [
@@ -30,7 +30,7 @@
       {"groupId": "g1", "label": "Maíz", "capacity": 1, "itemIds": ["breakfast-cornflakes"]},
       {"groupId": "g2", "label": "Avena", "capacity": 2, "itemIds": ["breakfast-oatmeal", "breakfast-granola"]},
       {"groupId": "g3", "label": "Trigo", "capacity": 3, "itemIds": ["breakfast-toast", "breakfast-pancakes", "breakfast-waffles"]},
-      {"groupId": "g4", "label": "Arroz", "capacity": 4, "itemIds": ["breakfast-congee", "breakfast-rice-cakes", "breakfast-rice-pudding", "breakfast-rice-cereal"]}
+      {"groupId": "g4", "label": "Arroz", "capacity": 4, "itemIds": ["breakfast-congee", "breakfast-rice-cakes", "breakfast-rice-bread", "breakfast-rice-cereal"]}
     ]
   },
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},

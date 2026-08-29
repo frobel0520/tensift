@@ -20,6 +20,23 @@ describe('D1 puzzle seed generator', () => {
     expect(records.some((record) => record.puzzleFamilyId === 'home-room-001')).toBe(true);
     expect(records.some((record) => record.puzzleFamilyId === 'fruit-color-001')).toBe(true);
     expect(records.some((record) => record.puzzleFamilyId === 'space-objects-001')).toBe(false);
+
+    const languageItemIds = new Set(
+      records
+        .filter((record) => record.puzzleFamilyId === 'language-script-001')
+        .flatMap((record) => record.items.map((item) => item.itemId)),
+    );
+    expect(languageItemIds).toContain('language-punjabi');
+    expect(languageItemIds).not.toContain('language-arabic');
+    expect(languageItemIds).not.toContain('language-russian');
+    expect(languageItemIds).not.toContain('language-chinese');
+
+    const allItemIds = new Set(records.flatMap((record) => record.items.map((item) => item.itemId)));
+    expect(allItemIds).toContain('breakfast-rice-bread');
+    expect(allItemIds).not.toContain('breakfast-rice-pudding');
+    expect(allItemIds).toContain('wheel-cargo-trike');
+    expect(allItemIds).not.toContain('wheel-tuk-tuk');
+    expect(allItemIds).not.toContain('wheel-pedicab');
   });
 
   it('emits deterministic, idempotent SQL for a puzzle record', () => {

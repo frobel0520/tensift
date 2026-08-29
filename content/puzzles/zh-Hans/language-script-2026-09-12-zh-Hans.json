@@ -5,18 +5,18 @@
   "locale": "zh-Hans",
   "publishDate": "2026-09-12",
   "timezone": "UTC",
-  "theme": "语言",
+  "theme": "语言族群",
   "items": [
     {"itemId": "language-greek", "label": "希腊语"},
-    {"itemId": "language-chinese", "label": "中文"},
-    {"itemId": "language-japanese", "label": "日语"},
+    {"itemId": "language-english", "label": "英语"},
+    {"itemId": "language-german", "label": "德语"},
     {"itemId": "language-hindi", "label": "印地语"},
     {"itemId": "language-bengali", "label": "孟加拉语"},
-    {"itemId": "language-tamil", "label": "泰米尔语"},
-    {"itemId": "language-english", "label": "英语"},
+    {"itemId": "language-punjabi", "label": "旁遮普语"},
     {"itemId": "language-spanish", "label": "西班牙语"},
     {"itemId": "language-french", "label": "法语"},
-    {"itemId": "language-german", "label": "德语"}
+    {"itemId": "language-italian", "label": "意大利语"},
+    {"itemId": "language-portuguese", "label": "葡萄牙语"}
   ],
   "rows": [
     {"rowId": "row-1", "capacity": 1},
@@ -25,18 +25,18 @@
     {"rowId": "row-4", "capacity": 4}
   ],
   "solution": {
-    "hiddenDimension": "文字系统区域",
+    "hiddenDimension": "语言族群",
     "groups": [
-      {"groupId": "g1", "label": "希腊字母", "capacity": 1, "itemIds": ["language-greek"]},
-      {"groupId": "g2", "label": "东亚文字", "capacity": 2, "itemIds": ["language-chinese", "language-japanese"]},
-      {"groupId": "g3", "label": "印度文字", "capacity": 3, "itemIds": ["language-hindi", "language-bengali", "language-tamil"]},
-      {"groupId": "g4", "label": "拉丁字母", "capacity": 4, "itemIds": ["language-english", "language-spanish", "language-french", "language-german"]}
+      {"groupId": "g1", "label": "希腊语族", "capacity": 1, "itemIds": ["language-greek"]},
+      {"groupId": "g2", "label": "日耳曼语族", "capacity": 2, "itemIds": ["language-english", "language-german"]},
+      {"groupId": "g3", "label": "印度-雅利安语族", "capacity": 3, "itemIds": ["language-hindi", "language-bengali", "language-punjabi"]},
+      {"groupId": "g4", "label": "罗曼语族", "capacity": 4, "itemIds": ["language-spanish", "language-french", "language-italian", "language-portuguese"]}
     ]
   },
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
-  "explanation": "每组使用同一文字系统区域或家族：1 种希腊字母语言、2 种东亚文字语言、3 种印度文字语言和 4 种拉丁字母语言。",
+  "explanation": "每组属于同一个语言族群分支：1 种希腊语族语言、2 种日耳曼语族语言、3 种印度-雅利安语族语言和 4 种罗曼语族语言。",
   "sources": [
-    {"title": "大英百科全书：文字", "url": "https://www.britannica.com/topic/writing", "retrievedAt": "2026-08-29"}
+    {"title": "大英百科全书：语言", "url": "https://www.britannica.com/topic/language", "retrievedAt": "2026-08-29"}
   ],
   "difficulty": {"band": "medium", "score": 0.46},
   "status": "scheduled"

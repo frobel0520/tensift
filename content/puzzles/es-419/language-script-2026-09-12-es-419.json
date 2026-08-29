@@ -5,18 +5,18 @@
   "locale": "es-419",
   "publishDate": "2026-09-12",
   "timezone": "UTC",
-  "theme": "Idiomas",
+  "theme": "Familias lingüísticas",
   "items": [
     {"itemId": "language-greek", "label": "Griego"},
-    {"itemId": "language-chinese", "label": "Chino"},
-    {"itemId": "language-japanese", "label": "Japonés"},
+    {"itemId": "language-english", "label": "Inglés"},
+    {"itemId": "language-german", "label": "Alemán"},
     {"itemId": "language-hindi", "label": "Hindi"},
     {"itemId": "language-bengali", "label": "Bengalí"},
-    {"itemId": "language-tamil", "label": "Tamil"},
-    {"itemId": "language-english", "label": "Inglés"},
+    {"itemId": "language-punjabi", "label": "Panyabí"},
     {"itemId": "language-spanish", "label": "Español"},
     {"itemId": "language-french", "label": "Francés"},
-    {"itemId": "language-german", "label": "Alemán"}
+    {"itemId": "language-italian", "label": "Italiano"},
+    {"itemId": "language-portuguese", "label": "Portugués"}
   ],
   "rows": [
     {"rowId": "row-1", "capacity": 1},
@@ -25,18 +25,18 @@
     {"rowId": "row-4", "capacity": 4}
   ],
   "solution": {
-    "hiddenDimension": "región del sistema de escritura",
+    "hiddenDimension": "familia lingüística",
     "groups": [
-      {"groupId": "g1", "label": "Escritura griega", "capacity": 1, "itemIds": ["language-greek"]},
-      {"groupId": "g2", "label": "Escrituras de Asia Oriental", "capacity": 2, "itemIds": ["language-chinese", "language-japanese"]},
-      {"groupId": "g3", "label": "Escrituras de la India", "capacity": 3, "itemIds": ["language-hindi", "language-bengali", "language-tamil"]},
-      {"groupId": "g4", "label": "Latino", "capacity": 4, "itemIds": ["language-english", "language-spanish", "language-french", "language-german"]}
+      {"groupId": "g1", "label": "Helénica", "capacity": 1, "itemIds": ["language-greek"]},
+      {"groupId": "g2", "label": "Germánica", "capacity": 2, "itemIds": ["language-english", "language-german"]},
+      {"groupId": "g3", "label": "Indoaria", "capacity": 3, "itemIds": ["language-hindi", "language-bengali", "language-punjabi"]},
+      {"groupId": "g4", "label": "Romance", "capacity": 4, "itemIds": ["language-spanish", "language-french", "language-italian", "language-portuguese"]}
     ]
   },
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
-  "explanation": "Cada grupo usa una región o familia de escritura relacionada: 1 idioma de escritura griega, 2 de Asia Oriental, 3 de la India y 4 latinos.",
+  "explanation": "Cada grupo pertenece a la misma rama de familia lingüística: 1 idioma helénico, 2 germánicos, 3 indoarios y 4 romances.",
   "sources": [
-    {"title": "Encyclopaedia Britannica: Writing", "url": "https://www.britannica.com/topic/writing", "retrievedAt": "2026-08-29"}
+    {"title": "Encyclopaedia Britannica: Language", "url": "https://www.britannica.com/topic/language", "retrievedAt": "2026-08-29"}
   ],
   "difficulty": {"band": "medium", "score": 0.46},
   "status": "scheduled"
