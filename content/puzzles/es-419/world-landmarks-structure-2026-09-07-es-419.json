@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "world-landmarks-structure-2026-09-07-es-419",
+  "puzzleFamilyId": "world-landmarks-structure-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-07",
+  "timezone": "UTC",
+  "theme": "Lugares emblemáticos",
+  "items": [
+    {"itemId": "landmark-giza", "label": "Gran Pirámide de Guiza"},
+    {"itemId": "landmark-eiffel", "label": "Torre Eiffel"},
+    {"itemId": "landmark-burj-khalifa", "label": "Burj Khalifa"},
+    {"itemId": "landmark-golden-gate", "label": "Puente Golden Gate"},
+    {"itemId": "landmark-brooklyn", "label": "Puente de Brooklyn"},
+    {"itemId": "landmark-sydney-harbour", "label": "Puente del puerto de Sídney"},
+    {"itemId": "landmark-buckingham", "label": "Palacio de Buckingham"},
+    {"itemId": "landmark-versailles", "label": "Palacio de Versalles"},
+    {"itemId": "landmark-forbidden-city", "label": "Ciudad Prohibida"},
+    {"itemId": "landmark-alhambra", "label": "Alhambra"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "tipo de estructura",
+    "groups": [
+      {"groupId": "g1", "label": "Pirámide", "capacity": 1, "itemIds": ["landmark-giza"]},
+      {"groupId": "g2", "label": "Torres", "capacity": 2, "itemIds": ["landmark-eiffel", "landmark-burj-khalifa"]},
+      {"groupId": "g3", "label": "Puentes", "capacity": 3, "itemIds": ["landmark-golden-gate", "landmark-brooklyn", "landmark-sydney-harbour"]},
+      {"groupId": "g4", "label": "Palacios", "capacity": 4, "itemIds": ["landmark-buckingham", "landmark-versailles", "landmark-forbidden-city", "landmark-alhambra"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo se define por un tipo de estructura: 1 pirámide, 2 torres, 3 puentes y 4 palacios.",
+  "sources": [
+    {"title": "Lista del Patrimonio Mundial de la UNESCO", "url": "https://whc.unesco.org/en/list/", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.44},
+  "status": "scheduled"
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "natural-landmarks-feature-2026-09-01-en",
+  "puzzleFamilyId": "natural-landmarks-feature-001",
+  "locale": "en",
+  "publishDate": "2026-09-01",
+  "timezone": "UTC",
+  "theme": "Natural Landmarks",
+  "items": [
+    {"itemId": "natural-mount-fuji", "label": "Mount Fuji"},
+    {"itemId": "natural-niagara-falls", "label": "Niagara Falls"},
+    {"itemId": "natural-victoria-falls", "label": "Victoria Falls"},
+    {"itemId": "natural-sahara-desert", "label": "Sahara Desert"},
+    {"itemId": "natural-gobi-desert", "label": "Gobi Desert"},
+    {"itemId": "natural-atacama-desert", "label": "Atacama Desert"},
+    {"itemId": "natural-nile-river", "label": "Nile River"},
+    {"itemId": "natural-amazon-river", "label": "Amazon River"},
+    {"itemId": "natural-yangtze-river", "label": "Yangtze River"},
+    {"itemId": "natural-mississippi-river", "label": "Mississippi River"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Natural feature type",
+    "groups": [
+      {"groupId": "g1", "label": "Volcano", "capacity": 1, "itemIds": ["natural-mount-fuji"]},
+      {"groupId": "g2", "label": "Waterfalls", "capacity": 2, "itemIds": ["natural-niagara-falls", "natural-victoria-falls"]},
+      {"groupId": "g3", "label": "Deserts", "capacity": 3, "itemIds": ["natural-sahara-desert", "natural-gobi-desert", "natural-atacama-desert"]},
+      {"groupId": "g4", "label": "Rivers", "capacity": 4, "itemIds": ["natural-nile-river", "natural-amazon-river", "natural-yangtze-river", "natural-mississippi-river"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group is a natural feature type: 1 volcano, 2 waterfalls, 3 deserts, and 4 rivers.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Volcano", "url": "https://www.britannica.com/science/volcano", "retrievedAt": "2026-08-29"},
+    {"title": "Encyclopaedia Britannica: Waterfall", "url": "https://www.britannica.com/science/waterfall", "retrievedAt": "2026-08-29"},
+    {"title": "Encyclopaedia Britannica: Desert", "url": "https://www.britannica.com/science/desert", "retrievedAt": "2026-08-29"},
+    {"title": "Encyclopaedia Britannica: River", "url": "https://www.britannica.com/science/river", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.34},
+  "status": "scheduled"
+}

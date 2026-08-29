@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "food-staple-2026-09-06-zh-hans",
+  "puzzleFamilyId": "food-staple-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-06",
+  "timezone": "UTC",
+  "theme": "食物",
+  "items": [
+    {"itemId": "food-popcorn", "label": "爆米花"},
+    {"itemId": "food-sushi", "label": "寿司"},
+    {"itemId": "food-risotto", "label": "意大利烩饭"},
+    {"itemId": "food-bread", "label": "面包"},
+    {"itemId": "food-pasta", "label": "意大利面"},
+    {"itemId": "food-pizza", "label": "披萨"},
+    {"itemId": "food-french-fries", "label": "薯条"},
+    {"itemId": "food-mashed-potatoes", "label": "土豆泥"},
+    {"itemId": "food-baked-potato", "label": "烤土豆"},
+    {"itemId": "food-potato-chips", "label": "薯片"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "主要基底食材",
+    "groups": [
+      {"groupId": "g1", "label": "玉米", "capacity": 1, "itemIds": ["food-popcorn"]},
+      {"groupId": "g2", "label": "米", "capacity": 2, "itemIds": ["food-sushi", "food-risotto"]},
+      {"groupId": "g3", "label": "小麦", "capacity": 3, "itemIds": ["food-bread", "food-pasta", "food-pizza"]},
+      {"groupId": "g4", "label": "马铃薯", "capacity": 4, "itemIds": ["food-french-fries", "food-mashed-potatoes", "food-baked-potato", "food-potato-chips"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组共享一种主要基底食材：1 种玉米食品、2 种米制食品、3 种小麦食品和 4 种马铃薯食品。",
+  "sources": [
+    {"title": "大英百科全书：食物", "url": "https://www.britannica.com/topic/food", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.35},
+  "status": "scheduled"
+}

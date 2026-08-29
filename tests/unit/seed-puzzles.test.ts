@@ -10,11 +10,15 @@ const instrumentsRecord = instrumentsPuzzle as AuthoringPuzzleRecord;
 const generatedAt = '2026-08-29T00:00:00.000Z';
 
 describe('D1 puzzle seed generator', () => {
-  it('loads and validates the complete first content batch', async () => {
+  it('loads and validates the complete ten-day content batch', async () => {
     const records = await loadAuthoringPuzzles();
 
-    expect(records).toHaveLength(9);
-    expect(new Set(records.map((record) => record.puzzleId)).size).toBe(9);
+    expect(records).toHaveLength(30);
+    expect(new Set(records.map((record) => record.puzzleId)).size).toBe(30);
+    expect(new Set(records.map((record) => record.puzzleFamilyId)).size).toBe(10);
+    expect(new Set(records.map((record) => record.locale))).toEqual(new Set(['en', 'es-419', 'zh-Hans']));
+    expect(records.some((record) => record.puzzleFamilyId === 'home-room-001')).toBe(true);
+    expect(records.some((record) => record.puzzleFamilyId === 'space-objects-001')).toBe(false);
   });
 
   it('emits deterministic, idempotent SQL for a puzzle record', () => {

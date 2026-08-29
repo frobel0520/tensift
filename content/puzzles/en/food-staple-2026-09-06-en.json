@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "food-staple-2026-09-06-en",
+  "puzzleFamilyId": "food-staple-001",
+  "locale": "en",
+  "publishDate": "2026-09-06",
+  "timezone": "UTC",
+  "theme": "Food",
+  "items": [
+    {"itemId": "food-popcorn", "label": "Popcorn"},
+    {"itemId": "food-sushi", "label": "Sushi"},
+    {"itemId": "food-risotto", "label": "Risotto"},
+    {"itemId": "food-bread", "label": "Bread"},
+    {"itemId": "food-pasta", "label": "Pasta"},
+    {"itemId": "food-pizza", "label": "Pizza"},
+    {"itemId": "food-french-fries", "label": "French fries"},
+    {"itemId": "food-mashed-potatoes", "label": "Mashed potatoes"},
+    {"itemId": "food-baked-potato", "label": "Baked potato"},
+    {"itemId": "food-potato-chips", "label": "Potato chips"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Main base ingredient",
+    "groups": [
+      {"groupId": "g1", "label": "Corn", "capacity": 1, "itemIds": ["food-popcorn"]},
+      {"groupId": "g2", "label": "Rice", "capacity": 2, "itemIds": ["food-sushi", "food-risotto"]},
+      {"groupId": "g3", "label": "Wheat", "capacity": 3, "itemIds": ["food-bread", "food-pasta", "food-pizza"]},
+      {"groupId": "g4", "label": "Potato", "capacity": 4, "itemIds": ["food-french-fries", "food-mashed-potatoes", "food-baked-potato", "food-potato-chips"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group shares a main base ingredient: 1 corn-based food, 2 rice-based foods, 3 wheat-based foods, and 4 potato-based foods.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Food", "url": "https://www.britannica.com/topic/food", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.35},
+  "status": "scheduled"
+}

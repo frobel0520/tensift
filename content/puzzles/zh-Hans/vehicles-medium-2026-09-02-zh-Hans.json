@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vehicles-medium-2026-09-02-zh-hans",
+  "puzzleFamilyId": "vehicles-medium-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-02",
+  "timezone": "UTC",
+  "theme": "交通工具",
+  "items": [
+    {"itemId": "vehicle-airplane", "label": "飞机"},
+    {"itemId": "vehicle-train", "label": "火车"},
+    {"itemId": "vehicle-tram", "label": "有轨电车"},
+    {"itemId": "vehicle-car", "label": "汽车"},
+    {"itemId": "vehicle-bus", "label": "公共汽车"},
+    {"itemId": "vehicle-motorcycle", "label": "摩托车"},
+    {"itemId": "vehicle-ship", "label": "船"},
+    {"itemId": "vehicle-ferry", "label": "渡轮"},
+    {"itemId": "vehicle-submarine", "label": "潜水艇"},
+    {"itemId": "vehicle-sailboat", "label": "帆船"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "出行方式",
+    "groups": [
+      {"groupId": "g1", "label": "空中", "capacity": 1, "itemIds": ["vehicle-airplane"]},
+      {"groupId": "g2", "label": "铁路", "capacity": 2, "itemIds": ["vehicle-train", "vehicle-tram"]},
+      {"groupId": "g3", "label": "道路", "capacity": 3, "itemIds": ["vehicle-car", "vehicle-bus", "vehicle-motorcycle"]},
+      {"groupId": "g4", "label": "水上", "capacity": 4, "itemIds": ["vehicle-ship", "vehicle-ferry", "vehicle-submarine", "vehicle-sailboat"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组由一种出行方式定义：1 种空中交通工具、2 种铁路交通工具、3 种道路交通工具和 4 种水上交通工具。",
+  "sources": [
+    {"title": "大英百科全书：交通工具", "url": "https://www.britannica.com/technology/vehicle", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.27},
+  "status": "scheduled"
+}

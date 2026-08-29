@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "home-room-2026-09-03-zh-hans",
+  "puzzleFamilyId": "home-room-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-03",
+  "timezone": "UTC",
+  "theme": "家中物品",
+  "items": [
+    {"itemId": "home-bed", "label": "床"},
+    {"itemId": "home-toilet", "label": "马桶"},
+    {"itemId": "home-shower", "label": "淋浴"},
+    {"itemId": "home-refrigerator", "label": "冰箱"},
+    {"itemId": "home-oven", "label": "烤箱"},
+    {"itemId": "home-sink", "label": "水槽"},
+    {"itemId": "home-sofa", "label": "沙发"},
+    {"itemId": "home-coffee-table", "label": "茶几"},
+    {"itemId": "home-television", "label": "电视"},
+    {"itemId": "home-armchair", "label": "单人椅"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "通常所在的房间",
+    "groups": [
+      {"groupId": "g1", "label": "卧室", "capacity": 1, "itemIds": ["home-bed"]},
+      {"groupId": "g2", "label": "浴室", "capacity": 2, "itemIds": ["home-toilet", "home-shower"]},
+      {"groupId": "g3", "label": "厨房", "capacity": 3, "itemIds": ["home-refrigerator", "home-oven", "home-sink"]},
+      {"groupId": "g4", "label": "客厅", "capacity": 4, "itemIds": ["home-sofa", "home-coffee-table", "home-television", "home-armchair"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组包含通常出现在同一房间的物品：1 件卧室物品、2 件浴室物品、3 件厨房物品和 4 件客厅物品。",
+  "sources": [
+    {"title": "大英百科全书：房屋", "url": "https://www.britannica.com/technology/house", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.25},
+  "status": "scheduled"
+}

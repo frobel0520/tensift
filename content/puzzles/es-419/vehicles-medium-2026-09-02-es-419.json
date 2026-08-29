@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vehicles-medium-2026-09-02-es-419",
+  "puzzleFamilyId": "vehicles-medium-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-02",
+  "timezone": "UTC",
+  "theme": "Vehículos",
+  "items": [
+    {"itemId": "vehicle-airplane", "label": "Avión"},
+    {"itemId": "vehicle-train", "label": "Tren"},
+    {"itemId": "vehicle-tram", "label": "Tranvía"},
+    {"itemId": "vehicle-car", "label": "Auto"},
+    {"itemId": "vehicle-bus", "label": "Autobús"},
+    {"itemId": "vehicle-motorcycle", "label": "Motocicleta"},
+    {"itemId": "vehicle-ship", "label": "Barco"},
+    {"itemId": "vehicle-ferry", "label": "Ferry"},
+    {"itemId": "vehicle-submarine", "label": "Submarino"},
+    {"itemId": "vehicle-sailboat", "label": "Velero"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "medio de transporte",
+    "groups": [
+      {"groupId": "g1", "label": "Aire", "capacity": 1, "itemIds": ["vehicle-airplane"]},
+      {"groupId": "g2", "label": "Ferrocarril", "capacity": 2, "itemIds": ["vehicle-train", "vehicle-tram"]},
+      {"groupId": "g3", "label": "Carretera", "capacity": 3, "itemIds": ["vehicle-car", "vehicle-bus", "vehicle-motorcycle"]},
+      {"groupId": "g4", "label": "Agua", "capacity": 4, "itemIds": ["vehicle-ship", "vehicle-ferry", "vehicle-submarine", "vehicle-sailboat"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo se define por un medio de transporte: 1 vehículo aéreo, 2 vehículos ferroviarios, 3 vehículos de carretera y 4 vehículos acuáticos.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Vehicle", "url": "https://www.britannica.com/technology/vehicle", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.27},
+  "status": "scheduled"
+}

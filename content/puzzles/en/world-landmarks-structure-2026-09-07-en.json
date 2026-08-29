@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "world-landmarks-structure-2026-09-07-en",
+  "puzzleFamilyId": "world-landmarks-structure-001",
+  "locale": "en",
+  "publishDate": "2026-09-07",
+  "timezone": "UTC",
+  "theme": "World Landmarks",
+  "items": [
+    {"itemId": "landmark-giza", "label": "Great Pyramid of Giza"},
+    {"itemId": "landmark-eiffel", "label": "Eiffel Tower"},
+    {"itemId": "landmark-burj-khalifa", "label": "Burj Khalifa"},
+    {"itemId": "landmark-golden-gate", "label": "Golden Gate Bridge"},
+    {"itemId": "landmark-brooklyn", "label": "Brooklyn Bridge"},
+    {"itemId": "landmark-sydney-harbour", "label": "Sydney Harbour Bridge"},
+    {"itemId": "landmark-buckingham", "label": "Buckingham Palace"},
+    {"itemId": "landmark-versailles", "label": "Palace of Versailles"},
+    {"itemId": "landmark-forbidden-city", "label": "Forbidden City"},
+    {"itemId": "landmark-alhambra", "label": "Alhambra"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Structure type",
+    "groups": [
+      {"groupId": "g1", "label": "Pyramid", "capacity": 1, "itemIds": ["landmark-giza"]},
+      {"groupId": "g2", "label": "Towers", "capacity": 2, "itemIds": ["landmark-eiffel", "landmark-burj-khalifa"]},
+      {"groupId": "g3", "label": "Bridges", "capacity": 3, "itemIds": ["landmark-golden-gate", "landmark-brooklyn", "landmark-sydney-harbour"]},
+      {"groupId": "g4", "label": "Palaces", "capacity": 4, "itemIds": ["landmark-buckingham", "landmark-versailles", "landmark-forbidden-city", "landmark-alhambra"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group is a landmark structure type: 1 pyramid, 2 towers, 3 bridges, and 4 palaces.",
+  "sources": [
+    {"title": "UNESCO World Heritage List", "url": "https://whc.unesco.org/en/list/", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.44},
+  "status": "scheduled"
+}
