@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
   "puzzleId": "animal-diet-2026-09-27-en",
-  "puzzleFamilyId": "animal-diet-001",
+  "puzzleFamilyId": "animal-movement-001",
   "locale": "en",
   "publishDate": "2026-09-27",
   "timezone": "UTC",
-  "theme": "Animal Diets",
+  "theme": "Animal Movement",
   "items": [
-    {"itemId": "diet-lion", "label": "Lion"},
-    {"itemId": "diet-cow", "label": "Cow"},
-    {"itemId": "diet-giraffe", "label": "Giraffe"},
-    {"itemId": "diet-bear", "label": "Bear"},
-    {"itemId": "diet-pig", "label": "Pig"},
-    {"itemId": "diet-chicken", "label": "Chicken"},
-    {"itemId": "diet-anteater", "label": "Anteater"},
-    {"itemId": "diet-frog", "label": "Frog"},
-    {"itemId": "diet-bat", "label": "Bat"},
-    {"itemId": "diet-hedgehog", "label": "Hedgehog"}
+    {"itemId": "movement-eagle", "label": "Eagle"},
+    {"itemId": "movement-fish", "label": "Fish"},
+    {"itemId": "movement-dolphin", "label": "Dolphin"},
+    {"itemId": "movement-frog", "label": "Frog"},
+    {"itemId": "movement-rabbit", "label": "Rabbit"},
+    {"itemId": "movement-kangaroo", "label": "Kangaroo"},
+    {"itemId": "movement-snake", "label": "Snake"},
+    {"itemId": "movement-lizard", "label": "Lizard"},
+    {"itemId": "movement-snail", "label": "Snail"},
+    {"itemId": "movement-caterpillar", "label": "Caterpillar"}
   ],
   "rows": [
     {"rowId": "row-1", "capacity": 1},
@@ -25,18 +25,18 @@
     {"rowId": "row-4", "capacity": 4}
   ],
   "solution": {
-    "hiddenDimension": "Typical diet",
+    "hiddenDimension": "Typical movement",
     "groups": [
-      {"groupId": "g1", "label": "Carnivores", "capacity": 1, "itemIds": ["diet-lion"]},
-      {"groupId": "g2", "label": "Herbivores", "capacity": 2, "itemIds": ["diet-cow", "diet-giraffe"]},
-      {"groupId": "g3", "label": "Omnivores", "capacity": 3, "itemIds": ["diet-bear", "diet-pig", "diet-chicken"]},
-      {"groupId": "g4", "label": "Insectivores", "capacity": 4, "itemIds": ["diet-anteater", "diet-frog", "diet-bat", "diet-hedgehog"]}
+      {"groupId": "g1", "label": "Flying", "capacity": 1, "itemIds": ["movement-eagle"]},
+      {"groupId": "g2", "label": "Swimming", "capacity": 2, "itemIds": ["movement-fish", "movement-dolphin"]},
+      {"groupId": "g3", "label": "Hopping", "capacity": 3, "itemIds": ["movement-frog", "movement-rabbit", "movement-kangaroo"]},
+      {"groupId": "g4", "label": "Crawling", "capacity": 4, "itemIds": ["movement-snake", "movement-lizard", "movement-snail", "movement-caterpillar"]}
     ]
   },
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
-  "explanation": "Each group contains animals with the same typical diet: 1 carnivore, 2 herbivores, 3 omnivores, and 4 insectivores.",
+  "explanation": "Each group contains animals linked by a typical way of moving: 1 flyer, 2 swimmers, 3 hoppers, and 4 crawlers.",
   "sources": [
-    {"title": "Encyclopaedia Britannica: Animal", "url": "https://www.britannica.com/animal", "retrievedAt": "2026-08-29"}
+    {"title": "Encyclopaedia Britannica: Animal locomotion", "url": "https://www.britannica.com/science/animal-locomotion", "retrievedAt": "2026-08-29"}
   ],
   "difficulty": {"band": "medium", "score": 0.37},
   "status": "scheduled"

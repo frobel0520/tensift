@@ -25,16 +25,16 @@
     {"rowId": "row-4", "capacity": 4}
   ],
   "solution": {
-    "hiddenDimension": "tipo de árbol",
+    "hiddenDimension": "asociación habitual",
     "groups": [
-      {"groupId": "g1", "label": "Palmeras", "capacity": 1, "itemIds": ["tree-palm"]},
-      {"groupId": "g2", "label": "Coníferas", "capacity": 2, "itemIds": ["tree-pine", "tree-fir"]},
-      {"groupId": "g3", "label": "Árboles de hoja caduca", "capacity": 3, "itemIds": ["tree-oak", "tree-maple", "tree-birch"]},
-      {"groupId": "g4", "label": "Árboles frutales", "capacity": 4, "itemIds": ["tree-apple", "tree-orange", "tree-cherry", "tree-mango"]}
+      {"groupId": "g1", "label": "Tropicales / playa", "capacity": 1, "itemIds": ["tree-palm"]},
+      {"groupId": "g2", "label": "Árboles de Navidad", "capacity": 2, "itemIds": ["tree-pine", "tree-fir"]},
+      {"groupId": "g3", "label": "Árboles del bosque", "capacity": 3, "itemIds": ["tree-oak", "tree-maple", "tree-birch"]},
+      {"groupId": "g4", "label": "Árboles de huerto", "capacity": 4, "itemIds": ["tree-apple", "tree-orange", "tree-cherry", "tree-mango"]}
     ]
   },
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
-  "explanation": "Cada grupo contiene un tipo de árbol: 1 palmera, 2 coníferas, 3 árboles de hoja caduca y 4 árboles frutales.",
+  "explanation": "Cada grupo reúne árboles ligados a una asociación o escenario conocido: 1 tropical/de playa, 2 de Navidad, 3 del bosque y 4 de huerto.",
   "sources": [
     {"title": "Encyclopaedia Britannica: Tree", "url": "https://www.britannica.com/plant/tree", "retrievedAt": "2026-08-29"}
   ],

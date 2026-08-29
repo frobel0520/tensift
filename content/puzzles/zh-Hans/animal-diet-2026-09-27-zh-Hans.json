@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
   "puzzleId": "animal-diet-2026-09-27-zh-hans",
-  "puzzleFamilyId": "animal-diet-001",
+  "puzzleFamilyId": "animal-movement-001",
   "locale": "zh-Hans",
   "publishDate": "2026-09-27",
   "timezone": "UTC",
-  "theme": "动物饮食",
+  "theme": "动物移动",
   "items": [
-    {"itemId": "diet-lion", "label": "狮子"},
-    {"itemId": "diet-cow", "label": "牛"},
-    {"itemId": "diet-giraffe", "label": "长颈鹿"},
-    {"itemId": "diet-bear", "label": "熊"},
-    {"itemId": "diet-pig", "label": "猪"},
-    {"itemId": "diet-chicken", "label": "鸡"},
-    {"itemId": "diet-anteater", "label": "食蚁兽"},
-    {"itemId": "diet-frog", "label": "青蛙"},
-    {"itemId": "diet-bat", "label": "蝙蝠"},
-    {"itemId": "diet-hedgehog", "label": "刺猬"}
+    {"itemId": "movement-eagle", "label": "鹰"},
+    {"itemId": "movement-fish", "label": "鱼"},
+    {"itemId": "movement-dolphin", "label": "海豚"},
+    {"itemId": "movement-frog", "label": "青蛙"},
+    {"itemId": "movement-rabbit", "label": "兔子"},
+    {"itemId": "movement-kangaroo", "label": "袋鼠"},
+    {"itemId": "movement-snake", "label": "蛇"},
+    {"itemId": "movement-lizard", "label": "蜥蜴"},
+    {"itemId": "movement-snail", "label": "蜗牛"},
+    {"itemId": "movement-caterpillar", "label": "毛毛虫"}
   ],
   "rows": [
     {"rowId": "row-1", "capacity": 1},
@@ -25,18 +25,18 @@
     {"rowId": "row-4", "capacity": 4}
   ],
   "solution": {
-    "hiddenDimension": "典型饮食",
+    "hiddenDimension": "典型移动方式",
     "groups": [
-      {"groupId": "g1", "label": "肉食动物", "capacity": 1, "itemIds": ["diet-lion"]},
-      {"groupId": "g2", "label": "草食动物", "capacity": 2, "itemIds": ["diet-cow", "diet-giraffe"]},
-      {"groupId": "g3", "label": "杂食动物", "capacity": 3, "itemIds": ["diet-bear", "diet-pig", "diet-chicken"]},
-      {"groupId": "g4", "label": "食虫动物", "capacity": 4, "itemIds": ["diet-anteater", "diet-frog", "diet-bat", "diet-hedgehog"]}
+      {"groupId": "g1", "label": "飞行", "capacity": 1, "itemIds": ["movement-eagle"]},
+      {"groupId": "g2", "label": "游泳", "capacity": 2, "itemIds": ["movement-fish", "movement-dolphin"]},
+      {"groupId": "g3", "label": "跳跃", "capacity": 3, "itemIds": ["movement-frog", "movement-rabbit", "movement-kangaroo"]},
+      {"groupId": "g4", "label": "爬行", "capacity": 4, "itemIds": ["movement-snake", "movement-lizard", "movement-snail", "movement-caterpillar"]}
     ]
   },
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
-  "explanation": "每组动物有相似的典型饮食：1 种肉食动物、2 种草食动物、3 种杂食动物和 4 种食虫动物。",
+  "explanation": "每组动物都有相似的典型移动方式：1 种会飞的动物、2 种会游泳的动物、3 种会跳跃的动物和 4 种会爬行的动物。",
   "sources": [
-    {"title": "大英百科全书：动物", "url": "https://www.britannica.com/animal/animal", "retrievedAt": "2026-08-29"}
+    {"title": "大英百科全书：动物运动", "url": "https://www.britannica.com/science/animal-locomotion", "retrievedAt": "2026-08-29"}
   ],
   "difficulty": {"band": "medium", "score": 0.37},
   "status": "scheduled"

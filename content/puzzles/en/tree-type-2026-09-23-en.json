@@ -25,16 +25,16 @@
     {"rowId": "row-4", "capacity": 4}
   ],
   "solution": {
-    "hiddenDimension": "Tree type",
+    "hiddenDimension": "Common association",
     "groups": [
-      {"groupId": "g1", "label": "Palm trees", "capacity": 1, "itemIds": ["tree-palm"]},
-      {"groupId": "g2", "label": "Conifers", "capacity": 2, "itemIds": ["tree-pine", "tree-fir"]},
-      {"groupId": "g3", "label": "Deciduous trees", "capacity": 3, "itemIds": ["tree-oak", "tree-maple", "tree-birch"]},
-      {"groupId": "g4", "label": "Fruit trees", "capacity": 4, "itemIds": ["tree-apple", "tree-orange", "tree-cherry", "tree-mango"]}
+      {"groupId": "g1", "label": "Tropical / beach", "capacity": 1, "itemIds": ["tree-palm"]},
+      {"groupId": "g2", "label": "Christmas trees", "capacity": 2, "itemIds": ["tree-pine", "tree-fir"]},
+      {"groupId": "g3", "label": "Forest trees", "capacity": 3, "itemIds": ["tree-oak", "tree-maple", "tree-birch"]},
+      {"groupId": "g4", "label": "Orchard trees", "capacity": 4, "itemIds": ["tree-apple", "tree-orange", "tree-cherry", "tree-mango"]}
     ]
   },
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
-  "explanation": "Each group contains the same broad tree type: 1 palm tree, 2 conifers, 3 deciduous trees, and 4 fruit trees.",
+  "explanation": "Each group contains trees linked by a familiar setting or association: 1 tropical/beach tree, 2 Christmas trees, 3 forest trees, and 4 orchard trees.",
   "sources": [
     {"title": "Encyclopaedia Britannica: Tree", "url": "https://www.britannica.com/plant/tree", "retrievedAt": "2026-08-29"}
   ],

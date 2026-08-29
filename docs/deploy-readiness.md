@@ -51,7 +51,7 @@ Verify manually or with an HTTP client:
 
 ## Release gate for content
 
-The current remote catalog contains a thirty-day release window in all three locales: Countries is `published` for 2026-08-29; Animals, Musical Instruments, Natural Landmarks, Vehicles, At Home, Sports, Animal Habitats, Food, World Landmarks, Fruits, The Human Body, Vegetables, World Cities, Languages, Breakfast, Everyday Tools, Materials, Wheeled Things, Fictional Characters, Clothing, Animal Coverings, World Foods, Beverages, Sports Equipment, Trees, Home Appliances, School and Office, Global Brands, and Animal Diets are `scheduled` for 2026-08-30 through 2026-09-27 respectively. The production `today` endpoint returns the Countries puzzle for the current UTC date.
+The current remote catalog contains a thirty-day release window in all three locales: Countries is `published` for 2026-08-29; Animals, Musical Instruments, Natural Landmarks, Vehicles, At Home, Sports, Animal Habitats, Food, World Landmarks, Fruits, The Human Body, Vegetables, World Cities, Languages, Breakfast, Everyday Tools, Materials, Wheeled Things, Fictional Characters, Clothing, Animal Coverings, World Foods, Beverages, Sports Equipment, Trees, Home Appliances, School and Office, Global Brands, and Animal Movement are `scheduled` for 2026-08-30 through 2026-09-27 respectively. The production `today` endpoint returns the Countries puzzle for the current UTC date.
 
 For each upcoming release, for each locale:
 
@@ -65,7 +65,7 @@ Do not publish content by changing the client or by adding answer fixtures to th
 
 The second-batch content revision keeps the same release dates while replacing the Languages groups with Hellenic/Germanic/Indo-Aryan/Romance language families, and replacing Rice pudding, Tuk-tuk, and Pedicab with more direct alternatives. Re-run blind playtesting for these three families before their scheduled dates.
 
-The third batch keeps the existing cadence and adds Clothing, Animal Coverings, World Foods, Beverages, Sports Equipment, Trees, Home Appliances, School and Office, Global Brands, and Animal Diets through 2026-09-27. Re-run blind playtesting for cuisine attribution, brand industry labels, tree types, and typical animal diets before their scheduled dates.
+The third batch keeps the existing cadence and adds Clothing, Animal Coverings, World Foods, Beverages, Sports Equipment, Trees, Home Appliances, School and Office, Global Brands, and Animal Movement through 2026-09-27. Trees now uses common settings/associations instead of botanical types; Global Brands uses soft drink, car, fast-food, and sportswear industries; the 2026-09-27 slot was revised from Animal Diets to Animal Movement while retaining the existing public puzzle IDs for an in-place D1 replacement. Re-run blind playtesting for these everyday associations before their scheduled dates.
 
 ## Cloudflare Pages settings
 

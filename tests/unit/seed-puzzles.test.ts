@@ -21,6 +21,7 @@ describe('D1 puzzle seed generator', () => {
     expect(records.some((record) => record.puzzleFamilyId === 'fruit-color-001')).toBe(true);
     expect(records.some((record) => record.puzzleFamilyId === 'clothing-location-001')).toBe(true);
     expect(records.some((record) => record.puzzleFamilyId === 'global-brand-category-001')).toBe(true);
+    expect(records.some((record) => record.puzzleFamilyId === 'animal-movement-001')).toBe(true);
     expect(records.some((record) => record.puzzleFamilyId === 'space-objects-001')).toBe(false);
 
     const languageItemIds = new Set(

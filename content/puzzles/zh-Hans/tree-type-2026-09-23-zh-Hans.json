@@ -25,16 +25,16 @@
     {"rowId": "row-4", "capacity": 4}
   ],
   "solution": {
-    "hiddenDimension": "树木类型",
+    "hiddenDimension": "常见联想",
     "groups": [
-      {"groupId": "g1", "label": "棕榈树", "capacity": 1, "itemIds": ["tree-palm"]},
-      {"groupId": "g2", "label": "针叶树", "capacity": 2, "itemIds": ["tree-pine", "tree-fir"]},
-      {"groupId": "g3", "label": "落叶树", "capacity": 3, "itemIds": ["tree-oak", "tree-maple", "tree-birch"]},
-      {"groupId": "g4", "label": "果树", "capacity": 4, "itemIds": ["tree-apple", "tree-orange", "tree-cherry", "tree-mango"]}
+      {"groupId": "g1", "label": "热带／海滩", "capacity": 1, "itemIds": ["tree-palm"]},
+      {"groupId": "g2", "label": "圣诞树", "capacity": 2, "itemIds": ["tree-pine", "tree-fir"]},
+      {"groupId": "g3", "label": "森林", "capacity": 3, "itemIds": ["tree-oak", "tree-maple", "tree-birch"]},
+      {"groupId": "g4", "label": "果园", "capacity": 4, "itemIds": ["tree-apple", "tree-orange", "tree-cherry", "tree-mango"]}
     ]
   },
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
-  "explanation": "每组包含相同类型的树木：1 棵棕榈树、2 棵针叶树、3 棵落叶树和 4 棵果树。",
+  "explanation": "每组树木都与一种常见场景或联想相关：1 棵热带／海滩树、2 棵圣诞树、3 棵森林树和 4 棵果园树。",
   "sources": [
     {"title": "大英百科全书：树", "url": "https://www.britannica.com/plant/tree", "retrievedAt": "2026-08-29"}
   ],
