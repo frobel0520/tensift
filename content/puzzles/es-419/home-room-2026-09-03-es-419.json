@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "home-room-2026-09-03-es-419",
+  "puzzleFamilyId": "home-room-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-03",
+  "timezone": "UTC",
+  "theme": "En casa",
+  "items": [
+    {"itemId": "home-bed", "label": "Cama"},
+    {"itemId": "home-toilet", "label": "Inodoro"},
+    {"itemId": "home-shower", "label": "Ducha"},
+    {"itemId": "home-refrigerator", "label": "Refrigerador"},
+    {"itemId": "home-oven", "label": "Horno"},
+    {"itemId": "home-sink", "label": "Fregadero"},
+    {"itemId": "home-sofa", "label": "Sofá"},
+    {"itemId": "home-coffee-table", "label": "Mesa de centro"},
+    {"itemId": "home-television", "label": "Televisor"},
+    {"itemId": "home-armchair", "label": "Sillón"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "habitación habitual",
+    "groups": [
+      {"groupId": "g1", "label": "Dormitorio", "capacity": 1, "itemIds": ["home-bed"]},
+      {"groupId": "g2", "label": "Baño", "capacity": 2, "itemIds": ["home-toilet", "home-shower"]},
+      {"groupId": "g3", "label": "Cocina", "capacity": 3, "itemIds": ["home-refrigerator", "home-oven", "home-sink"]},
+      {"groupId": "g4", "label": "Sala de estar", "capacity": 4, "itemIds": ["home-sofa", "home-coffee-table", "home-television", "home-armchair"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo contiene objetos que normalmente se encuentran en la misma habitación: 1 objeto del dormitorio, 2 del baño, 3 de la cocina y 4 de la sala de estar.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: House", "url": "https://www.britannica.com/technology/house", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.25},
+  "status": "scheduled"
+}

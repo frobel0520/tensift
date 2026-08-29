@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "home-room-2026-09-03-en",
+  "puzzleFamilyId": "home-room-001",
+  "locale": "en",
+  "publishDate": "2026-09-03",
+  "timezone": "UTC",
+  "theme": "At Home",
+  "items": [
+    {"itemId": "home-bed", "label": "Bed"},
+    {"itemId": "home-toilet", "label": "Toilet"},
+    {"itemId": "home-shower", "label": "Shower"},
+    {"itemId": "home-refrigerator", "label": "Refrigerator"},
+    {"itemId": "home-oven", "label": "Oven"},
+    {"itemId": "home-sink", "label": "Sink"},
+    {"itemId": "home-sofa", "label": "Sofa"},
+    {"itemId": "home-coffee-table", "label": "Coffee table"},
+    {"itemId": "home-television", "label": "Television"},
+    {"itemId": "home-armchair", "label": "Armchair"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Typical room",
+    "groups": [
+      {"groupId": "g1", "label": "Bedroom", "capacity": 1, "itemIds": ["home-bed"]},
+      {"groupId": "g2", "label": "Bathroom", "capacity": 2, "itemIds": ["home-toilet", "home-shower"]},
+      {"groupId": "g3", "label": "Kitchen", "capacity": 3, "itemIds": ["home-refrigerator", "home-oven", "home-sink"]},
+      {"groupId": "g4", "label": "Living room", "capacity": 4, "itemIds": ["home-sofa", "home-coffee-table", "home-television", "home-armchair"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group contains items usually found in the same room: 1 bedroom item, 2 bathroom items, 3 kitchen items, and 4 living-room items.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: House", "url": "https://www.britannica.com/technology/house", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.25},
+  "status": "scheduled"
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "food-staple-2026-09-06-es-419",
+  "puzzleFamilyId": "food-staple-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-06",
+  "timezone": "UTC",
+  "theme": "Comida",
+  "items": [
+    {"itemId": "food-popcorn", "label": "Palomitas de maíz"},
+    {"itemId": "food-sushi", "label": "Sushi"},
+    {"itemId": "food-risotto", "label": "Risotto"},
+    {"itemId": "food-bread", "label": "Pan"},
+    {"itemId": "food-pasta", "label": "Pasta"},
+    {"itemId": "food-pizza", "label": "Pizza"},
+    {"itemId": "food-french-fries", "label": "Papas fritas"},
+    {"itemId": "food-mashed-potatoes", "label": "Puré de papa"},
+    {"itemId": "food-baked-potato", "label": "Papa al horno"},
+    {"itemId": "food-potato-chips", "label": "Papas fritas de bolsa"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "ingrediente base principal",
+    "groups": [
+      {"groupId": "g1", "label": "Maíz", "capacity": 1, "itemIds": ["food-popcorn"]},
+      {"groupId": "g2", "label": "Arroz", "capacity": 2, "itemIds": ["food-sushi", "food-risotto"]},
+      {"groupId": "g3", "label": "Trigo", "capacity": 3, "itemIds": ["food-bread", "food-pasta", "food-pizza"]},
+      {"groupId": "g4", "label": "Papa", "capacity": 4, "itemIds": ["food-french-fries", "food-mashed-potatoes", "food-baked-potato", "food-potato-chips"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo comparte un ingrediente base principal: 1 alimento de maíz, 2 alimentos de arroz, 3 alimentos de trigo y 4 alimentos de papa.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Food", "url": "https://www.britannica.com/topic/food", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.35},
+  "status": "scheduled"
+}

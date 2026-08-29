@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-habitat-2026-09-05-zh-hans",
+  "puzzleFamilyId": "animal-habitat-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-05",
+  "timezone": "UTC",
+  "theme": "动物栖息地",
+  "items": [
+    {"itemId": "habitat-camel", "label": "骆驼"},
+    {"itemId": "habitat-polar-bear", "label": "北极熊"},
+    {"itemId": "habitat-walrus", "label": "海象"},
+    {"itemId": "habitat-jaguar", "label": "美洲豹"},
+    {"itemId": "habitat-toucan", "label": "巨嘴鸟"},
+    {"itemId": "habitat-sloth", "label": "树懒"},
+    {"itemId": "habitat-shark", "label": "鲨鱼"},
+    {"itemId": "habitat-octopus", "label": "章鱼"},
+    {"itemId": "habitat-whale", "label": "鲸鱼"},
+    {"itemId": "habitat-sea-turtle", "label": "海龟"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "常见栖息地",
+    "groups": [
+      {"groupId": "g1", "label": "沙漠", "capacity": 1, "itemIds": ["habitat-camel"]},
+      {"groupId": "g2", "label": "极地", "capacity": 2, "itemIds": ["habitat-polar-bear", "habitat-walrus"]},
+      {"groupId": "g3", "label": "热带雨林", "capacity": 3, "itemIds": ["habitat-jaguar", "habitat-toucan", "habitat-sloth"]},
+      {"groupId": "g4", "label": "海洋", "capacity": 4, "itemIds": ["habitat-shark", "habitat-octopus", "habitat-whale", "habitat-sea-turtle"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组包含与同一栖息地相关的动物：1 种沙漠动物、2 种极地动物、3 种热带雨林动物和 4 种海洋动物。",
+  "sources": [
+    {"title": "大英百科全书：动物", "url": "https://www.britannica.com/animal", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.31},
+  "status": "scheduled"
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sports-venue-2026-09-04-es-419",
+  "puzzleFamilyId": "sports-venue-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-04",
+  "timezone": "UTC",
+  "theme": "Deportes",
+  "items": [
+    {"itemId": "sport-ice-hockey", "label": "Hockey sobre hielo"},
+    {"itemId": "sport-swimming", "label": "Natación"},
+    {"itemId": "sport-water-polo", "label": "Waterpolo"},
+    {"itemId": "sport-basketball", "label": "Baloncesto"},
+    {"itemId": "sport-volleyball", "label": "Voleibol"},
+    {"itemId": "sport-handball", "label": "Balonmano"},
+    {"itemId": "sport-soccer", "label": "Fútbol"},
+    {"itemId": "sport-baseball", "label": "Béisbol"},
+    {"itemId": "sport-cricket", "label": "Críquet"},
+    {"itemId": "sport-rugby", "label": "Rugby"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "lugar habitual",
+    "groups": [
+      {"groupId": "g1", "label": "Hielo", "capacity": 1, "itemIds": ["sport-ice-hockey"]},
+      {"groupId": "g2", "label": "Agua", "capacity": 2, "itemIds": ["sport-swimming", "sport-water-polo"]},
+      {"groupId": "g3", "label": "Cancha cubierta", "capacity": 3, "itemIds": ["sport-basketball", "sport-volleyball", "sport-handball"]},
+      {"groupId": "g4", "label": "Campo", "capacity": 4, "itemIds": ["sport-soccer", "sport-baseball", "sport-cricket", "sport-rugby"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo se basa en el lugar habitual: 1 deporte sobre hielo, 2 deportes acuáticos, 3 deportes de cancha cubierta y 4 deportes de campo.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Sports", "url": "https://www.britannica.com/sports", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.38},
+  "status": "scheduled"
+}

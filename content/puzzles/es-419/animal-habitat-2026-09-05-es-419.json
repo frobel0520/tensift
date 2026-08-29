@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-habitat-2026-09-05-es-419",
+  "puzzleFamilyId": "animal-habitat-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-05",
+  "timezone": "UTC",
+  "theme": "Hábitats animales",
+  "items": [
+    {"itemId": "habitat-camel", "label": "Camello"},
+    {"itemId": "habitat-polar-bear", "label": "Oso polar"},
+    {"itemId": "habitat-walrus", "label": "Morsa"},
+    {"itemId": "habitat-jaguar", "label": "Jaguar"},
+    {"itemId": "habitat-toucan", "label": "Tucán"},
+    {"itemId": "habitat-sloth", "label": "Perezoso"},
+    {"itemId": "habitat-shark", "label": "Tiburón"},
+    {"itemId": "habitat-octopus", "label": "Pulpo"},
+    {"itemId": "habitat-whale", "label": "Ballena"},
+    {"itemId": "habitat-sea-turtle", "label": "Tortuga marina"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "hábitat habitual",
+    "groups": [
+      {"groupId": "g1", "label": "Desierto", "capacity": 1, "itemIds": ["habitat-camel"]},
+      {"groupId": "g2", "label": "Polar", "capacity": 2, "itemIds": ["habitat-polar-bear", "habitat-walrus"]},
+      {"groupId": "g3", "label": "Selva tropical", "capacity": 3, "itemIds": ["habitat-jaguar", "habitat-toucan", "habitat-sloth"]},
+      {"groupId": "g4", "label": "Océano", "capacity": 4, "itemIds": ["habitat-shark", "habitat-octopus", "habitat-whale", "habitat-sea-turtle"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo contiene animales asociados con el mismo hábitat: 1 animal del desierto, 2 animales polares, 3 animales de la selva tropical y 4 animales del océano.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Animal", "url": "https://www.britannica.com/animal", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.31},
+  "status": "scheduled"
+}

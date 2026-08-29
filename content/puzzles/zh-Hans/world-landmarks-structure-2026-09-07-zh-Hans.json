@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "world-landmarks-structure-2026-09-07-zh-hans",
+  "puzzleFamilyId": "world-landmarks-structure-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-07",
+  "timezone": "UTC",
+  "theme": "世界地标",
+  "items": [
+    {"itemId": "landmark-giza", "label": "吉萨大金字塔"},
+    {"itemId": "landmark-eiffel", "label": "埃菲尔铁塔"},
+    {"itemId": "landmark-burj-khalifa", "label": "哈利法塔"},
+    {"itemId": "landmark-golden-gate", "label": "金门大桥"},
+    {"itemId": "landmark-brooklyn", "label": "布鲁克林大桥"},
+    {"itemId": "landmark-sydney-harbour", "label": "悉尼海港大桥"},
+    {"itemId": "landmark-buckingham", "label": "白金汉宫"},
+    {"itemId": "landmark-versailles", "label": "凡尔赛宫"},
+    {"itemId": "landmark-forbidden-city", "label": "故宫"},
+    {"itemId": "landmark-alhambra", "label": "阿尔罕布拉宫"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "建筑类型",
+    "groups": [
+      {"groupId": "g1", "label": "金字塔", "capacity": 1, "itemIds": ["landmark-giza"]},
+      {"groupId": "g2", "label": "高塔", "capacity": 2, "itemIds": ["landmark-eiffel", "landmark-burj-khalifa"]},
+      {"groupId": "g3", "label": "桥梁", "capacity": 3, "itemIds": ["landmark-golden-gate", "landmark-brooklyn", "landmark-sydney-harbour"]},
+      {"groupId": "g4", "label": "宫殿", "capacity": 4, "itemIds": ["landmark-buckingham", "landmark-versailles", "landmark-forbidden-city", "landmark-alhambra"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组由一种建筑类型定义：1 座金字塔、2 座高塔、3 座桥梁和 4 座宫殿。",
+  "sources": [
+    {"title": "联合国教科文组织世界遗产名录", "url": "https://whc.unesco.org/en/list/", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.44},
+  "status": "scheduled"
+}

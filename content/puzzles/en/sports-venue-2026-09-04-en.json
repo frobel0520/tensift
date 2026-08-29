@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sports-venue-2026-09-04-en",
+  "puzzleFamilyId": "sports-venue-001",
+  "locale": "en",
+  "publishDate": "2026-09-04",
+  "timezone": "UTC",
+  "theme": "Sports",
+  "items": [
+    {"itemId": "sport-ice-hockey", "label": "Ice hockey"},
+    {"itemId": "sport-swimming", "label": "Swimming"},
+    {"itemId": "sport-water-polo", "label": "Water polo"},
+    {"itemId": "sport-basketball", "label": "Basketball"},
+    {"itemId": "sport-volleyball", "label": "Volleyball"},
+    {"itemId": "sport-handball", "label": "Handball"},
+    {"itemId": "sport-soccer", "label": "Soccer"},
+    {"itemId": "sport-baseball", "label": "Baseball"},
+    {"itemId": "sport-cricket", "label": "Cricket"},
+    {"itemId": "sport-rugby", "label": "Rugby"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Usual venue",
+    "groups": [
+      {"groupId": "g1", "label": "Ice", "capacity": 1, "itemIds": ["sport-ice-hockey"]},
+      {"groupId": "g2", "label": "Water", "capacity": 2, "itemIds": ["sport-swimming", "sport-water-polo"]},
+      {"groupId": "g3", "label": "Indoor court", "capacity": 3, "itemIds": ["sport-basketball", "sport-volleyball", "sport-handball"]},
+      {"groupId": "g4", "label": "Field", "capacity": 4, "itemIds": ["sport-soccer", "sport-baseball", "sport-cricket", "sport-rugby"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group is based on the usual venue: 1 ice sport, 2 water sports, 3 indoor court sports, and 4 field sports.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Sports", "url": "https://www.britannica.com/sports", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.38},
+  "status": "scheduled"
+}

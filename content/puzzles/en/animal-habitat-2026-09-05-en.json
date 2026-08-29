@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-habitat-2026-09-05-en",
+  "puzzleFamilyId": "animal-habitat-001",
+  "locale": "en",
+  "publishDate": "2026-09-05",
+  "timezone": "UTC",
+  "theme": "Animal Habitats",
+  "items": [
+    {"itemId": "habitat-camel", "label": "Camel"},
+    {"itemId": "habitat-polar-bear", "label": "Polar bear"},
+    {"itemId": "habitat-walrus", "label": "Walrus"},
+    {"itemId": "habitat-jaguar", "label": "Jaguar"},
+    {"itemId": "habitat-toucan", "label": "Toucan"},
+    {"itemId": "habitat-sloth", "label": "Sloth"},
+    {"itemId": "habitat-shark", "label": "Shark"},
+    {"itemId": "habitat-octopus", "label": "Octopus"},
+    {"itemId": "habitat-whale", "label": "Whale"},
+    {"itemId": "habitat-sea-turtle", "label": "Sea turtle"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Usual habitat",
+    "groups": [
+      {"groupId": "g1", "label": "Desert", "capacity": 1, "itemIds": ["habitat-camel"]},
+      {"groupId": "g2", "label": "Polar", "capacity": 2, "itemIds": ["habitat-polar-bear", "habitat-walrus"]},
+      {"groupId": "g3", "label": "Rainforest", "capacity": 3, "itemIds": ["habitat-jaguar", "habitat-toucan", "habitat-sloth"]},
+      {"groupId": "g4", "label": "Ocean", "capacity": 4, "itemIds": ["habitat-shark", "habitat-octopus", "habitat-whale", "habitat-sea-turtle"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group contains animals associated with the same habitat: 1 desert animal, 2 polar animals, 3 rainforest animals, and 4 ocean animals.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Animal", "url": "https://www.britannica.com/animal", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.31},
+  "status": "scheduled"
+}
