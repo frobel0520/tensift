@@ -12,6 +12,8 @@ export interface D1Database {
 export interface TensiftEnvironment {
   readonly DB?: D1Database;
   readonly RELEASE_ID?: string;
+  /** Public AdSense publisher ID used only for the root ads.txt response. */
+  readonly ADSENSE_PUBLISHER_ID?: string;
 }
 
 export interface PagesFunctionContext<Environment> {
