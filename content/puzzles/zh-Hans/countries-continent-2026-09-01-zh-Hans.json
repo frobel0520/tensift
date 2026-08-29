@@ -3,7 +3,7 @@
   "puzzleId": "countries-continent-2026-09-01-zh-hans",
   "puzzleFamilyId": "countries-continent-001",
   "locale": "zh-Hans",
-  "publishDate": "2026-09-01",
+  "publishDate": "2026-08-29",
   "timezone": "UTC",
   "theme": "国家",
   "items": [
@@ -39,5 +39,5 @@
     {"title": "联合国 M49 地理区域", "url": "https://unstats.un.org/unsd/methodology/m49/", "retrievedAt": "2026-08-29"}
   ],
   "difficulty": {"band": "easy", "score": 0.28},
-  "status": "draft"
+  "status": "published"
 }

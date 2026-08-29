@@ -3,7 +3,7 @@
   "puzzleId": "animals-class-2026-09-02-es-419",
   "puzzleFamilyId": "animals-class-001",
   "locale": "es-419",
-  "publishDate": "2026-09-02",
+  "publishDate": "2026-08-30",
   "timezone": "UTC",
   "theme": "Animales",
   "items": [
@@ -39,5 +39,5 @@
     {"title": "Encyclopaedia Britannica: Vertebrado", "url": "https://www.britannica.com/science/vertebrate", "retrievedAt": "2026-08-29"}
   ],
   "difficulty": {"band": "easy", "score": 0.32},
-  "status": "draft"
+  "status": "scheduled"
 }

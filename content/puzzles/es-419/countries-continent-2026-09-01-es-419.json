@@ -3,7 +3,7 @@
   "puzzleId": "countries-continent-2026-09-01-es-419",
   "puzzleFamilyId": "countries-continent-001",
   "locale": "es-419",
-  "publishDate": "2026-09-01",
+  "publishDate": "2026-08-29",
   "timezone": "UTC",
   "theme": "Países",
   "items": [
@@ -39,5 +39,5 @@
     {"title": "Regiones geográficas M49 de la ONU", "url": "https://unstats.un.org/unsd/methodology/m49/", "retrievedAt": "2026-08-29"}
   ],
   "difficulty": {"band": "easy", "score": 0.28},
-  "status": "draft"
+  "status": "published"
 }
