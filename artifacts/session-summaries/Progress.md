@@ -15,7 +15,7 @@ Prototype approved; SD implementation is complete; the first Cloudflare Pages de
 - Gameplay flow: unlimited checks, one-use hint, reveal modal, local session restore, keyboard/tap/drag interactions.
 - Nine seeded D1 records (three puzzle families × three locales).
 - Unit, contract, typecheck, build, bundle-leak scan, local Pages smoke tests.
-- Top-of-page Google AdSense integration scaffold: responsive slot, public-ID validation, dev placeholder, and CSP allowlist; ads remain disabled until the publisher account and slot IDs are configured.
+- Top-of-page Google AdSense integration scaffold: responsive slot, public-ID validation, dev placeholder, CSP allowlist, and a fail-closed `/ads.txt` Function; ads remain disabled until the publisher account and slot IDs are configured.
 - CI cross-platform fix: seed CLI test now uses the runner's native path format instead of a hard-coded Windows path.
 - Public GitHub repository: https://github.com/frobel0520/tensift
 - Cloudflare Pages production URL: https://tensift.pages.dev

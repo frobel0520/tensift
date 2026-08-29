@@ -63,7 +63,7 @@ The app includes one responsive, top-of-page ad slot. It stays hidden in product
 After Google approves the site and creates a display ad unit:
 
 1. Set `VITE_ADSENSE_CLIENT_ID` (the `ca-pub-...` publisher client ID) and `VITE_ADSENSE_TOP_SLOT` (the numeric ad slot ID) as Cloudflare Pages build environment variables for Preview and Production.
-2. Add the `ads.txt` line Google provides at the site root. Do not commit a placeholder publisher ID.
+2. Set the Cloudflare Pages Function variable `ADSENSE_PUBLISHER_ID` (the matching `pub-...` ID). The `/ads.txt` Function will then return Google's direct-seller line; without it, `/ads.txt` deliberately returns 404 instead of the SPA shell.
 3. Review the privacy/consent requirements for the countries you serve before enabling personalized advertising.
 4. Never click live ads or ask players to click them. Use the Google test workflow while validating the integration.
 
