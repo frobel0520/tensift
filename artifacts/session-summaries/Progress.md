@@ -4,7 +4,7 @@ Last updated: 2026-08-29 (Asia/Taipei)
 
 ## Current status
 
-Prototype approved; SD implementation is complete; the Cloudflare Pages production deployment is live. The project is in post-deploy validation and business-model discussion.
+Prototype approved; SD implementation is complete; the Cloudflare Pages production deployment is live with the first daily release active. The project is in post-deploy validation and business-model discussion.
 
 ## Completed
 
@@ -20,6 +20,8 @@ Prototype approved; SD implementation is complete; the Cloudflare Pages producti
 - CI is green after upgrading `actions/checkout` and `actions/setup-node` to their Node 24 runtime releases; the earlier Node 20 deprecation annotation is cleared.
 - Public GitHub repository: https://github.com/frobel0520/tensift
 - Cloudflare Pages production URL: https://tensift.pages.dev
+- Daily release window: Countries published for 2026-08-29; Animals scheduled for 2026-08-30; Musical Instruments scheduled for 2026-08-31, in `en`, `zh-Hans`, and `es-419`.
+- Latest direct Pages deployment alias: https://90c478fb.tensift.pages.dev
 - Initial deployment commit: `4b9155f`.
 
 ## Verified deployment
@@ -29,15 +31,18 @@ Prototype approved; SD implementation is complete; the Cloudflare Pages producti
 - `check`, `hint`, and `reveal` endpoints respond correctly in production.
 - `reveal` responses use `Cache-Control: no-store`.
 - `/ads.txt` returns the configured Google direct-seller line with HTTP 200.
+- `/robots.txt` allows crawlers with HTTP 200.
+- `/api/v1/puzzles/today` returns the published Countries puzzle with HTTP 200 for all three locales; the safe DTO does not expose `solution` or `hiddenDimension`.
+- The release commit `76f2bba` has a successful GitHub Actions CI run.
 
 ## Pending / decision needed
 
-- Seeded puzzles are still `draft`; the first `publishDate` is `2026-09-01`. Until a puzzle is published, `/api/v1/puzzles/today` correctly returns `PUZZLE_NOT_FOUND`.
+- The first daily release is live for 2026-08-29, with the next two daily records scheduled for 2026-08-30 and 2026-08-31. Maintain the UTC publishing job and verify each release before it becomes playable.
 - Business direction: keep the owned site as the canonical product; use LinkedIn posts and score sharing for discovery. Direct submission to LinkedIn Games Hub is not currently available.
 - Share cards are deferred for now.
 - Ad direction: the top-of-page banner slot and `ads.txt` are live. Remaining work is AdSense site/account approval, privacy/consent review, and monitoring the first live fill; future Direct Upload builds must inject the public Vite IDs locally.
 - Next feature under discussion: guest play plus authenticated cross-device streaks. Proposed sign-in options are Google OAuth and email + password; passwordless magic link remains a future option.
-- Build a reviewed content buffer (target: 30 puzzles) before committing to a daily publishing cadence.
+- Build a reviewed content buffer (target: 30 puzzles) to sustain the daily publishing cadence.
 - Optional: connect GitHub push events to Cloudflare Pages automatic builds; current deployment was performed directly with Wrangler.
 
 ## Known risks

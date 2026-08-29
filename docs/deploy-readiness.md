@@ -1,6 +1,6 @@
 # Tensift deploy-readiness checklist
 
-Status: deployed to production; release review and monetization approval remain
+Status: deployed to production; the first daily release is live, with monetization approval remaining
 Target: Cloudflare Pages project `tensift` → `https://tensift.pages.dev`
 
 ## Services and accounts
@@ -8,7 +8,7 @@ Target: Cloudflare Pages project `tensift` → `https://tensift.pages.dev`
 | Service | Required for v1 | Current state | What remains before deploy |
 |---|---:|---|---|
 | Cloudflare Pages | Yes | Project `tensift` deployed at `https://tensift.pages.dev` | Keep the Wrangler deploy path or create a new Git-integrated project if automatic Pages builds are later required |
-| Cloudflare D1 | Yes | Database `tensift` exists and is bound in `wrangler.toml` | Apply reviewed migrations and seed only the approved release records |
+| Cloudflare D1 | Yes | Database `tensift` exists, is bound in `wrangler.toml`, and contains the first three-day release window | Keep the daily publishing/review process and seed only approved release records |
 | GitHub | Recommended | Public repository and green Actions workflow are configured | Add branch protection when the release process is finalized |
 | Custom domain / registrar | No | Not needed | `tensift.pages.dev` avoids domain purchase and keeps Cloudflare out of the player-facing name |
 | Analytics | No for v1 | Not connected | Add only after a privacy decision and a consent/retention review |
@@ -51,9 +51,9 @@ Verify manually or with an HTTP client:
 
 ## Release gate for content
 
-The current remote catalog contains the first nine records as `draft` records, and their dates begin on 2026-09-01. As of 2026-08-29, the production `today` endpoint is therefore expected to return 404 until a release owner schedules or publishes an approved record.
+The current remote catalog contains the first three-day release window in all three locales: Countries is `published` for 2026-08-29, Animals is `scheduled` for 2026-08-30, and Musical Instruments is `scheduled` for 2026-08-31. The production `today` endpoint returns the Countries puzzle for the current UTC date.
 
-Before launch, for each locale:
+For each upcoming release, for each locale:
 
 1. Complete blind playtesting and source/rights review.
 2. Move exactly one puzzle per locale to `scheduled` or `published` for the intended UTC date.
