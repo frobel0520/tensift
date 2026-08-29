@@ -63,7 +63,7 @@ For each upcoming release, for each locale:
 
 Do not publish content by changing the client or by adding answer fixtures to the browser bundle.
 
-The second-batch content revision keeps the same release dates while replacing the Languages groups with Greek/East Asian/Indian/Latin script regions, and replacing the less familiar Breakfast and Wheeled Things options with more descriptive alternatives. Re-run blind playtesting for these three families before their scheduled dates.
+The second-batch content revision keeps the same release dates while replacing the Languages groups with Hellenic/Germanic/Indo-Aryan/Romance language families, and replacing Rice pudding, Tuk-tuk, and Pedicab with more direct alternatives. Re-run blind playtesting for these three families before their scheduled dates.
 
 ## Cloudflare Pages settings
 

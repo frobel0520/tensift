@@ -5,18 +5,18 @@
   "locale": "en",
   "publishDate": "2026-09-12",
   "timezone": "UTC",
-  "theme": "Languages",
+  "theme": "Language Families",
   "items": [
     {"itemId": "language-greek", "label": "Greek"},
-    {"itemId": "language-chinese", "label": "Chinese"},
-    {"itemId": "language-japanese", "label": "Japanese"},
+    {"itemId": "language-english", "label": "English"},
+    {"itemId": "language-german", "label": "German"},
     {"itemId": "language-hindi", "label": "Hindi"},
     {"itemId": "language-bengali", "label": "Bengali"},
-    {"itemId": "language-tamil", "label": "Tamil"},
-    {"itemId": "language-english", "label": "English"},
+    {"itemId": "language-punjabi", "label": "Punjabi"},
     {"itemId": "language-spanish", "label": "Spanish"},
     {"itemId": "language-french", "label": "French"},
-    {"itemId": "language-german", "label": "German"}
+    {"itemId": "language-italian", "label": "Italian"},
+    {"itemId": "language-portuguese", "label": "Portuguese"}
   ],
   "rows": [
     {"rowId": "row-1", "capacity": 1},
@@ -25,18 +25,18 @@
     {"rowId": "row-4", "capacity": 4}
   ],
   "solution": {
-    "hiddenDimension": "Writing-system region",
+    "hiddenDimension": "Language family",
     "groups": [
-      {"groupId": "g1", "label": "Greek script", "capacity": 1, "itemIds": ["language-greek"]},
-      {"groupId": "g2", "label": "East Asian scripts", "capacity": 2, "itemIds": ["language-chinese", "language-japanese"]},
-      {"groupId": "g3", "label": "Indian scripts", "capacity": 3, "itemIds": ["language-hindi", "language-bengali", "language-tamil"]},
-      {"groupId": "g4", "label": "Latin", "capacity": 4, "itemIds": ["language-english", "language-spanish", "language-french", "language-german"]}
+      {"groupId": "g1", "label": "Hellenic", "capacity": 1, "itemIds": ["language-greek"]},
+      {"groupId": "g2", "label": "Germanic", "capacity": 2, "itemIds": ["language-english", "language-german"]},
+      {"groupId": "g3", "label": "Indo-Aryan", "capacity": 3, "itemIds": ["language-hindi", "language-bengali", "language-punjabi"]},
+      {"groupId": "g4", "label": "Romance", "capacity": 4, "itemIds": ["language-spanish", "language-french", "language-italian", "language-portuguese"]}
     ]
   },
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
-  "explanation": "Each group uses a related writing-system region or family: 1 Greek-script language, 2 East Asian script languages, 3 Indian script languages, and 4 Latin-script languages.",
+  "explanation": "Each group belongs to the same language-family branch: 1 Hellenic language, 2 Germanic languages, 3 Indo-Aryan languages, and 4 Romance languages.",
   "sources": [
-    {"title": "Encyclopaedia Britannica: Writing", "url": "https://www.britannica.com/topic/writing", "retrievedAt": "2026-08-29"}
+    {"title": "Encyclopaedia Britannica: Language", "url": "https://www.britannica.com/topic/language", "retrievedAt": "2026-08-29"}
   ],
   "difficulty": {"band": "medium", "score": 0.46},
   "status": "scheduled"
