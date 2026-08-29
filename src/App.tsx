@@ -28,12 +28,19 @@ import {
 } from './domain/game/state';
 import { loadSession, saveSession } from './domain/game/session';
 import { getMessages, type UiMessages } from './i18n/messages';
+import {
+  isThemeMode,
+  persistTheme,
+  readStoredTheme,
+  type ThemeMode,
+} from './ui/preferences';
 
 const LOCALE_STORAGE_KEY = 'tensift:locale';
 type BusyAction = 'loading' | 'checking' | 'hint' | 'reveal' | null;
 
 export function App() {
   const [locale, setLocale] = useState<Locale>(() => getInitialLocale());
+  const [theme, setTheme] = useState<ThemeMode>(() => readStoredTheme(getLocalStorage()));
   const [reloadToken, setReloadToken] = useState(0);
   const [busyAction, setBusyAction] = useState<BusyAction>('loading');
   const [state, dispatch] = useReducer(gameReducer, undefined, createInitialGameState);
@@ -47,6 +54,11 @@ export function App() {
     persistLocale(locale);
     document.documentElement.lang = locale;
   }, [locale]);
+
+  useEffect(() => {
+    persistTheme(getLocalStorage(), theme);
+    document.documentElement.dataset.theme = theme;
+  }, [theme]);
 
   useEffect(() => {
     let cancelled = false;
@@ -224,22 +236,41 @@ export function App() {
           <h1>Tensift</h1>
           <p className="tagline">{copy.tagline}</p>
         </div>
-        <label className="language-control">
-          <span>{copy.language}</span>
-          <select
-            value={locale}
-            onChange={(event) => {
-              const nextLocale = event.target.value;
-              if (isLocale(nextLocale)) {
-                setLocale(nextLocale);
-              }
-            }}
-          >
-            <option value="en">English</option>
-            <option value="zh-Hans">简体中文</option>
-            <option value="es-419">Español</option>
-          </select>
-        </label>
+        <div className="header-controls">
+          <label className="language-control">
+            <span>{copy.language}</span>
+            <select
+              value={locale}
+              onChange={(event) => {
+                const nextLocale = event.target.value;
+                if (isLocale(nextLocale)) {
+                  setLocale(nextLocale);
+                }
+              }}
+            >
+              <option value="en">English</option>
+              <option value="zh-Hans">简体中文</option>
+              <option value="es-419">Español</option>
+            </select>
+          </label>
+          <label className="theme-control">
+            <span>{copy.theme}</span>
+            <select
+              value={theme}
+              aria-label={copy.theme}
+              onChange={(event) => {
+                const nextTheme = event.target.value;
+                if (isThemeMode(nextTheme)) {
+                  setTheme(nextTheme);
+                }
+              }}
+            >
+              <option value="paper">{copy.themeOriginal}</option>
+              <option value="light">{copy.themeLight}</option>
+              <option value="dark">{copy.themeDark}</option>
+            </select>
+          </label>
+        </div>
       </header>
 
       {showLoading && (
@@ -693,13 +724,6 @@ function getInitialLocale(): Locale {
     // Storage is optional; browser language is a safe fallback.
   }
 
-  const browserLanguage = typeof navigator === 'undefined' ? 'en' : navigator.language.toLowerCase();
-  if (browserLanguage.startsWith('zh')) {
-    return 'zh-Hans';
-  }
-  if (browserLanguage.startsWith('es')) {
-    return 'es-419';
-  }
   return 'en';
 }
 
