@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "material-origin-2026-09-15-en",
+  "puzzleFamilyId": "material-origin-001",
+  "locale": "en",
+  "publishDate": "2026-09-15",
+  "timezone": "UTC",
+  "theme": "Materials",
+  "items": [
+    {"itemId": "material-cotton", "label": "Cotton"},
+    {"itemId": "material-wool", "label": "Wool"},
+    {"itemId": "material-silk", "label": "Silk"},
+    {"itemId": "material-gold", "label": "Gold"},
+    {"itemId": "material-copper", "label": "Copper"},
+    {"itemId": "material-iron", "label": "Iron"},
+    {"itemId": "material-plastic", "label": "Plastic"},
+    {"itemId": "material-nylon", "label": "Nylon"},
+    {"itemId": "material-polyester", "label": "Polyester"},
+    {"itemId": "material-acrylic", "label": "Acrylic"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Source material",
+    "groups": [
+      {"groupId": "g1", "label": "Plant-based", "capacity": 1, "itemIds": ["material-cotton"]},
+      {"groupId": "g2", "label": "Animal-based", "capacity": 2, "itemIds": ["material-wool", "material-silk"]},
+      {"groupId": "g3", "label": "Mineral", "capacity": 3, "itemIds": ["material-gold", "material-copper", "material-iron"]},
+      {"groupId": "g4", "label": "Synthetic", "capacity": 4, "itemIds": ["material-plastic", "material-nylon", "material-polyester", "material-acrylic"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group shares a broad source: 1 plant-based material, 2 animal-based materials, 3 minerals, and 4 synthetic materials.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Material", "url": "https://www.britannica.com/technology/material", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.40},
+  "status": "scheduled"
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tools-purpose-2026-09-14-zh-hans",
+  "puzzleFamilyId": "tools-purpose-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-14",
+  "timezone": "UTC",
+  "theme": "日常工具",
+  "items": [
+    {"itemId": "tool-scissors", "label": "剪刀"},
+    {"itemId": "tool-hammer", "label": "锤子"},
+    {"itemId": "tool-screwdriver", "label": "螺丝刀"},
+    {"itemId": "tool-ruler", "label": "直尺"},
+    {"itemId": "tool-tape-measure", "label": "卷尺"},
+    {"itemId": "tool-thermometer", "label": "温度计"},
+    {"itemId": "tool-pencil", "label": "铅笔"},
+    {"itemId": "tool-pen", "label": "钢笔"},
+    {"itemId": "tool-marker", "label": "记号笔"},
+    {"itemId": "tool-crayon", "label": "蜡笔"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "通常用途",
+    "groups": [
+      {"groupId": "g1", "label": "切割", "capacity": 1, "itemIds": ["tool-scissors"]},
+      {"groupId": "g2", "label": "固定", "capacity": 2, "itemIds": ["tool-hammer", "tool-screwdriver"]},
+      {"groupId": "g3", "label": "测量", "capacity": 3, "itemIds": ["tool-ruler", "tool-tape-measure", "tool-thermometer"]},
+      {"groupId": "g4", "label": "书写和绘画", "capacity": 4, "itemIds": ["tool-pencil", "tool-pen", "tool-marker", "tool-crayon"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组共享一种通常用途：1 种切割工具、2 种固定工具、3 种测量工具和 4 种书写或绘画工具。",
+  "sources": [
+    {"title": "大英百科全书：工具", "url": "https://www.britannica.com/technology/tool", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.28},
+  "status": "scheduled"
+}

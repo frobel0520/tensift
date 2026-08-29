@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fruits-color-2026-09-08-es-419",
+  "puzzleFamilyId": "fruit-color-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-08",
+  "timezone": "UTC",
+  "theme": "Frutas",
+  "items": [
+    {"itemId": "fruit-strawberry", "label": "Fresa"},
+    {"itemId": "fruit-banana", "label": "Plátano"},
+    {"itemId": "fruit-lemon", "label": "Limón"},
+    {"itemId": "fruit-orange", "label": "Naranja"},
+    {"itemId": "fruit-peach", "label": "Durazno"},
+    {"itemId": "fruit-papaya", "label": "Papaya"},
+    {"itemId": "fruit-kiwi", "label": "Kiwi"},
+    {"itemId": "fruit-lime", "label": "Lima"},
+    {"itemId": "fruit-avocado", "label": "Aguacate"},
+    {"itemId": "fruit-pear", "label": "Pera"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "color habitual",
+    "groups": [
+      {"groupId": "g1", "label": "Rojo", "capacity": 1, "itemIds": ["fruit-strawberry"]},
+      {"groupId": "g2", "label": "Amarillo", "capacity": 2, "itemIds": ["fruit-banana", "fruit-lemon"]},
+      {"groupId": "g3", "label": "Naranja", "capacity": 3, "itemIds": ["fruit-orange", "fruit-peach", "fruit-papaya"]},
+      {"groupId": "g4", "label": "Verde", "capacity": 4, "itemIds": ["fruit-kiwi", "fruit-lime", "fruit-avocado", "fruit-pear"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo contiene frutas comúnmente asociadas con el mismo color: 1 fruta roja, 2 amarillas, 3 naranjas y 4 verdes.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Fruit", "url": "https://www.britannica.com/science/fruit", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.26},
+  "status": "scheduled"
+}

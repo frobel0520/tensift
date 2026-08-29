@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "body-region-2026-09-09-en",
+  "puzzleFamilyId": "body-region-001",
+  "locale": "en",
+  "publishDate": "2026-09-09",
+  "timezone": "UTC",
+  "theme": "The Human Body",
+  "items": [
+    {"itemId": "body-brain", "label": "Brain"},
+    {"itemId": "body-heart", "label": "Heart"},
+    {"itemId": "body-lungs", "label": "Lungs"},
+    {"itemId": "body-stomach", "label": "Stomach"},
+    {"itemId": "body-liver", "label": "Liver"},
+    {"itemId": "body-kidneys", "label": "Kidneys"},
+    {"itemId": "body-arm", "label": "Arm"},
+    {"itemId": "body-leg", "label": "Leg"},
+    {"itemId": "body-hand", "label": "Hand"},
+    {"itemId": "body-foot", "label": "Foot"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Body region",
+    "groups": [
+      {"groupId": "g1", "label": "Head", "capacity": 1, "itemIds": ["body-brain"]},
+      {"groupId": "g2", "label": "Chest", "capacity": 2, "itemIds": ["body-heart", "body-lungs"]},
+      {"groupId": "g3", "label": "Abdomen", "capacity": 3, "itemIds": ["body-stomach", "body-liver", "body-kidneys"]},
+      {"groupId": "g4", "label": "Limbs", "capacity": 4, "itemIds": ["body-arm", "body-leg", "body-hand", "body-foot"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group contains body parts from the same broad region: 1 head organ, 2 chest organs, 3 abdominal organs, and 4 limbs.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Human body", "url": "https://www.britannica.com/science/human-body", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.32},
+  "status": "scheduled"
+}

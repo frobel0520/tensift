@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "breakfast-grain-2026-09-13-zh-hans",
+  "puzzleFamilyId": "breakfast-grain-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-13",
+  "timezone": "UTC",
+  "theme": "早餐",
+  "items": [
+    {"itemId": "breakfast-cornflakes", "label": "玉米片"},
+    {"itemId": "breakfast-oatmeal", "label": "燕麦粥"},
+    {"itemId": "breakfast-granola", "label": "格兰诺拉麦片"},
+    {"itemId": "breakfast-toast", "label": "吐司"},
+    {"itemId": "breakfast-pancakes", "label": "煎饼"},
+    {"itemId": "breakfast-waffles", "label": "华夫饼"},
+    {"itemId": "breakfast-congee", "label": "粥"},
+    {"itemId": "breakfast-rice-cakes", "label": "米饼"},
+    {"itemId": "breakfast-mochi", "label": "麻糬"},
+    {"itemId": "breakfast-onigiri", "label": "饭团"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "主要谷物",
+    "groups": [
+      {"groupId": "g1", "label": "玉米", "capacity": 1, "itemIds": ["breakfast-cornflakes"]},
+      {"groupId": "g2", "label": "燕麦", "capacity": 2, "itemIds": ["breakfast-oatmeal", "breakfast-granola"]},
+      {"groupId": "g3", "label": "小麦", "capacity": 3, "itemIds": ["breakfast-toast", "breakfast-pancakes", "breakfast-waffles"]},
+      {"groupId": "g4", "label": "大米", "capacity": 4, "itemIds": ["breakfast-congee", "breakfast-rice-cakes", "breakfast-mochi", "breakfast-onigiri"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组共享一种常见早餐或早间食品的主要谷物：1 种玉米食品、2 种燕麦食品、3 种小麦食品和 4 种米制食品。",
+  "sources": [
+    {"title": "大英百科全书：早餐", "url": "https://www.britannica.com/topic/breakfast", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.34},
+  "status": "scheduled"
+}

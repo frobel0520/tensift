@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vegetable-part-2026-09-10-en",
+  "puzzleFamilyId": "vegetable-part-001",
+  "locale": "en",
+  "publishDate": "2026-09-10",
+  "timezone": "UTC",
+  "theme": "Vegetables",
+  "items": [
+    {"itemId": "vegetable-carrot", "label": "Carrot"},
+    {"itemId": "vegetable-lettuce", "label": "Lettuce"},
+    {"itemId": "vegetable-spinach", "label": "Spinach"},
+    {"itemId": "vegetable-broccoli", "label": "Broccoli"},
+    {"itemId": "vegetable-cauliflower", "label": "Cauliflower"},
+    {"itemId": "vegetable-artichoke", "label": "Artichoke"},
+    {"itemId": "vegetable-tomato", "label": "Tomato"},
+    {"itemId": "vegetable-cucumber", "label": "Cucumber"},
+    {"itemId": "vegetable-bell-pepper", "label": "Bell pepper"},
+    {"itemId": "vegetable-eggplant", "label": "Eggplant"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Edible plant part",
+    "groups": [
+      {"groupId": "g1", "label": "Roots", "capacity": 1, "itemIds": ["vegetable-carrot"]},
+      {"groupId": "g2", "label": "Leaves", "capacity": 2, "itemIds": ["vegetable-lettuce", "vegetable-spinach"]},
+      {"groupId": "g3", "label": "Flowers", "capacity": 3, "itemIds": ["vegetable-broccoli", "vegetable-cauliflower", "vegetable-artichoke"]},
+      {"groupId": "g4", "label": "Fruits", "capacity": 4, "itemIds": ["vegetable-tomato", "vegetable-cucumber", "vegetable-bell-pepper", "vegetable-eggplant"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group is based on the edible plant part: 1 root, 2 leaves, 3 flowers, and 4 botanical fruits commonly used as vegetables.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Vegetable", "url": "https://www.britannica.com/topic/vegetable", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.42},
+  "status": "scheduled"
+}

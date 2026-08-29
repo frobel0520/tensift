@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "language-script-2026-09-12-zh-hans",
+  "puzzleFamilyId": "language-script-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-12",
+  "timezone": "UTC",
+  "theme": "语言",
+  "items": [
+    {"itemId": "language-greek", "label": "希腊语"},
+    {"itemId": "language-russian", "label": "俄语"},
+    {"itemId": "language-ukrainian", "label": "乌克兰语"},
+    {"itemId": "language-arabic", "label": "阿拉伯语"},
+    {"itemId": "language-persian", "label": "波斯语"},
+    {"itemId": "language-urdu", "label": "乌尔都语"},
+    {"itemId": "language-english", "label": "英语"},
+    {"itemId": "language-spanish", "label": "西班牙语"},
+    {"itemId": "language-french", "label": "法语"},
+    {"itemId": "language-german", "label": "德语"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "文字系统",
+    "groups": [
+      {"groupId": "g1", "label": "希腊字母", "capacity": 1, "itemIds": ["language-greek"]},
+      {"groupId": "g2", "label": "西里尔字母", "capacity": 2, "itemIds": ["language-russian", "language-ukrainian"]},
+      {"groupId": "g3", "label": "阿拉伯字母", "capacity": 3, "itemIds": ["language-arabic", "language-persian", "language-urdu"]},
+      {"groupId": "g4", "label": "拉丁字母", "capacity": 4, "itemIds": ["language-english", "language-spanish", "language-french", "language-german"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组使用同一种文字系统：1 种希腊字母语言、2 种西里尔字母语言、3 种阿拉伯字母语言和 4 种拉丁字母语言。",
+  "sources": [
+    {"title": "大英百科全书：文字", "url": "https://www.britannica.com/topic/writing", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.46},
+  "status": "scheduled"
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "wheels-count-2026-09-16-en",
+  "puzzleFamilyId": "wheels-count-001",
+  "locale": "en",
+  "publishDate": "2026-09-16",
+  "timezone": "UTC",
+  "theme": "Wheeled Things",
+  "items": [
+    {"itemId": "wheel-unicycle", "label": "Unicycle"},
+    {"itemId": "wheel-bicycle", "label": "Bicycle"},
+    {"itemId": "wheel-motorcycle", "label": "Motorcycle"},
+    {"itemId": "wheel-tricycle", "label": "Tricycle"},
+    {"itemId": "wheel-tuk-tuk", "label": "Tuk-tuk"},
+    {"itemId": "wheel-pedicab", "label": "Pedicab"},
+    {"itemId": "wheel-car", "label": "Car"},
+    {"itemId": "wheel-bus", "label": "Bus"},
+    {"itemId": "wheel-wagon", "label": "Wagon"},
+    {"itemId": "wheel-skateboard", "label": "Skateboard"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Number of wheels",
+    "groups": [
+      {"groupId": "g1", "label": "One wheel", "capacity": 1, "itemIds": ["wheel-unicycle"]},
+      {"groupId": "g2", "label": "Two wheels", "capacity": 2, "itemIds": ["wheel-bicycle", "wheel-motorcycle"]},
+      {"groupId": "g3", "label": "Three wheels", "capacity": 3, "itemIds": ["wheel-tricycle", "wheel-tuk-tuk", "wheel-pedicab"]},
+      {"groupId": "g4", "label": "Four wheels", "capacity": 4, "itemIds": ["wheel-car", "wheel-bus", "wheel-wagon", "wheel-skateboard"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group contains things with the same number of wheels: 1, 2, 3, or 4.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Wheel", "url": "https://www.britannica.com/technology/wheel", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.43},
+  "status": "scheduled"
+}
