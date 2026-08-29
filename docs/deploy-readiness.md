@@ -1,6 +1,6 @@
 # Tensift deploy-readiness checklist
 
-Status: deployed to production; release review and monetization approval remain  
+Status: deployed to production; release review and monetization approval remain
 Target: Cloudflare Pages project `tensift` → `https://tensift.pages.dev`
 
 ## Services and accounts
