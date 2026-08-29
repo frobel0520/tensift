@@ -32,6 +32,7 @@ Prototype approved; SD implementation is complete; the first Cloudflare Pages de
 - Business direction: keep the owned site as the canonical product; use LinkedIn posts and score sharing for discovery. Direct submission to LinkedIn Games Hub is not currently available.
 - Share cards are deferred for now.
 - Ad direction: reserve a top-of-page banner slot, visually separated from the game board; do not load AdSense until the publisher account, consent flow and CSP allowlist are ready.
+- Next feature under discussion: guest play plus authenticated cross-device streaks. Proposed providers are Google OAuth and passwordless email magic links; email/password choice is not yet approved.
 - Build a reviewed content buffer (target: 30 puzzles) before committing to a daily publishing cadence.
 - Optional: connect GitHub push events to Cloudflare Pages automatic builds; current deployment was performed directly with Wrangler.
 
