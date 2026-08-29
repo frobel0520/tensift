@@ -1,0 +1,39 @@
+# Tensift Progress
+
+Last updated: 2026-08-29 (Asia/Taipei)
+
+## Current status
+
+Prototype approved; SD implementation is complete; the first Cloudflare Pages deployment is live. The project is in post-deploy validation and business-model discussion.
+
+## Completed
+
+- React + TypeScript + Vite + Cloudflare Pages Functions skeleton.
+- Puzzle domain engine, validator fixtures, API contracts, D1 repository and migrations.
+- Three locales: `en`, `zh-Hans`, and `es-419`.
+- Gameplay flow: unlimited checks, one-use hint, reveal modal, local session restore, keyboard/tap/drag interactions.
+- Nine seeded D1 records (three puzzle families × three locales).
+- Unit, contract, typecheck, build, bundle-leak scan, local Pages smoke tests.
+- Public GitHub repository: https://github.com/frobel0520/tensift
+- Cloudflare Pages production URL: https://tensift.pages.dev
+- Initial deployment commit: `4b9155f`.
+
+## Verified deployment
+
+- `/` returns HTTP 200 with security headers.
+- `/api/health` returns HTTP 200 and reports D1 catalog version `d1`.
+- `check`, `hint`, and `reveal` endpoints respond correctly in production.
+- `reveal` responses use `Cache-Control: no-store`.
+
+## Pending / decision needed
+
+- Seeded puzzles are still `draft`; the first `publishDate` is `2026-09-01`. Until a puzzle is published, `/api/v1/puzzles/today` correctly returns `PUZZLE_NOT_FOUND`.
+- Decide distribution and monetization direction: LinkedIn discovery/embedding versus the owned site as the canonical product.
+- Build a reviewed content buffer (target: 30 puzzles) before committing to a daily publishing cadence.
+- Optional: connect GitHub push events to Cloudflare Pages automatic builds; current deployment was performed directly with Wrangler.
+
+## Known risks
+
+- No account or server-side session; local streaks are not competitive-grade records.
+- Content ambiguity and second-solution risk remain the largest product risks.
+- Ads, analytics, privacy/consent, and release-content operations are not yet implemented.
