@@ -141,6 +141,48 @@ button {
   padding: clamp(28px, 6vw, 72px) 0 64px;
 }
 
+.ad-slot {
+  width: min(100%, 970px);
+  min-height: 90px;
+  margin: 0 auto clamp(44px, 6vw, 64px);
+  text-align: center;
+}
+
+.ad-slot-label {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-size: 0.58rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.ad-slot-unit {
+  display: block;
+  width: 100%;
+  min-height: 90px;
+}
+
+.ad-slot--placeholder {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  padding: 18px 24px;
+  border: 1px dashed var(--line);
+  border-radius: 14px;
+  background: var(--panel-surface);
+}
+
+.ad-slot--placeholder .ad-slot-label {
+  margin-bottom: 4px;
+}
+
+.ad-slot-placeholder {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
 .masthead {
   display: flex;
   align-items: flex-end;

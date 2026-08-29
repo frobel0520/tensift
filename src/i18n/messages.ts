@@ -8,6 +8,8 @@ export interface UiMessages {
   readonly themeOriginal: string;
   readonly themeLight: string;
   readonly themeDark: string;
+  readonly advertisement: string;
+  readonly adPlaceholder: string;
   readonly topicLabel: string;
   readonly attempts: string;
   readonly instruction: string;
@@ -71,6 +73,8 @@ const messages: Record<Locale, UiMessages> = {
     themeOriginal: 'Original',
     themeLight: 'Light',
     themeDark: 'Dark',
+    advertisement: 'Advertisement',
+    adPlaceholder: 'Ad space will appear after publisher setup.',
     topicLabel: 'Today’s puzzle',
     attempts: 'Attempts',
     instruction: 'Sort every card into the four rows. The row sizes are your only clue to the hidden rule.',
@@ -132,6 +136,8 @@ const messages: Record<Locale, UiMessages> = {
     themeOriginal: '原始',
     themeLight: '浅色',
     themeDark: '深色',
+    advertisement: '广告',
+    adPlaceholder: '完成发布者设置后，这里会显示广告。',
     topicLabel: '今日谜题',
     attempts: '尝试次数',
     instruction: '把每张卡片放进四行。行的格数，是你唯一能看见的线索。',
@@ -193,6 +199,8 @@ const messages: Record<Locale, UiMessages> = {
     themeOriginal: 'Original',
     themeLight: 'Claro',
     themeDark: 'Oscuro',
+    advertisement: 'Publicidad',
+    adPlaceholder: 'El espacio publicitario aparecerá después de configurar el editor.',
     topicLabel: 'Rompecabezas de hoy',
     attempts: 'Intentos',
     instruction: 'Ordena cada tarjeta en una de las cuatro filas. El tamaño de cada fila es tu única pista.',

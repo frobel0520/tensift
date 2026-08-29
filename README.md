@@ -56,6 +56,19 @@ The Vite/React app lives in `app/` and imports typed contracts from `shared/`. P
 
 The Cloudflare Pages Function entry points are under `functions/`; D1 migrations are under `migrations/`. The `DB` binding in `wrangler.toml` points to the configured `tensift` database. The first content batch contains three draft puzzle families (Countries, Animals, Musical instruments) in all three locales; they still need blind playtesting before release.
 
+## Optional Google AdSense
+
+The app includes one responsive, top-of-page ad slot. It stays hidden in production until both public AdSense identifiers are configured, so local development and CI never make ad requests by accident.
+
+After Google approves the site and creates a display ad unit:
+
+1. Set `VITE_ADSENSE_CLIENT_ID` (the `ca-pub-...` publisher client ID) and `VITE_ADSENSE_TOP_SLOT` (the numeric ad slot ID) as Cloudflare Pages build environment variables for Preview and Production.
+2. Add the `ads.txt` line Google provides at the site root. Do not commit a placeholder publisher ID.
+3. Review the privacy/consent requirements for the countries you serve before enabling personalized advertising.
+4. Never click live ads or ask players to click them. Use the Google test workflow while validating the integration.
+
+The public identifiers are safe to embed in the browser bundle; never put API tokens or Cloudflare credentials in a `VITE_*` variable. The ad code follows Google's asynchronous responsive unit format and keeps the slot separated from the game controls.
+
 ### D1 migration and puzzle seed
 
 The checked-in `wrangler.toml` contains the `DB` binding for the configured `tensift` database. Use an environment-specific Wrangler config when targeting another database.

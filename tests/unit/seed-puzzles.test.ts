@@ -1,3 +1,4 @@
+import { resolve } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import countriesPuzzle from '../../content/puzzles/en/countries-continent-2026-09-01-en.json';
 import instrumentsPuzzle from '../../content/puzzles/en/instruments-family-2026-09-03-en.json';
@@ -53,10 +54,11 @@ describe('D1 puzzle seed generator', () => {
     expect(countryPosition).toBeGreaterThan(-1);
     expect(instrumentsPosition).toBeGreaterThan(countryPosition);
 
-    const options = parseSeedArgs(['--database', 'preview', '--local'], 'C:\\project');
+    const rootDirectory = resolve('project-root');
+    const options = parseSeedArgs(['--database', 'preview', '--local'], rootDirectory);
     expect(options.executionMode).toBe('local');
     expect(options.databaseName).toBe('preview');
-    expect(options.outputPath).toBe('C:\\project\\.wrangler\\tensift-seed.sql');
+    expect(options.outputPath).toBe(resolve(rootDirectory, '.wrangler', 'tensift-seed.sql'));
     expect(() => parseSeedArgs(['--remote'])).toThrow('--remote requires --database <name>.');
     expect(() => parseSeedArgs(['--local', '--remote'])).toThrow('Choose only one seed execution mode');
   });

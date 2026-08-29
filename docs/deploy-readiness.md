@@ -13,6 +13,7 @@ Target: Cloudflare Pages project `tensift` → `https://tensift.pages.dev`
 | Custom domain / registrar | No | Not needed | `tensift.pages.dev` avoids domain purchase and keeps Cloudflare out of the player-facing name |
 | Analytics | No for v1 | Not connected | Add only after a privacy decision and a consent/retention review |
 | Error monitoring | No for v1 | Not connected | Optional follow-up; do not add a client secret to the bundle |
+| Google AdSense | Optional revenue | Top responsive slot implemented; account and IDs not configured | Obtain AdSense approval, create a display unit, set `VITE_ADSENSE_CLIENT_ID` / `VITE_ADSENSE_TOP_SLOT`, publish `ads.txt`, and review privacy/consent |
 
 No paid custom domain is required for the chosen URL. Cloudflare Pages and D1 are still the hosting/data services behind it; their free-plan limits and current pricing should be checked in the Cloudflare dashboard before launch.
 
