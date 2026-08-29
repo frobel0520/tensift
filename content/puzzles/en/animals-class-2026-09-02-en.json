@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animals-class-2026-09-02-en",
+  "puzzleFamilyId": "animals-class-001",
+  "locale": "en",
+  "publishDate": "2026-09-02",
+  "timezone": "UTC",
+  "theme": "Animals",
+  "items": [
+    {"itemId": "animal-frog", "label": "Frog"},
+    {"itemId": "animal-crocodile", "label": "Crocodile"},
+    {"itemId": "animal-turtle", "label": "Turtle"},
+    {"itemId": "animal-eagle", "label": "Eagle"},
+    {"itemId": "animal-penguin", "label": "Penguin"},
+    {"itemId": "animal-parrot", "label": "Parrot"},
+    {"itemId": "animal-dog", "label": "Dog"},
+    {"itemId": "animal-elephant", "label": "Elephant"},
+    {"itemId": "animal-dolphin", "label": "Dolphin"},
+    {"itemId": "animal-tiger", "label": "Tiger"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Vertebrate class",
+    "groups": [
+      {"groupId": "g1", "label": "Amphibians", "capacity": 1, "itemIds": ["animal-frog"]},
+      {"groupId": "g2", "label": "Reptiles", "capacity": 2, "itemIds": ["animal-crocodile", "animal-turtle"]},
+      {"groupId": "g3", "label": "Birds", "capacity": 3, "itemIds": ["animal-eagle", "animal-penguin", "animal-parrot"]},
+      {"groupId": "g4", "label": "Mammals", "capacity": 4, "itemIds": ["animal-dog", "animal-elephant", "animal-dolphin", "animal-tiger"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group is a vertebrate class: 1 amphibian, 2 reptiles, 3 birds, and 4 mammals.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Vertebrate", "url": "https://www.britannica.com/science/vertebrate", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.32},
+  "status": "draft"
+}

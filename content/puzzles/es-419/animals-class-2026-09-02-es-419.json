@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animals-class-2026-09-02-es-419",
+  "puzzleFamilyId": "animals-class-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-02",
+  "timezone": "UTC",
+  "theme": "Animales",
+  "items": [
+    {"itemId": "animal-frog", "label": "Rana"},
+    {"itemId": "animal-crocodile", "label": "Cocodrilo"},
+    {"itemId": "animal-turtle", "label": "Tortuga"},
+    {"itemId": "animal-eagle", "label": "Águila"},
+    {"itemId": "animal-penguin", "label": "Pingüino"},
+    {"itemId": "animal-parrot", "label": "Loro"},
+    {"itemId": "animal-dog", "label": "Perro"},
+    {"itemId": "animal-elephant", "label": "Elefante"},
+    {"itemId": "animal-dolphin", "label": "Delfín"},
+    {"itemId": "animal-tiger", "label": "Tigre"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Clase de vertebrado",
+    "groups": [
+      {"groupId": "g1", "label": "Anfibios", "capacity": 1, "itemIds": ["animal-frog"]},
+      {"groupId": "g2", "label": "Reptiles", "capacity": 2, "itemIds": ["animal-crocodile", "animal-turtle"]},
+      {"groupId": "g3", "label": "Aves", "capacity": 3, "itemIds": ["animal-eagle", "animal-penguin", "animal-parrot"]},
+      {"groupId": "g4", "label": "Mamíferos", "capacity": 4, "itemIds": ["animal-dog", "animal-elephant", "animal-dolphin", "animal-tiger"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo se define por una clase de vertebrado: 1 anfibio, 2 reptiles, 3 aves y 4 mamíferos.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Vertebrado", "url": "https://www.britannica.com/science/vertebrate", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.32},
+  "status": "draft"
+}

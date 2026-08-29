@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tensift.example/schemas/puzzle.schema.json",
+  "title": "Tensift locale puzzle authoring record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "puzzleId",
+    "puzzleFamilyId",
+    "locale",
+    "publishDate",
+    "timezone",
+    "theme",
+    "items",
+    "rows",
+    "solution",
+    "hint",
+    "explanation",
+    "sources",
+    "difficulty",
+    "status"
+  ],
+  "properties": {
+    "schemaVersion": {"type": "integer", "const": 1},
+    "puzzleId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]{2,63}$"},
+    "puzzleFamilyId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]{2,63}$"},
+    "locale": {"type": "string", "enum": ["en", "zh-Hans", "es-419"]},
+    "publishDate": {"type": "string", "format": "date"},
+    "timezone": {"type": "string", "const": "UTC"},
+    "theme": {"type": "string", "minLength": 1, "maxLength": 80},
+    "items": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {"$ref": "#/$defs/item"}
+    },
+    "rows": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {"$ref": "#/$defs/row"}
+    },
+    "solution": {"$ref": "#/$defs/solution"},
+    "hint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["maxUses", "policy"],
+      "properties": {
+        "maxUses": {"type": "integer", "const": 1},
+        "policy": {"type": "string", "const": "random-unlocked-correct-row"}
+      }
+    },
+    "explanation": {"type": "string", "minLength": 1, "maxLength": 1200},
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/source"}
+    },
+    "difficulty": {"$ref": "#/$defs/difficulty"},
+    "status": {"type": "string", "enum": ["draft", "reviewed", "scheduled", "published", "retired"]}
+  },
+  "allOf": [
+    {
+      "properties": {
+        "rows": {
+          "allOf": [
+            {"contains": {"properties": {"capacity": {"const": 1}}, "required": ["capacity"]}},
+            {"contains": {"properties": {"capacity": {"const": 2}}, "required": ["capacity"]}},
+            {"contains": {"properties": {"capacity": {"const": 3}}, "required": ["capacity"]}},
+            {"contains": {"properties": {"capacity": {"const": 4}}, "required": ["capacity"]}}
+          ]
+        }
+      }
+    },
+    {
+      "if": {"properties": {"status": {"enum": ["scheduled", "published"]}}, "required": ["status"]},
+      "then": {"properties": {"publishDate": {"format": "date"}}}
+    }
+  ],
+  "$defs": {
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["itemId", "label"],
+      "properties": {
+        "itemId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]{2,63}$"},
+        "label": {"type": "string", "minLength": 1, "maxLength": 80},
+        "visual": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "src", "altText"],
+          "properties": {
+            "type": {"type": "string", "enum": ["emoji", "image"]},
+            "src": {"type": "string", "minLength": 1, "maxLength": 500},
+            "altText": {"type": "string", "minLength": 1, "maxLength": 160}
+          }
+        },
+        "rightsNote": {"type": "string", "maxLength": 500}
+      }
+    },
+    "row": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rowId", "capacity"],
+      "properties": {
+        "rowId": {"type": "string", "pattern": "^row-[1-4]$"},
+        "capacity": {"type": "integer", "enum": [1, 2, 3, 4]}
+      }
+    },
+    "solution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hiddenDimension", "groups"],
+      "properties": {
+        "hiddenDimension": {"type": "string", "minLength": 1, "maxLength": 120},
+        "groups": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["groupId", "label", "capacity", "itemIds"],
+            "properties": {
+              "groupId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]{2,63}$"},
+              "label": {"type": "string", "minLength": 1, "maxLength": 80},
+              "capacity": {"type": "integer", "enum": [1, 2, 3, 4]},
+              "itemIds": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 4,
+                "uniqueItems": true,
+                "items": {"type": "string"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url", "retrievedAt"],
+      "properties": {
+        "title": {"type": "string", "minLength": 1, "maxLength": 160},
+        "url": {"type": "string", "format": "uri"},
+        "retrievedAt": {"type": "string", "format": "date"}
+      }
+    },
+    "difficulty": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["band", "score"],
+      "properties": {
+        "band": {"type": "string", "enum": ["easy", "medium", "hard"]},
+        "score": {"type": "number", "minimum": 0, "maximum": 1},
+        "notes": {"type": "string", "maxLength": 500}
+      }
+    }
+  },
+  "x-tensift-invariants": [
+    "itemId values are unique across items",
+    "rowId values are unique and capacities are exactly 1, 2, 3, 4",
+    "solution groups partition all itemIds exactly once",
+    "each group item count equals its capacity",
+    "the complete solution is unique after non-author blind review"
+  ]
+}

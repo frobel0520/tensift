@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "countries-continent-2026-09-01-en",
+  "puzzleFamilyId": "countries-continent-001",
+  "locale": "en",
+  "publishDate": "2026-09-01",
+  "timezone": "UTC",
+  "theme": "Countries",
+  "items": [
+    {"itemId": "country-australia", "label": "Australia"},
+    {"itemId": "country-brazil", "label": "Brazil"},
+    {"itemId": "country-argentina", "label": "Argentina"},
+    {"itemId": "country-canada", "label": "Canada"},
+    {"itemId": "country-mexico", "label": "Mexico"},
+    {"itemId": "country-united-states", "label": "United States"},
+    {"itemId": "country-france", "label": "France"},
+    {"itemId": "country-germany", "label": "Germany"},
+    {"itemId": "country-italy", "label": "Italy"},
+    {"itemId": "country-spain", "label": "Spain"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Continent",
+    "groups": [
+      {"groupId": "g1", "label": "Oceania", "capacity": 1, "itemIds": ["country-australia"]},
+      {"groupId": "g2", "label": "South America", "capacity": 2, "itemIds": ["country-brazil", "country-argentina"]},
+      {"groupId": "g3", "label": "North America", "capacity": 3, "itemIds": ["country-canada", "country-mexico", "country-united-states"]},
+      {"groupId": "g4", "label": "Europe", "capacity": 4, "itemIds": ["country-france", "country-germany", "country-italy", "country-spain"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group is defined by a continent: Oceania has 1 item, South America has 2, North America has 3, and Europe has 4.",
+  "sources": [
+    {"title": "UN M49 geographical regions", "url": "https://unstats.un.org/unsd/methodology/m49/", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.28},
+  "status": "draft"
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "instruments-family-2026-09-03-es-419",
+  "puzzleFamilyId": "instruments-family-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-03",
+  "timezone": "UTC",
+  "theme": "Instrumentos musicales",
+  "items": [
+    {"itemId": "instrument-drum", "label": "Tambor"},
+    {"itemId": "instrument-trumpet", "label": "Trompeta"},
+    {"itemId": "instrument-trombone", "label": "Trombón"},
+    {"itemId": "instrument-flute", "label": "Flauta"},
+    {"itemId": "instrument-clarinet", "label": "Clarinete"},
+    {"itemId": "instrument-oboe", "label": "Oboe"},
+    {"itemId": "instrument-violin", "label": "Violín"},
+    {"itemId": "instrument-guitar", "label": "Guitarra"},
+    {"itemId": "instrument-cello", "label": "Violonchelo"},
+    {"itemId": "instrument-harp", "label": "Arpa"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Familia instrumental",
+    "groups": [
+      {"groupId": "g1", "label": "Percusión", "capacity": 1, "itemIds": ["instrument-drum"]},
+      {"groupId": "g2", "label": "Metales", "capacity": 2, "itemIds": ["instrument-trumpet", "instrument-trombone"]},
+      {"groupId": "g3", "label": "Viento madera", "capacity": 3, "itemIds": ["instrument-flute", "instrument-clarinet", "instrument-oboe"]},
+      {"groupId": "g4", "label": "Cuerdas", "capacity": 4, "itemIds": ["instrument-violin", "instrument-guitar", "instrument-cello", "instrument-harp"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo se define por una familia instrumental: 1 instrumento de percusión, 2 de metales, 3 de viento madera y 4 de cuerdas.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Instrumento musical", "url": "https://www.britannica.com/art/musical-instrument", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.42},
+  "status": "draft"
+}

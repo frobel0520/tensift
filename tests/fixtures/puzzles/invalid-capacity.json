@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "invalid-capacity-fixture",
+  "puzzleFamilyId": "invalid-fixture",
+  "locale": "en",
+  "publishDate": "2026-09-04",
+  "timezone": "UTC",
+  "theme": "Fixture",
+  "items": [
+    {"itemId": "fixture-01", "label": "One"},
+    {"itemId": "fixture-02", "label": "Two"},
+    {"itemId": "fixture-03", "label": "Three"},
+    {"itemId": "fixture-04", "label": "Four"},
+    {"itemId": "fixture-05", "label": "Five"},
+    {"itemId": "fixture-06", "label": "Six"},
+    {"itemId": "fixture-07", "label": "Seven"},
+    {"itemId": "fixture-08", "label": "Eight"},
+    {"itemId": "fixture-09", "label": "Nine"},
+    {"itemId": "fixture-10", "label": "Ten"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Fixture dimension",
+    "groups": [
+      {"groupId": "g1", "label": "One", "capacity": 1, "itemIds": ["fixture-01"]},
+      {"groupId": "g2", "label": "Two", "capacity": 2, "itemIds": ["fixture-02", "fixture-03"]},
+      {"groupId": "g3", "label": "Three", "capacity": 3, "itemIds": ["fixture-04", "fixture-05", "fixture-06"]},
+      {"groupId": "g4", "label": "Four", "capacity": 4, "itemIds": ["fixture-07", "fixture-08", "fixture-09", "fixture-09"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Invalid fixture with a duplicate solution item.",
+  "sources": [
+    {"title": "Fixture source", "url": "https://example.com/fixture", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.1},
+  "status": "draft"
+}

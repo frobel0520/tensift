@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "countries-continent-2026-09-01-es-419",
+  "puzzleFamilyId": "countries-continent-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-01",
+  "timezone": "UTC",
+  "theme": "Países",
+  "items": [
+    {"itemId": "country-australia", "label": "Australia"},
+    {"itemId": "country-brazil", "label": "Brasil"},
+    {"itemId": "country-argentina", "label": "Argentina"},
+    {"itemId": "country-canada", "label": "Canadá"},
+    {"itemId": "country-mexico", "label": "México"},
+    {"itemId": "country-united-states", "label": "Estados Unidos"},
+    {"itemId": "country-france", "label": "Francia"},
+    {"itemId": "country-germany", "label": "Alemania"},
+    {"itemId": "country-italy", "label": "Italia"},
+    {"itemId": "country-spain", "label": "España"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Continente",
+    "groups": [
+      {"groupId": "g1", "label": "Oceanía", "capacity": 1, "itemIds": ["country-australia"]},
+      {"groupId": "g2", "label": "América del Sur", "capacity": 2, "itemIds": ["country-brazil", "country-argentina"]},
+      {"groupId": "g3", "label": "América del Norte", "capacity": 3, "itemIds": ["country-canada", "country-mexico", "country-united-states"]},
+      {"groupId": "g4", "label": "Europa", "capacity": 4, "itemIds": ["country-france", "country-germany", "country-italy", "country-spain"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo se define por un continente: Oceanía tiene 1 elemento, América del Sur 2, América del Norte 3 y Europa 4.",
+  "sources": [
+    {"title": "Regiones geográficas M49 de la ONU", "url": "https://unstats.un.org/unsd/methodology/m49/", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.28},
+  "status": "draft"
+}
