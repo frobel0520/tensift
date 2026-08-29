@@ -11,8 +11,8 @@
     {"itemId": "wheel-bicycle", "label": "Bicicleta"},
     {"itemId": "wheel-motorcycle", "label": "Motocicleta"},
     {"itemId": "wheel-tricycle", "label": "Triciclo"},
-    {"itemId": "wheel-tuk-tuk", "label": "Tuk-tuk"},
-    {"itemId": "wheel-pedicab", "label": "Bicitaxi"},
+    {"itemId": "wheel-cargo-trike", "label": "Triciclo de carga"},
+    {"itemId": "wheel-three-wheel-scooter", "label": "Scooter de tres ruedas"},
     {"itemId": "wheel-car", "label": "Auto"},
     {"itemId": "wheel-bus", "label": "Autobús"},
     {"itemId": "wheel-wagon", "label": "Carreta"},
@@ -29,7 +29,7 @@
     "groups": [
       {"groupId": "g1", "label": "Una rueda", "capacity": 1, "itemIds": ["wheel-unicycle"]},
       {"groupId": "g2", "label": "Dos ruedas", "capacity": 2, "itemIds": ["wheel-bicycle", "wheel-motorcycle"]},
-      {"groupId": "g3", "label": "Tres ruedas", "capacity": 3, "itemIds": ["wheel-tricycle", "wheel-tuk-tuk", "wheel-pedicab"]},
+      {"groupId": "g3", "label": "Tres ruedas", "capacity": 3, "itemIds": ["wheel-tricycle", "wheel-cargo-trike", "wheel-three-wheel-scooter"]},
       {"groupId": "g4", "label": "Cuatro ruedas", "capacity": 4, "itemIds": ["wheel-car", "wheel-bus", "wheel-wagon", "wheel-skateboard"]}
     ]
   },

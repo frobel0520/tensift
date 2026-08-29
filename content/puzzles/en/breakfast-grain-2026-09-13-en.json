@@ -15,8 +15,8 @@
     {"itemId": "breakfast-waffles", "label": "Waffles"},
     {"itemId": "breakfast-congee", "label": "Congee"},
     {"itemId": "breakfast-rice-cakes", "label": "Rice cakes"},
-    {"itemId": "breakfast-mochi", "label": "Mochi"},
-    {"itemId": "breakfast-onigiri", "label": "Onigiri"}
+    {"itemId": "breakfast-rice-pudding", "label": "Rice pudding"},
+    {"itemId": "breakfast-rice-cereal", "label": "Rice cereal"}
   ],
   "rows": [
     {"rowId": "row-1", "capacity": 1},
@@ -30,7 +30,7 @@
       {"groupId": "g1", "label": "Corn", "capacity": 1, "itemIds": ["breakfast-cornflakes"]},
       {"groupId": "g2", "label": "Oats", "capacity": 2, "itemIds": ["breakfast-oatmeal", "breakfast-granola"]},
       {"groupId": "g3", "label": "Wheat", "capacity": 3, "itemIds": ["breakfast-toast", "breakfast-pancakes", "breakfast-waffles"]},
-      {"groupId": "g4", "label": "Rice", "capacity": 4, "itemIds": ["breakfast-congee", "breakfast-rice-cakes", "breakfast-mochi", "breakfast-onigiri"]}
+      {"groupId": "g4", "label": "Rice", "capacity": 4, "itemIds": ["breakfast-congee", "breakfast-rice-cakes", "breakfast-rice-pudding", "breakfast-rice-cereal"]}
     ]
   },
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},

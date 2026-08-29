@@ -15,8 +15,8 @@
     {"itemId": "breakfast-waffles", "label": "华夫饼"},
     {"itemId": "breakfast-congee", "label": "粥"},
     {"itemId": "breakfast-rice-cakes", "label": "米饼"},
-    {"itemId": "breakfast-mochi", "label": "麻糬"},
-    {"itemId": "breakfast-onigiri", "label": "饭团"}
+    {"itemId": "breakfast-rice-pudding", "label": "米布丁"},
+    {"itemId": "breakfast-rice-cereal", "label": "米糊"}
   ],
   "rows": [
     {"rowId": "row-1", "capacity": 1},
@@ -30,7 +30,7 @@
       {"groupId": "g1", "label": "玉米", "capacity": 1, "itemIds": ["breakfast-cornflakes"]},
       {"groupId": "g2", "label": "燕麦", "capacity": 2, "itemIds": ["breakfast-oatmeal", "breakfast-granola"]},
       {"groupId": "g3", "label": "小麦", "capacity": 3, "itemIds": ["breakfast-toast", "breakfast-pancakes", "breakfast-waffles"]},
-      {"groupId": "g4", "label": "大米", "capacity": 4, "itemIds": ["breakfast-congee", "breakfast-rice-cakes", "breakfast-mochi", "breakfast-onigiri"]}
+      {"groupId": "g4", "label": "大米", "capacity": 4, "itemIds": ["breakfast-congee", "breakfast-rice-cakes", "breakfast-rice-pudding", "breakfast-rice-cereal"]}
     ]
   },
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
