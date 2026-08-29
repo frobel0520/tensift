@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-covering-2026-09-19-en",
+  "puzzleFamilyId": "animal-covering-001",
+  "locale": "en",
+  "publishDate": "2026-09-19",
+  "timezone": "UTC",
+  "theme": "Animal Coverings",
+  "items": [
+    {"itemId": "covering-eagle", "label": "Eagle"},
+    {"itemId": "covering-dog", "label": "Dog"},
+    {"itemId": "covering-cat", "label": "Cat"},
+    {"itemId": "covering-snake", "label": "Snake"},
+    {"itemId": "covering-fish", "label": "Fish"},
+    {"itemId": "covering-lizard", "label": "Lizard"},
+    {"itemId": "covering-turtle", "label": "Turtle"},
+    {"itemId": "covering-snail", "label": "Snail"},
+    {"itemId": "covering-oyster", "label": "Oyster"},
+    {"itemId": "covering-clam", "label": "Clam"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Outer covering",
+    "groups": [
+      {"groupId": "g1", "label": "Feathers", "capacity": 1, "itemIds": ["covering-eagle"]},
+      {"groupId": "g2", "label": "Fur", "capacity": 2, "itemIds": ["covering-dog", "covering-cat"]},
+      {"groupId": "g3", "label": "Scales", "capacity": 3, "itemIds": ["covering-snake", "covering-fish", "covering-lizard"]},
+      {"groupId": "g4", "label": "Shells", "capacity": 4, "itemIds": ["covering-turtle", "covering-snail", "covering-oyster", "covering-clam"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group contains animals with the same familiar outer covering: 1 feathered animal, 2 furry animals, 3 scaled animals, and 4 shelled animals.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Animal", "url": "https://www.britannica.com/animal", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.29},
+  "status": "scheduled"
+}

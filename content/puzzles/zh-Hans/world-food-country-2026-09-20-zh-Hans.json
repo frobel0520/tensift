@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "world-food-country-2026-09-20-zh-hans",
+  "puzzleFamilyId": "world-food-country-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-20",
+  "timezone": "UTC",
+  "theme": "世界美食",
+  "items": [
+    {"itemId": "world-food-sushi", "label": "寿司"},
+    {"itemId": "world-food-pizza", "label": "披萨"},
+    {"itemId": "world-food-pasta", "label": "意大利面"},
+    {"itemId": "world-food-tacos", "label": "塔可"},
+    {"itemId": "world-food-burritos", "label": "墨西哥卷饼"},
+    {"itemId": "world-food-guacamole", "label": "鳄梨酱"},
+    {"itemId": "world-food-croissant", "label": "羊角面包"},
+    {"itemId": "world-food-baguette", "label": "法棍"},
+    {"itemId": "world-food-crepe", "label": "可丽饼"},
+    {"itemId": "world-food-macaron", "label": "马卡龙"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "饮食传统",
+    "groups": [
+      {"groupId": "g1", "label": "日本", "capacity": 1, "itemIds": ["world-food-sushi"]},
+      {"groupId": "g2", "label": "意大利", "capacity": 2, "itemIds": ["world-food-pizza", "world-food-pasta"]},
+      {"groupId": "g3", "label": "墨西哥", "capacity": 3, "itemIds": ["world-food-tacos", "world-food-burritos", "world-food-guacamole"]},
+      {"groupId": "g4", "label": "法国", "capacity": 4, "itemIds": ["world-food-croissant", "world-food-baguette", "world-food-crepe", "world-food-macaron"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组包含与同一饮食传统相关的食物：1 种日本美食、2 种意大利美食、3 种墨西哥美食和 4 种法国美食。",
+  "sources": [
+    {"title": "大英百科全书：食物", "url": "https://www.britannica.com/topic/food", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.31},
+  "status": "scheduled"
+}

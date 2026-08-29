@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "clothing-location-2026-09-18-es-419",
+  "puzzleFamilyId": "clothing-location-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-18",
+  "timezone": "UTC",
+  "theme": "Ropa",
+  "items": [
+    {"itemId": "clothing-hat", "label": "Sombrero"},
+    {"itemId": "clothing-shirt", "label": "Camisa"},
+    {"itemId": "clothing-jacket", "label": "Chaqueta"},
+    {"itemId": "clothing-pants", "label": "Pantalones"},
+    {"itemId": "clothing-skirt", "label": "Falda"},
+    {"itemId": "clothing-shorts", "label": "Pantalones cortos"},
+    {"itemId": "clothing-socks", "label": "Calcetines"},
+    {"itemId": "clothing-shoes", "label": "Zapatos"},
+    {"itemId": "clothing-boots", "label": "Botas"},
+    {"itemId": "clothing-sandals", "label": "Sandalias"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "dónde se lleva",
+    "groups": [
+      {"groupId": "g1", "label": "Cabeza", "capacity": 1, "itemIds": ["clothing-hat"]},
+      {"groupId": "g2", "label": "Parte superior", "capacity": 2, "itemIds": ["clothing-shirt", "clothing-jacket"]},
+      {"groupId": "g3", "label": "Parte inferior", "capacity": 3, "itemIds": ["clothing-pants", "clothing-skirt", "clothing-shorts"]},
+      {"groupId": "g4", "label": "Pies", "capacity": 4, "itemIds": ["clothing-socks", "clothing-shoes", "clothing-boots", "clothing-sandals"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo contiene prendas que se llevan en la misma parte del cuerpo: 1 prenda para la cabeza, 2 para la parte superior, 3 para la parte inferior y 4 para los pies.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Clothing", "url": "https://www.britannica.com/topic/clothing", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.24},
+  "status": "scheduled"
+}

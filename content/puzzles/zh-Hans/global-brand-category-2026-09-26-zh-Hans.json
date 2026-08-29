@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "global-brand-category-2026-09-26-zh-hans",
+  "puzzleFamilyId": "global-brand-category-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-26",
+  "timezone": "UTC",
+  "theme": "全球品牌",
+  "items": [
+    {"itemId": "brand-google", "label": "Google"},
+    {"itemId": "brand-apple", "label": "苹果"},
+    {"itemId": "brand-samsung", "label": "三星"},
+    {"itemId": "brand-netflix", "label": "Netflix"},
+    {"itemId": "brand-youtube", "label": "YouTube"},
+    {"itemId": "brand-disney-plus", "label": "Disney+"},
+    {"itemId": "brand-nike", "label": "耐克"},
+    {"itemId": "brand-adidas", "label": "阿迪达斯"},
+    {"itemId": "brand-puma", "label": "彪马"},
+    {"itemId": "brand-converse", "label": "匡威"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "行业",
+    "groups": [
+      {"groupId": "g1", "label": "搜索引擎", "capacity": 1, "itemIds": ["brand-google"]},
+      {"groupId": "g2", "label": "智能手机厂商", "capacity": 2, "itemIds": ["brand-apple", "brand-samsung"]},
+      {"groupId": "g3", "label": "流媒体服务", "capacity": 3, "itemIds": ["brand-netflix", "brand-youtube", "brand-disney-plus"]},
+      {"groupId": "g4", "label": "运动品牌", "capacity": 4, "itemIds": ["brand-nike", "brand-adidas", "brand-puma", "brand-converse"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组品牌属于同一行业：1 个搜索引擎、2 家智能手机厂商、3 个流媒体服务和 4 个运动品牌。",
+  "sources": [
+    {"title": "大英百科全书：品牌", "url": "https://www.britannica.com/topic/brand", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.22},
+  "status": "scheduled"
+}

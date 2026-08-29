@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sports-equipment-2026-09-22-en",
+  "puzzleFamilyId": "sports-equipment-001",
+  "locale": "en",
+  "publishDate": "2026-09-22",
+  "timezone": "UTC",
+  "theme": "Sports Equipment",
+  "items": [
+    {"itemId": "equipment-baseball-bat", "label": "Baseball bat"},
+    {"itemId": "equipment-tennis-racket", "label": "Tennis racket"},
+    {"itemId": "equipment-badminton-racket", "label": "Badminton racket"},
+    {"itemId": "equipment-soccer-ball", "label": "Soccer ball"},
+    {"itemId": "equipment-basketball", "label": "Basketball"},
+    {"itemId": "equipment-volleyball", "label": "Volleyball"},
+    {"itemId": "equipment-helmet", "label": "Helmet"},
+    {"itemId": "equipment-boxing-gloves", "label": "Boxing gloves"},
+    {"itemId": "equipment-shin-guards", "label": "Shin guards"},
+    {"itemId": "equipment-mouthguard", "label": "Mouthguard"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Equipment type",
+    "groups": [
+      {"groupId": "g1", "label": "Bats", "capacity": 1, "itemIds": ["equipment-baseball-bat"]},
+      {"groupId": "g2", "label": "Rackets", "capacity": 2, "itemIds": ["equipment-tennis-racket", "equipment-badminton-racket"]},
+      {"groupId": "g3", "label": "Balls", "capacity": 3, "itemIds": ["equipment-soccer-ball", "equipment-basketball", "equipment-volleyball"]},
+      {"groupId": "g4", "label": "Protective gear", "capacity": 4, "itemIds": ["equipment-helmet", "equipment-boxing-gloves", "equipment-shin-guards", "equipment-mouthguard"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group contains the same type of sports equipment: 1 bat, 2 rackets, 3 balls, and 4 pieces of protective gear.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Sport", "url": "https://www.britannica.com/sports", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.30},
+  "status": "scheduled"
+}

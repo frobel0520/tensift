@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "beverage-base-2026-09-21-es-419",
+  "puzzleFamilyId": "beverage-base-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-21",
+  "timezone": "UTC",
+  "theme": "Bebidas",
+  "items": [
+    {"itemId": "beverage-espresso", "label": "Espresso"},
+    {"itemId": "beverage-green-tea", "label": "Té verde"},
+    {"itemId": "beverage-black-tea", "label": "Té negro"},
+    {"itemId": "beverage-orange-juice", "label": "Jugo de naranja"},
+    {"itemId": "beverage-lemonade", "label": "Limonada"},
+    {"itemId": "beverage-smoothie", "label": "Batido de fruta"},
+    {"itemId": "beverage-milk", "label": "Leche"},
+    {"itemId": "beverage-hot-chocolate", "label": "Chocolate caliente"},
+    {"itemId": "beverage-milkshake", "label": "Malteada"},
+    {"itemId": "beverage-yogurt-drink", "label": "Bebida de yogur"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "base principal",
+    "groups": [
+      {"groupId": "g1", "label": "Café", "capacity": 1, "itemIds": ["beverage-espresso"]},
+      {"groupId": "g2", "label": "Té", "capacity": 2, "itemIds": ["beverage-green-tea", "beverage-black-tea"]},
+      {"groupId": "g3", "label": "Fruta", "capacity": 3, "itemIds": ["beverage-orange-juice", "beverage-lemonade", "beverage-smoothie"]},
+      {"groupId": "g4", "label": "Lácteos", "capacity": 4, "itemIds": ["beverage-milk", "beverage-hot-chocolate", "beverage-milkshake", "beverage-yogurt-drink"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo reúne bebidas con una base principal parecida: 1 de café, 2 de té, 3 de fruta y 4 de lácteos.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Beverage", "url": "https://www.britannica.com/topic/beverage", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.33},
+  "status": "scheduled"
+}

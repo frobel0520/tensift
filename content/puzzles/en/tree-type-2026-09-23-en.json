@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tree-type-2026-09-23-en",
+  "puzzleFamilyId": "tree-type-001",
+  "locale": "en",
+  "publishDate": "2026-09-23",
+  "timezone": "UTC",
+  "theme": "Trees",
+  "items": [
+    {"itemId": "tree-palm", "label": "Palm tree"},
+    {"itemId": "tree-pine", "label": "Pine"},
+    {"itemId": "tree-fir", "label": "Fir"},
+    {"itemId": "tree-oak", "label": "Oak"},
+    {"itemId": "tree-maple", "label": "Maple"},
+    {"itemId": "tree-birch", "label": "Birch"},
+    {"itemId": "tree-apple", "label": "Apple tree"},
+    {"itemId": "tree-orange", "label": "Orange tree"},
+    {"itemId": "tree-cherry", "label": "Cherry tree"},
+    {"itemId": "tree-mango", "label": "Mango tree"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Tree type",
+    "groups": [
+      {"groupId": "g1", "label": "Palm trees", "capacity": 1, "itemIds": ["tree-palm"]},
+      {"groupId": "g2", "label": "Conifers", "capacity": 2, "itemIds": ["tree-pine", "tree-fir"]},
+      {"groupId": "g3", "label": "Deciduous trees", "capacity": 3, "itemIds": ["tree-oak", "tree-maple", "tree-birch"]},
+      {"groupId": "g4", "label": "Fruit trees", "capacity": 4, "itemIds": ["tree-apple", "tree-orange", "tree-cherry", "tree-mango"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group contains the same broad tree type: 1 palm tree, 2 conifers, 3 deciduous trees, and 4 fruit trees.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Tree", "url": "https://www.britannica.com/plant/tree", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.39},
+  "status": "scheduled"
+}

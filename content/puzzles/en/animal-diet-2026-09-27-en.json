@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-diet-2026-09-27-en",
+  "puzzleFamilyId": "animal-diet-001",
+  "locale": "en",
+  "publishDate": "2026-09-27",
+  "timezone": "UTC",
+  "theme": "Animal Diets",
+  "items": [
+    {"itemId": "diet-lion", "label": "Lion"},
+    {"itemId": "diet-cow", "label": "Cow"},
+    {"itemId": "diet-giraffe", "label": "Giraffe"},
+    {"itemId": "diet-bear", "label": "Bear"},
+    {"itemId": "diet-pig", "label": "Pig"},
+    {"itemId": "diet-chicken", "label": "Chicken"},
+    {"itemId": "diet-anteater", "label": "Anteater"},
+    {"itemId": "diet-frog", "label": "Frog"},
+    {"itemId": "diet-bat", "label": "Bat"},
+    {"itemId": "diet-hedgehog", "label": "Hedgehog"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Typical diet",
+    "groups": [
+      {"groupId": "g1", "label": "Carnivores", "capacity": 1, "itemIds": ["diet-lion"]},
+      {"groupId": "g2", "label": "Herbivores", "capacity": 2, "itemIds": ["diet-cow", "diet-giraffe"]},
+      {"groupId": "g3", "label": "Omnivores", "capacity": 3, "itemIds": ["diet-bear", "diet-pig", "diet-chicken"]},
+      {"groupId": "g4", "label": "Insectivores", "capacity": 4, "itemIds": ["diet-anteater", "diet-frog", "diet-bat", "diet-hedgehog"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group contains animals with the same typical diet: 1 carnivore, 2 herbivores, 3 omnivores, and 4 insectivores.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Animal", "url": "https://www.britannica.com/animal", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.37},
+  "status": "scheduled"
+}

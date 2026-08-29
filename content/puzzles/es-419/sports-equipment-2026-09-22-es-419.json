@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sports-equipment-2026-09-22-es-419",
+  "puzzleFamilyId": "sports-equipment-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-22",
+  "timezone": "UTC",
+  "theme": "Equipamiento deportivo",
+  "items": [
+    {"itemId": "equipment-baseball-bat", "label": "Bate de béisbol"},
+    {"itemId": "equipment-tennis-racket", "label": "Raqueta de tenis"},
+    {"itemId": "equipment-badminton-racket", "label": "Raqueta de bádminton"},
+    {"itemId": "equipment-soccer-ball", "label": "Balón de fútbol"},
+    {"itemId": "equipment-basketball", "label": "Balón de baloncesto"},
+    {"itemId": "equipment-volleyball", "label": "Balón de voleibol"},
+    {"itemId": "equipment-helmet", "label": "Casco"},
+    {"itemId": "equipment-boxing-gloves", "label": "Guantes de boxeo"},
+    {"itemId": "equipment-shin-guards", "label": "Espinilleras"},
+    {"itemId": "equipment-mouthguard", "label": "Protector bucal"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "tipo de equipo",
+    "groups": [
+      {"groupId": "g1", "label": "Bates", "capacity": 1, "itemIds": ["equipment-baseball-bat"]},
+      {"groupId": "g2", "label": "Raquetas", "capacity": 2, "itemIds": ["equipment-tennis-racket", "equipment-badminton-racket"]},
+      {"groupId": "g3", "label": "Balones", "capacity": 3, "itemIds": ["equipment-soccer-ball", "equipment-basketball", "equipment-volleyball"]},
+      {"groupId": "g4", "label": "Protección", "capacity": 4, "itemIds": ["equipment-helmet", "equipment-boxing-gloves", "equipment-shin-guards", "equipment-mouthguard"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo contiene un tipo de equipamiento deportivo: 1 bate, 2 raquetas, 3 balones y 4 artículos de protección.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Sport", "url": "https://www.britannica.com/sports/sports", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.30},
+  "status": "scheduled"
+}

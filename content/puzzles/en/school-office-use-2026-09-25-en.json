@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "school-office-use-2026-09-25-en",
+  "puzzleFamilyId": "school-office-use-001",
+  "locale": "en",
+  "publishDate": "2026-09-25",
+  "timezone": "UTC",
+  "theme": "School and Office",
+  "items": [
+    {"itemId": "stationery-scissors", "label": "Scissors"},
+    {"itemId": "stationery-ruler", "label": "Ruler"},
+    {"itemId": "stationery-protractor", "label": "Protractor"},
+    {"itemId": "stationery-pencil", "label": "Pencil"},
+    {"itemId": "stationery-pen", "label": "Pen"},
+    {"itemId": "stationery-marker", "label": "Marker"},
+    {"itemId": "stationery-notebook", "label": "Notebook"},
+    {"itemId": "stationery-envelope", "label": "Envelope"},
+    {"itemId": "stationery-folder", "label": "Folder"},
+    {"itemId": "stationery-sticky-notes", "label": "Sticky notes"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Typical use",
+    "groups": [
+      {"groupId": "g1", "label": "Cutting", "capacity": 1, "itemIds": ["stationery-scissors"]},
+      {"groupId": "g2", "label": "Measuring", "capacity": 2, "itemIds": ["stationery-ruler", "stationery-protractor"]},
+      {"groupId": "g3", "label": "Writing", "capacity": 3, "itemIds": ["stationery-pencil", "stationery-pen", "stationery-marker"]},
+      {"groupId": "g4", "label": "Paper products", "capacity": 4, "itemIds": ["stationery-notebook", "stationery-envelope", "stationery-folder", "stationery-sticky-notes"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group shares a typical school or office use: 1 cutting tool, 2 measuring tools, 3 writing tools, and 4 paper products.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Writing", "url": "https://www.britannica.com/topic/writing", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.25},
+  "status": "scheduled"
+}

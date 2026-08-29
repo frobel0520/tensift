@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "world-food-country-2026-09-20-es-419",
+  "puzzleFamilyId": "world-food-country-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-20",
+  "timezone": "UTC",
+  "theme": "Comidas del mundo",
+  "items": [
+    {"itemId": "world-food-sushi", "label": "Sushi"},
+    {"itemId": "world-food-pizza", "label": "Pizza"},
+    {"itemId": "world-food-pasta", "label": "Pasta"},
+    {"itemId": "world-food-tacos", "label": "Tacos"},
+    {"itemId": "world-food-burritos", "label": "Burritos"},
+    {"itemId": "world-food-guacamole", "label": "Guacamole"},
+    {"itemId": "world-food-croissant", "label": "Croissant"},
+    {"itemId": "world-food-baguette", "label": "Baguette"},
+    {"itemId": "world-food-crepe", "label": "Crêpe"},
+    {"itemId": "world-food-macaron", "label": "Macaron"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "tradición culinaria",
+    "groups": [
+      {"groupId": "g1", "label": "Japón", "capacity": 1, "itemIds": ["world-food-sushi"]},
+      {"groupId": "g2", "label": "Italia", "capacity": 2, "itemIds": ["world-food-pizza", "world-food-pasta"]},
+      {"groupId": "g3", "label": "México", "capacity": 3, "itemIds": ["world-food-tacos", "world-food-burritos", "world-food-guacamole"]},
+      {"groupId": "g4", "label": "Francia", "capacity": 4, "itemIds": ["world-food-croissant", "world-food-baguette", "world-food-crepe", "world-food-macaron"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo contiene alimentos asociados con una misma tradición culinaria: 1 de Japón, 2 de Italia, 3 de México y 4 de Francia.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Food", "url": "https://www.britannica.com/topic/food", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.31},
+  "status": "scheduled"
+}

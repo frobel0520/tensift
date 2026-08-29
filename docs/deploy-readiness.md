@@ -8,7 +8,7 @@ Target: Cloudflare Pages project `tensift` → `https://tensift.pages.dev`
 | Service | Required for v1 | Current state | What remains before deploy |
 |---|---:|---|---|
 | Cloudflare Pages | Yes | Project `tensift` deployed at `https://tensift.pages.dev` | Keep the Wrangler deploy path or create a new Git-integrated project if automatic Pages builds are later required |
-| Cloudflare D1 | Yes | Database `tensift` exists, is bound in `wrangler.toml`, and contains a twenty-day release window (60 records across three locales) | Keep the daily publishing/review process and seed only approved release records |
+| Cloudflare D1 | Yes | Database `tensift` exists, is bound in `wrangler.toml`, and contains a thirty-day release window (90 records across three locales) | Keep the daily publishing/review process and seed only approved release records |
 | GitHub | Recommended | Public repository and green Actions workflow are configured | Add branch protection when the release process is finalized |
 | Custom domain / registrar | No | Not needed | `tensift.pages.dev` avoids domain purchase and keeps Cloudflare out of the player-facing name |
 | Analytics | No for v1 | Not connected | Add only after a privacy decision and a consent/retention review |
@@ -51,7 +51,7 @@ Verify manually or with an HTTP client:
 
 ## Release gate for content
 
-The current remote catalog contains a twenty-day release window in all three locales: Countries is `published` for 2026-08-29; Animals, Musical Instruments, Natural Landmarks, Vehicles, At Home, Sports, Animal Habitats, Food, World Landmarks, Fruits, The Human Body, Vegetables, World Cities, Languages, Breakfast, Everyday Tools, Materials, Wheeled Things, and Fictional Characters are `scheduled` for 2026-08-30 through 2026-09-17 respectively. The production `today` endpoint returns the Countries puzzle for the current UTC date.
+The current remote catalog contains a thirty-day release window in all three locales: Countries is `published` for 2026-08-29; Animals, Musical Instruments, Natural Landmarks, Vehicles, At Home, Sports, Animal Habitats, Food, World Landmarks, Fruits, The Human Body, Vegetables, World Cities, Languages, Breakfast, Everyday Tools, Materials, Wheeled Things, Fictional Characters, Clothing, Animal Coverings, World Foods, Beverages, Sports Equipment, Trees, Home Appliances, School and Office, Global Brands, and Animal Diets are `scheduled` for 2026-08-30 through 2026-09-27 respectively. The production `today` endpoint returns the Countries puzzle for the current UTC date.
 
 For each upcoming release, for each locale:
 
@@ -64,6 +64,8 @@ For each upcoming release, for each locale:
 Do not publish content by changing the client or by adding answer fixtures to the browser bundle.
 
 The second-batch content revision keeps the same release dates while replacing the Languages groups with Hellenic/Germanic/Indo-Aryan/Romance language families, and replacing Rice pudding, Tuk-tuk, and Pedicab with more direct alternatives. Re-run blind playtesting for these three families before their scheduled dates.
+
+The third batch keeps the existing cadence and adds Clothing, Animal Coverings, World Foods, Beverages, Sports Equipment, Trees, Home Appliances, School and Office, Global Brands, and Animal Diets through 2026-09-27. Re-run blind playtesting for cuisine attribution, brand industry labels, tree types, and typical animal diets before their scheduled dates.
 
 ## Cloudflare Pages settings
 
