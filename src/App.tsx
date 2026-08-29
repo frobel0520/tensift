@@ -28,6 +28,7 @@ import {
 } from './domain/game/state';
 import { loadSession, saveSession } from './domain/game/session';
 import { getMessages, type UiMessages } from './i18n/messages';
+import { TopAdBanner } from './ui/adsense';
 import {
   isThemeMode,
   persistTheme,
@@ -230,6 +231,7 @@ export function App() {
 
   return (
     <main className="app-shell">
+      <TopAdBanner copy={copy} />
       <header className="masthead">
         <div className="brand-lockup">
           <p className="eyebrow">{copy.eyebrow}</p>
