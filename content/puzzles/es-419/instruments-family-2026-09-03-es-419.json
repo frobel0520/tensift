@@ -3,7 +3,7 @@
   "puzzleId": "instruments-family-2026-09-03-es-419",
   "puzzleFamilyId": "instruments-family-001",
   "locale": "es-419",
-  "publishDate": "2026-09-03",
+  "publishDate": "2026-08-31",
   "timezone": "UTC",
   "theme": "Instrumentos musicales",
   "items": [
@@ -39,5 +39,5 @@
     {"title": "Encyclopaedia Britannica: Instrumento musical", "url": "https://www.britannica.com/art/musical-instrument", "retrievedAt": "2026-08-29"}
   ],
   "difficulty": {"band": "medium", "score": 0.42},
-  "status": "draft"
+  "status": "scheduled"
 }

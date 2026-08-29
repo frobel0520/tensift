@@ -3,7 +3,7 @@
   "puzzleId": "animals-class-2026-09-02-zh-hans",
   "puzzleFamilyId": "animals-class-001",
   "locale": "zh-Hans",
-  "publishDate": "2026-09-02",
+  "publishDate": "2026-08-30",
   "timezone": "UTC",
   "theme": "动物",
   "items": [
@@ -39,5 +39,5 @@
     {"title": "大英百科全书：脊椎动物", "url": "https://www.britannica.com/science/vertebrate", "retrievedAt": "2026-08-29"}
   ],
   "difficulty": {"band": "easy", "score": 0.32},
-  "status": "draft"
+  "status": "scheduled"
 }
