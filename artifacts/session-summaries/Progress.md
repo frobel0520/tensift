@@ -28,7 +28,9 @@ Prototype approved; SD implementation is complete; the first Cloudflare Pages de
 ## Pending / decision needed
 
 - Seeded puzzles are still `draft`; the first `publishDate` is `2026-09-01`. Until a puzzle is published, `/api/v1/puzzles/today` correctly returns `PUZZLE_NOT_FOUND`.
-- Decide distribution and monetization direction: LinkedIn discovery/embedding versus the owned site as the canonical product.
+- Business direction: keep the owned site as the canonical product; use LinkedIn posts and score sharing for discovery. Direct submission to LinkedIn Games Hub is not currently available.
+- Share cards are deferred for now.
+- Ad direction: reserve a top-of-page banner slot, visually separated from the game board; do not load AdSense until the publisher account, consent flow and CSP allowlist are ready.
 - Build a reviewed content buffer (target: 30 puzzles) before committing to a daily publishing cadence.
 - Optional: connect GitHub push events to Cloudflare Pages automatic builds; current deployment was performed directly with Wrangler.
 
@@ -37,3 +39,4 @@ Prototype approved; SD implementation is complete; the first Cloudflare Pages de
 - No account or server-side session; local streaks are not competitive-grade records.
 - Content ambiguity and second-solution risk remain the largest product risks.
 - Ads, analytics, privacy/consent, and release-content operations are not yet implemented.
+- A top banner must reserve stable height and remain clearly distinct from game controls to avoid accidental ad clicks and layout shift.
