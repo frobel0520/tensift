@@ -7,12 +7,12 @@
   "timezone": "UTC",
   "theme": "Marcas globales",
   "items": [
-    {"itemId": "brand-google", "label": "Google"},
-    {"itemId": "brand-apple", "label": "Apple"},
-    {"itemId": "brand-samsung", "label": "Samsung"},
-    {"itemId": "brand-netflix", "label": "Netflix"},
-    {"itemId": "brand-youtube", "label": "YouTube"},
-    {"itemId": "brand-disney-plus", "label": "Disney+"},
+    {"itemId": "brand-coca-cola", "label": "Coca-Cola"},
+    {"itemId": "brand-toyota", "label": "Toyota"},
+    {"itemId": "brand-volkswagen", "label": "Volkswagen"},
+    {"itemId": "brand-mcdonalds", "label": "McDonald's"},
+    {"itemId": "brand-kfc", "label": "KFC"},
+    {"itemId": "brand-burger-king", "label": "Burger King"},
     {"itemId": "brand-nike", "label": "Nike"},
     {"itemId": "brand-adidas", "label": "Adidas"},
     {"itemId": "brand-puma", "label": "Puma"},
@@ -27,14 +27,14 @@
   "solution": {
     "hiddenDimension": "industria",
     "groups": [
-      {"groupId": "g1", "label": "Motor de búsqueda", "capacity": 1, "itemIds": ["brand-google"]},
-      {"groupId": "g2", "label": "Fabricantes de smartphones", "capacity": 2, "itemIds": ["brand-apple", "brand-samsung"]},
-      {"groupId": "g3", "label": "Servicios de streaming", "capacity": 3, "itemIds": ["brand-netflix", "brand-youtube", "brand-disney-plus"]},
+      {"groupId": "g1", "label": "Marca de refrescos", "capacity": 1, "itemIds": ["brand-coca-cola"]},
+      {"groupId": "g2", "label": "Fabricantes de automóviles", "capacity": 2, "itemIds": ["brand-toyota", "brand-volkswagen"]},
+      {"groupId": "g3", "label": "Cadenas de comida rápida", "capacity": 3, "itemIds": ["brand-mcdonalds", "brand-kfc", "brand-burger-king"]},
       {"groupId": "g4", "label": "Marcas deportivas", "capacity": 4, "itemIds": ["brand-nike", "brand-adidas", "brand-puma", "brand-converse"]}
     ]
   },
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
-  "explanation": "Cada grupo de marcas pertenece a una misma industria: 1 motor de búsqueda, 2 fabricantes de smartphones, 3 servicios de streaming y 4 marcas deportivas.",
+  "explanation": "Cada grupo de marcas pertenece a una misma industria: 1 marca de refrescos, 2 fabricantes de automóviles, 3 cadenas de comida rápida y 4 marcas deportivas.",
   "sources": [
     {"title": "Encyclopaedia Britannica: Brand", "url": "https://www.britannica.com/topic/brand", "retrievedAt": "2026-08-29"}
   ],

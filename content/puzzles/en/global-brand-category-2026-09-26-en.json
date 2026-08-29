@@ -7,12 +7,12 @@
   "timezone": "UTC",
   "theme": "Global Brands",
   "items": [
-    {"itemId": "brand-google", "label": "Google"},
-    {"itemId": "brand-apple", "label": "Apple"},
-    {"itemId": "brand-samsung", "label": "Samsung"},
-    {"itemId": "brand-netflix", "label": "Netflix"},
-    {"itemId": "brand-youtube", "label": "YouTube"},
-    {"itemId": "brand-disney-plus", "label": "Disney+"},
+    {"itemId": "brand-coca-cola", "label": "Coca-Cola"},
+    {"itemId": "brand-toyota", "label": "Toyota"},
+    {"itemId": "brand-volkswagen", "label": "Volkswagen"},
+    {"itemId": "brand-mcdonalds", "label": "McDonald's"},
+    {"itemId": "brand-kfc", "label": "KFC"},
+    {"itemId": "brand-burger-king", "label": "Burger King"},
     {"itemId": "brand-nike", "label": "Nike"},
     {"itemId": "brand-adidas", "label": "Adidas"},
     {"itemId": "brand-puma", "label": "Puma"},
@@ -27,14 +27,14 @@
   "solution": {
     "hiddenDimension": "Industry",
     "groups": [
-      {"groupId": "g1", "label": "Search engine", "capacity": 1, "itemIds": ["brand-google"]},
-      {"groupId": "g2", "label": "Smartphone makers", "capacity": 2, "itemIds": ["brand-apple", "brand-samsung"]},
-      {"groupId": "g3", "label": "Streaming services", "capacity": 3, "itemIds": ["brand-netflix", "brand-youtube", "brand-disney-plus"]},
+      {"groupId": "g1", "label": "Soft drink brand", "capacity": 1, "itemIds": ["brand-coca-cola"]},
+      {"groupId": "g2", "label": "Car manufacturers", "capacity": 2, "itemIds": ["brand-toyota", "brand-volkswagen"]},
+      {"groupId": "g3", "label": "Fast-food chains", "capacity": 3, "itemIds": ["brand-mcdonalds", "brand-kfc", "brand-burger-king"]},
       {"groupId": "g4", "label": "Sportswear brands", "capacity": 4, "itemIds": ["brand-nike", "brand-adidas", "brand-puma", "brand-converse"]}
     ]
   },
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
-  "explanation": "Each group contains globally recognized brands from the same broad industry: 1 search engine, 2 smartphone makers, 3 streaming services, and 4 sportswear brands.",
+  "explanation": "Each group contains globally recognized brands from the same broad industry: 1 soft drink brand, 2 car manufacturers, 3 fast-food chains, and 4 sportswear brands.",
   "sources": [
     {"title": "Encyclopaedia Britannica: Brand", "url": "https://www.britannica.com/topic/brand", "retrievedAt": "2026-08-29"}
   ],
