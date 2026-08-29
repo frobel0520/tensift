@@ -1,0 +1,9 @@
+name = "tensift"
+compatibility_date = "2026-08-29"
+pages_build_output_dir = "dist"
+
+# Cloudflare D1 binding used by Pages Functions.
+[[d1_databases]]
+binding = "DB"
+database_name = "tensift"
+database_id = "abb58452-84cc-4210-ac34-ecef157d8d7c"

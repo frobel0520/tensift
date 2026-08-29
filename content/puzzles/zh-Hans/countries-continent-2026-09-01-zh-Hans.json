@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "countries-continent-2026-09-01-zh-hans",
+  "puzzleFamilyId": "countries-continent-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-01",
+  "timezone": "UTC",
+  "theme": "国家",
+  "items": [
+    {"itemId": "country-australia", "label": "澳大利亚"},
+    {"itemId": "country-brazil", "label": "巴西"},
+    {"itemId": "country-argentina", "label": "阿根廷"},
+    {"itemId": "country-canada", "label": "加拿大"},
+    {"itemId": "country-mexico", "label": "墨西哥"},
+    {"itemId": "country-united-states", "label": "美国"},
+    {"itemId": "country-france", "label": "法国"},
+    {"itemId": "country-germany", "label": "德国"},
+    {"itemId": "country-italy", "label": "意大利"},
+    {"itemId": "country-spain", "label": "西班牙"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "洲别",
+    "groups": [
+      {"groupId": "g1", "label": "大洋洲", "capacity": 1, "itemIds": ["country-australia"]},
+      {"groupId": "g2", "label": "南美洲", "capacity": 2, "itemIds": ["country-brazil", "country-argentina"]},
+      {"groupId": "g3", "label": "北美洲", "capacity": 3, "itemIds": ["country-canada", "country-mexico", "country-united-states"]},
+      {"groupId": "g4", "label": "欧洲", "capacity": 4, "itemIds": ["country-france", "country-germany", "country-italy", "country-spain"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组由同一个洲别定义：大洋洲有 1 项，南美洲有 2 项，北美洲有 3 项，欧洲有 4 项。",
+  "sources": [
+    {"title": "联合国 M49 地理区域", "url": "https://unstats.un.org/unsd/methodology/m49/", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.28},
+  "status": "draft"
+}

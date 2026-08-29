@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "instruments-family-2026-09-03-zh-hans",
+  "puzzleFamilyId": "instruments-family-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-03",
+  "timezone": "UTC",
+  "theme": "乐器",
+  "items": [
+    {"itemId": "instrument-drum", "label": "鼓"},
+    {"itemId": "instrument-trumpet", "label": "小号"},
+    {"itemId": "instrument-trombone", "label": "长号"},
+    {"itemId": "instrument-flute", "label": "长笛"},
+    {"itemId": "instrument-clarinet", "label": "单簧管"},
+    {"itemId": "instrument-oboe", "label": "双簧管"},
+    {"itemId": "instrument-violin", "label": "小提琴"},
+    {"itemId": "instrument-guitar", "label": "吉他"},
+    {"itemId": "instrument-cello", "label": "大提琴"},
+    {"itemId": "instrument-harp", "label": "竖琴"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "乐器分类",
+    "groups": [
+      {"groupId": "g1", "label": "打击乐器", "capacity": 1, "itemIds": ["instrument-drum"]},
+      {"groupId": "g2", "label": "铜管乐器", "capacity": 2, "itemIds": ["instrument-trumpet", "instrument-trombone"]},
+      {"groupId": "g3", "label": "木管乐器", "capacity": 3, "itemIds": ["instrument-flute", "instrument-clarinet", "instrument-oboe"]},
+      {"groupId": "g4", "label": "弦乐器", "capacity": 4, "itemIds": ["instrument-violin", "instrument-guitar", "instrument-cello", "instrument-harp"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组由一种乐器分类定义：1 件打击乐器、2 件铜管乐器、3 件木管乐器和 4 件弦乐器。",
+  "sources": [
+    {"title": "大英百科全书：乐器", "url": "https://www.britannica.com/art/musical-instrument", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.42},
+  "status": "draft"
+}

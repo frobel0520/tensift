@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animals-class-2026-09-02-zh-hans",
+  "puzzleFamilyId": "animals-class-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-02",
+  "timezone": "UTC",
+  "theme": "动物",
+  "items": [
+    {"itemId": "animal-frog", "label": "青蛙"},
+    {"itemId": "animal-crocodile", "label": "鳄鱼"},
+    {"itemId": "animal-turtle", "label": "乌龟"},
+    {"itemId": "animal-eagle", "label": "鹰"},
+    {"itemId": "animal-penguin", "label": "企鹅"},
+    {"itemId": "animal-parrot", "label": "鹦鹉"},
+    {"itemId": "animal-dog", "label": "狗"},
+    {"itemId": "animal-elephant", "label": "大象"},
+    {"itemId": "animal-dolphin", "label": "海豚"},
+    {"itemId": "animal-tiger", "label": "老虎"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "脊椎动物类别",
+    "groups": [
+      {"groupId": "g1", "label": "两栖动物", "capacity": 1, "itemIds": ["animal-frog"]},
+      {"groupId": "g2", "label": "爬行动物", "capacity": 2, "itemIds": ["animal-crocodile", "animal-turtle"]},
+      {"groupId": "g3", "label": "鸟类", "capacity": 3, "itemIds": ["animal-eagle", "animal-penguin", "animal-parrot"]},
+      {"groupId": "g4", "label": "哺乳动物", "capacity": 4, "itemIds": ["animal-dog", "animal-elephant", "animal-dolphin", "animal-tiger"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组由一种脊椎动物类别定义：1 种两栖动物、2 种爬行动物、3 种鸟类和 4 种哺乳动物。",
+  "sources": [
+    {"title": "大英百科全书：脊椎动物", "url": "https://www.britannica.com/science/vertebrate", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.32},
+  "status": "draft"
+}

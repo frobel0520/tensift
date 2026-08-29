@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "instruments-family-2026-09-03-en",
+  "puzzleFamilyId": "instruments-family-001",
+  "locale": "en",
+  "publishDate": "2026-09-03",
+  "timezone": "UTC",
+  "theme": "Musical instruments",
+  "items": [
+    {"itemId": "instrument-drum", "label": "Drum"},
+    {"itemId": "instrument-trumpet", "label": "Trumpet"},
+    {"itemId": "instrument-trombone", "label": "Trombone"},
+    {"itemId": "instrument-flute", "label": "Flute"},
+    {"itemId": "instrument-clarinet", "label": "Clarinet"},
+    {"itemId": "instrument-oboe", "label": "Oboe"},
+    {"itemId": "instrument-violin", "label": "Violin"},
+    {"itemId": "instrument-guitar", "label": "Guitar"},
+    {"itemId": "instrument-cello", "label": "Cello"},
+    {"itemId": "instrument-harp", "label": "Harp"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Instrument family",
+    "groups": [
+      {"groupId": "g1", "label": "Percussion", "capacity": 1, "itemIds": ["instrument-drum"]},
+      {"groupId": "g2", "label": "Brass", "capacity": 2, "itemIds": ["instrument-trumpet", "instrument-trombone"]},
+      {"groupId": "g3", "label": "Woodwind", "capacity": 3, "itemIds": ["instrument-flute", "instrument-clarinet", "instrument-oboe"]},
+      {"groupId": "g4", "label": "Strings", "capacity": 4, "itemIds": ["instrument-violin", "instrument-guitar", "instrument-cello", "instrument-harp"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group is an instrument family: 1 percussion instrument, 2 brass instruments, 3 woodwinds, and 4 string instruments.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Musical instrument", "url": "https://www.britannica.com/art/musical-instrument", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.42},
+  "status": "draft"
+}
