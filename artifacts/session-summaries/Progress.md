@@ -11,6 +11,7 @@ Prototype approved; SD implementation is complete; the first Cloudflare Pages de
 - React + TypeScript + Vite + Cloudflare Pages Functions skeleton.
 - Puzzle domain engine, validator fixtures, API contracts, D1 repository and migrations.
 - Three locales: `en`, `zh-Hans`, and `es-419`.
+- Three theme modes: original paper (`paper`, default), `light`, and `dark`; language defaults to English unless a saved locale preference exists.
 - Gameplay flow: unlimited checks, one-use hint, reveal modal, local session restore, keyboard/tap/drag interactions.
 - Nine seeded D1 records (three puzzle families × three locales).
 - Unit, contract, typecheck, build, bundle-leak scan, local Pages smoke tests.

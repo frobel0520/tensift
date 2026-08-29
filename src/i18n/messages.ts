@@ -4,6 +4,10 @@ export interface UiMessages {
   readonly eyebrow: string;
   readonly tagline: string;
   readonly language: string;
+  readonly theme: string;
+  readonly themeOriginal: string;
+  readonly themeLight: string;
+  readonly themeDark: string;
   readonly topicLabel: string;
   readonly attempts: string;
   readonly instruction: string;
@@ -63,6 +67,10 @@ const messages: Record<Locale, UiMessages> = {
     eyebrow: 'Daily sorting puzzle',
     tagline: 'Ten items. Four groups. One hidden rule.',
     language: 'Language',
+    theme: 'Theme',
+    themeOriginal: 'Original',
+    themeLight: 'Light',
+    themeDark: 'Dark',
     topicLabel: 'Today’s puzzle',
     attempts: 'Attempts',
     instruction: 'Sort every card into the four rows. The row sizes are your only clue to the hidden rule.',
@@ -120,6 +128,10 @@ const messages: Record<Locale, UiMessages> = {
     eyebrow: '每日分类谜题',
     tagline: '十张卡片。四个分组。一个隐藏规则。',
     language: '语言',
+    theme: '主题',
+    themeOriginal: '原始',
+    themeLight: '浅色',
+    themeDark: '深色',
     topicLabel: '今日谜题',
     attempts: '尝试次数',
     instruction: '把每张卡片放进四行。行的格数，是你唯一能看见的线索。',
@@ -177,6 +189,10 @@ const messages: Record<Locale, UiMessages> = {
     eyebrow: 'Rompecabezas diario de clasificación',
     tagline: 'Diez elementos. Cuatro grupos. Una regla oculta.',
     language: 'Idioma',
+    theme: 'Tema',
+    themeOriginal: 'Original',
+    themeLight: 'Claro',
+    themeDark: 'Oscuro',
     topicLabel: 'Rompecabezas de hoy',
     attempts: 'Intentos',
     instruction: 'Ordena cada tarjeta en una de las cuatro filas. El tamaño de cada fila es tu única pista.',
