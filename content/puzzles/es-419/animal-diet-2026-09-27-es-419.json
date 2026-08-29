@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-diet-2026-09-27-es-419",
+  "puzzleFamilyId": "animal-diet-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-27",
+  "timezone": "UTC",
+  "theme": "Dietas animales",
+  "items": [
+    {"itemId": "diet-lion", "label": "León"},
+    {"itemId": "diet-cow", "label": "Vaca"},
+    {"itemId": "diet-giraffe", "label": "Jirafa"},
+    {"itemId": "diet-bear", "label": "Oso"},
+    {"itemId": "diet-pig", "label": "Cerdo"},
+    {"itemId": "diet-chicken", "label": "Gallina"},
+    {"itemId": "diet-anteater", "label": "Oso hormiguero"},
+    {"itemId": "diet-frog", "label": "Rana"},
+    {"itemId": "diet-bat", "label": "Murciélago"},
+    {"itemId": "diet-hedgehog", "label": "Erizo"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "dieta habitual",
+    "groups": [
+      {"groupId": "g1", "label": "Carnívoros", "capacity": 1, "itemIds": ["diet-lion"]},
+      {"groupId": "g2", "label": "Herbívoros", "capacity": 2, "itemIds": ["diet-cow", "diet-giraffe"]},
+      {"groupId": "g3", "label": "Omnívoros", "capacity": 3, "itemIds": ["diet-bear", "diet-pig", "diet-chicken"]},
+      {"groupId": "g4", "label": "Insectívoros", "capacity": 4, "itemIds": ["diet-anteater", "diet-frog", "diet-bat", "diet-hedgehog"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo reúne animales con una dieta habitual parecida: 1 carnívoro, 2 herbívoros, 3 omnívoros y 4 insectívoros.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Animal", "url": "https://www.britannica.com/animal/animal", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.37},
+  "status": "scheduled"
+}

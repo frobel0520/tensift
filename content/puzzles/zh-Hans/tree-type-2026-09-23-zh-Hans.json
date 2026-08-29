@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tree-type-2026-09-23-zh-hans",
+  "puzzleFamilyId": "tree-type-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-23",
+  "timezone": "UTC",
+  "theme": "树木",
+  "items": [
+    {"itemId": "tree-palm", "label": "棕榈树"},
+    {"itemId": "tree-pine", "label": "松树"},
+    {"itemId": "tree-fir", "label": "冷杉"},
+    {"itemId": "tree-oak", "label": "橡树"},
+    {"itemId": "tree-maple", "label": "枫树"},
+    {"itemId": "tree-birch", "label": "桦树"},
+    {"itemId": "tree-apple", "label": "苹果树"},
+    {"itemId": "tree-orange", "label": "橙树"},
+    {"itemId": "tree-cherry", "label": "樱桃树"},
+    {"itemId": "tree-mango", "label": "芒果树"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "树木类型",
+    "groups": [
+      {"groupId": "g1", "label": "棕榈树", "capacity": 1, "itemIds": ["tree-palm"]},
+      {"groupId": "g2", "label": "针叶树", "capacity": 2, "itemIds": ["tree-pine", "tree-fir"]},
+      {"groupId": "g3", "label": "落叶树", "capacity": 3, "itemIds": ["tree-oak", "tree-maple", "tree-birch"]},
+      {"groupId": "g4", "label": "果树", "capacity": 4, "itemIds": ["tree-apple", "tree-orange", "tree-cherry", "tree-mango"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组包含相同类型的树木：1 棵棕榈树、2 棵针叶树、3 棵落叶树和 4 棵果树。",
+  "sources": [
+    {"title": "大英百科全书：树", "url": "https://www.britannica.com/plant/tree", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.39},
+  "status": "scheduled"
+}

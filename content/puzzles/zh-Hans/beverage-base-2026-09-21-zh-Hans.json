@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "beverage-base-2026-09-21-zh-hans",
+  "puzzleFamilyId": "beverage-base-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-21",
+  "timezone": "UTC",
+  "theme": "饮品",
+  "items": [
+    {"itemId": "beverage-espresso", "label": "浓缩咖啡"},
+    {"itemId": "beverage-green-tea", "label": "绿茶"},
+    {"itemId": "beverage-black-tea", "label": "红茶"},
+    {"itemId": "beverage-orange-juice", "label": "橙汁"},
+    {"itemId": "beverage-lemonade", "label": "柠檬水"},
+    {"itemId": "beverage-smoothie", "label": "水果冰沙"},
+    {"itemId": "beverage-milk", "label": "牛奶"},
+    {"itemId": "beverage-hot-chocolate", "label": "热巧克力"},
+    {"itemId": "beverage-milkshake", "label": "奶昔"},
+    {"itemId": "beverage-yogurt-drink", "label": "酸奶饮料"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "主要基底",
+    "groups": [
+      {"groupId": "g1", "label": "咖啡", "capacity": 1, "itemIds": ["beverage-espresso"]},
+      {"groupId": "g2", "label": "茶", "capacity": 2, "itemIds": ["beverage-green-tea", "beverage-black-tea"]},
+      {"groupId": "g3", "label": "水果", "capacity": 3, "itemIds": ["beverage-orange-juice", "beverage-lemonade", "beverage-smoothie"]},
+      {"groupId": "g4", "label": "乳制品", "capacity": 4, "itemIds": ["beverage-milk", "beverage-hot-chocolate", "beverage-milkshake", "beverage-yogurt-drink"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组饮品有相似的主要基底：1 种咖啡、2 种茶、3 种水果饮品和 4 种乳制饮品。",
+  "sources": [
+    {"title": "大英百科全书：饮料", "url": "https://www.britannica.com/topic/beverage", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.33},
+  "status": "scheduled"
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "global-brand-category-2026-09-26-es-419",
+  "puzzleFamilyId": "global-brand-category-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-26",
+  "timezone": "UTC",
+  "theme": "Marcas globales",
+  "items": [
+    {"itemId": "brand-google", "label": "Google"},
+    {"itemId": "brand-apple", "label": "Apple"},
+    {"itemId": "brand-samsung", "label": "Samsung"},
+    {"itemId": "brand-netflix", "label": "Netflix"},
+    {"itemId": "brand-youtube", "label": "YouTube"},
+    {"itemId": "brand-disney-plus", "label": "Disney+"},
+    {"itemId": "brand-nike", "label": "Nike"},
+    {"itemId": "brand-adidas", "label": "Adidas"},
+    {"itemId": "brand-puma", "label": "Puma"},
+    {"itemId": "brand-converse", "label": "Converse"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "industria",
+    "groups": [
+      {"groupId": "g1", "label": "Motor de búsqueda", "capacity": 1, "itemIds": ["brand-google"]},
+      {"groupId": "g2", "label": "Fabricantes de smartphones", "capacity": 2, "itemIds": ["brand-apple", "brand-samsung"]},
+      {"groupId": "g3", "label": "Servicios de streaming", "capacity": 3, "itemIds": ["brand-netflix", "brand-youtube", "brand-disney-plus"]},
+      {"groupId": "g4", "label": "Marcas deportivas", "capacity": 4, "itemIds": ["brand-nike", "brand-adidas", "brand-puma", "brand-converse"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo de marcas pertenece a una misma industria: 1 motor de búsqueda, 2 fabricantes de smartphones, 3 servicios de streaming y 4 marcas deportivas.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Brand", "url": "https://www.britannica.com/topic/brand", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.22},
+  "status": "scheduled"
+}

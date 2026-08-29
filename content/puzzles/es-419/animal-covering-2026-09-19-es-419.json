@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-covering-2026-09-19-es-419",
+  "puzzleFamilyId": "animal-covering-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-19",
+  "timezone": "UTC",
+  "theme": "Cubiertas de animales",
+  "items": [
+    {"itemId": "covering-eagle", "label": "Águila"},
+    {"itemId": "covering-dog", "label": "Perro"},
+    {"itemId": "covering-cat", "label": "Gato"},
+    {"itemId": "covering-snake", "label": "Serpiente"},
+    {"itemId": "covering-fish", "label": "Pez"},
+    {"itemId": "covering-lizard", "label": "Lagarto"},
+    {"itemId": "covering-turtle", "label": "Tortuga"},
+    {"itemId": "covering-snail", "label": "Caracol"},
+    {"itemId": "covering-oyster", "label": "Ostra"},
+    {"itemId": "covering-clam", "label": "Almeja"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "cobertura exterior",
+    "groups": [
+      {"groupId": "g1", "label": "Plumas", "capacity": 1, "itemIds": ["covering-eagle"]},
+      {"groupId": "g2", "label": "Pelo", "capacity": 2, "itemIds": ["covering-dog", "covering-cat"]},
+      {"groupId": "g3", "label": "Escamas", "capacity": 3, "itemIds": ["covering-snake", "covering-fish", "covering-lizard"]},
+      {"groupId": "g4", "label": "Conchas", "capacity": 4, "itemIds": ["covering-turtle", "covering-snail", "covering-oyster", "covering-clam"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo reúne animales con una cobertura exterior parecida: 1 con plumas, 2 con pelo, 3 con escamas y 4 con concha.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Animal", "url": "https://www.britannica.com/animal/animal", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.29},
+  "status": "scheduled"
+}

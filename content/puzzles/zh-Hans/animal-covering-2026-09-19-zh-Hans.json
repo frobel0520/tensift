@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-covering-2026-09-19-zh-hans",
+  "puzzleFamilyId": "animal-covering-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-19",
+  "timezone": "UTC",
+  "theme": "动物外覆",
+  "items": [
+    {"itemId": "covering-eagle", "label": "鹰"},
+    {"itemId": "covering-dog", "label": "狗"},
+    {"itemId": "covering-cat", "label": "猫"},
+    {"itemId": "covering-snake", "label": "蛇"},
+    {"itemId": "covering-fish", "label": "鱼"},
+    {"itemId": "covering-lizard", "label": "蜥蜴"},
+    {"itemId": "covering-turtle", "label": "乌龟"},
+    {"itemId": "covering-snail", "label": "蜗牛"},
+    {"itemId": "covering-oyster", "label": "牡蛎"},
+    {"itemId": "covering-clam", "label": "蛤蜊"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "外部覆盖",
+    "groups": [
+      {"groupId": "g1", "label": "羽毛", "capacity": 1, "itemIds": ["covering-eagle"]},
+      {"groupId": "g2", "label": "毛皮", "capacity": 2, "itemIds": ["covering-dog", "covering-cat"]},
+      {"groupId": "g3", "label": "鳞片", "capacity": 3, "itemIds": ["covering-snake", "covering-fish", "covering-lizard"]},
+      {"groupId": "g4", "label": "贝壳", "capacity": 4, "itemIds": ["covering-turtle", "covering-snail", "covering-oyster", "covering-clam"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组动物都有相似的外部覆盖：1 种羽毛、2 种毛皮、3 种鳞片和 4 种贝壳。",
+  "sources": [
+    {"title": "大英百科全书：动物", "url": "https://www.britannica.com/animal/animal", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.29},
+  "status": "scheduled"
+}

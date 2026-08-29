@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "appliance-purpose-2026-09-24-es-419",
+  "puzzleFamilyId": "appliance-purpose-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-24",
+  "timezone": "UTC",
+  "theme": "Electrodomésticos",
+  "items": [
+    {"itemId": "appliance-refrigerator", "label": "Refrigerador"},
+    {"itemId": "appliance-oven", "label": "Horno"},
+    {"itemId": "appliance-microwave", "label": "Microondas"},
+    {"itemId": "appliance-washing-machine", "label": "Lavadora"},
+    {"itemId": "appliance-dishwasher", "label": "Lavavajillas"},
+    {"itemId": "appliance-vacuum", "label": "Aspiradora"},
+    {"itemId": "appliance-television", "label": "Televisor"},
+    {"itemId": "appliance-radio", "label": "Radio"},
+    {"itemId": "appliance-game-console", "label": "Consola de videojuegos"},
+    {"itemId": "appliance-speaker", "label": "Altavoz"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "uso habitual",
+    "groups": [
+      {"groupId": "g1", "label": "Refrigeración", "capacity": 1, "itemIds": ["appliance-refrigerator"]},
+      {"groupId": "g2", "label": "Calentamiento", "capacity": 2, "itemIds": ["appliance-oven", "appliance-microwave"]},
+      {"groupId": "g3", "label": "Limpieza", "capacity": 3, "itemIds": ["appliance-washing-machine", "appliance-dishwasher", "appliance-vacuum"]},
+      {"groupId": "g4", "label": "Entretenimiento", "capacity": 4, "itemIds": ["appliance-television", "appliance-radio", "appliance-game-console", "appliance-speaker"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo reúne electrodomésticos con un uso habitual parecido: 1 de refrigeración, 2 de calentamiento, 3 de limpieza y 4 de entretenimiento.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Household appliance", "url": "https://www.britannica.com/technology/household-appliance", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.27},
+  "status": "scheduled"
+}

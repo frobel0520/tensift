@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "clothing-location-2026-09-18-en",
+  "puzzleFamilyId": "clothing-location-001",
+  "locale": "en",
+  "publishDate": "2026-09-18",
+  "timezone": "UTC",
+  "theme": "Clothing",
+  "items": [
+    {"itemId": "clothing-hat", "label": "Hat"},
+    {"itemId": "clothing-shirt", "label": "Shirt"},
+    {"itemId": "clothing-jacket", "label": "Jacket"},
+    {"itemId": "clothing-pants", "label": "Pants"},
+    {"itemId": "clothing-skirt", "label": "Skirt"},
+    {"itemId": "clothing-shorts", "label": "Shorts"},
+    {"itemId": "clothing-socks", "label": "Socks"},
+    {"itemId": "clothing-shoes", "label": "Shoes"},
+    {"itemId": "clothing-boots", "label": "Boots"},
+    {"itemId": "clothing-sandals", "label": "Sandals"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Where it is worn",
+    "groups": [
+      {"groupId": "g1", "label": "Headwear", "capacity": 1, "itemIds": ["clothing-hat"]},
+      {"groupId": "g2", "label": "Upper body", "capacity": 2, "itemIds": ["clothing-shirt", "clothing-jacket"]},
+      {"groupId": "g3", "label": "Lower body", "capacity": 3, "itemIds": ["clothing-pants", "clothing-skirt", "clothing-shorts"]},
+      {"groupId": "g4", "label": "Footwear", "capacity": 4, "itemIds": ["clothing-socks", "clothing-shoes", "clothing-boots", "clothing-sandals"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group contains clothing worn on the same part of the body: 1 head covering, 2 upper-body items, 3 lower-body items, and 4 footwear items.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Clothing", "url": "https://www.britannica.com/topic/clothing", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.24},
+  "status": "scheduled"
+}

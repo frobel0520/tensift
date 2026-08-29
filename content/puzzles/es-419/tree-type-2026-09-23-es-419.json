@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tree-type-2026-09-23-es-419",
+  "puzzleFamilyId": "tree-type-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-23",
+  "timezone": "UTC",
+  "theme": "Árboles",
+  "items": [
+    {"itemId": "tree-palm", "label": "Palmera"},
+    {"itemId": "tree-pine", "label": "Pino"},
+    {"itemId": "tree-fir", "label": "Abeto"},
+    {"itemId": "tree-oak", "label": "Roble"},
+    {"itemId": "tree-maple", "label": "Arce"},
+    {"itemId": "tree-birch", "label": "Abedul"},
+    {"itemId": "tree-apple", "label": "Manzano"},
+    {"itemId": "tree-orange", "label": "Naranjo"},
+    {"itemId": "tree-cherry", "label": "Cerezo"},
+    {"itemId": "tree-mango", "label": "Árbol de mango"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "tipo de árbol",
+    "groups": [
+      {"groupId": "g1", "label": "Palmeras", "capacity": 1, "itemIds": ["tree-palm"]},
+      {"groupId": "g2", "label": "Coníferas", "capacity": 2, "itemIds": ["tree-pine", "tree-fir"]},
+      {"groupId": "g3", "label": "Árboles de hoja caduca", "capacity": 3, "itemIds": ["tree-oak", "tree-maple", "tree-birch"]},
+      {"groupId": "g4", "label": "Árboles frutales", "capacity": 4, "itemIds": ["tree-apple", "tree-orange", "tree-cherry", "tree-mango"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo contiene un tipo de árbol: 1 palmera, 2 coníferas, 3 árboles de hoja caduca y 4 árboles frutales.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Tree", "url": "https://www.britannica.com/plant/tree", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.39},
+  "status": "scheduled"
+}

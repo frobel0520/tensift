@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "beverage-base-2026-09-21-en",
+  "puzzleFamilyId": "beverage-base-001",
+  "locale": "en",
+  "publishDate": "2026-09-21",
+  "timezone": "UTC",
+  "theme": "Beverages",
+  "items": [
+    {"itemId": "beverage-espresso", "label": "Espresso"},
+    {"itemId": "beverage-green-tea", "label": "Green tea"},
+    {"itemId": "beverage-black-tea", "label": "Black tea"},
+    {"itemId": "beverage-orange-juice", "label": "Orange juice"},
+    {"itemId": "beverage-lemonade", "label": "Lemonade"},
+    {"itemId": "beverage-smoothie", "label": "Fruit smoothie"},
+    {"itemId": "beverage-milk", "label": "Milk"},
+    {"itemId": "beverage-hot-chocolate", "label": "Hot chocolate"},
+    {"itemId": "beverage-milkshake", "label": "Milkshake"},
+    {"itemId": "beverage-yogurt-drink", "label": "Yogurt drink"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Main base",
+    "groups": [
+      {"groupId": "g1", "label": "Coffee", "capacity": 1, "itemIds": ["beverage-espresso"]},
+      {"groupId": "g2", "label": "Tea", "capacity": 2, "itemIds": ["beverage-green-tea", "beverage-black-tea"]},
+      {"groupId": "g3", "label": "Fruit", "capacity": 3, "itemIds": ["beverage-orange-juice", "beverage-lemonade", "beverage-smoothie"]},
+      {"groupId": "g4", "label": "Dairy", "capacity": 4, "itemIds": ["beverage-milk", "beverage-hot-chocolate", "beverage-milkshake", "beverage-yogurt-drink"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group shares a main base: 1 coffee drink, 2 tea drinks, 3 fruit drinks, and 4 dairy-based drinks.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Beverage", "url": "https://www.britannica.com/topic/beverage", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.33},
+  "status": "scheduled"
+}
