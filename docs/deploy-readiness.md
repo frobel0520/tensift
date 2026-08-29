@@ -1,19 +1,19 @@
 # Tensift deploy-readiness checklist
 
-Status: ready for a release review; deployment intentionally not performed  
+Status: deployed to production; release review and monetization approval remain  
 Target: Cloudflare Pages project `tensift` → `https://tensift.pages.dev`
 
 ## Services and accounts
 
 | Service | Required for v1 | Current state | What remains before deploy |
 |---|---:|---|---|
-| Cloudflare Pages | Yes | Project `tensift` created; `tensift.pages.dev` reserved | Connect the source repository or run the reviewed Wrangler deploy command |
-| Cloudflare D1 | Yes | Database `tensift` exists; binding is in `wrangler.toml` | Apply reviewed migrations and seed only the approved release records |
-| GitHub | Recommended | No remote repository is configured in this workspace | Create/import the repository, push `main`/`dev`, and enable branch protection + Actions |
+| Cloudflare Pages | Yes | Project `tensift` deployed at `https://tensift.pages.dev` | Keep the Wrangler deploy path or create a new Git-integrated project if automatic Pages builds are later required |
+| Cloudflare D1 | Yes | Database `tensift` exists and is bound in `wrangler.toml` | Apply reviewed migrations and seed only the approved release records |
+| GitHub | Recommended | Public repository and green Actions workflow are configured | Add branch protection when the release process is finalized |
 | Custom domain / registrar | No | Not needed | `tensift.pages.dev` avoids domain purchase and keeps Cloudflare out of the player-facing name |
 | Analytics | No for v1 | Not connected | Add only after a privacy decision and a consent/retention review |
 | Error monitoring | No for v1 | Not connected | Optional follow-up; do not add a client secret to the bundle |
-| Google AdSense | Optional revenue | Top responsive slot implemented; account and IDs not configured | Obtain AdSense approval, create a display unit, set `VITE_ADSENSE_CLIENT_ID` / `VITE_ADSENSE_TOP_SLOT`, publish `ads.txt`, and review privacy/consent |
+| Google AdSense | Optional revenue | Production slot and `ads.txt` are configured; site/account review is pending | Complete Google approval and privacy/consent review; re-inject public Vite IDs for each future Direct Upload build |
 
 No paid custom domain is required for the chosen URL. Cloudflare Pages and D1 are still the hosting/data services behind it; their free-plan limits and current pricing should be checked in the Cloudflare dashboard before launch.
 
