@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fictional-roles-2026-09-17-en",
+  "puzzleFamilyId": "fictional-role-001",
+  "locale": "en",
+  "publishDate": "2026-09-17",
+  "timezone": "UTC",
+  "theme": "Fictional Characters",
+  "items": [
+    {"itemId": "fiction-harry-potter", "label": "Harry Potter"},
+    {"itemId": "fiction-sherlock-holmes", "label": "Sherlock Holmes"},
+    {"itemId": "fiction-hercule-poirot", "label": "Hercule Poirot"},
+    {"itemId": "fiction-superman", "label": "Superman"},
+    {"itemId": "fiction-batman", "label": "Batman"},
+    {"itemId": "fiction-spider-man", "label": "Spider-Man"},
+    {"itemId": "fiction-mickey-mouse", "label": "Mickey Mouse"},
+    {"itemId": "fiction-spongebob", "label": "SpongeBob SquarePants"},
+    {"itemId": "fiction-scooby-doo", "label": "Scooby-Doo"},
+    {"itemId": "fiction-pikachu", "label": "Pikachu"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Character type",
+    "groups": [
+      {"groupId": "g1", "label": "Wizard", "capacity": 1, "itemIds": ["fiction-harry-potter"]},
+      {"groupId": "g2", "label": "Detectives", "capacity": 2, "itemIds": ["fiction-sherlock-holmes", "fiction-hercule-poirot"]},
+      {"groupId": "g3", "label": "Superheroes", "capacity": 3, "itemIds": ["fiction-superman", "fiction-batman", "fiction-spider-man"]},
+      {"groupId": "g4", "label": "Cartoon characters", "capacity": 4, "itemIds": ["fiction-mickey-mouse", "fiction-spongebob", "fiction-scooby-doo", "fiction-pikachu"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group contains familiar fictional characters of the same type: 1 wizard, 2 detectives, 3 superheroes, and 4 cartoon characters.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Fiction", "url": "https://www.britannica.com/art/fiction-literature", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.30},
+  "status": "scheduled"
+}

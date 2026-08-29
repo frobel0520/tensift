@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "breakfast-grain-2026-09-13-en",
+  "puzzleFamilyId": "breakfast-grain-001",
+  "locale": "en",
+  "publishDate": "2026-09-13",
+  "timezone": "UTC",
+  "theme": "Breakfast",
+  "items": [
+    {"itemId": "breakfast-cornflakes", "label": "Cornflakes"},
+    {"itemId": "breakfast-oatmeal", "label": "Oatmeal"},
+    {"itemId": "breakfast-granola", "label": "Granola"},
+    {"itemId": "breakfast-toast", "label": "Toast"},
+    {"itemId": "breakfast-pancakes", "label": "Pancakes"},
+    {"itemId": "breakfast-waffles", "label": "Waffles"},
+    {"itemId": "breakfast-congee", "label": "Congee"},
+    {"itemId": "breakfast-rice-cakes", "label": "Rice cakes"},
+    {"itemId": "breakfast-mochi", "label": "Mochi"},
+    {"itemId": "breakfast-onigiri", "label": "Onigiri"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Main grain",
+    "groups": [
+      {"groupId": "g1", "label": "Corn", "capacity": 1, "itemIds": ["breakfast-cornflakes"]},
+      {"groupId": "g2", "label": "Oats", "capacity": 2, "itemIds": ["breakfast-oatmeal", "breakfast-granola"]},
+      {"groupId": "g3", "label": "Wheat", "capacity": 3, "itemIds": ["breakfast-toast", "breakfast-pancakes", "breakfast-waffles"]},
+      {"groupId": "g4", "label": "Rice", "capacity": 4, "itemIds": ["breakfast-congee", "breakfast-rice-cakes", "breakfast-mochi", "breakfast-onigiri"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group shares a main grain found in familiar breakfast or morning foods: 1 corn food, 2 oat foods, 3 wheat foods, and 4 rice foods.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Breakfast", "url": "https://www.britannica.com/topic/breakfast", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.34},
+  "status": "scheduled"
+}

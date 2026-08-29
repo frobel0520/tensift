@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "material-origin-2026-09-15-zh-hans",
+  "puzzleFamilyId": "material-origin-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-15",
+  "timezone": "UTC",
+  "theme": "材料",
+  "items": [
+    {"itemId": "material-cotton", "label": "棉花"},
+    {"itemId": "material-wool", "label": "羊毛"},
+    {"itemId": "material-silk", "label": "丝绸"},
+    {"itemId": "material-gold", "label": "黄金"},
+    {"itemId": "material-copper", "label": "铜"},
+    {"itemId": "material-iron", "label": "铁"},
+    {"itemId": "material-plastic", "label": "塑料"},
+    {"itemId": "material-nylon", "label": "尼龙"},
+    {"itemId": "material-polyester", "label": "聚酯"},
+    {"itemId": "material-acrylic", "label": "腈纶"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "来源",
+    "groups": [
+      {"groupId": "g1", "label": "植物来源", "capacity": 1, "itemIds": ["material-cotton"]},
+      {"groupId": "g2", "label": "动物来源", "capacity": 2, "itemIds": ["material-wool", "material-silk"]},
+      {"groupId": "g3", "label": "矿物", "capacity": 3, "itemIds": ["material-gold", "material-copper", "material-iron"]},
+      {"groupId": "g4", "label": "合成材料", "capacity": 4, "itemIds": ["material-plastic", "material-nylon", "material-polyester", "material-acrylic"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组共享一种广义来源：1 种植物来源材料、2 种动物来源材料、3 种矿物和 4 种合成材料。",
+  "sources": [
+    {"title": "大英百科全书：材料", "url": "https://www.britannica.com/technology/material", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.40},
+  "status": "scheduled"
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fictional-roles-2026-09-17-es-419",
+  "puzzleFamilyId": "fictional-role-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-17",
+  "timezone": "UTC",
+  "theme": "Personajes ficticios",
+  "items": [
+    {"itemId": "fiction-harry-potter", "label": "Harry Potter"},
+    {"itemId": "fiction-sherlock-holmes", "label": "Sherlock Holmes"},
+    {"itemId": "fiction-hercule-poirot", "label": "Hércules Poirot"},
+    {"itemId": "fiction-superman", "label": "Superman"},
+    {"itemId": "fiction-batman", "label": "Batman"},
+    {"itemId": "fiction-spider-man", "label": "Spider-Man"},
+    {"itemId": "fiction-mickey-mouse", "label": "Mickey Mouse"},
+    {"itemId": "fiction-spongebob", "label": "Bob Esponja"},
+    {"itemId": "fiction-scooby-doo", "label": "Scooby-Doo"},
+    {"itemId": "fiction-pikachu", "label": "Pikachu"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "tipo de personaje",
+    "groups": [
+      {"groupId": "g1", "label": "Mago", "capacity": 1, "itemIds": ["fiction-harry-potter"]},
+      {"groupId": "g2", "label": "Detectives", "capacity": 2, "itemIds": ["fiction-sherlock-holmes", "fiction-hercule-poirot"]},
+      {"groupId": "g3", "label": "Superhéroes", "capacity": 3, "itemIds": ["fiction-superman", "fiction-batman", "fiction-spider-man"]},
+      {"groupId": "g4", "label": "Personajes de dibujos animados", "capacity": 4, "itemIds": ["fiction-mickey-mouse", "fiction-spongebob", "fiction-scooby-doo", "fiction-pikachu"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo contiene personajes ficticios conocidos del mismo tipo: 1 mago, 2 detectives, 3 superhéroes y 4 personajes de dibujos animados.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Fiction", "url": "https://www.britannica.com/art/fiction-literature", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.30},
+  "status": "scheduled"
+}

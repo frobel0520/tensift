@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "language-script-2026-09-12-en",
+  "puzzleFamilyId": "language-script-001",
+  "locale": "en",
+  "publishDate": "2026-09-12",
+  "timezone": "UTC",
+  "theme": "Languages",
+  "items": [
+    {"itemId": "language-greek", "label": "Greek"},
+    {"itemId": "language-russian", "label": "Russian"},
+    {"itemId": "language-ukrainian", "label": "Ukrainian"},
+    {"itemId": "language-arabic", "label": "Arabic"},
+    {"itemId": "language-persian", "label": "Persian"},
+    {"itemId": "language-urdu", "label": "Urdu"},
+    {"itemId": "language-english", "label": "English"},
+    {"itemId": "language-spanish", "label": "Spanish"},
+    {"itemId": "language-french", "label": "French"},
+    {"itemId": "language-german", "label": "German"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Writing system",
+    "groups": [
+      {"groupId": "g1", "label": "Greek script", "capacity": 1, "itemIds": ["language-greek"]},
+      {"groupId": "g2", "label": "Cyrillic", "capacity": 2, "itemIds": ["language-russian", "language-ukrainian"]},
+      {"groupId": "g3", "label": "Arabic script", "capacity": 3, "itemIds": ["language-arabic", "language-persian", "language-urdu"]},
+      {"groupId": "g4", "label": "Latin", "capacity": 4, "itemIds": ["language-english", "language-spanish", "language-french", "language-german"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group uses the same writing system: 1 Greek-script language, 2 Cyrillic languages, 3 Arabic-script languages, and 4 Latin-script languages.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Writing", "url": "https://www.britannica.com/topic/writing", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.46},
+  "status": "scheduled"
+}

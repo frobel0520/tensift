@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tools-purpose-2026-09-14-en",
+  "puzzleFamilyId": "tools-purpose-001",
+  "locale": "en",
+  "publishDate": "2026-09-14",
+  "timezone": "UTC",
+  "theme": "Everyday Tools",
+  "items": [
+    {"itemId": "tool-scissors", "label": "Scissors"},
+    {"itemId": "tool-hammer", "label": "Hammer"},
+    {"itemId": "tool-screwdriver", "label": "Screwdriver"},
+    {"itemId": "tool-ruler", "label": "Ruler"},
+    {"itemId": "tool-tape-measure", "label": "Tape measure"},
+    {"itemId": "tool-thermometer", "label": "Thermometer"},
+    {"itemId": "tool-pencil", "label": "Pencil"},
+    {"itemId": "tool-pen", "label": "Pen"},
+    {"itemId": "tool-marker", "label": "Marker"},
+    {"itemId": "tool-crayon", "label": "Crayon"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Typical job",
+    "groups": [
+      {"groupId": "g1", "label": "Cutting", "capacity": 1, "itemIds": ["tool-scissors"]},
+      {"groupId": "g2", "label": "Fastening", "capacity": 2, "itemIds": ["tool-hammer", "tool-screwdriver"]},
+      {"groupId": "g3", "label": "Measuring", "capacity": 3, "itemIds": ["tool-ruler", "tool-tape-measure", "tool-thermometer"]},
+      {"groupId": "g4", "label": "Writing and drawing", "capacity": 4, "itemIds": ["tool-pencil", "tool-pen", "tool-marker", "tool-crayon"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group shares a typical job: 1 cutting tool, 2 fastening tools, 3 measuring tools, and 4 writing or drawing tools.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Tool", "url": "https://www.britannica.com/technology/tool", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.28},
+  "status": "scheduled"
+}

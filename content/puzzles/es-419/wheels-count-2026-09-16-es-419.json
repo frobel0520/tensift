@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "wheels-count-2026-09-16-es-419",
+  "puzzleFamilyId": "wheels-count-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-16",
+  "timezone": "UTC",
+  "theme": "Cosas con ruedas",
+  "items": [
+    {"itemId": "wheel-unicycle", "label": "Monociclo"},
+    {"itemId": "wheel-bicycle", "label": "Bicicleta"},
+    {"itemId": "wheel-motorcycle", "label": "Motocicleta"},
+    {"itemId": "wheel-tricycle", "label": "Triciclo"},
+    {"itemId": "wheel-tuk-tuk", "label": "Tuk-tuk"},
+    {"itemId": "wheel-pedicab", "label": "Bicitaxi"},
+    {"itemId": "wheel-car", "label": "Auto"},
+    {"itemId": "wheel-bus", "label": "Autobús"},
+    {"itemId": "wheel-wagon", "label": "Carreta"},
+    {"itemId": "wheel-skateboard", "label": "Patineta"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "número de ruedas",
+    "groups": [
+      {"groupId": "g1", "label": "Una rueda", "capacity": 1, "itemIds": ["wheel-unicycle"]},
+      {"groupId": "g2", "label": "Dos ruedas", "capacity": 2, "itemIds": ["wheel-bicycle", "wheel-motorcycle"]},
+      {"groupId": "g3", "label": "Tres ruedas", "capacity": 3, "itemIds": ["wheel-tricycle", "wheel-tuk-tuk", "wheel-pedicab"]},
+      {"groupId": "g4", "label": "Cuatro ruedas", "capacity": 4, "itemIds": ["wheel-car", "wheel-bus", "wheel-wagon", "wheel-skateboard"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo contiene cosas con el mismo número de ruedas: 1, 2, 3 o 4.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Wheel", "url": "https://www.britannica.com/technology/wheel", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.43},
+  "status": "scheduled"
+}

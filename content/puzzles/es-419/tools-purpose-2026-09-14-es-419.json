@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tools-purpose-2026-09-14-es-419",
+  "puzzleFamilyId": "tools-purpose-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-14",
+  "timezone": "UTC",
+  "theme": "Herramientas cotidianas",
+  "items": [
+    {"itemId": "tool-scissors", "label": "Tijeras"},
+    {"itemId": "tool-hammer", "label": "Martillo"},
+    {"itemId": "tool-screwdriver", "label": "Destornillador"},
+    {"itemId": "tool-ruler", "label": "Regla"},
+    {"itemId": "tool-tape-measure", "label": "Cinta métrica"},
+    {"itemId": "tool-thermometer", "label": "Termómetro"},
+    {"itemId": "tool-pencil", "label": "Lápiz"},
+    {"itemId": "tool-pen", "label": "Bolígrafo"},
+    {"itemId": "tool-marker", "label": "Marcador"},
+    {"itemId": "tool-crayon", "label": "Crayón"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "uso habitual",
+    "groups": [
+      {"groupId": "g1", "label": "Cortar", "capacity": 1, "itemIds": ["tool-scissors"]},
+      {"groupId": "g2", "label": "Fijar", "capacity": 2, "itemIds": ["tool-hammer", "tool-screwdriver"]},
+      {"groupId": "g3", "label": "Medir", "capacity": 3, "itemIds": ["tool-ruler", "tool-tape-measure", "tool-thermometer"]},
+      {"groupId": "g4", "label": "Escribir y dibujar", "capacity": 4, "itemIds": ["tool-pencil", "tool-pen", "tool-marker", "tool-crayon"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo comparte un uso habitual: 1 herramienta para cortar, 2 para fijar, 3 para medir y 4 para escribir o dibujar.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Tool", "url": "https://www.britannica.com/technology/tool", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.28},
+  "status": "scheduled"
+}

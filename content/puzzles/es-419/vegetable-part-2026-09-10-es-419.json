@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vegetable-part-2026-09-10-es-419",
+  "puzzleFamilyId": "vegetable-part-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-10",
+  "timezone": "UTC",
+  "theme": "Verduras",
+  "items": [
+    {"itemId": "vegetable-carrot", "label": "Zanahoria"},
+    {"itemId": "vegetable-lettuce", "label": "Lechuga"},
+    {"itemId": "vegetable-spinach", "label": "Espinaca"},
+    {"itemId": "vegetable-broccoli", "label": "Brócoli"},
+    {"itemId": "vegetable-cauliflower", "label": "Coliflor"},
+    {"itemId": "vegetable-artichoke", "label": "Alcachofa"},
+    {"itemId": "vegetable-tomato", "label": "Tomate"},
+    {"itemId": "vegetable-cucumber", "label": "Pepino"},
+    {"itemId": "vegetable-bell-pepper", "label": "Pimiento"},
+    {"itemId": "vegetable-eggplant", "label": "Berenjena"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "parte comestible de la planta",
+    "groups": [
+      {"groupId": "g1", "label": "Raíces", "capacity": 1, "itemIds": ["vegetable-carrot"]},
+      {"groupId": "g2", "label": "Hojas", "capacity": 2, "itemIds": ["vegetable-lettuce", "vegetable-spinach"]},
+      {"groupId": "g3", "label": "Flores", "capacity": 3, "itemIds": ["vegetable-broccoli", "vegetable-cauliflower", "vegetable-artichoke"]},
+      {"groupId": "g4", "label": "Frutos", "capacity": 4, "itemIds": ["vegetable-tomato", "vegetable-cucumber", "vegetable-bell-pepper", "vegetable-eggplant"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo se basa en la parte comestible de la planta: 1 raíz, 2 hojas, 3 flores y 4 frutos botánicos que suelen usarse como verduras.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Vegetable", "url": "https://www.britannica.com/topic/vegetable", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.42},
+  "status": "scheduled"
+}

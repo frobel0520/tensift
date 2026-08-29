@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "body-region-2026-09-09-zh-hans",
+  "puzzleFamilyId": "body-region-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-09",
+  "timezone": "UTC",
+  "theme": "人体",
+  "items": [
+    {"itemId": "body-brain", "label": "大脑"},
+    {"itemId": "body-heart", "label": "心脏"},
+    {"itemId": "body-lungs", "label": "肺"},
+    {"itemId": "body-stomach", "label": "胃"},
+    {"itemId": "body-liver", "label": "肝脏"},
+    {"itemId": "body-kidneys", "label": "肾脏"},
+    {"itemId": "body-arm", "label": "手臂"},
+    {"itemId": "body-leg", "label": "腿"},
+    {"itemId": "body-hand", "label": "手"},
+    {"itemId": "body-foot", "label": "脚"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "身体部位",
+    "groups": [
+      {"groupId": "g1", "label": "头部", "capacity": 1, "itemIds": ["body-brain"]},
+      {"groupId": "g2", "label": "胸部", "capacity": 2, "itemIds": ["body-heart", "body-lungs"]},
+      {"groupId": "g3", "label": "腹部", "capacity": 3, "itemIds": ["body-stomach", "body-liver", "body-kidneys"]},
+      {"groupId": "g4", "label": "四肢", "capacity": 4, "itemIds": ["body-arm", "body-leg", "body-hand", "body-foot"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组包含来自同一大致身体部位的器官或部位：1 个头部器官、2 个胸部器官、3 个腹部器官和 4 个四肢部位。",
+  "sources": [
+    {"title": "大英百科全书：人体", "url": "https://www.britannica.com/science/human-body", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.32},
+  "status": "scheduled"
+}

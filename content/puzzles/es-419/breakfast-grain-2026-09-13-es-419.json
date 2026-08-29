@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "breakfast-grain-2026-09-13-es-419",
+  "puzzleFamilyId": "breakfast-grain-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-13",
+  "timezone": "UTC",
+  "theme": "Desayuno",
+  "items": [
+    {"itemId": "breakfast-cornflakes", "label": "Hojuelas de maíz"},
+    {"itemId": "breakfast-oatmeal", "label": "Avena"},
+    {"itemId": "breakfast-granola", "label": "Granola"},
+    {"itemId": "breakfast-toast", "label": "Tostada"},
+    {"itemId": "breakfast-pancakes", "label": "Panqueques"},
+    {"itemId": "breakfast-waffles", "label": "Gofres"},
+    {"itemId": "breakfast-congee", "label": "Gachas de arroz"},
+    {"itemId": "breakfast-rice-cakes", "label": "Tortitas de arroz"},
+    {"itemId": "breakfast-mochi", "label": "Mochi"},
+    {"itemId": "breakfast-onigiri", "label": "Onigiri"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "cereal principal",
+    "groups": [
+      {"groupId": "g1", "label": "Maíz", "capacity": 1, "itemIds": ["breakfast-cornflakes"]},
+      {"groupId": "g2", "label": "Avena", "capacity": 2, "itemIds": ["breakfast-oatmeal", "breakfast-granola"]},
+      {"groupId": "g3", "label": "Trigo", "capacity": 3, "itemIds": ["breakfast-toast", "breakfast-pancakes", "breakfast-waffles"]},
+      {"groupId": "g4", "label": "Arroz", "capacity": 4, "itemIds": ["breakfast-congee", "breakfast-rice-cakes", "breakfast-mochi", "breakfast-onigiri"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo comparte un cereal principal presente en alimentos conocidos del desayuno o de la mañana: 1 de maíz, 2 de avena, 3 de trigo y 4 de arroz.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Breakfast", "url": "https://www.britannica.com/topic/breakfast", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.34},
+  "status": "scheduled"
+}

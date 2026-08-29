@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "material-origin-2026-09-15-es-419",
+  "puzzleFamilyId": "material-origin-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-15",
+  "timezone": "UTC",
+  "theme": "Materiales",
+  "items": [
+    {"itemId": "material-cotton", "label": "Algodón"},
+    {"itemId": "material-wool", "label": "Lana"},
+    {"itemId": "material-silk", "label": "Seda"},
+    {"itemId": "material-gold", "label": "Oro"},
+    {"itemId": "material-copper", "label": "Cobre"},
+    {"itemId": "material-iron", "label": "Hierro"},
+    {"itemId": "material-plastic", "label": "Plástico"},
+    {"itemId": "material-nylon", "label": "Nailon"},
+    {"itemId": "material-polyester", "label": "Poliéster"},
+    {"itemId": "material-acrylic", "label": "Acrílico"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "origen",
+    "groups": [
+      {"groupId": "g1", "label": "Vegetal", "capacity": 1, "itemIds": ["material-cotton"]},
+      {"groupId": "g2", "label": "Animal", "capacity": 2, "itemIds": ["material-wool", "material-silk"]},
+      {"groupId": "g3", "label": "Mineral", "capacity": 3, "itemIds": ["material-gold", "material-copper", "material-iron"]},
+      {"groupId": "g4", "label": "Sintético", "capacity": 4, "itemIds": ["material-plastic", "material-nylon", "material-polyester", "material-acrylic"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo comparte un origen general: 1 material vegetal, 2 materiales animales, 3 minerales y 4 materiales sintéticos.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Material", "url": "https://www.britannica.com/technology/material", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.40},
+  "status": "scheduled"
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "body-region-2026-09-09-es-419",
+  "puzzleFamilyId": "body-region-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-09",
+  "timezone": "UTC",
+  "theme": "El cuerpo humano",
+  "items": [
+    {"itemId": "body-brain", "label": "Cerebro"},
+    {"itemId": "body-heart", "label": "Corazón"},
+    {"itemId": "body-lungs", "label": "Pulmones"},
+    {"itemId": "body-stomach", "label": "Estómago"},
+    {"itemId": "body-liver", "label": "Hígado"},
+    {"itemId": "body-kidneys", "label": "Riñones"},
+    {"itemId": "body-arm", "label": "Brazo"},
+    {"itemId": "body-leg", "label": "Pierna"},
+    {"itemId": "body-hand", "label": "Mano"},
+    {"itemId": "body-foot", "label": "Pie"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "región del cuerpo",
+    "groups": [
+      {"groupId": "g1", "label": "Cabeza", "capacity": 1, "itemIds": ["body-brain"]},
+      {"groupId": "g2", "label": "Pecho", "capacity": 2, "itemIds": ["body-heart", "body-lungs"]},
+      {"groupId": "g3", "label": "Abdomen", "capacity": 3, "itemIds": ["body-stomach", "body-liver", "body-kidneys"]},
+      {"groupId": "g4", "label": "Extremidades", "capacity": 4, "itemIds": ["body-arm", "body-leg", "body-hand", "body-foot"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Cada grupo contiene partes u órganos de la misma región general: 1 órgano de la cabeza, 2 del pecho, 3 del abdomen y 4 extremidades.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Human body", "url": "https://www.britannica.com/science/human-body", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.32},
+  "status": "scheduled"
+}

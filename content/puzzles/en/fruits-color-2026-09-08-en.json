@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fruits-color-2026-09-08-en",
+  "puzzleFamilyId": "fruit-color-001",
+  "locale": "en",
+  "publishDate": "2026-09-08",
+  "timezone": "UTC",
+  "theme": "Fruits",
+  "items": [
+    {"itemId": "fruit-strawberry", "label": "Strawberry"},
+    {"itemId": "fruit-banana", "label": "Banana"},
+    {"itemId": "fruit-lemon", "label": "Lemon"},
+    {"itemId": "fruit-orange", "label": "Orange"},
+    {"itemId": "fruit-peach", "label": "Peach"},
+    {"itemId": "fruit-papaya", "label": "Papaya"},
+    {"itemId": "fruit-kiwi", "label": "Kiwi"},
+    {"itemId": "fruit-lime", "label": "Lime"},
+    {"itemId": "fruit-avocado", "label": "Avocado"},
+    {"itemId": "fruit-pear", "label": "Pear"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Common color",
+    "groups": [
+      {"groupId": "g1", "label": "Red", "capacity": 1, "itemIds": ["fruit-strawberry"]},
+      {"groupId": "g2", "label": "Yellow", "capacity": 2, "itemIds": ["fruit-banana", "fruit-lemon"]},
+      {"groupId": "g3", "label": "Orange", "capacity": 3, "itemIds": ["fruit-orange", "fruit-peach", "fruit-papaya"]},
+      {"groupId": "g4", "label": "Green", "capacity": 4, "itemIds": ["fruit-kiwi", "fruit-lime", "fruit-avocado", "fruit-pear"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group contains fruits commonly associated with the same color: 1 red fruit, 2 yellow fruits, 3 orange fruits, and 4 green fruits.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: Fruit", "url": "https://www.britannica.com/science/fruit", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.26},
+  "status": "scheduled"
+}

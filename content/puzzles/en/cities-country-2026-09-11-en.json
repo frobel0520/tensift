@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cities-country-2026-09-11-en",
+  "puzzleFamilyId": "cities-country-001",
+  "locale": "en",
+  "publishDate": "2026-09-11",
+  "timezone": "UTC",
+  "theme": "World Cities",
+  "items": [
+    {"itemId": "city-rio-de-janeiro", "label": "Rio de Janeiro"},
+    {"itemId": "city-tokyo", "label": "Tokyo"},
+    {"itemId": "city-kyoto", "label": "Kyoto"},
+    {"itemId": "city-new-york", "label": "New York"},
+    {"itemId": "city-los-angeles", "label": "Los Angeles"},
+    {"itemId": "city-chicago", "label": "Chicago"},
+    {"itemId": "city-rome", "label": "Rome"},
+    {"itemId": "city-venice", "label": "Venice"},
+    {"itemId": "city-milan", "label": "Milan"},
+    {"itemId": "city-florence", "label": "Florence"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "Country",
+    "groups": [
+      {"groupId": "g1", "label": "Brazil", "capacity": 1, "itemIds": ["city-rio-de-janeiro"]},
+      {"groupId": "g2", "label": "Japan", "capacity": 2, "itemIds": ["city-tokyo", "city-kyoto"]},
+      {"groupId": "g3", "label": "United States", "capacity": 3, "itemIds": ["city-new-york", "city-los-angeles", "city-chicago"]},
+      {"groupId": "g4", "label": "Italy", "capacity": 4, "itemIds": ["city-rome", "city-venice", "city-milan", "city-florence"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "Each group contains famous cities from the same country: 1 Brazilian city, 2 Japanese cities, 3 U.S. cities, and 4 Italian cities.",
+  "sources": [
+    {"title": "Encyclopaedia Britannica: City", "url": "https://www.britannica.com/topic/city", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.30},
+  "status": "scheduled"
+}

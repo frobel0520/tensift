@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "wheels-count-2026-09-16-zh-hans",
+  "puzzleFamilyId": "wheels-count-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-16",
+  "timezone": "UTC",
+  "theme": "轮子物品",
+  "items": [
+    {"itemId": "wheel-unicycle", "label": "独轮车"},
+    {"itemId": "wheel-bicycle", "label": "自行车"},
+    {"itemId": "wheel-motorcycle", "label": "摩托车"},
+    {"itemId": "wheel-tricycle", "label": "三轮车"},
+    {"itemId": "wheel-tuk-tuk", "label": "嘟嘟车"},
+    {"itemId": "wheel-pedicab", "label": "人力车"},
+    {"itemId": "wheel-car", "label": "汽车"},
+    {"itemId": "wheel-bus", "label": "公共汽车"},
+    {"itemId": "wheel-wagon", "label": "马车"},
+    {"itemId": "wheel-skateboard", "label": "滑板"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "轮子数量",
+    "groups": [
+      {"groupId": "g1", "label": "一轮", "capacity": 1, "itemIds": ["wheel-unicycle"]},
+      {"groupId": "g2", "label": "两轮", "capacity": 2, "itemIds": ["wheel-bicycle", "wheel-motorcycle"]},
+      {"groupId": "g3", "label": "三轮", "capacity": 3, "itemIds": ["wheel-tricycle", "wheel-tuk-tuk", "wheel-pedicab"]},
+      {"groupId": "g4", "label": "四轮", "capacity": 4, "itemIds": ["wheel-car", "wheel-bus", "wheel-wagon", "wheel-skateboard"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每组包含轮子数量相同的物品：1 轮、2 轮、3 轮或 4 轮。",
+  "sources": [
+    {"title": "大英百科全书：轮子", "url": "https://www.britannica.com/technology/wheel", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.43},
+  "status": "scheduled"
+}
