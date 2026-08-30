@@ -880,6 +880,27 @@ h1 {
   font-size: 0.78rem;
 }
 
+.share-status {
+  margin: -8px 0 14px;
+  color: var(--success);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.share-status--error {
+  color: var(--accent-dark);
+}
+
+.result-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.result-actions .button-primary {
+  margin-left: 0;
+}
+
 .result-close-action {
   width: 100%;
   margin: 0;
@@ -982,6 +1003,10 @@ h1 {
   }
 
   .result-groups {
+    grid-template-columns: 1fr;
+  }
+
+  .result-actions {
     grid-template-columns: 1fr;
   }
 }

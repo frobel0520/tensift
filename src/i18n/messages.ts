@@ -46,6 +46,15 @@ export interface UiMessages {
   readonly resultTitle: string;
   readonly resultRule: string;
   readonly close: string;
+  readonly shareTitle: string;
+  readonly share: string;
+  readonly sharing: string;
+  readonly shareShared: string;
+  readonly shareCopied: string;
+  readonly shareRevealed: string;
+  readonly shareSolved: string;
+  readonly shareHintUsed: string;
+  readonly shareError: string;
   readonly sourceLabel: string;
   readonly dismiss: string;
   readonly errorTitle: string;
@@ -111,6 +120,15 @@ const messages: Record<Locale, UiMessages> = {
     resultTitle: 'Here’s the pattern.',
     resultRule: 'The groups are sorted by {dimension}.',
     close: 'Close',
+    shareTitle: 'Tensift result',
+    share: 'Share result',
+    sharing: 'Preparing share…',
+    shareShared: 'Shared',
+    shareCopied: 'Copied',
+    shareRevealed: 'Answer revealed.',
+    shareSolved: 'Solved in {attempts} attempts.',
+    shareHintUsed: 'Hint used.',
+    shareError: 'Could not share right now. Try again.',
     sourceLabel: 'Sources',
     dismiss: 'Dismiss',
     errorTitle: 'Something went off course',
@@ -174,6 +192,15 @@ const messages: Record<Locale, UiMessages> = {
     resultTitle: '规律在这里。',
     resultRule: '这些分组按照「{dimension}」分类。',
     close: '关闭',
+    shareTitle: 'Tensift 结果',
+    share: '分享结果',
+    sharing: '正在准备分享……',
+    shareShared: '已分享',
+    shareCopied: '已复制',
+    shareRevealed: '答案已揭晓。',
+    shareSolved: '你用 {attempts} 次尝试完成。',
+    shareHintUsed: '使用了提示。',
+    shareError: '现在无法分享，请再试一次。',
     sourceLabel: '资料来源',
     dismiss: '关闭提示',
     errorTitle: '出了点小问题',
@@ -237,6 +264,15 @@ const messages: Record<Locale, UiMessages> = {
     resultTitle: 'Este es el patrón.',
     resultRule: 'Los grupos se ordenan por {dimension}.',
     close: 'Cerrar',
+    shareTitle: 'Resultado de Tensift',
+    share: 'Compartir resultado',
+    sharing: 'Preparando para compartir…',
+    shareShared: 'Compartido',
+    shareCopied: 'Copiado',
+    shareRevealed: 'Respuesta revelada.',
+    shareSolved: 'Lo resolví en {attempts} intentos.',
+    shareHintUsed: 'Usé una pista.',
+    shareError: 'No se pudo compartir ahora. Intenta de nuevo.',
     sourceLabel: 'Fuentes',
     dismiss: 'Descartar',
     errorTitle: 'Algo se desvió',
