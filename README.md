@@ -11,6 +11,7 @@ Tensift is a multilingual hidden-rule sorting puzzle. The browser app serves one
 - Checks are unlimited; the interface records total attempts.
 - One Hint may be used at any time. It places and locks one item in the correct row.
 - Reveal answer is always available from the lower-right button.
+- Results can be shared without spoilers using the device share sheet or a clipboard fallback.
 
 ## Languages
 

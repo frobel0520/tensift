@@ -35,9 +35,11 @@ import {
   readStoredTheme,
   type ThemeMode,
 } from './ui/preferences';
+import { buildSharePayload, shareResult, type ShareResultOutcome } from './ui/share';
 
 const LOCALE_STORAGE_KEY = 'tensift:locale';
 type BusyAction = 'loading' | 'checking' | 'hint' | 'reveal' | null;
+type ShareUiState = ShareResultOutcome | 'sharing' | 'error' | null;
 
 export function App() {
   const [locale, setLocale] = useState<Locale>(() => getInitialLocale());
@@ -312,7 +314,10 @@ export function App() {
           copy={copy}
           reveal={state.reveal}
           puzzleItems={state.puzzle.items}
+          puzzleTheme={state.puzzle.theme}
+          puzzleDate={state.puzzle.publishDate}
           attempts={state.attempts}
+          hintUsed={state.hintUsed}
           solved={state.solved}
           closeButtonRef={closeButtonRef}
           onClose={() => dispatch({ type: 'result/closed' })}
@@ -531,14 +536,58 @@ interface RevealModalProps {
   readonly copy: UiMessages;
   readonly reveal: RevealResponse;
   readonly puzzleItems: readonly SafePuzzleItem[];
+  readonly puzzleTheme: string;
+  readonly puzzleDate: string;
   readonly attempts: number;
+  readonly hintUsed: boolean;
   readonly solved: boolean;
   readonly closeButtonRef: React.RefObject<HTMLButtonElement | null>;
   readonly onClose: () => void;
 }
 
-function RevealModal({ copy, reveal, puzzleItems, attempts, solved, closeButtonRef, onClose }: RevealModalProps) {
+function RevealModal({
+  copy,
+  reveal,
+  puzzleItems,
+  puzzleTheme,
+  puzzleDate,
+  attempts,
+  hintUsed,
+  solved,
+  closeButtonRef,
+  onClose,
+}: RevealModalProps) {
+  const [shareState, setShareState] = useState<ShareUiState>(null);
   const itemById = new Map(puzzleItems.map((item) => [item.itemId, item.label]));
+
+  const handleShare = async () => {
+    if (shareState === 'sharing') {
+      return;
+    }
+
+    setShareState('sharing');
+    try {
+      const outcome = await shareResult(buildSharePayload({
+        theme: puzzleTheme,
+        puzzleDate,
+        attempts,
+        solved,
+        hintUsed,
+      }, copy));
+      setShareState(outcome === 'cancelled' ? null : outcome);
+    } catch {
+      setShareState('error');
+    }
+  };
+
+  const shareLabel = shareState === 'sharing'
+    ? copy.sharing
+    : shareState === 'shared'
+      ? copy.shareShared
+      : shareState === 'copied'
+        ? copy.shareCopied
+        : copy.share;
+
   return (
     <div className="modal-backdrop" role="presentation" onMouseDown={(event) => {
       if (event.target === event.currentTarget) {
@@ -575,7 +624,18 @@ function RevealModal({ copy, reveal, puzzleItems, attempts, solved, closeButtonR
             </ul>
           </div>
         )}
-        <button className="button button-primary result-close-action" type="button" onClick={onClose}>{copy.close}</button>
+        {shareState === 'error' && (
+          <p className="share-status share-status--error" role="alert">{copy.shareError}</p>
+        )}
+        {(shareState === 'shared' || shareState === 'copied') && (
+          <p className="share-status" role="status" aria-live="polite">{shareState === 'shared' ? copy.shareShared : copy.shareCopied}</p>
+        )}
+        <div className="result-actions">
+          <button className="button button-primary result-share-action" type="button" onClick={() => void handleShare()} disabled={shareState === 'sharing'}>
+            {shareLabel}
+          </button>
+          <button className="button result-close-action" type="button" onClick={onClose}>{copy.close}</button>
+        </div>
       </section>
     </div>
   );
