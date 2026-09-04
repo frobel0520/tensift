@@ -1,0 +1,44 @@
+name: Content runway alarm
+
+# Fails once the authored content buffer drops below the threshold, so the
+# next batch gets written while there is still time to playtest it.
+on:
+  schedule:
+    - cron: '0 1 * * 1'
+  workflow_dispatch:
+    inputs:
+      min_days:
+        description: 'Minimum complete days of runway required'
+        type: string
+        required: false
+        default: '14'
+  pull_request:
+    branches: [main, dev]
+    paths:
+      - 'content/puzzles/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tensift-content-runway-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  runway:
+    name: Measure authored content runway
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Check content runway
+        run: node scripts/check-content-runway.mjs --min-days "$MIN_DAYS"
+        env:
+          MIN_DAYS: ${{ inputs.min_days || '14' }}

@@ -20,6 +20,8 @@
     "db:seed:local": "node --experimental-strip-types scripts/seed-puzzles.ts --database tensift --local",
     "db:seed:remote": "node --experimental-strip-types scripts/seed-puzzles.ts --database tensift --remote",
     "scan:bundle": "node scripts/scan-public-bundle.mjs",
+    "smoke:production": "node scripts/smoke-production.mjs",
+    "check:runway": "node scripts/check-content-runway.mjs",
     "cf:dev": "wrangler pages dev dist",
     "cf:deploy": "wrangler pages deploy dist"
   },

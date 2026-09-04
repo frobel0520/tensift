@@ -1,0 +1,41 @@
+name: Daily production smoke
+
+# The `today` endpoint selects by the current UTC date, so a missing record for
+# one locale only surfaces when a player hits it. Run shortly after the UTC
+# date rolls over so a broken release is caught before the audience wakes up.
+on:
+  schedule:
+    - cron: '15 0 * * *'
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: 'Origin to smoke check'
+        type: string
+        required: false
+        default: 'https://tensift.pages.dev'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tensift-daily-smoke
+  cancel-in-progress: false
+
+jobs:
+  smoke:
+    name: Check the live daily release
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Smoke check production
+        run: node scripts/smoke-production.mjs --base-url "$BASE_URL"
+        env:
+          BASE_URL: ${{ inputs.base_url || 'https://tensift.pages.dev' }}

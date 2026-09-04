@@ -57,13 +57,89 @@ The Vite/React app lives in `app/` and imports typed contracts from `shared/`. P
 
 The Cloudflare Pages Function entry points are under `functions/`; D1 migrations are under `migrations/`. The `DB` binding in `wrangler.toml` points to the configured `tensift` database. The first content batch contains three draft puzzle families (Countries, Animals, Musical instruments) in all three locales; they still need blind playtesting before release.
 
+## Deployment
+
+Pushing to `main` runs the `Deploy` workflow: it repeats every CI gate
+(content validation, type check, tests, build, bundle-leak scan) and then
+publishes the verified `dist/` to the Cloudflare Pages project `tensift` as a
+production deployment. Pull requests and pushes to `dev` still run the `CI`
+workflow; `main` is covered by `Deploy` instead, so the gates never run twice
+for one commit.
+
+Required repository configuration (Settings > Secrets and variables > Actions):
+
+| Kind | Name | Value |
+|---|---|---|
+| Secret | `CLOUDFLARE_API_TOKEN` | A Cloudflare API token with the `Cloudflare Pages: Edit` and `D1: Edit` permissions on this account |
+| Secret | `CLOUDFLARE_ACCOUNT_ID` | The Cloudflare account ID that owns the `tensift` Pages project and D1 database |
+| Variable | `VITE_ADSENSE_CLIENT_ID` | The `ca-pub-...` publisher client ID |
+| Variable | `VITE_ADSENSE_TOP_SLOT` | The numeric ad slot ID |
+
+The two AdSense values are repository *variables*, not secrets: they are public
+identifiers that ship in the browser bundle. Setting them here replaces the
+manual local injection that every Direct Upload build previously required, so a
+deployment can no longer silently drop the ad slot. Leaving them unset keeps ads
+disabled, exactly as a local build without them does. Never put a Cloudflare
+token in a `VITE_*` name.
+
+Manual `npm run cf:deploy` from a workstation still works and is the fallback if
+Actions is unavailable.
+
+### Seeding content from CI
+
+Content is production data, so it is never written on push. The
+`Seed content to D1` workflow is manual (Actions > Seed content to D1 > Run
+workflow) and takes a `mode` input:
+
+- `dry-run` (default) validates every file under `content/puzzles/**` and
+  uploads the generated `tensift-seed.sql` as a run artifact. It does not touch
+  the database.
+- `apply` does the same, then applies D1 migrations and seeds the remote
+  `tensift` database.
+
+The seed replaces each puzzle by `puzzleId` (delete then insert), so it is
+idempotent for the records present in `content/` and leaves any other record
+untouched. To require a human approval before `apply`, add required reviewers to
+the `production` environment in repository settings.
+
+### Scheduled checks
+
+Publishing needs no cron. The `today` query selects on
+`publish_date = <current UTC date> AND status IN ('scheduled','published')`, so
+a scheduled record becomes playable on its own date. Scheduling is used for
+verification and for content supply instead.
+
+| Workflow | Schedule | Fails when |
+|---|---|---|
+| `Daily production smoke` | 00:15 UTC daily | `/api/health` is not `ok`/`d1`, or any of the three locales has no playable puzzle for today's UTC date, or the safe DTO carries an answer field |
+| `Content runway alarm` | 01:00 UTC Mondays, and on any PR touching `content/puzzles/**` | Fewer than 14 consecutive complete days of authored content remain from today |
+
+Both can be run on demand from the Actions tab. GitHub emails the repository
+owner when a scheduled run fails, which is the notification path for both.
+
+Run them locally with:
+
+```powershell
+npm run smoke:production
+npm run check:runway
+```
+
+`smoke:production` accepts `--base-url` to point at a preview deployment;
+`check:runway` accepts `--min-days` and `--date`.
+
+Runway is measured as the number of days from today with a complete locale set,
+stopping at the first gap — not the total file count, because one missing locale
+is the day the daily release breaks. The date comes from each file's
+`publishDate` field, not its filename: several filenames carry a different date
+than the record inside them.
+
 ## Optional Google AdSense
 
 The app includes one responsive, top-of-page ad slot. It stays hidden in production until both public AdSense identifiers are configured, so local development and CI never make ad requests by accident.
 
 After Google approves the site and creates a display ad unit:
 
-1. Set `VITE_ADSENSE_CLIENT_ID` (the `ca-pub-...` publisher client ID) and `VITE_ADSENSE_TOP_SLOT` (the numeric ad slot ID) in the environment used by the Vite build. The current `tensift` Pages project uses Wrangler Direct Upload, so these values must be present locally before `npm run build`; Cloudflare dashboard build variables only affect a remote Pages build. Keep them in an untracked `.env.production` file or set them in the shell for the deployment command.
+1. Set `VITE_ADSENSE_CLIENT_ID` (the `ca-pub-...` publisher client ID) and `VITE_ADSENSE_TOP_SLOT` (the numeric ad slot ID) in the environment used by the Vite build. The current `tensift` Pages project uses Wrangler Direct Upload, so these values must be present locally before `npm run build`; Cloudflare dashboard build variables only affect a remote Pages build. Keep them in an untracked `.env.production` file or set them in the shell for the deployment command. For deployments through GitHub Actions, set them once as repository variables instead (see [Deployment](#deployment)).
 2. Set the Cloudflare Pages Function variable `ADSENSE_PUBLISHER_ID` (the matching `pub-...` ID) under Settings > Variables and Secrets for Production. The `/ads.txt` Function will then return Google's direct-seller line; without it, `/ads.txt` deliberately returns 404 instead of the SPA shell.
 3. Review the privacy/consent requirements for the countries you serve before enabling personalized advertising.
 4. Never click live ads or ask players to click them. Use the Google test workflow while validating the integration.
