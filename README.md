@@ -77,10 +77,16 @@ Required repository configuration (Settings > Secrets and variables > Actions):
 
 The two AdSense values are repository *variables*, not secrets: they are public
 identifiers that ship in the browser bundle. Setting them here replaces the
-manual local injection that every Direct Upload build previously required, so a
-deployment can no longer silently drop the ad slot. Leaving them unset keeps ads
-disabled, exactly as a local build without them does. Never put a Cloudflare
-token in a `VITE_*` name.
+manual local injection that every Direct Upload build previously required. Never
+put a Cloudflare token in a `VITE_*` name.
+
+Until all four values exist, the workflow still runs every verification gate and
+then **skips the deployment step** with a notice, rather than failing or
+deploying. That is deliberate: a missing Cloudflare credential would only fail
+the run, but a missing AdSense identifier would publish a build with the live ad
+slot silently switched off. The workflow starts deploying by itself once the
+configuration is complete; no code change is needed to activate it. Deploy with
+`npm run cf:deploy` in the meantime.
 
 Manual `npm run cf:deploy` from a workstation still works and is the fallback if
 Actions is unavailable.
