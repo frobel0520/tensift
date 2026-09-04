@@ -1,0 +1,85 @@
+name: Seed content to D1
+
+# Production data write. Manual only, never on push.
+# The default mode is a dry run that validates content and generates the SQL
+# without touching the remote database.
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'dry-run generates SQL only; apply writes to the remote tensift D1 database'
+        type: choice
+        required: true
+        default: dry-run
+        options:
+          - dry-run
+          - apply
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tensift-seed
+  cancel-in-progress: false
+
+jobs:
+  dry-run:
+    name: Validate and generate seed SQL
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate puzzle content
+        run: npm run validate:puzzles
+
+      - name: Generate seed SQL without touching any database
+        run: npm run seed:puzzles
+
+      - name: Upload generated seed SQL
+        uses: actions/upload-artifact@v4
+        with:
+          name: tensift-seed-sql
+          path: .wrangler/tensift-seed.sql
+          if-no-files-found: error
+
+  apply:
+    name: Apply migrations and seed remote D1
+    needs: dry-run
+    if: inputs.mode == 'apply'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    # Add required reviewers to the "production" environment in repository
+    # settings to gate this job behind a manual approval.
+    environment: production
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Apply D1 migrations
+        run: npm run db:migrate:remote
+
+      - name: Seed puzzles to remote D1
+        run: npm run db:seed:remote

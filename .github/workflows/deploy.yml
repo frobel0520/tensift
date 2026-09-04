@@ -1,25 +1,22 @@
-name: CI
+name: Deploy
 
 on:
-  # Pushes to main are verified by the Deploy workflow, which runs the same
-  # gates before publishing. Running CI there too would only duplicate them.
   push:
-    branches: [dev]
-  pull_request:
-    branches: [main, dev]
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: tensift-ci-${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  group: tensift-deploy
+  cancel-in-progress: false
 
 jobs:
-  verify:
-    name: Validate, test, build
+  deploy:
+    name: Verify and deploy to Cloudflare Pages
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Check out repository
         uses: actions/checkout@v5
@@ -44,6 +41,15 @@ jobs:
 
       - name: Build Pages artifact
         run: npm run build
+        env:
+          VITE_ADSENSE_CLIENT_ID: ${{ vars.VITE_ADSENSE_CLIENT_ID }}
+          VITE_ADSENSE_TOP_SLOT: ${{ vars.VITE_ADSENSE_TOP_SLOT }}
 
       - name: Scan public bundle for answer leakage
         run: npm run scan:bundle
+
+      - name: Deploy to Cloudflare Pages
+        run: npx wrangler pages deploy dist --project-name tensift --branch main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
