@@ -1,12 +1,12 @@
 name: CI
 
+# The branching model is main plus short-lived feature branches, so every
+# change reaches main through a pull request. Pushes to main are verified by
+# the Deploy workflow, which runs these same gates before publishing.
 on:
-  # Pushes to main are verified by the Deploy workflow, which runs the same
-  # gates before publishing. Running CI there too would only duplicate them.
-  push:
-    branches: [dev]
   pull_request:
-    branches: [main, dev]
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read

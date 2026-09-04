@@ -59,12 +59,14 @@ The Cloudflare Pages Function entry points are under `functions/`; D1 migrations
 
 ## Deployment
 
-Pushing to `main` runs the `Deploy` workflow: it repeats every CI gate
+The branching model is `main` plus short-lived feature branches. Every change
+reaches `main` through a pull request, which runs the `CI` workflow.
+
+Merging to `main` then runs the `Deploy` workflow: it repeats every CI gate
 (content validation, type check, tests, build, bundle-leak scan) and then
 publishes the verified `dist/` to the Cloudflare Pages project `tensift` as a
-production deployment. Pull requests and pushes to `dev` still run the `CI`
-workflow; `main` is covered by `Deploy` instead, so the gates never run twice
-for one commit.
+production deployment. `main` is covered by `Deploy` rather than `CI`, so the
+gates never run twice for one commit.
 
 Required repository configuration (Settings > Secrets and variables > Actions):
 
