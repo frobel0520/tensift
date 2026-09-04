@@ -1,8 +1,10 @@
 name: CI
 
 on:
+  # Pushes to main are verified by the Deploy workflow, which runs the same
+  # gates before publishing. Running CI there too would only duplicate them.
   push:
-    branches: [main, dev]
+    branches: [dev]
   pull_request:
     branches: [main, dev]
 
