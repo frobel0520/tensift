@@ -48,7 +48,46 @@ jobs:
       - name: Scan public bundle for answer leakage
         run: npm run scan:bundle
 
+      # Deploying with an incomplete configuration is worse than not deploying.
+      # A missing Cloudflare credential only fails the run, but a missing
+      # AdSense identifier would publish a build with the live ad slot silently
+      # switched off. Verify everything, then deploy only when all four values
+      # are present.
+      - name: Check deployment configuration
+        id: config
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          VITE_ADSENSE_CLIENT_ID: ${{ vars.VITE_ADSENSE_CLIENT_ID }}
+          VITE_ADSENSE_TOP_SLOT: ${{ vars.VITE_ADSENSE_TOP_SLOT }}
+        run: |
+          missing=""
+          for name in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID VITE_ADSENSE_CLIENT_ID VITE_ADSENSE_TOP_SLOT; do
+            if [ -z "${!name}" ]; then
+              missing="$missing $name"
+            fi
+          done
+          if [ -n "$missing" ]; then
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Verification passed. Deployment skipped because these are not configured:$missing"
+            {
+              echo "### Deployment skipped"
+              echo
+              echo "Every verification gate passed, but the deployment step needs all four values."
+              echo "Not configured:"
+              for name in $missing; do
+                echo "- \`$name\`"
+              done
+              echo
+              echo "Set them under Settings > Secrets and variables > Actions, then re-run."
+              echo "Until then, deploy manually with \`npm run cf:deploy\`."
+            } >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Deploy to Cloudflare Pages
+        if: steps.config.outputs.ready == 'true'
         run: npx wrangler pages deploy dist --project-name tensift --branch main
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
