@@ -1,10 +1,10 @@
 # Tensift Progress
 
-Last updated: 2026-08-30 (Asia/Taipei)
+Last updated: 2026-09-05 (Asia/Taipei)
 
 ## Current status
 
-Prototype approved; SD implementation is complete; the Cloudflare Pages production deployment is live with the first daily release active. A thirty-day content buffer is now seeded in D1 across all three locales.
+Prototype approved; SD implementation is complete; the Cloudflare Pages production deployment is live and now runs from CI on every push to `main`. A thirty-day content buffer is seeded in D1 across all three locales, with 24 complete days of runway remaining from 2026-09-05 and the first gap at 2026-09-28. Content authoring is now the critical path.
 
 ## Completed
 
@@ -22,6 +22,13 @@ Prototype approved; SD implementation is complete; the Cloudflare Pages producti
 - Top-of-page Google AdSense integration: responsive slot, public-ID validation, dev placeholder, CSP allowlist, and a fail-closed `/ads.txt` Function; production client/slot and publisher configuration are deployed, pending Google review before monetization.
 - CI cross-platform fix: seed CLI test now uses the runner's native path format instead of a hard-coded Windows path.
 - CI is green after upgrading `actions/checkout` and `actions/setup-node` to their Node 24 runtime releases; the earlier Node 20 deprecation annotation is cleared.
+- Deployment automation (2026-09-05): `Deploy` workflow repeats every CI gate on a push to `main`, then publishes `dist/` to Cloudflare Pages. AdSense public IDs are injected from repository variables, replacing the per-build local injection that a Direct Upload previously required. Deploy runs #1 and #2 both succeeded; the deployed bundle keeps the live ad slot and matches the hash of the last manual deployment.
+- Deploy is fail-closed on configuration: if any of `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `VITE_ADSENSE_CLIENT_ID` or `VITE_ADSENSE_TOP_SLOT` is unset, every gate still runs but the deployment step is skipped with a job-summary notice. A missing Cloudflare credential would only fail a run, but a missing AdSense identifier would publish a build with the live ad slot silently switched off.
+- Scheduled `Daily production smoke` (UTC 00:15): asserts `/api/health`, and for all three locales that `today` returns HTTP 200 with `publishDate` equal to the current UTC date, 10 items, 4 rows, and no `solution` / `hiddenDimension` / `explanation` in the safe DTO. Publishing itself needs no cron: the `today` query selects on `publish_date = <current UTC date> AND status IN ('scheduled','published')`.
+- Scheduled `Content runway alarm` (UTC 01:00 Mondays, plus any PR touching `content/puzzles/**`): fails below 14 consecutive complete days. Runway is measured to the first gap, not by file count, because one missing locale is the day the daily release breaks; dates are read from each file's `publishDate` field, not its filename, which does not always agree.
+- Manual `Seed content to D1` workflow: `dry-run` validates and uploads the generated SQL as an artifact; `apply` is a separate job on the `production` environment that applies migrations and seeds remote D1. Wrangler skips its confirmation prompt in non-interactive CI, so no extra flag is needed.
+- Branching model fixed as `main` plus short-lived feature branches; the dangling `dev` references in the workflows were removed. Branch protection on `main` requires a pull request and a passing `Validate, test, build` check, without requiring approvals (single maintainer) and without blocking administrator bypass (emergency escape hatch).
+- Repository configuration in place: `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` as secrets, `VITE_ADSENSE_CLIENT_ID` and `VITE_ADSENSE_TOP_SLOT` as variables.
 - Public GitHub repository: https://github.com/frobel0520/tensift
 - Cloudflare Pages production URL: https://tensift.pages.dev
 - Daily release window (UTC), in `en`, `zh-Hans`, and `es-419`: Countries published 2026-08-29; Animals scheduled 2026-08-30; Musical Instruments scheduled 2026-08-31; Natural Landmarks scheduled 2026-09-01; Vehicles scheduled 2026-09-02; At Home scheduled 2026-09-03; Sports scheduled 2026-09-04; Animal Habitats scheduled 2026-09-05; Food scheduled 2026-09-06; World Landmarks scheduled 2026-09-07; Fruits scheduled 2026-09-08; The Human Body scheduled 2026-09-09; Vegetables scheduled 2026-09-10; World Cities scheduled 2026-09-11; Languages scheduled 2026-09-12; Breakfast scheduled 2026-09-13; Everyday Tools scheduled 2026-09-14; Materials scheduled 2026-09-15; Wheeled Things scheduled 2026-09-16; Fictional Characters scheduled 2026-09-17.
@@ -39,6 +46,7 @@ Prototype approved; SD implementation is complete; the Cloudflare Pages producti
 - `/robots.txt` allows crawlers with HTTP 200.
 - `/api/v1/puzzles/today` returns the published Countries puzzle with HTTP 200 for all three locales; the safe DTO does not expose `solution` or `hiddenDimension`.
 - The release commit `76f2bba` has a successful GitHub Actions CI run.
+- After the first CI-driven deployment (2026-09-05), production still serves all three locales for the current UTC date, `/ads.txt` still returns the direct-seller line, and the served bundle still contains the AdSense client and slot identifiers.
 
 ## Pending / decision needed
 
@@ -47,8 +55,8 @@ Prototype approved; SD implementation is complete; the Cloudflare Pages producti
 - Image-based share cards remain deferred; the current share flow is text-first and ready for organic sharing tests.
 - Ad direction: the top-of-page banner slot and `ads.txt` are live. Remaining work is AdSense site/account approval, privacy/consent review, and monitoring the first live fill; future Direct Upload builds must inject the public Vite IDs locally.
 - Next feature under discussion: guest play plus authenticated cross-device streaks. Proposed sign-in options are Google OAuth and email + password; passwordless magic link remains a future option.
-- Keep expanding the reviewed content buffer beyond the current 30 puzzle families to sustain the daily publishing cadence.
-- Optional: connect GitHub push events to Cloudflare Pages automatic builds; current deployment was performed directly with Wrangler.
+- Keep expanding the reviewed content buffer beyond the current 30 puzzle families. The runway alarm will fail on the Monday around 2026-09-14, roughly thirteen days before the buffer runs out, which is the working deadline for the next batch.
+- Blind playtesting for second-solution ambiguity is still not done for any of the thirty puzzle families. This remains the largest product risk and has no automated guard.
 
 ## Known risks
 
