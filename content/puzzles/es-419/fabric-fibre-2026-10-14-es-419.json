@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fabric-fibre-2026-10-14-es-419",
+  "puzzleFamilyId": "fabric-fibre-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-14",
+  "timezone": "UTC",
+  "theme": "Telas",
+  "items": [
+    {
+      "itemId": "fabric-silk",
+      "label": "Seda"
+    },
+    {
+      "itemId": "fabric-wool",
+      "label": "Lana"
+    },
+    {
+      "itemId": "fabric-cashmere",
+      "label": "Cachemira"
+    },
+    {
+      "itemId": "fabric-cotton",
+      "label": "Algodón"
+    },
+    {
+      "itemId": "fabric-linen",
+      "label": "Lino"
+    },
+    {
+      "itemId": "fabric-hemp",
+      "label": "Cáñamo"
+    },
+    {
+      "itemId": "fabric-polyester",
+      "label": "Poliéster"
+    },
+    {
+      "itemId": "fabric-nylon",
+      "label": "Nailon"
+    },
+    {
+      "itemId": "fabric-acrylic",
+      "label": "Acrílico"
+    },
+    {
+      "itemId": "fabric-spandex",
+      "label": "Elastano"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "De dónde viene la fibra",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "La hila un insecto",
+        "capacity": 1,
+        "itemIds": [
+          "fabric-silk"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Del pelaje de un animal",
+        "capacity": 2,
+        "itemIds": [
+          "fabric-wool",
+          "fabric-cashmere"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Se cultiva como planta",
+        "capacity": 3,
+        "itemIds": [
+          "fabric-cotton",
+          "fabric-linen",
+          "fabric-hemp"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Se fabrica en una planta química",
+        "capacity": 4,
+        "itemIds": [
+          "fabric-polyester",
+          "fabric-nylon",
+          "fabric-acrylic",
+          "fabric-spandex"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo nace de la misma fibra: 1 la hila un insecto, 2 se obtienen del pelaje de un animal, 3 se cultivan como plantas y 4 se fabrican en una planta química.",
+  "sources": [
+    {
+      "title": "Wikipedia: Textil",
+      "url": "https://en.wikipedia.org/wiki/Textile",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.46
+  },
+  "status": "scheduled"
+}

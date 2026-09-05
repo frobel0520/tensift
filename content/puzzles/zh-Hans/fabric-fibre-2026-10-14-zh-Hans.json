@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fabric-fibre-2026-10-14-zh-hans",
+  "puzzleFamilyId": "fabric-fibre-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-14",
+  "timezone": "UTC",
+  "theme": "布料",
+  "items": [
+    {
+      "itemId": "fabric-silk",
+      "label": "丝绸"
+    },
+    {
+      "itemId": "fabric-wool",
+      "label": "羊毛"
+    },
+    {
+      "itemId": "fabric-cashmere",
+      "label": "羊绒"
+    },
+    {
+      "itemId": "fabric-cotton",
+      "label": "棉"
+    },
+    {
+      "itemId": "fabric-linen",
+      "label": "亚麻"
+    },
+    {
+      "itemId": "fabric-hemp",
+      "label": "大麻纤维"
+    },
+    {
+      "itemId": "fabric-polyester",
+      "label": "涤纶"
+    },
+    {
+      "itemId": "fabric-nylon",
+      "label": "尼龙"
+    },
+    {
+      "itemId": "fabric-acrylic",
+      "label": "腈纶"
+    },
+    {
+      "itemId": "fabric-spandex",
+      "label": "氨纶"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "纤维来自哪里",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "由昆虫吐出",
+        "capacity": 1,
+        "itemIds": [
+          "fabric-silk"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "取自动物的毛",
+        "capacity": 2,
+        "itemIds": [
+          "fabric-wool",
+          "fabric-cashmere"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "由植物种出",
+        "capacity": 3,
+        "itemIds": [
+          "fabric-cotton",
+          "fabric-linen",
+          "fabric-hemp"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "工厂合成",
+        "capacity": 4,
+        "itemIds": [
+          "fabric-polyester",
+          "fabric-nylon",
+          "fabric-acrylic",
+          "fabric-spandex"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每一组的纤维来源相同：1 个由昆虫吐出，2 个取自动物的毛，3 个由植物种出来，4 个在工厂里合成。",
+  "sources": [
+    {
+      "title": "维基百科：纺织品",
+      "url": "https://en.wikipedia.org/wiki/Textile",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.46
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "farm-animal-001",
+  "theme": "Farm Animals",
+  "publishDate": "2026-10-10",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "farm-ox",
+        "rivalGroupId": "g3",
+        "risk": "An ox is cattle, and the dairy cow is already on the board, so the two can be pulled together by species instead of by use.",
+        "resolution": "An ox is a trained draught animal; the label of its row names the work, and the cow row is labelled by milk, so species is never the rule."
+      },
+      {
+        "itemId": "farm-goat",
+        "rivalGroupId": "g1",
+        "risk": "Some goats are kept for cashmere and mohair, which is a wool-like fibre.",
+        "resolution": "The everyday reading of a farm goat is milk and cheese, and the sheep is the animal whose fleece is the whole point of keeping it."
+      },
+      {
+        "itemId": "farm-camel",
+        "rivalGroupId": "g3",
+        "risk": "Camel milk is a staple in several of the regions the puzzle ships to, so the milk row is a real second reading.",
+        "resolution": "A camel is on the board as the pack animal that crosses distance with a load, which no other row covers."
+      },
+      {
+        "itemId": "farm-duck",
+        "rivalGroupId": "g4",
+        "risk": "A duck is not obviously an egg animal to players who think of duck only as meat.",
+        "resolution": "Ducks are farmed for eggs alongside hens, and the hen anchors the row so the pairing reads clearly."
+      }
+    ],
+    "notes": "The board carries two cattle on purpose, in different rows, so that species can never be mistaken for the rule."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "The ox and the dairy cow are the deliberate trap. If testers group them by species rather than by use, replace the ox with a mule."
+  }
+}

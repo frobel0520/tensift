@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "message-medium-2026-10-13-zh-hans",
+  "puzzleFamilyId": "message-medium-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-13",
+  "timezone": "UTC",
+  "theme": "传递消息的方式",
+  "items": [
+    {
+      "itemId": "msg-pigeon",
+      "label": "信鸽"
+    },
+    {
+      "itemId": "msg-letter",
+      "label": "信件"
+    },
+    {
+      "itemId": "msg-postcard",
+      "label": "明信片"
+    },
+    {
+      "itemId": "msg-call",
+      "label": "电话"
+    },
+    {
+      "itemId": "msg-text",
+      "label": "短信"
+    },
+    {
+      "itemId": "msg-email",
+      "label": "电子邮件"
+    },
+    {
+      "itemId": "msg-shout",
+      "label": "呼喊"
+    },
+    {
+      "itemId": "msg-wave",
+      "label": "挥手"
+    },
+    {
+      "itemId": "msg-nod",
+      "label": "点头"
+    },
+    {
+      "itemId": "msg-whistle",
+      "label": "口哨"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "消息靠什么传出去",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "靠动物送",
+        "capacity": 1,
+        "itemIds": [
+          "msg-pigeon"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "靠邮政送",
+        "capacity": 2,
+        "itemIds": [
+          "msg-letter",
+          "msg-postcard"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "通过网络传送",
+        "capacity": 3,
+        "itemIds": [
+          "msg-call",
+          "msg-text",
+          "msg-email"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "当面传达",
+        "capacity": 4,
+        "itemIds": [
+          "msg-shout",
+          "msg-wave",
+          "msg-nod",
+          "msg-whistle"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每一组传递消息的方式相同：1 个靠动物送，2 个靠邮政送，3 个通过网络传送，4 个当面传达。",
+  "sources": [
+    {
+      "title": "维基百科：传播",
+      "url": "https://en.wikipedia.org/wiki/Communication",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

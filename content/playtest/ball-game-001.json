@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "ball-game-001",
+  "theme": "Ball Games",
+  "publishDate": "2026-10-15",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "ball-soccer",
+        "rivalGroupId": "g2",
+        "risk": "A goalkeeper uses hands, and throw-ins are taken by hand, so a literal player may argue for the hand row.",
+        "resolution": "Soccer is the one game on the board where the ball is moved with the feet for almost the whole match, which is what makes it the single-item row."
+      },
+      {
+        "itemId": "ball-cricket",
+        "rivalGroupId": "g2",
+        "risk": "The bowler delivers the ball with a hand, and fielding is entirely by hand.",
+        "resolution": "Scoring in cricket happens with the bat, which is the rule the row names, alongside baseball."
+      },
+      {
+        "itemId": "ball-tabletennis",
+        "rivalGroupId": "g2",
+        "risk": "A table tennis paddle is small and held like an extension of the hand.",
+        "resolution": "A paddle is a racket, and the tennis and squash items anchor the row."
+      },
+      {
+        "itemId": "ball-hockey",
+        "rivalGroupId": "g3",
+        "risk": "A hockey stick has a head that can read as a racket face.",
+        "resolution": "A stick strikes the ball rather than stringing a rebound, which is the bat and club row that golf and baseball anchor."
+      }
+    ],
+    "notes": "Every row names the thing that strikes the ball. Games where a hand touches the ball incidentally are still sorted by how a point is scored."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers argue soccer belongs with hands because of the goalkeeper, relabel the first row as \"Mostly with your feet\"."
+  }
+}
