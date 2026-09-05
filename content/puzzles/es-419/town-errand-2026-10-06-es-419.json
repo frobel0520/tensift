@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "town-errand-2026-10-06-es-419",
+  "puzzleFamilyId": "town-errand-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-06",
+  "timezone": "UTC",
+  "theme": "Por la ciudad",
+  "items": [
+    {
+      "itemId": "town-airport",
+      "label": "Aeropuerto"
+    },
+    {
+      "itemId": "town-trainstation",
+      "label": "Estación de tren"
+    },
+    {
+      "itemId": "town-busstop",
+      "label": "Parada de autobús"
+    },
+    {
+      "itemId": "town-park",
+      "label": "Parque"
+    },
+    {
+      "itemId": "town-playground",
+      "label": "Parque infantil"
+    },
+    {
+      "itemId": "town-zoo",
+      "label": "Zoológico"
+    },
+    {
+      "itemId": "town-supermarket",
+      "label": "Supermercado"
+    },
+    {
+      "itemId": "town-bakery",
+      "label": "Panadería"
+    },
+    {
+      "itemId": "town-pharmacy",
+      "label": "Farmacia"
+    },
+    {
+      "itemId": "town-bookshop",
+      "label": "Librería"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "a qué se va allí",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Para viajar en avión",
+        "capacity": 1,
+        "itemIds": [
+          "town-airport"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Para tomar transporte local",
+        "capacity": 2,
+        "itemIds": [
+          "town-trainstation",
+          "town-busstop"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Para pasar tiempo al aire libre",
+        "capacity": 3,
+        "itemIds": [
+          "town-park",
+          "town-playground",
+          "town-zoo"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Para comprar algo",
+        "capacity": 4,
+        "itemIds": [
+          "town-supermarket",
+          "town-bakery",
+          "town-pharmacy",
+          "town-bookshop"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo reúne lugares a los que se va por el mismo motivo: 1 para viajar en avión, 2 para tomar transporte local, 3 para estar al aire libre y 4 para comprar algo.",
+  "sources": [
+    {
+      "title": "Wikipedia: City",
+      "url": "https://en.wikipedia.org/wiki/City",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.31
+  },
+  "status": "scheduled"
+}

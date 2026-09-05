@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "taste-profile-2026-10-01-es-419",
+  "puzzleFamilyId": "taste-profile-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-01",
+  "timezone": "UTC",
+  "theme": "Sabores",
+  "items": [
+    {
+      "itemId": "taste-coffee",
+      "label": "Café negro"
+    },
+    {
+      "itemId": "taste-salt",
+      "label": "Sal"
+    },
+    {
+      "itemId": "taste-soysauce",
+      "label": "Salsa de soya"
+    },
+    {
+      "itemId": "taste-lemon",
+      "label": "Limón"
+    },
+    {
+      "itemId": "taste-vinegar",
+      "label": "Vinagre"
+    },
+    {
+      "itemId": "taste-yogurt",
+      "label": "Yogur natural"
+    },
+    {
+      "itemId": "taste-sugar",
+      "label": "Azúcar"
+    },
+    {
+      "itemId": "taste-honey",
+      "label": "Miel"
+    },
+    {
+      "itemId": "taste-banana",
+      "label": "Plátano"
+    },
+    {
+      "itemId": "taste-jam",
+      "label": "Mermelada"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "sabor dominante",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Amargo",
+        "capacity": 1,
+        "itemIds": [
+          "taste-coffee"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Salado",
+        "capacity": 2,
+        "itemIds": [
+          "taste-salt",
+          "taste-soysauce"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Ácido",
+        "capacity": 3,
+        "itemIds": [
+          "taste-lemon",
+          "taste-vinegar",
+          "taste-yogurt"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Dulce",
+        "capacity": 4,
+        "itemIds": [
+          "taste-sugar",
+          "taste-honey",
+          "taste-banana",
+          "taste-jam"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo comparte un sabor dominante: 1 amargo, 2 salados, 3 ácidos y 4 dulces.",
+  "sources": [
+    {
+      "title": "Wikipedia: Taste",
+      "url": "https://en.wikipedia.org/wiki/Taste",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.26
+  },
+  "status": "scheduled"
+}

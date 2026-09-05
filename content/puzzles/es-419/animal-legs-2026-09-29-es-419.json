@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-legs-2026-09-29-es-419",
+  "puzzleFamilyId": "animal-legs-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-29",
+  "timezone": "UTC",
+  "theme": "Patas de los animales",
+  "items": [
+    {
+      "itemId": "leg-snake",
+      "label": "Serpiente"
+    },
+    {
+      "itemId": "leg-ostrich",
+      "label": "Avestruz"
+    },
+    {
+      "itemId": "leg-penguin",
+      "label": "Pingüino"
+    },
+    {
+      "itemId": "leg-dog",
+      "label": "Perro"
+    },
+    {
+      "itemId": "leg-cat",
+      "label": "Gato"
+    },
+    {
+      "itemId": "leg-horse",
+      "label": "Caballo"
+    },
+    {
+      "itemId": "leg-ant",
+      "label": "Hormiga"
+    },
+    {
+      "itemId": "leg-bee",
+      "label": "Abeja"
+    },
+    {
+      "itemId": "leg-spider",
+      "label": "Araña"
+    },
+    {
+      "itemId": "leg-scorpion",
+      "label": "Escorpión"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "cantidad de patas",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Sin patas",
+        "capacity": 1,
+        "itemIds": [
+          "leg-snake"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Dos patas",
+        "capacity": 2,
+        "itemIds": [
+          "leg-ostrich",
+          "leg-penguin"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Cuatro patas",
+        "capacity": 3,
+        "itemIds": [
+          "leg-dog",
+          "leg-cat",
+          "leg-horse"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Más de cuatro patas",
+        "capacity": 4,
+        "itemIds": [
+          "leg-ant",
+          "leg-bee",
+          "leg-spider",
+          "leg-scorpion"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo reúne animales con la misma cantidad de patas: 1 sin patas, 2 con dos, 3 con cuatro y 4 con más de cuatro.",
+  "sources": [
+    {
+      "title": "Wikipedia: Leg",
+      "url": "https://en.wikipedia.org/wiki/Leg",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.24
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "job-workplace-2026-09-30-en",
+  "puzzleFamilyId": "job-workplace-001",
+  "locale": "en",
+  "publishDate": "2026-09-30",
+  "timezone": "UTC",
+  "theme": "Jobs and Workplaces",
+  "items": [
+    {
+      "itemId": "job-pilot",
+      "label": "Pilot"
+    },
+    {
+      "itemId": "job-doctor",
+      "label": "Doctor"
+    },
+    {
+      "itemId": "job-nurse",
+      "label": "Nurse"
+    },
+    {
+      "itemId": "job-teacher",
+      "label": "Teacher"
+    },
+    {
+      "itemId": "job-principal",
+      "label": "Principal"
+    },
+    {
+      "itemId": "job-kindergarten",
+      "label": "Kindergarten teacher"
+    },
+    {
+      "itemId": "job-chef",
+      "label": "Chef"
+    },
+    {
+      "itemId": "job-waiter",
+      "label": "Waiter"
+    },
+    {
+      "itemId": "job-barista",
+      "label": "Barista"
+    },
+    {
+      "itemId": "job-dishwasher",
+      "label": "Dishwasher"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Usual workplace",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Airplane",
+        "capacity": 1,
+        "itemIds": [
+          "job-pilot"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Hospital",
+        "capacity": 2,
+        "itemIds": [
+          "job-doctor",
+          "job-nurse"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "School",
+        "capacity": 3,
+        "itemIds": [
+          "job-teacher",
+          "job-principal",
+          "job-kindergarten"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Restaurant or café",
+        "capacity": 4,
+        "itemIds": [
+          "job-chef",
+          "job-waiter",
+          "job-barista",
+          "job-dishwasher"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group holds jobs done in the same kind of workplace: 1 on an airplane, 2 in a hospital, 3 in a school, and 4 in a restaurant or café.",
+  "sources": [
+    {
+      "title": "Wikipedia: Profession",
+      "url": "https://en.wikipedia.org/wiki/Profession",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.34
+  },
+  "status": "scheduled"
+}
