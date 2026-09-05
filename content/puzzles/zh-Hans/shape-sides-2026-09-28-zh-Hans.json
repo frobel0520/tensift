@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "shape-sides-2026-09-28-zh-hans",
+  "puzzleFamilyId": "shape-sides-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-09-28",
+  "timezone": "UTC",
+  "theme": "图形",
+  "items": [
+    {
+      "itemId": "shape-triangle",
+      "label": "三角形"
+    },
+    {
+      "itemId": "shape-circle",
+      "label": "圆形"
+    },
+    {
+      "itemId": "shape-oval",
+      "label": "椭圆形"
+    },
+    {
+      "itemId": "shape-pentagon",
+      "label": "五边形"
+    },
+    {
+      "itemId": "shape-hexagon",
+      "label": "六边形"
+    },
+    {
+      "itemId": "shape-octagon",
+      "label": "八边形"
+    },
+    {
+      "itemId": "shape-square",
+      "label": "正方形"
+    },
+    {
+      "itemId": "shape-rectangle",
+      "label": "长方形"
+    },
+    {
+      "itemId": "shape-rhombus",
+      "label": "菱形"
+    },
+    {
+      "itemId": "shape-trapezoid",
+      "label": "梯形"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "直边的数量",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "三条边",
+        "capacity": 1,
+        "itemIds": [
+          "shape-triangle"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "没有直边",
+        "capacity": 2,
+        "itemIds": [
+          "shape-circle",
+          "shape-oval"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "超过四条边",
+        "capacity": 3,
+        "itemIds": [
+          "shape-pentagon",
+          "shape-hexagon",
+          "shape-octagon"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "四条边",
+        "capacity": 4,
+        "itemIds": [
+          "shape-square",
+          "shape-rectangle",
+          "shape-rhombus",
+          "shape-trapezoid"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每组图形的直边数量相同：1 个三条边的图形、2 个没有直边的图形、3 个超过四条边的图形和 4 个正好四条边的图形。",
+  "sources": [
+    {
+      "title": "维基百科：多边形",
+      "url": "https://en.wikipedia.org/wiki/Polygon",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

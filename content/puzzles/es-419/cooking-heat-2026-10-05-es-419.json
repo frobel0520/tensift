@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cooking-heat-2026-10-05-es-419",
+  "puzzleFamilyId": "cooking-heat-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-05",
+  "timezone": "UTC",
+  "theme": "Métodos de cocción",
+  "items": [
+    {
+      "itemId": "cook-microwave",
+      "label": "Calentar en microondas"
+    },
+    {
+      "itemId": "cook-boil",
+      "label": "Hervir"
+    },
+    {
+      "itemId": "cook-steam",
+      "label": "Cocer al vapor"
+    },
+    {
+      "itemId": "cook-panfry",
+      "label": "Freír en sartén"
+    },
+    {
+      "itemId": "cook-deepfry",
+      "label": "Freír por inmersión"
+    },
+    {
+      "itemId": "cook-stirfry",
+      "label": "Saltear"
+    },
+    {
+      "itemId": "cook-bake",
+      "label": "Hornear"
+    },
+    {
+      "itemId": "cook-roast",
+      "label": "Asar al horno"
+    },
+    {
+      "itemId": "cook-toast",
+      "label": "Tostar"
+    },
+    {
+      "itemId": "cook-grill",
+      "label": "Asar a la parrilla"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "qué transmite el calor",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Microondas",
+        "capacity": 1,
+        "itemIds": [
+          "cook-microwave"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Agua o vapor",
+        "capacity": 2,
+        "itemIds": [
+          "cook-boil",
+          "cook-steam"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Aceite caliente",
+        "capacity": 3,
+        "itemIds": [
+          "cook-panfry",
+          "cook-deepfry",
+          "cook-stirfry"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Calor seco",
+        "capacity": 4,
+        "itemIds": [
+          "cook-bake",
+          "cook-roast",
+          "cook-toast",
+          "cook-grill"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo cocina con el mismo transmisor de calor: 1 con microondas, 2 con agua o vapor, 3 con aceite caliente y 4 con calor seco.",
+  "sources": [
+    {
+      "title": "Wikipedia: Cooking",
+      "url": "https://en.wikipedia.org/wiki/Cooking",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.38
+  },
+  "status": "scheduled"
+}

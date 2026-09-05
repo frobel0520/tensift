@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-legs-2026-09-29-en",
+  "puzzleFamilyId": "animal-legs-001",
+  "locale": "en",
+  "publishDate": "2026-09-29",
+  "timezone": "UTC",
+  "theme": "Animal Legs",
+  "items": [
+    {
+      "itemId": "leg-snake",
+      "label": "Snake"
+    },
+    {
+      "itemId": "leg-ostrich",
+      "label": "Ostrich"
+    },
+    {
+      "itemId": "leg-penguin",
+      "label": "Penguin"
+    },
+    {
+      "itemId": "leg-dog",
+      "label": "Dog"
+    },
+    {
+      "itemId": "leg-cat",
+      "label": "Cat"
+    },
+    {
+      "itemId": "leg-horse",
+      "label": "Horse"
+    },
+    {
+      "itemId": "leg-ant",
+      "label": "Ant"
+    },
+    {
+      "itemId": "leg-bee",
+      "label": "Bee"
+    },
+    {
+      "itemId": "leg-spider",
+      "label": "Spider"
+    },
+    {
+      "itemId": "leg-scorpion",
+      "label": "Scorpion"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Number of legs",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "No legs",
+        "capacity": 1,
+        "itemIds": [
+          "leg-snake"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Two legs",
+        "capacity": 2,
+        "itemIds": [
+          "leg-ostrich",
+          "leg-penguin"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Four legs",
+        "capacity": 3,
+        "itemIds": [
+          "leg-dog",
+          "leg-cat",
+          "leg-horse"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "More than four legs",
+        "capacity": 4,
+        "itemIds": [
+          "leg-ant",
+          "leg-bee",
+          "leg-spider",
+          "leg-scorpion"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group holds animals with the same number of legs: 1 animal with none, 2 with two, 3 with four, and 4 with more than four.",
+  "sources": [
+    {
+      "title": "Wikipedia: Leg",
+      "url": "https://en.wikipedia.org/wiki/Leg",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.24
+  },
+  "status": "scheduled"
+}

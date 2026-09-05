@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "bird-travel-2026-10-04-es-419",
+  "puzzleFamilyId": "bird-travel-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-04",
+  "timezone": "UTC",
+  "theme": "Aves",
+  "items": [
+    {
+      "itemId": "bird-penguin",
+      "label": "Pingüino"
+    },
+    {
+      "itemId": "bird-ostrich",
+      "label": "Avestruz"
+    },
+    {
+      "itemId": "bird-emu",
+      "label": "Emú"
+    },
+    {
+      "itemId": "bird-duck",
+      "label": "Pato"
+    },
+    {
+      "itemId": "bird-swan",
+      "label": "Cisne"
+    },
+    {
+      "itemId": "bird-goose",
+      "label": "Ganso"
+    },
+    {
+      "itemId": "bird-sparrow",
+      "label": "Gorrión"
+    },
+    {
+      "itemId": "bird-pigeon",
+      "label": "Paloma"
+    },
+    {
+      "itemId": "bird-eagle",
+      "label": "Águila"
+    },
+    {
+      "itemId": "bird-owl",
+      "label": "Búho"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "cómo se desplaza",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "No vuela, nada",
+        "capacity": 1,
+        "itemIds": [
+          "bird-penguin"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "No vuela, corre",
+        "capacity": 2,
+        "itemIds": [
+          "bird-ostrich",
+          "bird-emu"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Vuela y nada",
+        "capacity": 3,
+        "itemIds": [
+          "bird-duck",
+          "bird-swan",
+          "bird-goose"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Vuela, vive en tierra",
+        "capacity": 4,
+        "itemIds": [
+          "bird-sparrow",
+          "bird-pigeon",
+          "bird-eagle",
+          "bird-owl"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo se desplaza igual: 1 ave que no vuela y nada, 2 que no vuelan y corren, 3 que vuelan y nadan, y 4 que vuelan y viven en tierra.",
+  "sources": [
+    {
+      "title": "Wikipedia: Flightless bird",
+      "url": "https://en.wikipedia.org/wiki/Flightless_bird",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.35
+  },
+  "status": "scheduled"
+}

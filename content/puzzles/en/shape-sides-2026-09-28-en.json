@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "shape-sides-2026-09-28-en",
+  "puzzleFamilyId": "shape-sides-001",
+  "locale": "en",
+  "publishDate": "2026-09-28",
+  "timezone": "UTC",
+  "theme": "Shapes",
+  "items": [
+    {
+      "itemId": "shape-triangle",
+      "label": "Triangle"
+    },
+    {
+      "itemId": "shape-circle",
+      "label": "Circle"
+    },
+    {
+      "itemId": "shape-oval",
+      "label": "Oval"
+    },
+    {
+      "itemId": "shape-pentagon",
+      "label": "Pentagon"
+    },
+    {
+      "itemId": "shape-hexagon",
+      "label": "Hexagon"
+    },
+    {
+      "itemId": "shape-octagon",
+      "label": "Octagon"
+    },
+    {
+      "itemId": "shape-square",
+      "label": "Square"
+    },
+    {
+      "itemId": "shape-rectangle",
+      "label": "Rectangle"
+    },
+    {
+      "itemId": "shape-rhombus",
+      "label": "Rhombus"
+    },
+    {
+      "itemId": "shape-trapezoid",
+      "label": "Trapezoid"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Number of straight sides",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Three sides",
+        "capacity": 1,
+        "itemIds": [
+          "shape-triangle"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "No straight sides",
+        "capacity": 2,
+        "itemIds": [
+          "shape-circle",
+          "shape-oval"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "More than four sides",
+        "capacity": 3,
+        "itemIds": [
+          "shape-pentagon",
+          "shape-hexagon",
+          "shape-octagon"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Four sides",
+        "capacity": 4,
+        "itemIds": [
+          "shape-square",
+          "shape-rectangle",
+          "shape-rhombus",
+          "shape-trapezoid"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group holds shapes with the same number of straight sides: 1 shape with three sides, 2 with no straight sides, 3 with more than four sides, and 4 with exactly four sides.",
+  "sources": [
+    {
+      "title": "Wikipedia: Polygon",
+      "url": "https://en.wikipedia.org/wiki/Polygon",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

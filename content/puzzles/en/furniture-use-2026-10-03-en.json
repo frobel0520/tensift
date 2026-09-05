@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "furniture-use-2026-10-03-en",
+  "puzzleFamilyId": "furniture-use-001",
+  "locale": "en",
+  "publishDate": "2026-10-03",
+  "timezone": "UTC",
+  "theme": "Furniture",
+  "items": [
+    {
+      "itemId": "furn-bed",
+      "label": "Bed"
+    },
+    {
+      "itemId": "furn-chair",
+      "label": "Chair"
+    },
+    {
+      "itemId": "furn-sofa",
+      "label": "Sofa"
+    },
+    {
+      "itemId": "furn-wardrobe",
+      "label": "Wardrobe"
+    },
+    {
+      "itemId": "furn-bookshelf",
+      "label": "Bookshelf"
+    },
+    {
+      "itemId": "furn-dresser",
+      "label": "Chest of drawers"
+    },
+    {
+      "itemId": "furn-diningtable",
+      "label": "Dining table"
+    },
+    {
+      "itemId": "furn-desk",
+      "label": "Desk"
+    },
+    {
+      "itemId": "furn-coffeetable",
+      "label": "Coffee table"
+    },
+    {
+      "itemId": "furn-sidetable",
+      "label": "Side table"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "What you usually do with it",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "For sleeping",
+        "capacity": 1,
+        "itemIds": [
+          "furn-bed"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "For sitting",
+        "capacity": 2,
+        "itemIds": [
+          "furn-chair",
+          "furn-sofa"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "For storing things",
+        "capacity": 3,
+        "itemIds": [
+          "furn-wardrobe",
+          "furn-bookshelf",
+          "furn-dresser"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "For putting things on",
+        "capacity": 4,
+        "itemIds": [
+          "furn-diningtable",
+          "furn-desk",
+          "furn-coffeetable",
+          "furn-sidetable"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group shares the same everyday use: 1 for sleeping, 2 for sitting, 3 for storing things, and 4 for putting things on.",
+  "sources": [
+    {
+      "title": "Wikipedia: Furniture",
+      "url": "https://en.wikipedia.org/wiki/Furniture",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.33
+  },
+  "status": "scheduled"
+}

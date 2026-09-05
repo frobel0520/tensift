@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "job-workplace-001",
+  "theme": "Jobs and Workplaces",
+  "publishDate": "2026-09-30",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "job-nurse",
+        "rivalGroupId": "g3",
+        "risk": "School nurses are common, so a nurse can plausibly be placed in the school group.",
+        "resolution": "The group labels name the usual workplace; for a nurse that is a hospital, and moving the nurse to the school leaves the hospital row one short with no candidate to fill it."
+      },
+      {
+        "itemId": "job-chef",
+        "rivalGroupId": "g3",
+        "risk": "School canteens employ cooks, so a chef could be read into the school group.",
+        "resolution": "The everyday reading of \"chef\" is a restaurant kitchen, and the restaurant row needs all four of its items."
+      },
+      {
+        "itemId": "job-pilot",
+        "rivalGroupId": "g2",
+        "risk": "Air ambulance and medical evacuation pilots connect a pilot to a hospital.",
+        "resolution": "The ordinary reading of a pilot is an airline pilot, and the airplane is the only workplace with a single job in the set."
+      }
+    ],
+    "notes": "This family leans on \"usual workplace\" rather than an exclusive one, which is the same interpretive style as the At Home and Sports families already released."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "The nurse is the item to watch. If blind testers split on it, replace the nurse with a surgeon."
+  }
+}

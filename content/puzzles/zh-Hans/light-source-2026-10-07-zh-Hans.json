@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "light-source-2026-10-07-zh-hans",
+  "puzzleFamilyId": "light-source-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-07",
+  "timezone": "UTC",
+  "theme": "光源",
+  "items": [
+    {
+      "itemId": "light-sun",
+      "label": "太阳"
+    },
+    {
+      "itemId": "light-moon",
+      "label": "月亮"
+    },
+    {
+      "itemId": "light-mirror",
+      "label": "镜子"
+    },
+    {
+      "itemId": "light-candle",
+      "label": "蜡烛"
+    },
+    {
+      "itemId": "light-campfire",
+      "label": "篝火"
+    },
+    {
+      "itemId": "light-oillamp",
+      "label": "油灯"
+    },
+    {
+      "itemId": "light-flashlight",
+      "label": "手电筒"
+    },
+    {
+      "itemId": "light-bulb",
+      "label": "灯泡"
+    },
+    {
+      "itemId": "light-streetlamp",
+      "label": "路灯"
+    },
+    {
+      "itemId": "light-phonescreen",
+      "label": "手机屏幕"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "光的来源",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "恒星自身发光",
+        "capacity": 1,
+        "itemIds": [
+          "light-sun"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "反射的光",
+        "capacity": 2,
+        "itemIds": [
+          "light-moon",
+          "light-mirror"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "火焰发出的光",
+        "capacity": 3,
+        "itemIds": [
+          "light-candle",
+          "light-campfire",
+          "light-oillamp"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "电灯光",
+        "capacity": 4,
+        "itemIds": [
+          "light-flashlight",
+          "light-bulb",
+          "light-streetlamp",
+          "light-phonescreen"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每组的发光方式相同：1 个是恒星自身发光、2 个只是反射光、3 个靠火焰、4 个靠电。",
+  "sources": [
+    {
+      "title": "维基百科：光",
+      "url": "https://en.wikipedia.org/wiki/Light",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.34
+  },
+  "status": "scheduled"
+}

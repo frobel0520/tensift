@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "town-errand-2026-10-06-zh-hans",
+  "puzzleFamilyId": "town-errand-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-06",
+  "timezone": "UTC",
+  "theme": "城市里的地方",
+  "items": [
+    {
+      "itemId": "town-airport",
+      "label": "机场"
+    },
+    {
+      "itemId": "town-trainstation",
+      "label": "火车站"
+    },
+    {
+      "itemId": "town-busstop",
+      "label": "公交车站"
+    },
+    {
+      "itemId": "town-park",
+      "label": "公园"
+    },
+    {
+      "itemId": "town-playground",
+      "label": "游乐场"
+    },
+    {
+      "itemId": "town-zoo",
+      "label": "动物园"
+    },
+    {
+      "itemId": "town-supermarket",
+      "label": "超市"
+    },
+    {
+      "itemId": "town-bakery",
+      "label": "面包店"
+    },
+    {
+      "itemId": "town-pharmacy",
+      "label": "药店"
+    },
+    {
+      "itemId": "town-bookshop",
+      "label": "书店"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "去那里的目的",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "搭飞机",
+        "capacity": 1,
+        "itemIds": [
+          "town-airport"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "搭乘市内交通",
+        "capacity": 2,
+        "itemIds": [
+          "town-trainstation",
+          "town-busstop"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "户外休闲",
+        "capacity": 3,
+        "itemIds": [
+          "town-park",
+          "town-playground",
+          "town-zoo"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "购物",
+        "capacity": 4,
+        "itemIds": [
+          "town-supermarket",
+          "town-bakery",
+          "town-pharmacy",
+          "town-bookshop"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每组地点的用途相同：1 处用来搭飞机、2 处用来搭乘市内交通、3 处用来户外休闲、4 处用来购物。",
+  "sources": [
+    {
+      "title": "维基百科：城市",
+      "url": "https://en.wikipedia.org/wiki/City",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.31
+  },
+  "status": "scheduled"
+}

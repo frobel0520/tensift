@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "animal-legs-001",
+  "theme": "Animal Legs",
+  "publishDate": "2026-09-29",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "leg-penguin",
+        "rivalGroupId": "g1",
+        "risk": "A standing penguin hides its legs, and a swimming one reads as legless.",
+        "resolution": "Penguins walk on two legs, which is visible in any familiar image of one on land."
+      },
+      {
+        "itemId": "leg-spider",
+        "rivalGroupId": "g3",
+        "risk": "Players who lump spiders in with insects may reach for a different count.",
+        "resolution": "A spider has eight legs; insect or arachnid, both counts are above four, so the group holds either way."
+      },
+      {
+        "itemId": "leg-scorpion",
+        "rivalGroupId": "g3",
+        "risk": "Scorpions are less familiar than the other three in their group and the pincers can be miscounted as legs.",
+        "resolution": "Eight walking legs, and the group only asks for more than four, so an imprecise count still lands correctly."
+      }
+    ],
+    "notes": "Every group is a plain leg count, so a wrong answer means a wrong fact rather than a second valid reading."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Watch whether the two-legged row reads as \"birds\" instead of \"two legs\"; ostrich and penguin are both birds, which is a coincidence of this item set, not the rule."
+  }
+}

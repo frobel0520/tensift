@@ -1,0 +1,61 @@
+name: Content alarm
+
+# Two guards on the content pipeline:
+#   - runway: fails once the authored buffer drops below the threshold, so the
+#     next batch gets written while there is still time to playtest it;
+#   - playtest ledger: fails when a family scheduled from the enforcement date
+#     onward has no recorded ambiguity review, and reports the blind-test debt.
+on:
+  schedule:
+    - cron: '0 1 * * 1'
+  workflow_dispatch:
+    inputs:
+      min_days:
+        description: 'Minimum complete days of runway required'
+        type: string
+        required: false
+        default: '14'
+      strict_blind:
+        description: 'Fail when a puzzle nears release without a blind playtest'
+        type: boolean
+        required: false
+        default: false
+  pull_request:
+    branches: [main]
+    paths:
+      - 'content/puzzles/**'
+      - 'content/playtest/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tensift-content-alarm-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  runway:
+    name: Measure runway and playtest coverage
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Check content runway
+        run: node scripts/check-content-runway.mjs --min-days "$MIN_DAYS"
+        env:
+          MIN_DAYS: ${{ inputs.min_days || '14' }}
+
+      # Runs even when the runway check fails: a short buffer and an
+      # unreviewed puzzle are separate problems and both belong in the log.
+      - name: Check playtest ledger
+        if: ${{ !cancelled() }}
+        run: node scripts/check-playtest.mjs $STRICT_BLIND
+        env:
+          STRICT_BLIND: ${{ inputs.strict_blind && '--strict-blind' || '' }}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "weather-sky-2026-10-02-en",
+  "puzzleFamilyId": "weather-sky-001",
+  "locale": "en",
+  "publishDate": "2026-10-02",
+  "timezone": "UTC",
+  "theme": "Weather",
+  "items": [
+    {
+      "itemId": "wx-rainbow",
+      "label": "Rainbow"
+    },
+    {
+      "itemId": "wx-snow",
+      "label": "Snow"
+    },
+    {
+      "itemId": "wx-hail",
+      "label": "Hail"
+    },
+    {
+      "itemId": "wx-fog",
+      "label": "Fog"
+    },
+    {
+      "itemId": "wx-wind",
+      "label": "Wind"
+    },
+    {
+      "itemId": "wx-clouds",
+      "label": "Clouds"
+    },
+    {
+      "itemId": "wx-rain",
+      "label": "Rain"
+    },
+    {
+      "itemId": "wx-drizzle",
+      "label": "Drizzle"
+    },
+    {
+      "itemId": "wx-shower",
+      "label": "Rain shower"
+    },
+    {
+      "itemId": "wx-thunderstorm",
+      "label": "Thunderstorm"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "What the sky is doing",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "A light effect in the sky",
+        "capacity": 1,
+        "itemIds": [
+          "wx-rainbow"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Frozen precipitation",
+        "capacity": 2,
+        "itemIds": [
+          "wx-snow",
+          "wx-hail"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "No precipitation",
+        "capacity": 3,
+        "itemIds": [
+          "wx-fog",
+          "wx-wind",
+          "wx-clouds"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Liquid rain",
+        "capacity": 4,
+        "itemIds": [
+          "wx-rain",
+          "wx-drizzle",
+          "wx-shower",
+          "wx-thunderstorm"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group describes the same kind of sky: 1 light effect, 2 kinds of frozen precipitation, 3 conditions with no precipitation, and 4 forms of liquid rain.",
+  "sources": [
+    {
+      "title": "Wikipedia: Precipitation",
+      "url": "https://en.wikipedia.org/wiki/Precipitation",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.36
+  },
+  "status": "scheduled"
+}
