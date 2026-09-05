@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "weather-sky-2026-10-02-es-419",
+  "puzzleFamilyId": "weather-sky-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-02",
+  "timezone": "UTC",
+  "theme": "El clima",
+  "items": [
+    {
+      "itemId": "wx-rainbow",
+      "label": "Arcoíris"
+    },
+    {
+      "itemId": "wx-snow",
+      "label": "Nieve"
+    },
+    {
+      "itemId": "wx-hail",
+      "label": "Granizo"
+    },
+    {
+      "itemId": "wx-fog",
+      "label": "Niebla"
+    },
+    {
+      "itemId": "wx-wind",
+      "label": "Viento"
+    },
+    {
+      "itemId": "wx-clouds",
+      "label": "Nubes"
+    },
+    {
+      "itemId": "wx-rain",
+      "label": "Lluvia"
+    },
+    {
+      "itemId": "wx-drizzle",
+      "label": "Llovizna"
+    },
+    {
+      "itemId": "wx-shower",
+      "label": "Chubasco"
+    },
+    {
+      "itemId": "wx-thunderstorm",
+      "label": "Tormenta eléctrica"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "lo que ocurre en el cielo",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Un efecto de luz en el cielo",
+        "capacity": 1,
+        "itemIds": [
+          "wx-rainbow"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Precipitación congelada",
+        "capacity": 2,
+        "itemIds": [
+          "wx-snow",
+          "wx-hail"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Sin precipitación",
+        "capacity": 3,
+        "itemIds": [
+          "wx-fog",
+          "wx-wind",
+          "wx-clouds"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Lluvia líquida",
+        "capacity": 4,
+        "itemIds": [
+          "wx-rain",
+          "wx-drizzle",
+          "wx-shower",
+          "wx-thunderstorm"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo describe el mismo tipo de cielo: 1 efecto de luz, 2 precipitaciones congeladas, 3 condiciones sin precipitación y 4 formas de lluvia líquida.",
+  "sources": [
+    {
+      "title": "Wikipedia: Precipitation",
+      "url": "https://en.wikipedia.org/wiki/Precipitation",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.36
+  },
+  "status": "scheduled"
+}

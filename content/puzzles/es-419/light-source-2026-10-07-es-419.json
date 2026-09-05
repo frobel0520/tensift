@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "light-source-2026-10-07-es-419",
+  "puzzleFamilyId": "light-source-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-07",
+  "timezone": "UTC",
+  "theme": "Fuentes de luz",
+  "items": [
+    {
+      "itemId": "light-sun",
+      "label": "Sol"
+    },
+    {
+      "itemId": "light-moon",
+      "label": "Luna"
+    },
+    {
+      "itemId": "light-mirror",
+      "label": "Espejo"
+    },
+    {
+      "itemId": "light-candle",
+      "label": "Vela"
+    },
+    {
+      "itemId": "light-campfire",
+      "label": "Fogata"
+    },
+    {
+      "itemId": "light-oillamp",
+      "label": "Lámpara de aceite"
+    },
+    {
+      "itemId": "light-flashlight",
+      "label": "Linterna"
+    },
+    {
+      "itemId": "light-bulb",
+      "label": "Foco"
+    },
+    {
+      "itemId": "light-streetlamp",
+      "label": "Farola"
+    },
+    {
+      "itemId": "light-phonescreen",
+      "label": "Pantalla del teléfono"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "de dónde viene la luz",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Luz propia de una estrella",
+        "capacity": 1,
+        "itemIds": [
+          "light-sun"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Luz reflejada",
+        "capacity": 2,
+        "itemIds": [
+          "light-moon",
+          "light-mirror"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Luz de una llama",
+        "capacity": 3,
+        "itemIds": [
+          "light-candle",
+          "light-campfire",
+          "light-oillamp"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Luz eléctrica",
+        "capacity": 4,
+        "itemIds": [
+          "light-flashlight",
+          "light-bulb",
+          "light-streetlamp",
+          "light-phonescreen"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo produce luz de la misma manera: 1 es una estrella que brilla por sí misma, 2 solo reflejan la luz, 3 arden con llama y 4 funcionan con electricidad.",
+  "sources": [
+    {
+      "title": "Wikipedia: Light",
+      "url": "https://en.wikipedia.org/wiki/Light",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.34
+  },
+  "status": "scheduled"
+}

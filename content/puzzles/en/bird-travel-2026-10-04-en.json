@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "bird-travel-2026-10-04-en",
+  "puzzleFamilyId": "bird-travel-001",
+  "locale": "en",
+  "publishDate": "2026-10-04",
+  "timezone": "UTC",
+  "theme": "Birds",
+  "items": [
+    {
+      "itemId": "bird-penguin",
+      "label": "Penguin"
+    },
+    {
+      "itemId": "bird-ostrich",
+      "label": "Ostrich"
+    },
+    {
+      "itemId": "bird-emu",
+      "label": "Emu"
+    },
+    {
+      "itemId": "bird-duck",
+      "label": "Duck"
+    },
+    {
+      "itemId": "bird-swan",
+      "label": "Swan"
+    },
+    {
+      "itemId": "bird-goose",
+      "label": "Goose"
+    },
+    {
+      "itemId": "bird-sparrow",
+      "label": "Sparrow"
+    },
+    {
+      "itemId": "bird-pigeon",
+      "label": "Pigeon"
+    },
+    {
+      "itemId": "bird-eagle",
+      "label": "Eagle"
+    },
+    {
+      "itemId": "bird-owl",
+      "label": "Owl"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "How it gets around",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Cannot fly, swims",
+        "capacity": 1,
+        "itemIds": [
+          "bird-penguin"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Cannot fly, runs",
+        "capacity": 2,
+        "itemIds": [
+          "bird-ostrich",
+          "bird-emu"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Flies and swims",
+        "capacity": 3,
+        "itemIds": [
+          "bird-duck",
+          "bird-swan",
+          "bird-goose"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Flies, lives on land",
+        "capacity": 4,
+        "itemIds": [
+          "bird-sparrow",
+          "bird-pigeon",
+          "bird-eagle",
+          "bird-owl"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group moves the same way: 1 bird that cannot fly and swims, 2 that cannot fly and run, 3 that both fly and swim, and 4 that fly and live on land.",
+  "sources": [
+    {
+      "title": "Wikipedia: Flightless bird",
+      "url": "https://en.wikipedia.org/wiki/Flightless_bird",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.35
+  },
+  "status": "scheduled"
+}

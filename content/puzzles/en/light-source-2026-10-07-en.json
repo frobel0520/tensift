@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "light-source-2026-10-07-en",
+  "puzzleFamilyId": "light-source-001",
+  "locale": "en",
+  "publishDate": "2026-10-07",
+  "timezone": "UTC",
+  "theme": "Sources of Light",
+  "items": [
+    {
+      "itemId": "light-sun",
+      "label": "Sun"
+    },
+    {
+      "itemId": "light-moon",
+      "label": "Moon"
+    },
+    {
+      "itemId": "light-mirror",
+      "label": "Mirror"
+    },
+    {
+      "itemId": "light-candle",
+      "label": "Candle"
+    },
+    {
+      "itemId": "light-campfire",
+      "label": "Campfire"
+    },
+    {
+      "itemId": "light-oillamp",
+      "label": "Oil lamp"
+    },
+    {
+      "itemId": "light-flashlight",
+      "label": "Flashlight"
+    },
+    {
+      "itemId": "light-bulb",
+      "label": "Light bulb"
+    },
+    {
+      "itemId": "light-streetlamp",
+      "label": "Street lamp"
+    },
+    {
+      "itemId": "light-phonescreen",
+      "label": "Phone screen"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Where the light comes from",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "A star's own light",
+        "capacity": 1,
+        "itemIds": [
+          "light-sun"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Reflected light",
+        "capacity": 2,
+        "itemIds": [
+          "light-moon",
+          "light-mirror"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Light from a flame",
+        "capacity": 3,
+        "itemIds": [
+          "light-candle",
+          "light-campfire",
+          "light-oillamp"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Electric light",
+        "capacity": 4,
+        "itemIds": [
+          "light-flashlight",
+          "light-bulb",
+          "light-streetlamp",
+          "light-phonescreen"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group makes light the same way: 1 is a star shining on its own, 2 only reflect light, 3 burn a flame, and 4 run on electricity.",
+  "sources": [
+    {
+      "title": "Wikipedia: Light",
+      "url": "https://en.wikipedia.org/wiki/Light",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.34
+  },
+  "status": "scheduled"
+}
