@@ -21,7 +21,7 @@ Prototype approved; SD implementation is complete; the Cloudflare Pages producti
 - Ambiguity guard (`scripts/check-playtest.mjs`, `content/playtest/`): each puzzle family carries a ledger naming the items that were tested against a rival group and why the intended group wins. Author review is a hard CI failure for families publishing from 2026-09-28 onward; the thirty earlier families are reported as backlog without failing, so the guard could land without rewriting released content. Blind playtesting is reported as debt within seven days of release and only fails under `--strict-blind`, because no family has a blind pass yet and enforcing it today would fail every run. The ledger check also verifies referentially that every item and rival group id exists in the puzzle, and that a rival is never the item's own group.
 - Bundle-leak scan now matches authored answer values on word boundaries instead of as bare substrings. The Tastes group label `Sour` is a substring of the existing UI string `Sources`, which failed the scan on correct content; a real leak ships the value as its own string literal, so the surrounding quotes still provide the boundaries. Verified both ways against the built bundle before merging.
 - The `Content runway alarm` workflow is now `Content alarm` (`.github/workflows/content-alarm.yml`) and runs both checks; the ledger step runs even when the runway step fails, since a short buffer and an unreviewed puzzle are separate problems.
-- Latest content commit `4d2502a` is pushed to GitHub; CI run `33258104785` passed validation, type checking, tests, Pages build, and bundle-leak scan.
+- Both 2026-09-05 pull requests are merged to `main` and deployed: #4 (fourth content batch, ambiguity guard, bundle-scan fix) and #5 (seed result recorded, `actions/upload-artifact` v4 to v7). The `Content alarm` check ran on #4 and passed, which is the guard's first live run.
 - Unit, contract, typecheck, build, bundle-leak scan, local Pages smoke tests.
 - Top-of-page Google AdSense integration: responsive slot, public-ID validation, dev placeholder, CSP allowlist, and a fail-closed `/ads.txt` Function; production client/slot and publisher configuration are deployed, pending Google review before monetization.
 - CI cross-platform fix: seed CLI test now uses the runner's native path format instead of a hard-coded Windows path.
@@ -52,6 +52,7 @@ Prototype approved; SD implementation is complete; the Cloudflare Pages producti
 - `/api/v1/puzzles/today` returns the published Countries puzzle with HTTP 200 for all three locales; the safe DTO does not expose `solution` or `hiddenDimension`.
 - The release commit `76f2bba` has a successful GitHub Actions CI run.
 - After the first CI-driven deployment (2026-09-05), production still serves all three locales for the current UTC date, `/ads.txt` still returns the direct-seller line, and the served bundle still contains the AdSense client and slot identifiers.
+- After the fourth-batch seed and both merges (2026-09-05), production smoke passed again for all three locales.
 
 ## Pending / decision needed
 
@@ -60,6 +61,7 @@ Prototype approved; SD implementation is complete; the Cloudflare Pages producti
 - Image-based share cards remain deferred; the current share flow is text-first and ready for organic sharing tests.
 - Ad direction: the top-of-page banner slot and `ads.txt` are live. Remaining work is AdSense site/account approval, privacy/consent review, and monitoring the first live fill; future Direct Upload builds must inject the public Vite IDs locally.
 - Next feature under discussion: guest play plus authenticated cross-device streaks. Proposed sign-in options are Google OAuth and email + password; passwordless magic link remains a future option.
+- Next session starts here: recruit blind testers, then write the fifth batch. Nothing else is blocking.
 - Keep expanding the buffer beyond the current 40 puzzle families. With the fourth batch in, the runway alarm now fires on the Monday around 2026-09-21, which is the working deadline for the fifth batch.
 - Blind playtesting for second-solution ambiguity is still not done for any of the forty families. The ledger now makes that debt visible on every alarm run and records the author-side review, but author review is the author grading their own work: it catches the alternates you can see, not the ones a fresh player finds. Recruit two testers per family, record the result in `content/playtest/`, then turn on `--strict-blind`.
 - Highest-risk items flagged during author review, in order: the thunderstorm in Weather (2026-10-02), the bookshelf/table boundary in Furniture (2026-10-03), the whole of Cooking Methods (2026-10-05, every method involves some oil or water in practice), the train station in Around Town (2026-10-06), and the school nurse in Jobs and Workplaces (2026-09-30). Each ledger records the replacement to make if blind testers split.
