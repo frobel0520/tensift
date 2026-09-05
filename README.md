@@ -120,7 +120,7 @@ verification and for content supply instead.
 | Workflow | Schedule | Fails when |
 |---|---|---|
 | `Daily production smoke` | 00:15 UTC daily | `/api/health` is not `ok`/`d1`, or any of the three locales has no playable puzzle for today's UTC date, or the safe DTO carries an answer field |
-| `Content runway alarm` | 01:00 UTC Mondays, and on any PR touching `content/puzzles/**` | Fewer than 14 consecutive complete days of authored content remain from today |
+| `Content alarm` | 01:00 UTC Mondays, and on any PR touching `content/puzzles/**` or `content/playtest/**` | Fewer than 14 consecutive complete days of authored content remain from today, or a puzzle family scheduled from 2026-09-28 onward has no recorded ambiguity review |
 
 Both can be run on demand from the Actions tab. GitHub emails the repository
 owner when a scheduled run fails, which is the notification path for both.
@@ -130,16 +130,36 @@ Run them locally with:
 ```powershell
 npm run smoke:production
 npm run check:runway
+npm run check:playtest
 ```
 
 `smoke:production` accepts `--base-url` to point at a preview deployment;
-`check:runway` accepts `--min-days` and `--date`.
+`check:runway` accepts `--min-days` and `--date`; `check:playtest` accepts
+`--date`, `--author-review-from`, `--blind-lead-days`, and `--strict-blind`.
 
 Runway is measured as the number of days from today with a complete locale set,
 stopping at the first gap — not the total file count, because one missing locale
 is the day the daily release breaks. The date comes from each file's
 `publishDate` field, not its filename: several filenames carry a different date
 than the record inside them.
+
+### Ambiguity guard
+
+A puzzle only works if the intended grouping is the dominant reading of its ten
+items, and no schema can prove that. `content/playtest/<familyId>.json` carries
+the review instead: which item was tested against which rival group, and why the
+intended group wins.
+
+The guard has two strengths on purpose. Author review is a hard failure for any
+family publishing on or after `2026-09-28`; the thirty families before that date
+are the pre-existing backlog and are listed on every run without failing it.
+Blind playtesting — the only check that catches readings the author cannot see —
+is reported as debt for any family within seven days of release, and becomes a
+failure under `--strict-blind`. Turn that flag on (`strict_blind` in the
+workflow dispatch inputs) once blind testing is actually running; today no
+family has a blind pass, so it would fail every run.
+
+A blind pass needs at least two testers recorded in `blindPlaytest.testers`.
 
 ## Optional Google AdSense
 

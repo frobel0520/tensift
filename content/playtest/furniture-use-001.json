@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "furniture-use-001",
+  "theme": "Furniture",
+  "publishDate": "2026-10-03",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "furn-desk",
+        "rivalGroupId": "g3",
+        "risk": "Most desks have drawers, so a desk can read as storage.",
+        "resolution": "A desk is used as a work surface first; the drawers are secondary to what you do at it."
+      },
+      {
+        "itemId": "furn-bookshelf",
+        "rivalGroupId": "g4",
+        "risk": "A shelf is a surface you put books on, which is close to the \"put things on\" group.",
+        "resolution": "A bookshelf keeps things; a table holds what you are currently using. This is the weakest boundary in the puzzle and is the first thing to check in blind testing."
+      },
+      {
+        "itemId": "furn-sofa",
+        "rivalGroupId": "g1",
+        "risk": "Sofa beds and napping make the sofa a plausible sleeping item.",
+        "resolution": "The usual use of a sofa is sitting, and the bed is the only item whose single purpose is sleep."
+      },
+      {
+        "itemId": "furn-sidetable",
+        "rivalGroupId": "g3",
+        "risk": "Side tables sometimes have a shelf or drawer underneath.",
+        "resolution": "The name and the everyday use are both about the surface."
+      }
+    ],
+    "notes": "Store versus put-things-on is a real semantic edge. Kept because the four-item row is all tables and the three-item row is all closed or shelved storage, which makes the intended reading visible."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If the bookshelf splits testers, replace it with a filing cabinet."
+  }
+}
