@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "light-source-001",
+  "theme": "Sources of Light",
+  "publishDate": "2026-10-07",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "light-moon",
+        "rivalGroupId": "g1",
+        "risk": "Moonlight is spoken of as the moon’s own light, which puts it next to the sun.",
+        "resolution": "The moon reflects sunlight. This is the intended realisation of the puzzle, and pairing it with the mirror makes the rule legible once solved."
+      },
+      {
+        "itemId": "light-mirror",
+        "rivalGroupId": "g4",
+        "risk": "Bathroom and dressing-room mirrors are usually lit, so a mirror can read as an electric light.",
+        "resolution": "A mirror makes no light of its own; it only redirects light that already exists."
+      },
+      {
+        "itemId": "light-phonescreen",
+        "rivalGroupId": "g2",
+        "risk": "Screens reflect the room, and a switched-off screen is effectively a mirror.",
+        "resolution": "A phone screen is backlit and runs on a battery, which is the electric group."
+      },
+      {
+        "itemId": "light-oillamp",
+        "rivalGroupId": "g4",
+        "risk": "Many objects called lamps are electric.",
+        "resolution": "An oil lamp burns a wick, and the label names the fuel."
+      }
+    ],
+    "notes": "The reflected-light row is the point of the puzzle: the moon and the mirror only make sense together, which is what makes the two-item row satisfying rather than arbitrary."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If the mirror is rejected as \"not a source of light\", that is a signal the theme wording should be \"Where light comes from\" rather than \"Sources of light\"."
+  }
+}

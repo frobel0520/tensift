@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "cooking-heat-001",
+  "theme": "Cooking Methods",
+  "publishDate": "2026-10-05",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "cook-grill",
+        "rivalGroupId": "g3",
+        "risk": "Food is usually oiled before it goes on a grill.",
+        "resolution": "The heat travels by fire and radiant heat, not through oil; the oil is a coating."
+      },
+      {
+        "itemId": "cook-stirfry",
+        "rivalGroupId": "g4",
+        "risk": "A wok gets extremely hot, which can read as dry heat.",
+        "resolution": "Stir-frying always has oil in the pan, and it is the oil that carries the heat to the food."
+      },
+      {
+        "itemId": "cook-roast",
+        "rivalGroupId": "g3",
+        "risk": "Roasting a joint or vegetables normally involves oil in the tray.",
+        "resolution": "The oven air does the cooking; the same food roasts without oil."
+      },
+      {
+        "itemId": "cook-microwave",
+        "rivalGroupId": "g2",
+        "risk": "A microwave heats the water inside the food, so it can read as water-based.",
+        "resolution": "The carrier is the microwave radiation; that water is the food’s own, not a cooking medium."
+      }
+    ],
+    "notes": "The hardest of the ten. Every method involves some oil or some water in practice, so the rule is which one carries the heat, and the explanation says so directly."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers cannot recover the rule from the groups, move this family later in the schedule and lead with an easier one."
+  }
+}

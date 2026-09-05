@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "bird-travel-001",
+  "theme": "Birds",
+  "publishDate": "2026-10-04",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "bird-duck",
+        "rivalGroupId": "g4",
+        "risk": "Ducks walk on land and fly, so they fit the land-bird group on a loose reading.",
+        "resolution": "The distinguishing behaviour is swimming; the three-item row is exactly the birds that both fly and swim."
+      },
+      {
+        "itemId": "bird-swan",
+        "rivalGroupId": "g4",
+        "risk": "Same as the duck: swans fly long distances.",
+        "resolution": "Swans are water birds, and moving one out leaves the flying-and-swimming row short."
+      },
+      {
+        "itemId": "bird-emu",
+        "rivalGroupId": "g4",
+        "risk": "A player who has never seen an emu may assume it flies.",
+        "resolution": "Emus are flightless. This is the one knowledge dependency in the puzzle; the ostrich beside it should carry the group."
+      },
+      {
+        "itemId": "bird-owl",
+        "rivalGroupId": "g3",
+        "risk": "Owls hunt near water in some regions.",
+        "resolution": "Owls do not swim, and the land-flier row is four items with no room to lose one."
+      }
+    ],
+    "notes": "Overlaps the Animal Movement family released 2026-09-27 in dimension but not in items; birds are narrow enough that the rule reads differently."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Watch the emu for recognition, not for ambiguity. If it is unfamiliar, swap it for a cassowary only if that is better known in the test group, otherwise use a kiwi."
+  }
+}

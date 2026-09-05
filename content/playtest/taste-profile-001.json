@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "taste-profile-001",
+  "theme": "Tastes",
+  "publishDate": "2026-10-01",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "taste-yogurt",
+        "rivalGroupId": "g4",
+        "risk": "Most supermarket yogurt is sweetened, so yogurt reads as sweet to many players.",
+        "resolution": "The label says plain yogurt, whose dominant taste is sour; the sweet row is already full with four unambiguous items."
+      },
+      {
+        "itemId": "taste-coffee",
+        "rivalGroupId": "g4",
+        "risk": "Coffee is usually drunk with sugar, which can pull it toward sweet.",
+        "resolution": "The label says black coffee, and bitter is the only taste in the set with a single representative."
+      },
+      {
+        "itemId": "taste-jam",
+        "rivalGroupId": "g3",
+        "risk": "Berry jams keep a tart edge, so jam can read as sour.",
+        "resolution": "Sugar dominates jam by weight and by taste; the sour row is filled by lemon, vinegar and plain yogurt."
+      },
+      {
+        "itemId": "taste-soysauce",
+        "rivalGroupId": "g1",
+        "risk": "Dark soy sauce carries a bitter note alongside the salt.",
+        "resolution": "Salt is what soy sauce is used for, and the salty row has no other candidate besides salt itself."
+      }
+    ],
+    "notes": "Two item labels were written defensively — \"black coffee\" and \"plain yogurt\" — precisely because the bare words would have been ambiguous."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers still read plain yogurt as sweet, swap it for pickles."
+  }
+}
