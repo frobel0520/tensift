@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fabric-fibre-2026-10-14-en",
+  "puzzleFamilyId": "fabric-fibre-001",
+  "locale": "en",
+  "publishDate": "2026-10-14",
+  "timezone": "UTC",
+  "theme": "Fabrics",
+  "items": [
+    {
+      "itemId": "fabric-silk",
+      "label": "Silk"
+    },
+    {
+      "itemId": "fabric-wool",
+      "label": "Wool"
+    },
+    {
+      "itemId": "fabric-cashmere",
+      "label": "Cashmere"
+    },
+    {
+      "itemId": "fabric-cotton",
+      "label": "Cotton"
+    },
+    {
+      "itemId": "fabric-linen",
+      "label": "Linen"
+    },
+    {
+      "itemId": "fabric-hemp",
+      "label": "Hemp"
+    },
+    {
+      "itemId": "fabric-polyester",
+      "label": "Polyester"
+    },
+    {
+      "itemId": "fabric-nylon",
+      "label": "Nylon"
+    },
+    {
+      "itemId": "fabric-acrylic",
+      "label": "Acrylic"
+    },
+    {
+      "itemId": "fabric-spandex",
+      "label": "Spandex"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Where the fibre comes from",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Spun by an insect",
+        "capacity": 1,
+        "itemIds": [
+          "fabric-silk"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Combed from an animal coat",
+        "capacity": 2,
+        "itemIds": [
+          "fabric-wool",
+          "fabric-cashmere"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Grown as a plant",
+        "capacity": 3,
+        "itemIds": [
+          "fabric-cotton",
+          "fabric-linen",
+          "fabric-hemp"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Made in a factory",
+        "capacity": 4,
+        "itemIds": [
+          "fabric-polyester",
+          "fabric-nylon",
+          "fabric-acrylic",
+          "fabric-spandex"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group starts as the same kind of fibre: 1 is spun by an insect, 2 are combed from an animal coat, 3 are grown as plants, and 4 are made in a factory.",
+  "sources": [
+    {
+      "title": "Wikipedia: Textile",
+      "url": "https://en.wikipedia.org/wiki/Textile",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.46
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ball-game-2026-10-15-en",
+  "puzzleFamilyId": "ball-game-001",
+  "locale": "en",
+  "publishDate": "2026-10-15",
+  "timezone": "UTC",
+  "theme": "Ball Games",
+  "items": [
+    {
+      "itemId": "ball-soccer",
+      "label": "Soccer"
+    },
+    {
+      "itemId": "ball-basketball",
+      "label": "Basketball"
+    },
+    {
+      "itemId": "ball-volleyball",
+      "label": "Volleyball"
+    },
+    {
+      "itemId": "ball-tennis",
+      "label": "Tennis"
+    },
+    {
+      "itemId": "ball-tabletennis",
+      "label": "Table tennis"
+    },
+    {
+      "itemId": "ball-squash",
+      "label": "Squash"
+    },
+    {
+      "itemId": "ball-baseball",
+      "label": "Baseball"
+    },
+    {
+      "itemId": "ball-cricket",
+      "label": "Cricket"
+    },
+    {
+      "itemId": "ball-golf",
+      "label": "Golf"
+    },
+    {
+      "itemId": "ball-hockey",
+      "label": "Field hockey"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "What you move the ball with",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "With your feet",
+        "capacity": 1,
+        "itemIds": [
+          "ball-soccer"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "With your hands",
+        "capacity": 2,
+        "itemIds": [
+          "ball-basketball",
+          "ball-volleyball"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "With a racket",
+        "capacity": 3,
+        "itemIds": [
+          "ball-tennis",
+          "ball-tabletennis",
+          "ball-squash"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "With a bat, stick or club",
+        "capacity": 4,
+        "itemIds": [
+          "ball-baseball",
+          "ball-cricket",
+          "ball-golf",
+          "ball-hockey"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group moves the ball the same way: 1 with your feet, 2 with your hands, 3 with a racket, and 4 with a bat, stick or club.",
+  "sources": [
+    {
+      "title": "Wikipedia: Ball game",
+      "url": "https://en.wikipedia.org/wiki/Ball_game",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.31
+  },
+  "status": "scheduled"
+}

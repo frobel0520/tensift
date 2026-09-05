@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sea-animal-2026-10-08-es-419",
+  "puzzleFamilyId": "sea-animal-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-08",
+  "timezone": "UTC",
+  "theme": "Criaturas del mar",
+  "items": [
+    {
+      "itemId": "sea-octopus",
+      "label": "Pulpo"
+    },
+    {
+      "itemId": "sea-crab",
+      "label": "Cangrejo"
+    },
+    {
+      "itemId": "sea-shrimp",
+      "label": "Camarón"
+    },
+    {
+      "itemId": "sea-dolphin",
+      "label": "Delfín"
+    },
+    {
+      "itemId": "sea-whale",
+      "label": "Ballena"
+    },
+    {
+      "itemId": "sea-seal",
+      "label": "Foca"
+    },
+    {
+      "itemId": "sea-tuna",
+      "label": "Atún"
+    },
+    {
+      "itemId": "sea-salmon",
+      "label": "Salmón"
+    },
+    {
+      "itemId": "sea-cod",
+      "label": "Bacalao"
+    },
+    {
+      "itemId": "sea-herring",
+      "label": "Arenque"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Qué tipo de animal es",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Un molusco",
+        "capacity": 1,
+        "itemIds": [
+          "sea-octopus"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Crustáceos",
+        "capacity": 2,
+        "itemIds": [
+          "sea-crab",
+          "sea-shrimp"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Mamíferos marinos",
+        "capacity": 3,
+        "itemIds": [
+          "sea-dolphin",
+          "sea-whale",
+          "sea-seal"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Peces",
+        "capacity": 4,
+        "itemIds": [
+          "sea-tuna",
+          "sea-salmon",
+          "sea-cod",
+          "sea-herring"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo es un tipo de animal: 1 molusco sin huesos, 2 crustáceos con caparazón, 3 mamíferos que salen a respirar y 4 peces.",
+  "sources": [
+    {
+      "title": "Wikipedia: Vida marina",
+      "url": "https://en.wikipedia.org/wiki/Marine_life",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

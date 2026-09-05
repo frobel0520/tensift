@@ -10,12 +10,12 @@ const instrumentsRecord = instrumentsPuzzle as AuthoringPuzzleRecord;
 const generatedAt = '2026-08-29T00:00:00.000Z';
 
 describe('D1 puzzle seed generator', () => {
-  it('loads and validates the complete forty-day content batch', async () => {
+  it('loads and validates the complete fifty-day content batch', async () => {
     const records = await loadAuthoringPuzzles();
 
-    expect(records).toHaveLength(120);
-    expect(new Set(records.map((record) => record.puzzleId)).size).toBe(120);
-    expect(new Set(records.map((record) => record.puzzleFamilyId)).size).toBe(40);
+    expect(records).toHaveLength(150);
+    expect(new Set(records.map((record) => record.puzzleId)).size).toBe(150);
+    expect(new Set(records.map((record) => record.puzzleFamilyId)).size).toBe(50);
     expect(new Set(records.map((record) => record.locale))).toEqual(new Set(['en', 'es-419', 'zh-Hans']));
     expect(records.some((record) => record.puzzleFamilyId === 'home-room-001')).toBe(true);
     expect(records.some((record) => record.puzzleFamilyId === 'fruit-color-001')).toBe(true);

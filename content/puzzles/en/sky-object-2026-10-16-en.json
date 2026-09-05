@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sky-object-2026-10-16-en",
+  "puzzleFamilyId": "sky-object-001",
+  "locale": "en",
+  "publishDate": "2026-10-16",
+  "timezone": "UTC",
+  "theme": "Things in the Sky",
+  "items": [
+    {
+      "itemId": "sky-sun",
+      "label": "Sun"
+    },
+    {
+      "itemId": "sky-cloud",
+      "label": "Cloud"
+    },
+    {
+      "itemId": "sky-rainbow",
+      "label": "Rainbow"
+    },
+    {
+      "itemId": "sky-plane",
+      "label": "Aeroplane"
+    },
+    {
+      "itemId": "sky-helicopter",
+      "label": "Helicopter"
+    },
+    {
+      "itemId": "sky-balloon",
+      "label": "Hot-air balloon"
+    },
+    {
+      "itemId": "sky-sparrow",
+      "label": "Sparrow"
+    },
+    {
+      "itemId": "sky-eagle",
+      "label": "Eagle"
+    },
+    {
+      "itemId": "sky-bat",
+      "label": "Bat"
+    },
+    {
+      "itemId": "sky-dragonfly",
+      "label": "Dragonfly"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "What kind of thing it is",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "A star",
+        "capacity": 1,
+        "itemIds": [
+          "sky-sun"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Made of water in the air",
+        "capacity": 2,
+        "itemIds": [
+          "sky-cloud",
+          "sky-rainbow"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Machines people fly",
+        "capacity": 3,
+        "itemIds": [
+          "sky-plane",
+          "sky-helicopter",
+          "sky-balloon"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Living things that fly",
+        "capacity": 4,
+        "itemIds": [
+          "sky-sparrow",
+          "sky-eagle",
+          "sky-bat",
+          "sky-dragonfly"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group is one kind of thing: 1 is a star, 2 are made of water in the air, 3 are machines people fly, and 4 are living things that fly.",
+  "sources": [
+    {
+      "title": "Wikipedia: Sky",
+      "url": "https://en.wikipedia.org/wiki/Sky",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.33
+  },
+  "status": "scheduled"
+}
