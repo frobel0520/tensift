@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "payment-method-2026-10-17-zh-hans",
+  "puzzleFamilyId": "payment-method-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-17",
+  "timezone": "UTC",
+  "theme": "付款方式",
+  "items": [
+    {
+      "itemId": "pay-barter",
+      "label": "以物换物"
+    },
+    {
+      "itemId": "pay-coins",
+      "label": "硬币"
+    },
+    {
+      "itemId": "pay-notes",
+      "label": "纸币"
+    },
+    {
+      "itemId": "pay-credit",
+      "label": "信用卡"
+    },
+    {
+      "itemId": "pay-debit",
+      "label": "借记卡"
+    },
+    {
+      "itemId": "pay-giftcard",
+      "label": "礼品卡"
+    },
+    {
+      "itemId": "pay-transfer",
+      "label": "银行转账"
+    },
+    {
+      "itemId": "pay-wallet",
+      "label": "手机钱包"
+    },
+    {
+      "itemId": "pay-qr",
+      "label": "扫码支付"
+    },
+    {
+      "itemId": "pay-online",
+      "label": "网上结账"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "真正交出去的是什么",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "以物易物",
+        "capacity": 1,
+        "itemIds": [
+          "pay-barter"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "现金",
+        "capacity": 2,
+        "itemIds": [
+          "pay-coins",
+          "pay-notes"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "递出一张卡",
+        "capacity": 3,
+        "itemIds": [
+          "pay-credit",
+          "pay-debit",
+          "pay-giftcard"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "通过手机或电脑",
+        "capacity": 4,
+        "itemIds": [
+          "pay-transfer",
+          "pay-wallet",
+          "pay-qr",
+          "pay-online"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每一组交出去的东西相同：1 个是以物易物，2 个是交现金，3 个是递出一张卡，4 个是通过手机或电脑完成。",
+  "sources": [
+    {
+      "title": "维基百科：支付",
+      "url": "https://en.wikipedia.org/wiki/Payment",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.4
+  },
+  "status": "scheduled"
+}

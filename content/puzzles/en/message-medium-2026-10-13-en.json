@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "message-medium-2026-10-13-en",
+  "puzzleFamilyId": "message-medium-001",
+  "locale": "en",
+  "publishDate": "2026-10-13",
+  "timezone": "UTC",
+  "theme": "Ways to Send a Message",
+  "items": [
+    {
+      "itemId": "msg-pigeon",
+      "label": "Carrier pigeon"
+    },
+    {
+      "itemId": "msg-letter",
+      "label": "Letter"
+    },
+    {
+      "itemId": "msg-postcard",
+      "label": "Postcard"
+    },
+    {
+      "itemId": "msg-call",
+      "label": "Phone call"
+    },
+    {
+      "itemId": "msg-text",
+      "label": "Text message"
+    },
+    {
+      "itemId": "msg-email",
+      "label": "Email"
+    },
+    {
+      "itemId": "msg-shout",
+      "label": "A shout"
+    },
+    {
+      "itemId": "msg-wave",
+      "label": "A wave"
+    },
+    {
+      "itemId": "msg-nod",
+      "label": "A nod"
+    },
+    {
+      "itemId": "msg-whistle",
+      "label": "A whistle"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "How the message travels",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Carried by an animal",
+        "capacity": 1,
+        "itemIds": [
+          "msg-pigeon"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Carried by the post",
+        "capacity": 2,
+        "itemIds": [
+          "msg-letter",
+          "msg-postcard"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Travels over a network",
+        "capacity": 3,
+        "itemIds": [
+          "msg-call",
+          "msg-text",
+          "msg-email"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Given face to face",
+        "capacity": 4,
+        "itemIds": [
+          "msg-shout",
+          "msg-wave",
+          "msg-nod",
+          "msg-whistle"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group moves the message the same way: 1 is carried by an animal, 2 are carried by the post, 3 travel over a network, and 4 are given face to face.",
+  "sources": [
+    {
+      "title": "Wikipedia: Communication",
+      "url": "https://en.wikipedia.org/wiki/Communication",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

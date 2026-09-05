@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "farm-animal-2026-10-10-es-419",
+  "puzzleFamilyId": "farm-animal-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-10",
+  "timezone": "UTC",
+  "theme": "Animales de granja",
+  "items": [
+    {
+      "itemId": "farm-sheep",
+      "label": "Oveja"
+    },
+    {
+      "itemId": "farm-hen",
+      "label": "Gallina"
+    },
+    {
+      "itemId": "farm-duck",
+      "label": "Pato"
+    },
+    {
+      "itemId": "farm-cow",
+      "label": "Vaca lechera"
+    },
+    {
+      "itemId": "farm-goat",
+      "label": "Cabra"
+    },
+    {
+      "itemId": "farm-buffalo",
+      "label": "Búfalo de agua"
+    },
+    {
+      "itemId": "farm-horse",
+      "label": "Caballo"
+    },
+    {
+      "itemId": "farm-donkey",
+      "label": "Burro"
+    },
+    {
+      "itemId": "farm-ox",
+      "label": "Buey"
+    },
+    {
+      "itemId": "farm-camel",
+      "label": "Camello"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Para qué lo cría la granja",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Se cría por la lana",
+        "capacity": 1,
+        "itemIds": [
+          "farm-sheep"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Se cría por los huevos",
+        "capacity": 2,
+        "itemIds": [
+          "farm-hen",
+          "farm-duck"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Se cría por la leche",
+        "capacity": 3,
+        "itemIds": [
+          "farm-cow",
+          "farm-goat",
+          "farm-buffalo"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Se cría para tirar y cargar",
+        "capacity": 4,
+        "itemIds": [
+          "farm-horse",
+          "farm-donkey",
+          "farm-ox",
+          "farm-camel"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo se cría por lo mismo: 1 por la lana, 2 por los huevos, 3 por la leche y 4 por su fuerza para tirar y cargar.",
+  "sources": [
+    {
+      "title": "Wikipedia: Ganado",
+      "url": "https://en.wikipedia.org/wiki/Livestock",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.32
+  },
+  "status": "scheduled"
+}

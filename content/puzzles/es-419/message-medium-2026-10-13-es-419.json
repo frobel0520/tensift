@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "message-medium-2026-10-13-es-419",
+  "puzzleFamilyId": "message-medium-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-13",
+  "timezone": "UTC",
+  "theme": "Formas de enviar un mensaje",
+  "items": [
+    {
+      "itemId": "msg-pigeon",
+      "label": "Paloma mensajera"
+    },
+    {
+      "itemId": "msg-letter",
+      "label": "Carta"
+    },
+    {
+      "itemId": "msg-postcard",
+      "label": "Postal"
+    },
+    {
+      "itemId": "msg-call",
+      "label": "Llamada telefónica"
+    },
+    {
+      "itemId": "msg-text",
+      "label": "Mensaje de texto"
+    },
+    {
+      "itemId": "msg-email",
+      "label": "Correo electrónico"
+    },
+    {
+      "itemId": "msg-shout",
+      "label": "Un grito"
+    },
+    {
+      "itemId": "msg-wave",
+      "label": "Un saludo con la mano"
+    },
+    {
+      "itemId": "msg-nod",
+      "label": "Un gesto con la cabeza"
+    },
+    {
+      "itemId": "msg-whistle",
+      "label": "Un silbido"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cómo viaja el mensaje",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Lo lleva un animal",
+        "capacity": 1,
+        "itemIds": [
+          "msg-pigeon"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Lo lleva el correo",
+        "capacity": 2,
+        "itemIds": [
+          "msg-letter",
+          "msg-postcard"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Viaja por una red",
+        "capacity": 3,
+        "itemIds": [
+          "msg-call",
+          "msg-text",
+          "msg-email"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Se da en persona",
+        "capacity": 4,
+        "itemIds": [
+          "msg-shout",
+          "msg-wave",
+          "msg-nod",
+          "msg-whistle"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo mueve el mensaje igual: 1 lo lleva un animal, 2 los lleva el correo, 3 viajan por una red y 4 se dan en persona.",
+  "sources": [
+    {
+      "title": "Wikipedia: Comunicación",
+      "url": "https://en.wikipedia.org/wiki/Communication",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

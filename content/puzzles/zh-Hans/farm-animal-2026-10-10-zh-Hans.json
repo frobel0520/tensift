@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "farm-animal-2026-10-10-zh-hans",
+  "puzzleFamilyId": "farm-animal-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-10",
+  "timezone": "UTC",
+  "theme": "农场动物",
+  "items": [
+    {
+      "itemId": "farm-sheep",
+      "label": "绵羊"
+    },
+    {
+      "itemId": "farm-hen",
+      "label": "母鸡"
+    },
+    {
+      "itemId": "farm-duck",
+      "label": "鸭"
+    },
+    {
+      "itemId": "farm-cow",
+      "label": "奶牛"
+    },
+    {
+      "itemId": "farm-goat",
+      "label": "山羊"
+    },
+    {
+      "itemId": "farm-buffalo",
+      "label": "水牛"
+    },
+    {
+      "itemId": "farm-horse",
+      "label": "马"
+    },
+    {
+      "itemId": "farm-donkey",
+      "label": "驴"
+    },
+    {
+      "itemId": "farm-ox",
+      "label": "耕牛"
+    },
+    {
+      "itemId": "farm-camel",
+      "label": "骆驼"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "农场养它主要是为了什么",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "为了羊毛",
+        "capacity": 1,
+        "itemIds": [
+          "farm-sheep"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "为了蛋",
+        "capacity": 2,
+        "itemIds": [
+          "farm-hen",
+          "farm-duck"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "为了奶",
+        "capacity": 3,
+        "itemIds": [
+          "farm-cow",
+          "farm-goat",
+          "farm-buffalo"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "为了拉车和驮运",
+        "capacity": 4,
+        "itemIds": [
+          "farm-horse",
+          "farm-donkey",
+          "farm-ox",
+          "farm-camel"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每一组的用途相同：1 个是为了羊毛，2 个是为了蛋，3 个是为了奶，4 个是为了拉车驮运。",
+  "sources": [
+    {
+      "title": "维基百科：家畜",
+      "url": "https://en.wikipedia.org/wiki/Livestock",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.32
+  },
+  "status": "scheduled"
+}

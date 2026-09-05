@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "sea-animal-001",
+  "theme": "Sea Creatures",
+  "publishDate": "2026-10-08",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "sea-dolphin",
+        "rivalGroupId": "g4",
+        "risk": "A dolphin is shaped like a fish, swims like a fish and is sold as seafood in stories, so most players reach for the fish row first.",
+        "resolution": "Dolphins breathe air through a blowhole and feed their young milk, which is the mammal row. This is the intended realisation of the puzzle."
+      },
+      {
+        "itemId": "sea-whale",
+        "rivalGroupId": "g4",
+        "risk": "The same confusion as the dolphin, reinforced by \"whale fish\" phrasing in several languages.",
+        "resolution": "Whales are mammals for the same reason as dolphins, and grouping the two together makes the rule legible once solved."
+      },
+      {
+        "itemId": "sea-octopus",
+        "rivalGroupId": "g2",
+        "risk": "Octopus is sold beside crab and shrimp as shellfish, so the crustacean row is a natural second reading.",
+        "resolution": "An octopus has no external shell and no jointed legs; it is a mollusc, and it is the only one, which is what makes it the single-item row."
+      },
+      {
+        "itemId": "sea-shrimp",
+        "rivalGroupId": "g4",
+        "risk": "Shrimp is eaten as seafood alongside fish and may be filed under fish by a fast player.",
+        "resolution": "A shrimp has a hard outer shell and jointed legs, which is the crustacean rule the crab already anchors."
+      }
+    ],
+    "notes": "The dolphin and the whale are the puzzle: the three-item row only makes sense once a player stops sorting by shape and starts sorting by how the animal breathes."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers reject the mammal row, the fix is not the items but the theme wording: \"Sea Creatures\" invites a food-counter reading, and \"Life in the Sea\" pushes towards biology."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sea-animal-2026-10-08-zh-hans",
+  "puzzleFamilyId": "sea-animal-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-08",
+  "timezone": "UTC",
+  "theme": "海洋生物",
+  "items": [
+    {
+      "itemId": "sea-octopus",
+      "label": "章鱼"
+    },
+    {
+      "itemId": "sea-crab",
+      "label": "螃蟹"
+    },
+    {
+      "itemId": "sea-shrimp",
+      "label": "虾"
+    },
+    {
+      "itemId": "sea-dolphin",
+      "label": "海豚"
+    },
+    {
+      "itemId": "sea-whale",
+      "label": "鲸"
+    },
+    {
+      "itemId": "sea-seal",
+      "label": "海豹"
+    },
+    {
+      "itemId": "sea-tuna",
+      "label": "金枪鱼"
+    },
+    {
+      "itemId": "sea-salmon",
+      "label": "三文鱼"
+    },
+    {
+      "itemId": "sea-cod",
+      "label": "鳕鱼"
+    },
+    {
+      "itemId": "sea-herring",
+      "label": "鲱鱼"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "它属于哪一类动物",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "软体动物",
+        "capacity": 1,
+        "itemIds": [
+          "sea-octopus"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "甲壳动物",
+        "capacity": 2,
+        "itemIds": [
+          "sea-crab",
+          "sea-shrimp"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "海洋哺乳动物",
+        "capacity": 3,
+        "itemIds": [
+          "sea-dolphin",
+          "sea-whale",
+          "sea-seal"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "鱼类",
+        "capacity": 4,
+        "itemIds": [
+          "sea-tuna",
+          "sea-salmon",
+          "sea-cod",
+          "sea-herring"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每一组都是同一类动物：1 个是没有骨头的软体动物，2 个是带壳的甲壳动物，3 个是要浮出水面呼吸的哺乳动物，4 个是鱼。",
+  "sources": [
+    {
+      "title": "维基百科：海洋生物",
+      "url": "https://en.wikipedia.org/wiki/Marine_life",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

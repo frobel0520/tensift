@@ -8,7 +8,7 @@ Target: Cloudflare Pages project `tensift` → `https://tensift.pages.dev`
 | Service | Required for v1 | Current state | What remains before deploy |
 |---|---:|---|---|
 | Cloudflare Pages | Yes | Project `tensift` deployed at `https://tensift.pages.dev` | Keep the Wrangler deploy path or create a new Git-integrated project if automatic Pages builds are later required |
-| Cloudflare D1 | Yes | Database `tensift` exists, is bound in `wrangler.toml`, and contains a thirty-day release window (90 records across three locales) | Keep the daily publishing/review process and seed only approved release records |
+| Cloudflare D1 | Yes | Database `tensift` exists, is bound in `wrangler.toml`, and contains a fifty-day release window (150 records across three locales; the fifth batch is authored but not yet seeded) | Keep the daily publishing/review process and seed only approved release records |
 | GitHub | Recommended | Public repository and green Actions workflow are configured | Add branch protection when the release process is finalized |
 | Custom domain / registrar | No | Not needed | `tensift.pages.dev` avoids domain purchase and keeps Cloudflare out of the player-facing name |
 | Analytics | No for v1 | Not connected | Add only after a privacy decision and a consent/retention review |
@@ -68,6 +68,8 @@ The second-batch content revision keeps the same release dates while replacing t
 The third batch keeps the existing cadence and adds Clothing, Animal Coverings, World Foods, Beverages, Sports Equipment, Trees, Home Appliances, School and Office, Global Brands, and Animal Movement through 2026-09-27. Trees now uses common settings/associations instead of botanical types; Global Brands uses soft drink, car, fast-food, and sportswear industries; the 2026-09-27 slot was revised from Animal Diets to Animal Movement while retaining the existing public puzzle IDs for an in-place D1 replacement. Re-run blind playtesting for these everyday associations before their scheduled dates.
 
 The fourth batch runs 2026-09-28 to 2026-10-07 and adds Shapes, Animal Legs, Jobs and Workplaces, Tastes, Weather, Furniture, Birds, Cooking Methods, Around Town, and Sources of Light. It is the first batch written against the ambiguity ledger under `content/playtest/`, so each family records the items that were tested against a rival group and the replacement to make if blind testers split. The batch was seeded to remote D1 on 2026-09-05 (dry-run, then apply: no pending migrations, 4450 queries, 12327 rows written), and production smoke passed afterwards.
+
+The fifth batch runs 2026-10-08 to 2026-10-17 and adds Sea Creatures, Herbs and Spices, Farm Animals, Sweet Treats, Containers, Ways to Send a Message, Fabrics, Ball Games, Things in the Sky, and Ways to Pay. Every family carries an ambiguity ledger under `content/playtest/`, and each ledger names the replacement to make if blind testers split. The batch is authored and passing every local gate but is **not yet seeded to remote D1**; run the `Seed content to D1` workflow (dry-run, then apply) before 2026-10-08.
 
 ## Cloudflare Pages settings
 

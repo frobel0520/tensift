@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sea-animal-2026-10-08-en",
+  "puzzleFamilyId": "sea-animal-001",
+  "locale": "en",
+  "publishDate": "2026-10-08",
+  "timezone": "UTC",
+  "theme": "Sea Creatures",
+  "items": [
+    {
+      "itemId": "sea-octopus",
+      "label": "Octopus"
+    },
+    {
+      "itemId": "sea-crab",
+      "label": "Crab"
+    },
+    {
+      "itemId": "sea-shrimp",
+      "label": "Shrimp"
+    },
+    {
+      "itemId": "sea-dolphin",
+      "label": "Dolphin"
+    },
+    {
+      "itemId": "sea-whale",
+      "label": "Whale"
+    },
+    {
+      "itemId": "sea-seal",
+      "label": "Seal"
+    },
+    {
+      "itemId": "sea-tuna",
+      "label": "Tuna"
+    },
+    {
+      "itemId": "sea-salmon",
+      "label": "Salmon"
+    },
+    {
+      "itemId": "sea-cod",
+      "label": "Cod"
+    },
+    {
+      "itemId": "sea-herring",
+      "label": "Herring"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "What kind of animal it is",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "A mollusc",
+        "capacity": 1,
+        "itemIds": [
+          "sea-octopus"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Crustaceans",
+        "capacity": 2,
+        "itemIds": [
+          "sea-crab",
+          "sea-shrimp"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Sea mammals",
+        "capacity": 3,
+        "itemIds": [
+          "sea-dolphin",
+          "sea-whale",
+          "sea-seal"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Fish",
+        "capacity": 4,
+        "itemIds": [
+          "sea-tuna",
+          "sea-salmon",
+          "sea-cod",
+          "sea-herring"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group is one kind of animal: 1 mollusc with no bones, 2 crustaceans in shells, 3 mammals that come up for air, and 4 fish.",
+  "sources": [
+    {
+      "title": "Wikipedia: Marine life",
+      "url": "https://en.wikipedia.org/wiki/Marine_life",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

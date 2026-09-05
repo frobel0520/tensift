@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "container-contents-001",
+  "theme": "Containers",
+  "publishDate": "2026-10-12",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "hold-vase",
+        "rivalGroupId": "g4",
+        "risk": "A vase holds water, and water is a drink, so the food-and-drink row can pull it across.",
+        "resolution": "The water in a vase is there for the flowers, not for a person; the flowerpot names the row and the pair reads as plants."
+      },
+      {
+        "itemId": "hold-jar",
+        "rivalGroupId": "g1",
+        "risk": "A jar of coins is a common way to save money, which is exactly what the piggy bank row is.",
+        "resolution": "A jar is sold and filled as a food container; the piggy bank exists for no other purpose than coins, which is why it is alone."
+      },
+      {
+        "itemId": "hold-bottle",
+        "rivalGroupId": "g3",
+        "risk": "A water bottle is something people carry with them all day.",
+        "resolution": "The third row is about containers for your belongings; a bottle holds a drink, which the can and the carton anchor."
+      },
+      {
+        "itemId": "hold-backpack",
+        "rivalGroupId": "g4",
+        "risk": "A backpack often carries lunch, so it can read as a food container.",
+        "resolution": "A backpack is defined by carrying whatever you own that day, alongside the suitcase and the handbag."
+      }
+    ],
+    "notes": "The rule is what the container was made to hold, not what someone has put in it, which is what separates the piggy bank from the jar."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "The piggy bank and the glass jar are the intended tension. If testers split, relabel the first row as \"Made only for saving coins\"."
+  }
+}

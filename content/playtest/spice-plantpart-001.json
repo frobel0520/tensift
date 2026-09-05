@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "spice-plantpart-001",
+  "theme": "Herbs and Spices",
+  "publishDate": "2026-10-09",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "spice-pepper",
+        "rivalGroupId": "g1",
+        "risk": "A peppercorn is botanically a dried fruit, not a true seed, so a botanist could argue it sits with no group here.",
+        "resolution": "In every kitchen and every spice label a peppercorn is a seed, and the puzzle uses the everyday reading that the cumin and mustard seeds already set."
+      },
+      {
+        "itemId": "spice-saffron",
+        "rivalGroupId": "g4",
+        "risk": "Saffron threads look like dried leaves and are sold in the same small jars as dried herbs.",
+        "resolution": "Saffron is the stigma of a crocus flower, which no other item shares, and that is why it is the single-item row."
+      },
+      {
+        "itemId": "spice-ginger",
+        "rivalGroupId": "g3",
+        "risk": "Ground ginger is a powder like the seed spices, so it can be sorted by how it is sold rather than what it is.",
+        "resolution": "Ginger is the rhizome dug out of the ground, paired with turmeric, which comes from the same underground part."
+      },
+      {
+        "itemId": "spice-mint",
+        "rivalGroupId": "g2",
+        "risk": "Mint spreads by underground runners, and gardeners talk about mint roots taking over a bed.",
+        "resolution": "The part we cook with is the leaf, and every item is grouped by the part that reaches the kitchen."
+      }
+    ],
+    "notes": "Every item is grouped by the part that reaches the kitchen, not by strict botany. Black pepper is the one place where the two readings differ."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Watch black pepper. If testers place it outside the seed row, replace it with coriander seed, which is unambiguous."
+  }
+}
