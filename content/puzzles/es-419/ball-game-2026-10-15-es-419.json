@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ball-game-2026-10-15-es-419",
+  "puzzleFamilyId": "ball-game-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-15",
+  "timezone": "UTC",
+  "theme": "Juegos de pelota",
+  "items": [
+    {
+      "itemId": "ball-soccer",
+      "label": "Fútbol"
+    },
+    {
+      "itemId": "ball-basketball",
+      "label": "Baloncesto"
+    },
+    {
+      "itemId": "ball-volleyball",
+      "label": "Vóleibol"
+    },
+    {
+      "itemId": "ball-tennis",
+      "label": "Tenis"
+    },
+    {
+      "itemId": "ball-tabletennis",
+      "label": "Tenis de mesa"
+    },
+    {
+      "itemId": "ball-squash",
+      "label": "Squash"
+    },
+    {
+      "itemId": "ball-baseball",
+      "label": "Béisbol"
+    },
+    {
+      "itemId": "ball-cricket",
+      "label": "Críquet"
+    },
+    {
+      "itemId": "ball-golf",
+      "label": "Golf"
+    },
+    {
+      "itemId": "ball-hockey",
+      "label": "Hockey sobre césped"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Con qué mueves la pelota",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Con los pies",
+        "capacity": 1,
+        "itemIds": [
+          "ball-soccer"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Con las manos",
+        "capacity": 2,
+        "itemIds": [
+          "ball-basketball",
+          "ball-volleyball"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Con una raqueta",
+        "capacity": 3,
+        "itemIds": [
+          "ball-tennis",
+          "ball-tabletennis",
+          "ball-squash"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Con un bate, palo o taco",
+        "capacity": 4,
+        "itemIds": [
+          "ball-baseball",
+          "ball-cricket",
+          "ball-golf",
+          "ball-hockey"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo mueve la pelota igual: 1 con los pies, 2 con las manos, 3 con una raqueta y 4 con un bate, palo o taco.",
+  "sources": [
+    {
+      "title": "Wikipedia: Juego de pelota",
+      "url": "https://en.wikipedia.org/wiki/Ball_game",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.31
+  },
+  "status": "scheduled"
+}

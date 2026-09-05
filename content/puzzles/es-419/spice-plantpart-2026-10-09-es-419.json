@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "spice-plantpart-2026-10-09-es-419",
+  "puzzleFamilyId": "spice-plantpart-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-09",
+  "timezone": "UTC",
+  "theme": "Hierbas y especias",
+  "items": [
+    {
+      "itemId": "spice-saffron",
+      "label": "Azafrán"
+    },
+    {
+      "itemId": "spice-ginger",
+      "label": "Jengibre"
+    },
+    {
+      "itemId": "spice-turmeric",
+      "label": "Cúrcuma"
+    },
+    {
+      "itemId": "spice-pepper",
+      "label": "Pimienta negra"
+    },
+    {
+      "itemId": "spice-mustard",
+      "label": "Semilla de mostaza"
+    },
+    {
+      "itemId": "spice-cumin",
+      "label": "Comino"
+    },
+    {
+      "itemId": "spice-basil",
+      "label": "Albahaca"
+    },
+    {
+      "itemId": "spice-mint",
+      "label": "Menta"
+    },
+    {
+      "itemId": "spice-bayleaf",
+      "label": "Hoja de laurel"
+    },
+    {
+      "itemId": "spice-oregano",
+      "label": "Orégano"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "De qué parte de la planta viene",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "De la flor",
+        "capacity": 1,
+        "itemIds": [
+          "spice-saffron"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "De la raíz",
+        "capacity": 2,
+        "itemIds": [
+          "spice-ginger",
+          "spice-turmeric"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "De la semilla",
+        "capacity": 3,
+        "itemIds": [
+          "spice-pepper",
+          "spice-mustard",
+          "spice-cumin"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "De la hoja",
+        "capacity": 4,
+        "itemIds": [
+          "spice-basil",
+          "spice-mint",
+          "spice-bayleaf",
+          "spice-oregano"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo viene de la misma parte de la planta: 1 de la flor, 2 de la raíz, 3 de la semilla y 4 de la hoja.",
+  "sources": [
+    {
+      "title": "Wikipedia: Especia",
+      "url": "https://en.wikipedia.org/wiki/Spice",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

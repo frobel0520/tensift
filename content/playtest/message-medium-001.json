@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "message-medium-001",
+  "theme": "Ways to Send a Message",
+  "publishDate": "2026-10-13",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "msg-call",
+        "rivalGroupId": "g4",
+        "risk": "A phone call is spoken in real time, which feels as direct as talking to someone in the room.",
+        "resolution": "The fourth row needs the other person in sight; a call only works because a network carries the voice, which the text and the email anchor."
+      },
+      {
+        "itemId": "msg-whistle",
+        "rivalGroupId": "g1",
+        "risk": "A whistle is how people call a dog or a horse, so it can read as sending a message through an animal.",
+        "resolution": "The whistle reaches a person within earshot; the pigeon is the only item where the animal carries the message somewhere else."
+      },
+      {
+        "itemId": "msg-postcard",
+        "rivalGroupId": "g3",
+        "risk": "Digital postcards are sent by email, and holiday apps use the word freely.",
+        "resolution": "The item is the printed card that needs a stamp, grouped with the letter for exactly that reason."
+      },
+      {
+        "itemId": "msg-shout",
+        "rivalGroupId": "g3",
+        "risk": "Shouting into a phone is common enough to blur the row.",
+        "resolution": "A shout on its own carries only as far as your voice, which is the face-to-face rule."
+      }
+    ],
+    "notes": "The four rows are four carriers: an animal, the post, a network, and nothing at all. The phone call is the only item where the carrier is invisible."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "The phone call is the sharpest edge. If testers put it face to face, replace it with a fax and note that the row is about the network, not the delay."
+  }
+}

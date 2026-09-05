@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "payment-method-2026-10-17-en",
+  "puzzleFamilyId": "payment-method-001",
+  "locale": "en",
+  "publishDate": "2026-10-17",
+  "timezone": "UTC",
+  "theme": "Ways to Pay",
+  "items": [
+    {
+      "itemId": "pay-barter",
+      "label": "Barter"
+    },
+    {
+      "itemId": "pay-coins",
+      "label": "Coins"
+    },
+    {
+      "itemId": "pay-notes",
+      "label": "Banknotes"
+    },
+    {
+      "itemId": "pay-credit",
+      "label": "Credit card"
+    },
+    {
+      "itemId": "pay-debit",
+      "label": "Debit card"
+    },
+    {
+      "itemId": "pay-giftcard",
+      "label": "Gift card"
+    },
+    {
+      "itemId": "pay-transfer",
+      "label": "Bank transfer"
+    },
+    {
+      "itemId": "pay-wallet",
+      "label": "Mobile wallet"
+    },
+    {
+      "itemId": "pay-qr",
+      "label": "QR code payment"
+    },
+    {
+      "itemId": "pay-online",
+      "label": "Online checkout"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "What actually changes hands",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Goods for goods",
+        "capacity": 1,
+        "itemIds": [
+          "pay-barter"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Cash",
+        "capacity": 2,
+        "itemIds": [
+          "pay-coins",
+          "pay-notes"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "A card you hand over",
+        "capacity": 3,
+        "itemIds": [
+          "pay-credit",
+          "pay-debit",
+          "pay-giftcard"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Through a phone or computer",
+        "capacity": 4,
+        "itemIds": [
+          "pay-transfer",
+          "pay-wallet",
+          "pay-qr",
+          "pay-online"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group hands over the same thing: 1 swaps goods for goods, 2 hand over cash, 3 hand over a card, and 4 go through a phone or a computer.",
+  "sources": [
+    {
+      "title": "Wikipedia: Payment",
+      "url": "https://en.wikipedia.org/wiki/Payment",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.4
+  },
+  "status": "scheduled"
+}

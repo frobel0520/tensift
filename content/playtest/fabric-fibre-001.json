@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "fabric-fibre-001",
+  "theme": "Fabrics",
+  "publishDate": "2026-10-14",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "fabric-silk",
+        "rivalGroupId": "g2",
+        "risk": "Silk is an animal fibre, so a player sorting into animal, plant and synthetic will put it with wool and cashmere. This is the strongest rival reading in the batch.",
+        "resolution": "The second row is labelled by the coat of an animal, which is combed or sheared; silk is secreted by a silkworm, and that difference is the point of the single-item row."
+      },
+      {
+        "itemId": "fabric-acrylic",
+        "rivalGroupId": "g2",
+        "risk": "Acrylic is sold as a wool substitute and knitting yarn is often labelled simply \"wool\".",
+        "resolution": "Acrylic is a plastic fibre with no animal in it, which the polyester and nylon row makes explicit."
+      },
+      {
+        "itemId": "fabric-cashmere",
+        "rivalGroupId": "g4",
+        "risk": "Cashmere is usually sold as a blend, so a player may read it as a manufactured fabric.",
+        "resolution": "Cashmere is the undercoat of a goat, and the wool beside it names the row."
+      },
+      {
+        "itemId": "fabric-hemp",
+        "rivalGroupId": "g4",
+        "risk": "Hemp fabric is processed heavily and can read as engineered.",
+        "resolution": "Hemp is a stem fibre from a grown plant, alongside cotton and linen."
+      }
+    ],
+    "notes": "The first row exists to break the usual animal/plant/synthetic split. That is the whole design of this puzzle and also its main risk."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Silk is the deliberate risk and the whole reason this puzzle works. If testers reject the split, relabel the second row as \"From a mammal’s coat\"; if they still reject it, replace silk with rayon and rebuild the first row as \"Made from wood pulp\"."
+  }
+}

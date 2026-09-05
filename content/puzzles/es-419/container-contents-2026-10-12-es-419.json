@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "container-contents-2026-10-12-es-419",
+  "puzzleFamilyId": "container-contents-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-12",
+  "timezone": "UTC",
+  "theme": "Recipientes",
+  "items": [
+    {
+      "itemId": "hold-piggybank",
+      "label": "Alcancía"
+    },
+    {
+      "itemId": "hold-flowerpot",
+      "label": "Maceta"
+    },
+    {
+      "itemId": "hold-vase",
+      "label": "Florero"
+    },
+    {
+      "itemId": "hold-suitcase",
+      "label": "Maleta"
+    },
+    {
+      "itemId": "hold-backpack",
+      "label": "Mochila"
+    },
+    {
+      "itemId": "hold-handbag",
+      "label": "Bolso"
+    },
+    {
+      "itemId": "hold-jar",
+      "label": "Frasco de vidrio"
+    },
+    {
+      "itemId": "hold-can",
+      "label": "Lata"
+    },
+    {
+      "itemId": "hold-bottle",
+      "label": "Botella"
+    },
+    {
+      "itemId": "hold-carton",
+      "label": "Envase de cartón"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Qué se guarda adentro",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Guarda monedas",
+        "capacity": 1,
+        "itemIds": [
+          "hold-piggybank"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Guarda una planta viva",
+        "capacity": 2,
+        "itemIds": [
+          "hold-flowerpot",
+          "hold-vase"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Guarda lo que llevas contigo",
+        "capacity": 3,
+        "itemIds": [
+          "hold-suitcase",
+          "hold-backpack",
+          "hold-handbag"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Guarda comida y bebida",
+        "capacity": 4,
+        "itemIds": [
+          "hold-jar",
+          "hold-can",
+          "hold-bottle",
+          "hold-carton"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo guarda lo mismo: 1 guarda monedas, 2 guardan una planta viva, 3 guardan lo que llevas contigo y 4 guardan comida y bebida.",
+  "sources": [
+    {
+      "title": "Wikipedia: Contenedor",
+      "url": "https://en.wikipedia.org/wiki/Container",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

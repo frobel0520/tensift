@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sweet-treat-2026-10-11-es-419",
+  "puzzleFamilyId": "sweet-treat-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-11",
+  "timezone": "UTC",
+  "theme": "Dulces",
+  "items": [
+    {
+      "itemId": "sweet-icecream",
+      "label": "Helado"
+    },
+    {
+      "itemId": "sweet-pancake",
+      "label": "Panqueque"
+    },
+    {
+      "itemId": "sweet-waffle",
+      "label": "Wafle"
+    },
+    {
+      "itemId": "sweet-cake",
+      "label": "Pastel"
+    },
+    {
+      "itemId": "sweet-cookie",
+      "label": "Galleta"
+    },
+    {
+      "itemId": "sweet-muffin",
+      "label": "Muffin"
+    },
+    {
+      "itemId": "sweet-doughnut",
+      "label": "Dona"
+    },
+    {
+      "itemId": "sweet-churro",
+      "label": "Churro"
+    },
+    {
+      "itemId": "sweet-fritter",
+      "label": "Buñuelo"
+    },
+    {
+      "itemId": "sweet-funnelcake",
+      "label": "Pastel de embudo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cómo se prepara",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Se congela, no se cocina",
+        "capacity": 1,
+        "itemIds": [
+          "sweet-icecream"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Se cocina en plancha",
+        "capacity": 2,
+        "itemIds": [
+          "sweet-pancake",
+          "sweet-waffle"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Se hornea",
+        "capacity": 3,
+        "itemIds": [
+          "sweet-cake",
+          "sweet-cookie",
+          "sweet-muffin"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Se fríe en aceite abundante",
+        "capacity": 4,
+        "itemIds": [
+          "sweet-doughnut",
+          "sweet-churro",
+          "sweet-fritter",
+          "sweet-funnelcake"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo se prepara igual: 1 se congela sin cocinar, 2 se cocinan en plancha, 3 se hornean y 4 se fríen en aceite abundante.",
+  "sources": [
+    {
+      "title": "Wikipedia: Postre",
+      "url": "https://en.wikipedia.org/wiki/Dessert",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.38
+  },
+  "status": "scheduled"
+}
