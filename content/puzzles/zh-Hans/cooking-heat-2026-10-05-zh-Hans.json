@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cooking-heat-2026-10-05-zh-hans",
+  "puzzleFamilyId": "cooking-heat-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-05",
+  "timezone": "UTC",
+  "theme": "烹饪方式",
+  "items": [
+    {
+      "itemId": "cook-microwave",
+      "label": "微波加热"
+    },
+    {
+      "itemId": "cook-boil",
+      "label": "水煮"
+    },
+    {
+      "itemId": "cook-steam",
+      "label": "蒸"
+    },
+    {
+      "itemId": "cook-panfry",
+      "label": "煎"
+    },
+    {
+      "itemId": "cook-deepfry",
+      "label": "油炸"
+    },
+    {
+      "itemId": "cook-stirfry",
+      "label": "炒"
+    },
+    {
+      "itemId": "cook-bake",
+      "label": "烘焙"
+    },
+    {
+      "itemId": "cook-roast",
+      "label": "烤"
+    },
+    {
+      "itemId": "cook-toast",
+      "label": "烤面包"
+    },
+    {
+      "itemId": "cook-grill",
+      "label": "炭烤"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "传热的介质",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "微波",
+        "capacity": 1,
+        "itemIds": [
+          "cook-microwave"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "水或蒸汽",
+        "capacity": 2,
+        "itemIds": [
+          "cook-boil",
+          "cook-steam"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "热油",
+        "capacity": 3,
+        "itemIds": [
+          "cook-panfry",
+          "cook-deepfry",
+          "cook-stirfry"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "干热",
+        "capacity": 4,
+        "itemIds": [
+          "cook-bake",
+          "cook-roast",
+          "cook-toast",
+          "cook-grill"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每组的传热介质相同：1 种用微波、2 种用水或蒸汽、3 种用热油、4 种用干热。",
+  "sources": [
+    {
+      "title": "维基百科：烹饪",
+      "url": "https://en.wikipedia.org/wiki/Cooking",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.38
+  },
+  "status": "scheduled"
+}

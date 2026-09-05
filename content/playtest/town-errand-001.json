@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "town-errand-001",
+  "theme": "Around Town",
+  "publishDate": "2026-10-06",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "town-zoo",
+        "rivalGroupId": "g4",
+        "risk": "Zoos have gift shops and are ticketed, which brings them near \"buy something\".",
+        "resolution": "You go to a zoo to spend time outdoors; the shop is incidental, and the shopping row is four unambiguous shops."
+      },
+      {
+        "itemId": "town-trainstation",
+        "rivalGroupId": "g1",
+        "risk": "Train stations serve long-distance travel, which is what the airport is for.",
+        "resolution": "The split is air travel versus local ground transport. If blind testers read the station as long-distance, relabel the group as \"to catch a train or bus\" rather than moving the item."
+      },
+      {
+        "itemId": "town-playground",
+        "rivalGroupId": "g4",
+        "risk": "Playgrounds sit inside shopping centres in many cities.",
+        "resolution": "The standalone reading is an outdoor play area, which is what the group means."
+      },
+      {
+        "itemId": "town-bakery",
+        "rivalGroupId": "g3",
+        "risk": "Bakeries with seating read as a place to spend time.",
+        "resolution": "A bakery is a shop; the outdoor row is deliberately three open-air places."
+      }
+    ],
+    "notes": "The single-item row is the airport, which is the only place in the set you visit to leave the city entirely."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Watch the train station. It is the only item where the rival reading has a real argument behind it."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "weather-sky-001",
+  "theme": "Weather",
+  "publishDate": "2026-10-02",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "wx-thunderstorm",
+        "rivalGroupId": "g2",
+        "risk": "Thunderstorms can drop hail, which would place it with the frozen precipitation.",
+        "resolution": "The defining precipitation of a thunderstorm is heavy rain; hail is an occasional extra, and the frozen row is filled by snow and hail themselves."
+      },
+      {
+        "itemId": "wx-fog",
+        "rivalGroupId": "g4",
+        "risk": "Fog is made of liquid water droplets, so it can read as liquid precipitation.",
+        "resolution": "Fog hangs in the air and does not fall; the dimension is what reaches the ground."
+      },
+      {
+        "itemId": "wx-clouds",
+        "rivalGroupId": "g4",
+        "risk": "Clouds are where rain comes from, so they sit close to the rain group.",
+        "resolution": "Clouds on their own drop nothing, which is exactly what the no-precipitation row means."
+      },
+      {
+        "itemId": "wx-hail",
+        "rivalGroupId": "g4",
+        "risk": "Hail arrives during rainstorms and is often described as part of one.",
+        "resolution": "Hail reaches the ground frozen, and that is the split the puzzle uses."
+      }
+    ],
+    "notes": "The four-item row is deliberately all rain of different intensities so that the group reads as one idea rather than four unrelated items."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "The thunderstorm is the riskiest item in the batch. If testers place it with hail, replace it with \"sleet\" in the frozen row and move the thunderstorm out."
+  }
+}

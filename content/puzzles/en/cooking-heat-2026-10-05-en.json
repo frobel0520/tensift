@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cooking-heat-2026-10-05-en",
+  "puzzleFamilyId": "cooking-heat-001",
+  "locale": "en",
+  "publishDate": "2026-10-05",
+  "timezone": "UTC",
+  "theme": "Cooking Methods",
+  "items": [
+    {
+      "itemId": "cook-microwave",
+      "label": "Microwaving"
+    },
+    {
+      "itemId": "cook-boil",
+      "label": "Boiling"
+    },
+    {
+      "itemId": "cook-steam",
+      "label": "Steaming"
+    },
+    {
+      "itemId": "cook-panfry",
+      "label": "Pan-frying"
+    },
+    {
+      "itemId": "cook-deepfry",
+      "label": "Deep-frying"
+    },
+    {
+      "itemId": "cook-stirfry",
+      "label": "Stir-frying"
+    },
+    {
+      "itemId": "cook-bake",
+      "label": "Baking"
+    },
+    {
+      "itemId": "cook-roast",
+      "label": "Roasting"
+    },
+    {
+      "itemId": "cook-toast",
+      "label": "Toasting"
+    },
+    {
+      "itemId": "cook-grill",
+      "label": "Grilling"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "What carries the heat",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Microwaves",
+        "capacity": 1,
+        "itemIds": [
+          "cook-microwave"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Water or steam",
+        "capacity": 2,
+        "itemIds": [
+          "cook-boil",
+          "cook-steam"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Hot oil",
+        "capacity": 3,
+        "itemIds": [
+          "cook-panfry",
+          "cook-deepfry",
+          "cook-stirfry"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Dry heat",
+        "capacity": 4,
+        "itemIds": [
+          "cook-bake",
+          "cook-roast",
+          "cook-toast",
+          "cook-grill"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group cooks with the same carrier of heat: 1 uses microwaves, 2 use water or steam, 3 use hot oil, and 4 use dry heat.",
+  "sources": [
+    {
+      "title": "Wikipedia: Cooking",
+      "url": "https://en.wikipedia.org/wiki/Cooking",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.38
+  },
+  "status": "scheduled"
+}

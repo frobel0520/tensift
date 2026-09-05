@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "town-errand-2026-10-06-en",
+  "puzzleFamilyId": "town-errand-001",
+  "locale": "en",
+  "publishDate": "2026-10-06",
+  "timezone": "UTC",
+  "theme": "Around Town",
+  "items": [
+    {
+      "itemId": "town-airport",
+      "label": "Airport"
+    },
+    {
+      "itemId": "town-trainstation",
+      "label": "Train station"
+    },
+    {
+      "itemId": "town-busstop",
+      "label": "Bus stop"
+    },
+    {
+      "itemId": "town-park",
+      "label": "Park"
+    },
+    {
+      "itemId": "town-playground",
+      "label": "Playground"
+    },
+    {
+      "itemId": "town-zoo",
+      "label": "Zoo"
+    },
+    {
+      "itemId": "town-supermarket",
+      "label": "Supermarket"
+    },
+    {
+      "itemId": "town-bakery",
+      "label": "Bakery"
+    },
+    {
+      "itemId": "town-pharmacy",
+      "label": "Pharmacy"
+    },
+    {
+      "itemId": "town-bookshop",
+      "label": "Bookshop"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "What you go there for",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "To fly somewhere",
+        "capacity": 1,
+        "itemIds": [
+          "town-airport"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "To catch local transport",
+        "capacity": 2,
+        "itemIds": [
+          "town-trainstation",
+          "town-busstop"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "To spend time outdoors",
+        "capacity": 3,
+        "itemIds": [
+          "town-park",
+          "town-playground",
+          "town-zoo"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "To buy something",
+        "capacity": 4,
+        "itemIds": [
+          "town-supermarket",
+          "town-bakery",
+          "town-pharmacy",
+          "town-bookshop"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group is a place you go for the same reason: 1 to fly somewhere, 2 to catch local transport, 3 to spend time outdoors, and 4 to buy something.",
+  "sources": [
+    {
+      "title": "Wikipedia: City",
+      "url": "https://en.wikipedia.org/wiki/City",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.31
+  },
+  "status": "scheduled"
+}

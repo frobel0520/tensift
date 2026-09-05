@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "shape-sides-2026-09-28-es-419",
+  "puzzleFamilyId": "shape-sides-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-28",
+  "timezone": "UTC",
+  "theme": "Figuras",
+  "items": [
+    {
+      "itemId": "shape-triangle",
+      "label": "Triángulo"
+    },
+    {
+      "itemId": "shape-circle",
+      "label": "Círculo"
+    },
+    {
+      "itemId": "shape-oval",
+      "label": "Óvalo"
+    },
+    {
+      "itemId": "shape-pentagon",
+      "label": "Pentágono"
+    },
+    {
+      "itemId": "shape-hexagon",
+      "label": "Hexágono"
+    },
+    {
+      "itemId": "shape-octagon",
+      "label": "Octágono"
+    },
+    {
+      "itemId": "shape-square",
+      "label": "Cuadrado"
+    },
+    {
+      "itemId": "shape-rectangle",
+      "label": "Rectángulo"
+    },
+    {
+      "itemId": "shape-rhombus",
+      "label": "Rombo"
+    },
+    {
+      "itemId": "shape-trapezoid",
+      "label": "Trapecio"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "cantidad de lados rectos",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Tres lados",
+        "capacity": 1,
+        "itemIds": [
+          "shape-triangle"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Sin lados rectos",
+        "capacity": 2,
+        "itemIds": [
+          "shape-circle",
+          "shape-oval"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Más de cuatro lados",
+        "capacity": 3,
+        "itemIds": [
+          "shape-pentagon",
+          "shape-hexagon",
+          "shape-octagon"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Cuatro lados",
+        "capacity": 4,
+        "itemIds": [
+          "shape-square",
+          "shape-rectangle",
+          "shape-rhombus",
+          "shape-trapezoid"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo reúne figuras con la misma cantidad de lados rectos: 1 con tres lados, 2 sin lados rectos, 3 con más de cuatro lados y 4 con exactamente cuatro lados.",
+  "sources": [
+    {
+      "title": "Wikipedia: Polygon",
+      "url": "https://en.wikipedia.org/wiki/Polygon",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "bird-travel-2026-10-04-zh-hans",
+  "puzzleFamilyId": "bird-travel-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-04",
+  "timezone": "UTC",
+  "theme": "鸟类",
+  "items": [
+    {
+      "itemId": "bird-penguin",
+      "label": "企鹅"
+    },
+    {
+      "itemId": "bird-ostrich",
+      "label": "鸵鸟"
+    },
+    {
+      "itemId": "bird-emu",
+      "label": "鸸鹋"
+    },
+    {
+      "itemId": "bird-duck",
+      "label": "鸭"
+    },
+    {
+      "itemId": "bird-swan",
+      "label": "天鹅"
+    },
+    {
+      "itemId": "bird-goose",
+      "label": "鹅"
+    },
+    {
+      "itemId": "bird-sparrow",
+      "label": "麻雀"
+    },
+    {
+      "itemId": "bird-pigeon",
+      "label": "鸽子"
+    },
+    {
+      "itemId": "bird-eagle",
+      "label": "鹰"
+    },
+    {
+      "itemId": "bird-owl",
+      "label": "猫头鹰"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "移动方式",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "不会飞，靠游泳",
+        "capacity": 1,
+        "itemIds": [
+          "bird-penguin"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "不会飞，靠奔跑",
+        "capacity": 2,
+        "itemIds": [
+          "bird-ostrich",
+          "bird-emu"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "会飞也会游",
+        "capacity": 3,
+        "itemIds": [
+          "bird-duck",
+          "bird-swan",
+          "bird-goose"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "会飞，陆地生活",
+        "capacity": 4,
+        "itemIds": [
+          "bird-sparrow",
+          "bird-pigeon",
+          "bird-eagle",
+          "bird-owl"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每组鸟类的移动方式相同：1 种不会飞、靠游泳，2 种不会飞、靠奔跑，3 种会飞也会游，4 种会飞且在陆地生活。",
+  "sources": [
+    {
+      "title": "维基百科：不会飞的鸟",
+      "url": "https://en.wikipedia.org/wiki/Flightless_bird",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.35
+  },
+  "status": "scheduled"
+}

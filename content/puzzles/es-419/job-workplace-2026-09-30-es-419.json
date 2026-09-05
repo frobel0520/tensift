@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "job-workplace-2026-09-30-es-419",
+  "puzzleFamilyId": "job-workplace-001",
+  "locale": "es-419",
+  "publishDate": "2026-09-30",
+  "timezone": "UTC",
+  "theme": "Oficios y lugares de trabajo",
+  "items": [
+    {
+      "itemId": "job-pilot",
+      "label": "Piloto"
+    },
+    {
+      "itemId": "job-doctor",
+      "label": "Médico"
+    },
+    {
+      "itemId": "job-nurse",
+      "label": "Enfermero"
+    },
+    {
+      "itemId": "job-teacher",
+      "label": "Maestro"
+    },
+    {
+      "itemId": "job-principal",
+      "label": "Director de escuela"
+    },
+    {
+      "itemId": "job-kindergarten",
+      "label": "Maestro de kínder"
+    },
+    {
+      "itemId": "job-chef",
+      "label": "Chef"
+    },
+    {
+      "itemId": "job-waiter",
+      "label": "Mesero"
+    },
+    {
+      "itemId": "job-barista",
+      "label": "Barista"
+    },
+    {
+      "itemId": "job-dishwasher",
+      "label": "Lavaplatos"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "lugar de trabajo habitual",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "En un avión",
+        "capacity": 1,
+        "itemIds": [
+          "job-pilot"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Hospital",
+        "capacity": 2,
+        "itemIds": [
+          "job-doctor",
+          "job-nurse"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Escuela",
+        "capacity": 3,
+        "itemIds": [
+          "job-teacher",
+          "job-principal",
+          "job-kindergarten"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Restaurante o café",
+        "capacity": 4,
+        "itemIds": [
+          "job-chef",
+          "job-waiter",
+          "job-barista",
+          "job-dishwasher"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo reúne oficios que se ejercen en el mismo tipo de lugar: 1 en un avión, 2 en un hospital, 3 en una escuela y 4 en un restaurante o café.",
+  "sources": [
+    {
+      "title": "Wikipedia: Profession",
+      "url": "https://en.wikipedia.org/wiki/Profession",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.34
+  },
+  "status": "scheduled"
+}

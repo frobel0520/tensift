@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "taste-profile-2026-10-01-en",
+  "puzzleFamilyId": "taste-profile-001",
+  "locale": "en",
+  "publishDate": "2026-10-01",
+  "timezone": "UTC",
+  "theme": "Tastes",
+  "items": [
+    {
+      "itemId": "taste-coffee",
+      "label": "Black coffee"
+    },
+    {
+      "itemId": "taste-salt",
+      "label": "Salt"
+    },
+    {
+      "itemId": "taste-soysauce",
+      "label": "Soy sauce"
+    },
+    {
+      "itemId": "taste-lemon",
+      "label": "Lemon"
+    },
+    {
+      "itemId": "taste-vinegar",
+      "label": "Vinegar"
+    },
+    {
+      "itemId": "taste-yogurt",
+      "label": "Plain yogurt"
+    },
+    {
+      "itemId": "taste-sugar",
+      "label": "Sugar"
+    },
+    {
+      "itemId": "taste-honey",
+      "label": "Honey"
+    },
+    {
+      "itemId": "taste-banana",
+      "label": "Banana"
+    },
+    {
+      "itemId": "taste-jam",
+      "label": "Jam"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Dominant taste",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Bitter",
+        "capacity": 1,
+        "itemIds": [
+          "taste-coffee"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Salty",
+        "capacity": 2,
+        "itemIds": [
+          "taste-salt",
+          "taste-soysauce"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Sour",
+        "capacity": 3,
+        "itemIds": [
+          "taste-lemon",
+          "taste-vinegar",
+          "taste-yogurt"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Sweet",
+        "capacity": 4,
+        "itemIds": [
+          "taste-sugar",
+          "taste-honey",
+          "taste-banana",
+          "taste-jam"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group shares one dominant taste: 1 bitter, 2 salty, 3 sour, and 4 sweet.",
+  "sources": [
+    {
+      "title": "Wikipedia: Taste",
+      "url": "https://en.wikipedia.org/wiki/Taste",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.26
+  },
+  "status": "scheduled"
+}

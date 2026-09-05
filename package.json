@@ -22,6 +22,7 @@
     "scan:bundle": "node scripts/scan-public-bundle.mjs",
     "smoke:production": "node scripts/smoke-production.mjs",
     "check:runway": "node scripts/check-content-runway.mjs",
+    "check:playtest": "node scripts/check-playtest.mjs",
     "cf:dev": "wrangler pages dev dist",
     "cf:deploy": "wrangler pages deploy dist"
   },

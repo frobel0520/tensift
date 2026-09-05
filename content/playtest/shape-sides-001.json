@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "shape-sides-001",
+  "theme": "Shapes",
+  "publishDate": "2026-09-28",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "shape-oval",
+        "rivalGroupId": "g4",
+        "risk": "Diagrams often draw an oval as a rounded rectangle, which can read as a four-sided shape.",
+        "resolution": "An oval has no straight sides at all, so the side count can only place it with the circle."
+      },
+      {
+        "itemId": "shape-trapezoid",
+        "rivalGroupId": "g3",
+        "risk": "Trapezoid is the least familiar quadrilateral name; a player unsure of the shape may assume more sides.",
+        "resolution": "A trapezoid has exactly four sides, so it sits with the other quadrilaterals."
+      },
+      {
+        "itemId": "shape-triangle",
+        "rivalGroupId": "g4",
+        "risk": "The single-item row is the easiest slot to misassign, and a square drawn on a diagonal can read as two triangles.",
+        "resolution": "Three sides is the only side count in the puzzle with one representative, so the solo row is forced once the four-sided group is filled."
+      }
+    ],
+    "notes": "The dimension is countable rather than interpretive, which is why this one opens the batch: it is the safest of the ten."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Watch whether testers count the sides at all or pattern-match on shape names."
+  }
+}

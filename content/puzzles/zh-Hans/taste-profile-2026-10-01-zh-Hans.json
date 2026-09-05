@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "taste-profile-2026-10-01-zh-hans",
+  "puzzleFamilyId": "taste-profile-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-01",
+  "timezone": "UTC",
+  "theme": "味道",
+  "items": [
+    {
+      "itemId": "taste-coffee",
+      "label": "黑咖啡"
+    },
+    {
+      "itemId": "taste-salt",
+      "label": "盐"
+    },
+    {
+      "itemId": "taste-soysauce",
+      "label": "酱油"
+    },
+    {
+      "itemId": "taste-lemon",
+      "label": "柠檬"
+    },
+    {
+      "itemId": "taste-vinegar",
+      "label": "醋"
+    },
+    {
+      "itemId": "taste-yogurt",
+      "label": "原味酸奶"
+    },
+    {
+      "itemId": "taste-sugar",
+      "label": "糖"
+    },
+    {
+      "itemId": "taste-honey",
+      "label": "蜂蜜"
+    },
+    {
+      "itemId": "taste-banana",
+      "label": "香蕉"
+    },
+    {
+      "itemId": "taste-jam",
+      "label": "果酱"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "主要味道",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "苦",
+        "capacity": 1,
+        "itemIds": [
+          "taste-coffee"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "咸",
+        "capacity": 2,
+        "itemIds": [
+          "taste-salt",
+          "taste-soysauce"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "酸",
+        "capacity": 3,
+        "itemIds": [
+          "taste-lemon",
+          "taste-vinegar",
+          "taste-yogurt"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "甜",
+        "capacity": 4,
+        "itemIds": [
+          "taste-sugar",
+          "taste-honey",
+          "taste-banana",
+          "taste-jam"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每组的主要味道相同：1 种苦、2 种咸、3 种酸、4 种甜。",
+  "sources": [
+    {
+      "title": "维基百科：味觉",
+      "url": "https://en.wikipedia.org/wiki/Taste",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.26
+  },
+  "status": "scheduled"
+}
