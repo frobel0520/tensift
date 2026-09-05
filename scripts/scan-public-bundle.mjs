@@ -8,21 +8,35 @@ const contentRoot = join(projectRoot, 'content', 'puzzles');
 // Reveal DTO field names are part of the typed client contract. The scanner
 // guards the actual authored answer values instead of treating protocol names
 // as leaks, so a reveal request can be implemented without shipping answers.
+//
+// Answer values are matched on word boundaries, not as bare substrings. Short
+// group labels are ordinary words — the label "Sour" is a substring of the UI
+// string "Sources" — and a substring scan turns every such collision into a
+// build failure that is fixed by contorting the content. A real leak ships the
+// value as its own string literal, so the quotes around it provide the
+// boundaries this still catches.
 const forbiddenTokens = new Set([
   'solution_group_items',
   ...(await collectAnswerValues(contentRoot)),
 ]);
 
+const matchers = [...forbiddenTokens].map((token) => ({ token, pattern: wordBoundaryPattern(token) }));
 const files = await collectFiles(distRoot);
 const findings = [];
 
 for (const filePath of files) {
   const contents = await readFile(filePath, 'utf8');
-  for (const token of forbiddenTokens) {
-    if (contents.includes(token)) {
+  for (const { token, pattern } of matchers) {
+    if (pattern.test(contents)) {
       findings.push(`${filePath}: ${token}`);
     }
   }
+}
+
+/** Matches the token only when it is not glued to another letter or digit. */
+function wordBoundaryPattern(token) {
+  const escaped = token.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`(?<![\\p{L}\\p{N}])${escaped}(?![\\p{L}\\p{N}])`, 'u');
 }
 
 async function collectAnswerValues(directory) {
