@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sweet-treat-2026-10-11-en",
+  "puzzleFamilyId": "sweet-treat-001",
+  "locale": "en",
+  "publishDate": "2026-10-11",
+  "timezone": "UTC",
+  "theme": "Sweet Treats",
+  "items": [
+    {
+      "itemId": "sweet-icecream",
+      "label": "Ice cream"
+    },
+    {
+      "itemId": "sweet-pancake",
+      "label": "Pancake"
+    },
+    {
+      "itemId": "sweet-waffle",
+      "label": "Waffle"
+    },
+    {
+      "itemId": "sweet-cake",
+      "label": "Cake"
+    },
+    {
+      "itemId": "sweet-cookie",
+      "label": "Cookie"
+    },
+    {
+      "itemId": "sweet-muffin",
+      "label": "Muffin"
+    },
+    {
+      "itemId": "sweet-doughnut",
+      "label": "Doughnut"
+    },
+    {
+      "itemId": "sweet-churro",
+      "label": "Churro"
+    },
+    {
+      "itemId": "sweet-fritter",
+      "label": "Fritter"
+    },
+    {
+      "itemId": "sweet-funnelcake",
+      "label": "Funnel cake"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "How it is made",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Frozen, never cooked",
+        "capacity": 1,
+        "itemIds": [
+          "sweet-icecream"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Cooked on a hot plate",
+        "capacity": 2,
+        "itemIds": [
+          "sweet-pancake",
+          "sweet-waffle"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Baked in an oven",
+        "capacity": 3,
+        "itemIds": [
+          "sweet-cake",
+          "sweet-cookie",
+          "sweet-muffin"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Fried in deep oil",
+        "capacity": 4,
+        "itemIds": [
+          "sweet-doughnut",
+          "sweet-churro",
+          "sweet-fritter",
+          "sweet-funnelcake"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group is made the same way: 1 is frozen and never cooked, 2 are cooked on a hot plate, 3 are baked in an oven, and 4 are fried in deep oil.",
+  "sources": [
+    {
+      "title": "Wikipedia: Dessert",
+      "url": "https://en.wikipedia.org/wiki/Dessert",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.38
+  },
+  "status": "scheduled"
+}

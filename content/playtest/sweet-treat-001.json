@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "sweet-treat-001",
+  "theme": "Sweet Treats",
+  "publishDate": "2026-10-11",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "sweet-doughnut",
+        "rivalGroupId": "g3",
+        "risk": "Baked doughnuts are sold everywhere now, so the oven row is a live second reading.",
+        "resolution": "The doughnut is defined by the deep fryer; the baked version is named \"baked doughnut\" precisely because frying is the default."
+      },
+      {
+        "itemId": "sweet-pancake",
+        "rivalGroupId": "g4",
+        "risk": "A pancake is cooked in fat, so a player who reads the fourth row as \"fried\" without \"deep\" will move it.",
+        "resolution": "The row label says deep oil, and a pancake sits on a greased flat surface rather than swimming in oil."
+      },
+      {
+        "itemId": "sweet-waffle",
+        "rivalGroupId": "g3",
+        "risk": "A waffle iron is closed and heats from both sides, which feels like baking.",
+        "resolution": "A waffle cooks on a hot metal plate with no oven; it belongs with the pancake, and the pair makes the row legible."
+      },
+      {
+        "itemId": "sweet-muffin",
+        "rivalGroupId": "g2",
+        "risk": "English muffins are cooked on a griddle, and the word is shared across two very different foods.",
+        "resolution": "The item is the sweet cup-shaped muffin baked in a tin, which the cake and the cookie anchor as the oven row."
+      }
+    ],
+    "notes": "The four rows are four heat sources: none, a plate, an oven, and oil. The fourth row is labelled deep oil so the pancake cannot drift into it."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "The muffin is the weakest item because the word is overloaded. If testers hesitate, replace it with a brownie."
+  }
+}

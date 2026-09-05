@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "container-contents-2026-10-12-en",
+  "puzzleFamilyId": "container-contents-001",
+  "locale": "en",
+  "publishDate": "2026-10-12",
+  "timezone": "UTC",
+  "theme": "Containers",
+  "items": [
+    {
+      "itemId": "hold-piggybank",
+      "label": "Piggy bank"
+    },
+    {
+      "itemId": "hold-flowerpot",
+      "label": "Flowerpot"
+    },
+    {
+      "itemId": "hold-vase",
+      "label": "Vase"
+    },
+    {
+      "itemId": "hold-suitcase",
+      "label": "Suitcase"
+    },
+    {
+      "itemId": "hold-backpack",
+      "label": "Backpack"
+    },
+    {
+      "itemId": "hold-handbag",
+      "label": "Handbag"
+    },
+    {
+      "itemId": "hold-jar",
+      "label": "Glass jar"
+    },
+    {
+      "itemId": "hold-can",
+      "label": "Tin can"
+    },
+    {
+      "itemId": "hold-bottle",
+      "label": "Bottle"
+    },
+    {
+      "itemId": "hold-carton",
+      "label": "Carton"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "What is meant to go inside",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Holds coins",
+        "capacity": 1,
+        "itemIds": [
+          "hold-piggybank"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Holds a growing plant",
+        "capacity": 2,
+        "itemIds": [
+          "hold-flowerpot",
+          "hold-vase"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Holds what you carry with you",
+        "capacity": 3,
+        "itemIds": [
+          "hold-suitcase",
+          "hold-backpack",
+          "hold-handbag"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Holds food and drink",
+        "capacity": 4,
+        "itemIds": [
+          "hold-jar",
+          "hold-can",
+          "hold-bottle",
+          "hold-carton"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group holds the same kind of thing: 1 holds coins, 2 hold a growing plant, 3 hold what you carry with you, and 4 hold food and drink.",
+  "sources": [
+    {
+      "title": "Wikipedia: Container",
+      "url": "https://en.wikipedia.org/wiki/Container",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

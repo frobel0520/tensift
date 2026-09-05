@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ball-game-2026-10-15-zh-hans",
+  "puzzleFamilyId": "ball-game-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-15",
+  "timezone": "UTC",
+  "theme": "球类运动",
+  "items": [
+    {
+      "itemId": "ball-soccer",
+      "label": "足球"
+    },
+    {
+      "itemId": "ball-basketball",
+      "label": "篮球"
+    },
+    {
+      "itemId": "ball-volleyball",
+      "label": "排球"
+    },
+    {
+      "itemId": "ball-tennis",
+      "label": "网球"
+    },
+    {
+      "itemId": "ball-tabletennis",
+      "label": "乒乓球"
+    },
+    {
+      "itemId": "ball-squash",
+      "label": "壁球"
+    },
+    {
+      "itemId": "ball-baseball",
+      "label": "棒球"
+    },
+    {
+      "itemId": "ball-cricket",
+      "label": "板球"
+    },
+    {
+      "itemId": "ball-golf",
+      "label": "高尔夫"
+    },
+    {
+      "itemId": "ball-hockey",
+      "label": "曲棍球"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "用什么把球送出去",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "用脚",
+        "capacity": 1,
+        "itemIds": [
+          "ball-soccer"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "用手",
+        "capacity": 2,
+        "itemIds": [
+          "ball-basketball",
+          "ball-volleyball"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "用球拍",
+        "capacity": 3,
+        "itemIds": [
+          "ball-tennis",
+          "ball-tabletennis",
+          "ball-squash"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "用球棒或球杆",
+        "capacity": 4,
+        "itemIds": [
+          "ball-baseball",
+          "ball-cricket",
+          "ball-golf",
+          "ball-hockey"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每一组把球送出去的方式相同：1 个用脚，2 个用手，3 个用球拍，4 个用球棒或球杆。",
+  "sources": [
+    {
+      "title": "维基百科：球类运动",
+      "url": "https://en.wikipedia.org/wiki/Ball_game",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.31
+  },
+  "status": "scheduled"
+}

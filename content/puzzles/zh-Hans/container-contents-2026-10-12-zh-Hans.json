@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "container-contents-2026-10-12-zh-hans",
+  "puzzleFamilyId": "container-contents-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-12",
+  "timezone": "UTC",
+  "theme": "容器",
+  "items": [
+    {
+      "itemId": "hold-piggybank",
+      "label": "存钱罐"
+    },
+    {
+      "itemId": "hold-flowerpot",
+      "label": "花盆"
+    },
+    {
+      "itemId": "hold-vase",
+      "label": "花瓶"
+    },
+    {
+      "itemId": "hold-suitcase",
+      "label": "行李箱"
+    },
+    {
+      "itemId": "hold-backpack",
+      "label": "背包"
+    },
+    {
+      "itemId": "hold-handbag",
+      "label": "手提包"
+    },
+    {
+      "itemId": "hold-jar",
+      "label": "玻璃罐"
+    },
+    {
+      "itemId": "hold-can",
+      "label": "罐头"
+    },
+    {
+      "itemId": "hold-bottle",
+      "label": "瓶子"
+    },
+    {
+      "itemId": "hold-carton",
+      "label": "纸盒"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "里面本该装什么",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "装硬币",
+        "capacity": 1,
+        "itemIds": [
+          "hold-piggybank"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "装活的植物",
+        "capacity": 2,
+        "itemIds": [
+          "hold-flowerpot",
+          "hold-vase"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "装随身携带的东西",
+        "capacity": 3,
+        "itemIds": [
+          "hold-suitcase",
+          "hold-backpack",
+          "hold-handbag"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "装食品饮料",
+        "capacity": 4,
+        "itemIds": [
+          "hold-jar",
+          "hold-can",
+          "hold-bottle",
+          "hold-carton"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每一组装的东西类型相同：1 个装硬币，2 个装活的植物，3 个装随身携带的物品，4 个装食品饮料。",
+  "sources": [
+    {
+      "title": "维基百科：容器",
+      "url": "https://en.wikipedia.org/wiki/Container",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

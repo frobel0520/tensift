@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "spice-plantpart-2026-10-09-en",
+  "puzzleFamilyId": "spice-plantpart-001",
+  "locale": "en",
+  "publishDate": "2026-10-09",
+  "timezone": "UTC",
+  "theme": "Herbs and Spices",
+  "items": [
+    {
+      "itemId": "spice-saffron",
+      "label": "Saffron"
+    },
+    {
+      "itemId": "spice-ginger",
+      "label": "Ginger"
+    },
+    {
+      "itemId": "spice-turmeric",
+      "label": "Turmeric"
+    },
+    {
+      "itemId": "spice-pepper",
+      "label": "Black pepper"
+    },
+    {
+      "itemId": "spice-mustard",
+      "label": "Mustard seed"
+    },
+    {
+      "itemId": "spice-cumin",
+      "label": "Cumin"
+    },
+    {
+      "itemId": "spice-basil",
+      "label": "Basil"
+    },
+    {
+      "itemId": "spice-mint",
+      "label": "Mint"
+    },
+    {
+      "itemId": "spice-bayleaf",
+      "label": "Bay leaf"
+    },
+    {
+      "itemId": "spice-oregano",
+      "label": "Oregano"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Which part of the plant it comes from",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "From a flower",
+        "capacity": 1,
+        "itemIds": [
+          "spice-saffron"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "From a root",
+        "capacity": 2,
+        "itemIds": [
+          "spice-ginger",
+          "spice-turmeric"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "From a seed",
+        "capacity": 3,
+        "itemIds": [
+          "spice-pepper",
+          "spice-mustard",
+          "spice-cumin"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "From a leaf",
+        "capacity": 4,
+        "itemIds": [
+          "spice-basil",
+          "spice-mint",
+          "spice-bayleaf",
+          "spice-oregano"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group comes from the same part of the plant: 1 from a flower, 2 from a root, 3 from a seed, and 4 from a leaf.",
+  "sources": [
+    {
+      "title": "Wikipedia: Spice",
+      "url": "https://en.wikipedia.org/wiki/Spice",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

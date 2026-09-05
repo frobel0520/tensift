@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "payment-method-001",
+  "theme": "Ways to Pay",
+  "publishDate": "2026-10-17",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "pay-credit",
+        "rivalGroupId": "g4",
+        "risk": "Card numbers are typed into websites constantly, so a credit card can read as an online payment.",
+        "resolution": "The third row is the physical card presented at a counter; the fourth row has no card to hand over at all."
+      },
+      {
+        "itemId": "pay-wallet",
+        "rivalGroupId": "g3",
+        "risk": "A mobile wallet stores a card, and the phone is tapped at the same terminal.",
+        "resolution": "Nothing but the phone changes hands, and the phone is the device the whole fourth row runs on."
+      },
+      {
+        "itemId": "pay-giftcard",
+        "rivalGroupId": "g2",
+        "risk": "A gift card carries a fixed stored value and spends like cash.",
+        "resolution": "It is still a card you hand to the cashier, which is what the row is sorted by."
+      },
+      {
+        "itemId": "pay-barter",
+        "rivalGroupId": "g2",
+        "risk": "Barter is money-adjacent enough that a player may read coins as an early form of it.",
+        "resolution": "Barter is the only method on the board with no money in it at all, which is why it is the single-item row."
+      }
+    ],
+    "notes": "The rule is what physically leaves your hand. That is why the mobile wallet is not a card, even though it holds one."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "The card row and the phone row are the same idea a decade apart. If testers merge them, relabel the third row as \"A plastic card you hand to the cashier\"."
+  }
+}

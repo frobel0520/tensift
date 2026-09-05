@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "spice-plantpart-2026-10-09-zh-hans",
+  "puzzleFamilyId": "spice-plantpart-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-09",
+  "timezone": "UTC",
+  "theme": "香草与香料",
+  "items": [
+    {
+      "itemId": "spice-saffron",
+      "label": "藏红花"
+    },
+    {
+      "itemId": "spice-ginger",
+      "label": "生姜"
+    },
+    {
+      "itemId": "spice-turmeric",
+      "label": "姜黄"
+    },
+    {
+      "itemId": "spice-pepper",
+      "label": "黑胡椒"
+    },
+    {
+      "itemId": "spice-mustard",
+      "label": "芥菜籽"
+    },
+    {
+      "itemId": "spice-cumin",
+      "label": "孜然"
+    },
+    {
+      "itemId": "spice-basil",
+      "label": "罗勒"
+    },
+    {
+      "itemId": "spice-mint",
+      "label": "薄荷"
+    },
+    {
+      "itemId": "spice-bayleaf",
+      "label": "月桂叶"
+    },
+    {
+      "itemId": "spice-oregano",
+      "label": "牛至"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "它来自植物的哪个部位",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "来自花",
+        "capacity": 1,
+        "itemIds": [
+          "spice-saffron"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "来自根茎",
+        "capacity": 2,
+        "itemIds": [
+          "spice-ginger",
+          "spice-turmeric"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "来自种子",
+        "capacity": 3,
+        "itemIds": [
+          "spice-pepper",
+          "spice-mustard",
+          "spice-cumin"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "来自叶子",
+        "capacity": 4,
+        "itemIds": [
+          "spice-basil",
+          "spice-mint",
+          "spice-bayleaf",
+          "spice-oregano"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每一组都来自植物的同一个部位：1 个来自花，2 个来自根茎，3 个来自种子，4 个来自叶子。",
+  "sources": [
+    {
+      "title": "维基百科：香料",
+      "url": "https://en.wikipedia.org/wiki/Spice",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}
