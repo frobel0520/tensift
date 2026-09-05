@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "payment-method-2026-10-17-es-419",
+  "puzzleFamilyId": "payment-method-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-17",
+  "timezone": "UTC",
+  "theme": "Formas de pagar",
+  "items": [
+    {
+      "itemId": "pay-barter",
+      "label": "Trueque"
+    },
+    {
+      "itemId": "pay-coins",
+      "label": "Monedas"
+    },
+    {
+      "itemId": "pay-notes",
+      "label": "Billetes"
+    },
+    {
+      "itemId": "pay-credit",
+      "label": "Tarjeta de crédito"
+    },
+    {
+      "itemId": "pay-debit",
+      "label": "Tarjeta de débito"
+    },
+    {
+      "itemId": "pay-giftcard",
+      "label": "Tarjeta de regalo"
+    },
+    {
+      "itemId": "pay-transfer",
+      "label": "Transferencia bancaria"
+    },
+    {
+      "itemId": "pay-wallet",
+      "label": "Billetera móvil"
+    },
+    {
+      "itemId": "pay-qr",
+      "label": "Pago con código QR"
+    },
+    {
+      "itemId": "pay-online",
+      "label": "Pago en línea"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Qué es lo que realmente entregas",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Bienes por bienes",
+        "capacity": 1,
+        "itemIds": [
+          "pay-barter"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Efectivo",
+        "capacity": 2,
+        "itemIds": [
+          "pay-coins",
+          "pay-notes"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Una tarjeta que entregas",
+        "capacity": 3,
+        "itemIds": [
+          "pay-credit",
+          "pay-debit",
+          "pay-giftcard"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Por teléfono o computadora",
+        "capacity": 4,
+        "itemIds": [
+          "pay-transfer",
+          "pay-wallet",
+          "pay-qr",
+          "pay-online"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo entrega lo mismo: 1 intercambia bienes por bienes, 2 entregan efectivo, 3 entregan una tarjeta y 4 se hacen por teléfono o computadora.",
+  "sources": [
+    {
+      "title": "Wikipedia: Pago",
+      "url": "https://en.wikipedia.org/wiki/Payment",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.4
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sky-object-2026-10-16-es-419",
+  "puzzleFamilyId": "sky-object-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-16",
+  "timezone": "UTC",
+  "theme": "Cosas en el cielo",
+  "items": [
+    {
+      "itemId": "sky-sun",
+      "label": "Sol"
+    },
+    {
+      "itemId": "sky-cloud",
+      "label": "Nube"
+    },
+    {
+      "itemId": "sky-rainbow",
+      "label": "Arcoíris"
+    },
+    {
+      "itemId": "sky-plane",
+      "label": "Avión"
+    },
+    {
+      "itemId": "sky-helicopter",
+      "label": "Helicóptero"
+    },
+    {
+      "itemId": "sky-balloon",
+      "label": "Globo aerostático"
+    },
+    {
+      "itemId": "sky-sparrow",
+      "label": "Gorrión"
+    },
+    {
+      "itemId": "sky-eagle",
+      "label": "Águila"
+    },
+    {
+      "itemId": "sky-bat",
+      "label": "Murciélago"
+    },
+    {
+      "itemId": "sky-dragonfly",
+      "label": "Libélula"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Qué clase de cosa es",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Una estrella",
+        "capacity": 1,
+        "itemIds": [
+          "sky-sun"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Se forma con agua en el aire",
+        "capacity": 2,
+        "itemIds": [
+          "sky-cloud",
+          "sky-rainbow"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Máquinas que la gente pilota",
+        "capacity": 3,
+        "itemIds": [
+          "sky-plane",
+          "sky-helicopter",
+          "sky-balloon"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Seres vivos que vuelan",
+        "capacity": 4,
+        "itemIds": [
+          "sky-sparrow",
+          "sky-eagle",
+          "sky-bat",
+          "sky-dragonfly"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo es una clase de cosa: 1 es una estrella, 2 se forman con agua en el aire, 3 son máquinas que la gente pilota y 4 son seres vivos que vuelan.",
+  "sources": [
+    {
+      "title": "Wikipedia: Cielo",
+      "url": "https://en.wikipedia.org/wiki/Sky",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.33
+  },
+  "status": "scheduled"
+}

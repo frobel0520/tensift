@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sweet-treat-2026-10-11-zh-hans",
+  "puzzleFamilyId": "sweet-treat-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-11",
+  "timezone": "UTC",
+  "theme": "甜点",
+  "items": [
+    {
+      "itemId": "sweet-icecream",
+      "label": "冰淇淋"
+    },
+    {
+      "itemId": "sweet-pancake",
+      "label": "松饼"
+    },
+    {
+      "itemId": "sweet-waffle",
+      "label": "华夫饼"
+    },
+    {
+      "itemId": "sweet-cake",
+      "label": "蛋糕"
+    },
+    {
+      "itemId": "sweet-cookie",
+      "label": "曲奇"
+    },
+    {
+      "itemId": "sweet-muffin",
+      "label": "玛芬蛋糕"
+    },
+    {
+      "itemId": "sweet-doughnut",
+      "label": "甜甜圈"
+    },
+    {
+      "itemId": "sweet-churro",
+      "label": "吉事果"
+    },
+    {
+      "itemId": "sweet-fritter",
+      "label": "炸糕"
+    },
+    {
+      "itemId": "sweet-funnelcake",
+      "label": "漏斗蛋糕"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "它是怎么做出来的",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "冷冻，不加热",
+        "capacity": 1,
+        "itemIds": [
+          "sweet-icecream"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "在铁板上煎",
+        "capacity": 2,
+        "itemIds": [
+          "sweet-pancake",
+          "sweet-waffle"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "用烤箱烤",
+        "capacity": 3,
+        "itemIds": [
+          "sweet-cake",
+          "sweet-cookie",
+          "sweet-muffin"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "下油锅炸",
+        "capacity": 4,
+        "itemIds": [
+          "sweet-doughnut",
+          "sweet-churro",
+          "sweet-fritter",
+          "sweet-funnelcake"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每一组的做法相同：1 个是冷冻而不加热，2 个是在铁板上煎，3 个是用烤箱烤，4 个是下油锅炸。",
+  "sources": [
+    {
+      "title": "维基百科：甜点",
+      "url": "https://en.wikipedia.org/wiki/Dessert",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.38
+  },
+  "status": "scheduled"
+}

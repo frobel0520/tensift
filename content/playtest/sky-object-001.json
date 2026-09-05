@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "sky-object-001",
+  "theme": "Things in the Sky",
+  "publishDate": "2026-10-16",
+  "authorReview": {
+    "reviewedAt": "2026-09-05",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "sky-rainbow",
+        "rivalGroupId": "g1",
+        "risk": "A rainbow is made of sunlight, so a player may read it as belonging with the sun rather than with the cloud.",
+        "resolution": "A rainbow needs raindrops to bend the light; without water in the air there is no rainbow, which is what the cloud pairing shows."
+      },
+      {
+        "itemId": "sky-sun",
+        "rivalGroupId": "g2",
+        "risk": "The sun and the rainbow appear together in the same sky and are linked in every childhood drawing.",
+        "resolution": "The sun is the only object on the board that is not on Earth at all, which is why it is the single-item row."
+      },
+      {
+        "itemId": "sky-balloon",
+        "rivalGroupId": "g2",
+        "risk": "A hot-air balloon drifts with the wind and floats the way a cloud does.",
+        "resolution": "A balloon is built and flown by people, alongside the aeroplane and the helicopter."
+      },
+      {
+        "itemId": "sky-dragonfly",
+        "rivalGroupId": "g3",
+        "risk": "A dragonfly is nicknamed a helicopter in several languages, and it hovers the same way.",
+        "resolution": "A dragonfly is alive, which is the whole of the fourth row."
+      }
+    ],
+    "notes": "The rows walk outward and then back: one object beyond the Earth, two made of its water, three built by people, four alive."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Watch the bat. If testers reject it because they expect a bird row, the fix is the row label, not the item: \"Living things that fly\" already avoids saying birds."
+  }
+}
