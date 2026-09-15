@@ -1,6 +1,6 @@
 // Harbor managed-project middleware.
 // 由 Harbor 的 `npm run build:middleware` 產生，請勿手動編輯。
-// 已寫入 Harbor 網址 https://harbor-1wk.pages.dev 與 slug tensift；只需設定 secret HARBOR_PREVIEW_SECRET。
+// 已寫入 Harbor 網址 https://harbor-1wk.pages.dev、slug tensift、豁免路徑 /api/health；只需設定 secret HARBOR_PREVIEW_SECRET。
 
 // shared/cookie.ts
 function readCookie(header, name) {
@@ -146,7 +146,7 @@ var EXEMPT_EXTENSIONS = [
   ".webm"
 ];
 async function decideMaintenanceGate(input) {
-  if (isExemptPath(input.pathname)) {
+  if (isExemptPath(input.pathname, input.extraExemptPaths)) {
     return pass("\u8C41\u514D\u8DEF\u5F91");
   }
   const now = input.now ?? Math.floor(Date.now() / 1e3);
@@ -196,10 +196,14 @@ async function decideMaintenanceGate(input) {
     retryAfterSeconds: retryAfterFrom(config.maintenance.eta, now)
   };
 }
-function isExemptPath(pathname) {
-  if (pathname === "/health" || pathname.startsWith("/health/")) return true;
+function isExemptPath(pathname, extraPaths = []) {
+  if (matchesPath(pathname, "/health")) return true;
+  if (extraPaths.some((path) => matchesPath(pathname, path))) return true;
   const lower = pathname.toLowerCase();
   return EXEMPT_EXTENSIONS.some((extension) => lower.endsWith(extension));
+}
+function matchesPath(pathname, path) {
+  return pathname === path || pathname.startsWith(`${path}/`);
 }
 function retryAfterFrom(eta, now) {
   if (eta === null) return DEFAULT_RETRY_AFTER_SECONDS;
@@ -232,6 +236,7 @@ var BAKED = {
   baseUrl: true ? "https://harbor-1wk.pages.dev" : void 0,
   slug: true ? "tensift" : void 0
 };
+var BAKED_EXEMPT_PATHS = true ? ["/api/health"] : [];
 var CONFIG_TIMEOUT_MS = 800;
 var CACHE_TTL_SECONDS = 30;
 var onRequest = async (context) => {
@@ -253,6 +258,7 @@ async function applyGate(context) {
     previewToken: url.searchParams.get(PREVIEW_QUERY_PARAM),
     slug: connection.slug,
     previewSecret: connection.previewSecret,
+    extraExemptPaths: BAKED_EXEMPT_PATHS,
     loadConfig: () => loadRuntimeConfig(context, connection)
   });
   if (decision.kind === "block") {
