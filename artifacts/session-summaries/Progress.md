@@ -1,12 +1,25 @@
 # Tensift Progress
 
-Last updated: 2026-09-05 (Asia/Taipei)
+Last updated: 2026-09-19 (Asia/Taipei)
 
 ## Current status
 
-Prototype approved; SD implementation is complete; the Cloudflare Pages production deployment is live and now runs from CI on every push to `main`. A fifty-day content buffer is authored across all three locales, with 43 complete days of runway from 2026-09-05 and the first gap at 2026-10-18; all fifty days are seeded in remote D1. Every family from 2026-09-28 onward carries an ambiguity review ledger, enforced in CI; blind playtesting remains the open risk and no family has a blind pass yet.
+AdSense remediation (PR #12) is on `main` as commit `7285c60` and deployed to production by Deploy run https://github.com/frobel0520/tensift/actions/runs/35433776190; production editorial and gameplay smoke passed on 2026-09-19. The now-unused ad component, its build variables and the ad-network CSP allowances were removed on `chore/remove-dead-ad-code`. The three animal-covering corrections are NOT yet in remote D1, so today's (2026-09-19) live reveal still shows the old wording. No AdSense re-review has been requested.
+
+The existing production game has fifty authored puzzle families across three locales, seeded through 2026-10-17; the next authored gap is 2026-10-18. The previously reported 43-day runway was measured on 2026-09-05, not today. Blind playtesting remains uncompleted; no independent blind pass is claimed.
 
 ## Completed
+
+- 2026-09-19 / Issue #11 / PR #12: added 21 server-rendered, localized editorial pages (how-to, archive index, three selected historical explanations, about/contact and privacy), plus game navigation, canonical/hreflang links, sitemap and robots discovery. Full editorial text is readable without JavaScript or D1.
+- Gameplay no longer mounts the advertising component; AdSense ownership metadata and ads.txt remain. Deployment no longer requires ad-unit variables. Live since the PR #12 deploy.
+- Dead-ad cleanup (`chore/remove-dead-ad-code`): removed `src/ui/adsense.tsx`, its unit test, `.ad-slot*` styles, the two ad i18n strings, `VITE_ADSENSE_*` from `.env.example`, and the Google ad domains from the CSP `script-src`/`connect-src`/`frame-src`. README and `docs/deploy-readiness.md` no longer describe a configured ad slot. The repository variables `VITE_ADSENSE_CLIENT_ID` / `VITE_ADSENSE_TOP_SLOT` are now unused and can be deleted in GitHub settings.
+- Explicitly selected historical answers become public only after their UTC play date. Today's/future answers remain server-only; the browser answer-leak scanner has no new exemptions.
+- Animal-covering wording corrected in all three authoring records, including Chinese hard-shell wording, category overlap and a Smithsonian reference. Item IDs and placements are unchanged. The corrected records have been verified in isolated local D1 only; production still needs a reviewed content update.
+- Verification: 150 authoring records validated; 55 tests / 14 suites passed; typecheck, production build, unchanged bundle-leak scan and Pages Function compilation passed. HTTP smoke passed home + 21 editorial pages, stylesheet, robots, canonical links, real 404s and no advertising code in the game bundle. Three locale daily APIs passed locally. Browser checked Chinese article, language-preserving return to gameplay and corrected reveal.
+- GitHub checks passed: CI run https://github.com/frobel0520/tensift/actions/runs/35432838366 and Content alarm run https://github.com/frobel0520/tensift/actions/runs/35432838474. PR: https://github.com/frobel0520/tensift/pull/12. Evidence: `docs/deploy-readiness.md`; CR/task contract: `docs/system-design.md` section 15.
+- Existing Windows file-URL conversion bug in the playtest-ledger test fixed. An old local D1 seed failed on a pre-existing locale/date uniqueness conflict; successful smoke used `.wrangler/adsense-test-state` with both migrations and 150 records. The old database was not deleted, and no remote database was changed. Local preview server was stopped after verification.
+
+The following completion entries describe the earlier production baseline; ad-related entries are historical and are superseded by PR #12 and the dead-ad cleanup above.
 
 - React + TypeScript + Vite + Cloudflare Pages Functions skeleton.
 - Puzzle domain engine, validator fixtures, API contracts, D1 repository and migrations.
@@ -46,6 +59,10 @@ Prototype approved; SD implementation is complete; the Cloudflare Pages producti
 
 ## Verified deployment
 
+- 2026-09-19 after the PR #12 deploy: `npm run smoke:editorial -- https://tensift.pages.dev` passed (22 sitemap pages, stylesheet, robots, 404s, no ad code in the game bundle); `npm run smoke:production` passed health and all three locales (today: Animal Coverings); `/ads.txt` returns the direct-seller line; `/robots.txt` returns 200.
+
+Earlier production verification:
+
 - `/` returns HTTP 200 with security headers.
 - `/api/health` returns HTTP 200 and reports D1 catalog version `d1`.
 - `check`, `hint`, and `reveal` endpoints respond correctly in production.
@@ -60,17 +77,20 @@ Prototype approved; SD implementation is complete; the Cloudflare Pages producti
 
 ## Pending / decision needed
 
-- The first daily release is live for 2026-08-29, with twenty-nine additional records scheduled through 2026-09-27. Maintain the UTC publishing job and verify each release before it becomes playable.
+- Next action: apply the three animal-covering corrections to remote D1 with the `Seed content to D1` workflow (dry-run, then apply). The seed replaces all 150 records by `puzzleId` and also clears their `action_receipts`, so running it during a live day resets that day's cached hint/reveal receipts. After that, the owner can request AdSense review in the account; no fixed article count or approval guarantee applies.
+- Maintain the current fifty-family schedule through 2026-10-17 and verify each UTC daily release.
 - Business direction: keep the owned site as the canonical product; use LinkedIn posts and score sharing for discovery. Direct submission to LinkedIn Games Hub is not currently available.
 - Image-based share cards remain deferred; the current share flow is text-first and ready for organic sharing tests.
-- Ad direction: the top-of-page banner slot and `ads.txt` are live. Remaining work is AdSense site/account approval, privacy/consent review, and monitoring the first live fill; future Direct Upload builds must inject the public Vite IDs locally.
+- Ad direction: ad serving is off and the ad component is removed; only ownership verification remains. Re-enabling advertising means rebuilding the slot from git history plus placement, CSP and consent/privacy work. Do not reinstate the gameplay banner just to request review.
 - Next feature under discussion: guest play plus authenticated cross-device streaks. Proposed sign-in options are Google OAuth and email + password; passwordless magic link remains a future option.
-- Next session starts here: recruit blind testers. That is now the only unblocked item on the critical path; the fifth batch is written, merged and seeded, and the runway reaches 2026-10-17.
+- Blind tester recruitment remains necessary alongside the AdSense deployment work; the fifth batch is seeded through 2026-10-17.
 - Keep expanding the buffer beyond the current 50 puzzle families. With the fifth batch in, the runway alarm next fires on the Monday around 2026-10-05, which is the working deadline for the sixth batch.
 - Blind playtesting for second-solution ambiguity is still not done for any of the fifty families. The ledger now makes that debt visible on every alarm run and records the author-side review, but author review is the author grading their own work: it catches the alternates you can see, not the ones a fresh player finds. Recruit two testers per family, record the result in `content/playtest/`, then turn on `--strict-blind`.
 - Highest-risk items flagged during author review, in order: the thunderstorm in Weather (2026-10-02), the bookshelf/table boundary in Furniture (2026-10-03), the whole of Cooking Methods (2026-10-05, every method involves some oil or water in practice), the train station in Around Town (2026-10-06), and the school nurse in Jobs and Workplaces (2026-09-30). Each ledger records the replacement to make if blind testers split.
 
 ## Known risks
+
+- AdSense review reported screens without publisher content / low-value content. The remediation is live, but approval remains external and unconfirmed. No exhaustive mobile/accessibility acceptance or independent blind playtest was performed; model quality scoring is `not_scored`.
 
 - No account or server-side session; local streaks are not competitive-grade records.
 - Content ambiguity and second-solution risk remain the largest product risks.
@@ -79,5 +99,5 @@ Prototype approved; SD implementation is complete; the Cloudflare Pages producti
 - The third batch adds Clothing, Animal Coverings, World Foods, Beverages, Sports Equipment, Trees, Home Appliances, School and Office, Global Brands, and Animal Movement. Trees now uses common settings/associations instead of botanical types; Global Brands uses soft drink, car, fast-food, and sportswear industries; the 2026-09-27 slot was revised from Animal Diets to Animal Movement while retaining the existing public puzzle IDs for an in-place D1 replacement. Blind playtesting should confirm the everyday associations.
 - The fourth batch is the first content written against the ambiguity ledger, so each family has a recorded fallback: sleet for the thunderstorm, a filing cabinet for the bookshelf, a relabeled group for the train station, a surgeon for the nurse, pickles for the plain yogurt. Cooking Methods is the hardest of the ten and may need to move later in the schedule.
 - The fifth batch keeps the ledger-first method. Its deliberate traps, in order of risk: silk in Fabrics (2026-10-14), which is an animal fibre placed alone against the wool row and is the whole design of that puzzle; the phone call in Ways to Send a Message (2026-10-13); the ox beside the dairy cow in Farm Animals (2026-10-10); black pepper as a seed in Herbs and Spices (2026-10-09); and the piggy bank against the glass jar in Containers (2026-10-12). Each ledger names its fallback, and Fabrics carries a second fallback that rebuilds the single-item row around rayon.
-- Ads are integrated and configured but may not monetize until Google account/site approval; analytics, privacy/consent, and release-content operations are not yet implemented.
-- A top banner must reserve stable height and remain clearly distinct from game controls to avoid accidental ad clicks and layout shift.
+- No ads are served; analytics, privacy/consent, and release-content operations are not yet implemented.
+- If a banner returns, it must reserve stable height and remain clearly distinct from game controls to avoid accidental ad clicks and layout shift.
