@@ -97,3 +97,34 @@ Never use a global API key, commit `.env`, or expose a Cloudflare credential thr
 ## Rollback
 
 For a bad frontend artifact, redeploy the last known-good Pages deployment. For bad content, set the affected D1 record to `retired` and publish the reviewed replacement; do not delete the record while investigating because local sessions and audit trails use the puzzle ID.
+# CR-11 validation — 2026-09-19
+
+Publisher-content implementation is tracked by Issue #11. This section records
+local evidence, not a production deployment or an AdSense approval.
+
+- Machine checks: 150 puzzle records validated; TypeScript check and Vite build
+  passed; 55 tests across 14 suites passed; unchanged public answer-leak scanner
+  passed (7 browser artifact files); Pages Functions compilation passed.
+- HTTP checks: `npm run smoke:editorial` passed on local Pages for all 22 sitemap
+  entries (home + 21 localized editorial pages), stylesheet, robots, canonical
+  links, actual 404 responses and absence of advertising code in the game bundle.
+- Existing production-smoke script against `http://127.0.0.1:8788` passed health
+  and today's three locale DTOs for 2026-09-19.
+- Browser observations: Chinese animal article rendered with full text and
+  references; its play link retained Chinese; the game had no banner and its
+  reveal showed the corrected hard-shell explanation and Smithsonian reference.
+  Desktop layout inspected. Exhaustive mobile and assistive-technology QA was
+  not performed. No standalone lint/formatter command exists in this repository.
+- The initial old local D1 seed encountered an existing locale/date uniqueness
+  conflict. Verification used an isolated `.wrangler/adsense-test-state` database
+  with both migrations and all 150 records successfully imported. No remote D1
+  writes were made. Do not seed the full catalog into an unknown database without
+  checking its existing IDs; the old local database was not reset or deleted.
+- Human blind playtesting: not performed. Model quality scoring: not_scored.
+  AdSense re-review: not requested; approval is not guaranteed by these checks.
+
+Release steps after PR review: merge via the normal workflow, verify deployed
+`/learn/en/how-to-play`, `/learn/zh-Hans/archive/animals`, `/sitemap.xml`, `/ads.txt`
+and the game; apply the three animal-covering content corrections to D1 through
+the reviewed content-update workflow; then request AdSense re-review in the
+account. Do not restore the gameplay ad slot merely to submit a review.

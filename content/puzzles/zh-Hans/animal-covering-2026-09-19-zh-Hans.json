@@ -30,13 +30,14 @@
       {"groupId": "g1", "label": "羽毛", "capacity": 1, "itemIds": ["covering-eagle"]},
       {"groupId": "g2", "label": "毛皮", "capacity": 2, "itemIds": ["covering-dog", "covering-cat"]},
       {"groupId": "g3", "label": "鳞片", "capacity": 3, "itemIds": ["covering-snake", "covering-fish", "covering-lizard"]},
-      {"groupId": "g4", "label": "贝壳", "capacity": 4, "itemIds": ["covering-turtle", "covering-snail", "covering-oyster", "covering-clam"]}
+      {"groupId": "g4", "label": "硬壳", "capacity": 4, "itemIds": ["covering-turtle", "covering-snail", "covering-oyster", "covering-clam"]}
     ]
   },
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
-  "explanation": "每组动物都有相似的外部覆盖：1 种羽毛、2 种毛皮、3 种鳞片和 4 种贝壳。",
+  "explanation": "按日常观察中最显眼的外部覆盖分组：1 种以羽毛为特征、2 种以毛皮为特征、3 种以鳞片为特征、4 种以硬壳为特征。这里的硬壳包括龟甲和软体动物的壳，不代表它们具有相同的生物结构。乌龟也有鳞片；本题优先采用最显眼的硬壳特征，并非互斥的科学分类。",
   "sources": [
-    {"title": "大英百科全书：动物", "url": "https://www.britannica.com/animal/animal", "retrievedAt": "2026-08-29"}
+    {"title": "大英百科全书：动物", "url": "https://www.britannica.com/animal/animal", "retrievedAt": "2026-08-29"},
+    {"title": "Smithsonian Ocean：海龟与龟甲", "url": "https://ocean.si.edu/ocean-life/reptiles/sea-turtles", "retrievedAt": "2026-09-19"}
   ],
   "difficulty": {"band": "easy", "score": 0.29},
   "status": "scheduled"

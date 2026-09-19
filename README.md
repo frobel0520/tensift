@@ -74,21 +74,11 @@ Required repository configuration (Settings > Secrets and variables > Actions):
 |---|---|---|
 | Secret | `CLOUDFLARE_API_TOKEN` | A Cloudflare API token with the `Cloudflare Pages: Edit` and `D1: Edit` permissions on this account |
 | Secret | `CLOUDFLARE_ACCOUNT_ID` | The Cloudflare account ID that owns the `tensift` Pages project and D1 database |
-| Variable | `VITE_ADSENSE_CLIENT_ID` | The `ca-pub-...` publisher client ID |
-| Variable | `VITE_ADSENSE_TOP_SLOT` | The numeric ad slot ID |
 
-The two AdSense values are repository *variables*, not secrets: they are public
-identifiers that ship in the browser bundle. Setting them here replaces the
-manual local injection that every Direct Upload build previously required. Never
-put a Cloudflare token in a `VITE_*` name.
-
-Until all four values exist, the workflow still runs every verification gate and
-then **skips the deployment step** with a notice, rather than failing or
-deploying. That is deliberate: a missing Cloudflare credential would only fail
-the run, but a missing AdSense identifier would publish a build with the live ad
-slot silently switched off. The workflow starts deploying by itself once the
-configuration is complete; no code change is needed to activate it. Deploy with
-`npm run cf:deploy` in the meantime.
+Until both Cloudflare credentials exist, the workflow runs every verification
+gate and then skips deployment with a notice. AdSense build variables are no
+longer deployment prerequisites: ad serving is deliberately disabled during
+publisher-content remediation. Never put credentials in a `VITE_*` variable.
 
 Manual `npm run cf:deploy` from a workstation still works and is the fallback if
 Actions is unavailable.
@@ -161,28 +151,34 @@ family has a blind pass, so it would fail every run.
 
 A blind pass needs at least two testers recorded in `blindPlaytest.testers`.
 
-## Optional Google AdSense
+## Publisher content and AdSense
 
-The app includes one responsive, top-of-page ad slot. It stays hidden in production until both public AdSense identifiers are configured, so local development and CI never make ad requests by accident.
+Ad serving is disabled on gameplay and editorial pages, even if previous
+`VITE_ADSENSE_*` variables remain configured. The game no longer mounts the ad
+component. Ownership metadata and the existing `/ads.txt` Function remain;
+keep the `ADSENSE_PUBLISHER_ID` Function variable for verification.
 
-After Google approves the site and creates a display ad unit:
+`/learn/{locale}/how-to-play`, `/archive`, `/about`, and `/privacy` are complete
+server-rendered HTML pages for `en`, `zh-Hans`, and `es-419`. Selected historical
+explanations live at `/learn/{locale}/archive/{countries|animals|instruments}`.
+These routes work without JavaScript and D1. Use Pages Dev, not Vite alone, to
+preview them. `/sitemap.xml` lists only available pages and is linked by robots.txt.
 
-1. Set `VITE_ADSENSE_CLIENT_ID` (the `ca-pub-...` publisher client ID) and `VITE_ADSENSE_TOP_SLOT` (the numeric ad slot ID) in the environment used by the Vite build. The current `tensift` Pages project uses Wrangler Direct Upload, so these values must be present locally before `npm run build`; Cloudflare dashboard build variables only affect a remote Pages build. Keep them in an untracked `.env.production` file or set them in the shell for the deployment command. For deployments through GitHub Actions, set them once as repository variables instead (see [Deployment](#deployment)).
-2. Set the Cloudflare Pages Function variable `ADSENSE_PUBLISHER_ID` (the matching `pub-...` ID) under Settings > Variables and Secrets for Production. The `/ads.txt` Function will then return Google's direct-seller line; without it, `/ads.txt` deliberately returns 404 instead of the SPA shell.
-3. Review the privacy/consent requirements for the countries you serve before enabling personalized advertising.
-4. Never click live ads or ask players to click them. Use the Google test workflow while validating the integration.
+The explicitly selected records and original editorial copy live in
+`server/editorial/`. Add each article in all three languages with reasoning,
+limitations and references; do not automatically turn every scheduled record
+into a thin article. A selected answer becomes public only after its UTC
+`publishDate`, using the server clock. Never import this catalog into `src/`.
+`scan:bundle` still scans the entire browser artifact without exemptions.
+`build:functions` separately verifies the server bundle outside `dist/`.
 
-For a Direct Upload deployment, run the build and deploy from this project directory after setting the two public Vite values (do not commit a `.env.production` file):
+Before enabling ads again, review placements, implement any required consent
+management and update the privacy notice. Ownership verification is not ad
+approval. These changes do not guarantee AdSense acceptance; request review
+only after the deployed content and account requirements have been checked.
 
-```powershell
-$env:VITE_ADSENSE_CLIENT_ID = 'ca-pub-XXXXXXXXXXXXXXXX'
-$env:VITE_ADSENSE_TOP_SLOT = '1234567890'
-npm run build
-npm run cf:deploy
-Remove-Item Env:VITE_ADSENSE_CLIENT_ID, Env:VITE_ADSENSE_TOP_SLOT
-```
-
-The public identifiers are safe to embed in the browser bundle; never put API tokens or Cloudflare credentials in a `VITE_*` variable. The ad code follows Google's asynchronous responsive unit format and keeps the slot separated from the game controls.
+The animal-covering wording correction also requires a D1 content update to
+affect the live game. Merging a frontend deployment alone does not seed D1.
 
 ### D1 migration and puzzle seed
 
