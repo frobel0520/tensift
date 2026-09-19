@@ -1,9 +1,10 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
 import type { AuthoringPuzzleRecord } from '../../src/domain/puzzle/authoring';
 
-const projectRoot = new URL('../../', import.meta.url).pathname;
+const projectRoot = fileURLToPath(new URL('../../', import.meta.url));
 const puzzleRoot = join(projectRoot, 'content', 'puzzles', 'en');
 const ledgerRoot = join(projectRoot, 'content', 'playtest');
 

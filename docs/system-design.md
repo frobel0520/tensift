@@ -487,3 +487,52 @@ The following are implementation assumptions from SA and remain explicit review 
 5. Keep text/emoji-first content until visual asset rights and pipeline are approved.
 
 If any gate changes, update the relevant ADR and this document before starting the dependent task.
+
+## 15. CR-11: publisher-content remediation (2026-09-19)
+
+User authorized implementation after reviewing the AdSense diagnosis. Tracked by
+[Issue #11](https://github.com/frobel0520/tensift/issues/11). Approval covers the
+code/content changes; it does not record Google acceptance or a production merge.
+
+### Scope and design
+
+Extension of the existing paper interface: preserve the wordmark, favicon,
+Trebuchet/Segoe typography, paper `#f3f0e8`, ink `#17211d`, warm accent `#ad3c26`,
+15px card radius, 8px spacing rhythm and keyboard focus treatment. Editorial
+pages use a 760px text column within a 960px shell, readable on phone and desktop,
+with no added animation. Design dials: variance 2, motion 1, density 5, asset
+dependence 1, brand fidelity 10. No new identity, decorative imagery or Tweaks UI.
+
+The new journey is game → guide/archive → full explanation → game. All editorial
+content is present in the first HTML response. The gameplay root also has a
+meaningful pre-JavaScript introduction and links. Locale links back to the game
+use a validated `lang` query parameter; saved preferences remain the fallback.
+
+### Contract change and risks
+
+Today's and future answers remain private to the server. An explicitly curated
+past record can now be published as an HTML article after its UTC play date.
+This is an intentional historical-content exception to ADR-0001's original
+reveal-only boundary, not an exemption in the browser bundle scanner. The server
+catalog imports only selected records and checks dates on every request. Unknown
+slugs/locales return an actual 404; unavailable answers are absent from sitemap
+and archive. No D1 schema, gameplay API, placement IDs or Harbor changes.
+
+No article claims a completed independent blind test. Historical categories have
+explicit convention notes. The animal-covering correction clarifies overlap and
+preserves placements; it needs a separate D1 content update. AdSense approval and
+blind-playtest quality remain external/unscored, not implied by green builds.
+Re-enabling ads needs a placement and privacy/consent implementation review.
+
+### Task contracts and evidence
+
+| Task | Goal / primary artifact | Input / dependency | Out of scope | Acceptance / fixtures / evidence |
+|---|---|---|---|---|
+| ADS-11A | Localized editorial routes, `server/editorial/` | Existing 3 historical families, existing locale contract; none | Automatic bulk archive, today's answers | Full HTML, working navigation, actual 404, UTC cutoff; 2026-08-30 boundary fixtures in `tests/contract/editorial.test.ts` |
+| ADS-11B | Game-to-content navigation, `src/ui/site-navigation.tsx` | ADS-11A routes | Game rules, theme redesign | Three locales, loading/error pages have navigation; local Pages check |
+| ADS-11C | Correct animal-covering authoring record | Existing item/group IDs; none | Claiming exclusive scientific categories or blind pass | 150-record validator and unchanged placements; local D1 reveal check |
+| ADS-11D | Release-ready PR | ADS-11A/B/C | Automatic AdSense review, unapproved merge | Unit/contract tests, typecheck, build, unchanged answer-leak scan, Pages Function compilation and smoke; PR CI and `docs/deploy-readiness.md` |
+
+Rollback uses the previous deployment/commit; no schema migration is introduced.
+Restoring an old ad-bearing deployment also restores its ad behavior, so prefer
+keeping the gameplay ad removal when repairing unrelated editorial issues.

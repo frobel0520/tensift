@@ -28,7 +28,7 @@ import {
 } from './domain/game/state';
 import { loadSession, saveSession } from './domain/game/session';
 import { getMessages, type UiMessages } from './i18n/messages';
-import { TopAdBanner } from './ui/adsense';
+import { SiteNavigation } from './ui/site-navigation';
 import {
   isThemeMode,
   persistTheme,
@@ -233,7 +233,6 @@ export function App() {
 
   return (
     <main className="app-shell">
-      <TopAdBanner copy={copy} />
       <header className="masthead">
         <div className="brand-lockup">
           <p className="eyebrow">{copy.eyebrow}</p>
@@ -276,6 +275,7 @@ export function App() {
           </label>
         </div>
       </header>
+      <SiteNavigation locale={locale} />
 
       {showLoading && (
         <section className="loading-panel" aria-live="polite" aria-busy="true">
@@ -777,6 +777,10 @@ function createClientSessionId(): string {
 }
 
 function getInitialLocale(): Locale {
+  const requested = new URLSearchParams(window.location.search).get('lang');
+  if (requested && isLocale(requested)) {
+    return requested;
+  }
   try {
     const stored = window.localStorage.getItem(LOCALE_STORAGE_KEY);
     if (stored && isLocale(stored)) {
