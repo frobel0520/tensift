@@ -41,28 +41,23 @@ jobs:
 
       - name: Build Pages artifact
         run: npm run build
-        env:
-          VITE_ADSENSE_CLIENT_ID: ${{ vars.VITE_ADSENSE_CLIENT_ID }}
-          VITE_ADSENSE_TOP_SLOT: ${{ vars.VITE_ADSENSE_TOP_SLOT }}
 
       - name: Scan public bundle for answer leakage
         run: npm run scan:bundle
 
-      # Deploying with an incomplete configuration is worse than not deploying.
-      # A missing Cloudflare credential only fails the run, but a missing
-      # AdSense identifier would publish a build with the live ad slot silently
-      # switched off. Verify everything, then deploy only when all four values
-      # are present.
+      - name: Compile Pages Functions
+        run: npm run build:functions
+
+      # Ads are deliberately disabled during the publisher-content remediation.
+      # Deployment needs Cloudflare credentials, not ad-unit configuration.
       - name: Check deployment configuration
         id: config
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          VITE_ADSENSE_CLIENT_ID: ${{ vars.VITE_ADSENSE_CLIENT_ID }}
-          VITE_ADSENSE_TOP_SLOT: ${{ vars.VITE_ADSENSE_TOP_SLOT }}
         run: |
           missing=""
-          for name in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID VITE_ADSENSE_CLIENT_ID VITE_ADSENSE_TOP_SLOT; do
+          for name in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID; do
             if [ -z "${!name}" ]; then
               missing="$missing $name"
             fi
@@ -73,7 +68,7 @@ jobs:
             {
               echo "### Deployment skipped"
               echo
-              echo "Every verification gate passed, but the deployment step needs all four values."
+              echo "Every verification gate passed, but deployment needs both Cloudflare credentials."
               echo "Not configured:"
               for name in $missing; do
                 echo "- \`$name\`"

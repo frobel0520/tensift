@@ -141,6 +141,24 @@ button {
   padding: clamp(28px, 6vw, 72px) 0 64px;
 }
 
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  margin: 0 0 28px;
+  padding: 14px 0;
+  border-block: 1px solid var(--line);
+  font-size: 0.9rem;
+}
+
+.site-navigation a {
+  color: var(--ink);
+  padding: 8px 0;
+  text-underline-offset: 4px;
+}
+
+.site-navigation a:hover { color: var(--accent-dark); }
+
 .ad-slot {
   width: min(100%, 970px);
   min-height: 90px;
