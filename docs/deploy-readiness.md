@@ -1,6 +1,6 @@
 # Tensift deploy-readiness checklist
 
-Status: deployed to production; the first daily release is live, with monetization approval remaining
+Status: deployed to production; publisher-content remediation (CR-11) is live, ad serving is disabled and AdSense re-review has not been requested
 Target: Cloudflare Pages project `tensift` → `https://tensift.pages.dev`
 
 ## Services and accounts
@@ -13,7 +13,7 @@ Target: Cloudflare Pages project `tensift` → `https://tensift.pages.dev`
 | Custom domain / registrar | No | Not needed | `tensift.pages.dev` avoids domain purchase and keeps Cloudflare out of the player-facing name |
 | Analytics | No for v1 | Not connected | Add only after a privacy decision and a consent/retention review |
 | Error monitoring | No for v1 | Not connected | Optional follow-up; do not add a client secret to the bundle |
-| Google AdSense | Optional revenue | Production slot and `ads.txt` are configured; site/account review is pending | Complete Google approval and privacy/consent review; re-inject public Vite IDs for each future Direct Upload build |
+| Google AdSense | Optional revenue | Ownership meta tag and `ads.txt` are live; ad serving is disabled and the ad component was removed | Request re-review only after the D1 content correction; re-enabling ads needs a placement and privacy/consent review first |
 
 No paid custom domain is required for the chosen URL. Cloudflare Pages and D1 are still the hosting/data services behind it; their free-plan limits and current pricing should be checked in the Cloudflare dashboard before launch.
 
@@ -128,3 +128,8 @@ Release steps after PR review: merge via the normal workflow, verify deployed
 and the game; apply the three animal-covering content corrections to D1 through
 the reviewed content-update workflow; then request AdSense re-review in the
 account. Do not restore the gameplay ad slot merely to submit a review.
+
+Production verification after the PR #12 deploy (2026-09-19, commit `7285c60`):
+`npm run smoke:editorial -- https://tensift.pages.dev` and `npm run smoke:production`
+passed; `/ads.txt` and `/robots.txt` return 200. The D1 correction and AdSense
+re-review are still outstanding.

@@ -153,10 +153,11 @@ A blind pass needs at least two testers recorded in `blindPlaytest.testers`.
 
 ## Publisher content and AdSense
 
-Ad serving is disabled on gameplay and editorial pages, even if previous
-`VITE_ADSENSE_*` variables remain configured. The game no longer mounts the ad
-component. Ownership metadata and the existing `/ads.txt` Function remain;
-keep the `ADSENSE_PUBLISHER_ID` Function variable for verification.
+Ad serving is disabled on gameplay and editorial pages. The ad component, its
+`VITE_ADSENSE_*` build variables and the ad-network CSP allowances have been
+removed; any leftover `VITE_ADSENSE_*` values are ignored. Ownership metadata
+and the existing `/ads.txt` Function remain; keep the `ADSENSE_PUBLISHER_ID`
+Function variable for verification.
 
 `/learn/{locale}/how-to-play`, `/archive`, `/about`, and `/privacy` are complete
 server-rendered HTML pages for `en`, `zh-Hans`, and `es-419`. Selected historical
