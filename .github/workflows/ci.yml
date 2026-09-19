@@ -47,3 +47,6 @@ jobs:
 
       - name: Scan public bundle for answer leakage
         run: npm run scan:bundle
+
+      - name: Compile Pages Functions
+        run: npm run build:functions

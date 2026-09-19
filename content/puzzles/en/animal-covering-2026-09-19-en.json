@@ -34,9 +34,10 @@
     ]
   },
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
-  "explanation": "Each group contains animals with the same familiar outer covering: 1 feathered animal, 2 furry animals, 3 scaled animals, and 4 shelled animals.",
+  "explanation": "Group by the most conspicuous covering in everyday observation: 1 feathered animal, 2 furry animals, 3 scaled animals, and 4 shelled animals. Shells here includes a turtle's shell and mollusk shells, not identical biological structures. Turtles also have scales; this puzzle prioritizes the conspicuous shell rather than claiming mutually exclusive scientific categories.",
   "sources": [
-    {"title": "Encyclopaedia Britannica: Animal", "url": "https://www.britannica.com/animal", "retrievedAt": "2026-08-29"}
+    {"title": "Encyclopaedia Britannica: Animal", "url": "https://www.britannica.com/animal", "retrievedAt": "2026-08-29"},
+    {"title": "Smithsonian Ocean: Sea turtles and their shells", "url": "https://ocean.si.edu/ocean-life/reptiles/sea-turtles", "retrievedAt": "2026-09-19"}
   ],
   "difficulty": {"band": "easy", "score": 0.29},
   "status": "scheduled"

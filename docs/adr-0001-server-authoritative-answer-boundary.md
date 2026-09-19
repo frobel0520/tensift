@@ -28,3 +28,11 @@ Store complete locale puzzle records in a private Cloudflare D1 binding. A Worke
 
 Before implementation, confirm that casual anti-leak protection is worth the D1/Worker complexity. If static-only hosting is selected, update the product promise and release gate explicitly.
 
+## 2026-09-19 historical publishing amendment (CR-11)
+
+The authorized publisher-content work adds selected historical explanations.
+Their full records remain server-only and may be rendered as public HTML only
+after the record's UTC play date. Today's and future answers still require the
+existing gameplay actions. This changes the historic reveal-only publication
+rule; it does not allow puzzle records in browser JavaScript or relax the bundle
+scanner. See system-design.md section 15 and Issue #11 for scope and checks.
