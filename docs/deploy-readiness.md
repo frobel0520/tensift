@@ -13,7 +13,7 @@ Target: Cloudflare Pages project `tensift` → `https://tensift.pages.dev`
 | Custom domain / registrar | No | Not needed | `tensift.pages.dev` avoids domain purchase and keeps Cloudflare out of the player-facing name |
 | Analytics | No for v1 | Not connected | Add only after a privacy decision and a consent/retention review |
 | Error monitoring | No for v1 | Not connected | Optional follow-up; do not add a client secret to the bundle |
-| Google AdSense | Optional revenue | Ownership meta tag and `ads.txt` are live; ad serving is disabled and the ad component was removed | Request re-review only after the D1 content correction; re-enabling ads needs a placement and privacy/consent review first |
+| Google AdSense | Optional revenue | Ownership meta tag and `ads.txt` are live; ad serving is disabled and the ad component was removed | Request re-review in the AdSense account; re-enabling ads needs a placement and privacy/consent review first |
 
 No paid custom domain is required for the chosen URL. Cloudflare Pages and D1 are still the hosting/data services behind it; their free-plan limits and current pricing should be checked in the Cloudflare dashboard before launch.
 
@@ -131,5 +131,8 @@ account. Do not restore the gameplay ad slot merely to submit a review.
 
 Production verification after the PR #12 deploy (2026-09-19, commit `7285c60`):
 `npm run smoke:editorial -- https://tensift.pages.dev` and `npm run smoke:production`
-passed; `/ads.txt` and `/robots.txt` return 200. The D1 correction and AdSense
-re-review are still outstanding.
+passed; `/ads.txt` and `/robots.txt` return 200. PR #13 (dead ad code and CSP
+ad-network allowances removed) is deployed as `12a074a`. The three animal-covering
+corrections were seeded to remote D1 on 2026-09-19 (Seed run 35436127944) and
+the production reveal returns the corrected text in all three locales. AdSense
+re-review has not been requested yet.
