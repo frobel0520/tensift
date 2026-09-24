@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "file-types-2026-10-19-en",
+  "puzzleFamilyId": "file-types-001",
+  "locale": "en",
+  "publishDate": "2026-10-19",
+  "timezone": "UTC",
+  "theme": "Files on a Computer",
+  "items": [
+    {
+      "itemId": "file-types-1",
+      "label": "PDF"
+    },
+    {
+      "itemId": "file-types-2",
+      "label": "MP4"
+    },
+    {
+      "itemId": "file-types-3",
+      "label": "MOV"
+    },
+    {
+      "itemId": "file-types-4",
+      "label": "MP3"
+    },
+    {
+      "itemId": "file-types-5",
+      "label": "WAV"
+    },
+    {
+      "itemId": "file-types-6",
+      "label": "FLAC"
+    },
+    {
+      "itemId": "file-types-7",
+      "label": "JPEG"
+    },
+    {
+      "itemId": "file-types-8",
+      "label": "PNG"
+    },
+    {
+      "itemId": "file-types-9",
+      "label": "GIF"
+    },
+    {
+      "itemId": "file-types-10",
+      "label": "SVG"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The kind of content usually stored in the file",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Document",
+        "capacity": 1,
+        "itemIds": [
+          "file-types-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Video",
+        "capacity": 2,
+        "itemIds": [
+          "file-types-2",
+          "file-types-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Audio",
+        "capacity": 3,
+        "itemIds": [
+          "file-types-4",
+          "file-types-5",
+          "file-types-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Image",
+        "capacity": 4,
+        "itemIds": [
+          "file-types-7",
+          "file-types-8",
+          "file-types-9",
+          "file-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "PDF is a document format; MP4 and MOV commonly store video; MP3, WAV, and FLAC store audio; JPEG, PNG, GIF, and SVG are image formats.",
+  "sources": [
+    {
+      "title": "MDN: Common media types",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types/Common_types",
+      "retrievedAt": "2026-09-24"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

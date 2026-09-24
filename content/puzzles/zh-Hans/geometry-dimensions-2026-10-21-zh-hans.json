@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "geometry-dimensions-2026-10-21-zh-hans",
+  "puzzleFamilyId": "geometry-dimensions-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-21",
+  "timezone": "UTC",
+  "theme": "几何中的维度",
+  "items": [
+    {
+      "itemId": "geometry-dimensions-1",
+      "label": "点"
+    },
+    {
+      "itemId": "geometry-dimensions-2",
+      "label": "线段"
+    },
+    {
+      "itemId": "geometry-dimensions-3",
+      "label": "射线"
+    },
+    {
+      "itemId": "geometry-dimensions-4",
+      "label": "三角形"
+    },
+    {
+      "itemId": "geometry-dimensions-5",
+      "label": "圆形"
+    },
+    {
+      "itemId": "geometry-dimensions-6",
+      "label": "正方形"
+    },
+    {
+      "itemId": "geometry-dimensions-7",
+      "label": "立方体"
+    },
+    {
+      "itemId": "geometry-dimensions-8",
+      "label": "球体"
+    },
+    {
+      "itemId": "geometry-dimensions-9",
+      "label": "圆锥"
+    },
+    {
+      "itemId": "geometry-dimensions-10",
+      "label": "圆柱"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "每种几何对象的维度数",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "零维",
+        "capacity": 1,
+        "itemIds": [
+          "geometry-dimensions-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "一维",
+        "capacity": 2,
+        "itemIds": [
+          "geometry-dimensions-2",
+          "geometry-dimensions-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "二维",
+        "capacity": 3,
+        "itemIds": [
+          "geometry-dimensions-4",
+          "geometry-dimensions-5",
+          "geometry-dimensions-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "三维",
+        "capacity": 4,
+        "itemIds": [
+          "geometry-dimensions-7",
+          "geometry-dimensions-8",
+          "geometry-dimensions-9",
+          "geometry-dimensions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "点没有长度；线段和射线沿一个方向延伸；三角形、圆形和正方形是平面图形；立方体、球体、圆锥和圆柱是立体图形。",
+  "sources": [
+    {
+      "title": "Wolfram MathWorld: Dimension",
+      "url": "https://mathworld.wolfram.com/Dimension.html",
+      "retrievedAt": "2026-09-24"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

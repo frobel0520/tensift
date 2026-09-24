@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "power-sources-001",
+  "theme": "What Powers It",
+  "publishDate": "2026-10-20",
+  "authorReview": {
+    "reviewedAt": "2026-09-24",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "power-sources-2",
+        "rivalGroupId": "g4",
+        "risk": "A gasoline car also has an electrical battery.",
+        "resolution": "Its engine primarily uses gasoline for propulsion; the label specifies gasoline."
+      },
+      {
+        "itemId": "power-sources-10",
+        "rivalGroupId": "g3",
+        "risk": "Some desk fans can run on batteries.",
+        "resolution": "The label explicitly specifies a plug-in desk fan."
+      }
+    ],
+    "notes": "Initial author review; check the localized wording and group boundaries in blind playtesting."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Recruit fresh players in all three locales before release; revise any split classifications."
+  }
+}

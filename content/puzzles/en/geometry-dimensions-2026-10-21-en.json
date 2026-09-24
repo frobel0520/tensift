@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "geometry-dimensions-2026-10-21-en",
+  "puzzleFamilyId": "geometry-dimensions-001",
+  "locale": "en",
+  "publishDate": "2026-10-21",
+  "timezone": "UTC",
+  "theme": "Geometry in Dimensions",
+  "items": [
+    {
+      "itemId": "geometry-dimensions-1",
+      "label": "Point"
+    },
+    {
+      "itemId": "geometry-dimensions-2",
+      "label": "Line segment"
+    },
+    {
+      "itemId": "geometry-dimensions-3",
+      "label": "Ray"
+    },
+    {
+      "itemId": "geometry-dimensions-4",
+      "label": "Triangle"
+    },
+    {
+      "itemId": "geometry-dimensions-5",
+      "label": "Circle"
+    },
+    {
+      "itemId": "geometry-dimensions-6",
+      "label": "Square"
+    },
+    {
+      "itemId": "geometry-dimensions-7",
+      "label": "Cube"
+    },
+    {
+      "itemId": "geometry-dimensions-8",
+      "label": "Sphere"
+    },
+    {
+      "itemId": "geometry-dimensions-9",
+      "label": "Cone"
+    },
+    {
+      "itemId": "geometry-dimensions-10",
+      "label": "Cylinder"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The number of dimensions of each geometric object",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Zero-dimensional",
+        "capacity": 1,
+        "itemIds": [
+          "geometry-dimensions-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "One-dimensional",
+        "capacity": 2,
+        "itemIds": [
+          "geometry-dimensions-2",
+          "geometry-dimensions-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Two-dimensional",
+        "capacity": 3,
+        "itemIds": [
+          "geometry-dimensions-4",
+          "geometry-dimensions-5",
+          "geometry-dimensions-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Three-dimensional",
+        "capacity": 4,
+        "itemIds": [
+          "geometry-dimensions-7",
+          "geometry-dimensions-8",
+          "geometry-dimensions-9",
+          "geometry-dimensions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "A point has no extent; a segment and ray extend along one direction; triangle, circle, and square are plane figures; cube, sphere, cone, and cylinder are solid figures.",
+  "sources": [
+    {
+      "title": "Wolfram MathWorld: Dimension",
+      "url": "https://mathworld.wolfram.com/Dimension.html",
+      "retrievedAt": "2026-09-24"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

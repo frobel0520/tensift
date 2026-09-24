@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "file-types-2026-10-19-zh-hans",
+  "puzzleFamilyId": "file-types-001",
+  "locale": "zh-Hans",
+  "publishDate": "2026-10-19",
+  "timezone": "UTC",
+  "theme": "电脑文件",
+  "items": [
+    {
+      "itemId": "file-types-1",
+      "label": "PDF"
+    },
+    {
+      "itemId": "file-types-2",
+      "label": "MP4"
+    },
+    {
+      "itemId": "file-types-3",
+      "label": "MOV"
+    },
+    {
+      "itemId": "file-types-4",
+      "label": "MP3"
+    },
+    {
+      "itemId": "file-types-5",
+      "label": "WAV"
+    },
+    {
+      "itemId": "file-types-6",
+      "label": "FLAC"
+    },
+    {
+      "itemId": "file-types-7",
+      "label": "JPEG"
+    },
+    {
+      "itemId": "file-types-8",
+      "label": "PNG"
+    },
+    {
+      "itemId": "file-types-9",
+      "label": "GIF"
+    },
+    {
+      "itemId": "file-types-10",
+      "label": "SVG"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "文件通常存储的内容类型",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "文档",
+        "capacity": 1,
+        "itemIds": [
+          "file-types-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "视频",
+        "capacity": 2,
+        "itemIds": [
+          "file-types-2",
+          "file-types-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "音频",
+        "capacity": 3,
+        "itemIds": [
+          "file-types-4",
+          "file-types-5",
+          "file-types-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "图像",
+        "capacity": 4,
+        "itemIds": [
+          "file-types-7",
+          "file-types-8",
+          "file-types-9",
+          "file-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "PDF 是文档格式；MP4 和 MOV 通常存储视频；MP3、WAV 和 FLAC 存储音频；JPEG、PNG、GIF 和 SVG 是图像格式。",
+  "sources": [
+    {
+      "title": "MDN: Common media types",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types/Common_types",
+      "retrievedAt": "2026-09-24"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}
