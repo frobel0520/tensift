@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "file-types-001",
+  "theme": "Files on a Computer",
+  "publishDate": "2026-10-19",
+  "authorReview": {
+    "reviewedAt": "2026-09-24",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "file-types-2",
+        "rivalGroupId": "g3",
+        "risk": "MP4 containers can also hold audio-only tracks.",
+        "resolution": "The rule uses the ordinary primary use of the named file format; an MP4 movie is the intended reading."
+      },
+      {
+        "itemId": "file-types-9",
+        "rivalGroupId": "g2",
+        "risk": "GIF can contain animation and look like a short video.",
+        "resolution": "GIF has an image media type, even when it contains multiple frames."
+      }
+    ],
+    "notes": "Initial author review; check the localized wording and group boundaries in blind playtesting."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Recruit fresh players in all three locales before release; revise any split classifications."
+  }
+}

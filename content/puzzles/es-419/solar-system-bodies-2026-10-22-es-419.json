@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "solar-system-bodies-2026-10-22-es-419",
+  "puzzleFamilyId": "solar-system-bodies-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-22",
+  "timezone": "UTC",
+  "theme": "Nuestro sistema solar",
+  "items": [
+    {
+      "itemId": "solar-system-bodies-1",
+      "label": "Sol"
+    },
+    {
+      "itemId": "solar-system-bodies-2",
+      "label": "Luna"
+    },
+    {
+      "itemId": "solar-system-bodies-3",
+      "label": "Europa"
+    },
+    {
+      "itemId": "solar-system-bodies-4",
+      "label": "Plutón"
+    },
+    {
+      "itemId": "solar-system-bodies-5",
+      "label": "Ceres"
+    },
+    {
+      "itemId": "solar-system-bodies-6",
+      "label": "Eris"
+    },
+    {
+      "itemId": "solar-system-bodies-7",
+      "label": "Tierra"
+    },
+    {
+      "itemId": "solar-system-bodies-8",
+      "label": "Marte"
+    },
+    {
+      "itemId": "solar-system-bodies-9",
+      "label": "Venus"
+    },
+    {
+      "itemId": "solar-system-bodies-10",
+      "label": "Júpiter"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "La categoría astronómica de cada cuerpo",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Estrella",
+        "capacity": 1,
+        "itemIds": [
+          "solar-system-bodies-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Satélites naturales",
+        "capacity": 2,
+        "itemIds": [
+          "solar-system-bodies-2",
+          "solar-system-bodies-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Planetas enanos",
+        "capacity": 3,
+        "itemIds": [
+          "solar-system-bodies-4",
+          "solar-system-bodies-5",
+          "solar-system-bodies-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Planetas",
+        "capacity": 4,
+        "itemIds": [
+          "solar-system-bodies-7",
+          "solar-system-bodies-8",
+          "solar-system-bodies-9",
+          "solar-system-bodies-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "El Sol es una estrella; la Luna y Europa son satélites naturales; Plutón, Ceres y Eris son planetas enanos; Tierra, Marte, Venus y Júpiter son planetas.",
+  "sources": [
+    {
+      "title": "NASA: Pluto and Dwarf Planets",
+      "url": "https://science.nasa.gov/dwarf-planets/",
+      "retrievedAt": "2026-09-24"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.6
+  },
+  "status": "scheduled"
+}

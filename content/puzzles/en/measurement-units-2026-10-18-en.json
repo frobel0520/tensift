@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "measurement-units-2026-10-18-en",
+  "puzzleFamilyId": "measurement-units-001",
+  "locale": "en",
+  "publishDate": "2026-10-18",
+  "timezone": "UTC",
+  "theme": "What We Measure",
+  "items": [
+    {
+      "itemId": "measurement-units-1",
+      "label": "Degree Celsius"
+    },
+    {
+      "itemId": "measurement-units-2",
+      "label": "Gram"
+    },
+    {
+      "itemId": "measurement-units-3",
+      "label": "Kilogram"
+    },
+    {
+      "itemId": "measurement-units-4",
+      "label": "Centimeter"
+    },
+    {
+      "itemId": "measurement-units-5",
+      "label": "Meter"
+    },
+    {
+      "itemId": "measurement-units-6",
+      "label": "Kilometer"
+    },
+    {
+      "itemId": "measurement-units-7",
+      "label": "Second"
+    },
+    {
+      "itemId": "measurement-units-8",
+      "label": "Minute"
+    },
+    {
+      "itemId": "measurement-units-9",
+      "label": "Hour"
+    },
+    {
+      "itemId": "measurement-units-10",
+      "label": "Day"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The quantity each unit measures",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Temperature",
+        "capacity": 1,
+        "itemIds": [
+          "measurement-units-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Mass",
+        "capacity": 2,
+        "itemIds": [
+          "measurement-units-2",
+          "measurement-units-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Length",
+        "capacity": 3,
+        "itemIds": [
+          "measurement-units-4",
+          "measurement-units-5",
+          "measurement-units-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Time",
+        "capacity": 4,
+        "itemIds": [
+          "measurement-units-7",
+          "measurement-units-8",
+          "measurement-units-9",
+          "measurement-units-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "A degree Celsius measures temperature; grams and kilograms measure mass; centimeters, meters, and kilometers measure length; seconds, minutes, hours, and days measure time.",
+  "sources": [
+    {
+      "title": "NIST: What About Metric?",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/CIS/nbscis7.pdf",
+      "retrievedAt": "2026-09-24"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

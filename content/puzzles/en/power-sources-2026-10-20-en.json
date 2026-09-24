@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "power-sources-2026-10-20-en",
+  "puzzleFamilyId": "power-sources-001",
+  "locale": "en",
+  "publishDate": "2026-10-20",
+  "timezone": "UTC",
+  "theme": "What Powers It",
+  "items": [
+    {
+      "itemId": "power-sources-1",
+      "label": "Pedal bicycle"
+    },
+    {
+      "itemId": "power-sources-2",
+      "label": "Gasoline car"
+    },
+    {
+      "itemId": "power-sources-3",
+      "label": "Gas stove"
+    },
+    {
+      "itemId": "power-sources-4",
+      "label": "Battery flashlight"
+    },
+    {
+      "itemId": "power-sources-5",
+      "label": "Battery remote control"
+    },
+    {
+      "itemId": "power-sources-6",
+      "label": "Battery wristwatch"
+    },
+    {
+      "itemId": "power-sources-7",
+      "label": "Plug-in refrigerator"
+    },
+    {
+      "itemId": "power-sources-8",
+      "label": "Plug-in microwave oven"
+    },
+    {
+      "itemId": "power-sources-9",
+      "label": "Plug-in washing machine"
+    },
+    {
+      "itemId": "power-sources-10",
+      "label": "Plug-in desk fan"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The main source of power in the named version",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Human effort",
+        "capacity": 1,
+        "itemIds": [
+          "power-sources-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Burned fuel",
+        "capacity": 2,
+        "itemIds": [
+          "power-sources-2",
+          "power-sources-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Battery",
+        "capacity": 3,
+        "itemIds": [
+          "power-sources-4",
+          "power-sources-5",
+          "power-sources-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Wall outlet",
+        "capacity": 4,
+        "itemIds": [
+          "power-sources-7",
+          "power-sources-8",
+          "power-sources-9",
+          "power-sources-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "A pedal bicycle is human-powered; the named car and stove burn fuel; the flashlight, remote, and watch use batteries; the four named appliances draw power from an outlet.",
+  "sources": [
+    {
+      "title": "U.S. DOE: How Do Gasoline Cars Work?",
+      "url": "https://afdc.energy.gov/vehicles/how-do-gasoline-cars-work",
+      "retrievedAt": "2026-09-24"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

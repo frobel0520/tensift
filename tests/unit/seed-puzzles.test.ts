@@ -10,12 +10,12 @@ const instrumentsRecord = instrumentsPuzzle as AuthoringPuzzleRecord;
 const generatedAt = '2026-08-29T00:00:00.000Z';
 
 describe('D1 puzzle seed generator', () => {
-  it('loads and validates the complete fifty-day content batch', async () => {
+  it('loads and validates the complete fifty-five-day content batch', async () => {
     const records = await loadAuthoringPuzzles();
 
-    expect(records).toHaveLength(150);
-    expect(new Set(records.map((record) => record.puzzleId)).size).toBe(150);
-    expect(new Set(records.map((record) => record.puzzleFamilyId)).size).toBe(50);
+    expect(records).toHaveLength(165);
+    expect(new Set(records.map((record) => record.puzzleId)).size).toBe(165);
+    expect(new Set(records.map((record) => record.puzzleFamilyId)).size).toBe(55);
     expect(new Set(records.map((record) => record.locale))).toEqual(new Set(['en', 'es-419', 'zh-Hans']));
     expect(records.some((record) => record.puzzleFamilyId === 'home-room-001')).toBe(true);
     expect(records.some((record) => record.puzzleFamilyId === 'fruit-color-001')).toBe(true);
@@ -24,6 +24,7 @@ describe('D1 puzzle seed generator', () => {
     expect(records.some((record) => record.puzzleFamilyId === 'animal-movement-001')).toBe(true);
     expect(records.some((record) => record.puzzleFamilyId === 'shape-sides-001')).toBe(true);
     expect(records.some((record) => record.puzzleFamilyId === 'light-source-001')).toBe(true);
+    expect(records.some((record) => record.puzzleFamilyId === 'solar-system-bodies-001')).toBe(true);
     expect(records.some((record) => record.puzzleFamilyId === 'space-objects-001')).toBe(false);
 
     const languageItemIds = new Set(

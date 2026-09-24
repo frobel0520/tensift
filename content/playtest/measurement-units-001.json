@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "measurement-units-001",
+  "theme": "What We Measure",
+  "publishDate": "2026-10-18",
+  "authorReview": {
+    "reviewedAt": "2026-09-24",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "measurement-units-1",
+        "rivalGroupId": "g4",
+        "risk": "A degree is also used for angles.",
+        "resolution": "The item explicitly says degree Celsius, which is a temperature unit."
+      },
+      {
+        "itemId": "measurement-units-3",
+        "rivalGroupId": "g3",
+        "risk": "Kilogram can be confused with a unit of weight.",
+        "resolution": "The SI classifies kilogram as a unit of mass."
+      }
+    ],
+    "notes": "Initial author review; check the localized wording and group boundaries in blind playtesting."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Recruit fresh players in all three locales before release; revise any split classifications."
+  }
+}
