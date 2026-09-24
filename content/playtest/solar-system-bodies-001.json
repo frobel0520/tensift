@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "solar-system-bodies-001",
+  "theme": "Our Solar System",
+  "publishDate": "2026-10-22",
+  "authorReview": {
+    "reviewedAt": "2026-09-24",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "solar-system-bodies-4",
+        "rivalGroupId": "g4",
+        "risk": "Pluto was formerly counted as the ninth planet.",
+        "resolution": "NASA and the IAU now classify Pluto as a dwarf planet."
+      },
+      {
+        "itemId": "solar-system-bodies-3",
+        "rivalGroupId": "g4",
+        "risk": "Europa may be mistaken for a planet because it has a proper name.",
+        "resolution": "Europa orbits Jupiter and is a natural satellite."
+      }
+    ],
+    "notes": "Initial author review; check the localized wording and group boundaries in blind playtesting."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Recruit fresh players in all three locales before release; revise any split classifications."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "geometry-dimensions-2026-10-21-es-419",
+  "puzzleFamilyId": "geometry-dimensions-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-21",
+  "timezone": "UTC",
+  "theme": "Dimensiones geométricas",
+  "items": [
+    {
+      "itemId": "geometry-dimensions-1",
+      "label": "Punto"
+    },
+    {
+      "itemId": "geometry-dimensions-2",
+      "label": "Segmento de recta"
+    },
+    {
+      "itemId": "geometry-dimensions-3",
+      "label": "Semirrecta"
+    },
+    {
+      "itemId": "geometry-dimensions-4",
+      "label": "Triángulo"
+    },
+    {
+      "itemId": "geometry-dimensions-5",
+      "label": "Círculo"
+    },
+    {
+      "itemId": "geometry-dimensions-6",
+      "label": "Cuadrado"
+    },
+    {
+      "itemId": "geometry-dimensions-7",
+      "label": "Cubo"
+    },
+    {
+      "itemId": "geometry-dimensions-8",
+      "label": "Esfera"
+    },
+    {
+      "itemId": "geometry-dimensions-9",
+      "label": "Cono"
+    },
+    {
+      "itemId": "geometry-dimensions-10",
+      "label": "Cilindro"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El número de dimensiones de cada objeto geométrico",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Cero dimensiones",
+        "capacity": 1,
+        "itemIds": [
+          "geometry-dimensions-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Una dimensión",
+        "capacity": 2,
+        "itemIds": [
+          "geometry-dimensions-2",
+          "geometry-dimensions-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Dos dimensiones",
+        "capacity": 3,
+        "itemIds": [
+          "geometry-dimensions-4",
+          "geometry-dimensions-5",
+          "geometry-dimensions-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Tres dimensiones",
+        "capacity": 4,
+        "itemIds": [
+          "geometry-dimensions-7",
+          "geometry-dimensions-8",
+          "geometry-dimensions-9",
+          "geometry-dimensions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Un punto no tiene extensión; el segmento y la semirrecta se extienden en una dirección; triángulo, círculo y cuadrado son figuras planas; cubo, esfera, cono y cilindro son sólidos.",
+  "sources": [
+    {
+      "title": "Wolfram MathWorld: Dimension",
+      "url": "https://mathworld.wolfram.com/Dimension.html",
+      "retrievedAt": "2026-09-24"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

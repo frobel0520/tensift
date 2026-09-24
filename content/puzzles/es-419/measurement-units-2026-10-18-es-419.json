@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "measurement-units-2026-10-18-es-419",
+  "puzzleFamilyId": "measurement-units-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-18",
+  "timezone": "UTC",
+  "theme": "Qué medimos",
+  "items": [
+    {
+      "itemId": "measurement-units-1",
+      "label": "Grado Celsius"
+    },
+    {
+      "itemId": "measurement-units-2",
+      "label": "Gramo"
+    },
+    {
+      "itemId": "measurement-units-3",
+      "label": "Kilogramo"
+    },
+    {
+      "itemId": "measurement-units-4",
+      "label": "Centímetro"
+    },
+    {
+      "itemId": "measurement-units-5",
+      "label": "Metro"
+    },
+    {
+      "itemId": "measurement-units-6",
+      "label": "Kilómetro"
+    },
+    {
+      "itemId": "measurement-units-7",
+      "label": "Segundo"
+    },
+    {
+      "itemId": "measurement-units-8",
+      "label": "Minuto"
+    },
+    {
+      "itemId": "measurement-units-9",
+      "label": "Hora"
+    },
+    {
+      "itemId": "measurement-units-10",
+      "label": "Día"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "La magnitud que mide cada unidad",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Temperatura",
+        "capacity": 1,
+        "itemIds": [
+          "measurement-units-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Masa",
+        "capacity": 2,
+        "itemIds": [
+          "measurement-units-2",
+          "measurement-units-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Longitud",
+        "capacity": 3,
+        "itemIds": [
+          "measurement-units-4",
+          "measurement-units-5",
+          "measurement-units-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Tiempo",
+        "capacity": 4,
+        "itemIds": [
+          "measurement-units-7",
+          "measurement-units-8",
+          "measurement-units-9",
+          "measurement-units-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "El grado Celsius mide temperatura; gramos y kilogramos miden masa; centímetros, metros y kilómetros miden longitud; segundos, minutos, horas y días miden tiempo.",
+  "sources": [
+    {
+      "title": "NIST: What About Metric?",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/CIS/nbscis7.pdf",
+      "retrievedAt": "2026-09-24"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "geometry-dimensions-001",
+  "theme": "Geometry in Dimensions",
+  "publishDate": "2026-10-21",
+  "authorReview": {
+    "reviewedAt": "2026-09-24",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "geometry-dimensions-5",
+        "rivalGroupId": "g4",
+        "risk": "A physical circular disk has thickness.",
+        "resolution": "The item names the ideal geometric circle, a plane figure."
+      },
+      {
+        "itemId": "geometry-dimensions-8",
+        "rivalGroupId": "g3",
+        "risk": "A sphere can be read as its two-dimensional surface in advanced geometry.",
+        "resolution": "The puzzle uses the elementary solid sphere, as signaled by the other three solid figures."
+      }
+    ],
+    "notes": "Initial author review; check the localized wording and group boundaries in blind playtesting."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Recruit fresh players in all three locales before release; revise any split classifications."
+  }
+}

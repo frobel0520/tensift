@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "power-sources-2026-10-20-es-419",
+  "puzzleFamilyId": "power-sources-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-20",
+  "timezone": "UTC",
+  "theme": "Qué lo alimenta",
+  "items": [
+    {
+      "itemId": "power-sources-1",
+      "label": "Bicicleta de pedales"
+    },
+    {
+      "itemId": "power-sources-2",
+      "label": "Auto de gasolina"
+    },
+    {
+      "itemId": "power-sources-3",
+      "label": "Estufa de gas"
+    },
+    {
+      "itemId": "power-sources-4",
+      "label": "Linterna de pilas"
+    },
+    {
+      "itemId": "power-sources-5",
+      "label": "Control remoto de pilas"
+    },
+    {
+      "itemId": "power-sources-6",
+      "label": "Reloj de pulsera a pila"
+    },
+    {
+      "itemId": "power-sources-7",
+      "label": "Refrigerador enchufado"
+    },
+    {
+      "itemId": "power-sources-8",
+      "label": "Microondas enchufado"
+    },
+    {
+      "itemId": "power-sources-9",
+      "label": "Lavadora enchufada"
+    },
+    {
+      "itemId": "power-sources-10",
+      "label": "Ventilador de mesa enchufado"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "La fuente principal de energía de la versión indicada",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Fuerza humana",
+        "capacity": 1,
+        "itemIds": [
+          "power-sources-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Combustible",
+        "capacity": 2,
+        "itemIds": [
+          "power-sources-2",
+          "power-sources-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Pila o batería",
+        "capacity": 3,
+        "itemIds": [
+          "power-sources-4",
+          "power-sources-5",
+          "power-sources-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Enchufe",
+        "capacity": 4,
+        "itemIds": [
+          "power-sources-7",
+          "power-sources-8",
+          "power-sources-9",
+          "power-sources-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "La bicicleta de pedales usa fuerza humana; el auto y la estufa queman combustible; la linterna, el control y el reloj usan pilas; los cuatro aparatos toman electricidad del enchufe.",
+  "sources": [
+    {
+      "title": "U.S. DOE: How Do Gasoline Cars Work?",
+      "url": "https://afdc.energy.gov/vehicles/how-do-gasoline-cars-work",
+      "retrievedAt": "2026-09-24"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

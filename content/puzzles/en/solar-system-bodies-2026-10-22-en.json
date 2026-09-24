@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "solar-system-bodies-2026-10-22-en",
+  "puzzleFamilyId": "solar-system-bodies-001",
+  "locale": "en",
+  "publishDate": "2026-10-22",
+  "timezone": "UTC",
+  "theme": "Our Solar System",
+  "items": [
+    {
+      "itemId": "solar-system-bodies-1",
+      "label": "Sun"
+    },
+    {
+      "itemId": "solar-system-bodies-2",
+      "label": "Moon"
+    },
+    {
+      "itemId": "solar-system-bodies-3",
+      "label": "Europa"
+    },
+    {
+      "itemId": "solar-system-bodies-4",
+      "label": "Pluto"
+    },
+    {
+      "itemId": "solar-system-bodies-5",
+      "label": "Ceres"
+    },
+    {
+      "itemId": "solar-system-bodies-6",
+      "label": "Eris"
+    },
+    {
+      "itemId": "solar-system-bodies-7",
+      "label": "Earth"
+    },
+    {
+      "itemId": "solar-system-bodies-8",
+      "label": "Mars"
+    },
+    {
+      "itemId": "solar-system-bodies-9",
+      "label": "Venus"
+    },
+    {
+      "itemId": "solar-system-bodies-10",
+      "label": "Jupiter"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Astronomical category of each named body",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Star",
+        "capacity": 1,
+        "itemIds": [
+          "solar-system-bodies-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Natural satellites",
+        "capacity": 2,
+        "itemIds": [
+          "solar-system-bodies-2",
+          "solar-system-bodies-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Dwarf planets",
+        "capacity": 3,
+        "itemIds": [
+          "solar-system-bodies-4",
+          "solar-system-bodies-5",
+          "solar-system-bodies-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Planets",
+        "capacity": 4,
+        "itemIds": [
+          "solar-system-bodies-7",
+          "solar-system-bodies-8",
+          "solar-system-bodies-9",
+          "solar-system-bodies-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "The Sun is a star; the Moon and Europa are natural satellites; Pluto, Ceres, and Eris are dwarf planets; Earth, Mars, Venus, and Jupiter are planets.",
+  "sources": [
+    {
+      "title": "NASA: Pluto and Dwarf Planets",
+      "url": "https://science.nasa.gov/dwarf-planets/",
+      "retrievedAt": "2026-09-24"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.6
+  },
+  "status": "scheduled"
+}
