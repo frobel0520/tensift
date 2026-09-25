@@ -14,6 +14,7 @@ describe('public editorial pages', () => {
     it(`serves readable, localized HTML and navigable links for ${locale}`, async () => {
       const navigation = renderToStaticMarkup(createElement(SiteNavigation, { locale }));
       expect(navigation).toContain(`/learn/${locale}/archive`);
+      expect(navigation).toContain('href="https://playmint.pages.dev/"');
       for (const slug of ['how-to-play', 'archive', 'about', 'privacy', 'archive/countries', 'archive/animals', 'archive/instruments']) {
         const path = `/learn/${locale}/${slug}`;
         const response = renderEditorial(request(path), now);
