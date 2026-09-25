@@ -2,7 +2,7 @@ import type { Locale } from '../api/contracts';
 
 const labels = {
   en: ['Explore Tensift', 'How to play', 'Past puzzles & explanations', 'About & contact', 'Privacy'],
-  'zh-Hans': ['探索 Tensift', '玩法指南', '往期谜题与解析', '关于与联系', '隐私说明'],
+  'zh-Hant': ['探索 Tensift', '玩法指南', '過往謎題與解析', '關於與聯絡', '隱私說明'],
   'es-419': ['Explora Tensift', 'Cómo jugar', 'Acertijos anteriores y explicaciones', 'Acerca de y contacto', 'Privacidad'],
 } as const;
 
@@ -11,7 +11,7 @@ export const MORE_GAMES_URL = 'https://playmint.pages.dev/';
 
 const moreGamesLabels = {
   en: 'More games',
-  'zh-Hans': '更多游戏',
+  'zh-Hant': '更多遊戲',
   'es-419': 'Más juegos',
 } as const;
 

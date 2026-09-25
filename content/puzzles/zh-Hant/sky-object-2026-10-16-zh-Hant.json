@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sky-object-2026-10-16-zh-hant",
+  "puzzleFamilyId": "sky-object-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-16",
+  "timezone": "UTC",
+  "theme": "天空中的東西",
+  "items": [
+    {
+      "itemId": "sky-sun",
+      "label": "太陽"
+    },
+    {
+      "itemId": "sky-cloud",
+      "label": "雲"
+    },
+    {
+      "itemId": "sky-rainbow",
+      "label": "彩虹"
+    },
+    {
+      "itemId": "sky-plane",
+      "label": "飛機"
+    },
+    {
+      "itemId": "sky-helicopter",
+      "label": "直升機"
+    },
+    {
+      "itemId": "sky-balloon",
+      "label": "熱氣球"
+    },
+    {
+      "itemId": "sky-sparrow",
+      "label": "麻雀"
+    },
+    {
+      "itemId": "sky-eagle",
+      "label": "老鷹"
+    },
+    {
+      "itemId": "sky-bat",
+      "label": "蝙蝠"
+    },
+    {
+      "itemId": "sky-dragonfly",
+      "label": "蜻蜓"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "它屬於哪一類東西",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "恆星",
+        "capacity": 1,
+        "itemIds": [
+          "sky-sun"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "由空中的水汽形成",
+        "capacity": 2,
+        "itemIds": [
+          "sky-cloud",
+          "sky-rainbow"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "人駕駛的飛行器",
+        "capacity": 3,
+        "itemIds": [
+          "sky-plane",
+          "sky-helicopter",
+          "sky-balloon"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "會飛的生物",
+        "capacity": 4,
+        "itemIds": [
+          "sky-sparrow",
+          "sky-eagle",
+          "sky-bat",
+          "sky-dragonfly"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每一組是同一類東西：1 個是恆星，2 個由空中的水汽形成，3 個是人駕駛的飛行器，4 個是會飛的生物。",
+  "sources": [
+    {
+      "title": "維基百科：天空",
+      "url": "https://en.wikipedia.org/wiki/Sky",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.33
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "global-brand-category-2026-09-26-zh-hant",
+  "puzzleFamilyId": "global-brand-category-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-09-26",
+  "timezone": "UTC",
+  "theme": "全球品牌",
+  "items": [
+    {"itemId": "brand-coca-cola", "label": "可口可樂"},
+    {"itemId": "brand-toyota", "label": "豐田"},
+    {"itemId": "brand-volkswagen", "label": "福斯"},
+    {"itemId": "brand-mcdonalds", "label": "麥當勞"},
+    {"itemId": "brand-kfc", "label": "肯德基"},
+    {"itemId": "brand-burger-king", "label": "漢堡王"},
+    {"itemId": "brand-nike", "label": "Nike"},
+    {"itemId": "brand-adidas", "label": "愛迪達"},
+    {"itemId": "brand-puma", "label": "PUMA"},
+    {"itemId": "brand-converse", "label": "Converse"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "行業",
+    "groups": [
+      {"groupId": "g1", "label": "汽水品牌", "capacity": 1, "itemIds": ["brand-coca-cola"]},
+      {"groupId": "g2", "label": "汽車品牌", "capacity": 2, "itemIds": ["brand-toyota", "brand-volkswagen"]},
+      {"groupId": "g3", "label": "速食連鎖", "capacity": 3, "itemIds": ["brand-mcdonalds", "brand-kfc", "brand-burger-king"]},
+      {"groupId": "g4", "label": "運動品牌", "capacity": 4, "itemIds": ["brand-nike", "brand-adidas", "brand-puma", "brand-converse"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每組品牌屬於同一行業：1 個汽水品牌、2 個汽車品牌、3 個速食連鎖和 4 個運動品牌。",
+  "sources": [
+    {"title": "大英百科全書：品牌", "url": "https://www.britannica.com/topic/brand", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.22},
+  "status": "scheduled"
+}

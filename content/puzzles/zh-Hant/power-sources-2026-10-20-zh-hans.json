@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "power-sources-2026-10-20-zh-hant",
+  "puzzleFamilyId": "power-sources-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-20",
+  "timezone": "UTC",
+  "theme": "動力從哪裡來",
+  "items": [
+    {
+      "itemId": "power-sources-1",
+      "label": "腳踏車"
+    },
+    {
+      "itemId": "power-sources-2",
+      "label": "汽油汽車"
+    },
+    {
+      "itemId": "power-sources-3",
+      "label": "瓦斯爐"
+    },
+    {
+      "itemId": "power-sources-4",
+      "label": "電池手電筒"
+    },
+    {
+      "itemId": "power-sources-5",
+      "label": "電池遙控器"
+    },
+    {
+      "itemId": "power-sources-6",
+      "label": "電池手錶"
+    },
+    {
+      "itemId": "power-sources-7",
+      "label": "插電冰箱"
+    },
+    {
+      "itemId": "power-sources-8",
+      "label": "插電微波爐"
+    },
+    {
+      "itemId": "power-sources-9",
+      "label": "插電洗衣機"
+    },
+    {
+      "itemId": "power-sources-10",
+      "label": "插電電風扇"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "所指版本的主要動力來源",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "人力",
+        "capacity": 1,
+        "itemIds": [
+          "power-sources-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "燃料",
+        "capacity": 2,
+        "itemIds": [
+          "power-sources-2",
+          "power-sources-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "電池",
+        "capacity": 3,
+        "itemIds": [
+          "power-sources-4",
+          "power-sources-5",
+          "power-sources-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "插座供電",
+        "capacity": 4,
+        "itemIds": [
+          "power-sources-7",
+          "power-sources-8",
+          "power-sources-9",
+          "power-sources-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "腳踏車靠人力；汽油車和瓦斯爐燃燒燃料；手電筒、遙控器和手錶使用電池；四種家電從插座取電。",
+  "sources": [
+    {
+      "title": "U.S. DOE: How Do Gasoline Cars Work?",
+      "url": "https://afdc.energy.gov/vehicles/how-do-gasoline-cars-work",
+      "retrievedAt": "2026-09-24"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

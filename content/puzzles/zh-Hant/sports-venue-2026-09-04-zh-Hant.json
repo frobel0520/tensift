@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sports-venue-2026-09-04-zh-hant",
+  "puzzleFamilyId": "sports-venue-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-09-04",
+  "timezone": "UTC",
+  "theme": "運動",
+  "items": [
+    {"itemId": "sport-ice-hockey", "label": "冰上曲棍球"},
+    {"itemId": "sport-swimming", "label": "游泳"},
+    {"itemId": "sport-water-polo", "label": "水球"},
+    {"itemId": "sport-basketball", "label": "籃球"},
+    {"itemId": "sport-volleyball", "label": "排球"},
+    {"itemId": "sport-handball", "label": "手球"},
+    {"itemId": "sport-soccer", "label": "足球"},
+    {"itemId": "sport-baseball", "label": "棒球"},
+    {"itemId": "sport-cricket", "label": "板球"},
+    {"itemId": "sport-rugby", "label": "橄欖球"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "通常場地",
+    "groups": [
+      {"groupId": "g1", "label": "冰上", "capacity": 1, "itemIds": ["sport-ice-hockey"]},
+      {"groupId": "g2", "label": "水上", "capacity": 2, "itemIds": ["sport-swimming", "sport-water-polo"]},
+      {"groupId": "g3", "label": "室內場地", "capacity": 3, "itemIds": ["sport-basketball", "sport-volleyball", "sport-handball"]},
+      {"groupId": "g4", "label": "場地運動", "capacity": 4, "itemIds": ["sport-soccer", "sport-baseball", "sport-cricket", "sport-rugby"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每組根據運動通常進行的場地分類：1 項冰上運動、2 項水上運動、3 項室內場地運動和 4 項場地運動。",
+  "sources": [
+    {"title": "大英百科全書：運動", "url": "https://www.britannica.com/sports", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.38},
+  "status": "scheduled"
+}

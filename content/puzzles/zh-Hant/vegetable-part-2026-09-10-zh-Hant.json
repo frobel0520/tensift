@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vegetable-part-2026-09-10-zh-hant",
+  "puzzleFamilyId": "vegetable-part-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-09-10",
+  "timezone": "UTC",
+  "theme": "蔬菜",
+  "items": [
+    {"itemId": "vegetable-carrot", "label": "胡蘿蔔"},
+    {"itemId": "vegetable-lettuce", "label": "生菜"},
+    {"itemId": "vegetable-spinach", "label": "菠菜"},
+    {"itemId": "vegetable-broccoli", "label": "綠花椰菜"},
+    {"itemId": "vegetable-cauliflower", "label": "白花椰菜"},
+    {"itemId": "vegetable-artichoke", "label": "朝鮮薊"},
+    {"itemId": "vegetable-tomato", "label": "番茄"},
+    {"itemId": "vegetable-cucumber", "label": "黃瓜"},
+    {"itemId": "vegetable-bell-pepper", "label": "甜椒"},
+    {"itemId": "vegetable-eggplant", "label": "茄子"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "可食用的植物部位",
+    "groups": [
+      {"groupId": "g1", "label": "根", "capacity": 1, "itemIds": ["vegetable-carrot"]},
+      {"groupId": "g2", "label": "葉", "capacity": 2, "itemIds": ["vegetable-lettuce", "vegetable-spinach"]},
+      {"groupId": "g3", "label": "花", "capacity": 3, "itemIds": ["vegetable-broccoli", "vegetable-cauliflower", "vegetable-artichoke"]},
+      {"groupId": "g4", "label": "果實", "capacity": 4, "itemIds": ["vegetable-tomato", "vegetable-cucumber", "vegetable-bell-pepper", "vegetable-eggplant"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每組根據可食用的植物部位分類：1 種根、2 種葉、3 種花，以及 4 種常被當作蔬菜食用的植物果實。",
+  "sources": [
+    {"title": "大英百科全書：蔬菜", "url": "https://www.britannica.com/topic/vegetable", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.42},
+  "status": "scheduled"
+}

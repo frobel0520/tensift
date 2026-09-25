@@ -10,7 +10,7 @@
  * Usage: node scripts/smoke-production.mjs [--base-url <origin>] [--date <YYYY-MM-DD>]
  */
 
-const LOCALES = ['en', 'zh-Hans', 'es-419'];
+const LOCALES = ['en', 'zh-Hant', 'es-419'];
 const DEFAULT_BASE_URL = 'https://tensift.pages.dev';
 const REQUEST_TIMEOUT_MS = 15_000;
 

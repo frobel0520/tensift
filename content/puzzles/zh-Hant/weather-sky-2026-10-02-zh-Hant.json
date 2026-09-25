@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "weather-sky-2026-10-02-zh-hant",
+  "puzzleFamilyId": "weather-sky-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-02",
+  "timezone": "UTC",
+  "theme": "天氣",
+  "items": [
+    {
+      "itemId": "wx-rainbow",
+      "label": "彩虹"
+    },
+    {
+      "itemId": "wx-snow",
+      "label": "雪"
+    },
+    {
+      "itemId": "wx-hail",
+      "label": "冰雹"
+    },
+    {
+      "itemId": "wx-fog",
+      "label": "霧"
+    },
+    {
+      "itemId": "wx-wind",
+      "label": "風"
+    },
+    {
+      "itemId": "wx-clouds",
+      "label": "雲"
+    },
+    {
+      "itemId": "wx-rain",
+      "label": "雨"
+    },
+    {
+      "itemId": "wx-drizzle",
+      "label": "毛毛雨"
+    },
+    {
+      "itemId": "wx-shower",
+      "label": "陣雨"
+    },
+    {
+      "itemId": "wx-thunderstorm",
+      "label": "雷雨"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "天空的狀態",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "天空中的光學現象",
+        "capacity": 1,
+        "itemIds": [
+          "wx-rainbow"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "固態降水",
+        "capacity": 2,
+        "itemIds": [
+          "wx-snow",
+          "wx-hail"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "不降水",
+        "capacity": 3,
+        "itemIds": [
+          "wx-fog",
+          "wx-wind",
+          "wx-clouds"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "液態降雨",
+        "capacity": 4,
+        "itemIds": [
+          "wx-rain",
+          "wx-drizzle",
+          "wx-shower",
+          "wx-thunderstorm"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組描述同一類天空狀態：1 種光學現象、2 種固態降水、3 種不降水的天氣和 4 種液態降雨。",
+  "sources": [
+    {
+      "title": "維基百科：降水",
+      "url": "https://en.wikipedia.org/wiki/Precipitation",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.36
+  },
+  "status": "scheduled"
+}

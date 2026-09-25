@@ -13,4 +13,4 @@ export type {
   SafePuzzleItem,
 } from '../../shared/contracts';
 
-export { SUPPORTED_LOCALES } from '../../shared/contracts';
+export { SUPPORTED_LOCALES, normalizeLocale } from '../../shared/contracts';

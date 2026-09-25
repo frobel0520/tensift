@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sports-equipment-2026-09-22-zh-hant",
+  "puzzleFamilyId": "sports-equipment-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-09-22",
+  "timezone": "UTC",
+  "theme": "運動器材",
+  "items": [
+    {"itemId": "equipment-baseball-bat", "label": "球棒"},
+    {"itemId": "equipment-tennis-racket", "label": "網球拍"},
+    {"itemId": "equipment-badminton-racket", "label": "羽毛球拍"},
+    {"itemId": "equipment-soccer-ball", "label": "足球"},
+    {"itemId": "equipment-basketball", "label": "籃球"},
+    {"itemId": "equipment-volleyball", "label": "排球"},
+    {"itemId": "equipment-helmet", "label": "頭盔"},
+    {"itemId": "equipment-boxing-gloves", "label": "拳擊手套"},
+    {"itemId": "equipment-shin-guards", "label": "護腿板"},
+    {"itemId": "equipment-mouthguard", "label": "護齒套"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "器材類型",
+    "groups": [
+      {"groupId": "g1", "label": "球棒", "capacity": 1, "itemIds": ["equipment-baseball-bat"]},
+      {"groupId": "g2", "label": "球拍", "capacity": 2, "itemIds": ["equipment-tennis-racket", "equipment-badminton-racket"]},
+      {"groupId": "g3", "label": "球類", "capacity": 3, "itemIds": ["equipment-soccer-ball", "equipment-basketball", "equipment-volleyball"]},
+      {"groupId": "g4", "label": "防護裝備", "capacity": 4, "itemIds": ["equipment-helmet", "equipment-boxing-gloves", "equipment-shin-guards", "equipment-mouthguard"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每組包含同一類型的運動器材：1 件球棒、2 件球拍、3 個球類用品和 4 件防護裝備。",
+  "sources": [
+    {"title": "大英百科全書：運動", "url": "https://www.britannica.com/sports/sports", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.30},
+  "status": "scheduled"
+}

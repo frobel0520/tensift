@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cities-country-2026-09-11-zh-hant",
+  "puzzleFamilyId": "cities-country-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-09-11",
+  "timezone": "UTC",
+  "theme": "世界城市",
+  "items": [
+    {"itemId": "city-rio-de-janeiro", "label": "里約熱內盧"},
+    {"itemId": "city-tokyo", "label": "東京"},
+    {"itemId": "city-kyoto", "label": "京都"},
+    {"itemId": "city-new-york", "label": "紐約"},
+    {"itemId": "city-los-angeles", "label": "洛杉磯"},
+    {"itemId": "city-chicago", "label": "芝加哥"},
+    {"itemId": "city-rome", "label": "羅馬"},
+    {"itemId": "city-venice", "label": "威尼斯"},
+    {"itemId": "city-milan", "label": "米蘭"},
+    {"itemId": "city-florence", "label": "佛羅倫斯"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "國家",
+    "groups": [
+      {"groupId": "g1", "label": "巴西", "capacity": 1, "itemIds": ["city-rio-de-janeiro"]},
+      {"groupId": "g2", "label": "日本", "capacity": 2, "itemIds": ["city-tokyo", "city-kyoto"]},
+      {"groupId": "g3", "label": "美國", "capacity": 3, "itemIds": ["city-new-york", "city-los-angeles", "city-chicago"]},
+      {"groupId": "g4", "label": "義大利", "capacity": 4, "itemIds": ["city-rome", "city-venice", "city-milan", "city-florence"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每組包含來自同一國家的著名城市：1 座巴西城市、2 座日本城市、3 座美國城市和 4 座義大利城市。",
+  "sources": [
+    {"title": "大英百科全書：城市", "url": "https://www.britannica.com/topic/city", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.30},
+  "status": "scheduled"
+}

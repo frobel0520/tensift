@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-diet-2026-09-27-zh-hant",
+  "puzzleFamilyId": "animal-movement-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-09-27",
+  "timezone": "UTC",
+  "theme": "動物移動",
+  "items": [
+    {"itemId": "movement-eagle", "label": "鷹"},
+    {"itemId": "movement-fish", "label": "魚"},
+    {"itemId": "movement-dolphin", "label": "海豚"},
+    {"itemId": "movement-frog", "label": "青蛙"},
+    {"itemId": "movement-rabbit", "label": "兔子"},
+    {"itemId": "movement-kangaroo", "label": "袋鼠"},
+    {"itemId": "movement-snake", "label": "蛇"},
+    {"itemId": "movement-lizard", "label": "蜥蜴"},
+    {"itemId": "movement-snail", "label": "蝸牛"},
+    {"itemId": "movement-caterpillar", "label": "毛毛蟲"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "典型移動方式",
+    "groups": [
+      {"groupId": "g1", "label": "飛行", "capacity": 1, "itemIds": ["movement-eagle"]},
+      {"groupId": "g2", "label": "游泳", "capacity": 2, "itemIds": ["movement-fish", "movement-dolphin"]},
+      {"groupId": "g3", "label": "跳躍", "capacity": 3, "itemIds": ["movement-frog", "movement-rabbit", "movement-kangaroo"]},
+      {"groupId": "g4", "label": "爬行", "capacity": 4, "itemIds": ["movement-snake", "movement-lizard", "movement-snail", "movement-caterpillar"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每組動物都有相似的典型移動方式：1 種會飛的動物、2 種會游泳的動物、3 種會跳躍的動物和 4 種會爬行的動物。",
+  "sources": [
+    {"title": "大英百科全書：動物運動", "url": "https://www.britannica.com/science/animal-locomotion", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.37},
+  "status": "scheduled"
+}
