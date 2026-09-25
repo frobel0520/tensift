@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "language-script-2026-09-12-zh-hant",
+  "puzzleFamilyId": "language-script-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-09-12",
+  "timezone": "UTC",
+  "theme": "語言族群",
+  "items": [
+    {"itemId": "language-greek", "label": "希臘語"},
+    {"itemId": "language-english", "label": "英語"},
+    {"itemId": "language-german", "label": "德語"},
+    {"itemId": "language-hindi", "label": "印地語"},
+    {"itemId": "language-bengali", "label": "孟加拉語"},
+    {"itemId": "language-punjabi", "label": "旁遮普語"},
+    {"itemId": "language-spanish", "label": "西班牙語"},
+    {"itemId": "language-french", "label": "法語"},
+    {"itemId": "language-italian", "label": "義大利語"},
+    {"itemId": "language-portuguese", "label": "葡萄牙語"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "語言族群",
+    "groups": [
+      {"groupId": "g1", "label": "希臘語族", "capacity": 1, "itemIds": ["language-greek"]},
+      {"groupId": "g2", "label": "日耳曼語族", "capacity": 2, "itemIds": ["language-english", "language-german"]},
+      {"groupId": "g3", "label": "印度-雅利安語族", "capacity": 3, "itemIds": ["language-hindi", "language-bengali", "language-punjabi"]},
+      {"groupId": "g4", "label": "羅曼語族", "capacity": 4, "itemIds": ["language-spanish", "language-french", "language-italian", "language-portuguese"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每組屬於同一個語言族群分支：1 種希臘語族語言、2 種日耳曼語族語言、3 種印度-雅利安語族語言和 4 種羅曼語族語言。",
+  "sources": [
+    {"title": "大英百科全書：語言", "url": "https://www.britannica.com/topic/language", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.46},
+  "status": "scheduled"
+}

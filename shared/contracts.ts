@@ -1,6 +1,15 @@
-export const SUPPORTED_LOCALES = ['en', 'zh-Hans', 'es-419'] as const;
+export const SUPPORTED_LOCALES = ['en', 'zh-Hant', 'es-419'] as const;
 
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
+
+/** Chinese content moved from Simplified (zh-Hans) to Traditional (zh-Hant); old links and saved preferences map forward. */
+export const LEGACY_LOCALE_ALIASES: Readonly<Record<string, Locale>> = { 'zh-Hans': 'zh-Hant' };
+
+export function normalizeLocale(value: string | null | undefined): Locale | null {
+  if (!value) return null;
+  if ((SUPPORTED_LOCALES as readonly string[]).includes(value)) return value as Locale;
+  return LEGACY_LOCALE_ALIASES[value] ?? null;
+}
 export type RowCapacity = 1 | 2 | 3 | 4;
 export type RowId = `row-${1 | 2 | 3 | 4}`;
 

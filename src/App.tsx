@@ -14,6 +14,7 @@ import {
 } from './api/client';
 import {
   SUPPORTED_LOCALES,
+  normalizeLocale,
   type ApiErrorBody,
   type Locale,
   type RevealResponse,
@@ -252,7 +253,7 @@ export function App() {
               }}
             >
               <option value="en">English</option>
-              <option value="zh-Hans">简体中文</option>
+              <option value="zh-Hant">繁體中文</option>
               <option value="es-419">Español</option>
             </select>
           </label>
@@ -777,13 +778,13 @@ function createClientSessionId(): string {
 }
 
 function getInitialLocale(): Locale {
-  const requested = new URLSearchParams(window.location.search).get('lang');
-  if (requested && isLocale(requested)) {
+  const requested = normalizeLocale(new URLSearchParams(window.location.search).get('lang'));
+  if (requested) {
     return requested;
   }
   try {
-    const stored = window.localStorage.getItem(LOCALE_STORAGE_KEY);
-    if (stored && isLocale(stored)) {
+    const stored = normalizeLocale(window.localStorage.getItem(LOCALE_STORAGE_KEY));
+    if (stored) {
       return stored;
     }
   } catch {

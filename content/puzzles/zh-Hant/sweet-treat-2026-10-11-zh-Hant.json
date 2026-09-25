@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sweet-treat-2026-10-11-zh-hant",
+  "puzzleFamilyId": "sweet-treat-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-11",
+  "timezone": "UTC",
+  "theme": "甜點",
+  "items": [
+    {
+      "itemId": "sweet-icecream",
+      "label": "冰淇淋"
+    },
+    {
+      "itemId": "sweet-pancake",
+      "label": "鬆餅"
+    },
+    {
+      "itemId": "sweet-waffle",
+      "label": "格子鬆餅"
+    },
+    {
+      "itemId": "sweet-cake",
+      "label": "蛋糕"
+    },
+    {
+      "itemId": "sweet-cookie",
+      "label": "餅乾"
+    },
+    {
+      "itemId": "sweet-muffin",
+      "label": "瑪芬蛋糕"
+    },
+    {
+      "itemId": "sweet-doughnut",
+      "label": "甜甜圈"
+    },
+    {
+      "itemId": "sweet-churro",
+      "label": "吉拿棒"
+    },
+    {
+      "itemId": "sweet-fritter",
+      "label": "炸糕"
+    },
+    {
+      "itemId": "sweet-funnelcake",
+      "label": "漏斗蛋糕"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "它是怎麼做出來的",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "冷凍，不加熱",
+        "capacity": 1,
+        "itemIds": [
+          "sweet-icecream"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "在鐵板上煎",
+        "capacity": 2,
+        "itemIds": [
+          "sweet-pancake",
+          "sweet-waffle"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "用烤箱烤",
+        "capacity": 3,
+        "itemIds": [
+          "sweet-cake",
+          "sweet-cookie",
+          "sweet-muffin"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "下油鍋炸",
+        "capacity": 4,
+        "itemIds": [
+          "sweet-doughnut",
+          "sweet-churro",
+          "sweet-fritter",
+          "sweet-funnelcake"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每一組的做法相同：1 個是冷凍而不加熱，2 個是在鐵板上煎，3 個是用烤箱烤，4 個是下油鍋炸。",
+  "sources": [
+    {
+      "title": "維基百科：甜點",
+      "url": "https://en.wikipedia.org/wiki/Dessert",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.38
+  },
+  "status": "scheduled"
+}

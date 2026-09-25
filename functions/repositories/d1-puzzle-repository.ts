@@ -383,7 +383,7 @@ function parseVisual(value: string): AuthoringPuzzleItem['visual'] {
 }
 
 function parseLocale(value: string): Locale {
-  if (value === 'en' || value === 'zh-Hans' || value === 'es-419') {
+  if (value === 'en' || value === 'zh-Hant' || value === 'es-419') {
     return value;
   }
   throw new PuzzleDataIntegrityError(`Unsupported puzzle locale in D1: ${value}`);

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "message-medium-2026-10-13-zh-hant",
+  "puzzleFamilyId": "message-medium-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-13",
+  "timezone": "UTC",
+  "theme": "傳遞訊息的方式",
+  "items": [
+    {
+      "itemId": "msg-pigeon",
+      "label": "信鴿"
+    },
+    {
+      "itemId": "msg-letter",
+      "label": "信件"
+    },
+    {
+      "itemId": "msg-postcard",
+      "label": "明信片"
+    },
+    {
+      "itemId": "msg-call",
+      "label": "電話"
+    },
+    {
+      "itemId": "msg-text",
+      "label": "簡訊"
+    },
+    {
+      "itemId": "msg-email",
+      "label": "電子郵件"
+    },
+    {
+      "itemId": "msg-shout",
+      "label": "呼喊"
+    },
+    {
+      "itemId": "msg-wave",
+      "label": "揮手"
+    },
+    {
+      "itemId": "msg-nod",
+      "label": "點頭"
+    },
+    {
+      "itemId": "msg-whistle",
+      "label": "口哨"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "訊息靠什麼傳出去",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "靠動物送",
+        "capacity": 1,
+        "itemIds": [
+          "msg-pigeon"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "靠郵政送",
+        "capacity": 2,
+        "itemIds": [
+          "msg-letter",
+          "msg-postcard"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "透過網路傳送",
+        "capacity": 3,
+        "itemIds": [
+          "msg-call",
+          "msg-text",
+          "msg-email"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "當面傳達",
+        "capacity": 4,
+        "itemIds": [
+          "msg-shout",
+          "msg-wave",
+          "msg-nod",
+          "msg-whistle"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每一組傳遞訊息的方式相同：1 個靠動物送，2 個靠郵政送，3 個透過網路傳送，4 個當面傳達。",
+  "sources": [
+    {
+      "title": "維基百科：傳播",
+      "url": "https://en.wikipedia.org/wiki/Communication",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

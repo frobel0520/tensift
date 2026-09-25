@@ -16,7 +16,7 @@ Tensift is a multilingual hidden-rule sorting puzzle. The browser app serves one
 ## Languages
 
 - English (`en`)
-- Simplified Chinese (`zh-Hans`)
+- Traditional Chinese, Taiwan usage (`zh-Hant`; replaced Simplified Chinese `zh-Hans` on 2026-09-25, and old `zh-Hans` links and saved preferences map to `zh-Hant`)
 - Latin American neutral Spanish (`es-419`)
 
 Each locale currently includes three prototype puzzles: Countries, Animals, and Musical Instruments.
@@ -160,7 +160,7 @@ and the existing `/ads.txt` Function remain; keep the `ADSENSE_PUBLISHER_ID`
 Function variable for verification.
 
 `/learn/{locale}/how-to-play`, `/archive`, `/about`, and `/privacy` are complete
-server-rendered HTML pages for `en`, `zh-Hans`, and `es-419`. Selected historical
+server-rendered HTML pages for `en`, `zh-Hant`, and `es-419`. Selected historical
 explanations live at `/learn/{locale}/archive/{countries|animals|instruments}`.
 These routes work without JavaScript and D1. Use Pages Dev, not Vite alone, to
 preview them. `/sitemap.xml` lists only available pages and is linked by robots.txt.
@@ -209,5 +209,5 @@ Approved baseline:
 - Unlimited attempts; the counter uses positive “Attempts” wording.
 - One Hint available at any time; it places and locks one item in the correct row.
 - Reveal answer is aligned in the right column and can be closed with the close button or Escape.
-- English, Simplified Chinese, and neutral Latin American Spanish locale switching.
+- English, Traditional Chinese (Taiwan), and neutral Latin American Spanish locale switching.
 - No Tweaks panel; feedback is the exact total of correctly grouped items.

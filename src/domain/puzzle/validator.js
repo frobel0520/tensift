@@ -16,7 +16,7 @@ export function validateAuthoringPuzzle(value) {
         addIssue(issues, '$.puzzleFamilyId', 'puzzle-family-id', 'puzzleFamilyId must be a non-empty string.');
     }
     if (!isLocale(value.locale)) {
-        addIssue(issues, '$.locale', 'locale', 'locale must be en, zh-Hans, or es-419.');
+        addIssue(issues, '$.locale', 'locale', 'locale must be en, zh-Hant, or es-419.');
     }
     if (!isIsoDate(value.publishDate)) {
         addIssue(issues, '$.publishDate', 'publish-date', 'publishDate must use YYYY-MM-DD.');

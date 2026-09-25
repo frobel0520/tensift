@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "job-workplace-2026-09-30-zh-hant",
+  "puzzleFamilyId": "job-workplace-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-09-30",
+  "timezone": "UTC",
+  "theme": "職業與工作場所",
+  "items": [
+    {
+      "itemId": "job-pilot",
+      "label": "飛行員"
+    },
+    {
+      "itemId": "job-doctor",
+      "label": "醫生"
+    },
+    {
+      "itemId": "job-nurse",
+      "label": "護士"
+    },
+    {
+      "itemId": "job-teacher",
+      "label": "老師"
+    },
+    {
+      "itemId": "job-principal",
+      "label": "校長"
+    },
+    {
+      "itemId": "job-kindergarten",
+      "label": "幼兒園老師"
+    },
+    {
+      "itemId": "job-chef",
+      "label": "廚師"
+    },
+    {
+      "itemId": "job-waiter",
+      "label": "服務生"
+    },
+    {
+      "itemId": "job-barista",
+      "label": "咖啡師"
+    },
+    {
+      "itemId": "job-dishwasher",
+      "label": "洗碗工"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "常見的工作場所",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "飛機上",
+        "capacity": 1,
+        "itemIds": [
+          "job-pilot"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "醫院",
+        "capacity": 2,
+        "itemIds": [
+          "job-doctor",
+          "job-nurse"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "學校",
+        "capacity": 3,
+        "itemIds": [
+          "job-teacher",
+          "job-principal",
+          "job-kindergarten"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "餐廳或咖啡廳",
+        "capacity": 4,
+        "itemIds": [
+          "job-chef",
+          "job-waiter",
+          "job-barista",
+          "job-dishwasher"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組職業的工作場所相同：1 個在飛機上、2 個在醫院、3 個在學校、4 個在餐廳或咖啡廳。",
+  "sources": [
+    {
+      "title": "維基百科：職業",
+      "url": "https://en.wikipedia.org/wiki/Profession",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.34
+  },
+  "status": "scheduled"
+}
