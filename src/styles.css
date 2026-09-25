@@ -159,6 +159,11 @@ button {
 
 .site-navigation a:hover { color: var(--accent-dark); }
 
+.site-navigation__more {
+  margin-left: auto;
+  font-weight: 700;
+}
+
 .masthead {
   display: flex;
   align-items: flex-end;
