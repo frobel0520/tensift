@@ -1,12 +1,12 @@
 import type { Locale } from '../../shared/contracts';
 import countriesEn from '../../content/puzzles/en/countries-continent-2026-09-01-en.json';
-import countriesZh from '../../content/puzzles/zh-Hans/countries-continent-2026-09-01-zh-Hans.json';
+import countriesZh from '../../content/puzzles/zh-Hant/countries-continent-2026-09-01-zh-Hant.json';
 import countriesEs from '../../content/puzzles/es-419/countries-continent-2026-09-01-es-419.json';
 import animalsEn from '../../content/puzzles/en/animals-class-2026-09-02-en.json';
-import animalsZh from '../../content/puzzles/zh-Hans/animals-class-2026-09-02-zh-Hans.json';
+import animalsZh from '../../content/puzzles/zh-Hant/animals-class-2026-09-02-zh-Hant.json';
 import animalsEs from '../../content/puzzles/es-419/animals-class-2026-09-02-es-419.json';
 import instrumentsEn from '../../content/puzzles/en/instruments-family-2026-09-03-en.json';
-import instrumentsZh from '../../content/puzzles/zh-Hans/instruments-family-2026-09-03-zh-Hans.json';
+import instrumentsZh from '../../content/puzzles/zh-Hant/instruments-family-2026-09-03-zh-Hant.json';
 import instrumentsEs from '../../content/puzzles/es-419/instruments-family-2026-09-03-es-419.json';
 
 export interface ArchivePuzzle {
@@ -24,9 +24,9 @@ export interface ArchivePuzzle {
 // Explicit editorial selection, never glob the scheduled puzzle catalog.
 // This module is server-only: gameplay must not import it.
 export const archiveCatalog: Readonly<Record<string, Readonly<Record<Locale, ArchivePuzzle>>>> = {
-  countries: { en: countriesEn, 'zh-Hans': countriesZh, 'es-419': countriesEs },
-  animals: { en: animalsEn, 'zh-Hans': animalsZh, 'es-419': animalsEs },
-  instruments: { en: instrumentsEn, 'zh-Hans': instrumentsZh, 'es-419': instrumentsEs },
+  countries: { en: countriesEn, 'zh-Hant': countriesZh, 'es-419': countriesEs },
+  animals: { en: animalsEn, 'zh-Hant': animalsZh, 'es-419': animalsEs },
+  instruments: { en: instrumentsEn, 'zh-Hant': instrumentsZh, 'es-419': instrumentsEs },
 };
 
 export function releasedArticles(locale: Locale, now: Date): readonly [string, ArchivePuzzle][] {

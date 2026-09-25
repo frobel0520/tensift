@@ -1,5 +1,8 @@
-export declare const SUPPORTED_LOCALES: readonly ["en", "zh-Hans", "es-419"];
+export declare const SUPPORTED_LOCALES: readonly ["en", "zh-Hant", "es-419"];
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
+/** Chinese content moved from Simplified (zh-Hans) to Traditional (zh-Hant); old links and saved preferences map forward. */
+export declare const LEGACY_LOCALE_ALIASES: Readonly<Record<string, Locale>>;
+export declare function normalizeLocale(value: string | null | undefined): Locale | null;
 export type RowCapacity = 1 | 2 | 3 | 4;
 export type RowId = `row-${1 | 2 | 3 | 4}`;
 export interface SafePuzzleItem {

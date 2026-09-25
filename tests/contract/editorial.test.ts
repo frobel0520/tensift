@@ -67,6 +67,14 @@ describe('public editorial pages', () => {
     expect(redirect.headers.get('Location')).toBe('/learn/en/archive');
   });
 
+  it('moves the retired zh-Hans pages to their zh-Hant equivalents', () => {
+    for (const path of ['/learn/zh-Hans/how-to-play', '/learn/zh-Hans/archive/countries']) {
+      const response = renderEditorial(request(path), now);
+      expect(response.status).toBe(308);
+      expect(response.headers.get('Location')).toBe(path.replace('/zh-Hans/', '/zh-Hant/'));
+    }
+  });
+
   it('escapes text rather than interpreting authored markup', () => {
     expect(escapeHtml('<script>"a" & \'b\'</script>')).toBe('&lt;script&gt;&quot;a&quot; &amp; &#39;b&#39;&lt;/script&gt;');
   });

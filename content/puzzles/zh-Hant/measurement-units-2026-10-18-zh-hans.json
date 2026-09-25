@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "measurement-units-2026-10-18-zh-hant",
+  "puzzleFamilyId": "measurement-units-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-18",
+  "timezone": "UTC",
+  "theme": "測量什麼",
+  "items": [
+    {
+      "itemId": "measurement-units-1",
+      "label": "攝氏"
+    },
+    {
+      "itemId": "measurement-units-2",
+      "label": "公克"
+    },
+    {
+      "itemId": "measurement-units-3",
+      "label": "公斤"
+    },
+    {
+      "itemId": "measurement-units-4",
+      "label": "公分"
+    },
+    {
+      "itemId": "measurement-units-5",
+      "label": "公尺"
+    },
+    {
+      "itemId": "measurement-units-6",
+      "label": "公里"
+    },
+    {
+      "itemId": "measurement-units-7",
+      "label": "秒"
+    },
+    {
+      "itemId": "measurement-units-8",
+      "label": "分鐘"
+    },
+    {
+      "itemId": "measurement-units-9",
+      "label": "小時"
+    },
+    {
+      "itemId": "measurement-units-10",
+      "label": "天"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "每種單位測量的量",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "溫度",
+        "capacity": 1,
+        "itemIds": [
+          "measurement-units-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "質量",
+        "capacity": 2,
+        "itemIds": [
+          "measurement-units-2",
+          "measurement-units-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "長度",
+        "capacity": 3,
+        "itemIds": [
+          "measurement-units-4",
+          "measurement-units-5",
+          "measurement-units-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "時間",
+        "capacity": 4,
+        "itemIds": [
+          "measurement-units-7",
+          "measurement-units-8",
+          "measurement-units-9",
+          "measurement-units-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "攝氏測量溫度；公克和公斤測量質量；公分、公尺和公里測量長度；秒、分鐘、小時和天測量時間。",
+  "sources": [
+    {
+      "title": "NIST: What About Metric?",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/CIS/nbscis7.pdf",
+      "retrievedAt": "2026-09-24"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

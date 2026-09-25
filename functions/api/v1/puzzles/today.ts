@@ -1,4 +1,4 @@
-import { SUPPORTED_LOCALES, type Locale } from '../../../../shared/contracts';
+import { normalizeLocale } from '../../../../shared/contracts';
 import { D1PuzzleRepository } from '../../../repositories/d1-puzzle-repository';
 import { apiError, apiResponse, createRequestId, handleApiError } from '../../../services/api';
 import { toSafePuzzleDto } from '../../../services/puzzle-projection';
@@ -12,9 +12,9 @@ export const onRequest: PagesFunction<TensiftEnvironment> = async ({ request, en
       return apiError(requestId, 'METHOD_NOT_ALLOWED', 'Use GET to request today\'s puzzle.', 405);
     }
 
-    const locale = new URL(request.url).searchParams.get('locale') ?? 'en';
+    const locale = normalizeLocale(new URL(request.url).searchParams.get('locale') ?? 'en');
 
-    if (!isLocale(locale)) {
+    if (!locale) {
       return apiError(requestId, 'LOCALE_NOT_AVAILABLE', 'The requested locale is not supported.', 400);
     }
 
@@ -41,6 +41,3 @@ export const onRequest: PagesFunction<TensiftEnvironment> = async ({ request, en
   }
 };
 
-function isLocale(value: string): value is Locale {
-  return (SUPPORTED_LOCALES as readonly string[]).includes(value);
-}

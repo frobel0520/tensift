@@ -35,7 +35,7 @@ export function validateAuthoringPuzzle(value: unknown): PuzzleValidationResult 
   }
 
   if (!isLocale(value.locale)) {
-    addIssue(issues, '$.locale', 'locale', 'locale must be en, zh-Hans, or es-419.');
+    addIssue(issues, '$.locale', 'locale', 'locale must be en, zh-Hant, or es-419.');
   }
 
   if (!isIsoDate(value.publishDate)) {

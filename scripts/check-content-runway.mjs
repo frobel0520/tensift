@@ -17,7 +17,7 @@ import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const LOCALES = ['en', 'zh-Hans', 'es-419'];
+const LOCALES = ['en', 'zh-Hant', 'es-419'];
 const DEFAULT_MIN_DAYS = 14;
 
 const projectRoot = fileURLToPath(new URL('..', import.meta.url));

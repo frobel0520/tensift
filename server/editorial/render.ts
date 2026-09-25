@@ -1,10 +1,10 @@
-import { SUPPORTED_LOCALES, type Locale } from '../../shared/contracts';
+import { LEGACY_LOCALE_ALIASES, SUPPORTED_LOCALES, type Locale } from '../../shared/contracts';
 import { editorialReferences, releasedArticles } from './catalog';
 import { editorialCopy, type Section } from './copy';
 
 const ORIGIN = 'https://tensift.pages.dev';
 const PAGE_SLUGS = ['how-to-play', 'archive', 'about', 'privacy'] as const;
-const LANGUAGE_NAMES = ['English', '简体中文', 'Español'];
+const LANGUAGE_NAMES = ['English', '繁體中文', 'Español'];
 
 export function escapeHtml(value: string): string {
   return value.replace(/[&<>"']/g, (character) => ({
@@ -52,6 +52,11 @@ export function renderEditorial(request: Request, now = new Date()): Response {
   const pathname = new URL(request.url).pathname;
   const parts = pathname.split('/').filter(Boolean);
   const requestedLocale = parts[1];
+  const movedTo = requestedLocale ? LEGACY_LOCALE_ALIASES[requestedLocale] : undefined;
+  if (movedTo) {
+    const movedPath = ['', parts[0], movedTo, ...parts.slice(2)].join('/');
+    return new Response(null, { status: 308, headers: { Location: movedPath } });
+  }
   const locale: Locale = SUPPORTED_LOCALES.find((value) => value === requestedLocale) ?? 'en';
   const copy = editorialCopy[locale];
   const slug = parts.slice(2).join('/');

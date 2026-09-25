@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sea-animal-2026-10-08-zh-hant",
+  "puzzleFamilyId": "sea-animal-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-08",
+  "timezone": "UTC",
+  "theme": "海洋生物",
+  "items": [
+    {
+      "itemId": "sea-octopus",
+      "label": "章魚"
+    },
+    {
+      "itemId": "sea-crab",
+      "label": "螃蟹"
+    },
+    {
+      "itemId": "sea-shrimp",
+      "label": "蝦"
+    },
+    {
+      "itemId": "sea-dolphin",
+      "label": "海豚"
+    },
+    {
+      "itemId": "sea-whale",
+      "label": "鯨"
+    },
+    {
+      "itemId": "sea-seal",
+      "label": "海豹"
+    },
+    {
+      "itemId": "sea-tuna",
+      "label": "鮪魚"
+    },
+    {
+      "itemId": "sea-salmon",
+      "label": "鮭魚"
+    },
+    {
+      "itemId": "sea-cod",
+      "label": "鱈魚"
+    },
+    {
+      "itemId": "sea-herring",
+      "label": "鯡魚"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "它屬於哪一類動物",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "軟體動物",
+        "capacity": 1,
+        "itemIds": [
+          "sea-octopus"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "甲殼類動物",
+        "capacity": 2,
+        "itemIds": [
+          "sea-crab",
+          "sea-shrimp"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "海洋哺乳動物",
+        "capacity": 3,
+        "itemIds": [
+          "sea-dolphin",
+          "sea-whale",
+          "sea-seal"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "魚類",
+        "capacity": 4,
+        "itemIds": [
+          "sea-tuna",
+          "sea-salmon",
+          "sea-cod",
+          "sea-herring"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每一組都是同一類動物：1 個是沒有骨頭的軟體動物，2 個是帶殼的甲殼類動物，3 個是要浮出水面呼吸的哺乳動物，4 個是魚。",
+  "sources": [
+    {
+      "title": "維基百科：海洋生物",
+      "url": "https://en.wikipedia.org/wiki/Marine_life",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

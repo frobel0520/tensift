@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fabric-fibre-2026-10-14-zh-hant",
+  "puzzleFamilyId": "fabric-fibre-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-14",
+  "timezone": "UTC",
+  "theme": "布料",
+  "items": [
+    {
+      "itemId": "fabric-silk",
+      "label": "絲綢"
+    },
+    {
+      "itemId": "fabric-wool",
+      "label": "羊毛"
+    },
+    {
+      "itemId": "fabric-cashmere",
+      "label": "羊絨"
+    },
+    {
+      "itemId": "fabric-cotton",
+      "label": "棉"
+    },
+    {
+      "itemId": "fabric-linen",
+      "label": "亞麻"
+    },
+    {
+      "itemId": "fabric-hemp",
+      "label": "大麻纖維"
+    },
+    {
+      "itemId": "fabric-polyester",
+      "label": "聚酯纖維"
+    },
+    {
+      "itemId": "fabric-nylon",
+      "label": "尼龍"
+    },
+    {
+      "itemId": "fabric-acrylic",
+      "label": "壓克力纖維"
+    },
+    {
+      "itemId": "fabric-spandex",
+      "label": "彈性纖維"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "纖維來自哪裡",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "由昆蟲吐出",
+        "capacity": 1,
+        "itemIds": [
+          "fabric-silk"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "取自動物的毛",
+        "capacity": 2,
+        "itemIds": [
+          "fabric-wool",
+          "fabric-cashmere"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "由植物種出",
+        "capacity": 3,
+        "itemIds": [
+          "fabric-cotton",
+          "fabric-linen",
+          "fabric-hemp"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "工廠合成",
+        "capacity": 4,
+        "itemIds": [
+          "fabric-polyester",
+          "fabric-nylon",
+          "fabric-acrylic",
+          "fabric-spandex"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每一組的纖維來源相同：1 個由昆蟲吐出，2 個取自動物的毛，3 個由植物種出來，4 個在工廠裡合成。",
+  "sources": [
+    {
+      "title": "維基百科：紡織品",
+      "url": "https://en.wikipedia.org/wiki/Textile",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.46
+  },
+  "status": "scheduled"
+}

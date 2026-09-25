@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "clothing-location-2026-09-18-zh-hant",
+  "puzzleFamilyId": "clothing-location-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-09-18",
+  "timezone": "UTC",
+  "theme": "服裝",
+  "items": [
+    {"itemId": "clothing-hat", "label": "帽子"},
+    {"itemId": "clothing-shirt", "label": "襯衫"},
+    {"itemId": "clothing-jacket", "label": "外套"},
+    {"itemId": "clothing-pants", "label": "褲子"},
+    {"itemId": "clothing-skirt", "label": "裙子"},
+    {"itemId": "clothing-shorts", "label": "短褲"},
+    {"itemId": "clothing-socks", "label": "襪子"},
+    {"itemId": "clothing-shoes", "label": "鞋"},
+    {"itemId": "clothing-boots", "label": "靴子"},
+    {"itemId": "clothing-sandals", "label": "涼鞋"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "穿戴部位",
+    "groups": [
+      {"groupId": "g1", "label": "頭部", "capacity": 1, "itemIds": ["clothing-hat"]},
+      {"groupId": "g2", "label": "上身", "capacity": 2, "itemIds": ["clothing-shirt", "clothing-jacket"]},
+      {"groupId": "g3", "label": "下身", "capacity": 3, "itemIds": ["clothing-pants", "clothing-skirt", "clothing-shorts"]},
+      {"groupId": "g4", "label": "腳部", "capacity": 4, "itemIds": ["clothing-socks", "clothing-shoes", "clothing-boots", "clothing-sandals"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每組包含穿戴在身體同一部位的服裝：1 件頭部服飾、2 件上身服飾、3 件下身服飾和 4 件腳部服飾。",
+  "sources": [
+    {"title": "大英百科全書：服裝", "url": "https://www.britannica.com/topic/clothing", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.24},
+  "status": "scheduled"
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-covering-2026-09-19-zh-hant",
+  "puzzleFamilyId": "animal-covering-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-09-19",
+  "timezone": "UTC",
+  "theme": "動物外覆",
+  "items": [
+    {"itemId": "covering-eagle", "label": "鷹"},
+    {"itemId": "covering-dog", "label": "狗"},
+    {"itemId": "covering-cat", "label": "貓"},
+    {"itemId": "covering-snake", "label": "蛇"},
+    {"itemId": "covering-fish", "label": "魚"},
+    {"itemId": "covering-lizard", "label": "蜥蜴"},
+    {"itemId": "covering-turtle", "label": "烏龜"},
+    {"itemId": "covering-snail", "label": "蝸牛"},
+    {"itemId": "covering-oyster", "label": "牡蠣"},
+    {"itemId": "covering-clam", "label": "蛤蜊"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "外部覆蓋",
+    "groups": [
+      {"groupId": "g1", "label": "羽毛", "capacity": 1, "itemIds": ["covering-eagle"]},
+      {"groupId": "g2", "label": "毛皮", "capacity": 2, "itemIds": ["covering-dog", "covering-cat"]},
+      {"groupId": "g3", "label": "鱗片", "capacity": 3, "itemIds": ["covering-snake", "covering-fish", "covering-lizard"]},
+      {"groupId": "g4", "label": "硬殼", "capacity": 4, "itemIds": ["covering-turtle", "covering-snail", "covering-oyster", "covering-clam"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "按日常觀察中最顯眼的外部覆蓋分組：1 種以羽毛為特徵、2 種以毛皮為特徵、3 種以鱗片為特徵、4 種以硬殼為特徵。這裡的硬殼包括龜甲和軟體動物的殼，不代表它們具有相同的生物結構。烏龜也有鱗片；本題優先採用最顯眼的硬殼特徵，並非互斥的科學分類。",
+  "sources": [
+    {"title": "大英百科全書：動物", "url": "https://www.britannica.com/animal/animal", "retrievedAt": "2026-08-29"},
+    {"title": "Smithsonian Ocean：海龜與龜甲", "url": "https://ocean.si.edu/ocean-life/reptiles/sea-turtles", "retrievedAt": "2026-09-19"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.29},
+  "status": "scheduled"
+}

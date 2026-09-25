@@ -159,9 +159,18 @@ button {
 
 .site-navigation a:hover { color: var(--accent-dark); }
 
-.site-navigation__more {
+.site-navigation .site-navigation__more {
   margin-left: auto;
-  font-weight: 700;
+  padding: 6px 14px;
+  border: 1px solid var(--accent-dark);
+  border-radius: 999px;
+  color: var(--accent-dark);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.site-navigation .site-navigation__more:hover {
+  background: var(--accent-soft);
 }
 
 .masthead {

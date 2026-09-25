@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "wheels-count-2026-09-16-zh-hant",
+  "puzzleFamilyId": "wheels-count-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-09-16",
+  "timezone": "UTC",
+  "theme": "輪子物品",
+  "items": [
+    {"itemId": "wheel-unicycle", "label": "獨輪車"},
+    {"itemId": "wheel-bicycle", "label": "腳踏車"},
+    {"itemId": "wheel-motorcycle", "label": "機車"},
+    {"itemId": "wheel-tricycle", "label": "三輪車"},
+    {"itemId": "wheel-cargo-trike", "label": "貨運三輪車"},
+    {"itemId": "wheel-three-wheel-scooter", "label": "三輪滑板車"},
+    {"itemId": "wheel-car", "label": "汽車"},
+    {"itemId": "wheel-bus", "label": "公車"},
+    {"itemId": "wheel-wagon", "label": "馬車"},
+    {"itemId": "wheel-skateboard", "label": "滑板"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "輪子數量",
+    "groups": [
+      {"groupId": "g1", "label": "一輪", "capacity": 1, "itemIds": ["wheel-unicycle"]},
+      {"groupId": "g2", "label": "兩輪", "capacity": 2, "itemIds": ["wheel-bicycle", "wheel-motorcycle"]},
+      {"groupId": "g3", "label": "三輪", "capacity": 3, "itemIds": ["wheel-tricycle", "wheel-cargo-trike", "wheel-three-wheel-scooter"]},
+      {"groupId": "g4", "label": "四輪", "capacity": 4, "itemIds": ["wheel-car", "wheel-bus", "wheel-wagon", "wheel-skateboard"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每組包含輪子數量相同的物品：1 輪、2 輪、3 輪或 4 輪。",
+  "sources": [
+    {"title": "大英百科全書：輪子", "url": "https://www.britannica.com/technology/wheel", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "medium", "score": 0.43},
+  "status": "scheduled"
+}

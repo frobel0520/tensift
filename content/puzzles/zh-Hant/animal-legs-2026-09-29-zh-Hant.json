@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-legs-2026-09-29-zh-hant",
+  "puzzleFamilyId": "animal-legs-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-09-29",
+  "timezone": "UTC",
+  "theme": "動物的腿",
+  "items": [
+    {
+      "itemId": "leg-snake",
+      "label": "蛇"
+    },
+    {
+      "itemId": "leg-ostrich",
+      "label": "鴕鳥"
+    },
+    {
+      "itemId": "leg-penguin",
+      "label": "企鵝"
+    },
+    {
+      "itemId": "leg-dog",
+      "label": "狗"
+    },
+    {
+      "itemId": "leg-cat",
+      "label": "貓"
+    },
+    {
+      "itemId": "leg-horse",
+      "label": "馬"
+    },
+    {
+      "itemId": "leg-ant",
+      "label": "螞蟻"
+    },
+    {
+      "itemId": "leg-bee",
+      "label": "蜜蜂"
+    },
+    {
+      "itemId": "leg-spider",
+      "label": "蜘蛛"
+    },
+    {
+      "itemId": "leg-scorpion",
+      "label": "蠍子"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "腿的數量",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "沒有腿",
+        "capacity": 1,
+        "itemIds": [
+          "leg-snake"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "兩條腿",
+        "capacity": 2,
+        "itemIds": [
+          "leg-ostrich",
+          "leg-penguin"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "四條腿",
+        "capacity": 3,
+        "itemIds": [
+          "leg-dog",
+          "leg-cat",
+          "leg-horse"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "四條腿以上",
+        "capacity": 4,
+        "itemIds": [
+          "leg-ant",
+          "leg-bee",
+          "leg-spider",
+          "leg-scorpion"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組動物的腿數相同：1 種沒有腿、2 種兩條腿、3 種四條腿、4 種四條腿以上。",
+  "sources": [
+    {
+      "title": "維基百科：腿",
+      "url": "https://en.wikipedia.org/wiki/Leg",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.24
+  },
+  "status": "scheduled"
+}

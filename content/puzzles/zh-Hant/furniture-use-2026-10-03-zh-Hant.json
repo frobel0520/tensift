@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "furniture-use-2026-10-03-zh-hant",
+  "puzzleFamilyId": "furniture-use-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-03",
+  "timezone": "UTC",
+  "theme": "家具",
+  "items": [
+    {
+      "itemId": "furn-bed",
+      "label": "床"
+    },
+    {
+      "itemId": "furn-chair",
+      "label": "椅子"
+    },
+    {
+      "itemId": "furn-sofa",
+      "label": "沙發"
+    },
+    {
+      "itemId": "furn-wardrobe",
+      "label": "衣櫃"
+    },
+    {
+      "itemId": "furn-bookshelf",
+      "label": "書架"
+    },
+    {
+      "itemId": "furn-dresser",
+      "label": "五斗櫃"
+    },
+    {
+      "itemId": "furn-diningtable",
+      "label": "餐桌"
+    },
+    {
+      "itemId": "furn-desk",
+      "label": "書桌"
+    },
+    {
+      "itemId": "furn-coffeetable",
+      "label": "茶几"
+    },
+    {
+      "itemId": "furn-sidetable",
+      "label": "邊桌"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "常見用途",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "用來睡覺",
+        "capacity": 1,
+        "itemIds": [
+          "furn-bed"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "用來坐",
+        "capacity": 2,
+        "itemIds": [
+          "furn-chair",
+          "furn-sofa"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "用來收納",
+        "capacity": 3,
+        "itemIds": [
+          "furn-wardrobe",
+          "furn-bookshelf",
+          "furn-dresser"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "用來放東西",
+        "capacity": 4,
+        "itemIds": [
+          "furn-diningtable",
+          "furn-desk",
+          "furn-coffeetable",
+          "furn-sidetable"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組家具的日常用途相同：1 件用來睡覺、2 件用來坐、3 件用來收納、4 件用來放東西。",
+  "sources": [
+    {
+      "title": "維基百科：家具",
+      "url": "https://en.wikipedia.org/wiki/Furniture",
+      "retrievedAt": "2026-09-05"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.33
+  },
+  "status": "scheduled"
+}
