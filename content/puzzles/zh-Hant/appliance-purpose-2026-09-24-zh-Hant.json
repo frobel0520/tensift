@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "appliance-purpose-2026-09-24-zh-hant",
+  "puzzleFamilyId": "appliance-purpose-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-09-24",
+  "timezone": "UTC",
+  "theme": "家用電器",
+  "items": [
+    {"itemId": "appliance-refrigerator", "label": "冰箱"},
+    {"itemId": "appliance-oven", "label": "烤箱"},
+    {"itemId": "appliance-microwave", "label": "微波爐"},
+    {"itemId": "appliance-washing-machine", "label": "洗衣機"},
+    {"itemId": "appliance-dishwasher", "label": "洗碗機"},
+    {"itemId": "appliance-vacuum", "label": "吸塵器"},
+    {"itemId": "appliance-television", "label": "電視"},
+    {"itemId": "appliance-radio", "label": "收音機"},
+    {"itemId": "appliance-game-console", "label": "遊戲機"},
+    {"itemId": "appliance-speaker", "label": "喇叭"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "通常用途",
+    "groups": [
+      {"groupId": "g1", "label": "製冷", "capacity": 1, "itemIds": ["appliance-refrigerator"]},
+      {"groupId": "g2", "label": "加熱", "capacity": 2, "itemIds": ["appliance-oven", "appliance-microwave"]},
+      {"groupId": "g3", "label": "清潔", "capacity": 3, "itemIds": ["appliance-washing-machine", "appliance-dishwasher", "appliance-vacuum"]},
+      {"groupId": "g4", "label": "娛樂", "capacity": 4, "itemIds": ["appliance-television", "appliance-radio", "appliance-game-console", "appliance-speaker"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每組家用電器有相似的主要用途：1 件製冷電器、2 件加熱電器、3 件清潔電器和 4 件娛樂電器。",
+  "sources": [
+    {"title": "大英百科全書：家用電器", "url": "https://www.britannica.com/technology/household-appliance", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.27},
+  "status": "scheduled"
+}

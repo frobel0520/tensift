@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fruits-color-2026-09-08-zh-hant",
+  "puzzleFamilyId": "fruit-color-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-09-08",
+  "timezone": "UTC",
+  "theme": "水果",
+  "items": [
+    {"itemId": "fruit-strawberry", "label": "草莓"},
+    {"itemId": "fruit-banana", "label": "香蕉"},
+    {"itemId": "fruit-lemon", "label": "檸檬"},
+    {"itemId": "fruit-orange", "label": "柳橙"},
+    {"itemId": "fruit-peach", "label": "桃子"},
+    {"itemId": "fruit-papaya", "label": "木瓜"},
+    {"itemId": "fruit-kiwi", "label": "奇異果"},
+    {"itemId": "fruit-lime", "label": "萊姆"},
+    {"itemId": "fruit-avocado", "label": "酪梨"},
+    {"itemId": "fruit-pear", "label": "梨"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "常見顏色",
+    "groups": [
+      {"groupId": "g1", "label": "紅色", "capacity": 1, "itemIds": ["fruit-strawberry"]},
+      {"groupId": "g2", "label": "黃色", "capacity": 2, "itemIds": ["fruit-banana", "fruit-lemon"]},
+      {"groupId": "g3", "label": "橘色", "capacity": 3, "itemIds": ["fruit-orange", "fruit-peach", "fruit-papaya"]},
+      {"groupId": "g4", "label": "綠色", "capacity": 4, "itemIds": ["fruit-kiwi", "fruit-lime", "fruit-avocado", "fruit-pear"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每組包含通常與同一種顏色相關的水果：1 種紅色水果、2 種黃色水果、3 種橘色水果和 4 種綠色水果。",
+  "sources": [
+    {"title": "大英百科全書：水果", "url": "https://www.britannica.com/science/fruit", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.26},
+  "status": "scheduled"
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fictional-roles-2026-09-17-zh-hant",
+  "puzzleFamilyId": "fictional-role-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-09-17",
+  "timezone": "UTC",
+  "theme": "虛構角色",
+  "items": [
+    {"itemId": "fiction-harry-potter", "label": "哈利波特"},
+    {"itemId": "fiction-sherlock-holmes", "label": "夏洛克·福爾摩斯"},
+    {"itemId": "fiction-hercule-poirot", "label": "赫丘勒·白羅"},
+    {"itemId": "fiction-superman", "label": "超人"},
+    {"itemId": "fiction-batman", "label": "蝙蝠俠"},
+    {"itemId": "fiction-spider-man", "label": "蜘蛛人"},
+    {"itemId": "fiction-mickey-mouse", "label": "米老鼠"},
+    {"itemId": "fiction-spongebob", "label": "海綿寶寶"},
+    {"itemId": "fiction-scooby-doo", "label": "史酷比"},
+    {"itemId": "fiction-pikachu", "label": "皮卡丘"}
+  ],
+  "rows": [
+    {"rowId": "row-1", "capacity": 1},
+    {"rowId": "row-2", "capacity": 2},
+    {"rowId": "row-3", "capacity": 3},
+    {"rowId": "row-4", "capacity": 4}
+  ],
+  "solution": {
+    "hiddenDimension": "角色類型",
+    "groups": [
+      {"groupId": "g1", "label": "巫師", "capacity": 1, "itemIds": ["fiction-harry-potter"]},
+      {"groupId": "g2", "label": "偵探", "capacity": 2, "itemIds": ["fiction-sherlock-holmes", "fiction-hercule-poirot"]},
+      {"groupId": "g3", "label": "超級英雄", "capacity": 3, "itemIds": ["fiction-superman", "fiction-batman", "fiction-spider-man"]},
+      {"groupId": "g4", "label": "卡通角色", "capacity": 4, "itemIds": ["fiction-mickey-mouse", "fiction-spongebob", "fiction-scooby-doo", "fiction-pikachu"]}
+    ]
+  },
+  "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
+  "explanation": "每組包含同一種類型的知名虛構角色：1 名巫師、2 名偵探、3 名超級英雄和 4 名卡通角色。",
+  "sources": [
+    {"title": "大英百科全書：小說", "url": "https://www.britannica.com/art/fiction-literature", "retrievedAt": "2026-08-29"}
+  ],
+  "difficulty": {"band": "easy", "score": 0.30},
+  "status": "scheduled"
+}

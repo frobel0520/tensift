@@ -16,7 +16,7 @@ describe('D1 puzzle seed generator', () => {
     expect(records).toHaveLength(165);
     expect(new Set(records.map((record) => record.puzzleId)).size).toBe(165);
     expect(new Set(records.map((record) => record.puzzleFamilyId)).size).toBe(55);
-    expect(new Set(records.map((record) => record.locale))).toEqual(new Set(['en', 'es-419', 'zh-Hans']));
+    expect(new Set(records.map((record) => record.locale))).toEqual(new Set(['en', 'es-419', 'zh-Hant']));
     expect(records.some((record) => record.puzzleFamilyId === 'home-room-001')).toBe(true);
     expect(records.some((record) => record.puzzleFamilyId === 'fruit-color-001')).toBe(true);
     expect(records.some((record) => record.puzzleFamilyId === 'clothing-location-001')).toBe(true);
