@@ -1,10 +1,12 @@
 # Tensift
 
-Tensift is a multilingual hidden-rule sorting puzzle. The browser app serves one daily puzzle, while Cloudflare Pages Functions keep the canonical answer in D1.
+> Tensift is a multilingual hidden-rule sorting puzzle. The browser app serves one daily puzzle, while Cloudflare Pages Functions keep the canonical answer in D1.
+
+## Overview
 
 **Play:** https://tensift.pages.dev/ — also listed on the [Playmint](https://playmint.pages.dev/) puzzle hub; the header's “More games” link goes back there (since 2026-09-25).
 
-## Prototype rules
+## Main features and content
 
 - Ten familiar items share one visible topic.
 - Sort them into four unlabeled rows with capacities 1, 2, 3, and 4.
@@ -14,6 +16,18 @@ Tensift is a multilingual hidden-rule sorting puzzle. The browser app serves one
 - One Hint may be used at any time. It places and locks one item in the correct row.
 - Reveal answer is always available from the lower-right button.
 - Results can be shared without spoilers using the device share sheet or a clipboard fallback.
+
+## Status and known limitations
+
+Prototype approved on 2026-08-29. Deployed to production at https://tensift.pages.dev (Cloudflare Pages project `tensift` + D1 database `tensift`). Publisher content pages are live and ad serving is disabled (see [Publisher content and AdSense](#publisher-content-and-adsense)). Service state and remaining items are tracked in [`docs/deploy-readiness.md`](docs/deploy-readiness.md).
+
+SA / production design draft: [`docs/sa-production-design.md`](docs/sa-production-design.md). The implementation-level design is [`docs/system-design.md`](docs/system-design.md). The authoring contract is [`docs/puzzle.schema.json`](docs/puzzle.schema.json); proposed architecture decisions are recorded in [`docs/adr-0001-server-authoritative-answer-boundary.md`](docs/adr-0001-server-authoritative-answer-boundary.md) and [`docs/adr-0002-locale-authored-content.md`](docs/adr-0002-locale-authored-content.md).
+
+## License and sources
+
+No license file is present in the repository root; this README does not declare reuse rights.
+
+---
 
 ## Languages
 
@@ -46,12 +60,6 @@ The app is served at `http://localhost:8788/` by Pages Dev. The root [`index.htm
 ## Project documents
 
 The `docs` directory contains the approved project plan, prototype test plan, pilot puzzle pack, SA / production design, and system design package.
-
-## Current status
-
-Prototype approved on 2026-08-29. Deployed to production at https://tensift.pages.dev (Cloudflare Pages project `tensift` + D1 database `tensift`). Publisher content pages are live and ad serving is disabled (see [Publisher content and AdSense](#publisher-content-and-adsense)). Service state and remaining items are tracked in [`docs/deploy-readiness.md`](docs/deploy-readiness.md).
-
-SA / production design draft: [`docs/sa-production-design.md`](docs/sa-production-design.md). The implementation-level design is [`docs/system-design.md`](docs/system-design.md). The authoring contract is [`docs/puzzle.schema.json`](docs/puzzle.schema.json); proposed architecture decisions are recorded in [`docs/adr-0001-server-authoritative-answer-boundary.md`](docs/adr-0001-server-authoritative-answer-boundary.md) and [`docs/adr-0002-locale-authored-content.md`](docs/adr-0002-locale-authored-content.md).
 
 ## Production app
 
