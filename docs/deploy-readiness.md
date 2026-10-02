@@ -136,3 +136,27 @@ ad-network allowances removed) is deployed as `12a074a`. The three animal-coveri
 corrections were seeded to remote D1 on 2026-09-19 (Seed run 35436127944) and
 the production reveal returns the corrected text in all three locales. AdSense
 re-review has not been requested yet.
+
+
+## Harbor middleware hardening — 2026-10-02 (prepared, not deployed)
+
+Regenerated `functions/_middleware.js` from Harbor's reviewed October 1 reference
+implementation (`3ffab28`), with slug `tensift`, base URL
+`https://harbor-1wk.pages.dev`, and `/api/health` exemption. Malformed preview
+cookies no longer force maintenance fail-open; dynamic API routes ending in
+`.json` stay gated; valid GET/HEAD preview tokens redirect to a clean URL before
+serving content. Runtime configuration must match the project and cannot follow
+redirects. Existing network-failure fail-open and 800 ms timeout remain.
+
+Four tests exercise the actual generated module with synthetic local config and
+preview signing keys. All 60 tests, 165 puzzle-file validation, typecheck/build,
+public bundle scan and Pages Functions compilation passed. No dependency or
+lockfile changes were made. Do not edit the generated file by hand.
+
+This source update has not been merged or deployed. Keep the existing
+`HARBOR_PREVIEW_SECRET`; do not rotate production secrets for validation.
+After normal release, confirm the deployed artifact, briefly enable maintenance
+through an authenticated Harbor Owner, verify root 503 while `/api/health` and
+`/health` stay 200, restore the original maintenance setting, then verify root
+200. The pre-release GETs returned 200 for root and `/api/health`, with maintenance
+false; they do not satisfy maintenance-period acceptance.
