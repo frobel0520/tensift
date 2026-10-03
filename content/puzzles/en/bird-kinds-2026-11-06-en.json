@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "bird-kinds-2026-11-06-en",
+  "puzzleFamilyId": "bird-kinds-001",
+  "locale": "en",
+  "publishDate": "2026-11-06",
+  "timezone": "UTC",
+  "theme": "Kinds of Birds",
+  "items": [
+    {
+      "itemId": "bird-kinds-1",
+      "label": "Osprey"
+    },
+    {
+      "itemId": "bird-kinds-2",
+      "label": "Eagle"
+    },
+    {
+      "itemId": "bird-kinds-3",
+      "label": "Owl"
+    },
+    {
+      "itemId": "bird-kinds-4",
+      "label": "Emu"
+    },
+    {
+      "itemId": "bird-kinds-5",
+      "label": "Canary"
+    },
+    {
+      "itemId": "bird-kinds-6",
+      "label": "Duck"
+    },
+    {
+      "itemId": "bird-kinds-7",
+      "label": "Swan"
+    },
+    {
+      "itemId": "bird-kinds-8",
+      "label": "Sparrow"
+    },
+    {
+      "itemId": "bird-kinds-9",
+      "label": "Robin"
+    },
+    {
+      "itemId": "bird-kinds-10",
+      "label": "Falcon"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The kind of bird",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Flightless bird",
+        "capacity": 1,
+        "itemIds": [
+          "bird-kinds-4"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Waterfowl",
+        "capacity": 2,
+        "itemIds": [
+          "bird-kinds-6",
+          "bird-kinds-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Songbirds",
+        "capacity": 3,
+        "itemIds": [
+          "bird-kinds-8",
+          "bird-kinds-9",
+          "bird-kinds-5"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Birds of prey",
+        "capacity": 4,
+        "itemIds": [
+          "bird-kinds-2",
+          "bird-kinds-10",
+          "bird-kinds-3",
+          "bird-kinds-1"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "All ten are birds, sorted by kind: 1 flightless bird, 2 waterfowl, 3 songbirds, and 4 birds of prey.",
+  "sources": [
+    {
+      "title": "Wikipedia: Bird",
+      "url": "https://en.wikipedia.org/wiki/Bird",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

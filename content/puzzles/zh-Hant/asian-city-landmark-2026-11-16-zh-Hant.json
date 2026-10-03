@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "asian-city-landmark-2026-11-16-zh-hant",
+  "puzzleFamilyId": "asian-city-landmark-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-16",
+  "timezone": "UTC",
+  "theme": "亞洲城市地標",
+  "items": [
+    {
+      "itemId": "asian-city-landmark-1",
+      "label": "天壇"
+    },
+    {
+      "itemId": "asian-city-landmark-2",
+      "label": "首爾塔"
+    },
+    {
+      "itemId": "asian-city-landmark-3",
+      "label": "紫禁城"
+    },
+    {
+      "itemId": "asian-city-landmark-4",
+      "label": "景福宮"
+    },
+    {
+      "itemId": "asian-city-landmark-5",
+      "label": "東京鐵塔"
+    },
+    {
+      "itemId": "asian-city-landmark-6",
+      "label": "台北 101"
+    },
+    {
+      "itemId": "asian-city-landmark-7",
+      "label": "澀谷十字路口"
+    },
+    {
+      "itemId": "asian-city-landmark-8",
+      "label": "天安門廣場"
+    },
+    {
+      "itemId": "asian-city-landmark-9",
+      "label": "淺草寺"
+    },
+    {
+      "itemId": "asian-city-landmark-10",
+      "label": "頤和園"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "地標所在的城市",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "台北",
+        "capacity": 1,
+        "itemIds": [
+          "asian-city-landmark-6"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "首爾",
+        "capacity": 2,
+        "itemIds": [
+          "asian-city-landmark-4",
+          "asian-city-landmark-2"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "東京",
+        "capacity": 3,
+        "itemIds": [
+          "asian-city-landmark-5",
+          "asian-city-landmark-9",
+          "asian-city-landmark-7"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "北京",
+        "capacity": 4,
+        "itemIds": [
+          "asian-city-landmark-3",
+          "asian-city-landmark-1",
+          "asian-city-landmark-10",
+          "asian-city-landmark-8"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組地標都位於同一座城市：1 個在台北、2 個在首爾、3 個在東京，以及 4 個在北京。",
+  "sources": [
+    {
+      "title": "維基百科：台北 101",
+      "url": "https://en.wikipedia.org/wiki/Taipei_101",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：紫禁城",
+      "url": "https://en.wikipedia.org/wiki/Forbidden_City",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

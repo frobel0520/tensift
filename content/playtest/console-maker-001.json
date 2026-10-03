@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "console-maker-001",
+  "theme": "Game Consoles",
+  "publishDate": "2026-11-05",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "console-maker-9",
+        "rivalGroupId": "g3",
+        "risk": "Xbox competes head-on with PlayStation and has similar controllers.",
+        "resolution": "Xbox is made by Microsoft."
+      },
+      {
+        "itemId": "console-maker-5",
+        "rivalGroupId": "g4",
+        "risk": "The PSP is a handheld like the Game Boy.",
+        "resolution": "The PSP is Sony's handheld, so it stays with the PlayStation row."
+      },
+      {
+        "itemId": "console-maker-3",
+        "rivalGroupId": "g3",
+        "risk": "The Switch is both a handheld and a home console.",
+        "resolution": "The Switch is made by Nintendo regardless of how it is played."
+      }
+    ],
+    "notes": "Only consoles that kept a single maker across their lifetime are used."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers hesitate over Sega, replace Saturn with Mega Drive and keep Dreamcast."
+  }
+}

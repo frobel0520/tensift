@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "craft-material-2026-11-10-zh-hant",
+  "puzzleFamilyId": "craft-material-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-10",
+  "timezone": "UTC",
+  "theme": "手作工藝",
+  "items": [
+    {
+      "itemId": "craft-material-1",
+      "label": "刺繡"
+    },
+    {
+      "itemId": "craft-material-2",
+      "label": "黏土塑形"
+    },
+    {
+      "itemId": "craft-material-3",
+      "label": "吹製玻璃"
+    },
+    {
+      "itemId": "craft-material-4",
+      "label": "摺紙"
+    },
+    {
+      "itemId": "craft-material-5",
+      "label": "鉤針編織"
+    },
+    {
+      "itemId": "craft-material-6",
+      "label": "剪紙"
+    },
+    {
+      "itemId": "craft-material-7",
+      "label": "陶藝"
+    },
+    {
+      "itemId": "craft-material-8",
+      "label": "織布"
+    },
+    {
+      "itemId": "craft-material-9",
+      "label": "紙漿工藝"
+    },
+    {
+      "itemId": "craft-material-10",
+      "label": "針織"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "手作使用的材料",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "玻璃",
+        "capacity": 1,
+        "itemIds": [
+          "craft-material-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "黏土",
+        "capacity": 2,
+        "itemIds": [
+          "craft-material-7",
+          "craft-material-2"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "紙",
+        "capacity": 3,
+        "itemIds": [
+          "craft-material-4",
+          "craft-material-6",
+          "craft-material-9"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "紗線",
+        "capacity": 4,
+        "itemIds": [
+          "craft-material-10",
+          "craft-material-5",
+          "craft-material-1",
+          "craft-material-8"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組手作都使用同一種材料：1 項用玻璃、2 項用黏土、3 項用紙，以及 4 項用紗線。",
+  "sources": [
+    {
+      "title": "維基百科：手工藝",
+      "url": "https://en.wikipedia.org/wiki/Handicraft",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

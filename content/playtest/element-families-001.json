@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "element-families-001",
+  "theme": "Families of Elements",
+  "publishDate": "2026-11-20",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "element-families-10",
+        "rivalGroupId": "g1",
+        "risk": "Sodium and calcium are both metals in the same salt-and-minerals area of daily life.",
+        "resolution": "Sodium is in the first column (alkali metals) and calcium is in the second column (alkaline earth metals)."
+      },
+      {
+        "itemId": "element-families-5",
+        "rivalGroupId": "g4",
+        "risk": "Chlorine is a gas at room temperature, like the noble gases.",
+        "resolution": "Chlorine is a reactive halogen, in the group next to the noble gases."
+      },
+      {
+        "itemId": "element-families-7",
+        "rivalGroupId": "g3",
+        "risk": "Iodine is a solid, unlike chlorine.",
+        "resolution": "Iodine is in the same chemical family as chlorine."
+      }
+    ],
+    "notes": "Hard on purpose: it rewards school chemistry, so it sits near the end of the batch."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers split on calcium, replace it with magnesium."
+  }
+}

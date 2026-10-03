@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fruit-growth-2026-10-26-en",
+  "puzzleFamilyId": "fruit-growth-001",
+  "locale": "en",
+  "publishDate": "2026-10-26",
+  "timezone": "UTC",
+  "theme": "How Fruit Grows",
+  "items": [
+    {
+      "itemId": "fruit-growth-1",
+      "label": "Apple"
+    },
+    {
+      "itemId": "fruit-growth-2",
+      "label": "Kiwi"
+    },
+    {
+      "itemId": "fruit-growth-3",
+      "label": "Mango"
+    },
+    {
+      "itemId": "fruit-growth-4",
+      "label": "Passion fruit"
+    },
+    {
+      "itemId": "fruit-growth-5",
+      "label": "Pineapple"
+    },
+    {
+      "itemId": "fruit-growth-6",
+      "label": "Orange"
+    },
+    {
+      "itemId": "fruit-growth-7",
+      "label": "Peach"
+    },
+    {
+      "itemId": "fruit-growth-8",
+      "label": "Grape"
+    },
+    {
+      "itemId": "fruit-growth-9",
+      "label": "Blueberry"
+    },
+    {
+      "itemId": "fruit-growth-10",
+      "label": "Strawberry"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The plant the fruit grows on",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Grows on a bush",
+        "capacity": 1,
+        "itemIds": [
+          "fruit-growth-9"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Grows low on the ground",
+        "capacity": 2,
+        "itemIds": [
+          "fruit-growth-10",
+          "fruit-growth-5"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Grows on a vine",
+        "capacity": 3,
+        "itemIds": [
+          "fruit-growth-8",
+          "fruit-growth-2",
+          "fruit-growth-4"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Grows on a tree",
+        "capacity": 4,
+        "itemIds": [
+          "fruit-growth-1",
+          "fruit-growth-6",
+          "fruit-growth-3",
+          "fruit-growth-7"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group grows the same way: 1 fruit on a bush, 2 on low plants near the ground, 3 on climbing vines, and 4 on trees.",
+  "sources": [
+    {
+      "title": "Wikipedia: Pineapple",
+      "url": "https://en.wikipedia.org/wiki/Pineapple",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Kiwifruit",
+      "url": "https://en.wikipedia.org/wiki/Kiwifruit",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

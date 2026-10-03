@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "animation-studio-001",
+  "theme": "Animation Studios",
+  "publishDate": "2026-11-09",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "animation-studio-7",
+        "rivalGroupId": "g4",
+        "risk": "Disney owns Pixar and released its films.",
+        "resolution": "Pixar made Toy Story, and the puzzle sorts by the studio that made the film."
+      },
+      {
+        "itemId": "animation-studio-8",
+        "rivalGroupId": "g4",
+        "risk": "Finding Nemo is a Disney-released family film.",
+        "resolution": "Pixar made Finding Nemo."
+      },
+      {
+        "itemId": "animation-studio-3",
+        "rivalGroupId": "g4",
+        "risk": "Shrek parodies Disney fairy tales and might be placed beside them.",
+        "resolution": "Shrek is a DreamWorks film."
+      }
+    ],
+    "notes": "Spanish titles follow the Latin American release names."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers split on Pixar versus Disney, replace one Pixar film with a film from Studio Laika."
+  }
+}

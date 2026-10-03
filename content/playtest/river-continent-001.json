@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "river-continent-001",
+  "theme": "Rivers of the World",
+  "publishDate": "2026-10-29",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "river-continent-7",
+        "rivalGroupId": "g4",
+        "risk": "Russia spans Europe and Asia, so the Volga might be pulled toward Asia.",
+        "resolution": "The Volga runs through European Russia from near Moscow to the Caspian Sea."
+      },
+      {
+        "itemId": "river-continent-2",
+        "rivalGroupId": "g2",
+        "risk": "The Nile reaches the Mediterranean, near Europe.",
+        "resolution": "It flows north through Africa for almost its entire length."
+      },
+      {
+        "itemId": "river-continent-6",
+        "rivalGroupId": "g4",
+        "risk": "The Thames is much shorter than the great rivers of Asia, so size might mislead.",
+        "resolution": "The dimension is location, and the Thames flows through England."
+      }
+    ],
+    "notes": "North America is skipped because Mississippi and Missouri would make a near-duplicate pair."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers hesitate over the Niger, replace it with the Zambezi."
+  }
+}

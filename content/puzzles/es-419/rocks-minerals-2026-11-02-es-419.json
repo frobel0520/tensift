@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "rocks-minerals-2026-11-02-es-419",
+  "puzzleFamilyId": "rocks-minerals-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-02",
+  "timezone": "UTC",
+  "theme": "Rocas y minerales",
+  "items": [
+    {
+      "itemId": "rocks-minerals-1",
+      "label": "Granito"
+    },
+    {
+      "itemId": "rocks-minerals-2",
+      "label": "Cuarzo"
+    },
+    {
+      "itemId": "rocks-minerals-3",
+      "label": "Piedra pómez"
+    },
+    {
+      "itemId": "rocks-minerals-4",
+      "label": "Obsidiana"
+    },
+    {
+      "itemId": "rocks-minerals-5",
+      "label": "Lutita"
+    },
+    {
+      "itemId": "rocks-minerals-6",
+      "label": "Basalto"
+    },
+    {
+      "itemId": "rocks-minerals-7",
+      "label": "Caliza"
+    },
+    {
+      "itemId": "rocks-minerals-8",
+      "label": "Mármol"
+    },
+    {
+      "itemId": "rocks-minerals-9",
+      "label": "Pizarra"
+    },
+    {
+      "itemId": "rocks-minerals-10",
+      "label": "Arenisca"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cómo se formó la roca, o un mineral",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Un solo mineral",
+        "capacity": 1,
+        "itemIds": [
+          "rocks-minerals-2"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Roca metamórfica",
+        "capacity": 2,
+        "itemIds": [
+          "rocks-minerals-8",
+          "rocks-minerals-9"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Roca sedimentaria",
+        "capacity": 3,
+        "itemIds": [
+          "rocks-minerals-10",
+          "rocks-minerals-7",
+          "rocks-minerals-5"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Roca ígnea",
+        "capacity": 4,
+        "itemIds": [
+          "rocks-minerals-1",
+          "rocks-minerals-6",
+          "rocks-minerals-4",
+          "rocks-minerals-3"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo se formó igual: 1 mineral individual, 2 rocas metamórficas cambiadas por calor y presión, 3 rocas sedimentarias hechas de material depositado y 4 rocas ígneas de magma o lava enfriados.",
+  "sources": [
+    {
+      "title": "Wikipedia: Roca",
+      "url": "https://en.wikipedia.org/wiki/Rock_(geology)",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Mineral",
+      "url": "https://en.wikipedia.org/wiki/Mineral",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.63
+  },
+  "status": "scheduled"
+}

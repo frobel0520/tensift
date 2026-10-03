@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "game-kinds-001",
+  "theme": "Kinds of Games",
+  "publishDate": "2026-10-31",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "game-kinds-1",
+        "rivalGroupId": "g3",
+        "risk": "Mahjong is played at a table with pieces, like a board game.",
+        "resolution": "Mahjong has no board; the whole game is built from tiles."
+      },
+      {
+        "itemId": "game-kinds-9",
+        "rivalGroupId": "g2",
+        "risk": "Monopoly also has card-based spin-offs.",
+        "resolution": "The classic Monopoly is a board game with a board, dice and tokens."
+      },
+      {
+        "itemId": "game-kinds-2",
+        "rivalGroupId": "g1",
+        "risk": "Tetris pieces look like tiles.",
+        "resolution": "Tetris is a video game; the pieces exist only on a screen."
+      }
+    ],
+    "notes": "UNO and Monopoly are brand names, which are acceptable here because both are used as the genre's standard example."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers argue over the Go row, replace Go with Checkers."
+  }
+}

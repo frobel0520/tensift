@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "console-maker-2026-11-05-zh-hant",
+  "puzzleFamilyId": "console-maker-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-05",
+  "timezone": "UTC",
+  "theme": "遊戲主機",
+  "items": [
+    {
+      "itemId": "console-maker-1",
+      "label": "Dreamcast"
+    },
+    {
+      "itemId": "console-maker-2",
+      "label": "GameCube"
+    },
+    {
+      "itemId": "console-maker-3",
+      "label": "Switch"
+    },
+    {
+      "itemId": "console-maker-4",
+      "label": "Game Boy"
+    },
+    {
+      "itemId": "console-maker-5",
+      "label": "PSP"
+    },
+    {
+      "itemId": "console-maker-6",
+      "label": "世嘉土星"
+    },
+    {
+      "itemId": "console-maker-7",
+      "label": "Wii"
+    },
+    {
+      "itemId": "console-maker-8",
+      "label": "PlayStation 5"
+    },
+    {
+      "itemId": "console-maker-9",
+      "label": "Xbox"
+    },
+    {
+      "itemId": "console-maker-10",
+      "label": "PlayStation 2"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "製造主機的公司",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "微軟",
+        "capacity": 1,
+        "itemIds": [
+          "console-maker-9"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "世嘉",
+        "capacity": 2,
+        "itemIds": [
+          "console-maker-1",
+          "console-maker-6"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "索尼",
+        "capacity": 3,
+        "itemIds": [
+          "console-maker-10",
+          "console-maker-5",
+          "console-maker-8"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "任天堂",
+        "capacity": 4,
+        "itemIds": [
+          "console-maker-3",
+          "console-maker-7",
+          "console-maker-4",
+          "console-maker-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組主機都由同一家公司製造：1 部微軟主機、2 部世嘉主機、3 部索尼主機，以及 4 部任天堂主機。",
+  "sources": [
+    {
+      "title": "維基百科：電子遊戲機",
+      "url": "https://en.wikipedia.org/wiki/Video_game_console",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.4
+  },
+  "status": "scheduled"
+}

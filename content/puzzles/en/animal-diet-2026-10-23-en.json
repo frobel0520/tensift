@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-diet-2026-10-23-en",
+  "puzzleFamilyId": "animal-diet-001",
+  "locale": "en",
+  "publishDate": "2026-10-23",
+  "timezone": "UTC",
+  "theme": "Animal Diets",
+  "items": [
+    {
+      "itemId": "animal-diet-1",
+      "label": "Giraffe"
+    },
+    {
+      "itemId": "animal-diet-2",
+      "label": "Horse"
+    },
+    {
+      "itemId": "animal-diet-3",
+      "label": "Anteater"
+    },
+    {
+      "itemId": "animal-diet-4",
+      "label": "Lion"
+    },
+    {
+      "itemId": "animal-diet-5",
+      "label": "Rabbit"
+    },
+    {
+      "itemId": "animal-diet-6",
+      "label": "Cow"
+    },
+    {
+      "itemId": "animal-diet-7",
+      "label": "Wolf"
+    },
+    {
+      "itemId": "animal-diet-8",
+      "label": "Pig"
+    },
+    {
+      "itemId": "animal-diet-9",
+      "label": "Raccoon"
+    },
+    {
+      "itemId": "animal-diet-10",
+      "label": "Shark"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "What the animal mainly eats",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Eats mostly insects",
+        "capacity": 1,
+        "itemIds": [
+          "animal-diet-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Eats both plants and animals",
+        "capacity": 2,
+        "itemIds": [
+          "animal-diet-8",
+          "animal-diet-9"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Eats mostly meat",
+        "capacity": 3,
+        "itemIds": [
+          "animal-diet-4",
+          "animal-diet-10",
+          "animal-diet-7"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Eats only plants",
+        "capacity": 4,
+        "itemIds": [
+          "animal-diet-6",
+          "animal-diet-5",
+          "animal-diet-1",
+          "animal-diet-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group eats differently: 1 insect eater, 2 omnivores that eat both plants and animals, 3 carnivores that live mainly on meat, and 4 herbivores that eat only plants.",
+  "sources": [
+    {
+      "title": "Wikipedia: Omnivore",
+      "url": "https://en.wikipedia.org/wiki/Omnivore",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Carnivore",
+      "url": "https://en.wikipedia.org/wiki/Carnivore",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.26
+  },
+  "status": "scheduled"
+}

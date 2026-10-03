@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "fruit-growth-001",
+  "theme": "How Fruit Grows",
+  "publishDate": "2026-10-26",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "fruit-growth-5",
+        "rivalGroupId": "g4",
+        "risk": "Pineapples are often imagined hanging from palm-like trees.",
+        "resolution": "A pineapple sits on a low, spiky plant at ground level."
+      },
+      {
+        "itemId": "fruit-growth-9",
+        "rivalGroupId": "g2",
+        "risk": "Wild lowbush blueberries stay close to the ground.",
+        "resolution": "The blueberries shoppers know come from cultivated bushes; the puzzle follows that common picture."
+      },
+      {
+        "itemId": "fruit-growth-10",
+        "rivalGroupId": "g3",
+        "risk": "Strawberry runners trail along the soil a little like vines.",
+        "resolution": "Strawberries grow in low clumps; a vine climbs, and the strawberry does not."
+      },
+      {
+        "itemId": "fruit-growth-2",
+        "rivalGroupId": "g4",
+        "risk": "Kiwi looks like tree fruit in a shop.",
+        "resolution": "Kiwifruit grows on woody climbing vines that growers train on frames."
+      }
+    ],
+    "notes": "Banana and watermelon are avoided because \"tree\" and \"vine\" are contested for them."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers split on the blueberry, replace it with a currant or raspberry and keep the \"bush\" label."
+  }
+}

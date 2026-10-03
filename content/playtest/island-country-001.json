@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "island-country-001",
+  "theme": "Islands of the World",
+  "publishDate": "2026-11-08",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "island-country-4",
+        "rivalGroupId": "g1",
+        "risk": "Bali and Phuket are both well-known tropical resort islands.",
+        "resolution": "Bali is part of Indonesia; Phuket is part of Thailand."
+      },
+      {
+        "itemId": "island-country-6",
+        "rivalGroupId": "g3",
+        "risk": "Okinawa has its own history as the Ryukyu Kingdom and a tropical climate.",
+        "resolution": "Okinawa is a prefecture of Japan."
+      },
+      {
+        "itemId": "island-country-3",
+        "rivalGroupId": "g2",
+        "risk": "Java is also a coffee and a programming-language name, which may confuse the label.",
+        "resolution": "The island of Java is the main island of Indonesia."
+      }
+    ],
+    "notes": "Borneo is left out because it is shared by three countries."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers hesitate over Okinawa, replace it with Shikoku."
+  }
+}

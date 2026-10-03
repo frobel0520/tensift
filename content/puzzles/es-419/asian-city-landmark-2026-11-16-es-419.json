@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "asian-city-landmark-2026-11-16-es-419",
+  "puzzleFamilyId": "asian-city-landmark-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-16",
+  "timezone": "UTC",
+  "theme": "Monumentos de Asia",
+  "items": [
+    {
+      "itemId": "asian-city-landmark-1",
+      "label": "Templo del Cielo"
+    },
+    {
+      "itemId": "asian-city-landmark-2",
+      "label": "Torre N de Seúl"
+    },
+    {
+      "itemId": "asian-city-landmark-3",
+      "label": "Ciudad Prohibida"
+    },
+    {
+      "itemId": "asian-city-landmark-4",
+      "label": "Palacio Gyeongbokgung"
+    },
+    {
+      "itemId": "asian-city-landmark-5",
+      "label": "Torre de Tokio"
+    },
+    {
+      "itemId": "asian-city-landmark-6",
+      "label": "Taipei 101"
+    },
+    {
+      "itemId": "asian-city-landmark-7",
+      "label": "Cruce de Shibuya"
+    },
+    {
+      "itemId": "asian-city-landmark-8",
+      "label": "Plaza de Tiananmén"
+    },
+    {
+      "itemId": "asian-city-landmark-9",
+      "label": "Templo Sensō-ji"
+    },
+    {
+      "itemId": "asian-city-landmark-10",
+      "label": "Palacio de Verano"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "La ciudad donde está el monumento",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Taipéi",
+        "capacity": 1,
+        "itemIds": [
+          "asian-city-landmark-6"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Seúl",
+        "capacity": 2,
+        "itemIds": [
+          "asian-city-landmark-4",
+          "asian-city-landmark-2"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Tokio",
+        "capacity": 3,
+        "itemIds": [
+          "asian-city-landmark-5",
+          "asian-city-landmark-9",
+          "asian-city-landmark-7"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Pekín",
+        "capacity": 4,
+        "itemIds": [
+          "asian-city-landmark-3",
+          "asian-city-landmark-1",
+          "asian-city-landmark-10",
+          "asian-city-landmark-8"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo de monumentos está en una ciudad: 1 en Taipéi, 2 en Seúl, 3 en Tokio y 4 en Pekín.",
+  "sources": [
+    {
+      "title": "Wikipedia: Taipei 101",
+      "url": "https://en.wikipedia.org/wiki/Taipei_101",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Ciudad Prohibida",
+      "url": "https://en.wikipedia.org/wiki/Forbidden_City",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

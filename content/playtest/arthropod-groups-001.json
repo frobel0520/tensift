@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "arthropod-groups-001",
+  "theme": "Arthropods",
+  "publishDate": "2026-11-04",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "arthropod-groups-1",
+        "rivalGroupId": "g4",
+        "risk": "Spiders are commonly called insects in everyday speech.",
+        "resolution": "Spiders have eight legs and two body sections, which makes them arachnids."
+      },
+      {
+        "itemId": "arthropod-groups-3",
+        "rivalGroupId": "g4",
+        "risk": "Ticks are called bugs and bite like mosquitoes.",
+        "resolution": "Ticks have eight legs as adults and are arachnids, related to spiders and mites."
+      },
+      {
+        "itemId": "arthropod-groups-5",
+        "rivalGroupId": "g4",
+        "risk": "Centipedes crawl like insects and are called bugs.",
+        "resolution": "A centipede has one pair of legs on nearly every body segment, which places it among the myriapods."
+      },
+      {
+        "itemId": "arthropod-groups-4",
+        "rivalGroupId": "g4",
+        "risk": "Shrimp are sometimes called \"bugs of the sea\".",
+        "resolution": "Shrimp are crustaceans, grouped with crabs."
+      }
+    ],
+    "notes": "Reveal text names the six-leg and eight-leg rule so the lesson is fair."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers hesitate over the tick, replace it with a mite or a harvestman and keep the arachnid label."
+  }
+}

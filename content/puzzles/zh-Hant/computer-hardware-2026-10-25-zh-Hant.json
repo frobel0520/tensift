@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "computer-hardware-2026-10-25-zh-hant",
+  "puzzleFamilyId": "computer-hardware-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-25",
+  "timezone": "UTC",
+  "theme": "電腦硬體",
+  "items": [
+    {
+      "itemId": "computer-hardware-1",
+      "label": "鍵盤"
+    },
+    {
+      "itemId": "computer-hardware-2",
+      "label": "硬碟"
+    },
+    {
+      "itemId": "computer-hardware-3",
+      "label": "喇叭"
+    },
+    {
+      "itemId": "computer-hardware-4",
+      "label": "滑鼠"
+    },
+    {
+      "itemId": "computer-hardware-5",
+      "label": "螢幕"
+    },
+    {
+      "itemId": "computer-hardware-6",
+      "label": "印表機"
+    },
+    {
+      "itemId": "computer-hardware-7",
+      "label": "網路攝影機"
+    },
+    {
+      "itemId": "computer-hardware-8",
+      "label": "隨身碟"
+    },
+    {
+      "itemId": "computer-hardware-9",
+      "label": "麥克風"
+    },
+    {
+      "itemId": "computer-hardware-10",
+      "label": "處理器（CPU）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "在電腦裡的功用",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "負責運算",
+        "capacity": 1,
+        "itemIds": [
+          "computer-hardware-10"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "儲存資料",
+        "capacity": 2,
+        "itemIds": [
+          "computer-hardware-2",
+          "computer-hardware-8"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "輸出結果",
+        "capacity": 3,
+        "itemIds": [
+          "computer-hardware-5",
+          "computer-hardware-6",
+          "computer-hardware-3"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "輸入資訊",
+        "capacity": 4,
+        "itemIds": [
+          "computer-hardware-1",
+          "computer-hardware-4",
+          "computer-hardware-9",
+          "computer-hardware-7"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組在電腦裡做同一類工作：1 個負責運算、2 個負責儲存、3 個負責輸出結果，以及 4 個負責輸入資訊。",
+  "sources": [
+    {
+      "title": "維基百科：電腦硬體",
+      "url": "https://en.wikipedia.org/wiki/Computer_hardware",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：輸入裝置",
+      "url": "https://en.wikipedia.org/wiki/Input_device",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

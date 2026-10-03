@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "mammal-orders-2026-11-01-es-419",
+  "puzzleFamilyId": "mammal-orders-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-01",
+  "timezone": "UTC",
+  "theme": "Familias de mamíferos",
+  "items": [
+    {
+      "itemId": "mammal-orders-1",
+      "label": "Canguro"
+    },
+    {
+      "itemId": "mammal-orders-2",
+      "label": "Gorila"
+    },
+    {
+      "itemId": "mammal-orders-3",
+      "label": "Castor"
+    },
+    {
+      "itemId": "mammal-orders-4",
+      "label": "Ornitorrinco"
+    },
+    {
+      "itemId": "mammal-orders-5",
+      "label": "Ardilla"
+    },
+    {
+      "itemId": "mammal-orders-6",
+      "label": "Capibara"
+    },
+    {
+      "itemId": "mammal-orders-7",
+      "label": "Koala"
+    },
+    {
+      "itemId": "mammal-orders-8",
+      "label": "Chimpancé"
+    },
+    {
+      "itemId": "mammal-orders-9",
+      "label": "Rata"
+    },
+    {
+      "itemId": "mammal-orders-10",
+      "label": "Orangután"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El grupo de mamíferos al que pertenece",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Mamíferos que ponen huevos",
+        "capacity": 1,
+        "itemIds": [
+          "mammal-orders-4"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Marsupiales",
+        "capacity": 2,
+        "itemIds": [
+          "mammal-orders-1",
+          "mammal-orders-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Primates",
+        "capacity": 3,
+        "itemIds": [
+          "mammal-orders-2",
+          "mammal-orders-8",
+          "mammal-orders-10"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Roedores",
+        "capacity": 4,
+        "itemIds": [
+          "mammal-orders-9",
+          "mammal-orders-5",
+          "mammal-orders-3",
+          "mammal-orders-6"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Los diez son mamíferos, ordenados por grupo: 1 mamífero que pone huevos, 2 marsupiales, 3 primates y 4 roedores.",
+  "sources": [
+    {
+      "title": "Wikipedia: Mammalia",
+      "url": "https://en.wikipedia.org/wiki/Mammal",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

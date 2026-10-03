@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "myth-culture-2026-11-14-es-419",
+  "puzzleFamilyId": "myth-culture-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-14",
+  "timezone": "UTC",
+  "theme": "Mitología del mundo",
+  "items": [
+    {
+      "itemId": "myth-culture-1",
+      "label": "Thor"
+    },
+    {
+      "itemId": "myth-culture-2",
+      "label": "Hades"
+    },
+    {
+      "itemId": "myth-culture-3",
+      "label": "Anubis"
+    },
+    {
+      "itemId": "myth-culture-4",
+      "label": "Amaterasu"
+    },
+    {
+      "itemId": "myth-culture-5",
+      "label": "Zeus"
+    },
+    {
+      "itemId": "myth-culture-6",
+      "label": "Loki"
+    },
+    {
+      "itemId": "myth-culture-7",
+      "label": "Odín"
+    },
+    {
+      "itemId": "myth-culture-8",
+      "label": "Atenea"
+    },
+    {
+      "itemId": "myth-culture-9",
+      "label": "Poseidón"
+    },
+    {
+      "itemId": "myth-culture-10",
+      "label": "Ra"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "La mitología a la que pertenece el dios",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Mitología japonesa",
+        "capacity": 1,
+        "itemIds": [
+          "myth-culture-4"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Mitología egipcia",
+        "capacity": 2,
+        "itemIds": [
+          "myth-culture-10",
+          "myth-culture-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Mitología nórdica",
+        "capacity": 3,
+        "itemIds": [
+          "myth-culture-7",
+          "myth-culture-1",
+          "myth-culture-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Mitología griega",
+        "capacity": 4,
+        "itemIds": [
+          "myth-culture-5",
+          "myth-culture-8",
+          "myth-culture-9",
+          "myth-culture-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo viene de una mitología: 1 diosa japonesa, 2 dioses egipcios, 3 dioses nórdicos y 4 dioses griegos.",
+  "sources": [
+    {
+      "title": "Wikipedia: Mitología griega",
+      "url": "https://en.wikipedia.org/wiki/Greek_mythology",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Mitología nórdica",
+      "url": "https://en.wikipedia.org/wiki/Norse_mythology",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

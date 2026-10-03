@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "track-field-001",
+  "theme": "Track and Field",
+  "publishDate": "2026-10-30",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "track-field-6",
+        "rivalGroupId": "g2",
+        "risk": "The decathlon includes running, jumping and throwing.",
+        "resolution": "It is the one event that combines all three, so it stands alone as its own category."
+      },
+      {
+        "itemId": "track-field-1",
+        "rivalGroupId": "g4",
+        "risk": "Pole vaulters carry a long pole much like a javelin.",
+        "resolution": "Pole vault is a jump over a bar and is scored by height."
+      },
+      {
+        "itemId": "track-field-8",
+        "rivalGroupId": "g1",
+        "risk": "The marathon is a long test of endurance, as the decathlon is.",
+        "resolution": "The marathon is a single race and sits with the 100 m as a running event."
+      }
+    ],
+    "notes": "Hurdles and relays are left out because \"running over obstacles\" muddies the running row."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers hesitate over the decathlon, replace it with the heptathlon and relabel the row \"Multi-event\"."
+  }
+}

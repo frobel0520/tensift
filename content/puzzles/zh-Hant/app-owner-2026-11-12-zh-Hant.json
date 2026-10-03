@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "app-owner-2026-11-12-zh-hant",
+  "puzzleFamilyId": "app-owner-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-12",
+  "timezone": "UTC",
+  "theme": "App 的東家",
+  "items": [
+    {
+      "itemId": "app-owner-1",
+      "label": "Instagram"
+    },
+    {
+      "itemId": "app-owner-2",
+      "label": "WhatsApp"
+    },
+    {
+      "itemId": "app-owner-3",
+      "label": "GitHub"
+    },
+    {
+      "itemId": "app-owner-4",
+      "label": "Twitch"
+    },
+    {
+      "itemId": "app-owner-5",
+      "label": "Gmail"
+    },
+    {
+      "itemId": "app-owner-6",
+      "label": "Google 地圖"
+    },
+    {
+      "itemId": "app-owner-7",
+      "label": "YouTube"
+    },
+    {
+      "itemId": "app-owner-8",
+      "label": "LinkedIn"
+    },
+    {
+      "itemId": "app-owner-9",
+      "label": "Facebook"
+    },
+    {
+      "itemId": "app-owner-10",
+      "label": "Android"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "擁有這個 App 的公司",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "亞馬遜",
+        "capacity": 1,
+        "itemIds": [
+          "app-owner-4"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "微軟",
+        "capacity": 2,
+        "itemIds": [
+          "app-owner-8",
+          "app-owner-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Meta 平台公司",
+        "capacity": 3,
+        "itemIds": [
+          "app-owner-9",
+          "app-owner-1",
+          "app-owner-2"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Google",
+        "capacity": 4,
+        "itemIds": [
+          "app-owner-7",
+          "app-owner-5",
+          "app-owner-6",
+          "app-owner-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組都屬於同一家公司：1 個由亞馬遜擁有、2 個由微軟擁有、3 個由 Meta 擁有，以及 4 個由 Google 擁有。",
+  "sources": [
+    {
+      "title": "維基百科：Meta 平台公司",
+      "url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：Alphabet",
+      "url": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

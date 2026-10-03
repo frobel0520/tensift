@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "myth-culture-2026-11-14-en",
+  "puzzleFamilyId": "myth-culture-001",
+  "locale": "en",
+  "publishDate": "2026-11-14",
+  "timezone": "UTC",
+  "theme": "Myths of the World",
+  "items": [
+    {
+      "itemId": "myth-culture-1",
+      "label": "Thor"
+    },
+    {
+      "itemId": "myth-culture-2",
+      "label": "Hades"
+    },
+    {
+      "itemId": "myth-culture-3",
+      "label": "Anubis"
+    },
+    {
+      "itemId": "myth-culture-4",
+      "label": "Amaterasu"
+    },
+    {
+      "itemId": "myth-culture-5",
+      "label": "Zeus"
+    },
+    {
+      "itemId": "myth-culture-6",
+      "label": "Loki"
+    },
+    {
+      "itemId": "myth-culture-7",
+      "label": "Odin"
+    },
+    {
+      "itemId": "myth-culture-8",
+      "label": "Athena"
+    },
+    {
+      "itemId": "myth-culture-9",
+      "label": "Poseidon"
+    },
+    {
+      "itemId": "myth-culture-10",
+      "label": "Ra"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The mythology the god belongs to",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Japanese",
+        "capacity": 1,
+        "itemIds": [
+          "myth-culture-4"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Egyptian",
+        "capacity": 2,
+        "itemIds": [
+          "myth-culture-10",
+          "myth-culture-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Norse",
+        "capacity": 3,
+        "itemIds": [
+          "myth-culture-7",
+          "myth-culture-1",
+          "myth-culture-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Greek",
+        "capacity": 4,
+        "itemIds": [
+          "myth-culture-5",
+          "myth-culture-8",
+          "myth-culture-9",
+          "myth-culture-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group comes from one mythology: 1 Japanese goddess, 2 Egyptian gods, 3 Norse gods, and 4 Greek gods.",
+  "sources": [
+    {
+      "title": "Wikipedia: Greek mythology",
+      "url": "https://en.wikipedia.org/wiki/Greek_mythology",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Norse mythology",
+      "url": "https://en.wikipedia.org/wiki/Norse_mythology",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

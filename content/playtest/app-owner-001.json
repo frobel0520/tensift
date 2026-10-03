@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "app-owner-001",
+  "theme": "Apps and Their Owners",
+  "publishDate": "2026-11-12",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "app-owner-7",
+        "rivalGroupId": "g3",
+        "risk": "YouTube is a social video platform like Instagram.",
+        "resolution": "Google bought YouTube in 2006, so it sits with the Google row."
+      },
+      {
+        "itemId": "app-owner-3",
+        "rivalGroupId": "g4",
+        "risk": "GitHub is a developer tool, a field Google also serves.",
+        "resolution": "Microsoft bought GitHub in 2018."
+      },
+      {
+        "itemId": "app-owner-8",
+        "rivalGroupId": "g3",
+        "risk": "LinkedIn is a social network, like Facebook.",
+        "resolution": "Microsoft bought LinkedIn in 2016."
+      },
+      {
+        "itemId": "app-owner-4",
+        "rivalGroupId": "g3",
+        "risk": "Twitch is a social streaming platform, like Instagram Live.",
+        "resolution": "Amazon bought Twitch in 2014."
+      }
+    ],
+    "notes": "Ownership facts are as of 2026-10-03; re-check before the release date because acquisitions can change."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If an ownership fact changes before release, swap the affected app for another with a stable owner."
+  }
+}

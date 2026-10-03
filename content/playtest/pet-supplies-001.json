@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "pet-supplies-001",
+  "theme": "Pet Supplies",
+  "publishDate": "2026-10-24",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "pet-supplies-1",
+        "rivalGroupId": "g3",
+        "risk": "Some owners walk cats on a leash.",
+        "resolution": "The leash is the classic dog item; cat harnesses are the exception, not the default."
+      },
+      {
+        "itemId": "pet-supplies-8",
+        "rivalGroupId": "g4",
+        "risk": "Exercise wheels and treadmills also exist for dogs and cats.",
+        "resolution": "The wheel in a cage is the hamster icon; no other item in the puzzle points to small caged pets."
+      },
+      {
+        "itemId": "pet-supplies-5",
+        "rivalGroupId": "g4",
+        "risk": "Fish food is food, like the dog biscuit.",
+        "resolution": "Fish food and the aquarium share the one pet that lives in water."
+      }
+    ],
+    "notes": "Deliberately easy: this is the gentle day of the batch."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers think the wheel is for dogs, replace it with a bird cage or a rabbit hutch."
+  }
+}

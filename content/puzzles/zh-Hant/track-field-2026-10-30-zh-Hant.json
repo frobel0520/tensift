@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "track-field-2026-10-30-zh-hant",
+  "puzzleFamilyId": "track-field-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-30",
+  "timezone": "UTC",
+  "theme": "田徑項目",
+  "items": [
+    {
+      "itemId": "track-field-1",
+      "label": "撐竿跳"
+    },
+    {
+      "itemId": "track-field-2",
+      "label": "跳遠"
+    },
+    {
+      "itemId": "track-field-3",
+      "label": "擲標槍"
+    },
+    {
+      "itemId": "track-field-4",
+      "label": "跳高"
+    },
+    {
+      "itemId": "track-field-5",
+      "label": "100 公尺短跑"
+    },
+    {
+      "itemId": "track-field-6",
+      "label": "十項全能"
+    },
+    {
+      "itemId": "track-field-7",
+      "label": "推鉛球"
+    },
+    {
+      "itemId": "track-field-8",
+      "label": "馬拉松"
+    },
+    {
+      "itemId": "track-field-9",
+      "label": "擲鏈球"
+    },
+    {
+      "itemId": "track-field-10",
+      "label": "擲鐵餅"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "田徑項目的類型",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "綜合項目",
+        "capacity": 1,
+        "itemIds": [
+          "track-field-6"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "賽跑項目",
+        "capacity": 2,
+        "itemIds": [
+          "track-field-5",
+          "track-field-8"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "跳躍項目",
+        "capacity": 3,
+        "itemIds": [
+          "track-field-4",
+          "track-field-2",
+          "track-field-1"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "投擲項目",
+        "capacity": 4,
+        "itemIds": [
+          "track-field-3",
+          "track-field-7",
+          "track-field-10",
+          "track-field-9"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組都是同一類田徑項目：1 個綜合項目、2 個賽跑項目、3 個跳躍項目，以及 4 個投擲項目。",
+  "sources": [
+    {
+      "title": "維基百科：田徑",
+      "url": "https://en.wikipedia.org/wiki/Track_and_field",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

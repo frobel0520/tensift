@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cities-river-2026-11-07-zh-hant",
+  "puzzleFamilyId": "cities-river-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-07",
+  "timezone": "UTC",
+  "theme": "河畔城市",
+  "items": [
+    {
+      "itemId": "cities-river-1",
+      "label": "布達佩斯"
+    },
+    {
+      "itemId": "cities-river-2",
+      "label": "貝爾格勒"
+    },
+    {
+      "itemId": "cities-river-3",
+      "label": "漢堡"
+    },
+    {
+      "itemId": "cities-river-4",
+      "label": "科隆"
+    },
+    {
+      "itemId": "cities-river-5",
+      "label": "巴塞爾"
+    },
+    {
+      "itemId": "cities-river-6",
+      "label": "德勒斯登"
+    },
+    {
+      "itemId": "cities-river-7",
+      "label": "維也納"
+    },
+    {
+      "itemId": "cities-river-8",
+      "label": "巴黎"
+    },
+    {
+      "itemId": "cities-river-9",
+      "label": "布拉提斯拉瓦"
+    },
+    {
+      "itemId": "cities-river-10",
+      "label": "杜塞道夫"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "城市所在的河流",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "塞納河",
+        "capacity": 1,
+        "itemIds": [
+          "cities-river-8"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "易北河",
+        "capacity": 2,
+        "itemIds": [
+          "cities-river-3",
+          "cities-river-6"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "萊茵河",
+        "capacity": 3,
+        "itemIds": [
+          "cities-river-4",
+          "cities-river-5",
+          "cities-river-10"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "多瑙河",
+        "capacity": 4,
+        "itemIds": [
+          "cities-river-7",
+          "cities-river-1",
+          "cities-river-2",
+          "cities-river-9"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組城市都位於同一條河畔：1 座在塞納河、2 座在易北河、3 座在萊茵河，以及 4 座在多瑙河。",
+  "sources": [
+    {
+      "title": "維基百科：多瑙河",
+      "url": "https://en.wikipedia.org/wiki/Danube",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：萊茵河",
+      "url": "https://en.wikipedia.org/wiki/Rhine",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：易北河",
+      "url": "https://en.wikipedia.org/wiki/Elbe",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.62
+  },
+  "status": "scheduled"
+}
