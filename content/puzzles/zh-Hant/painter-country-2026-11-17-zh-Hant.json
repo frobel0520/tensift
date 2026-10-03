@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "painter-country-2026-11-17-zh-hant",
+  "puzzleFamilyId": "painter-country-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-17",
+  "timezone": "UTC",
+  "theme": "名畫家",
+  "items": [
+    {
+      "itemId": "painter-country-1",
+      "label": "竇加"
+    },
+    {
+      "itemId": "painter-country-2",
+      "label": "哥雅"
+    },
+    {
+      "itemId": "painter-country-3",
+      "label": "芙烈達·卡蘿"
+    },
+    {
+      "itemId": "painter-country-4",
+      "label": "莫內"
+    },
+    {
+      "itemId": "painter-country-5",
+      "label": "達利"
+    },
+    {
+      "itemId": "painter-country-6",
+      "label": "維拉斯奎茲"
+    },
+    {
+      "itemId": "painter-country-7",
+      "label": "塞尚"
+    },
+    {
+      "itemId": "painter-country-8",
+      "label": "雷諾瓦"
+    },
+    {
+      "itemId": "painter-country-9",
+      "label": "維梅爾"
+    },
+    {
+      "itemId": "painter-country-10",
+      "label": "林布蘭"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "畫家的國籍",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "墨西哥",
+        "capacity": 1,
+        "itemIds": [
+          "painter-country-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "荷蘭",
+        "capacity": 2,
+        "itemIds": [
+          "painter-country-10",
+          "painter-country-9"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "西班牙",
+        "capacity": 3,
+        "itemIds": [
+          "painter-country-2",
+          "painter-country-5",
+          "painter-country-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "法國",
+        "capacity": 4,
+        "itemIds": [
+          "painter-country-4",
+          "painter-country-8",
+          "painter-country-7",
+          "painter-country-1"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組畫家都出生於同一個國家：1 位來自墨西哥、2 位來自荷蘭、3 位來自西班牙，以及 4 位來自法國。",
+  "sources": [
+    {
+      "title": "維基百科：芙烈達·卡蘿",
+      "url": "https://en.wikipedia.org/wiki/Frida_Kahlo",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：克勞德·莫內",
+      "url": "https://en.wikipedia.org/wiki/Claude_Monet",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

@@ -1,14 +1,20 @@
 # Tensift Progress
 
-Last updated: 2026-09-19 (Asia/Taipei)
+Last updated: 2026-10-03 (Asia/Taipei)
 
 ## Current status
 
 AdSense remediation (PR #12) is on `main` as commit `7285c60` and deployed to production by Deploy run https://github.com/frobel0520/tensift/actions/runs/35433776190; production editorial and gameplay smoke passed on 2026-09-19. PR #13 removed the now-unused ad component, its build variables and the ad-network CSP allowances, and is also deployed. The three animal-covering corrections were seeded to remote D1 on 2026-09-19 and the live reveal shows the corrected wording in all three locales. No AdSense re-review has been requested.
 
-The existing production game has fifty authored puzzle families across three locales, seeded through 2026-10-17; the next authored gap is 2026-10-18. The previously reported 43-day runway was measured on 2026-09-05, not today. Blind playtesting remains uncompleted; no independent blind pass is claimed.
+The repository holds 85 authored puzzle families (255 records across `en`, `zh-Hant`, `es-419`) scheduled 2026-08-29 to 2026-11-21; the next authored gap is 2026-11-22. The sixth batch (30 families, 2026-10-23 to 2026-11-21) is on branch `content/batch-6-30-families` and is not yet on `main` or in remote D1. Which families are in remote D1 beyond 2026-10-17 was not re-checked on 2026-10-03; run the `Seed content to D1` dry-run before assuming. Blind playtesting remains uncompleted; no independent blind pass is claimed.
 
 ## Completed
+
+- 2026-10-03 / sixth batch (branch `content/batch-6-30-families`): 30 new families x 3 locales plus 30 ambiguity ledgers (120 files), 2026-10-23 to 2026-11-21: Animal Diets, Pet Supplies, Computer Hardware, How Fruit Grows, Reptiles, Cartoon Characters, Rivers of the World, Track and Field, Kinds of Games, Mammal Families, Animals by Continent, Car Brands, Arthropods, Game Consoles, Kinds of Birds, Cities on Rivers, Islands of the World, Animation Studios, Crafts, Players on the Field, Apps and Their Owners, Hello in Other Languages, Myths of the World, Inventions Through Time, Landmarks of Asia, Famous Painters, Famous Authors, Rocks and Minerals, Families of Elements, Fairy Tales. Difficulty mix: 9 easy, 15 medium, 6 hard (hard days: 2026-11-02, 11-07, 11-11, 11-15, 11-17, 11-20). Item order inside each file is shuffled so the API response order does not reveal the grouping.
+  - Evidence: `validate:puzzles` 255 files; `check:playtest` and `check:runway` pass (50 complete days from 2026-10-03, last covered 2026-11-21); 56 unit and contract tests pass after the seed test counts moved from 55 to 85 families; typecheck, production build, bundle-leak scan and Pages Functions compile pass; a fresh isolated local D1 took the full seed (85 puzzles per locale, 2550 items). All 46 source URLs return HTTP 200 (existence only); 93 spot checks of the riskiest facts against English Wikipedia pass (one needed a manual read).
+  - Found while building: the bundle-leak scan rejected the group labels `Meta` and `Español` because they collide with strings in the app bundle; the labels became `Meta Platforms` and `Idioma español` (and the other Spanish language labels follow the same `Idioma ...` pattern).
+  - Not done: translations are the author's own, not reviewed by a native speaker; no blind playtest; labels were not rendered in a browser, but the longest new labels stay within the longest existing ones in `en` and `es-419`; remote seed and production smoke are pending the merge; no production latency or load measurement was taken (content only, no code change in the request path).
+  - Fact base for time-sensitive items: ownership in the Apps and Their Owners puzzle is as of 2026-10-03 and should be re-checked before 2026-11-12.
 
 - 2026-09-19 / Issue #11 / PR #12: added 21 server-rendered, localized editorial pages (how-to, archive index, three selected historical explanations, about/contact and privacy), plus game navigation, canonical/hreflang links, sitemap and robots discovery. Full editorial text is readable without JavaScript or D1.
 - Gameplay no longer mounts the advertising component; AdSense ownership metadata and ads.txt remain. Deployment no longer requires ad-unit variables. Live since the PR #12 deploy.

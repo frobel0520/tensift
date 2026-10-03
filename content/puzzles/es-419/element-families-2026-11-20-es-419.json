@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "element-families-2026-11-20-es-419",
+  "puzzleFamilyId": "element-families-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-20",
+  "timezone": "UTC",
+  "theme": "Familias de elementos",
+  "items": [
+    {
+      "itemId": "element-families-1",
+      "label": "Neón"
+    },
+    {
+      "itemId": "element-families-2",
+      "label": "Criptón"
+    },
+    {
+      "itemId": "element-families-3",
+      "label": "Calcio"
+    },
+    {
+      "itemId": "element-families-4",
+      "label": "Litio"
+    },
+    {
+      "itemId": "element-families-5",
+      "label": "Cloro"
+    },
+    {
+      "itemId": "element-families-6",
+      "label": "Helio"
+    },
+    {
+      "itemId": "element-families-7",
+      "label": "Yodo"
+    },
+    {
+      "itemId": "element-families-8",
+      "label": "Argón"
+    },
+    {
+      "itemId": "element-families-9",
+      "label": "Potasio"
+    },
+    {
+      "itemId": "element-families-10",
+      "label": "Sodio"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "La familia en la tabla periódica",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Metales alcalinotérreos",
+        "capacity": 1,
+        "itemIds": [
+          "element-families-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Halógenos",
+        "capacity": 2,
+        "itemIds": [
+          "element-families-5",
+          "element-families-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Metales alcalinos",
+        "capacity": 3,
+        "itemIds": [
+          "element-families-4",
+          "element-families-10",
+          "element-families-9"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Gases nobles",
+        "capacity": 4,
+        "itemIds": [
+          "element-families-6",
+          "element-families-1",
+          "element-families-8",
+          "element-families-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo es una familia de la tabla periódica: 1 metal alcalinotérreo, 2 halógenos, 3 metales alcalinos y 4 gases nobles.",
+  "sources": [
+    {
+      "title": "Wikipedia: Tabla periódica",
+      "url": "https://en.wikipedia.org/wiki/Periodic_table",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

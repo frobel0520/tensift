@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "river-continent-2026-10-29-es-419",
+  "puzzleFamilyId": "river-continent-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-29",
+  "timezone": "UTC",
+  "theme": "Ríos del mundo",
+  "items": [
+    {
+      "itemId": "river-continent-1",
+      "label": "Amazonas"
+    },
+    {
+      "itemId": "river-continent-2",
+      "label": "Nilo"
+    },
+    {
+      "itemId": "river-continent-3",
+      "label": "Congo"
+    },
+    {
+      "itemId": "river-continent-4",
+      "label": "Yangtsé"
+    },
+    {
+      "itemId": "river-continent-5",
+      "label": "Mekong"
+    },
+    {
+      "itemId": "river-continent-6",
+      "label": "Támesis"
+    },
+    {
+      "itemId": "river-continent-7",
+      "label": "Volga"
+    },
+    {
+      "itemId": "river-continent-8",
+      "label": "Níger"
+    },
+    {
+      "itemId": "river-continent-9",
+      "label": "Ganges"
+    },
+    {
+      "itemId": "river-continent-10",
+      "label": "Río Amarillo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El continente por donde fluye el río",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Sudamérica",
+        "capacity": 1,
+        "itemIds": [
+          "river-continent-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Europa",
+        "capacity": 2,
+        "itemIds": [
+          "river-continent-6",
+          "river-continent-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "África",
+        "capacity": 3,
+        "itemIds": [
+          "river-continent-2",
+          "river-continent-3",
+          "river-continent-8"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Asia",
+        "capacity": 4,
+        "itemIds": [
+          "river-continent-4",
+          "river-continent-9",
+          "river-continent-5",
+          "river-continent-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo fluye por un continente: 1 río en Sudamérica, 2 en Europa, 3 en África y 4 en Asia.",
+  "sources": [
+    {
+      "title": "Wikipedia: Anexo:Ríos más largos del mundo",
+      "url": "https://en.wikipedia.org/wiki/List_of_rivers_by_length",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

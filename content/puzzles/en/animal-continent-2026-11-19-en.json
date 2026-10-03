@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-continent-2026-11-19-en",
+  "puzzleFamilyId": "animal-continent-001",
+  "locale": "en",
+  "publishDate": "2026-11-19",
+  "timezone": "UTC",
+  "theme": "Animals by Continent",
+  "items": [
+    {
+      "itemId": "animal-continent-1",
+      "label": "Piranha"
+    },
+    {
+      "itemId": "animal-continent-2",
+      "label": "Wombat"
+    },
+    {
+      "itemId": "animal-continent-3",
+      "label": "Meerkat"
+    },
+    {
+      "itemId": "animal-continent-4",
+      "label": "Anaconda"
+    },
+    {
+      "itemId": "animal-continent-5",
+      "label": "Hippopotamus"
+    },
+    {
+      "itemId": "animal-continent-6",
+      "label": "Zebra"
+    },
+    {
+      "itemId": "animal-continent-7",
+      "label": "Ostrich"
+    },
+    {
+      "itemId": "animal-continent-8",
+      "label": "Alpaca"
+    },
+    {
+      "itemId": "animal-continent-9",
+      "label": "Emperor penguin"
+    },
+    {
+      "itemId": "animal-continent-10",
+      "label": "Tasmanian devil"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The continent the animal comes from",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Antarctica",
+        "capacity": 1,
+        "itemIds": [
+          "animal-continent-9"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Australia",
+        "capacity": 2,
+        "itemIds": [
+          "animal-continent-2",
+          "animal-continent-10"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "South America",
+        "capacity": 3,
+        "itemIds": [
+          "animal-continent-8",
+          "animal-continent-4",
+          "animal-continent-1"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Africa",
+        "capacity": 4,
+        "itemIds": [
+          "animal-continent-6",
+          "animal-continent-5",
+          "animal-continent-3",
+          "animal-continent-7"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group is native to one continent: 1 animal from Antarctica, 2 from Australia, 3 from South America, and 4 from Africa.",
+  "sources": [
+    {
+      "title": "Wikipedia: Emperor penguin",
+      "url": "https://en.wikipedia.org/wiki/Emperor_penguin",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Alpaca",
+      "url": "https://en.wikipedia.org/wiki/Alpaca",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.4
+  },
+  "status": "scheduled"
+}

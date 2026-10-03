@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-diet-2026-10-23-es-419",
+  "puzzleFamilyId": "animal-diet-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-23",
+  "timezone": "UTC",
+  "theme": "Qué comen los animales",
+  "items": [
+    {
+      "itemId": "animal-diet-1",
+      "label": "Jirafa"
+    },
+    {
+      "itemId": "animal-diet-2",
+      "label": "Caballo"
+    },
+    {
+      "itemId": "animal-diet-3",
+      "label": "Oso hormiguero"
+    },
+    {
+      "itemId": "animal-diet-4",
+      "label": "León"
+    },
+    {
+      "itemId": "animal-diet-5",
+      "label": "Conejo"
+    },
+    {
+      "itemId": "animal-diet-6",
+      "label": "Vaca"
+    },
+    {
+      "itemId": "animal-diet-7",
+      "label": "Lobo"
+    },
+    {
+      "itemId": "animal-diet-8",
+      "label": "Cerdo"
+    },
+    {
+      "itemId": "animal-diet-9",
+      "label": "Mapache"
+    },
+    {
+      "itemId": "animal-diet-10",
+      "label": "Tiburón"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Lo que come principalmente el animal",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Come sobre todo insectos",
+        "capacity": 1,
+        "itemIds": [
+          "animal-diet-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Come plantas y animales",
+        "capacity": 2,
+        "itemIds": [
+          "animal-diet-8",
+          "animal-diet-9"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Come sobre todo carne",
+        "capacity": 3,
+        "itemIds": [
+          "animal-diet-4",
+          "animal-diet-10",
+          "animal-diet-7"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Come solo plantas",
+        "capacity": 4,
+        "itemIds": [
+          "animal-diet-6",
+          "animal-diet-5",
+          "animal-diet-1",
+          "animal-diet-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo come distinto: 1 animal que come insectos, 2 omnívoros que comen plantas y animales, 3 carnívoros que viven sobre todo de carne y 4 herbívoros que solo comen plantas.",
+  "sources": [
+    {
+      "title": "Wikipedia: Omnívoro",
+      "url": "https://en.wikipedia.org/wiki/Omnivore",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Carnívoro",
+      "url": "https://en.wikipedia.org/wiki/Carnivore",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.26
+  },
+  "status": "scheduled"
+}

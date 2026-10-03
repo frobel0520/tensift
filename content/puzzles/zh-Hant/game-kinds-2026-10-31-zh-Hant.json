@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "game-kinds-2026-10-31-zh-hant",
+  "puzzleFamilyId": "game-kinds-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-31",
+  "timezone": "UTC",
+  "theme": "各種遊戲",
+  "items": [
+    {
+      "itemId": "game-kinds-1",
+      "label": "麻將"
+    },
+    {
+      "itemId": "game-kinds-2",
+      "label": "俄羅斯方塊"
+    },
+    {
+      "itemId": "game-kinds-3",
+      "label": "西洋棋"
+    },
+    {
+      "itemId": "game-kinds-4",
+      "label": "小精靈"
+    },
+    {
+      "itemId": "game-kinds-5",
+      "label": "UNO"
+    },
+    {
+      "itemId": "game-kinds-6",
+      "label": "撲克"
+    },
+    {
+      "itemId": "game-kinds-7",
+      "label": "當個創世神"
+    },
+    {
+      "itemId": "game-kinds-8",
+      "label": "要塞英雄"
+    },
+    {
+      "itemId": "game-kinds-9",
+      "label": "大富翁"
+    },
+    {
+      "itemId": "game-kinds-10",
+      "label": "圍棋"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "遊戲的類型",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "牌磚遊戲",
+        "capacity": 1,
+        "itemIds": [
+          "game-kinds-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "紙牌遊戲",
+        "capacity": 2,
+        "itemIds": [
+          "game-kinds-6",
+          "game-kinds-5"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "桌上棋盤遊戲",
+        "capacity": 3,
+        "itemIds": [
+          "game-kinds-3",
+          "game-kinds-9",
+          "game-kinds-10"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "電子遊戲",
+        "capacity": 4,
+        "itemIds": [
+          "game-kinds-2",
+          "game-kinds-7",
+          "game-kinds-4",
+          "game-kinds-8"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組都是同一類遊戲：1 個牌磚遊戲、2 個紙牌遊戲、3 個棋盤遊戲，以及 4 個電子遊戲。",
+  "sources": [
+    {
+      "title": "維基百科：桌上遊戲",
+      "url": "https://en.wikipedia.org/wiki/Board_game",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：紙牌遊戲",
+      "url": "https://en.wikipedia.org/wiki/Card_game",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

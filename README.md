@@ -35,7 +35,7 @@ No license file is present in the repository root; this README does not declare 
 - Traditional Chinese, Taiwan usage (`zh-Hant`; replaced Simplified Chinese `zh-Hans` on 2026-09-25, and old `zh-Hans` links and saved preferences map to `zh-Hant`)
 - Latin American neutral Spanish (`es-419`)
 
-Each locale has 55 authored daily puzzles in `content/puzzles/<locale>/`, with publish dates from 2026-08-29 to 2026-10-22 (165 files across the three locales). The prototype started from three families: Countries, Animals, and Musical Instruments.
+Each locale has 85 authored daily puzzles in `content/puzzles/<locale>/`, with publish dates from 2026-08-29 to 2026-11-21 (255 files across the three locales). The prototype started from three families: Countries, Animals, and Musical Instruments.
 
 ## Run locally
 

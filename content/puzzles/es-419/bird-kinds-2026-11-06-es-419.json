@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "bird-kinds-2026-11-06-es-419",
+  "puzzleFamilyId": "bird-kinds-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-06",
+  "timezone": "UTC",
+  "theme": "Tipos de aves",
+  "items": [
+    {
+      "itemId": "bird-kinds-1",
+      "label": "Águila pescadora"
+    },
+    {
+      "itemId": "bird-kinds-2",
+      "label": "Águila"
+    },
+    {
+      "itemId": "bird-kinds-3",
+      "label": "Búho"
+    },
+    {
+      "itemId": "bird-kinds-4",
+      "label": "Emú"
+    },
+    {
+      "itemId": "bird-kinds-5",
+      "label": "Canario"
+    },
+    {
+      "itemId": "bird-kinds-6",
+      "label": "Pato"
+    },
+    {
+      "itemId": "bird-kinds-7",
+      "label": "Cisne"
+    },
+    {
+      "itemId": "bird-kinds-8",
+      "label": "Gorrión"
+    },
+    {
+      "itemId": "bird-kinds-9",
+      "label": "Petirrojo"
+    },
+    {
+      "itemId": "bird-kinds-10",
+      "label": "Halcón"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El tipo de ave",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Ave que no vuela",
+        "capacity": 1,
+        "itemIds": [
+          "bird-kinds-4"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Aves acuáticas",
+        "capacity": 2,
+        "itemIds": [
+          "bird-kinds-6",
+          "bird-kinds-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Aves canoras",
+        "capacity": 3,
+        "itemIds": [
+          "bird-kinds-8",
+          "bird-kinds-9",
+          "bird-kinds-5"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Aves rapaces",
+        "capacity": 4,
+        "itemIds": [
+          "bird-kinds-2",
+          "bird-kinds-10",
+          "bird-kinds-3",
+          "bird-kinds-1"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Las diez son aves, ordenadas por tipo: 1 ave que no vuela, 2 aves acuáticas, 3 aves canoras y 4 aves rapaces.",
+  "sources": [
+    {
+      "title": "Wikipedia: Aves",
+      "url": "https://en.wikipedia.org/wiki/Bird",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}
