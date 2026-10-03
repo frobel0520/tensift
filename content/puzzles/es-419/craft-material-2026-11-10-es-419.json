@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "craft-material-2026-11-10-es-419",
+  "puzzleFamilyId": "craft-material-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-10",
+  "timezone": "UTC",
+  "theme": "Manualidades",
+  "items": [
+    {
+      "itemId": "craft-material-1",
+      "label": "Bordado"
+    },
+    {
+      "itemId": "craft-material-2",
+      "label": "Modelado en arcilla"
+    },
+    {
+      "itemId": "craft-material-3",
+      "label": "Soplado de vidrio"
+    },
+    {
+      "itemId": "craft-material-4",
+      "label": "Origami"
+    },
+    {
+      "itemId": "craft-material-5",
+      "label": "Crochet"
+    },
+    {
+      "itemId": "craft-material-6",
+      "label": "Recorte de papel"
+    },
+    {
+      "itemId": "craft-material-7",
+      "label": "Alfarería"
+    },
+    {
+      "itemId": "craft-material-8",
+      "label": "Tejeduría"
+    },
+    {
+      "itemId": "craft-material-9",
+      "label": "Papel maché"
+    },
+    {
+      "itemId": "craft-material-10",
+      "label": "Tejido de punto"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El material con el que se trabaja",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Vidrio",
+        "capacity": 1,
+        "itemIds": [
+          "craft-material-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Arcilla",
+        "capacity": 2,
+        "itemIds": [
+          "craft-material-7",
+          "craft-material-2"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Papel",
+        "capacity": 3,
+        "itemIds": [
+          "craft-material-4",
+          "craft-material-6",
+          "craft-material-9"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Hilo y estambre",
+        "capacity": 4,
+        "itemIds": [
+          "craft-material-10",
+          "craft-material-5",
+          "craft-material-1",
+          "craft-material-8"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo de manualidades usa un material: 1 con vidrio, 2 con arcilla, 3 con papel y 4 con hilo y estambre.",
+  "sources": [
+    {
+      "title": "Wikipedia: Artesanía",
+      "url": "https://en.wikipedia.org/wiki/Handicraft",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

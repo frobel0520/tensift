@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cartoon-franchise-2026-10-28-en",
+  "puzzleFamilyId": "cartoon-franchise-001",
+  "locale": "en",
+  "publishDate": "2026-10-28",
+  "timezone": "UTC",
+  "theme": "Cartoon Characters",
+  "items": [
+    {
+      "itemId": "cartoon-franchise-1",
+      "label": "Cinnamoroll"
+    },
+    {
+      "itemId": "cartoon-franchise-2",
+      "label": "Pikachu"
+    },
+    {
+      "itemId": "cartoon-franchise-3",
+      "label": "Goofy"
+    },
+    {
+      "itemId": "cartoon-franchise-4",
+      "label": "Kuromi"
+    },
+    {
+      "itemId": "cartoon-franchise-5",
+      "label": "Hello Kitty"
+    },
+    {
+      "itemId": "cartoon-franchise-6",
+      "label": "Donald Duck"
+    },
+    {
+      "itemId": "cartoon-franchise-7",
+      "label": "Luigi"
+    },
+    {
+      "itemId": "cartoon-franchise-8",
+      "label": "Mario"
+    },
+    {
+      "itemId": "cartoon-franchise-9",
+      "label": "Pompompurin"
+    },
+    {
+      "itemId": "cartoon-franchise-10",
+      "label": "Mickey Mouse"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The franchise the character comes from",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Pokémon",
+        "capacity": 1,
+        "itemIds": [
+          "cartoon-franchise-2"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Super Mario",
+        "capacity": 2,
+        "itemIds": [
+          "cartoon-franchise-8",
+          "cartoon-franchise-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Disney classics",
+        "capacity": 3,
+        "itemIds": [
+          "cartoon-franchise-10",
+          "cartoon-franchise-6",
+          "cartoon-franchise-3"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Sanrio",
+        "capacity": 4,
+        "itemIds": [
+          "cartoon-franchise-5",
+          "cartoon-franchise-4",
+          "cartoon-franchise-9",
+          "cartoon-franchise-1"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group comes from one franchise: 1 Pokémon character, 2 from Super Mario, 3 Disney classics, and 4 Sanrio characters.",
+  "sources": [
+    {
+      "title": "Wikipedia: Sanrio",
+      "url": "https://en.wikipedia.org/wiki/Sanrio",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Pokémon",
+      "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-continent-2026-11-19-es-419",
+  "puzzleFamilyId": "animal-continent-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-19",
+  "timezone": "UTC",
+  "theme": "Animales por continente",
+  "items": [
+    {
+      "itemId": "animal-continent-1",
+      "label": "Piraña"
+    },
+    {
+      "itemId": "animal-continent-2",
+      "label": "Wombat"
+    },
+    {
+      "itemId": "animal-continent-3",
+      "label": "Suricata"
+    },
+    {
+      "itemId": "animal-continent-4",
+      "label": "Anaconda"
+    },
+    {
+      "itemId": "animal-continent-5",
+      "label": "Hipopótamo"
+    },
+    {
+      "itemId": "animal-continent-6",
+      "label": "Cebra"
+    },
+    {
+      "itemId": "animal-continent-7",
+      "label": "Avestruz"
+    },
+    {
+      "itemId": "animal-continent-8",
+      "label": "Alpaca"
+    },
+    {
+      "itemId": "animal-continent-9",
+      "label": "Pingüino emperador"
+    },
+    {
+      "itemId": "animal-continent-10",
+      "label": "Diablo de Tasmania"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El continente de origen del animal",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Antártida",
+        "capacity": 1,
+        "itemIds": [
+          "animal-continent-9"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Australia",
+        "capacity": 2,
+        "itemIds": [
+          "animal-continent-2",
+          "animal-continent-10"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Sudamérica",
+        "capacity": 3,
+        "itemIds": [
+          "animal-continent-8",
+          "animal-continent-4",
+          "animal-continent-1"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "África",
+        "capacity": 4,
+        "itemIds": [
+          "animal-continent-6",
+          "animal-continent-5",
+          "animal-continent-3",
+          "animal-continent-7"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo es nativo de un continente: 1 animal de la Antártida, 2 de Australia, 3 de Sudamérica y 4 de África.",
+  "sources": [
+    {
+      "title": "Wikipedia: Aptenodytes forsteri",
+      "url": "https://en.wikipedia.org/wiki/Emperor_penguin",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Alpaca",
+      "url": "https://en.wikipedia.org/wiki/Alpaca",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.4
+  },
+  "status": "scheduled"
+}

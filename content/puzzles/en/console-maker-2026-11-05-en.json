@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "console-maker-2026-11-05-en",
+  "puzzleFamilyId": "console-maker-001",
+  "locale": "en",
+  "publishDate": "2026-11-05",
+  "timezone": "UTC",
+  "theme": "Game Consoles",
+  "items": [
+    {
+      "itemId": "console-maker-1",
+      "label": "Dreamcast"
+    },
+    {
+      "itemId": "console-maker-2",
+      "label": "GameCube"
+    },
+    {
+      "itemId": "console-maker-3",
+      "label": "Switch"
+    },
+    {
+      "itemId": "console-maker-4",
+      "label": "Game Boy"
+    },
+    {
+      "itemId": "console-maker-5",
+      "label": "PSP"
+    },
+    {
+      "itemId": "console-maker-6",
+      "label": "Sega Saturn"
+    },
+    {
+      "itemId": "console-maker-7",
+      "label": "Wii"
+    },
+    {
+      "itemId": "console-maker-8",
+      "label": "PlayStation 5"
+    },
+    {
+      "itemId": "console-maker-9",
+      "label": "Xbox"
+    },
+    {
+      "itemId": "console-maker-10",
+      "label": "PlayStation 2"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The company that made the console",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Microsoft",
+        "capacity": 1,
+        "itemIds": [
+          "console-maker-9"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Sega",
+        "capacity": 2,
+        "itemIds": [
+          "console-maker-1",
+          "console-maker-6"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Sony",
+        "capacity": 3,
+        "itemIds": [
+          "console-maker-10",
+          "console-maker-5",
+          "console-maker-8"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Nintendo",
+        "capacity": 4,
+        "itemIds": [
+          "console-maker-3",
+          "console-maker-7",
+          "console-maker-4",
+          "console-maker-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group was made by one company: 1 Microsoft console, 2 Sega consoles, 3 Sony consoles, and 4 Nintendo consoles.",
+  "sources": [
+    {
+      "title": "Wikipedia: Video game console",
+      "url": "https://en.wikipedia.org/wiki/Video_game_console",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.4
+  },
+  "status": "scheduled"
+}

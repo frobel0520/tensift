@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "computer-hardware-2026-10-25-en",
+  "puzzleFamilyId": "computer-hardware-001",
+  "locale": "en",
+  "publishDate": "2026-10-25",
+  "timezone": "UTC",
+  "theme": "Computer Hardware",
+  "items": [
+    {
+      "itemId": "computer-hardware-1",
+      "label": "Keyboard"
+    },
+    {
+      "itemId": "computer-hardware-2",
+      "label": "Hard drive"
+    },
+    {
+      "itemId": "computer-hardware-3",
+      "label": "Speakers"
+    },
+    {
+      "itemId": "computer-hardware-4",
+      "label": "Mouse"
+    },
+    {
+      "itemId": "computer-hardware-5",
+      "label": "Monitor"
+    },
+    {
+      "itemId": "computer-hardware-6",
+      "label": "Printer"
+    },
+    {
+      "itemId": "computer-hardware-7",
+      "label": "Webcam"
+    },
+    {
+      "itemId": "computer-hardware-8",
+      "label": "USB flash drive"
+    },
+    {
+      "itemId": "computer-hardware-9",
+      "label": "Microphone"
+    },
+    {
+      "itemId": "computer-hardware-10",
+      "label": "CPU"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Its job in a computer",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Processes data",
+        "capacity": 1,
+        "itemIds": [
+          "computer-hardware-10"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Stores data",
+        "capacity": 2,
+        "itemIds": [
+          "computer-hardware-2",
+          "computer-hardware-8"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Shows or plays results",
+        "capacity": 3,
+        "itemIds": [
+          "computer-hardware-5",
+          "computer-hardware-6",
+          "computer-hardware-3"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Sends information in",
+        "capacity": 4,
+        "itemIds": [
+          "computer-hardware-1",
+          "computer-hardware-4",
+          "computer-hardware-9",
+          "computer-hardware-7"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group does the same job: 1 part that processes data, 2 that store it, 3 that show or play results, and 4 that send information in.",
+  "sources": [
+    {
+      "title": "Wikipedia: Computer hardware",
+      "url": "https://en.wikipedia.org/wiki/Computer_hardware",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Input device",
+      "url": "https://en.wikipedia.org/wiki/Input_device",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

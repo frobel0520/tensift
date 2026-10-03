@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "asian-city-landmark-001",
+  "theme": "Landmarks of Asia",
+  "publishDate": "2026-11-16",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "asian-city-landmark-6",
+        "rivalGroupId": "g3",
+        "risk": "Taipei 101, Tokyo Tower and N Seoul Tower are all towers and could pair up by building type.",
+        "resolution": "The dimension is the city: Taipei 101 is the only Taipei item, and the other towers sit with their own city's landmarks."
+      },
+      {
+        "itemId": "asian-city-landmark-4",
+        "rivalGroupId": "g4",
+        "risk": "Gyeongbokgung is a palace like the Forbidden City and the Summer Palace.",
+        "resolution": "Gyeongbokgung is the main palace of Seoul."
+      },
+      {
+        "itemId": "asian-city-landmark-1",
+        "rivalGroupId": "g3",
+        "risk": "The Temple of Heaven resembles Japanese temples such as Sensō-ji.",
+        "resolution": "The Temple of Heaven is in Beijing's Dongcheng district."
+      }
+    ],
+    "notes": "The tower and palace look-alikes are intentional red herrings: a type-based grouping cannot make a valid 1 / 2 / 3 / 4 split."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers keep grouping by building type, replace N Seoul Tower with Dongdaemun Design Plaza."
+  }
+}

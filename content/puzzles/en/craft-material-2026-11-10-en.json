@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "craft-material-2026-11-10-en",
+  "puzzleFamilyId": "craft-material-001",
+  "locale": "en",
+  "publishDate": "2026-11-10",
+  "timezone": "UTC",
+  "theme": "Crafts",
+  "items": [
+    {
+      "itemId": "craft-material-1",
+      "label": "Embroidery"
+    },
+    {
+      "itemId": "craft-material-2",
+      "label": "Clay sculpting"
+    },
+    {
+      "itemId": "craft-material-3",
+      "label": "Glassblowing"
+    },
+    {
+      "itemId": "craft-material-4",
+      "label": "Origami"
+    },
+    {
+      "itemId": "craft-material-5",
+      "label": "Crochet"
+    },
+    {
+      "itemId": "craft-material-6",
+      "label": "Paper cutting"
+    },
+    {
+      "itemId": "craft-material-7",
+      "label": "Pottery"
+    },
+    {
+      "itemId": "craft-material-8",
+      "label": "Weaving"
+    },
+    {
+      "itemId": "craft-material-9",
+      "label": "Papier-mâché"
+    },
+    {
+      "itemId": "craft-material-10",
+      "label": "Knitting"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The material the craft works with",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Glass",
+        "capacity": 1,
+        "itemIds": [
+          "craft-material-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Clay",
+        "capacity": 2,
+        "itemIds": [
+          "craft-material-7",
+          "craft-material-2"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Paper",
+        "capacity": 3,
+        "itemIds": [
+          "craft-material-4",
+          "craft-material-6",
+          "craft-material-9"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Yarn and thread",
+        "capacity": 4,
+        "itemIds": [
+          "craft-material-10",
+          "craft-material-5",
+          "craft-material-1",
+          "craft-material-8"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group of crafts works with one material: 1 craft with glass, 2 with clay, 3 with paper, and 4 with yarn and thread.",
+  "sources": [
+    {
+      "title": "Wikipedia: Handicraft",
+      "url": "https://en.wikipedia.org/wiki/Handicraft",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

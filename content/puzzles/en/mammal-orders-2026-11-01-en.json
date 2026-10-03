@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "mammal-orders-2026-11-01-en",
+  "puzzleFamilyId": "mammal-orders-001",
+  "locale": "en",
+  "publishDate": "2026-11-01",
+  "timezone": "UTC",
+  "theme": "Mammal Families",
+  "items": [
+    {
+      "itemId": "mammal-orders-1",
+      "label": "Kangaroo"
+    },
+    {
+      "itemId": "mammal-orders-2",
+      "label": "Gorilla"
+    },
+    {
+      "itemId": "mammal-orders-3",
+      "label": "Beaver"
+    },
+    {
+      "itemId": "mammal-orders-4",
+      "label": "Platypus"
+    },
+    {
+      "itemId": "mammal-orders-5",
+      "label": "Squirrel"
+    },
+    {
+      "itemId": "mammal-orders-6",
+      "label": "Capybara"
+    },
+    {
+      "itemId": "mammal-orders-7",
+      "label": "Koala"
+    },
+    {
+      "itemId": "mammal-orders-8",
+      "label": "Chimpanzee"
+    },
+    {
+      "itemId": "mammal-orders-9",
+      "label": "Rat"
+    },
+    {
+      "itemId": "mammal-orders-10",
+      "label": "Orangutan"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The group of mammals it belongs to",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Egg-laying mammals",
+        "capacity": 1,
+        "itemIds": [
+          "mammal-orders-4"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Marsupials",
+        "capacity": 2,
+        "itemIds": [
+          "mammal-orders-1",
+          "mammal-orders-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Primates",
+        "capacity": 3,
+        "itemIds": [
+          "mammal-orders-2",
+          "mammal-orders-8",
+          "mammal-orders-10"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Rodents",
+        "capacity": 4,
+        "itemIds": [
+          "mammal-orders-9",
+          "mammal-orders-5",
+          "mammal-orders-3",
+          "mammal-orders-6"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "All ten are mammals, sorted by group: 1 egg-laying mammal, 2 marsupials, 3 primates, and 4 rodents.",
+  "sources": [
+    {
+      "title": "Wikipedia: Mammal",
+      "url": "https://en.wikipedia.org/wiki/Mammal",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

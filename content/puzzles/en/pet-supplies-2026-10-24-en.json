@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "pet-supplies-2026-10-24-en",
+  "puzzleFamilyId": "pet-supplies-001",
+  "locale": "en",
+  "publishDate": "2026-10-24",
+  "timezone": "UTC",
+  "theme": "Pet Supplies",
+  "items": [
+    {
+      "itemId": "pet-supplies-1",
+      "label": "Leash"
+    },
+    {
+      "itemId": "pet-supplies-2",
+      "label": "Litter box"
+    },
+    {
+      "itemId": "pet-supplies-3",
+      "label": "Doghouse"
+    },
+    {
+      "itemId": "pet-supplies-4",
+      "label": "Dog biscuit"
+    },
+    {
+      "itemId": "pet-supplies-5",
+      "label": "Fish food"
+    },
+    {
+      "itemId": "pet-supplies-6",
+      "label": "Dog bone"
+    },
+    {
+      "itemId": "pet-supplies-7",
+      "label": "Scratching post"
+    },
+    {
+      "itemId": "pet-supplies-8",
+      "label": "Exercise wheel"
+    },
+    {
+      "itemId": "pet-supplies-9",
+      "label": "Aquarium"
+    },
+    {
+      "itemId": "pet-supplies-10",
+      "label": "Catnip"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Which pet it is for",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "For a hamster",
+        "capacity": 1,
+        "itemIds": [
+          "pet-supplies-8"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "For a fish",
+        "capacity": 2,
+        "itemIds": [
+          "pet-supplies-9",
+          "pet-supplies-5"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "For a cat",
+        "capacity": 3,
+        "itemIds": [
+          "pet-supplies-2",
+          "pet-supplies-7",
+          "pet-supplies-10"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "For a dog",
+        "capacity": 4,
+        "itemIds": [
+          "pet-supplies-1",
+          "pet-supplies-3",
+          "pet-supplies-6",
+          "pet-supplies-4"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group is made for one pet: 1 hamster item, 2 things for a fish, 3 things for a cat, and 4 things for a dog.",
+  "sources": [
+    {
+      "title": "Wikipedia: Pet",
+      "url": "https://en.wikipedia.org/wiki/Pet",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.2
+  },
+  "status": "scheduled"
+}

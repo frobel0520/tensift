@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "cartoon-franchise-001",
+  "theme": "Cartoon Characters",
+  "publishDate": "2026-10-28",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "cartoon-franchise-8",
+        "rivalGroupId": "g3",
+        "risk": "Mario is as famous as the Disney characters and looks like a cartoon mascot.",
+        "resolution": "The dimension is the franchise: Mario and Luigi belong to Nintendo's Super Mario series."
+      },
+      {
+        "itemId": "cartoon-franchise-3",
+        "rivalGroupId": "g4",
+        "risk": "Goofy is a dog, as several Sanrio characters are animal mascots.",
+        "resolution": "Goofy is a Disney character from 1932, grouped with Mickey and Donald."
+      },
+      {
+        "itemId": "cartoon-franchise-2",
+        "rivalGroupId": "g2",
+        "risk": "Pikachu and Mario both come from video games.",
+        "resolution": "Pikachu is from Pokémon, a separate franchise with a single character here."
+      }
+    ],
+    "notes": "Characters, not films, so the Disney row does not collide with the animation-studio puzzle on 2026-11-09."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers confuse the franchises, replace Luigi with Yoshi and keep Mario in the Super Mario row."
+  }
+}

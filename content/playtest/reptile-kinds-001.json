@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "reptile-kinds-001",
+  "theme": "Reptiles",
+  "publishDate": "2026-10-27",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "reptile-kinds-10",
+        "rivalGroupId": "g1",
+        "risk": "The Komodo \"dragon\" is huge and could read as a crocodile relative.",
+        "resolution": "It is a monitor lizard, the largest living lizard."
+      },
+      {
+        "itemId": "reptile-kinds-3",
+        "rivalGroupId": "g4",
+        "risk": "A crocodile looks like a giant lizard: four legs, a tail and scales.",
+        "resolution": "Crocodilians are their own reptile group, separate from lizards, and the lizard row already has four members."
+      },
+      {
+        "itemId": "reptile-kinds-9",
+        "rivalGroupId": "g1",
+        "risk": "Geckos are sometimes mistaken for amphibians.",
+        "resolution": "Geckos are scaly-skinned reptiles and belong with the lizards."
+      }
+    ],
+    "notes": "Alligator and tuatara are left out to keep the crocodilian row unambiguous."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers hesitate over the Komodo dragon, replace it with a monitor lizard or a skink."
+  }
+}

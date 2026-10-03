@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "rocks-minerals-2026-11-02-en",
+  "puzzleFamilyId": "rocks-minerals-001",
+  "locale": "en",
+  "publishDate": "2026-11-02",
+  "timezone": "UTC",
+  "theme": "Rocks and Minerals",
+  "items": [
+    {
+      "itemId": "rocks-minerals-1",
+      "label": "Granite"
+    },
+    {
+      "itemId": "rocks-minerals-2",
+      "label": "Quartz"
+    },
+    {
+      "itemId": "rocks-minerals-3",
+      "label": "Pumice"
+    },
+    {
+      "itemId": "rocks-minerals-4",
+      "label": "Obsidian"
+    },
+    {
+      "itemId": "rocks-minerals-5",
+      "label": "Shale"
+    },
+    {
+      "itemId": "rocks-minerals-6",
+      "label": "Basalt"
+    },
+    {
+      "itemId": "rocks-minerals-7",
+      "label": "Limestone"
+    },
+    {
+      "itemId": "rocks-minerals-8",
+      "label": "Marble"
+    },
+    {
+      "itemId": "rocks-minerals-9",
+      "label": "Slate"
+    },
+    {
+      "itemId": "rocks-minerals-10",
+      "label": "Sandstone"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "How the rock formed, or a single mineral",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "A single mineral",
+        "capacity": 1,
+        "itemIds": [
+          "rocks-minerals-2"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Metamorphic rock",
+        "capacity": 2,
+        "itemIds": [
+          "rocks-minerals-8",
+          "rocks-minerals-9"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Sedimentary rock",
+        "capacity": 3,
+        "itemIds": [
+          "rocks-minerals-10",
+          "rocks-minerals-7",
+          "rocks-minerals-5"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Igneous rock",
+        "capacity": 4,
+        "itemIds": [
+          "rocks-minerals-1",
+          "rocks-minerals-6",
+          "rocks-minerals-4",
+          "rocks-minerals-3"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group formed the same way: 1 single mineral, 2 metamorphic rocks changed by heat and pressure, 3 sedimentary rocks built from settled material, and 4 igneous rocks formed from cooled magma or lava.",
+  "sources": [
+    {
+      "title": "Wikipedia: Rock (geology)",
+      "url": "https://en.wikipedia.org/wiki/Rock_(geology)",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Mineral",
+      "url": "https://en.wikipedia.org/wiki/Mineral",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.63
+  },
+  "status": "scheduled"
+}

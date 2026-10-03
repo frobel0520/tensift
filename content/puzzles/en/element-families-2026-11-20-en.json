@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "element-families-2026-11-20-en",
+  "puzzleFamilyId": "element-families-001",
+  "locale": "en",
+  "publishDate": "2026-11-20",
+  "timezone": "UTC",
+  "theme": "Families of Elements",
+  "items": [
+    {
+      "itemId": "element-families-1",
+      "label": "Neon"
+    },
+    {
+      "itemId": "element-families-2",
+      "label": "Krypton"
+    },
+    {
+      "itemId": "element-families-3",
+      "label": "Calcium"
+    },
+    {
+      "itemId": "element-families-4",
+      "label": "Lithium"
+    },
+    {
+      "itemId": "element-families-5",
+      "label": "Chlorine"
+    },
+    {
+      "itemId": "element-families-6",
+      "label": "Helium"
+    },
+    {
+      "itemId": "element-families-7",
+      "label": "Iodine"
+    },
+    {
+      "itemId": "element-families-8",
+      "label": "Argon"
+    },
+    {
+      "itemId": "element-families-9",
+      "label": "Potassium"
+    },
+    {
+      "itemId": "element-families-10",
+      "label": "Sodium"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The family on the periodic table",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Alkaline earth metals",
+        "capacity": 1,
+        "itemIds": [
+          "element-families-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Halogens",
+        "capacity": 2,
+        "itemIds": [
+          "element-families-5",
+          "element-families-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Alkali metals",
+        "capacity": 3,
+        "itemIds": [
+          "element-families-4",
+          "element-families-10",
+          "element-families-9"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Noble gases",
+        "capacity": 4,
+        "itemIds": [
+          "element-families-6",
+          "element-families-1",
+          "element-families-8",
+          "element-families-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group is a family on the periodic table: 1 alkaline earth metal, 2 halogens, 3 alkali metals, and 4 noble gases.",
+  "sources": [
+    {
+      "title": "Wikipedia: Periodic table",
+      "url": "https://en.wikipedia.org/wiki/Periodic_table",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

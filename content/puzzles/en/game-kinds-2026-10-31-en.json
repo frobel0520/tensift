@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "game-kinds-2026-10-31-en",
+  "puzzleFamilyId": "game-kinds-001",
+  "locale": "en",
+  "publishDate": "2026-10-31",
+  "timezone": "UTC",
+  "theme": "Kinds of Games",
+  "items": [
+    {
+      "itemId": "game-kinds-1",
+      "label": "Mahjong"
+    },
+    {
+      "itemId": "game-kinds-2",
+      "label": "Tetris"
+    },
+    {
+      "itemId": "game-kinds-3",
+      "label": "Chess"
+    },
+    {
+      "itemId": "game-kinds-4",
+      "label": "Pac-Man"
+    },
+    {
+      "itemId": "game-kinds-5",
+      "label": "UNO"
+    },
+    {
+      "itemId": "game-kinds-6",
+      "label": "Poker"
+    },
+    {
+      "itemId": "game-kinds-7",
+      "label": "Minecraft"
+    },
+    {
+      "itemId": "game-kinds-8",
+      "label": "Fortnite"
+    },
+    {
+      "itemId": "game-kinds-9",
+      "label": "Monopoly"
+    },
+    {
+      "itemId": "game-kinds-10",
+      "label": "Go"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The kind of game",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Tile game",
+        "capacity": 1,
+        "itemIds": [
+          "game-kinds-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Card games",
+        "capacity": 2,
+        "itemIds": [
+          "game-kinds-6",
+          "game-kinds-5"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Board games",
+        "capacity": 3,
+        "itemIds": [
+          "game-kinds-3",
+          "game-kinds-9",
+          "game-kinds-10"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Video games",
+        "capacity": 4,
+        "itemIds": [
+          "game-kinds-2",
+          "game-kinds-7",
+          "game-kinds-4",
+          "game-kinds-8"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group is one kind of game: 1 tile game, 2 card games, 3 board games, and 4 video games.",
+  "sources": [
+    {
+      "title": "Wikipedia: Board game",
+      "url": "https://en.wikipedia.org/wiki/Board_game",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Card game",
+      "url": "https://en.wikipedia.org/wiki/Card_game",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

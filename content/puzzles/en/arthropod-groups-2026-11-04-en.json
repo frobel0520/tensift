@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "arthropod-groups-2026-11-04-en",
+  "puzzleFamilyId": "arthropod-groups-001",
+  "locale": "en",
+  "publishDate": "2026-11-04",
+  "timezone": "UTC",
+  "theme": "Arthropods",
+  "items": [
+    {
+      "itemId": "arthropod-groups-1",
+      "label": "Spider"
+    },
+    {
+      "itemId": "arthropod-groups-2",
+      "label": "Housefly"
+    },
+    {
+      "itemId": "arthropod-groups-3",
+      "label": "Tick"
+    },
+    {
+      "itemId": "arthropod-groups-4",
+      "label": "Shrimp"
+    },
+    {
+      "itemId": "arthropod-groups-5",
+      "label": "Centipede"
+    },
+    {
+      "itemId": "arthropod-groups-6",
+      "label": "Grasshopper"
+    },
+    {
+      "itemId": "arthropod-groups-7",
+      "label": "Mosquito"
+    },
+    {
+      "itemId": "arthropod-groups-8",
+      "label": "Crab"
+    },
+    {
+      "itemId": "arthropod-groups-9",
+      "label": "Scorpion"
+    },
+    {
+      "itemId": "arthropod-groups-10",
+      "label": "Dragonfly"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The kind of arthropod",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Myriapods",
+        "capacity": 1,
+        "itemIds": [
+          "arthropod-groups-5"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Crustaceans",
+        "capacity": 2,
+        "itemIds": [
+          "arthropod-groups-8",
+          "arthropod-groups-4"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Arachnids",
+        "capacity": 3,
+        "itemIds": [
+          "arthropod-groups-1",
+          "arthropod-groups-9",
+          "arthropod-groups-3"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Insects",
+        "capacity": 4,
+        "itemIds": [
+          "arthropod-groups-7",
+          "arthropod-groups-10",
+          "arthropod-groups-6",
+          "arthropod-groups-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "All ten are arthropods, sorted by kind: 1 myriapod, 2 crustaceans, 3 arachnids with eight legs, and 4 insects with six legs.",
+  "sources": [
+    {
+      "title": "Wikipedia: Arthropod",
+      "url": "https://en.wikipedia.org/wiki/Arthropod",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.46
+  },
+  "status": "scheduled"
+}

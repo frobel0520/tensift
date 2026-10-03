@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "invention-era-001",
+  "theme": "Inventions Through Time",
+  "publishDate": "2026-11-18",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "invention-era-7",
+        "rivalGroupId": "g1",
+        "risk": "Woodblock printing existed in ancient East Asia.",
+        "resolution": "The item is the printing press with movable type, from around 1450."
+      },
+      {
+        "itemId": "invention-era-6",
+        "rivalGroupId": "g3",
+        "risk": "Mechanical television experiments began in the 1800s.",
+        "resolution": "A working television system was demonstrated in the 1920s."
+      },
+      {
+        "itemId": "invention-era-8",
+        "rivalGroupId": "g4",
+        "risk": "The telephone is still in everyday use in the 1900s.",
+        "resolution": "The dimension is when it was first invented, and the telephone dates from 1876."
+      },
+      {
+        "itemId": "invention-era-10",
+        "rivalGroupId": "g4",
+        "risk": "Steam trains are associated with the early 1900s as well.",
+        "resolution": "The first working steam locomotive ran in 1804."
+      }
+    ],
+    "notes": "Dates: paper c. 105 CE, printing press c. 1450, telescope 1608, telephone 1876, light bulb 1879, steam locomotive 1804, airplane 1903, television 1920s, penicillin 1928, microwave oven 1945-47."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers argue over the printing press, replace it with the compass or the pocket watch and adjust the row label."
+  }
+}

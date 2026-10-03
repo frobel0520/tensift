@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fruit-growth-2026-10-26-es-419",
+  "puzzleFamilyId": "fruit-growth-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-26",
+  "timezone": "UTC",
+  "theme": "Cómo crecen las frutas",
+  "items": [
+    {
+      "itemId": "fruit-growth-1",
+      "label": "Manzana"
+    },
+    {
+      "itemId": "fruit-growth-2",
+      "label": "Kiwi"
+    },
+    {
+      "itemId": "fruit-growth-3",
+      "label": "Mango"
+    },
+    {
+      "itemId": "fruit-growth-4",
+      "label": "Maracuyá"
+    },
+    {
+      "itemId": "fruit-growth-5",
+      "label": "Piña"
+    },
+    {
+      "itemId": "fruit-growth-6",
+      "label": "Naranja"
+    },
+    {
+      "itemId": "fruit-growth-7",
+      "label": "Durazno"
+    },
+    {
+      "itemId": "fruit-growth-8",
+      "label": "Uva"
+    },
+    {
+      "itemId": "fruit-growth-9",
+      "label": "Arándano"
+    },
+    {
+      "itemId": "fruit-growth-10",
+      "label": "Fresa"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "La planta donde crece la fruta",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Crece en un arbusto",
+        "capacity": 1,
+        "itemIds": [
+          "fruit-growth-9"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Crece a ras del suelo",
+        "capacity": 2,
+        "itemIds": [
+          "fruit-growth-10",
+          "fruit-growth-5"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Crece en una enredadera",
+        "capacity": 3,
+        "itemIds": [
+          "fruit-growth-8",
+          "fruit-growth-2",
+          "fruit-growth-4"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Crece en un árbol",
+        "capacity": 4,
+        "itemIds": [
+          "fruit-growth-1",
+          "fruit-growth-6",
+          "fruit-growth-3",
+          "fruit-growth-7"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo crece igual: 1 fruta en un arbusto, 2 en plantas bajas junto al suelo, 3 en enredaderas y 4 en árboles.",
+  "sources": [
+    {
+      "title": "Wikipedia: Piña",
+      "url": "https://en.wikipedia.org/wiki/Pineapple",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Kiwi",
+      "url": "https://en.wikipedia.org/wiki/Kiwifruit",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}
