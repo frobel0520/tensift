@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "mammal-orders-2026-11-01-zh-hant",
+  "puzzleFamilyId": "mammal-orders-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-01",
+  "timezone": "UTC",
+  "theme": "哺乳動物家族",
+  "items": [
+    {
+      "itemId": "mammal-orders-1",
+      "label": "袋鼠"
+    },
+    {
+      "itemId": "mammal-orders-2",
+      "label": "大猩猩"
+    },
+    {
+      "itemId": "mammal-orders-3",
+      "label": "河狸"
+    },
+    {
+      "itemId": "mammal-orders-4",
+      "label": "鴨嘴獸"
+    },
+    {
+      "itemId": "mammal-orders-5",
+      "label": "松鼠"
+    },
+    {
+      "itemId": "mammal-orders-6",
+      "label": "水豚"
+    },
+    {
+      "itemId": "mammal-orders-7",
+      "label": "無尾熊"
+    },
+    {
+      "itemId": "mammal-orders-8",
+      "label": "黑猩猩"
+    },
+    {
+      "itemId": "mammal-orders-9",
+      "label": "老鼠"
+    },
+    {
+      "itemId": "mammal-orders-10",
+      "label": "紅毛猩猩"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "所屬的哺乳動物類群",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "產卵的哺乳類",
+        "capacity": 1,
+        "itemIds": [
+          "mammal-orders-4"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "有袋類",
+        "capacity": 2,
+        "itemIds": [
+          "mammal-orders-1",
+          "mammal-orders-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "靈長類",
+        "capacity": 3,
+        "itemIds": [
+          "mammal-orders-2",
+          "mammal-orders-8",
+          "mammal-orders-10"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "齧齒類",
+        "capacity": 4,
+        "itemIds": [
+          "mammal-orders-9",
+          "mammal-orders-5",
+          "mammal-orders-3",
+          "mammal-orders-6"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "這十種都是哺乳動物，依類群分組：1 種會產卵的哺乳類、2 種有袋類、3 種靈長類，以及 4 種齧齒類。",
+  "sources": [
+    {
+      "title": "維基百科：哺乳動物",
+      "url": "https://en.wikipedia.org/wiki/Mammal",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

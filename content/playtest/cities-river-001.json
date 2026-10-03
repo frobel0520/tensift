@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "cities-river-001",
+  "theme": "Cities on Rivers",
+  "publishDate": "2026-11-07",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "cities-river-3",
+        "rivalGroupId": "g3",
+        "risk": "Hamburg is a famous German river port, like Cologne and Düsseldorf.",
+        "resolution": "Hamburg stands on the Elbe."
+      },
+      {
+        "itemId": "cities-river-5",
+        "rivalGroupId": "g4",
+        "risk": "Basel is in Switzerland, far from the German cities, and may be placed with the Danube cities of central Europe.",
+        "resolution": "Basel stands where the Rhine turns north."
+      },
+      {
+        "itemId": "cities-river-9",
+        "rivalGroupId": "g2",
+        "risk": "Bratislava is small and less famous, so it could be sent to a smaller river group.",
+        "resolution": "Bratislava stands on the Danube, close to Vienna."
+      }
+    ],
+    "notes": "Strasbourg is left out because its centre sits on the Ill rather than directly on the Rhine."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers split on Basel, replace it with Mainz."
+  }
+}

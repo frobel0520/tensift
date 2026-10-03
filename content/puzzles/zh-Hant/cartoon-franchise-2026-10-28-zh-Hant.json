@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cartoon-franchise-2026-10-28-zh-hant",
+  "puzzleFamilyId": "cartoon-franchise-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-28",
+  "timezone": "UTC",
+  "theme": "卡通角色",
+  "items": [
+    {
+      "itemId": "cartoon-franchise-1",
+      "label": "大耳狗"
+    },
+    {
+      "itemId": "cartoon-franchise-2",
+      "label": "皮卡丘"
+    },
+    {
+      "itemId": "cartoon-franchise-3",
+      "label": "高飛"
+    },
+    {
+      "itemId": "cartoon-franchise-4",
+      "label": "酷洛米"
+    },
+    {
+      "itemId": "cartoon-franchise-5",
+      "label": "凱蒂貓"
+    },
+    {
+      "itemId": "cartoon-franchise-6",
+      "label": "唐老鴨"
+    },
+    {
+      "itemId": "cartoon-franchise-7",
+      "label": "路易吉"
+    },
+    {
+      "itemId": "cartoon-franchise-8",
+      "label": "瑪利歐"
+    },
+    {
+      "itemId": "cartoon-franchise-9",
+      "label": "布丁狗"
+    },
+    {
+      "itemId": "cartoon-franchise-10",
+      "label": "米奇"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "角色所屬的系列",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "寶可夢",
+        "capacity": 1,
+        "itemIds": [
+          "cartoon-franchise-2"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "超級瑪利歐",
+        "capacity": 2,
+        "itemIds": [
+          "cartoon-franchise-8",
+          "cartoon-franchise-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "迪士尼經典角色",
+        "capacity": 3,
+        "itemIds": [
+          "cartoon-franchise-10",
+          "cartoon-franchise-6",
+          "cartoon-franchise-3"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "三麗鷗",
+        "capacity": 4,
+        "itemIds": [
+          "cartoon-franchise-5",
+          "cartoon-franchise-4",
+          "cartoon-franchise-9",
+          "cartoon-franchise-1"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組都來自同一個系列：1 個寶可夢角色、2 個超級瑪利歐角色、3 個迪士尼經典角色，以及 4 個三麗鷗角色。",
+  "sources": [
+    {
+      "title": "維基百科：三麗鷗",
+      "url": "https://en.wikipedia.org/wiki/Sanrio",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：寶可夢",
+      "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

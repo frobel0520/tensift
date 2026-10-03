@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "craft-material-001",
+  "theme": "Crafts",
+  "publishDate": "2026-11-10",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "craft-material-9",
+        "rivalGroupId": "g2",
+        "risk": "Papier-mâché is a molded paste that is sculpted a little like clay.",
+        "resolution": "The paste is made from paper strips and glue."
+      },
+      {
+        "itemId": "craft-material-8",
+        "rivalGroupId": "g3",
+        "risk": "Weaving can also be done with paper strips.",
+        "resolution": "Weaving most commonly uses yarn and thread, and the paper row already holds three paper crafts."
+      },
+      {
+        "itemId": "craft-material-7",
+        "rivalGroupId": "g1",
+        "risk": "Pottery and glassblowing both use a kiln or furnace.",
+        "resolution": "Pottery shapes clay."
+      }
+    ],
+    "notes": "Quilting is left out because it mixes fabric and thread."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers hesitate over weaving, replace it with macramé."
+  }
+}

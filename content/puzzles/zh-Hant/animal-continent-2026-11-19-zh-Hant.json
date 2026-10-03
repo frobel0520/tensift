@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-continent-2026-11-19-zh-hant",
+  "puzzleFamilyId": "animal-continent-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-19",
+  "timezone": "UTC",
+  "theme": "動物的故鄉",
+  "items": [
+    {
+      "itemId": "animal-continent-1",
+      "label": "食人魚"
+    },
+    {
+      "itemId": "animal-continent-2",
+      "label": "袋熊"
+    },
+    {
+      "itemId": "animal-continent-3",
+      "label": "狐獴"
+    },
+    {
+      "itemId": "animal-continent-4",
+      "label": "森蚺"
+    },
+    {
+      "itemId": "animal-continent-5",
+      "label": "河馬"
+    },
+    {
+      "itemId": "animal-continent-6",
+      "label": "斑馬"
+    },
+    {
+      "itemId": "animal-continent-7",
+      "label": "鴕鳥"
+    },
+    {
+      "itemId": "animal-continent-8",
+      "label": "羊駝"
+    },
+    {
+      "itemId": "animal-continent-9",
+      "label": "帝企鵝"
+    },
+    {
+      "itemId": "animal-continent-10",
+      "label": "袋獾"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "動物原生的大洲",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "南極洲",
+        "capacity": 1,
+        "itemIds": [
+          "animal-continent-9"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "澳洲",
+        "capacity": 2,
+        "itemIds": [
+          "animal-continent-2",
+          "animal-continent-10"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "南美洲",
+        "capacity": 3,
+        "itemIds": [
+          "animal-continent-8",
+          "animal-continent-4",
+          "animal-continent-1"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "非洲",
+        "capacity": 4,
+        "itemIds": [
+          "animal-continent-6",
+          "animal-continent-5",
+          "animal-continent-3",
+          "animal-continent-7"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組動物都原生於同一個大洲：1 種來自南極洲、2 種來自澳洲、3 種來自南美洲，以及 4 種來自非洲。",
+  "sources": [
+    {
+      "title": "維基百科：帝企鵝",
+      "url": "https://en.wikipedia.org/wiki/Emperor_penguin",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：羊駝",
+      "url": "https://en.wikipedia.org/wiki/Alpaca",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.4
+  },
+  "status": "scheduled"
+}

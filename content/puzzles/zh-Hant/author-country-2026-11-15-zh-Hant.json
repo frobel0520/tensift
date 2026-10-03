@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "author-country-2026-11-15-zh-hant",
+  "puzzleFamilyId": "author-country-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-15",
+  "timezone": "UTC",
+  "theme": "知名作家",
+  "items": [
+    {
+      "itemId": "author-country-1",
+      "label": "海明威"
+    },
+    {
+      "itemId": "author-country-2",
+      "label": "托爾斯泰"
+    },
+    {
+      "itemId": "author-country-3",
+      "label": "村上春樹"
+    },
+    {
+      "itemId": "author-country-4",
+      "label": "夏目漱石"
+    },
+    {
+      "itemId": "author-country-5",
+      "label": "馬奎斯"
+    },
+    {
+      "itemId": "author-country-6",
+      "label": "費茲傑羅"
+    },
+    {
+      "itemId": "author-country-7",
+      "label": "契訶夫"
+    },
+    {
+      "itemId": "author-country-8",
+      "label": "愛倫·坡"
+    },
+    {
+      "itemId": "author-country-9",
+      "label": "杜斯妥也夫斯基"
+    },
+    {
+      "itemId": "author-country-10",
+      "label": "馬克·吐溫"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "作家的國籍",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "哥倫比亞",
+        "capacity": 1,
+        "itemIds": [
+          "author-country-5"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "日本",
+        "capacity": 2,
+        "itemIds": [
+          "author-country-3",
+          "author-country-4"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "俄羅斯",
+        "capacity": 3,
+        "itemIds": [
+          "author-country-2",
+          "author-country-9",
+          "author-country-7"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "美國",
+        "capacity": 4,
+        "itemIds": [
+          "author-country-10",
+          "author-country-1",
+          "author-country-8",
+          "author-country-6"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組作家都來自同一個國家：1 位來自哥倫比亞、2 位來自日本、3 位來自俄羅斯，以及 4 位來自美國。",
+  "sources": [
+    {
+      "title": "維基百科：加布列·賈西亞·馬奎斯",
+      "url": "https://en.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：村上春樹",
+      "url": "https://en.wikipedia.org/wiki/Haruki_Murakami",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.6
+  },
+  "status": "scheduled"
+}

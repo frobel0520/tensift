@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fruit-growth-2026-10-26-zh-hant",
+  "puzzleFamilyId": "fruit-growth-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-26",
+  "timezone": "UTC",
+  "theme": "水果怎麼長",
+  "items": [
+    {
+      "itemId": "fruit-growth-1",
+      "label": "蘋果"
+    },
+    {
+      "itemId": "fruit-growth-2",
+      "label": "奇異果"
+    },
+    {
+      "itemId": "fruit-growth-3",
+      "label": "芒果"
+    },
+    {
+      "itemId": "fruit-growth-4",
+      "label": "百香果"
+    },
+    {
+      "itemId": "fruit-growth-5",
+      "label": "鳳梨"
+    },
+    {
+      "itemId": "fruit-growth-6",
+      "label": "柳橙"
+    },
+    {
+      "itemId": "fruit-growth-7",
+      "label": "桃子"
+    },
+    {
+      "itemId": "fruit-growth-8",
+      "label": "葡萄"
+    },
+    {
+      "itemId": "fruit-growth-9",
+      "label": "藍莓"
+    },
+    {
+      "itemId": "fruit-growth-10",
+      "label": "草莓"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "結出果實的植物",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "長在灌木上",
+        "capacity": 1,
+        "itemIds": [
+          "fruit-growth-9"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "貼近地面生長",
+        "capacity": 2,
+        "itemIds": [
+          "fruit-growth-10",
+          "fruit-growth-5"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "長在藤蔓上",
+        "capacity": 3,
+        "itemIds": [
+          "fruit-growth-8",
+          "fruit-growth-2",
+          "fruit-growth-4"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "長在樹上",
+        "capacity": 4,
+        "itemIds": [
+          "fruit-growth-1",
+          "fruit-growth-6",
+          "fruit-growth-3",
+          "fruit-growth-7"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組的生長方式相同：1 種長在灌木上、2 種長在貼地的低矮植株上、3 種長在攀爬的藤蔓上，以及 4 種長在樹上。",
+  "sources": [
+    {
+      "title": "維基百科：鳳梨",
+      "url": "https://en.wikipedia.org/wiki/Pineapple",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：奇異果",
+      "url": "https://en.wikipedia.org/wiki/Kiwifruit",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

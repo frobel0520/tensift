@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animation-studio-2026-11-09-zh-hant",
+  "puzzleFamilyId": "animation-studio-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-09",
+  "timezone": "UTC",
+  "theme": "動畫電影公司",
+  "items": [
+    {
+      "itemId": "animation-studio-1",
+      "label": "阿拉丁"
+    },
+    {
+      "itemId": "animation-studio-2",
+      "label": "海洋奇緣"
+    },
+    {
+      "itemId": "animation-studio-3",
+      "label": "史瑞克"
+    },
+    {
+      "itemId": "animation-studio-4",
+      "label": "神隱少女"
+    },
+    {
+      "itemId": "animation-studio-5",
+      "label": "獅子王"
+    },
+    {
+      "itemId": "animation-studio-6",
+      "label": "霍爾的移動城堡"
+    },
+    {
+      "itemId": "animation-studio-7",
+      "label": "玩具總動員"
+    },
+    {
+      "itemId": "animation-studio-8",
+      "label": "海底總動員"
+    },
+    {
+      "itemId": "animation-studio-9",
+      "label": "冰雪奇緣"
+    },
+    {
+      "itemId": "animation-studio-10",
+      "label": "龍貓"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "製作電影的動畫公司",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "夢工廠動畫",
+        "capacity": 1,
+        "itemIds": [
+          "animation-studio-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "皮克斯",
+        "capacity": 2,
+        "itemIds": [
+          "animation-studio-7",
+          "animation-studio-8"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "吉卜力工作室",
+        "capacity": 3,
+        "itemIds": [
+          "animation-studio-4",
+          "animation-studio-10",
+          "animation-studio-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "迪士尼動畫",
+        "capacity": 4,
+        "itemIds": [
+          "animation-studio-9",
+          "animation-studio-5",
+          "animation-studio-1",
+          "animation-studio-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組電影都出自同一家動畫公司：1 部夢工廠電影、2 部皮克斯電影、3 部吉卜力電影，以及 4 部迪士尼動畫電影。",
+  "sources": [
+    {
+      "title": "維基百科：皮克斯",
+      "url": "https://en.wikipedia.org/wiki/Pixar",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：吉卜力工作室",
+      "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animation-studio-2026-11-09-es-419",
+  "puzzleFamilyId": "animation-studio-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-09",
+  "timezone": "UTC",
+  "theme": "Estudios de animación",
+  "items": [
+    {
+      "itemId": "animation-studio-1",
+      "label": "Aladdín"
+    },
+    {
+      "itemId": "animation-studio-2",
+      "label": "Moana"
+    },
+    {
+      "itemId": "animation-studio-3",
+      "label": "Shrek"
+    },
+    {
+      "itemId": "animation-studio-4",
+      "label": "El viaje de Chihiro"
+    },
+    {
+      "itemId": "animation-studio-5",
+      "label": "El rey león"
+    },
+    {
+      "itemId": "animation-studio-6",
+      "label": "El castillo ambulante"
+    },
+    {
+      "itemId": "animation-studio-7",
+      "label": "Toy Story"
+    },
+    {
+      "itemId": "animation-studio-8",
+      "label": "Buscando a Nemo"
+    },
+    {
+      "itemId": "animation-studio-9",
+      "label": "Frozen"
+    },
+    {
+      "itemId": "animation-studio-10",
+      "label": "Mi vecino Totoro"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El estudio que hizo la película",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "DreamWorks Animation",
+        "capacity": 1,
+        "itemIds": [
+          "animation-studio-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Pixar",
+        "capacity": 2,
+        "itemIds": [
+          "animation-studio-7",
+          "animation-studio-8"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Studio Ghibli",
+        "capacity": 3,
+        "itemIds": [
+          "animation-studio-4",
+          "animation-studio-10",
+          "animation-studio-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Walt Disney Animation Studios",
+        "capacity": 4,
+        "itemIds": [
+          "animation-studio-9",
+          "animation-studio-5",
+          "animation-studio-1",
+          "animation-studio-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo de películas salió de un estudio: 1 de DreamWorks, 2 de Pixar, 3 de Studio Ghibli y 4 de Walt Disney Animation.",
+  "sources": [
+    {
+      "title": "Wikipedia: Pixar",
+      "url": "https://en.wikipedia.org/wiki/Pixar",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Studio Ghibli",
+      "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

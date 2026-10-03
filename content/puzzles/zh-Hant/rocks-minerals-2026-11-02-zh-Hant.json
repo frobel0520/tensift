@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "rocks-minerals-2026-11-02-zh-hant",
+  "puzzleFamilyId": "rocks-minerals-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-02",
+  "timezone": "UTC",
+  "theme": "岩石與礦物",
+  "items": [
+    {
+      "itemId": "rocks-minerals-1",
+      "label": "花崗岩"
+    },
+    {
+      "itemId": "rocks-minerals-2",
+      "label": "石英"
+    },
+    {
+      "itemId": "rocks-minerals-3",
+      "label": "浮石"
+    },
+    {
+      "itemId": "rocks-minerals-4",
+      "label": "黑曜岩"
+    },
+    {
+      "itemId": "rocks-minerals-5",
+      "label": "頁岩"
+    },
+    {
+      "itemId": "rocks-minerals-6",
+      "label": "玄武岩"
+    },
+    {
+      "itemId": "rocks-minerals-7",
+      "label": "石灰岩"
+    },
+    {
+      "itemId": "rocks-minerals-8",
+      "label": "大理石"
+    },
+    {
+      "itemId": "rocks-minerals-9",
+      "label": "板岩"
+    },
+    {
+      "itemId": "rocks-minerals-10",
+      "label": "砂岩"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "岩石的形成方式，或單一礦物",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "單一礦物",
+        "capacity": 1,
+        "itemIds": [
+          "rocks-minerals-2"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "變質岩",
+        "capacity": 2,
+        "itemIds": [
+          "rocks-minerals-8",
+          "rocks-minerals-9"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "沉積岩",
+        "capacity": 3,
+        "itemIds": [
+          "rocks-minerals-10",
+          "rocks-minerals-7",
+          "rocks-minerals-5"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "火成岩",
+        "capacity": 4,
+        "itemIds": [
+          "rocks-minerals-1",
+          "rocks-minerals-6",
+          "rocks-minerals-4",
+          "rocks-minerals-3"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組的形成方式相同：1 種單一礦物、2 種經高溫高壓變質而成的變質岩、3 種由沉積物堆積而成的沉積岩，以及 4 種由岩漿或熔岩冷卻而成的火成岩。",
+  "sources": [
+    {
+      "title": "維基百科：岩石",
+      "url": "https://en.wikipedia.org/wiki/Rock_(geology)",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：礦物",
+      "url": "https://en.wikipedia.org/wiki/Mineral",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.63
+  },
+  "status": "scheduled"
+}

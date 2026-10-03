@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "greetings-language-2026-11-13-es-419",
+  "puzzleFamilyId": "greetings-language-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-13",
+  "timezone": "UTC",
+  "theme": "Saludos del mundo",
+  "items": [
+    {
+      "itemId": "greetings-language-1",
+      "label": "Gracias"
+    },
+    {
+      "itemId": "greetings-language-2",
+      "label": "Buenos días"
+    },
+    {
+      "itemId": "greetings-language-3",
+      "label": "Hola"
+    },
+    {
+      "itemId": "greetings-language-4",
+      "label": "Konnichiwa"
+    },
+    {
+      "itemId": "greetings-language-5",
+      "label": "Merci"
+    },
+    {
+      "itemId": "greetings-language-6",
+      "label": "Bonjour"
+    },
+    {
+      "itemId": "greetings-language-7",
+      "label": "Arigatō"
+    },
+    {
+      "itemId": "greetings-language-8",
+      "label": "Au revoir"
+    },
+    {
+      "itemId": "greetings-language-9",
+      "label": "Namasté"
+    },
+    {
+      "itemId": "greetings-language-10",
+      "label": "Adiós"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El idioma de la palabra",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Idioma hindi",
+        "capacity": 1,
+        "itemIds": [
+          "greetings-language-9"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Idioma japonés",
+        "capacity": 2,
+        "itemIds": [
+          "greetings-language-4",
+          "greetings-language-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Idioma francés",
+        "capacity": 3,
+        "itemIds": [
+          "greetings-language-6",
+          "greetings-language-5",
+          "greetings-language-8"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Idioma español",
+        "capacity": 4,
+        "itemIds": [
+          "greetings-language-3",
+          "greetings-language-1",
+          "greetings-language-10",
+          "greetings-language-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo es un saludo o agradecimiento en un idioma: 1 palabra en hindi, 2 en japonés, 3 en francés y 4 en español.",
+  "sources": [
+    {
+      "title": "Wikipedia: Saludo",
+      "url": "https://en.wikipedia.org/wiki/Greeting",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.36
+  },
+  "status": "scheduled"
+}

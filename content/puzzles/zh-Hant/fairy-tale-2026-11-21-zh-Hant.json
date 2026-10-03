@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fairy-tale-2026-11-21-zh-hant",
+  "puzzleFamilyId": "fairy-tale-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-21",
+  "timezone": "UTC",
+  "theme": "童話故事",
+  "items": [
+    {
+      "itemId": "fairy-tale-1",
+      "label": "仙女教母"
+    },
+    {
+      "itemId": "fairy-tale-2",
+      "label": "毒蘋果"
+    },
+    {
+      "itemId": "fairy-tale-3",
+      "label": "南瓜馬車"
+    },
+    {
+      "itemId": "fairy-tale-4",
+      "label": "七個小矮人"
+    },
+    {
+      "itemId": "fairy-tale-5",
+      "label": "繼姊"
+    },
+    {
+      "itemId": "fairy-tale-6",
+      "label": "魔豆"
+    },
+    {
+      "itemId": "fairy-tale-7",
+      "label": "魔鏡"
+    },
+    {
+      "itemId": "fairy-tale-8",
+      "label": "玻璃鞋"
+    },
+    {
+      "itemId": "fairy-tale-9",
+      "label": "稻草屋"
+    },
+    {
+      "itemId": "fairy-tale-10",
+      "label": "磚頭屋"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "所屬的童話故事",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "傑克與魔豆",
+        "capacity": 1,
+        "itemIds": [
+          "fairy-tale-6"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "三隻小豬",
+        "capacity": 2,
+        "itemIds": [
+          "fairy-tale-9",
+          "fairy-tale-10"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "白雪公主",
+        "capacity": 3,
+        "itemIds": [
+          "fairy-tale-2",
+          "fairy-tale-7",
+          "fairy-tale-4"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "灰姑娘",
+        "capacity": 4,
+        "itemIds": [
+          "fairy-tale-8",
+          "fairy-tale-3",
+          "fairy-tale-1",
+          "fairy-tale-5"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組都屬於同一則童話：1 項來自《傑克與魔豆》、2 項來自《三隻小豬》、3 項來自《白雪公主》，以及 4 項來自《灰姑娘》。",
+  "sources": [
+    {
+      "title": "維基百科：童話",
+      "url": "https://en.wikipedia.org/wiki/Fairy_tale",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

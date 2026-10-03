@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "fairy-tale-001",
+  "theme": "Fairy Tales",
+  "publishDate": "2026-11-21",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "fairy-tale-7",
+        "rivalGroupId": "g4",
+        "risk": "Magic mirrors appear in other tales, including Beauty and the Beast.",
+        "resolution": "The Evil Queen's mirror is the best-known mirror in fairy tales and belongs to Snow White."
+      },
+      {
+        "itemId": "fairy-tale-5",
+        "rivalGroupId": "g3",
+        "risk": "Snow White has a wicked stepmother, so a \"step-\" relative might be filed there.",
+        "resolution": "Stepsisters (plural) are Cinderella's; Snow White has a stepmother."
+      },
+      {
+        "itemId": "fairy-tale-3",
+        "rivalGroupId": "g1",
+        "risk": "Pumpkins and beans are both garden plants that could suggest the Jack story.",
+        "resolution": "The pumpkin becomes Cinderella's coach."
+      }
+    ],
+    "notes": "The easy closing day of the batch; the wolf is left out because it appears in several tales."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers disagree over the magic mirror, replace it with the Evil Queen."
+  }
+}

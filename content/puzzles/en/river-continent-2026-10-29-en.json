@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "river-continent-2026-10-29-en",
+  "puzzleFamilyId": "river-continent-001",
+  "locale": "en",
+  "publishDate": "2026-10-29",
+  "timezone": "UTC",
+  "theme": "Rivers of the World",
+  "items": [
+    {
+      "itemId": "river-continent-1",
+      "label": "Amazon"
+    },
+    {
+      "itemId": "river-continent-2",
+      "label": "Nile"
+    },
+    {
+      "itemId": "river-continent-3",
+      "label": "Congo"
+    },
+    {
+      "itemId": "river-continent-4",
+      "label": "Yangtze"
+    },
+    {
+      "itemId": "river-continent-5",
+      "label": "Mekong"
+    },
+    {
+      "itemId": "river-continent-6",
+      "label": "Thames"
+    },
+    {
+      "itemId": "river-continent-7",
+      "label": "Volga"
+    },
+    {
+      "itemId": "river-continent-8",
+      "label": "Niger"
+    },
+    {
+      "itemId": "river-continent-9",
+      "label": "Ganges"
+    },
+    {
+      "itemId": "river-continent-10",
+      "label": "Yellow River"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The continent the river flows through",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "South America",
+        "capacity": 1,
+        "itemIds": [
+          "river-continent-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Europe",
+        "capacity": 2,
+        "itemIds": [
+          "river-continent-6",
+          "river-continent-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Africa",
+        "capacity": 3,
+        "itemIds": [
+          "river-continent-2",
+          "river-continent-3",
+          "river-continent-8"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Asia",
+        "capacity": 4,
+        "itemIds": [
+          "river-continent-4",
+          "river-continent-9",
+          "river-continent-5",
+          "river-continent-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group flows through one continent: 1 river in South America, 2 in Europe, 3 in Africa, and 4 in Asia.",
+  "sources": [
+    {
+      "title": "Wikipedia: List of rivers by length",
+      "url": "https://en.wikipedia.org/wiki/List_of_rivers_by_length",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

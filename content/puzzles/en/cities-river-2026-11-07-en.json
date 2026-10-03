@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cities-river-2026-11-07-en",
+  "puzzleFamilyId": "cities-river-001",
+  "locale": "en",
+  "publishDate": "2026-11-07",
+  "timezone": "UTC",
+  "theme": "Cities on Rivers",
+  "items": [
+    {
+      "itemId": "cities-river-1",
+      "label": "Budapest"
+    },
+    {
+      "itemId": "cities-river-2",
+      "label": "Belgrade"
+    },
+    {
+      "itemId": "cities-river-3",
+      "label": "Hamburg"
+    },
+    {
+      "itemId": "cities-river-4",
+      "label": "Cologne"
+    },
+    {
+      "itemId": "cities-river-5",
+      "label": "Basel"
+    },
+    {
+      "itemId": "cities-river-6",
+      "label": "Dresden"
+    },
+    {
+      "itemId": "cities-river-7",
+      "label": "Vienna"
+    },
+    {
+      "itemId": "cities-river-8",
+      "label": "Paris"
+    },
+    {
+      "itemId": "cities-river-9",
+      "label": "Bratislava"
+    },
+    {
+      "itemId": "cities-river-10",
+      "label": "Düsseldorf"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The river the city stands on",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "The Seine",
+        "capacity": 1,
+        "itemIds": [
+          "cities-river-8"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "The Elbe",
+        "capacity": 2,
+        "itemIds": [
+          "cities-river-3",
+          "cities-river-6"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "The Rhine",
+        "capacity": 3,
+        "itemIds": [
+          "cities-river-4",
+          "cities-river-5",
+          "cities-river-10"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "The Danube",
+        "capacity": 4,
+        "itemIds": [
+          "cities-river-7",
+          "cities-river-1",
+          "cities-river-2",
+          "cities-river-9"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group of cities stands on one river: 1 city on the Seine, 2 on the Elbe, 3 on the Rhine, and 4 on the Danube.",
+  "sources": [
+    {
+      "title": "Wikipedia: Danube",
+      "url": "https://en.wikipedia.org/wiki/Danube",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Rhine",
+      "url": "https://en.wikipedia.org/wiki/Rhine",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Elbe",
+      "url": "https://en.wikipedia.org/wiki/Elbe",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.62
+  },
+  "status": "scheduled"
+}

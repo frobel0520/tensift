@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "track-field-2026-10-30-en",
+  "puzzleFamilyId": "track-field-001",
+  "locale": "en",
+  "publishDate": "2026-10-30",
+  "timezone": "UTC",
+  "theme": "Track and Field",
+  "items": [
+    {
+      "itemId": "track-field-1",
+      "label": "Pole vault"
+    },
+    {
+      "itemId": "track-field-2",
+      "label": "Long jump"
+    },
+    {
+      "itemId": "track-field-3",
+      "label": "Javelin throw"
+    },
+    {
+      "itemId": "track-field-4",
+      "label": "High jump"
+    },
+    {
+      "itemId": "track-field-5",
+      "label": "100 m sprint"
+    },
+    {
+      "itemId": "track-field-6",
+      "label": "Decathlon"
+    },
+    {
+      "itemId": "track-field-7",
+      "label": "Shot put"
+    },
+    {
+      "itemId": "track-field-8",
+      "label": "Marathon"
+    },
+    {
+      "itemId": "track-field-9",
+      "label": "Hammer throw"
+    },
+    {
+      "itemId": "track-field-10",
+      "label": "Discus throw"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The kind of athletics event",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Combined event",
+        "capacity": 1,
+        "itemIds": [
+          "track-field-6"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Running events",
+        "capacity": 2,
+        "itemIds": [
+          "track-field-5",
+          "track-field-8"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Jumping events",
+        "capacity": 3,
+        "itemIds": [
+          "track-field-4",
+          "track-field-2",
+          "track-field-1"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Throwing events",
+        "capacity": 4,
+        "itemIds": [
+          "track-field-3",
+          "track-field-7",
+          "track-field-10",
+          "track-field-9"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group is one kind of athletics event: 1 combined event, 2 running events, 3 jumping events, and 4 throwing events.",
+  "sources": [
+    {
+      "title": "Wikipedia: Track and field",
+      "url": "https://en.wikipedia.org/wiki/Track_and_field",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

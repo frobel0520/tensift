@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fairy-tale-2026-11-21-es-419",
+  "puzzleFamilyId": "fairy-tale-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-21",
+  "timezone": "UTC",
+  "theme": "Cuentos de hadas",
+  "items": [
+    {
+      "itemId": "fairy-tale-1",
+      "label": "Hada madrina"
+    },
+    {
+      "itemId": "fairy-tale-2",
+      "label": "Manzana envenenada"
+    },
+    {
+      "itemId": "fairy-tale-3",
+      "label": "Carroza de calabaza"
+    },
+    {
+      "itemId": "fairy-tale-4",
+      "label": "Siete enanitos"
+    },
+    {
+      "itemId": "fairy-tale-5",
+      "label": "Hermanastras"
+    },
+    {
+      "itemId": "fairy-tale-6",
+      "label": "Habichuelas mágicas"
+    },
+    {
+      "itemId": "fairy-tale-7",
+      "label": "Espejo mágico"
+    },
+    {
+      "itemId": "fairy-tale-8",
+      "label": "Zapatilla de cristal"
+    },
+    {
+      "itemId": "fairy-tale-9",
+      "label": "Casa de paja"
+    },
+    {
+      "itemId": "fairy-tale-10",
+      "label": "Casa de ladrillos"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El cuento de hadas al que pertenece",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Jack y las habichuelas mágicas",
+        "capacity": 1,
+        "itemIds": [
+          "fairy-tale-6"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Los tres cerditos",
+        "capacity": 2,
+        "itemIds": [
+          "fairy-tale-9",
+          "fairy-tale-10"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Blancanieves",
+        "capacity": 3,
+        "itemIds": [
+          "fairy-tale-2",
+          "fairy-tale-7",
+          "fairy-tale-4"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Cenicienta",
+        "capacity": 4,
+        "itemIds": [
+          "fairy-tale-8",
+          "fairy-tale-3",
+          "fairy-tale-1",
+          "fairy-tale-5"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo es de un cuento: 1 elemento de Jack y las habichuelas mágicas, 2 de Los tres cerditos, 3 de Blancanieves y 4 de Cenicienta.",
+  "sources": [
+    {
+      "title": "Wikipedia: Cuento de hadas",
+      "url": "https://en.wikipedia.org/wiki/Fairy_tale",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

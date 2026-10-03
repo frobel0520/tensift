@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "myth-culture-001",
+  "theme": "Myths of the World",
+  "publishDate": "2026-11-14",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "myth-culture-1",
+        "rivalGroupId": "g4",
+        "risk": "Thor is a thunder god, like Zeus.",
+        "resolution": "Thor is Norse and appears beside Odin and Loki."
+      },
+      {
+        "itemId": "myth-culture-2",
+        "rivalGroupId": "g2",
+        "risk": "Anubis also rules over the dead, as Hades does.",
+        "resolution": "Hades is the Greek ruler of the underworld; Anubis is Egyptian."
+      },
+      {
+        "itemId": "myth-culture-8",
+        "rivalGroupId": "g1",
+        "risk": "Athena's Roman counterpart, Minerva, could suggest a Roman row.",
+        "resolution": "No Roman row exists, and Athena is the Greek name."
+      }
+    ],
+    "notes": "Marvel-film familiarity with Thor is acceptable because the item is the Norse god."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers split on Ra, replace it with Isis."
+  }
+}
