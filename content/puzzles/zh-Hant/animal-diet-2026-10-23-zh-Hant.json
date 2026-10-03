@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "animal-diet-2026-10-23-zh-hant",
+  "puzzleFamilyId": "animal-diet-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-23",
+  "timezone": "UTC",
+  "theme": "動物吃什麼",
+  "items": [
+    {
+      "itemId": "animal-diet-1",
+      "label": "長頸鹿"
+    },
+    {
+      "itemId": "animal-diet-2",
+      "label": "馬"
+    },
+    {
+      "itemId": "animal-diet-3",
+      "label": "食蟻獸"
+    },
+    {
+      "itemId": "animal-diet-4",
+      "label": "獅子"
+    },
+    {
+      "itemId": "animal-diet-5",
+      "label": "兔子"
+    },
+    {
+      "itemId": "animal-diet-6",
+      "label": "牛"
+    },
+    {
+      "itemId": "animal-diet-7",
+      "label": "狼"
+    },
+    {
+      "itemId": "animal-diet-8",
+      "label": "豬"
+    },
+    {
+      "itemId": "animal-diet-9",
+      "label": "浣熊"
+    },
+    {
+      "itemId": "animal-diet-10",
+      "label": "鯊魚"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "動物主要吃的東西",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "主要吃昆蟲",
+        "capacity": 1,
+        "itemIds": [
+          "animal-diet-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "動物和植物都吃",
+        "capacity": 2,
+        "itemIds": [
+          "animal-diet-8",
+          "animal-diet-9"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "主要吃肉",
+        "capacity": 3,
+        "itemIds": [
+          "animal-diet-4",
+          "animal-diet-10",
+          "animal-diet-7"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "只吃植物",
+        "capacity": 4,
+        "itemIds": [
+          "animal-diet-6",
+          "animal-diet-5",
+          "animal-diet-1",
+          "animal-diet-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組的食性不同：1 種吃昆蟲的動物、2 種植物和動物都吃的雜食動物、3 種主要吃肉的肉食動物，以及 4 種只吃植物的草食動物。",
+  "sources": [
+    {
+      "title": "維基百科：雜食動物",
+      "url": "https://en.wikipedia.org/wiki/Omnivore",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：食肉動物",
+      "url": "https://en.wikipedia.org/wiki/Carnivore",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.26
+  },
+  "status": "scheduled"
+}

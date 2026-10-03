@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "track-field-2026-10-30-es-419",
+  "puzzleFamilyId": "track-field-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-30",
+  "timezone": "UTC",
+  "theme": "Atletismo",
+  "items": [
+    {
+      "itemId": "track-field-1",
+      "label": "Salto con pértiga"
+    },
+    {
+      "itemId": "track-field-2",
+      "label": "Salto de longitud"
+    },
+    {
+      "itemId": "track-field-3",
+      "label": "Lanzamiento de jabalina"
+    },
+    {
+      "itemId": "track-field-4",
+      "label": "Salto de altura"
+    },
+    {
+      "itemId": "track-field-5",
+      "label": "100 metros planos"
+    },
+    {
+      "itemId": "track-field-6",
+      "label": "Decatlón"
+    },
+    {
+      "itemId": "track-field-7",
+      "label": "Lanzamiento de bala"
+    },
+    {
+      "itemId": "track-field-8",
+      "label": "Maratón"
+    },
+    {
+      "itemId": "track-field-9",
+      "label": "Lanzamiento de martillo"
+    },
+    {
+      "itemId": "track-field-10",
+      "label": "Lanzamiento de disco"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El tipo de prueba de atletismo",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Prueba combinada",
+        "capacity": 1,
+        "itemIds": [
+          "track-field-6"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Carreras",
+        "capacity": 2,
+        "itemIds": [
+          "track-field-5",
+          "track-field-8"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Saltos",
+        "capacity": 3,
+        "itemIds": [
+          "track-field-4",
+          "track-field-2",
+          "track-field-1"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Lanzamientos",
+        "capacity": 4,
+        "itemIds": [
+          "track-field-3",
+          "track-field-7",
+          "track-field-10",
+          "track-field-9"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo es un tipo de prueba de atletismo: 1 prueba combinada, 2 carreras, 3 saltos y 4 lanzamientos.",
+  "sources": [
+    {
+      "title": "Wikipedia: Atletismo",
+      "url": "https://en.wikipedia.org/wiki/Track_and_field",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

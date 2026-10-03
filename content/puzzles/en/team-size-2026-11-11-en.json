@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "team-size-2026-11-11-en",
+  "puzzleFamilyId": "team-size-001",
+  "locale": "en",
+  "publishDate": "2026-11-11",
+  "timezone": "UTC",
+  "theme": "Players on the Field",
+  "items": [
+    {
+      "itemId": "team-size-1",
+      "label": "Field hockey"
+    },
+    {
+      "itemId": "team-size-2",
+      "label": "Volleyball"
+    },
+    {
+      "itemId": "team-size-3",
+      "label": "Rugby sevens"
+    },
+    {
+      "itemId": "team-size-4",
+      "label": "Cricket"
+    },
+    {
+      "itemId": "team-size-5",
+      "label": "Ice hockey"
+    },
+    {
+      "itemId": "team-size-6",
+      "label": "Basketball"
+    },
+    {
+      "itemId": "team-size-7",
+      "label": "Water polo"
+    },
+    {
+      "itemId": "team-size-8",
+      "label": "American football"
+    },
+    {
+      "itemId": "team-size-9",
+      "label": "Soccer"
+    },
+    {
+      "itemId": "team-size-10",
+      "label": "Handball"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Players per team on the court or field at one time",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "5 players",
+        "capacity": 1,
+        "itemIds": [
+          "team-size-6"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "6 players",
+        "capacity": 2,
+        "itemIds": [
+          "team-size-2",
+          "team-size-5"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "7 players",
+        "capacity": 3,
+        "itemIds": [
+          "team-size-10",
+          "team-size-7",
+          "team-size-3"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "11 players",
+        "capacity": 4,
+        "itemIds": [
+          "team-size-9",
+          "team-size-4",
+          "team-size-1",
+          "team-size-8"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group fields the same number of players per team at once: 1 sport with 5, 2 with 6, 3 with 7, and 4 with 11.",
+  "sources": [
+    {
+      "title": "Wikipedia: Team sport",
+      "url": "https://en.wikipedia.org/wiki/Team_sport",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Water polo",
+      "url": "https://en.wikipedia.org/wiki/Water_polo",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.64
+  },
+  "status": "scheduled"
+}

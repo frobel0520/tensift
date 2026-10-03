@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "painter-country-2026-11-17-en",
+  "puzzleFamilyId": "painter-country-001",
+  "locale": "en",
+  "publishDate": "2026-11-17",
+  "timezone": "UTC",
+  "theme": "Famous Painters",
+  "items": [
+    {
+      "itemId": "painter-country-1",
+      "label": "Edgar Degas"
+    },
+    {
+      "itemId": "painter-country-2",
+      "label": "Francisco Goya"
+    },
+    {
+      "itemId": "painter-country-3",
+      "label": "Frida Kahlo"
+    },
+    {
+      "itemId": "painter-country-4",
+      "label": "Claude Monet"
+    },
+    {
+      "itemId": "painter-country-5",
+      "label": "Salvador Dalí"
+    },
+    {
+      "itemId": "painter-country-6",
+      "label": "Diego Velázquez"
+    },
+    {
+      "itemId": "painter-country-7",
+      "label": "Paul Cézanne"
+    },
+    {
+      "itemId": "painter-country-8",
+      "label": "Pierre-Auguste Renoir"
+    },
+    {
+      "itemId": "painter-country-9",
+      "label": "Johannes Vermeer"
+    },
+    {
+      "itemId": "painter-country-10",
+      "label": "Rembrandt"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The painter's home country",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Mexico",
+        "capacity": 1,
+        "itemIds": [
+          "painter-country-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Netherlands",
+        "capacity": 2,
+        "itemIds": [
+          "painter-country-10",
+          "painter-country-9"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Spain",
+        "capacity": 3,
+        "itemIds": [
+          "painter-country-2",
+          "painter-country-5",
+          "painter-country-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "France",
+        "capacity": 4,
+        "itemIds": [
+          "painter-country-4",
+          "painter-country-8",
+          "painter-country-7",
+          "painter-country-1"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group of painters was born in one country: 1 from Mexico, 2 from the Netherlands, 3 from Spain, and 4 from France.",
+  "sources": [
+    {
+      "title": "Wikipedia: Frida Kahlo",
+      "url": "https://en.wikipedia.org/wiki/Frida_Kahlo",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Claude Monet",
+      "url": "https://en.wikipedia.org/wiki/Claude_Monet",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "car-origin-2026-11-03-en",
+  "puzzleFamilyId": "car-origin-001",
+  "locale": "en",
+  "publishDate": "2026-11-03",
+  "timezone": "UTC",
+  "theme": "Car Brands",
+  "items": [
+    {
+      "itemId": "car-origin-1",
+      "label": "Honda"
+    },
+    {
+      "itemId": "car-origin-2",
+      "label": "Toyota"
+    },
+    {
+      "itemId": "car-origin-3",
+      "label": "Mazda"
+    },
+    {
+      "itemId": "car-origin-4",
+      "label": "Nissan"
+    },
+    {
+      "itemId": "car-origin-5",
+      "label": "Audi"
+    },
+    {
+      "itemId": "car-origin-6",
+      "label": "Lamborghini"
+    },
+    {
+      "itemId": "car-origin-7",
+      "label": "BMW"
+    },
+    {
+      "itemId": "car-origin-8",
+      "label": "Volvo"
+    },
+    {
+      "itemId": "car-origin-9",
+      "label": "Ferrari"
+    },
+    {
+      "itemId": "car-origin-10",
+      "label": "Mercedes-Benz"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The country where the brand began",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Sweden",
+        "capacity": 1,
+        "itemIds": [
+          "car-origin-8"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Italy",
+        "capacity": 2,
+        "itemIds": [
+          "car-origin-9",
+          "car-origin-6"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Germany",
+        "capacity": 3,
+        "itemIds": [
+          "car-origin-7",
+          "car-origin-10",
+          "car-origin-5"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Japan",
+        "capacity": 4,
+        "itemIds": [
+          "car-origin-2",
+          "car-origin-1",
+          "car-origin-4",
+          "car-origin-3"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group began in one country: 1 Swedish brand, 2 Italian brands, 3 German brands, and 4 Japanese brands.",
+  "sources": [
+    {
+      "title": "Wikipedia: List of car brands",
+      "url": "https://en.wikipedia.org/wiki/List_of_car_brands",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.38
+  },
+  "status": "scheduled"
+}

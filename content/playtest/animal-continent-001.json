@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "animal-continent-001",
+  "theme": "Animals by Continent",
+  "publishDate": "2026-11-19",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "animal-continent-7",
+        "rivalGroupId": "g1",
+        "risk": "Ostriches and penguins are both flightless birds.",
+        "resolution": "The dimension is where the animal is native; the ostrich is African and the emperor penguin is Antarctic."
+      },
+      {
+        "itemId": "animal-continent-9",
+        "rivalGroupId": "g4",
+        "risk": "African penguins live on the coast of southern Africa.",
+        "resolution": "The item is the emperor penguin, which breeds only on the Antarctic ice."
+      },
+      {
+        "itemId": "animal-continent-8",
+        "rivalGroupId": "g2",
+        "risk": "Alpacas are farmed in Australia and many other countries.",
+        "resolution": "Alpacas are native to the Andes of South America."
+      }
+    ],
+    "notes": "Kangaroo and koala appear in the mammal puzzle on 2026-11-01, so this puzzle uses other Australian animals."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers hesitate over the piranha, replace it with a toucan or a jaguar."
+  }
+}

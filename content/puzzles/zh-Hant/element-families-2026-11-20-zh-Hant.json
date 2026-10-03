@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "element-families-2026-11-20-zh-hant",
+  "puzzleFamilyId": "element-families-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-20",
+  "timezone": "UTC",
+  "theme": "元素家族",
+  "items": [
+    {
+      "itemId": "element-families-1",
+      "label": "氖"
+    },
+    {
+      "itemId": "element-families-2",
+      "label": "氪"
+    },
+    {
+      "itemId": "element-families-3",
+      "label": "鈣"
+    },
+    {
+      "itemId": "element-families-4",
+      "label": "鋰"
+    },
+    {
+      "itemId": "element-families-5",
+      "label": "氯"
+    },
+    {
+      "itemId": "element-families-6",
+      "label": "氦"
+    },
+    {
+      "itemId": "element-families-7",
+      "label": "碘"
+    },
+    {
+      "itemId": "element-families-8",
+      "label": "氬"
+    },
+    {
+      "itemId": "element-families-9",
+      "label": "鉀"
+    },
+    {
+      "itemId": "element-families-10",
+      "label": "鈉"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "週期表上的家族",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "鹼土金屬",
+        "capacity": 1,
+        "itemIds": [
+          "element-families-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "鹵素",
+        "capacity": 2,
+        "itemIds": [
+          "element-families-5",
+          "element-families-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "鹼金屬",
+        "capacity": 3,
+        "itemIds": [
+          "element-families-4",
+          "element-families-10",
+          "element-families-9"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "惰性氣體",
+        "capacity": 4,
+        "itemIds": [
+          "element-families-6",
+          "element-families-1",
+          "element-families-8",
+          "element-families-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組都是週期表上的同一個家族：1 種鹼土金屬、2 種鹵素、3 種鹼金屬，以及 4 種惰性氣體。",
+  "sources": [
+    {
+      "title": "維基百科：週期表",
+      "url": "https://en.wikipedia.org/wiki/Periodic_table",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "team-size-001",
+  "theme": "Players on the Field",
+  "publishDate": "2026-11-11",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "team-size-2",
+        "rivalGroupId": "g1",
+        "risk": "Beach volleyball is played by two players a side.",
+        "resolution": "The item is indoor volleyball, which fields six."
+      },
+      {
+        "itemId": "team-size-5",
+        "rivalGroupId": "g4",
+        "risk": "An ice hockey roster is much bigger than six.",
+        "resolution": "Six skaters including the goalkeeper are on the ice at once."
+      },
+      {
+        "itemId": "team-size-7",
+        "rivalGroupId": "g2",
+        "risk": "Water polo is a team sport with a goalkeeper like ice hockey.",
+        "resolution": "Seven players including the goalkeeper are in the water."
+      },
+      {
+        "itemId": "team-size-8",
+        "rivalGroupId": "g3",
+        "risk": "American football has large squads, with separate offence and defence units.",
+        "resolution": "Eleven players a side are on the field at once."
+      }
+    ],
+    "notes": "Counts are for a standard adult match. The reveal text states the rule so the rows can be verified."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers cannot place rugby sevens, replace it with netball, which also fields seven."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "rocks-minerals-001",
+  "theme": "Rocks and Minerals",
+  "publishDate": "2026-11-02",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "rocks-minerals-2",
+        "rivalGroupId": "g4",
+        "risk": "Quartz is a main ingredient of granite and sandstone, so it may be filed with them.",
+        "resolution": "Quartz is a single mineral, not a rock formed from several."
+      },
+      {
+        "itemId": "rocks-minerals-8",
+        "rivalGroupId": "g3",
+        "risk": "Marble starts as limestone, a sedimentary rock.",
+        "resolution": "Heat and pressure changed it into a metamorphic rock."
+      },
+      {
+        "itemId": "rocks-minerals-3",
+        "rivalGroupId": "g3",
+        "risk": "Pumice is light and porous like some sedimentary rocks.",
+        "resolution": "Pumice forms from frothy lava, which makes it igneous."
+      },
+      {
+        "itemId": "rocks-minerals-4",
+        "rivalGroupId": "g1",
+        "risk": "Obsidian is glassy and has a crystal-like look.",
+        "resolution": "Obsidian is volcanic glass and an igneous rock."
+      }
+    ],
+    "notes": "Coal is left out because it is a sedimentary rock that many people treat as a mineral."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers hesitate over the single-mineral row, replace Quartz with Calcite or Gypsum."
+  }
+}

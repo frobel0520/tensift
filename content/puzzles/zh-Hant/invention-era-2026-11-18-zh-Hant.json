@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "invention-era-2026-11-18-zh-hant",
+  "puzzleFamilyId": "invention-era-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-18",
+  "timezone": "UTC",
+  "theme": "發明的年代",
+  "items": [
+    {
+      "itemId": "invention-era-1",
+      "label": "望遠鏡"
+    },
+    {
+      "itemId": "invention-era-2",
+      "label": "微波爐"
+    },
+    {
+      "itemId": "invention-era-3",
+      "label": "紙"
+    },
+    {
+      "itemId": "invention-era-4",
+      "label": "盤尼西林"
+    },
+    {
+      "itemId": "invention-era-5",
+      "label": "飛機"
+    },
+    {
+      "itemId": "invention-era-6",
+      "label": "電視"
+    },
+    {
+      "itemId": "invention-era-7",
+      "label": "活字印刷機"
+    },
+    {
+      "itemId": "invention-era-8",
+      "label": "電話"
+    },
+    {
+      "itemId": "invention-era-9",
+      "label": "電燈泡"
+    },
+    {
+      "itemId": "invention-era-10",
+      "label": "蒸汽火車頭"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "最早發明的年代",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "西元 1000 年以前",
+        "capacity": 1,
+        "itemIds": [
+          "invention-era-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "15 到 17 世紀",
+        "capacity": 2,
+        "itemIds": [
+          "invention-era-7",
+          "invention-era-1"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "19 世紀",
+        "capacity": 3,
+        "itemIds": [
+          "invention-era-8",
+          "invention-era-9",
+          "invention-era-10"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "20 世紀",
+        "capacity": 4,
+        "itemIds": [
+          "invention-era-5",
+          "invention-era-6",
+          "invention-era-4",
+          "invention-era-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組都是在同一個年代發明的：1 項在西元 1000 年以前（紙，約西元 105 年）、2 項在 15 到 17 世紀、3 項在 19 世紀，以及 4 項在 20 世紀。",
+  "sources": [
+    {
+      "title": "維基百科：發明年表",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

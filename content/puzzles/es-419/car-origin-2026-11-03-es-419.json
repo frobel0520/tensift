@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "car-origin-2026-11-03-es-419",
+  "puzzleFamilyId": "car-origin-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-03",
+  "timezone": "UTC",
+  "theme": "Marcas de autos",
+  "items": [
+    {
+      "itemId": "car-origin-1",
+      "label": "Honda"
+    },
+    {
+      "itemId": "car-origin-2",
+      "label": "Toyota"
+    },
+    {
+      "itemId": "car-origin-3",
+      "label": "Mazda"
+    },
+    {
+      "itemId": "car-origin-4",
+      "label": "Nissan"
+    },
+    {
+      "itemId": "car-origin-5",
+      "label": "Audi"
+    },
+    {
+      "itemId": "car-origin-6",
+      "label": "Lamborghini"
+    },
+    {
+      "itemId": "car-origin-7",
+      "label": "BMW"
+    },
+    {
+      "itemId": "car-origin-8",
+      "label": "Volvo"
+    },
+    {
+      "itemId": "car-origin-9",
+      "label": "Ferrari"
+    },
+    {
+      "itemId": "car-origin-10",
+      "label": "Mercedes-Benz"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El país donde nació la marca",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Suecia",
+        "capacity": 1,
+        "itemIds": [
+          "car-origin-8"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Italia",
+        "capacity": 2,
+        "itemIds": [
+          "car-origin-9",
+          "car-origin-6"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Alemania",
+        "capacity": 3,
+        "itemIds": [
+          "car-origin-7",
+          "car-origin-10",
+          "car-origin-5"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Japón",
+        "capacity": 4,
+        "itemIds": [
+          "car-origin-2",
+          "car-origin-1",
+          "car-origin-4",
+          "car-origin-3"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo nació en un país: 1 marca sueca, 2 italianas, 3 alemanas y 4 japonesas.",
+  "sources": [
+    {
+      "title": "Wikipedia: Anexo:Marcas de automóviles",
+      "url": "https://en.wikipedia.org/wiki/List_of_car_brands",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.38
+  },
+  "status": "scheduled"
+}

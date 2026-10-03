@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "team-size-2026-11-11-zh-hant",
+  "puzzleFamilyId": "team-size-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-11",
+  "timezone": "UTC",
+  "theme": "場上人數",
+  "items": [
+    {
+      "itemId": "team-size-1",
+      "label": "曲棍球"
+    },
+    {
+      "itemId": "team-size-2",
+      "label": "排球"
+    },
+    {
+      "itemId": "team-size-3",
+      "label": "七人制橄欖球"
+    },
+    {
+      "itemId": "team-size-4",
+      "label": "板球"
+    },
+    {
+      "itemId": "team-size-5",
+      "label": "冰球"
+    },
+    {
+      "itemId": "team-size-6",
+      "label": "籃球"
+    },
+    {
+      "itemId": "team-size-7",
+      "label": "水球"
+    },
+    {
+      "itemId": "team-size-8",
+      "label": "美式足球"
+    },
+    {
+      "itemId": "team-size-9",
+      "label": "足球"
+    },
+    {
+      "itemId": "team-size-10",
+      "label": "手球"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "每隊同時上場的人數",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "5 人",
+        "capacity": 1,
+        "itemIds": [
+          "team-size-6"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "6 人",
+        "capacity": 2,
+        "itemIds": [
+          "team-size-2",
+          "team-size-5"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "7 人",
+        "capacity": 3,
+        "itemIds": [
+          "team-size-10",
+          "team-size-7",
+          "team-size-3"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "11 人",
+        "capacity": 4,
+        "itemIds": [
+          "team-size-9",
+          "team-size-4",
+          "team-size-1",
+          "team-size-8"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組項目每隊同時上場的人數相同：1 項是 5 人、2 項是 6 人、3 項是 7 人，以及 4 項是 11 人。",
+  "sources": [
+    {
+      "title": "維基百科：團體運動",
+      "url": "https://en.wikipedia.org/wiki/Team_sport",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：水球",
+      "url": "https://en.wikipedia.org/wiki/Water_polo",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.64
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "animal-diet-001",
+  "theme": "Animal Diets",
+  "publishDate": "2026-10-23",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "animal-diet-3",
+        "rivalGroupId": "g3",
+        "risk": "Anteaters eat animals, so a strict biologist could file them with the carnivores.",
+        "resolution": "The meat row holds hunters of larger prey; the anteater is the textbook insect eater and the only item with that diet."
+      },
+      {
+        "itemId": "animal-diet-9",
+        "rivalGroupId": "g3",
+        "risk": "Raccoons belong to the order Carnivora, which sounds like \"carnivore\".",
+        "resolution": "The puzzle sorts by what the animal eats, not by taxonomic order; raccoons eat fruit, nuts, insects and small animals."
+      },
+      {
+        "itemId": "animal-diet-8",
+        "rivalGroupId": "g4",
+        "risk": "Pigs are often pictured eating only plant scraps.",
+        "resolution": "Pigs eat both plants and animal food and are the standard omnivore example."
+      },
+      {
+        "itemId": "animal-diet-10",
+        "rivalGroupId": "g4",
+        "risk": "A few sharks, such as the whale shark, filter plankton.",
+        "resolution": "The generic shark is a meat eater; no plankton-feeding shark is named."
+      }
+    ],
+    "notes": "Diet is the dimension, not taxonomy. Wolf replaces eagle so the batch has no repeated item with the later bird puzzle."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers file the anteater with the meat row, replace it with a nectar drinker such as a hummingbird and relabel the row \"Drinks nectar\"."
+  }
+}

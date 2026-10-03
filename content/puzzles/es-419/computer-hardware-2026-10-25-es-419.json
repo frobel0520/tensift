@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "computer-hardware-2026-10-25-es-419",
+  "puzzleFamilyId": "computer-hardware-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-25",
+  "timezone": "UTC",
+  "theme": "Partes de la computadora",
+  "items": [
+    {
+      "itemId": "computer-hardware-1",
+      "label": "Teclado"
+    },
+    {
+      "itemId": "computer-hardware-2",
+      "label": "Disco duro"
+    },
+    {
+      "itemId": "computer-hardware-3",
+      "label": "Altavoces"
+    },
+    {
+      "itemId": "computer-hardware-4",
+      "label": "Ratón"
+    },
+    {
+      "itemId": "computer-hardware-5",
+      "label": "Monitor"
+    },
+    {
+      "itemId": "computer-hardware-6",
+      "label": "Impresora"
+    },
+    {
+      "itemId": "computer-hardware-7",
+      "label": "Cámara web"
+    },
+    {
+      "itemId": "computer-hardware-8",
+      "label": "Memoria USB"
+    },
+    {
+      "itemId": "computer-hardware-9",
+      "label": "Micrófono"
+    },
+    {
+      "itemId": "computer-hardware-10",
+      "label": "Procesador (CPU)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Su función en la computadora",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Procesa los datos",
+        "capacity": 1,
+        "itemIds": [
+          "computer-hardware-10"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Guarda datos",
+        "capacity": 2,
+        "itemIds": [
+          "computer-hardware-2",
+          "computer-hardware-8"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Entrega resultados",
+        "capacity": 3,
+        "itemIds": [
+          "computer-hardware-5",
+          "computer-hardware-6",
+          "computer-hardware-3"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Ingresa información",
+        "capacity": 4,
+        "itemIds": [
+          "computer-hardware-1",
+          "computer-hardware-4",
+          "computer-hardware-9",
+          "computer-hardware-7"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo hace el mismo trabajo: 1 pieza que procesa datos, 2 que los guardan, 3 que muestran o reproducen resultados y 4 que ingresan información.",
+  "sources": [
+    {
+      "title": "Wikipedia: Hardware",
+      "url": "https://en.wikipedia.org/wiki/Computer_hardware",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Periférico de entrada",
+      "url": "https://en.wikipedia.org/wiki/Input_device",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}
