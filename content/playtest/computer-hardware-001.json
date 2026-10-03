@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "computer-hardware-001",
+  "theme": "Computer Hardware",
+  "publishDate": "2026-10-25",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "computer-hardware-8",
+        "rivalGroupId": "g4",
+        "risk": "A USB flash drive plugs into the same ports as the keyboard and mouse.",
+        "resolution": "The port is shared, the job is not: a flash drive holds files."
+      },
+      {
+        "itemId": "computer-hardware-7",
+        "rivalGroupId": "g3",
+        "risk": "A webcam sits next to the monitor and could read as part of the display.",
+        "resolution": "A webcam captures video and sends it into the computer, which makes it an input device."
+      },
+      {
+        "itemId": "computer-hardware-9",
+        "rivalGroupId": "g3",
+        "risk": "A microphone and speakers both deal with sound.",
+        "resolution": "The microphone brings sound in, the speakers send it out."
+      }
+    ],
+    "notes": "RAM and touchscreens are left out on purpose because they sit between categories."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers cannot tell storage from processing, replace the CPU with a graphics card and relabel the row \"Does the heavy calculating\"."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "river-continent-2026-10-29-zh-hant",
+  "puzzleFamilyId": "river-continent-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-29",
+  "timezone": "UTC",
+  "theme": "世界的河流",
+  "items": [
+    {
+      "itemId": "river-continent-1",
+      "label": "亞馬遜河"
+    },
+    {
+      "itemId": "river-continent-2",
+      "label": "尼羅河"
+    },
+    {
+      "itemId": "river-continent-3",
+      "label": "剛果河"
+    },
+    {
+      "itemId": "river-continent-4",
+      "label": "長江"
+    },
+    {
+      "itemId": "river-continent-5",
+      "label": "湄公河"
+    },
+    {
+      "itemId": "river-continent-6",
+      "label": "泰晤士河"
+    },
+    {
+      "itemId": "river-continent-7",
+      "label": "窩瓦河"
+    },
+    {
+      "itemId": "river-continent-8",
+      "label": "尼日河"
+    },
+    {
+      "itemId": "river-continent-9",
+      "label": "恆河"
+    },
+    {
+      "itemId": "river-continent-10",
+      "label": "黃河"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "河流所在的大洲",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "南美洲",
+        "capacity": 1,
+        "itemIds": [
+          "river-continent-1"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "歐洲",
+        "capacity": 2,
+        "itemIds": [
+          "river-continent-6",
+          "river-continent-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "非洲",
+        "capacity": 3,
+        "itemIds": [
+          "river-continent-2",
+          "river-continent-3",
+          "river-continent-8"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "亞洲",
+        "capacity": 4,
+        "itemIds": [
+          "river-continent-4",
+          "river-continent-9",
+          "river-continent-5",
+          "river-continent-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組河流都位於同一個大洲：1 條在南美洲、2 條在歐洲、3 條在非洲，以及 4 條在亞洲。",
+  "sources": [
+    {
+      "title": "維基百科：河流長度列表",
+      "url": "https://en.wikipedia.org/wiki/List_of_rivers_by_length",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "car-origin-001",
+  "theme": "Car Brands",
+  "publishDate": "2026-11-03",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "car-origin-8",
+        "rivalGroupId": "g3",
+        "risk": "Volvo is now owned by a Chinese company and is sold worldwide, so its origin may be forgotten.",
+        "resolution": "The puzzle follows the founding country; Volvo was founded in Gothenburg, Sweden, in 1927."
+      },
+      {
+        "itemId": "car-origin-6",
+        "rivalGroupId": "g3",
+        "risk": "Lamborghini is owned by the German Audi group.",
+        "resolution": "Ownership does not change origin: the brand was founded in Italy in 1963."
+      },
+      {
+        "itemId": "car-origin-5",
+        "rivalGroupId": "g4",
+        "risk": "Audi sells many compact cars, a segment Japanese brands also fill.",
+        "resolution": "Audi is a German brand founded in Zwickau in 1909."
+      }
+    ],
+    "notes": "Fact base is founding country, not current parent company."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers split on Volvo, replace it with Saab and relabel nothing; if on Lamborghini, replace it with Alfa Romeo."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "pet-supplies-2026-10-24-es-419",
+  "puzzleFamilyId": "pet-supplies-001",
+  "locale": "es-419",
+  "publishDate": "2026-10-24",
+  "timezone": "UTC",
+  "theme": "Cosas para mascotas",
+  "items": [
+    {
+      "itemId": "pet-supplies-1",
+      "label": "Correa"
+    },
+    {
+      "itemId": "pet-supplies-2",
+      "label": "Caja de arena"
+    },
+    {
+      "itemId": "pet-supplies-3",
+      "label": "Casa para perro"
+    },
+    {
+      "itemId": "pet-supplies-4",
+      "label": "Galletas para perros"
+    },
+    {
+      "itemId": "pet-supplies-5",
+      "label": "Alimento para peces"
+    },
+    {
+      "itemId": "pet-supplies-6",
+      "label": "Hueso para perro"
+    },
+    {
+      "itemId": "pet-supplies-7",
+      "label": "Rascador"
+    },
+    {
+      "itemId": "pet-supplies-8",
+      "label": "Rueda de ejercicio"
+    },
+    {
+      "itemId": "pet-supplies-9",
+      "label": "Acuario"
+    },
+    {
+      "itemId": "pet-supplies-10",
+      "label": "Hierba gatera"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Para qué mascota es",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Para un hámster",
+        "capacity": 1,
+        "itemIds": [
+          "pet-supplies-8"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Para un pez",
+        "capacity": 2,
+        "itemIds": [
+          "pet-supplies-9",
+          "pet-supplies-5"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Para un gato",
+        "capacity": 3,
+        "itemIds": [
+          "pet-supplies-2",
+          "pet-supplies-7",
+          "pet-supplies-10"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Para un perro",
+        "capacity": 4,
+        "itemIds": [
+          "pet-supplies-1",
+          "pet-supplies-3",
+          "pet-supplies-6",
+          "pet-supplies-4"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo es para una mascota: 1 cosa para un hámster, 2 para un pez, 3 para un gato y 4 para un perro.",
+  "sources": [
+    {
+      "title": "Wikipedia: Mascota",
+      "url": "https://en.wikipedia.org/wiki/Pet",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.2
+  },
+  "status": "scheduled"
+}

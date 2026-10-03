@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "mammal-orders-001",
+  "theme": "Mammal Families",
+  "publishDate": "2026-11-01",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "mammal-orders-4",
+        "rivalGroupId": "g4",
+        "risk": "The platypus has a beaver-like tail and lives in rivers like the beaver and capybara.",
+        "resolution": "It is a monotreme, the only egg-laying mammal in the puzzle."
+      },
+      {
+        "itemId": "mammal-orders-7",
+        "rivalGroupId": "g3",
+        "risk": "Koalas are sometimes called \"koala bears\" and look like small climbing primates.",
+        "resolution": "Koalas carry their young in a pouch, which makes them marsupials."
+      },
+      {
+        "itemId": "mammal-orders-6",
+        "rivalGroupId": "g3",
+        "risk": "The capybara is large and sociable, which might suggest a primate.",
+        "resolution": "It is the largest living rodent."
+      }
+    ],
+    "notes": "Rabbits are left out on purpose: they are not rodents, and the puzzle would turn into a trivia trap."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers hesitate over the capybara, replace it with a hamster."
+  }
+}

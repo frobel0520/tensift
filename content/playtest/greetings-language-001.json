@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "greetings-language-001",
+  "theme": "Hello in Other Languages",
+  "publishDate": "2026-11-13",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "greetings-language-5",
+        "rivalGroupId": "g4",
+        "risk": "\"Merci\" is borrowed into several languages, including English.",
+        "resolution": "It is a French word for thanks, matching the French row."
+      },
+      {
+        "itemId": "greetings-language-3",
+        "rivalGroupId": "g3",
+        "risk": "\"Hola\" is also used in Catalan and is close to Portuguese \"olá\".",
+        "resolution": "In the puzzle, it appears beside Gracias and Adiós, which leaves Spanish as the clear match."
+      },
+      {
+        "itemId": "greetings-language-9",
+        "rivalGroupId": "g2",
+        "risk": "\"Namaste\" is also used in Nepali and Sanskrit and sometimes with a bow like Japanese greetings.",
+        "resolution": "It is the Hindi greeting best known worldwide."
+      }
+    ],
+    "notes": "Words only, no phrases that depend on formal register. The zh edition shows the Japanese words in kana for readability."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers split on Hola, replace it with ¿Cómo estás?."
+  }
+}

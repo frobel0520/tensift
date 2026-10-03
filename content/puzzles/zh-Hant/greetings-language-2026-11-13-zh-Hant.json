@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "greetings-language-2026-11-13-zh-hant",
+  "puzzleFamilyId": "greetings-language-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-13",
+  "timezone": "UTC",
+  "theme": "各國問候語",
+  "items": [
+    {
+      "itemId": "greetings-language-1",
+      "label": "Gracias"
+    },
+    {
+      "itemId": "greetings-language-2",
+      "label": "Buenos días"
+    },
+    {
+      "itemId": "greetings-language-3",
+      "label": "Hola"
+    },
+    {
+      "itemId": "greetings-language-4",
+      "label": "こんにちは"
+    },
+    {
+      "itemId": "greetings-language-5",
+      "label": "Merci"
+    },
+    {
+      "itemId": "greetings-language-6",
+      "label": "Bonjour"
+    },
+    {
+      "itemId": "greetings-language-7",
+      "label": "ありがとう"
+    },
+    {
+      "itemId": "greetings-language-8",
+      "label": "Au revoir"
+    },
+    {
+      "itemId": "greetings-language-9",
+      "label": "Namaste"
+    },
+    {
+      "itemId": "greetings-language-10",
+      "label": "Adiós"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "這個詞屬於哪一種語言",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "印地語",
+        "capacity": 1,
+        "itemIds": [
+          "greetings-language-9"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "日語",
+        "capacity": 2,
+        "itemIds": [
+          "greetings-language-4",
+          "greetings-language-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "法語",
+        "capacity": 3,
+        "itemIds": [
+          "greetings-language-6",
+          "greetings-language-5",
+          "greetings-language-8"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "西班牙語",
+        "capacity": 4,
+        "itemIds": [
+          "greetings-language-3",
+          "greetings-language-1",
+          "greetings-language-10",
+          "greetings-language-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組都是同一種語言的問候或道謝用語：1 個印地語、2 個日語、3 個法語，以及 4 個西班牙語。",
+  "sources": [
+    {
+      "title": "維基百科：問候",
+      "url": "https://en.wikipedia.org/wiki/Greeting",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.36
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "painter-country-001",
+  "theme": "Famous Painters",
+  "publishDate": "2026-11-17",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "painter-country-5",
+        "rivalGroupId": "g4",
+        "risk": "Dalí spent much of his career in Paris and Port Lligat near the French border.",
+        "resolution": "He was born in Figueres, Spain, which is the dimension used."
+      },
+      {
+        "itemId": "painter-country-10",
+        "rivalGroupId": "g4",
+        "risk": "Rembrandt's Dutch Golden Age work sits near French painters in many museums.",
+        "resolution": "He was born in Leiden, in the Netherlands."
+      },
+      {
+        "itemId": "painter-country-3",
+        "rivalGroupId": "g3",
+        "risk": "Kahlo is often linked with Spanish-language art.",
+        "resolution": "She was born in Coyoacán, Mexico City."
+      }
+    ],
+    "notes": "Picasso and Van Gogh are avoided because they spent most of their careers in France."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers hesitate over Velázquez, replace him with Joan Miró."
+  }
+}

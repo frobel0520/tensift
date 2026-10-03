@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "author-country-001",
+  "theme": "Famous Authors",
+  "publishDate": "2026-11-15",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "author-country-5",
+        "rivalGroupId": "g3",
+        "risk": "García Márquez lived much of his life in Mexico.",
+        "resolution": "He was born in Aracataca, Colombia."
+      },
+      {
+        "itemId": "author-country-6",
+        "rivalGroupId": "g3",
+        "risk": "Fitzgerald's novels are often discussed with the Europe-based Lost Generation.",
+        "resolution": "He was born in Saint Paul, Minnesota."
+      },
+      {
+        "itemId": "author-country-9",
+        "rivalGroupId": "g4",
+        "risk": "Dostoevsky's works are often read in the same course as Poe.",
+        "resolution": "He was born in Moscow, in the Russian Empire."
+      }
+    ],
+    "notes": "Spanish spellings follow common Latin American usage (Dostoyevski, Chéjov)."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers hesitate over García Márquez, replace him with Jorge Luis Borges and relabel the row Argentina."
+  }
+}

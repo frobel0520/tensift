@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "bird-kinds-2026-11-06-zh-hant",
+  "puzzleFamilyId": "bird-kinds-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-06",
+  "timezone": "UTC",
+  "theme": "鳥類",
+  "items": [
+    {
+      "itemId": "bird-kinds-1",
+      "label": "魚鷹"
+    },
+    {
+      "itemId": "bird-kinds-2",
+      "label": "老鷹"
+    },
+    {
+      "itemId": "bird-kinds-3",
+      "label": "貓頭鷹"
+    },
+    {
+      "itemId": "bird-kinds-4",
+      "label": "鴯鶓"
+    },
+    {
+      "itemId": "bird-kinds-5",
+      "label": "金絲雀"
+    },
+    {
+      "itemId": "bird-kinds-6",
+      "label": "鴨"
+    },
+    {
+      "itemId": "bird-kinds-7",
+      "label": "天鵝"
+    },
+    {
+      "itemId": "bird-kinds-8",
+      "label": "麻雀"
+    },
+    {
+      "itemId": "bird-kinds-9",
+      "label": "知更鳥"
+    },
+    {
+      "itemId": "bird-kinds-10",
+      "label": "隼"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "鳥的種類",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "不會飛的鳥",
+        "capacity": 1,
+        "itemIds": [
+          "bird-kinds-4"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "雁鴨類",
+        "capacity": 2,
+        "itemIds": [
+          "bird-kinds-6",
+          "bird-kinds-7"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "鳴禽",
+        "capacity": 3,
+        "itemIds": [
+          "bird-kinds-8",
+          "bird-kinds-9",
+          "bird-kinds-5"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "猛禽",
+        "capacity": 4,
+        "itemIds": [
+          "bird-kinds-2",
+          "bird-kinds-10",
+          "bird-kinds-3",
+          "bird-kinds-1"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "這十種都是鳥類，依種類分組：1 種不會飛的鳥、2 種雁鴨類、3 種鳴禽，以及 4 種猛禽。",
+  "sources": [
+    {
+      "title": "維基百科：鳥類",
+      "url": "https://en.wikipedia.org/wiki/Bird",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

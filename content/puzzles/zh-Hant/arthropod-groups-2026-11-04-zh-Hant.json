@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "arthropod-groups-2026-11-04-zh-hant",
+  "puzzleFamilyId": "arthropod-groups-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-04",
+  "timezone": "UTC",
+  "theme": "節肢動物",
+  "items": [
+    {
+      "itemId": "arthropod-groups-1",
+      "label": "蜘蛛"
+    },
+    {
+      "itemId": "arthropod-groups-2",
+      "label": "家蠅"
+    },
+    {
+      "itemId": "arthropod-groups-3",
+      "label": "壁蝨"
+    },
+    {
+      "itemId": "arthropod-groups-4",
+      "label": "蝦"
+    },
+    {
+      "itemId": "arthropod-groups-5",
+      "label": "蜈蚣"
+    },
+    {
+      "itemId": "arthropod-groups-6",
+      "label": "蚱蜢"
+    },
+    {
+      "itemId": "arthropod-groups-7",
+      "label": "蚊子"
+    },
+    {
+      "itemId": "arthropod-groups-8",
+      "label": "螃蟹"
+    },
+    {
+      "itemId": "arthropod-groups-9",
+      "label": "蠍子"
+    },
+    {
+      "itemId": "arthropod-groups-10",
+      "label": "蜻蜓"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "節肢動物的種類",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "多足類",
+        "capacity": 1,
+        "itemIds": [
+          "arthropod-groups-5"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "甲殼類",
+        "capacity": 2,
+        "itemIds": [
+          "arthropod-groups-8",
+          "arthropod-groups-4"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "蛛形類",
+        "capacity": 3,
+        "itemIds": [
+          "arthropod-groups-1",
+          "arthropod-groups-9",
+          "arthropod-groups-3"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "昆蟲",
+        "capacity": 4,
+        "itemIds": [
+          "arthropod-groups-7",
+          "arthropod-groups-10",
+          "arthropod-groups-6",
+          "arthropod-groups-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "這十種都是節肢動物，依種類分組：1 種多足類、2 種甲殼類、3 種有八隻腳的蛛形類，以及 4 種有六隻腳的昆蟲。",
+  "sources": [
+    {
+      "title": "維基百科：節肢動物",
+      "url": "https://en.wikipedia.org/wiki/Arthropod",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.46
+  },
+  "status": "scheduled"
+}

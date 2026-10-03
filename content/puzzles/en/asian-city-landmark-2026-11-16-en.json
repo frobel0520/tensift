@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "asian-city-landmark-2026-11-16-en",
+  "puzzleFamilyId": "asian-city-landmark-001",
+  "locale": "en",
+  "publishDate": "2026-11-16",
+  "timezone": "UTC",
+  "theme": "Landmarks of Asia",
+  "items": [
+    {
+      "itemId": "asian-city-landmark-1",
+      "label": "Temple of Heaven"
+    },
+    {
+      "itemId": "asian-city-landmark-2",
+      "label": "N Seoul Tower"
+    },
+    {
+      "itemId": "asian-city-landmark-3",
+      "label": "Forbidden City"
+    },
+    {
+      "itemId": "asian-city-landmark-4",
+      "label": "Gyeongbokgung"
+    },
+    {
+      "itemId": "asian-city-landmark-5",
+      "label": "Tokyo Tower"
+    },
+    {
+      "itemId": "asian-city-landmark-6",
+      "label": "Taipei 101"
+    },
+    {
+      "itemId": "asian-city-landmark-7",
+      "label": "Shibuya Crossing"
+    },
+    {
+      "itemId": "asian-city-landmark-8",
+      "label": "Tiananmen Square"
+    },
+    {
+      "itemId": "asian-city-landmark-9",
+      "label": "Sensō-ji"
+    },
+    {
+      "itemId": "asian-city-landmark-10",
+      "label": "Summer Palace"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The city the landmark stands in",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Taipei",
+        "capacity": 1,
+        "itemIds": [
+          "asian-city-landmark-6"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Seoul",
+        "capacity": 2,
+        "itemIds": [
+          "asian-city-landmark-4",
+          "asian-city-landmark-2"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Tokyo",
+        "capacity": 3,
+        "itemIds": [
+          "asian-city-landmark-5",
+          "asian-city-landmark-9",
+          "asian-city-landmark-7"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Beijing",
+        "capacity": 4,
+        "itemIds": [
+          "asian-city-landmark-3",
+          "asian-city-landmark-1",
+          "asian-city-landmark-10",
+          "asian-city-landmark-8"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group of landmarks stands in one city: 1 in Taipei, 2 in Seoul, 3 in Tokyo, and 4 in Beijing.",
+  "sources": [
+    {
+      "title": "Wikipedia: Taipei 101",
+      "url": "https://en.wikipedia.org/wiki/Taipei_101",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Forbidden City",
+      "url": "https://en.wikipedia.org/wiki/Forbidden_City",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "island-country-2026-11-08-es-419",
+  "puzzleFamilyId": "island-country-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-08",
+  "timezone": "UTC",
+  "theme": "Islas del mundo",
+  "items": [
+    {
+      "itemId": "island-country-1",
+      "label": "Santorini"
+    },
+    {
+      "itemId": "island-country-2",
+      "label": "Creta"
+    },
+    {
+      "itemId": "island-country-3",
+      "label": "Java"
+    },
+    {
+      "itemId": "island-country-4",
+      "label": "Bali"
+    },
+    {
+      "itemId": "island-country-5",
+      "label": "Hokkaido"
+    },
+    {
+      "itemId": "island-country-6",
+      "label": "Okinawa"
+    },
+    {
+      "itemId": "island-country-7",
+      "label": "Honshu"
+    },
+    {
+      "itemId": "island-country-8",
+      "label": "Sumatra"
+    },
+    {
+      "itemId": "island-country-9",
+      "label": "Kyushu"
+    },
+    {
+      "itemId": "island-country-10",
+      "label": "Phuket"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El país al que pertenece la isla",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Tailandia",
+        "capacity": 1,
+        "itemIds": [
+          "island-country-10"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Grecia",
+        "capacity": 2,
+        "itemIds": [
+          "island-country-1",
+          "island-country-2"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Indonesia",
+        "capacity": 3,
+        "itemIds": [
+          "island-country-4",
+          "island-country-3",
+          "island-country-8"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Japón",
+        "capacity": 4,
+        "itemIds": [
+          "island-country-5",
+          "island-country-7",
+          "island-country-9",
+          "island-country-6"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo de islas pertenece a un país: 1 de Tailandia, 2 de Grecia, 3 de Indonesia y 4 de Japón.",
+  "sources": [
+    {
+      "title": "Wikipedia: Anexo:Islas por superficie",
+      "url": "https://en.wikipedia.org/wiki/List_of_islands_by_area",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

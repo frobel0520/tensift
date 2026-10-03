@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cities-river-2026-11-07-es-419",
+  "puzzleFamilyId": "cities-river-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-07",
+  "timezone": "UTC",
+  "theme": "Ciudades junto a ríos",
+  "items": [
+    {
+      "itemId": "cities-river-1",
+      "label": "Budapest"
+    },
+    {
+      "itemId": "cities-river-2",
+      "label": "Belgrado"
+    },
+    {
+      "itemId": "cities-river-3",
+      "label": "Hamburgo"
+    },
+    {
+      "itemId": "cities-river-4",
+      "label": "Colonia"
+    },
+    {
+      "itemId": "cities-river-5",
+      "label": "Basilea"
+    },
+    {
+      "itemId": "cities-river-6",
+      "label": "Dresde"
+    },
+    {
+      "itemId": "cities-river-7",
+      "label": "Viena"
+    },
+    {
+      "itemId": "cities-river-8",
+      "label": "París"
+    },
+    {
+      "itemId": "cities-river-9",
+      "label": "Bratislava"
+    },
+    {
+      "itemId": "cities-river-10",
+      "label": "Düsseldorf"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El río junto al que está la ciudad",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "El Sena",
+        "capacity": 1,
+        "itemIds": [
+          "cities-river-8"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "El Elba",
+        "capacity": 2,
+        "itemIds": [
+          "cities-river-3",
+          "cities-river-6"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "El Rin",
+        "capacity": 3,
+        "itemIds": [
+          "cities-river-4",
+          "cities-river-5",
+          "cities-river-10"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "El Danubio",
+        "capacity": 4,
+        "itemIds": [
+          "cities-river-7",
+          "cities-river-1",
+          "cities-river-2",
+          "cities-river-9"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo de ciudades está junto a un río: 1 en el Sena, 2 en el Elba, 3 en el Rin y 4 en el Danubio.",
+  "sources": [
+    {
+      "title": "Wikipedia: Danubio",
+      "url": "https://en.wikipedia.org/wiki/Danube",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Rin",
+      "url": "https://en.wikipedia.org/wiki/Rhine",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Elba",
+      "url": "https://en.wikipedia.org/wiki/Elbe",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.62
+  },
+  "status": "scheduled"
+}

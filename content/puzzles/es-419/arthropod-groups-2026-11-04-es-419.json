@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "arthropod-groups-2026-11-04-es-419",
+  "puzzleFamilyId": "arthropod-groups-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-04",
+  "timezone": "UTC",
+  "theme": "Artrópodos",
+  "items": [
+    {
+      "itemId": "arthropod-groups-1",
+      "label": "Araña"
+    },
+    {
+      "itemId": "arthropod-groups-2",
+      "label": "Mosca doméstica"
+    },
+    {
+      "itemId": "arthropod-groups-3",
+      "label": "Garrapata"
+    },
+    {
+      "itemId": "arthropod-groups-4",
+      "label": "Camarón"
+    },
+    {
+      "itemId": "arthropod-groups-5",
+      "label": "Ciempiés"
+    },
+    {
+      "itemId": "arthropod-groups-6",
+      "label": "Saltamontes"
+    },
+    {
+      "itemId": "arthropod-groups-7",
+      "label": "Mosquito"
+    },
+    {
+      "itemId": "arthropod-groups-8",
+      "label": "Cangrejo"
+    },
+    {
+      "itemId": "arthropod-groups-9",
+      "label": "Escorpión"
+    },
+    {
+      "itemId": "arthropod-groups-10",
+      "label": "Libélula"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El tipo de artrópodo",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Miriápodos",
+        "capacity": 1,
+        "itemIds": [
+          "arthropod-groups-5"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Crustáceos",
+        "capacity": 2,
+        "itemIds": [
+          "arthropod-groups-8",
+          "arthropod-groups-4"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Arácnidos",
+        "capacity": 3,
+        "itemIds": [
+          "arthropod-groups-1",
+          "arthropod-groups-9",
+          "arthropod-groups-3"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Insectos",
+        "capacity": 4,
+        "itemIds": [
+          "arthropod-groups-7",
+          "arthropod-groups-10",
+          "arthropod-groups-6",
+          "arthropod-groups-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Los diez son artrópodos, ordenados por tipo: 1 miriápodo, 2 crustáceos, 3 arácnidos con ocho patas y 4 insectos con seis patas.",
+  "sources": [
+    {
+      "title": "Wikipedia: Arthropoda",
+      "url": "https://en.wikipedia.org/wiki/Arthropod",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.46
+  },
+  "status": "scheduled"
+}

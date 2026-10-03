@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "reptile-kinds-2026-10-27-zh-hant",
+  "puzzleFamilyId": "reptile-kinds-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-27",
+  "timezone": "UTC",
+  "theme": "爬蟲類",
+  "items": [
+    {
+      "itemId": "reptile-kinds-1",
+      "label": "陸龜"
+    },
+    {
+      "itemId": "reptile-kinds-2",
+      "label": "變色龍"
+    },
+    {
+      "itemId": "reptile-kinds-3",
+      "label": "鱷魚"
+    },
+    {
+      "itemId": "reptile-kinds-4",
+      "label": "響尾蛇"
+    },
+    {
+      "itemId": "reptile-kinds-5",
+      "label": "蟒蛇"
+    },
+    {
+      "itemId": "reptile-kinds-6",
+      "label": "鬣蜥"
+    },
+    {
+      "itemId": "reptile-kinds-7",
+      "label": "眼鏡蛇"
+    },
+    {
+      "itemId": "reptile-kinds-8",
+      "label": "海龜"
+    },
+    {
+      "itemId": "reptile-kinds-9",
+      "label": "壁虎"
+    },
+    {
+      "itemId": "reptile-kinds-10",
+      "label": "科摩多龍"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "爬蟲類的種類",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "鱷類",
+        "capacity": 1,
+        "itemIds": [
+          "reptile-kinds-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "龜類",
+        "capacity": 2,
+        "itemIds": [
+          "reptile-kinds-8",
+          "reptile-kinds-1"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "蛇類",
+        "capacity": 3,
+        "itemIds": [
+          "reptile-kinds-7",
+          "reptile-kinds-5",
+          "reptile-kinds-4"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "蜥蜴類",
+        "capacity": 4,
+        "itemIds": [
+          "reptile-kinds-9",
+          "reptile-kinds-6",
+          "reptile-kinds-2",
+          "reptile-kinds-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "這十種都是爬蟲類，依種類分組：1 種鱷類、2 種龜類、3 種蛇類，以及 4 種蜥蜴類。",
+  "sources": [
+    {
+      "title": "維基百科：爬蟲類",
+      "url": "https://en.wikipedia.org/wiki/Reptile",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.32
+  },
+  "status": "scheduled"
+}

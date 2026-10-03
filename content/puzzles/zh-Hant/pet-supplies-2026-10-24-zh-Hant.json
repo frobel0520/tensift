@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "pet-supplies-2026-10-24-zh-hant",
+  "puzzleFamilyId": "pet-supplies-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-10-24",
+  "timezone": "UTC",
+  "theme": "寵物用品",
+  "items": [
+    {
+      "itemId": "pet-supplies-1",
+      "label": "牽繩"
+    },
+    {
+      "itemId": "pet-supplies-2",
+      "label": "貓砂盆"
+    },
+    {
+      "itemId": "pet-supplies-3",
+      "label": "狗屋"
+    },
+    {
+      "itemId": "pet-supplies-4",
+      "label": "狗餅乾"
+    },
+    {
+      "itemId": "pet-supplies-5",
+      "label": "魚飼料"
+    },
+    {
+      "itemId": "pet-supplies-6",
+      "label": "狗骨頭"
+    },
+    {
+      "itemId": "pet-supplies-7",
+      "label": "貓抓板"
+    },
+    {
+      "itemId": "pet-supplies-8",
+      "label": "跑輪"
+    },
+    {
+      "itemId": "pet-supplies-9",
+      "label": "水族箱"
+    },
+    {
+      "itemId": "pet-supplies-10",
+      "label": "貓薄荷"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "適合哪一種寵物",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "倉鼠用",
+        "capacity": 1,
+        "itemIds": [
+          "pet-supplies-8"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "魚用",
+        "capacity": 2,
+        "itemIds": [
+          "pet-supplies-9",
+          "pet-supplies-5"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "貓用",
+        "capacity": 3,
+        "itemIds": [
+          "pet-supplies-2",
+          "pet-supplies-7",
+          "pet-supplies-10"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "狗用",
+        "capacity": 4,
+        "itemIds": [
+          "pet-supplies-1",
+          "pet-supplies-3",
+          "pet-supplies-6",
+          "pet-supplies-4"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組都是替同一種寵物準備的：1 樣倉鼠用品、2 樣魚用品、3 樣貓用品，以及 4 樣狗用品。",
+  "sources": [
+    {
+      "title": "維基百科：寵物",
+      "url": "https://en.wikipedia.org/wiki/Pet",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.2
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "invention-era-2026-11-18-es-419",
+  "puzzleFamilyId": "invention-era-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-18",
+  "timezone": "UTC",
+  "theme": "Inventos a lo largo del tiempo",
+  "items": [
+    {
+      "itemId": "invention-era-1",
+      "label": "Telescopio"
+    },
+    {
+      "itemId": "invention-era-2",
+      "label": "Horno de microondas"
+    },
+    {
+      "itemId": "invention-era-3",
+      "label": "Papel"
+    },
+    {
+      "itemId": "invention-era-4",
+      "label": "Penicilina"
+    },
+    {
+      "itemId": "invention-era-5",
+      "label": "Avión"
+    },
+    {
+      "itemId": "invention-era-6",
+      "label": "Televisión"
+    },
+    {
+      "itemId": "invention-era-7",
+      "label": "Imprenta"
+    },
+    {
+      "itemId": "invention-era-8",
+      "label": "Teléfono"
+    },
+    {
+      "itemId": "invention-era-9",
+      "label": "Bombilla eléctrica"
+    },
+    {
+      "itemId": "invention-era-10",
+      "label": "Locomotora de vapor"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cuándo se inventó por primera vez",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Antes del año 1000",
+        "capacity": 1,
+        "itemIds": [
+          "invention-era-3"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Siglos XV al XVII",
+        "capacity": 2,
+        "itemIds": [
+          "invention-era-7",
+          "invention-era-1"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Siglo XIX",
+        "capacity": 3,
+        "itemIds": [
+          "invention-era-8",
+          "invention-era-9",
+          "invention-era-10"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Siglo XX",
+        "capacity": 4,
+        "itemIds": [
+          "invention-era-5",
+          "invention-era-6",
+          "invention-era-4",
+          "invention-era-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo se inventó en una época: 1 antes del año 1000 (el papel, hacia el 105 d. C.), 2 entre los siglos XV y XVII, 3 en el siglo XIX y 4 en el siglo XX.",
+  "sources": [
+    {
+      "title": "Wikipedia: Anexo:Cronología de inventos",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_historic_inventions",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

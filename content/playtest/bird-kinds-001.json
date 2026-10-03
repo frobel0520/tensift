@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "bird-kinds-001",
+  "theme": "Kinds of Birds",
+  "publishDate": "2026-11-06",
+  "authorReview": {
+    "reviewedAt": "2026-10-03",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "bird-kinds-1",
+        "rivalGroupId": "g2",
+        "risk": "Ospreys live by water and catch fish.",
+        "resolution": "The osprey hunts with talons and is a bird of prey, not waterfowl."
+      },
+      {
+        "itemId": "bird-kinds-3",
+        "rivalGroupId": "g3",
+        "risk": "Owls call at night, which could suggest singing birds.",
+        "resolution": "Owls are hunters with talons and are grouped with the birds of prey."
+      },
+      {
+        "itemId": "bird-kinds-7",
+        "rivalGroupId": "g1",
+        "risk": "Swans are large and the emu is large, which may suggest a size grouping.",
+        "resolution": "Swans fly and live on water; the emu is flightless."
+      }
+    ],
+    "notes": "Penguin is avoided so it does not collide with the flightless row or with the animals-by-continent puzzle."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "If testers argue about the owl, replace it with a hawk (only if the zh label can stay distinct from the eagle)."
+  }
+}

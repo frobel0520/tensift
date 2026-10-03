@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "island-country-2026-11-08-zh-hant",
+  "puzzleFamilyId": "island-country-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-08",
+  "timezone": "UTC",
+  "theme": "世界的島嶼",
+  "items": [
+    {
+      "itemId": "island-country-1",
+      "label": "聖托里尼"
+    },
+    {
+      "itemId": "island-country-2",
+      "label": "克里特島"
+    },
+    {
+      "itemId": "island-country-3",
+      "label": "爪哇島"
+    },
+    {
+      "itemId": "island-country-4",
+      "label": "峇里島"
+    },
+    {
+      "itemId": "island-country-5",
+      "label": "北海道"
+    },
+    {
+      "itemId": "island-country-6",
+      "label": "沖繩"
+    },
+    {
+      "itemId": "island-country-7",
+      "label": "本州"
+    },
+    {
+      "itemId": "island-country-8",
+      "label": "蘇門答臘"
+    },
+    {
+      "itemId": "island-country-9",
+      "label": "九州"
+    },
+    {
+      "itemId": "island-country-10",
+      "label": "普吉島"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "島嶼所屬的國家",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "泰國",
+        "capacity": 1,
+        "itemIds": [
+          "island-country-10"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "希臘",
+        "capacity": 2,
+        "itemIds": [
+          "island-country-1",
+          "island-country-2"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "印尼",
+        "capacity": 3,
+        "itemIds": [
+          "island-country-4",
+          "island-country-3",
+          "island-country-8"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "日本",
+        "capacity": 4,
+        "itemIds": [
+          "island-country-5",
+          "island-country-7",
+          "island-country-9",
+          "island-country-6"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組島嶼都屬於同一個國家：1 座屬於泰國、2 座屬於希臘、3 座屬於印尼，以及 4 座屬於日本。",
+  "sources": [
+    {
+      "title": "維基百科：島嶼面積列表",
+      "url": "https://en.wikipedia.org/wiki/List_of_islands_by_area",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

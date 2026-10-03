@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "myth-culture-2026-11-14-zh-hant",
+  "puzzleFamilyId": "myth-culture-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-14",
+  "timezone": "UTC",
+  "theme": "神話世界",
+  "items": [
+    {
+      "itemId": "myth-culture-1",
+      "label": "索爾"
+    },
+    {
+      "itemId": "myth-culture-2",
+      "label": "黑帝斯"
+    },
+    {
+      "itemId": "myth-culture-3",
+      "label": "阿努比斯"
+    },
+    {
+      "itemId": "myth-culture-4",
+      "label": "天照大神"
+    },
+    {
+      "itemId": "myth-culture-5",
+      "label": "宙斯"
+    },
+    {
+      "itemId": "myth-culture-6",
+      "label": "洛基"
+    },
+    {
+      "itemId": "myth-culture-7",
+      "label": "奧丁"
+    },
+    {
+      "itemId": "myth-culture-8",
+      "label": "雅典娜"
+    },
+    {
+      "itemId": "myth-culture-9",
+      "label": "波塞頓"
+    },
+    {
+      "itemId": "myth-culture-10",
+      "label": "太陽神拉"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "神祇所屬的神話",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "日本神話",
+        "capacity": 1,
+        "itemIds": [
+          "myth-culture-4"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "埃及神話",
+        "capacity": 2,
+        "itemIds": [
+          "myth-culture-10",
+          "myth-culture-3"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "北歐神話",
+        "capacity": 3,
+        "itemIds": [
+          "myth-culture-7",
+          "myth-culture-1",
+          "myth-culture-6"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "希臘神話",
+        "capacity": 4,
+        "itemIds": [
+          "myth-culture-5",
+          "myth-culture-8",
+          "myth-culture-9",
+          "myth-culture-2"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "每組都來自同一個神話體系：1 位日本女神、2 位埃及神祇、3 位北歐神祇，以及 4 位希臘神祇。",
+  "sources": [
+    {
+      "title": "維基百科：希臘神話",
+      "url": "https://en.wikipedia.org/wiki/Greek_mythology",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "維基百科：北歐神話",
+      "url": "https://en.wikipedia.org/wiki/Norse_mythology",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

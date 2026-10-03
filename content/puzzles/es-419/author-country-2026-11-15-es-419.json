@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "author-country-2026-11-15-es-419",
+  "puzzleFamilyId": "author-country-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-15",
+  "timezone": "UTC",
+  "theme": "Escritores famosos",
+  "items": [
+    {
+      "itemId": "author-country-1",
+      "label": "Ernest Hemingway"
+    },
+    {
+      "itemId": "author-country-2",
+      "label": "Leo Tolstoy"
+    },
+    {
+      "itemId": "author-country-3",
+      "label": "Haruki Murakami"
+    },
+    {
+      "itemId": "author-country-4",
+      "label": "Natsume Sōseki"
+    },
+    {
+      "itemId": "author-country-5",
+      "label": "Gabriel García Márquez"
+    },
+    {
+      "itemId": "author-country-6",
+      "label": "F. Scott Fitzgerald"
+    },
+    {
+      "itemId": "author-country-7",
+      "label": "Antón Chéjov"
+    },
+    {
+      "itemId": "author-country-8",
+      "label": "Edgar Allan Poe"
+    },
+    {
+      "itemId": "author-country-9",
+      "label": "Fiódor Dostoyevski"
+    },
+    {
+      "itemId": "author-country-10",
+      "label": "Mark Twain"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El país del escritor",
+    "groups": [
+      {
+        "groupId": "g1",
+        "label": "Colombia",
+        "capacity": 1,
+        "itemIds": [
+          "author-country-5"
+        ]
+      },
+      {
+        "groupId": "g2",
+        "label": "Japón",
+        "capacity": 2,
+        "itemIds": [
+          "author-country-3",
+          "author-country-4"
+        ]
+      },
+      {
+        "groupId": "g3",
+        "label": "Rusia",
+        "capacity": 3,
+        "itemIds": [
+          "author-country-2",
+          "author-country-9",
+          "author-country-7"
+        ]
+      },
+      {
+        "groupId": "g4",
+        "label": "Estados Unidos",
+        "capacity": 4,
+        "itemIds": [
+          "author-country-10",
+          "author-country-1",
+          "author-country-8",
+          "author-country-6"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo de escritores es de un país: 1 de Colombia, 2 de Japón, 3 de Rusia y 4 de Estados Unidos.",
+  "sources": [
+    {
+      "title": "Wikipedia: Gabriel García Márquez",
+      "url": "https://en.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez",
+      "retrievedAt": "2026-10-03"
+    },
+    {
+      "title": "Wikipedia: Haruki Murakami",
+      "url": "https://en.wikipedia.org/wiki/Haruki_Murakami",
+      "retrievedAt": "2026-10-03"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.6
+  },
+  "status": "scheduled"
+}
