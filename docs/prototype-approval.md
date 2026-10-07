@@ -18,7 +18,7 @@ Scope: `index.html` multilingual gameplay prototype
 
 ## Accepted prototype location
 
-`C:\Users\ytwei\Projects\tensift\index.html`
+`index.html` at the repository root
 
 ## Next phase
 
