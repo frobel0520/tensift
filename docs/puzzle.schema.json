@@ -25,7 +25,7 @@
     "schemaVersion": {"type": "integer", "const": 1},
     "puzzleId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]{2,63}$"},
     "puzzleFamilyId": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]{2,63}$"},
-    "locale": {"type": "string", "enum": ["en", "zh-Hans", "es-419"]},
+    "locale": {"type": "string", "enum": ["en", "zh-Hant", "es-419"]},
     "publishDate": {"type": "string", "format": "date"},
     "timezone": {"type": "string", "const": "UTC"},
     "theme": {"type": "string", "minLength": 1, "maxLength": 80},
@@ -167,3 +167,4 @@
     "the complete solution is unique after non-author blind review"
   ]
 }
+

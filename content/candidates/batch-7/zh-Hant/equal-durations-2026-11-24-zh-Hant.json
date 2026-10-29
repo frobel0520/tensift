@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "equal-durations-2026-11-24-zh-Hant",
+  "puzzleFamilyId": "equal-durations-002",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-24",
+  "timezone": "UTC",
+  "theme": "相同的時間長度",
+  "items": [
+    {
+      "itemId": "equal-durations-1",
+      "label": "1000 ms"
+    },
+    {
+      "itemId": "equal-durations-2",
+      "label": "60 s"
+    },
+    {
+      "itemId": "equal-durations-3",
+      "label": "60000 ms"
+    },
+    {
+      "itemId": "equal-durations-4",
+      "label": "60 min"
+    },
+    {
+      "itemId": "equal-durations-5",
+      "label": "3600 s"
+    },
+    {
+      "itemId": "equal-durations-6",
+      "label": "3600000 ms"
+    },
+    {
+      "itemId": "equal-durations-7",
+      "label": "24 h"
+    },
+    {
+      "itemId": "equal-durations-8",
+      "label": "1440 min"
+    },
+    {
+      "itemId": "equal-durations-9",
+      "label": "86400 s"
+    },
+    {
+      "itemId": "equal-durations-10",
+      "label": "86400000 ms"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各式代表的固定時間長度",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "一秒",
+        "capacity": 1,
+        "itemIds": [
+          "equal-durations-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "一分鐘",
+        "capacity": 2,
+        "itemIds": [
+          "equal-durations-2",
+          "equal-durations-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "一小時",
+        "capacity": 3,
+        "itemIds": [
+          "equal-durations-4",
+          "equal-durations-5",
+          "equal-durations-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "固定24小時的一日",
+        "capacity": 4,
+        "itemIds": [
+          "equal-durations-7",
+          "equal-durations-8",
+          "equal-durations-9",
+          "equal-durations-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依固定單位換算：一分鐘60秒、一小時60分鐘。這裡的一日固定24小時，不採夏令時間的民用日長。",
+  "sources": [
+    {
+      "title": "NIST SP 330: Non-SI units accepted with the SI",
+      "url": "https://www.nist.gov/pml/special-publication-330/sp-330-section-4",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "draft"
+}

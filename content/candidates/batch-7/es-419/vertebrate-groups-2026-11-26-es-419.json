@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vertebrate-groups-2026-11-26-es-419",
+  "puzzleFamilyId": "vertebrate-groups-002",
+  "locale": "es-419",
+  "publishDate": "2026-11-26",
+  "timezone": "UTC",
+  "theme": "Vecinos vertebrados",
+  "items": [
+    {
+      "itemId": "vertebrate-groups-1",
+      "label": "Guppy"
+    },
+    {
+      "itemId": "vertebrate-groups-2",
+      "label": "Iguana"
+    },
+    {
+      "itemId": "vertebrate-groups-3",
+      "label": "Aligátor"
+    },
+    {
+      "itemId": "vertebrate-groups-4",
+      "label": "Petirrojo"
+    },
+    {
+      "itemId": "vertebrate-groups-5",
+      "label": "Flamenco"
+    },
+    {
+      "itemId": "vertebrate-groups-6",
+      "label": "Pelícano"
+    },
+    {
+      "itemId": "vertebrate-groups-7",
+      "label": "Nutria"
+    },
+    {
+      "itemId": "vertebrate-groups-8",
+      "label": "Conejo"
+    },
+    {
+      "itemId": "vertebrate-groups-9",
+      "label": "Delfín"
+    },
+    {
+      "itemId": "vertebrate-groups-10",
+      "label": "Jirafa"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Grupos tradicionales de vertebrados en la escuela",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Peces",
+        "capacity": 1,
+        "itemIds": [
+          "vertebrate-groups-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Reptiles",
+        "capacity": 2,
+        "itemIds": [
+          "vertebrate-groups-2",
+          "vertebrate-groups-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Aves",
+        "capacity": 3,
+        "itemIds": [
+          "vertebrate-groups-4",
+          "vertebrate-groups-5",
+          "vertebrate-groups-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Mamíferos",
+        "capacity": 4,
+        "itemIds": [
+          "vertebrate-groups-7",
+          "vertebrate-groups-8",
+          "vertebrate-groups-9",
+          "vertebrate-groups-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Usa los grupos escolares tradicionales, separando aves y reptiles. El hábitat no decide el grupo: delfines y nutrias son mamíferos.",
+  "sources": [
+    {
+      "title": "Oxford University Museum of Natural History: Animal groups",
+      "url": "https://learningzone.oumnh.ox.ac.uk/how-we-divide-the-animal-kingdom",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "draft"
+}

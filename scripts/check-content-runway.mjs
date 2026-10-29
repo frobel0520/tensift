@@ -14,7 +14,7 @@
  */
 
 import { readdir, readFile } from 'node:fs/promises';
-import { join } from 'node:path';
+import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const LOCALES = ['en', 'zh-Hant', 'es-419'];
@@ -23,45 +23,51 @@ const DEFAULT_MIN_DAYS = 14;
 const projectRoot = fileURLToPath(new URL('..', import.meta.url));
 const contentRoot = join(projectRoot, 'content', 'puzzles');
 
-const options = parseArgs(process.argv.slice(2));
-const today = options.date ?? currentUtcDate();
-
-const coverage = await collectCoverage();
-const runway = measureRunway(coverage, today);
-
-console.log(`Content runway from ${today}: ${runway.days} complete day(s).`);
-if (runway.days > 0) {
-  console.log(`Last fully covered date: ${runway.lastCoveredDate}.`);
+export async function main(argv = process.argv.slice(2)) {
+  const options = parseArgs(argv);
+  const today = options.date ?? currentUtcDate();
+  
+  const coverage = await collectCoverage();
+  const runway = measureRunway(coverage, today);
+  
+  console.log(`Content runway from ${today}: ${runway.days} complete day(s).`);
+  if (runway.days > 0) {
+    console.log(`Last fully covered date: ${runway.lastCoveredDate}.`);
+  }
+  
+  if (runway.gapDate) {
+    const missing = LOCALES.filter((locale) => !coverage.get(runway.gapDate)?.has(locale));
+    console.log(
+      `First incomplete date: ${runway.gapDate} (missing: ${missing.join(', ') || 'all locales'}).`,
+    );
+  }
+  
+  if (runway.days < options.minDays) {
+    console.error(
+      `\nRunway is below the ${options.minDays}-day threshold. ` +
+        'Author and review the next content batch before the buffer runs out.',
+    );
+    process.exit(1);
+  }
+  
+  console.log(`\nRunway meets the ${options.minDays}-day threshold.`);
+  
 }
 
-if (runway.gapDate) {
-  const missing = LOCALES.filter((locale) => !coverage.get(runway.gapDate)?.has(locale));
-  console.log(
-    `First incomplete date: ${runway.gapDate} (missing: ${missing.join(', ') || 'all locales'}).`,
-  );
-}
-
-if (runway.days < options.minDays) {
-  console.error(
-    `\nRunway is below the ${options.minDays}-day threshold. ` +
-      'Author and review the next content batch before the buffer runs out.',
-  );
-  process.exit(1);
-}
-
-console.log(`\nRunway meets the ${options.minDays}-day threshold.`);
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) await main();
 
 /** Map of publishDate -> set of locales that have an authored puzzle. */
-async function collectCoverage() {
+export async function collectCoverage(root = contentRoot) {
   const byDate = new Map();
-  const files = await collectJsonFiles(contentRoot);
+  const files = await collectJsonFiles(root);
 
   for (const filePath of files) {
     const puzzle = JSON.parse(await readFile(filePath, 'utf8'));
-    const { publishDate, locale } = puzzle;
-    if (typeof publishDate !== 'string' || typeof locale !== 'string') {
-      throw new Error(`${filePath} is missing publishDate or locale.`);
+    const { publishDate, locale, status } = puzzle;
+    if (!isIsoDate(publishDate) || !LOCALES.includes(locale) || !['draft', 'reviewed', 'scheduled', 'published', 'retired'].includes(status)) {
+      throw new Error(`${filePath} has invalid publishDate, locale or status.`);
     }
+    if (status !== 'scheduled' && status !== 'published') continue;
     if (!byDate.has(publishDate)) {
       byDate.set(publishDate, new Set());
     }
@@ -71,7 +77,8 @@ async function collectCoverage() {
   return byDate;
 }
 
-function measureRunway(coverage, startDate) {
+export function measureRunway(coverage, startDate) {
+  if (!isIsoDate(startDate)) throw new Error('Start date must be a real YYYY-MM-DD UTC date.');
   let days = 0;
   let cursor = startDate;
   let lastCoveredDate = null;
@@ -138,6 +145,7 @@ function parseArgs(argv) {
     throw new Error('--min-days requires a non-negative integer.');
   }
 
+  if (date !== undefined && !isIsoDate(date)) throw new Error('--date requires a real YYYY-MM-DD UTC date.');
   return { minDays, date };
 }
 
@@ -147,4 +155,11 @@ function requireValue(argv, index, flag) {
     throw new Error(`${flag} requires a value.`);
   }
   return value;
+}
+
+
+function isIsoDate(value) {
+  if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+  const date = new Date(`${value}T00:00:00Z`);
+  return Number.isFinite(date.getTime()) && date.toISOString().slice(0, 10) === value;
 }

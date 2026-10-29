@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vertebrate-groups-2026-11-26-zh-Hant",
+  "puzzleFamilyId": "vertebrate-groups-002",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-26",
+  "timezone": "UTC",
+  "theme": "有脊椎的鄰居",
+  "items": [
+    {
+      "itemId": "vertebrate-groups-1",
+      "label": "孔雀魚"
+    },
+    {
+      "itemId": "vertebrate-groups-2",
+      "label": "鬣蜥"
+    },
+    {
+      "itemId": "vertebrate-groups-3",
+      "label": "短吻鱷"
+    },
+    {
+      "itemId": "vertebrate-groups-4",
+      "label": "知更鳥"
+    },
+    {
+      "itemId": "vertebrate-groups-5",
+      "label": "紅鶴"
+    },
+    {
+      "itemId": "vertebrate-groups-6",
+      "label": "鵜鶘"
+    },
+    {
+      "itemId": "vertebrate-groups-7",
+      "label": "水獺"
+    },
+    {
+      "itemId": "vertebrate-groups-8",
+      "label": "兔子"
+    },
+    {
+      "itemId": "vertebrate-groups-9",
+      "label": "海豚"
+    },
+    {
+      "itemId": "vertebrate-groups-10",
+      "label": "長頸鹿"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "學校常用的傳統脊椎動物類群",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "魚類",
+        "capacity": 1,
+        "itemIds": [
+          "vertebrate-groups-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "爬蟲類",
+        "capacity": 2,
+        "itemIds": [
+          "vertebrate-groups-2",
+          "vertebrate-groups-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "鳥類",
+        "capacity": 3,
+        "itemIds": [
+          "vertebrate-groups-4",
+          "vertebrate-groups-5",
+          "vertebrate-groups-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "哺乳類",
+        "capacity": 4,
+        "itemIds": [
+          "vertebrate-groups-7",
+          "vertebrate-groups-8",
+          "vertebrate-groups-9",
+          "vertebrate-groups-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "採學校常見的傳統分類，鳥類另列，不採支序分類；也不依棲地分組，海豚和水獺都是哺乳類。",
+  "sources": [
+    {
+      "title": "Oxford University Museum of Natural History: Animal groups",
+      "url": "https://learningzone.oumnh.ox.ac.uk/how-we-divide-the-animal-kingdom",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "draft"
+}
