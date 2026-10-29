@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "media-type-families-2026-11-25-zh-Hant",
+  "puzzleFamilyId": "media-type-families-002",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-25",
+  "timezone": "UTC",
+  "theme": "網頁檔案類型",
+  "items": [
+    {
+      "itemId": "media-type-families-1",
+      "label": ".svg"
+    },
+    {
+      "itemId": "media-type-families-2",
+      "label": ".mp3"
+    },
+    {
+      "itemId": "media-type-families-3",
+      "label": ".wav"
+    },
+    {
+      "itemId": "media-type-families-4",
+      "label": ".avi"
+    },
+    {
+      "itemId": "media-type-families-5",
+      "label": ".mp4"
+    },
+    {
+      "itemId": "media-type-families-6",
+      "label": ".webm"
+    },
+    {
+      "itemId": "media-type-families-7",
+      "label": ".txt"
+    },
+    {
+      "itemId": "media-type-families-8",
+      "label": ".css"
+    },
+    {
+      "itemId": "media-type-families-9",
+      "label": ".csv"
+    },
+    {
+      "itemId": "media-type-families-10",
+      "label": ".html"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "副檔名慣用MIME類型的第一層分類",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "影像",
+        "capacity": 1,
+        "itemIds": [
+          "media-type-families-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "音訊",
+        "capacity": 2,
+        "itemIds": [
+          "media-type-families-2",
+          "media-type-families-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "影片",
+        "capacity": 3,
+        "itemIds": [
+          "media-type-families-4",
+          "media-type-families-5",
+          "media-type-families-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "文字",
+        "capacity": 4,
+        "itemIds": [
+          "media-type-families-7",
+          "media-type-families-8",
+          "media-type-families-9",
+          "media-type-families-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依副檔名慣用的MIME類型分為影像、音訊、影片與文字；不按誤標副檔名或僅含音軌的特殊容器個案分類。",
+  "sources": [
+    {
+      "title": "MDN: Common media types",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types/Common_types",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "draft"
+}

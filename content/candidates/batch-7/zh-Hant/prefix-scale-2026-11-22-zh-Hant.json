@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "prefix-scale-2026-11-22-zh-Hant",
+  "puzzleFamilyId": "prefix-scale-002",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-22",
+  "timezone": "UTC",
+  "theme": "公制前綴倍率",
+  "items": [
+    {
+      "itemId": "prefix-scale-1",
+      "label": "mA"
+    },
+    {
+      "itemId": "prefix-scale-2",
+      "label": "cm"
+    },
+    {
+      "itemId": "prefix-scale-3",
+      "label": "cL"
+    },
+    {
+      "itemId": "prefix-scale-4",
+      "label": "km"
+    },
+    {
+      "itemId": "prefix-scale-5",
+      "label": "kg"
+    },
+    {
+      "itemId": "prefix-scale-6",
+      "label": "kW"
+    },
+    {
+      "itemId": "prefix-scale-7",
+      "label": "MHz"
+    },
+    {
+      "itemId": "prefix-scale-8",
+      "label": "MW"
+    },
+    {
+      "itemId": "prefix-scale-9",
+      "label": "MJ"
+    },
+    {
+      "itemId": "prefix-scale-10",
+      "label": "MV"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "單位前綴所代表的倍率",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "毫：千分之一",
+        "capacity": 1,
+        "itemIds": [
+          "prefix-scale-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "厘：百分之一",
+        "capacity": 2,
+        "itemIds": [
+          "prefix-scale-2",
+          "prefix-scale-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "千：一千倍",
+        "capacity": 3,
+        "itemIds": [
+          "prefix-scale-4",
+          "prefix-scale-5",
+          "prefix-scale-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "百萬：一百萬倍",
+        "capacity": 4,
+        "itemIds": [
+          "prefix-scale-7",
+          "prefix-scale-8",
+          "prefix-scale-9",
+          "prefix-scale-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依前綴倍率分組，不依測量的物理量。大小寫不同：m 是毫，M 是百萬。",
+  "sources": [
+    {
+      "title": "NIST: Metric (SI) Prefixes",
+      "url": "https://www.nist.gov/pml/owm/metric-si-prefixes",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "draft"
+}
