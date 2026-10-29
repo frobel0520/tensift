@@ -14,6 +14,10 @@ The hardened Harbor middleware [PR #19](https://github.com/frobel0520/tensift/pu
 
 Seven new families / 21 localized draft candidates for November 22–28 are isolated in `content/candidates/batch-7`. Schema and cross-locale solution IDs pass. PR #29 completed the author factual/unit, three-locale label and original-copy/source review: 210 item assignments across 21 drafts; eight deliberate-corruption regressions and full CI passed. See content/candidates/batch-7/author-review.md. Independent blind testing and localized reader feedback remain pending. These drafts are excluded from the production catalog and seed loader. The runway check now excludes draft/reviewed/retired records; 12 local regressions passed. The catalog audit retains Owner/main and production-environment guards and can run automatically only when its own workflow file changes on main; no seed or receipt reset occurs.
 
+## Existing source inventory preparation
+
+Added a read-only source metadata inventory for the existing three-locale catalog and a static TypeScript AST inventory of curated editorial references/copy counts. Reports contain family IDs, counts and metadata gaps only; no URLs or prose. Eleven synthetic regressions pass. Content source inventory CI reads the complete checked-out catalog without Cloudflare, D1, external requests, seed or draft promotion. See docs/30-content-source-inventory.md. Rights clearance, live link verification and independent blind testing remain not assessed.
+
 ## Pending
 
 - [x] 【高】Remote D1 coverage through 2026-11-21 verified in audit40801570799: 72 expected date/locale groups, exactly one scheduled row each; missing=[]; SELECT1/read149, no seed or action receipt reset.
