@@ -11,9 +11,9 @@
         "es-419/prefix-scale-2026-11-22-es-419.json"
       ],
       "authorReview": {
-        "status": "structural-review-complete",
+        "status": "factual-and-localization-review-complete",
         "risk": "Do not group by physical quantity or treat lowercase m as uppercase M.",
-        "notes": "Original labels and explanations; no third-party prose copied. Independent blind playtest and localized reader feedback remain pending."
+        "notes": "Author factual/unit and three-locale label review complete; see author-review.md. Original labels/explanations, no third-party article prose copied. Independent blind playtest and localized reader feedback remain pending."
       },
       "blindPlaytest": {
         "status": "pending",
@@ -29,9 +29,9 @@
         "es-419/equal-distances-2026-11-23-es-419.json"
       ],
       "authorReview": {
-        "status": "structural-review-complete",
+        "status": "factual-and-localization-review-complete",
         "risk": "The same unit appears in different groups; compare values after conversion.",
-        "notes": "Original labels and explanations; no third-party prose copied. Independent blind playtest and localized reader feedback remain pending."
+        "notes": "Author factual/unit and three-locale label review complete; see author-review.md. Original labels/explanations, no third-party article prose copied. Independent blind playtest and localized reader feedback remain pending."
       },
       "blindPlaytest": {
         "status": "pending",
@@ -47,9 +47,9 @@
         "es-419/equal-durations-2026-11-24-es-419.json"
       ],
       "authorReview": {
-        "status": "structural-review-complete",
+        "status": "factual-and-localization-review-complete",
         "risk": "Use fixed duration, not local civil days around clock changes.",
-        "notes": "Original labels and explanations; no third-party prose copied. Independent blind playtest and localized reader feedback remain pending."
+        "notes": "Author factual/unit and three-locale label review complete; see author-review.md. Original labels/explanations, no third-party article prose copied. Independent blind playtest and localized reader feedback remain pending."
       },
       "blindPlaytest": {
         "status": "pending",
@@ -65,9 +65,9 @@
         "es-419/media-type-families-2026-11-25-es-419.json"
       ],
       "authorReview": {
-        "status": "structural-review-complete",
+        "status": "factual-and-localization-review-complete",
         "risk": "Use conventional extension-to-MIME mapping, not the actual tracks inside an arbitrary file.",
-        "notes": "Original labels and explanations; no third-party prose copied. Independent blind playtest and localized reader feedback remain pending."
+        "notes": "Author factual/unit and three-locale label review complete; see author-review.md. Original labels/explanations, no third-party article prose copied. Independent blind playtest and localized reader feedback remain pending."
       },
       "blindPlaytest": {
         "status": "pending",
@@ -83,9 +83,9 @@
         "es-419/vertebrate-groups-2026-11-26-es-419.json"
       ],
       "authorReview": {
-        "status": "structural-review-complete",
+        "status": "factual-and-localization-review-complete",
         "risk": "Dolphins and otters live in water but are mammals; birds are separate under the stated traditional convention.",
-        "notes": "Original labels and explanations; no third-party prose copied. Independent blind playtest and localized reader feedback remain pending."
+        "notes": "Author factual/unit and three-locale label review complete; see author-review.md. Original labels/explanations, no third-party article prose copied. Independent blind playtest and localized reader feedback remain pending."
       },
       "blindPlaytest": {
         "status": "pending",
@@ -101,9 +101,9 @@
         "es-419/orchestral-families-2026-11-27-es-419.json"
       ],
       "authorReview": {
-        "status": "structural-review-complete",
+        "status": "factual-and-localization-review-complete",
         "risk": "Instrument size and pitch are rival dimensions; use the conventional family stated in the reveal.",
-        "notes": "Original labels and explanations; no third-party prose copied. Independent blind playtest and localized reader feedback remain pending."
+        "notes": "Author factual/unit and three-locale label review complete; see author-review.md. Original labels/explanations, no third-party article prose copied. Independent blind playtest and localized reader feedback remain pending."
       },
       "blindPlaytest": {
         "status": "pending",
@@ -119,9 +119,9 @@
         "es-419/roman-symbol-count-2026-11-28-es-419.json"
       ],
       "authorReview": {
-        "status": "structural-review-complete",
+        "status": "factual-and-localization-review-complete",
         "risk": "The grouping uses symbol count rather than numeric value; all locales retain the same Roman notation.",
-        "notes": "Original labels and explanations; no third-party prose copied. Independent blind playtest and localized reader feedback remain pending."
+        "notes": "Author factual/unit and three-locale label review complete; see author-review.md. Original labels/explanations, no third-party article prose copied. Independent blind playtest and localized reader feedback remain pending."
       },
       "blindPlaytest": {
         "status": "pending",
