@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "orchestral-families-2026-11-27-zh-Hant",
+  "puzzleFamilyId": "orchestral-families-002",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-27",
+  "timezone": "UTC",
+  "theme": "管弦樂團座位",
+  "items": [
+    {
+      "itemId": "orchestral-families-1",
+      "label": "三角鐵"
+    },
+    {
+      "itemId": "orchestral-families-2",
+      "label": "低音管"
+    },
+    {
+      "itemId": "orchestral-families-3",
+      "label": "雙簧管"
+    },
+    {
+      "itemId": "orchestral-families-4",
+      "label": "法國號"
+    },
+    {
+      "itemId": "orchestral-families-5",
+      "label": "小號"
+    },
+    {
+      "itemId": "orchestral-families-6",
+      "label": "長號"
+    },
+    {
+      "itemId": "orchestral-families-7",
+      "label": "小提琴"
+    },
+    {
+      "itemId": "orchestral-families-8",
+      "label": "中提琴"
+    },
+    {
+      "itemId": "orchestral-families-9",
+      "label": "大提琴"
+    },
+    {
+      "itemId": "orchestral-families-10",
+      "label": "低音提琴"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "管弦樂團慣用的樂器家族",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "打擊樂器",
+        "capacity": 1,
+        "itemIds": [
+          "orchestral-families-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "木管樂器",
+        "capacity": 2,
+        "itemIds": [
+          "orchestral-families-2",
+          "orchestral-families-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "銅管樂器",
+        "capacity": 3,
+        "itemIds": [
+          "orchestral-families-4",
+          "orchestral-families-5",
+          "orchestral-families-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "弦樂器",
+        "capacity": 4,
+        "itemIds": [
+          "orchestral-families-7",
+          "orchestral-families-8",
+          "orchestral-families-9",
+          "orchestral-families-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依管弦樂團慣用的四大家族分組；三角鐵是打擊樂器，四種提琴同屬弦樂器，不按大小分組。",
+  "sources": [
+    {
+      "title": "Carnegie Hall: Instrument Families",
+      "url": "https://www.carnegiehall.org/Education/Programs/Link-Up/New-York-City/Instrument-Families",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "draft"
+}

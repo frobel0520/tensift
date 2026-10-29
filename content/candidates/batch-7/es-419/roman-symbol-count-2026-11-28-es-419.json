@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "roman-symbol-count-2026-11-28-es-419",
+  "puzzleFamilyId": "roman-symbol-count-002",
+  "locale": "es-419",
+  "publishDate": "2026-11-28",
+  "timezone": "UTC",
+  "theme": "Longitudes de números romanos",
+  "items": [
+    {
+      "itemId": "roman-symbol-count-1",
+      "label": "V"
+    },
+    {
+      "itemId": "roman-symbol-count-2",
+      "label": "IV"
+    },
+    {
+      "itemId": "roman-symbol-count-3",
+      "label": "IX"
+    },
+    {
+      "itemId": "roman-symbol-count-4",
+      "label": "III"
+    },
+    {
+      "itemId": "roman-symbol-count-5",
+      "label": "VII"
+    },
+    {
+      "itemId": "roman-symbol-count-6",
+      "label": "XII"
+    },
+    {
+      "itemId": "roman-symbol-count-7",
+      "label": "VIII"
+    },
+    {
+      "itemId": "roman-symbol-count-8",
+      "label": "XIII"
+    },
+    {
+      "itemId": "roman-symbol-count-9",
+      "label": "XVII"
+    },
+    {
+      "itemId": "roman-symbol-count-10",
+      "label": "XXIV"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "La cantidad de símbolos escritos en cada número romano",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Un símbolo",
+        "capacity": 1,
+        "itemIds": [
+          "roman-symbol-count-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Dos símbolos",
+        "capacity": 2,
+        "itemIds": [
+          "roman-symbol-count-2",
+          "roman-symbol-count-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Tres símbolos",
+        "capacity": 3,
+        "itemIds": [
+          "roman-symbol-count-4",
+          "roman-symbol-count-5",
+          "roman-symbol-count-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Cuatro símbolos",
+        "capacity": 4,
+        "itemIds": [
+          "roman-symbol-count-7",
+          "roman-symbol-count-8",
+          "roman-symbol-count-9",
+          "roman-symbol-count-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cuenta los símbolos romanos escritos, no el valor numérico. IV e IX tienen dos símbolos aunque representan números diferentes.",
+  "sources": [
+    {
+      "title": "Math Is Fun: Roman Numerals",
+      "url": "https://www.mathsisfun.com/roman-numerals.html",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "draft"
+}

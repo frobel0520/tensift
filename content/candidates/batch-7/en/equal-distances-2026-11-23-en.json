@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "equal-distances-2026-11-23-en",
+  "puzzleFamilyId": "equal-distances-002",
+  "locale": "en",
+  "publishDate": "2026-11-23",
+  "timezone": "UTC",
+  "theme": "Equal Distances",
+  "items": [
+    {
+      "itemId": "equal-distances-1",
+      "label": "1000 µm"
+    },
+    {
+      "itemId": "equal-distances-2",
+      "label": "10 mm"
+    },
+    {
+      "itemId": "equal-distances-3",
+      "label": "0.01 m"
+    },
+    {
+      "itemId": "equal-distances-4",
+      "label": "100 cm"
+    },
+    {
+      "itemId": "equal-distances-5",
+      "label": "1000 mm"
+    },
+    {
+      "itemId": "equal-distances-6",
+      "label": "0.001 km"
+    },
+    {
+      "itemId": "equal-distances-7",
+      "label": "1000 m"
+    },
+    {
+      "itemId": "equal-distances-8",
+      "label": "100000 cm"
+    },
+    {
+      "itemId": "equal-distances-9",
+      "label": "1000000 mm"
+    },
+    {
+      "itemId": "equal-distances-10",
+      "label": "1000000000 µm"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The length represented by each expression",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "One millimeter",
+        "capacity": 1,
+        "itemIds": [
+          "equal-distances-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "One centimeter",
+        "capacity": 2,
+        "itemIds": [
+          "equal-distances-2",
+          "equal-distances-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "One meter",
+        "capacity": 3,
+        "itemIds": [
+          "equal-distances-4",
+          "equal-distances-5",
+          "equal-distances-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "One kilometer",
+        "capacity": 4,
+        "itemIds": [
+          "equal-distances-7",
+          "equal-distances-8",
+          "equal-distances-9",
+          "equal-distances-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Convert every expression to meters before grouping. The unit written on an item does not determine its group; its total length does.",
+  "sources": [
+    {
+      "title": "NIST: Metric (SI) Prefixes",
+      "url": "https://www.nist.gov/pml/owm/metric-si-prefixes",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "draft"
+}
