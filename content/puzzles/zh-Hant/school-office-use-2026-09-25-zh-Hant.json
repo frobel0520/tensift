@@ -36,7 +36,7 @@
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
   "explanation": "每組物品有相似的常見用途：1 件裁剪工具、2 件測量工具、3 件書寫工具和 4 種紙品。",
   "sources": [
-    {"title": "大英百科全書：書寫工具", "url": "https://www.britannica.com/technology/writing", "retrievedAt": "2026-08-29"}
+    {"title": "大英百科全書：書寫工具", "url": "https://www.britannica.com/topic/writing", "retrievedAt": "2026-10-29"}
   ],
   "difficulty": {"band": "easy", "score": 0.25},
   "status": "scheduled"

@@ -36,7 +36,7 @@
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
   "explanation": "Each group contains the same type of sports equipment: 1 bat, 2 rackets, 3 balls, and 4 pieces of protective gear.",
   "sources": [
-    {"title": "Encyclopaedia Britannica: Sport", "url": "https://www.britannica.com/sports", "retrievedAt": "2026-08-29"}
+    {"title": "Encyclopaedia Britannica: Sport", "url": "https://www.britannica.com/sports/sports", "retrievedAt": "2026-10-29"}
   ],
   "difficulty": {"band": "easy", "score": 0.30},
   "status": "scheduled"
