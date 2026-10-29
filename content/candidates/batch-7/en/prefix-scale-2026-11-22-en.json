@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "prefix-scale-2026-11-22-en",
+  "puzzleFamilyId": "prefix-scale-002",
+  "locale": "en",
+  "publishDate": "2026-11-22",
+  "timezone": "UTC",
+  "theme": "Metric Multipliers",
+  "items": [
+    {
+      "itemId": "prefix-scale-1",
+      "label": "mA"
+    },
+    {
+      "itemId": "prefix-scale-2",
+      "label": "cm"
+    },
+    {
+      "itemId": "prefix-scale-3",
+      "label": "cL"
+    },
+    {
+      "itemId": "prefix-scale-4",
+      "label": "km"
+    },
+    {
+      "itemId": "prefix-scale-5",
+      "label": "kg"
+    },
+    {
+      "itemId": "prefix-scale-6",
+      "label": "kW"
+    },
+    {
+      "itemId": "prefix-scale-7",
+      "label": "MHz"
+    },
+    {
+      "itemId": "prefix-scale-8",
+      "label": "MW"
+    },
+    {
+      "itemId": "prefix-scale-9",
+      "label": "MJ"
+    },
+    {
+      "itemId": "prefix-scale-10",
+      "label": "MV"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The multiplier of the unit prefix",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Milli: 0.001",
+        "capacity": 1,
+        "itemIds": [
+          "prefix-scale-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Centi: 0.01",
+        "capacity": 2,
+        "itemIds": [
+          "prefix-scale-2",
+          "prefix-scale-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Kilo: 1000",
+        "capacity": 3,
+        "itemIds": [
+          "prefix-scale-4",
+          "prefix-scale-5",
+          "prefix-scale-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Mega: 1000000",
+        "capacity": 4,
+        "itemIds": [
+          "prefix-scale-7",
+          "prefix-scale-8",
+          "prefix-scale-9",
+          "prefix-scale-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Group by the prefix multiplier, regardless of the measured quantity. Case matters: m means milli and M means mega.",
+  "sources": [
+    {
+      "title": "NIST: Metric (SI) Prefixes",
+      "url": "https://www.nist.gov/pml/owm/metric-si-prefixes",
+      "retrievedAt": "2026-10-29"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "draft"
+}

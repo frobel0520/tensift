@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "status": "draft-candidates-only",
+  "families": [
+    {
+      "puzzleFamilyId": "prefix-scale-002",
+      "proposedDate": "2026-11-22",
+      "files": [
+        "en/prefix-scale-2026-11-22-en.json",
+        "zh-Hant/prefix-scale-2026-11-22-zh-Hant.json",
+        "es-419/prefix-scale-2026-11-22-es-419.json"
+      ],
+      "authorReview": {
+        "status": "structural-review-complete",
+        "risk": "Do not group by physical quantity or treat lowercase m as uppercase M.",
+        "notes": "Original labels and explanations; no third-party prose copied. Independent blind playtest and localized reader feedback remain pending."
+      },
+      "blindPlaytest": {
+        "status": "pending",
+        "testers": 0
+      }
+    },
+    {
+      "puzzleFamilyId": "equal-distances-002",
+      "proposedDate": "2026-11-23",
+      "files": [
+        "en/equal-distances-2026-11-23-en.json",
+        "zh-Hant/equal-distances-2026-11-23-zh-Hant.json",
+        "es-419/equal-distances-2026-11-23-es-419.json"
+      ],
+      "authorReview": {
+        "status": "structural-review-complete",
+        "risk": "The same unit appears in different groups; compare values after conversion.",
+        "notes": "Original labels and explanations; no third-party prose copied. Independent blind playtest and localized reader feedback remain pending."
+      },
+      "blindPlaytest": {
+        "status": "pending",
+        "testers": 0
+      }
+    },
+    {
+      "puzzleFamilyId": "equal-durations-002",
+      "proposedDate": "2026-11-24",
+      "files": [
+        "en/equal-durations-2026-11-24-en.json",
+        "zh-Hant/equal-durations-2026-11-24-zh-Hant.json",
+        "es-419/equal-durations-2026-11-24-es-419.json"
+      ],
+      "authorReview": {
+        "status": "structural-review-complete",
+        "risk": "Use fixed duration, not local civil days around clock changes.",
+        "notes": "Original labels and explanations; no third-party prose copied. Independent blind playtest and localized reader feedback remain pending."
+      },
+      "blindPlaytest": {
+        "status": "pending",
+        "testers": 0
+      }
+    },
+    {
+      "puzzleFamilyId": "media-type-families-002",
+      "proposedDate": "2026-11-25",
+      "files": [
+        "en/media-type-families-2026-11-25-en.json",
+        "zh-Hant/media-type-families-2026-11-25-zh-Hant.json",
+        "es-419/media-type-families-2026-11-25-es-419.json"
+      ],
+      "authorReview": {
+        "status": "structural-review-complete",
+        "risk": "Use conventional extension-to-MIME mapping, not the actual tracks inside an arbitrary file.",
+        "notes": "Original labels and explanations; no third-party prose copied. Independent blind playtest and localized reader feedback remain pending."
+      },
+      "blindPlaytest": {
+        "status": "pending",
+        "testers": 0
+      }
+    },
+    {
+      "puzzleFamilyId": "vertebrate-groups-002",
+      "proposedDate": "2026-11-26",
+      "files": [
+        "en/vertebrate-groups-2026-11-26-en.json",
+        "zh-Hant/vertebrate-groups-2026-11-26-zh-Hant.json",
+        "es-419/vertebrate-groups-2026-11-26-es-419.json"
+      ],
+      "authorReview": {
+        "status": "structural-review-complete",
+        "risk": "Dolphins and otters live in water but are mammals; birds are separate under the stated traditional convention.",
+        "notes": "Original labels and explanations; no third-party prose copied. Independent blind playtest and localized reader feedback remain pending."
+      },
+      "blindPlaytest": {
+        "status": "pending",
+        "testers": 0
+      }
+    },
+    {
+      "puzzleFamilyId": "orchestral-families-002",
+      "proposedDate": "2026-11-27",
+      "files": [
+        "en/orchestral-families-2026-11-27-en.json",
+        "zh-Hant/orchestral-families-2026-11-27-zh-Hant.json",
+        "es-419/orchestral-families-2026-11-27-es-419.json"
+      ],
+      "authorReview": {
+        "status": "structural-review-complete",
+        "risk": "Instrument size and pitch are rival dimensions; use the conventional family stated in the reveal.",
+        "notes": "Original labels and explanations; no third-party prose copied. Independent blind playtest and localized reader feedback remain pending."
+      },
+      "blindPlaytest": {
+        "status": "pending",
+        "testers": 0
+      }
+    },
+    {
+      "puzzleFamilyId": "roman-symbol-count-002",
+      "proposedDate": "2026-11-28",
+      "files": [
+        "en/roman-symbol-count-2026-11-28-en.json",
+        "zh-Hant/roman-symbol-count-2026-11-28-zh-Hant.json",
+        "es-419/roman-symbol-count-2026-11-28-es-419.json"
+      ],
+      "authorReview": {
+        "status": "structural-review-complete",
+        "risk": "The grouping uses symbol count rather than numeric value; all locales retain the same Roman notation.",
+        "notes": "Original labels and explanations; no third-party prose copied. Independent blind playtest and localized reader feedback remain pending."
+      },
+      "blindPlaytest": {
+        "status": "pending",
+        "testers": 0
+      }
+    }
+  ]
+}
