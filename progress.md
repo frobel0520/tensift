@@ -4,9 +4,9 @@ Updated: 2026-10-29 (Asia/Taipei).
 
 ## Current status
 
-Middleware repair PR #25 is merged and production Deploy [40799560966](https://github.com/frobel0520/tensift/actions/runs/40799560966) succeeded from `035f5029b1c55fc39e95ca30b3d6eaa5e2449fdc`. The earlier [Deploy](https://github.com/frobel0520/tensift/actions/runs/40158087553) and [2026-10-28 daily production smoke](https://github.com/frobel0520/tensift/actions/runs/40639890227) succeeded. These checks do not establish maintenance-mode health bypass or a complete database catalog.
+Middleware repair PR #25 is merged and production Deploy [40799560966](https://github.com/frobel0520/tensift/actions/runs/40799560966) succeeded from `035f5029b1c55fc39e95ca30b3d6eaa5e2449fdc`. The earlier [Deploy](https://github.com/frobel0520/tensift/actions/runs/40158087553) and [2026-10-28 daily production smoke](https://github.com/frobel0520/tensift/actions/runs/40639890227) succeeded. Maintenance-mode health bypass remains untested. Fresh remote catalog readback is recorded below.
 
-[Batch 6 / PR #20](https://github.com/frobel0520/tensift/pull/20) merged on 10/03; main contains 85 families / 255 locale records through 2026-11-21. [Seed run37135703571](https://github.com/frobel0520/tensift/actions/runs/37135703571) is now independently checked: the remote apply job generated 255 puzzles, executed 9496 queries and reported D1 seed applied. This establishes that seed operation, not a fresh full catalog readback. Today's three-locale smoke passed. [Security PR #23](https://github.com/frobel0520/tensift/pull/23) is merged and deployed.
+[Batch 6 / PR #20](https://github.com/frobel0520/tensift/pull/20) merged on 10/03; main contains 85 families / 255 locale records through 2026-11-21. [Seed run37135703571](https://github.com/frobel0520/tensift/actions/runs/37135703571) is now independently checked: the remote apply job generated 255 puzzles, executed 9496 queries and reported D1 seed applied. This establishes that seed operation, a historical seed record. Fresh audit [40801570799](https://github.com/frobel0520/tensift/actions/runs/40801570799), 2026-10-29 01:37 UTC, independently verified all 72 date/locale groups through November 21: exactly one scheduled record each, no missing groups, one SELECT / 149 rows read. Today's three-locale smoke passed. [Security PR #23](https://github.com/frobel0520/tensift/pull/23) is merged and deployed.
 
 The hardened Harbor middleware [PR #19](https://github.com/frobel0520/tensift/pull/19) remains closed without merging. GitHub refused reopening because its head has no common history with current main; no force push or history rewrite was attempted. The current-base repair is now merged via PR #25 and deployed; six artifact regressions and full CI passed. Production maintenance-mode bypass remains untested. Ad serving remains disabled; no completed AdSense re-review evidence was found.
 
@@ -16,7 +16,7 @@ Seven new families / 21 localized draft candidates for November 22–28 are isol
 
 ## Pending
 
-- [ ] 【高】Verify remote D1 coverage for all locales through 2026-11-21 using the existing read-only/dry-run path; do not seed or reset action receipts merely to inspect.
+- [x] 【高】Remote D1 coverage through 2026-11-21 verified in audit40801570799: 72 expected date/locale groups, exactly one scheduled row each; missing=[]; SELECT1/read149, no seed or action receipt reset.
 - [ ] 【中】Arrange independent blind playtests and record results in content/playtest; author review is not a blind pass. Enable strict-blind only when evidence supports it.
 - [ ] 【中】Maintain the daily publishing checks and add the next reviewed batch before the first authored gap, 2026-11-22. The earlier 10/05 batch-6 deadline is superseded.
 - [ ] 【高】Middleware repair #25 is merged/deployed; test production /api/health while maintenance is enabled in an agreed test window; no maintenance toggle was performed in this audit.
