@@ -21,3 +21,11 @@ PR #32 的 [完整目錄唯讀 inventory](https://github.com/frobel0520/tensift/
 仍有三個 family 的三語來源集合不同：`animal-covering-001`、`school-office-use-001`、`sports-equipment-001`。逐一讀回九份來源後，三語 itemId／groupId／分組相同；差異集中於英語與另兩語的 Britannica 引用路徑，不能僅憑分組相同就把引用互抄。已嘗試官方頁面讀取與搜尋，但未取得可讀內容；不判為 404，也不判為有效、已授權或已修復。此三項保留來源核對。
 
 這是引用結構與一致性盤點，不是逐項事實審查或權利結案；`rightsClearance`、`independentPlaytest` 仍為 `not_assessed`。未變更題目、候選狀態、正式資料或廣告。
+
+## 2026-10-29 公開來源再核對
+
+環境網路可用後，針對六個固定官方引用路徑做有界讀取，只留 HTTP 狀態、canonical 與主題匹配結果；不保存 DOM、作者、cookies 或回應 headers。英語 animal／sports 的分類根路徑實際回 404；相對應文章回 200、canonical 自洽且標題主題相符。writing 英語現有路徑回 200 並宣告自己的 canonical，另兩語舊路徑曾回 301、重查回 403，不能把 403 判成下架。
+
+修正四份來源 JSON：兩份英語引用改為已核對文章；兩份 writing 翻譯引用統一至已核對的 canonical。四筆 retrievedAt 更新為 2026-10-29；題目文字、解答、分組、狀態與發布日期完全不變。先前三 family 的引用差異紀錄保留作歷史，以本條與後續完整 inventory 結果為準。
+
+此修補只更新 repo 引用 metadata；未 seed 或重寫正式 D1，因此不能推論既有 D1 題庫已更正。來源可達與 canonical 一致不等於事實或權利許可；權利、獨立盲測及正式資料更新仍保持未完成。

@@ -36,7 +36,7 @@
   "hint": {"maxUses": 1, "policy": "random-unlocked-correct-row"},
   "explanation": "Cada grupo reúne artículos con un uso habitual parecido: 1 herramienta para cortar, 2 para medir, 3 para escribir y 4 productos de papel.",
   "sources": [
-    {"title": "Encyclopaedia Britannica: Writing", "url": "https://www.britannica.com/technology/writing", "retrievedAt": "2026-08-29"}
+    {"title": "Encyclopaedia Britannica: Writing", "url": "https://www.britannica.com/topic/writing", "retrievedAt": "2026-10-29"}
   ],
   "difficulty": {"band": "easy", "score": 0.25},
   "status": "scheduled"
