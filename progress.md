@@ -12,7 +12,7 @@ The hardened Harbor middleware [PR #19](https://github.com/frobel0520/tensift/pu
 
 ## Candidate batch and audit preparation
 
-Seven new families / 21 localized draft candidates for November 22–28 are isolated in `content/candidates/batch-7`. Schema and cross-locale solution IDs pass; independent blind testing and localized reader feedback remain pending. These drafts are excluded from the production catalog and seed loader. The runway check now excludes draft/reviewed/retired records; 12 local regressions passed. The catalog audit retains Owner/main and production-environment guards and can run automatically only when its own workflow file changes on main; no seed or receipt reset occurs.
+Seven new families / 21 localized draft candidates for November 22–28 are isolated in `content/candidates/batch-7`. Schema and cross-locale solution IDs pass. PR #29 completed the author factual/unit, three-locale label and original-copy/source review: 210 item assignments across 21 drafts; eight deliberate-corruption regressions and full CI passed. See content/candidates/batch-7/author-review.md. Independent blind testing and localized reader feedback remain pending. These drafts are excluded from the production catalog and seed loader. The runway check now excludes draft/reviewed/retired records; 12 local regressions passed. The catalog audit retains Owner/main and production-environment guards and can run automatically only when its own workflow file changes on main; no seed or receipt reset occurs.
 
 ## Pending
 
