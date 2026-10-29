@@ -16,7 +16,7 @@ Seven new families / 21 localized draft candidates for November 22–28 are isol
 
 ## Existing source inventory preparation
 
-Added a read-only source metadata inventory for the existing three-locale catalog and a static TypeScript AST inventory of curated editorial references/copy counts. Reports contain family IDs, counts and metadata gaps only; no URLs or prose. Eleven synthetic regressions pass. Content source inventory CI reads the complete checked-out catalog without Cloudflare, D1, external requests, seed or draft promotion. See docs/30-content-source-inventory.md. Rights clearance, live link verification and independent blind testing remain not assessed.
+Added a read-only source metadata inventory for the existing three-locale catalog and a static TypeScript AST inventory of curated editorial references/copy counts. Reports contain family IDs, counts and metadata gaps only; no URLs or prose. PR #32 is merged with full CI and eleven new synthetic regressions passing. The actual full-catalog inventory40838749430 verified 255 locale files / 85 families / 315 well-formed citations and three editorial families / 117 localized paragraphs. Three families retain cross-locale reference-path differences: animal-covering-001, school-office-use-001 and sports-equipment-001. All nine source files have matching item/group IDs; live publisher content could not be retrieved, so no citation was overwritten or cleared. Content source inventory CI reads the complete checked-out catalog without Cloudflare, D1, external requests, seed or draft promotion. See docs/30-content-source-inventory.md. Rights clearance, live link verification and independent blind testing remain not assessed.
 
 ## Pending
 
