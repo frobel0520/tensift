@@ -23,7 +23,7 @@ export default defineConfig({
   build: {
     outDir: resolve(projectRoot, 'dist'),
     emptyOutDir: true,
-    rollupOptions: {
+    rolldownOptions: {
       input: resolve(projectRoot, 'app/index.html'),
     },
   },
