@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "historiography-asian-dynasties-2027-11-26-zh-hant",
+  "puzzleFamilyId": "historiography-asian-dynasties-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-26",
+  "timezone": "UTC",
+  "theme": "東亞歷史朝代分區",
+  "items": [
+    {
+      "itemId": "historiography-asian-dynasties-4",
+      "label": "鎌倉幕府"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-8",
+      "label": "宋朝"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-1",
+      "label": "越南後黎朝"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-6",
+      "label": "德川幕府（江戶幕府）"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-10",
+      "label": "清朝"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-2",
+      "label": "高麗王朝"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-7",
+      "label": "唐朝"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-5",
+      "label": "室町幕府"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-9",
+      "label": "明朝"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-3",
+      "label": "朝鮮王朝"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各東亞歷史朝代的統治國家或地區（越南、朝鮮半島、日本或中國）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "越南",
+        "capacity": 1,
+        "itemIds": [
+          "historiography-asian-dynasties-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "朝鮮半島",
+        "capacity": 2,
+        "itemIds": [
+          "historiography-asian-dynasties-2",
+          "historiography-asian-dynasties-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "日本幕府時代",
+        "capacity": 3,
+        "itemIds": [
+          "historiography-asian-dynasties-4",
+          "historiography-asian-dynasties-5",
+          "historiography-asian-dynasties-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "中國歷代王朝",
+        "capacity": 4,
+        "itemIds": [
+          "historiography-asian-dynasties-7",
+          "historiography-asian-dynasties-8",
+          "historiography-asian-dynasties-9",
+          "historiography-asian-dynasties-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依國家地區分類：越南（後黎朝）、朝鮮半島（高麗王朝、朝鮮王朝）、日本（鎌倉幕府、室町幕府、德川江戶幕府）與中國（唐朝、宋朝、明朝、清朝）。",
+  "sources": [
+    {
+      "title": "Britannica: East Asian History",
+      "url": "https://www.britannica.com/place/East-Asia",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

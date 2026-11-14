@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "geopolitical-trade-blocs-2027-11-12-en",
+  "puzzleFamilyId": "geopolitical-trade-blocs-001",
+  "locale": "en",
+  "publishDate": "2027-11-12",
+  "timezone": "UTC",
+  "theme": "Regional & Economic Blocs",
+  "items": [
+    {
+      "itemId": "geopolitical-trade-blocs-4",
+      "label": "European Union (EU)"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-8",
+      "label": "USMCA (North America)"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-1",
+      "label": "OPEC"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-6",
+      "label": "EFTA (European Free Trade)"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-10",
+      "label": "CPTPP"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-2",
+      "label": "NATO"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-7",
+      "label": "ASEAN"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-5",
+      "label": "Schengen Area"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-9",
+      "label": "Mercosur"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-3",
+      "label": "ANZUS Security Treaty"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Primary regional/functional scope (Commodity Cartel OPEC, Military Defense Alliances, European Integration Bodies, or Americas & Asia-Pacific Trade Blocs)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Petroleum Exporter Group",
+        "capacity": 1,
+        "itemIds": [
+          "geopolitical-trade-blocs-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Military Defense Alliances",
+        "capacity": 2,
+        "itemIds": [
+          "geopolitical-trade-blocs-2",
+          "geopolitical-trade-blocs-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "European Integration",
+        "capacity": 3,
+        "itemIds": [
+          "geopolitical-trade-blocs-4",
+          "geopolitical-trade-blocs-5",
+          "geopolitical-trade-blocs-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Americas & Asia-Pacific Blocs",
+        "capacity": 4,
+        "itemIds": [
+          "geopolitical-trade-blocs-7",
+          "geopolitical-trade-blocs-8",
+          "geopolitical-trade-blocs-9",
+          "geopolitical-trade-blocs-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by bloc scope: Commodity Exporter Group (OPEC), Military Defense Alliances (NATO, ANZUS Security Treaty), European Integration Bodies (European Union, Schengen Area, EFTA Free Trade), and Asia-Pacific & Americas Trade Blocs (ASEAN, USMCA, Mercosur, CPTPP).",
+  "sources": [
+    {
+      "title": "WTO Regional Trade Agreements Database",
+      "url": "https://rtais.wto.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

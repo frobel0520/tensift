@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "world-wonders-eras-001",
+  "theme": "Ancient & Modern Monuments",
+  "publishDate": "2027-10-29",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "world-wonders-eras-10",
+        "rivalGroupId": "group-2",
+        "risk": "Brandenburg Gate is built in Greco-Roman Neoclassical style.",
+        "resolution": "Brandenburg Gate was completed in 1791 CE (group-4), not during Classical Antiquity (group-2)."
+      },
+      {
+        "itemId": "world-wonders-eras-4",
+        "rivalGroupId": "group-2",
+        "risk": "Hagia Sophia was built in Constantinople by the Eastern Roman Empire.",
+        "resolution": "Completed in 537 CE under Justinian, Hagia Sophia is a Byzantine medieval monument (group-3), after Western Classical Antiquity."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

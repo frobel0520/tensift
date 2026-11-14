@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "macroeconomic-indicators-001",
+  "theme": "Macroeconomic Indicators",
+  "publishDate": "2027-11-04",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "macroeconomic-indicators-6",
+        "rivalGroupId": "group-4",
+        "risk": "GDP Deflator includes GDP in its name.",
+        "resolution": "The GDP Deflator is a broad price-level index measuring inflation across domestic output (group-3), not an output/income aggregate (group-4)."
+      },
+      {
+        "itemId": "macroeconomic-indicators-1",
+        "rivalGroupId": "group-4",
+        "risk": "Net exports are a component of GDP.",
+        "resolution": "The Current Account Balance tracks cross-border trade, primary income, and transfers (group-1), distinct from domestic output aggregates (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

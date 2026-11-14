@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "monetary-policy-tools-2027-10-26-en",
+  "puzzleFamilyId": "monetary-policy-tools-001",
+  "locale": "en",
+  "publishDate": "2027-10-26",
+  "timezone": "UTC",
+  "theme": "Central Bank Policy Tools",
+  "items": [
+    {
+      "itemId": "monetary-policy-tools-4",
+      "label": "Reserve Requirement Ratio"
+    },
+    {
+      "itemId": "monetary-policy-tools-8",
+      "label": "ECB Main Refinancing Rate"
+    },
+    {
+      "itemId": "monetary-policy-tools-1",
+      "label": "Forward Guidance"
+    },
+    {
+      "itemId": "monetary-policy-tools-6",
+      "label": "Standing Repo Facility"
+    },
+    {
+      "itemId": "monetary-policy-tools-10",
+      "label": "Overnight Reverse Repo Rate"
+    },
+    {
+      "itemId": "monetary-policy-tools-2",
+      "label": "Quantitative Easing (QE)"
+    },
+    {
+      "itemId": "monetary-policy-tools-7",
+      "label": "Federal Funds Target Rate"
+    },
+    {
+      "itemId": "monetary-policy-tools-5",
+      "label": "Discount Window Lending"
+    },
+    {
+      "itemId": "monetary-policy-tools-9",
+      "label": "Bank of England Bank Rate"
+    },
+    {
+      "itemId": "monetary-policy-tools-3",
+      "label": "Quantitative Tightening (QT)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Monetary instrument class (Forward Guidance Communication, Unconventional Asset Purchases, Direct Bank Lending/Reserves, or Policy Benchmark Rates)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Policy Communication",
+        "capacity": 1,
+        "itemIds": [
+          "monetary-policy-tools-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Balance-Sheet QE / QT",
+        "capacity": 2,
+        "itemIds": [
+          "monetary-policy-tools-2",
+          "monetary-policy-tools-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Reserves & Lending Facilities",
+        "capacity": 3,
+        "itemIds": [
+          "monetary-policy-tools-4",
+          "monetary-policy-tools-5",
+          "monetary-policy-tools-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Benchmark Policy Rates",
+        "capacity": 4,
+        "itemIds": [
+          "monetary-policy-tools-7",
+          "monetary-policy-tools-8",
+          "monetary-policy-tools-9",
+          "monetary-policy-tools-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by central bank tool: Communication Policy (Forward Guidance), Unconventional Balance-Sheet Tools (Quantitative Easing QE, Quantitative Tightening QT), Reserve & Lending Facilities (Reserve Requirement Ratio, Discount Window Lending, Standing Repo Facility), and Benchmark Policy Rates (Federal Funds Target Rate, ECB Main Refinancing Rate, Bank of England Bank Rate, Overnight Reverse Repo Rate).",
+  "sources": [
+    {
+      "title": "Federal Reserve: Monetary Policy Tools",
+      "url": "https://www.federalreserve.gov/monetarypolicy/policytools.htm",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.64
+  },
+  "status": "scheduled"
+}

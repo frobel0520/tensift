@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "geopolitical-trade-blocs-2027-11-12-es-419",
+  "puzzleFamilyId": "geopolitical-trade-blocs-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-12",
+  "timezone": "UTC",
+  "theme": "Bloques regionales y económicos",
+  "items": [
+    {
+      "itemId": "geopolitical-trade-blocs-4",
+      "label": "Unión Europea (UE)"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-8",
+      "label": "T-MEC (USMCA)"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-1",
+      "label": "OPEP"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-6",
+      "label": "Asociación Europea de Libre Comercio (EFTA)"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-10",
+      "label": "CPTPP"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-2",
+      "label": "OTAN"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-7",
+      "label": "ASEAN"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-5",
+      "label": "Espacio Schengen"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-9",
+      "label": "Mercosur"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-3",
+      "label": "Tratado ANZUS"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Naturaleza y ámbito regional de cada bloque internacional",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Exportadores de petróleo",
+        "capacity": 1,
+        "itemIds": [
+          "geopolitical-trade-blocs-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Alianzas militares de defensa",
+        "capacity": 2,
+        "itemIds": [
+          "geopolitical-trade-blocs-2",
+          "geopolitical-trade-blocs-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Integración europea",
+        "capacity": 3,
+        "itemIds": [
+          "geopolitical-trade-blocs-4",
+          "geopolitical-trade-blocs-5",
+          "geopolitical-trade-blocs-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Bloques de América y Asia-Pacífico",
+        "capacity": 4,
+        "itemIds": [
+          "geopolitical-trade-blocs-7",
+          "geopolitical-trade-blocs-8",
+          "geopolitical-trade-blocs-9",
+          "geopolitical-trade-blocs-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por ámbito: cártel energético (OPEP), alianzas militares (OTAN, ANZUS), integración europea (Unión Europea, Espacio Schengen, EFTA) y bloques comerciales de Asia-Pacífico y Américas (ASEAN, T-MEC/USMCA, Mercosur, CPTPP).",
+  "sources": [
+    {
+      "title": "WTO Regional Trade Agreements Database",
+      "url": "https://rtais.wto.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

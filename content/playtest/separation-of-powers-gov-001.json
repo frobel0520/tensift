@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "separation-of-powers-gov-001",
+  "theme": "Constitutional Separation of Powers",
+  "publishDate": "2027-11-20",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "separation-of-powers-gov-6",
+        "rivalGroupId": "group-4",
+        "risk": "The Executive negotiates and signs international treaties.",
+        "resolution": "Formal legislative ratification/consent to bind the state is a Legislative check (group-3), whereas negotiation is Executive."
+      },
+      {
+        "itemId": "separation-of-powers-gov-1",
+        "rivalGroupId": "group-2",
+        "risk": "An auditor or ombudsman investigates legality and misconduct.",
+        "resolution": "Independent ombudsmen and supreme audit offices form an oversight fourth-branch body (group-1), distinct from binding court adjudication (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

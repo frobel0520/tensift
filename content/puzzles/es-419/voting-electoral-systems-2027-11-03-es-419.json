@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "voting-electoral-systems-2027-11-03-es-419",
+  "puzzleFamilyId": "voting-electoral-systems-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-03",
+  "timezone": "UTC",
+  "theme": "Sistemas electorales y de votación",
+  "items": [
+    {
+      "itemId": "voting-electoral-systems-4",
+      "label": "Lista cerrada proporcional"
+    },
+    {
+      "itemId": "voting-electoral-systems-8",
+      "label": "Doble vuelta electoral"
+    },
+    {
+      "itemId": "voting-electoral-systems-1",
+      "label": "Representación proporcional mixta (MMP)"
+    },
+    {
+      "itemId": "voting-electoral-systems-6",
+      "label": "Método D’Hondt de listas"
+    },
+    {
+      "itemId": "voting-electoral-systems-10",
+      "label": "Voto único no transferible (SNTV)"
+    },
+    {
+      "itemId": "voting-electoral-systems-2",
+      "label": "Segunda vuelta instantánea (IRV)"
+    },
+    {
+      "itemId": "voting-electoral-systems-7",
+      "label": "Mayoría simple (FPTP)"
+    },
+    {
+      "itemId": "voting-electoral-systems-5",
+      "label": "Lista abierta proporcional"
+    },
+    {
+      "itemId": "voting-electoral-systems-9",
+      "label": "Voto en bloque"
+    },
+    {
+      "itemId": "voting-electoral-systems-3",
+      "label": "Voto único transferible (STV)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Fórmula electoral de asignación de escaños o ganadores",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Sistema proporcional mixto",
+        "capacity": 1,
+        "itemIds": [
+          "voting-electoral-systems-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Voto preferencial ordenado",
+        "capacity": 2,
+        "itemIds": [
+          "voting-electoral-systems-2",
+          "voting-electoral-systems-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Listas proporcionales (RP)",
+        "capacity": 3,
+        "itemIds": [
+          "voting-electoral-systems-4",
+          "voting-electoral-systems-5",
+          "voting-electoral-systems-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Sistemas mayoritarios y no proporcionales",
+        "capacity": 4,
+        "itemIds": [
+          "voting-electoral-systems-7",
+          "voting-electoral-systems-8",
+          "voting-electoral-systems-9",
+          "voting-electoral-systems-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por fórmula electoral: sistema mixto (representación proporcional mixta MMP), voto preferencial ordenado (segunda vuelta instantánea IRV, voto único transferible STV), listas proporcionales (lista cerrada, lista abierta, método D’Hondt) y mayoría/escrutinio no proporcional (mayoría simple FPTP, doble vuelta, voto en bloque, voto único no transferible SNTV).",
+  "sources": [
+    {
+      "title": "International IDEA: Electoral System Design",
+      "url": "https://www.idea.int/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "economic-market-structures-2027-10-30-zh-hant",
+  "puzzleFamilyId": "economic-market-structures-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-30",
+  "timezone": "UTC",
+  "theme": "經濟學市場結構模型",
+  "items": [
+    {
+      "itemId": "economic-market-structures-4",
+      "label": "古諾產量雙占模型"
+    },
+    {
+      "itemId": "economic-market-structures-8",
+      "label": "獨占性競爭市場"
+    },
+    {
+      "itemId": "economic-market-structures-1",
+      "label": "勞動買方獨占（Monopsony）"
+    },
+    {
+      "itemId": "economic-market-structures-6",
+      "label": "卡特爾聯合寡占（Cartel）"
+    },
+    {
+      "itemId": "economic-market-structures-10",
+      "label": "差異化餐飲競爭市場"
+    },
+    {
+      "itemId": "economic-market-structures-2",
+      "label": "公用事業自然獨占"
+    },
+    {
+      "itemId": "economic-market-structures-7",
+      "label": "完全競爭市場"
+    },
+    {
+      "itemId": "economic-market-structures-5",
+      "label": "伯特蘭價格雙占模型"
+    },
+    {
+      "itemId": "economic-market-structures-9",
+      "label": "價格接受型穀物市場"
+    },
+    {
+      "itemId": "economic-market-structures-3",
+      "label": "專利法定獨占"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各經濟概念對應的市場競爭結構（買方獨占、賣方獨占、寡占／卡特爾或眾多賣方競爭市場）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "單一買方市場",
+        "capacity": 1,
+        "itemIds": [
+          "economic-market-structures-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "單一賣方獨占",
+        "capacity": 2,
+        "itemIds": [
+          "economic-market-structures-2",
+          "economic-market-structures-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "少數賣方寡占",
+        "capacity": 3,
+        "itemIds": [
+          "economic-market-structures-4",
+          "economic-market-structures-5",
+          "economic-market-structures-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "眾多賣方競爭市場",
+        "capacity": 4,
+        "itemIds": [
+          "economic-market-structures-7",
+          "economic-market-structures-8",
+          "economic-market-structures-9",
+          "economic-market-structures-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依市場競爭結構分類：單一買方（買方獨占 Monopsony）、單一賣方（自然獨占、專利法定獨占）、少數賣方寡占（古諾雙占、伯特蘭價格雙占、卡特爾聯合壟斷）與眾多賣方市場（完全競爭市場、獨占性競爭、價格接受農產品市場、差異化餐飲競爭市場）。",
+  "sources": [
+    {
+      "title": "OECD Competition & Market Structure",
+      "url": "https://www.oecd.org/competition/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.64
+  },
+  "status": "scheduled"
+}

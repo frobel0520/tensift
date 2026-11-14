@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "financial-asset-classes-2027-10-27-en",
+  "puzzleFamilyId": "financial-asset-classes-001",
+  "locale": "en",
+  "publishDate": "2027-10-27",
+  "timezone": "UTC",
+  "theme": "Financial Market Instruments",
+  "items": [
+    {
+      "itemId": "financial-asset-classes-4",
+      "label": "10-Year Government Bond"
+    },
+    {
+      "itemId": "financial-asset-classes-8",
+      "label": "Preferred Stock"
+    },
+    {
+      "itemId": "financial-asset-classes-1",
+      "label": "Allocated Gold Bullion"
+    },
+    {
+      "itemId": "financial-asset-classes-6",
+      "label": "Municipal Bond"
+    },
+    {
+      "itemId": "financial-asset-classes-10",
+      "label": "Single-Stock Call Option"
+    },
+    {
+      "itemId": "financial-asset-classes-2",
+      "label": "EUR/USD Spot FX"
+    },
+    {
+      "itemId": "financial-asset-classes-7",
+      "label": "Common Stock"
+    },
+    {
+      "itemId": "financial-asset-classes-5",
+      "label": "Corporate Bond"
+    },
+    {
+      "itemId": "financial-asset-classes-9",
+      "label": "Equity Index ETF"
+    },
+    {
+      "itemId": "financial-asset-classes-3",
+      "label": "USD/JPY FX Forward"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Asset class (Spot Commodity Futures/Bullion, Foreign Exchange FX, Fixed-Income Debt, or Equity & Equity Derivatives)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Physical Commodity",
+        "capacity": 1,
+        "itemIds": [
+          "financial-asset-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Foreign Exchange (FX)",
+        "capacity": 2,
+        "itemIds": [
+          "financial-asset-classes-2",
+          "financial-asset-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Fixed-Income Debt",
+        "capacity": 3,
+        "itemIds": [
+          "financial-asset-classes-4",
+          "financial-asset-classes-5",
+          "financial-asset-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Equities & Stock Derivatives",
+        "capacity": 4,
+        "itemIds": [
+          "financial-asset-classes-7",
+          "financial-asset-classes-8",
+          "financial-asset-classes-9",
+          "financial-asset-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by asset class: Commodity Bullion (Physical Gold Bullion), Foreign Exchange (EUR/USD Spot FX, USD/JPY Forward Contract), Fixed-Income Debt (10-Year Treasury Note, Corporate Investment-Grade Bond, Municipal Bond), and Equities (Common Stock, Preferred Stock, Equity Index ETF, Stock Call Option).",
+  "sources": [
+    {
+      "title": "BIS: Financial Market Statistics",
+      "url": "https://www.bis.org/statistics/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

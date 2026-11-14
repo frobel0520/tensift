@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "international-organizations-hq-2027-11-08-zh-hant",
+  "puzzleFamilyId": "international-organizations-hq-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-08",
+  "timezone": "UTC",
+  "theme": "國際組織總部所在地",
+  "items": [
+    {
+      "itemId": "international-organizations-hq-4",
+      "label": "聯合國秘書處與大會總部"
+    },
+    {
+      "itemId": "international-organizations-hq-8",
+      "label": "世界貿易組織（WTO）"
+    },
+    {
+      "itemId": "international-organizations-hq-1",
+      "label": "國際原子能總署（IAEA）"
+    },
+    {
+      "itemId": "international-organizations-hq-6",
+      "label": "聯合國開發計畫署總部"
+    },
+    {
+      "itemId": "international-organizations-hq-10",
+      "label": "紅十字國際委員會（ICRC）"
+    },
+    {
+      "itemId": "international-organizations-hq-2",
+      "label": "國際貨幣基金組織（IMF）"
+    },
+    {
+      "itemId": "international-organizations-hq-7",
+      "label": "世界衛生組織總部（WHO）"
+    },
+    {
+      "itemId": "international-organizations-hq-5",
+      "label": "聯合國兒童基金會總部"
+    },
+    {
+      "itemId": "international-organizations-hq-9",
+      "label": "聯合國難民署總部"
+    },
+    {
+      "itemId": "international-organizations-hq-3",
+      "label": "世界銀行集團"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各國際組織總部所在的城市（奧地利維也納、美國華盛頓特區、美國紐約市或瑞士日內瓦）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "奧地利維也納",
+        "capacity": 1,
+        "itemIds": [
+          "international-organizations-hq-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "美國華盛頓特區",
+        "capacity": 2,
+        "itemIds": [
+          "international-organizations-hq-2",
+          "international-organizations-hq-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "美國紐約市",
+        "capacity": 3,
+        "itemIds": [
+          "international-organizations-hq-4",
+          "international-organizations-hq-5",
+          "international-organizations-hq-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "瑞士日內瓦",
+        "capacity": 4,
+        "itemIds": [
+          "international-organizations-hq-7",
+          "international-organizations-hq-8",
+          "international-organizations-hq-9",
+          "international-organizations-hq-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依總部城市分類：維也納（國際原子能總署 IAEA）、華盛頓特區（國際貨幣基金 IMF、世界銀行）、紐約市（聯合國總部、UNICEF、UNDP）與日內瓦（世界衛生組織 WHO、世界貿易組織 WTO、難民署 UNHCR、紅十字國際委員會 ICRC）。",
+  "sources": [
+    {
+      "title": "UN Geneva & International Organizations",
+      "url": "https://www.ungeneva.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

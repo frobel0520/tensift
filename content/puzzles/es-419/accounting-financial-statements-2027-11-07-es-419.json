@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "accounting-financial-statements-2027-11-07-es-419",
+  "puzzleFamilyId": "accounting-financial-statements-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-07",
+  "timezone": "UTC",
+  "theme": "Estados financieros y cuentas contables",
+  "items": [
+    {
+      "itemId": "accounting-financial-statements-4",
+      "label": "Cuentas por cobrar"
+    },
+    {
+      "itemId": "accounting-financial-statements-8",
+      "label": "Costo de ventas"
+    },
+    {
+      "itemId": "accounting-financial-statements-1",
+      "label": "Flujo de efectivo operativo"
+    },
+    {
+      "itemId": "accounting-financial-statements-6",
+      "label": "Cuentas por pagar"
+    },
+    {
+      "itemId": "accounting-financial-statements-10",
+      "label": "Utilidad neta"
+    },
+    {
+      "itemId": "accounting-financial-statements-2",
+      "label": "Utilidades retenidas"
+    },
+    {
+      "itemId": "accounting-financial-statements-7",
+      "label": "Ingresos brutos por ventas"
+    },
+    {
+      "itemId": "accounting-financial-statements-5",
+      "label": "Inventarios"
+    },
+    {
+      "itemId": "accounting-financial-statements-9",
+      "label": "Gastos operativos"
+    },
+    {
+      "itemId": "accounting-financial-statements-3",
+      "label": "Capital social pagado"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Estado financiero al que pertenece cada partida contable",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Estado de flujos de efectivo",
+        "capacity": 1,
+        "itemIds": [
+          "accounting-financial-statements-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Patrimonio neto",
+        "capacity": 2,
+        "itemIds": [
+          "accounting-financial-statements-2",
+          "accounting-financial-statements-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Activos y pasivos del balance",
+        "capacity": 3,
+        "itemIds": [
+          "accounting-financial-statements-4",
+          "accounting-financial-statements-5",
+          "accounting-financial-statements-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Estado de resultados",
+        "capacity": 4,
+        "itemIds": [
+          "accounting-financial-statements-7",
+          "accounting-financial-statements-8",
+          "accounting-financial-statements-9",
+          "accounting-financial-statements-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por estado financiero: flujo de efectivo (flujo de caja operativo), patrimonio neto (utilidades retenidas, capital social pagado), activos y pasivos del balance (cuentas por cobrar, inventarios, cuentas por pagar) y estado de resultados (ingresos brutos, costo de ventas, gastos operativos, utilidad neta).",
+  "sources": [
+    {
+      "title": "IFRS Foundation: Financial Statements",
+      "url": "https://www.ifrs.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

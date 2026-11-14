@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "diplomatic-treaties-peace-2027-11-17-zh-hant",
+  "puzzleFamilyId": "diplomatic-treaties-peace-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-17",
+  "timezone": "UTC",
+  "theme": "歷史著名和平與裁軍條約",
+  "items": [
+    {
+      "itemId": "diplomatic-treaties-peace-4",
+      "label": "不擴散核武器條約（NPT）"
+    },
+    {
+      "itemId": "diplomatic-treaties-peace-8",
+      "label": "馬斯垂克條約（1992）"
+    },
+    {
+      "itemId": "diplomatic-treaties-peace-1",
+      "label": "威斯特伐利亞和約（1648）"
+    },
+    {
+      "itemId": "diplomatic-treaties-peace-6",
+      "label": "全面禁止核試驗條約（CTBT）"
+    },
+    {
+      "itemId": "diplomatic-treaties-peace-10",
+      "label": "里斯本條約（2007）"
+    },
+    {
+      "itemId": "diplomatic-treaties-peace-2",
+      "label": "凡爾賽條約（1919）"
+    },
+    {
+      "itemId": "diplomatic-treaties-peace-7",
+      "label": "羅馬條約（1957）"
+    },
+    {
+      "itemId": "diplomatic-treaties-peace-5",
+      "label": "第一階段削減戰略武器條約（START I）"
+    },
+    {
+      "itemId": "diplomatic-treaties-peace-9",
+      "label": "阿姆斯特丹條約（1997）"
+    },
+    {
+      "itemId": "diplomatic-treaties-peace-3",
+      "label": "舊金山和約（1951）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各國際條約的主題與時代分類（威斯特伐利亞主權和約、兩次世界大戰和約、核武裁軍條約或區域整合條約）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "威斯特伐利亞主權體系",
+        "capacity": 1,
+        "itemIds": [
+          "diplomatic-treaties-peace-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "兩次世界大戰和約",
+        "capacity": 2,
+        "itemIds": [
+          "diplomatic-treaties-peace-2",
+          "diplomatic-treaties-peace-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "核武管制與裁軍條約",
+        "capacity": 3,
+        "itemIds": [
+          "diplomatic-treaties-peace-4",
+          "diplomatic-treaties-peace-5",
+          "diplomatic-treaties-peace-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "歐盟建構基礎條約",
+        "capacity": 4,
+        "itemIds": [
+          "diplomatic-treaties-peace-7",
+          "diplomatic-treaties-peace-8",
+          "diplomatic-treaties-peace-9",
+          "diplomatic-treaties-peace-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依條約性質分類：近代主權體系起源（1648 年威斯特伐利亞和約）、世界大戰和約（1919 年凡爾賽條約、1951 年舊金山和約）、核武管制條約（核不擴散條約 NPT、第一階段削減戰略武器條約 START I、全面禁止核試驗條約 CTBT）與歐洲整合條約（1957 年羅馬條約、1992 年馬斯垂克條約、1997 年阿姆斯特丹條約、2007 年里斯本條約）。",
+  "sources": [
+    {
+      "title": "UN Treaty Collection",
+      "url": "https://treaties.un.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

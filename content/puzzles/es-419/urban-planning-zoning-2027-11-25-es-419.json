@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "urban-planning-zoning-2027-11-25-es-419",
+  "puzzleFamilyId": "urban-planning-zoning-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-25",
+  "timezone": "UTC",
+  "theme": "Zonificación en planificación urbana",
+  "items": [
+    {
+      "itemId": "urban-planning-zoning-4",
+      "label": "Zona de manufactura ligera"
+    },
+    {
+      "itemId": "urban-planning-zoning-8",
+      "label": "Zona de viviendas adosadas"
+    },
+    {
+      "itemId": "urban-planning-zoning-1",
+      "label": "Cinturón agrícola protegido"
+    },
+    {
+      "itemId": "urban-planning-zoning-6",
+      "label": "Parque logístico de carga"
+    },
+    {
+      "itemId": "urban-planning-zoning-10",
+      "label": "Zona residencial mixta"
+    },
+    {
+      "itemId": "urban-planning-zoning-2",
+      "label": "Distrito financiero central (CBD)"
+    },
+    {
+      "itemId": "urban-planning-zoning-7",
+      "label": "Zona residencial unifamiliar"
+    },
+    {
+      "itemId": "urban-planning-zoning-5",
+      "label": "Zona industrial pesada portuaria"
+    },
+    {
+      "itemId": "urban-planning-zoning-9",
+      "label": "Zona de apartamentos en altura"
+    },
+    {
+      "itemId": "urban-planning-zoning-3",
+      "label": "Corredor comercial vecinal"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría de uso de suelo urbano de cada zona",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Cinturón verde agrícola",
+        "capacity": 1,
+        "itemIds": [
+          "urban-planning-zoning-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Zonas comerciales",
+        "capacity": 2,
+        "itemIds": [
+          "urban-planning-zoning-2",
+          "urban-planning-zoning-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Zonas industriales y logísticas",
+        "capacity": 3,
+        "itemIds": [
+          "urban-planning-zoning-4",
+          "urban-planning-zoning-5",
+          "urban-planning-zoning-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Zonas residenciales",
+        "capacity": 4,
+        "itemIds": [
+          "urban-planning-zoning-7",
+          "urban-planning-zoning-8",
+          "urban-planning-zoning-9",
+          "urban-planning-zoning-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por uso de suelo: reserva verde (cinturón agrícola protegido), comercial (distrito financiero CBD, corredor comercial vecinal), industrial/logística (manufactura ligera, industria pesada portuaria, parque logístico) y residencial (vivienda unifamiliar, adosados densidad media, edificios de departamentos, torre residencial mixta).",
+  "sources": [
+    {
+      "title": "UN-Habitat: Urban Planning & Zoning",
+      "url": "https://unhabitat.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

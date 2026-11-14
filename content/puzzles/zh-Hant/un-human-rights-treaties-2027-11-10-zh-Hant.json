@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "un-human-rights-treaties-2027-11-10-zh-hant",
+  "puzzleFamilyId": "un-human-rights-treaties-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-10",
+  "timezone": "UTC",
+  "theme": "世界人權與憲政經典文獻",
+  "items": [
+    {
+      "itemId": "un-human-rights-treaties-4",
+      "label": "聯合國憲章（1945 年）"
+    },
+    {
+      "itemId": "un-human-rights-treaties-8",
+      "label": "消除對婦女一切形式歧視公約（1979 年）"
+    },
+    {
+      "itemId": "un-human-rights-treaties-1",
+      "label": "英國大憲章（1215 年）"
+    },
+    {
+      "itemId": "un-human-rights-treaties-6",
+      "label": "防止滅絕種族罪公約（1948 年）"
+    },
+    {
+      "itemId": "un-human-rights-treaties-10",
+      "label": "身心障礙者權利公約（2006 年）"
+    },
+    {
+      "itemId": "un-human-rights-treaties-2",
+      "label": "英國權利法案（1689 年）"
+    },
+    {
+      "itemId": "un-human-rights-treaties-7",
+      "label": "公民與政治權利國際公約（1966 年）"
+    },
+    {
+      "itemId": "un-human-rights-treaties-5",
+      "label": "世界人權宣言（1948 年）"
+    },
+    {
+      "itemId": "un-human-rights-treaties-9",
+      "label": "兒童權利公約（1989 年）"
+    },
+    {
+      "itemId": "un-human-rights-treaties-3",
+      "label": "法國人權與公民權宣言（1789 年）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各人權與憲政文獻的頒布時代（中世紀大憲章、近代英美法革命文獻、二戰後聯合國憲章體系或二十世紀後半專門人權公約）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "中世紀大憲章（1215）",
+        "capacity": 1,
+        "itemIds": [
+          "un-human-rights-treaties-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "近代憲政與革命宣言",
+        "capacity": 2,
+        "itemIds": [
+          "un-human-rights-treaties-2",
+          "un-human-rights-treaties-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "二戰後聯合國基礎憲章",
+        "capacity": 3,
+        "itemIds": [
+          "un-human-rights-treaties-4",
+          "un-human-rights-treaties-5",
+          "un-human-rights-treaties-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "現代聯合國專門人權公約",
+        "capacity": 4,
+        "itemIds": [
+          "un-human-rights-treaties-7",
+          "un-human-rights-treaties-8",
+          "un-human-rights-treaties-9",
+          "un-human-rights-treaties-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依歷史時期分類：中世紀（1215 年英國大憲章）、近代憲政革命（1689 年英國權利法案、1789 年法國人權宣言）、二戰後聯合國基石（1945 年聯合國憲章、1948 年世界人權宣言、1948 年防止及懲治滅絕種族罪公約）與現代專門公約（1966 年公民與政治權利國際公約、1979 年消除對婦女一切形式歧視公約、1989 年兒童權利公約、2006 年身心障礙者權利公約）。",
+  "sources": [
+    {
+      "title": "OHCHR: Core International Human Rights Instruments",
+      "url": "https://www.ohchr.org/en/core-international-human-rights-instruments-and-their-monitoring-bodies",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

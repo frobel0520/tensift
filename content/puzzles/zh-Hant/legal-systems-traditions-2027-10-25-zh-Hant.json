@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "legal-systems-traditions-2027-10-25-zh-hant",
+  "puzzleFamilyId": "legal-systems-traditions-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-25",
+  "timezone": "UTC",
+  "theme": "世界主要法系與法律分類",
+  "items": [
+    {
+      "itemId": "legal-systems-traditions-4",
+      "label": "遵循先例原則（Stare Decisis）"
+    },
+    {
+      "itemId": "legal-systems-traditions-8",
+      "label": "德國民法典（BGB）"
+    },
+    {
+      "itemId": "legal-systems-traditions-1",
+      "label": "日內瓦公約（國際人道法）"
+    },
+    {
+      "itemId": "legal-systems-traditions-6",
+      "label": "英美陪審團制度"
+    },
+    {
+      "itemId": "legal-systems-traditions-10",
+      "label": "瑞士民法典（ZGB）"
+    },
+    {
+      "itemId": "legal-systems-traditions-2",
+      "label": "天主教教會法"
+    },
+    {
+      "itemId": "legal-systems-traditions-7",
+      "label": "拿破崙民法典（1804）"
+    },
+    {
+      "itemId": "legal-systems-traditions-5",
+      "label": "衡平法院體系"
+    },
+    {
+      "itemId": "legal-systems-traditions-9",
+      "label": "查士丁尼羅馬法大全"
+    },
+    {
+      "itemId": "legal-systems-traditions-3",
+      "label": "伊斯蘭沙里亞法"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各法律名詞所屬的法系或公法／私法體系（國際公法、宗教法系、英美普通法或歐陸成文法典）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "國際條約法",
+        "capacity": 1,
+        "itemIds": [
+          "legal-systems-traditions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "宗教法系傳統",
+        "capacity": 2,
+        "itemIds": [
+          "legal-systems-traditions-2",
+          "legal-systems-traditions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "英美普通法制度",
+        "capacity": 3,
+        "itemIds": [
+          "legal-systems-traditions-4",
+          "legal-systems-traditions-5",
+          "legal-systems-traditions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "歐陸成文法典",
+        "capacity": 4,
+        "itemIds": [
+          "legal-systems-traditions-7",
+          "legal-systems-traditions-8",
+          "legal-systems-traditions-9",
+          "legal-systems-traditions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依法律體系分類：超國家國際法（國際人道法／日內瓦公約）、宗教法系（天主教教會法、伊斯蘭沙里亞法）、英美普通法制度（遵循先例原則、衡平法院、陪審團審判）與歐陸成文法典（拿破崙法典、德國民法典 BGB、羅馬法大全、瑞士民法典）。",
+  "sources": [
+    {
+      "title": "Britannica: Legal Systems of the World",
+      "url": "https://www.britannica.com/topic/legal-system",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

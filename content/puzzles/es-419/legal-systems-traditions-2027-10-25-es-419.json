@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "legal-systems-traditions-2027-10-25-es-419",
+  "puzzleFamilyId": "legal-systems-traditions-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-25",
+  "timezone": "UTC",
+  "theme": "Sistemas y ramas jurídicas",
+  "items": [
+    {
+      "itemId": "legal-systems-traditions-4",
+      "label": "Stare decisis (precedente)"
+    },
+    {
+      "itemId": "legal-systems-traditions-8",
+      "label": "Código Civil alemán (BGB)"
+    },
+    {
+      "itemId": "legal-systems-traditions-1",
+      "label": "Convenios de Ginebra (DIH)"
+    },
+    {
+      "itemId": "legal-systems-traditions-6",
+      "label": "Juicio por jurado"
+    },
+    {
+      "itemId": "legal-systems-traditions-10",
+      "label": "Código Civil suizo"
+    },
+    {
+      "itemId": "legal-systems-traditions-2",
+      "label": "Derecho canónico"
+    },
+    {
+      "itemId": "legal-systems-traditions-7",
+      "label": "Código Napoleónico"
+    },
+    {
+      "itemId": "legal-systems-traditions-5",
+      "label": "Jurisdicción de equidad"
+    },
+    {
+      "itemId": "legal-systems-traditions-9",
+      "label": "Corpus Juris Civilis"
+    },
+    {
+      "itemId": "legal-systems-traditions-3",
+      "label": "Sharía islámica"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tradición o rama jurídica de cada concepto",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Derecho internacional convencional",
+        "capacity": 1,
+        "itemIds": [
+          "legal-systems-traditions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Sistemas jurídicos religiosos",
+        "capacity": 2,
+        "itemIds": [
+          "legal-systems-traditions-2",
+          "legal-systems-traditions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Doctrinas del common law",
+        "capacity": 3,
+        "itemIds": [
+          "legal-systems-traditions-4",
+          "legal-systems-traditions-5",
+          "legal-systems-traditions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Codificaciones de derecho civil",
+        "capacity": 4,
+        "itemIds": [
+          "legal-systems-traditions-7",
+          "legal-systems-traditions-8",
+          "legal-systems-traditions-9",
+          "legal-systems-traditions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por tradición jurídica: derecho internacional (Derecho Internacional Humanitario), sistemas religiosos (derecho canónico, sharía islámica), instituciones del common law (precedente vinculante stare decisis, equidad, juicio por jurado) y codificaciones del derecho civil (Código Napoleónico, BGB alemán, Corpus Juris Civilis, Código Civil suizo).",
+  "sources": [
+    {
+      "title": "Britannica: Legal Systems of the World",
+      "url": "https://www.britannica.com/topic/legal-system",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "geopolitical-trade-blocs-001",
+  "theme": "Regional & Economic Blocs",
+  "publishDate": "2027-11-12",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "geopolitical-trade-blocs-2",
+        "rivalGroupId": "group-3",
+        "risk": "Most NATO members are European countries.",
+        "resolution": "NATO is a transatlantic collective-defense military alliance including the US and Canada (group-2), not a European economic/border union (group-3)."
+      },
+      {
+        "itemId": "geopolitical-trade-blocs-1",
+        "rivalGroupId": "group-4",
+        "risk": "OPEC coordinates global oil policy across regions.",
+        "resolution": "OPEC is a single-commodity petroleum producers’ organization (group-1), not a multi-sector regional trade bloc (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

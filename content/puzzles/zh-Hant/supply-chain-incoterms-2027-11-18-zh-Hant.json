@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "supply-chain-incoterms-2027-11-18-zh-hant",
+  "puzzleFamilyId": "supply-chain-incoterms-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-18",
+  "timezone": "UTC",
+  "theme": "國際貿易國貿條規（Incoterms）",
+  "items": [
+    {
+      "itemId": "supply-chain-incoterms-4",
+      "label": "DAP（目的地交貨）"
+    },
+    {
+      "itemId": "supply-chain-incoterms-8",
+      "label": "FOB（船上交貨）"
+    },
+    {
+      "itemId": "supply-chain-incoterms-1",
+      "label": "EXW（工廠交貨）"
+    },
+    {
+      "itemId": "supply-chain-incoterms-6",
+      "label": "DDP（完稅後交貨）"
+    },
+    {
+      "itemId": "supply-chain-incoterms-10",
+      "label": "CIF（成本保險費加運費）"
+    },
+    {
+      "itemId": "supply-chain-incoterms-2",
+      "label": "FCA（貨交運送人）"
+    },
+    {
+      "itemId": "supply-chain-incoterms-7",
+      "label": "FAS（船邊交貨）"
+    },
+    {
+      "itemId": "supply-chain-incoterms-5",
+      "label": "DPU（卸貨地交貨）"
+    },
+    {
+      "itemId": "supply-chain-incoterms-9",
+      "label": "CFR（成本加運費）"
+    },
+    {
+      "itemId": "supply-chain-incoterms-3",
+      "label": "CPT（運費付訖）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "國際商會國貿條規（Incoterms）的類別（工廠交貨 EXW、目的地交貨 D 類、海運／內河專用條規或全運輸方式 C/F 類）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "賣方場地交貨（EXW）",
+        "capacity": 1,
+        "itemIds": [
+          "supply-chain-incoterms-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "全運輸方式 F/C 類",
+        "capacity": 2,
+        "itemIds": [
+          "supply-chain-incoterms-2",
+          "supply-chain-incoterms-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "目的地交貨 D 類",
+        "capacity": 3,
+        "itemIds": [
+          "supply-chain-incoterms-4",
+          "supply-chain-incoterms-5",
+          "supply-chain-incoterms-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "海運與內河專用條規",
+        "capacity": 4,
+        "itemIds": [
+          "supply-chain-incoterms-7",
+          "supply-chain-incoterms-8",
+          "supply-chain-incoterms-9",
+          "supply-chain-incoterms-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依國際商會 Incoterms 2020 分類：賣方場地交貨（EXW 工廠交貨）、全運輸方式 F/C 類（FCA 貨交運送人、CPT 運費付訖）、目的地交貨 D 類（DAP 目的地交貨、DPU 卸貨地交貨、DDP 完稅後交貨）與海運及內河專用條規（FAS 船邊交貨、FOB 船上交貨、CFR 成本加運費、CIF 成本保險費加運費）。",
+  "sources": [
+    {
+      "title": "ICC: Incoterms 2020 Rules",
+      "url": "https://iccwbo.org/business-solutions/incoterms-rules/incoterms-2020/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.72
+  },
+  "status": "scheduled"
+}

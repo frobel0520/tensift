@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "maritime-chokepoints-world-2027-11-05-es-419",
+  "puzzleFamilyId": "maritime-chokepoints-world-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-05",
+  "timezone": "UTC",
+  "theme": "Puntos estratégicos marítimos mundiales",
+  "items": [
+    {
+      "itemId": "maritime-chokepoints-world-4",
+      "label": "Estrecho de Gibraltar"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-8",
+      "label": "Estrecho de Malaca"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-1",
+      "label": "Estrecho de Bering"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-6",
+      "label": "Estrecho de los Dardanelos"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-10",
+      "label": "Estrecho de la Sonda"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-2",
+      "label": "Canal de Suez"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-7",
+      "label": "Estrecho de Ormuz"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-5",
+      "label": "Estrecho del Bósforo"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-9",
+      "label": "Estrecho de Bab el-Mandeb"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-3",
+      "label": "Canal de Panamá"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría geográfica y estructural de cada paso marítimo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Paso ártico-pacífico",
+        "capacity": 1,
+        "itemIds": [
+          "maritime-chokepoints-world-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Canales artificiales",
+        "capacity": 2,
+        "itemIds": [
+          "maritime-chokepoints-world-2",
+          "maritime-chokepoints-world-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Estrechos mediterráneos y del mar Negro",
+        "capacity": 3,
+        "itemIds": [
+          "maritime-chokepoints-world-4",
+          "maritime-chokepoints-world-5",
+          "maritime-chokepoints-world-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Estrechos del Índico-Pacífico y mar Rojo",
+        "capacity": 4,
+        "itemIds": [
+          "maritime-chokepoints-world-7",
+          "maritime-chokepoints-world-8",
+          "maritime-chokepoints-world-9",
+          "maritime-chokepoints-world-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por geografía: paso ártico (estrecho de Bering), canales artificiales (Canal de Suez, Canal de Panamá), estrechos mediterráneos y del mar Negro (Gibraltar, Bósforo, Dardanelos) y estrechos del Índico-Pacífico (Ormuz, Malaca, Bab el-Mandeb, Sonda).",
+  "sources": [
+    {
+      "title": "UNCTAD: Review of Maritime Transport",
+      "url": "https://unctad.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

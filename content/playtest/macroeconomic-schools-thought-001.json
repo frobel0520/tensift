@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "macroeconomic-schools-thought-001",
+  "theme": "Schools of Economic Thought",
+  "publishDate": "2027-11-23",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "macroeconomic-schools-thought-1",
+        "rivalGroupId": "group-3",
+        "risk": "Physiocracy advocated laissez-faire before Adam Smith.",
+        "resolution": "Physiocracy held that only agricultural land generates net surplus (group-1), unlike Classical economics’ labor/industrial value theory (group-3)."
+      },
+      {
+        "itemId": "macroeconomic-schools-thought-9",
+        "rivalGroupId": "group-3",
+        "risk": "The Austrian School originated in Vienna in the late 19th century.",
+        "resolution": "The Austrian School (Mises, Hayek) became a major 20th-century macroeconomic school debating Keynes (group-4), not 18th–early 19th century British Classical political economy (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

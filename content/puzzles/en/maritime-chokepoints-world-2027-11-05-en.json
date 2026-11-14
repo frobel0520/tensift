@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "maritime-chokepoints-world-2027-11-05-en",
+  "puzzleFamilyId": "maritime-chokepoints-world-001",
+  "locale": "en",
+  "publishDate": "2027-11-05",
+  "timezone": "UTC",
+  "theme": "Strategic Maritime Chokepoints",
+  "items": [
+    {
+      "itemId": "maritime-chokepoints-world-4",
+      "label": "Strait of Gibraltar"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-8",
+      "label": "Strait of Malacca"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-1",
+      "label": "Bering Strait"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-6",
+      "label": "Dardanelles Strait"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-10",
+      "label": "Sunda Strait"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-2",
+      "label": "Suez Canal"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-7",
+      "label": "Strait of Hormuz"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-5",
+      "label": "Bosporus Strait"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-9",
+      "label": "Bab el-Mandeb Strait"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-3",
+      "label": "Panama Canal"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Waterway type & geography (Arctic/Northern Sea Route Strait, Artificial Interoceanic Canals, Mediterranean-Atlantic/Black Sea Straits, or Indo-Pacific Oil & Trade Straits)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Arctic-Pacific Gateway",
+        "capacity": 1,
+        "itemIds": [
+          "maritime-chokepoints-world-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Artificial Ship Canals",
+        "capacity": 2,
+        "itemIds": [
+          "maritime-chokepoints-world-2",
+          "maritime-chokepoints-world-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Mediterranean & Black Sea Straits",
+        "capacity": 3,
+        "itemIds": [
+          "maritime-chokepoints-world-4",
+          "maritime-chokepoints-world-5",
+          "maritime-chokepoints-world-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Indo-Pacific & Red Sea Straits",
+        "capacity": 4,
+        "itemIds": [
+          "maritime-chokepoints-world-7",
+          "maritime-chokepoints-world-8",
+          "maritime-chokepoints-world-9",
+          "maritime-chokepoints-world-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by waterway geography: Arctic Gateway (Bering Strait), Artificial Interoceanic Canals (Suez Canal, Panama Canal), Mediterranean & Black Sea Straits (Strait of Gibraltar, Bosporus Strait, Dardanelles Strait), and Indo-Pacific & Red Sea Straits (Strait of Hormuz, Strait of Malacca, Bab el-Mandeb Strait, Sunda Strait).",
+  "sources": [
+    {
+      "title": "UNCTAD: Review of Maritime Transport",
+      "url": "https://unctad.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

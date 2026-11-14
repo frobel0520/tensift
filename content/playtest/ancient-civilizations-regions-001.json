@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "ancient-civilizations-regions-001",
+  "theme": "Ancient Civilizations by Region",
+  "publishDate": "2027-10-28",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "ancient-civilizations-regions-10",
+        "rivalGroupId": "group-2",
+        "risk": "Phoenicia traded extensively with Egypt across the Mediterranean.",
+        "resolution": "Phoenician city-states (Tyre, Sidon, Byblos) were centered in the Levantine coast (group-4), not the Nile Valley (group-2)."
+      },
+      {
+        "itemId": "ancient-civilizations-regions-3",
+        "rivalGroupId": "group-4",
+        "risk": "Kush was an ancient Near-Eastern-era kingdom.",
+        "resolution": "The Kingdom of Kush was centered in Nubia along the Upper Nile (group-2), not Mesopotamia (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "macroeconomic-schools-thought-2027-11-23-es-419",
+  "puzzleFamilyId": "macroeconomic-schools-thought-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-23",
+  "timezone": "UTC",
+  "theme": "Escuelas de pensamiento económico",
+  "items": [
+    {
+      "itemId": "macroeconomic-schools-thought-4",
+      "label": "Escuela clásica (Adam Smith)"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-8",
+      "label": "Monetarismo (Friedman)"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-1",
+      "label": "Fisiocracia (Quesnay)"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-6",
+      "label": "Teoría malthusiana"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-10",
+      "label": "Nuevo keynesianismo"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-2",
+      "label": "Mercantilismo metalista"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-7",
+      "label": "Keynesianismo"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-5",
+      "label": "Ventaja comparativa (Ricardo)"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-9",
+      "label": "Escuela austriaca"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-3",
+      "label": "Colbertismo francés"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Corriente histórica del pensamiento económico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Fisiocracia",
+        "capacity": 1,
+        "itemIds": [
+          "macroeconomic-schools-thought-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Mercantilismo",
+        "capacity": 2,
+        "itemIds": [
+          "macroeconomic-schools-thought-2",
+          "macroeconomic-schools-thought-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Economía política clásica",
+        "capacity": 3,
+        "itemIds": [
+          "macroeconomic-schools-thought-4",
+          "macroeconomic-schools-thought-5",
+          "macroeconomic-schools-thought-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Escuelas macro del siglo XX",
+        "capacity": 4,
+        "itemIds": [
+          "macroeconomic-schools-thought-7",
+          "macroeconomic-schools-thought-8",
+          "macroeconomic-schools-thought-9",
+          "macroeconomic-schools-thought-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por escuela: riqueza agraria (fisiocracia), superávit comercial (mercantilismo, colbertismo), economía clásica (escuela clásica de Adam Smith, ventaja comparativa de Ricardo, teoría de Malthus) y escuelas macroeconómicas del siglo XX (keynesianismo, monetarismo de Chicago, escuela austriaca, nuevo keynesianismo).",
+  "sources": [
+    {
+      "title": "Britannica: History of Economics",
+      "url": "https://www.britannica.com/money/economics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

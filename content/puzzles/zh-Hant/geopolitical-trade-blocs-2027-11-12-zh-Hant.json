@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "geopolitical-trade-blocs-2027-11-12-zh-hant",
+  "puzzleFamilyId": "geopolitical-trade-blocs-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-12",
+  "timezone": "UTC",
+  "theme": "區域經濟與安全組織",
+  "items": [
+    {
+      "itemId": "geopolitical-trade-blocs-4",
+      "label": "歐洲聯盟（EU）"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-8",
+      "label": "美墨加貿易協定（USMCA）"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-1",
+      "label": "石油輸出國組織（OPEC）"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-6",
+      "label": "歐洲自由貿易聯盟（EFTA）"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-10",
+      "label": "跨太平洋夥伴全面進步協定（CPTPP）"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-2",
+      "label": "北大西洋公約組織（NATO）"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-7",
+      "label": "東南亞國協（ASEAN）"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-5",
+      "label": "申根區（Schengen）"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-9",
+      "label": "南方共同市場（Mercosur）"
+    },
+    {
+      "itemId": "geopolitical-trade-blocs-3",
+      "label": "澳紐美安全條約（ANZUS）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各國際組織的性質與區域歸屬（石油輸出組織、軍事防禦同盟、歐洲整合體系或美洲／亞太經貿集團）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "石油輸出國組織",
+        "capacity": 1,
+        "itemIds": [
+          "geopolitical-trade-blocs-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "軍事防禦同盟",
+        "capacity": 2,
+        "itemIds": [
+          "geopolitical-trade-blocs-2",
+          "geopolitical-trade-blocs-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "歐洲區域整合體系",
+        "capacity": 3,
+        "itemIds": [
+          "geopolitical-trade-blocs-4",
+          "geopolitical-trade-blocs-5",
+          "geopolitical-trade-blocs-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "亞太與美洲經貿集團",
+        "capacity": 4,
+        "itemIds": [
+          "geopolitical-trade-blocs-7",
+          "geopolitical-trade-blocs-8",
+          "geopolitical-trade-blocs-9",
+          "geopolitical-trade-blocs-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依組織性質與區域分類：能源輸出國組織（OPEC）、軍事防禦同盟（北約 NATO、澳紐美安全條約 ANZUS）、歐洲整合體系（歐盟 EU、申根區、歐洲自由貿易聯盟 EFTA）與亞太及美洲經貿集團（東協 ASEAN、美墨加協定 USMCA、南方共同市場 Mercosur、跨太平洋夥伴全面進步協定 CPTPP）。",
+  "sources": [
+    {
+      "title": "WTO Regional Trade Agreements Database",
+      "url": "https://rtais.wto.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

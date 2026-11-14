@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "diplomatic-missions-ranks-001",
+  "theme": "Diplomatic & Consular Ranks",
+  "publishDate": "2027-11-28",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "diplomatic-missions-ranks-1",
+        "rivalGroupId": "group-4",
+        "risk": "An Apostolic Nuncio holds ambassadorial rank.",
+        "resolution": "An Apostolic Nuncio is uniquely accredited by the Holy See (Vatican) as a papal envoy (group-1), distinct from secular embassy staff (group-4)."
+      },
+      {
+        "itemId": "diplomatic-missions-ranks-4",
+        "rivalGroupId": "group-4",
+        "risk": "Consuls work abroad for their foreign ministry.",
+        "resolution": "Consular officers handle visas, citizens, and local trade under the 1963 Consular Convention (group-3), not state-to-state embassy diplomacy (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

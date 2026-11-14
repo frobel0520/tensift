@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "historiography-primary-sources-2027-11-14-zh-hant",
+  "puzzleFamilyId": "historiography-primary-sources-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-14",
+  "timezone": "UTC",
+  "theme": "歷史學史料類型分類",
+  "items": [
+    {
+      "itemId": "historiography-primary-sources-4",
+      "label": "同儕審查歷史專書"
+    },
+    {
+      "itemId": "historiography-primary-sources-8",
+      "label": "戰時士兵親筆日記"
+    },
+    {
+      "itemId": "historiography-primary-sources-1",
+      "label": "親歷者口述訪談"
+    },
+    {
+      "itemId": "historiography-primary-sources-6",
+      "label": "後世撰寫之人物傳記"
+    },
+    {
+      "itemId": "historiography-primary-sources-10",
+      "label": "同期稅收戶口冊"
+    },
+    {
+      "itemId": "historiography-primary-sources-2",
+      "label": "歷史百科全書"
+    },
+    {
+      "itemId": "historiography-primary-sources-7",
+      "label": "和約簽署原件"
+    },
+    {
+      "itemId": "historiography-primary-sources-5",
+      "label": "大學歷史教科書"
+    },
+    {
+      "itemId": "historiography-primary-sources-9",
+      "label": "古代錢幣鑄造銘文"
+    },
+    {
+      "itemId": "historiography-primary-sources-3",
+      "label": "歷史年表年鑑"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各史料在歷史研究中的分類（口述歷史傳統、三次工具書文獻、二手研究論著或一手同期原始史料）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "口述歷史紀錄",
+        "capacity": 1,
+        "itemIds": [
+          "historiography-primary-sources-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "三次工具書文獻",
+        "capacity": 2,
+        "itemIds": [
+          "historiography-primary-sources-2",
+          "historiography-primary-sources-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "二手歷史研究著述",
+        "capacity": 3,
+        "itemIds": [
+          "historiography-primary-sources-4",
+          "historiography-primary-sources-5",
+          "historiography-primary-sources-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "一手同期原始史料",
+        "capacity": 4,
+        "itemIds": [
+          "historiography-primary-sources-7",
+          "historiography-primary-sources-8",
+          "historiography-primary-sources-9",
+          "historiography-primary-sources-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依史料性質分類：口述史料（當事人訪談口述歷史）、三次文獻（歷史百科全書、年鑑工具書）、二手研究文獻（現代學術專書、歷史教科書、後世傳記）與一手原始史料（條約原件、同期日記、出土銘文錢幣、同期戶口名冊）。",
+  "sources": [
+    {
+      "title": "Library of Congress: Primary & Secondary Sources",
+      "url": "https://www.loc.gov/programs/teachers/getting-started-with-primary-sources/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

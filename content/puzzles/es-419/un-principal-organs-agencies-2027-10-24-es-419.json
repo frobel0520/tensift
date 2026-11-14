@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "un-principal-organs-agencies-2027-10-24-es-419",
+  "puzzleFamilyId": "un-principal-organs-agencies-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-24",
+  "timezone": "UTC",
+  "theme": "Organismos del sistema de la ONU",
+  "items": [
+    {
+      "itemId": "un-principal-organs-agencies-4",
+      "label": "UNESCO"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-8",
+      "label": "PNUD"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-1",
+      "label": "Corte Internacional de Justicia"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-6",
+      "label": "FAO"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-10",
+      "label": "PNUMA"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-2",
+      "label": "Consejo de Seguridad de la ONU"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-7",
+      "label": "UNICEF"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-5",
+      "label": "Organización Mundial de la Salud (OMS)"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-9",
+      "label": "ACNUR"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-3",
+      "label": "Consejo Económico y Social (ECOSOC)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Rol institucional dentro del sistema de las Naciones Unidas",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Órgano judicial principal",
+        "capacity": 1,
+        "itemIds": [
+          "un-principal-organs-agencies-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Consejos de la Carta",
+        "capacity": 2,
+        "itemIds": [
+          "un-principal-organs-agencies-2",
+          "un-principal-organs-agencies-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Agencias especializadas",
+        "capacity": 3,
+        "itemIds": [
+          "un-principal-organs-agencies-4",
+          "un-principal-organs-agencies-5",
+          "un-principal-organs-agencies-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Programas y fondos",
+        "capacity": 4,
+        "itemIds": [
+          "un-principal-organs-agencies-7",
+          "un-principal-organs-agencies-8",
+          "un-principal-organs-agencies-9",
+          "un-principal-organs-agencies-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por rol en la ONU: órgano judicial (Corte Internacional de Justicia), consejos de la Carta (Consejo de Seguridad, ECOSOC), agencias especializadas (UNESCO, OMS, FAO) y fondos/programas (UNICEF, PNUD, ACNUR, PNUMA).",
+  "sources": [
+    {
+      "title": "United Nations System Chart",
+      "url": "https://www.un.org/en/about-us/un-system",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

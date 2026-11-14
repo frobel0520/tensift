@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "un-principal-organs-agencies-2027-10-24-zh-hant",
+  "puzzleFamilyId": "un-principal-organs-agencies-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-24",
+  "timezone": "UTC",
+  "theme": "聯合國體系機構分類",
+  "items": [
+    {
+      "itemId": "un-principal-organs-agencies-4",
+      "label": "聯合國教科文組織（UNESCO）"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-8",
+      "label": "聯合國開發計畫署（UNDP）"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-1",
+      "label": "國際法院（ICJ）"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-6",
+      "label": "聯合國糧農組織（FAO）"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-10",
+      "label": "聯合國環境署（UNEP）"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-2",
+      "label": "聯合國安全理事會"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-7",
+      "label": "聯合國兒童基金會（UNICEF）"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-5",
+      "label": "世界衛生組織（WHO）"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-9",
+      "label": "聯合國難民署（UNHCR）"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-3",
+      "label": "經濟及社會理事會（ECOSOC）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各聯合國機構的憲章定位（國際法院、核心理事會、專門機構或基金與方案）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "聯合國主要司法機關",
+        "capacity": 1,
+        "itemIds": [
+          "un-principal-organs-agencies-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "憲章核心理事會",
+        "capacity": 2,
+        "itemIds": [
+          "un-principal-organs-agencies-2",
+          "un-principal-organs-agencies-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "聯合國專門機構",
+        "capacity": 3,
+        "itemIds": [
+          "un-principal-organs-agencies-4",
+          "un-principal-organs-agencies-5",
+          "un-principal-organs-agencies-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "聯合國方案與基金",
+        "capacity": 4,
+        "itemIds": [
+          "un-principal-organs-agencies-7",
+          "un-principal-organs-agencies-8",
+          "un-principal-organs-agencies-9",
+          "un-principal-organs-agencies-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依聯合國體系定位分類：司法機關（國際法院 ICJ）、憲章理事會（安全理事會、經濟及社會理事會）、專門機構（教科文組織 UNESCO、世衛組織 WHO、糧農組織 FAO）與基金及方案（兒童基金會 UNICEF、開發計畫署 UNDP、難民署 UNHCR、環境署 UNEP）。",
+  "sources": [
+    {
+      "title": "United Nations System Chart",
+      "url": "https://www.un.org/en/about-us/un-system",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

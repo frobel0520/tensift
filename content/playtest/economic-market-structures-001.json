@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "economic-market-structures-001",
+  "theme": "Economic Market Structures",
+  "publishDate": "2027-10-30",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "economic-market-structures-8",
+        "rivalGroupId": "group-2",
+        "risk": "Monopolistic Competition contains the word Monopolistic.",
+        "resolution": "Monopolistic competition features many sellers with differentiated products and free entry (group-4), unlike a single-seller monopoly (group-2)."
+      },
+      {
+        "itemId": "economic-market-structures-1",
+        "rivalGroupId": "group-2",
+        "risk": "Monopsony sounds similar to Monopoly.",
+        "resolution": "Monopsony is a market dominated by a single buyer (group-1), whereas monopoly is dominated by a single seller (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

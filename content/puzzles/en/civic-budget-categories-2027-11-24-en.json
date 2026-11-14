@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "civic-budget-categories-2027-11-24-en",
+  "puzzleFamilyId": "civic-budget-categories-001",
+  "locale": "en",
+  "publishDate": "2027-11-24",
+  "timezone": "UTC",
+  "theme": "Government Budget & Fiscal Flows",
+  "items": [
+    {
+      "itemId": "civic-budget-categories-4",
+      "label": "Annual Defense Budget"
+    },
+    {
+      "itemId": "civic-budget-categories-8",
+      "label": "Treasury Notes (2–10 Years)"
+    },
+    {
+      "itemId": "civic-budget-categories-1",
+      "label": "Sovereign Wealth Fund"
+    },
+    {
+      "itemId": "civic-budget-categories-6",
+      "label": "Public Science Research Grants"
+    },
+    {
+      "itemId": "civic-budget-categories-10",
+      "label": "Inflation-Indexed Sovereign Bonds"
+    },
+    {
+      "itemId": "civic-budget-categories-2",
+      "label": "State Pension Entitlements"
+    },
+    {
+      "itemId": "civic-budget-categories-7",
+      "label": "Treasury Bills (<1 Year)"
+    },
+    {
+      "itemId": "civic-budget-categories-5",
+      "label": "Highway Infrastructure Grants"
+    },
+    {
+      "itemId": "civic-budget-categories-9",
+      "label": "Treasury Bonds (20–30 Years)"
+    },
+    {
+      "itemId": "civic-budget-categories-3",
+      "label": "Statutory Healthcare Benefits"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Public fiscal category (Sovereign Wealth Fund, Mandatory Entitlements, Discretionary Public Spending, or Sovereign Debt Instruments)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "State Asset Reserve",
+        "capacity": 1,
+        "itemIds": [
+          "civic-budget-categories-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Mandatory Entitlements",
+        "capacity": 2,
+        "itemIds": [
+          "civic-budget-categories-2",
+          "civic-budget-categories-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Discretionary Appropriations",
+        "capacity": 3,
+        "itemIds": [
+          "civic-budget-categories-4",
+          "civic-budget-categories-5",
+          "civic-budget-categories-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Sovereign Debt Instruments",
+        "capacity": 4,
+        "itemIds": [
+          "civic-budget-categories-7",
+          "civic-budget-categories-8",
+          "civic-budget-categories-9",
+          "civic-budget-categories-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by fiscal category: State Asset Reserve (Sovereign Wealth Fund), Mandatory Entitlements (Public Pension Benefits, Universal Healthcare Reimbursement), Discretionary Annual Spending (Defense Appropriations, Public Infrastructure Grants, Scientific Research Grants), and Sovereign Debt Instruments (Short-Term Treasury Bills, Medium-Term Treasury Notes, Long-Term Treasury Bonds, Inflation-Indexed Bonds).",
+  "sources": [
+    {
+      "title": "IMF Government Finance Statistics Manual",
+      "url": "https://www.imf.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

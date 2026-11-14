@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "un-human-rights-treaties-2027-11-10-es-419",
+  "puzzleFamilyId": "un-human-rights-treaties-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-10",
+  "timezone": "UTC",
+  "theme": "Cartas históricas de derechos y constituciones",
+  "items": [
+    {
+      "itemId": "un-human-rights-treaties-4",
+      "label": "Carta de las Naciones Unidas (1945)"
+    },
+    {
+      "itemId": "un-human-rights-treaties-8",
+      "label": "CEDAW (Derechos de la Mujer, 1979)"
+    },
+    {
+      "itemId": "un-human-rights-treaties-1",
+      "label": "Carta Magna (1215)"
+    },
+    {
+      "itemId": "un-human-rights-treaties-6",
+      "label": "Convención contra el Genocidio (1948)"
+    },
+    {
+      "itemId": "un-human-rights-treaties-10",
+      "label": "Convención sobre Discapacidad (2006)"
+    },
+    {
+      "itemId": "un-human-rights-treaties-2",
+      "label": "Declaración de Derechos inglesa (1689)"
+    },
+    {
+      "itemId": "un-human-rights-treaties-7",
+      "label": "Pacto de Derechos Civiles y Políticos (1966)"
+    },
+    {
+      "itemId": "un-human-rights-treaties-5",
+      "label": "Declaración Universal de Derechos Humanos"
+    },
+    {
+      "itemId": "un-human-rights-treaties-9",
+      "label": "Convención sobre los Derechos del Niño (1989)"
+    },
+    {
+      "itemId": "un-human-rights-treaties-3",
+      "label": "Declaración de los Derechos del Hombre (1789)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Época de promulgación de cada documento histórico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Carta medieval (1215)",
+        "capacity": 1,
+        "itemIds": [
+          "un-human-rights-treaties-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Revoluciones modernas",
+        "capacity": 2,
+        "itemIds": [
+          "un-human-rights-treaties-2",
+          "un-human-rights-treaties-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Fundación ONU posguerra (1945–1948)",
+        "capacity": 3,
+        "itemIds": [
+          "un-human-rights-treaties-4",
+          "un-human-rights-treaties-5",
+          "un-human-rights-treaties-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Tratados especializados modernos",
+        "capacity": 4,
+        "itemIds": [
+          "un-human-rights-treaties-7",
+          "un-human-rights-treaties-8",
+          "un-human-rights-treaties-9",
+          "un-human-rights-treaties-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por época: medieval (Carta Magna de 1215), revoluciones modernas (Bill of Rights inglés de 1689, Declaración francesa de 1789), posguerra ONU (Carta de la ONU 1945, Declaración Universal 1948, Convención contra el Genocidio 1948) y convenciones especializadas modernas (PIDCP 1966, CEDAW 1979, Derechos del Niño 1989, Derechos de las Personas con Discapacidad 2006).",
+  "sources": [
+    {
+      "title": "OHCHR: Core International Human Rights Instruments",
+      "url": "https://www.ohchr.org/en/core-international-human-rights-instruments-and-their-monitoring-bodies",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

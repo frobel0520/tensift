@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "historiography-asian-dynasties-2027-11-26-es-419",
+  "puzzleFamilyId": "historiography-asian-dynasties-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-26",
+  "timezone": "UTC",
+  "theme": "Dinastías históricas de Asia Oriental",
+  "items": [
+    {
+      "itemId": "historiography-asian-dynasties-4",
+      "label": "Shogunato Kamakura"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-8",
+      "label": "Dinastía Song"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-1",
+      "label": "Dinastía Lê posterior (Vietnam)"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-6",
+      "label": "Shogunato Tokugawa"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-10",
+      "label": "Dinastía Qing"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-2",
+      "label": "Dinastía Goryeo"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-7",
+      "label": "Dinastía Tang"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-5",
+      "label": "Shogunato Muromachi"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-9",
+      "label": "Dinastía Ming"
+    },
+    {
+      "itemId": "historiography-asian-dynasties-3",
+      "label": "Dinastía Joseon"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "País o región de gobierno de cada dinastía histórica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Vietnam",
+        "capacity": 1,
+        "itemIds": [
+          "historiography-asian-dynasties-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Península de Corea",
+        "capacity": 2,
+        "itemIds": [
+          "historiography-asian-dynasties-2",
+          "historiography-asian-dynasties-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Shogunatos de Japón",
+        "capacity": 3,
+        "itemIds": [
+          "historiography-asian-dynasties-4",
+          "historiography-asian-dynasties-5",
+          "historiography-asian-dynasties-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Dinastías chinas",
+        "capacity": 4,
+        "itemIds": [
+          "historiography-asian-dynasties-7",
+          "historiography-asian-dynasties-8",
+          "historiography-asian-dynasties-9",
+          "historiography-asian-dynasties-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por país: Vietnam (dinastía Lê), península de Corea (dinastía Goryeo, dinastía Joseon), Japón (shogunato Kamakura, shogunato Muromachi, shogunato Tokugawa) y China (dinastía Tang, dinastía Song, dinastía Ming, dinastía Qing).",
+  "sources": [
+    {
+      "title": "Britannica: East Asian History",
+      "url": "https://www.britannica.com/place/East-Asia",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

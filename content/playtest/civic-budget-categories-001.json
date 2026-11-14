@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "civic-budget-categories-001",
+  "theme": "Government Budget & Fiscal Flows",
+  "publishDate": "2027-11-24",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "civic-budget-categories-1",
+        "rivalGroupId": "group-4",
+        "risk": "Sovereign wealth funds invest in government bonds.",
+        "resolution": "A sovereign wealth fund is a state-owned net asset pool (group-1), the opposite of issuing sovereign debt liabilities (group-4)."
+      },
+      {
+        "itemId": "civic-budget-categories-2",
+        "rivalGroupId": "group-3",
+        "risk": "Pensions are a large share of government spending.",
+        "resolution": "Statutory pensions are mandatory formula-driven entitlements (group-2), not annually appropriated discretionary spending (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

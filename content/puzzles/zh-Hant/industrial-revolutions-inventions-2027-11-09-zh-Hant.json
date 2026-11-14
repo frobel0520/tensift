@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "industrial-revolutions-inventions-2027-11-09-zh-hant",
+  "puzzleFamilyId": "industrial-revolutions-inventions-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-09",
+  "timezone": "UTC",
+  "theme": "四次工業革命代表技術",
+  "items": [
+    {
+      "itemId": "industrial-revolutions-inventions-4",
+      "label": "交流電輸配電網"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-8",
+      "label": "珍妮紡紗機"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-1",
+      "label": "自主 AI 與工業物聯網"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-6",
+      "label": "貝塞麥轉爐煉鋼法"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-10",
+      "label": "早期蒸汽火車頭"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-2",
+      "label": "矽晶微處理器（1971）"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-7",
+      "label": "瓦特改良蒸汽機"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-5",
+      "label": "汽車移動裝配線"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-9",
+      "label": "水力／蒸汽動力織布機"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-3",
+      "label": "ARPANET 封包交換網路"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各里程碑技術所屬的工業革命浪潮（第四次智慧數位、第三次資訊電子、第二次電力內燃機或第一次蒸汽機械化）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "第四次：智慧網宇實體與 AI",
+        "capacity": 1,
+        "itemIds": [
+          "industrial-revolutions-inventions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "第三次：數位與半導體",
+        "capacity": 2,
+        "itemIds": [
+          "industrial-revolutions-inventions-2",
+          "industrial-revolutions-inventions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "第二次：電力、鋼鐵與量產",
+        "capacity": 3,
+        "itemIds": [
+          "industrial-revolutions-inventions-4",
+          "industrial-revolutions-inventions-5",
+          "industrial-revolutions-inventions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "第一次：蒸汽與紡織機械化",
+        "capacity": 4,
+        "itemIds": [
+          "industrial-revolutions-inventions-7",
+          "industrial-revolutions-inventions-8",
+          "industrial-revolutions-inventions-9",
+          "industrial-revolutions-inventions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依四次工業革命分類：工業 4.0（生成式 AI 模型）、第三次數位資訊（微處理器積體電路、ARPANET 封包交換網路）、第二次電力與量產（交流電網、移動裝配線、貝塞麥煉鋼法）與第一次機械化（瓦特蒸汽機、珍妮紡紗機、動力織布機、蒸汽火車頭）。",
+  "sources": [
+    {
+      "title": "Britannica: Industrial Revolution",
+      "url": "https://www.britannica.com/event/Industrial-Revolution",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "maritime-chokepoints-world-001",
+  "theme": "Strategic Maritime Chokepoints",
+  "publishDate": "2027-11-05",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "maritime-chokepoints-world-2",
+        "rivalGroupId": "group-4",
+        "risk": "Suez Canal connects the Red Sea to the Mediterranean.",
+        "resolution": "Suez is a human-built artificial sea-level canal (group-2), unlike natural geological straits (group-4)."
+      },
+      {
+        "itemId": "maritime-chokepoints-world-9",
+        "rivalGroupId": "group-3",
+        "risk": "Bab el-Mandeb links to the Red Sea/Suez corridor.",
+        "resolution": "Bab el-Mandeb separates Arabia and the Horn of Africa at the Indian Ocean entrance (group-4), not the Mediterranean/Black Sea basin (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

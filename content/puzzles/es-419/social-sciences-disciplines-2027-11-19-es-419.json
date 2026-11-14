@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "social-sciences-disciplines-2027-11-19-es-419",
+  "puzzleFamilyId": "social-sciences-disciplines-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-19",
+  "timezone": "UTC",
+  "theme": "Ciencias sociales y humanidades",
+  "items": [
+    {
+      "itemId": "social-sciences-disciplines-4",
+      "label": "Economía"
+    },
+    {
+      "itemId": "social-sciences-disciplines-8",
+      "label": "Historia"
+    },
+    {
+      "itemId": "social-sciences-disciplines-1",
+      "label": "Demografía"
+    },
+    {
+      "itemId": "social-sciences-disciplines-6",
+      "label": "Sociología"
+    },
+    {
+      "itemId": "social-sciences-disciplines-10",
+      "label": "Historia del arte"
+    },
+    {
+      "itemId": "social-sciences-disciplines-2",
+      "label": "Ciencia política"
+    },
+    {
+      "itemId": "social-sciences-disciplines-7",
+      "label": "Filosofía"
+    },
+    {
+      "itemId": "social-sciences-disciplines-5",
+      "label": "Antropología cultural"
+    },
+    {
+      "itemId": "social-sciences-disciplines-9",
+      "label": "Literatura comparada"
+    },
+    {
+      "itemId": "social-sciences-disciplines-3",
+      "label": "Jurisprudencia (teoría del derecho)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Rama académica de cada disciplina",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Ciencia poblacional",
+        "capacity": 1,
+        "itemIds": [
+          "social-sciences-disciplines-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Estudios políticos y jurídicos",
+        "capacity": 2,
+        "itemIds": [
+          "social-sciences-disciplines-2",
+          "social-sciences-disciplines-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Ciencias sociales empíricas",
+        "capacity": 3,
+        "itemIds": [
+          "social-sciences-disciplines-4",
+          "social-sciences-disciplines-5",
+          "social-sciences-disciplines-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Humanidades clásicas",
+        "capacity": 4,
+        "itemIds": [
+          "social-sciences-disciplines-7",
+          "social-sciences-disciplines-8",
+          "social-sciences-disciplines-9",
+          "social-sciences-disciplines-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por rama académica: ciencia poblacional (demografía), estudios políticos y jurídicos (ciencia política, jurisprudencia), ciencias sociales empíricas (macroeconomía, antropología cultural, sociología) y humanidades clásicas (filosofía, historia, literatura comparada, historia del arte).",
+  "sources": [
+    {
+      "title": "UNESCO Fields of Science and Technology",
+      "url": "https://uis.unesco.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

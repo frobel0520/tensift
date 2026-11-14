@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "banking-payment-systems-001",
+  "theme": "Payment & Banking Rails",
+  "publishDate": "2027-11-11",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "banking-payment-systems-9",
+        "rivalGroupId": "group-2",
+        "risk": "SEPA processes cross-border euro transfers between EU countries.",
+        "resolution": "SEPA is a harmonized domestic-style euro bank-transfer rail (group-4), unlike global multi-currency SWIFT messaging (group-2)."
+      },
+      {
+        "itemId": "banking-payment-systems-1",
+        "rivalGroupId": "group-4",
+        "risk": "Lightning settles payments in seconds like Faster Payments.",
+        "resolution": "Lightning runs on a permissionless Bitcoin blockchain layer (group-1), not a central-bank/commercial-bank clearing rail (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

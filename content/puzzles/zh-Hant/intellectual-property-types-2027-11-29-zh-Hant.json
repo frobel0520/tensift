@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "intellectual-property-types-2027-11-29-zh-hant",
+  "puzzleFamilyId": "intellectual-property-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-29",
+  "timezone": "UTC",
+  "theme": "智慧財產權四大類型",
+  "items": [
+    {
+      "itemId": "intellectual-property-types-4",
+      "label": "文學藝術著作權"
+    },
+    {
+      "itemId": "intellectual-property-types-8",
+      "label": "工業設計專利"
+    },
+    {
+      "itemId": "intellectual-property-types-1",
+      "label": "營業秘密"
+    },
+    {
+      "itemId": "intellectual-property-types-6",
+      "label": "表演人與錄音鄰接權"
+    },
+    {
+      "itemId": "intellectual-property-types-10",
+      "label": "積體電路電路布局權"
+    },
+    {
+      "itemId": "intellectual-property-types-2",
+      "label": "地理標示（GI）"
+    },
+    {
+      "itemId": "intellectual-property-types-7",
+      "label": "發明專利"
+    },
+    {
+      "itemId": "intellectual-property-types-5",
+      "label": "電腦程式著作權"
+    },
+    {
+      "itemId": "intellectual-property-types-9",
+      "label": "註冊商標權"
+    },
+    {
+      "itemId": "intellectual-property-types-3",
+      "label": "原產地名稱保護（AOC/PDO）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各智慧財產權的法律保護類別（營業秘密、地理標示、著作權及鄰接權或工業財產權專利與商標）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "未公開營業秘密",
+        "capacity": 1,
+        "itemIds": [
+          "intellectual-property-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "地理產地標示權",
+        "capacity": 2,
+        "itemIds": [
+          "intellectual-property-types-2",
+          "intellectual-property-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "著作權與鄰接權",
+        "capacity": 3,
+        "itemIds": [
+          "intellectual-property-types-4",
+          "intellectual-property-types-5",
+          "intellectual-property-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "工業財產權登記",
+        "capacity": 4,
+        "itemIds": [
+          "intellectual-property-types-7",
+          "intellectual-property-types-8",
+          "intellectual-property-types-9",
+          "intellectual-property-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依 WIPO 智慧財產權分類：未公開秘密（營業秘密）、產地標示（地理標示 GI、原產地名稱保護）、著作權體系（文學著作權、軟體原始碼著作權、錄音鄰接權）與工業財產權登記（發明專利、設計專利、註冊商標、積體電路電路布局權）。",
+  "sources": [
+    {
+      "title": "WIPO: What is Intellectual Property?",
+      "url": "https://www.wipo.int/about-ip/en/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

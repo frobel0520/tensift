@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "world-wonders-eras-2027-10-29-zh-hant",
+  "puzzleFamilyId": "world-wonders-eras-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-29",
+  "timezone": "UTC",
+  "theme": "古今世界著名建築年代",
+  "items": [
+    {
+      "itemId": "world-wonders-eras-4",
+      "label": "聖索菲亞大教堂（537 年）"
+    },
+    {
+      "itemId": "world-wonders-eras-8",
+      "label": "凡爾賽宮（1682 年）"
+    },
+    {
+      "itemId": "world-wonders-eras-1",
+      "label": "吉薩大金字塔"
+    },
+    {
+      "itemId": "world-wonders-eras-6",
+      "label": "馬丘比丘（15 世紀）"
+    },
+    {
+      "itemId": "world-wonders-eras-10",
+      "label": "柏林布蘭登堡門（1791 年）"
+    },
+    {
+      "itemId": "world-wonders-eras-2",
+      "label": "雅典帕德嫩神廟"
+    },
+    {
+      "itemId": "world-wonders-eras-7",
+      "label": "泰姬瑪哈陵（1648 年）"
+    },
+    {
+      "itemId": "world-wonders-eras-5",
+      "label": "吳哥窟（12 世紀）"
+    },
+    {
+      "itemId": "world-wonders-eras-9",
+      "label": "倫敦聖保羅大教堂（1710 年）"
+    },
+    {
+      "itemId": "world-wonders-eras-3",
+      "label": "羅馬競技場"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各世界著名古蹟的建造歷史時期（青銅時代、希臘羅馬古典時代、中世紀或近代早期）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "青銅時代（約西元前 2560 年）",
+        "capacity": 1,
+        "itemIds": [
+          "world-wonders-eras-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "古典希臘羅馬時代",
+        "capacity": 2,
+        "itemIds": [
+          "world-wonders-eras-2",
+          "world-wonders-eras-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "中世紀時期（500–1500 年）",
+        "capacity": 3,
+        "itemIds": [
+          "world-wonders-eras-4",
+          "world-wonders-eras-5",
+          "world-wonders-eras-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "近代早期（1600–1800 年）",
+        "capacity": 4,
+        "itemIds": [
+          "world-wonders-eras-7",
+          "world-wonders-eras-8",
+          "world-wonders-eras-9",
+          "world-wonders-eras-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依建造時代分類：青銅時代（吉薩大金字塔）、古典希臘羅馬時代（雅典帕德嫩神廟、羅馬競技場）、中世紀時期（聖索菲亞大教堂、吳哥窟、馬丘比丘）與近代早期 1600–1800（泰姬瑪哈陵、凡爾賽宮、聖保羅大教堂、布蘭登堡門）。",
+  "sources": [
+    {
+      "title": "UNESCO World Heritage List",
+      "url": "https://whc.unesco.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

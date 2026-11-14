@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "world-wonders-eras-2027-10-29-es-419",
+  "puzzleFamilyId": "world-wonders-eras-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-29",
+  "timezone": "UTC",
+  "theme": "Monumentos históricos por época",
+  "items": [
+    {
+      "itemId": "world-wonders-eras-4",
+      "label": "Santa Sofía (537)"
+    },
+    {
+      "itemId": "world-wonders-eras-8",
+      "label": "Palacio de Versalles (1682)"
+    },
+    {
+      "itemId": "world-wonders-eras-1",
+      "label": "Gran Pirámide de Guiza"
+    },
+    {
+      "itemId": "world-wonders-eras-6",
+      "label": "Machu Picchu (siglo XV)"
+    },
+    {
+      "itemId": "world-wonders-eras-10",
+      "label": "Puerta de Brandeburgo (1791)"
+    },
+    {
+      "itemId": "world-wonders-eras-2",
+      "label": "Partenón de Atenas"
+    },
+    {
+      "itemId": "world-wonders-eras-7",
+      "label": "Taj Mahal (1648)"
+    },
+    {
+      "itemId": "world-wonders-eras-5",
+      "label": "Angkor Wat (siglo XII)"
+    },
+    {
+      "itemId": "world-wonders-eras-9",
+      "label": "Catedral de San Pablo (1710)"
+    },
+    {
+      "itemId": "world-wonders-eras-3",
+      "label": "Coliseo romano"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Época histórica de construcción de cada monumento",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Edad del Bronce",
+        "capacity": 1,
+        "itemIds": [
+          "world-wonders-eras-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Antigüedad clásica",
+        "capacity": 2,
+        "itemIds": [
+          "world-wonders-eras-2",
+          "world-wonders-eras-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Edad Media (500–1500)",
+        "capacity": 3,
+        "itemIds": [
+          "world-wonders-eras-4",
+          "world-wonders-eras-5",
+          "world-wonders-eras-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Edad Moderna (1600–1800)",
+        "capacity": 4,
+        "itemIds": [
+          "world-wonders-eras-7",
+          "world-wonders-eras-8",
+          "world-wonders-eras-9",
+          "world-wonders-eras-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por época: Edad del Bronce (Gran Pirámide de Guiza), Antigüedad clásica (Partenón, Coliseo romano), Edad Media (Santa Sofía, Angkor Wat, Machu Picchu) y Edad Moderna 1600–1800 (Taj Mahal, Palacio de Versalles, Catedral de San Pablo, Puerta de Brandeburgo).",
+  "sources": [
+    {
+      "title": "UNESCO World Heritage List",
+      "url": "https://whc.unesco.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

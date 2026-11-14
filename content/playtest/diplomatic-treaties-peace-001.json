@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "diplomatic-treaties-peace-001",
+  "theme": "Landmark Peace & Arms Treaties",
+  "publishDate": "2027-11-17",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "diplomatic-treaties-peace-1",
+        "rivalGroupId": "group-4",
+        "risk": "Peace of Westphalia ended a major European war.",
+        "resolution": "The 1648 Peace of Westphalia established sovereign nation-states in Europe (group-1), not modern EU institutional treaties (group-4)."
+      },
+      {
+        "itemId": "diplomatic-treaties-peace-7",
+        "rivalGroupId": "group-2",
+        "risk": "The Treaty of Rome was signed in the 1950s post-war era.",
+        "resolution": "The 1957 Treaty of Rome founded the European Economic Community (group-4), not a WWII peace settlement (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

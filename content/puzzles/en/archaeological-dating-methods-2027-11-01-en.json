@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "archaeological-dating-methods-2027-11-01-en",
+  "puzzleFamilyId": "archaeological-dating-methods-001",
+  "locale": "en",
+  "publishDate": "2027-11-01",
+  "timezone": "UTC",
+  "theme": "Archaeological Dating Methods",
+  "items": [
+    {
+      "itemId": "archaeological-dating-methods-4",
+      "label": "Stratigraphic Superposition"
+    },
+    {
+      "itemId": "archaeological-dating-methods-8",
+      "label": "Potassium-Argon (K-Ar)"
+    },
+    {
+      "itemId": "archaeological-dating-methods-1",
+      "label": "Archaeomagnetic Dating"
+    },
+    {
+      "itemId": "archaeological-dating-methods-6",
+      "label": "Fluorine Bone Absorption"
+    },
+    {
+      "itemId": "archaeological-dating-methods-10",
+      "label": "Thermoluminescence (TL)"
+    },
+    {
+      "itemId": "archaeological-dating-methods-2",
+      "label": "Dendrochronology (Tree Rings)"
+    },
+    {
+      "itemId": "archaeological-dating-methods-7",
+      "label": "Radiocarbon (Carbon-14)"
+    },
+    {
+      "itemId": "archaeological-dating-methods-5",
+      "label": "Artifact Seriation"
+    },
+    {
+      "itemId": "archaeological-dating-methods-9",
+      "label": "Uranium-Thorium Dating"
+    },
+    {
+      "itemId": "archaeological-dating-methods-3",
+      "label": "Amino Acid Racemization"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Dating principle (Paleomagnetic Reversal, Biological Growth-Ring/Amino, Relative Stratigraphic/Typological, or Radiometric Isotope Decay)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Magnetic Field Orientation",
+        "capacity": 1,
+        "itemIds": [
+          "archaeological-dating-methods-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Biological Growth & Racemization",
+        "capacity": 2,
+        "itemIds": [
+          "archaeological-dating-methods-2",
+          "archaeological-dating-methods-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Relative Sequencing",
+        "capacity": 3,
+        "itemIds": [
+          "archaeological-dating-methods-4",
+          "archaeological-dating-methods-5",
+          "archaeological-dating-methods-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Radiometric & Luminescence",
+        "capacity": 4,
+        "itemIds": [
+          "archaeological-dating-methods-7",
+          "archaeological-dating-methods-8",
+          "archaeological-dating-methods-9",
+          "archaeological-dating-methods-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by dating principle: Magnetic Polarity (Archaeomagnetic Dating), Biological/Organic Growth (Dendrochronology Tree-Rings, Amino Acid Racemization), Relative Sequencing (Stratigraphy Law of Superposition, Seriation Typology, Fluorine Absorption), and Radiometric / Trapped-Charge (Radiocarbon C-14, Potassium-Argon K-Ar, Uranium-Thorium, Thermoluminescence).",
+  "sources": [
+    {
+      "title": "Smithsonian: Dating Archaeological Finds",
+      "url": "https://naturalhistory.si.edu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

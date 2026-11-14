@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "humanitarian-ngo-agencies-2027-11-27-en",
+  "puzzleFamilyId": "humanitarian-ngo-agencies-001",
+  "locale": "en",
+  "publishDate": "2027-11-27",
+  "timezone": "UTC",
+  "theme": "Global Humanitarian & Aid Bodies",
+  "items": [
+    {
+      "itemId": "humanitarian-ngo-agencies-4",
+      "label": "Doctors Without Borders (MSF)"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-8",
+      "label": "UN Refugee Agency (UNHCR)"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-1",
+      "label": "Reporters Without Borders (RSF)"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-6",
+      "label": "Oxfam International"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-10",
+      "label": "UNICEF Emergency Relief"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-2",
+      "label": "Amnesty International"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-7",
+      "label": "World Food Programme (WFP)"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-5",
+      "label": "Save the Children"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-9",
+      "label": "Red Cross (ICRC)"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-3",
+      "label": "Human Rights Watch"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Primary humanitarian mandate (Press Freedom Watchdog, Human Rights Advocacy NGOs, Independent Medical/Relief NGOs, or UN & Red Cross Relief)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Press Freedom Monitor",
+        "capacity": 1,
+        "itemIds": [
+          "humanitarian-ngo-agencies-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Human Rights Advocacy NGOs",
+        "capacity": 2,
+        "itemIds": [
+          "humanitarian-ngo-agencies-2",
+          "humanitarian-ngo-agencies-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Independent Medical & Relief NGOs",
+        "capacity": 3,
+        "itemIds": [
+          "humanitarian-ngo-agencies-4",
+          "humanitarian-ngo-agencies-5",
+          "humanitarian-ngo-agencies-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "UN & Red Cross Relief",
+        "capacity": 4,
+        "itemIds": [
+          "humanitarian-ngo-agencies-7",
+          "humanitarian-ngo-agencies-8",
+          "humanitarian-ngo-agencies-9",
+          "humanitarian-ngo-agencies-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by mandate: Press Freedom (Reporters Without Borders RSF), Human Rights Advocacy (Amnesty International, Human Rights Watch), Independent Relief & Medical NGOs (Doctors Without Borders MSF, Save the Children, Oxfam International), and Intergovernmental / Red Cross Relief (World Food Programme WFP, UNHCR, ICRC Red Cross, UNICEF).",
+  "sources": [
+    {
+      "title": "OCHA: Humanitarian Partners & Agencies",
+      "url": "https://www.unocha.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

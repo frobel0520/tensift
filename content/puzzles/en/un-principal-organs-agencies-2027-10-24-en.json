@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "un-principal-organs-agencies-2027-10-24-en",
+  "puzzleFamilyId": "un-principal-organs-agencies-001",
+  "locale": "en",
+  "publishDate": "2027-10-24",
+  "timezone": "UTC",
+  "theme": "United Nations System Bodies",
+  "items": [
+    {
+      "itemId": "un-principal-organs-agencies-4",
+      "label": "UNESCO"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-8",
+      "label": "UNDP (Development Programme)"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-1",
+      "label": "International Court of Justice (ICJ)"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-6",
+      "label": "Food and Agriculture Organization (FAO)"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-10",
+      "label": "UNEP (Environment Programme)"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-2",
+      "label": "UN Security Council"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-7",
+      "label": "UNICEF"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-5",
+      "label": "World Health Organization (WHO)"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-9",
+      "label": "UNHCR (Refugee Agency)"
+    },
+    {
+      "itemId": "un-principal-organs-agencies-3",
+      "label": "Economic and Social Council (ECOSOC)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "UN institutional role (International Court of Justice, Security & Peace Councils, UN Specialized Agencies, or UN Funds & Programmes)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Principal Judicial Organ",
+        "capacity": 1,
+        "itemIds": [
+          "un-principal-organs-agencies-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Charter Councils",
+        "capacity": 2,
+        "itemIds": [
+          "un-principal-organs-agencies-2",
+          "un-principal-organs-agencies-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "UN Specialized Agencies",
+        "capacity": 3,
+        "itemIds": [
+          "un-principal-organs-agencies-4",
+          "un-principal-organs-agencies-5",
+          "un-principal-organs-agencies-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "UN Programmes & Funds",
+        "capacity": 4,
+        "itemIds": [
+          "un-principal-organs-agencies-7",
+          "un-principal-organs-agencies-8",
+          "un-principal-organs-agencies-9",
+          "un-principal-organs-agencies-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by UN role: Judicial Organ (International Court of Justice), Charter Councils (UN Security Council, ECOSOC), UN Specialized Agencies (UNESCO, WHO, FAO), and UN Programmes & Funds (UNICEF, UNDP, UNHCR, UNEP).",
+  "sources": [
+    {
+      "title": "United Nations System Chart",
+      "url": "https://www.un.org/en/about-us/un-system",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "voting-electoral-systems-2027-11-03-en",
+  "puzzleFamilyId": "voting-electoral-systems-001",
+  "locale": "en",
+  "publishDate": "2027-11-03",
+  "timezone": "UTC",
+  "theme": "Electoral & Voting Systems",
+  "items": [
+    {
+      "itemId": "voting-electoral-systems-4",
+      "label": "Closed-List PR"
+    },
+    {
+      "itemId": "voting-electoral-systems-8",
+      "label": "Two-Round Runoff"
+    },
+    {
+      "itemId": "voting-electoral-systems-1",
+      "label": "Mixed-Member Proportional (MMP)"
+    },
+    {
+      "itemId": "voting-electoral-systems-6",
+      "label": "D’Hondt List PR"
+    },
+    {
+      "itemId": "voting-electoral-systems-10",
+      "label": "Single Non-Transferable Vote (SNTV)"
+    },
+    {
+      "itemId": "voting-electoral-systems-2",
+      "label": "Instant-Runoff Voting (IRV)"
+    },
+    {
+      "itemId": "voting-electoral-systems-7",
+      "label": "First-Past-the-Post (FPTP)"
+    },
+    {
+      "itemId": "voting-electoral-systems-5",
+      "label": "Open-List PR"
+    },
+    {
+      "itemId": "voting-electoral-systems-9",
+      "label": "Multi-Member Block Vote"
+    },
+    {
+      "itemId": "voting-electoral-systems-3",
+      "label": "Single Transferable Vote (STV)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Electoral formula (Mixed-Member Proportional MMP, Ranked-Choice Instant Runoff, List Proportional Representation, or Plurality/Majoritarian Single-Winner)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Mixed-Member Proportional",
+        "capacity": 1,
+        "itemIds": [
+          "voting-electoral-systems-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Ranked-Order Ballots",
+        "capacity": 2,
+        "itemIds": [
+          "voting-electoral-systems-2",
+          "voting-electoral-systems-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Party-List Proportional (PR)",
+        "capacity": 3,
+        "itemIds": [
+          "voting-electoral-systems-4",
+          "voting-electoral-systems-5",
+          "voting-electoral-systems-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Plurality & Non-PR Systems",
+        "capacity": 4,
+        "itemIds": [
+          "voting-electoral-systems-7",
+          "voting-electoral-systems-8",
+          "voting-electoral-systems-9",
+          "voting-electoral-systems-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by electoral formula: Mixed Hybrid (Mixed-Member Proportional MMP), Ranked-Order Ballots (Instant-Runoff Voting / RCV, Single Transferable Vote STV), Party-List Proportional (Closed-List PR, Open-List PR, D’Hondt Party-List PR), and Plurality / Two-Round Majoritarian (First-Past-the-Post FPTP, Two-Round Runoff, Block Vote, Single Non-Transferable Vote SNTV).",
+  "sources": [
+    {
+      "title": "International IDEA: Electoral System Design",
+      "url": "https://www.idea.int/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

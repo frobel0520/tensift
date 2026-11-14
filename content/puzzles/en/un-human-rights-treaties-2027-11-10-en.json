@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "un-human-rights-treaties-2027-11-10-en",
+  "puzzleFamilyId": "un-human-rights-treaties-001",
+  "locale": "en",
+  "publishDate": "2027-11-10",
+  "timezone": "UTC",
+  "theme": "Foundational Civic & Rights Charters",
+  "items": [
+    {
+      "itemId": "un-human-rights-treaties-4",
+      "label": "UN Charter (1945)"
+    },
+    {
+      "itemId": "un-human-rights-treaties-8",
+      "label": "CEDAW (Women’s Rights, 1979)"
+    },
+    {
+      "itemId": "un-human-rights-treaties-1",
+      "label": "Magna Carta (1215)"
+    },
+    {
+      "itemId": "un-human-rights-treaties-6",
+      "label": "Genocide Convention (1948)"
+    },
+    {
+      "itemId": "un-human-rights-treaties-10",
+      "label": "Disabilities Rights Convention (CRPD)"
+    },
+    {
+      "itemId": "un-human-rights-treaties-2",
+      "label": "English Bill of Rights (1689)"
+    },
+    {
+      "itemId": "un-human-rights-treaties-7",
+      "label": "Civil & Political Rights Covenant (ICCPR)"
+    },
+    {
+      "itemId": "un-human-rights-treaties-5",
+      "label": "Universal Declaration of Human Rights"
+    },
+    {
+      "itemId": "un-human-rights-treaties-9",
+      "label": "Convention on the Rights of the Child"
+    },
+    {
+      "itemId": "un-human-rights-treaties-3",
+      "label": "French Declaration of Rights (1789)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Historical era (Medieval Magna Carta 1215, Early Modern Bill of Rights 1689 & US/French 1776–1789, Post-WWII UN Charters 1945–1948, or Late-20th Century Specialized Conventions)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Medieval Charter (1215)",
+        "capacity": 1,
+        "itemIds": [
+          "un-human-rights-treaties-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Early Modern Revolutions",
+        "capacity": 2,
+        "itemIds": [
+          "un-human-rights-treaties-2",
+          "un-human-rights-treaties-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Post-WWII UN Foundation (1945–1948)",
+        "capacity": 3,
+        "itemIds": [
+          "un-human-rights-treaties-4",
+          "un-human-rights-treaties-5",
+          "un-human-rights-treaties-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Modern UN Specialized Treaties",
+        "capacity": 4,
+        "itemIds": [
+          "un-human-rights-treaties-7",
+          "un-human-rights-treaties-8",
+          "un-human-rights-treaties-9",
+          "un-human-rights-treaties-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by era: Medieval (Magna Carta, 1215), Early Modern Revolutions (English Bill of Rights 1689, French Declaration of Rights 1789), Post-WWII UN Foundation (UN Charter 1945, Universal Declaration of Human Rights 1948, Genocide Convention 1948), and Modern UN Specialized Treaties (ICCPR 1966, CEDAW 1979, Rights of the Child 1989, CRPD 2006).",
+  "sources": [
+    {
+      "title": "OHCHR: Core International Human Rights Instruments",
+      "url": "https://www.ohchr.org/en/core-international-human-rights-instruments-and-their-monitoring-bodies",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

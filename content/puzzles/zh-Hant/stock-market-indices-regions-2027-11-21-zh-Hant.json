@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "stock-market-indices-regions-2027-11-21-zh-hant",
+  "puzzleFamilyId": "stock-market-indices-regions-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-21",
+  "timezone": "UTC",
+  "theme": "全球主要股市指數分區",
+  "items": [
+    {
+      "itemId": "stock-market-indices-regions-4",
+      "label": "德國法蘭克福 DAX 40"
+    },
+    {
+      "itemId": "stock-market-indices-regions-8",
+      "label": "韓國 KOSPI 綜合指數"
+    },
+    {
+      "itemId": "stock-market-indices-regions-1",
+      "label": "巴西 Ibovespa 指數"
+    },
+    {
+      "itemId": "stock-market-indices-regions-6",
+      "label": "歐元區斯托克 50 指數"
+    },
+    {
+      "itemId": "stock-market-indices-regions-10",
+      "label": "澳洲 ASX 200 指數"
+    },
+    {
+      "itemId": "stock-market-indices-regions-2",
+      "label": "英國倫敦富時 100 指數"
+    },
+    {
+      "itemId": "stock-market-indices-regions-7",
+      "label": "日本日經 225 指數"
+    },
+    {
+      "itemId": "stock-market-indices-regions-5",
+      "label": "法國巴黎 CAC 40"
+    },
+    {
+      "itemId": "stock-market-indices-regions-9",
+      "label": "台灣加權股價指數（TAIEX）"
+    },
+    {
+      "itemId": "stock-market-indices-regions-3",
+      "label": "瑞士市場指數（SMI）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各股市大盤指數所屬的地區市場（拉丁美洲巴西、英國與瑞士、歐元區大陸股市或亞太股市）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "拉丁美洲股市",
+        "capacity": 1,
+        "itemIds": [
+          "stock-market-indices-regions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "英國與瑞士（非歐元區）",
+        "capacity": 2,
+        "itemIds": [
+          "stock-market-indices-regions-2",
+          "stock-market-indices-regions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "歐元區主要指數",
+        "capacity": 3,
+        "itemIds": [
+          "stock-market-indices-regions-4",
+          "stock-market-indices-regions-5",
+          "stock-market-indices-regions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "亞太主要股市指數",
+        "capacity": 4,
+        "itemIds": [
+          "stock-market-indices-regions-7",
+          "stock-market-indices-regions-8",
+          "stock-market-indices-regions-9",
+          "stock-market-indices-regions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依股市所在地區分類：拉丁美洲（巴西聖保羅 Ibovespa）、非歐元區歐洲（英國倫敦 FTSE 100、瑞士 SMI）、歐元區股市（德國 DAX 40、法國 CAC 40、歐元區 STOXX 50）與亞太股市（日本日經 225、韓國 KOSPI、台灣加權指數 TAIEX、澳洲 ASX 200）。",
+  "sources": [
+    {
+      "title": "World Federation of Exchanges",
+      "url": "https://www.world-exchanges.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

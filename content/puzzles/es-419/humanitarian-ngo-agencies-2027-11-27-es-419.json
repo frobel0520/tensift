@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "humanitarian-ngo-agencies-2027-11-27-es-419",
+  "puzzleFamilyId": "humanitarian-ngo-agencies-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-27",
+  "timezone": "UTC",
+  "theme": "Organismos humanitarios globales",
+  "items": [
+    {
+      "itemId": "humanitarian-ngo-agencies-4",
+      "label": "Médicos Sin Fronteras (MSF)"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-8",
+      "label": "ACNUR"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-1",
+      "label": "Reporteros Sin Fronteras"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-6",
+      "label": "Oxfam Internacional"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-10",
+      "label": "UNICEF"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-2",
+      "label": "Amnistía Internacional"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-7",
+      "label": "Programa Mundial de Alimentos"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-5",
+      "label": "Save the Children"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-9",
+      "label": "Cruz Roja (CICR)"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-3",
+      "label": "Human Rights Watch"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Mandato principal de cada organización humanitaria",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Libertad de prensa",
+        "capacity": 1,
+        "itemIds": [
+          "humanitarian-ngo-agencies-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "ONG de derechos humanos",
+        "capacity": 2,
+        "itemIds": [
+          "humanitarian-ngo-agencies-2",
+          "humanitarian-ngo-agencies-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "ONG médicas y de socorro",
+        "capacity": 3,
+        "itemIds": [
+          "humanitarian-ngo-agencies-4",
+          "humanitarian-ngo-agencies-5",
+          "humanitarian-ngo-agencies-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Agencias ONU y Cruz Roja",
+        "capacity": 4,
+        "itemIds": [
+          "humanitarian-ngo-agencies-7",
+          "humanitarian-ngo-agencies-8",
+          "humanitarian-ngo-agencies-9",
+          "humanitarian-ngo-agencies-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por mandato: libertad de prensa (Reporteros Sin Fronteras), derechos humanos (Amnistía Internacional, Human Rights Watch), ONG médicas/humanitarias independientes (Médicos Sin Fronteras, Save the Children, Oxfam) y agencias de socorro ONU/Cruz Roja (Programa Mundial de Alimentos, ACNUR, CICR Cruz Roja, UNICEF).",
+  "sources": [
+    {
+      "title": "OCHA: Humanitarian Partners & Agencies",
+      "url": "https://www.unocha.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

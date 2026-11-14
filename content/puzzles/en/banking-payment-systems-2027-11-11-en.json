@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "banking-payment-systems-2027-11-11-en",
+  "puzzleFamilyId": "banking-payment-systems-001",
+  "locale": "en",
+  "publishDate": "2027-11-11",
+  "timezone": "UTC",
+  "theme": "Payment & Banking Rails",
+  "items": [
+    {
+      "itemId": "banking-payment-systems-4",
+      "label": "VisaNet"
+    },
+    {
+      "itemId": "banking-payment-systems-8",
+      "label": "US ACH Clearing"
+    },
+    {
+      "itemId": "banking-payment-systems-1",
+      "label": "Bitcoin Lightning Network"
+    },
+    {
+      "itemId": "banking-payment-systems-6",
+      "label": "American Express Network"
+    },
+    {
+      "itemId": "banking-payment-systems-10",
+      "label": "UK Faster Payments"
+    },
+    {
+      "itemId": "banking-payment-systems-2",
+      "label": "SWIFT Interbank Messaging"
+    },
+    {
+      "itemId": "banking-payment-systems-7",
+      "label": "US Fedwire RTGS"
+    },
+    {
+      "itemId": "banking-payment-systems-5",
+      "label": "Mastercard Network"
+    },
+    {
+      "itemId": "banking-payment-systems-9",
+      "label": "Eurozone SEPA"
+    },
+    {
+      "itemId": "banking-payment-systems-3",
+      "label": "CLS Multi-Currency Settlement"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Payment rail category (Peer-to-Peer Crypto Ledger, Cross-Border Messaging/Settlement, Card Payment Networks, or Domestic Bank Transfer Rails)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Decentralized Crypto Layer",
+        "capacity": 1,
+        "itemIds": [
+          "banking-payment-systems-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Cross-Border Bank Messaging/FX",
+        "capacity": 2,
+        "itemIds": [
+          "banking-payment-systems-2",
+          "banking-payment-systems-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Card Payment Networks",
+        "capacity": 3,
+        "itemIds": [
+          "banking-payment-systems-4",
+          "banking-payment-systems-5",
+          "banking-payment-systems-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Domestic Bank Transfer Rails",
+        "capacity": 4,
+        "itemIds": [
+          "banking-payment-systems-7",
+          "banking-payment-systems-8",
+          "banking-payment-systems-9",
+          "banking-payment-systems-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by payment rail: Decentralized Ledger (Bitcoin Lightning Network), Cross-Border Messaging & FX (SWIFT Messaging, CLS FX Settlement), Card Payment Networks (Visa Network, Mastercard Network, American Express), and Domestic Bank Transfer Rails (US Fedwire, US ACH Network, Eurozone SEPA, UK Faster Payments).",
+  "sources": [
+    {
+      "title": "BIS Committee on Payments and Market Infrastructures",
+      "url": "https://www.bis.org/cpmi/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

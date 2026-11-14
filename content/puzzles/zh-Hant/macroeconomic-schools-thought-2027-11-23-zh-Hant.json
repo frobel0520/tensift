@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "macroeconomic-schools-thought-2027-11-23-zh-hant",
+  "puzzleFamilyId": "macroeconomic-schools-thought-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-23",
+  "timezone": "UTC",
+  "theme": "經濟學思想學派",
+  "items": [
+    {
+      "itemId": "macroeconomic-schools-thought-4",
+      "label": "亞當·史密斯古典學派"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-8",
+      "label": "芝加哥貨幣主義（傅利曼）"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-1",
+      "label": "法國重農學派（魁奈）"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-6",
+      "label": "馬爾薩斯人口論"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-10",
+      "label": "新凱因斯學派"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-2",
+      "label": "重金主義（早期重商）"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-7",
+      "label": "凱因斯總需求學派"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-5",
+      "label": "李嘉圖比較利益理論"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-9",
+      "label": "奧地利經濟學派"
+    },
+    {
+      "itemId": "macroeconomic-schools-thought-3",
+      "label": "法國柯爾貝重商主義"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各經濟學派的歷史與理論歸屬（重農學派、重商主義、古典政治經濟學或二十世紀凱因斯／貨幣主義學派）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "重農學派",
+        "capacity": 1,
+        "itemIds": [
+          "macroeconomic-schools-thought-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "重商主義",
+        "capacity": 2,
+        "itemIds": [
+          "macroeconomic-schools-thought-2",
+          "macroeconomic-schools-thought-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "古典政治經濟學",
+        "capacity": 3,
+        "itemIds": [
+          "macroeconomic-schools-thought-4",
+          "macroeconomic-schools-thought-5",
+          "macroeconomic-schools-thought-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "二十世紀現代總經學派",
+        "capacity": 4,
+        "itemIds": [
+          "macroeconomic-schools-thought-7",
+          "macroeconomic-schools-thought-8",
+          "macroeconomic-schools-thought-9",
+          "macroeconomic-schools-thought-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依經濟學派分類：土地農業為本（法國重農學派）、貿易順差累積貴金屬（重商主義、柯爾貝主義）、古典政治經濟學（亞當·史密斯古典學派、李嘉圖比較利益、馬爾薩斯人口論）與二十世紀現代總體學派（凱因斯主義、芝加哥貨幣主義、奧地利學派、新凱因斯學派）。",
+  "sources": [
+    {
+      "title": "Britannica: History of Economics",
+      "url": "https://www.britannica.com/money/economics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

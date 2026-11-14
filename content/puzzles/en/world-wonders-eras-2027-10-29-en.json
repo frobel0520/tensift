@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "world-wonders-eras-2027-10-29-en",
+  "puzzleFamilyId": "world-wonders-eras-001",
+  "locale": "en",
+  "publishDate": "2027-10-29",
+  "timezone": "UTC",
+  "theme": "Ancient & Modern Monuments",
+  "items": [
+    {
+      "itemId": "world-wonders-eras-4",
+      "label": "Hagia Sophia (537 CE)"
+    },
+    {
+      "itemId": "world-wonders-eras-8",
+      "label": "Palace of Versailles (1682)"
+    },
+    {
+      "itemId": "world-wonders-eras-1",
+      "label": "Great Pyramid of Giza"
+    },
+    {
+      "itemId": "world-wonders-eras-6",
+      "label": "Machu Picchu (15th c.)"
+    },
+    {
+      "itemId": "world-wonders-eras-10",
+      "label": "Brandenburg Gate (1791)"
+    },
+    {
+      "itemId": "world-wonders-eras-2",
+      "label": "Athenian Parthenon (438 BCE)"
+    },
+    {
+      "itemId": "world-wonders-eras-7",
+      "label": "Taj Mahal (1648)"
+    },
+    {
+      "itemId": "world-wonders-eras-5",
+      "label": "Angkor Wat (12th c.)"
+    },
+    {
+      "itemId": "world-wonders-eras-9",
+      "label": "St. Paul’s Cathedral (1710)"
+    },
+    {
+      "itemId": "world-wonders-eras-3",
+      "label": "Roman Colosseum (80 CE)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Construction era (Bronze Age Megalith/Pyramid, Classical Greco-Roman Antiquity, Medieval 500–1500 CE, or Early Modern 1500–1850 CE)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Bronze Age (~2560 BCE)",
+        "capacity": 1,
+        "itemIds": [
+          "world-wonders-eras-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Classical Antiquity",
+        "capacity": 2,
+        "itemIds": [
+          "world-wonders-eras-2",
+          "world-wonders-eras-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Medieval Era (500–1500 CE)",
+        "capacity": 3,
+        "itemIds": [
+          "world-wonders-eras-4",
+          "world-wonders-eras-5",
+          "world-wonders-eras-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Early Modern (1600–1800 CE)",
+        "capacity": 4,
+        "itemIds": [
+          "world-wonders-eras-7",
+          "world-wonders-eras-8",
+          "world-wonders-eras-9",
+          "world-wonders-eras-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by construction era: Bronze Age (Great Pyramid of Giza), Classical Antiquity (Athenian Parthenon, Roman Colosseum), Medieval Era (Hagia Sophia, Angkor Wat, Machu Picchu), and Early Modern Era 1600–1800 (Taj Mahal, Palace of Versailles, St. Paul’s Cathedral, Brandenburg Gate).",
+  "sources": [
+    {
+      "title": "UNESCO World Heritage List",
+      "url": "https://whc.unesco.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

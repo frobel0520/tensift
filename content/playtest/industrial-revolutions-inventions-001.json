@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "industrial-revolutions-inventions-001",
+  "theme": "Industrial Revolutions Timeline",
+  "publishDate": "2027-11-09",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "industrial-revolutions-inventions-6",
+        "rivalGroupId": "group-4",
+        "risk": "Iron smelting began in the 18th century.",
+        "resolution": "The Bessemer converter (1856) enabled cheap mass steel for the Second Industrial Revolution (group-2), after early coal/steam mechanization (group-4)."
+      },
+      {
+        "itemId": "industrial-revolutions-inventions-10",
+        "rivalGroupId": "group-3",
+        "risk": "Railways expanded massively in the late 19th century.",
+        "resolution": "Trevithick’s and Stephenson’s steam locomotives (1804–1829) were hallmarks of the First Industrial Revolution (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

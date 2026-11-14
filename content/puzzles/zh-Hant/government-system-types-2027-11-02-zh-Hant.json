@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "government-system-types-2027-11-02-zh-hant",
+  "puzzleFamilyId": "government-system-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-02",
+  "timezone": "UTC",
+  "theme": "政治學國家政體分類",
+  "items": [
+    {
+      "itemId": "government-system-types-4",
+      "label": "議會內閣共和制"
+    },
+    {
+      "itemId": "government-system-types-8",
+      "label": "一黨專政國家"
+    },
+    {
+      "itemId": "government-system-types-1",
+      "label": "神權政治（政教合一）"
+    },
+    {
+      "itemId": "government-system-types-6",
+      "label": "半總統制共和國"
+    },
+    {
+      "itemId": "government-system-types-10",
+      "label": "個人威權統治"
+    },
+    {
+      "itemId": "government-system-types-2",
+      "label": "君主立憲制"
+    },
+    {
+      "itemId": "government-system-types-7",
+      "label": "軍事執政團（軍政府）"
+    },
+    {
+      "itemId": "government-system-types-5",
+      "label": "總統制共和國"
+    },
+    {
+      "itemId": "government-system-types-9",
+      "label": "極權獨裁政體"
+    },
+    {
+      "itemId": "government-system-types-3",
+      "label": "絕對君主專制"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各政治體制的憲政權力結構分類（神權政體、君主制類型、民主共和制類型或威權／極權體制）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "神權政體",
+        "capacity": 1,
+        "itemIds": [
+          "government-system-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "君主政體",
+        "capacity": 2,
+        "itemIds": [
+          "government-system-types-2",
+          "government-system-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "民主共和政體",
+        "capacity": 3,
+        "itemIds": [
+          "government-system-types-4",
+          "government-system-types-5",
+          "government-system-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "威權與獨裁體制",
+        "capacity": 4,
+        "itemIds": [
+          "government-system-types-7",
+          "government-system-types-8",
+          "government-system-types-9",
+          "government-system-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依憲政體制分類：神權政體（神權政治）、君主制（君主立憲制、絕對君主制）、民主共和制（內閣議會共和制、總統制共和國、半總統制雙首長制）與威權／專政體制（軍政府、一黨專政國家、極權獨裁、個人威權統治）。",
+  "sources": [
+    {
+      "title": "Britannica: Political Systems",
+      "url": "https://www.britannica.com/topic/political-system",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

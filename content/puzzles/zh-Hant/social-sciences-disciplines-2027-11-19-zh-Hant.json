@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "social-sciences-disciplines-2027-11-19-zh-hant",
+  "puzzleFamilyId": "social-sciences-disciplines-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-19",
+  "timezone": "UTC",
+  "theme": "社會科學與人文學科分類",
+  "items": [
+    {
+      "itemId": "social-sciences-disciplines-4",
+      "label": "經濟學"
+    },
+    {
+      "itemId": "social-sciences-disciplines-8",
+      "label": "歷史學"
+    },
+    {
+      "itemId": "social-sciences-disciplines-1",
+      "label": "人口學"
+    },
+    {
+      "itemId": "social-sciences-disciplines-6",
+      "label": "社會學"
+    },
+    {
+      "itemId": "social-sciences-disciplines-10",
+      "label": "藝術史"
+    },
+    {
+      "itemId": "social-sciences-disciplines-2",
+      "label": "政治學"
+    },
+    {
+      "itemId": "social-sciences-disciplines-7",
+      "label": "哲學"
+    },
+    {
+      "itemId": "social-sciences-disciplines-5",
+      "label": "文化人類學"
+    },
+    {
+      "itemId": "social-sciences-disciplines-9",
+      "label": "比較文學"
+    },
+    {
+      "itemId": "social-sciences-disciplines-3",
+      "label": "法理學"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各學科的學術領域分類（人口統計學、政治與法學、經濟與人類社會科學或傳統人文學科）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "人口統計學",
+        "capacity": 1,
+        "itemIds": [
+          "social-sciences-disciplines-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "政治與法學",
+        "capacity": 2,
+        "itemIds": [
+          "social-sciences-disciplines-2",
+          "social-sciences-disciplines-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "實證社會科學",
+        "capacity": 3,
+        "itemIds": [
+          "social-sciences-disciplines-4",
+          "social-sciences-disciplines-5",
+          "social-sciences-disciplines-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "傳統人文學科",
+        "capacity": 4,
+        "itemIds": [
+          "social-sciences-disciplines-7",
+          "social-sciences-disciplines-8",
+          "social-sciences-disciplines-9",
+          "social-sciences-disciplines-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依學科門類分類：人口統計科學（人口學）、政治與法學（政治學、法理學）、實證社會科學（總體經濟學、文化人類學、社會學）與傳統人文學科（哲學、歷史學、比較文學、藝術史）。",
+  "sources": [
+    {
+      "title": "UNESCO Fields of Science and Technology",
+      "url": "https://uis.unesco.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

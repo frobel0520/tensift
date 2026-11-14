@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "separation-of-powers-gov-2027-11-20-es-419",
+  "puzzleFamilyId": "separation-of-powers-gov-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-20",
+  "timezone": "UTC",
+  "theme": "Separación constitucional de poderes",
+  "items": [
+    {
+      "itemId": "separation-of-powers-gov-4",
+      "label": "Sancionar leyes"
+    },
+    {
+      "itemId": "separation-of-powers-gov-8",
+      "label": "Emitir decretos ejecutivos"
+    },
+    {
+      "itemId": "separation-of-powers-gov-1",
+      "label": "Defensor del pueblo / Contralor"
+    },
+    {
+      "itemId": "separation-of-powers-gov-6",
+      "label": "Ratificar tratados internacionales"
+    },
+    {
+      "itemId": "separation-of-powers-gov-10",
+      "label": "Nombrar ministros del gabinete"
+    },
+    {
+      "itemId": "separation-of-powers-gov-2",
+      "label": "Control de constitucionalidad"
+    },
+    {
+      "itemId": "separation-of-powers-gov-7",
+      "label": "Ejecutar las leyes"
+    },
+    {
+      "itemId": "separation-of-powers-gov-5",
+      "label": "Aprobar el presupuesto público"
+    },
+    {
+      "itemId": "separation-of-powers-gov-9",
+      "label": "Comandar las fuerzas armadas"
+    },
+    {
+      "itemId": "separation-of-powers-gov-3",
+      "label": "Tribunales de justicia"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Rama del poder público a la que pertenece cada función",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Control independiente",
+        "capacity": 1,
+        "itemIds": [
+          "separation-of-powers-gov-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Poder Judicial",
+        "capacity": 2,
+        "itemIds": [
+          "separation-of-powers-gov-2",
+          "separation-of-powers-gov-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Poder Legislativo",
+        "capacity": 3,
+        "itemIds": [
+          "separation-of-powers-gov-4",
+          "separation-of-powers-gov-5",
+          "separation-of-powers-gov-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Poder Ejecutivo",
+        "capacity": 4,
+        "itemIds": [
+          "separation-of-powers-gov-7",
+          "separation-of-powers-gov-8",
+          "separation-of-powers-gov-9",
+          "separation-of-powers-gov-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por poder público: control independiente (defensoría del pueblo / contraloría), poder judicial (control de constitucionalidad, tribunales civiles y penales), poder legislativo (aprobar leyes, aprobar presupuesto público, ratificar tratados) y poder ejecutivo (hacer cumplir las leyes, emitir decretos ejecutivos, comandar fuerzas armadas, nombrar ministros).",
+  "sources": [
+    {
+      "title": "International IDEA: Constitutional Separation of Powers",
+      "url": "https://www.idea.int/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "financial-asset-classes-001",
+  "theme": "Financial Market Instruments",
+  "publishDate": "2027-10-27",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "financial-asset-classes-8",
+        "rivalGroupId": "group-3",
+        "risk": "Preferred stock pays a fixed dividend like a bond.",
+        "resolution": "Preferred stock represents corporate ownership equity without a maturity date (group-4), not a debt obligation (group-3)."
+      },
+      {
+        "itemId": "financial-asset-classes-1",
+        "rivalGroupId": "group-2",
+        "risk": "Gold is often traded under currency code XAU.",
+        "resolution": "Allocated gold bullion is a physical precious-metal commodity (group-1), not a sovereign fiat currency pair (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

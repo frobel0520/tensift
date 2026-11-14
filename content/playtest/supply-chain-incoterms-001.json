@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "supply-chain-incoterms-001",
+  "theme": "International Trade Incoterms",
+  "publishDate": "2027-11-18",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "supply-chain-incoterms-2",
+        "rivalGroupId": "group-4",
+        "risk": "FCA and FOB both transfer risk upon handover to the carrier.",
+        "resolution": "FCA applies to any transport mode including air/containerized rail (group-2), whereas FOB is restricted strictly to sea/inland waterway vessel loading (group-4)."
+      },
+      {
+        "itemId": "supply-chain-incoterms-1",
+        "rivalGroupId": "group-2",
+        "risk": "EXW applies to any mode of transport.",
+        "resolution": "EXW places minimum obligation on the seller at their own premises (group-1), distinct from carrier-handed F/C rules (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

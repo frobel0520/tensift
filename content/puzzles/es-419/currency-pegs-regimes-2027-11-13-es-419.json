@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "currency-pegs-regimes-2027-11-13-es-419",
+  "puzzleFamilyId": "currency-pegs-regimes-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-13",
+  "timezone": "UTC",
+  "theme": "Regímenes cambiarios mundiales",
+  "items": [
+    {
+      "itemId": "currency-pegs-regimes-4",
+      "label": "Dólar de Singapur (cesta)"
+    },
+    {
+      "itemId": "currency-pegs-regimes-8",
+      "label": "Euro (EUR)"
+    },
+    {
+      "itemId": "currency-pegs-regimes-1",
+      "label": "Dolarización de Ecuador"
+    },
+    {
+      "itemId": "currency-pegs-regimes-6",
+      "label": "Corona danesa (ERM II)"
+    },
+    {
+      "itemId": "currency-pegs-regimes-10",
+      "label": "Libra esterlina (GBP)"
+    },
+    {
+      "itemId": "currency-pegs-regimes-2",
+      "label": "Dólar de Hong Kong (paridad fija)"
+    },
+    {
+      "itemId": "currency-pegs-regimes-7",
+      "label": "Dólar estadounidense (USD)"
+    },
+    {
+      "itemId": "currency-pegs-regimes-5",
+      "label": "Yuan chino (flotación dirigida)"
+    },
+    {
+      "itemId": "currency-pegs-regimes-9",
+      "label": "Yen japonés (JPY)"
+    },
+    {
+      "itemId": "currency-pegs-regimes-3",
+      "label": "Lev búlgaro (caja de conversión)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clasificación del FMI del régimen cambiario",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Dolarización oficial",
+        "capacity": 1,
+        "itemIds": [
+          "currency-pegs-regimes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Caja de conversión (currency board)",
+        "capacity": 2,
+        "itemIds": [
+          "currency-pegs-regimes-2",
+          "currency-pegs-regimes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Flotación administrada o bandas",
+        "capacity": 3,
+        "itemIds": [
+          "currency-pegs-regimes-4",
+          "currency-pegs-regimes-5",
+          "currency-pegs-regimes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Monedas de libre flotación",
+        "capacity": 4,
+        "itemIds": [
+          "currency-pegs-regimes-7",
+          "currency-pegs-regimes-8",
+          "currency-pegs-regimes-9",
+          "currency-pegs-regimes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por régimen del FMI: dolarización sin moneda propia (dolarización en Ecuador), caja de conversión (dólar de Hong Kong, lev búlgaro), flotación administrada/bandas (dólar de Singapur, yuan chino, corona danesa ERM II) y libre flotación (dólar estadounidense, euro, yen japonés, libra esterlina).",
+  "sources": [
+    {
+      "title": "IMF Annual Report on Exchange Arrangements",
+      "url": "https://www.imf.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.7
+  },
+  "status": "scheduled"
+}

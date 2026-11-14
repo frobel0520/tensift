@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "international-organizations-hq-2027-11-08-en",
+  "puzzleFamilyId": "international-organizations-hq-001",
+  "locale": "en",
+  "publishDate": "2027-11-08",
+  "timezone": "UTC",
+  "theme": "Global Institutions by Headquarters",
+  "items": [
+    {
+      "itemId": "international-organizations-hq-4",
+      "label": "UN Secretariat & General Assembly"
+    },
+    {
+      "itemId": "international-organizations-hq-8",
+      "label": "World Trade Organization (WTO)"
+    },
+    {
+      "itemId": "international-organizations-hq-1",
+      "label": "IAEA (Atomic Energy Agency)"
+    },
+    {
+      "itemId": "international-organizations-hq-6",
+      "label": "UNDP Headquarters"
+    },
+    {
+      "itemId": "international-organizations-hq-10",
+      "label": "Red Cross (ICRC)"
+    },
+    {
+      "itemId": "international-organizations-hq-2",
+      "label": "International Monetary Fund (IMF)"
+    },
+    {
+      "itemId": "international-organizations-hq-7",
+      "label": "World Health Organization (WHO)"
+    },
+    {
+      "itemId": "international-organizations-hq-5",
+      "label": "UNICEF Headquarters"
+    },
+    {
+      "itemId": "international-organizations-hq-9",
+      "label": "UNHCR Headquarters"
+    },
+    {
+      "itemId": "international-organizations-hq-3",
+      "label": "World Bank Group"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Headquarters city (Vienna, Washington D.C., New York City, or Geneva)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Vienna, Austria",
+        "capacity": 1,
+        "itemIds": [
+          "international-organizations-hq-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Washington, D.C., USA",
+        "capacity": 2,
+        "itemIds": [
+          "international-organizations-hq-2",
+          "international-organizations-hq-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "New York City, USA",
+        "capacity": 3,
+        "itemIds": [
+          "international-organizations-hq-4",
+          "international-organizations-hq-5",
+          "international-organizations-hq-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Geneva, Switzerland",
+        "capacity": 4,
+        "itemIds": [
+          "international-organizations-hq-7",
+          "international-organizations-hq-8",
+          "international-organizations-hq-9",
+          "international-organizations-hq-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by headquarters city: Vienna (IAEA), Washington, D.C. (IMF, World Bank), New York City (UN Headquarters, UNICEF, UNDP), and Geneva (WHO, WTO, UNHCR, Red Cross ICRC).",
+  "sources": [
+    {
+      "title": "UN Geneva & International Organizations",
+      "url": "https://www.ungeneva.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}
