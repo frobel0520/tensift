@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "verb-tense-aspects-2027-05-24-en",
+  "puzzleFamilyId": "verb-tense-aspects-001",
+  "locale": "en",
+  "publishDate": "2027-05-24",
+  "timezone": "UTC",
+  "theme": "Verb Moods & Aspects",
+  "items": [
+    {
+      "itemId": "verb-tense-aspects-4",
+      "label": "Present Progressive"
+    },
+    {
+      "itemId": "verb-tense-aspects-8",
+      "label": "Past Perfect"
+    },
+    {
+      "itemId": "verb-tense-aspects-1",
+      "label": "Imperative Mood"
+    },
+    {
+      "itemId": "verb-tense-aspects-6",
+      "label": "Future Progressive"
+    },
+    {
+      "itemId": "verb-tense-aspects-10",
+      "label": "Present Perfect Continuous"
+    },
+    {
+      "itemId": "verb-tense-aspects-2",
+      "label": "Subjunctive Mood"
+    },
+    {
+      "itemId": "verb-tense-aspects-7",
+      "label": "Present Perfect"
+    },
+    {
+      "itemId": "verb-tense-aspects-5",
+      "label": "Past Progressive"
+    },
+    {
+      "itemId": "verb-tense-aspects-9",
+      "label": "Future Perfect"
+    },
+    {
+      "itemId": "verb-tense-aspects-3",
+      "label": "Conditional Mood"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Grammatical category (Imperative Mood, Hypothetical Mood, Progressive Aspect, or Perfect Aspect)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Command Mood",
+        "capacity": 1,
+        "itemIds": [
+          "verb-tense-aspects-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Hypothetical Moods",
+        "capacity": 2,
+        "itemIds": [
+          "verb-tense-aspects-2",
+          "verb-tense-aspects-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Progressive Aspects",
+        "capacity": 3,
+        "itemIds": [
+          "verb-tense-aspects-4",
+          "verb-tense-aspects-5",
+          "verb-tense-aspects-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Perfect Aspects",
+        "capacity": 4,
+        "itemIds": [
+          "verb-tense-aspects-7",
+          "verb-tense-aspects-8",
+          "verb-tense-aspects-9",
+          "verb-tense-aspects-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by mood/aspect: Imperative Mood (Imperative), Hypothetical Moods (Subjunctive, Conditional), Progressive Aspects (Present Progressive, Past Progressive, Future Progressive), and Perfect Aspects (Present Perfect, Past Perfect, Future Perfect, Present Perfect Continuous).",
+  "sources": [
+    {
+      "title": "Cambridge Grammar: Tense and Aspect",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/tenses-and-time",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "narrative-point-of-view-2027-06-02-zh-hant",
+  "puzzleFamilyId": "narrative-point-of-view-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-02",
+  "timezone": "UTC",
+  "theme": "敘事視角與時間結構",
+  "items": [
+    {
+      "itemId": "narrative-point-of-view-4",
+      "label": "第三人稱限知視角"
+    },
+    {
+      "itemId": "narrative-point-of-view-8",
+      "label": "伏筆預示"
+    },
+    {
+      "itemId": "narrative-point-of-view-1",
+      "label": "第二人稱敘事"
+    },
+    {
+      "itemId": "narrative-point-of-view-6",
+      "label": "第三人稱客觀視角"
+    },
+    {
+      "itemId": "narrative-point-of-view-10",
+      "label": "中間切入（In Medias Res）"
+    },
+    {
+      "itemId": "narrative-point-of-view-2",
+      "label": "第一人稱主角敘事"
+    },
+    {
+      "itemId": "narrative-point-of-view-7",
+      "label": "倒敘（Analepsis）"
+    },
+    {
+      "itemId": "narrative-point-of-view-5",
+      "label": "第三人稱全知視角"
+    },
+    {
+      "itemId": "narrative-point-of-view-9",
+      "label": "框架敘事"
+    },
+    {
+      "itemId": "narrative-point-of-view-3",
+      "label": "不可靠第一人稱敘事者"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各敘事技巧的分類（第二人稱、第一人稱、第三人稱或敘事時間結構）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "第二人稱視角",
+        "capacity": 1,
+        "itemIds": [
+          "narrative-point-of-view-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "第一人稱視角",
+        "capacity": 2,
+        "itemIds": [
+          "narrative-point-of-view-2",
+          "narrative-point-of-view-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "第三人稱視角",
+        "capacity": 3,
+        "itemIds": [
+          "narrative-point-of-view-4",
+          "narrative-point-of-view-5",
+          "narrative-point-of-view-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "敘事時間與框架",
+        "capacity": 4,
+        "itemIds": [
+          "narrative-point-of-view-7",
+          "narrative-point-of-view-8",
+          "narrative-point-of-view-9",
+          "narrative-point-of-view-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依敘事學分類：第二人稱（第二人稱敘事）、第一人稱（第一人稱主角、不可靠敘事者）、第三人稱（第三人稱限知、第三人稱全知、第三人稱客觀）與敘事時間／框架（倒敘 Flashback、伏筆、框架故事、中間切入 In Medias Res）。",
+  "sources": [
+    {
+      "title": "Purdue OWL: Narrative Point of View",
+      "url": "https://owl.purdue.edu/owl/subject_specific_writing/creative_writing/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

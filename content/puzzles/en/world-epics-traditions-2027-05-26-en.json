@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "world-epics-traditions-2027-05-26-en",
+  "puzzleFamilyId": "world-epics-traditions-001",
+  "locale": "en",
+  "publishDate": "2027-05-26",
+  "timezone": "UTC",
+  "theme": "World Epics by Tradition",
+  "items": [
+    {
+      "itemId": "world-epics-traditions-4",
+      "label": "Iliad"
+    },
+    {
+      "itemId": "world-epics-traditions-8",
+      "label": "Divine Comedy"
+    },
+    {
+      "itemId": "world-epics-traditions-1",
+      "label": "Epic of Gilgamesh"
+    },
+    {
+      "itemId": "world-epics-traditions-6",
+      "label": "Argonautica"
+    },
+    {
+      "itemId": "world-epics-traditions-10",
+      "label": "Paradise Lost"
+    },
+    {
+      "itemId": "world-epics-traditions-2",
+      "label": "Mahabharata"
+    },
+    {
+      "itemId": "world-epics-traditions-7",
+      "label": "Beowulf"
+    },
+    {
+      "itemId": "world-epics-traditions-5",
+      "label": "Odyssey"
+    },
+    {
+      "itemId": "world-epics-traditions-9",
+      "label": "Song of Roland"
+    },
+    {
+      "itemId": "world-epics-traditions-3",
+      "label": "Ramayana"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cultural/historical tradition (Mesopotamian, Indian Sanskrit, Ancient Greek, or Medieval/Renaissance European)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Mesopotamian",
+        "capacity": 1,
+        "itemIds": [
+          "world-epics-traditions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Indian Sanskrit",
+        "capacity": 2,
+        "itemIds": [
+          "world-epics-traditions-2",
+          "world-epics-traditions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Ancient Greek",
+        "capacity": 3,
+        "itemIds": [
+          "world-epics-traditions-4",
+          "world-epics-traditions-5",
+          "world-epics-traditions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Medieval & Renaissance European",
+        "capacity": 4,
+        "itemIds": [
+          "world-epics-traditions-7",
+          "world-epics-traditions-8",
+          "world-epics-traditions-9",
+          "world-epics-traditions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by cultural tradition: Mesopotamian (Epic of Gilgamesh), Indian Sanskrit (Mahabharata, Ramayana), Ancient Greek (Iliad, Odyssey, Argonautica), and Medieval/Renaissance European (Beowulf, Divine Comedy, Song of Roland, Paradise Lost).",
+  "sources": [
+    {
+      "title": "Britannica: Epic Literature",
+      "url": "https://www.britannica.com/art/epic",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

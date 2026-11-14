@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "parts-of-speech-classes-2027-05-16-en",
+  "puzzleFamilyId": "parts-of-speech-classes-001",
+  "locale": "en",
+  "publishDate": "2027-05-16",
+  "timezone": "UTC",
+  "theme": "Parts of Speech",
+  "items": [
+    {
+      "itemId": "parts-of-speech-classes-4",
+      "label": "Personal Pronoun"
+    },
+    {
+      "itemId": "parts-of-speech-classes-8",
+      "label": "Action Verb"
+    },
+    {
+      "itemId": "parts-of-speech-classes-1",
+      "label": "Interjection"
+    },
+    {
+      "itemId": "parts-of-speech-classes-6",
+      "label": "Demonstrative Determiner"
+    },
+    {
+      "itemId": "parts-of-speech-classes-10",
+      "label": "Manner Adverb"
+    },
+    {
+      "itemId": "parts-of-speech-classes-2",
+      "label": "Coordinating Conjunction"
+    },
+    {
+      "itemId": "parts-of-speech-classes-7",
+      "label": "Common Noun"
+    },
+    {
+      "itemId": "parts-of-speech-classes-5",
+      "label": "Definite Article"
+    },
+    {
+      "itemId": "parts-of-speech-classes-9",
+      "label": "Descriptive Adjective"
+    },
+    {
+      "itemId": "parts-of-speech-classes-3",
+      "label": "Subordinating Conjunction"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Grammatical class (Interjection, Conjunction, Closed-Class Determiner/Pronoun, or Open-Class Lexical Word)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Interjection",
+        "capacity": 1,
+        "itemIds": [
+          "parts-of-speech-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Conjunctions",
+        "capacity": 2,
+        "itemIds": [
+          "parts-of-speech-classes-2",
+          "parts-of-speech-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Closed-Class Reference Words",
+        "capacity": 3,
+        "itemIds": [
+          "parts-of-speech-classes-4",
+          "parts-of-speech-classes-5",
+          "parts-of-speech-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Open-Class Lexical Words",
+        "capacity": 4,
+        "itemIds": [
+          "parts-of-speech-classes-7",
+          "parts-of-speech-classes-8",
+          "parts-of-speech-classes-9",
+          "parts-of-speech-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by grammatical word class: Interjection (Interjection), Conjunctions (Coordinating Conjunction, Subordinating Conjunction), Closed-Class Reference Words (Personal Pronoun, Definite Article, Demonstrative Determiner), and Open-Class Lexical Words (Common Noun, Action Verb, Descriptive Adjective, Manner Adverb).",
+  "sources": [
+    {
+      "title": "Britannica: Part of Speech",
+      "url": "https://www.britannica.com/topic/part-of-speech",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

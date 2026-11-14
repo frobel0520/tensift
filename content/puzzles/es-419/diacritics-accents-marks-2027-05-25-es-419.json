@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "diacritics-accents-marks-2027-05-25-es-419",
+  "puzzleFamilyId": "diacritics-accents-marks-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-25",
+  "timezone": "UTC",
+  "theme": "Diacríticos del alfabeto latino",
+  "items": [
+    {
+      "itemId": "diacritics-accents-marks-4",
+      "label": "Acento circunflejo (ˆ)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-8",
+      "label": "Acento grave (`)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-1",
+      "label": "Cedilla (¸ en ç)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-6",
+      "label": "Carón (ˇ)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-10",
+      "label": "Anillo superior (˚)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-2",
+      "label": "Macrón (¯)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-7",
+      "label": "Acento agudo (´)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-5",
+      "label": "Virgulilla (˜)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-9",
+      "label": "Diéresis (¨)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-3",
+      "label": "Breve (˘)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Posición y familia gráfica de cada diacrítico latino",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Gancho inferior",
+        "capacity": 1,
+        "itemIds": [
+          "diacritics-accents-marks-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Marcas de cantidad vocálica",
+        "capacity": 2,
+        "itemIds": [
+          "diacritics-accents-marks-2",
+          "diacritics-accents-marks-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Marcas angulares y onduladas",
+        "capacity": 3,
+        "itemIds": [
+          "diacritics-accents-marks-4",
+          "diacritics-accents-marks-5",
+          "diacritics-accents-marks-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Tildes oblicuas, diéresis y anillo",
+        "capacity": 4,
+        "itemIds": [
+          "diacritics-accents-marks-7",
+          "diacritics-accents-marks-8",
+          "diacritics-accents-marks-9",
+          "diacritics-accents-marks-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por posición y forma: inferior (cedilla ¸), cantidad vocálica (macrón ¯, breve ˘), angulares/ondulados (circunflejo ˆ, virgulilla ˜, carón ˇ) y agudos/puntos/anillo (agudo ´, grave `, diéresis ¨, anillo ˚).",
+  "sources": [
+    {
+      "title": "Unicode Combining Diacritical Marks",
+      "url": "https://www.unicode.org/charts/PDF/U0300.pdf",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

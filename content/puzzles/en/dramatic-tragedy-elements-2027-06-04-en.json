@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "dramatic-tragedy-elements-2027-06-04-en",
+  "puzzleFamilyId": "dramatic-tragedy-elements-001",
+  "locale": "en",
+  "publishDate": "2027-06-04",
+  "timezone": "UTC",
+  "theme": "Aristotle's Poetics & Tragedy",
+  "items": [
+    {
+      "itemId": "dramatic-tragedy-elements-4",
+      "label": "Thought (Dianoia)"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-8",
+      "label": "Peripeteia (Reversal)"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-1",
+      "label": "Spectacle (Opsis)"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-6",
+      "label": "Melody (Melos)"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-10",
+      "label": "Catharsis (Purgation)"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-2",
+      "label": "Plot (Mythos)"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-7",
+      "label": "Hamartia (Tragic Flaw)"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-5",
+      "label": "Diction (Lexis)"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-9",
+      "label": "Anagnorisis (Recognition)"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-3",
+      "label": "Character (Ethos)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Role in Aristotelian tragedy (Visual Spectacle, Plot/Character Core, Thought/Diction/Melody, or Tragic Plot Mechanics)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Visual Spectacle",
+        "capacity": 1,
+        "itemIds": [
+          "dramatic-tragedy-elements-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Primary Narrative Core",
+        "capacity": 2,
+        "itemIds": [
+          "dramatic-tragedy-elements-2",
+          "dramatic-tragedy-elements-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Thought, Diction & Melody",
+        "capacity": 3,
+        "itemIds": [
+          "dramatic-tragedy-elements-4",
+          "dramatic-tragedy-elements-5",
+          "dramatic-tragedy-elements-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Tragic Turning Mechanics",
+        "capacity": 4,
+        "itemIds": [
+          "dramatic-tragedy-elements-7",
+          "dramatic-tragedy-elements-8",
+          "dramatic-tragedy-elements-9",
+          "dramatic-tragedy-elements-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by Poetics role: Visual Spectacle (Spectacle / Opsis), Primary Narrative Core (Plot / Mythos, Character / Ethos), Expressive Mediums (Thought / Dianoia, Diction / Lexis, Melody / Melos), and Tragic Turning Mechanics (Hamartia, Peripeteia, Anagnorisis, Catharsis).",
+  "sources": [
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Aristotle's Aesthetics",
+      "url": "https://plato.stanford.edu/entries/aristotle-aesthetics/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.7
+  },
+  "status": "scheduled"
+}

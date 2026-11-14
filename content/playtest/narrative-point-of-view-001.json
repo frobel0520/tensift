@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "narrative-point-of-view-001",
+  "theme": "Narrative Perspective & Time",
+  "publishDate": "2027-06-02",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "narrative-point-of-view-9",
+        "rivalGroupId": "group-2",
+        "risk": "Frame narratives often use a first-person narrator.",
+        "resolution": "Frame narrative describes a story-within-a-story structural device (group-4), not a grammatical person perspective (group-2)."
+      },
+      {
+        "itemId": "narrative-point-of-view-1",
+        "rivalGroupId": "group-2",
+        "risk": "Second-person can feel subjective.",
+        "resolution": "Second-person addresses the protagonist as \"you\" (group-1), distinct from \"I/we\" first-person narration (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

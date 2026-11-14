@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ancient-scripts-regions-2027-06-05-es-419",
+  "puzzleFamilyId": "ancient-scripts-regions-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-05",
+  "timezone": "UTC",
+  "theme": "Escrituras antiguas por región",
+  "items": [
+    {
+      "itemId": "ancient-scripts-regions-4",
+      "label": "Cuneiforme sumerio"
+    },
+    {
+      "itemId": "ancient-scripts-regions-8",
+      "label": "Hierático egipcio"
+    },
+    {
+      "itemId": "ancient-scripts-regions-1",
+      "label": "Lineal B"
+    },
+    {
+      "itemId": "ancient-scripts-regions-6",
+      "label": "Cuneiforme persa antiguo"
+    },
+    {
+      "itemId": "ancient-scripts-regions-10",
+      "label": "Escritura meroítica"
+    },
+    {
+      "itemId": "ancient-scripts-regions-2",
+      "label": "Alfabeto fenicio"
+    },
+    {
+      "itemId": "ancient-scripts-regions-7",
+      "label": "Jeroglíficos egipcios"
+    },
+    {
+      "itemId": "ancient-scripts-regions-5",
+      "label": "Cuneiforme acadio"
+    },
+    {
+      "itemId": "ancient-scripts-regions-9",
+      "label": "Demótico egipcio"
+    },
+    {
+      "itemId": "ancient-scripts-regions-3",
+      "label": "Cuneiforme hitita"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Región de origen de cada escritura antigua",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Egeo",
+        "capacity": 1,
+        "itemIds": [
+          "ancient-scripts-regions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Levante y Anatolia",
+        "capacity": 2,
+        "itemIds": [
+          "ancient-scripts-regions-2",
+          "ancient-scripts-regions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Mesopotamia y Persia",
+        "capacity": 3,
+        "itemIds": [
+          "ancient-scripts-regions-4",
+          "ancient-scripts-regions-5",
+          "ancient-scripts-regions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Valle del Nilo",
+        "capacity": 4,
+        "itemIds": [
+          "ancient-scripts-regions-7",
+          "ancient-scripts-regions-8",
+          "ancient-scripts-regions-9",
+          "ancient-scripts-regions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por región: Egeo (Lineal B), Levante y Anatolia (fenicio, cuneiforme hitita), Mesopotamia y Persia (cuneiforme sumerio, acadio, persa antiguo) y valle del Nilo (jeroglíficos egipcios, hierático, demótico, meroítico).",
+  "sources": [
+    {
+      "title": "British Museum: Ancient Scripts",
+      "url": "https://www.britishmuseum.org/collection",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

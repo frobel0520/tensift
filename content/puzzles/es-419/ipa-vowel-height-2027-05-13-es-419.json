@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ipa-vowel-height-2027-05-13-es-419",
+  "puzzleFamilyId": "ipa-vowel-height-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-13",
+  "timezone": "UTC",
+  "theme": "Vocales AFI por altura lingual",
+  "items": [
+    {
+      "itemId": "ipa-vowel-height-4",
+      "label": "/e/ (semicerrada anterior)"
+    },
+    {
+      "itemId": "ipa-vowel-height-8",
+      "label": "/u/ (cerrada posterior)"
+    },
+    {
+      "itemId": "ipa-vowel-height-1",
+      "label": "/a/ (abierta anterior no redondeada)"
+    },
+    {
+      "itemId": "ipa-vowel-height-6",
+      "label": "/ø/ (semicerrada anterior redondeada)"
+    },
+    {
+      "itemId": "ipa-vowel-height-10",
+      "label": "/ɯ/ (cerrada posterior no redondeada)"
+    },
+    {
+      "itemId": "ipa-vowel-height-2",
+      "label": "/ɛ/ (semiabierta anterior)"
+    },
+    {
+      "itemId": "ipa-vowel-height-7",
+      "label": "/i/ (cerrada anterior)"
+    },
+    {
+      "itemId": "ipa-vowel-height-5",
+      "label": "/o/ (semicerrada posterior)"
+    },
+    {
+      "itemId": "ipa-vowel-height-9",
+      "label": "/y/ (cerrada anterior redondeada)"
+    },
+    {
+      "itemId": "ipa-vowel-height-3",
+      "label": "/ɔ/ (semiabierta posterior)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Altura lingual de cada vocal en el cuadro AFI",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Abierta (baja)",
+        "capacity": 1,
+        "itemIds": [
+          "ipa-vowel-height-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Semiabierta",
+        "capacity": 2,
+        "itemIds": [
+          "ipa-vowel-height-2",
+          "ipa-vowel-height-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Semicerrada",
+        "capacity": 3,
+        "itemIds": [
+          "ipa-vowel-height-4",
+          "ipa-vowel-height-5",
+          "ipa-vowel-height-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Cerrada (alta)",
+        "capacity": 4,
+        "itemIds": [
+          "ipa-vowel-height-7",
+          "ipa-vowel-height-8",
+          "ipa-vowel-height-9",
+          "ipa-vowel-height-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por altura lingual: abierta (/a/), semiabierta (/ɛ/, /ɔ/), semicerrada (/e/, /o/, /ø/) y cerrada (/i/, /u/, /y/, /ɯ/).",
+  "sources": [
+    {
+      "title": "IPA: Vowel Chart",
+      "url": "https://www.internationalphoneticassociation.org/content/ipa-chart",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

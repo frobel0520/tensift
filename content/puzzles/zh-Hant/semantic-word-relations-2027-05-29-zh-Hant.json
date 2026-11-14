@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "semantic-word-relations-2027-05-29-zh-hant",
+  "puzzleFamilyId": "semantic-word-relations-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-29",
+  "timezone": "UTC",
+  "theme": "詞彙語意關係",
+  "items": [
+    {
+      "itemId": "semantic-word-relations-4",
+      "label": "上位詞（Hypernym）"
+    },
+    {
+      "itemId": "semantic-word-relations-8",
+      "label": "一詞多義（Polysemy）"
+    },
+    {
+      "itemId": "semantic-word-relations-1",
+      "label": "同音異義詞（Homophone）"
+    },
+    {
+      "itemId": "semantic-word-relations-6",
+      "label": "部分詞（Meronym）"
+    },
+    {
+      "itemId": "semantic-word-relations-10",
+      "label": "轉喻（Metonymy）"
+    },
+    {
+      "itemId": "semantic-word-relations-2",
+      "label": "漸層反義詞"
+    },
+    {
+      "itemId": "semantic-word-relations-7",
+      "label": "同義詞（Synonym）"
+    },
+    {
+      "itemId": "semantic-word-relations-5",
+      "label": "下位詞（Hyponym）"
+    },
+    {
+      "itemId": "semantic-word-relations-9",
+      "label": "同形同音異義詞（Homonym）"
+    },
+    {
+      "itemId": "semantic-word-relations-3",
+      "label": "互補反義詞"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各語意關係的類別（同音異義、反義對立、上下位／部分整體或同義／關聯）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "同音異字關係",
+        "capacity": 1,
+        "itemIds": [
+          "semantic-word-relations-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "反義對立關係",
+        "capacity": 2,
+        "itemIds": [
+          "semantic-word-relations-2",
+          "semantic-word-relations-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "上下位與部分整體",
+        "capacity": 3,
+        "itemIds": [
+          "semantic-word-relations-4",
+          "semantic-word-relations-5",
+          "semantic-word-relations-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "同義、多義與轉喻",
+        "capacity": 4,
+        "itemIds": [
+          "semantic-word-relations-7",
+          "semantic-word-relations-8",
+          "semantic-word-relations-9",
+          "semantic-word-relations-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依語意關係分類：同音異字（同音異義詞 Homophone）、反義關係（漸層反義詞、互補反義詞）、階層與部分關係（上位詞、下位詞、部分詞）與近義／多義／轉喻（同義詞、一詞多義、同形同音異義詞、轉喻）。",
+  "sources": [
+    {
+      "title": "Britannica: Semantics",
+      "url": "https://www.britannica.com/science/semantics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

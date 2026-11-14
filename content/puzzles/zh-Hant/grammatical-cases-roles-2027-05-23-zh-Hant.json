@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "grammatical-cases-roles-2027-05-23-zh-hant",
+  "puzzleFamilyId": "grammatical-cases-roles-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-23",
+  "timezone": "UTC",
+  "theme": "語言學名詞格位系統",
+  "items": [
+    {
+      "itemId": "grammatical-cases-roles-4",
+      "label": "主格（Nominative）"
+    },
+    {
+      "itemId": "grammatical-cases-roles-8",
+      "label": "方位格（Locative）"
+    },
+    {
+      "itemId": "grammatical-cases-roles-1",
+      "label": "呼格（Vocative）"
+    },
+    {
+      "itemId": "grammatical-cases-roles-6",
+      "label": "作格（Ergative）"
+    },
+    {
+      "itemId": "grammatical-cases-roles-10",
+      "label": "向格（Allative）"
+    },
+    {
+      "itemId": "grammatical-cases-roles-2",
+      "label": "屬格（Genitive）"
+    },
+    {
+      "itemId": "grammatical-cases-roles-7",
+      "label": "與格（Dative）"
+    },
+    {
+      "itemId": "grammatical-cases-roles-5",
+      "label": "賓格（Accusative）"
+    },
+    {
+      "itemId": "grammatical-cases-roles-9",
+      "label": "工具格（Instrumental）"
+    },
+    {
+      "itemId": "grammatical-cases-roles-3",
+      "label": "離格（Ablative）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各格位在語法中的主要功能（呼格、領屬／離格、核心主賓格或與／位／工具格）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "直接呼喚格",
+        "capacity": 1,
+        "itemIds": [
+          "grammatical-cases-roles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "領屬與來源格",
+        "capacity": 2,
+        "itemIds": [
+          "grammatical-cases-roles-2",
+          "grammatical-cases-roles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "核心主賓論元格",
+        "capacity": 3,
+        "itemIds": [
+          "grammatical-cases-roles-4",
+          "grammatical-cases-roles-5",
+          "grammatical-cases-roles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "間接與空間格位",
+        "capacity": 4,
+        "itemIds": [
+          "grammatical-cases-roles-7",
+          "grammatical-cases-roles-8",
+          "grammatical-cases-roles-9",
+          "grammatical-cases-roles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依格位功能分類：直接呼喚（呼格 Vocative）、領屬與來源（屬格 Genitive、離格 Ablative）、核心論元（主格 Nominative、賓格 Accusative、作格 Ergative）與間接／空間關係（與格 Dative、方位格 Locative、工具格 Instrumental、向格 Allative）。",
+  "sources": [
+    {
+      "title": "Britannica: Grammatical Case",
+      "url": "https://www.britannica.com/topic/case-grammar",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

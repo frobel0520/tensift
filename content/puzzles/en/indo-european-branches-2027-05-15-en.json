@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "indo-european-branches-2027-05-15-en",
+  "puzzleFamilyId": "indo-european-branches-001",
+  "locale": "en",
+  "publishDate": "2027-05-15",
+  "timezone": "UTC",
+  "theme": "Indo-European Sub-Branches",
+  "items": [
+    {
+      "itemId": "indo-european-branches-4",
+      "label": "Russian"
+    },
+    {
+      "itemId": "indo-european-branches-8",
+      "label": "Czech"
+    },
+    {
+      "itemId": "indo-european-branches-1",
+      "label": "Irish (Gaeilge)"
+    },
+    {
+      "itemId": "indo-european-branches-6",
+      "label": "Belarusian"
+    },
+    {
+      "itemId": "indo-european-branches-10",
+      "label": "Kashubian"
+    },
+    {
+      "itemId": "indo-european-branches-2",
+      "label": "Lithuanian"
+    },
+    {
+      "itemId": "indo-european-branches-7",
+      "label": "Polish"
+    },
+    {
+      "itemId": "indo-european-branches-5",
+      "label": "Ukrainian"
+    },
+    {
+      "itemId": "indo-european-branches-9",
+      "label": "Slovak"
+    },
+    {
+      "itemId": "indo-european-branches-3",
+      "label": "Latvian"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Indo-European branch (Celtic, Baltic, East Slavic, or West Slavic) of each language",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Celtic",
+        "capacity": 1,
+        "itemIds": [
+          "indo-european-branches-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Baltic",
+        "capacity": 2,
+        "itemIds": [
+          "indo-european-branches-2",
+          "indo-european-branches-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "East Slavic",
+        "capacity": 3,
+        "itemIds": [
+          "indo-european-branches-4",
+          "indo-european-branches-5",
+          "indo-european-branches-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "West Slavic",
+        "capacity": 4,
+        "itemIds": [
+          "indo-european-branches-7",
+          "indo-european-branches-8",
+          "indo-european-branches-9",
+          "indo-european-branches-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by Indo-European branch: Celtic (Irish), Baltic (Lithuanian, Latvian), East Slavic (Russian, Ukrainian, Belarusian), and West Slavic (Polish, Czech, Slovak, Kashubian).",
+  "sources": [
+    {
+      "title": "Britannica: Indo-European Languages",
+      "url": "https://www.britannica.com/topic/Indo-European-languages",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

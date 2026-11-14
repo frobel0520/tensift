@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "writing-systems-scripts-2027-05-10-zh-hant",
+  "puzzleFamilyId": "writing-systems-scripts-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-10",
+  "timezone": "UTC",
+  "theme": "世界文字系統分類",
+  "items": [
+    {
+      "itemId": "writing-systems-scripts-4",
+      "label": "天城文"
+    },
+    {
+      "itemId": "writing-systems-scripts-8",
+      "label": "希臘字母"
+    },
+    {
+      "itemId": "writing-systems-scripts-1",
+      "label": "韓文諺文（Hangul）"
+    },
+    {
+      "itemId": "writing-systems-scripts-6",
+      "label": "吉茲字母"
+    },
+    {
+      "itemId": "writing-systems-scripts-10",
+      "label": "亞美尼亞字母"
+    },
+    {
+      "itemId": "writing-systems-scripts-2",
+      "label": "阿拉伯字母"
+    },
+    {
+      "itemId": "writing-systems-scripts-7",
+      "label": "拉丁字母"
+    },
+    {
+      "itemId": "writing-systems-scripts-5",
+      "label": "泰文"
+    },
+    {
+      "itemId": "writing-systems-scripts-9",
+      "label": "西里爾字母"
+    },
+    {
+      "itemId": "writing-systems-scripts-3",
+      "label": "希伯來字母"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各文字系統的結構類型（特徵文字、輔音音素文字 Abjad、音素音節文字 Abugida 或全音素字母）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "特徵文字",
+        "capacity": 1,
+        "itemIds": [
+          "writing-systems-scripts-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "輔音音素文字（Abjad）",
+        "capacity": 2,
+        "itemIds": [
+          "writing-systems-scripts-2",
+          "writing-systems-scripts-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "元音附標文字（Abugida）",
+        "capacity": 3,
+        "itemIds": [
+          "writing-systems-scripts-4",
+          "writing-systems-scripts-5",
+          "writing-systems-scripts-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "全音素字母",
+        "capacity": 4,
+        "itemIds": [
+          "writing-systems-scripts-7",
+          "writing-systems-scripts-8",
+          "writing-systems-scripts-9",
+          "writing-systems-scripts-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依文字結構類型分類：特徵文字（韓文諺文）、輔音音素文字 Abjad（阿拉伯字母、希伯來字母）、元音附標文字 Abugida（天城文、泰文、吉茲字母）與全音素字母（拉丁字母、希臘字母、西里爾字母、亞美尼亞字母）。",
+  "sources": [
+    {
+      "title": "Unicode: Scripts and Writing Systems",
+      "url": "https://www.unicode.org/standard/supported.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

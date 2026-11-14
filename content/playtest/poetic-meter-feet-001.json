@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "poetic-meter-feet-001",
+  "theme": "Classical Poetic Feet",
+  "publishDate": "2027-05-19",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "poetic-meter-feet-1",
+        "rivalGroupId": "group-2",
+        "risk": "Spondee has two syllables like iamb and trochee.",
+        "resolution": "Spondee has two equally stressed syllables (group-1), whereas iamb and trochee alternate unstressed and stressed syllables (group-2)."
+      },
+      {
+        "itemId": "poetic-meter-feet-7",
+        "rivalGroupId": "group-3",
+        "risk": "Choriamb combines trochee and iamb.",
+        "resolution": "Choriamb is a four-syllable classical foot (group-4), not a three-syllable foot (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

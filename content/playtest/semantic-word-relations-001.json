@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "semantic-word-relations-001",
+  "theme": "Lexical Semantic Relations",
+  "publishDate": "2027-05-29",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "semantic-word-relations-1",
+        "rivalGroupId": "group-4",
+        "risk": "Homophone and Homonym are closely related.",
+        "resolution": "Homophones share pronunciation with different spellings/meanings (group-1), whereas homonyms share both form/spelling and sound (group-4)."
+      },
+      {
+        "itemId": "semantic-word-relations-6",
+        "rivalGroupId": "group-4",
+        "risk": "Meronymy resembles metonymy in name.",
+        "resolution": "Meronymy is a strict part-of-whole lexical relation (group-3), whereas metonymy is figurative substitution by association (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

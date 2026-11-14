@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "world-language-families-2027-05-14-zh-hant",
+  "puzzleFamilyId": "world-language-families-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-14",
+  "timezone": "UTC",
+  "theme": "世界語言與語系分類",
+  "items": [
+    {
+      "itemId": "world-language-families-4",
+      "label": "西班牙語"
+    },
+    {
+      "itemId": "world-language-families-8",
+      "label": "德語"
+    },
+    {
+      "itemId": "world-language-families-1",
+      "label": "華語（官話）"
+    },
+    {
+      "itemId": "world-language-families-6",
+      "label": "葡萄牙語"
+    },
+    {
+      "itemId": "world-language-families-10",
+      "label": "瑞典語"
+    },
+    {
+      "itemId": "world-language-families-2",
+      "label": "土耳其語"
+    },
+    {
+      "itemId": "world-language-families-7",
+      "label": "英語"
+    },
+    {
+      "itemId": "world-language-families-5",
+      "label": "法語"
+    },
+    {
+      "itemId": "world-language-families-9",
+      "label": "荷蘭語"
+    },
+    {
+      "itemId": "world-language-families-3",
+      "label": "烏茲別克語"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各語言所屬的語系或語族（漢藏語系、突厥語系、羅曼語族或日耳曼語族）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "漢藏語系",
+        "capacity": 1,
+        "itemIds": [
+          "world-language-families-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "突厥語系",
+        "capacity": 2,
+        "itemIds": [
+          "world-language-families-2",
+          "world-language-families-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "羅曼語族",
+        "capacity": 3,
+        "itemIds": [
+          "world-language-families-4",
+          "world-language-families-5",
+          "world-language-families-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "日耳曼語族",
+        "capacity": 4,
+        "itemIds": [
+          "world-language-families-7",
+          "world-language-families-8",
+          "world-language-families-9",
+          "world-language-families-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依語系與語族分類：漢藏語系（華語／官話）、突厥語系（土耳其語、烏茲別克語）、印歐羅曼語族（西班牙語、法語、葡萄牙語）與印歐日耳曼語族（英語、德語、荷蘭語、瑞典語）。",
+  "sources": [
+    {
+      "title": "Ethnologue: Language Families",
+      "url": "https://www.ethnologue.com/browse/families/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

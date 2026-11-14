@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ipa-vowel-height-2027-05-13-zh-hant",
+  "puzzleFamilyId": "ipa-vowel-height-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-13",
+  "timezone": "UTC",
+  "theme": "國際音標元音舌位高度",
+  "items": [
+    {
+      "itemId": "ipa-vowel-height-4",
+      "label": "/e/（前不圓唇半閉元音）"
+    },
+    {
+      "itemId": "ipa-vowel-height-8",
+      "label": "/u/（後圓唇閉元音）"
+    },
+    {
+      "itemId": "ipa-vowel-height-1",
+      "label": "/a/（前不圓唇開元音）"
+    },
+    {
+      "itemId": "ipa-vowel-height-6",
+      "label": "/ø/（前圓唇半閉元音）"
+    },
+    {
+      "itemId": "ipa-vowel-height-10",
+      "label": "/ɯ/（後不圓唇閉元音）"
+    },
+    {
+      "itemId": "ipa-vowel-height-2",
+      "label": "/ɛ/（前不圓唇半開元音）"
+    },
+    {
+      "itemId": "ipa-vowel-height-7",
+      "label": "/i/（前不圓唇閉元音）"
+    },
+    {
+      "itemId": "ipa-vowel-height-5",
+      "label": "/o/（後圓唇半閉元音）"
+    },
+    {
+      "itemId": "ipa-vowel-height-9",
+      "label": "/y/（前圓唇閉元音）"
+    },
+    {
+      "itemId": "ipa-vowel-height-3",
+      "label": "/ɔ/（後圓唇半開元音）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各國際音標元音的舌位高低（開元音、半開元音、半閉元音或閉元音）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "開元音（低舌位）",
+        "capacity": 1,
+        "itemIds": [
+          "ipa-vowel-height-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "半開元音",
+        "capacity": 2,
+        "itemIds": [
+          "ipa-vowel-height-2",
+          "ipa-vowel-height-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "半閉元音",
+        "capacity": 3,
+        "itemIds": [
+          "ipa-vowel-height-4",
+          "ipa-vowel-height-5",
+          "ipa-vowel-height-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "閉元音（高舌位）",
+        "capacity": 4,
+        "itemIds": [
+          "ipa-vowel-height-7",
+          "ipa-vowel-height-8",
+          "ipa-vowel-height-9",
+          "ipa-vowel-height-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依國際音標元音舌位高低分類：開元音（/a/）、半開元音（/ɛ/、/ɔ/）、半閉元音（/e/、/o/、/ø/）與閉元音（/i/、/u/、/y/、/ɯ/）。",
+  "sources": [
+    {
+      "title": "IPA: Vowel Chart",
+      "url": "https://www.internationalphoneticassociation.org/content/ipa-chart",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

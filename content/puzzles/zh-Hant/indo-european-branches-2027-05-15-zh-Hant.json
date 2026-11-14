@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "indo-european-branches-2027-05-15-zh-hant",
+  "puzzleFamilyId": "indo-european-branches-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-15",
+  "timezone": "UTC",
+  "theme": "印歐語系歐洲分支",
+  "items": [
+    {
+      "itemId": "indo-european-branches-4",
+      "label": "俄語"
+    },
+    {
+      "itemId": "indo-european-branches-8",
+      "label": "捷克語"
+    },
+    {
+      "itemId": "indo-european-branches-1",
+      "label": "愛爾蘭語"
+    },
+    {
+      "itemId": "indo-european-branches-6",
+      "label": "白俄羅斯語"
+    },
+    {
+      "itemId": "indo-european-branches-10",
+      "label": "卡舒比語"
+    },
+    {
+      "itemId": "indo-european-branches-2",
+      "label": "立陶宛語"
+    },
+    {
+      "itemId": "indo-european-branches-7",
+      "label": "波蘭語"
+    },
+    {
+      "itemId": "indo-european-branches-5",
+      "label": "烏克蘭語"
+    },
+    {
+      "itemId": "indo-european-branches-9",
+      "label": "斯洛伐克語"
+    },
+    {
+      "itemId": "indo-european-branches-3",
+      "label": "拉脫維亞語"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各語言所屬的印歐語系分支（凱爾特語族、波羅的語族、東斯拉夫語支或西斯拉夫語支）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "凱爾特語族",
+        "capacity": 1,
+        "itemIds": [
+          "indo-european-branches-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "波羅的語族",
+        "capacity": 2,
+        "itemIds": [
+          "indo-european-branches-2",
+          "indo-european-branches-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "東斯拉夫語支",
+        "capacity": 3,
+        "itemIds": [
+          "indo-european-branches-4",
+          "indo-european-branches-5",
+          "indo-european-branches-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "西斯拉夫語支",
+        "capacity": 4,
+        "itemIds": [
+          "indo-european-branches-7",
+          "indo-european-branches-8",
+          "indo-european-branches-9",
+          "indo-european-branches-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依印歐語系分支分類：凱爾特語族（愛爾蘭語）、波羅的語族（立陶宛語、拉脫維亞語）、東斯拉夫語支（俄語、烏克蘭語、白俄羅斯語）與西斯拉夫語支（波蘭語、捷克語、斯洛伐克語、卡舒比語）。",
+  "sources": [
+    {
+      "title": "Britannica: Indo-European Languages",
+      "url": "https://www.britannica.com/topic/Indo-European-languages",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

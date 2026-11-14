@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "narrative-point-of-view-2027-06-02-es-419",
+  "puzzleFamilyId": "narrative-point-of-view-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-02",
+  "timezone": "UTC",
+  "theme": "Perspectiva y tiempo narrativo",
+  "items": [
+    {
+      "itemId": "narrative-point-of-view-4",
+      "label": "Tercera persona limitada"
+    },
+    {
+      "itemId": "narrative-point-of-view-8",
+      "label": "Prolepsis / presagio"
+    },
+    {
+      "itemId": "narrative-point-of-view-1",
+      "label": "Segunda persona (\"tú\")"
+    },
+    {
+      "itemId": "narrative-point-of-view-6",
+      "label": "Tercera persona objetiva"
+    },
+    {
+      "itemId": "narrative-point-of-view-10",
+      "label": "In medias res"
+    },
+    {
+      "itemId": "narrative-point-of-view-2",
+      "label": "Primera persona protagonista"
+    },
+    {
+      "itemId": "narrative-point-of-view-7",
+      "label": "Analepsis (flashback)"
+    },
+    {
+      "itemId": "narrative-point-of-view-5",
+      "label": "Tercera persona omnisciente"
+    },
+    {
+      "itemId": "narrative-point-of-view-9",
+      "label": "Relato enmarcado"
+    },
+    {
+      "itemId": "narrative-point-of-view-3",
+      "label": "Narrador no fiable"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría narratológica de cada técnica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Segunda persona",
+        "capacity": 1,
+        "itemIds": [
+          "narrative-point-of-view-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Modos en primera persona",
+        "capacity": 2,
+        "itemIds": [
+          "narrative-point-of-view-2",
+          "narrative-point-of-view-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Modos en tercera persona",
+        "capacity": 3,
+        "itemIds": [
+          "narrative-point-of-view-4",
+          "narrative-point-of-view-5",
+          "narrative-point-of-view-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Tiempo y marco narrativo",
+        "capacity": 4,
+        "itemIds": [
+          "narrative-point-of-view-7",
+          "narrative-point-of-view-8",
+          "narrative-point-of-view-9",
+          "narrative-point-of-view-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por categoría: segunda persona (narración en segunda persona), primera persona (protagonista, narrador poco fiable), tercera persona (limitada, omnisciente, objetiva) y estructura temporal (analepsis, prolepsis, relato enmarcado, in medias res).",
+  "sources": [
+    {
+      "title": "Purdue OWL: Narrative Point of View",
+      "url": "https://owl.purdue.edu/owl/subject_specific_writing/creative_writing/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

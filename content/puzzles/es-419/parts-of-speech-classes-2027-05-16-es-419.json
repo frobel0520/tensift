@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "parts-of-speech-classes-2027-05-16-es-419",
+  "puzzleFamilyId": "parts-of-speech-classes-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-16",
+  "timezone": "UTC",
+  "theme": "Categorías gramaticales",
+  "items": [
+    {
+      "itemId": "parts-of-speech-classes-4",
+      "label": "Pronombre personal"
+    },
+    {
+      "itemId": "parts-of-speech-classes-8",
+      "label": "Verbo de acción"
+    },
+    {
+      "itemId": "parts-of-speech-classes-1",
+      "label": "Interjección"
+    },
+    {
+      "itemId": "parts-of-speech-classes-6",
+      "label": "Determinante demostrativo"
+    },
+    {
+      "itemId": "parts-of-speech-classes-10",
+      "label": "Adverbio de modo"
+    },
+    {
+      "itemId": "parts-of-speech-classes-2",
+      "label": "Conjunción coordinante"
+    },
+    {
+      "itemId": "parts-of-speech-classes-7",
+      "label": "Sustantivo común"
+    },
+    {
+      "itemId": "parts-of-speech-classes-5",
+      "label": "Artículo definido"
+    },
+    {
+      "itemId": "parts-of-speech-classes-9",
+      "label": "Adjetivo calificativo"
+    },
+    {
+      "itemId": "parts-of-speech-classes-3",
+      "label": "Conjunción subordinante"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría gramatical funcional de cada clase de palabra",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Interjección",
+        "capacity": 1,
+        "itemIds": [
+          "parts-of-speech-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Conjunciones",
+        "capacity": 2,
+        "itemIds": [
+          "parts-of-speech-classes-2",
+          "parts-of-speech-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Determinantes y pronombres",
+        "capacity": 3,
+        "itemIds": [
+          "parts-of-speech-classes-4",
+          "parts-of-speech-classes-5",
+          "parts-of-speech-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Clases léxicas abiertas",
+        "capacity": 4,
+        "itemIds": [
+          "parts-of-speech-classes-7",
+          "parts-of-speech-classes-8",
+          "parts-of-speech-classes-9",
+          "parts-of-speech-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por clase gramatical: interjección (interjección), conjunciones (coordinante, subordinante), palabras funcionales cerradas (pronombre personal, artículo definido, determinante demostrativo) y léxicas abiertas (sustantivo común, verbo de acción, adjetivo calificativo, adverbio de modo).",
+  "sources": [
+    {
+      "title": "Britannica: Part of Speech",
+      "url": "https://www.britannica.com/topic/part-of-speech",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

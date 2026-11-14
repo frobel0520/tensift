@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "logical-fallacies-types-2027-06-06-zh-hant",
+  "puzzleFamilyId": "logical-fallacies-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-06",
+  "timezone": "UTC",
+  "theme": "常見邏輯謬誤分類",
+  "items": [
+    {
+      "itemId": "logical-fallacies-types-4",
+      "label": "人身攻擊（Ad Hominem）"
+    },
+    {
+      "itemId": "logical-fallacies-types-8",
+      "label": "滑坡謬誤"
+    },
+    {
+      "itemId": "logical-fallacies-types-1",
+      "label": "循環論證（竊取論點）"
+    },
+    {
+      "itemId": "logical-fallacies-types-6",
+      "label": "紅鯡魚（轉移焦點）"
+    },
+    {
+      "itemId": "logical-fallacies-types-10",
+      "label": "以偏概全"
+    },
+    {
+      "itemId": "logical-fallacies-types-2",
+      "label": "訴諸不當權威"
+    },
+    {
+      "itemId": "logical-fallacies-types-7",
+      "label": "假兩難推理"
+    },
+    {
+      "itemId": "logical-fallacies-types-5",
+      "label": "稻草人謬誤"
+    },
+    {
+      "itemId": "logical-fallacies-types-9",
+      "label": "事後歸因謬誤（Post Hoc）"
+    },
+    {
+      "itemId": "logical-fallacies-types-3",
+      "label": "訴諸群眾（從眾謬誤）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各邏輯謬誤的推理錯誤類型（循環論證、訴諸權威／群眾、轉移焦點／人身攻擊或因果／以偏概全）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "循環論證",
+        "capacity": 1,
+        "itemIds": [
+          "logical-fallacies-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "訴諸權威與群眾",
+        "capacity": 2,
+        "itemIds": [
+          "logical-fallacies-types-2",
+          "logical-fallacies-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "轉移焦點與人身攻擊",
+        "capacity": 3,
+        "itemIds": [
+          "logical-fallacies-types-4",
+          "logical-fallacies-types-5",
+          "logical-fallacies-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "因果與歸納謬誤",
+        "capacity": 4,
+        "itemIds": [
+          "logical-fallacies-types-7",
+          "logical-fallacies-types-8",
+          "logical-fallacies-types-9",
+          "logical-fallacies-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依謬誤類型分類：循環論證（循環論證）、訴諸外部權威或群眾（訴諸權威、訴諸群眾）、轉移與曲解（人身攻擊、稻草人謬誤、紅鯡魚轉移焦點）與因果／歸納錯誤（假兩難、滑坡謬誤、事後歸因 Post Hoc、以偏概全）。",
+  "sources": [
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Fallacies",
+      "url": "https://plato.stanford.edu/entries/fallacies/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ipa-consonant-places-2027-05-12-es-419",
+  "puzzleFamilyId": "ipa-consonant-places-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-12",
+  "timezone": "UTC",
+  "theme": "Consonantes AFI por punto de articulación",
+  "items": [
+    {
+      "itemId": "ipa-consonant-places-4",
+      "label": "/p/ (oclusiva bilabial sorda)"
+    },
+    {
+      "itemId": "ipa-consonant-places-8",
+      "label": "/d/ (oclusiva alveolar sonora)"
+    },
+    {
+      "itemId": "ipa-consonant-places-1",
+      "label": "/h/ (fricativa glotal sorda)"
+    },
+    {
+      "itemId": "ipa-consonant-places-6",
+      "label": "/m/ (nasal bilabial)"
+    },
+    {
+      "itemId": "ipa-consonant-places-10",
+      "label": "/s/ (fricativa alveolar sorda)"
+    },
+    {
+      "itemId": "ipa-consonant-places-2",
+      "label": "/f/ (fricativa labiodental sorda)"
+    },
+    {
+      "itemId": "ipa-consonant-places-7",
+      "label": "/t/ (oclusiva alveolar sorda)"
+    },
+    {
+      "itemId": "ipa-consonant-places-5",
+      "label": "/b/ (oclusiva bilabial sonora)"
+    },
+    {
+      "itemId": "ipa-consonant-places-9",
+      "label": "/n/ (nasal alveolar)"
+    },
+    {
+      "itemId": "ipa-consonant-places-3",
+      "label": "/v/ (fricativa labiodental sonora)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Punto de articulación de cada consonante AFI",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Glotal",
+        "capacity": 1,
+        "itemIds": [
+          "ipa-consonant-places-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Labiodental",
+        "capacity": 2,
+        "itemIds": [
+          "ipa-consonant-places-2",
+          "ipa-consonant-places-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Bilabial",
+        "capacity": 3,
+        "itemIds": [
+          "ipa-consonant-places-4",
+          "ipa-consonant-places-5",
+          "ipa-consonant-places-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Alveolar",
+        "capacity": 4,
+        "itemIds": [
+          "ipa-consonant-places-7",
+          "ipa-consonant-places-8",
+          "ipa-consonant-places-9",
+          "ipa-consonant-places-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por punto de articulación: glotal (/h/), labiodentales (/f/, /v/), bilabiales (/p/, /b/, /m/) y alveolares (/t/, /d/, /n/, /s/).",
+  "sources": [
+    {
+      "title": "IPA: International Phonetic Alphabet Chart",
+      "url": "https://www.internationalphoneticassociation.org/content/ipa-chart",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

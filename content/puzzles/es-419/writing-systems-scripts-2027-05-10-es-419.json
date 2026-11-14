@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "writing-systems-scripts-2027-05-10-es-419",
+  "puzzleFamilyId": "writing-systems-scripts-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-10",
+  "timezone": "UTC",
+  "theme": "Sistemas de escritura por tipo",
+  "items": [
+    {
+      "itemId": "writing-systems-scripts-4",
+      "label": "Devanagari"
+    },
+    {
+      "itemId": "writing-systems-scripts-8",
+      "label": "Alfabeto griego"
+    },
+    {
+      "itemId": "writing-systems-scripts-1",
+      "label": "Hangul"
+    },
+    {
+      "itemId": "writing-systems-scripts-6",
+      "label": "Escritura ge'ez"
+    },
+    {
+      "itemId": "writing-systems-scripts-10",
+      "label": "Alfabeto armenio"
+    },
+    {
+      "itemId": "writing-systems-scripts-2",
+      "label": "Alfabeto árabe"
+    },
+    {
+      "itemId": "writing-systems-scripts-7",
+      "label": "Alfabeto latino"
+    },
+    {
+      "itemId": "writing-systems-scripts-5",
+      "label": "Escritura tailandesa"
+    },
+    {
+      "itemId": "writing-systems-scripts-9",
+      "label": "Alfabeto cirílico"
+    },
+    {
+      "itemId": "writing-systems-scripts-3",
+      "label": "Alfabeto hebreo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tipo estructural de cada sistema de escritura",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Escritura featural",
+        "capacity": 1,
+        "itemIds": [
+          "writing-systems-scripts-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Abyad (consonántico)",
+        "capacity": 2,
+        "itemIds": [
+          "writing-systems-scripts-2",
+          "writing-systems-scripts-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Abugida",
+        "capacity": 3,
+        "itemIds": [
+          "writing-systems-scripts-4",
+          "writing-systems-scripts-5",
+          "writing-systems-scripts-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Alfabeto pleno",
+        "capacity": 4,
+        "itemIds": [
+          "writing-systems-scripts-7",
+          "writing-systems-scripts-8",
+          "writing-systems-scripts-9",
+          "writing-systems-scripts-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por tipo: featural (hangul), abyad (árabe, hebreo), abugida (devanagari, tailandés, ge'ez) y alfabeto (latino, griego, cirílico, armenio).",
+  "sources": [
+    {
+      "title": "Unicode: Scripts and Writing Systems",
+      "url": "https://www.unicode.org/standard/supported.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

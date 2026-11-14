@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "greek-latin-number-prefixes-2027-05-11-zh-hant",
+  "puzzleFamilyId": "greek-latin-number-prefixes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-11",
+  "timezone": "UTC",
+  "theme": "希臘與拉丁數字前綴",
+  "items": [
+    {
+      "itemId": "greek-latin-number-prefixes-4",
+      "label": "Tri-（三）"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-8",
+      "label": "Quadri-（四）"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-1",
+      "label": "Mono-（單一）"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-6",
+      "label": "Tern-（三元）"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-10",
+      "label": "Quatern-（四元）"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-2",
+      "label": "Bi-（雙）"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-7",
+      "label": "Tetra-（四）"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-5",
+      "label": "Ter-（三倍）"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-9",
+      "label": "Quart-（四分）"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-3",
+      "label": "Di-（二）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各希臘或拉丁詞根前綴所代表的數字（1、2、3 或 4）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "代表 1",
+        "capacity": 1,
+        "itemIds": [
+          "greek-latin-number-prefixes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "代表 2",
+        "capacity": 2,
+        "itemIds": [
+          "greek-latin-number-prefixes-2",
+          "greek-latin-number-prefixes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "代表 3",
+        "capacity": 3,
+        "itemIds": [
+          "greek-latin-number-prefixes-4",
+          "greek-latin-number-prefixes-5",
+          "greek-latin-number-prefixes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "代表 4",
+        "capacity": 4,
+        "itemIds": [
+          "greek-latin-number-prefixes-7",
+          "greek-latin-number-prefixes-8",
+          "greek-latin-number-prefixes-9",
+          "greek-latin-number-prefixes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依詞根代表數值分類：1（Mono-）、2（Bi-、Di-）、3（Tri-、Ter-、Tern-）與 4（Tetra-、Quadri-、Quart-、Quatern-）。",
+  "sources": [
+    {
+      "title": "Merriam-Webster: Numerical Prefixes",
+      "url": "https://www.merriam-webster.com/dictionary/tetra-",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

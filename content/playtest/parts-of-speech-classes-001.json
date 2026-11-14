@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "parts-of-speech-classes-001",
+  "theme": "Parts of Speech",
+  "publishDate": "2027-05-16",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "parts-of-speech-classes-4",
+        "rivalGroupId": "group-4",
+        "risk": "Pronouns substitute for nouns.",
+        "resolution": "Pronouns belong to a closed grammatical function class (group-3), unlike open-class lexical nouns (group-4)."
+      },
+      {
+        "itemId": "parts-of-speech-classes-1",
+        "rivalGroupId": "group-4",
+        "risk": "New interjections can enter slang.",
+        "resolution": "Interjections stand syntactically outside clause structure (group-1), unlike nouns, verbs, adjectives, and adverbs (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

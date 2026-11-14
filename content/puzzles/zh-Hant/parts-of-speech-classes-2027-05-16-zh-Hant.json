@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "parts-of-speech-classes-2027-05-16-zh-hant",
+  "puzzleFamilyId": "parts-of-speech-classes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-16",
+  "timezone": "UTC",
+  "theme": "詞類與語法分類",
+  "items": [
+    {
+      "itemId": "parts-of-speech-classes-4",
+      "label": "人稱代名詞"
+    },
+    {
+      "itemId": "parts-of-speech-classes-8",
+      "label": "動作動詞"
+    },
+    {
+      "itemId": "parts-of-speech-classes-1",
+      "label": "感嘆詞"
+    },
+    {
+      "itemId": "parts-of-speech-classes-6",
+      "label": "指示限定詞"
+    },
+    {
+      "itemId": "parts-of-speech-classes-10",
+      "label": "情態副詞"
+    },
+    {
+      "itemId": "parts-of-speech-classes-2",
+      "label": "對等連接詞"
+    },
+    {
+      "itemId": "parts-of-speech-classes-7",
+      "label": "普通名詞"
+    },
+    {
+      "itemId": "parts-of-speech-classes-5",
+      "label": "定冠詞"
+    },
+    {
+      "itemId": "parts-of-speech-classes-9",
+      "label": "描述性形容詞"
+    },
+    {
+      "itemId": "parts-of-speech-classes-3",
+      "label": "從屬連接詞"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各詞類的語法性質（感嘆詞、連接詞、封閉類代詞／限定詞或開放類實詞）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "感嘆詞",
+        "capacity": 1,
+        "itemIds": [
+          "parts-of-speech-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "連接詞",
+        "capacity": 2,
+        "itemIds": [
+          "parts-of-speech-classes-2",
+          "parts-of-speech-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "封閉類指代詞與冠詞",
+        "capacity": 3,
+        "itemIds": [
+          "parts-of-speech-classes-4",
+          "parts-of-speech-classes-5",
+          "parts-of-speech-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "開放類實詞",
+        "capacity": 4,
+        "itemIds": [
+          "parts-of-speech-classes-7",
+          "parts-of-speech-classes-8",
+          "parts-of-speech-classes-9",
+          "parts-of-speech-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依詞類語法性質分類：感嘆詞（感嘆詞）、連接詞（對等連接詞、從屬連接詞）、封閉類指代詞（人稱代名詞、定冠詞、指示限定詞）與開放類實詞（普通名詞、動作動詞、形容詞、情態副詞）。",
+  "sources": [
+    {
+      "title": "Britannica: Part of Speech",
+      "url": "https://www.britannica.com/topic/part-of-speech",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

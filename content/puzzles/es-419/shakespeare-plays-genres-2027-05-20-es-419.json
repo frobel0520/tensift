@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "shakespeare-plays-genres-2027-05-20-es-419",
+  "puzzleFamilyId": "shakespeare-plays-genres-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-20",
+  "timezone": "UTC",
+  "theme": "Obras de Shakespeare por género",
+  "items": [
+    {
+      "itemId": "shakespeare-plays-genres-4",
+      "label": "Noche de reyes"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-8",
+      "label": "Macbeth"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-1",
+      "label": "La tempestad"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-6",
+      "label": "Mucho ruido y pocas nueces"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-10",
+      "label": "El rey Lear"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-2",
+      "label": "Enrique V"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-7",
+      "label": "Hamlet"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-5",
+      "label": "El sueño de una noche de verano"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-9",
+      "label": "Otelo"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-3",
+      "label": "Ricardo III"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Género tradicional de cada obra de Shakespeare",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Romance tardío",
+        "capacity": 1,
+        "itemIds": [
+          "shakespeare-plays-genres-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Obras históricas",
+        "capacity": 2,
+        "itemIds": [
+          "shakespeare-plays-genres-2",
+          "shakespeare-plays-genres-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Comedias",
+        "capacity": 3,
+        "itemIds": [
+          "shakespeare-plays-genres-4",
+          "shakespeare-plays-genres-5",
+          "shakespeare-plays-genres-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Tragedias",
+        "capacity": 4,
+        "itemIds": [
+          "shakespeare-plays-genres-7",
+          "shakespeare-plays-genres-8",
+          "shakespeare-plays-genres-9",
+          "shakespeare-plays-genres-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por género: romance tardío (La tempestad), históricas (Enrique V, Ricardo III), comedias (Noche de reyes, Sueño de una noche de verano, Mucho ruido y pocas nueces) y tragedias (Hamlet, Macbeth, Otelo, El rey Lear).",
+  "sources": [
+    {
+      "title": "Folger Shakespeare Library",
+      "url": "https://www.folger.edu/explore/shakespeares-works/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

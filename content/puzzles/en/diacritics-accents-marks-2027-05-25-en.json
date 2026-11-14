@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "diacritics-accents-marks-2027-05-25-en",
+  "puzzleFamilyId": "diacritics-accents-marks-001",
+  "locale": "en",
+  "publishDate": "2027-05-25",
+  "timezone": "UTC",
+  "theme": "Latin Script Diacritics",
+  "items": [
+    {
+      "itemId": "diacritics-accents-marks-4",
+      "label": "Circumflex (ˆ as in ê)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-8",
+      "label": "Grave Accent (` as in è)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-1",
+      "label": "Cedilla (¸ as in ç)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-6",
+      "label": "Caron / Háček (ˇ as in č)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-10",
+      "label": "Ring Above (˚ as in å)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-2",
+      "label": "Macron (¯ as in ā)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-7",
+      "label": "Acute Accent (´ as in é)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-5",
+      "label": "Tilde (˜ as in ñ)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-9",
+      "label": "Diaeresis / Umlaut (¨ as in ü)"
+    },
+    {
+      "itemId": "diacritics-accents-marks-3",
+      "label": "Breve (˘ as in ă)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Placement and shape family (Subscript Cedilla, Horizontal Length Mark, Curved/Angled Overmark, or Dot/Stroke/Ring Accent)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Below-Letter Hook",
+        "capacity": 1,
+        "itemIds": [
+          "diacritics-accents-marks-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Vowel Length Marks",
+        "capacity": 2,
+        "itemIds": [
+          "diacritics-accents-marks-2",
+          "diacritics-accents-marks-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Angled & Waved Overmarks",
+        "capacity": 3,
+        "itemIds": [
+          "diacritics-accents-marks-4",
+          "diacritics-accents-marks-5",
+          "diacritics-accents-marks-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Slanted, Dotted & Ring Accents",
+        "capacity": 4,
+        "itemIds": [
+          "diacritics-accents-marks-7",
+          "diacritics-accents-marks-8",
+          "diacritics-accents-marks-9",
+          "diacritics-accents-marks-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by placement & shape: Below-letter Cedilla (Cedilla ¸), Vowel Length Bars (Macron ¯, Breve ˘), Angled/Waved Overmarks (Circumflex ˆ, Tilde ˜, Caron ˇ), and Slanted/Dotted/Ring Accents (Acute ´, Grave `, Diaeresis ¨, Ring Above ˚).",
+  "sources": [
+    {
+      "title": "Unicode Combining Diacritical Marks",
+      "url": "https://www.unicode.org/charts/PDF/U0300.pdf",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

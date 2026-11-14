@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ancient-scripts-regions-2027-06-05-en",
+  "puzzleFamilyId": "ancient-scripts-regions-001",
+  "locale": "en",
+  "publishDate": "2027-06-05",
+  "timezone": "UTC",
+  "theme": "Ancient Scripts by Region",
+  "items": [
+    {
+      "itemId": "ancient-scripts-regions-4",
+      "label": "Sumerian Cuneiform"
+    },
+    {
+      "itemId": "ancient-scripts-regions-8",
+      "label": "Egyptian Hieratic"
+    },
+    {
+      "itemId": "ancient-scripts-regions-1",
+      "label": "Linear B"
+    },
+    {
+      "itemId": "ancient-scripts-regions-6",
+      "label": "Old Persian Cuneiform"
+    },
+    {
+      "itemId": "ancient-scripts-regions-10",
+      "label": "Meroitic Script"
+    },
+    {
+      "itemId": "ancient-scripts-regions-2",
+      "label": "Phoenician Alphabet"
+    },
+    {
+      "itemId": "ancient-scripts-regions-7",
+      "label": "Egyptian Hieroglyphs"
+    },
+    {
+      "itemId": "ancient-scripts-regions-5",
+      "label": "Akkadian Cuneiform"
+    },
+    {
+      "itemId": "ancient-scripts-regions-9",
+      "label": "Egyptian Demotic"
+    },
+    {
+      "itemId": "ancient-scripts-regions-3",
+      "label": "Hittite Cuneiform"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Ancient civilization region (Aegean, Levant/Anatolia, Mesopotamia/Persia, or Nile Valley) of each script",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Aegean",
+        "capacity": 1,
+        "itemIds": [
+          "ancient-scripts-regions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Levant & Anatolia",
+        "capacity": 2,
+        "itemIds": [
+          "ancient-scripts-regions-2",
+          "ancient-scripts-regions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Mesopotamia & Persia",
+        "capacity": 3,
+        "itemIds": [
+          "ancient-scripts-regions-4",
+          "ancient-scripts-regions-5",
+          "ancient-scripts-regions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Nile Valley",
+        "capacity": 4,
+        "itemIds": [
+          "ancient-scripts-regions-7",
+          "ancient-scripts-regions-8",
+          "ancient-scripts-regions-9",
+          "ancient-scripts-regions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by ancient region: Aegean (Linear B), Levant & Anatolia (Phoenician Alphabet, Hittite Cuneiform), Mesopotamia & Persia (Sumerian Cuneiform, Akkadian Cuneiform, Old Persian Cuneiform), and Nile Valley (Egyptian Hieroglyphs, Hieratic, Demotic, Meroitic).",
+  "sources": [
+    {
+      "title": "British Museum: Ancient Scripts",
+      "url": "https://www.britishmuseum.org/collection",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

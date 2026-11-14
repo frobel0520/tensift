@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "phonological-syllable-prosody-2027-05-30-en",
+  "puzzleFamilyId": "phonological-syllable-prosody-001",
+  "locale": "en",
+  "publishDate": "2027-05-30",
+  "timezone": "UTC",
+  "theme": "Syllable & Prosody Units",
+  "items": [
+    {
+      "itemId": "phonological-syllable-prosody-4",
+      "label": "Syllable Nucleus"
+    },
+    {
+      "itemId": "phonological-syllable-prosody-8",
+      "label": "Lexical Tone"
+    },
+    {
+      "itemId": "phonological-syllable-prosody-1",
+      "label": "Mora"
+    },
+    {
+      "itemId": "phonological-syllable-prosody-6",
+      "label": "Syllabic Consonant"
+    },
+    {
+      "itemId": "phonological-syllable-prosody-10",
+      "label": "Vowel Length"
+    },
+    {
+      "itemId": "phonological-syllable-prosody-2",
+      "label": "Syllable Onset"
+    },
+    {
+      "itemId": "phonological-syllable-prosody-7",
+      "label": "Lexical Stress"
+    },
+    {
+      "itemId": "phonological-syllable-prosody-5",
+      "label": "Syllable Coda"
+    },
+    {
+      "itemId": "phonological-syllable-prosody-9",
+      "label": "Intonation"
+    },
+    {
+      "itemId": "phonological-syllable-prosody-3",
+      "label": "Syllable Rime"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Phonological level (Mora Weight, Primary Syllable Split, Rime Components, or Suprasegmental Prosody)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Timing Weight Unit",
+        "capacity": 1,
+        "itemIds": [
+          "phonological-syllable-prosody-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Primary Syllable Split",
+        "capacity": 2,
+        "itemIds": [
+          "phonological-syllable-prosody-2",
+          "phonological-syllable-prosody-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Rime Constituents",
+        "capacity": 3,
+        "itemIds": [
+          "phonological-syllable-prosody-4",
+          "phonological-syllable-prosody-5",
+          "phonological-syllable-prosody-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Suprasegmental Prosody",
+        "capacity": 4,
+        "itemIds": [
+          "phonological-syllable-prosody-7",
+          "phonological-syllable-prosody-8",
+          "phonological-syllable-prosody-9",
+          "phonological-syllable-prosody-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by phonological level: Timing weight (Mora), Primary Syllable Split (Onset, Rime), Rime Constituents (Nucleus, Coda, Syllabic Consonant), and Suprasegmental Prosody (Lexical Stress, Lexical Tone, Intonation, Vowel Length).",
+  "sources": [
+    {
+      "title": "Britannica: Phonology & Syllable",
+      "url": "https://www.britannica.com/science/phonology",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.7
+  },
+  "status": "scheduled"
+}

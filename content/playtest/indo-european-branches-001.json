@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "indo-european-branches-001",
+  "theme": "Indo-European Sub-Branches",
+  "publishDate": "2027-05-15",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "indo-european-branches-2",
+        "rivalGroupId": "group-4",
+        "risk": "Lithuanian and Latvian are spoken near Poland and Russia.",
+        "resolution": "Lithuanian and Latvian form the Baltic branch (group-2), separate from both East and West Slavic."
+      },
+      {
+        "itemId": "indo-european-branches-7",
+        "rivalGroupId": "group-3",
+        "risk": "Polish is a major Slavic language spoken east of Germany.",
+        "resolution": "Polish, Czech, Slovak, and Kashubian belong to West Slavic (group-4), using the Latin alphabet rather than Cyrillic (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

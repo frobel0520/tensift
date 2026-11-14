@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "grammatical-cases-roles-2027-05-23-es-419",
+  "puzzleFamilyId": "grammatical-cases-roles-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-23",
+  "timezone": "UTC",
+  "theme": "Casos gramaticales",
+  "items": [
+    {
+      "itemId": "grammatical-cases-roles-4",
+      "label": "Caso nominativo"
+    },
+    {
+      "itemId": "grammatical-cases-roles-8",
+      "label": "Caso locativo"
+    },
+    {
+      "itemId": "grammatical-cases-roles-1",
+      "label": "Caso vocativo"
+    },
+    {
+      "itemId": "grammatical-cases-roles-6",
+      "label": "Caso ergativo"
+    },
+    {
+      "itemId": "grammatical-cases-roles-10",
+      "label": "Caso alativo"
+    },
+    {
+      "itemId": "grammatical-cases-roles-2",
+      "label": "Caso genitivo"
+    },
+    {
+      "itemId": "grammatical-cases-roles-7",
+      "label": "Caso dativo"
+    },
+    {
+      "itemId": "grammatical-cases-roles-5",
+      "label": "Caso acusativo"
+    },
+    {
+      "itemId": "grammatical-cases-roles-9",
+      "label": "Caso instrumental"
+    },
+    {
+      "itemId": "grammatical-cases-roles-3",
+      "label": "Caso ablativo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Función morfosintáctica principal de cada caso",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Apelación directa",
+        "capacity": 1,
+        "itemIds": [
+          "grammatical-cases-roles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Posesión y origen",
+        "capacity": 2,
+        "itemIds": [
+          "grammatical-cases-roles-2",
+          "grammatical-cases-roles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Argumentos nucleares",
+        "capacity": 3,
+        "itemIds": [
+          "grammatical-cases-roles-4",
+          "grammatical-cases-roles-5",
+          "grammatical-cases-roles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Casos indirectos y espaciales",
+        "capacity": 4,
+        "itemIds": [
+          "grammatical-cases-roles-7",
+          "grammatical-cases-roles-8",
+          "grammatical-cases-roles-9",
+          "grammatical-cases-roles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por función: apelación directa (vocativo), posesión/origen (genitivo, ablativo), argumentos nucleares (nominativo, acusativo, ergativo) y relaciones indirectas/espaciales (dativo, locativo, instrumental, alativo).",
+  "sources": [
+    {
+      "title": "Britannica: Grammatical Case",
+      "url": "https://www.britannica.com/topic/case-grammar",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "world-epics-traditions-001",
+  "theme": "World Epics by Tradition",
+  "publishDate": "2027-05-26",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "world-epics-traditions-1",
+        "rivalGroupId": "group-3",
+        "risk": "Gilgamesh is an ancient Mediterranean/Near Eastern hero.",
+        "resolution": "The Epic of Gilgamesh comes from ancient Sumer/Akkad in Mesopotamia (group-1), predating Greek epics (group-3)."
+      },
+      {
+        "itemId": "world-epics-traditions-8",
+        "rivalGroupId": "group-3",
+        "risk": "Virgil, an ancient Roman poet, appears as a guide in the Divine Comedy.",
+        "resolution": "Dante Alighieri wrote the Divine Comedy in 14th-century Medieval Italy (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

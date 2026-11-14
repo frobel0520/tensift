@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "world-epics-traditions-2027-05-26-es-419",
+  "puzzleFamilyId": "world-epics-traditions-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-26",
+  "timezone": "UTC",
+  "theme": "Epopeyas del mundo por tradición",
+  "items": [
+    {
+      "itemId": "world-epics-traditions-4",
+      "label": "Ilíada"
+    },
+    {
+      "itemId": "world-epics-traditions-8",
+      "label": "Divina Comedia"
+    },
+    {
+      "itemId": "world-epics-traditions-1",
+      "label": "Epopeya de Gilgamesh"
+    },
+    {
+      "itemId": "world-epics-traditions-6",
+      "label": "Argonáuticas"
+    },
+    {
+      "itemId": "world-epics-traditions-10",
+      "label": "El paraíso perdido"
+    },
+    {
+      "itemId": "world-epics-traditions-2",
+      "label": "Mahabharata"
+    },
+    {
+      "itemId": "world-epics-traditions-7",
+      "label": "Beowulf"
+    },
+    {
+      "itemId": "world-epics-traditions-5",
+      "label": "Odisea"
+    },
+    {
+      "itemId": "world-epics-traditions-9",
+      "label": "Cantar de Roldán"
+    },
+    {
+      "itemId": "world-epics-traditions-3",
+      "label": "Ramayana"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tradición cultural e histórica de cada epopeya",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Mesopotámica",
+        "capacity": 1,
+        "itemIds": [
+          "world-epics-traditions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Sánscrita india",
+        "capacity": 2,
+        "itemIds": [
+          "world-epics-traditions-2",
+          "world-epics-traditions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Griega antigua",
+        "capacity": 3,
+        "itemIds": [
+          "world-epics-traditions-4",
+          "world-epics-traditions-5",
+          "world-epics-traditions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Europea medieval y renacentista",
+        "capacity": 4,
+        "itemIds": [
+          "world-epics-traditions-7",
+          "world-epics-traditions-8",
+          "world-epics-traditions-9",
+          "world-epics-traditions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por tradición: mesopotámica (Epopeya de Gilgamesh), sánscrita (Mahabharata, Ramayana), griega antigua (Ilíada, Odisea, Argonáuticas) y europea medieval/renacentista (Beowulf, Divina Comedia, Cantar de Roldán, El paraíso perdido).",
+  "sources": [
+    {
+      "title": "Britannica: Epic Literature",
+      "url": "https://www.britannica.com/art/epic",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

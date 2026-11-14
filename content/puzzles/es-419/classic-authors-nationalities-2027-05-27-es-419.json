@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "classic-authors-nationalities-2027-05-27-es-419",
+  "puzzleFamilyId": "classic-authors-nationalities-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-27",
+  "timezone": "UTC",
+  "theme": "Autores clásicos por país",
+  "items": [
+    {
+      "itemId": "classic-authors-nationalities-4",
+      "label": "León Tolstói"
+    },
+    {
+      "itemId": "classic-authors-nationalities-8",
+      "label": "Jane Austen"
+    },
+    {
+      "itemId": "classic-authors-nationalities-1",
+      "label": "Hans Christian Andersen"
+    },
+    {
+      "itemId": "classic-authors-nationalities-6",
+      "label": "Antón Chéjov"
+    },
+    {
+      "itemId": "classic-authors-nationalities-10",
+      "label": "George Orwell"
+    },
+    {
+      "itemId": "classic-authors-nationalities-2",
+      "label": "Hermanos Grimm"
+    },
+    {
+      "itemId": "classic-authors-nationalities-7",
+      "label": "Charles Dickens"
+    },
+    {
+      "itemId": "classic-authors-nationalities-5",
+      "label": "Fiódor Dostoyevski"
+    },
+    {
+      "itemId": "classic-authors-nationalities-9",
+      "label": "Mary Shelley"
+    },
+    {
+      "itemId": "classic-authors-nationalities-3",
+      "label": "E. T. A. Hoffmann"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Nacionalidad de cada autor clásico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Danés",
+        "capacity": 1,
+        "itemIds": [
+          "classic-authors-nationalities-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Alemanes",
+        "capacity": 2,
+        "itemIds": [
+          "classic-authors-nationalities-2",
+          "classic-authors-nationalities-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Rusos",
+        "capacity": 3,
+        "itemIds": [
+          "classic-authors-nationalities-4",
+          "classic-authors-nationalities-5",
+          "classic-authors-nationalities-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Británicos",
+        "capacity": 4,
+        "itemIds": [
+          "classic-authors-nationalities-7",
+          "classic-authors-nationalities-8",
+          "classic-authors-nationalities-9",
+          "classic-authors-nationalities-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por nacionalidad: danés (Hans Christian Andersen), alemanes (hermanos Grimm, E. T. A. Hoffmann), rusos (León Tolstói, Fiódor Dostoyevski, Antón Chéjov) y británicos (Charles Dickens, Jane Austen, Mary Shelley, George Orwell).",
+  "sources": [
+    {
+      "title": "Britannica: World Literature Authors",
+      "url": "https://www.britannica.com/art/Western-literature",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

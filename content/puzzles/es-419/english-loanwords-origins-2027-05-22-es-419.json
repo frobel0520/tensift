@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "english-loanwords-origins-2027-05-22-es-419",
+  "puzzleFamilyId": "english-loanwords-origins-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-22",
+  "timezone": "UTC",
+  "theme": "Préstamos léxicos al inglés",
+  "items": [
+    {
+      "itemId": "english-loanwords-origins-4",
+      "label": "Origami"
+    },
+    {
+      "itemId": "english-loanwords-origins-8",
+      "label": "Cuisine"
+    },
+    {
+      "itemId": "english-loanwords-origins-1",
+      "label": "Yacht"
+    },
+    {
+      "itemId": "english-loanwords-origins-6",
+      "label": "Haiku"
+    },
+    {
+      "itemId": "english-loanwords-origins-10",
+      "label": "Fiancé"
+    },
+    {
+      "itemId": "english-loanwords-origins-2",
+      "label": "Algebra"
+    },
+    {
+      "itemId": "english-loanwords-origins-7",
+      "label": "Ballet"
+    },
+    {
+      "itemId": "english-loanwords-origins-5",
+      "label": "Tsunami"
+    },
+    {
+      "itemId": "english-loanwords-origins-9",
+      "label": "Entrepreneur"
+    },
+    {
+      "itemId": "english-loanwords-origins-3",
+      "label": "Zenith"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Idioma de origen de cada préstamo léxico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Del neerlandés",
+        "capacity": 1,
+        "itemIds": [
+          "english-loanwords-origins-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Del árabe",
+        "capacity": 2,
+        "itemIds": [
+          "english-loanwords-origins-2",
+          "english-loanwords-origins-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Del japonés",
+        "capacity": 3,
+        "itemIds": [
+          "english-loanwords-origins-4",
+          "english-loanwords-origins-5",
+          "english-loanwords-origins-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Del francés",
+        "capacity": 4,
+        "itemIds": [
+          "english-loanwords-origins-7",
+          "english-loanwords-origins-8",
+          "english-loanwords-origins-9",
+          "english-loanwords-origins-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por idioma de origen: neerlandés (yacht), árabe (algebra, zenith), japonés (origami, tsunami, haiku) y francés (ballet, cuisine, entrepreneur, fiancé).",
+  "sources": [
+    {
+      "title": "Oxford English Dictionary: Loanwords",
+      "url": "https://www.oed.com/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

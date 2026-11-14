@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "phonological-syllable-prosody-001",
+  "theme": "Syllable & Prosody Units",
+  "publishDate": "2027-05-30",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "phonological-syllable-prosody-3",
+        "rivalGroupId": "group-3",
+        "risk": "Rime contains the nucleus and coda.",
+        "resolution": "Onset and Rime are the two top-level branches of a syllable (group-2), whereas Nucleus and Coda sit inside the Rime (group-3)."
+      },
+      {
+        "itemId": "phonological-syllable-prosody-1",
+        "rivalGroupId": "group-4",
+        "risk": "Mora relates to syllable timing and length.",
+        "resolution": "A mora is a sub-syllabic weight unit (group-1), distinct from prosodic features like stress, tone, and intonation (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "greek-latin-number-prefixes-2027-05-11-es-419",
+  "puzzleFamilyId": "greek-latin-number-prefixes-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-11",
+  "timezone": "UTC",
+  "theme": "Prefijos numéricos grecolatinos",
+  "items": [
+    {
+      "itemId": "greek-latin-number-prefixes-4",
+      "label": "Tri-"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-8",
+      "label": "Cuadri-"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-1",
+      "label": "Mono-"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-6",
+      "label": "Tern-"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-10",
+      "label": "Cuatern-"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-2",
+      "label": "Bi-"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-7",
+      "label": "Tetra-"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-5",
+      "label": "Ter-"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-9",
+      "label": "Cuart-"
+    },
+    {
+      "itemId": "greek-latin-number-prefixes-3",
+      "label": "Di-"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Valor numérico (1, 2, 3 o 4) de cada prefijo clásico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Representa 1",
+        "capacity": 1,
+        "itemIds": [
+          "greek-latin-number-prefixes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Representa 2",
+        "capacity": 2,
+        "itemIds": [
+          "greek-latin-number-prefixes-2",
+          "greek-latin-number-prefixes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Representa 3",
+        "capacity": 3,
+        "itemIds": [
+          "greek-latin-number-prefixes-4",
+          "greek-latin-number-prefixes-5",
+          "greek-latin-number-prefixes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Representa 4",
+        "capacity": 4,
+        "itemIds": [
+          "greek-latin-number-prefixes-7",
+          "greek-latin-number-prefixes-8",
+          "greek-latin-number-prefixes-9",
+          "greek-latin-number-prefixes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por valor numérico: 1 (mono-), 2 (bi-, di-), 3 (tri-, ter-, tern-) y 4 (tetra-, cuadri-, cuart-, cuatern-).",
+  "sources": [
+    {
+      "title": "Merriam-Webster: Numerical Prefixes",
+      "url": "https://www.merriam-webster.com/dictionary/tetra-",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

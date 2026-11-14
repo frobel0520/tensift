@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "literary-forms-genres-001",
+  "theme": "Literary Forms & Genres",
+  "publishDate": "2027-05-21",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "literary-forms-genres-1",
+        "rivalGroupId": "group-2",
+        "risk": "Epistolary Novel is prose fiction.",
+        "resolution": "An epistolary novel is full-length fiction told through letters/documents (group-1), distinct from short fiction formats (group-2)."
+      },
+      {
+        "itemId": "literary-forms-genres-10",
+        "rivalGroupId": "group-2",
+        "risk": "Memoirs read like stories.",
+        "resolution": "A memoir is factual prose nonfiction recounting lived memories (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "ipa-vowel-height-001",
+  "theme": "IPA Vowels by Tongue Height",
+  "publishDate": "2027-05-13",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "ipa-vowel-height-6",
+        "rivalGroupId": "group-4",
+        "risk": "/ø/ is a rounded front vowel like /y/.",
+        "resolution": "/ø/ is close-mid (group-3), lower than the close vowel /y/ (group-4)."
+      },
+      {
+        "itemId": "ipa-vowel-height-2",
+        "rivalGroupId": "group-3",
+        "risk": "/ɛ/ is an e-like vowel.",
+        "resolution": "/ɛ/ is open-mid (group-2), whereas /e/ is close-mid (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

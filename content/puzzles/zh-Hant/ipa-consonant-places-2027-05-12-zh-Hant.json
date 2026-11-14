@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ipa-consonant-places-2027-05-12-zh-hant",
+  "puzzleFamilyId": "ipa-consonant-places-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-12",
+  "timezone": "UTC",
+  "theme": "國際音標輔音發音部位",
+  "items": [
+    {
+      "itemId": "ipa-consonant-places-4",
+      "label": "/p/（清雙唇塞音）"
+    },
+    {
+      "itemId": "ipa-consonant-places-8",
+      "label": "/d/（濁齒齦塞音）"
+    },
+    {
+      "itemId": "ipa-consonant-places-1",
+      "label": "/h/（清聲門擦音）"
+    },
+    {
+      "itemId": "ipa-consonant-places-6",
+      "label": "/m/（雙唇鼻音）"
+    },
+    {
+      "itemId": "ipa-consonant-places-10",
+      "label": "/s/（清齒齦擦音）"
+    },
+    {
+      "itemId": "ipa-consonant-places-2",
+      "label": "/f/（清唇齒擦音）"
+    },
+    {
+      "itemId": "ipa-consonant-places-7",
+      "label": "/t/（清齒齦塞音）"
+    },
+    {
+      "itemId": "ipa-consonant-places-5",
+      "label": "/b/（濁雙唇塞音）"
+    },
+    {
+      "itemId": "ipa-consonant-places-9",
+      "label": "/n/（齒齦鼻音）"
+    },
+    {
+      "itemId": "ipa-consonant-places-3",
+      "label": "/v/（濁唇齒擦音）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各國際音標輔音的發音部位（聲門、唇齒、雙唇或齒齦）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "聲門音",
+        "capacity": 1,
+        "itemIds": [
+          "ipa-consonant-places-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "唇齒音",
+        "capacity": 2,
+        "itemIds": [
+          "ipa-consonant-places-2",
+          "ipa-consonant-places-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "雙唇音",
+        "capacity": 3,
+        "itemIds": [
+          "ipa-consonant-places-4",
+          "ipa-consonant-places-5",
+          "ipa-consonant-places-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "齒齦音",
+        "capacity": 4,
+        "itemIds": [
+          "ipa-consonant-places-7",
+          "ipa-consonant-places-8",
+          "ipa-consonant-places-9",
+          "ipa-consonant-places-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依發音部位分類：聲門音（/h/）、唇齒音（/f/、/v/）、雙唇音（/p/、/b/、/m/）與齒齦音（/t/、/d/、/n/、/s/）。",
+  "sources": [
+    {
+      "title": "IPA: International Phonetic Alphabet Chart",
+      "url": "https://www.internationalphoneticassociation.org/content/ipa-chart",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

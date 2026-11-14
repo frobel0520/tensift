@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "rhetorical-figures-devices-2027-05-18-es-419",
+  "puzzleFamilyId": "rhetorical-figures-devices-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-18",
+  "timezone": "UTC",
+  "theme": "Figuras retóricas y literarias",
+  "items": [
+    {
+      "itemId": "rhetorical-figures-devices-4",
+      "label": "Símil"
+    },
+    {
+      "itemId": "rhetorical-figures-devices-8",
+      "label": "Epífora"
+    },
+    {
+      "itemId": "rhetorical-figures-devices-1",
+      "label": "Oxímoron"
+    },
+    {
+      "itemId": "rhetorical-figures-devices-6",
+      "label": "Personificación"
+    },
+    {
+      "itemId": "rhetorical-figures-devices-10",
+      "label": "Paralelismo"
+    },
+    {
+      "itemId": "rhetorical-figures-devices-2",
+      "label": "Aliteración"
+    },
+    {
+      "itemId": "rhetorical-figures-devices-7",
+      "label": "Anáfora"
+    },
+    {
+      "itemId": "rhetorical-figures-devices-5",
+      "label": "Metáfora"
+    },
+    {
+      "itemId": "rhetorical-figures-devices-9",
+      "label": "Quiasmo"
+    },
+    {
+      "itemId": "rhetorical-figures-devices-3",
+      "label": "Asonancia"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Mecanismo retórico de cada figura literaria",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Tropos de contradicción",
+        "capacity": 1,
+        "itemIds": [
+          "rhetorical-figures-devices-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Repetición sonora",
+        "capacity": 2,
+        "itemIds": [
+          "rhetorical-figures-devices-2",
+          "rhetorical-figures-devices-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Comparación figurada",
+        "capacity": 3,
+        "itemIds": [
+          "rhetorical-figures-devices-4",
+          "rhetorical-figures-devices-5",
+          "rhetorical-figures-devices-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Repetición y simetría sintáctica",
+        "capacity": 4,
+        "itemIds": [
+          "rhetorical-figures-devices-7",
+          "rhetorical-figures-devices-8",
+          "rhetorical-figures-devices-9",
+          "rhetorical-figures-devices-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por mecanismo: contradicción (oxímoron), repetición sonora (aliteración, asonancia), comparación figurada (símil, metáfora, personificación) y estructura sintáctica (anáfora, epífora, quiasmo, paralelismo).",
+  "sources": [
+    {
+      "title": "Britannica: Figures of Speech",
+      "url": "https://www.britannica.com/art/figure-of-speech",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

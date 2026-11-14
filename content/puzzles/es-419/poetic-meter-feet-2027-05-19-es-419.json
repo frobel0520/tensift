@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "poetic-meter-feet-2027-05-19-es-419",
+  "puzzleFamilyId": "poetic-meter-feet-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-19",
+  "timezone": "UTC",
+  "theme": "Pies métricos clásicos",
+  "items": [
+    {
+      "itemId": "poetic-meter-feet-4",
+      "label": "Anapesto"
+    },
+    {
+      "itemId": "poetic-meter-feet-8",
+      "label": "Jónico menor"
+    },
+    {
+      "itemId": "poetic-meter-feet-1",
+      "label": "Espondeo"
+    },
+    {
+      "itemId": "poetic-meter-feet-6",
+      "label": "Anfíbraco"
+    },
+    {
+      "itemId": "poetic-meter-feet-10",
+      "label": "Peón"
+    },
+    {
+      "itemId": "poetic-meter-feet-2",
+      "label": "Yambo"
+    },
+    {
+      "itemId": "poetic-meter-feet-7",
+      "label": "Coriambo"
+    },
+    {
+      "itemId": "poetic-meter-feet-5",
+      "label": "Dáctilo"
+    },
+    {
+      "itemId": "poetic-meter-feet-9",
+      "label": "Jónico mayor"
+    },
+    {
+      "itemId": "poetic-meter-feet-3",
+      "label": "Troqueo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Número de sílabas y patrón rítmico de cada pie métrico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Pie de doble acento",
+        "capacity": 1,
+        "itemIds": [
+          "poetic-meter-feet-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Pies bisílabos alternantes",
+        "capacity": 2,
+        "itemIds": [
+          "poetic-meter-feet-2",
+          "poetic-meter-feet-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Pies trisílabos",
+        "capacity": 3,
+        "itemIds": [
+          "poetic-meter-feet-4",
+          "poetic-meter-feet-5",
+          "poetic-meter-feet-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Pies tetrasílabos clásicos",
+        "capacity": 4,
+        "itemIds": [
+          "poetic-meter-feet-7",
+          "poetic-meter-feet-8",
+          "poetic-meter-feet-9",
+          "poetic-meter-feet-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por estructura métrica: bisílabo doble acento (espondeo), bisílabos alternantes (yambo, troqueo), trisílabos (anapesto, dáctilo, anfíbraco) y tetrasílabos clásicos (coriambo, jónico menor, jónico mayor, peón).",
+  "sources": [
+    {
+      "title": "Poetry Foundation: Meter Glossary",
+      "url": "https://www.poetryfoundation.org/learn/glossary-terms/meter",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.72
+  },
+  "status": "scheduled"
+}

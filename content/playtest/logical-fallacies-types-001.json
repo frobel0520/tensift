@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "logical-fallacies-types-001",
+  "theme": "Informal Logical Fallacies",
+  "publishDate": "2027-06-06",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "logical-fallacies-types-1",
+        "rivalGroupId": "group-4",
+        "risk": "Circular reasoning is a structural error in inference.",
+        "resolution": "Circular reasoning assumes its own conclusion as a premise (group-1), rather than misstating cause or sample size (group-4)."
+      },
+      {
+        "itemId": "logical-fallacies-types-7",
+        "rivalGroupId": "group-3",
+        "risk": "A false dilemma can distract from nuance.",
+        "resolution": "False dilemma artificially restricts options to two extremes (group-4), unlike personal attacks or topic shifts (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

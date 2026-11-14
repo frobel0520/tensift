@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "mythology-deities-pantheons-001",
+  "theme": "Mythological Deities by Pantheon",
+  "publishDate": "2027-05-31",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "mythology-deities-pantheons-4",
+        "rivalGroupId": "group-4",
+        "risk": "Jupiter is the Roman counterpart of Greek Zeus.",
+        "resolution": "Jupiter, Mars, and Venus are the Roman names (group-3), distinct from Greek Zeus, Athena, Apollo, and Poseidon (group-4)."
+      },
+      {
+        "itemId": "mythology-deities-pantheons-9",
+        "rivalGroupId": "group-3",
+        "risk": "Apollo was also worshiped by the Romans.",
+        "resolution": "Apollo originated in Greek mythology without a separate Roman name (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ancient-scripts-regions-2027-06-05-zh-hant",
+  "puzzleFamilyId": "ancient-scripts-regions-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-05",
+  "timezone": "UTC",
+  "theme": "古代文字系統與發源地區",
+  "items": [
+    {
+      "itemId": "ancient-scripts-regions-4",
+      "label": "蘇美楔形文字"
+    },
+    {
+      "itemId": "ancient-scripts-regions-8",
+      "label": "埃及僧侶體"
+    },
+    {
+      "itemId": "ancient-scripts-regions-1",
+      "label": "線形文字 B"
+    },
+    {
+      "itemId": "ancient-scripts-regions-6",
+      "label": "古波斯楔形文字"
+    },
+    {
+      "itemId": "ancient-scripts-regions-10",
+      "label": "麥羅埃文字"
+    },
+    {
+      "itemId": "ancient-scripts-regions-2",
+      "label": "腓尼基字母"
+    },
+    {
+      "itemId": "ancient-scripts-regions-7",
+      "label": "埃及聖書體"
+    },
+    {
+      "itemId": "ancient-scripts-regions-5",
+      "label": "阿卡德楔形文字"
+    },
+    {
+      "itemId": "ancient-scripts-regions-9",
+      "label": "埃及世俗體"
+    },
+    {
+      "itemId": "ancient-scripts-regions-3",
+      "label": "西台楔形文字"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各古代文字系統發源的文明地區（愛琴海、黎凡特／安那托利亞、美索不達米亞／波斯或尼羅河流域）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "愛琴海文明",
+        "capacity": 1,
+        "itemIds": [
+          "ancient-scripts-regions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "黎凡特與安那托利亞",
+        "capacity": 2,
+        "itemIds": [
+          "ancient-scripts-regions-2",
+          "ancient-scripts-regions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "美索不達米亞與波斯",
+        "capacity": 3,
+        "itemIds": [
+          "ancient-scripts-regions-4",
+          "ancient-scripts-regions-5",
+          "ancient-scripts-regions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "尼羅河流域",
+        "capacity": 4,
+        "itemIds": [
+          "ancient-scripts-regions-7",
+          "ancient-scripts-regions-8",
+          "ancient-scripts-regions-9",
+          "ancient-scripts-regions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依古代文明地區分類：愛琴海（線形文字 B）、黎凡特與安那托利亞（腓尼基字母、西台楔形文字）、美索不達米亞與波斯（蘇美楔形文字、阿卡德楔形文字、古波斯楔形文字）與尼羅河流域（埃及聖書體、僧侶體、世俗體、麥羅埃文字）。",
+  "sources": [
+    {
+      "title": "British Museum: Ancient Scripts",
+      "url": "https://www.britishmuseum.org/collection",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

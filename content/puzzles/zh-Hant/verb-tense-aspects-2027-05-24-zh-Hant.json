@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "verb-tense-aspects-2027-05-24-zh-hant",
+  "puzzleFamilyId": "verb-tense-aspects-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-24",
+  "timezone": "UTC",
+  "theme": "動詞語氣與時貌",
+  "items": [
+    {
+      "itemId": "verb-tense-aspects-4",
+      "label": "現在進行式"
+    },
+    {
+      "itemId": "verb-tense-aspects-8",
+      "label": "過去完成式"
+    },
+    {
+      "itemId": "verb-tense-aspects-1",
+      "label": "祈使語氣"
+    },
+    {
+      "itemId": "verb-tense-aspects-6",
+      "label": "未來進行式"
+    },
+    {
+      "itemId": "verb-tense-aspects-10",
+      "label": "現在完成進行式"
+    },
+    {
+      "itemId": "verb-tense-aspects-2",
+      "label": "假設語氣（虛擬語氣）"
+    },
+    {
+      "itemId": "verb-tense-aspects-7",
+      "label": "現在完成式"
+    },
+    {
+      "itemId": "verb-tense-aspects-5",
+      "label": "過去進行式"
+    },
+    {
+      "itemId": "verb-tense-aspects-9",
+      "label": "未來完成式"
+    },
+    {
+      "itemId": "verb-tense-aspects-3",
+      "label": "條件語氣"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各英語動詞結構所屬的語氣或時貌類別（祈使語氣、假設語氣、進行貌或完成貌）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "命令祈使語氣",
+        "capacity": 1,
+        "itemIds": [
+          "verb-tense-aspects-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "假設與條件語氣",
+        "capacity": 2,
+        "itemIds": [
+          "verb-tense-aspects-2",
+          "verb-tense-aspects-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "進行貌",
+        "capacity": 3,
+        "itemIds": [
+          "verb-tense-aspects-4",
+          "verb-tense-aspects-5",
+          "verb-tense-aspects-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "完成貌",
+        "capacity": 4,
+        "itemIds": [
+          "verb-tense-aspects-7",
+          "verb-tense-aspects-8",
+          "verb-tense-aspects-9",
+          "verb-tense-aspects-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依語氣與時貌分類：祈使語氣（祈使句）、假設／條件語氣（假設語氣、條件語氣）、進行貌（現在進行式、過去進行式、未來進行式）與完成貌（現在完成式、過去完成式、未來完成式、現在完成進行式）。",
+  "sources": [
+    {
+      "title": "Cambridge Grammar: Tense and Aspect",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/tenses-and-time",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

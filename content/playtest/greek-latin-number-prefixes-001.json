@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "greek-latin-number-prefixes-001",
+  "theme": "Classical Number Prefixes",
+  "publishDate": "2027-05-11",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "greek-latin-number-prefixes-5",
+        "rivalGroupId": "group-4",
+        "risk": "Ter- visually resembles Tetra-.",
+        "resolution": "Ter- comes from Latin for thrice/three (group-3, as in tertiary), whereas tetra- is Greek for four (group-4)."
+      },
+      {
+        "itemId": "greek-latin-number-prefixes-3",
+        "rivalGroupId": "group-1",
+        "risk": "Di- can be confused with mono- in chemical names.",
+        "resolution": "Di- means two (group-2, e.g., dioxide), while mono- means one (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

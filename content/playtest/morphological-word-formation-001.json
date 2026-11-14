@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "morphological-word-formation-001",
+  "theme": "Word Formation Processes",
+  "publishDate": "2027-05-28",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "morphological-word-formation-1",
+        "rivalGroupId": "group-2",
+        "risk": "Back-formation shortens an existing word like clipping.",
+        "resolution": "Back-formation removes a perceived affix to create a new part of speech (group-1), whereas clipping shortens a word without changing its category (group-2)."
+      },
+      {
+        "itemId": "morphological-word-formation-2",
+        "rivalGroupId": "group-4",
+        "risk": "Blends combine two words like compounds.",
+        "resolution": "Blends fuse clipped fragments of words (group-2), whereas compounds join whole morphemes/words (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

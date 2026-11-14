@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ipa-consonant-places-2027-05-12-en",
+  "puzzleFamilyId": "ipa-consonant-places-001",
+  "locale": "en",
+  "publishDate": "2027-05-12",
+  "timezone": "UTC",
+  "theme": "IPA Consonant Articulation",
+  "items": [
+    {
+      "itemId": "ipa-consonant-places-4",
+      "label": "/p/ (voiceless bilabial plosive)"
+    },
+    {
+      "itemId": "ipa-consonant-places-8",
+      "label": "/d/ (voiced alveolar plosive)"
+    },
+    {
+      "itemId": "ipa-consonant-places-1",
+      "label": "/h/ (voiceless glottal fricative)"
+    },
+    {
+      "itemId": "ipa-consonant-places-6",
+      "label": "/m/ (bilabial nasal)"
+    },
+    {
+      "itemId": "ipa-consonant-places-10",
+      "label": "/s/ (voiceless alveolar fricative)"
+    },
+    {
+      "itemId": "ipa-consonant-places-2",
+      "label": "/f/ (voiceless labiodental fricative)"
+    },
+    {
+      "itemId": "ipa-consonant-places-7",
+      "label": "/t/ (voiceless alveolar plosive)"
+    },
+    {
+      "itemId": "ipa-consonant-places-5",
+      "label": "/b/ (voiced bilabial plosive)"
+    },
+    {
+      "itemId": "ipa-consonant-places-9",
+      "label": "/n/ (alveolar nasal)"
+    },
+    {
+      "itemId": "ipa-consonant-places-3",
+      "label": "/v/ (voiced labiodental fricative)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Place of articulation (Glottal, Labiodental, Bilabial, or Alveolar) of each IPA consonant",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Glottal",
+        "capacity": 1,
+        "itemIds": [
+          "ipa-consonant-places-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Labiodental",
+        "capacity": 2,
+        "itemIds": [
+          "ipa-consonant-places-2",
+          "ipa-consonant-places-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Bilabial",
+        "capacity": 3,
+        "itemIds": [
+          "ipa-consonant-places-4",
+          "ipa-consonant-places-5",
+          "ipa-consonant-places-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Alveolar",
+        "capacity": 4,
+        "itemIds": [
+          "ipa-consonant-places-7",
+          "ipa-consonant-places-8",
+          "ipa-consonant-places-9",
+          "ipa-consonant-places-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by place of articulation: Glottal (/h/), Labiodental (/f/, /v/), Bilabial (/p/, /b/, /m/), and Alveolar (/t/, /d/, /n/, /s/).",
+  "sources": [
+    {
+      "title": "IPA: International Phonetic Alphabet Chart",
+      "url": "https://www.internationalphoneticassociation.org/content/ipa-chart",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

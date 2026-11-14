@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "dramatic-tragedy-elements-2027-06-04-zh-hant",
+  "puzzleFamilyId": "dramatic-tragedy-elements-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-04",
+  "timezone": "UTC",
+  "theme": "亞里斯多德《詩學》悲劇要素",
+  "items": [
+    {
+      "itemId": "dramatic-tragedy-elements-4",
+      "label": "思想（Dianoia）"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-8",
+      "label": "突轉（Peripeteia）"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-1",
+      "label": "舞台奇觀（Opsis）"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-6",
+      "label": "音樂（Melos）"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-10",
+      "label": "淨化（Catharsis）"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-2",
+      "label": "情節（Mythos）"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-7",
+      "label": "悲劇缺陷（Hamartia）"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-5",
+      "label": "言辭（Lexis）"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-9",
+      "label": "發現（Anagnorisis）"
+    },
+    {
+      "itemId": "dramatic-tragedy-elements-3",
+      "label": "性格（Ethos）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各《詩學》悲劇術語的功能分類（視覺舞台奇觀、情節與性格核心、思想語言音樂或悲劇轉折機制）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "舞台視覺奇觀",
+        "capacity": 1,
+        "itemIds": [
+          "dramatic-tragedy-elements-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "情節與性格核心",
+        "capacity": 2,
+        "itemIds": [
+          "dramatic-tragedy-elements-2",
+          "dramatic-tragedy-elements-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "思想、言辭與音樂",
+        "capacity": 3,
+        "itemIds": [
+          "dramatic-tragedy-elements-4",
+          "dramatic-tragedy-elements-5",
+          "dramatic-tragedy-elements-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "悲劇轉折與淨化機制",
+        "capacity": 4,
+        "itemIds": [
+          "dramatic-tragedy-elements-7",
+          "dramatic-tragedy-elements-8",
+          "dramatic-tragedy-elements-9",
+          "dramatic-tragedy-elements-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依《詩學》悲劇要素分類：視覺奇觀（舞台奇觀 Opsis）、情節與性格核心（情節 Mythos、性格 Ethos）、思想語言音樂（思想 Dianoia、言辭 Lexis、音樂 Melos）與悲劇轉折機制（悲劇缺陷 Hamartia、突轉 Peripeteia、發現 Anagnorisis、淨化 Catharsis）。",
+  "sources": [
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Aristotle's Aesthetics",
+      "url": "https://plato.stanford.edu/entries/aristotle-aesthetics/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.7
+  },
+  "status": "scheduled"
+}

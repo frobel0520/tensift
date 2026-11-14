@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "poetic-meter-feet-2027-05-19-zh-hant",
+  "puzzleFamilyId": "poetic-meter-feet-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-19",
+  "timezone": "UTC",
+  "theme": "西洋詩律音步分類",
+  "items": [
+    {
+      "itemId": "poetic-meter-feet-4",
+      "label": "抑抑揚格（Anapest）"
+    },
+    {
+      "itemId": "poetic-meter-feet-8",
+      "label": "小離子格（Ionic a minore）"
+    },
+    {
+      "itemId": "poetic-meter-feet-1",
+      "label": "揚揚格（Spondee）"
+    },
+    {
+      "itemId": "poetic-meter-feet-6",
+      "label": "抑揚抑格（Amphibrach）"
+    },
+    {
+      "itemId": "poetic-meter-feet-10",
+      "label": "四音節格（Paeon）"
+    },
+    {
+      "itemId": "poetic-meter-feet-2",
+      "label": "抑揚格（Iamb）"
+    },
+    {
+      "itemId": "poetic-meter-feet-7",
+      "label": "揚抑抑揚格（Choriamb）"
+    },
+    {
+      "itemId": "poetic-meter-feet-5",
+      "label": "揚抑抑格（Dactyl）"
+    },
+    {
+      "itemId": "poetic-meter-feet-9",
+      "label": "大離子格（Ionic a majore）"
+    },
+    {
+      "itemId": "poetic-meter-feet-3",
+      "label": "揚抑格（Trochee）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各詩律音步的音節數與重音排列類型（雙重音、二音節升降、三音節或四音節古典音步）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "雙重音步",
+        "capacity": 1,
+        "itemIds": [
+          "poetic-meter-feet-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "抑揚／揚抑二音節音步",
+        "capacity": 2,
+        "itemIds": [
+          "poetic-meter-feet-2",
+          "poetic-meter-feet-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "三音節音步",
+        "capacity": 3,
+        "itemIds": [
+          "poetic-meter-feet-4",
+          "poetic-meter-feet-5",
+          "poetic-meter-feet-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "四音節古典音步",
+        "capacity": 4,
+        "itemIds": [
+          "poetic-meter-feet-7",
+          "poetic-meter-feet-8",
+          "poetic-meter-feet-9",
+          "poetic-meter-feet-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依詩律音步結構分類：雙重音二音步（揚揚格 Spondee）、抑揚／揚抑二音步（抑揚格、揚抑格）、三音節音步（抑抑揚格、揚抑抑格、抑揚抑格）與四音節古典音步（揚抑抑揚格、小離子格、大離子格、四音節一長三短格 Paeon）。",
+  "sources": [
+    {
+      "title": "Poetry Foundation: Meter Glossary",
+      "url": "https://www.poetryfoundation.org/learn/glossary-terms/meter",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.72
+  },
+  "status": "scheduled"
+}

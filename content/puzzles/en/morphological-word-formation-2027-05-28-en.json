@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "morphological-word-formation-2027-05-28-en",
+  "puzzleFamilyId": "morphological-word-formation-001",
+  "locale": "en",
+  "publishDate": "2027-05-28",
+  "timezone": "UTC",
+  "theme": "Word Formation Processes",
+  "items": [
+    {
+      "itemId": "morphological-word-formation-4",
+      "label": "Acronym (e.g., NASA)"
+    },
+    {
+      "itemId": "morphological-word-formation-8",
+      "label": "Suffixation (e.g., kindness)"
+    },
+    {
+      "itemId": "morphological-word-formation-1",
+      "label": "Back-Formation (e.g., edit ← editor)"
+    },
+    {
+      "itemId": "morphological-word-formation-6",
+      "label": "Alphabetic Abbreviation (e.g., etc.)"
+    },
+    {
+      "itemId": "morphological-word-formation-10",
+      "label": "Hyphenated Compound (e.g., well-known)"
+    },
+    {
+      "itemId": "morphological-word-formation-2",
+      "label": "Portmanteau Blend (e.g., brunch)"
+    },
+    {
+      "itemId": "morphological-word-formation-7",
+      "label": "Prefixation (e.g., unhappy)"
+    },
+    {
+      "itemId": "morphological-word-formation-5",
+      "label": "Initialism (e.g., FBI)"
+    },
+    {
+      "itemId": "morphological-word-formation-9",
+      "label": "Closed Compound (e.g., notebook)"
+    },
+    {
+      "itemId": "morphological-word-formation-3",
+      "label": "Clipping (e.g., flu ← influenza)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Morphological mechanism (Back-formation, Blending/Clipping, Abbreviation/Acronym, or Affixation/Compounding)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Back-Formation",
+        "capacity": 1,
+        "itemIds": [
+          "morphological-word-formation-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Blending & Clipping",
+        "capacity": 2,
+        "itemIds": [
+          "morphological-word-formation-2",
+          "morphological-word-formation-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Abbreviation & Initials",
+        "capacity": 3,
+        "itemIds": [
+          "morphological-word-formation-4",
+          "morphological-word-formation-5",
+          "morphological-word-formation-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Affixation & Compounding",
+        "capacity": 4,
+        "itemIds": [
+          "morphological-word-formation-7",
+          "morphological-word-formation-8",
+          "morphological-word-formation-9",
+          "morphological-word-formation-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by word-formation mechanism: Back-formation (Back-formation), Shortening & Blending (Portmanteau Blend, Clipping), Initial-Letter Forms (Acronym, Initialism, Alphabetic Abbreviation), and Affixation/Compounding (Prefixation, Suffixation, Closed Compound, Hyphenated Compound).",
+  "sources": [
+    {
+      "title": "Oxford Research Encyclopedia: Morphology",
+      "url": "https://oxfordre.com/linguistics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.64
+  },
+  "status": "scheduled"
+}
