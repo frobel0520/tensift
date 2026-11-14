@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "photosynthesis-pathways-2027-02-02-en",
+  "puzzleFamilyId": "photosynthesis-pathways-001",
+  "locale": "en",
+  "publishDate": "2027-02-02",
+  "timezone": "UTC",
+  "theme": "Biological Macromolecules",
+  "items": [
+    {
+      "itemId": "photosynthesis-pathways-4",
+      "label": "Starch"
+    },
+    {
+      "itemId": "photosynthesis-pathways-8",
+      "label": "Collagen"
+    },
+    {
+      "itemId": "photosynthesis-pathways-1",
+      "label": "Messenger RNA"
+    },
+    {
+      "itemId": "photosynthesis-pathways-6",
+      "label": "Glycogen"
+    },
+    {
+      "itemId": "photosynthesis-pathways-10",
+      "label": "Insulin"
+    },
+    {
+      "itemId": "photosynthesis-pathways-2",
+      "label": "Triglyceride"
+    },
+    {
+      "itemId": "photosynthesis-pathways-7",
+      "label": "Hemoglobin"
+    },
+    {
+      "itemId": "photosynthesis-pathways-5",
+      "label": "Cellulose"
+    },
+    {
+      "itemId": "photosynthesis-pathways-9",
+      "label": "Keratin"
+    },
+    {
+      "itemId": "photosynthesis-pathways-3",
+      "label": "Cholesterol"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Major class of biomolecule (nucleic acid, lipid, carbohydrate, protein)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Nucleic acid",
+        "capacity": 1,
+        "itemIds": [
+          "photosynthesis-pathways-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Lipids",
+        "capacity": 2,
+        "itemIds": [
+          "photosynthesis-pathways-2",
+          "photosynthesis-pathways-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Carbohydrates",
+        "capacity": 3,
+        "itemIds": [
+          "photosynthesis-pathways-4",
+          "photosynthesis-pathways-5",
+          "photosynthesis-pathways-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Proteins",
+        "capacity": 4,
+        "itemIds": [
+          "photosynthesis-pathways-7",
+          "photosynthesis-pathways-8",
+          "photosynthesis-pathways-9",
+          "photosynthesis-pathways-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by biomolecule class: nucleic acid (messenger RNA), lipids (triglyceride, cholesterol), carbohydrates (starch, cellulose, glycogen), and proteins (hemoglobin, collagen, keratin, insulin).",
+  "sources": [
+    {
+      "title": "NIH NIGMS: Inside the Cell",
+      "url": "https://www.nigms.nih.gov/education/fact-sheets",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.35
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "photosynthesis-pathways-001",
+  "theme": "Biological Macromolecules",
+  "publishDate": "2027-02-02",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "photosynthesis-pathways-10",
+        "rivalGroupId": "group-2",
+        "risk": "Insulin is a hormone, and steroid hormones are lipids.",
+        "resolution": "Insulin is a peptide/protein hormone (group-4), unlike steroid lipids such as cholesterol (group-2)."
+      },
+      {
+        "itemId": "photosynthesis-pathways-6",
+        "rivalGroupId": "group-2",
+        "risk": "Glycogen is stored in the liver like fats.",
+        "resolution": "Glycogen is a branched glucose polysaccharide (carbohydrate, group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

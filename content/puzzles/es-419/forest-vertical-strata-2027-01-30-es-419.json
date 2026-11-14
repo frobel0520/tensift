@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "forest-vertical-strata-2027-01-30-es-419",
+  "puzzleFamilyId": "forest-vertical-strata-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-30",
+  "timezone": "UTC",
+  "theme": "Estratos de la selva tropical",
+  "items": [
+    {
+      "itemId": "forest-vertical-strata-4",
+      "label": "Rana de ojos rojos"
+    },
+    {
+      "itemId": "forest-vertical-strata-8",
+      "label": "Tapir centroamericano"
+    },
+    {
+      "itemId": "forest-vertical-strata-1",
+      "label": "Águila harpía en copa alta"
+    },
+    {
+      "itemId": "forest-vertical-strata-6",
+      "label": "Heliconia de sombra"
+    },
+    {
+      "itemId": "forest-vertical-strata-10",
+      "label": "Hongos descomponedores"
+    },
+    {
+      "itemId": "forest-vertical-strata-2",
+      "label": "Perezoso de tres dedos"
+    },
+    {
+      "itemId": "forest-vertical-strata-7",
+      "label": "Sendero de hormigas cortadoras"
+    },
+    {
+      "itemId": "forest-vertical-strata-5",
+      "label": "Mariposa morfo azul"
+    },
+    {
+      "itemId": "forest-vertical-strata-9",
+      "label": "Oso hormiguero gigante"
+    },
+    {
+      "itemId": "forest-vertical-strata-3",
+      "label": "Tucán pico iris"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Estrato vertical de la selva tropical",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Capa emergente",
+        "capacity": 1,
+        "itemIds": [
+          "forest-vertical-strata-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Dosel",
+        "capacity": 2,
+        "itemIds": [
+          "forest-vertical-strata-2",
+          "forest-vertical-strata-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Sotobosque",
+        "capacity": 3,
+        "itemIds": [
+          "forest-vertical-strata-4",
+          "forest-vertical-strata-5",
+          "forest-vertical-strata-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Suelo del bosque",
+        "capacity": 4,
+        "itemIds": [
+          "forest-vertical-strata-7",
+          "forest-vertical-strata-8",
+          "forest-vertical-strata-9",
+          "forest-vertical-strata-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por estrato vertical de la selva: capa emergente (águila harpía), dosel (perezoso, tucán), sotobosque (rana de ojos rojos, mariposa morfo, heliconia) y suelo del bosque (hormiga cortadora, tapir, oso hormiguero gigante, hongos descomponedores).",
+  "sources": [
+    {
+      "title": "National Geographic: Rainforest Strata",
+      "url": "https://education.nationalgeographic.org/resource/rain-forest/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "plant-modifications-2027-01-29-es-419",
+  "puzzleFamilyId": "plant-modifications-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-29",
+  "timezone": "UTC",
+  "theme": "Órganos vegetales modificados",
+  "items": [
+    {
+      "itemId": "plant-modifications-4",
+      "label": "Zanahoria"
+    },
+    {
+      "itemId": "plant-modifications-8",
+      "label": "Rizoma de jengibre"
+    },
+    {
+      "itemId": "plant-modifications-1",
+      "label": "Clavo de olor"
+    },
+    {
+      "itemId": "plant-modifications-6",
+      "label": "Rábano"
+    },
+    {
+      "itemId": "plant-modifications-10",
+      "label": "Espárrago"
+    },
+    {
+      "itemId": "plant-modifications-2",
+      "label": "Escamas de cebolla"
+    },
+    {
+      "itemId": "plant-modifications-7",
+      "label": "Tubérculo de papa"
+    },
+    {
+      "itemId": "plant-modifications-5",
+      "label": "Camote"
+    },
+    {
+      "itemId": "plant-modifications-9",
+      "label": "Cormo de taro"
+    },
+    {
+      "itemId": "plant-modifications-3",
+      "label": "Cabeza de repollo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Órgano botánico modificado en cada alimento",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Botón floral",
+        "capacity": 1,
+        "itemIds": [
+          "plant-modifications-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Hojas modificadas",
+        "capacity": 2,
+        "itemIds": [
+          "plant-modifications-2",
+          "plant-modifications-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Raíces reservantes",
+        "capacity": 3,
+        "itemIds": [
+          "plant-modifications-4",
+          "plant-modifications-5",
+          "plant-modifications-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Tallos modificados",
+        "capacity": 4,
+        "itemIds": [
+          "plant-modifications-7",
+          "plant-modifications-8",
+          "plant-modifications-9",
+          "plant-modifications-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por órgano botánico: botón floral (clavo de olor), hojas modificadas (bulbo de cebolla, repollo), raíces reservantes (zanahoria, camote, rábano) y tallos modificados (tubérculo de papa, rizoma de jengibre, cormo de taro, espárrago).",
+  "sources": [
+    {
+      "title": "Britannica: Plant Morphology",
+      "url": "https://www.britannica.com/science/plant-anatomy",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

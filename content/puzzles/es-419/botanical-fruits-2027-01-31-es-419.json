@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "botanical-fruits-2027-01-31-es-419",
+  "puzzleFamilyId": "botanical-fruits-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-31",
+  "timezone": "UTC",
+  "theme": "Tipos botánicos de frutos",
+  "items": [
+    {
+      "itemId": "botanical-fruits-4",
+      "label": "Durazno"
+    },
+    {
+      "itemId": "botanical-fruits-8",
+      "label": "Tomate"
+    },
+    {
+      "itemId": "botanical-fruits-1",
+      "label": "Frambuesa"
+    },
+    {
+      "itemId": "botanical-fruits-6",
+      "label": "Mango"
+    },
+    {
+      "itemId": "botanical-fruits-10",
+      "label": "Arándano azul"
+    },
+    {
+      "itemId": "botanical-fruits-2",
+      "label": "Manzana"
+    },
+    {
+      "itemId": "botanical-fruits-7",
+      "label": "Uva"
+    },
+    {
+      "itemId": "botanical-fruits-5",
+      "label": "Cereza"
+    },
+    {
+      "itemId": "botanical-fruits-9",
+      "label": "Plátano"
+    },
+    {
+      "itemId": "botanical-fruits-3",
+      "label": "Pera"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Estructura botánica del fruto",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Fruto agregado",
+        "capacity": 1,
+        "itemIds": [
+          "botanical-fruits-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Pomos",
+        "capacity": 2,
+        "itemIds": [
+          "botanical-fruits-2",
+          "botanical-fruits-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Drupas",
+        "capacity": 3,
+        "itemIds": [
+          "botanical-fruits-4",
+          "botanical-fruits-5",
+          "botanical-fruits-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Bayas botánicas",
+        "capacity": 4,
+        "itemIds": [
+          "botanical-fruits-7",
+          "botanical-fruits-8",
+          "botanical-fruits-9",
+          "botanical-fruits-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por morfología botánica: fruto agregado (frambuesa), pomos (manzana, pera), drupas (durazno, cereza, mango) y bayas botánicas verdaderas (uva, tomate, plátano, arándano).",
+  "sources": [
+    {
+      "title": "Britannica: Fruit",
+      "url": "https://www.britannica.com/science/fruit-plant-reproductive-body",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.72
+  },
+  "status": "scheduled"
+}

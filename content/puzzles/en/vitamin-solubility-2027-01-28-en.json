@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vitamin-solubility-2027-01-28-en",
+  "puzzleFamilyId": "vitamin-solubility-001",
+  "locale": "en",
+  "publishDate": "2027-01-28",
+  "timezone": "UTC",
+  "theme": "Vitamins by Solubility",
+  "items": [
+    {
+      "itemId": "vitamin-solubility-4",
+      "label": "Pyridoxine (B6)"
+    },
+    {
+      "itemId": "vitamin-solubility-8",
+      "label": "Calciferol (Vitamin D)"
+    },
+    {
+      "itemId": "vitamin-solubility-1",
+      "label": "Ascorbic acid (Vitamin C)"
+    },
+    {
+      "itemId": "vitamin-solubility-6",
+      "label": "Cobalamin (B12)"
+    },
+    {
+      "itemId": "vitamin-solubility-10",
+      "label": "Phylloquinone (Vitamin K1)"
+    },
+    {
+      "itemId": "vitamin-solubility-2",
+      "label": "Thiamine (B1)"
+    },
+    {
+      "itemId": "vitamin-solubility-7",
+      "label": "Retinol (Vitamin A)"
+    },
+    {
+      "itemId": "vitamin-solubility-5",
+      "label": "Folate (B9)"
+    },
+    {
+      "itemId": "vitamin-solubility-9",
+      "label": "Tocopherol (Vitamin E)"
+    },
+    {
+      "itemId": "vitamin-solubility-3",
+      "label": "Riboflavin (B2)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Fat-soluble (A, D, E, K) vs water-soluble vitamin subgroups",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Water-soluble Vitamin C",
+        "capacity": 1,
+        "itemIds": [
+          "vitamin-solubility-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Early B-complex (B1, B2)",
+        "capacity": 2,
+        "itemIds": [
+          "vitamin-solubility-2",
+          "vitamin-solubility-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Later B-complex (B6, B9, B12)",
+        "capacity": 3,
+        "itemIds": [
+          "vitamin-solubility-4",
+          "vitamin-solubility-5",
+          "vitamin-solubility-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Fat-soluble vitamins (A, D, E, K)",
+        "capacity": 4,
+        "itemIds": [
+          "vitamin-solubility-7",
+          "vitamin-solubility-8",
+          "vitamin-solubility-9",
+          "vitamin-solubility-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by solubility and class: Vitamin C (ascorbic acid), B-complex coenzymes (B1, B2), B-complex blood/nerve factors (B6, B9, B12), and the four fat-soluble vitamins (A, D, E, K).",
+  "sources": [
+    {
+      "title": "NIH ODS: Vitamin Fact Sheets",
+      "url": "https://ods.od.nih.gov/factsheets/list-VitaminsMinerals/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

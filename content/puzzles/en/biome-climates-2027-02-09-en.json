@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "biome-climates-2027-02-09-en",
+  "puzzleFamilyId": "biome-climates-001",
+  "locale": "en",
+  "publishDate": "2027-02-09",
+  "timezone": "UTC",
+  "theme": "World Biomes",
+  "items": [
+    {
+      "itemId": "biome-climates-4",
+      "label": "Serengeti savanna"
+    },
+    {
+      "itemId": "biome-climates-8",
+      "label": "Siberian boreal taiga"
+    },
+    {
+      "itemId": "biome-climates-1",
+      "label": "Arctic permafrost tundra"
+    },
+    {
+      "itemId": "biome-climates-6",
+      "label": "North American tallgrass prairie"
+    },
+    {
+      "itemId": "biome-climates-10",
+      "label": "Pacific temperate rainforest"
+    },
+    {
+      "itemId": "biome-climates-2",
+      "label": "Sahara sand desert"
+    },
+    {
+      "itemId": "biome-climates-7",
+      "label": "Amazon tropical rainforest"
+    },
+    {
+      "itemId": "biome-climates-5",
+      "label": "Eurasian steppe"
+    },
+    {
+      "itemId": "biome-climates-9",
+      "label": "Temperate deciduous forest"
+    },
+    {
+      "itemId": "biome-climates-3",
+      "label": "Atacama Desert"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Major terrestrial biome category by climate and vegetation",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Polar tundra",
+        "capacity": 1,
+        "itemIds": [
+          "biome-climates-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Arid deserts",
+        "capacity": 2,
+        "itemIds": [
+          "biome-climates-2",
+          "biome-climates-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Grasslands & savannas",
+        "capacity": 3,
+        "itemIds": [
+          "biome-climates-4",
+          "biome-climates-5",
+          "biome-climates-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Forest biomes",
+        "capacity": 4,
+        "itemIds": [
+          "biome-climates-7",
+          "biome-climates-8",
+          "biome-climates-9",
+          "biome-climates-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by terrestrial biome: polar ice/tundra (Arctic permafrost tundra), arid deserts (Sahara erg, Atacama), grasslands/savannas (Serengeti savanna, Eurasian steppe, North American prairie), and forests (Amazon rainforest, Siberian taiga, temperate deciduous forest, Pacific temperate rainforest).",
+  "sources": [
+    {
+      "title": "NASA Earth Observatory: Biomes",
+      "url": "https://earthobservatory.nasa.gov/biome",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.35
+  },
+  "status": "scheduled"
+}

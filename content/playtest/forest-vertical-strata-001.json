@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "forest-vertical-strata-001",
+  "theme": "Rainforest Layers",
+  "publishDate": "2027-01-30",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "forest-vertical-strata-1",
+        "rivalGroupId": "group-2",
+        "risk": "Harpy eagles hunt monkeys in the canopy.",
+        "resolution": "Harpy eagles nest and perch in the tallest emergent trees above the main canopy (group-1)."
+      },
+      {
+        "itemId": "forest-vertical-strata-4",
+        "rivalGroupId": "group-2",
+        "risk": "Tree frogs live in trees.",
+        "resolution": "Red-eyed tree frogs inhabit the shaded understory shrubs and low trees (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

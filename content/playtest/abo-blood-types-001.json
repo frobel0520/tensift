@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "abo-blood-types-001",
+  "theme": "Human Blood Antigens",
+  "publishDate": "2027-01-27",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "abo-blood-types-1",
+        "rivalGroupId": "group-2",
+        "risk": "Both O- and AB+ are universal donor/recipient concepts.",
+        "resolution": "O- is Type O (no A/B antigens, group-1), whereas AB+ is Type AB (both A and B antigens, group-2)."
+      },
+      {
+        "itemId": "abo-blood-types-10",
+        "rivalGroupId": "group-1",
+        "risk": "Genotype BO carries an O allele.",
+        "resolution": "Because B is dominant over O, genotype BO expresses Type B phenotype (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

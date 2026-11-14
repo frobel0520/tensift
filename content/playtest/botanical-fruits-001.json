@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "botanical-fruits-001",
+  "theme": "Botanical Fruit Types",
+  "publishDate": "2027-01-31",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "botanical-fruits-1",
+        "rivalGroupId": "group-4",
+        "risk": "Raspberries are called berries in everyday cooking.",
+        "resolution": "Botanically, a raspberry is an aggregate fruit of many drupelets (group-1), not a berry."
+      },
+      {
+        "itemId": "botanical-fruits-9",
+        "rivalGroupId": "group-3",
+        "risk": "Bananas look nothing like small culinary berries.",
+        "resolution": "Botanically, a banana develops from a single ovary with a fleshy pericarp, making it a true berry (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

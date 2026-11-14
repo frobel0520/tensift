@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "plant-modifications-2027-01-29-en",
+  "puzzleFamilyId": "plant-modifications-001",
+  "locale": "en",
+  "publishDate": "2027-01-29",
+  "timezone": "UTC",
+  "theme": "Modified Plant Organs",
+  "items": [
+    {
+      "itemId": "plant-modifications-4",
+      "label": "Carrot"
+    },
+    {
+      "itemId": "plant-modifications-8",
+      "label": "Ginger rhizome"
+    },
+    {
+      "itemId": "plant-modifications-1",
+      "label": "Clove spice"
+    },
+    {
+      "itemId": "plant-modifications-6",
+      "label": "Radish"
+    },
+    {
+      "itemId": "plant-modifications-10",
+      "label": "Asparagus spear"
+    },
+    {
+      "itemId": "plant-modifications-2",
+      "label": "Onion bulb scales"
+    },
+    {
+      "itemId": "plant-modifications-7",
+      "label": "Potato tuber"
+    },
+    {
+      "itemId": "plant-modifications-5",
+      "label": "Sweet potato"
+    },
+    {
+      "itemId": "plant-modifications-9",
+      "label": "Taro corm"
+    },
+    {
+      "itemId": "plant-modifications-3",
+      "label": "Cabbage head"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Botanical organ (flower bud, leaf, root, or stem) modified in each food",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Modified flower bud",
+        "capacity": 1,
+        "itemIds": [
+          "plant-modifications-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Modified leaves",
+        "capacity": 2,
+        "itemIds": [
+          "plant-modifications-2",
+          "plant-modifications-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Storage roots",
+        "capacity": 3,
+        "itemIds": [
+          "plant-modifications-4",
+          "plant-modifications-5",
+          "plant-modifications-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Modified stems",
+        "capacity": 4,
+        "itemIds": [
+          "plant-modifications-7",
+          "plant-modifications-8",
+          "plant-modifications-9",
+          "plant-modifications-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by botanical organ: flower bud (clove), modified leaves (onion bulb scales, cabbage head), modified storage roots (carrot, sweet potato, radish), and modified stems (potato tuber, ginger rhizome, taro corm, asparagus spear).",
+  "sources": [
+    {
+      "title": "Britannica: Plant Morphology",
+      "url": "https://www.britannica.com/science/plant-anatomy",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

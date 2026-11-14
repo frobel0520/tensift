@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "plant-modifications-001",
+  "theme": "Modified Plant Organs",
+  "publishDate": "2027-01-29",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "plant-modifications-7",
+        "rivalGroupId": "group-3",
+        "risk": "Potatoes grow underground like carrots and sweet potatoes.",
+        "resolution": "A potato tuber is an underground modified stem with nodes (\"eyes\", group-4), whereas a sweet potato is a storage root (group-3)."
+      },
+      {
+        "itemId": "plant-modifications-8",
+        "rivalGroupId": "group-3",
+        "risk": "Ginger grows underground and is often called ginger root.",
+        "resolution": "Botanically, ginger is a horizontal underground stem called a rhizome (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

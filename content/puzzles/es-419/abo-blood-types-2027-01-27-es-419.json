@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "abo-blood-types-2027-01-27-es-419",
+  "puzzleFamilyId": "abo-blood-types-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-27",
+  "timezone": "UTC",
+  "theme": "Sistema sanguíneo ABO",
+  "items": [
+    {
+      "itemId": "abo-blood-types-4",
+      "label": "A positivo"
+    },
+    {
+      "itemId": "abo-blood-types-8",
+      "label": "B negativo"
+    },
+    {
+      "itemId": "abo-blood-types-1",
+      "label": "Donante universal de glóbulos rojos (O-)"
+    },
+    {
+      "itemId": "abo-blood-types-6",
+      "label": "Células A con anticuerpos anti-B"
+    },
+    {
+      "itemId": "abo-blood-types-10",
+      "label": "Tipo B heterocigoto BO"
+    },
+    {
+      "itemId": "abo-blood-types-2",
+      "label": "Receptor universal de glóbulos rojos (AB+)"
+    },
+    {
+      "itemId": "abo-blood-types-7",
+      "label": "B positivo"
+    },
+    {
+      "itemId": "abo-blood-types-5",
+      "label": "A negativo"
+    },
+    {
+      "itemId": "abo-blood-types-9",
+      "label": "Células B con anticuerpos anti-A"
+    },
+    {
+      "itemId": "abo-blood-types-3",
+      "label": "Fenotipo AB negativo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Fenotipo ABO según antígenos en eritrocitos",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Tipo O (sin antígenos A ni B)",
+        "capacity": 1,
+        "itemIds": [
+          "abo-blood-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Tipo AB (antígenos A y B)",
+        "capacity": 2,
+        "itemIds": [
+          "abo-blood-types-2",
+          "abo-blood-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Tipo A (solo antígeno A)",
+        "capacity": 3,
+        "itemIds": [
+          "abo-blood-types-4",
+          "abo-blood-types-5",
+          "abo-blood-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Tipo B (solo antígeno B)",
+        "capacity": 4,
+        "itemIds": [
+          "abo-blood-types-7",
+          "abo-blood-types-8",
+          "abo-blood-types-9",
+          "abo-blood-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por antígeno ABO: Tipo O (sin antígenos A ni B), Tipo AB (antígenos A y B), Tipo A (solo antígeno A) y Tipo B (solo antígeno B).",
+  "sources": [
+    {
+      "title": "WHO: Blood Safety and Availability",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/blood-safety-and-availability",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

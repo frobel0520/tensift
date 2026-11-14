@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "human-brain-lobes-2027-02-03-zh-hant",
+  "puzzleFamilyId": "human-brain-lobes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-02-03",
+  "timezone": "UTC",
+  "theme": "人腦構造與腦葉",
+  "items": [
+    {
+      "itemId": "human-brain-lobes-4",
+      "label": "海馬迴"
+    },
+    {
+      "itemId": "human-brain-lobes-8",
+      "label": "頂葉"
+    },
+    {
+      "itemId": "human-brain-lobes-1",
+      "label": "小腦"
+    },
+    {
+      "itemId": "human-brain-lobes-6",
+      "label": "視丘"
+    },
+    {
+      "itemId": "human-brain-lobes-10",
+      "label": "枕葉"
+    },
+    {
+      "itemId": "human-brain-lobes-2",
+      "label": "橋腦"
+    },
+    {
+      "itemId": "human-brain-lobes-7",
+      "label": "額葉"
+    },
+    {
+      "itemId": "human-brain-lobes-5",
+      "label": "杏仁核"
+    },
+    {
+      "itemId": "human-brain-lobes-9",
+      "label": "顳葉"
+    },
+    {
+      "itemId": "human-brain-lobes-3",
+      "label": "延腦"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各構造所屬的腦部解剖分區",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "小腦",
+        "capacity": 1,
+        "itemIds": [
+          "human-brain-lobes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "腦幹",
+        "capacity": 2,
+        "itemIds": [
+          "human-brain-lobes-2",
+          "human-brain-lobes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "皮質下邊緣與視丘",
+        "capacity": 3,
+        "itemIds": [
+          "human-brain-lobes-4",
+          "human-brain-lobes-5",
+          "human-brain-lobes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "大腦皮質四葉",
+        "capacity": 4,
+        "itemIds": [
+          "human-brain-lobes-7",
+          "human-brain-lobes-8",
+          "human-brain-lobes-9",
+          "human-brain-lobes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依腦部解剖分區分類：小腦、腦幹（橋腦、延腦）、皮質下邊緣／視丘構造（海馬迴、杏仁核、視丘）與大腦皮質四葉（額葉、頂葉、顳葉、枕葉）。",
+  "sources": [
+    {
+      "title": "NIH NINDS: Brain Basics",
+      "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

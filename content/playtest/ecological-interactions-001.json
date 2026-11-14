@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "ecological-interactions-001",
+  "theme": "Ecological Relationships",
+  "publishDate": "2027-02-04",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "ecological-interactions-2",
+        "rivalGroupId": "group-3",
+        "risk": "Heavy barnacle loads are sometimes debated.",
+        "resolution": "In standard ecology textbooks, whale barnacles are the classic example of commensalism (+/0, group-2)."
+      },
+      {
+        "itemId": "ecological-interactions-10",
+        "rivalGroupId": "group-2",
+        "risk": "Lichens grow on bark like epiphytes.",
+        "resolution": "Within a lichen, the fungus and alga/cyanobacterium exchange nutrients and shelter mutually (+/+, group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

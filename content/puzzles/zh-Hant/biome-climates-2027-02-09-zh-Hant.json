@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "biome-climates-2027-02-09-zh-hant",
+  "puzzleFamilyId": "biome-climates-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-02-09",
+  "timezone": "UTC",
+  "theme": "陸域生態系（生物群系）",
+  "items": [
+    {
+      "itemId": "biome-climates-4",
+      "label": "塞倫蓋提莽原"
+    },
+    {
+      "itemId": "biome-climates-8",
+      "label": "西伯利亞北方針葉林"
+    },
+    {
+      "itemId": "biome-climates-1",
+      "label": "北極永凍苔原"
+    },
+    {
+      "itemId": "biome-climates-6",
+      "label": "北美高草草原"
+    },
+    {
+      "itemId": "biome-climates-10",
+      "label": "太平洋溫帶雨林"
+    },
+    {
+      "itemId": "biome-climates-2",
+      "label": "撒哈拉沙漠"
+    },
+    {
+      "itemId": "biome-climates-7",
+      "label": "亞馬遜熱帶雨林"
+    },
+    {
+      "itemId": "biome-climates-5",
+      "label": "歐亞大草原"
+    },
+    {
+      "itemId": "biome-climates-9",
+      "label": "溫帶落葉闊葉林"
+    },
+    {
+      "itemId": "biome-climates-3",
+      "label": "阿塔卡馬沙漠"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各生態區所屬的陸域生物群系大類",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "極地苔原",
+        "capacity": 1,
+        "itemIds": [
+          "biome-climates-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "乾旱沙漠",
+        "capacity": 2,
+        "itemIds": [
+          "biome-climates-2",
+          "biome-climates-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "草原與熱帶莽原",
+        "capacity": 3,
+        "itemIds": [
+          "biome-climates-4",
+          "biome-climates-5",
+          "biome-climates-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "森林群系",
+        "capacity": 4,
+        "itemIds": [
+          "biome-climates-7",
+          "biome-climates-8",
+          "biome-climates-9",
+          "biome-climates-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依陸域生物群系分類：極地苔原（北極永凍苔原）、乾旱荒漠（撒哈拉沙漠、阿塔卡馬沙漠）、草原與莽原（塞倫蓋提莽原、歐亞大草原、北美大草原）與森林群系（亞馬遜雨林、西伯利亞針葉林、溫帶落葉林、溫帶雨林）。",
+  "sources": [
+    {
+      "title": "NASA Earth Observatory: Biomes",
+      "url": "https://earthobservatory.nasa.gov/biome",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.35
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "human-skeleton-regions-2027-02-01-zh-hant",
+  "puzzleFamilyId": "human-skeleton-regions-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-02-01",
+  "timezone": "UTC",
+  "theme": "人體骨骼部位",
+  "items": [
+    {
+      "itemId": "human-skeleton-regions-4",
+      "label": "肱骨"
+    },
+    {
+      "itemId": "human-skeleton-regions-8",
+      "label": "脛骨"
+    },
+    {
+      "itemId": "human-skeleton-regions-1",
+      "label": "胸骨"
+    },
+    {
+      "itemId": "human-skeleton-regions-6",
+      "label": "尺骨"
+    },
+    {
+      "itemId": "human-skeleton-regions-10",
+      "label": "髕骨（膝蓋骨）"
+    },
+    {
+      "itemId": "human-skeleton-regions-2",
+      "label": "下頷骨"
+    },
+    {
+      "itemId": "human-skeleton-regions-7",
+      "label": "股骨"
+    },
+    {
+      "itemId": "human-skeleton-regions-5",
+      "label": "橈骨"
+    },
+    {
+      "itemId": "human-skeleton-regions-9",
+      "label": "腓骨"
+    },
+    {
+      "itemId": "human-skeleton-regions-3",
+      "label": "上頷骨"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各骨骼所屬的人體解剖部位",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "胸廓中線",
+        "capacity": 1,
+        "itemIds": [
+          "human-skeleton-regions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "頭顱與頷骨",
+        "capacity": 2,
+        "itemIds": [
+          "human-skeleton-regions-2",
+          "human-skeleton-regions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "上肢骨骼",
+        "capacity": 3,
+        "itemIds": [
+          "human-skeleton-regions-4",
+          "human-skeleton-regions-5",
+          "human-skeleton-regions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "下肢骨骼",
+        "capacity": 4,
+        "itemIds": [
+          "human-skeleton-regions-7",
+          "human-skeleton-regions-8",
+          "human-skeleton-regions-9",
+          "human-skeleton-regions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依解剖部位歸類：胸廓（胸骨）、頭顱（下頷骨、上頷骨）、上肢（肱骨、橈骨、尺骨）與下肢（股骨、脛骨、腓骨、髕骨）。",
+  "sources": [
+    {
+      "title": "NIH SEER: Skeletal System",
+      "url": "https://training.seer.cancer.gov/anatomy/skeletal/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.38
+  },
+  "status": "scheduled"
+}

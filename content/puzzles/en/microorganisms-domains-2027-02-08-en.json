@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "microorganisms-domains-2027-02-08-en",
+  "puzzleFamilyId": "microorganisms-domains-001",
+  "locale": "en",
+  "publishDate": "2027-02-08",
+  "timezone": "UTC",
+  "theme": "Microbiology",
+  "items": [
+    {
+      "itemId": "microorganisms-domains-4",
+      "label": "Baker’s yeast"
+    },
+    {
+      "itemId": "microorganisms-domains-8",
+      "label": "Lactobacillus"
+    },
+    {
+      "itemId": "microorganisms-domains-1",
+      "label": "Bacteriophage T4"
+    },
+    {
+      "itemId": "microorganisms-domains-6",
+      "label": "Amoeba"
+    },
+    {
+      "itemId": "microorganisms-domains-10",
+      "label": "Streptococcus"
+    },
+    {
+      "itemId": "microorganisms-domains-2",
+      "label": "Extreme halophile archaeon"
+    },
+    {
+      "itemId": "microorganisms-domains-7",
+      "label": "E. coli"
+    },
+    {
+      "itemId": "microorganisms-domains-5",
+      "label": "Paramecium"
+    },
+    {
+      "itemId": "microorganisms-domains-9",
+      "label": "Cyanobacteria"
+    },
+    {
+      "itemId": "microorganisms-domains-3",
+      "label": "Methanogen"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Biological kingdom/domain or acellular status of each microbe",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Acellular virus",
+        "capacity": 1,
+        "itemIds": [
+          "microorganisms-domains-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Archaea",
+        "capacity": 2,
+        "itemIds": [
+          "microorganisms-domains-2",
+          "microorganisms-domains-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Microbial eukaryotes",
+        "capacity": 3,
+        "itemIds": [
+          "microorganisms-domains-4",
+          "microorganisms-domains-5",
+          "microorganisms-domains-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Bacteria",
+        "capacity": 4,
+        "itemIds": [
+          "microorganisms-domains-7",
+          "microorganisms-domains-8",
+          "microorganisms-domains-9",
+          "microorganisms-domains-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by microbial type: acellular virus (bacteriophage T4), archaea (halophile archaeon, methanogen), unicellular eukaryotes/fungi (baker’s yeast, Paramecium, Amoeba), and bacteria (E. coli, Lactobacillus, Cyanobacteria, Streptococcus).",
+  "sources": [
+    {
+      "title": "ASM: Microbial Diversity",
+      "url": "https://asm.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.54
+  },
+  "status": "scheduled"
+}

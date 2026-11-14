@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "vitamin-solubility-001",
+  "theme": "Vitamins by Solubility",
+  "publishDate": "2027-01-28",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "vitamin-solubility-1",
+        "rivalGroupId": "group-4",
+        "risk": "Vitamin C is an antioxidant like Vitamin E.",
+        "resolution": "Vitamin C is water-soluble (group-1), whereas Vitamin E is fat-soluble (group-4)."
+      },
+      {
+        "itemId": "vitamin-solubility-5",
+        "rivalGroupId": "group-2",
+        "risk": "All B vitamins are water-soluble.",
+        "resolution": "Folate (B9) belongs with B6 and B12 in the later B-complex group (group-3), distinct from B1/B2 (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

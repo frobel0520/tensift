@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "abo-blood-types-2027-01-27-zh-hant",
+  "puzzleFamilyId": "abo-blood-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-01-27",
+  "timezone": "UTC",
+  "theme": "ABO 血型系統",
+  "items": [
+    {
+      "itemId": "abo-blood-types-4",
+      "label": "A 陽性"
+    },
+    {
+      "itemId": "abo-blood-types-8",
+      "label": "B 陰性"
+    },
+    {
+      "itemId": "abo-blood-types-1",
+      "label": "全適紅血球捐血者（O-）"
+    },
+    {
+      "itemId": "abo-blood-types-6",
+      "label": "帶抗 B 抗體的 A 抗原血球"
+    },
+    {
+      "itemId": "abo-blood-types-10",
+      "label": "基因型 BO 的 B 型血"
+    },
+    {
+      "itemId": "abo-blood-types-2",
+      "label": "全適紅血球受血者（AB+）"
+    },
+    {
+      "itemId": "abo-blood-types-7",
+      "label": "B 陽性"
+    },
+    {
+      "itemId": "abo-blood-types-5",
+      "label": "A 陰性"
+    },
+    {
+      "itemId": "abo-blood-types-9",
+      "label": "帶抗 A 抗體的 B 抗原血球"
+    },
+    {
+      "itemId": "abo-blood-types-3",
+      "label": "AB 陰性血型"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "紅血球表面的 ABO 抗原表現型",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "O 型（無 A 與 B 抗原）",
+        "capacity": 1,
+        "itemIds": [
+          "abo-blood-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "AB 型（兼有 A 與 B 抗原）",
+        "capacity": 2,
+        "itemIds": [
+          "abo-blood-types-2",
+          "abo-blood-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "A 型（僅 A 抗原）",
+        "capacity": 3,
+        "itemIds": [
+          "abo-blood-types-4",
+          "abo-blood-types-5",
+          "abo-blood-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "B 型（僅 B 抗原）",
+        "capacity": 4,
+        "itemIds": [
+          "abo-blood-types-7",
+          "abo-blood-types-8",
+          "abo-blood-types-9",
+          "abo-blood-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依紅血球表面抗原分類：O 型（無 A/B 抗原）、AB 型（同時含 A 與 B 抗原）、A 型（僅含 A 抗原）與 B 型（僅含 B 抗原）。",
+  "sources": [
+    {
+      "title": "WHO: Blood Safety and Availability",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/blood-safety-and-availability",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

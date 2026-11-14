@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "microorganisms-domains-2027-02-08-zh-hant",
+  "puzzleFamilyId": "microorganisms-domains-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-02-08",
+  "timezone": "UTC",
+  "theme": "微生物分類",
+  "items": [
+    {
+      "itemId": "microorganisms-domains-4",
+      "label": "麵包酵母菌"
+    },
+    {
+      "itemId": "microorganisms-domains-8",
+      "label": "乳酸桿菌"
+    },
+    {
+      "itemId": "microorganisms-domains-1",
+      "label": "T4 噬菌體"
+    },
+    {
+      "itemId": "microorganisms-domains-6",
+      "label": "變形蟲"
+    },
+    {
+      "itemId": "microorganisms-domains-10",
+      "label": "鏈球菌"
+    },
+    {
+      "itemId": "microorganisms-domains-2",
+      "label": "極端嗜鹽古菌"
+    },
+    {
+      "itemId": "microorganisms-domains-7",
+      "label": "大腸桿菌"
+    },
+    {
+      "itemId": "microorganisms-domains-5",
+      "label": "草履蟲"
+    },
+    {
+      "itemId": "microorganisms-domains-9",
+      "label": "藍綠菌"
+    },
+    {
+      "itemId": "microorganisms-domains-3",
+      "label": "產甲烷古菌"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各微生物的生物界／域或非細胞分類",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "非細胞病毒",
+        "capacity": 1,
+        "itemIds": [
+          "microorganisms-domains-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "古菌域",
+        "capacity": 2,
+        "itemIds": [
+          "microorganisms-domains-2",
+          "microorganisms-domains-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "單細胞真核微生物",
+        "capacity": 3,
+        "itemIds": [
+          "microorganisms-domains-4",
+          "microorganisms-domains-5",
+          "microorganisms-domains-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "細菌域",
+        "capacity": 4,
+        "itemIds": [
+          "microorganisms-domains-7",
+          "microorganisms-domains-8",
+          "microorganisms-domains-9",
+          "microorganisms-domains-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依微生物分類歸類：非細胞病毒（T4 噬菌體）、古菌域（嗜鹽古菌、產甲烷菌）、單細胞真核微生物（麵包酵母、草履蟲、變形蟲）與細菌域（大腸桿菌、乳酸桿菌、藍綠菌、鏈球菌）。",
+  "sources": [
+    {
+      "title": "ASM: Microbial Diversity",
+      "url": "https://asm.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.54
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "forest-vertical-strata-2027-01-30-zh-hant",
+  "puzzleFamilyId": "forest-vertical-strata-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-01-30",
+  "timezone": "UTC",
+  "theme": "熱帶雨林垂直分層",
+  "items": [
+    {
+      "itemId": "forest-vertical-strata-4",
+      "label": "紅眼樹蛙"
+    },
+    {
+      "itemId": "forest-vertical-strata-8",
+      "label": "中美貘"
+    },
+    {
+      "itemId": "forest-vertical-strata-1",
+      "label": "角鵰棲息高枝"
+    },
+    {
+      "itemId": "forest-vertical-strata-6",
+      "label": "耐陰赫蕉"
+    },
+    {
+      "itemId": "forest-vertical-strata-10",
+      "label": "落葉分解真菌"
+    },
+    {
+      "itemId": "forest-vertical-strata-2",
+      "label": "三趾樹懶"
+    },
+    {
+      "itemId": "forest-vertical-strata-7",
+      "label": "切葉蟻隊伍"
+    },
+    {
+      "itemId": "forest-vertical-strata-5",
+      "label": "大藍閃蝶"
+    },
+    {
+      "itemId": "forest-vertical-strata-9",
+      "label": "大食蟻獸"
+    },
+    {
+      "itemId": "forest-vertical-strata-3",
+      "label": "彩虹巨嘴鳥"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各生物或微環境所處的熱帶雨林垂直分層",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "露生層（最高樹冠）",
+        "capacity": 1,
+        "itemIds": [
+          "forest-vertical-strata-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "樹冠層",
+        "capacity": 2,
+        "itemIds": [
+          "forest-vertical-strata-2",
+          "forest-vertical-strata-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "林下層",
+        "capacity": 3,
+        "itemIds": [
+          "forest-vertical-strata-4",
+          "forest-vertical-strata-5",
+          "forest-vertical-strata-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "森林地面層",
+        "capacity": 4,
+        "itemIds": [
+          "forest-vertical-strata-7",
+          "forest-vertical-strata-8",
+          "forest-vertical-strata-9",
+          "forest-vertical-strata-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依熱帶雨林垂直分層歸類：露生層（角鵰）、樹冠層（樹懶、巨嘴鳥）、林下層（紅眼樹蛙、大藍閃蝶、赫蕉）與林床地面層（切葉蟻、貘、大食蟻獸、分解真菌）。",
+  "sources": [
+    {
+      "title": "National Geographic: Rainforest Strata",
+      "url": "https://education.nationalgeographic.org/resource/rain-forest/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

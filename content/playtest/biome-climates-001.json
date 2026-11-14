@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "biome-climates-001",
+  "theme": "World Biomes",
+  "publishDate": "2027-02-09",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "biome-climates-1",
+        "rivalGroupId": "group-2",
+        "risk": "Arctic tundra receives very little precipitation like a desert.",
+        "resolution": "Tundra is classified as its own cold permafrost biome (group-1), separate from arid deserts (group-2)."
+      },
+      {
+        "itemId": "biome-climates-8",
+        "rivalGroupId": "group-1",
+        "risk": "Taiga lies at high northern latitudes near the tundra.",
+        "resolution": "Taiga is a boreal coniferous forest biome (group-4), whereas tundra is treeless (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

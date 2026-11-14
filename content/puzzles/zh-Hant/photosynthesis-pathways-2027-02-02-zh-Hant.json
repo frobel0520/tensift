@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "photosynthesis-pathways-2027-02-02-zh-hant",
+  "puzzleFamilyId": "photosynthesis-pathways-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-02-02",
+  "timezone": "UTC",
+  "theme": "生物四大巨分子",
+  "items": [
+    {
+      "itemId": "photosynthesis-pathways-4",
+      "label": "澱粉"
+    },
+    {
+      "itemId": "photosynthesis-pathways-8",
+      "label": "膠原蛋白"
+    },
+    {
+      "itemId": "photosynthesis-pathways-1",
+      "label": "信使 RNA"
+    },
+    {
+      "itemId": "photosynthesis-pathways-6",
+      "label": "肝醣"
+    },
+    {
+      "itemId": "photosynthesis-pathways-10",
+      "label": "胰島素"
+    },
+    {
+      "itemId": "photosynthesis-pathways-2",
+      "label": "三酸甘油酯"
+    },
+    {
+      "itemId": "photosynthesis-pathways-7",
+      "label": "血紅素"
+    },
+    {
+      "itemId": "photosynthesis-pathways-5",
+      "label": "纖維素"
+    },
+    {
+      "itemId": "photosynthesis-pathways-9",
+      "label": "角蛋白"
+    },
+    {
+      "itemId": "photosynthesis-pathways-3",
+      "label": "膽固醇"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各物質所屬的生物巨分子類別",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "核酸",
+        "capacity": 1,
+        "itemIds": [
+          "photosynthesis-pathways-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "脂質",
+        "capacity": 2,
+        "itemIds": [
+          "photosynthesis-pathways-2",
+          "photosynthesis-pathways-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "醣類（碳水化合物）",
+        "capacity": 3,
+        "itemIds": [
+          "photosynthesis-pathways-4",
+          "photosynthesis-pathways-5",
+          "photosynthesis-pathways-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "蛋白質",
+        "capacity": 4,
+        "itemIds": [
+          "photosynthesis-pathways-7",
+          "photosynthesis-pathways-8",
+          "photosynthesis-pathways-9",
+          "photosynthesis-pathways-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依生物巨分子四大類歸類：核酸（信使 RNA）、脂質（三酸甘油酯、膽固醇）、醣類（澱粉、纖維素、肝醣）與蛋白質（血紅素、膠原蛋白、角蛋白、胰島素）。",
+  "sources": [
+    {
+      "title": "NIH NIGMS: Inside the Cell",
+      "url": "https://www.nigms.nih.gov/education/fact-sheets",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.35
+  },
+  "status": "scheduled"
+}

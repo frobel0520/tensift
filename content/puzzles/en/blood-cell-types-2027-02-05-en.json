@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "blood-cell-types-2027-02-05-en",
+  "puzzleFamilyId": "blood-cell-types-001",
+  "locale": "en",
+  "publishDate": "2027-02-05",
+  "timezone": "UTC",
+  "theme": "Blood Components",
+  "items": [
+    {
+      "itemId": "blood-cell-types-4",
+      "label": "Erythrocyte"
+    },
+    {
+      "itemId": "blood-cell-types-8",
+      "label": "Lymphocyte"
+    },
+    {
+      "itemId": "blood-cell-types-1",
+      "label": "Blood plasma"
+    },
+    {
+      "itemId": "blood-cell-types-6",
+      "label": "Normoblast"
+    },
+    {
+      "itemId": "blood-cell-types-10",
+      "label": "Eosinophil"
+    },
+    {
+      "itemId": "blood-cell-types-2",
+      "label": "Platelet (thrombocyte)"
+    },
+    {
+      "itemId": "blood-cell-types-7",
+      "label": "Neutrophil"
+    },
+    {
+      "itemId": "blood-cell-types-5",
+      "label": "Reticulocyte"
+    },
+    {
+      "itemId": "blood-cell-types-9",
+      "label": "Monocyte"
+    },
+    {
+      "itemId": "blood-cell-types-3",
+      "label": "Megakaryocyte fragment"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Hematological component: plasma, platelets, erythrocytes, or leukocytes",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Liquid matrix",
+        "capacity": 1,
+        "itemIds": [
+          "blood-cell-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Platelet clotting lineage",
+        "capacity": 2,
+        "itemIds": [
+          "blood-cell-types-2",
+          "blood-cell-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Red blood cell lineage",
+        "capacity": 3,
+        "itemIds": [
+          "blood-cell-types-4",
+          "blood-cell-types-5",
+          "blood-cell-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "White blood cells (leukocytes)",
+        "capacity": 4,
+        "itemIds": [
+          "blood-cell-types-7",
+          "blood-cell-types-8",
+          "blood-cell-types-9",
+          "blood-cell-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by blood component: liquid plasma, clotting platelets (thrombocytes, megakaryocyte fragments), oxygen-carrying red blood cell forms (erythrocyte, reticulocyte, normoblast), and white blood cell leukocytes (neutrophil, lymphocyte, monocyte, eosinophil).",
+  "sources": [
+    {
+      "title": "NIH NHLBI: What Is Blood?",
+      "url": "https://www.nhlbi.nih.gov/health/blood",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}
