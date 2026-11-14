@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "stellar-spectral-classes-2027-06-07-en",
+  "puzzleFamilyId": "stellar-spectral-classes-001",
+  "locale": "en",
+  "publishDate": "2027-06-07",
+  "timezone": "UTC",
+  "theme": "Stellar Spectral Classes",
+  "items": [
+    {
+      "itemId": "stellar-spectral-classes-4",
+      "label": "Class F"
+    },
+    {
+      "itemId": "stellar-spectral-classes-8",
+      "label": "Class L (Brown Dwarf)"
+    },
+    {
+      "itemId": "stellar-spectral-classes-1",
+      "label": "Class O"
+    },
+    {
+      "itemId": "stellar-spectral-classes-6",
+      "label": "Class K"
+    },
+    {
+      "itemId": "stellar-spectral-classes-10",
+      "label": "Class Y (Ultracool Dwarf)"
+    },
+    {
+      "itemId": "stellar-spectral-classes-2",
+      "label": "Class B"
+    },
+    {
+      "itemId": "stellar-spectral-classes-7",
+      "label": "Class M (Red Dwarf)"
+    },
+    {
+      "itemId": "stellar-spectral-classes-5",
+      "label": "Class G (Solar)"
+    },
+    {
+      "itemId": "stellar-spectral-classes-9",
+      "label": "Class T (Methane Dwarf)"
+    },
+    {
+      "itemId": "stellar-spectral-classes-3",
+      "label": "Class A"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Temperature tier (Hottest Blue O-Type, Blue-White B/A, Solar-Like F/G/K, or Cool Red/Brown Dwarfs)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Hottest Blue (>30,000 K)",
+        "capacity": 1,
+        "itemIds": [
+          "stellar-spectral-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Hot Blue-White (7,500–30,000 K)",
+        "capacity": 2,
+        "itemIds": [
+          "stellar-spectral-classes-2",
+          "stellar-spectral-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Intermediate F/G/K (3,700–7,500 K)",
+        "capacity": 3,
+        "itemIds": [
+          "stellar-spectral-classes-4",
+          "stellar-spectral-classes-5",
+          "stellar-spectral-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Cool Red & Brown Dwarfs (<3,700 K)",
+        "capacity": 4,
+        "itemIds": [
+          "stellar-spectral-classes-7",
+          "stellar-spectral-classes-8",
+          "stellar-spectral-classes-9",
+          "stellar-spectral-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by stellar temperature tier: Hottest O-type (O-Type Blue Supergiant), Hot Blue-White (B-Type, A-Type), Intermediate Yellow-Orange (F-Type, G-Type, K-Type), and Cool Red & Brown Dwarfs (M-Type, L-Type, T-Type, Y-Type).",
+  "sources": [
+    {
+      "title": "NASA: Stellar Spectral Classification",
+      "url": "https://science.nasa.gov/universe/stars/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

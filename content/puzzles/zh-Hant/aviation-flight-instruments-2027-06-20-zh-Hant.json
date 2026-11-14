@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "aviation-flight-instruments-2027-06-20-zh-hant",
+  "puzzleFamilyId": "aviation-flight-instruments-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-20",
+  "timezone": "UTC",
+  "theme": "飛機駕駛艙飛航儀表",
+  "items": [
+    {
+      "itemId": "aviation-flight-instruments-4",
+      "label": "空速表"
+    },
+    {
+      "itemId": "aviation-flight-instruments-8",
+      "label": "ILS 儀器降落系統"
+    },
+    {
+      "itemId": "aviation-flight-instruments-1",
+      "label": "磁羅盤"
+    },
+    {
+      "itemId": "aviation-flight-instruments-6",
+      "label": "垂直速度表（升降率表）"
+    },
+    {
+      "itemId": "aviation-flight-instruments-10",
+      "label": "航空衛星導航（GNSS/GPS）"
+    },
+    {
+      "itemId": "aviation-flight-instruments-2",
+      "label": "姿態儀（人工地平儀）"
+    },
+    {
+      "itemId": "aviation-flight-instruments-7",
+      "label": "VOR 全向信標接收器"
+    },
+    {
+      "itemId": "aviation-flight-instruments-5",
+      "label": "氣壓高度表"
+    },
+    {
+      "itemId": "aviation-flight-instruments-9",
+      "label": "ADF 自動定向儀"
+    },
+    {
+      "itemId": "aviation-flight-instruments-3",
+      "label": "航向指示器"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各航空儀表的感測與導航原理（地磁、陀螺儀、動靜壓管或無線電／衛星導航）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "地磁羅盤",
+        "capacity": 1,
+        "itemIds": [
+          "aviation-flight-instruments-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "陀螺儀表",
+        "capacity": 2,
+        "itemIds": [
+          "aviation-flight-instruments-2",
+          "aviation-flight-instruments-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "皮託靜壓儀表",
+        "capacity": 3,
+        "itemIds": [
+          "aviation-flight-instruments-4",
+          "aviation-flight-instruments-5",
+          "aviation-flight-instruments-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "無線電與衛星導航",
+        "capacity": 4,
+        "itemIds": [
+          "aviation-flight-instruments-7",
+          "aviation-flight-instruments-8",
+          "aviation-flight-instruments-9",
+          "aviation-flight-instruments-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依儀表原理分類：地磁感測（磁羅盤）、陀螺儀（姿態儀、航向指示器）、皮託靜壓系統（空速表、高度表、垂直速度表）與無線電／衛星導航（VOR 全向信標、ILS 儀降系統、ADF 自動定向儀、GNSS/GPS）。",
+  "sources": [
+    {
+      "title": "FAA: Pilot's Handbook of Aeronautical Knowledge",
+      "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

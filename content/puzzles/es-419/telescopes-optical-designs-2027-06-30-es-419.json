@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "telescopes-optical-designs-2027-06-30-es-419",
+  "puzzleFamilyId": "telescopes-optical-designs-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-30",
+  "timezone": "UTC",
+  "theme": "Diseños y monturas de telescopios",
+  "items": [
+    {
+      "itemId": "telescopes-optical-designs-4",
+      "label": "Refractor galileano"
+    },
+    {
+      "itemId": "telescopes-optical-designs-8",
+      "label": "Cassegrain clásico"
+    },
+    {
+      "itemId": "telescopes-optical-designs-1",
+      "label": "Schmidt-Cassegrain"
+    },
+    {
+      "itemId": "telescopes-optical-designs-6",
+      "label": "Refractor apocromático"
+    },
+    {
+      "itemId": "telescopes-optical-designs-10",
+      "label": "Reflector dobsoniano"
+    },
+    {
+      "itemId": "telescopes-optical-designs-2",
+      "label": "Montura ecuatorial alemana"
+    },
+    {
+      "itemId": "telescopes-optical-designs-7",
+      "label": "Reflector newtoniano"
+    },
+    {
+      "itemId": "telescopes-optical-designs-5",
+      "label": "Refractor kepleriano"
+    },
+    {
+      "itemId": "telescopes-optical-designs-9",
+      "label": "Ritchey-Chrétien"
+    },
+    {
+      "itemId": "telescopes-optical-designs-3",
+      "label": "Montura ecuatorial de horquilla"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría óptica o mecánica de cada telescopio o montura",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Catadióptrico",
+        "capacity": 1,
+        "itemIds": [
+          "telescopes-optical-designs-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Monturas ecuatoriales",
+        "capacity": 2,
+        "itemIds": [
+          "telescopes-optical-designs-2",
+          "telescopes-optical-designs-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Telescopios refractores",
+        "capacity": 3,
+        "itemIds": [
+          "telescopes-optical-designs-4",
+          "telescopes-optical-designs-5",
+          "telescopes-optical-designs-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Telescopios reflectores",
+        "capacity": 4,
+        "itemIds": [
+          "telescopes-optical-designs-7",
+          "telescopes-optical-designs-8",
+          "telescopes-optical-designs-9",
+          "telescopes-optical-designs-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por diseño/montura: catadióptrico (Schmidt-Cassegrain), monturas ecuatoriales (alemana, de horquilla), refractores (galileano, kepleriano, apocromático) y reflectores (newtoniano, Cassegrain, Ritchey-Chrétien, dobsoniano).",
+  "sources": [
+    {
+      "title": "Britannica: Telescope Optical Designs",
+      "url": "https://www.britannica.com/science/telescope",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.64
+  },
+  "status": "scheduled"
+}

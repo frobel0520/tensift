@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "comets-asteroids-families-2027-07-01-zh-hant",
+  "puzzleFamilyId": "comets-asteroids-families-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-01",
+  "timezone": "UTC",
+  "theme": "著名彗星與小行星軌道族",
+  "items": [
+    {
+      "itemId": "comets-asteroids-families-4",
+      "label": "海爾—波普彗星"
+    },
+    {
+      "itemId": "comets-asteroids-families-8",
+      "label": "智神星（2 Pallas）"
+    },
+    {
+      "itemId": "comets-asteroids-families-1",
+      "label": "斥候星（1I/ʻOumuamua）"
+    },
+    {
+      "itemId": "comets-asteroids-families-6",
+      "label": "麥克諾特彗星"
+    },
+    {
+      "itemId": "comets-asteroids-families-10",
+      "label": "靈神星（16 Psyche）"
+    },
+    {
+      "itemId": "comets-asteroids-families-2",
+      "label": "哈雷彗星（76 年）"
+    },
+    {
+      "itemId": "comets-asteroids-families-7",
+      "label": "灶神星（4 Vesta）"
+    },
+    {
+      "itemId": "comets-asteroids-families-5",
+      "label": "百武彗星"
+    },
+    {
+      "itemId": "comets-asteroids-families-9",
+      "label": "婚神星（3 Juno）"
+    },
+    {
+      "itemId": "comets-asteroids-families-3",
+      "label": "恩克彗星（3.3 年）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各小天體的軌道分類（星際天體、短週期彗星、長週期彗星或主帶小行星）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "星際訪客",
+        "capacity": 1,
+        "itemIds": [
+          "comets-asteroids-families-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "短週期彗星（<200 年）",
+        "capacity": 2,
+        "itemIds": [
+          "comets-asteroids-families-2",
+          "comets-asteroids-families-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "長週期彗星（>200 年）",
+        "capacity": 3,
+        "itemIds": [
+          "comets-asteroids-families-4",
+          "comets-asteroids-families-5",
+          "comets-asteroids-families-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "主帶小行星",
+        "capacity": 4,
+        "itemIds": [
+          "comets-asteroids-families-7",
+          "comets-asteroids-families-8",
+          "comets-asteroids-families-9",
+          "comets-asteroids-families-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依軌道類別分類：星際訪客（斥候星 1I/ʻOumuamua）、短週期彗星（哈雷彗星、恩克彗星）、長週期彗星（海爾—波普彗星、百武彗星、麥克諾特彗星）與主帶小行星（灶神星、智神星、婚神星、靈神星）。",
+  "sources": [
+    {
+      "title": "NASA JPL: Small-Body Database",
+      "url": "https://ssd.jpl.nasa.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

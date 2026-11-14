@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "aerodynamic-mach-regimes-2027-06-28-es-419",
+  "puzzleFamilyId": "aerodynamic-mach-regimes-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-28",
+  "timezone": "UTC",
+  "theme": "Regímenes de velocidad aerodinámica",
+  "items": [
+    {
+      "itemId": "aerodynamic-mach-regimes-4",
+      "label": "Cono de Mach (estampido sónico)"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-8",
+      "label": "Vaina de plasma de reentrada"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-1",
+      "label": "Crucero subsónico"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-6",
+      "label": "Crucero SR-71 (Mach 3.2)"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-10",
+      "label": "Planeo hipersónico"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-2",
+      "label": "Número de Mach crítico"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-7",
+      "label": "Vuelo scramjet (Mach 7)"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-5",
+      "label": "Crucero del Concorde (Mach 2.02)"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-9",
+      "label": "Reentrada orbital (Mach 25)"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-3",
+      "label": "Aumento de resistencia transónica"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Régimen de número de Mach de cada fenómeno o vuelo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Subsónico (M < 0.8)",
+        "capacity": 1,
+        "itemIds": [
+          "aerodynamic-mach-regimes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Transónico (M 0.8–1.2)",
+        "capacity": 2,
+        "itemIds": [
+          "aerodynamic-mach-regimes-2",
+          "aerodynamic-mach-regimes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Supersónico (M 1.2–5.0)",
+        "capacity": 3,
+        "itemIds": [
+          "aerodynamic-mach-regimes-4",
+          "aerodynamic-mach-regimes-5",
+          "aerodynamic-mach-regimes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Hipersónico (M > 5.0)",
+        "capacity": 4,
+        "itemIds": [
+          "aerodynamic-mach-regimes-7",
+          "aerodynamic-mach-regimes-8",
+          "aerodynamic-mach-regimes-9",
+          "aerodynamic-mach-regimes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por régimen Mach: subsónico <0.8 (crucero comercial), transónico 0.8–1.2 (Mach crítico, aumento de resistencia de onda), supersónico 1.2–5.0 (supercrucero Mach 2, cono de Mach, Concorde Mach 2.02) e hipersónico >5.0 (scramjet Mach 7, plasma de reentrada, reentrada orbital Mach 25, planeador hipersónico).",
+  "sources": [
+    {
+      "title": "NASA: Speed Regimes",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/mach.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

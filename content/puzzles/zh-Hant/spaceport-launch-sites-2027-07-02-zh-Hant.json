@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "spaceport-launch-sites-2027-07-02-zh-hant",
+  "puzzleFamilyId": "spaceport-launch-sites-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-02",
+  "timezone": "UTC",
+  "theme": "世界火箭發射場",
+  "items": [
+    {
+      "itemId": "spaceport-launch-sites-4",
+      "label": "拜科努爾航太發射場"
+    },
+    {
+      "itemId": "spaceport-launch-sites-8",
+      "label": "卡納維爾角太空軍基地"
+    },
+    {
+      "itemId": "spaceport-launch-sites-1",
+      "label": "庫魯圭亞那太空中心"
+    },
+    {
+      "itemId": "spaceport-launch-sites-6",
+      "label": "東方航太發射場"
+    },
+    {
+      "itemId": "spaceport-launch-sites-10",
+      "label": "瓦勒普斯飛行設施"
+    },
+    {
+      "itemId": "spaceport-launch-sites-2",
+      "label": "種子島宇宙中心"
+    },
+    {
+      "itemId": "spaceport-launch-sites-7",
+      "label": "甘迺迪太空中心"
+    },
+    {
+      "itemId": "spaceport-launch-sites-5",
+      "label": "普列謝茨克發射場"
+    },
+    {
+      "itemId": "spaceport-launch-sites-9",
+      "label": "范登堡太空軍基地"
+    },
+    {
+      "itemId": "spaceport-launch-sites-3",
+      "label": "內之浦宇宙空間觀測所"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各航太發射場所屬的國家或營運體系（法屬圭亞那、日本、俄國／哈薩克體系或美國）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "法屬圭亞那（ESA）",
+        "capacity": 1,
+        "itemIds": [
+          "spaceport-launch-sites-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "日本",
+        "capacity": 2,
+        "itemIds": [
+          "spaceport-launch-sites-2",
+          "spaceport-launch-sites-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "俄羅斯／拜科努爾體系",
+        "capacity": 3,
+        "itemIds": [
+          "spaceport-launch-sites-4",
+          "spaceport-launch-sites-5",
+          "spaceport-launch-sites-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "美國",
+        "capacity": 4,
+        "itemIds": [
+          "spaceport-launch-sites-7",
+          "spaceport-launch-sites-8",
+          "spaceport-launch-sites-9",
+          "spaceport-launch-sites-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依所屬國家與營運體系分類：法屬圭亞那／ESA（庫魯航太中心）、日本（種子島、內之浦）、俄國／哈薩克體系（拜科努爾、普列謝茨克、東方發射場）與美國（甘迺迪太空中心、卡納維爾角、范登堡、瓦勒普斯）。",
+  "sources": [
+    {
+      "title": "ESA & NASA Launch Facilities",
+      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Europe_s_Spaceport",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

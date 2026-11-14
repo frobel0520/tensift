@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "galaxy-hubble-types-2027-06-18-en",
+  "puzzleFamilyId": "galaxy-hubble-types-001",
+  "locale": "en",
+  "publishDate": "2027-06-18",
+  "timezone": "UTC",
+  "theme": "Galaxies by Hubble Class",
+  "items": [
+    {
+      "itemId": "galaxy-hubble-types-4",
+      "label": "Messier 87 (M87)"
+    },
+    {
+      "itemId": "galaxy-hubble-types-8",
+      "label": "Andromeda Galaxy (M31)"
+    },
+    {
+      "itemId": "galaxy-hubble-types-1",
+      "label": "Spindle Galaxy (M102)"
+    },
+    {
+      "itemId": "galaxy-hubble-types-6",
+      "label": "IC 1101"
+    },
+    {
+      "itemId": "galaxy-hubble-types-10",
+      "label": "Triangulum Galaxy (M33)"
+    },
+    {
+      "itemId": "galaxy-hubble-types-2",
+      "label": "Large Magellanic Cloud"
+    },
+    {
+      "itemId": "galaxy-hubble-types-7",
+      "label": "Milky Way"
+    },
+    {
+      "itemId": "galaxy-hubble-types-5",
+      "label": "Messier 49 (M49)"
+    },
+    {
+      "itemId": "galaxy-hubble-types-9",
+      "label": "Whirlpool Galaxy (M51)"
+    },
+    {
+      "itemId": "galaxy-hubble-types-3",
+      "label": "Small Magellanic Cloud"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Hubble morphological class (Lenticular S0, Irregular Irr, Elliptical E, or Spiral S/SB) of each galaxy",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Lenticular (S0)",
+        "capacity": 1,
+        "itemIds": [
+          "galaxy-hubble-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Irregular (Irr)",
+        "capacity": 2,
+        "itemIds": [
+          "galaxy-hubble-types-2",
+          "galaxy-hubble-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Elliptical (E)",
+        "capacity": 3,
+        "itemIds": [
+          "galaxy-hubble-types-4",
+          "galaxy-hubble-types-5",
+          "galaxy-hubble-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Spiral & Barred Spiral (S/SB)",
+        "capacity": 4,
+        "itemIds": [
+          "galaxy-hubble-types-7",
+          "galaxy-hubble-types-8",
+          "galaxy-hubble-types-9",
+          "galaxy-hubble-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by Hubble class: Lenticular (Cartwheel / Spindle M102), Irregular (Large Magellanic Cloud, Small Magellanic Cloud), Elliptical (Messier 87, Messier 49, IC 1101), and Spiral/Barred Spiral (Milky Way, Andromeda M31, Whirlpool M51, Triangulum M33).",
+  "sources": [
+    {
+      "title": "ESA/Hubble: Galaxy Types",
+      "url": "https://esahubble.org/wordbank/hubble-tuning-fork/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

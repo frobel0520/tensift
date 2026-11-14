@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "aviation-flight-instruments-2027-06-20-es-419",
+  "puzzleFamilyId": "aviation-flight-instruments-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-20",
+  "timezone": "UTC",
+  "theme": "Instrumentos de vuelo aeronáuticos",
+  "items": [
+    {
+      "itemId": "aviation-flight-instruments-4",
+      "label": "Anemómetro (indicador de velocidad)"
+    },
+    {
+      "itemId": "aviation-flight-instruments-8",
+      "label": "Sistema ILS"
+    },
+    {
+      "itemId": "aviation-flight-instruments-1",
+      "label": "Brújula magnética"
+    },
+    {
+      "itemId": "aviation-flight-instruments-6",
+      "label": "Variómetro (VSI)"
+    },
+    {
+      "itemId": "aviation-flight-instruments-10",
+      "label": "GNSS / GPS aeronáutico"
+    },
+    {
+      "itemId": "aviation-flight-instruments-2",
+      "label": "Indicador de actitud"
+    },
+    {
+      "itemId": "aviation-flight-instruments-7",
+      "label": "Receptor VOR"
+    },
+    {
+      "itemId": "aviation-flight-instruments-5",
+      "label": "Altímetro"
+    },
+    {
+      "itemId": "aviation-flight-instruments-9",
+      "label": "ADF (radiocompás)"
+    },
+    {
+      "itemId": "aviation-flight-instruments-3",
+      "label": "Indicador de rumbo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Principio físico o de navegación de cada instrumento",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Sensor magnético",
+        "capacity": 1,
+        "itemIds": [
+          "aviation-flight-instruments-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Instrumentos giroscópicos",
+        "capacity": 2,
+        "itemIds": [
+          "aviation-flight-instruments-2",
+          "aviation-flight-instruments-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Sistema pitot-estático",
+        "capacity": 3,
+        "itemIds": [
+          "aviation-flight-instruments-4",
+          "aviation-flight-instruments-5",
+          "aviation-flight-instruments-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Radionavegación y satélite",
+        "capacity": 4,
+        "itemIds": [
+          "aviation-flight-instruments-7",
+          "aviation-flight-instruments-8",
+          "aviation-flight-instruments-9",
+          "aviation-flight-instruments-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por principio: magnético (brújula magnética), giroscópico (horizonte artificial, indicador de rumbo), pitot-estático (anemómetro, altímetro, variómetro) y radionavegación/satélite (VOR, ILS, ADF, GNSS/GPS).",
+  "sources": [
+    {
+      "title": "FAA: Pilot's Handbook of Aeronautical Knowledge",
+      "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

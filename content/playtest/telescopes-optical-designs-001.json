@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "telescopes-optical-designs-001",
+  "theme": "Telescope Designs & Mounts",
+  "publishDate": "2027-06-30",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "telescopes-optical-designs-1",
+        "rivalGroupId": "group-4",
+        "risk": "Schmidt–Cassegrain shares Cassegrain with Classical Cassegrain.",
+        "resolution": "Schmidt–Cassegrain combines a glass corrector lens with mirrors, making it catadioptric (group-1) rather than a pure mirror reflector (group-4)."
+      },
+      {
+        "itemId": "telescopes-optical-designs-10",
+        "rivalGroupId": "group-2",
+        "risk": "Dobsonian refers to a simple alt-azimuth rocker mount.",
+        "resolution": "Dobsonian telescopes are always Newtonian reflecting optical tubes (group-4), not equatorial mounts (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

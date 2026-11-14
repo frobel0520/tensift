@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "planetary-probes-destinations-2027-06-13-en",
+  "puzzleFamilyId": "planetary-probes-destinations-001",
+  "locale": "en",
+  "publishDate": "2027-06-13",
+  "timezone": "UTC",
+  "theme": "Planetary Probes & Rovers",
+  "items": [
+    {
+      "itemId": "planetary-probes-destinations-4",
+      "label": "Galileo"
+    },
+    {
+      "itemId": "planetary-probes-destinations-8",
+      "label": "Opportunity"
+    },
+    {
+      "itemId": "planetary-probes-destinations-1",
+      "label": "MESSENGER"
+    },
+    {
+      "itemId": "planetary-probes-destinations-6",
+      "label": "Juno"
+    },
+    {
+      "itemId": "planetary-probes-destinations-10",
+      "label": "Perseverance"
+    },
+    {
+      "itemId": "planetary-probes-destinations-2",
+      "label": "Venera 7"
+    },
+    {
+      "itemId": "planetary-probes-destinations-7",
+      "label": "Sojourner"
+    },
+    {
+      "itemId": "planetary-probes-destinations-5",
+      "label": "Cassini–Huygens"
+    },
+    {
+      "itemId": "planetary-probes-destinations-9",
+      "label": "Curiosity"
+    },
+    {
+      "itemId": "planetary-probes-destinations-3",
+      "label": "Magellan"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Primary target planet (Mercury, Venus, Jupiter/Saturn Outer Giants, or Mars) of each robotic mission",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Mercury",
+        "capacity": 1,
+        "itemIds": [
+          "planetary-probes-destinations-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Venus",
+        "capacity": 2,
+        "itemIds": [
+          "planetary-probes-destinations-2",
+          "planetary-probes-destinations-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Outer Gas Giants",
+        "capacity": 3,
+        "itemIds": [
+          "planetary-probes-destinations-4",
+          "planetary-probes-destinations-5",
+          "planetary-probes-destinations-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Mars Rovers",
+        "capacity": 4,
+        "itemIds": [
+          "planetary-probes-destinations-7",
+          "planetary-probes-destinations-8",
+          "planetary-probes-destinations-9",
+          "planetary-probes-destinations-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by destination planet: Mercury (MESSENGER), Venus (Venera 7, Magellan), Outer Gas Giants (Galileo, Cassini–Huygens, Juno), and Mars Rovers (Sojourner, Opportunity, Curiosity, Perseverance).",
+  "sources": [
+    {
+      "title": "NASA: Solar System Exploration Missions",
+      "url": "https://science.nasa.gov/solar-system/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

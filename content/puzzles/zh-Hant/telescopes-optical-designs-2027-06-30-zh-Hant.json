@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "telescopes-optical-designs-2027-06-30-zh-hant",
+  "puzzleFamilyId": "telescopes-optical-designs-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-30",
+  "timezone": "UTC",
+  "theme": "光學望遠鏡光路與架台",
+  "items": [
+    {
+      "itemId": "telescopes-optical-designs-4",
+      "label": "伽利略式折射鏡"
+    },
+    {
+      "itemId": "telescopes-optical-designs-8",
+      "label": "經典卡塞格林式"
+    },
+    {
+      "itemId": "telescopes-optical-designs-1",
+      "label": "施密特—卡塞格林式"
+    },
+    {
+      "itemId": "telescopes-optical-designs-6",
+      "label": "複消色差折射鏡"
+    },
+    {
+      "itemId": "telescopes-optical-designs-10",
+      "label": "杜布森式反射鏡"
+    },
+    {
+      "itemId": "telescopes-optical-designs-2",
+      "label": "德式赤道儀"
+    },
+    {
+      "itemId": "telescopes-optical-designs-7",
+      "label": "牛頓式反射鏡"
+    },
+    {
+      "itemId": "telescopes-optical-designs-5",
+      "label": "克卜勒式折射鏡"
+    },
+    {
+      "itemId": "telescopes-optical-designs-9",
+      "label": "里奇—克萊琴式"
+    },
+    {
+      "itemId": "telescopes-optical-designs-3",
+      "label": "叉式赤道儀"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各天文望遠鏡結構的分類（折反射式、赤道儀架台、折射式或反射式）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "折反射式",
+        "capacity": 1,
+        "itemIds": [
+          "telescopes-optical-designs-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "赤道儀架台",
+        "capacity": 2,
+        "itemIds": [
+          "telescopes-optical-designs-2",
+          "telescopes-optical-designs-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "折射式望遠鏡",
+        "capacity": 3,
+        "itemIds": [
+          "telescopes-optical-designs-4",
+          "telescopes-optical-designs-5",
+          "telescopes-optical-designs-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "反射式望遠鏡",
+        "capacity": 4,
+        "itemIds": [
+          "telescopes-optical-designs-7",
+          "telescopes-optical-designs-8",
+          "telescopes-optical-designs-9",
+          "telescopes-optical-designs-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依光學設計與架台分類：折反射式（施密特—卡塞格林）、赤道儀架台（德式赤道儀、叉式赤道儀）、折射式望遠鏡（伽利略折射鏡、克卜勒折射鏡、複消色差折射鏡）與反射式望遠鏡（牛頓式、卡塞格林式、里奇—克萊琴式、杜布森式）。",
+  "sources": [
+    {
+      "title": "Britannica: Telescope Optical Designs",
+      "url": "https://www.britannica.com/science/telescope",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.64
+  },
+  "status": "scheduled"
+}

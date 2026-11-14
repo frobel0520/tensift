@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "maritime-navigation-terms-2027-06-23-en",
+  "puzzleFamilyId": "maritime-navigation-terms-001",
+  "locale": "en",
+  "publishDate": "2027-06-23",
+  "timezone": "UTC",
+  "theme": "Maritime Navigation & Vessel Terms",
+  "items": [
+    {
+      "itemId": "maritime-navigation-terms-4",
+      "label": "Bow (Front)"
+    },
+    {
+      "itemId": "maritime-navigation-terms-8",
+      "label": "Starboard (Right)"
+    },
+    {
+      "itemId": "maritime-navigation-terms-1",
+      "label": "Lighthouse"
+    },
+    {
+      "itemId": "maritime-navigation-terms-6",
+      "label": "Amidships (Middle)"
+    },
+    {
+      "itemId": "maritime-navigation-terms-10",
+      "label": "Leeward"
+    },
+    {
+      "itemId": "maritime-navigation-terms-2",
+      "label": "Lateral Buoy"
+    },
+    {
+      "itemId": "maritime-navigation-terms-7",
+      "label": "Port (Left)"
+    },
+    {
+      "itemId": "maritime-navigation-terms-5",
+      "label": "Stern (Rear)"
+    },
+    {
+      "itemId": "maritime-navigation-terms-9",
+      "label": "Windward"
+    },
+    {
+      "itemId": "maritime-navigation-terms-3",
+      "label": "Cardinal Buoy"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Nautical category (Fixed Coastal Beacon, Floating Buoys, Fore–Aft Hull Axes, or Lateral/Wind Directions)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Fixed Coastal Beacon",
+        "capacity": 1,
+        "itemIds": [
+          "maritime-navigation-terms-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Floating Buoys",
+        "capacity": 2,
+        "itemIds": [
+          "maritime-navigation-terms-2",
+          "maritime-navigation-terms-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Fore–Aft Hull Positions",
+        "capacity": 3,
+        "itemIds": [
+          "maritime-navigation-terms-4",
+          "maritime-navigation-terms-5",
+          "maritime-navigation-terms-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Lateral & Wind Directions",
+        "capacity": 4,
+        "itemIds": [
+          "maritime-navigation-terms-7",
+          "maritime-navigation-terms-8",
+          "maritime-navigation-terms-9",
+          "maritime-navigation-terms-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by nautical category: Fixed Coastal Beacon (Lighthouse), Floating Buoys (Lateral Buoy, Cardinal Buoy), Fore–Aft Hull Regions (Bow, Stern, Amidships), and Lateral/Wind Directions (Port, Starboard, Windward, Leeward).",
+  "sources": [
+    {
+      "title": "IALA: Maritime Buoyage System",
+      "url": "https://www.iala-aism.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

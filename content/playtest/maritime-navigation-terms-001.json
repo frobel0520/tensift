@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "maritime-navigation-terms-001",
+  "theme": "Maritime Navigation & Vessel Terms",
+  "publishDate": "2027-06-23",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "maritime-navigation-terms-7",
+        "rivalGroupId": "group-3",
+        "risk": "Port is a vessel reference term like Bow and Stern.",
+        "resolution": "Port and Starboard are lateral left/right directions (group-4), whereas Bow, Stern, and Amidships mark fore-to-aft hull positions (group-3)."
+      },
+      {
+        "itemId": "maritime-navigation-terms-1",
+        "rivalGroupId": "group-2",
+        "risk": "A lighthouse is an aid to navigation like buoys.",
+        "resolution": "Lighthouses are fixed coastal structures (group-1), distinct from floating buoys (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

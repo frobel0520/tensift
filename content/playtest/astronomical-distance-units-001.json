@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "astronomical-distance-units-001",
+  "theme": "Astronomical Distance Units",
+  "publishDate": "2027-06-26",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "astronomical-distance-units-1",
+        "rivalGroupId": "group-4",
+        "risk": "Parsec is defined using 1 AU and 1 arcsecond of parallax.",
+        "resolution": "The Astronomical Unit itself is defined as an exact SI meter constant (149,597,870,700 m, group-1), distinct from parallax-based parsecs (group-4)."
+      },
+      {
+        "itemId": "astronomical-distance-units-3",
+        "rivalGroupId": "group-4",
+        "risk": "Light-year and parsec are both used for interstellar distances.",
+        "resolution": "Light-year is defined by light travel in one Julian year (group-2), not stellar parallax (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

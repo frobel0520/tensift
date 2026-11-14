@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "ship-types-propulsion-001",
+  "theme": "Ships by Propulsion Era",
+  "publishDate": "2027-06-25",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "ship-types-propulsion-1",
+        "rivalGroupId": "group-2",
+        "risk": "Triremes carried auxiliary sails.",
+        "resolution": "Triremes relied primarily on three banks of oars in combat (group-1), unlike pure Age of Sail vessels (group-2)."
+      },
+      {
+        "itemId": "ship-types-propulsion-6",
+        "rivalGroupId": "group-4",
+        "risk": "Modern cruise liners are ocean-going.",
+        "resolution": "Historic steam ocean liners were coal/oil-fired steamships (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

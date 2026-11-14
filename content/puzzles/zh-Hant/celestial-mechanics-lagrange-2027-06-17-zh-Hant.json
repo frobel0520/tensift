@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "celestial-mechanics-lagrange-2027-06-17-zh-hant",
+  "puzzleFamilyId": "celestial-mechanics-lagrange-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-17",
+  "timezone": "UTC",
+  "theme": "天體力學與拉格朗日點",
+  "items": [
+    {
+      "itemId": "celestial-mechanics-lagrange-4",
+      "label": "L1 拉格朗日點"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-8",
+      "label": "遠日點"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-1",
+      "label": "洛希極限"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-6",
+      "label": "L3 拉格朗日點"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-10",
+      "label": "降交點"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-2",
+      "label": "L4 拉格朗日點"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-7",
+      "label": "近日點"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-5",
+      "label": "L2 拉格朗日點"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-9",
+      "label": "升交點"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-3",
+      "label": "L5 拉格朗日點"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各天體力學概念的分類（洛希極限、穩定三角拉格朗日點、共線不穩定拉格朗日點或軌道拱點／交點）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "潮汐瓦解極限",
+        "capacity": 1,
+        "itemIds": [
+          "celestial-mechanics-lagrange-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "穩定拉格朗日點（L4/L5）",
+        "capacity": 2,
+        "itemIds": [
+          "celestial-mechanics-lagrange-2",
+          "celestial-mechanics-lagrange-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "共線拉格朗日點（L1/L2/L3）",
+        "capacity": 3,
+        "itemIds": [
+          "celestial-mechanics-lagrange-4",
+          "celestial-mechanics-lagrange-5",
+          "celestial-mechanics-lagrange-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "軌道拱點與交點",
+        "capacity": 4,
+        "itemIds": [
+          "celestial-mechanics-lagrange-7",
+          "celestial-mechanics-lagrange-8",
+          "celestial-mechanics-lagrange-9",
+          "celestial-mechanics-lagrange-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依天體力學分類：潮汐瓦解極限（洛希極限）、穩定三角拉格朗日點（L4、L5）、共線拉格朗日點（L1、L2、L3）與軌道拱點及交點（近日點、遠日點、升交點、降交點）。",
+  "sources": [
+    {
+      "title": "NASA: What Are Lagrange Points?",
+      "url": "https://science.nasa.gov/resource/what-is-a-lagrange-point/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

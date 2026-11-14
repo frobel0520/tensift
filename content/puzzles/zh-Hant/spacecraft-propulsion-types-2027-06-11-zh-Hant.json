@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "spacecraft-propulsion-types-2027-06-11-zh-hant",
+  "puzzleFamilyId": "spacecraft-propulsion-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-11",
+  "timezone": "UTC",
+  "theme": "太空推進系統分類",
+  "items": [
+    {
+      "itemId": "spacecraft-propulsion-types-4",
+      "label": "固態火箭助推器"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-8",
+      "label": "液態甲烷液氧（Methalox）"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-1",
+      "label": "太陽帆"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-6",
+      "label": "冷氣推進器"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-10",
+      "label": "自燃液態雙組元"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-2",
+      "label": "柵格離子推進器"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-7",
+      "label": "液氫液氧（Hydrolox）"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-5",
+      "label": "固液混合火箭"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-9",
+      "label": "煤油液氧（Kerolox）"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-3",
+      "label": "霍爾效應推進器"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各太空推進技術的作用原理（太陽帆、電推進、固態／混合／冷氣或液態雙組元化學火箭）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "太陽光壓推進",
+        "capacity": 1,
+        "itemIds": [
+          "spacecraft-propulsion-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "電推進系統",
+        "capacity": 2,
+        "itemIds": [
+          "spacecraft-propulsion-types-2",
+          "spacecraft-propulsion-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "固態、混合與冷氣推進",
+        "capacity": 3,
+        "itemIds": [
+          "spacecraft-propulsion-types-4",
+          "spacecraft-propulsion-types-5",
+          "spacecraft-propulsion-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "液態雙組元化學推進",
+        "capacity": 4,
+        "itemIds": [
+          "spacecraft-propulsion-types-7",
+          "spacecraft-propulsion-types-8",
+          "spacecraft-propulsion-types-9",
+          "spacecraft-propulsion-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依推進原理分類：無推進劑光壓（太陽帆）、電漿／離子電推進（柵格離子推進器、霍爾效應推進器）、固態／混合／冷氣推進（固態助推器、混合火箭、冷氣姿控推進器）與液態雙組元化學推進（液氫液氧、液態甲烷液氧、煤油液氧、自燃推進劑）。",
+  "sources": [
+    {
+      "title": "NASA: Spacecraft Propulsion",
+      "url": "https://www.nasa.gov/directorates/spacetech/small_spacecraft/smallsat_overview/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.62
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "astronomical-distance-units-2027-06-26-zh-hant",
+  "puzzleFamilyId": "astronomical-distance-units-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-26",
+  "timezone": "UTC",
+  "theme": "天文距離單位分類",
+  "items": [
+    {
+      "itemId": "astronomical-distance-units-4",
+      "label": "公里（km）"
+    },
+    {
+      "itemId": "astronomical-distance-units-8",
+      "label": "千秒差距（kpc）"
+    },
+    {
+      "itemId": "astronomical-distance-units-1",
+      "label": "天文單位（AU）"
+    },
+    {
+      "itemId": "astronomical-distance-units-6",
+      "label": "吉公尺（Gm）"
+    },
+    {
+      "itemId": "astronomical-distance-units-10",
+      "label": "十億秒差距（Gpc）"
+    },
+    {
+      "itemId": "astronomical-distance-units-2",
+      "label": "光秒"
+    },
+    {
+      "itemId": "astronomical-distance-units-7",
+      "label": "秒差距（pc）"
+    },
+    {
+      "itemId": "astronomical-distance-units-5",
+      "label": "兆公尺（Mm）"
+    },
+    {
+      "itemId": "astronomical-distance-units-9",
+      "label": "百萬秒差距（Mpc）"
+    },
+    {
+      "itemId": "astronomical-distance-units-3",
+      "label": "光年"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各天文距離單位的定義基準（日地天文單位、光行時間、SI 公制倍數或視差秒差距家族）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "日地平均距離基準",
+        "capacity": 1,
+        "itemIds": [
+          "astronomical-distance-units-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "光行時間單位",
+        "capacity": 2,
+        "itemIds": [
+          "astronomical-distance-units-2",
+          "astronomical-distance-units-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "SI 公制長度倍數",
+        "capacity": 3,
+        "itemIds": [
+          "astronomical-distance-units-4",
+          "astronomical-distance-units-5",
+          "astronomical-distance-units-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "秒差距家族",
+        "capacity": 4,
+        "itemIds": [
+          "astronomical-distance-units-7",
+          "astronomical-distance-units-8",
+          "astronomical-distance-units-9",
+          "astronomical-distance-units-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依定義基準分類：日地平均距離（天文單位 AU）、光行距離（光秒、光年）、SI 公制（公里、兆公尺、吉公尺）與視差秒差距家族（秒差距 pc、千秒差距 kpc、百萬秒差距 Mpc、十億秒差距 Gpc）。",
+  "sources": [
+    {
+      "title": "IAU: Measuring the Universe",
+      "url": "https://www.iau.org/public/themes/measuring/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

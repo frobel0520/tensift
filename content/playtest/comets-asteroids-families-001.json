@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "comets-asteroids-families-001",
+  "theme": "Famous Comets & Asteroids",
+  "publishDate": "2027-07-01",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "comets-asteroids-families-1",
+        "rivalGroupId": "group-3",
+        "risk": "ʻOumuamua has a hyperbolic trajectory like some non-periodic comets.",
+        "resolution": "1I/ʻOumuamua entered from interstellar space with eccentricity > 1.19 (group-1), not from the Solar System Oort Cloud (group-3)."
+      },
+      {
+        "itemId": "comets-asteroids-families-2",
+        "rivalGroupId": "group-3",
+        "risk": "Halley’s Comet is famous across centuries.",
+        "resolution": "Halley’s ~76-year period is well under 200 years, making it a short-period comet (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

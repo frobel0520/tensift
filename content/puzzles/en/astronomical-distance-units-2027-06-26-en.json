@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "astronomical-distance-units-2027-06-26-en",
+  "puzzleFamilyId": "astronomical-distance-units-001",
+  "locale": "en",
+  "publishDate": "2027-06-26",
+  "timezone": "UTC",
+  "theme": "Astronomical Distance Units",
+  "items": [
+    {
+      "itemId": "astronomical-distance-units-4",
+      "label": "Kilometer (km)"
+    },
+    {
+      "itemId": "astronomical-distance-units-8",
+      "label": "Kiloparsec (kpc)"
+    },
+    {
+      "itemId": "astronomical-distance-units-1",
+      "label": "Astronomical Unit (AU)"
+    },
+    {
+      "itemId": "astronomical-distance-units-6",
+      "label": "Gigameter (Gm)"
+    },
+    {
+      "itemId": "astronomical-distance-units-10",
+      "label": "Gigaparsec (Gpc)"
+    },
+    {
+      "itemId": "astronomical-distance-units-2",
+      "label": "Light-Second"
+    },
+    {
+      "itemId": "astronomical-distance-units-7",
+      "label": "Parsec (pc)"
+    },
+    {
+      "itemId": "astronomical-distance-units-5",
+      "label": "Megameter (Mm)"
+    },
+    {
+      "itemId": "astronomical-distance-units-9",
+      "label": "Megaparsec (Mpc)"
+    },
+    {
+      "itemId": "astronomical-distance-units-3",
+      "label": "Light-Year"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Physical basis (Earth–Sun Astronomical Unit, Light-Travel Time, SI Metric Multiples, or Parallax Parsec Scale)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Earth–Sun Reference",
+        "capacity": 1,
+        "itemIds": [
+          "astronomical-distance-units-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Light-Travel Units",
+        "capacity": 2,
+        "itemIds": [
+          "astronomical-distance-units-2",
+          "astronomical-distance-units-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "SI Metric Multiples",
+        "capacity": 3,
+        "itemIds": [
+          "astronomical-distance-units-4",
+          "astronomical-distance-units-5",
+          "astronomical-distance-units-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Parsec Family",
+        "capacity": 4,
+        "itemIds": [
+          "astronomical-distance-units-7",
+          "astronomical-distance-units-8",
+          "astronomical-distance-units-9",
+          "astronomical-distance-units-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by definition basis: Earth–Sun Mean Distance (Astronomical Unit AU), Light-Travel Units (Light-Second, Light-Year), SI Metric Multiples (Kilometer, Megameter, Gigameter), and Parsec Parallax Family (Parsec, Kiloparsec, Megaparsec, Gigaparsec).",
+  "sources": [
+    {
+      "title": "IAU: Measuring the Universe",
+      "url": "https://www.iau.org/public/themes/measuring/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

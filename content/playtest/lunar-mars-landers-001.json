@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "lunar-mars-landers-001",
+  "theme": "Lunar & Mars Landers",
+  "publishDate": "2027-06-27",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "lunar-mars-landers-3",
+        "rivalGroupId": "group-3",
+        "risk": "Apollo 12 astronauts visited Surveyor 3 on the Moon.",
+        "resolution": "Surveyor 3 was a robotic US Surveyor lander (group-2) visited by Apollo 12’s Intrepid (group-3)."
+      },
+      {
+        "itemId": "lunar-mars-landers-6",
+        "rivalGroupId": "group-4",
+        "risk": "Aquarius never landed on the Moon.",
+        "resolution": "Aquarius was the Apollo 13 Lunar Module (group-3), serving as the crew’s lifeboat."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "galaxy-hubble-types-2027-06-18-zh-hant",
+  "puzzleFamilyId": "galaxy-hubble-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-18",
+  "timezone": "UTC",
+  "theme": "星系的哈伯形態分類",
+  "items": [
+    {
+      "itemId": "galaxy-hubble-types-4",
+      "label": "M87 星系"
+    },
+    {
+      "itemId": "galaxy-hubble-types-8",
+      "label": "仙女座星系（M31）"
+    },
+    {
+      "itemId": "galaxy-hubble-types-1",
+      "label": "紡錘星系（M102）"
+    },
+    {
+      "itemId": "galaxy-hubble-types-6",
+      "label": "IC 1101"
+    },
+    {
+      "itemId": "galaxy-hubble-types-10",
+      "label": "三角座星系（M33）"
+    },
+    {
+      "itemId": "galaxy-hubble-types-2",
+      "label": "大麥哲倫星系"
+    },
+    {
+      "itemId": "galaxy-hubble-types-7",
+      "label": "銀河系"
+    },
+    {
+      "itemId": "galaxy-hubble-types-5",
+      "label": "M49 星系"
+    },
+    {
+      "itemId": "galaxy-hubble-types-9",
+      "label": "渦狀星系（M51）"
+    },
+    {
+      "itemId": "galaxy-hubble-types-3",
+      "label": "小麥哲倫星系"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各著名星系在哈伯序列中的形態分類（透鏡狀、不規則、橢圓或螺旋星系）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "透鏡狀星系（S0）",
+        "capacity": 1,
+        "itemIds": [
+          "galaxy-hubble-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "不規則星系（Irr）",
+        "capacity": 2,
+        "itemIds": [
+          "galaxy-hubble-types-2",
+          "galaxy-hubble-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "橢圓星系（E）",
+        "capacity": 3,
+        "itemIds": [
+          "galaxy-hubble-types-4",
+          "galaxy-hubble-types-5",
+          "galaxy-hubble-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "螺旋與棒旋星系（S/SB）",
+        "capacity": 4,
+        "itemIds": [
+          "galaxy-hubble-types-7",
+          "galaxy-hubble-types-8",
+          "galaxy-hubble-types-9",
+          "galaxy-hubble-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依哈伯形態分類：透鏡狀星系（紡錘星系 M102）、不規則星系（大麥哲倫星系、小麥哲倫星系）、橢圓星系（M87、M49、IC 1101）與螺旋星系（銀河系、仙女座 M31、渦狀星系 M51、三角座星系 M33）。",
+  "sources": [
+    {
+      "title": "ESA/Hubble: Galaxy Types",
+      "url": "https://esahubble.org/wordbank/hubble-tuning-fork/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

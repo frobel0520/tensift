@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "celestial-mechanics-lagrange-2027-06-17-es-419",
+  "puzzleFamilyId": "celestial-mechanics-lagrange-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-17",
+  "timezone": "UTC",
+  "theme": "Mecánica orbital y puntos de Lagrange",
+  "items": [
+    {
+      "itemId": "celestial-mechanics-lagrange-4",
+      "label": "Punto L1"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-8",
+      "label": "Afelio"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-1",
+      "label": "Límite de Roche"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-6",
+      "label": "Punto L3"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-10",
+      "label": "Nodo descendente"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-2",
+      "label": "Punto L4"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-7",
+      "label": "Perihelio"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-5",
+      "label": "Punto L2"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-9",
+      "label": "Nodo ascendente"
+    },
+    {
+      "itemId": "celestial-mechanics-lagrange-3",
+      "label": "Punto L5"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría en mecánica celeste de cada concepto",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Límite de marea",
+        "capacity": 1,
+        "itemIds": [
+          "celestial-mechanics-lagrange-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Puntos de Lagrange estables",
+        "capacity": 2,
+        "itemIds": [
+          "celestial-mechanics-lagrange-2",
+          "celestial-mechanics-lagrange-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Puntos de Lagrange colineales",
+        "capacity": 3,
+        "itemIds": [
+          "celestial-mechanics-lagrange-4",
+          "celestial-mechanics-lagrange-5",
+          "celestial-mechanics-lagrange-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Ápsides y nodos orbitales",
+        "capacity": 4,
+        "itemIds": [
+          "celestial-mechanics-lagrange-7",
+          "celestial-mechanics-lagrange-8",
+          "celestial-mechanics-lagrange-9",
+          "celestial-mechanics-lagrange-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: límite de marea (límite de Roche), puntos de Lagrange estables (L4, L5), puntos de Lagrange colineales (L1, L2, L3) y ápsides/nodos orbitales (perihelio, afelio, nodo ascendente, nodo descendente).",
+  "sources": [
+    {
+      "title": "NASA: What Are Lagrange Points?",
+      "url": "https://science.nasa.gov/resource/what-is-a-lagrange-point/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

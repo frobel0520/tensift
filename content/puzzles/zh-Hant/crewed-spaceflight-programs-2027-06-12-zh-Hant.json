@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "crewed-spaceflight-programs-2027-06-12-zh-hant",
+  "puzzleFamilyId": "crewed-spaceflight-programs-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-12",
+  "timezone": "UTC",
+  "theme": "載人航太計畫經典任務",
+  "items": [
+    {
+      "itemId": "crewed-spaceflight-programs-4",
+      "label": "雙子星 4 號"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-8",
+      "label": "阿波羅 11 號"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-1",
+      "label": "東方 1 號"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-6",
+      "label": "雙子星 12 號"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-10",
+      "label": "阿波羅 17 號"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-2",
+      "label": "自由 7 號（Freedom 7）"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-7",
+      "label": "阿波羅 8 號"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-5",
+      "label": "雙子星 8 號"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-9",
+      "label": "阿波羅 13 號"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-3",
+      "label": "友誼 7 號（Friendship 7）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各次歷史性載人飛行任務所屬的航太計畫（東方號、水星計畫、雙子星計畫或阿波羅計畫）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "東方計畫（蘇聯）",
+        "capacity": 1,
+        "itemIds": [
+          "crewed-spaceflight-programs-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "水星計畫（美國）",
+        "capacity": 2,
+        "itemIds": [
+          "crewed-spaceflight-programs-2",
+          "crewed-spaceflight-programs-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "雙子星計畫（美國）",
+        "capacity": 3,
+        "itemIds": [
+          "crewed-spaceflight-programs-4",
+          "crewed-spaceflight-programs-5",
+          "crewed-spaceflight-programs-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "阿波羅計畫（美國）",
+        "capacity": 4,
+        "itemIds": [
+          "crewed-spaceflight-programs-7",
+          "crewed-spaceflight-programs-8",
+          "crewed-spaceflight-programs-9",
+          "crewed-spaceflight-programs-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依載人航太計畫分類：東方計畫（東方 1 號）、水星計畫（自由 7 號、友誼 7 號）、雙子星計畫（雙子星 4 號、8 號、12 號）與阿波羅計畫（阿波羅 8 號、11 號、13 號、17 號）。",
+  "sources": [
+    {
+      "title": "NASA: Human Spaceflight History",
+      "url": "https://www.nasa.gov/history/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

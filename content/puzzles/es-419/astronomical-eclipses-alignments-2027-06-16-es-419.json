@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "astronomical-eclipses-alignments-2027-06-16-es-419",
+  "puzzleFamilyId": "astronomical-eclipses-alignments-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-16",
+  "timezone": "UTC",
+  "theme": "Eclipses y alineaciones celestes",
+  "items": [
+    {
+      "itemId": "astronomical-eclipses-alignments-4",
+      "label": "Eclipse solar total"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-8",
+      "label": "Ocultación lunar"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-1",
+      "label": "Tránsito de Venus"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-6",
+      "label": "Eclipse solar parcial"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-10",
+      "label": "Cuadratura"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-2",
+      "label": "Eclipse lunar total"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-7",
+      "label": "Gran conjunción"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-5",
+      "label": "Eclipse solar anular"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-9",
+      "label": "Oposición planetaria"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-3",
+      "label": "Eclipse lunar penumbral"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase de evento astronómico geométrico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Tránsito planetario",
+        "capacity": 1,
+        "itemIds": [
+          "astronomical-eclipses-alignments-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Eclipses lunares",
+        "capacity": 2,
+        "itemIds": [
+          "astronomical-eclipses-alignments-2",
+          "astronomical-eclipses-alignments-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Eclipses solares",
+        "capacity": 3,
+        "itemIds": [
+          "astronomical-eclipses-alignments-4",
+          "astronomical-eclipses-alignments-5",
+          "astronomical-eclipses-alignments-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Aspectos y ocultaciones",
+        "capacity": 4,
+        "itemIds": [
+          "astronomical-eclipses-alignments-7",
+          "astronomical-eclipses-alignments-8",
+          "astronomical-eclipses-alignments-9",
+          "astronomical-eclipses-alignments-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase: tránsito (tránsito de Venus), eclipses lunares (lunar total, lunar penumbral), eclipses solares (solar total, anular, parcial) y aspectos/ocultaciones (gran conjunción, ocultación lunar, oposición, cuadratura).",
+  "sources": [
+    {
+      "title": "NASA: Eclipse Glossary",
+      "url": "https://science.nasa.gov/eclipses/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

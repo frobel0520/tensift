@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "lunar-surface-features-2027-07-03-en",
+  "puzzleFamilyId": "lunar-surface-features-001",
+  "locale": "en",
+  "publishDate": "2027-07-03",
+  "timezone": "UTC",
+  "theme": "Lunar Surface Features",
+  "items": [
+    {
+      "itemId": "lunar-surface-features-4",
+      "label": "Montes Apenninus"
+    },
+    {
+      "itemId": "lunar-surface-features-8",
+      "label": "Copernicus Crater"
+    },
+    {
+      "itemId": "lunar-surface-features-1",
+      "label": "Oceanus Procellarum"
+    },
+    {
+      "itemId": "lunar-surface-features-6",
+      "label": "Montes Caucasus"
+    },
+    {
+      "itemId": "lunar-surface-features-10",
+      "label": "Plato Crater"
+    },
+    {
+      "itemId": "lunar-surface-features-2",
+      "label": "Mare Tranquillitatis"
+    },
+    {
+      "itemId": "lunar-surface-features-7",
+      "label": "Tycho Crater"
+    },
+    {
+      "itemId": "lunar-surface-features-5",
+      "label": "Montes Alpes"
+    },
+    {
+      "itemId": "lunar-surface-features-9",
+      "label": "Aristarchus Crater"
+    },
+    {
+      "itemId": "lunar-surface-features-3",
+      "label": "Mare Imbrium"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Selenographic feature class (Lunar Ocean, Lunar Maria, Lunar Mountain Ranges, or Impact Craters)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Lunar Ocean",
+        "capacity": 1,
+        "itemIds": [
+          "lunar-surface-features-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Lunar Maria (Seas)",
+        "capacity": 2,
+        "itemIds": [
+          "lunar-surface-features-2",
+          "lunar-surface-features-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Lunar Mountain Ranges",
+        "capacity": 3,
+        "itemIds": [
+          "lunar-surface-features-4",
+          "lunar-surface-features-5",
+          "lunar-surface-features-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Impact Craters",
+        "capacity": 4,
+        "itemIds": [
+          "lunar-surface-features-7",
+          "lunar-surface-features-8",
+          "lunar-surface-features-9",
+          "lunar-surface-features-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by selenographic class: Lunar Ocean (Oceanus Procellarum), Lunar Maria (Mare Tranquillitatis, Mare Imbrium), Lunar Mountain Ranges (Montes Apenninus, Montes Alpes, Montes Caucasus), and Prominent Craters (Tycho, Copernicus, Aristarchus, Plato).",
+  "sources": [
+    {
+      "title": "USGS: Gazetteer of Planetary Nomenclature (Moon)",
+      "url": "https://planetarynames.wr.usgs.gov/Page/MOON/target",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

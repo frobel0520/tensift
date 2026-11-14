@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "icao-phonetic-alphabet-2027-06-22-zh-hant",
+  "puzzleFamilyId": "icao-phonetic-alphabet-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-22",
+  "timezone": "UTC",
+  "theme": "ICAO 航空無線電字母表",
+  "items": [
+    {
+      "itemId": "icao-phonetic-alphabet-4",
+      "label": "Mike (M)"
+    },
+    {
+      "itemId": "icao-phonetic-alphabet-8",
+      "label": "Tango (T)"
+    },
+    {
+      "itemId": "icao-phonetic-alphabet-1",
+      "label": "Alfa (A)"
+    },
+    {
+      "itemId": "icao-phonetic-alphabet-6",
+      "label": "Papa (P)"
+    },
+    {
+      "itemId": "icao-phonetic-alphabet-10",
+      "label": "Zulu (Z)"
+    },
+    {
+      "itemId": "icao-phonetic-alphabet-2",
+      "label": "Bravo (B)"
+    },
+    {
+      "itemId": "icao-phonetic-alphabet-7",
+      "label": "Sierra (S)"
+    },
+    {
+      "itemId": "icao-phonetic-alphabet-5",
+      "label": "Oscar (O)"
+    },
+    {
+      "itemId": "icao-phonetic-alphabet-9",
+      "label": "Whiskey (W)"
+    },
+    {
+      "itemId": "icao-phonetic-alphabet-3",
+      "label": "Delta (D)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各 ICAO 航空無線電字母代碼的字母區段（A 開頭、B–D、M–P 或 S–Z）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "字母 A",
+        "capacity": 1,
+        "itemIds": [
+          "icao-phonetic-alphabet-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "字母 B–D",
+        "capacity": 2,
+        "itemIds": [
+          "icao-phonetic-alphabet-2",
+          "icao-phonetic-alphabet-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "字母 M–P",
+        "capacity": 3,
+        "itemIds": [
+          "icao-phonetic-alphabet-4",
+          "icao-phonetic-alphabet-5",
+          "icao-phonetic-alphabet-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "字母 S–Z",
+        "capacity": 4,
+        "itemIds": [
+          "icao-phonetic-alphabet-7",
+          "icao-phonetic-alphabet-8",
+          "icao-phonetic-alphabet-9",
+          "icao-phonetic-alphabet-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依代碼開頭字母區段分類：A（Alfa）、B–D（Bravo、Delta）、M–P（Mike、Oscar、Papa）與 S–Z（Sierra、Tango、Whiskey、Zulu）。",
+  "sources": [
+    {
+      "title": "ICAO: Phonetic Alphabet",
+      "url": "https://www.icao.int/Pages/AlphabetRadiotelephony.aspx",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "lunar-surface-features-001",
+  "theme": "Lunar Surface Features",
+  "publishDate": "2027-07-03",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "lunar-surface-features-1",
+        "rivalGroupId": "group-2",
+        "risk": "Oceanus Procellarum is a dark basaltic plain like the maria.",
+        "resolution": "Oceanus Procellarum is the sole lunar feature officially designated an Oceanus (group-1), larger than the Maria (group-2)."
+      },
+      {
+        "itemId": "lunar-surface-features-10",
+        "rivalGroupId": "group-2",
+        "risk": "Plato Crater has a dark, smooth basalt-filled floor.",
+        "resolution": "Plato is a walled impact crater (group-4) bordering Mare Imbrium."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

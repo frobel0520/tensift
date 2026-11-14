@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "solar-system-dwarf-planets-2027-06-15-en",
+  "puzzleFamilyId": "solar-system-dwarf-planets-001",
+  "locale": "en",
+  "publishDate": "2027-06-15",
+  "timezone": "UTC",
+  "theme": "Dwarf Planets & Minor Worlds",
+  "items": [
+    {
+      "itemId": "solar-system-dwarf-planets-4",
+      "label": "Pluto"
+    },
+    {
+      "itemId": "solar-system-dwarf-planets-8",
+      "label": "Haumea"
+    },
+    {
+      "itemId": "solar-system-dwarf-planets-1",
+      "label": "Ceres"
+    },
+    {
+      "itemId": "solar-system-dwarf-planets-6",
+      "label": "Ixion"
+    },
+    {
+      "itemId": "solar-system-dwarf-planets-10",
+      "label": "Varuna"
+    },
+    {
+      "itemId": "solar-system-dwarf-planets-2",
+      "label": "Eris"
+    },
+    {
+      "itemId": "solar-system-dwarf-planets-7",
+      "label": "Makemake"
+    },
+    {
+      "itemId": "solar-system-dwarf-planets-5",
+      "label": "Orcus"
+    },
+    {
+      "itemId": "solar-system-dwarf-planets-9",
+      "label": "Quaoar"
+    },
+    {
+      "itemId": "solar-system-dwarf-planets-3",
+      "label": "Gonggong"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Orbital zone (Main Asteroid Belt, Scattered Disc, Kuiper Plutinos, or Classical Kuiper Belt Cubewanos)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Main Asteroid Belt",
+        "capacity": 1,
+        "itemIds": [
+          "solar-system-dwarf-planets-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Scattered Disc",
+        "capacity": 2,
+        "itemIds": [
+          "solar-system-dwarf-planets-2",
+          "solar-system-dwarf-planets-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Kuiper Belt Plutinos (2:3)",
+        "capacity": 3,
+        "itemIds": [
+          "solar-system-dwarf-planets-4",
+          "solar-system-dwarf-planets-5",
+          "solar-system-dwarf-planets-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Classical Kuiper Belt (Cubewanos)",
+        "capacity": 4,
+        "itemIds": [
+          "solar-system-dwarf-planets-7",
+          "solar-system-dwarf-planets-8",
+          "solar-system-dwarf-planets-9",
+          "solar-system-dwarf-planets-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by orbital zone: Main Asteroid Belt (Ceres), Scattered Disc (Eris, Gonggong), Kuiper Belt Plutinos in 2:3 resonance (Pluto, Orcus, Ixion), and Classical Kuiper Belt Cubewanos (Makemake, Haumea, Quaoar, Varuna).",
+  "sources": [
+    {
+      "title": "IAU: Minor Planet Center & Dwarf Planets",
+      "url": "https://www.iau.org/public/themes/pluto/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.74
+  },
+  "status": "scheduled"
+}

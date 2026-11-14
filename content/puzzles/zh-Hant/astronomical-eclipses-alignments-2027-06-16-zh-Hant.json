@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "astronomical-eclipses-alignments-2027-06-16-zh-hant",
+  "puzzleFamilyId": "astronomical-eclipses-alignments-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-16",
+  "timezone": "UTC",
+  "theme": "日月食與天體幾何排列",
+  "items": [
+    {
+      "itemId": "astronomical-eclipses-alignments-4",
+      "label": "日全食"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-8",
+      "label": "月掩星"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-1",
+      "label": "金星凌日"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-6",
+      "label": "日偏食"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-10",
+      "label": "方照（Quadrature）"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-2",
+      "label": "月全食"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-7",
+      "label": "木土大合"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-5",
+      "label": "日環食"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-9",
+      "label": "行星衝日"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-3",
+      "label": "半影月食"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各天文現象所屬的幾何類別（凌日、月食、日食或行星位置／掩星）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "行星凌日",
+        "capacity": 1,
+        "itemIds": [
+          "astronomical-eclipses-alignments-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "月食類型",
+        "capacity": 2,
+        "itemIds": [
+          "astronomical-eclipses-alignments-2",
+          "astronomical-eclipses-alignments-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "日食類型",
+        "capacity": 3,
+        "itemIds": [
+          "astronomical-eclipses-alignments-4",
+          "astronomical-eclipses-alignments-5",
+          "astronomical-eclipses-alignments-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "行星位置與掩星",
+        "capacity": 4,
+        "itemIds": [
+          "astronomical-eclipses-alignments-7",
+          "astronomical-eclipses-alignments-8",
+          "astronomical-eclipses-alignments-9",
+          "astronomical-eclipses-alignments-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依天文幾何現象分類：行星凌日（金星凌日）、月食（月全食、半影月食）、日食（日全食、日環食、日偏食）與行星幾何／掩星（木土大合、月掩星、行星衝日、方照 Quadrature）。",
+  "sources": [
+    {
+      "title": "NASA: Eclipse Glossary",
+      "url": "https://science.nasa.gov/eclipses/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

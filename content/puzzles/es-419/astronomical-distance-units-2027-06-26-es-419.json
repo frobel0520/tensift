@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "astronomical-distance-units-2027-06-26-es-419",
+  "puzzleFamilyId": "astronomical-distance-units-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-26",
+  "timezone": "UTC",
+  "theme": "Unidades de distancia astronómica",
+  "items": [
+    {
+      "itemId": "astronomical-distance-units-4",
+      "label": "Kilómetro (km)"
+    },
+    {
+      "itemId": "astronomical-distance-units-8",
+      "label": "Kilopársec (kpc)"
+    },
+    {
+      "itemId": "astronomical-distance-units-1",
+      "label": "Unidad astronómica (UA)"
+    },
+    {
+      "itemId": "astronomical-distance-units-6",
+      "label": "Gigámetro (Gm)"
+    },
+    {
+      "itemId": "astronomical-distance-units-10",
+      "label": "Gigapársec (Gpc)"
+    },
+    {
+      "itemId": "astronomical-distance-units-2",
+      "label": "Segundo luz"
+    },
+    {
+      "itemId": "astronomical-distance-units-7",
+      "label": "Pársec (pc)"
+    },
+    {
+      "itemId": "astronomical-distance-units-5",
+      "label": "Megámetro (Mm)"
+    },
+    {
+      "itemId": "astronomical-distance-units-9",
+      "label": "Megapársec (Mpc)"
+    },
+    {
+      "itemId": "astronomical-distance-units-3",
+      "label": "Año luz"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Base de definición de cada unidad de distancia",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Referencia Tierra-Sol",
+        "capacity": 1,
+        "itemIds": [
+          "astronomical-distance-units-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Unidades de tiempo-luz",
+        "capacity": 2,
+        "itemIds": [
+          "astronomical-distance-units-2",
+          "astronomical-distance-units-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Múltiplos métricos SI",
+        "capacity": 3,
+        "itemIds": [
+          "astronomical-distance-units-4",
+          "astronomical-distance-units-5",
+          "astronomical-distance-units-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Familia del pársec",
+        "capacity": 4,
+        "itemIds": [
+          "astronomical-distance-units-7",
+          "astronomical-distance-units-8",
+          "astronomical-distance-units-9",
+          "astronomical-distance-units-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por base: distancia Tierra-Sol (unidad astronómica UA), tiempo-luz (segundo luz, año luz), múltiplos métricos SI (kilómetro, megámetro, gigámetro) y familia del pársec (pársec, kilopársec, megapársec, gigapársec).",
+  "sources": [
+    {
+      "title": "IAU: Measuring the Universe",
+      "url": "https://www.iau.org/public/themes/measuring/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

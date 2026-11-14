@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "aviation-flight-instruments-001",
+  "theme": "Aircraft Flight Instruments",
+  "publishDate": "2027-06-20",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "aviation-flight-instruments-1",
+        "rivalGroupId": "group-2",
+        "risk": "Heading Indicator displays compass directions.",
+        "resolution": "A magnetic compass directly senses Earth’s magnetic field (group-1), whereas the Heading Indicator is a gyroscope (group-2)."
+      },
+      {
+        "itemId": "aviation-flight-instruments-4",
+        "rivalGroupId": "group-2",
+        "risk": "Airspeed Indicator is part of the cockpit six-pack.",
+        "resolution": "Airspeed, Altimeter, and VSI operate on pitot/static air pressure (group-3), not gyroscopes (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

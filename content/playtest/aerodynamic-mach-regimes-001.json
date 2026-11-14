@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "aerodynamic-mach-regimes-001",
+  "theme": "Aerodynamic Speed Regimes",
+  "publishDate": "2027-06-28",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "aerodynamic-mach-regimes-6",
+        "rivalGroupId": "group-4",
+        "risk": "SR-71 was the fastest jet-powered aircraft.",
+        "resolution": "At Mach 3.2, the SR-71 flew in the supersonic regime (group-3), below the Mach 5.0 hypersonic threshold (group-4)."
+      },
+      {
+        "itemId": "aerodynamic-mach-regimes-2",
+        "rivalGroupId": "group-1",
+        "risk": "Critical Mach occurs while the aircraft is below Mach 1.",
+        "resolution": "Critical Mach marks the onset of local supersonic flow on the wing, defining the start of the transonic regime (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

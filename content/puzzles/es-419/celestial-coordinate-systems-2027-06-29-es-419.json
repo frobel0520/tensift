@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "celestial-coordinate-systems-2027-06-29-es-419",
+  "puzzleFamilyId": "celestial-coordinate-systems-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-29",
+  "timezone": "UTC",
+  "theme": "Sistemas de coordenadas celestes",
+  "items": [
+    {
+      "itemId": "celestial-coordinate-systems-4",
+      "label": "Ascensión recta (AR)"
+    },
+    {
+      "itemId": "celestial-coordinate-systems-8",
+      "label": "Punto vernal"
+    },
+    {
+      "itemId": "celestial-coordinate-systems-1",
+      "label": "Cenit"
+    },
+    {
+      "itemId": "celestial-coordinate-systems-6",
+      "label": "Ecuador celeste"
+    },
+    {
+      "itemId": "celestial-coordinate-systems-10",
+      "label": "Longitud galáctica"
+    },
+    {
+      "itemId": "celestial-coordinate-systems-2",
+      "label": "Acimut"
+    },
+    {
+      "itemId": "celestial-coordinate-systems-7",
+      "label": "Plano de la eclíptica"
+    },
+    {
+      "itemId": "celestial-coordinate-systems-5",
+      "label": "Declinación (Dec)"
+    },
+    {
+      "itemId": "celestial-coordinate-systems-9",
+      "label": "Latitud galáctica"
+    },
+    {
+      "itemId": "celestial-coordinate-systems-3",
+      "label": "Altura (elevación)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Sistema de referencia astronómico de cada término",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Punto cenital",
+        "capacity": 1,
+        "itemIds": [
+          "celestial-coordinate-systems-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Sistema horizontal",
+        "capacity": 2,
+        "itemIds": [
+          "celestial-coordinate-systems-2",
+          "celestial-coordinate-systems-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Sistema ecuatorial",
+        "capacity": 3,
+        "itemIds": [
+          "celestial-coordinate-systems-4",
+          "celestial-coordinate-systems-5",
+          "celestial-coordinate-systems-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Sistemas eclíptico y galáctico",
+        "capacity": 4,
+        "itemIds": [
+          "celestial-coordinate-systems-7",
+          "celestial-coordinate-systems-8",
+          "celestial-coordinate-systems-9",
+          "celestial-coordinate-systems-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por sistema: vertical local (cenit), sistema horizontal (acimut, altura), sistema ecuatorial (ascensión recta, declinación, ecuador celeste) y sistemas eclíptico/galáctico (plano de la eclíptica, punto vernal, latitud galáctica, longitud galáctica).",
+  "sources": [
+    {
+      "title": "Britannica: Celestial Coordinate System",
+      "url": "https://www.britannica.com/science/celestial-coordinate-system",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

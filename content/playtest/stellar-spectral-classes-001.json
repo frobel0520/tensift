@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "stellar-spectral-classes-001",
+  "theme": "Stellar Spectral Classes",
+  "publishDate": "2027-06-07",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "stellar-spectral-classes-7",
+        "rivalGroupId": "group-3",
+        "risk": "Class M is part of the classic main-sequence OBAFGKM sequence.",
+        "resolution": "Class M (<3,700 K) shares the cool red/brown dwarf regime with L, T, and Y (group-4), below K-type stars (group-3)."
+      },
+      {
+        "itemId": "stellar-spectral-classes-1",
+        "rivalGroupId": "group-2",
+        "risk": "O and B stars are both blue.",
+        "resolution": "O-type stars exceed 30,000 K as the hottest canonical class (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

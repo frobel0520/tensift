@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "earth-orbital-regimes-2027-06-10-zh-hant",
+  "puzzleFamilyId": "earth-orbital-regimes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-10",
+  "timezone": "UTC",
+  "theme": "人造衛星軌道分類",
+  "items": [
+    {
+      "itemId": "earth-orbital-regimes-4",
+      "label": "GPS 軌道（約 20,200 km）"
+    },
+    {
+      "itemId": "earth-orbital-regimes-8",
+      "label": "地球同步軌道（GSO）"
+    },
+    {
+      "itemId": "earth-orbital-regimes-1",
+      "label": "太陽同步軌道（SSO）"
+    },
+    {
+      "itemId": "earth-orbital-regimes-6",
+      "label": "GLONASS 軌道（約 19,100 km）"
+    },
+    {
+      "itemId": "earth-orbital-regimes-10",
+      "label": "日地 L2 暈軌道"
+    },
+    {
+      "itemId": "earth-orbital-regimes-2",
+      "label": "國際太空站軌道（約 400 km）"
+    },
+    {
+      "itemId": "earth-orbital-regimes-7",
+      "label": "地球靜止軌道（GEO）"
+    },
+    {
+      "itemId": "earth-orbital-regimes-5",
+      "label": "伽利略系統軌道（約 23,222 km）"
+    },
+    {
+      "itemId": "earth-orbital-regimes-9",
+      "label": "閃電軌道（Molniya）"
+    },
+    {
+      "itemId": "earth-orbital-regimes-3",
+      "label": "哈伯望遠鏡軌道（約 540 km）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各代表性太空軌道所屬的高度與幾何類型",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "太陽同步軌道",
+        "capacity": 1,
+        "itemIds": [
+          "earth-orbital-regimes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "低地球軌道（非極軌）",
+        "capacity": 2,
+        "itemIds": [
+          "earth-orbital-regimes-2",
+          "earth-orbital-regimes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "中地球軌道（導航衛星）",
+        "capacity": 3,
+        "itemIds": [
+          "earth-orbital-regimes-4",
+          "earth-orbital-regimes-5",
+          "earth-orbital-regimes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "高軌、同步與 L2 軌道",
+        "capacity": 4,
+        "itemIds": [
+          "earth-orbital-regimes-7",
+          "earth-orbital-regimes-8",
+          "earth-orbital-regimes-9",
+          "earth-orbital-regimes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依軌道高度與幾何分類：太陽同步軌道（太陽同步軌道 SSO）、低地球軌道（國際太空站軌道、哈伯軌道）、中地球軌道（GPS 軌道、伽利略軌道、GLONASS 軌道）與高／地球同步／拉格朗日軌道（地球靜止軌道 GEO、地球同步軌道 GSO、閃電軌道 Molniya、日地 L2 暈軌道）。",
+  "sources": [
+    {
+      "title": "ESA: Types of Orbits",
+      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

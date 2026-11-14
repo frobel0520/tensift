@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "aircraft-control-surfaces-2027-06-21-zh-hant",
+  "puzzleFamilyId": "aircraft-control-surfaces-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-21",
+  "timezone": "UTC",
+  "theme": "飛機翼面與飛行控制",
+  "items": [
+    {
+      "itemId": "aircraft-control-surfaces-4",
+      "label": "副翼（控制滾轉）"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-8",
+      "label": "垂直安定面"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-1",
+      "label": "引擎油門推力桿"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-6",
+      "label": "方向舵（控制偏航）"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-10",
+      "label": "翼梢小翼（Winglet）"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-2",
+      "label": "襟翼（Flaps）"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-7",
+      "label": "水平安定面"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-5",
+      "label": "升降舵（控制俯仰）"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-9",
+      "label": "配平調整片"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-3",
+      "label": "擾流板／減速板"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各飛機控制裝置或翼面的氣動功能（推力控制、襟翼／減速板、主軸向舵面或安定面／翼梢）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "推力控制",
+        "capacity": 1,
+        "itemIds": [
+          "aircraft-control-surfaces-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "增升與減速副翼",
+        "capacity": 2,
+        "itemIds": [
+          "aircraft-control-surfaces-2",
+          "aircraft-control-surfaces-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "三軸主控制舵面",
+        "capacity": 3,
+        "itemIds": [
+          "aircraft-control-surfaces-4",
+          "aircraft-control-surfaces-5",
+          "aircraft-control-surfaces-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "安定面、配平與翼梢",
+        "capacity": 4,
+        "itemIds": [
+          "aircraft-control-surfaces-7",
+          "aircraft-control-surfaces-8",
+          "aircraft-control-surfaces-9",
+          "aircraft-control-surfaces-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依氣動控制功能分類：推力（油門推力桿）、增升／減速輔翼（襟翼、擾流減速板）、三軸主控制面（副翼、升降舵、方向舵）與安定面／配平／翼端裝置（水平安定面、垂直安定面、配平片、翼梢小翼）。",
+  "sources": [
+    {
+      "title": "NASA: Airplane Parts and Function",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/airplane-parts-function/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

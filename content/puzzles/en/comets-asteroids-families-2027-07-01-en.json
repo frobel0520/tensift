@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "comets-asteroids-families-2027-07-01-en",
+  "puzzleFamilyId": "comets-asteroids-families-001",
+  "locale": "en",
+  "publishDate": "2027-07-01",
+  "timezone": "UTC",
+  "theme": "Famous Comets & Asteroids",
+  "items": [
+    {
+      "itemId": "comets-asteroids-families-4",
+      "label": "Comet Hale-Bopp"
+    },
+    {
+      "itemId": "comets-asteroids-families-8",
+      "label": "2 Pallas"
+    },
+    {
+      "itemId": "comets-asteroids-families-1",
+      "label": "1I/ʻOumuamua"
+    },
+    {
+      "itemId": "comets-asteroids-families-6",
+      "label": "Comet McNaught"
+    },
+    {
+      "itemId": "comets-asteroids-families-10",
+      "label": "16 Psyche"
+    },
+    {
+      "itemId": "comets-asteroids-families-2",
+      "label": "Halley's Comet (76 yr)"
+    },
+    {
+      "itemId": "comets-asteroids-families-7",
+      "label": "4 Vesta"
+    },
+    {
+      "itemId": "comets-asteroids-families-5",
+      "label": "Comet Hyakutake"
+    },
+    {
+      "itemId": "comets-asteroids-families-9",
+      "label": "3 Juno"
+    },
+    {
+      "itemId": "comets-asteroids-families-3",
+      "label": "Comet Encke (3.3 yr)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Orbital class (Interstellar Visitor, Short-Period Comet, Long-Period Comet, or Main-Belt Asteroid)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Interstellar Visitor",
+        "capacity": 1,
+        "itemIds": [
+          "comets-asteroids-families-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Short-Period Comets (<200 yr)",
+        "capacity": 2,
+        "itemIds": [
+          "comets-asteroids-families-2",
+          "comets-asteroids-families-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Long-Period Comets (>200 yr)",
+        "capacity": 3,
+        "itemIds": [
+          "comets-asteroids-families-4",
+          "comets-asteroids-families-5",
+          "comets-asteroids-families-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Main-Belt Asteroids",
+        "capacity": 4,
+        "itemIds": [
+          "comets-asteroids-families-7",
+          "comets-asteroids-families-8",
+          "comets-asteroids-families-9",
+          "comets-asteroids-families-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by orbital class: Interstellar Object (1I/ʻOumuamua), Short-Period Comets (Halley's Comet, Comet Encke), Long-Period Comets (Hale-Bopp, Comet Hyakutake, Comet McNaught), and Main-Belt Asteroids (Vesta, Pallas, Juno, Psyche).",
+  "sources": [
+    {
+      "title": "NASA JPL: Small-Body Database",
+      "url": "https://ssd.jpl.nasa.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

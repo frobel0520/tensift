@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "spaceport-launch-sites-001",
+  "theme": "World Spaceports by Country",
+  "publishDate": "2027-07-02",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "spaceport-launch-sites-1",
+        "rivalGroupId": "group-4",
+        "risk": "Kourou is in South America near the Equator.",
+        "resolution": "Kourou in French Guiana is Europe’s (ESA/CNES) equatorial spaceport (group-1), not a US site (group-4)."
+      },
+      {
+        "itemId": "spaceport-launch-sites-4",
+        "rivalGroupId": "group-2",
+        "risk": "Baikonur is geographically in Kazakhstan.",
+        "resolution": "Baikonur is operated by Roscosmos alongside Plesetsk and Vostochny (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

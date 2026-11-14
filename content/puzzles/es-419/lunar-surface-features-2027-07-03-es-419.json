@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "lunar-surface-features-2027-07-03-es-419",
+  "puzzleFamilyId": "lunar-surface-features-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-03",
+  "timezone": "UTC",
+  "theme": "Rasgos de la superficie lunar",
+  "items": [
+    {
+      "itemId": "lunar-surface-features-4",
+      "label": "Montes Apenninus"
+    },
+    {
+      "itemId": "lunar-surface-features-8",
+      "label": "Cráter Copérnico"
+    },
+    {
+      "itemId": "lunar-surface-features-1",
+      "label": "Oceanus Procellarum"
+    },
+    {
+      "itemId": "lunar-surface-features-6",
+      "label": "Montes Caucasus"
+    },
+    {
+      "itemId": "lunar-surface-features-10",
+      "label": "Cráter Platón"
+    },
+    {
+      "itemId": "lunar-surface-features-2",
+      "label": "Mare Tranquillitatis"
+    },
+    {
+      "itemId": "lunar-surface-features-7",
+      "label": "Cráter Tycho"
+    },
+    {
+      "itemId": "lunar-surface-features-5",
+      "label": "Montes Alpes"
+    },
+    {
+      "itemId": "lunar-surface-features-9",
+      "label": "Cráter Aristarco"
+    },
+    {
+      "itemId": "lunar-surface-features-3",
+      "label": "Mare Imbrium"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría selenográfica de cada rasgo lunar",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Océano lunar",
+        "capacity": 1,
+        "itemIds": [
+          "lunar-surface-features-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Mares lunares",
+        "capacity": 2,
+        "itemIds": [
+          "lunar-surface-features-2",
+          "lunar-surface-features-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Cordilleras lunares",
+        "capacity": 3,
+        "itemIds": [
+          "lunar-surface-features-4",
+          "lunar-surface-features-5",
+          "lunar-surface-features-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Cráteres de impacto",
+        "capacity": 4,
+        "itemIds": [
+          "lunar-surface-features-7",
+          "lunar-surface-features-8",
+          "lunar-surface-features-9",
+          "lunar-surface-features-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase selenográfica: océano lunar (Oceanus Procellarum), mares lunares (Mare Tranquillitatis, Mare Imbrium), cordilleras lunares (Montes Apenninus, Alpes, Caucasus) y cráteres (Tycho, Copérnico, Aristarco, Platón).",
+  "sources": [
+    {
+      "title": "USGS: Gazetteer of Planetary Nomenclature (Moon)",
+      "url": "https://planetarynames.wr.usgs.gov/Page/MOON/target",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

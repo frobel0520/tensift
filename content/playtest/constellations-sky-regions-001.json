@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "constellations-sky-regions-001",
+  "theme": "Constellations by Sky Region",
+  "publishDate": "2027-06-14",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "constellations-sky-regions-7",
+        "rivalGroupId": "group-3",
+        "risk": "Orion sits right next to Taurus and Gemini.",
+        "resolution": "The ecliptic does not pass through Orion, so Orion is not a zodiac constellation (group-4)."
+      },
+      {
+        "itemId": "constellations-sky-regions-1",
+        "rivalGroupId": "group-4",
+        "risk": "Crux is a famous bright constellation.",
+        "resolution": "Crux is the iconic South Circumpolar constellation (group-1), invisible from mid-northern latitudes."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

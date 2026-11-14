@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "airport-airside-markings-001",
+  "theme": "Airport Airside & Airspace",
+  "publishDate": "2027-06-24",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "airport-airside-markings-3",
+        "rivalGroupId": "group-3",
+        "risk": "Runway Hold-Short Line includes the word Runway.",
+        "resolution": "Hold-short markings are painted on taxiways to stop aircraft before entering a runway (group-2)."
+      },
+      {
+        "itemId": "airport-airside-markings-1",
+        "rivalGroupId": "group-3",
+        "risk": "Helipads are surface pavement markings.",
+        "resolution": "Helipads serve vertical-lift rotorcraft (group-1), distinct from fixed-wing runway markings (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "spacecraft-propulsion-types-2027-06-11-es-419",
+  "puzzleFamilyId": "spacecraft-propulsion-types-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-11",
+  "timezone": "UTC",
+  "theme": "Propulsión espacial",
+  "items": [
+    {
+      "itemId": "spacecraft-propulsion-types-4",
+      "label": "Cohete de combustible sólido"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-8",
+      "label": "Metalox (CH4 / LOX)"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-1",
+      "label": "Vela solar"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-6",
+      "label": "Propulsor de gas frío"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-10",
+      "label": "Bipropelente hipergólico"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-2",
+      "label": "Propulsor iónico de rejilla"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-7",
+      "label": "Hidrolox (LH2 / LOX)"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-5",
+      "label": "Motor cohete híbrido"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-9",
+      "label": "Querolox (RP-1 / LOX)"
+    },
+    {
+      "itemId": "spacecraft-propulsion-types-3",
+      "label": "Propulsor de efecto Hall"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Mecanismo físico de cada sistema de propulsión espacial",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Presión de radiación solar",
+        "capacity": 1,
+        "itemIds": [
+          "spacecraft-propulsion-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Propulsión eléctrica",
+        "capacity": 2,
+        "itemIds": [
+          "spacecraft-propulsion-types-2",
+          "spacecraft-propulsion-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Sólido, híbrido y gas frío",
+        "capacity": 3,
+        "itemIds": [
+          "spacecraft-propulsion-types-4",
+          "spacecraft-propulsion-types-5",
+          "spacecraft-propulsion-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Bipropelentes químicos líquidos",
+        "capacity": 4,
+        "itemIds": [
+          "spacecraft-propulsion-types-7",
+          "spacecraft-propulsion-types-8",
+          "spacecraft-propulsion-types-9",
+          "spacecraft-propulsion-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por mecanismo: vela solar (presión de radiación), propulsión eléctrica (propulsor iónico, propulsor Hall), sólido/híbrido/gas frío (cohete sólido, motor híbrido, gas frío) y bipropelentes líquidos (hidrolox, metalox, querolox, hipergólico).",
+  "sources": [
+    {
+      "title": "NASA: Spacecraft Propulsion",
+      "url": "https://www.nasa.gov/directorates/spacetech/small_spacecraft/smallsat_overview/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.62
+  },
+  "status": "scheduled"
+}
