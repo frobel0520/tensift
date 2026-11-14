@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "osi-layers-bottom-2027-01-16-es-419",
+  "puzzleFamilyId": "osi-layers-bottom-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-16",
+  "timezone": "UTC",
+  "theme": "Hardware de red",
+  "items": [
+    {
+      "itemId": "osi-layers-bottom-4",
+      "label": "Switch Ethernet"
+    },
+    {
+      "itemId": "osi-layers-bottom-8",
+      "label": "Cable RJ45"
+    },
+    {
+      "itemId": "osi-layers-bottom-1",
+      "label": "Proxy inverso HTTP"
+    },
+    {
+      "itemId": "osi-layers-bottom-6",
+      "label": "Punto de acceso Wi-Fi"
+    },
+    {
+      "itemId": "osi-layers-bottom-10",
+      "label": "Hub repetidor"
+    },
+    {
+      "itemId": "osi-layers-bottom-2",
+      "label": "Enrutador IP"
+    },
+    {
+      "itemId": "osi-layers-bottom-7",
+      "label": "Cable de fibra óptica"
+    },
+    {
+      "itemId": "osi-layers-bottom-5",
+      "label": "Puente de red"
+    },
+    {
+      "itemId": "osi-layers-bottom-9",
+      "label": "Cable coaxial"
+    },
+    {
+      "itemId": "osi-layers-bottom-3",
+      "label": "Switch de capa 3"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Capa OSI principal en la que opera cada dispositivo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Capa 7 (Aplicación)",
+        "capacity": 1,
+        "itemIds": [
+          "osi-layers-bottom-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Capa 3 (Red)",
+        "capacity": 2,
+        "itemIds": [
+          "osi-layers-bottom-2",
+          "osi-layers-bottom-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Capa 2 (Enlace de datos)",
+        "capacity": 3,
+        "itemIds": [
+          "osi-layers-bottom-4",
+          "osi-layers-bottom-5",
+          "osi-layers-bottom-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Capa 1 (Física)",
+        "capacity": 4,
+        "itemIds": [
+          "osi-layers-bottom-7",
+          "osi-layers-bottom-8",
+          "osi-layers-bottom-9",
+          "osi-layers-bottom-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por capa OSI: Capa 7 (proxy inverso), Capa 3 (enrutador IP, switch de capa 3), Capa 2 (switch Ethernet, puente de red, punto de acceso Wi-Fi) y Capa 1 física (fibra óptica, cable RJ45, cable coaxial, hub repetidor).",
+  "sources": [
+    {
+      "title": "ISO/IEC 7498-1: OSI Reference Model",
+      "url": "https://www.iso.org/standard/20269.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.52
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ascii-control-chars-2027-01-22-es-419",
+  "puzzleFamilyId": "ascii-control-chars-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-22",
+  "timezone": "UTC",
+  "theme": "Formatos de serialización",
+  "items": [
+    {
+      "itemId": "ascii-control-chars-4",
+      "label": "JSON"
+    },
+    {
+      "itemId": "ascii-control-chars-8",
+      "label": "MessagePack"
+    },
+    {
+      "itemId": "ascii-control-chars-1",
+      "label": "CSV"
+    },
+    {
+      "itemId": "ascii-control-chars-6",
+      "label": "YAML"
+    },
+    {
+      "itemId": "ascii-control-chars-10",
+      "label": "CBOR"
+    },
+    {
+      "itemId": "ascii-control-chars-2",
+      "label": "INI"
+    },
+    {
+      "itemId": "ascii-control-chars-7",
+      "label": "Protocol Buffers"
+    },
+    {
+      "itemId": "ascii-control-chars-5",
+      "label": "XML"
+    },
+    {
+      "itemId": "ascii-control-chars-9",
+      "label": "Apache Avro"
+    },
+    {
+      "itemId": "ascii-control-chars-3",
+      "label": "TOML"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Estructura y tipo de codificación de cada formato",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Texto tabular delimitado",
+        "capacity": 1,
+        "itemIds": [
+          "ascii-control-chars-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Configuración clave-valor",
+        "capacity": 2,
+        "itemIds": [
+          "ascii-control-chars-2",
+          "ascii-control-chars-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Texto jerárquico",
+        "capacity": 3,
+        "itemIds": [
+          "ascii-control-chars-4",
+          "ascii-control-chars-5",
+          "ascii-control-chars-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Formatos binarios",
+        "capacity": 4,
+        "itemIds": [
+          "ascii-control-chars-7",
+          "ascii-control-chars-8",
+          "ascii-control-chars-9",
+          "ascii-control-chars-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por familia de formato: texto tabular delimitado (CSV), configuración clave-valor (INI, TOML), texto jerárquico (JSON, XML, YAML) y formatos binarios (Protocol Buffers, MessagePack, Apache Avro, CBOR).",
+  "sources": [
+    {
+      "title": "IETF RFC 8259: The JSON Data Interchange Format",
+      "url": "https://www.rfc-editor.org/rfc/rfc8259.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.46
+  },
+  "status": "scheduled"
+}

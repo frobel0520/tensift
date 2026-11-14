@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "osi-layers-bottom-2027-01-16-zh-hant",
+  "puzzleFamilyId": "osi-layers-bottom-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-01-16",
+  "timezone": "UTC",
+  "theme": "網路硬體設備",
+  "items": [
+    {
+      "itemId": "osi-layers-bottom-4",
+      "label": "乙太網路交換器"
+    },
+    {
+      "itemId": "osi-layers-bottom-8",
+      "label": "RJ45 網路線"
+    },
+    {
+      "itemId": "osi-layers-bottom-1",
+      "label": "HTTP 反向代理伺服器"
+    },
+    {
+      "itemId": "osi-layers-bottom-6",
+      "label": "無線基地台"
+    },
+    {
+      "itemId": "osi-layers-bottom-10",
+      "label": "實體集線器"
+    },
+    {
+      "itemId": "osi-layers-bottom-2",
+      "label": "IP 路由器"
+    },
+    {
+      "itemId": "osi-layers-bottom-7",
+      "label": "光纖纜線"
+    },
+    {
+      "itemId": "osi-layers-bottom-5",
+      "label": "網路橋接器"
+    },
+    {
+      "itemId": "osi-layers-bottom-9",
+      "label": "同軸電纜"
+    },
+    {
+      "itemId": "osi-layers-bottom-3",
+      "label": "三層交換器"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各網路硬體設備主要運作的 OSI 層級",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "第 7 層（應用層）",
+        "capacity": 1,
+        "itemIds": [
+          "osi-layers-bottom-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "第 3 層（網路層）",
+        "capacity": 2,
+        "itemIds": [
+          "osi-layers-bottom-2",
+          "osi-layers-bottom-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "第 2 層（資料鏈結層）",
+        "capacity": 3,
+        "itemIds": [
+          "osi-layers-bottom-4",
+          "osi-layers-bottom-5",
+          "osi-layers-bottom-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "第 1 層（實體層）",
+        "capacity": 4,
+        "itemIds": [
+          "osi-layers-bottom-7",
+          "osi-layers-bottom-8",
+          "osi-layers-bottom-9",
+          "osi-layers-bottom-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依主要運作的 OSI 層級分類：第七層應用閘道（反向代理伺服器）、第三層路由（IP 路由器、三層交換器）、第二層資料鏈結（乙太網路交換器、網路橋接器、無線基地台）與第一層實體傳輸（光纖、RJ45 網路線、同軸電纜、集線器）。",
+  "sources": [
+    {
+      "title": "ISO/IEC 7498-1: OSI Reference Model",
+      "url": "https://www.iso.org/standard/20269.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.52
+  },
+  "status": "scheduled"
+}

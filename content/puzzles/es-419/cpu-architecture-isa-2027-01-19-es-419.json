@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cpu-architecture-isa-2027-01-19-es-419",
+  "puzzleFamilyId": "cpu-architecture-isa-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-19",
+  "timezone": "UTC",
+  "theme": "Arquitecturas de procesador",
+  "items": [
+    {
+      "itemId": "cpu-architecture-isa-4",
+      "label": "AVR"
+    },
+    {
+      "itemId": "cpu-architecture-isa-8",
+      "label": "MIPS64"
+    },
+    {
+      "itemId": "cpu-architecture-isa-1",
+      "label": "RISC-V"
+    },
+    {
+      "itemId": "cpu-architecture-isa-6",
+      "label": "MSP430"
+    },
+    {
+      "itemId": "cpu-architecture-isa-10",
+      "label": "SPARC"
+    },
+    {
+      "itemId": "cpu-architecture-isa-2",
+      "label": "x86-64"
+    },
+    {
+      "itemId": "cpu-architecture-isa-7",
+      "label": "ARM64 (AArch64)"
+    },
+    {
+      "itemId": "cpu-architecture-isa-5",
+      "label": "PIC"
+    },
+    {
+      "itemId": "cpu-architecture-isa-9",
+      "label": "PowerPC"
+    },
+    {
+      "itemId": "cpu-architecture-isa-3",
+      "label": "IA-32"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Familia o filosofía de diseño de cada ISA",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "ISA de estándar abierto",
+        "capacity": 1,
+        "itemIds": [
+          "cpu-architecture-isa-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Familia CISC x86",
+        "capacity": 2,
+        "itemIds": [
+          "cpu-architecture-isa-2",
+          "cpu-architecture-isa-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "ISAs de microcontroladores 8/16 bits",
+        "capacity": 3,
+        "itemIds": [
+          "cpu-architecture-isa-4",
+          "cpu-architecture-isa-5",
+          "cpu-architecture-isa-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "RISC clásico o licenciado de 32/64 bits",
+        "capacity": 4,
+        "itemIds": [
+          "cpu-architecture-isa-7",
+          "cpu-architecture-isa-8",
+          "cpu-architecture-isa-9",
+          "cpu-architecture-isa-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por familia de ISA: estándar abierto RISC-V, familia CISC x86 (x86-64, IA-32), microcontroladores embebidos (AVR, PIC, MSP430) y arquitecturas RISC de propósito general (ARM64, MIPS64, PowerPC, SPARC).",
+  "sources": [
+    {
+      "title": "RISC-V International: Specifications",
+      "url": "https://riscv.org/technical/specifications/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.7
+  },
+  "status": "scheduled"
+}

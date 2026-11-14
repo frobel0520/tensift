@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ieee754-binary-sizes-2027-01-12-zh-hant",
+  "puzzleFamilyId": "ieee754-binary-sizes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-01-12",
+  "timezone": "UTC",
+  "theme": "數位資料容量單位",
+  "items": [
+    {
+      "itemId": "ieee754-binary-sizes-4",
+      "label": "DDR5 系統記憶體"
+    },
+    {
+      "itemId": "ieee754-binary-sizes-8",
+      "label": "SATA 傳統硬碟"
+    },
+    {
+      "itemId": "ieee754-binary-sizes-1",
+      "label": "程式計數暫存器"
+    },
+    {
+      "itemId": "ieee754-binary-sizes-6",
+      "label": "GDDR6 顯示記憶體"
+    },
+    {
+      "itemId": "ieee754-binary-sizes-10",
+      "label": "USB 隨身碟"
+    },
+    {
+      "itemId": "ieee754-binary-sizes-2",
+      "label": "L1 指令快取"
+    },
+    {
+      "itemId": "ieee754-binary-sizes-7",
+      "label": "NVMe 固態硬碟"
+    },
+    {
+      "itemId": "ieee754-binary-sizes-5",
+      "label": "LPDDR5 行動記憶體"
+    },
+    {
+      "itemId": "ieee754-binary-sizes-9",
+      "label": "SD 記憶卡"
+    },
+    {
+      "itemId": "ieee754-binary-sizes-3",
+      "label": "L2 統一快取"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各資料單位所代表的精確位元或位元組大小",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "CPU 內部暫存器",
+        "capacity": 1,
+        "itemIds": [
+          "ieee754-binary-sizes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "晶片內 SRAM 快取",
+        "capacity": 2,
+        "itemIds": [
+          "ieee754-binary-sizes-2",
+          "ieee754-binary-sizes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "揮發性主記憶體",
+        "capacity": 3,
+        "itemIds": [
+          "ieee754-binary-sizes-4",
+          "ieee754-binary-sizes-5",
+          "ieee754-binary-sizes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "非揮發性儲存裝置",
+        "capacity": 4,
+        "itemIds": [
+          "ieee754-binary-sizes-7",
+          "ieee754-binary-sizes-8",
+          "ieee754-binary-sizes-9",
+          "ieee754-binary-sizes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依電腦記憶體階層與揮發性分類：CPU 暫存器、靜態快取記憶體（L1 快取、L2 快取）、揮發性主記憶體（DDR5 記憶體、LPDDR5、顯示卡 VRAM）與非揮發性儲存裝置（NVMe 固態硬碟、SATA 傳統硬碟、SD 記憶卡、USB 隨身碟）。",
+  "sources": [
+    {
+      "title": "Britannica: Computer Memory",
+      "url": "https://www.britannica.com/technology/computer-memory",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.35
+  },
+  "status": "scheduled"
+}

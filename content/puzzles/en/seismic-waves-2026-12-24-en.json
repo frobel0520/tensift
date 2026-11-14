@@ -113,7 +113,7 @@
     "maxUses": 1,
     "policy": "random-unlocked-correct-row"
   },
-  "explanation": "Wait: let us make sure every group is crisp! Group 1: Surface seismic waves? No, there are 2 surface waves (Love, Rayleigh) and 2 body waves (P, S). Let us do: Group 1: Seismograph (instrument), Group 2: Surface waves (Love wave, Rayleigh wave), Group 3: Hypocenter/Epicenter/Fault scarp (earthquake geometry), Group 4: Earthquake magnitude & intensity scales (Richter scale, Moment magnitude, Mercalli intensity, JMA seismic intensity).",
+  "explanation": "Grouped by seismology category: recording instrument (seismograph), surface seismic waves (Love wave, Rayleigh wave), earthquake source geometry (hypocenter, epicenter, fault scarp), and magnitude or intensity scales (Richter, moment magnitude, Mercalli, JMA).",
   "sources": [
     {
       "title": "USGS: Earthquake Glossary",

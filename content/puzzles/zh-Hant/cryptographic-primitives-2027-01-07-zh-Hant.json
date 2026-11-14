@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cryptographic-primitives-2027-01-07-zh-hant",
+  "puzzleFamilyId": "cryptographic-primitives-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-01-07",
+  "timezone": "UTC",
+  "theme": "密碼學演算法",
+  "items": [
+    {
+      "itemId": "cryptographic-primitives-4",
+      "label": "RSA"
+    },
+    {
+      "itemId": "cryptographic-primitives-8",
+      "label": "SHA-3"
+    },
+    {
+      "itemId": "cryptographic-primitives-1",
+      "label": "Diffie-Hellman 金鑰交換"
+    },
+    {
+      "itemId": "cryptographic-primitives-6",
+      "label": "ECDSA"
+    },
+    {
+      "itemId": "cryptographic-primitives-10",
+      "label": "MD5"
+    },
+    {
+      "itemId": "cryptographic-primitives-2",
+      "label": "AES"
+    },
+    {
+      "itemId": "cryptographic-primitives-7",
+      "label": "SHA-256"
+    },
+    {
+      "itemId": "cryptographic-primitives-5",
+      "label": "Ed25519"
+    },
+    {
+      "itemId": "cryptographic-primitives-9",
+      "label": "BLAKE2"
+    },
+    {
+      "itemId": "cryptographic-primitives-3",
+      "label": "ChaCha20"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各演算法所屬的密碼學原語類別",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "金鑰交換協定",
+        "capacity": 1,
+        "itemIds": [
+          "cryptographic-primitives-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "對稱式加密",
+        "capacity": 2,
+        "itemIds": [
+          "cryptographic-primitives-2",
+          "cryptographic-primitives-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "非對稱與數位簽章",
+        "capacity": 3,
+        "itemIds": [
+          "cryptographic-primitives-4",
+          "cryptographic-primitives-5",
+          "cryptographic-primitives-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "密碼雜湊函數",
+        "capacity": 4,
+        "itemIds": [
+          "cryptographic-primitives-7",
+          "cryptographic-primitives-8",
+          "cryptographic-primitives-9",
+          "cryptographic-primitives-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依密碼學原語分類：金鑰交換（Diffie-Hellman）、對稱加密（AES、ChaCha20）、數位簽章／非對稱（RSA、Ed25519、ECDSA）與密碼雜湊函數（SHA-256、SHA-3、BLAKE2、MD5）。",
+  "sources": [
+    {
+      "title": "NIST: Cryptographic Standards",
+      "url": "https://csrc.nist.gov/projects/cryptographic-standards-and-guidelines",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

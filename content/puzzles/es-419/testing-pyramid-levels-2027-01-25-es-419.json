@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "testing-pyramid-levels-2027-01-25-es-419",
+  "puzzleFamilyId": "testing-pyramid-levels-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-25",
+  "timezone": "UTC",
+  "theme": "Pruebas de software",
+  "items": [
+    {
+      "itemId": "testing-pyramid-levels-4",
+      "label": "Prueba de carga"
+    },
+    {
+      "itemId": "testing-pyramid-levels-8",
+      "label": "Prueba de regresión"
+    },
+    {
+      "itemId": "testing-pyramid-levels-1",
+      "label": "Análisis con linter estático"
+    },
+    {
+      "itemId": "testing-pyramid-levels-6",
+      "label": "Prueba de penetración"
+    },
+    {
+      "itemId": "testing-pyramid-levels-10",
+      "label": "Prueba de aceptación de usuario"
+    },
+    {
+      "itemId": "testing-pyramid-levels-2",
+      "label": "Prueba unitaria"
+    },
+    {
+      "itemId": "testing-pyramid-levels-7",
+      "label": "Prueba de humo"
+    },
+    {
+      "itemId": "testing-pyramid-levels-5",
+      "label": "Prueba de estrés"
+    },
+    {
+      "itemId": "testing-pyramid-levels-9",
+      "label": "Prueba de extremo a extremo"
+    },
+    {
+      "itemId": "testing-pyramid-levels-3",
+      "label": "Prueba de integración"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Alcance o enfoque de cada prueba de software",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Análisis estático",
+        "capacity": 1,
+        "itemIds": [
+          "testing-pyramid-levels-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Alcance funcional en código",
+        "capacity": 2,
+        "itemIds": [
+          "testing-pyramid-levels-2",
+          "testing-pyramid-levels-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Pruebas de carga y seguridad",
+        "capacity": 3,
+        "itemIds": [
+          "testing-pyramid-levels-4",
+          "testing-pyramid-levels-5",
+          "testing-pyramid-levels-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Verificación de sistema y entrega",
+        "capacity": 4,
+        "itemIds": [
+          "testing-pyramid-levels-7",
+          "testing-pyramid-levels-8",
+          "testing-pyramid-levels-9",
+          "testing-pyramid-levels-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por tipo de prueba: análisis estático (linter estático), nivel de componentes (prueba unitaria, prueba de integración), pruebas no funcionales (prueba de carga, prueba de estrés, prueba de penetración) y validación de sistema/entrega (smoke test, prueba de regresión, prueba E2E, aceptación de usuario).",
+  "sources": [
+    {
+      "title": "ISTQB: Standard Glossary of Terms Used in Software Testing",
+      "url": "https://glossary.istqb.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

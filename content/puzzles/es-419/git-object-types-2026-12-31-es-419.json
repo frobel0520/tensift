@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "git-object-types-2026-12-31-es-419",
+  "puzzleFamilyId": "git-object-types-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-31",
+  "timezone": "UTC",
+  "theme": "Objetos internos de Git",
+  "items": [
+    {
+      "itemId": "git-object-types-4",
+      "label": ".gitignore"
+    },
+    {
+      "itemId": "git-object-types-8",
+      "label": "objeto tree"
+    },
+    {
+      "itemId": "git-object-types-1",
+      "label": "index"
+    },
+    {
+      "itemId": "git-object-types-6",
+      "label": ".gitmodules"
+    },
+    {
+      "itemId": "git-object-types-10",
+      "label": "objeto tag anotado"
+    },
+    {
+      "itemId": "git-object-types-2",
+      "label": "HEAD"
+    },
+    {
+      "itemId": "git-object-types-7",
+      "label": "objeto blob"
+    },
+    {
+      "itemId": "git-object-types-5",
+      "label": ".gitattributes"
+    },
+    {
+      "itemId": "git-object-types-9",
+      "label": "objeto commit"
+    },
+    {
+      "itemId": "git-object-types-3",
+      "label": "refs/heads/main"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría interna de Git a la que pertenece",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Área de preparación",
+        "capacity": 1,
+        "itemIds": [
+          "git-object-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Punteros y referencias",
+        "capacity": 2,
+        "itemIds": [
+          "git-object-types-2",
+          "git-object-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Archivos de configuración",
+        "capacity": 3,
+        "itemIds": [
+          "git-object-types-4",
+          "git-object-types-5",
+          "git-object-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Tipos de objetos Git",
+        "capacity": 4,
+        "itemIds": [
+          "git-object-types-7",
+          "git-object-types-8",
+          "git-object-types-9",
+          "git-object-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por rol en Git: índice de preparación (index), referencias (HEAD, refs/heads/main), archivos de configuración (.gitignore, .gitattributes, .gitmodules) y los cuatro tipos de objetos Git (blob, tree, commit, tag).",
+  "sources": [
+    {
+      "title": "Git Documentation: Git Objects",
+      "url": "https://git-scm.com/book/en/v2/Git-Internals-Git-Objects",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.58
+  },
+  "status": "scheduled"
+}

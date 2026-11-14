@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tls-security-headers-2027-01-14-es-419",
+  "puzzleFamilyId": "tls-security-headers-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-14",
+  "timezone": "UTC",
+  "theme": "Cabeceras de seguridad web",
+  "items": [
+    {
+      "itemId": "tls-security-headers-4",
+      "label": "/etc"
+    },
+    {
+      "itemId": "tls-security-headers-8",
+      "label": "/sbin"
+    },
+    {
+      "itemId": "tls-security-headers-1",
+      "label": "/root"
+    },
+    {
+      "itemId": "tls-security-headers-6",
+      "label": "/proc"
+    },
+    {
+      "itemId": "tls-security-headers-10",
+      "label": "/usr/lib"
+    },
+    {
+      "itemId": "tls-security-headers-2",
+      "label": "/tmp"
+    },
+    {
+      "itemId": "tls-security-headers-7",
+      "label": "/bin"
+    },
+    {
+      "itemId": "tls-security-headers-5",
+      "label": "/dev"
+    },
+    {
+      "itemId": "tls-security-headers-9",
+      "label": "/usr/bin"
+    },
+    {
+      "itemId": "tls-security-headers-3",
+      "label": "/var/tmp"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Política o amenaza controlada por cada cabecera",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Directorio del superusuario",
+        "capacity": 1,
+        "itemIds": [
+          "tls-security-headers-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Directorios temporales",
+        "capacity": 2,
+        "itemIds": [
+          "tls-security-headers-2",
+          "tls-security-headers-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Configuración, dispositivos y procfs",
+        "capacity": 3,
+        "itemIds": [
+          "tls-security-headers-4",
+          "tls-security-headers-5",
+          "tls-security-headers-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Binarios y bibliotecas",
+        "capacity": 4,
+        "itemIds": [
+          "tls-security-headers-7",
+          "tls-security-headers-8",
+          "tls-security-headers-9",
+          "tls-security-headers-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por función según el estándar FHS de Linux: directorio personal de root (/root), archivos temporales (/tmp, /var/tmp), configuración y nodos virtuales (/etc, /dev, /proc) y binarios/bibliotecas (/bin, /sbin, /usr/bin, /usr/lib).",
+  "sources": [
+    {
+      "title": "Linux Foundation: Filesystem Hierarchy Standard",
+      "url": "https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.55
+  },
+  "status": "scheduled"
+}

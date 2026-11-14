@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sorting-complexities-2027-01-01-en",
+  "puzzleFamilyId": "sorting-complexities-001",
+  "locale": "en",
+  "publishDate": "2027-01-01",
+  "timezone": "UTC",
+  "theme": "Algorithm Complexities",
+  "items": [
+    {
+      "itemId": "sorting-complexities-4",
+      "label": "Merge sort"
+    },
+    {
+      "itemId": "sorting-complexities-8",
+      "label": "Insertion sort"
+    },
+    {
+      "itemId": "sorting-complexities-1",
+      "label": "Array index lookup"
+    },
+    {
+      "itemId": "sorting-complexities-6",
+      "label": "Timsort"
+    },
+    {
+      "itemId": "sorting-complexities-10",
+      "label": "Naive Quicksort"
+    },
+    {
+      "itemId": "sorting-complexities-2",
+      "label": "Binary search"
+    },
+    {
+      "itemId": "sorting-complexities-7",
+      "label": "Bubble sort"
+    },
+    {
+      "itemId": "sorting-complexities-5",
+      "label": "Heapsort"
+    },
+    {
+      "itemId": "sorting-complexities-9",
+      "label": "Selection sort"
+    },
+    {
+      "itemId": "sorting-complexities-3",
+      "label": "Balanced BST lookup"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Worst-case comparison time complexity class",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "O(1) constant",
+        "capacity": 1,
+        "itemIds": [
+          "sorting-complexities-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "O(log n) logarithmic",
+        "capacity": 2,
+        "itemIds": [
+          "sorting-complexities-2",
+          "sorting-complexities-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "O(n log n) worst-case",
+        "capacity": 3,
+        "itemIds": [
+          "sorting-complexities-4",
+          "sorting-complexities-5",
+          "sorting-complexities-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "O(n²) worst-case",
+        "capacity": 4,
+        "itemIds": [
+          "sorting-complexities-7",
+          "sorting-complexities-8",
+          "sorting-complexities-9",
+          "sorting-complexities-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by worst-case Big-O time complexity: O(1) constant, O(log n) logarithmic, O(n log n) linearithmic, and O(n^2) quadratic.",
+  "sources": [
+    {
+      "title": "NIST: Dictionary of Algorithms and Data Structures",
+      "url": "https://xlinux.nist.gov/dads/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

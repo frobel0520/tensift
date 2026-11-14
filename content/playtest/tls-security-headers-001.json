@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "tls-security-headers-001",
+  "theme": "Web Security Headers",
+  "publishDate": "2027-01-14",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "tls-security-headers-1",
+        "rivalGroupId": "group-3",
+        "risk": "/root is at the top of the filesystem.",
+        "resolution": "/root is specifically the root user’s home directory (group-1), not a system config or device directory."
+      },
+      {
+        "itemId": "tls-security-headers-3",
+        "rivalGroupId": "group-3",
+        "risk": "/var/tmp lives under /var.",
+        "resolution": "/var/tmp is explicitly designated for persistent temporary files (group-2), alongside /tmp."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

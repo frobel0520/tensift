@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tcp-ip-layers-2026-12-29-en",
+  "puzzleFamilyId": "tcp-ip-layers-001",
+  "locale": "en",
+  "publishDate": "2026-12-29",
+  "timezone": "UTC",
+  "theme": "Internet Protocol Stack",
+  "items": [
+    {
+      "itemId": "tcp-ip-layers-4",
+      "label": "IPv4"
+    },
+    {
+      "itemId": "tcp-ip-layers-8",
+      "label": "DNS"
+    },
+    {
+      "itemId": "tcp-ip-layers-1",
+      "label": "Ethernet (IEEE 802.3)"
+    },
+    {
+      "itemId": "tcp-ip-layers-6",
+      "label": "ICMP"
+    },
+    {
+      "itemId": "tcp-ip-layers-10",
+      "label": "SSH"
+    },
+    {
+      "itemId": "tcp-ip-layers-2",
+      "label": "TCP"
+    },
+    {
+      "itemId": "tcp-ip-layers-7",
+      "label": "HTTP"
+    },
+    {
+      "itemId": "tcp-ip-layers-5",
+      "label": "IPv6"
+    },
+    {
+      "itemId": "tcp-ip-layers-9",
+      "label": "SMTP"
+    },
+    {
+      "itemId": "tcp-ip-layers-3",
+      "label": "UDP"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "TCP/IP (RFC 1122) model layer for each protocol",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Link layer",
+        "capacity": 1,
+        "itemIds": [
+          "tcp-ip-layers-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Transport layer",
+        "capacity": 2,
+        "itemIds": [
+          "tcp-ip-layers-2",
+          "tcp-ip-layers-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Internet layer",
+        "capacity": 3,
+        "itemIds": [
+          "tcp-ip-layers-4",
+          "tcp-ip-layers-5",
+          "tcp-ip-layers-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Application layer",
+        "capacity": 4,
+        "itemIds": [
+          "tcp-ip-layers-7",
+          "tcp-ip-layers-8",
+          "tcp-ip-layers-9",
+          "tcp-ip-layers-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by TCP/IP layer: Link (Ethernet), Transport (TCP, UDP), Internet (IPv4, IPv6, ICMP), and Application (HTTP, DNS, SMTP, SSH).",
+  "sources": [
+    {
+      "title": "IETF RFC 1122: Internet Host Requirements",
+      "url": "https://www.rfc-editor.org/rfc/rfc1122.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

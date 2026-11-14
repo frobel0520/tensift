@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cloud-service-models-2027-01-21-es-419",
+  "puzzleFamilyId": "cloud-service-models-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-21",
+  "timezone": "UTC",
+  "theme": "Modelos de computación en la nube",
+  "items": [
+    {
+      "itemId": "cloud-service-models-4",
+      "label": "Heroku"
+    },
+    {
+      "itemId": "cloud-service-models-8",
+      "label": "Salesforce"
+    },
+    {
+      "itemId": "cloud-service-models-1",
+      "label": "AWS Lambda"
+    },
+    {
+      "itemId": "cloud-service-models-6",
+      "label": "Google App Engine"
+    },
+    {
+      "itemId": "cloud-service-models-10",
+      "label": "Zoom"
+    },
+    {
+      "itemId": "cloud-service-models-2",
+      "label": "Amazon EC2"
+    },
+    {
+      "itemId": "cloud-service-models-7",
+      "label": "Google Workspace"
+    },
+    {
+      "itemId": "cloud-service-models-5",
+      "label": "Cloudflare Workers"
+    },
+    {
+      "itemId": "cloud-service-models-9",
+      "label": "Slack"
+    },
+    {
+      "itemId": "cloud-service-models-3",
+      "label": "Google Compute Engine"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Capa de servicio en la nube (FaaS, IaaS, PaaS, SaaS)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "FaaS (Funciones serverless)",
+        "capacity": 1,
+        "itemIds": [
+          "cloud-service-models-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "IaaS (Infraestructura)",
+        "capacity": 2,
+        "itemIds": [
+          "cloud-service-models-2",
+          "cloud-service-models-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "PaaS (Plataforma)",
+        "capacity": 3,
+        "itemIds": [
+          "cloud-service-models-4",
+          "cloud-service-models-5",
+          "cloud-service-models-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "SaaS (Software)",
+        "capacity": 4,
+        "itemIds": [
+          "cloud-service-models-7",
+          "cloud-service-models-8",
+          "cloud-service-models-9",
+          "cloud-service-models-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por capa en la nube: FaaS (AWS Lambda), IaaS (Amazon EC2, Compute Engine), PaaS (Heroku, Cloudflare Workers, Google App Engine) y SaaS (Google Workspace, Salesforce, Slack, Zoom).",
+  "sources": [
+    {
+      "title": "NIST: Definition of Cloud Computing (SP 800-145)",
+      "url": "https://csrc.nist.gov/pubs/sp/800/145/final",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

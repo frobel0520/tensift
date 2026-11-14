@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "logic-gates-2027-01-05-en",
+  "puzzleFamilyId": "logic-gates-001",
+  "locale": "en",
+  "publishDate": "2027-01-05",
+  "timezone": "UTC",
+  "theme": "Digital Logic Gates",
+  "items": [
+    {
+      "itemId": "logic-gates-4",
+      "label": "em"
+    },
+    {
+      "itemId": "logic-gates-8",
+      "label": "vh"
+    },
+    {
+      "itemId": "logic-gates-1",
+      "label": "px"
+    },
+    {
+      "itemId": "logic-gates-6",
+      "label": "ch"
+    },
+    {
+      "itemId": "logic-gates-10",
+      "label": "vmax"
+    },
+    {
+      "itemId": "logic-gates-2",
+      "label": "pt"
+    },
+    {
+      "itemId": "logic-gates-7",
+      "label": "vw"
+    },
+    {
+      "itemId": "logic-gates-5",
+      "label": "rem"
+    },
+    {
+      "itemId": "logic-gates-9",
+      "label": "vmin"
+    },
+    {
+      "itemId": "logic-gates-3",
+      "label": "cm"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Functional role or arity/universality of each logic gate",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Screen reference pixel",
+        "capacity": 1,
+        "itemIds": [
+          "logic-gates-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Physical print units",
+        "capacity": 2,
+        "itemIds": [
+          "logic-gates-2",
+          "logic-gates-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Font-relative units",
+        "capacity": 3,
+        "itemIds": [
+          "logic-gates-4",
+          "logic-gates-5",
+          "logic-gates-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Viewport-relative units",
+        "capacity": 4,
+        "itemIds": [
+          "logic-gates-7",
+          "logic-gates-8",
+          "logic-gates-9",
+          "logic-gates-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by CSS unit reference basis: screen reference pixel (px), physical print units (pt, cm), font-relative units (em, rem, ch), and viewport-relative units (vw, vh, vmin, vmax).",
+  "sources": [
+    {
+      "title": "MDN: CSS Values and Units",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

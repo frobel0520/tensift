@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "git-object-types-2026-12-31-zh-hant",
+  "puzzleFamilyId": "git-object-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-31",
+  "timezone": "UTC",
+  "theme": "Git 核心架構",
+  "items": [
+    {
+      "itemId": "git-object-types-4",
+      "label": ".gitignore"
+    },
+    {
+      "itemId": "git-object-types-8",
+      "label": "tree 物件"
+    },
+    {
+      "itemId": "git-object-types-1",
+      "label": "index（暫存索引）"
+    },
+    {
+      "itemId": "git-object-types-6",
+      "label": ".gitmodules"
+    },
+    {
+      "itemId": "git-object-types-10",
+      "label": "附註 tag 物件"
+    },
+    {
+      "itemId": "git-object-types-2",
+      "label": "HEAD"
+    },
+    {
+      "itemId": "git-object-types-7",
+      "label": "blob 物件"
+    },
+    {
+      "itemId": "git-object-types-5",
+      "label": ".gitattributes"
+    },
+    {
+      "itemId": "git-object-types-9",
+      "label": "commit 物件"
+    },
+    {
+      "itemId": "git-object-types-3",
+      "label": "refs/heads/main"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各項目在 Git 內部機制中的分類",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "暫存區索引",
+        "capacity": 1,
+        "itemIds": [
+          "git-object-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "指標與參照",
+        "capacity": 2,
+        "itemIds": [
+          "git-object-types-2",
+          "git-object-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "儲存庫設定檔",
+        "capacity": 3,
+        "itemIds": [
+          "git-object-types-4",
+          "git-object-types-5",
+          "git-object-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "四大核心 Git 物件",
+        "capacity": 4,
+        "itemIds": [
+          "git-object-types-7",
+          "git-object-types-8",
+          "git-object-types-9",
+          "git-object-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依 Git 內部角色分類：暫存索引（index）、指標參照（HEAD、refs/heads/main）、版本庫設定檔（.gitignore、.gitattributes、.gitmodules）與四大 Git 物件類型（blob、tree、commit、tag）。",
+  "sources": [
+    {
+      "title": "Git Documentation: Git Objects",
+      "url": "https://git-scm.com/book/en/v2/Git-Internals-Git-Objects",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.58
+  },
+  "status": "scheduled"
+}

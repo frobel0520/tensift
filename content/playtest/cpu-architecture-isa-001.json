@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "cpu-architecture-isa-001",
+  "theme": "Processor Architectures",
+  "publishDate": "2027-01-19",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "cpu-architecture-isa-1",
+        "rivalGroupId": "group-4",
+        "risk": "RISC-V is a 32/64-bit RISC ISA.",
+        "resolution": "RISC-V is uniquely an open, royalty-free standard (group-1), distinct from licensed/proprietary RISC ISAs (group-4)."
+      },
+      {
+        "itemId": "cpu-architecture-isa-4",
+        "rivalGroupId": "group-4",
+        "risk": "AVR uses a RISC-like load-store design.",
+        "resolution": "AVR, PIC, and MSP430 are 8/16-bit microcontroller ISAs (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

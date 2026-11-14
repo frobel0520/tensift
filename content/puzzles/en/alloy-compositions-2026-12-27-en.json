@@ -113,7 +113,7 @@
     "maxUses": 1,
     "policy": "random-unlocked-correct-row"
   },
-  "explanation": "Grouped by primary base metal: nickel (nichrome), aluminum (duralumin, alnico? No, alnico is iron-based; use 6061 aluminum & duralumin), copper (bronze, brass, cupronickel), and iron (carbon steel, stainless steel, cast iron, invar).",
+  "explanation": "Grouped by primary base metal: nickel (nichrome), aluminum (duralumin, 6061 alloy), copper (bronze, brass, cupronickel), and iron (carbon steel, stainless steel, cast iron, invar).",
   "sources": [
     {
       "title": "Britannica: Alloy",

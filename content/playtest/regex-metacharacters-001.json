@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "regex-metacharacters-001",
+  "theme": "Regex Metacharacters",
+  "publishDate": "2027-01-15",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "regex-metacharacters-9",
+        "rivalGroupId": "group-1",
+        "risk": "? can also make a quantifier lazy.",
+        "resolution": "As a standalone postfix token, ? is the optional quantifier (0 or 1 times, group-4)."
+      },
+      {
+        "itemId": "regex-metacharacters-2",
+        "rivalGroupId": "group-3",
+        "risk": "Inside [...], ^ negates a character class.",
+        "resolution": "As a standalone assertion, ^ is the start-of-line/string anchor (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

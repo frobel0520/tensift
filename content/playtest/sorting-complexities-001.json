@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "sorting-complexities-001",
+  "theme": "Algorithm Complexities",
+  "publishDate": "2027-01-01",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "sorting-complexities-10",
+        "rivalGroupId": "group-3",
+        "risk": "Quicksort averages O(n log n).",
+        "resolution": "The dimension is worst-case complexity: naive Quicksort degrades to O(n²) on already-sorted pivot choices (group-4)."
+      },
+      {
+        "itemId": "sorting-complexities-8",
+        "rivalGroupId": "group-1",
+        "risk": "Insertion sort is O(n) on nearly sorted input.",
+        "resolution": "In the worst case (reverse-sorted input), insertion sort takes O(n²) time (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

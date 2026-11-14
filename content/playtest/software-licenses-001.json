@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "software-licenses-001",
+  "theme": "Open-Source Licenses",
+  "publishDate": "2027-01-20",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "software-licenses-4",
+        "rivalGroupId": "group-2",
+        "risk": "LGPL-3.0 shares the GPL name.",
+        "resolution": "LGPL-3.0 allows dynamic linking from proprietary software, making it a weak copyleft license (group-3)."
+      },
+      {
+        "itemId": "software-licenses-1",
+        "rivalGroupId": "group-4",
+        "risk": "Unlicense imposes no copyleft.",
+        "resolution": "Unlicense waives copyright into the public domain (group-1), unlike permissive licenses that retain copyright notices (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

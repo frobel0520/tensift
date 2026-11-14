@@ -113,7 +113,7 @@
     "maxUses": 1,
     "policy": "random-unlocked-correct-row"
   },
-  "explanation": "Grouped by standard WMO cloud level: vertical-development clouds, low clouds, middle clouds, and high clouds? Wait: 1 vertical, 2 middle, 3 low, 4? No, let us use 1: Cirriform high (or vertical), 2: Middle (Alto-), 3: High (Cirro-), 4: Low (Strato-/Nimbo-). Let us check exact WMO 10 cloud genera: High (Cirrus, Cirrocumulus, Cirrostratus = 3), Middle (Altocumulus, Altostratus = 2), Low (Stratus, Stratocumulus, Cumulus, Cumulonimbus? Wait: Cumulus and Cumulonimbus are vertical, Nimbostratus is low/multi). Let us make exact unambiguous groups: 1: Towering storm (Cumulonimbus), 2: Middle Alto- clouds (Altocumulus, Altostratus), 3: High Cirro- clouds (Cirrus, Cirrocumulus, Cirrostratus), 4: Low clouds (Stratus, Stratocumulus, Nimbostratus, Cumulus humilis).",
+  "explanation": "Grouped by WMO cloud genus level and form: vertical storm cloud (Cumulonimbus), middle-level Alto- clouds (Altocumulus, Altostratus), high-level Cirro- clouds (Cirrus, Cirrocumulus, Cirrostratus), and low-base clouds (Stratus, Stratocumulus, Nimbostratus, Cumulus humilis).",
   "sources": [
     {
       "title": "WMO: International Cloud Atlas",

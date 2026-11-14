@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "regex-metacharacters-2027-01-15-en",
+  "puzzleFamilyId": "regex-metacharacters-001",
+  "locale": "en",
+  "publishDate": "2027-01-15",
+  "timezone": "UTC",
+  "theme": "Regex Metacharacters",
+  "items": [
+    {
+      "itemId": "regex-metacharacters-4",
+      "label": "\\d (digit)"
+    },
+    {
+      "itemId": "regex-metacharacters-8",
+      "label": "+ (1 or more)"
+    },
+    {
+      "itemId": "regex-metacharacters-1",
+      "label": "| (pipe)"
+    },
+    {
+      "itemId": "regex-metacharacters-6",
+      "label": "\\s (whitespace)"
+    },
+    {
+      "itemId": "regex-metacharacters-10",
+      "label": "{2,5} (range)"
+    },
+    {
+      "itemId": "regex-metacharacters-2",
+      "label": "^ (start)"
+    },
+    {
+      "itemId": "regex-metacharacters-7",
+      "label": "* (0 or more)"
+    },
+    {
+      "itemId": "regex-metacharacters-5",
+      "label": "\\w (word)"
+    },
+    {
+      "itemId": "regex-metacharacters-9",
+      "label": "? (0 or 1)"
+    },
+    {
+      "itemId": "regex-metacharacters-3",
+      "label": "$ (end)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Syntactic role of each regular expression token",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Alternation",
+        "capacity": 1,
+        "itemIds": [
+          "regex-metacharacters-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Start/end anchors",
+        "capacity": 2,
+        "itemIds": [
+          "regex-metacharacters-2",
+          "regex-metacharacters-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Character class shorthands",
+        "capacity": 3,
+        "itemIds": [
+          "regex-metacharacters-4",
+          "regex-metacharacters-5",
+          "regex-metacharacters-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Quantifiers",
+        "capacity": 4,
+        "itemIds": [
+          "regex-metacharacters-7",
+          "regex-metacharacters-8",
+          "regex-metacharacters-9",
+          "regex-metacharacters-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by regex role: alternation (|), line/string anchors (^, $), character shorthands (\\d, \\w, \\s), and quantifiers (*, +, ?, {2,5}).",
+  "sources": [
+    {
+      "title": "MDN: Regular Expressions Cheat Sheet",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

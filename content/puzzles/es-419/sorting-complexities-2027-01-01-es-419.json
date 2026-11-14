@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sorting-complexities-2027-01-01-es-419",
+  "puzzleFamilyId": "sorting-complexities-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-01",
+  "timezone": "UTC",
+  "theme": "Complejidad de algoritmos",
+  "items": [
+    {
+      "itemId": "sorting-complexities-4",
+      "label": "Ordenamiento por mezcla"
+    },
+    {
+      "itemId": "sorting-complexities-8",
+      "label": "Ordenamiento por inserción"
+    },
+    {
+      "itemId": "sorting-complexities-1",
+      "label": "Acceso por índice en arreglo"
+    },
+    {
+      "itemId": "sorting-complexities-6",
+      "label": "Timsort"
+    },
+    {
+      "itemId": "sorting-complexities-10",
+      "label": "Quicksort clásico"
+    },
+    {
+      "itemId": "sorting-complexities-2",
+      "label": "Búsqueda binaria"
+    },
+    {
+      "itemId": "sorting-complexities-7",
+      "label": "Ordenamiento burbuja"
+    },
+    {
+      "itemId": "sorting-complexities-5",
+      "label": "Heapsort"
+    },
+    {
+      "itemId": "sorting-complexities-9",
+      "label": "Ordenamiento por selección"
+    },
+    {
+      "itemId": "sorting-complexities-3",
+      "label": "Búsqueda en árbol AVL"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase de complejidad temporal en el peor caso",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "O(1) constante",
+        "capacity": 1,
+        "itemIds": [
+          "sorting-complexities-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "O(log n) logarítmica",
+        "capacity": 2,
+        "itemIds": [
+          "sorting-complexities-2",
+          "sorting-complexities-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "O(n log n) en el peor caso",
+        "capacity": 3,
+        "itemIds": [
+          "sorting-complexities-4",
+          "sorting-complexities-5",
+          "sorting-complexities-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "O(n²) en el peor caso",
+        "capacity": 4,
+        "itemIds": [
+          "sorting-complexities-7",
+          "sorting-complexities-8",
+          "sorting-complexities-9",
+          "sorting-complexities-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por complejidad temporal en el peor caso: O(1) constante, O(log n) logarítmica, O(n log n) linealítmica y O(n²) cuadrática.",
+  "sources": [
+    {
+      "title": "NIST: Dictionary of Algorithms and Data Structures",
+      "url": "https://xlinux.nist.gov/dads/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

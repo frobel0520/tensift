@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "logic-gates-001",
+  "theme": "Digital Logic Gates",
+  "publishDate": "2027-01-05",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "logic-gates-1",
+        "rivalGroupId": "group-2",
+        "risk": "px is classified as an absolute length in CSS.",
+        "resolution": "While px is an absolute CSS unit, pt and cm are physical print-derived units (group-2), whereas px is the screen reference pixel (group-1)."
+      },
+      {
+        "itemId": "logic-gates-6",
+        "rivalGroupId": "group-4",
+        "risk": "ch is less familiar than em/rem.",
+        "resolution": "ch measures the advance width of the \"0\" glyph in the current font (group-3), not the viewport."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

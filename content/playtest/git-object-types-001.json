@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "git-object-types-001",
+  "theme": "Git Internals",
+  "publishDate": "2026-12-31",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "git-object-types-2",
+        "rivalGroupId": "group-4",
+        "risk": "HEAD points to commits.",
+        "resolution": "HEAD is a symbolic reference (group-2), not one of the four immutable Git object types (group-4)."
+      },
+      {
+        "itemId": "git-object-types-1",
+        "rivalGroupId": "group-3",
+        "risk": "index is a file inside .git/.",
+        "resolution": "The staging index is Git’s binary staging state, distinct from tracked repository dotfiles (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

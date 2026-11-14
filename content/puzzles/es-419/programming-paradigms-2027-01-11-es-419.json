@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "programming-paradigms-2027-01-11-es-419",
+  "puzzleFamilyId": "programming-paradigms-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-11",
+  "timezone": "UTC",
+  "theme": "Lenguajes de programación",
+  "items": [
+    {
+      "itemId": "programming-paradigms-4",
+      "label": "C"
+    },
+    {
+      "itemId": "programming-paradigms-8",
+      "label": "Ruby"
+    },
+    {
+      "itemId": "programming-paradigms-1",
+      "label": "Prolog"
+    },
+    {
+      "itemId": "programming-paradigms-6",
+      "label": "Zig"
+    },
+    {
+      "itemId": "programming-paradigms-10",
+      "label": "Lua"
+    },
+    {
+      "itemId": "programming-paradigms-2",
+      "label": "Haskell"
+    },
+    {
+      "itemId": "programming-paradigms-7",
+      "label": "Python"
+    },
+    {
+      "itemId": "programming-paradigms-5",
+      "label": "Rust"
+    },
+    {
+      "itemId": "programming-paradigms-9",
+      "label": "JavaScript"
+    },
+    {
+      "itemId": "programming-paradigms-3",
+      "label": "Erlang"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Dominio o modelo principal de cada lenguaje",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Programación lógica",
+        "capacity": 1,
+        "itemIds": [
+          "programming-paradigms-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Lenguajes funcionales",
+        "capacity": 2,
+        "itemIds": [
+          "programming-paradigms-2",
+          "programming-paradigms-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Lenguajes de sistemas",
+        "capacity": 3,
+        "itemIds": [
+          "programming-paradigms-4",
+          "programming-paradigms-5",
+          "programming-paradigms-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Lenguajes de scripting dinámico",
+        "capacity": 4,
+        "itemIds": [
+          "programming-paradigms-7",
+          "programming-paradigms-8",
+          "programming-paradigms-9",
+          "programming-paradigms-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por paradigma o modelo principal: programación lógica (Prolog), funcional (Haskell, Erlang), sistemas de bajo nivel (C, Rust, Zig) y scripting dinámico (Python, Ruby, JavaScript, Lua).",
+  "sources": [
+    {
+      "title": "Britannica: Computer Programming Language",
+      "url": "https://www.britannica.com/technology/computer-programming-language",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.54
+  },
+  "status": "scheduled"
+}

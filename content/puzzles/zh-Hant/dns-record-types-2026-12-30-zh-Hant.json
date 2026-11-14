@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "dns-record-types-2026-12-30-zh-hant",
+  "puzzleFamilyId": "dns-record-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-30",
+  "timezone": "UTC",
+  "theme": "DNS 紀錄類型",
+  "items": [
+    {
+      "itemId": "dns-record-types-4",
+      "label": "NS"
+    },
+    {
+      "itemId": "dns-record-types-8",
+      "label": "PTR"
+    },
+    {
+      "itemId": "dns-record-types-1",
+      "label": "MX"
+    },
+    {
+      "itemId": "dns-record-types-6",
+      "label": "DS"
+    },
+    {
+      "itemId": "dns-record-types-10",
+      "label": "SRV"
+    },
+    {
+      "itemId": "dns-record-types-2",
+      "label": "A（IPv4）"
+    },
+    {
+      "itemId": "dns-record-types-7",
+      "label": "CNAME"
+    },
+    {
+      "itemId": "dns-record-types-5",
+      "label": "SOA"
+    },
+    {
+      "itemId": "dns-record-types-9",
+      "label": "TXT"
+    },
+    {
+      "itemId": "dns-record-types-3",
+      "label": "AAAA（IPv6）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各 DNS 資源紀錄的主要用途",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "郵件路由",
+        "capacity": 1,
+        "itemIds": [
+          "dns-record-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "直接 IP 位址對應",
+        "capacity": 2,
+        "itemIds": [
+          "dns-record-types-2",
+          "dns-record-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "網域授權與委派",
+        "capacity": 3,
+        "itemIds": [
+          "dns-record-types-4",
+          "dns-record-types-5",
+          "dns-record-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "別名、反解與文字紀錄",
+        "capacity": 4,
+        "itemIds": [
+          "dns-record-types-7",
+          "dns-record-types-8",
+          "dns-record-types-9",
+          "dns-record-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依 DNS 紀錄用途分類：郵件交換（MX）、IP 位址對應（A、AAAA）、網域委派與授權（NS、SOA、DS）與別名／反解／文字紀錄（CNAME、PTR、TXT、SRV）。",
+  "sources": [
+    {
+      "title": "IANA: DNS Parameters",
+      "url": "https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

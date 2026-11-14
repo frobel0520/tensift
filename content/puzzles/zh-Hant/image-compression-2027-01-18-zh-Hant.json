@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "image-compression-2027-01-18-zh-hant",
+  "puzzleFamilyId": "image-compression-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-01-18",
+  "timezone": "UTC",
+  "theme": "數位影像格式",
+  "items": [
+    {
+      "itemId": "image-compression-4",
+      "label": "PNG"
+    },
+    {
+      "itemId": "image-compression-8",
+      "label": "WebP"
+    },
+    {
+      "itemId": "image-compression-1",
+      "label": "SVG"
+    },
+    {
+      "itemId": "image-compression-6",
+      "label": "QOI"
+    },
+    {
+      "itemId": "image-compression-10",
+      "label": "HEIC"
+    },
+    {
+      "itemId": "image-compression-2",
+      "label": "DNG"
+    },
+    {
+      "itemId": "image-compression-7",
+      "label": "JPEG"
+    },
+    {
+      "itemId": "image-compression-5",
+      "label": "GIF"
+    },
+    {
+      "itemId": "image-compression-9",
+      "label": "AVIF"
+    },
+    {
+      "itemId": "image-compression-3",
+      "label": "CR3（Canon RAW）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各影像格式的向量或點陣壓縮特性",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "可縮放向量圖",
+        "capacity": 1,
+        "itemIds": [
+          "image-compression-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "相機 RAW 原始檔",
+        "capacity": 2,
+        "itemIds": [
+          "image-compression-2",
+          "image-compression-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "無損點陣格式",
+        "capacity": 3,
+        "itemIds": [
+          "image-compression-4",
+          "image-compression-5",
+          "image-compression-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "有損高壓縮相片格式",
+        "capacity": 4,
+        "itemIds": [
+          "image-compression-7",
+          "image-compression-8",
+          "image-compression-9",
+          "image-compression-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依影像編碼特性分類：向量圖形（SVG）、相機原始感光資料（DNG、CR3）、無損點陣格式（PNG、GIF、QOI）與有損／現代高壓縮網頁點陣格式（JPEG、WebP、AVIF、HEIC）。",
+  "sources": [
+    {
+      "title": "MDN: Image File Type and Format Guide",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

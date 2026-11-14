@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "html-element-roles-2027-01-08-es-419",
+  "puzzleFamilyId": "html-element-roles-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-08",
+  "timezone": "UTC",
+  "theme": "Elementos HTML",
+  "items": [
+    {
+      "itemId": "html-element-roles-4",
+      "label": "<audio>"
+    },
+    {
+      "itemId": "html-element-roles-8",
+      "label": "<nav>"
+    },
+    {
+      "itemId": "html-element-roles-1",
+      "label": "<html>"
+    },
+    {
+      "itemId": "html-element-roles-6",
+      "label": "<canvas>"
+    },
+    {
+      "itemId": "html-element-roles-10",
+      "label": "<footer>"
+    },
+    {
+      "itemId": "html-element-roles-2",
+      "label": "<head>"
+    },
+    {
+      "itemId": "html-element-roles-7",
+      "label": "<header>"
+    },
+    {
+      "itemId": "html-element-roles-5",
+      "label": "<video>"
+    },
+    {
+      "itemId": "html-element-roles-9",
+      "label": "<main>"
+    },
+    {
+      "itemId": "html-element-roles-3",
+      "label": "<meta>"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Rol semántico en HTML5",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Raíz del documento",
+        "capacity": 1,
+        "itemIds": [
+          "html-element-roles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Metadatos del documento",
+        "capacity": 2,
+        "itemIds": [
+          "html-element-roles-2",
+          "html-element-roles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Multimedia y gráficos",
+        "capacity": 3,
+        "itemIds": [
+          "html-element-roles-4",
+          "html-element-roles-5",
+          "html-element-roles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Secciones de referencia",
+        "capacity": 4,
+        "itemIds": [
+          "html-element-roles-7",
+          "html-element-roles-8",
+          "html-element-roles-9",
+          "html-element-roles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por rol en HTML5: raíz del documento (<html>), metadatos (<head>, <meta>), multimedia (<audio>, <video>, <canvas>) y secciones estructurales (<header>, <nav>, <main>, <footer>).",
+  "sources": [
+    {
+      "title": "MDN: HTML Elements Reference",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.35
+  },
+  "status": "scheduled"
+}

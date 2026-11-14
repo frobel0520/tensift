@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "image-compression-001",
+  "theme": "Image Formats",
+  "publishDate": "2027-01-18",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "image-compression-8",
+        "rivalGroupId": "group-3",
+        "risk": "WebP and AVIF support an optional lossless mode.",
+        "resolution": "JPEG, WebP, AVIF, and HEIC are primarily lossy photo codecs (group-4), unlike inherently lossless PNG/GIF/QOI (group-3)."
+      },
+      {
+        "itemId": "image-compression-1",
+        "rivalGroupId": "group-3",
+        "risk": "SVG renders cleanly at any resolution.",
+        "resolution": "SVG is XML vector geometry (group-1), not a pixel raster."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

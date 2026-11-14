@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "regex-metacharacters-2027-01-15-zh-hant",
+  "puzzleFamilyId": "regex-metacharacters-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-01-15",
+  "timezone": "UTC",
+  "theme": "正規表示式語法",
+  "items": [
+    {
+      "itemId": "regex-metacharacters-4",
+      "label": "\\d（數字）"
+    },
+    {
+      "itemId": "regex-metacharacters-8",
+      "label": "+（1 次或多次）"
+    },
+    {
+      "itemId": "regex-metacharacters-1",
+      "label": "|（管道符號）"
+    },
+    {
+      "itemId": "regex-metacharacters-6",
+      "label": "\\s（空白）"
+    },
+    {
+      "itemId": "regex-metacharacters-10",
+      "label": "{2,5}（次數範圍）"
+    },
+    {
+      "itemId": "regex-metacharacters-2",
+      "label": "^（開頭）"
+    },
+    {
+      "itemId": "regex-metacharacters-7",
+      "label": "*（0 次或多次）"
+    },
+    {
+      "itemId": "regex-metacharacters-5",
+      "label": "\\w（單字字元）"
+    },
+    {
+      "itemId": "regex-metacharacters-9",
+      "label": "?（0 或 1 次）"
+    },
+    {
+      "itemId": "regex-metacharacters-3",
+      "label": "$（結尾）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各正規表示式符號的語法功能",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "分支或運算",
+        "capacity": 1,
+        "itemIds": [
+          "regex-metacharacters-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "頭尾邊界錨點",
+        "capacity": 2,
+        "itemIds": [
+          "regex-metacharacters-2",
+          "regex-metacharacters-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "字元類別簡寫",
+        "capacity": 3,
+        "itemIds": [
+          "regex-metacharacters-4",
+          "regex-metacharacters-5",
+          "regex-metacharacters-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "重複次數詞",
+        "capacity": 4,
+        "itemIds": [
+          "regex-metacharacters-7",
+          "regex-metacharacters-8",
+          "regex-metacharacters-9",
+          "regex-metacharacters-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依正規表示式語法角色分類：或運算子（|）、邊界錨點（^、$）、字元類別簡寫（\\d、\\w、\\s）與重複量詞（*、+、?、{2,5}）。",
+  "sources": [
+    {
+      "title": "MDN: Regular Expressions Cheat Sheet",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

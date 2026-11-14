@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "http-methods-semantics-2027-01-02-es-419",
+  "puzzleFamilyId": "http-methods-semantics-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-02",
+  "timezone": "UTC",
+  "theme": "Métodos HTTP",
+  "items": [
+    {
+      "itemId": "http-methods-semantics-4",
+      "label": "Tabla hash"
+    },
+    {
+      "itemId": "http-methods-semantics-8",
+      "label": "Trie"
+    },
+    {
+      "itemId": "http-methods-semantics-1",
+      "label": "Pila (Stack)"
+    },
+    {
+      "itemId": "http-methods-semantics-6",
+      "label": "Filtro de Bloom"
+    },
+    {
+      "itemId": "http-methods-semantics-10",
+      "label": "Grafo dirigido"
+    },
+    {
+      "itemId": "http-methods-semantics-2",
+      "label": "Cola (Queue)"
+    },
+    {
+      "itemId": "http-methods-semantics-7",
+      "label": "Árbol binario de búsqueda"
+    },
+    {
+      "itemId": "http-methods-semantics-5",
+      "label": "Conjunto hash"
+    },
+    {
+      "itemId": "http-methods-semantics-9",
+      "label": "Montículo mínimo"
+    },
+    {
+      "itemId": "http-methods-semantics-3",
+      "label": "Cola doble (Deque)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clasificación de seguridad e idempotencia según RFC 9110",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Estructura lineal LIFO",
+        "capacity": 1,
+        "itemIds": [
+          "http-methods-semantics-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Colas FIFO y de doble extremo",
+        "capacity": 2,
+        "itemIds": [
+          "http-methods-semantics-2",
+          "http-methods-semantics-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Estructuras basadas en hash",
+        "capacity": 3,
+        "itemIds": [
+          "http-methods-semantics-4",
+          "http-methods-semantics-5",
+          "http-methods-semantics-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Árboles y grafos",
+        "capacity": 4,
+        "itemIds": [
+          "http-methods-semantics-7",
+          "http-methods-semantics-8",
+          "http-methods-semantics-9",
+          "http-methods-semantics-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por estructura de datos: acceso LIFO (pila), acceso FIFO/doble extremo (cola, cola doble), acceso por clave o hash (tabla hash, filtro de Bloom, conjunto) y estructuras enlazadas jerárquicas o de grafos (árbol binario, trie, montículo, grafo).",
+  "sources": [
+    {
+      "title": "NIST: Data Structures",
+      "url": "https://xlinux.nist.gov/dads/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

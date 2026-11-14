@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tcp-well-known-ports-2027-01-24-es-419",
+  "puzzleFamilyId": "tcp-well-known-ports-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-24",
+  "timezone": "UTC",
+  "theme": "Puertos TCP bien conocidos",
+  "items": [
+    {
+      "itemId": "tcp-well-known-ports-4",
+      "label": "Puerto 21 (FTP)"
+    },
+    {
+      "itemId": "tcp-well-known-ports-8",
+      "label": "Puerto 110 (POP3)"
+    },
+    {
+      "itemId": "tcp-well-known-ports-1",
+      "label": "Puerto 389 (LDAP)"
+    },
+    {
+      "itemId": "tcp-well-known-ports-6",
+      "label": "Puerto 23 (Telnet)"
+    },
+    {
+      "itemId": "tcp-well-known-ports-10",
+      "label": "Puerto 587 (Submission)"
+    },
+    {
+      "itemId": "tcp-well-known-ports-2",
+      "label": "Puerto 80 (HTTP)"
+    },
+    {
+      "itemId": "tcp-well-known-ports-7",
+      "label": "Puerto 25 (SMTP)"
+    },
+    {
+      "itemId": "tcp-well-known-ports-5",
+      "label": "Puerto 22 (SSH)"
+    },
+    {
+      "itemId": "tcp-well-known-ports-9",
+      "label": "Puerto 143 (IMAP)"
+    },
+    {
+      "itemId": "tcp-well-known-ports-3",
+      "label": "Puerto 443 (HTTPS)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tipo de servicio de cada puerto TCP predeterminado",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Servicio de directorio",
+        "capacity": 1,
+        "itemIds": [
+          "tcp-well-known-ports-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Web HTTP/HTTPS",
+        "capacity": 2,
+        "itemIds": [
+          "tcp-well-known-ports-2",
+          "tcp-well-known-ports-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Terminal remota y FTP",
+        "capacity": 3,
+        "itemIds": [
+          "tcp-well-known-ports-4",
+          "tcp-well-known-ports-5",
+          "tcp-well-known-ports-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Protocolos de correo",
+        "capacity": 4,
+        "itemIds": [
+          "tcp-well-known-ports-7",
+          "tcp-well-known-ports-8",
+          "tcp-well-known-ports-9",
+          "tcp-well-known-ports-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por servicio estándar IANA: directorio (389 LDAP), web (80 HTTP, 443 HTTPS), terminal remota y archivos (21 FTP, 22 SSH, 23 Telnet) y correo electrónico (25 SMTP, 110 POP3, 143 IMAP, 587 Submission).",
+  "sources": [
+    {
+      "title": "IANA: Service Name and Transport Protocol Port Numbers",
+      "url": "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.62
+  },
+  "status": "scheduled"
+}

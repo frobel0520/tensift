@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "unix-permissions-001",
+  "theme": "Unix & Linux Basics",
+  "publishDate": "2027-01-09",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "unix-permissions-1",
+        "rivalGroupId": "group-4",
+        "risk": "grep reads files from disk.",
+        "resolution": "grep filters text by regular expression pattern (group-1), rather than listing, copying, moving, or deleting files (group-4)."
+      },
+      {
+        "itemId": "unix-permissions-4",
+        "rivalGroupId": "group-4",
+        "risk": "chmod operates on files.",
+        "resolution": "chmod, chown, and chgrp specifically modify file mode bits and ownership metadata (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "html-element-roles-001",
+  "theme": "HTML Elements",
+  "publishDate": "2027-01-08",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "html-element-roles-2",
+        "rivalGroupId": "group-4",
+        "risk": "<head> sounds similar to <header>.",
+        "resolution": "<head> holds invisible document metadata (group-2), whereas <header> is a visible page landmark (group-4)."
+      },
+      {
+        "itemId": "html-element-roles-1",
+        "rivalGroupId": "group-2",
+        "risk": "<html> wraps <head>.",
+        "resolution": "<html> is the sole root element of an HTML document (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

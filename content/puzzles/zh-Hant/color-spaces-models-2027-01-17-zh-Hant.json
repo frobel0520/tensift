@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "color-spaces-models-2027-01-17-zh-hant",
+  "puzzleFamilyId": "color-spaces-models-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-01-17",
+  "timezone": "UTC",
+  "theme": "色彩空間與模型",
+  "items": [
+    {
+      "itemId": "color-spaces-models-4",
+      "label": "HSL"
+    },
+    {
+      "itemId": "color-spaces-models-8",
+      "label": "Display P3"
+    },
+    {
+      "itemId": "color-spaces-models-1",
+      "label": "CSS rebeccapurple"
+    },
+    {
+      "itemId": "color-spaces-models-6",
+      "label": "CIELAB"
+    },
+    {
+      "itemId": "color-spaces-models-10",
+      "label": "Rec. 2020"
+    },
+    {
+      "itemId": "color-spaces-models-2",
+      "label": "CMYK"
+    },
+    {
+      "itemId": "color-spaces-models-7",
+      "label": "sRGB"
+    },
+    {
+      "itemId": "color-spaces-models-5",
+      "label": "HSV"
+    },
+    {
+      "itemId": "color-spaces-models-9",
+      "label": "Adobe RGB"
+    },
+    {
+      "itemId": "color-spaces-models-3",
+      "label": "Pantone 專色油墨"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各色彩模型的技術原理或應用領域",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "具名色票關鍵字",
+        "capacity": 1,
+        "itemIds": [
+          "color-spaces-models-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "減法印刷油墨",
+        "capacity": 2,
+        "itemIds": [
+          "color-spaces-models-2",
+          "color-spaces-models-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "色相與感知座標",
+        "capacity": 3,
+        "itemIds": [
+          "color-spaces-models-4",
+          "color-spaces-models-5",
+          "color-spaces-models-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "加法 RGB 色域",
+        "capacity": 4,
+        "itemIds": [
+          "color-spaces-models-7",
+          "color-spaces-models-8",
+          "color-spaces-models-9",
+          "color-spaces-models-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依色彩模型原理分類：具名網頁色票（CSS 具名色）、減法印刷油墨（CMYK、Pantone 專色）、感知色相／明度模型（HSL、HSV、CIELAB）與加法顯示器 RGB 色域（sRGB、Display P3、Adobe RGB、Rec. 2020）。",
+  "sources": [
+    {
+      "title": "W3C: CSS Color Module Level 4",
+      "url": "https://www.w3.org/TR/css-color-4/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.52
+  },
+  "status": "scheduled"
+}

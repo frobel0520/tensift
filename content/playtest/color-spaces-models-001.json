@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "color-spaces-models-001",
+  "theme": "Color Models",
+  "publishDate": "2027-01-17",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "color-spaces-models-9",
+        "rivalGroupId": "group-2",
+        "risk": "Adobe RGB is often used in print workflows.",
+        "resolution": "Adobe RGB is still an additive RGB display/working gamut (group-4), not subtractive ink (group-2)."
+      },
+      {
+        "itemId": "color-spaces-models-4",
+        "rivalGroupId": "group-4",
+        "risk": "HSL is a cylindrical transform of sRGB.",
+        "resolution": "HSL represents hue, saturation, and lightness (group-3), rather than an RGB primaries gamut (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

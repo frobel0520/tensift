@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "color-spaces-models-2027-01-17-en",
+  "puzzleFamilyId": "color-spaces-models-001",
+  "locale": "en",
+  "publishDate": "2027-01-17",
+  "timezone": "UTC",
+  "theme": "Color Models",
+  "items": [
+    {
+      "itemId": "color-spaces-models-4",
+      "label": "HSL"
+    },
+    {
+      "itemId": "color-spaces-models-8",
+      "label": "Display P3"
+    },
+    {
+      "itemId": "color-spaces-models-1",
+      "label": "CSS rebeccapurple"
+    },
+    {
+      "itemId": "color-spaces-models-6",
+      "label": "CIELAB"
+    },
+    {
+      "itemId": "color-spaces-models-10",
+      "label": "Rec. 2020"
+    },
+    {
+      "itemId": "color-spaces-models-2",
+      "label": "CMYK"
+    },
+    {
+      "itemId": "color-spaces-models-7",
+      "label": "sRGB"
+    },
+    {
+      "itemId": "color-spaces-models-5",
+      "label": "HSV"
+    },
+    {
+      "itemId": "color-spaces-models-9",
+      "label": "Adobe RGB"
+    },
+    {
+      "itemId": "color-spaces-models-3",
+      "label": "Pantone spot ink"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Industry or technical basis of each color representation",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Named palette keyword",
+        "capacity": 1,
+        "itemIds": [
+          "color-spaces-models-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Subtractive print inks",
+        "capacity": 2,
+        "itemIds": [
+          "color-spaces-models-2",
+          "color-spaces-models-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Hue / lightness / opponent axes",
+        "capacity": 3,
+        "itemIds": [
+          "color-spaces-models-4",
+          "color-spaces-models-5",
+          "color-spaces-models-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Additive RGB gamuts",
+        "capacity": 4,
+        "itemIds": [
+          "color-spaces-models-7",
+          "color-spaces-models-8",
+          "color-spaces-models-9",
+          "color-spaces-models-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by color model basis: named web colors (CSS named color), subtractive print ink (CMYK, Pantone Spot), perceptual lightness/chroma (HSL, HSV, CIELAB), and additive RGB display (sRGB, Display P3, Adobe RGB, Rec. 2020).",
+  "sources": [
+    {
+      "title": "W3C: CSS Color Module Level 4",
+      "url": "https://www.w3.org/TR/css-color-4/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.52
+  },
+  "status": "scheduled"
+}

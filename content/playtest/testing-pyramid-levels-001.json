@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "testing-pyramid-levels-001",
+  "theme": "Software Testing",
+  "publishDate": "2027-01-25",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "testing-pyramid-levels-1",
+        "rivalGroupId": "group-2",
+        "risk": "Linters run in CI alongside unit tests.",
+        "resolution": "Static linters inspect source code without executing it (group-1), unlike dynamic unit/integration tests (group-2)."
+      },
+      {
+        "itemId": "testing-pyramid-levels-7",
+        "rivalGroupId": "group-3",
+        "risk": "Smoke testing checks critical health.",
+        "resolution": "Smoke testing is a functional release-gate check (group-4), not a load or security test (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

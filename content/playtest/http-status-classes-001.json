@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "http-status-classes-001",
+  "theme": "HTTP Status Codes",
+  "publishDate": "2026-12-28",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "http-status-classes-3",
+        "rivalGroupId": "group-3",
+        "risk": "304 Not Modified indicates a valid cache hit.",
+        "resolution": "304 belongs to the 3xx Redirection class (group-2), not 2xx."
+      },
+      {
+        "itemId": "http-status-classes-1",
+        "rivalGroupId": "group-4",
+        "risk": "502 Bad Gateway is an error response like 4xx.",
+        "resolution": "5xx codes indicate server-side failures (group-1), distinct from 4xx client errors (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

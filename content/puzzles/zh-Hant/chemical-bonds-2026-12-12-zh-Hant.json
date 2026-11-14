@@ -113,7 +113,7 @@
     "maxUses": 1,
     "policy": "random-unlocked-correct-row"
   },
-  "explanation": "依主要鍵結或作用力分類：凡得瓦力／倫敦分散力（固態氬）、金屬鍵（銅線、鐵塊→僅金屬銅與鋁? 改為 1: 倫敦分散力, 2: 金屬鍵, 3: 離子鍵, 4: 共價鍵）。",
+  "explanation": "依主要鍵結或作用力分類：倫敦分散力（固態氬）、金屬鍵（銅導線、鋁箔）、離子鍵（食鹽、氧化鎂、溴化鉀）與共價鍵（鑽石、甲烷、水分子、石英）。",
   "sources": [
     {
       "title": "IUPAC: Chemical Bond",

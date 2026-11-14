@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "http-methods-semantics-001",
+  "theme": "HTTP Methods",
+  "publishDate": "2027-01-02",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "http-methods-semantics-9",
+        "rivalGroupId": "group-2",
+        "risk": "A min-heap is commonly used to implement a priority queue.",
+        "resolution": "Structurally, a binary min-heap is a tree-ordered structure (group-4), distinct from FIFO queues (group-2)."
+      },
+      {
+        "itemId": "http-methods-semantics-6",
+        "rivalGroupId": "group-4",
+        "risk": "Bloom filters use bit arrays.",
+        "resolution": "Bloom filters rely on multiple hash functions (group-3), not tree/graph pointers."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

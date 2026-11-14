@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "browser-dev-apis-001",
+  "theme": "JavaScript Built-ins",
+  "publishDate": "2027-01-23",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "browser-dev-apis-1",
+        "rivalGroupId": "group-4",
+        "risk": "Promise has static methods like Promise.all.",
+        "resolution": "Promise is an instantiable async constructor (group-1), whereas Math, JSON, Reflect, and Intl cannot be constructed with new (group-4)."
+      },
+      {
+        "itemId": "browser-dev-apis-2",
+        "rivalGroupId": "group-4",
+        "risk": "Symbol has well-known static properties.",
+        "resolution": "Symbol and BigInt are callable primitive constructors (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}
