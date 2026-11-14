@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "weather-instruments-2026-12-20-zh-hant",
+  "puzzleFamilyId": "weather-instruments-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-20",
+  "timezone": "UTC",
+  "theme": "氣象觀測儀器",
+  "items": [
+    {
+      "itemId": "weather-instruments-4",
+      "label": "手搖乾濕球溫度計"
+    },
+    {
+      "itemId": "weather-instruments-8",
+      "label": "超音波風速計"
+    },
+    {
+      "itemId": "weather-instruments-1",
+      "label": "傾斗式雨量計"
+    },
+    {
+      "itemId": "weather-instruments-6",
+      "label": "冷鏡露點儀"
+    },
+    {
+      "itemId": "weather-instruments-10",
+      "label": "機場風向袋"
+    },
+    {
+      "itemId": "weather-instruments-2",
+      "label": "水銀氣壓計"
+    },
+    {
+      "itemId": "weather-instruments-7",
+      "label": "風杯風速計"
+    },
+    {
+      "itemId": "weather-instruments-5",
+      "label": "毛髮濕度計"
+    },
+    {
+      "itemId": "weather-instruments-9",
+      "label": "風向標"
+    },
+    {
+      "itemId": "weather-instruments-3",
+      "label": "空盒氣壓計"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各氣象儀器所測量的物理量",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "降水量",
+        "capacity": 1,
+        "itemIds": [
+          "weather-instruments-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "大氣壓力",
+        "capacity": 2,
+        "itemIds": [
+          "weather-instruments-2",
+          "weather-instruments-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "空氣濕度",
+        "capacity": 3,
+        "itemIds": [
+          "weather-instruments-4",
+          "weather-instruments-5",
+          "weather-instruments-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "風速或風向",
+        "capacity": 4,
+        "itemIds": [
+          "weather-instruments-7",
+          "weather-instruments-8",
+          "weather-instruments-9",
+          "weather-instruments-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依測量目標歸類：降水量、大氣壓力、空氣濕度與風況。",
+  "sources": [
+    {
+      "title": "WMO: Meteorological Instruments",
+      "url": "https://public.wmo.int/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

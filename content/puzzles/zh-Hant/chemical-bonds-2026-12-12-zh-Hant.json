@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chemical-bonds-2026-12-12-zh-hant",
+  "puzzleFamilyId": "chemical-bonds-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-12",
+  "timezone": "UTC",
+  "theme": "化學鍵結",
+  "items": [
+    {
+      "itemId": "chemical-bonds-4",
+      "label": "食鹽（NaCl）"
+    },
+    {
+      "itemId": "chemical-bonds-8",
+      "label": "甲烷（CH4）"
+    },
+    {
+      "itemId": "chemical-bonds-1",
+      "label": "固態氬"
+    },
+    {
+      "itemId": "chemical-bonds-6",
+      "label": "溴化鉀"
+    },
+    {
+      "itemId": "chemical-bonds-10",
+      "label": "石英（SiO2）"
+    },
+    {
+      "itemId": "chemical-bonds-2",
+      "label": "銅導線"
+    },
+    {
+      "itemId": "chemical-bonds-7",
+      "label": "鑽石"
+    },
+    {
+      "itemId": "chemical-bonds-5",
+      "label": "氧化鎂"
+    },
+    {
+      "itemId": "chemical-bonds-9",
+      "label": "水分子（H2O）"
+    },
+    {
+      "itemId": "chemical-bonds-3",
+      "label": "鋁箔"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各物質或微觀結構的主要鍵結／作用力",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "僅倫敦分散力",
+        "capacity": 1,
+        "itemIds": [
+          "chemical-bonds-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "金屬鍵",
+        "capacity": 2,
+        "itemIds": [
+          "chemical-bonds-2",
+          "chemical-bonds-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "離子鍵",
+        "capacity": 3,
+        "itemIds": [
+          "chemical-bonds-4",
+          "chemical-bonds-5",
+          "chemical-bonds-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "共價鍵",
+        "capacity": 4,
+        "itemIds": [
+          "chemical-bonds-7",
+          "chemical-bonds-8",
+          "chemical-bonds-9",
+          "chemical-bonds-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依主要鍵結或作用力分類：凡得瓦力／倫敦分散力（固態氬）、金屬鍵（銅線、鐵塊→僅金屬銅與鋁? 改為 1: 倫敦分散力, 2: 金屬鍵, 3: 離子鍵, 4: 共價鍵）。",
+  "sources": [
+    {
+      "title": "IUPAC: Chemical Bond",
+      "url": "https://goldbook.iupac.org/terms/view/C01016",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.55
+  },
+  "status": "scheduled"
+}

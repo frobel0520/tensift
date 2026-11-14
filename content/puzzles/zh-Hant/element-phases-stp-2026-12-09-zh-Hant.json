@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "element-phases-stp-2026-12-09-zh-hant",
+  "puzzleFamilyId": "element-phases-stp-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-09",
+  "timezone": "UTC",
+  "theme": "常溫元素物態",
+  "items": [
+    {
+      "itemId": "element-phases-stp-4",
+      "label": "氮"
+    },
+    {
+      "itemId": "element-phases-stp-8",
+      "label": "鋅"
+    },
+    {
+      "itemId": "element-phases-stp-1",
+      "label": "汞"
+    },
+    {
+      "itemId": "element-phases-stp-6",
+      "label": "氬"
+    },
+    {
+      "itemId": "element-phases-stp-10",
+      "label": "鉛"
+    },
+    {
+      "itemId": "element-phases-stp-2",
+      "label": "硼"
+    },
+    {
+      "itemId": "element-phases-stp-7",
+      "label": "鋁"
+    },
+    {
+      "itemId": "element-phases-stp-5",
+      "label": "氧"
+    },
+    {
+      "itemId": "element-phases-stp-9",
+      "label": "銀"
+    },
+    {
+      "itemId": "element-phases-stp-3",
+      "label": "矽"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "元素在標準常溫下的物態或類金屬分類",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "常溫液態",
+        "capacity": 1,
+        "itemIds": [
+          "element-phases-stp-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "固態類金屬",
+        "capacity": 2,
+        "itemIds": [
+          "element-phases-stp-2",
+          "element-phases-stp-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "常溫氣態",
+        "capacity": 3,
+        "itemIds": [
+          "element-phases-stp-4",
+          "element-phases-stp-5",
+          "element-phases-stp-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "固態金屬",
+        "capacity": 4,
+        "itemIds": [
+          "element-phases-stp-7",
+          "element-phases-stp-8",
+          "element-phases-stp-9",
+          "element-phases-stp-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "在 20 °C 常壓下分類：液態金屬（汞）、類金屬（硼、矽）、氣態非金屬（氮、氧、氬）與固態金屬（鋁、鋅、銀、鉛）。",
+  "sources": [
+    {
+      "title": "IUPAC: Periodic Table",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

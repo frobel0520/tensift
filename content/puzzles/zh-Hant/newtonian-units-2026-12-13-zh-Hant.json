@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "newtonian-units-2026-12-13-zh-hant",
+  "puzzleFamilyId": "newtonian-units-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-13",
+  "timezone": "UTC",
+  "theme": "物理量與單位",
+  "items": [
+    {
+      "itemId": "newtonian-units-4",
+      "label": "焦耳"
+    },
+    {
+      "itemId": "newtonian-units-8",
+      "label": "巴"
+    },
+    {
+      "itemId": "newtonian-units-1",
+      "label": "伏特"
+    },
+    {
+      "itemId": "newtonian-units-6",
+      "label": "卡路里"
+    },
+    {
+      "itemId": "newtonian-units-10",
+      "label": "托"
+    },
+    {
+      "itemId": "newtonian-units-2",
+      "label": "瓦特"
+    },
+    {
+      "itemId": "newtonian-units-7",
+      "label": "帕斯卡"
+    },
+    {
+      "itemId": "newtonian-units-5",
+      "label": "千瓦時（度）"
+    },
+    {
+      "itemId": "newtonian-units-9",
+      "label": "標準大氣壓"
+    },
+    {
+      "itemId": "newtonian-units-3",
+      "label": "馬力"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各單位所測量的物理量：電位、功率、能量、壓力",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "電位／電壓",
+        "capacity": 1,
+        "itemIds": [
+          "newtonian-units-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "功率",
+        "capacity": 2,
+        "itemIds": [
+          "newtonian-units-2",
+          "newtonian-units-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "能量",
+        "capacity": 3,
+        "itemIds": [
+          "newtonian-units-4",
+          "newtonian-units-5",
+          "newtonian-units-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "壓力",
+        "capacity": 4,
+        "itemIds": [
+          "newtonian-units-7",
+          "newtonian-units-8",
+          "newtonian-units-9",
+          "newtonian-units-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依所測量的物理量分類：電位（伏特）、功率（瓦特、馬力）、能量（焦耳、千瓦時、卡路里）與壓力（帕斯卡、巴、大氣壓、托）。",
+  "sources": [
+    {
+      "title": "NIST: SI Derived Units",
+      "url": "https://www.nist.gov/pml/owm/metric-si/si-units",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "planet-moons-2026-12-21-zh-hant",
+  "puzzleFamilyId": "planet-moons-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-21",
+  "timezone": "UTC",
+  "theme": "太陽系衛星",
+  "items": [
+    {
+      "itemId": "planet-moons-4",
+      "label": "土衛六（泰坦）"
+    },
+    {
+      "itemId": "planet-moons-8",
+      "label": "木衛二（歐羅巴）"
+    },
+    {
+      "itemId": "planet-moons-1",
+      "label": "海衛一（崔頓）"
+    },
+    {
+      "itemId": "planet-moons-6",
+      "label": "土衛五（瑞亞）"
+    },
+    {
+      "itemId": "planet-moons-10",
+      "label": "木衛四（卡利斯托）"
+    },
+    {
+      "itemId": "planet-moons-2",
+      "label": "火衛一（福波斯）"
+    },
+    {
+      "itemId": "planet-moons-7",
+      "label": "木衛一（埃歐）"
+    },
+    {
+      "itemId": "planet-moons-5",
+      "label": "土衛二（恩克拉多斯）"
+    },
+    {
+      "itemId": "planet-moons-9",
+      "label": "木衛三（蓋尼米德）"
+    },
+    {
+      "itemId": "planet-moons-3",
+      "label": "火衛二（戴摩斯）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各衛星所環繞的母行星",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "海王星",
+        "capacity": 1,
+        "itemIds": [
+          "planet-moons-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "火星",
+        "capacity": 2,
+        "itemIds": [
+          "planet-moons-2",
+          "planet-moons-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "土星",
+        "capacity": 3,
+        "itemIds": [
+          "planet-moons-4",
+          "planet-moons-5",
+          "planet-moons-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "木星",
+        "capacity": 4,
+        "itemIds": [
+          "planet-moons-7",
+          "planet-moons-8",
+          "planet-moons-9",
+          "planet-moons-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依環繞的母行星歸類：海王星（海衛一）、火星（火衛一、火衛二）、土星（泰坦、土衛二、土衛五）與木星（木衛一、木衛二、木衛三、木衛四）。",
+  "sources": [
+    {
+      "title": "NASA: Moons of Our Solar System",
+      "url": "https://science.nasa.gov/moons/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "si-base-quantities-001",
+  "theme": "SI Base Quantities",
+  "publishDate": "2026-11-29",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "si-base-quantities-6",
+        "rivalGroupId": "group-4",
+        "risk": "Optical wavelength relates to frequency and time.",
+        "resolution": "Wavelength is a spatial distance measured in meters (group-3)."
+      },
+      {
+        "itemId": "si-base-quantities-2",
+        "rivalGroupId": "group-3",
+        "risk": "Atomic count relates to atomic scale.",
+        "resolution": "Amount of substance is measured in moles (group-2), not meters."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

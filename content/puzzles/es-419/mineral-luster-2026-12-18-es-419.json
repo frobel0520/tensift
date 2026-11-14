@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "mineral-luster-2026-12-18-es-419",
+  "puzzleFamilyId": "mineral-luster-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-18",
+  "timezone": "UTC",
+  "theme": "Tipos de rocas",
+  "items": [
+    {
+      "itemId": "mineral-luster-4",
+      "label": "Granito"
+    },
+    {
+      "itemId": "mineral-luster-8",
+      "label": "Arenisca"
+    },
+    {
+      "itemId": "mineral-luster-1",
+      "label": "Ámbar"
+    },
+    {
+      "itemId": "mineral-luster-6",
+      "label": "Obsidiana"
+    },
+    {
+      "itemId": "mineral-luster-10",
+      "label": "Conglomerado"
+    },
+    {
+      "itemId": "mineral-luster-2",
+      "label": "Mármol"
+    },
+    {
+      "itemId": "mineral-luster-7",
+      "label": "Caliza"
+    },
+    {
+      "itemId": "mineral-luster-5",
+      "label": "Basalto"
+    },
+    {
+      "itemId": "mineral-luster-9",
+      "label": "Lutita"
+    },
+    {
+      "itemId": "mineral-luster-3",
+      "label": "Pizarra"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase geológica de roca o resina fósil",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Resina fósil vegetal",
+        "capacity": 1,
+        "itemIds": [
+          "mineral-luster-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Rocas metamórficas",
+        "capacity": 2,
+        "itemIds": [
+          "mineral-luster-2",
+          "mineral-luster-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Rocas ígneas",
+        "capacity": 3,
+        "itemIds": [
+          "mineral-luster-4",
+          "mineral-luster-5",
+          "mineral-luster-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Rocas sedimentarias",
+        "capacity": 4,
+        "itemIds": [
+          "mineral-luster-7",
+          "mineral-luster-8",
+          "mineral-luster-9",
+          "mineral-luster-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por origen geológico: resina fósil orgánica (ámbar), metamórficas (mármol, pizarra), ígneas (granito, basalto, obsidiana) y sedimentarias (caliza, arenisca, lutita, conglomerado).",
+  "sources": [
+    {
+      "title": "USGS: Three Types of Rock",
+      "url": "https://www.usgs.gov/faqs/what-are-three-main-types-rocks",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.36
+  },
+  "status": "scheduled"
+}

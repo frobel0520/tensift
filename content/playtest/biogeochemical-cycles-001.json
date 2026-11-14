@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "biogeochemical-cycles-001",
+  "theme": "Water Cycle Processes",
+  "publishDate": "2026-12-25",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "biogeochemical-cycles-9",
+        "rivalGroupId": "group-1",
+        "risk": "Groundwater discharge is underground like infiltration.",
+        "resolution": "Infiltration is water entering soil from the surface (group-1), whereas groundwater discharge flows out toward streams and oceans (group-4)."
+      },
+      {
+        "itemId": "biogeochemical-cycles-8",
+        "rivalGroupId": "group-3",
+        "risk": "Snowmelt comes from snow.",
+        "resolution": "Snowmelt streams are liquid surface runoff (group-4), not falling precipitation."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

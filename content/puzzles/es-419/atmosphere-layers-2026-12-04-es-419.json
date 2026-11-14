@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "atmosphere-layers-2026-12-04-es-419",
+  "puzzleFamilyId": "atmosphere-layers-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-04",
+  "timezone": "UTC",
+  "theme": "Capas de la atmósfera",
+  "items": [
+    {
+      "itemId": "atmosphere-layers-4",
+      "label": "Capa de ozono"
+    },
+    {
+      "itemId": "atmosphere-layers-8",
+      "label": "Nubes cúmulos"
+    },
+    {
+      "itemId": "atmosphere-layers-1",
+      "label": "Átomos de hidrógeno que escapan"
+    },
+    {
+      "itemId": "atmosphere-layers-6",
+      "label": "Vuelo supersónico de crucero"
+    },
+    {
+      "itemId": "atmosphere-layers-10",
+      "label": "Cima del Everest"
+    },
+    {
+      "itemId": "atmosphere-layers-2",
+      "label": "Meteoros que se desintegran"
+    },
+    {
+      "itemId": "atmosphere-layers-7",
+      "label": "Tormentas eléctricas"
+    },
+    {
+      "itemId": "atmosphere-layers-5",
+      "label": "Globos meteorológicos"
+    },
+    {
+      "itemId": "atmosphere-layers-9",
+      "label": "Niebla matinal"
+    },
+    {
+      "itemId": "atmosphere-layers-3",
+      "label": "Nubes noctilucentes"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "La capa atmosférica donde ocurre cada fenómeno",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Exosfera",
+        "capacity": 1,
+        "itemIds": [
+          "atmosphere-layers-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Mesosfera",
+        "capacity": 2,
+        "itemIds": [
+          "atmosphere-layers-2",
+          "atmosphere-layers-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Estratosfera",
+        "capacity": 3,
+        "itemIds": [
+          "atmosphere-layers-4",
+          "atmosphere-layers-5",
+          "atmosphere-layers-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Troposfera",
+        "capacity": 4,
+        "itemIds": [
+          "atmosphere-layers-7",
+          "atmosphere-layers-8",
+          "atmosphere-layers-9",
+          "atmosphere-layers-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por la capa de la atmósfera terrestre: exosfera, mesosfera, estratosfera y troposfera.",
+  "sources": [
+    {
+      "title": "NOAA: Layers of the Atmosphere",
+      "url": "https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

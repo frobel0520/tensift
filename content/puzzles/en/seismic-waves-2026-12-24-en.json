@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "seismic-waves-2026-12-24-en",
+  "puzzleFamilyId": "seismic-waves-001",
+  "locale": "en",
+  "publishDate": "2026-12-24",
+  "timezone": "UTC",
+  "theme": "Earthquake Science",
+  "items": [
+    {
+      "itemId": "seismic-waves-4",
+      "label": "Hypocenter"
+    },
+    {
+      "itemId": "seismic-waves-8",
+      "label": "Moment magnitude"
+    },
+    {
+      "itemId": "seismic-waves-1",
+      "label": "Seismograph"
+    },
+    {
+      "itemId": "seismic-waves-6",
+      "label": "Fault scarp"
+    },
+    {
+      "itemId": "seismic-waves-10",
+      "label": "JMA seismic intensity"
+    },
+    {
+      "itemId": "seismic-waves-2",
+      "label": "Love wave"
+    },
+    {
+      "itemId": "seismic-waves-7",
+      "label": "Richter scale"
+    },
+    {
+      "itemId": "seismic-waves-5",
+      "label": "Epicenter"
+    },
+    {
+      "itemId": "seismic-waves-9",
+      "label": "Mercalli intensity"
+    },
+    {
+      "itemId": "seismic-waves-3",
+      "label": "Rayleigh wave"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Category in seismology: scale, wave type, or measurement concept",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Recording instrument",
+        "capacity": 1,
+        "itemIds": [
+          "seismic-waves-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Surface seismic waves",
+        "capacity": 2,
+        "itemIds": [
+          "seismic-waves-2",
+          "seismic-waves-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Earthquake source geometry",
+        "capacity": 3,
+        "itemIds": [
+          "seismic-waves-4",
+          "seismic-waves-5",
+          "seismic-waves-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Magnitude & intensity scales",
+        "capacity": 4,
+        "itemIds": [
+          "seismic-waves-7",
+          "seismic-waves-8",
+          "seismic-waves-9",
+          "seismic-waves-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Wait: let us make sure every group is crisp! Group 1: Surface seismic waves? No, there are 2 surface waves (Love, Rayleigh) and 2 body waves (P, S). Let us do: Group 1: Seismograph (instrument), Group 2: Surface waves (Love wave, Rayleigh wave), Group 3: Hypocenter/Epicenter/Fault scarp (earthquake geometry), Group 4: Earthquake magnitude & intensity scales (Richter scale, Moment magnitude, Mercalli intensity, JMA seismic intensity).",
+  "sources": [
+    {
+      "title": "USGS: Earthquake Glossary",
+      "url": "https://earthquake.usgs.gov/learn/glossary/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.54
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "planet-moons-2026-12-21-es-419",
+  "puzzleFamilyId": "planet-moons-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-21",
+  "timezone": "UTC",
+  "theme": "Lunas del sistema solar",
+  "items": [
+    {
+      "itemId": "planet-moons-4",
+      "label": "Titán"
+    },
+    {
+      "itemId": "planet-moons-8",
+      "label": "Europa"
+    },
+    {
+      "itemId": "planet-moons-1",
+      "label": "Tritón"
+    },
+    {
+      "itemId": "planet-moons-6",
+      "label": "Rea"
+    },
+    {
+      "itemId": "planet-moons-10",
+      "label": "Calisto"
+    },
+    {
+      "itemId": "planet-moons-2",
+      "label": "Fobos"
+    },
+    {
+      "itemId": "planet-moons-7",
+      "label": "Ío"
+    },
+    {
+      "itemId": "planet-moons-5",
+      "label": "Encélado"
+    },
+    {
+      "itemId": "planet-moons-9",
+      "label": "Ganímedes"
+    },
+    {
+      "itemId": "planet-moons-3",
+      "label": "Deimos"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El planeta alrededor del cual orbita cada luna",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Neptuno",
+        "capacity": 1,
+        "itemIds": [
+          "planet-moons-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Marte",
+        "capacity": 2,
+        "itemIds": [
+          "planet-moons-2",
+          "planet-moons-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Saturno",
+        "capacity": 3,
+        "itemIds": [
+          "planet-moons-4",
+          "planet-moons-5",
+          "planet-moons-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Júpiter",
+        "capacity": 4,
+        "itemIds": [
+          "planet-moons-7",
+          "planet-moons-8",
+          "planet-moons-9",
+          "planet-moons-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por su planeta anfitrión: Neptuno (Tritón), Marte (Fobos, Deimos), Saturno (Titán, Encélado, Rea) y Júpiter (Ío, Europa, Ganímedes, Calisto).",
+  "sources": [
+    {
+      "title": "NASA: Moons of Our Solar System",
+      "url": "https://science.nasa.gov/moons/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

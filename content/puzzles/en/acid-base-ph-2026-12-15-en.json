@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "acid-base-ph-2026-12-15-en",
+  "puzzleFamilyId": "acid-base-ph-001",
+  "locale": "en",
+  "publishDate": "2026-12-15",
+  "timezone": "UTC",
+  "theme": "Acids and Bases",
+  "items": [
+    {
+      "itemId": "acid-base-ph-4",
+      "label": "Acetic acid"
+    },
+    {
+      "itemId": "acid-base-ph-8",
+      "label": "Sulfuric acid"
+    },
+    {
+      "itemId": "acid-base-ph-1",
+      "label": "Distilled water"
+    },
+    {
+      "itemId": "acid-base-ph-6",
+      "label": "Carbonic acid"
+    },
+    {
+      "itemId": "acid-base-ph-10",
+      "label": "Perchloric acid"
+    },
+    {
+      "itemId": "acid-base-ph-2",
+      "label": "Sodium hydroxide"
+    },
+    {
+      "itemId": "acid-base-ph-7",
+      "label": "Hydrochloric acid"
+    },
+    {
+      "itemId": "acid-base-ph-5",
+      "label": "Citric acid"
+    },
+    {
+      "itemId": "acid-base-ph-9",
+      "label": "Nitric acid"
+    },
+    {
+      "itemId": "acid-base-ph-3",
+      "label": "Potassium hydroxide"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Chemical classification of each aqueous solution or substance",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Neutral (pH 7 at 25 °C)",
+        "capacity": 1,
+        "itemIds": [
+          "acid-base-ph-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Strong bases",
+        "capacity": 2,
+        "itemIds": [
+          "acid-base-ph-2",
+          "acid-base-ph-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Weak acids",
+        "capacity": 3,
+        "itemIds": [
+          "acid-base-ph-4",
+          "acid-base-ph-5",
+          "acid-base-ph-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Strong acids",
+        "capacity": 4,
+        "itemIds": [
+          "acid-base-ph-7",
+          "acid-base-ph-8",
+          "acid-base-ph-9",
+          "acid-base-ph-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by pH behavior in water: neutral pure water, strong bases, weak acids, and strong acids.",
+  "sources": [
+    {
+      "title": "IUPAC: Compendium of Chemical Terminology",
+      "url": "https://goldbook.iupac.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

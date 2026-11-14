@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chemical-bonds-2026-12-12-en",
+  "puzzleFamilyId": "chemical-bonds-001",
+  "locale": "en",
+  "publishDate": "2026-12-12",
+  "timezone": "UTC",
+  "theme": "Chemical Bonding",
+  "items": [
+    {
+      "itemId": "chemical-bonds-4",
+      "label": "Table salt (NaCl)"
+    },
+    {
+      "itemId": "chemical-bonds-8",
+      "label": "Methane (CH4)"
+    },
+    {
+      "itemId": "chemical-bonds-1",
+      "label": "Solid argon"
+    },
+    {
+      "itemId": "chemical-bonds-6",
+      "label": "Potassium bromide"
+    },
+    {
+      "itemId": "chemical-bonds-10",
+      "label": "Quartz (SiO2)"
+    },
+    {
+      "itemId": "chemical-bonds-2",
+      "label": "Copper wire"
+    },
+    {
+      "itemId": "chemical-bonds-7",
+      "label": "Diamond"
+    },
+    {
+      "itemId": "chemical-bonds-5",
+      "label": "Magnesium oxide"
+    },
+    {
+      "itemId": "chemical-bonds-9",
+      "label": "Water molecule (H2O)"
+    },
+    {
+      "itemId": "chemical-bonds-3",
+      "label": "Aluminum foil"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Primary bonding or intermolecular force in each substance",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "London dispersion only",
+        "capacity": 1,
+        "itemIds": [
+          "chemical-bonds-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Metallic bonding",
+        "capacity": 2,
+        "itemIds": [
+          "chemical-bonds-2",
+          "chemical-bonds-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Ionic bonding",
+        "capacity": 3,
+        "itemIds": [
+          "chemical-bonds-4",
+          "chemical-bonds-5",
+          "chemical-bonds-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Covalent bonding",
+        "capacity": 4,
+        "itemIds": [
+          "chemical-bonds-7",
+          "chemical-bonds-8",
+          "chemical-bonds-9",
+          "chemical-bonds-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by dominant bonding: London dispersion (solid argon), metallic (copper wire), ionic (table salt, magnesium oxide, potassium bromide), and covalent (diamond, methane, water molecule, silicon dioxide).",
+  "sources": [
+    {
+      "title": "IUPAC: Chemical Bond",
+      "url": "https://goldbook.iupac.org/terms/view/C01016",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.55
+  },
+  "status": "scheduled"
+}

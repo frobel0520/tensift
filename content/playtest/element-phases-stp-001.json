@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "element-phases-stp-001",
+  "theme": "Elements at Room Temp",
+  "publishDate": "2026-12-09",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "element-phases-stp-1",
+        "rivalGroupId": "group-4",
+        "risk": "Mercury is a metal like silver and lead.",
+        "resolution": "Mercury is uniquely liquid at 20 °C (group-1), unlike the solid metals."
+      },
+      {
+        "itemId": "element-phases-stp-3",
+        "rivalGroupId": "group-4",
+        "risk": "Silicon has a metallic sheen.",
+        "resolution": "Silicon is a semiconductor metalloid (group-2), not a metal."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

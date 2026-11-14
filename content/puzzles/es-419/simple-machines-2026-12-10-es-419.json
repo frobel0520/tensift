@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "simple-machines-2026-12-10-es-419",
+  "puzzleFamilyId": "simple-machines-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-10",
+  "timezone": "UTC",
+  "theme": "Máquinas simples",
+  "items": [
+    {
+      "itemId": "simple-machines-4",
+      "label": "Hoja de hacha"
+    },
+    {
+      "itemId": "simple-machines-8",
+      "label": "Palanca de uñas"
+    },
+    {
+      "itemId": "simple-machines-1",
+      "label": "Sacacorchos"
+    },
+    {
+      "itemId": "simple-machines-6",
+      "label": "Tope de puerta"
+    },
+    {
+      "itemId": "simple-machines-10",
+      "label": "Pinzas"
+    },
+    {
+      "itemId": "simple-machines-2",
+      "label": "Perilla de puerta"
+    },
+    {
+      "itemId": "simple-machines-7",
+      "label": "Subibaja"
+    },
+    {
+      "itemId": "simple-machines-5",
+      "label": "Cincel"
+    },
+    {
+      "itemId": "simple-machines-9",
+      "label": "Cascanueces"
+    },
+    {
+      "itemId": "simple-machines-3",
+      "label": "Volante"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "La máquina simple clásica que ejemplifica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Tornillo",
+        "capacity": 1,
+        "itemIds": [
+          "simple-machines-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Rueda y eje",
+        "capacity": 2,
+        "itemIds": [
+          "simple-machines-2",
+          "simple-machines-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Cuña",
+        "capacity": 3,
+        "itemIds": [
+          "simple-machines-4",
+          "simple-machines-5",
+          "simple-machines-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Palanca",
+        "capacity": 4,
+        "itemIds": [
+          "simple-machines-7",
+          "simple-machines-8",
+          "simple-machines-9",
+          "simple-machines-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Herramientas cotidianas agrupadas por su máquina simple principal: tornillo, rueda y eje, cuña y palanca.",
+  "sources": [
+    {
+      "title": "Britannica: Simple Machine",
+      "url": "https://www.britannica.com/technology/simple-machine",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.32
+  },
+  "status": "scheduled"
+}

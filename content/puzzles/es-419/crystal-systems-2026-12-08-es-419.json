@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "crystal-systems-2026-12-08-es-419",
+  "puzzleFamilyId": "crystal-systems-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-08",
+  "timezone": "UTC",
+  "theme": "Sistemas cristalinos",
+  "items": [
+    {
+      "itemId": "crystal-systems-4",
+      "label": "Circón"
+    },
+    {
+      "itemId": "crystal-systems-8",
+      "label": "Pirita"
+    },
+    {
+      "itemId": "crystal-systems-1",
+      "label": "Olivino"
+    },
+    {
+      "itemId": "crystal-systems-6",
+      "label": "Casiterita"
+    },
+    {
+      "itemId": "crystal-systems-10",
+      "label": "Granate"
+    },
+    {
+      "itemId": "crystal-systems-2",
+      "label": "Cuarzo"
+    },
+    {
+      "itemId": "crystal-systems-7",
+      "label": "Halita"
+    },
+    {
+      "itemId": "crystal-systems-5",
+      "label": "Rutilo"
+    },
+    {
+      "itemId": "crystal-systems-9",
+      "label": "Fluorita"
+    },
+    {
+      "itemId": "crystal-systems-3",
+      "label": "Calcita"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El sistema cristalino de cada mineral",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Sistema ortorrómbico",
+        "capacity": 1,
+        "itemIds": [
+          "crystal-systems-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Sistema trigonal",
+        "capacity": 2,
+        "itemIds": [
+          "crystal-systems-2",
+          "crystal-systems-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Sistema tetragonal",
+        "capacity": 3,
+        "itemIds": [
+          "crystal-systems-4",
+          "crystal-systems-5",
+          "crystal-systems-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Sistema cúbico",
+        "capacity": 4,
+        "itemIds": [
+          "crystal-systems-7",
+          "crystal-systems-8",
+          "crystal-systems-9",
+          "crystal-systems-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Clasificados por su sistema cristalino: ortorrómbico (olivino), trigonal (cuarzo, calcita), tetragonal (circón, rutilo, casiterita) y cúbico (halita, pirita, fluorita, granate).",
+  "sources": [
+    {
+      "title": "Britannica: Crystal Systems",
+      "url": "https://www.britannica.com/science/crystal/Crystal-systems",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.78
+  },
+  "status": "scheduled"
+}

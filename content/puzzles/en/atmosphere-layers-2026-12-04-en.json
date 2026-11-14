@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "atmosphere-layers-2026-12-04-en",
+  "puzzleFamilyId": "atmosphere-layers-001",
+  "locale": "en",
+  "publishDate": "2026-12-04",
+  "timezone": "UTC",
+  "theme": "Atmospheric Layers",
+  "items": [
+    {
+      "itemId": "atmosphere-layers-4",
+      "label": "Ozone layer"
+    },
+    {
+      "itemId": "atmosphere-layers-8",
+      "label": "Cumulus clouds"
+    },
+    {
+      "itemId": "atmosphere-layers-1",
+      "label": "Escaping hydrogen atoms"
+    },
+    {
+      "itemId": "atmosphere-layers-6",
+      "label": "Supersonic cruise jets"
+    },
+    {
+      "itemId": "atmosphere-layers-10",
+      "label": "Mount Everest summit"
+    },
+    {
+      "itemId": "atmosphere-layers-2",
+      "label": "Burned-up meteors"
+    },
+    {
+      "itemId": "atmosphere-layers-7",
+      "label": "Thunderstorms"
+    },
+    {
+      "itemId": "atmosphere-layers-5",
+      "label": "Weather balloons"
+    },
+    {
+      "itemId": "atmosphere-layers-9",
+      "label": "Morning fog"
+    },
+    {
+      "itemId": "atmosphere-layers-3",
+      "label": "Noctilucent clouds"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The layer of Earth’s atmosphere where each phenomenon occurs",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Exosphere",
+        "capacity": 1,
+        "itemIds": [
+          "atmosphere-layers-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Mesosphere",
+        "capacity": 2,
+        "itemIds": [
+          "atmosphere-layers-2",
+          "atmosphere-layers-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Stratosphere",
+        "capacity": 3,
+        "itemIds": [
+          "atmosphere-layers-4",
+          "atmosphere-layers-5",
+          "atmosphere-layers-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Troposphere",
+        "capacity": 4,
+        "itemIds": [
+          "atmosphere-layers-7",
+          "atmosphere-layers-8",
+          "atmosphere-layers-9",
+          "atmosphere-layers-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by atmospheric layer from top to bottom: exosphere, mesosphere, stratosphere, and troposphere.",
+  "sources": [
+    {
+      "title": "NOAA: Layers of the Atmosphere",
+      "url": "https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

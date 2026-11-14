@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "em-spectrum-bands-2026-11-30-es-419",
+  "puzzleFamilyId": "em-spectrum-bands-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-30",
+  "timezone": "UTC",
+  "theme": "Espectro electromagnético",
+  "items": [
+    {
+      "itemId": "em-spectrum-bands-4",
+      "label": "Haz de control remoto"
+    },
+    {
+      "itemId": "em-spectrum-bands-8",
+      "label": "Portadora de radio AM"
+    },
+    {
+      "itemId": "em-spectrum-bands-1",
+      "label": "Fotones de desintegración nuclear"
+    },
+    {
+      "itemId": "em-spectrum-bands-6",
+      "label": "Calor radiante de tostadora"
+    },
+    {
+      "itemId": "em-spectrum-bands-10",
+      "label": "Pulso de resonancia MRI"
+    },
+    {
+      "itemId": "em-spectrum-bands-2",
+      "label": "Radiografía dental"
+    },
+    {
+      "itemId": "em-spectrum-bands-7",
+      "label": "Transmisión FM"
+    },
+    {
+      "itemId": "em-spectrum-bands-5",
+      "label": "Cámara térmica nocturna"
+    },
+    {
+      "itemId": "em-spectrum-bands-9",
+      "label": "Enlace Bluetooth"
+    },
+    {
+      "itemId": "em-spectrum-bands-3",
+      "label": "Escáner de equipaje"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "La banda del espectro electromagnético",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Rayos gamma",
+        "capacity": 1,
+        "itemIds": [
+          "em-spectrum-bands-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Rayos X",
+        "capacity": 2,
+        "itemIds": [
+          "em-spectrum-bands-2",
+          "em-spectrum-bands-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Infrarrojo",
+        "capacity": 3,
+        "itemIds": [
+          "em-spectrum-bands-4",
+          "em-spectrum-bands-5",
+          "em-spectrum-bands-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Ondas de radio",
+        "capacity": 4,
+        "itemIds": [
+          "em-spectrum-bands-7",
+          "em-spectrum-bands-8",
+          "em-spectrum-bands-9",
+          "em-spectrum-bands-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Se agrupan según su banda electromagnética estándar: rayos gamma, rayos X, infrarrojo y ondas de radio.",
+  "sources": [
+    {
+      "title": "NASA: Tour of the Electromagnetic Spectrum",
+      "url": "https://science.nasa.gov/ems/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

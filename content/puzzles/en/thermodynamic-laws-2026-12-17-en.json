@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "thermodynamic-laws-2026-12-17-en",
+  "puzzleFamilyId": "thermodynamic-laws-001",
+  "locale": "en",
+  "publishDate": "2026-12-17",
+  "timezone": "UTC",
+  "theme": "Heat Transfer Modes",
+  "items": [
+    {
+      "itemId": "thermodynamic-laws-4",
+      "label": "Metal spoon in hot soup"
+    },
+    {
+      "itemId": "thermodynamic-laws-8",
+      "label": "Hot-air balloon lift"
+    },
+    {
+      "itemId": "thermodynamic-laws-1",
+      "label": "Sweat cooling skin"
+    },
+    {
+      "itemId": "thermodynamic-laws-6",
+      "label": "Iron pressing a shirt"
+    },
+    {
+      "itemId": "thermodynamic-laws-10",
+      "label": "Mantle plume rise"
+    },
+    {
+      "itemId": "thermodynamic-laws-2",
+      "label": "Sunlight warming Earth"
+    },
+    {
+      "itemId": "thermodynamic-laws-7",
+      "label": "Boiling water circulation"
+    },
+    {
+      "itemId": "thermodynamic-laws-5",
+      "label": "Ice cube melting on palm"
+    },
+    {
+      "itemId": "thermodynamic-laws-9",
+      "label": "Sea breeze cycle"
+    },
+    {
+      "itemId": "thermodynamic-laws-3",
+      "label": "Campfire glow on hands"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Primary heat transfer mechanism in each scenario",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Evaporative latent heat",
+        "capacity": 1,
+        "itemIds": [
+          "thermodynamic-laws-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Thermal radiation",
+        "capacity": 2,
+        "itemIds": [
+          "thermodynamic-laws-2",
+          "thermodynamic-laws-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Thermal conduction",
+        "capacity": 3,
+        "itemIds": [
+          "thermodynamic-laws-4",
+          "thermodynamic-laws-5",
+          "thermodynamic-laws-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Convection",
+        "capacity": 4,
+        "itemIds": [
+          "thermodynamic-laws-7",
+          "thermodynamic-laws-8",
+          "thermodynamic-laws-9",
+          "thermodynamic-laws-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by heat transfer mechanism: latent phase-change cooling, radiation, conduction, and convection.",
+  "sources": [
+    {
+      "title": "NASA: Heat Transfer",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/heat.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

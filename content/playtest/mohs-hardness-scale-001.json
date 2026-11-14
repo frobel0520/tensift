@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "mohs-hardness-scale-001",
+  "theme": "Mohs Hardness",
+  "publishDate": "2026-12-01",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "mohs-hardness-scale-6",
+        "rivalGroupId": "group-4",
+        "risk": "Pyrite has a metallic luster and can spark against steel.",
+        "resolution": "Pyrite has Mohs hardness 6–6.5, placing it in the 5–6 steel-file tier rather than 7–10."
+      },
+      {
+        "itemId": "mohs-hardness-scale-2",
+        "rivalGroupId": "group-1",
+        "risk": "Calcite is relatively soft and chalky.",
+        "resolution": "Calcite is Mohs 3, harder than a fingernail (2.5), so it belongs in 3–4."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

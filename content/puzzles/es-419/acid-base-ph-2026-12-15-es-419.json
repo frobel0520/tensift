@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "acid-base-ph-2026-12-15-es-419",
+  "puzzleFamilyId": "acid-base-ph-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-15",
+  "timezone": "UTC",
+  "theme": "Ácidos y bases",
+  "items": [
+    {
+      "itemId": "acid-base-ph-4",
+      "label": "Ácido acético"
+    },
+    {
+      "itemId": "acid-base-ph-8",
+      "label": "Ácido sulfúrico"
+    },
+    {
+      "itemId": "acid-base-ph-1",
+      "label": "Agua destilada"
+    },
+    {
+      "itemId": "acid-base-ph-6",
+      "label": "Ácido carbónico"
+    },
+    {
+      "itemId": "acid-base-ph-10",
+      "label": "Ácido perclórico"
+    },
+    {
+      "itemId": "acid-base-ph-2",
+      "label": "Hidróxido de sodio"
+    },
+    {
+      "itemId": "acid-base-ph-7",
+      "label": "Ácido clorhídrico"
+    },
+    {
+      "itemId": "acid-base-ph-5",
+      "label": "Ácido cítrico"
+    },
+    {
+      "itemId": "acid-base-ph-9",
+      "label": "Ácido nítrico"
+    },
+    {
+      "itemId": "acid-base-ph-3",
+      "label": "Hidróxido de potasio"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clasificación ácido-base de cada sustancia",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Neutro (pH 7 a 25 °C)",
+        "capacity": 1,
+        "itemIds": [
+          "acid-base-ph-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Bases fuertes",
+        "capacity": 2,
+        "itemIds": [
+          "acid-base-ph-2",
+          "acid-base-ph-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Ácidos débiles",
+        "capacity": 3,
+        "itemIds": [
+          "acid-base-ph-4",
+          "acid-base-ph-5",
+          "acid-base-ph-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Ácidos fuertes",
+        "capacity": 4,
+        "itemIds": [
+          "acid-base-ph-7",
+          "acid-base-ph-8",
+          "acid-base-ph-9",
+          "acid-base-ph-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por su comportamiento ácido-base en agua: agua pura neutra, bases fuertes, ácidos débiles y ácidos fuertes.",
+  "sources": [
+    {
+      "title": "IUPAC: Compendium of Chemical Terminology",
+      "url": "https://goldbook.iupac.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

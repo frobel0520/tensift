@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "mohs-hardness-scale-2026-12-01-zh-hant",
+  "puzzleFamilyId": "mohs-hardness-scale-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-01",
+  "timezone": "UTC",
+  "theme": "莫氏硬度",
+  "items": [
+    {
+      "itemId": "mohs-hardness-scale-4",
+      "label": "磷灰石"
+    },
+    {
+      "itemId": "mohs-hardness-scale-8",
+      "label": "拓帕石"
+    },
+    {
+      "itemId": "mohs-hardness-scale-1",
+      "label": "滑石"
+    },
+    {
+      "itemId": "mohs-hardness-scale-6",
+      "label": "黃鐵礦"
+    },
+    {
+      "itemId": "mohs-hardness-scale-10",
+      "label": "鑽石"
+    },
+    {
+      "itemId": "mohs-hardness-scale-2",
+      "label": "方解石"
+    },
+    {
+      "itemId": "mohs-hardness-scale-7",
+      "label": "石英"
+    },
+    {
+      "itemId": "mohs-hardness-scale-5",
+      "label": "正長石"
+    },
+    {
+      "itemId": "mohs-hardness-scale-9",
+      "label": "剛玉"
+    },
+    {
+      "itemId": "mohs-hardness-scale-3",
+      "label": "螢石"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各標準礦物的莫氏硬度值",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "莫氏 1–2（指甲可刮動）",
+        "capacity": 1,
+        "itemIds": [
+          "mohs-hardness-scale-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "莫氏 3–4（銅幣或小刀可刮動）",
+        "capacity": 2,
+        "itemIds": [
+          "mohs-hardness-scale-2",
+          "mohs-hardness-scale-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "莫氏 5–6（鋼銼範圍）",
+        "capacity": 3,
+        "itemIds": [
+          "mohs-hardness-scale-4",
+          "mohs-hardness-scale-5",
+          "mohs-hardness-scale-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "莫氏 7–10（可刮花玻璃）",
+        "capacity": 4,
+        "itemIds": [
+          "mohs-hardness-scale-7",
+          "mohs-hardness-scale-8",
+          "mohs-hardness-scale-9",
+          "mohs-hardness-scale-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依莫氏硬度分級歸類常見礦物：極軟（1–2）、中軟（3–4）、中硬（5–6）與堅硬（7–10）。",
+  "sources": [
+    {
+      "title": "USGS: Mohs Hardness Scale",
+      "url": "https://www.usgs.gov/faqs/what-mohs-hardness-scale",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

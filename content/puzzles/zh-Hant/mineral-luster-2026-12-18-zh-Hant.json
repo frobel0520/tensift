@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "mineral-luster-2026-12-18-zh-hant",
+  "puzzleFamilyId": "mineral-luster-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-18",
+  "timezone": "UTC",
+  "theme": "岩石與化石成因",
+  "items": [
+    {
+      "itemId": "mineral-luster-4",
+      "label": "花崗岩"
+    },
+    {
+      "itemId": "mineral-luster-8",
+      "label": "砂岩"
+    },
+    {
+      "itemId": "mineral-luster-1",
+      "label": "琥珀"
+    },
+    {
+      "itemId": "mineral-luster-6",
+      "label": "黑曜岩"
+    },
+    {
+      "itemId": "mineral-luster-10",
+      "label": "礫岩"
+    },
+    {
+      "itemId": "mineral-luster-2",
+      "label": "大理岩"
+    },
+    {
+      "itemId": "mineral-luster-7",
+      "label": "石灰岩"
+    },
+    {
+      "itemId": "mineral-luster-5",
+      "label": "玄武岩"
+    },
+    {
+      "itemId": "mineral-luster-9",
+      "label": "頁岩"
+    },
+    {
+      "itemId": "mineral-luster-3",
+      "label": "板岩"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "地質學上的岩石大類或有機樹脂",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "植物樹脂化石",
+        "capacity": 1,
+        "itemIds": [
+          "mineral-luster-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "變質岩",
+        "capacity": 2,
+        "itemIds": [
+          "mineral-luster-2",
+          "mineral-luster-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "火成岩",
+        "capacity": 3,
+        "itemIds": [
+          "mineral-luster-4",
+          "mineral-luster-5",
+          "mineral-luster-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "沉積岩",
+        "capacity": 4,
+        "itemIds": [
+          "mineral-luster-7",
+          "mineral-luster-8",
+          "mineral-luster-9",
+          "mineral-luster-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依地質成因分類：有機化石樹脂（琥珀）、變質岩（大理岩、板岩）、火成岩（花崗岩、玄武岩、黑曜岩）與沉積岩（石灰岩、砂岩、頁岩、礫岩）。",
+  "sources": [
+    {
+      "title": "USGS: Three Types of Rock",
+      "url": "https://www.usgs.gov/faqs/what-are-three-main-types-rocks",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.36
+  },
+  "status": "scheduled"
+}

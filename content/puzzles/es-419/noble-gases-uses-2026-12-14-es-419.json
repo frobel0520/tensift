@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "noble-gases-uses-2026-12-14-es-419",
+  "puzzleFamilyId": "noble-gases-uses-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-14",
+  "timezone": "UTC",
+  "theme": "Grupos de la tabla periódica",
+  "items": [
+    {
+      "itemId": "noble-gases-uses-4",
+      "label": "Cloro"
+    },
+    {
+      "itemId": "noble-gases-uses-8",
+      "label": "Sodio"
+    },
+    {
+      "itemId": "noble-gases-uses-1",
+      "label": "Cerio"
+    },
+    {
+      "itemId": "noble-gases-uses-6",
+      "label": "Yodo"
+    },
+    {
+      "itemId": "noble-gases-uses-10",
+      "label": "Cesio"
+    },
+    {
+      "itemId": "noble-gases-uses-2",
+      "label": "Magnesio"
+    },
+    {
+      "itemId": "noble-gases-uses-7",
+      "label": "Litio"
+    },
+    {
+      "itemId": "noble-gases-uses-5",
+      "label": "Bromo"
+    },
+    {
+      "itemId": "noble-gases-uses-9",
+      "label": "Potasio"
+    },
+    {
+      "itemId": "noble-gases-uses-3",
+      "label": "Bario"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Grupo de la tabla periódica al que pertenece",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Lantánido",
+        "capacity": 1,
+        "itemIds": [
+          "noble-gases-uses-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Metales alcalinotérreos",
+        "capacity": 2,
+        "itemIds": [
+          "noble-gases-uses-2",
+          "noble-gases-uses-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Halógenos",
+        "capacity": 3,
+        "itemIds": [
+          "noble-gases-uses-4",
+          "noble-gases-uses-5",
+          "noble-gases-uses-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Metales alcalinos",
+        "capacity": 4,
+        "itemIds": [
+          "noble-gases-uses-7",
+          "noble-gases-uses-8",
+          "noble-gases-uses-9",
+          "noble-gases-uses-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por familia química: lantánido (cerio), alcalinotérreos (magnesio, bario), halógenos (cloro, bromo, yodo) y alcalinos (litio, sodio, potasio, cesio).",
+  "sources": [
+    {
+      "title": "IUPAC: Group Names",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

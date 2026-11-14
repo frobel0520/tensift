@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "weather-instruments-2026-12-20-es-419",
+  "puzzleFamilyId": "weather-instruments-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-20",
+  "timezone": "UTC",
+  "theme": "Instrumentos meteorológicos",
+  "items": [
+    {
+      "itemId": "weather-instruments-4",
+      "label": "Psicrómetro de honda"
+    },
+    {
+      "itemId": "weather-instruments-8",
+      "label": "Anemómetro ultrasónico"
+    },
+    {
+      "itemId": "weather-instruments-1",
+      "label": "Pluviómetro de balancín"
+    },
+    {
+      "itemId": "weather-instruments-6",
+      "label": "Sensor de punto de rocío"
+    },
+    {
+      "itemId": "weather-instruments-10",
+      "label": "Manga de viento"
+    },
+    {
+      "itemId": "weather-instruments-2",
+      "label": "Barómetro de mercurio"
+    },
+    {
+      "itemId": "weather-instruments-7",
+      "label": "Anemómetro de cazoletas"
+    },
+    {
+      "itemId": "weather-instruments-5",
+      "label": "Higrómetro de cabello"
+    },
+    {
+      "itemId": "weather-instruments-9",
+      "label": "Veleta"
+    },
+    {
+      "itemId": "weather-instruments-3",
+      "label": "Barómetro aneroide"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "La variable meteorológica que mide cada instrumento",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Precipitación",
+        "capacity": 1,
+        "itemIds": [
+          "weather-instruments-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Presión atmosférica",
+        "capacity": 2,
+        "itemIds": [
+          "weather-instruments-2",
+          "weather-instruments-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Humedad",
+        "capacity": 3,
+        "itemIds": [
+          "weather-instruments-4",
+          "weather-instruments-5",
+          "weather-instruments-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Velocidad o dirección del viento",
+        "capacity": 4,
+        "itemIds": [
+          "weather-instruments-7",
+          "weather-instruments-8",
+          "weather-instruments-9",
+          "weather-instruments-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por variable medida: precipitación, presión atmosférica, humedad y viento.",
+  "sources": [
+    {
+      "title": "WMO: Meteorological Instruments",
+      "url": "https://public.wmo.int/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

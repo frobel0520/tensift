@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "electricity-components-001",
+  "theme": "Circuit Components",
+  "publishDate": "2026-12-23",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "electricity-components-1",
+        "rivalGroupId": "group-4",
+        "risk": "A fuse is a passive two-terminal element.",
+        "resolution": "A fuse is specifically a sacrificial overcurrent protection device (group-1), not a resistor."
+      },
+      {
+        "itemId": "electricity-components-9",
+        "rivalGroupId": "group-3",
+        "risk": "Thermistors are often made from semiconductor oxides.",
+        "resolution": "Thermistors function as temperature-dependent resistors (group-4), not diodes or transistors."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "biogeochemical-cycles-2026-12-25-es-419",
+  "puzzleFamilyId": "biogeochemical-cycles-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-25",
+  "timezone": "UTC",
+  "theme": "Ciclo del agua",
+  "items": [
+    {
+      "itemId": "biogeochemical-cycles-4",
+      "label": "Lluvia"
+    },
+    {
+      "itemId": "biogeochemical-cycles-8",
+      "label": "Arroyo de deshielo"
+    },
+    {
+      "itemId": "biogeochemical-cycles-1",
+      "label": "Infiltración"
+    },
+    {
+      "itemId": "biogeochemical-cycles-6",
+      "label": "Granizo"
+    },
+    {
+      "itemId": "biogeochemical-cycles-10",
+      "label": "Desembocadura fluvial"
+    },
+    {
+      "itemId": "biogeochemical-cycles-2",
+      "label": "Evaporación oceánica"
+    },
+    {
+      "itemId": "biogeochemical-cycles-7",
+      "label": "Escorrentía superficial"
+    },
+    {
+      "itemId": "biogeochemical-cycles-5",
+      "label": "Nevadas"
+    },
+    {
+      "itemId": "biogeochemical-cycles-9",
+      "label": "Descarga subterránea"
+    },
+    {
+      "itemId": "biogeochemical-cycles-3",
+      "label": "Transpiración vegetal"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Etapa del ciclo hidrológico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Infiltración al suelo",
+        "capacity": 1,
+        "itemIds": [
+          "biogeochemical-cycles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Ascenso de vapor",
+        "capacity": 2,
+        "itemIds": [
+          "biogeochemical-cycles-2",
+          "biogeochemical-cycles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Precipitación",
+        "capacity": 3,
+        "itemIds": [
+          "biogeochemical-cycles-4",
+          "biogeochemical-cycles-5",
+          "biogeochemical-cycles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Flujo hacia los océanos",
+        "capacity": 4,
+        "itemIds": [
+          "biogeochemical-cycles-7",
+          "biogeochemical-cycles-8",
+          "biogeochemical-cycles-9",
+          "biogeochemical-cycles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por etapa hidrológica: infiltración profunda, ascenso de vapor, precipitación y escorrentía.",
+  "sources": [
+    {
+      "title": "USGS: The Water Cycle",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

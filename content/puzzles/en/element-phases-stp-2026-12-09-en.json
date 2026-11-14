@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "element-phases-stp-2026-12-09-en",
+  "puzzleFamilyId": "element-phases-stp-001",
+  "locale": "en",
+  "publishDate": "2026-12-09",
+  "timezone": "UTC",
+  "theme": "Elements at Room Temp",
+  "items": [
+    {
+      "itemId": "element-phases-stp-4",
+      "label": "Nitrogen"
+    },
+    {
+      "itemId": "element-phases-stp-8",
+      "label": "Zinc"
+    },
+    {
+      "itemId": "element-phases-stp-1",
+      "label": "Mercury"
+    },
+    {
+      "itemId": "element-phases-stp-6",
+      "label": "Argon"
+    },
+    {
+      "itemId": "element-phases-stp-10",
+      "label": "Lead"
+    },
+    {
+      "itemId": "element-phases-stp-2",
+      "label": "Boron"
+    },
+    {
+      "itemId": "element-phases-stp-7",
+      "label": "Aluminum"
+    },
+    {
+      "itemId": "element-phases-stp-5",
+      "label": "Oxygen"
+    },
+    {
+      "itemId": "element-phases-stp-9",
+      "label": "Silver"
+    },
+    {
+      "itemId": "element-phases-stp-3",
+      "label": "Silicon"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Standard physical state or metalloid classification at 20 °C",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Liquid at 20 °C",
+        "capacity": 1,
+        "itemIds": [
+          "element-phases-stp-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Solid metalloids",
+        "capacity": 2,
+        "itemIds": [
+          "element-phases-stp-2",
+          "element-phases-stp-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Gas at 20 °C",
+        "capacity": 3,
+        "itemIds": [
+          "element-phases-stp-4",
+          "element-phases-stp-5",
+          "element-phases-stp-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Solid metals",
+        "capacity": 4,
+        "itemIds": [
+          "element-phases-stp-7",
+          "element-phases-stp-8",
+          "element-phases-stp-9",
+          "element-phases-stp-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "At 20 °C and 1 atm: liquid (mercury), metalloids (boron, silicon), nonmetal gases (nitrogen, oxygen, argon), and solid metals (aluminum, zinc, silver, lead).",
+  "sources": [
+    {
+      "title": "IUPAC: Periodic Table",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

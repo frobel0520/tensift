@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "phase-transitions-2026-12-02-zh-hant",
+  "puzzleFamilyId": "phase-transitions-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-02",
+  "timezone": "UTC",
+  "theme": "物質相變",
+  "items": [
+    {
+      "itemId": "phase-transitions-4",
+      "label": "凝固"
+    },
+    {
+      "itemId": "phase-transitions-8",
+      "label": "沸騰"
+    },
+    {
+      "itemId": "phase-transitions-1",
+      "label": "游離"
+    },
+    {
+      "itemId": "phase-transitions-6",
+      "label": "結晶"
+    },
+    {
+      "itemId": "phase-transitions-10",
+      "label": "氣化"
+    },
+    {
+      "itemId": "phase-transitions-2",
+      "label": "熔化"
+    },
+    {
+      "itemId": "phase-transitions-7",
+      "label": "蒸發"
+    },
+    {
+      "itemId": "phase-transitions-5",
+      "label": "凝華"
+    },
+    {
+      "itemId": "phase-transitions-9",
+      "label": "昇華"
+    },
+    {
+      "itemId": "phase-transitions-3",
+      "label": "凝結"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "相變的目標物態",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "形成電漿態",
+        "capacity": 1,
+        "itemIds": [
+          "phase-transitions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "形成液態",
+        "capacity": 2,
+        "itemIds": [
+          "phase-transitions-2",
+          "phase-transitions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "形成固態",
+        "capacity": 3,
+        "itemIds": [
+          "phase-transitions-4",
+          "phase-transitions-5",
+          "phase-transitions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "形成氣態",
+        "capacity": 4,
+        "itemIds": [
+          "phase-transitions-7",
+          "phase-transitions-8",
+          "phase-transitions-9",
+          "phase-transitions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依相變後產生的最終物態分類：電漿態、液態、固態與氣態。",
+  "sources": [
+    {
+      "title": "NIST: Phase Transitions",
+      "url": "https://www.nist.gov/pml/thermodynamics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

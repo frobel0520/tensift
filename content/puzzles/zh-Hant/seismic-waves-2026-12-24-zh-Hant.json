@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "seismic-waves-2026-12-24-zh-hant",
+  "puzzleFamilyId": "seismic-waves-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-24",
+  "timezone": "UTC",
+  "theme": "地震科學",
+  "items": [
+    {
+      "itemId": "seismic-waves-4",
+      "label": "震源"
+    },
+    {
+      "itemId": "seismic-waves-8",
+      "label": "地震矩規模"
+    },
+    {
+      "itemId": "seismic-waves-1",
+      "label": "地震儀"
+    },
+    {
+      "itemId": "seismic-waves-6",
+      "label": "斷層崖"
+    },
+    {
+      "itemId": "seismic-waves-10",
+      "label": "日本氣象廳震度"
+    },
+    {
+      "itemId": "seismic-waves-2",
+      "label": "洛夫波"
+    },
+    {
+      "itemId": "seismic-waves-7",
+      "label": "芮氏規模"
+    },
+    {
+      "itemId": "seismic-waves-5",
+      "label": "震央"
+    },
+    {
+      "itemId": "seismic-waves-9",
+      "label": "麥加利震度"
+    },
+    {
+      "itemId": "seismic-waves-3",
+      "label": "雷利波"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "地震學概念分類：震度分級、震源參數、表面波與體波／觀測儀",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "地震觀測儀器",
+        "capacity": 1,
+        "itemIds": [
+          "seismic-waves-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "地震表面波",
+        "capacity": 2,
+        "itemIds": [
+          "seismic-waves-2",
+          "seismic-waves-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "震源與斷層幾何",
+        "capacity": 3,
+        "itemIds": [
+          "seismic-waves-4",
+          "seismic-waves-5",
+          "seismic-waves-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "規模與震度分級",
+        "capacity": 4,
+        "itemIds": [
+          "seismic-waves-7",
+          "seismic-waves-8",
+          "seismic-waves-9",
+          "seismic-waves-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依地震學概念歸類：觀測儀器（地震儀）、表面波（洛夫波、雷利波）、震源幾何構造（震源、震央、斷層崖）與地震規模／震度分級（芮氏規模、地震矩規模、麥加利震度、日本氣象廳震度）。",
+  "sources": [
+    {
+      "title": "USGS: Earthquake Glossary",
+      "url": "https://earthquake.usgs.gov/learn/glossary/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.54
+  },
+  "status": "scheduled"
+}

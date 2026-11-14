@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "mineral-luster-2026-12-18-en",
+  "puzzleFamilyId": "mineral-luster-001",
+  "locale": "en",
+  "publishDate": "2026-12-18",
+  "timezone": "UTC",
+  "theme": "Sedimentary, Igneous, Metamorphic",
+  "items": [
+    {
+      "itemId": "mineral-luster-4",
+      "label": "Granite"
+    },
+    {
+      "itemId": "mineral-luster-8",
+      "label": "Sandstone"
+    },
+    {
+      "itemId": "mineral-luster-1",
+      "label": "Amber"
+    },
+    {
+      "itemId": "mineral-luster-6",
+      "label": "Obsidian"
+    },
+    {
+      "itemId": "mineral-luster-10",
+      "label": "Conglomerate"
+    },
+    {
+      "itemId": "mineral-luster-2",
+      "label": "Marble"
+    },
+    {
+      "itemId": "mineral-luster-7",
+      "label": "Limestone"
+    },
+    {
+      "itemId": "mineral-luster-5",
+      "label": "Basalt"
+    },
+    {
+      "itemId": "mineral-luster-9",
+      "label": "Shale"
+    },
+    {
+      "itemId": "mineral-luster-3",
+      "label": "Slate"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Geological rock class or organic fossil resin",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Fossilized tree resin",
+        "capacity": 1,
+        "itemIds": [
+          "mineral-luster-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Metamorphic rocks",
+        "capacity": 2,
+        "itemIds": [
+          "mineral-luster-2",
+          "mineral-luster-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Igneous rocks",
+        "capacity": 3,
+        "itemIds": [
+          "mineral-luster-4",
+          "mineral-luster-5",
+          "mineral-luster-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Sedimentary rocks",
+        "capacity": 4,
+        "itemIds": [
+          "mineral-luster-7",
+          "mineral-luster-8",
+          "mineral-luster-9",
+          "mineral-luster-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by geological origin: fossilized organic resin (amber), metamorphic rocks (marble, slate), igneous rocks (granite, basalt, obsidian), and sedimentary rocks (limestone, sandstone, shale, conglomerate).",
+  "sources": [
+    {
+      "title": "USGS: Three Types of Rock",
+      "url": "https://www.usgs.gov/faqs/what-are-three-main-types-rocks",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.36
+  },
+  "status": "scheduled"
+}

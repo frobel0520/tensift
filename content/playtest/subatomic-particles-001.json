@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "subatomic-particles-001",
+  "theme": "Subatomic Particles",
+  "publishDate": "2026-12-11",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "subatomic-particles-1",
+        "rivalGroupId": "group-2",
+        "risk": "Higgs boson is a boson like photons and gluons.",
+        "resolution": "Higgs is a spin-0 scalar boson (group-1), whereas photon and gluon are spin-1 gauge force carriers (group-2)."
+      },
+      {
+        "itemId": "subatomic-particles-7",
+        "rivalGroupId": "group-3",
+        "risk": "Proton is paired with electron in basic atomic structure.",
+        "resolution": "Protons are composite hadrons made of quarks (group-4), whereas electrons are elementary leptons (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

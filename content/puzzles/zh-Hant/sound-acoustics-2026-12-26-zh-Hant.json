@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sound-acoustics-2026-12-26-zh-hant",
+  "puzzleFamilyId": "sound-acoustics-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-26",
+  "timezone": "UTC",
+  "theme": "聲學概念",
+  "items": [
+    {
+      "itemId": "sound-acoustics-4",
+      "label": "赫茲"
+    },
+    {
+      "itemId": "sound-acoustics-8",
+      "label": "音樂廳殘響"
+    },
+    {
+      "itemId": "sound-acoustics-1",
+      "label": "都卜勒效應"
+    },
+    {
+      "itemId": "sound-acoustics-6",
+      "label": "次聲波"
+    },
+    {
+      "itemId": "sound-acoustics-10",
+      "label": "蝙蝠回聲定位"
+    },
+    {
+      "itemId": "sound-acoustics-2",
+      "label": "分貝數"
+    },
+    {
+      "itemId": "sound-acoustics-7",
+      "label": "峽谷回音"
+    },
+    {
+      "itemId": "sound-acoustics-5",
+      "label": "超音波"
+    },
+    {
+      "itemId": "sound-acoustics-9",
+      "label": "聲納回波"
+    },
+    {
+      "itemId": "sound-acoustics-3",
+      "label": "聲壓"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "聲音的物理屬性或聲學現象",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "運動頻率偏移",
+        "capacity": 1,
+        "itemIds": [
+          "sound-acoustics-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "振幅與響度",
+        "capacity": 2,
+        "itemIds": [
+          "sound-acoustics-2",
+          "sound-acoustics-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "頻率與音高範圍",
+        "capacity": 3,
+        "itemIds": [
+          "sound-acoustics-4",
+          "sound-acoustics-5",
+          "sound-acoustics-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "空間聲波反射",
+        "capacity": 4,
+        "itemIds": [
+          "sound-acoustics-7",
+          "sound-acoustics-8",
+          "sound-acoustics-9",
+          "sound-acoustics-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依聲學類別歸類：都卜勒效應、響度與振幅、頻率與音高、聲波反射。",
+  "sources": [
+    {
+      "title": "Britannica: Acoustics",
+      "url": "https://www.britannica.com/science/acoustics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

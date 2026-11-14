@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "mineral-luster-001",
+  "theme": "Sedimentary, Igneous, Metamorphic",
+  "publishDate": "2026-12-18",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "mineral-luster-2",
+        "rivalGroupId": "group-4",
+        "risk": "Marble forms from limestone.",
+        "resolution": "Marble is metamorphosed limestone, so it is a metamorphic rock (group-2)."
+      },
+      {
+        "itemId": "mineral-luster-6",
+        "rivalGroupId": "group-1",
+        "risk": "Obsidian is volcanic glass, not crystalline.",
+        "resolution": "Obsidian forms from rapidly cooled lava, making it an igneous rock (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

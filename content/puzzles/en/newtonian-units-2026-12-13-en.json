@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "newtonian-units-2026-12-13-en",
+  "puzzleFamilyId": "newtonian-units-001",
+  "locale": "en",
+  "publishDate": "2026-12-13",
+  "timezone": "UTC",
+  "theme": "Physics Quantities",
+  "items": [
+    {
+      "itemId": "newtonian-units-4",
+      "label": "Joule"
+    },
+    {
+      "itemId": "newtonian-units-8",
+      "label": "Bar"
+    },
+    {
+      "itemId": "newtonian-units-1",
+      "label": "Volt"
+    },
+    {
+      "itemId": "newtonian-units-6",
+      "label": "Calorie"
+    },
+    {
+      "itemId": "newtonian-units-10",
+      "label": "Torr"
+    },
+    {
+      "itemId": "newtonian-units-2",
+      "label": "Watt"
+    },
+    {
+      "itemId": "newtonian-units-7",
+      "label": "Pascal"
+    },
+    {
+      "itemId": "newtonian-units-5",
+      "label": "Kilowatt-hour"
+    },
+    {
+      "itemId": "newtonian-units-9",
+      "label": "Standard atmosphere"
+    },
+    {
+      "itemId": "newtonian-units-3",
+      "label": "Horsepower"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Physical quantity measured by each unit: electric potential, power, energy, or pressure",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Electric potential",
+        "capacity": 1,
+        "itemIds": [
+          "newtonian-units-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Power",
+        "capacity": 2,
+        "itemIds": [
+          "newtonian-units-2",
+          "newtonian-units-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Energy",
+        "capacity": 3,
+        "itemIds": [
+          "newtonian-units-4",
+          "newtonian-units-5",
+          "newtonian-units-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Pressure",
+        "capacity": 4,
+        "itemIds": [
+          "newtonian-units-7",
+          "newtonian-units-8",
+          "newtonian-units-9",
+          "newtonian-units-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by physical quantity: electric potential (volt), power (watt, horsepower), energy (joule, kilowatt-hour, calorie), and pressure (pascal, bar, atmosphere, torr).",
+  "sources": [
+    {
+      "title": "NIST: SI Derived Units",
+      "url": "https://www.nist.gov/pml/owm/metric-si/si-units",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

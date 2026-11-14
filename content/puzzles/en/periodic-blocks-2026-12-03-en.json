@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "periodic-blocks-2026-12-03-en",
+  "puzzleFamilyId": "periodic-blocks-001",
+  "locale": "en",
+  "publishDate": "2026-12-03",
+  "timezone": "UTC",
+  "theme": "Periodic Table Blocks",
+  "items": [
+    {
+      "itemId": "periodic-blocks-4",
+      "label": "Sodium"
+    },
+    {
+      "itemId": "periodic-blocks-8",
+      "label": "Copper"
+    },
+    {
+      "itemId": "periodic-blocks-1",
+      "label": "Uranium"
+    },
+    {
+      "itemId": "periodic-blocks-6",
+      "label": "Helium"
+    },
+    {
+      "itemId": "periodic-blocks-10",
+      "label": "Titanium"
+    },
+    {
+      "itemId": "periodic-blocks-2",
+      "label": "Neon"
+    },
+    {
+      "itemId": "periodic-blocks-7",
+      "label": "Iron"
+    },
+    {
+      "itemId": "periodic-blocks-5",
+      "label": "Calcium"
+    },
+    {
+      "itemId": "periodic-blocks-9",
+      "label": "Gold"
+    },
+    {
+      "itemId": "periodic-blocks-3",
+      "label": "Silicon"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Electron orbital block (f, p, s, d) of each chemical element",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "f-block",
+        "capacity": 1,
+        "itemIds": [
+          "periodic-blocks-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "p-block",
+        "capacity": 2,
+        "itemIds": [
+          "periodic-blocks-2",
+          "periodic-blocks-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "s-block",
+        "capacity": 3,
+        "itemIds": [
+          "periodic-blocks-4",
+          "periodic-blocks-5",
+          "periodic-blocks-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "d-block",
+        "capacity": 4,
+        "itemIds": [
+          "periodic-blocks-7",
+          "periodic-blocks-8",
+          "periodic-blocks-9",
+          "periodic-blocks-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Elements are grouped by their highest-energy occupied subshell block: f-block (uranium), p-block (neon, silicon), s-block (sodium, calcium, helium), and d-block (iron, copper, gold, titanium).",
+  "sources": [
+    {
+      "title": "IUPAC: Periodic Table of Elements",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.7
+  },
+  "status": "scheduled"
+}

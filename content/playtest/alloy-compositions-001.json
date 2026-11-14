@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "alloy-compositions-001",
+  "theme": "Metal Alloys",
+  "publishDate": "2026-12-27",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "alloy-compositions-6",
+        "rivalGroupId": "group-1",
+        "risk": "Cupronickel contains nickel.",
+        "resolution": "Cupronickel is majority copper (~75% Cu, group-3), whereas nichrome is majority nickel (~80% Ni, group-1)."
+      },
+      {
+        "itemId": "alloy-compositions-10",
+        "rivalGroupId": "group-1",
+        "risk": "Invar contains ~36% nickel.",
+        "resolution": "Invar is an iron-based alloy (~64% Fe, group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

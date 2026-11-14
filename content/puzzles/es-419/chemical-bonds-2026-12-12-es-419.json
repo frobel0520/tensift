@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chemical-bonds-2026-12-12-es-419",
+  "puzzleFamilyId": "chemical-bonds-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-12",
+  "timezone": "UTC",
+  "theme": "Enlaces químicos",
+  "items": [
+    {
+      "itemId": "chemical-bonds-4",
+      "label": "Sal de mesa (NaCl)"
+    },
+    {
+      "itemId": "chemical-bonds-8",
+      "label": "Metano (CH4)"
+    },
+    {
+      "itemId": "chemical-bonds-1",
+      "label": "Argón sólido"
+    },
+    {
+      "itemId": "chemical-bonds-6",
+      "label": "Bromuro de potasio"
+    },
+    {
+      "itemId": "chemical-bonds-10",
+      "label": "Cuarzo (SiO2)"
+    },
+    {
+      "itemId": "chemical-bonds-2",
+      "label": "Alambre de cobre"
+    },
+    {
+      "itemId": "chemical-bonds-7",
+      "label": "Diamante"
+    },
+    {
+      "itemId": "chemical-bonds-5",
+      "label": "Óxido de magnesio"
+    },
+    {
+      "itemId": "chemical-bonds-9",
+      "label": "Molécula de agua (H2O)"
+    },
+    {
+      "itemId": "chemical-bonds-3",
+      "label": "Papel aluminio"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tipo de enlace o fuerza intermolecular principal",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Solo dispersión de London",
+        "capacity": 1,
+        "itemIds": [
+          "chemical-bonds-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Enlace metálico",
+        "capacity": 2,
+        "itemIds": [
+          "chemical-bonds-2",
+          "chemical-bonds-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Enlace iónico",
+        "capacity": 3,
+        "itemIds": [
+          "chemical-bonds-4",
+          "chemical-bonds-5",
+          "chemical-bonds-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Enlace covalente",
+        "capacity": 4,
+        "itemIds": [
+          "chemical-bonds-7",
+          "chemical-bonds-8",
+          "chemical-bonds-9",
+          "chemical-bonds-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por su enlace principal: dispersión de London (argón sólido), metálico (cobre, aluminio), iónico (sal de mesa, óxido de magnesio, bromuro de potasio) y covalente (diamante, metano, molécula de agua, dióxido de silicio).",
+  "sources": [
+    {
+      "title": "IUPAC: Chemical Bond",
+      "url": "https://goldbook.iupac.org/terms/view/C01016",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.55
+  },
+  "status": "scheduled"
+}

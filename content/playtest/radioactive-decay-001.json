@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "radioactive-decay-001",
+  "theme": "Nuclear Processes",
+  "publishDate": "2026-12-19",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "radioactive-decay-8",
+        "rivalGroupId": "group-2",
+        "risk": "Tritium is used in fusion reactors.",
+        "resolution": "Natural radioactive decay of tritium emits an electron via beta-minus decay (group-4)."
+      },
+      {
+        "itemId": "radioactive-decay-1",
+        "rivalGroupId": "group-3",
+        "risk": "Uranium isotopes also undergo alpha decay slowly.",
+        "resolution": "The item explicitly specifies Uranium-235 splitting, which is nuclear fission (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

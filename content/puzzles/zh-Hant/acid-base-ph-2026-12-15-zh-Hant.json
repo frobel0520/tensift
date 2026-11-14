@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "acid-base-ph-2026-12-15-zh-hant",
+  "puzzleFamilyId": "acid-base-ph-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-15",
+  "timezone": "UTC",
+  "theme": "酸鹼性質",
+  "items": [
+    {
+      "itemId": "acid-base-ph-4",
+      "label": "乙酸（醋酸）"
+    },
+    {
+      "itemId": "acid-base-ph-8",
+      "label": "硫酸"
+    },
+    {
+      "itemId": "acid-base-ph-1",
+      "label": "蒸餾水"
+    },
+    {
+      "itemId": "acid-base-ph-6",
+      "label": "碳酸"
+    },
+    {
+      "itemId": "acid-base-ph-10",
+      "label": "過氯酸"
+    },
+    {
+      "itemId": "acid-base-ph-2",
+      "label": "氫氧化鈉"
+    },
+    {
+      "itemId": "acid-base-ph-7",
+      "label": "鹽酸"
+    },
+    {
+      "itemId": "acid-base-ph-5",
+      "label": "檸檬酸"
+    },
+    {
+      "itemId": "acid-base-ph-9",
+      "label": "硝酸"
+    },
+    {
+      "itemId": "acid-base-ph-3",
+      "label": "氫氧化鉀"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各物質的酸鹼分類（強鹼、中性純水、弱酸、強酸）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "中性（25 °C pH 7）",
+        "capacity": 1,
+        "itemIds": [
+          "acid-base-ph-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "強鹼",
+        "capacity": 2,
+        "itemIds": [
+          "acid-base-ph-2",
+          "acid-base-ph-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "弱酸",
+        "capacity": 3,
+        "itemIds": [
+          "acid-base-ph-4",
+          "acid-base-ph-5",
+          "acid-base-ph-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "強酸",
+        "capacity": 4,
+        "itemIds": [
+          "acid-base-ph-7",
+          "acid-base-ph-8",
+          "acid-base-ph-9",
+          "acid-base-ph-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依水溶液中的酸鹼特性歸類：中性純水、強鹼、弱酸與強酸。",
+  "sources": [
+    {
+      "title": "IUPAC: Compendium of Chemical Terminology",
+      "url": "https://goldbook.iupac.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "biogeochemical-cycles-2026-12-25-en",
+  "puzzleFamilyId": "biogeochemical-cycles-001",
+  "locale": "en",
+  "publishDate": "2026-12-25",
+  "timezone": "UTC",
+  "theme": "Water Cycle Processes",
+  "items": [
+    {
+      "itemId": "biogeochemical-cycles-4",
+      "label": "Rainfall"
+    },
+    {
+      "itemId": "biogeochemical-cycles-8",
+      "label": "Snowmelt stream"
+    },
+    {
+      "itemId": "biogeochemical-cycles-1",
+      "label": "Infiltration"
+    },
+    {
+      "itemId": "biogeochemical-cycles-6",
+      "label": "Hailstone fall"
+    },
+    {
+      "itemId": "biogeochemical-cycles-10",
+      "label": "River outflow"
+    },
+    {
+      "itemId": "biogeochemical-cycles-2",
+      "label": "Ocean evaporation"
+    },
+    {
+      "itemId": "biogeochemical-cycles-7",
+      "label": "Surface runoff"
+    },
+    {
+      "itemId": "biogeochemical-cycles-5",
+      "label": "Snowfall"
+    },
+    {
+      "itemId": "biogeochemical-cycles-9",
+      "label": "Groundwater discharge"
+    },
+    {
+      "itemId": "biogeochemical-cycles-3",
+      "label": "Plant transpiration"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Direction or phase of water movement in the hydrologic cycle",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Subsurface soil entry",
+        "capacity": 1,
+        "itemIds": [
+          "biogeochemical-cycles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Vapor entering air",
+        "capacity": 2,
+        "itemIds": [
+          "biogeochemical-cycles-2",
+          "biogeochemical-cycles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Falling precipitation",
+        "capacity": 3,
+        "itemIds": [
+          "biogeochemical-cycles-4",
+          "biogeochemical-cycles-5",
+          "biogeochemical-cycles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Flow toward oceans",
+        "capacity": 4,
+        "itemIds": [
+          "biogeochemical-cycles-7",
+          "biogeochemical-cycles-8",
+          "biogeochemical-cycles-9",
+          "biogeochemical-cycles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by hydrologic stage: underground percolation, atmospheric vapor formation, cloud-to-ground fall, and surface/subsurface return flow.",
+  "sources": [
+    {
+      "title": "USGS: The Water Cycle",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "radioactive-decay-2026-12-19-es-419",
+  "puzzleFamilyId": "radioactive-decay-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-19",
+  "timezone": "UTC",
+  "theme": "Procesos nucleares",
+  "items": [
+    {
+      "itemId": "radioactive-decay-4",
+      "label": "Radón-222 emitiendo He-4"
+    },
+    {
+      "itemId": "radioactive-decay-8",
+      "label": "Emisión electrónica del tritio"
+    },
+    {
+      "itemId": "radioactive-decay-1",
+      "label": "Escisión de uranio-235"
+    },
+    {
+      "itemId": "radioactive-decay-6",
+      "label": "Desintegración de polonio-210"
+    },
+    {
+      "itemId": "radioactive-decay-10",
+      "label": "Desintegración de yodo-131"
+    },
+    {
+      "itemId": "radioactive-decay-2",
+      "label": "Fusión solar de hidrógeno"
+    },
+    {
+      "itemId": "radioactive-decay-7",
+      "label": "Desintegración de carbono-14"
+    },
+    {
+      "itemId": "radioactive-decay-5",
+      "label": "Fuente de americio-241"
+    },
+    {
+      "itemId": "radioactive-decay-9",
+      "label": "Potasio-40 a calcio-40"
+    },
+    {
+      "itemId": "radioactive-decay-3",
+      "label": "Reacción deuterio-tritio en tokamak"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tipo de desintegración o reacción nuclear",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Fisión nuclear",
+        "capacity": 1,
+        "itemIds": [
+          "radioactive-decay-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Fusión nuclear",
+        "capacity": 2,
+        "itemIds": [
+          "radioactive-decay-2",
+          "radioactive-decay-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Desintegración alfa",
+        "capacity": 3,
+        "itemIds": [
+          "radioactive-decay-4",
+          "radioactive-decay-5",
+          "radioactive-decay-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Desintegración beta",
+        "capacity": 4,
+        "itemIds": [
+          "radioactive-decay-7",
+          "radioactive-decay-8",
+          "radioactive-decay-9",
+          "radioactive-decay-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por proceso nuclear: fisión nuclear, fusión nuclear, desintegración alfa y desintegración beta.",
+  "sources": [
+    {
+      "title": "IAEA: Nuclear Decay",
+      "url": "https://www.iaea.org/topics/radiation-protection",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.7
+  },
+  "status": "scheduled"
+}

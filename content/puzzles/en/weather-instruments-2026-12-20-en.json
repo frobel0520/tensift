@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "weather-instruments-2026-12-20-en",
+  "puzzleFamilyId": "weather-instruments-001",
+  "locale": "en",
+  "publishDate": "2026-12-20",
+  "timezone": "UTC",
+  "theme": "Weather Instruments",
+  "items": [
+    {
+      "itemId": "weather-instruments-4",
+      "label": "Sling psychrometer"
+    },
+    {
+      "itemId": "weather-instruments-8",
+      "label": "Ultrasonic anemometer"
+    },
+    {
+      "itemId": "weather-instruments-1",
+      "label": "Tipping-bucket rain gauge"
+    },
+    {
+      "itemId": "weather-instruments-6",
+      "label": "Chilled-mirror dew-point sensor"
+    },
+    {
+      "itemId": "weather-instruments-10",
+      "label": "Airport windsock"
+    },
+    {
+      "itemId": "weather-instruments-2",
+      "label": "Mercury barometer"
+    },
+    {
+      "itemId": "weather-instruments-7",
+      "label": "Cup anemometer"
+    },
+    {
+      "itemId": "weather-instruments-5",
+      "label": "Hair hygrometer"
+    },
+    {
+      "itemId": "weather-instruments-9",
+      "label": "Weather vane"
+    },
+    {
+      "itemId": "weather-instruments-3",
+      "label": "Aneroid barometer"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The meteorological variable measured by each instrument",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Precipitation",
+        "capacity": 1,
+        "itemIds": [
+          "weather-instruments-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Atmospheric pressure",
+        "capacity": 2,
+        "itemIds": [
+          "weather-instruments-2",
+          "weather-instruments-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Humidity",
+        "capacity": 3,
+        "itemIds": [
+          "weather-instruments-4",
+          "weather-instruments-5",
+          "weather-instruments-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Wind speed or direction",
+        "capacity": 4,
+        "itemIds": [
+          "weather-instruments-7",
+          "weather-instruments-8",
+          "weather-instruments-9",
+          "weather-instruments-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by measured variable: precipitation, atmospheric pressure, humidity, and wind.",
+  "sources": [
+    {
+      "title": "WMO: Meteorological Instruments",
+      "url": "https://public.wmo.int/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

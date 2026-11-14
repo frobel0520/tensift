@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "phase-transitions-2026-12-02-en",
+  "puzzleFamilyId": "phase-transitions-001",
+  "locale": "en",
+  "publishDate": "2026-12-02",
+  "timezone": "UTC",
+  "theme": "Phase Transitions",
+  "items": [
+    {
+      "itemId": "phase-transitions-4",
+      "label": "Freezing"
+    },
+    {
+      "itemId": "phase-transitions-8",
+      "label": "Boiling"
+    },
+    {
+      "itemId": "phase-transitions-1",
+      "label": "Ionization"
+    },
+    {
+      "itemId": "phase-transitions-6",
+      "label": "Crystallization"
+    },
+    {
+      "itemId": "phase-transitions-10",
+      "label": "Recombination? Wait"
+    },
+    {
+      "itemId": "phase-transitions-2",
+      "label": "Melting"
+    },
+    {
+      "itemId": "phase-transitions-7",
+      "label": "Evaporation"
+    },
+    {
+      "itemId": "phase-transitions-5",
+      "label": "Deposition"
+    },
+    {
+      "itemId": "phase-transitions-9",
+      "label": "Sublimation"
+    },
+    {
+      "itemId": "phase-transitions-3",
+      "label": "Condensation"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Whether the transition absorbs or releases heat and its direction",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Results in plasma",
+        "capacity": 1,
+        "itemIds": [
+          "phase-transitions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Results in liquid",
+        "capacity": 2,
+        "itemIds": [
+          "phase-transitions-2",
+          "phase-transitions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Results in solid",
+        "capacity": 3,
+        "itemIds": [
+          "phase-transitions-4",
+          "phase-transitions-5",
+          "phase-transitions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Results in gas",
+        "capacity": 4,
+        "itemIds": [
+          "phase-transitions-7",
+          "phase-transitions-8",
+          "phase-transitions-9",
+          "phase-transitions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by the resulting state of matter: plasma, liquid, solid, or gas.",
+  "sources": [
+    {
+      "title": "NIST: Phase Transitions",
+      "url": "https://www.nist.gov/pml/thermodynamics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

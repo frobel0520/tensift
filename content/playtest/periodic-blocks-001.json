@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "periodic-blocks-001",
+  "theme": "Periodic Table Blocks",
+  "publishDate": "2026-12-03",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "periodic-blocks-6",
+        "rivalGroupId": "group-2",
+        "risk": "Helium sits at the top of group 18 (noble gases) above p-block neon.",
+        "resolution": "Helium has a 1s2 electron configuration, so by orbital block it belongs to the s-block (group-3)."
+      },
+      {
+        "itemId": "periodic-blocks-1",
+        "rivalGroupId": "group-4",
+        "risk": "Uranium is a heavy metal like gold and iron.",
+        "resolution": "Uranium is an actinide in the f-block (group-1), not a d-block transition metal."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

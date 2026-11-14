@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "plate-boundaries-2026-12-06-en",
+  "puzzleFamilyId": "plate-boundaries-001",
+  "locale": "en",
+  "publishDate": "2026-12-06",
+  "timezone": "UTC",
+  "theme": "Plate Tectonics",
+  "items": [
+    {
+      "itemId": "plate-boundaries-4",
+      "label": "Mid-Atlantic Ridge"
+    },
+    {
+      "itemId": "plate-boundaries-8",
+      "label": "Himalayan uplift"
+    },
+    {
+      "itemId": "plate-boundaries-1",
+      "label": "Hawaiian volcanic chain"
+    },
+    {
+      "itemId": "plate-boundaries-6",
+      "label": "Iceland volcanic rift"
+    },
+    {
+      "itemId": "plate-boundaries-10",
+      "label": "Japan Trench"
+    },
+    {
+      "itemId": "plate-boundaries-2",
+      "label": "San Andreas Fault"
+    },
+    {
+      "itemId": "plate-boundaries-7",
+      "label": "Mariana Trench"
+    },
+    {
+      "itemId": "plate-boundaries-5",
+      "label": "East African Rift"
+    },
+    {
+      "itemId": "plate-boundaries-9",
+      "label": "Andes volcanic arc"
+    },
+    {
+      "itemId": "plate-boundaries-3",
+      "label": "Alpine Fault of New Zealand"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Type of tectonic plate boundary or intraplate hotspot",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Intraplate hotspot",
+        "capacity": 1,
+        "itemIds": [
+          "plate-boundaries-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Transform boundary",
+        "capacity": 2,
+        "itemIds": [
+          "plate-boundaries-2",
+          "plate-boundaries-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Divergent boundary",
+        "capacity": 3,
+        "itemIds": [
+          "plate-boundaries-4",
+          "plate-boundaries-5",
+          "plate-boundaries-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Convergent boundary",
+        "capacity": 4,
+        "itemIds": [
+          "plate-boundaries-7",
+          "plate-boundaries-8",
+          "plate-boundaries-9",
+          "plate-boundaries-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by tectonic setting: intraplate hotspot, transform, divergent, and convergent boundaries.",
+  "sources": [
+    {
+      "title": "USGS: Understanding Plate Motions",
+      "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.52
+  },
+  "status": "scheduled"
+}

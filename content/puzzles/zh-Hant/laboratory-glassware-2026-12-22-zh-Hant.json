@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "laboratory-glassware-2026-12-22-zh-hant",
+  "puzzleFamilyId": "laboratory-glassware-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-22",
+  "timezone": "UTC",
+  "theme": "化學實驗器材",
+  "items": [
+    {
+      "itemId": "laboratory-glassware-4",
+      "label": "分液漏斗"
+    },
+    {
+      "itemId": "laboratory-glassware-8",
+      "label": "滴定管"
+    },
+    {
+      "itemId": "laboratory-glassware-1",
+      "label": "分析天平"
+    },
+    {
+      "itemId": "laboratory-glassware-6",
+      "label": "離心機"
+    },
+    {
+      "itemId": "laboratory-glassware-10",
+      "label": "微量吸管"
+    },
+    {
+      "itemId": "laboratory-glassware-2",
+      "label": "本生燈"
+    },
+    {
+      "itemId": "laboratory-glassware-7",
+      "label": "量筒"
+    },
+    {
+      "itemId": "laboratory-glassware-5",
+      "label": "布氏漏斗"
+    },
+    {
+      "itemId": "laboratory-glassware-9",
+      "label": "定量瓶"
+    },
+    {
+      "itemId": "laboratory-glassware-3",
+      "label": "加熱包"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各實驗室器材的主要用途",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "質量秤量",
+        "capacity": 1,
+        "itemIds": [
+          "laboratory-glassware-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "加熱",
+        "capacity": 2,
+        "itemIds": [
+          "laboratory-glassware-2",
+          "laboratory-glassware-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "分離純化",
+        "capacity": 3,
+        "itemIds": [
+          "laboratory-glassware-4",
+          "laboratory-glassware-5",
+          "laboratory-glassware-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "液體體積量測",
+        "capacity": 4,
+        "itemIds": [
+          "laboratory-glassware-7",
+          "laboratory-glassware-8",
+          "laboratory-glassware-9",
+          "laboratory-glassware-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依實驗室用途分類：秤量質量、加熱燃燒、分離混合物與量測液體體積。",
+  "sources": [
+    {
+      "title": "ACS: Chemistry Laboratory Equipment",
+      "url": "https://www.acs.org/education.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.35
+  },
+  "status": "scheduled"
+}

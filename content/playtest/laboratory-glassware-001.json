@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "laboratory-glassware-001",
+  "theme": "Chemistry Labware",
+  "publishDate": "2026-12-22",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "laboratory-glassware-4",
+        "rivalGroupId": "group-4",
+        "risk": "Funnels transfer liquids.",
+        "resolution": "A separatory funnel is specifically used to separate immiscible liquids (group-3)."
+      },
+      {
+        "itemId": "laboratory-glassware-9",
+        "rivalGroupId": "group-3",
+        "risk": "Flasks are also used in distillation.",
+        "resolution": "A volumetric flask is calibrated to contain an exact liquid volume (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

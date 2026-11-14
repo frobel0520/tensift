@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "element-phases-stp-2026-12-09-es-419",
+  "puzzleFamilyId": "element-phases-stp-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-09",
+  "timezone": "UTC",
+  "theme": "Elementos a temperatura ambiente",
+  "items": [
+    {
+      "itemId": "element-phases-stp-4",
+      "label": "Nitrógeno"
+    },
+    {
+      "itemId": "element-phases-stp-8",
+      "label": "Zinc"
+    },
+    {
+      "itemId": "element-phases-stp-1",
+      "label": "Mercurio"
+    },
+    {
+      "itemId": "element-phases-stp-6",
+      "label": "Argón"
+    },
+    {
+      "itemId": "element-phases-stp-10",
+      "label": "Plomo"
+    },
+    {
+      "itemId": "element-phases-stp-2",
+      "label": "Boro"
+    },
+    {
+      "itemId": "element-phases-stp-7",
+      "label": "Aluminio"
+    },
+    {
+      "itemId": "element-phases-stp-5",
+      "label": "Oxígeno"
+    },
+    {
+      "itemId": "element-phases-stp-9",
+      "label": "Plata"
+    },
+    {
+      "itemId": "element-phases-stp-3",
+      "label": "Silicio"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Estado físico o clasificación a 20 °C",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Líquido a 20 °C",
+        "capacity": 1,
+        "itemIds": [
+          "element-phases-stp-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Metaloides sólidos",
+        "capacity": 2,
+        "itemIds": [
+          "element-phases-stp-2",
+          "element-phases-stp-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Gas a 20 °C",
+        "capacity": 3,
+        "itemIds": [
+          "element-phases-stp-4",
+          "element-phases-stp-5",
+          "element-phases-stp-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Metales sólidos",
+        "capacity": 4,
+        "itemIds": [
+          "element-phases-stp-7",
+          "element-phases-stp-8",
+          "element-phases-stp-9",
+          "element-phases-stp-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "A 20 °C y 1 atm: metal líquido (mercurio), metaloides (boro, silicio), gases no metálicos (nitrógeno, oxígeno, argón) y metales sólidos (aluminio, zinc, plata, plomo).",
+  "sources": [
+    {
+      "title": "IUPAC: Periodic Table",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

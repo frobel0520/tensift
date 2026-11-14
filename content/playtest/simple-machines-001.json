@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "simple-machines-001",
+  "theme": "Simple Machines",
+  "publishDate": "2026-12-10",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "simple-machines-1",
+        "rivalGroupId": "group-4",
+        "risk": "Waiter-style corkscrews have lever arms.",
+        "resolution": "The defining helical spiral that penetrates the cork is a screw (group-1)."
+      },
+      {
+        "itemId": "simple-machines-2",
+        "rivalGroupId": "group-4",
+        "risk": "A doorknob uses torque like a lever.",
+        "resolution": "A round doorknob turns a central spindle as a wheel and axle (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

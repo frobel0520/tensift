@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "weather-instruments-001",
+  "theme": "Weather Instruments",
+  "publishDate": "2026-12-20",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "weather-instruments-4",
+        "rivalGroupId": "group-2",
+        "risk": "Psychrometers use thermometers, suggesting temperature.",
+        "resolution": "A psychrometer compares dry- and wet-bulb temperatures to determine relative humidity (group-3)."
+      },
+      {
+        "itemId": "weather-instruments-9",
+        "rivalGroupId": "group-3",
+        "risk": "Weather vanes sit on rooftops with other sensors.",
+        "resolution": "A weather vane measures wind direction (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

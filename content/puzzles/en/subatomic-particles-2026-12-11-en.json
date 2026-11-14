@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "subatomic-particles-2026-12-11-en",
+  "puzzleFamilyId": "subatomic-particles-001",
+  "locale": "en",
+  "publishDate": "2026-12-11",
+  "timezone": "UTC",
+  "theme": "Subatomic Particles",
+  "items": [
+    {
+      "itemId": "subatomic-particles-4",
+      "label": "Electron"
+    },
+    {
+      "itemId": "subatomic-particles-8",
+      "label": "Neutron"
+    },
+    {
+      "itemId": "subatomic-particles-1",
+      "label": "Higgs boson"
+    },
+    {
+      "itemId": "subatomic-particles-6",
+      "label": "Electron neutrino"
+    },
+    {
+      "itemId": "subatomic-particles-10",
+      "label": "Kaon"
+    },
+    {
+      "itemId": "subatomic-particles-2",
+      "label": "Photon"
+    },
+    {
+      "itemId": "subatomic-particles-7",
+      "label": "Proton"
+    },
+    {
+      "itemId": "subatomic-particles-5",
+      "label": "Muon"
+    },
+    {
+      "itemId": "subatomic-particles-9",
+      "label": "Pion"
+    },
+    {
+      "itemId": "subatomic-particles-3",
+      "label": "Gluon"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Standard Model particle family of each item",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Scalar boson",
+        "capacity": 1,
+        "itemIds": [
+          "subatomic-particles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Gauge bosons (force carriers)",
+        "capacity": 2,
+        "itemIds": [
+          "subatomic-particles-2",
+          "subatomic-particles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Leptons",
+        "capacity": 3,
+        "itemIds": [
+          "subatomic-particles-4",
+          "subatomic-particles-5",
+          "subatomic-particles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Hadrons (composite)",
+        "capacity": 4,
+        "itemIds": [
+          "subatomic-particles-7",
+          "subatomic-particles-8",
+          "subatomic-particles-9",
+          "subatomic-particles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by Standard Model class: Higgs boson, gauge bosons, leptons, and hadrons (composite quark states).",
+  "sources": [
+    {
+      "title": "CERN: The Standard Model",
+      "url": "https://home.cern/science/physics/standard-model",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.72
+  },
+  "status": "scheduled"
+}

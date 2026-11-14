@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "chemical-bonds-001",
+  "theme": "Chemical Bonding",
+  "publishDate": "2026-12-12",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "chemical-bonds-9",
+        "rivalGroupId": "group-1",
+        "risk": "Water exhibits hydrogen bonding between molecules.",
+        "resolution": "Within a water molecule (H2O), oxygen and hydrogen are joined by polar covalent bonds (group-4)."
+      },
+      {
+        "itemId": "chemical-bonds-1",
+        "rivalGroupId": "group-4",
+        "risk": "Solid argon is a crystal at low temperature.",
+        "resolution": "Noble gas atoms in solid argon are held together only by London dispersion forces (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

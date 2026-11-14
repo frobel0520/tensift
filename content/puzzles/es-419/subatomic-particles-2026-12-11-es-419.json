@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "subatomic-particles-2026-12-11-es-419",
+  "puzzleFamilyId": "subatomic-particles-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-11",
+  "timezone": "UTC",
+  "theme": "Partículas subatómicas",
+  "items": [
+    {
+      "itemId": "subatomic-particles-4",
+      "label": "Electrón"
+    },
+    {
+      "itemId": "subatomic-particles-8",
+      "label": "Neutrón"
+    },
+    {
+      "itemId": "subatomic-particles-1",
+      "label": "Bosón de Higgs"
+    },
+    {
+      "itemId": "subatomic-particles-6",
+      "label": "Neutrino electrónico"
+    },
+    {
+      "itemId": "subatomic-particles-10",
+      "label": "Kaón"
+    },
+    {
+      "itemId": "subatomic-particles-2",
+      "label": "Fotón"
+    },
+    {
+      "itemId": "subatomic-particles-7",
+      "label": "Protón"
+    },
+    {
+      "itemId": "subatomic-particles-5",
+      "label": "Muon"
+    },
+    {
+      "itemId": "subatomic-particles-9",
+      "label": "Pión"
+    },
+    {
+      "itemId": "subatomic-particles-3",
+      "label": "Gluón"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Familia de partículas del Modelo Estándar",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Bosón escalar",
+        "capacity": 1,
+        "itemIds": [
+          "subatomic-particles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Bosones de gauge",
+        "capacity": 2,
+        "itemIds": [
+          "subatomic-particles-2",
+          "subatomic-particles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Leptones",
+        "capacity": 3,
+        "itemIds": [
+          "subatomic-particles-4",
+          "subatomic-particles-5",
+          "subatomic-particles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Hadrones (compuestos)",
+        "capacity": 4,
+        "itemIds": [
+          "subatomic-particles-7",
+          "subatomic-particles-8",
+          "subatomic-particles-9",
+          "subatomic-particles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas según el Modelo Estándar: bosón de Higgs, bosones de gauge, leptones y hadrones.",
+  "sources": [
+    {
+      "title": "CERN: The Standard Model",
+      "url": "https://home.cern/science/physics/standard-model",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.72
+  },
+  "status": "scheduled"
+}

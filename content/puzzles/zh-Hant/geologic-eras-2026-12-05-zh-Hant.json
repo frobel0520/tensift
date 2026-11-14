@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "geologic-eras-2026-12-05-zh-hant",
+  "puzzleFamilyId": "geologic-eras-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-05",
+  "timezone": "UTC",
+  "theme": "地質年代",
+  "items": [
+    {
+      "itemId": "geologic-eras-4",
+      "label": "三疊紀"
+    },
+    {
+      "itemId": "geologic-eras-8",
+      "label": "泥盆紀"
+    },
+    {
+      "itemId": "geologic-eras-1",
+      "label": "地球熔融形成期"
+    },
+    {
+      "itemId": "geologic-eras-6",
+      "label": "白堊紀"
+    },
+    {
+      "itemId": "geologic-eras-10",
+      "label": "二疊紀"
+    },
+    {
+      "itemId": "geologic-eras-2",
+      "label": "新近紀"
+    },
+    {
+      "itemId": "geologic-eras-7",
+      "label": "寒武紀"
+    },
+    {
+      "itemId": "geologic-eras-5",
+      "label": "侏羅紀"
+    },
+    {
+      "itemId": "geologic-eras-9",
+      "label": "石炭紀"
+    },
+    {
+      "itemId": "geologic-eras-3",
+      "label": "第四紀"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各地質紀或事件所屬的地質代",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "冥古宙",
+        "capacity": 1,
+        "itemIds": [
+          "geologic-eras-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "新生代",
+        "capacity": 2,
+        "itemIds": [
+          "geologic-eras-2",
+          "geologic-eras-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "中生代",
+        "capacity": 3,
+        "itemIds": [
+          "geologic-eras-4",
+          "geologic-eras-5",
+          "geologic-eras-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "古生代",
+        "capacity": 4,
+        "itemIds": [
+          "geologic-eras-7",
+          "geologic-eras-8",
+          "geologic-eras-9",
+          "geologic-eras-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依地質時代歸類：冥古宙、新生代、中生代與古生代。",
+  "sources": [
+    {
+      "title": "ICS: International Chronostratigraphic Chart",
+      "url": "https://stratigraphy.org/chart",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.62
+  },
+  "status": "scheduled"
+}

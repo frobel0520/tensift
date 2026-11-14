@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "radioactive-decay-2026-12-19-zh-hant",
+  "puzzleFamilyId": "radioactive-decay-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-19",
+  "timezone": "UTC",
+  "theme": "核反應與衰變",
+  "items": [
+    {
+      "itemId": "radioactive-decay-4",
+      "label": "氡-222 釋出氦-4 核"
+    },
+    {
+      "itemId": "radioactive-decay-8",
+      "label": "氚釋出電子衰變"
+    },
+    {
+      "itemId": "radioactive-decay-1",
+      "label": "鈾-235 裂變"
+    },
+    {
+      "itemId": "radioactive-decay-6",
+      "label": "釙-210 衰變"
+    },
+    {
+      "itemId": "radioactive-decay-10",
+      "label": "碘-131 衰變"
+    },
+    {
+      "itemId": "radioactive-decay-2",
+      "label": "太陽核心氫融合"
+    },
+    {
+      "itemId": "radioactive-decay-7",
+      "label": "碳-14 定年衰變"
+    },
+    {
+      "itemId": "radioactive-decay-5",
+      "label": "鋂-241 煙霧偵測源"
+    },
+    {
+      "itemId": "radioactive-decay-9",
+      "label": "鉀-40 轉變為鈣-40"
+    },
+    {
+      "itemId": "radioactive-decay-3",
+      "label": "氘氚托卡馬克反應"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各過程所屬的核衰變或核反應類型",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "核分裂",
+        "capacity": 1,
+        "itemIds": [
+          "radioactive-decay-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "核融合",
+        "capacity": 2,
+        "itemIds": [
+          "radioactive-decay-2",
+          "radioactive-decay-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "α（阿爾法）衰變",
+        "capacity": 3,
+        "itemIds": [
+          "radioactive-decay-4",
+          "radioactive-decay-5",
+          "radioactive-decay-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "β（貝他）衰變",
+        "capacity": 4,
+        "itemIds": [
+          "radioactive-decay-7",
+          "radioactive-decay-8",
+          "radioactive-decay-9",
+          "radioactive-decay-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依核物理過程分類：核分裂、核融合、阿爾法衰變與貝他衰變。",
+  "sources": [
+    {
+      "title": "IAEA: Nuclear Decay",
+      "url": "https://www.iaea.org/topics/radiation-protection",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.7
+  },
+  "status": "scheduled"
+}

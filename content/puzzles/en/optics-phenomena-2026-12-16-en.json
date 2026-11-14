@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "optics-phenomena-2026-12-16-en",
+  "puzzleFamilyId": "optics-phenomena-001",
+  "locale": "en",
+  "publishDate": "2026-12-16",
+  "timezone": "UTC",
+  "theme": "Wave Optics",
+  "items": [
+    {
+      "itemId": "optics-phenomena-4",
+      "label": "Bathroom mirror image"
+    },
+    {
+      "itemId": "optics-phenomena-8",
+      "label": "Magnifying lens focus"
+    },
+    {
+      "itemId": "optics-phenomena-1",
+      "label": "Anti-glare sunglasses filter"
+    },
+    {
+      "itemId": "optics-phenomena-6",
+      "label": "Fiber-optic core bounce"
+    },
+    {
+      "itemId": "optics-phenomena-10",
+      "label": "Desert mirage"
+    },
+    {
+      "itemId": "optics-phenomena-2",
+      "label": "CD rainbow tracks"
+    },
+    {
+      "itemId": "optics-phenomena-7",
+      "label": "Bent straw in water"
+    },
+    {
+      "itemId": "optics-phenomena-5",
+      "label": "Periscope bounce"
+    },
+    {
+      "itemId": "optics-phenomena-9",
+      "label": "Prism spectrum split"
+    },
+    {
+      "itemId": "optics-phenomena-3",
+      "label": "Single-slit spreading"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Primary optical mechanism responsible for each phenomenon",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Polarization",
+        "capacity": 1,
+        "itemIds": [
+          "optics-phenomena-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Diffraction",
+        "capacity": 2,
+        "itemIds": [
+          "optics-phenomena-2",
+          "optics-phenomena-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Reflection",
+        "capacity": 3,
+        "itemIds": [
+          "optics-phenomena-4",
+          "optics-phenomena-5",
+          "optics-phenomena-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Refraction",
+        "capacity": 4,
+        "itemIds": [
+          "optics-phenomena-7",
+          "optics-phenomena-8",
+          "optics-phenomena-9",
+          "optics-phenomena-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by optical principle: polarization, diffraction, reflection, and refraction.",
+  "sources": [
+    {
+      "title": "Britannica: Optics",
+      "url": "https://www.britannica.com/science/optics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.56
+  },
+  "status": "scheduled"
+}
