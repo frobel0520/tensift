@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vitamins-solubility-groups-2027-09-10-es-419",
+  "puzzleFamilyId": "vitamins-solubility-groups-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-10",
+  "timezone": "UTC",
+  "theme": "Vitaminas esenciales humanas",
+  "items": [
+    {
+      "itemId": "vitamins-solubility-groups-4",
+      "label": "Vitamina B1 (tiamina)"
+    },
+    {
+      "itemId": "vitamins-solubility-groups-8",
+      "label": "Vitamina D"
+    },
+    {
+      "itemId": "vitamins-solubility-groups-1",
+      "label": "Vitamina C (ácido ascórbico)"
+    },
+    {
+      "itemId": "vitamins-solubility-groups-6",
+      "label": "Vitamina B3 (niacina)"
+    },
+    {
+      "itemId": "vitamins-solubility-groups-10",
+      "label": "Vitamina K"
+    },
+    {
+      "itemId": "vitamins-solubility-groups-2",
+      "label": "Vitamina B9 (ácido fólico)"
+    },
+    {
+      "itemId": "vitamins-solubility-groups-7",
+      "label": "Vitamina A (retinol)"
+    },
+    {
+      "itemId": "vitamins-solubility-groups-5",
+      "label": "Vitamina B2 (riboflavina)"
+    },
+    {
+      "itemId": "vitamins-solubility-groups-9",
+      "label": "Vitamina E (tocoferol)"
+    },
+    {
+      "itemId": "vitamins-solubility-groups-3",
+      "label": "Vitamina B12 (cobalamina)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clasificación por solubilidad y función bioquímica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Vitamina C hidrosoluble",
+        "capacity": 1,
+        "itemIds": [
+          "vitamins-solubility-groups-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Complejo B hematopoyético",
+        "capacity": 2,
+        "itemIds": [
+          "vitamins-solubility-groups-2",
+          "vitamins-solubility-groups-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Complejo B energético",
+        "capacity": 3,
+        "itemIds": [
+          "vitamins-solubility-groups-4",
+          "vitamins-solubility-groups-5",
+          "vitamins-solubility-groups-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Vitaminas liposolubles (A, D, E, K)",
+        "capacity": 4,
+        "itemIds": [
+          "vitamins-solubility-groups-7",
+          "vitamins-solubility-groups-8",
+          "vitamins-solubility-groups-9",
+          "vitamins-solubility-groups-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por solubilidad y función: hidrosoluble antioxidante (vitamina C), complejo B hematopoyético (B9 folato, B12 cobalamina), complejo B coenzimático energético (B1 tiamina, B2 riboflavina, B3 niacina) y las cuatro vitaminas liposolubles (A, D, E, K).",
+  "sources": [
+    {
+      "title": "NIH Office of Dietary Supplements",
+      "url": "https://ods.od.nih.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

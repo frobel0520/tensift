@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "farming-crop-rotations-2027-10-13-zh-hant",
+  "puzzleFamilyId": "farming-crop-rotations-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-13",
+  "timezone": "UTC",
+  "theme": "農業耕作與栽培制度",
+  "items": [
+    {
+      "itemId": "farming-crop-rotations-4",
+      "label": "蘋果果園"
+    },
+    {
+      "itemId": "farming-crop-rotations-8",
+      "label": "陸地棉花"
+    },
+    {
+      "itemId": "farming-crop-rotations-1",
+      "label": "薄膜營養液水耕（NFT）"
+    },
+    {
+      "itemId": "farming-crop-rotations-6",
+      "label": "扁桃（杏仁）果園"
+    },
+    {
+      "itemId": "farming-crop-rotations-10",
+      "label": "大田黃豆"
+    },
+    {
+      "itemId": "farming-crop-rotations-2",
+      "label": "紅花三葉草綠肥"
+    },
+    {
+      "itemId": "farming-crop-rotations-7",
+      "label": "大田玉米"
+    },
+    {
+      "itemId": "farming-crop-rotations-5",
+      "label": "橄欖樹園"
+    },
+    {
+      "itemId": "farming-crop-rotations-9",
+      "label": "冬小麥"
+    },
+    {
+      "itemId": "farming-crop-rotations-3",
+      "label": "冬黑麥覆蓋作物"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各農業生產方式的耕作系統分類（無土水耕／氣耕、覆蓋與養地作物、多年生木本果園或一年生大田作物）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "無土水耕系統",
+        "capacity": 1,
+        "itemIds": [
+          "farming-crop-rotations-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "護土綠肥覆蓋作物",
+        "capacity": 2,
+        "itemIds": [
+          "farming-crop-rotations-2",
+          "farming-crop-rotations-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "多年生木本果園",
+        "capacity": 3,
+        "itemIds": [
+          "farming-crop-rotations-4",
+          "farming-crop-rotations-5",
+          "farming-crop-rotations-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "一年生大田作物",
+        "capacity": 4,
+        "itemIds": [
+          "farming-crop-rotations-7",
+          "farming-crop-rotations-8",
+          "farming-crop-rotations-9",
+          "farming-crop-rotations-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依農業耕作系統分類：無土環控（薄膜營養液水耕 NFT）、養地覆蓋作物（紅花三葉草綠肥、冬黑麥覆蓋作物）、多年生木本果園（蘋果園、橄欖園、杏仁果園）與一年生大田條播作物（飼料玉米、陸地棉、冬小麥、大田黃豆）。",
+  "sources": [
+    {
+      "title": "USDA Sustainable Agriculture & Agronomy",
+      "url": "https://www.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

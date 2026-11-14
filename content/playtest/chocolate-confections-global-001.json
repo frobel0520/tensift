@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "chocolate-confections-global-001",
+  "theme": "Traditional World Desserts",
+  "publishDate": "2027-10-17",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "chocolate-confections-global-5",
+        "rivalGroupId": "group-4",
+        "risk": "Macaron derives historically from Italian almond maccherone.",
+        "resolution": "The modern double-shell ganache-filled Macaron is an iconic Parisian French patisserie creation (group-3), not Italian (group-4)."
+      },
+      {
+        "itemId": "chocolate-confections-global-8",
+        "rivalGroupId": "group-3",
+        "risk": "Panna cotta is a custard-like cream dessert like Crème Brûlée.",
+        "resolution": "Panna cotta is a gelatin-set Piedmontese Italian cream dessert (group-4), whereas Crème Brûlée is a French baked egg custard (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

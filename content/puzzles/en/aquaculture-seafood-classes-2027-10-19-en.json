@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "aquaculture-seafood-classes-2027-10-19-en",
+  "puzzleFamilyId": "aquaculture-seafood-classes-001",
+  "locale": "en",
+  "publishDate": "2027-10-19",
+  "timezone": "UTC",
+  "theme": "Culinary Seafood Categories",
+  "items": [
+    {
+      "itemId": "aquaculture-seafood-classes-4",
+      "label": "Pacific Oyster"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-8",
+      "label": "Alaskan King Crab"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-1",
+      "label": "Sea Urchin (Uni)"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-6",
+      "label": "Sea Scallop"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-10",
+      "label": "Freshwater Crayfish"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-2",
+      "label": "Squid (Calamari)"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-7",
+      "label": "Atlantic Lobster"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-5",
+      "label": "Blue Mussel"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-9",
+      "label": "Black Tiger Prawn"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-3",
+      "label": "Common Octopus"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Biological seafood group (Echinoderm Sea Urchin, Cephalopod Mollusks, Bivalve Shellfish, or Decapod Crustaceans)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Echinoderm",
+        "capacity": 1,
+        "itemIds": [
+          "aquaculture-seafood-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Cephalopods",
+        "capacity": 2,
+        "itemIds": [
+          "aquaculture-seafood-classes-2",
+          "aquaculture-seafood-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Bivalve Mollusks",
+        "capacity": 3,
+        "itemIds": [
+          "aquaculture-seafood-classes-4",
+          "aquaculture-seafood-classes-5",
+          "aquaculture-seafood-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Decapod Crustaceans",
+        "capacity": 4,
+        "itemIds": [
+          "aquaculture-seafood-classes-7",
+          "aquaculture-seafood-classes-8",
+          "aquaculture-seafood-classes-9",
+          "aquaculture-seafood-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by biological class: Echinoderm (Sea Urchin Uni), Cephalopods (Squid Calamari, Common Octopus), Bivalve Mollusks (Pacific Oyster, Blue Mussel, Sea Scallop), and Decapod Crustaceans (Atlantic Lobster, King Crab, Tiger Prawn, Crayfish).",
+  "sources": [
+    {
+      "title": "FAO: Aquatic Species Fact Sheets",
+      "url": "https://www.fao.org/fishery/en/species",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

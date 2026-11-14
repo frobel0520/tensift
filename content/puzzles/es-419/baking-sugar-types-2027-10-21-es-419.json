@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "baking-sugar-types-2027-10-21-es-419",
+  "puzzleFamilyId": "baking-sugar-types-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-21",
+  "timezone": "UTC",
+  "theme": "Azúcares y jarabes de repostería",
+  "items": [
+    {
+      "itemId": "baking-sugar-types-4",
+      "label": "Azúcar moreno claro"
+    },
+    {
+      "itemId": "baking-sugar-types-8",
+      "label": "Azúcar extrafino (caster)"
+    },
+    {
+      "itemId": "baking-sugar-types-1",
+      "label": "Azúcar glas (impalpable)"
+    },
+    {
+      "itemId": "baking-sugar-types-6",
+      "label": "Azúcar moscabado"
+    },
+    {
+      "itemId": "baking-sugar-types-10",
+      "label": "Azúcar perlado"
+    },
+    {
+      "itemId": "baking-sugar-types-2",
+      "label": "Jarabe invertido dorado"
+    },
+    {
+      "itemId": "baking-sugar-types-7",
+      "label": "Azúcar blanco granulado"
+    },
+    {
+      "itemId": "baking-sugar-types-5",
+      "label": "Azúcar moreno oscuro"
+    },
+    {
+      "itemId": "baking-sugar-types-9",
+      "label": "Azúcar turbinado"
+    },
+    {
+      "itemId": "baking-sugar-types-3",
+      "label": "Jarabe de malta de cebada"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Forma física y grado de refinación de cada azúcar",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Azúcar en polvo",
+        "capacity": 1,
+        "itemIds": [
+          "baking-sugar-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Jarabes líquidos",
+        "capacity": 2,
+        "itemIds": [
+          "baking-sugar-types-2",
+          "baking-sugar-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Azúcares con melaza",
+        "capacity": 3,
+        "itemIds": [
+          "baking-sugar-types-4",
+          "baking-sugar-types-5",
+          "baking-sugar-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Azúcares cristalinos secos",
+        "capacity": 4,
+        "itemIds": [
+          "baking-sugar-types-7",
+          "baking-sugar-types-8",
+          "baking-sugar-types-9",
+          "baking-sugar-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por forma: polvo molido (azúcar glas/impalpable), jarabes líquidos (jarabe invertido dorado, jarabe de malta), azúcares húmedos con melaza (azúcar moreno claro, azúcar moreno oscuro, moscabado) y cristales secos (azúcar blanco granulado, azúcar extrafino caster, turbinado, azúcar perlado).",
+  "sources": [
+    {
+      "title": "USDA Sugar & Sweeteners Yearbook",
+      "url": "https://www.ers.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

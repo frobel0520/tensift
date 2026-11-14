@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "dairy-products-processing-2027-09-25-es-419",
+  "puzzleFamilyId": "dairy-products-processing-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-25",
+  "timezone": "UTC",
+  "theme": "Productos lácteos por proceso",
+  "items": [
+    {
+      "itemId": "dairy-products-processing-4",
+      "label": "Leche evaporada"
+    },
+    {
+      "itemId": "dairy-products-processing-8",
+      "label": "Requesón (cottage)"
+    },
+    {
+      "itemId": "dairy-products-processing-1",
+      "label": "Mantequilla sin sal"
+    },
+    {
+      "itemId": "dairy-products-processing-6",
+      "label": "Leche entera en polvo"
+    },
+    {
+      "itemId": "dairy-products-processing-10",
+      "label": "Queso quark"
+    },
+    {
+      "itemId": "dairy-products-processing-2",
+      "label": "Yogur natural"
+    },
+    {
+      "itemId": "dairy-products-processing-7",
+      "label": "Ricotta"
+    },
+    {
+      "itemId": "dairy-products-processing-5",
+      "label": "Leche condensada azucarada"
+    },
+    {
+      "itemId": "dairy-products-processing-9",
+      "label": "Paneer"
+    },
+    {
+      "itemId": "dairy-products-processing-3",
+      "label": "Suero de leche cultivado"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Proceso de elaboración de cada producto lácteo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Grasa láctea batida",
+        "capacity": 1,
+        "itemIds": [
+          "dairy-products-processing-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Leches fermentadas",
+        "capacity": 2,
+        "itemIds": [
+          "dairy-products-processing-2",
+          "dairy-products-processing-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Leches concentradas y en polvo",
+        "capacity": 3,
+        "itemIds": [
+          "dairy-products-processing-4",
+          "dairy-products-processing-5",
+          "dairy-products-processing-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Cuajadas frescas",
+        "capacity": 4,
+        "itemIds": [
+          "dairy-products-processing-7",
+          "dairy-products-processing-8",
+          "dairy-products-processing-9",
+          "dairy-products-processing-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por proceso: grasa batida (mantequilla sin sal), leches fermentadas (yogur natural, suero de leche cultivado), leches concentradas/deshidratadas (leche evaporada, leche condensada, leche en polvo) y cuajadas frescas (ricotta, requesón cottage, paneer, quark).",
+  "sources": [
+    {
+      "title": "Codex Alimentarius: Milk & Milk Products",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

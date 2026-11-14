@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fermented-foods-microbes-2027-09-06-en",
+  "puzzleFamilyId": "fermented-foods-microbes-001",
+  "locale": "en",
+  "publishDate": "2027-09-06",
+  "timezone": "UTC",
+  "theme": "Fermented Foods by Process",
+  "items": [
+    {
+      "itemId": "fermented-foods-microbes-4",
+      "label": "Grape Wine"
+    },
+    {
+      "itemId": "fermented-foods-microbes-8",
+      "label": "Korean Kimchi"
+    },
+    {
+      "itemId": "fermented-foods-microbes-1",
+      "label": "Apple Cider Vinegar"
+    },
+    {
+      "itemId": "fermented-foods-microbes-6",
+      "label": "Yeast-Leavened Bread"
+    },
+    {
+      "itemId": "fermented-foods-microbes-10",
+      "label": "Milk Kefir"
+    },
+    {
+      "itemId": "fermented-foods-microbes-2",
+      "label": "Brewed Soy Sauce"
+    },
+    {
+      "itemId": "fermented-foods-microbes-7",
+      "label": "Sauerkraut"
+    },
+    {
+      "itemId": "fermented-foods-microbes-5",
+      "label": "Barley Beer"
+    },
+    {
+      "itemId": "fermented-foods-microbes-9",
+      "label": "Cultured Yogurt"
+    },
+    {
+      "itemId": "fermented-foods-microbes-3",
+      "label": "Miso Paste"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Fermentation type (Acetic Acid Vinegar, Alkaline Bacillus/Soy, Alcoholic Yeast, or Lactic Acid Bacteria)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Acetic Acid Fermentation",
+        "capacity": 1,
+        "itemIds": [
+          "fermented-foods-microbes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Koji Mold Soy Ferments",
+        "capacity": 2,
+        "itemIds": [
+          "fermented-foods-microbes-2",
+          "fermented-foods-microbes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Yeast Alcoholic / CO2",
+        "capacity": 3,
+        "itemIds": [
+          "fermented-foods-microbes-4",
+          "fermented-foods-microbes-5",
+          "fermented-foods-microbes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Lactic Acid Bacteria",
+        "capacity": 4,
+        "itemIds": [
+          "fermented-foods-microbes-7",
+          "fermented-foods-microbes-8",
+          "fermented-foods-microbes-9",
+          "fermented-foods-microbes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by fermentation type: Acetic Acid (Apple Cider Vinegar), Koji Mold Soy Ferments (Brewed Soy Sauce, Miso Paste), Yeast Alcoholic/CO2 Fermentation (Grape Wine, Barley Beer, Yeast-Leavened Bread), and Lactic Acid Bacteria (Sauerkraut, Korean Kimchi, Cultured Yogurt, Milk Kefir).",
+  "sources": [
+    {
+      "title": "FAO: Fermented Foods & Microbiology",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

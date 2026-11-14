@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "soil-macronutrients-plants-2027-10-06-en",
+  "puzzleFamilyId": "soil-macronutrients-plants-001",
+  "locale": "en",
+  "publishDate": "2027-10-06",
+  "timezone": "UTC",
+  "theme": "Plant Mineral Nutrients",
+  "items": [
+    {
+      "itemId": "soil-macronutrients-plants-4",
+      "label": "Nitrogen (N)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-8",
+      "label": "Zinc (Zn)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-1",
+      "label": "Carbon (C from CO2)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-6",
+      "label": "Potassium (K)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-10",
+      "label": "Manganese (Mn)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-2",
+      "label": "Calcium (Ca)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-7",
+      "label": "Iron (Fe)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-5",
+      "label": "Phosphorus (P)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-9",
+      "label": "Boron (B)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-3",
+      "label": "Magnesium (Mg)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Plant nutrient category (Non-Mineral Air/Water Carbon, Secondary Macronutrients, Primary NPK Macronutrients, or Trace Micronutrients)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Non-Mineral Air/Water",
+        "capacity": 1,
+        "itemIds": [
+          "soil-macronutrients-plants-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Secondary Macronutrients",
+        "capacity": 2,
+        "itemIds": [
+          "soil-macronutrients-plants-2",
+          "soil-macronutrients-plants-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Primary NPK Macronutrients",
+        "capacity": 3,
+        "itemIds": [
+          "soil-macronutrients-plants-4",
+          "soil-macronutrients-plants-5",
+          "soil-macronutrients-plants-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Trace Micronutrients",
+        "capacity": 4,
+        "itemIds": [
+          "soil-macronutrients-plants-7",
+          "soil-macronutrients-plants-8",
+          "soil-macronutrients-plants-9",
+          "soil-macronutrients-plants-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by plant nutrition: Non-Mineral Structural (Carbon from CO2), Secondary Macronutrients (Calcium, Magnesium), Primary NPK Macronutrients (Nitrogen, Phosphorus, Potassium), and Trace Micronutrients (Iron, Zinc, Boron, Manganese).",
+  "sources": [
+    {
+      "title": "FAO: Plant Nutrition & Fertilizers",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

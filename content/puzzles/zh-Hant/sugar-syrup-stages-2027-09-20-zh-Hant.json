@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sugar-syrup-stages-2027-09-20-zh-hant",
+  "puzzleFamilyId": "sugar-syrup-stages-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-20",
+  "timezone": "UTC",
+  "theme": "糖漿熬煮溫度階段",
+  "items": [
+    {
+      "itemId": "sugar-syrup-stages-4",
+      "label": "軟球期（115 °C，軟糖／法式蛋白霜）"
+    },
+    {
+      "itemId": "sugar-syrup-stages-8",
+      "label": "硬脆期（149 °C，棒棒糖）"
+    },
+    {
+      "itemId": "sugar-syrup-stages-1",
+      "label": "拉絲期（110–112 °C）"
+    },
+    {
+      "itemId": "sugar-syrup-stages-6",
+      "label": "硬球期（125 °C，牛軋糖）"
+    },
+    {
+      "itemId": "sugar-syrup-stages-10",
+      "label": "堅果脆糖硬脆期"
+    },
+    {
+      "itemId": "sugar-syrup-stages-2",
+      "label": "淺琥珀焦糖期"
+    },
+    {
+      "itemId": "sugar-syrup-stages-7",
+      "label": "軟脆期（132 °C，太妃糖）"
+    },
+    {
+      "itemId": "sugar-syrup-stages-5",
+      "label": "中硬球期（120 °C，牛奶糖）"
+    },
+    {
+      "itemId": "sugar-syrup-stages-9",
+      "label": "拔絲拉糖硬脆期"
+    },
+    {
+      "itemId": "sugar-syrup-stages-3",
+      "label": "深色焦糖期"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "糖水熬煮隨溫度升高的四大階段分類（拉絲期、焦糖化期、軟硬球期或脆裂期）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "拉絲期（110 °C）",
+        "capacity": 1,
+        "itemIds": [
+          "sugar-syrup-stages-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "焦糖化期（>160 °C）",
+        "capacity": 2,
+        "itemIds": [
+          "sugar-syrup-stages-2",
+          "sugar-syrup-stages-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "成球期（115–130 °C）",
+        "capacity": 3,
+        "itemIds": [
+          "sugar-syrup-stages-4",
+          "sugar-syrup-stages-5",
+          "sugar-syrup-stages-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "脆裂期（132–155 °C）",
+        "capacity": 4,
+        "itemIds": [
+          "sugar-syrup-stages-7",
+          "sugar-syrup-stages-8",
+          "sugar-syrup-stages-9",
+          "sugar-syrup-stages-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依糖漿熬煮階段分類：拉絲期（110–112 °C 拉絲期）、焦糖化期（琥珀焦糖、深色焦糖）、成球期（軟球期、中硬球期、硬球期）與脆裂期（軟脆期、硬脆期、拉糖絲期、花生脆糖期）。",
+  "sources": [
+    {
+      "title": "Exploratorium: Science of Candy",
+      "url": "https://www.exploratorium.edu/explore/cooking/candy",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

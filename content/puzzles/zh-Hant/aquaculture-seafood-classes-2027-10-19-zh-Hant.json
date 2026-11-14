@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "aquaculture-seafood-classes-2027-10-19-zh-hant",
+  "puzzleFamilyId": "aquaculture-seafood-classes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-19",
+  "timezone": "UTC",
+  "theme": "水產海鮮生物分類",
+  "items": [
+    {
+      "itemId": "aquaculture-seafood-classes-4",
+      "label": "生蠔／牡蠣"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-8",
+      "label": "阿拉斯加帝王蟹"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-1",
+      "label": "海膽（Uni）"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-6",
+      "label": "干貝（扇貝）"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-10",
+      "label": "淡水小龍蝦"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-2",
+      "label": "魷魚／透抽"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-7",
+      "label": "大西洋龍蝦"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-5",
+      "label": "淡菜（貽貝）"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-9",
+      "label": "草蝦（斑節對蝦）"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-3",
+      "label": "章魚"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各食用海鮮在動物學上的分類（棘皮動物海膽、頭足類軟體動物、雙殼貝類或十足目甲殼類）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "棘皮動物",
+        "capacity": 1,
+        "itemIds": [
+          "aquaculture-seafood-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "頭足類軟體動物",
+        "capacity": 2,
+        "itemIds": [
+          "aquaculture-seafood-classes-2",
+          "aquaculture-seafood-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "雙殼貝類",
+        "capacity": 3,
+        "itemIds": [
+          "aquaculture-seafood-classes-4",
+          "aquaculture-seafood-classes-5",
+          "aquaculture-seafood-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "十足目甲殼類",
+        "capacity": 4,
+        "itemIds": [
+          "aquaculture-seafood-classes-7",
+          "aquaculture-seafood-classes-8",
+          "aquaculture-seafood-classes-9",
+          "aquaculture-seafood-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依生物學分類：棘皮動物（海膽 Uni）、頭足類（透抽／魷魚、章魚）、雙殼貝類（牡蠣、淡菜／貽貝、干貝）與十足目甲殼類（波士頓龍蝦、帝王蟹、草蝦、淡水小龍蝦）。",
+  "sources": [
+    {
+      "title": "FAO: Aquatic Species Fact Sheets",
+      "url": "https://www.fao.org/fishery/en/species",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "aquaculture-seafood-classes-001",
+  "theme": "Culinary Seafood Categories",
+  "publishDate": "2027-10-19",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "aquaculture-seafood-classes-1",
+        "rivalGroupId": "group-3",
+        "risk": "Sea urchins have a hard calcareous shell.",
+        "resolution": "Sea urchins are radially symmetric echinoderms (group-1), not hinged two-shell bivalve mollusks (group-3)."
+      },
+      {
+        "itemId": "aquaculture-seafood-classes-2",
+        "rivalGroupId": "group-3",
+        "risk": "Squid and octopus belong to phylum Mollusca.",
+        "resolution": "Squid and octopus are tentacled cephalopods (group-2), distinct from hinged bivalve shellfish (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

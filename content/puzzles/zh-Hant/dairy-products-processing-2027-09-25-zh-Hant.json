@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "dairy-products-processing-2027-09-25-zh-hant",
+  "puzzleFamilyId": "dairy-products-processing-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-25",
+  "timezone": "UTC",
+  "theme": "乳製品加工分類",
+  "items": [
+    {
+      "itemId": "dairy-products-processing-4",
+      "label": "無糖蒸發奶水"
+    },
+    {
+      "itemId": "dairy-products-processing-8",
+      "label": "茅屋起司（Cottage）"
+    },
+    {
+      "itemId": "dairy-products-processing-1",
+      "label": "無鹽奶油"
+    },
+    {
+      "itemId": "dairy-products-processing-6",
+      "label": "全脂奶粉"
+    },
+    {
+      "itemId": "dairy-products-processing-10",
+      "label": "德式夸克乳酪（Quark）"
+    },
+    {
+      "itemId": "dairy-products-processing-2",
+      "label": "原味發酵優格"
+    },
+    {
+      "itemId": "dairy-products-processing-7",
+      "label": "瑞可塔起司（Ricotta）"
+    },
+    {
+      "itemId": "dairy-products-processing-5",
+      "label": "加糖煉乳"
+    },
+    {
+      "itemId": "dairy-products-processing-9",
+      "label": "印度帕尼爾起司（Paneer）"
+    },
+    {
+      "itemId": "dairy-products-processing-3",
+      "label": "發酵酪乳（Buttermilk）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各乳製品的核心加工工藝（攪打分離乳脂、凝乳酶／酸凝乳、乳酸菌發酵乳或加熱濃縮脫水乳）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "攪打分離乳脂",
+        "capacity": 1,
+        "itemIds": [
+          "dairy-products-processing-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "發酵乳品",
+        "capacity": 2,
+        "itemIds": [
+          "dairy-products-processing-2",
+          "dairy-products-processing-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "濃縮與乾燥乳品",
+        "capacity": 3,
+        "itemIds": [
+          "dairy-products-processing-4",
+          "dairy-products-processing-5",
+          "dairy-products-processing-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "新鮮凝結乳酪",
+        "capacity": 4,
+        "itemIds": [
+          "dairy-products-processing-7",
+          "dairy-products-processing-8",
+          "dairy-products-processing-9",
+          "dairy-products-processing-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依乳品加工工藝分類：攪打分離乳脂（無鹽奶油）、發酵乳品（原味優格、發酵酪乳）、濃縮乾燥乳品（蒸發奶水、煉乳、全脂奶粉）與凝結鮮乳酪（瑞可塔、茅屋起司、印度帕尼爾起司、夸克起司）。",
+  "sources": [
+    {
+      "title": "Codex Alimentarius: Milk & Milk Products",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

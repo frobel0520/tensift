@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "legumes-pulses-crops-2027-10-02-es-419",
+  "puzzleFamilyId": "legumes-pulses-crops-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-02",
+  "timezone": "UTC",
+  "theme": "Legumbres y leguminosas",
+  "items": [
+    {
+      "itemId": "legumes-pulses-crops-4",
+      "label": "Lenteja roja partida"
+    },
+    {
+      "itemId": "legumes-pulses-crops-8",
+      "label": "Frijol rojo (kidney)"
+    },
+    {
+      "itemId": "legumes-pulses-crops-1",
+      "label": "Soya amarilla"
+    },
+    {
+      "itemId": "legumes-pulses-crops-6",
+      "label": "Lenteja verde de Puy"
+    },
+    {
+      "itemId": "legumes-pulses-crops-10",
+      "label": "Haba seca"
+    },
+    {
+      "itemId": "legumes-pulses-crops-2",
+      "label": "Tirabeque (arveja china)"
+    },
+    {
+      "itemId": "legumes-pulses-crops-7",
+      "label": "Frijol negro"
+    },
+    {
+      "itemId": "legumes-pulses-crops-5",
+      "label": "Lenteja parda"
+    },
+    {
+      "itemId": "legumes-pulses-crops-9",
+      "label": "Garbanzo"
+    },
+    {
+      "itemId": "legumes-pulses-crops-3",
+      "label": "Ejote / vainita verde"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clasificación agronómica de cada leguminosa",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Leguminosa oleaginosa",
+        "capacity": 1,
+        "itemIds": [
+          "legumes-pulses-crops-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Vainas verdes frescas",
+        "capacity": 2,
+        "itemIds": [
+          "legumes-pulses-crops-2",
+          "legumes-pulses-crops-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Variedades de lenteja",
+        "capacity": 3,
+        "itemIds": [
+          "legumes-pulses-crops-4",
+          "legumes-pulses-crops-5",
+          "legumes-pulses-crops-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Granos secos (legumbres)",
+        "capacity": 4,
+        "itemIds": [
+          "legumes-pulses-crops-7",
+          "legumes-pulses-crops-8",
+          "legumes-pulses-crops-9",
+          "legumes-pulses-crops-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por uso: leguminosa oleaginosa (soya), vainas verdes frescas (tirabeque, ejote/vainita), lentejas (lenteja roja, lenteja parda, lenteja verde de Puy) y granos secos (frijol negro, frijol rojo, garbanzo, haba seca).",
+  "sources": [
+    {
+      "title": "FAO: Pulses & Legumes Classification",
+      "url": "https://www.fao.org/pulses-2016/en/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.4
+  },
+  "status": "scheduled"
+}

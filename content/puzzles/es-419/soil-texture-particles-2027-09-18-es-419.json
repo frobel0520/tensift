@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "soil-texture-particles-2027-09-18-es-419",
+  "puzzleFamilyId": "soil-texture-particles-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-18",
+  "timezone": "UTC",
+  "theme": "Textura y horizontes del suelo",
+  "items": [
+    {
+      "itemId": "soil-texture-particles-4",
+      "label": "Suelo franco"
+    },
+    {
+      "itemId": "soil-texture-particles-8",
+      "label": "Horizonte A (capa arable)"
+    },
+    {
+      "itemId": "soil-texture-particles-1",
+      "label": "Humus"
+    },
+    {
+      "itemId": "soil-texture-particles-6",
+      "label": "Franco arcillo-limoso"
+    },
+    {
+      "itemId": "soil-texture-particles-10",
+      "label": "Horizonte C (material parental)"
+    },
+    {
+      "itemId": "soil-texture-particles-2",
+      "label": "Arena (0.05–2.0 mm)"
+    },
+    {
+      "itemId": "soil-texture-particles-7",
+      "label": "Horizonte O (orgánico)"
+    },
+    {
+      "itemId": "soil-texture-particles-5",
+      "label": "Franco arenoso"
+    },
+    {
+      "itemId": "soil-texture-particles-9",
+      "label": "Horizonte B (subsuelo)"
+    },
+    {
+      "itemId": "soil-texture-particles-3",
+      "label": "Limo (0.002–0.05 mm)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría edafológica de cada término del suelo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Materia orgánica descompuesta",
+        "capacity": 1,
+        "itemIds": [
+          "soil-texture-particles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Fracciones minerales",
+        "capacity": 2,
+        "itemIds": [
+          "soil-texture-particles-2",
+          "soil-texture-particles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Clases texturales francas",
+        "capacity": 3,
+        "itemIds": [
+          "soil-texture-particles-4",
+          "soil-texture-particles-5",
+          "soil-texture-particles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Horizontes del suelo",
+        "capacity": 4,
+        "itemIds": [
+          "soil-texture-particles-7",
+          "soil-texture-particles-8",
+          "soil-texture-particles-9",
+          "soil-texture-particles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por edafología: fracción orgánica (humus), partículas minerales (arena, limo), clases texturales francas (franco arenoso, franco arcillo-limoso, suelo franco) y horizontes del perfil (horizonte O, horizonte A, horizonte B, horizonte C).",
+  "sources": [
+    {
+      "title": "USDA NRCS Soil Texture & Horizons",
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-texture-calculator",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "french-mother-sauces-2027-09-03-en",
+  "puzzleFamilyId": "french-mother-sauces-001",
+  "locale": "en",
+  "publishDate": "2027-09-03",
+  "timezone": "UTC",
+  "theme": "Classic Culinary Sauces",
+  "items": [
+    {
+      "itemId": "french-mother-sauces-4",
+      "label": "Velouté Sauce"
+    },
+    {
+      "itemId": "french-mother-sauces-8",
+      "label": "Mornay Cheese Sauce"
+    },
+    {
+      "itemId": "french-mother-sauces-1",
+      "label": "Mayonnaise"
+    },
+    {
+      "itemId": "french-mother-sauces-6",
+      "label": "Suprême Sauce"
+    },
+    {
+      "itemId": "french-mother-sauces-10",
+      "label": "Demi-Glace"
+    },
+    {
+      "itemId": "french-mother-sauces-2",
+      "label": "Hollandaise Sauce"
+    },
+    {
+      "itemId": "french-mother-sauces-7",
+      "label": "Béchamel Sauce"
+    },
+    {
+      "itemId": "french-mother-sauces-5",
+      "label": "Sauce Tomate"
+    },
+    {
+      "itemId": "french-mother-sauces-9",
+      "label": "Espagnole Sauce"
+    },
+    {
+      "itemId": "french-mother-sauces-3",
+      "label": "Béarnaise Sauce"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Sauce base (Cold Oil Emulsion, Warm Butter Emulsion, Tomato/Velouté Stock Base, or Milk/Brown Stock Mother Sauces & Derivatives)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Cold Oil Emulsion",
+        "capacity": 1,
+        "itemIds": [
+          "french-mother-sauces-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Warm Butter Emulsions",
+        "capacity": 2,
+        "itemIds": [
+          "french-mother-sauces-2",
+          "french-mother-sauces-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "White Stock & Tomato Base",
+        "capacity": 3,
+        "itemIds": [
+          "french-mother-sauces-4",
+          "french-mother-sauces-5",
+          "french-mother-sauces-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Milk & Brown Stock Base",
+        "capacity": 4,
+        "itemIds": [
+          "french-mother-sauces-7",
+          "french-mother-sauces-8",
+          "french-mother-sauces-9",
+          "french-mother-sauces-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by culinary sauce base: Cold Oil Emulsion (Mayonnaise), Warm Butter Emulsion (Hollandaise, Béarnaise), White Stock & Tomato Sauces (Velouté, Sauce Tomate, Suprême), and Milk & Brown Stock Sauces (Béchamel, Mornay, Espagnole, Demi-Glace).",
+  "sources": [
+    {
+      "title": "Britannica: Mother Sauces",
+      "url": "https://www.britannica.com/topic/sauce",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

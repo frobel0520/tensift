@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "culinary-nuts-botany-2027-09-15-es-419",
+  "puzzleFamilyId": "culinary-nuts-botany-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-15",
+  "timezone": "UTC",
+  "theme": "Frutos secos por clasificación botánica",
+  "items": [
+    {
+      "itemId": "culinary-nuts-botany-4",
+      "label": "Avellana"
+    },
+    {
+      "itemId": "culinary-nuts-botany-8",
+      "label": "Nuez de nogal"
+    },
+    {
+      "itemId": "culinary-nuts-botany-1",
+      "label": "Maní (cacahuate)"
+    },
+    {
+      "itemId": "culinary-nuts-botany-6",
+      "label": "Bellota"
+    },
+    {
+      "itemId": "culinary-nuts-botany-10",
+      "label": "Pistacho"
+    },
+    {
+      "itemId": "culinary-nuts-botany-2",
+      "label": "Piñón mediterráneo"
+    },
+    {
+      "itemId": "culinary-nuts-botany-7",
+      "label": "Almendra"
+    },
+    {
+      "itemId": "culinary-nuts-botany-5",
+      "label": "Castaña"
+    },
+    {
+      "itemId": "culinary-nuts-botany-9",
+      "label": "Nuez pecana"
+    },
+    {
+      "itemId": "culinary-nuts-botany-3",
+      "label": "Piñón coreano"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clasificación botánica real de cada fruto seco culinario",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Legumbre",
+        "capacity": 1,
+        "itemIds": [
+          "culinary-nuts-botany-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Semillas de conífera",
+        "capacity": 2,
+        "itemIds": [
+          "culinary-nuts-botany-2",
+          "culinary-nuts-botany-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Nueces botánicas verdaderas",
+        "capacity": 3,
+        "itemIds": [
+          "culinary-nuts-botany-4",
+          "culinary-nuts-botany-5",
+          "culinary-nuts-botany-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Semillas de drupa",
+        "capacity": 4,
+        "itemIds": [
+          "culinary-nuts-botany-7",
+          "culinary-nuts-botany-8",
+          "culinary-nuts-botany-9",
+          "culinary-nuts-botany-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por botánica: legumbre subterránea (maní/cacahuate), semilla de conífera (piñón), nueces verdaderas (avellana, castaña, bellota) y semillas de drupa (almendra, nuez de nogal, pecana, pistacho).",
+  "sources": [
+    {
+      "title": "USDA Forest Service: Nuts & Drupes",
+      "url": "https://www.fs.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "olive-oil-grades-ioc-2027-10-18-zh-hant",
+  "puzzleFamilyId": "olive-oil-grades-ioc-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-18",
+  "timezone": "UTC",
+  "theme": "國際橄欖油分級標準",
+  "items": [
+    {
+      "itemId": "olive-oil-grades-ioc-4",
+      "label": "精煉橄欖油"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-8",
+      "label": "初榨橄欖油（酸價 <2%）"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-1",
+      "label": "燈用初榨橄欖油（Lampante）"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-6",
+      "label": "清淡風味調和橄欖油"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-10",
+      "label": "歐盟產區認證特級初榨"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-2",
+      "label": "粗製橄欖果渣油"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-7",
+      "label": "特級初榨橄欖油（EVOO）"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-5",
+      "label": "純橄欖油（精煉＋初榨調和）"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-9",
+      "label": "早摘特級初榨橄欖油"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-3",
+      "label": "精製橄欖果渣油"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "國際橄欖油理事會（IOC）的品質分級（不可直接食用的燈用級、溶劑萃取果渣油、精煉調和油或冷壓初榨級）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "不可直接食用（燈用級）",
+        "capacity": 1,
+        "itemIds": [
+          "olive-oil-grades-ioc-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "溶劑萃取果渣油",
+        "capacity": 2,
+        "itemIds": [
+          "olive-oil-grades-ioc-2",
+          "olive-oil-grades-ioc-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "精煉與精煉調和油",
+        "capacity": 3,
+        "itemIds": [
+          "olive-oil-grades-ioc-4",
+          "olive-oil-grades-ioc-5",
+          "olive-oil-grades-ioc-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "冷壓初榨可食級",
+        "capacity": 4,
+        "itemIds": [
+          "olive-oil-grades-ioc-7",
+          "olive-oil-grades-ioc-8",
+          "olive-oil-grades-ioc-9",
+          "olive-oil-grades-ioc-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依 IOC 橄欖油標準分類：工業燈用不可食級（燈用初榨油 Lampante）、溶劑萃取果渣油（粗製果渣油、精製果渣油）、精煉與調和油（精煉橄欖油、純橄欖油 Pure 調和、清淡調和橄欖油）與機械冷壓初榨級（特級初榨 EVOO、初榨油、早摘特級初榨、產區認證冷壓 EVOO）。",
+  "sources": [
+    {
+      "title": "International Olive Council: Trade Standard",
+      "url": "https://www.internationaloliveoil.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.7
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "coffee-brewing-methods-2027-09-12-en",
+  "puzzleFamilyId": "coffee-brewing-methods-001",
+  "locale": "en",
+  "publishDate": "2027-09-12",
+  "timezone": "UTC",
+  "theme": "Coffee Brewing Methods",
+  "items": [
+    {
+      "itemId": "coffee-brewing-methods-4",
+      "label": "French Press"
+    },
+    {
+      "itemId": "coffee-brewing-methods-8",
+      "label": "Chemex Carafe"
+    },
+    {
+      "itemId": "coffee-brewing-methods-1",
+      "label": "Moka Pot"
+    },
+    {
+      "itemId": "coffee-brewing-methods-6",
+      "label": "Turkish Cezve (Ibrik)"
+    },
+    {
+      "itemId": "coffee-brewing-methods-10",
+      "label": "Automatic Drip Brewer"
+    },
+    {
+      "itemId": "coffee-brewing-methods-2",
+      "label": "Pump Espresso Machine"
+    },
+    {
+      "itemId": "coffee-brewing-methods-7",
+      "label": "Hario V60 Pour-Over"
+    },
+    {
+      "itemId": "coffee-brewing-methods-5",
+      "label": "Cold Brew Immersion"
+    },
+    {
+      "itemId": "coffee-brewing-methods-9",
+      "label": "Kalita Wave Dripper"
+    },
+    {
+      "itemId": "coffee-brewing-methods-3",
+      "label": "Spring-Lever Espresso"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Extraction mechanism (Stovetop Steam Pressure Moka, High-Pressure Espresso, Full Immersion, or Gravity Pour-Over/Drip)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Stovetop Steam Pressure",
+        "capacity": 1,
+        "itemIds": [
+          "coffee-brewing-methods-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "High-Pressure Espresso (9 bar)",
+        "capacity": 2,
+        "itemIds": [
+          "coffee-brewing-methods-2",
+          "coffee-brewing-methods-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Full Immersion Brewing",
+        "capacity": 3,
+        "itemIds": [
+          "coffee-brewing-methods-4",
+          "coffee-brewing-methods-5",
+          "coffee-brewing-methods-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Gravity Drip & Pour-Over",
+        "capacity": 4,
+        "itemIds": [
+          "coffee-brewing-methods-7",
+          "coffee-brewing-methods-8",
+          "coffee-brewing-methods-9",
+          "coffee-brewing-methods-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by extraction physics: Stovetop Vapor Pressure (Moka Pot), High-Pressure Espresso (Pump Espresso Machine, Spring-Lever Espresso), Full Immersion Brewing (French Press, Cold Brew Immersion, Turkish Cezve/Ibrik), and Gravity Drip & Pour-Over (Hario V60, Chemex Carafe, Kalita Wave Dripper, Automatic Drip Brewer).",
+  "sources": [
+    {
+      "title": "Specialty Coffee Association: Brewing Standards",
+      "url": "https://sca.coffee/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

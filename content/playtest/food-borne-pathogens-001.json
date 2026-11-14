@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "food-borne-pathogens-001",
+  "theme": "Food Safety Hazards",
+  "publishDate": "2027-10-11",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "food-borne-pathogens-4",
+        "rivalGroupId": "group-4",
+        "risk": "Aflatoxin is produced by Aspergillus mold.",
+        "resolution": "In HACCP, pre-formed mycotoxins like aflatoxin are classified as chemical hazards (group-3), not live infectious biological pathogens (group-4)."
+      },
+      {
+        "itemId": "food-borne-pathogens-1",
+        "rivalGroupId": "group-3",
+        "risk": "Allergens trigger an immune reaction to specific proteins.",
+        "resolution": "Regulatory HACCP treats major food allergens as a distinct allergen control category (group-1), separate from toxic chemical contaminants (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

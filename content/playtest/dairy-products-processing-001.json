@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "dairy-products-processing-001",
+  "theme": "Dairy Products by Process",
+  "publishDate": "2027-09-25",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "dairy-products-processing-1",
+        "rivalGroupId": "group-2",
+        "risk": "Cultured butter uses fermented cream.",
+        "resolution": "Butter is defined by mechanical churning that inverts cream into a solid fat emulsion (group-1), not a liquid cultured milk (group-2)."
+      },
+      {
+        "itemId": "dairy-products-processing-7",
+        "rivalGroupId": "group-2",
+        "risk": "Quark and Ricotta are creamy like Greek yogurt.",
+        "resolution": "Ricotta, cottage cheese, paneer, and quark are drained whey/milk curds (group-4), not unstrained fermented milks (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

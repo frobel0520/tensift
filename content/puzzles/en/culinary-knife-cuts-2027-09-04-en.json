@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "culinary-knife-cuts-2027-09-04-en",
+  "puzzleFamilyId": "culinary-knife-cuts-001",
+  "locale": "en",
+  "publishDate": "2027-09-04",
+  "timezone": "UTC",
+  "theme": "Classical Culinary Knife Cuts",
+  "items": [
+    {
+      "itemId": "culinary-knife-cuts-4",
+      "label": "Julienne (Fine Matchstick)"
+    },
+    {
+      "itemId": "culinary-knife-cuts-8",
+      "label": "Macedoine (6 mm Cube)"
+    },
+    {
+      "itemId": "culinary-knife-cuts-1",
+      "label": "Chiffonade"
+    },
+    {
+      "itemId": "culinary-knife-cuts-6",
+      "label": "Allumette (Matchstick)"
+    },
+    {
+      "itemId": "culinary-knife-cuts-10",
+      "label": "Medium Dice (12 mm)"
+    },
+    {
+      "itemId": "culinary-knife-cuts-2",
+      "label": "Rondelle (Coin Slice)"
+    },
+    {
+      "itemId": "culinary-knife-cuts-7",
+      "label": "Brunoise (3 mm Cube)"
+    },
+    {
+      "itemId": "culinary-knife-cuts-5",
+      "label": "Batonnet (French Fry Stick)"
+    },
+    {
+      "itemId": "culinary-knife-cuts-9",
+      "label": "Small Dice (6 mm)"
+    },
+    {
+      "itemId": "culinary-knife-cuts-3",
+      "label": "Paysanne (Flat Tile)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Geometric cut category (Ribbon Chiffonade, Round/Oval Cuts, Stick/Matchstick Cuts, or Cube/Dice Cuts)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Leafy Ribbon Cut",
+        "capacity": 1,
+        "itemIds": [
+          "culinary-knife-cuts-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Slices & Flat Tiles",
+        "capacity": 2,
+        "itemIds": [
+          "culinary-knife-cuts-2",
+          "culinary-knife-cuts-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Stick & Matchstick Cuts",
+        "capacity": 3,
+        "itemIds": [
+          "culinary-knife-cuts-4",
+          "culinary-knife-cuts-5",
+          "culinary-knife-cuts-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Cube & Dice Cuts",
+        "capacity": 4,
+        "itemIds": [
+          "culinary-knife-cuts-7",
+          "culinary-knife-cuts-8",
+          "culinary-knife-cuts-9",
+          "culinary-knife-cuts-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by cut geometry: Leafy Ribbon Cut (Chiffonade), Round & Oval Cuts (Rondelle, Paysanne), Stick & Matchstick Cuts (Julienne, Batonnet, Allumette), and Cube/Dice Cuts (Brunoise, Macedoine, Small Dice, Medium Dice).",
+  "sources": [
+    {
+      "title": "CIA Culinary Knife Cuts Guide",
+      "url": "https://www.ciachef.edu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "rice-cultivar-types-2027-10-20-es-419",
+  "puzzleFamilyId": "rice-cultivar-types-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-20",
+  "timezone": "UTC",
+  "theme": "Variedades de arroz del mundo",
+  "items": [
+    {
+      "itemId": "rice-cultivar-types-4",
+      "label": "Arroz Arborio"
+    },
+    {
+      "itemId": "rice-cultivar-types-8",
+      "label": "Arroz jazmín tailandés"
+    },
+    {
+      "itemId": "rice-cultivar-types-1",
+      "label": "Arroz negro prohibido"
+    },
+    {
+      "itemId": "rice-cultivar-types-6",
+      "label": "Arroz Koshihikari"
+    },
+    {
+      "itemId": "rice-cultivar-types-10",
+      "label": "Arroz vaporizado (parboiled)"
+    },
+    {
+      "itemId": "rice-cultivar-types-2",
+      "label": "Arroz glutinoso tailandés"
+    },
+    {
+      "itemId": "rice-cultivar-types-7",
+      "label": "Arroz Basmati"
+    },
+    {
+      "itemId": "rice-cultivar-types-5",
+      "label": "Arroz Carnaroli"
+    },
+    {
+      "itemId": "rice-cultivar-types-9",
+      "label": "Arroz blanco de grano largo"
+    },
+    {
+      "itemId": "rice-cultivar-types-3",
+      "label": "Arroz mochigome"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría culinaria y tipo de grano de cada arroz",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Arroz negro pigmentado",
+        "capacity": 1,
+        "itemIds": [
+          "rice-cultivar-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Arroces glutinosos",
+        "capacity": 2,
+        "itemIds": [
+          "rice-cultivar-types-2",
+          "rice-cultivar-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Arroces cortos de sushi y risotto",
+        "capacity": 3,
+        "itemIds": [
+          "rice-cultivar-types-4",
+          "rice-cultivar-types-5",
+          "rice-cultivar-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Arroces de grano largo",
+        "capacity": 4,
+        "itemIds": [
+          "rice-cultivar-types-7",
+          "rice-cultivar-types-8",
+          "rice-cultivar-types-9",
+          "rice-cultivar-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase: arroz pigmentado (arroz negro), arroces glutinosos (arroz glutinoso tailandés, mochigome japonés), arroces cortos/medios (arborio, carnaroli, koshihikari japonés) y arroces de grano largo (basmati, jazmín tailandés, grano largo blanco, arroz vaporizado).",
+  "sources": [
+    {
+      "title": "IRRI: International Rice Research Institute",
+      "url": "https://www.irri.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

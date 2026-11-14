@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "pasta-shapes-taxonomy-2027-09-13-es-419",
+  "puzzleFamilyId": "pasta-shapes-taxonomy-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-13",
+  "timezone": "UTC",
+  "theme": "Formas de pasta italiana",
+  "items": [
+    {
+      "itemId": "pasta-shapes-taxonomy-4",
+      "label": "Penne"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-8",
+      "label": "Fettuccine"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-1",
+      "label": "Lasaña"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-6",
+      "label": "Macarrones"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-10",
+      "label": "Capellini"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-2",
+      "label": "Ravioli"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-7",
+      "label": "Espagueti"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-5",
+      "label": "Rigatoni"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-9",
+      "label": "Linguine"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-3",
+      "label": "Tortellini"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría morfológica de cada pasta italiana",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Láminas planas",
+        "capacity": 1,
+        "itemIds": [
+          "pasta-shapes-taxonomy-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Pasta rellena",
+        "capacity": 2,
+        "itemIds": [
+          "pasta-shapes-taxonomy-2",
+          "pasta-shapes-taxonomy-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Pasta tubular",
+        "capacity": 3,
+        "itemIds": [
+          "pasta-shapes-taxonomy-4",
+          "pasta-shapes-taxonomy-5",
+          "pasta-shapes-taxonomy-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Pasta larga en tiras",
+        "capacity": 4,
+        "itemIds": [
+          "pasta-shapes-taxonomy-7",
+          "pasta-shapes-taxonomy-8",
+          "pasta-shapes-taxonomy-9",
+          "pasta-shapes-taxonomy-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por forma: láminas planas (lasaña), pasta rellena (ravioli, tortellini), tubos huecos (penne, rigatoni, macarrones) y tiras largas (espagueti, fettuccine, linguine, capellini).",
+  "sources": [
+    {
+      "title": "Italian Culinary Institute: Pasta Shapes",
+      "url": "https://www.britannica.com/topic/pasta",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.18
+  },
+  "status": "scheduled"
+}

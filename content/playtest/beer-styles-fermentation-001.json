@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "beer-styles-fermentation-001",
+  "theme": "Beer Styles by Fermentation",
+  "publishDate": "2027-09-27",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "beer-styles-fermentation-1",
+        "rivalGroupId": "group-4",
+        "risk": "Lambic is fermented at ambient temperatures like an ale.",
+        "resolution": "Lambic relies on airborne wild Brettanomyces and bacteria in open coolships (group-1), not pitched Saccharomyces ale yeast (group-4)."
+      },
+      {
+        "itemId": "beer-styles-fermentation-2",
+        "rivalGroupId": "group-4",
+        "risk": "Hefeweizen uses top-fermenting ale yeast.",
+        "resolution": "Hefeweizen and Witbier are defined by high malted/unmalted wheat grain bills (group-2), unlike all-barley ales (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

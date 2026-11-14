@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "pasta-shapes-taxonomy-001",
+  "theme": "Italian Pasta Shapes",
+  "publishDate": "2027-09-13",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "pasta-shapes-taxonomy-1",
+        "rivalGroupId": "group-4",
+        "risk": "Lasagna and Fettuccine are both flat ribbons.",
+        "resolution": "Lasagna consists of wide rectangular baking sheets (group-1), not long boiled strands/ribbons (group-4)."
+      },
+      {
+        "itemId": "pasta-shapes-taxonomy-2",
+        "rivalGroupId": "group-1",
+        "risk": "Ravioli is made by layering two pasta sheets.",
+        "resolution": "Ravioli is sealed around a filling as stuffed pasta (group-2), unlike unstuffed lasagna sheets (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

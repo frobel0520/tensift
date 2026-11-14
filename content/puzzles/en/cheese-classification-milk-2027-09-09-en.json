@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cheese-classification-milk-2027-09-09-en",
+  "puzzleFamilyId": "cheese-classification-milk-001",
+  "locale": "en",
+  "publishDate": "2027-09-09",
+  "timezone": "UTC",
+  "theme": "World Cheeses by Style",
+  "items": [
+    {
+      "itemId": "cheese-classification-milk-4",
+      "label": "Roquefort"
+    },
+    {
+      "itemId": "cheese-classification-milk-8",
+      "label": "Aged Cheddar"
+    },
+    {
+      "itemId": "cheese-classification-milk-1",
+      "label": "Fresh Mozzarella"
+    },
+    {
+      "itemId": "cheese-classification-milk-6",
+      "label": "Blue Stilton"
+    },
+    {
+      "itemId": "cheese-classification-milk-10",
+      "label": "Aged Manchego"
+    },
+    {
+      "itemId": "cheese-classification-milk-2",
+      "label": "Brie de Meaux"
+    },
+    {
+      "itemId": "cheese-classification-milk-7",
+      "label": "Parmigiano-Reggiano"
+    },
+    {
+      "itemId": "cheese-classification-milk-5",
+      "label": "Gorgonzola"
+    },
+    {
+      "itemId": "cheese-classification-milk-9",
+      "label": "Swiss Gruyère"
+    },
+    {
+      "itemId": "cheese-classification-milk-3",
+      "label": "Camembert"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cheese texture & ripening style (Unripened Fresh, Bloomy-Rind Soft, Blue-Veined, or Aged Hard Grating/Pressed)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Fresh Unripened",
+        "capacity": 1,
+        "itemIds": [
+          "cheese-classification-milk-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Bloomy-Rind Soft",
+        "capacity": 2,
+        "itemIds": [
+          "cheese-classification-milk-2",
+          "cheese-classification-milk-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Blue-Veined Cheeses",
+        "capacity": 3,
+        "itemIds": [
+          "cheese-classification-milk-4",
+          "cheese-classification-milk-5",
+          "cheese-classification-milk-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Aged Hard Cheeses",
+        "capacity": 4,
+        "itemIds": [
+          "cheese-classification-milk-7",
+          "cheese-classification-milk-8",
+          "cheese-classification-milk-9",
+          "cheese-classification-milk-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by cheese style: Fresh Unripened (Fresh Mozzarella), Bloomy-Rind Soft (Brie de Meaux, Camembert), Blue-Veined (Roquefort, Gorgonzola, Stilton), and Aged Hard Pressed (Parmigiano-Reggiano, Aged Cheddar, Gruyère, Manchego).",
+  "sources": [
+    {
+      "title": "Codex Alimentarius: Cheese Standards",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

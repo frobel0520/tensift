@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chocolate-tea-caffeine-sources-2027-10-14-es-419",
+  "puzzleFamilyId": "chocolate-tea-caffeine-sources-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-14",
+  "timezone": "UTC",
+  "theme": "Plantas y bebidas con cafeína",
+  "items": [
+    {
+      "itemId": "chocolate-tea-caffeine-sources-4",
+      "label": "Té verde matcha"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-8",
+      "label": "Café filtrado"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-1",
+      "label": "Bebida de guaraná"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-6",
+      "label": "Té oolong tostado"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-10",
+      "label": "Café soluble liofilizado"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-2",
+      "label": "Yerba mate"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-7",
+      "label": "Espresso"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-5",
+      "label": "Té negro Assam"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-9",
+      "label": "Café cold brew"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-3",
+      "label": "Guayusa amazónica"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Género botánico fuente de cafeína de cada bebida",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Guaraná (Paullinia)",
+        "capacity": 1,
+        "itemIds": [
+          "chocolate-tea-caffeine-sources-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Infusiones de acebo Ilex",
+        "capacity": 2,
+        "itemIds": [
+          "chocolate-tea-caffeine-sources-2",
+          "chocolate-tea-caffeine-sources-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Tés de Camellia sinensis",
+        "capacity": 3,
+        "itemIds": [
+          "chocolate-tea-caffeine-sources-4",
+          "chocolate-tea-caffeine-sources-5",
+          "chocolate-tea-caffeine-sources-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Preparaciones de Coffea",
+        "capacity": 4,
+        "itemIds": [
+          "chocolate-tea-caffeine-sources-7",
+          "chocolate-tea-caffeine-sources-8",
+          "chocolate-tea-caffeine-sources-9",
+          "chocolate-tea-caffeine-sources-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por género botánico: guaraná (extracto de guaraná), acebos Ilex (yerba mate, guayusa), hojas de Camellia sinensis (té matcha, té negro Assam, té oolong) y granos de Coffea (espresso, café filtrado, cold brew, café soluble).",
+  "sources": [
+    {
+      "title": "USDA & EFSA: Caffeine Sources",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/caffeine",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

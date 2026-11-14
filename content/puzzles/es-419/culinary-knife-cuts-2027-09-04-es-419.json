@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "culinary-knife-cuts-2027-09-04-es-419",
+  "puzzleFamilyId": "culinary-knife-cuts-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-04",
+  "timezone": "UTC",
+  "theme": "Cortes culinarios clásicos",
+  "items": [
+    {
+      "itemId": "culinary-knife-cuts-4",
+      "label": "Juliana"
+    },
+    {
+      "itemId": "culinary-knife-cuts-8",
+      "label": "Macedonia"
+    },
+    {
+      "itemId": "culinary-knife-cuts-1",
+      "label": "Chiffonade"
+    },
+    {
+      "itemId": "culinary-knife-cuts-6",
+      "label": "Allumette"
+    },
+    {
+      "itemId": "culinary-knife-cuts-10",
+      "label": "Dado mediano"
+    },
+    {
+      "itemId": "culinary-knife-cuts-2",
+      "label": "Rondelle (rodaja)"
+    },
+    {
+      "itemId": "culinary-knife-cuts-7",
+      "label": "Brunoise"
+    },
+    {
+      "itemId": "culinary-knife-cuts-5",
+      "label": "Bastón (batonnet)"
+    },
+    {
+      "itemId": "culinary-knife-cuts-9",
+      "label": "Dado pequeño"
+    },
+    {
+      "itemId": "culinary-knife-cuts-3",
+      "label": "Paysanne"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría geométrica de cada corte de cocina",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Tiras de hojas",
+        "capacity": 1,
+        "itemIds": [
+          "culinary-knife-cuts-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Rodajas y láminas",
+        "capacity": 2,
+        "itemIds": [
+          "culinary-knife-cuts-2",
+          "culinary-knife-cuts-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Bastones y tiras",
+        "capacity": 3,
+        "itemIds": [
+          "culinary-knife-cuts-4",
+          "culinary-knife-cuts-5",
+          "culinary-knife-cuts-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Cubos y dados",
+        "capacity": 4,
+        "itemIds": [
+          "culinary-knife-cuts-7",
+          "culinary-knife-cuts-8",
+          "culinary-knife-cuts-9",
+          "culinary-knife-cuts-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por geometría: tiras de hojas (chiffonade), rodajas/láminas (rondelle, paysanne), bastones (juliana, bastón, allumette) y cubos/dados (brunoise, macedonia, dado pequeño, dado mediano).",
+  "sources": [
+    {
+      "title": "CIA Culinary Knife Cuts Guide",
+      "url": "https://www.ciachef.edu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

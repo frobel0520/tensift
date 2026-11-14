@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chocolate-confections-global-2027-10-17-zh-hant",
+  "puzzleFamilyId": "chocolate-confections-global-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-17",
+  "timezone": "UTC",
+  "theme": "各國傳統經典甜點",
+  "items": [
+    {
+      "itemId": "chocolate-confections-global-4",
+      "label": "法式焦糖烤布蕾"
+    },
+    {
+      "itemId": "chocolate-confections-global-8",
+      "label": "義式鮮奶酪（Panna Cotta）"
+    },
+    {
+      "itemId": "chocolate-confections-global-1",
+      "label": "中東開心果蜜餅（Baklava）"
+    },
+    {
+      "itemId": "chocolate-confections-global-6",
+      "label": "法式千層派"
+    },
+    {
+      "itemId": "chocolate-confections-global-10",
+      "label": "義式冰淇淋（Gelato）"
+    },
+    {
+      "itemId": "chocolate-confections-global-2",
+      "label": "日式麻糬（Mochi）"
+    },
+    {
+      "itemId": "chocolate-confections-global-7",
+      "label": "提拉米蘇"
+    },
+    {
+      "itemId": "chocolate-confections-global-5",
+      "label": "法式馬卡龍"
+    },
+    {
+      "itemId": "chocolate-confections-global-9",
+      "label": "西西里奶油捲（Cannoli）"
+    },
+    {
+      "itemId": "chocolate-confections-global-3",
+      "label": "銅鑼燒"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各經典甜點的傳統發源國家或地區（中東黎凡特、日本、法國或義大利）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "中東／黎凡特",
+        "capacity": 1,
+        "itemIds": [
+          "chocolate-confections-global-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "日本",
+        "capacity": 2,
+        "itemIds": [
+          "chocolate-confections-global-2",
+          "chocolate-confections-global-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "法國",
+        "capacity": 3,
+        "itemIds": [
+          "chocolate-confections-global-4",
+          "chocolate-confections-global-5",
+          "chocolate-confections-global-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "義大利",
+        "capacity": 4,
+        "itemIds": [
+          "chocolate-confections-global-7",
+          "chocolate-confections-global-8",
+          "chocolate-confections-global-9",
+          "chocolate-confections-global-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依發源地區分類：中東黎凡特（果仁蜜餅 Baklava）、日本（麻糬、銅鑼燒）、法國（法式烤布蕾、馬卡龍、法式千層酥）與義大利（提拉米蘇、義式奶酪 Panna Cotta、西西里奶油捲 Cannoli、義式冰淇淋 Gelato）。",
+  "sources": [
+    {
+      "title": "Britannica: World Desserts & Pastries",
+      "url": "https://www.britannica.com/topic/pastry",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.2
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "olive-oil-grades-ioc-2027-10-18-es-419",
+  "puzzleFamilyId": "olive-oil-grades-ioc-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-18",
+  "timezone": "UTC",
+  "theme": "Grados de calidad del aceite de oliva",
+  "items": [
+    {
+      "itemId": "olive-oil-grades-ioc-4",
+      "label": "Aceite de oliva refinado"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-8",
+      "label": "Aceite de oliva virgen"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-1",
+      "label": "Aceite de oliva lampante"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-6",
+      "label": "Aceite de oliva suave"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-10",
+      "label": "AOVE con Denominación de Origen"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-2",
+      "label": "Aceite de orujo crudo"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-7",
+      "label": "Aceite de oliva virgen extra"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-5",
+      "label": "Aceite de oliva clásico (mezcla)"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-9",
+      "label": "AOVE de cosecha temprana"
+    },
+    {
+      "itemId": "olive-oil-grades-ioc-3",
+      "label": "Aceite de orujo refinado"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría comercial según el Consejo Oleícola Internacional",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Lampante (no comestible)",
+        "capacity": 1,
+        "itemIds": [
+          "olive-oil-grades-ioc-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Aceite de orujo por solvente",
+        "capacity": 2,
+        "itemIds": [
+          "olive-oil-grades-ioc-2",
+          "olive-oil-grades-ioc-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Refinados y mezclas",
+        "capacity": 3,
+        "itemIds": [
+          "olive-oil-grades-ioc-4",
+          "olive-oil-grades-ioc-5",
+          "olive-oil-grades-ioc-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Vírgenes mecánicos comestibles",
+        "capacity": 4,
+        "itemIds": [
+          "olive-oil-grades-ioc-7",
+          "olive-oil-grades-ioc-8",
+          "olive-oil-grades-ioc-9",
+          "olive-oil-grades-ioc-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por norma COI: no comestible (aceite lampante), orujo por solvente (orujo crudo, orujo refinado), refinados y mezclas (aceite refinado, aceite de oliva puro mezclado, mezcla suave) y vírgenes mecánicos comestibles (virgen extra, virgen, cosecha temprana AOVE, AOVE con DOP).",
+  "sources": [
+    {
+      "title": "International Olive Council: Trade Standard",
+      "url": "https://www.internationaloliveoil.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.7
+  },
+  "status": "scheduled"
+}

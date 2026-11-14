@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "cereal-grains-botany-001",
+  "theme": "Grains & Pseudocereals",
+  "publishDate": "2027-09-14",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "cereal-grains-botany-1",
+        "rivalGroupId": "group-4",
+        "risk": "Buckwheat has \"wheat\" in its English name.",
+        "resolution": "Buckwheat is a dicot in Polygonaceae (group-1), completely unrelated to grass-family wheat (group-4)."
+      },
+      {
+        "itemId": "cereal-grains-botany-2",
+        "rivalGroupId": "group-1",
+        "risk": "Quinoa and Buckwheat are both pseudocereals.",
+        "resolution": "Quinoa and Amaranth belong to Amaranthaceae (group-2), whereas Buckwheat belongs to Polygonaceae (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

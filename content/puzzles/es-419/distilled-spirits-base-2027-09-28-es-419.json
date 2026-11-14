@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "distilled-spirits-base-2027-09-28-es-419",
+  "puzzleFamilyId": "distilled-spirits-base-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-28",
+  "timezone": "UTC",
+  "theme": "Destilados por materia prima",
+  "items": [
+    {
+      "itemId": "distilled-spirits-base-4",
+      "label": "Coñac"
+    },
+    {
+      "itemId": "distilled-spirits-base-8",
+      "label": "Bourbon"
+    },
+    {
+      "itemId": "distilled-spirits-base-1",
+      "label": "Tequila"
+    },
+    {
+      "itemId": "distilled-spirits-base-6",
+      "label": "Calvados"
+    },
+    {
+      "itemId": "distilled-spirits-base-10",
+      "label": "Whisky japonés"
+    },
+    {
+      "itemId": "distilled-spirits-base-2",
+      "label": "Ron blanco"
+    },
+    {
+      "itemId": "distilled-spirits-base-7",
+      "label": "Whisky escocés"
+    },
+    {
+      "itemId": "distilled-spirits-base-5",
+      "label": "Grappa"
+    },
+    {
+      "itemId": "distilled-spirits-base-9",
+      "label": "Whiskey irlandés"
+    },
+    {
+      "itemId": "distilled-spirits-base-3",
+      "label": "Cachaça"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Materia prima agrícola fermentada para cada destilado",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Agave azul",
+        "capacity": 1,
+        "itemIds": [
+          "distilled-spirits-base-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Caña de azúcar y melaza",
+        "capacity": 2,
+        "itemIds": [
+          "distilled-spirits-base-2",
+          "distilled-spirits-base-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Uva y frutas",
+        "capacity": 3,
+        "itemIds": [
+          "distilled-spirits-base-4",
+          "distilled-spirits-base-5",
+          "distilled-spirits-base-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Whiskies de cereales",
+        "capacity": 4,
+        "itemIds": [
+          "distilled-spirits-base-7",
+          "distilled-spirits-base-8",
+          "distilled-spirits-base-9",
+          "distilled-spirits-base-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por materia prima: agave azul (tequila), caña de azúcar y melaza (ron blanco, cachaça), uva y fruta (coñac, grappa italiana, calvados de manzana) y cereales (whisky escocés, bourbon, whisky irlandés, whisky japonés).",
+  "sources": [
+    {
+      "title": "EU Spirit Drinks Regulation (2019/787)",
+      "url": "https://eur-lex.europa.eu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

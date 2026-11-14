@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "edible-seaweed-algae-2027-10-07-es-419",
+  "puzzleFamilyId": "edible-seaweed-algae-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-07",
+  "timezone": "UTC",
+  "theme": "Algas marinas comestibles",
+  "items": [
+    {
+      "itemId": "edible-seaweed-algae-4",
+      "label": "Alga nori"
+    },
+    {
+      "itemId": "edible-seaweed-algae-8",
+      "label": "Alga wakame"
+    },
+    {
+      "itemId": "edible-seaweed-algae-1",
+      "label": "Espirulina"
+    },
+    {
+      "itemId": "edible-seaweed-algae-6",
+      "label": "Musgo de Irlanda"
+    },
+    {
+      "itemId": "edible-seaweed-algae-10",
+      "label": "Alga mozuku"
+    },
+    {
+      "itemId": "edible-seaweed-algae-2",
+      "label": "Lechuga de mar (Ulva)"
+    },
+    {
+      "itemId": "edible-seaweed-algae-7",
+      "label": "Alga kombu"
+    },
+    {
+      "itemId": "edible-seaweed-algae-5",
+      "label": "Alga dulse"
+    },
+    {
+      "itemId": "edible-seaweed-algae-9",
+      "label": "Alga hijiki"
+    },
+    {
+      "itemId": "edible-seaweed-algae-3",
+      "label": "Uvas de mar (umibudo)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Grupo biológico (cianobacteria, verde, roja o parda) de cada alga",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Cianobacterias",
+        "capacity": 1,
+        "itemIds": [
+          "edible-seaweed-algae-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Algas verdes",
+        "capacity": 2,
+        "itemIds": [
+          "edible-seaweed-algae-2",
+          "edible-seaweed-algae-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Algas rojas",
+        "capacity": 3,
+        "itemIds": [
+          "edible-seaweed-algae-4",
+          "edible-seaweed-algae-5",
+          "edible-seaweed-algae-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Algas pardas",
+        "capacity": 4,
+        "itemIds": [
+          "edible-seaweed-algae-7",
+          "edible-seaweed-algae-8",
+          "edible-seaweed-algae-9",
+          "edible-seaweed-algae-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por filo: cianobacteria (espirulina), algas verdes (lechuga de mar ulva, uvas de mar), algas rojas (nori, dulse, musgo de Irlanda) y algas pardas (kombu, wakame, hijiki, mozuku).",
+  "sources": [
+    {
+      "title": "FAO: Seaweed Aquaculture & Taxonomy",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tree-fruit-botanical-classes-2027-10-22-zh-hant",
+  "puzzleFamilyId": "tree-fruit-botanical-classes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-22",
+  "timezone": "UTC",
+  "theme": "果園水果的植物學分類",
+  "items": [
+    {
+      "itemId": "tree-fruit-botanical-classes-4",
+      "label": "水蜜桃"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-8",
+      "label": "西洋梨"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-1",
+      "label": "奇異果（獼猴桃）"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-6",
+      "label": "歐洲李子"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-10",
+      "label": "亞洲水梨"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-2",
+      "label": "黑莓"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-7",
+      "label": "蘋果"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-5",
+      "label": "甜櫻桃"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-9",
+      "label": "榲桲（木梨）"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-3",
+      "label": "紅覆盆子"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各常見水果在植物學上的果實構造（真漿果奇異果、聚合小核果、單核核果或梨果）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "真漿果",
+        "capacity": 1,
+        "itemIds": [
+          "tree-fruit-botanical-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "聚合小核果",
+        "capacity": 2,
+        "itemIds": [
+          "tree-fruit-botanical-classes-2",
+          "tree-fruit-botanical-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "單核核果（Stone Fruit）",
+        "capacity": 3,
+        "itemIds": [
+          "tree-fruit-botanical-classes-4",
+          "tree-fruit-botanical-classes-5",
+          "tree-fruit-botanical-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "梨果（仁果類）",
+        "capacity": 4,
+        "itemIds": [
+          "tree-fruit-botanical-classes-7",
+          "tree-fruit-botanical-classes-8",
+          "tree-fruit-botanical-classes-9",
+          "tree-fruit-botanical-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依植物學果實構造分類：真漿果（奇異果）、聚合小核果（黑莓、紅覆盆子）、單核核果（水蜜桃、甜櫻桃、歐洲李子）與仁果／梨果（蘋果、西洋梨、榲桲、水梨）。",
+  "sources": [
+    {
+      "title": "Britannica: Fruit Botanical Types",
+      "url": "https://www.britannica.com/science/fruit-plant-reproductive-body",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

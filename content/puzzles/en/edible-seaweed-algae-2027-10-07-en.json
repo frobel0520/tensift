@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "edible-seaweed-algae-2027-10-07-en",
+  "puzzleFamilyId": "edible-seaweed-algae-001",
+  "locale": "en",
+  "publishDate": "2027-10-07",
+  "timezone": "UTC",
+  "theme": "Edible Seaweeds & Algae",
+  "items": [
+    {
+      "itemId": "edible-seaweed-algae-4",
+      "label": "Nori (Porphyra)"
+    },
+    {
+      "itemId": "edible-seaweed-algae-8",
+      "label": "Wakame"
+    },
+    {
+      "itemId": "edible-seaweed-algae-1",
+      "label": "Spirulina"
+    },
+    {
+      "itemId": "edible-seaweed-algae-6",
+      "label": "Irish Moss (Chondrus)"
+    },
+    {
+      "itemId": "edible-seaweed-algae-10",
+      "label": "Okinawa Mozuku"
+    },
+    {
+      "itemId": "edible-seaweed-algae-2",
+      "label": "Sea Lettuce (Ulva)"
+    },
+    {
+      "itemId": "edible-seaweed-algae-7",
+      "label": "Kombu Kelp"
+    },
+    {
+      "itemId": "edible-seaweed-algae-5",
+      "label": "Dulse (Palmaria)"
+    },
+    {
+      "itemId": "edible-seaweed-algae-9",
+      "label": "Hijiki"
+    },
+    {
+      "itemId": "edible-seaweed-algae-3",
+      "label": "Sea Grapes (Umibudo)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Algal phylum/color group (Cyanobacteria Spirulina, Green Seaweed, Red Seaweeds, or Brown Kelps)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Cyanobacteria (Blue-Green)",
+        "capacity": 1,
+        "itemIds": [
+          "edible-seaweed-algae-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Green Algae (Chlorophyta)",
+        "capacity": 2,
+        "itemIds": [
+          "edible-seaweed-algae-2",
+          "edible-seaweed-algae-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Red Algae (Rhodophyta)",
+        "capacity": 3,
+        "itemIds": [
+          "edible-seaweed-algae-4",
+          "edible-seaweed-algae-5",
+          "edible-seaweed-algae-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Brown Algae (Phaeophyceae)",
+        "capacity": 4,
+        "itemIds": [
+          "edible-seaweed-algae-7",
+          "edible-seaweed-algae-8",
+          "edible-seaweed-algae-9",
+          "edible-seaweed-algae-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by algal phylum: Cyanobacteria (Spirulina), Green Algae (Sea Lettuce Ulva, Umibudo Sea Grapes), Red Algae (Nori Porphyra, Dulse, Irish Moss / Carrageen), and Brown Algae / Kelps (Kombu, Wakame, Hijiki, Mozuku).",
+  "sources": [
+    {
+      "title": "FAO: Seaweed Aquaculture & Taxonomy",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

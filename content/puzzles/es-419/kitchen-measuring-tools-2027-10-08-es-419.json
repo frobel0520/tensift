@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "kitchen-measuring-tools-2027-10-08-es-419",
+  "puzzleFamilyId": "kitchen-measuring-tools-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-08",
+  "timezone": "UTC",
+  "theme": "Instrumentos de medición culinaria",
+  "items": [
+    {
+      "itemId": "kitchen-measuring-tools-4",
+      "label": "Termómetro de sonda instantánea"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-8",
+      "label": "Jarra medidora para líquidos"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-1",
+      "label": "Refractómetro Brix"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-6",
+      "label": "Termómetro para horno"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-10",
+      "label": "Jigger de coctelería"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-2",
+      "label": "Báscula digital de gramos"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-7",
+      "label": "Taza medidora para secos"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-5",
+      "label": "Termómetro de caramelo y fritura"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-9",
+      "label": "Cucharas medidoras"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-3",
+      "label": "Balanza mecánica de resorte"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Magnitud física medida por cada instrumento culinario",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Concentración / densidad Brix",
+        "capacity": 1,
+        "itemIds": [
+          "kitchen-measuring-tools-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Básculas de masa",
+        "capacity": 2,
+        "itemIds": [
+          "kitchen-measuring-tools-2",
+          "kitchen-measuring-tools-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Termómetros culinarios",
+        "capacity": 3,
+        "itemIds": [
+          "kitchen-measuring-tools-4",
+          "kitchen-measuring-tools-5",
+          "kitchen-measuring-tools-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Medidores de volumen",
+        "capacity": 4,
+        "itemIds": [
+          "kitchen-measuring-tools-7",
+          "kitchen-measuring-tools-8",
+          "kitchen-measuring-tools-9",
+          "kitchen-measuring-tools-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por magnitud: densidad/azúcar (refractómetro Brix), masa/peso (báscula digital de gramos, balanza mecánica), temperatura (termómetro de sonda instantánea, termómetro de caramelo, termómetro de horno) y volumen (taza medidora seca, jarra medidora líquida, cucharas medidoras, jigger).",
+  "sources": [
+    {
+      "title": "NIST: Kitchen Weights & Measures",
+      "url": "https://www.nist.gov/pml/owm",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

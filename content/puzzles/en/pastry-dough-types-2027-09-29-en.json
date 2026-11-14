@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "pastry-dough-types-2027-09-29-en",
+  "puzzleFamilyId": "pastry-dough-types-001",
+  "locale": "en",
+  "publishDate": "2027-09-29",
+  "timezone": "UTC",
+  "theme": "Classic Pastry Doughs",
+  "items": [
+    {
+      "itemId": "pastry-dough-types-4",
+      "label": "Pâte Brisée (Savory Crust)"
+    },
+    {
+      "itemId": "pastry-dough-types-8",
+      "label": "Swiss Meringue"
+    },
+    {
+      "itemId": "pastry-dough-types-1",
+      "label": "Phyllo (Filo) Dough"
+    },
+    {
+      "itemId": "pastry-dough-types-6",
+      "label": "Pâte Sablée (Rich Shortbread)"
+    },
+    {
+      "itemId": "pastry-dough-types-10",
+      "label": "Angel Food Foam"
+    },
+    {
+      "itemId": "pastry-dough-types-2",
+      "label": "Puff Pastry (Pâte Feuilletée)"
+    },
+    {
+      "itemId": "pastry-dough-types-7",
+      "label": "French Meringue"
+    },
+    {
+      "itemId": "pastry-dough-types-5",
+      "label": "Pâte Sucrée (Sweet Crust)"
+    },
+    {
+      "itemId": "pastry-dough-types-9",
+      "label": "Génoise Sponge"
+    },
+    {
+      "itemId": "pastry-dough-types-3",
+      "label": "Croissant Laminated Dough"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Pastry dough structure (Paper-Thin Stretched Phyllo, Laminated Butter Layers, Shortcrust Tart Doughs, or Meringue/Sponge Egg Foams)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Stretched Paper-Thin Sheets",
+        "capacity": 1,
+        "itemIds": [
+          "pastry-dough-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Laminated Butter Doughs",
+        "capacity": 2,
+        "itemIds": [
+          "pastry-dough-types-2",
+          "pastry-dough-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Shortcrust Tart Doughs",
+        "capacity": 3,
+        "itemIds": [
+          "pastry-dough-types-4",
+          "pastry-dough-types-5",
+          "pastry-dough-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Whipped Egg-Foam Bases",
+        "capacity": 4,
+        "itemIds": [
+          "pastry-dough-types-7",
+          "pastry-dough-types-8",
+          "pastry-dough-types-9",
+          "pastry-dough-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by pastry structure: Paper-Thin Stretched Sheets (Phyllo / Filo Dough), Laminated Butter-Folded Doughs (Puff Pastry Pâte Feuilletée, Croissant Dough), Rubbed-Butter Shortcrusts (Pâte Brisée, Pâte Sucrée, Pâte Sablée), and Whipped Egg-Foam Bases (French Meringue, Swiss Meringue, Genoese Sponge, Angel Food Cake).",
+  "sources": [
+    {
+      "title": "CIA Baking & Pastry Arts",
+      "url": "https://www.ciachef.edu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

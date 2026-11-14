@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "tree-fruit-botanical-classes-001",
+  "theme": "Orchard Fruits by Botany",
+  "publishDate": "2027-10-22",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "tree-fruit-botanical-classes-2",
+        "rivalGroupId": "group-1",
+        "risk": "Blackberries and raspberries are called berries in English.",
+        "resolution": "Botanically, Rubus berries are aggregate clusters of tiny drupelets (group-2), whereas kiwifruit is a true simple berry (group-1)."
+      },
+      {
+        "itemId": "tree-fruit-botanical-classes-5",
+        "rivalGroupId": "group-1",
+        "risk": "Cherries are small round fruits.",
+        "resolution": "Cherries contain a single hard endocarp pit enclosing one seed, making them drupes (group-3), not multi-seeded berries (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

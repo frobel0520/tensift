@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "culinary-nuts-botany-2027-09-15-zh-hant",
+  "puzzleFamilyId": "culinary-nuts-botany-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-15",
+  "timezone": "UTC",
+  "theme": "堅果的植物學真實身分",
+  "items": [
+    {
+      "itemId": "culinary-nuts-botany-4",
+      "label": "榛果"
+    },
+    {
+      "itemId": "culinary-nuts-botany-8",
+      "label": "核桃"
+    },
+    {
+      "itemId": "culinary-nuts-botany-1",
+      "label": "花生"
+    },
+    {
+      "itemId": "culinary-nuts-botany-6",
+      "label": "橡實"
+    },
+    {
+      "itemId": "culinary-nuts-botany-10",
+      "label": "開心果"
+    },
+    {
+      "itemId": "culinary-nuts-botany-2",
+      "label": "地中海松子"
+    },
+    {
+      "itemId": "culinary-nuts-botany-7",
+      "label": "扁桃仁（杏仁）"
+    },
+    {
+      "itemId": "culinary-nuts-botany-5",
+      "label": "板栗（栗子）"
+    },
+    {
+      "itemId": "culinary-nuts-botany-9",
+      "label": "美國胡桃（碧根果）"
+    },
+    {
+      "itemId": "culinary-nuts-botany-3",
+      "label": "紅松子"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各常見「堅果」在植物學上的真實構造（豆科莢果、裸子植物種子、真堅果或核果種子）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "豆科莢果",
+        "capacity": 1,
+        "itemIds": [
+          "culinary-nuts-botany-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "裸子植物種子",
+        "capacity": 2,
+        "itemIds": [
+          "culinary-nuts-botany-2",
+          "culinary-nuts-botany-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "植物學真堅果",
+        "capacity": 3,
+        "itemIds": [
+          "culinary-nuts-botany-4",
+          "culinary-nuts-botany-5",
+          "culinary-nuts-botany-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "核果種子",
+        "capacity": 4,
+        "itemIds": [
+          "culinary-nuts-botany-7",
+          "culinary-nuts-botany-8",
+          "culinary-nuts-botany-9",
+          "culinary-nuts-botany-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依植物學構造分類：地下豆科莢果（花生）、裸子植物松果種子（松子）、植物學真堅果（榛果、栗子、橡實）與核果內種子（杏仁、核桃、胡桃 Pecan、開心果）。",
+  "sources": [
+    {
+      "title": "USDA Forest Service: Nuts & Drupes",
+      "url": "https://www.fs.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

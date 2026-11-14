@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chocolate-confections-types-2027-10-04-en",
+  "puzzleFamilyId": "chocolate-confections-types-001",
+  "locale": "en",
+  "publishDate": "2027-10-04",
+  "timezone": "UTC",
+  "theme": "Classic Confections & Candies",
+  "items": [
+    {
+      "itemId": "chocolate-confections-types-4",
+      "label": "Almond Marzipan"
+    },
+    {
+      "itemId": "chocolate-confections-types-8",
+      "label": "English Toffee"
+    },
+    {
+      "itemId": "chocolate-confections-types-1",
+      "label": "Gelatin Gummy Bears"
+    },
+    {
+      "itemId": "chocolate-confections-types-6",
+      "label": "Sesame Halva"
+    },
+    {
+      "itemId": "chocolate-confections-types-10",
+      "label": "Chocolate Fudge"
+    },
+    {
+      "itemId": "chocolate-confections-types-2",
+      "label": "Montélimar Nougat"
+    },
+    {
+      "itemId": "chocolate-confections-types-7",
+      "label": "Soft Butter Caramel"
+    },
+    {
+      "itemId": "chocolate-confections-types-5",
+      "label": "Hazelnut Praline"
+    },
+    {
+      "itemId": "chocolate-confections-types-9",
+      "label": "Butterscotch"
+    },
+    {
+      "itemId": "chocolate-confections-types-3",
+      "label": "Whipped Marshmallow"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Confectionery structure (Gelatin Gummies, Aerated Nougat/Marshmallow, Nut Pralines/Marzipan, or Butter Caramels & Toffees)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Hydrocolloid Gummy Gel",
+        "capacity": 1,
+        "itemIds": [
+          "chocolate-confections-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Aerated Sugar Foams",
+        "capacity": 2,
+        "itemIds": [
+          "chocolate-confections-types-2",
+          "chocolate-confections-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Nut & Seed Pastes",
+        "capacity": 3,
+        "itemIds": [
+          "chocolate-confections-types-4",
+          "chocolate-confections-types-5",
+          "chocolate-confections-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Cooked Butter-Sugar Candies",
+        "capacity": 4,
+        "itemIds": [
+          "chocolate-confections-types-7",
+          "chocolate-confections-types-8",
+          "chocolate-confections-types-9",
+          "chocolate-confections-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by confectionery structure: Hydrocolloid Gummy Gel (Gelatin Gummy Bears), Aerated Sugar Foams (Montélimar Nougat, Whipped Marshmallow), Nut & Seed Pastes (Almond Marzipan, Hazelnut Praline, Sesame Halva), and Cooked Butter-Sugar Candies (Soft Butter Caramel, English Toffee, Butterscotch, Chocolate Fudge).",
+  "sources": [
+    {
+      "title": "Britannica: Candy & Confectionery",
+      "url": "https://www.britannica.com/topic/candy",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

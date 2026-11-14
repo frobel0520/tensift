@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vegetable-botanical-parts-2027-09-23-zh-hant",
+  "puzzleFamilyId": "vegetable-botanical-parts-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-23",
+  "timezone": "UTC",
+  "theme": "常見蔬菜的食用植物器官",
+  "items": [
+    {
+      "itemId": "vegetable-botanical-parts-4",
+      "label": "菠菜葉"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-8",
+      "label": "小黃瓜"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-1",
+      "label": "朝鮮薊花蕾"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-6",
+      "label": "蘿蔓生菜"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-10",
+      "label": "櫛瓜（夏南瓜）"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-2",
+      "label": "黃洋蔥"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-7",
+      "label": "番茄"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-5",
+      "label": "西洋芹菜梗"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-9",
+      "label": "甜椒"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-3",
+      "label": "大蒜球"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各常見「蔬菜」在植物學上食用的器官部位（花蕾、地下塊莖／鱗莖、葉片與葉柄或植物學果實）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "食用花蕾",
+        "capacity": 1,
+        "itemIds": [
+          "vegetable-botanical-parts-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "地下鱗莖",
+        "capacity": 2,
+        "itemIds": [
+          "vegetable-botanical-parts-2",
+          "vegetable-botanical-parts-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "葉片與葉柄",
+        "capacity": 3,
+        "itemIds": [
+          "vegetable-botanical-parts-4",
+          "vegetable-botanical-parts-5",
+          "vegetable-botanical-parts-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "植物學果實（蔬菜用）",
+        "capacity": 4,
+        "itemIds": [
+          "vegetable-botanical-parts-7",
+          "vegetable-botanical-parts-8",
+          "vegetable-botanical-parts-9",
+          "vegetable-botanical-parts-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依植物器官分類：花蕾（朝鮮薊）、地下鱗莖（洋蔥、大蒜球）、葉片與葉柄（菠菜、西洋芹、蘿蔓生菜）與烹飪當蔬菜但植物學屬果實者（番茄、小黃瓜、甜椒、櫛瓜）。",
+  "sources": [
+    {
+      "title": "USDA Plant Parts Used as Food",
+      "url": "https://www.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

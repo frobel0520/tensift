@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "edible-roots-tubers-001",
+  "theme": "Root & Underground Crops",
+  "publishDate": "2027-10-09",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "edible-roots-tubers-8",
+        "rivalGroupId": "group-3",
+        "risk": "Sweet Potato shares \"potato\" in its name.",
+        "resolution": "Sweet potato (Ipomoea batatas) is a true tuberous root (group-4), whereas white potato (Solanum tuberosum) is a modified stem tuber with eyes (group-3)."
+      },
+      {
+        "itemId": "edible-roots-tubers-2",
+        "rivalGroupId": "group-4",
+        "risk": "Lotus root is commonly called a root.",
+        "resolution": "Lotus root is an underwater horizontal stem rhizome with internal air chambers (group-2), not a true root (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

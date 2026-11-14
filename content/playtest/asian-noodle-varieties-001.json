@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "asian-noodle-varieties-001",
+  "theme": "Asian Noodle Varieties",
+  "publishDate": "2027-10-05",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "asian-noodle-varieties-1",
+        "rivalGroupId": "group-3",
+        "risk": "Cellophane noodles and rice vermicelli are both thin white/clear noodles.",
+        "resolution": "Cellophane glass noodles are made from mung bean starch (group-1), whereas rice vermicelli is made from rice flour (group-3)."
+      },
+      {
+        "itemId": "asian-noodle-varieties-7",
+        "rivalGroupId": "group-3",
+        "risk": "Thick white udon looks pale like wide rice noodles.",
+        "resolution": "Udon is kneaded from wheat flour, water, and salt (group-4), not rice flour (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

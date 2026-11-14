@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "milling-flour-grades-2027-10-16-en",
+  "puzzleFamilyId": "milling-flour-grades-001",
+  "locale": "en",
+  "publishDate": "2027-10-16",
+  "timezone": "UTC",
+  "theme": "Culinary Flours & Starches",
+  "items": [
+    {
+      "itemId": "milling-flour-grades-4",
+      "label": "Dark Rye Flour"
+    },
+    {
+      "itemId": "milling-flour-grades-8",
+      "label": "All-Purpose Wheat Flour"
+    },
+    {
+      "itemId": "milling-flour-grades-1",
+      "label": "Cornstarch (Maize Starch)"
+    },
+    {
+      "itemId": "milling-flour-grades-6",
+      "label": "White Rice Flour"
+    },
+    {
+      "itemId": "milling-flour-grades-10",
+      "label": "Vital Wheat Gluten"
+    },
+    {
+      "itemId": "milling-flour-grades-2",
+      "label": "Blanched Almond Flour"
+    },
+    {
+      "itemId": "milling-flour-grades-7",
+      "label": "Low-Protein Cake Flour"
+    },
+    {
+      "itemId": "milling-flour-grades-5",
+      "label": "Whole Oat Flour"
+    },
+    {
+      "itemId": "milling-flour-grades-9",
+      "label": "High-Protein Bread Flour"
+    },
+    {
+      "itemId": "milling-flour-grades-3",
+      "label": "Chickpea (Besan) Flour"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Flour/starch category (Pure Isolated Starch, Gluten-Free Nut/Legume Flours, Non-Wheat Grain Flours, or Wheat Flour Protein Grades)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Pure Isolated Starch",
+        "capacity": 1,
+        "itemIds": [
+          "milling-flour-grades-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Nut & Legume Flours",
+        "capacity": 2,
+        "itemIds": [
+          "milling-flour-grades-2",
+          "milling-flour-grades-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Non-Wheat Cereal Flours",
+        "capacity": 3,
+        "itemIds": [
+          "milling-flour-grades-4",
+          "milling-flour-grades-5",
+          "milling-flour-grades-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Wheat Flour Protein Grades",
+        "capacity": 4,
+        "itemIds": [
+          "milling-flour-grades-7",
+          "milling-flour-grades-8",
+          "milling-flour-grades-9",
+          "milling-flour-grades-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by flour type: Pure Isolated Starch (Cornstarch), Gluten-Free Nut/Legume Flours (Almond Flour, Chickpea Besan Flour), Non-Wheat Cereal Flours (Dark Rye Flour, Oat Flour, White Rice Flour), and Wheat Flour Grades (Cake Flour ~7%, All-Purpose Flour ~10%, Bread Flour ~12.5%, Vital Wheat Gluten ~75%).",
+  "sources": [
+    {
+      "title": "USDA Wheat & Flour Standards",
+      "url": "https://www.ams.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

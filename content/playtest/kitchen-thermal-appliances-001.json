@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "kitchen-thermal-appliances-001",
+  "theme": "Kitchen Heating Appliances",
+  "publishDate": "2027-10-15",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "kitchen-thermal-appliances-8",
+        "rivalGroupId": "group-1",
+        "risk": "Air fryers sit on the counter for rapid reheating like microwaves.",
+        "resolution": "An air fryer uses an electric resistance coil and high-speed hot-air convection fan (group-4), not 2.45 GHz microwave radiation (group-1)."
+      },
+      {
+        "itemId": "kitchen-thermal-appliances-2",
+        "rivalGroupId": "group-4",
+        "risk": "Induction cooktops heat pans on a flat glass top like radiant electric stoves.",
+        "resolution": "Induction cooktops induce eddy currents directly in ferromagnetic cookware (group-2), rather than heating via glowing resistance elements (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

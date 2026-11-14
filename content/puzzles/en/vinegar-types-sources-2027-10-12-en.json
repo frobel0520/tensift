@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vinegar-types-sources-2027-10-12-en",
+  "puzzleFamilyId": "vinegar-types-sources-001",
+  "locale": "en",
+  "publishDate": "2027-10-12",
+  "timezone": "UTC",
+  "theme": "Culinary Vinegars by Source",
+  "items": [
+    {
+      "itemId": "vinegar-types-sources-4",
+      "label": "Apple Cider Vinegar"
+    },
+    {
+      "itemId": "vinegar-types-sources-8",
+      "label": "White Wine Vinegar"
+    },
+    {
+      "itemId": "vinegar-types-sources-1",
+      "label": "Distilled White Vinegar"
+    },
+    {
+      "itemId": "vinegar-types-sources-6",
+      "label": "Persimmon Vinegar"
+    },
+    {
+      "itemId": "vinegar-types-sources-10",
+      "label": "Balsamic Vinegar of Modena"
+    },
+    {
+      "itemId": "vinegar-types-sources-2",
+      "label": "Japanese Rice Vinegar"
+    },
+    {
+      "itemId": "vinegar-types-sources-7",
+      "label": "Red Wine Vinegar"
+    },
+    {
+      "itemId": "vinegar-types-sources-5",
+      "label": "Coconut Sap Vinegar"
+    },
+    {
+      "itemId": "vinegar-types-sources-9",
+      "label": "Spanish Sherry Vinegar"
+    },
+    {
+      "itemId": "vinegar-types-sources-3",
+      "label": "Chinkiang Black Vinegar"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Fermentation base (Distilled Neutral Alcohol, Malt Barley, Rice/Grain Asian Vinegars, or Grape/Fruit Vinegars)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Distilled Neutral Ethanol",
+        "capacity": 1,
+        "itemIds": [
+          "vinegar-types-sources-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Rice-Based Vinegars",
+        "capacity": 2,
+        "itemIds": [
+          "vinegar-types-sources-2",
+          "vinegar-types-sources-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Orchard & Palm Fruit Vinegars",
+        "capacity": 3,
+        "itemIds": [
+          "vinegar-types-sources-4",
+          "vinegar-types-sources-5",
+          "vinegar-types-sources-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Grape & Wine Vinegars",
+        "capacity": 4,
+        "itemIds": [
+          "vinegar-types-sources-7",
+          "vinegar-types-sources-8",
+          "vinegar-types-sources-9",
+          "vinegar-types-sources-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by vinegar base: Distilled Neutral Ethanol (Distilled White Vinegar), Rice-Based Vinegars (Japanese Rice Vinegar, Chinkiang Black Vinegar), Orchard & Palm Fruit Vinegars (Apple Cider Vinegar, Coconut Sap Vinegar, Persimmon Vinegar), and Grape & Wine Vinegars (Red Wine Vinegar, White Wine Vinegar, Spanish Sherry Vinegar, Balsamic Vinegar of Modena).",
+  "sources": [
+    {
+      "title": "Codex Alimentarius: Regional Vinegar Standards",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

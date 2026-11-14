@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "citrus-fruit-hybrids-2027-09-17-es-419",
+  "puzzleFamilyId": "citrus-fruit-hybrids-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-17",
+  "timezone": "UTC",
+  "theme": "Cítricos ancestrales e híbridos",
+  "items": [
+    {
+      "itemId": "citrus-fruit-hybrids-4",
+      "label": "Limón Eureka"
+    },
+    {
+      "itemId": "citrus-fruit-hybrids-8",
+      "label": "Toronja roja"
+    },
+    {
+      "itemId": "citrus-fruit-hybrids-1",
+      "label": "Kumquat ovalado"
+    },
+    {
+      "itemId": "citrus-fruit-hybrids-6",
+      "label": "Lima persa"
+    },
+    {
+      "itemId": "citrus-fruit-hybrids-10",
+      "label": "Naranja sanguina"
+    },
+    {
+      "itemId": "citrus-fruit-hybrids-2",
+      "label": "Cidra"
+    },
+    {
+      "itemId": "citrus-fruit-hybrids-7",
+      "label": "Naranja dulce"
+    },
+    {
+      "itemId": "citrus-fruit-hybrids-5",
+      "label": "Lima mexicana"
+    },
+    {
+      "itemId": "citrus-fruit-hybrids-9",
+      "label": "Naranja amarga"
+    },
+    {
+      "itemId": "citrus-fruit-hybrids-3",
+      "label": "Pampelmusa (pomelo chino)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Linaje botánico de cada fruto cítrico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Kumquat",
+        "capacity": 1,
+        "itemIds": [
+          "citrus-fruit-hybrids-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Especies ancestrales puras",
+        "capacity": 2,
+        "itemIds": [
+          "citrus-fruit-hybrids-2",
+          "citrus-fruit-hybrids-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Híbridos ácidos de limón y lima",
+        "capacity": 3,
+        "itemIds": [
+          "citrus-fruit-hybrids-4",
+          "citrus-fruit-hybrids-5",
+          "citrus-fruit-hybrids-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Naranjas y toronjas híbridas",
+        "capacity": 4,
+        "itemIds": [
+          "citrus-fruit-hybrids-7",
+          "citrus-fruit-hybrids-8",
+          "citrus-fruit-hybrids-9",
+          "citrus-fruit-hybrids-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por linaje: género kumquat (kumquat ovalado), especies ancestrales puras (cidra, pomelo chino/pampelmusa), híbridos ácidos (limón Eureka, lima mexicana, lima persa) e híbridos dulces/pomelos (naranja dulce, toronja/pomelo, naranja amarga, naranja sanguina).",
+  "sources": [
+    {
+      "title": "FAO Citrus Taxonomy",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.7
+  },
+  "status": "scheduled"
+}

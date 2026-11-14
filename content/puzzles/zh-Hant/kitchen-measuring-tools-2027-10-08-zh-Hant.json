@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "kitchen-measuring-tools-2027-10-08-zh-hant",
+  "puzzleFamilyId": "kitchen-measuring-tools-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-08",
+  "timezone": "UTC",
+  "theme": "烘焙與烹飪測量工具",
+  "items": [
+    {
+      "itemId": "kitchen-measuring-tools-4",
+      "label": "瞬讀針式溫度計"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-8",
+      "label": "帶嘴液體量杯"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-1",
+      "label": "光學糖度折射計（Brix）"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-6",
+      "label": "烤箱內置溫度計"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-10",
+      "label": "調酒雙頭量杯（Jigger）"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-2",
+      "label": "數位電子克秤"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-7",
+      "label": "平口乾粉量杯"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-5",
+      "label": "糖漿與油炸溫度計"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-9",
+      "label": "標準量匙組"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-3",
+      "label": "機械指針秤"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各廚房測量儀器的物理量（液體比重計、質量天平秤、溫度計或容積量具）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "光學糖度／比重計",
+        "capacity": 1,
+        "itemIds": [
+          "kitchen-measuring-tools-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "質量與重量秤",
+        "capacity": 2,
+        "itemIds": [
+          "kitchen-measuring-tools-2",
+          "kitchen-measuring-tools-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "溫度測量儀器",
+        "capacity": 3,
+        "itemIds": [
+          "kitchen-measuring-tools-4",
+          "kitchen-measuring-tools-5",
+          "kitchen-measuring-tools-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "容積測量器具",
+        "capacity": 4,
+        "itemIds": [
+          "kitchen-measuring-tools-7",
+          "kitchen-measuring-tools-8",
+          "kitchen-measuring-tools-9",
+          "kitchen-measuring-tools-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依測量物理量分類：糖度／比重（糖度折射計 Brix）、質量重量（數位克數電子秤、機械盤秤）、溫度（瞬讀探針溫度計、糖漿夾式溫度計、烤箱內置溫度計）與容積（乾粉量杯、帶嘴液體量杯、量匙組、調酒量杯 Jigger）。",
+  "sources": [
+    {
+      "title": "NIST: Kitchen Weights & Measures",
+      "url": "https://www.nist.gov/pml/owm",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

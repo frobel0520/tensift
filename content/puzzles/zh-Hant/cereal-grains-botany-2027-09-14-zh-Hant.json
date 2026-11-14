@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cereal-grains-botany-2027-09-14-zh-hant",
+  "puzzleFamilyId": "cereal-grains-botany-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-14",
+  "timezone": "UTC",
+  "theme": "穀物與假穀物植物分類",
+  "items": [
+    {
+      "itemId": "cereal-grains-botany-4",
+      "label": "稻米"
+    },
+    {
+      "itemId": "cereal-grains-botany-8",
+      "label": "大麥"
+    },
+    {
+      "itemId": "cereal-grains-botany-1",
+      "label": "蕎麥"
+    },
+    {
+      "itemId": "cereal-grains-botany-6",
+      "label": "高粱"
+    },
+    {
+      "itemId": "cereal-grains-botany-10",
+      "label": "燕麥"
+    },
+    {
+      "itemId": "cereal-grains-botany-2",
+      "label": "藜麥"
+    },
+    {
+      "itemId": "cereal-grains-botany-7",
+      "label": "小麥"
+    },
+    {
+      "itemId": "cereal-grains-botany-5",
+      "label": "玉米"
+    },
+    {
+      "itemId": "cereal-grains-botany-9",
+      "label": "黑麥（裸麥）"
+    },
+    {
+      "itemId": "cereal-grains-botany-3",
+      "label": "莧籽（尾穗莧）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各糧食作物的植物學科屬分類（蓼科蕎麥、莧科假穀物、無麩質熱帶禾本科或溫帶麥類禾本科）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "蓼科假穀物",
+        "capacity": 1,
+        "itemIds": [
+          "cereal-grains-botany-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "莧科假穀物",
+        "capacity": 2,
+        "itemIds": [
+          "cereal-grains-botany-2",
+          "cereal-grains-botany-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "暖季禾本科穀物",
+        "capacity": 3,
+        "itemIds": [
+          "cereal-grains-botany-4",
+          "cereal-grains-botany-5",
+          "cereal-grains-botany-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "溫帶冷季禾本科",
+        "capacity": 4,
+        "itemIds": [
+          "cereal-grains-botany-7",
+          "cereal-grains-botany-8",
+          "cereal-grains-botany-9",
+          "cereal-grains-botany-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依植物科屬分類：蓼科假穀物（蕎麥）、莧科假穀物（藜麥、莧籽）、暖季禾本科穀物（稻米、玉米、高粱）與溫帶冷季禾本科（小麥、大麥、黑麥、燕麥）。",
+  "sources": [
+    {
+      "title": "FAO: Cereals & Pseudocereals",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.64
+  },
+  "status": "scheduled"
+}

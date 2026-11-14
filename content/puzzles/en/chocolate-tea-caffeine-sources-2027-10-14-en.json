@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chocolate-tea-caffeine-sources-2027-10-14-en",
+  "puzzleFamilyId": "chocolate-tea-caffeine-sources-001",
+  "locale": "en",
+  "publishDate": "2027-10-14",
+  "timezone": "UTC",
+  "theme": "Caffeinated Plants & Drinks",
+  "items": [
+    {
+      "itemId": "chocolate-tea-caffeine-sources-4",
+      "label": "Matcha Green Tea"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-8",
+      "label": "Filter Drip Coffee"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-1",
+      "label": "Guarana Seed Drink"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-6",
+      "label": "Roasted Oolong Tea"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-10",
+      "label": "Freeze-Dried Instant Coffee"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-2",
+      "label": "Yerba Mate"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-7",
+      "label": "Espresso Shot"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-5",
+      "label": "Assam Black Tea"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-9",
+      "label": "Cold Brew Coffee"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-3",
+      "label": "Amazonian Guayusa"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Botanical caffeine source (Guarana Vine, Ilex Holly Leaves, Camellia sinensis Tea Leaves, or Coffea Coffee Beans)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Guarana Vine (Paullinia)",
+        "capacity": 1,
+        "itemIds": [
+          "chocolate-tea-caffeine-sources-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Ilex Holly Infusions",
+        "capacity": 2,
+        "itemIds": [
+          "chocolate-tea-caffeine-sources-2",
+          "chocolate-tea-caffeine-sources-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Camellia sinensis Teas",
+        "capacity": 3,
+        "itemIds": [
+          "chocolate-tea-caffeine-sources-4",
+          "chocolate-tea-caffeine-sources-5",
+          "chocolate-tea-caffeine-sources-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Coffea Coffee Preparations",
+        "capacity": 4,
+        "itemIds": [
+          "chocolate-tea-caffeine-sources-7",
+          "chocolate-tea-caffeine-sources-8",
+          "chocolate-tea-caffeine-sources-9",
+          "chocolate-tea-caffeine-sources-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by botanical source: Guarana Vine (Guarana Energy Extract), Ilex Holly Leaves (Yerba Mate, Amazonian Guayusa), Camellia sinensis Tea Leaves (Matcha Green Tea, Assam Black Tea, Oolong Tea), and Coffea Beans (Espresso, Filter Drip Coffee, Cold Brew Coffee, Instant Freeze-Dried Coffee).",
+  "sources": [
+    {
+      "title": "USDA & EFSA: Caffeine Sources",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/caffeine",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

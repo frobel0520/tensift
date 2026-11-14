@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "edible-mushrooms-fungi-2027-09-22-es-419",
+  "puzzleFamilyId": "edible-mushrooms-fungi-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-22",
+  "timezone": "UTC",
+  "theme": "Hongos y setas comestibles",
+  "items": [
+    {
+      "itemId": "edible-mushrooms-fungi-4",
+      "label": "Oreja de madera"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-8",
+      "label": "Seta ostra"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-1",
+      "label": "Trufa negra del Périgord"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-6",
+      "label": "Maitake"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-10",
+      "label": "Seta enoki"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-2",
+      "label": "Colmenilla negra"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-7",
+      "label": "Shiitake"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-5",
+      "label": "Melena de león"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-9",
+      "label": "Champiñón común"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-3",
+      "label": "Colmenilla rubia"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tipo morfológico de cada hongo comestible",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Trufa subterránea",
+        "capacity": 1,
+        "itemIds": [
+          "edible-mushrooms-fungi-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Colmenillas (morillas)",
+        "capacity": 2,
+        "itemIds": [
+          "edible-mushrooms-fungi-2",
+          "edible-mushrooms-fungi-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Orejas y políporos de madera",
+        "capacity": 3,
+        "itemIds": [
+          "edible-mushrooms-fungi-4",
+          "edible-mushrooms-fungi-5",
+          "edible-mushrooms-fungi-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Setas con láminas",
+        "capacity": 4,
+        "itemIds": [
+          "edible-mushrooms-fungi-7",
+          "edible-mushrooms-fungi-8",
+          "edible-mushrooms-fungi-9",
+          "edible-mushrooms-fungi-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por morfología: trufa subterránea (trufa negra del Périgord), colmenillas ascomicetos (colmenilla negra, colmenilla rubia), hongos gelatinosos/políporos de madera (oreja de madera, melena de león, maitake) y setas con láminas (shiitake, seta ostra, champiñón común, enoki).",
+  "sources": [
+    {
+      "title": "FAO: Wild Edible Fungi",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

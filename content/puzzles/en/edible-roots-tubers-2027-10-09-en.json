@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "edible-roots-tubers-2027-10-09-en",
+  "puzzleFamilyId": "edible-roots-tubers-001",
+  "locale": "en",
+  "publishDate": "2027-10-09",
+  "timezone": "UTC",
+  "theme": "Root & Underground Crops",
+  "items": [
+    {
+      "itemId": "edible-roots-tubers-4",
+      "label": "Solanum Potato"
+    },
+    {
+      "itemId": "edible-roots-tubers-8",
+      "label": "Sweet Potato"
+    },
+    {
+      "itemId": "edible-roots-tubers-1",
+      "label": "Taro Corm"
+    },
+    {
+      "itemId": "edible-roots-tubers-6",
+      "label": "Andean Oca"
+    },
+    {
+      "itemId": "edible-roots-tubers-10",
+      "label": "Daikon Radish"
+    },
+    {
+      "itemId": "edible-roots-tubers-2",
+      "label": "Lotus Root (Nelumbo)"
+    },
+    {
+      "itemId": "edible-roots-tubers-7",
+      "label": "Carrot"
+    },
+    {
+      "itemId": "edible-roots-tubers-5",
+      "label": "Jerusalem Artichoke"
+    },
+    {
+      "itemId": "edible-roots-tubers-9",
+      "label": "Cassava (Yuca)"
+    },
+    {
+      "itemId": "edible-roots-tubers-3",
+      "label": "Wasabi Rhizome"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Subterranean storage organ (Taro Corm, Ginger/Turmeric Rhizomes, Stem Tubers, or True Taproot/Tuberous Roots)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Vertical Corm",
+        "capacity": 1,
+        "itemIds": [
+          "edible-roots-tubers-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Horizontal Rhizomes",
+        "capacity": 2,
+        "itemIds": [
+          "edible-roots-tubers-2",
+          "edible-roots-tubers-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Stem Tubers",
+        "capacity": 3,
+        "itemIds": [
+          "edible-roots-tubers-4",
+          "edible-roots-tubers-5",
+          "edible-roots-tubers-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Taproots & Tuberous Roots",
+        "capacity": 4,
+        "itemIds": [
+          "edible-roots-tubers-7",
+          "edible-roots-tubers-8",
+          "edible-roots-tubers-9",
+          "edible-roots-tubers-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by underground organ: Vertical Corm (Taro Corm), Horizontal Rhizomes (Lotus Root, Wasabi Rhizome), Stem Tubers (Solanum Potato, Jerusalem Artichoke, Andean Oca), and Taproots & Tuberous Roots (Carrot, Sweet Potato, Cassava, Daikon Radish).",
+  "sources": [
+    {
+      "title": "FAO: Roots, Tubers, Plantains and Bananas",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

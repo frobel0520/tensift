@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "milling-flour-grades-001",
+  "theme": "Culinary Flours & Starches",
+  "publishDate": "2027-10-16",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "milling-flour-grades-1",
+        "rivalGroupId": "group-3",
+        "risk": "Cornstarch is made from corn, a non-wheat cereal.",
+        "resolution": "Cornstarch is a 100% pure isolated endosperm starch (group-1), unlike whole/milled cereal flours containing protein and fiber (group-3)."
+      },
+      {
+        "itemId": "milling-flour-grades-4",
+        "rivalGroupId": "group-4",
+        "risk": "Rye flour is used for bread baking and contains secalin.",
+        "resolution": "Rye is a distinct cereal species Secale cereale (group-3), not Triticum wheat flour grades (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

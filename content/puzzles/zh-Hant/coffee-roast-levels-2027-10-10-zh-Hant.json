@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "coffee-roast-levels-2027-10-10-zh-hant",
+  "puzzleFamilyId": "coffee-roast-levels-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-10",
+  "timezone": "UTC",
+  "theme": "咖啡豆烘焙與飲品配方",
+  "items": [
+    {
+      "itemId": "coffee-roast-levels-4",
+      "label": "單份義式濃縮"
+    },
+    {
+      "itemId": "coffee-roast-levels-8",
+      "label": "咖啡拿鐵"
+    },
+    {
+      "itemId": "coffee-roast-levels-1",
+      "label": "咖啡生豆"
+    },
+    {
+      "itemId": "coffee-roast-levels-6",
+      "label": "澳式長黑咖啡（Long Black）"
+    },
+    {
+      "itemId": "coffee-roast-levels-10",
+      "label": "可塔朵（Cortado）"
+    },
+    {
+      "itemId": "coffee-roast-levels-2",
+      "label": "淺焙（肉桂烘焙）"
+    },
+    {
+      "itemId": "coffee-roast-levels-7",
+      "label": "卡布奇諾"
+    },
+    {
+      "itemId": "coffee-roast-levels-5",
+      "label": "美式黑咖啡"
+    },
+    {
+      "itemId": "coffee-roast-levels-9",
+      "label": "澳式白咖啡（Flat White）"
+    },
+    {
+      "itemId": "coffee-roast-levels-3",
+      "label": "中焙（城市烘焙）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各咖啡術語的類別（未烘焙生豆、烘焙度分級、黑咖啡／加水濃縮或濃縮加奶飲品）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "未烘焙咖啡生豆",
+        "capacity": 1,
+        "itemIds": [
+          "coffee-roast-levels-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "烘焙度分級",
+        "capacity": 2,
+        "itemIds": [
+          "coffee-roast-levels-2",
+          "coffee-roast-levels-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "純濃縮與加水黑咖啡",
+        "capacity": 3,
+        "itemIds": [
+          "coffee-roast-levels-4",
+          "coffee-roast-levels-5",
+          "coffee-roast-levels-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "濃縮加蒸奶飲品",
+        "capacity": 4,
+        "itemIds": [
+          "coffee-roast-levels-7",
+          "coffee-roast-levels-8",
+          "coffee-roast-levels-9",
+          "coffee-roast-levels-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依咖啡類別分類：未烘焙生豆（咖啡生豆）、烘焙程度（淺焙肉桂焙、中焙城市焙）、純咖啡與加水飲品（單份濃縮、美式咖啡、澳式長黑 Long Black）與義式加奶飲品（卡布奇諾、拿鐵、澳白 Flat White、可塔朵 Cortado）。",
+  "sources": [
+    {
+      "title": "Specialty Coffee Association: Coffee Standards",
+      "url": "https://sca.coffee/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

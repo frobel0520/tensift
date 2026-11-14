@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "culinary-spices-plant-parts-2027-09-08-zh-hant",
+  "puzzleFamilyId": "culinary-spices-plant-parts-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-08",
+  "timezone": "UTC",
+  "theme": "香料植物的取材部位",
+  "items": [
+    {
+      "itemId": "culinary-spices-plant-parts-4",
+      "label": "薑黃"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-8",
+      "label": "綠豆蔻莢"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-1",
+      "label": "番紅花花絲"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-6",
+      "label": "南薑（高良薑）"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-10",
+      "label": "八角茴香"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-2",
+      "label": "錫蘭肉桂捲"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-7",
+      "label": "黑胡椒粒"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-5",
+      "label": "生薑"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-9",
+      "label": "孜然籽"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-3",
+      "label": "桂皮"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各香料在植物體上的取材部位（花柱頭、樹皮、根莖或種子與乾燥果實）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "花朵柱頭",
+        "capacity": 1,
+        "itemIds": [
+          "culinary-spices-plant-parts-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "乾燥樹皮",
+        "capacity": 2,
+        "itemIds": [
+          "culinary-spices-plant-parts-2",
+          "culinary-spices-plant-parts-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "地下根莖",
+        "capacity": 3,
+        "itemIds": [
+          "culinary-spices-plant-parts-4",
+          "culinary-spices-plant-parts-5",
+          "culinary-spices-plant-parts-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "種子與乾燥果實",
+        "capacity": 4,
+        "itemIds": [
+          "culinary-spices-plant-parts-7",
+          "culinary-spices-plant-parts-8",
+          "culinary-spices-plant-parts-9",
+          "culinary-spices-plant-parts-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依植物部位分類：花朵柱頭（番紅花）、乾燥樹皮（錫蘭肉桂、中國桂皮）、地下根莖（薑黃、生薑、南薑）與種子／乾燥果實（黑胡椒粒、綠豆蔻莢、孜然籽、八角）。",
+  "sources": [
+    {
+      "title": "ISO 676: Spices and Condiments Nomenclature",
+      "url": "https://www.iso.org/standard/4839.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

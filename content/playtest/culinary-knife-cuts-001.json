@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "culinary-knife-cuts-001",
+  "theme": "Classical Culinary Knife Cuts",
+  "publishDate": "2027-09-04",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "culinary-knife-cuts-1",
+        "rivalGroupId": "group-3",
+        "risk": "Chiffonade produces thin strips like Julienne.",
+        "resolution": "Chiffonade is rolled leafy-herb/green ribbons (group-1), whereas Julienne is cut from firm root/stem vegetables into rectangular sticks (group-3)."
+      },
+      {
+        "itemId": "culinary-knife-cuts-7",
+        "rivalGroupId": "group-3",
+        "risk": "Brunoise is cut directly from Julienne strips.",
+        "resolution": "Brunoise is a 3 mm cubic dice (group-4), not an elongated stick (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

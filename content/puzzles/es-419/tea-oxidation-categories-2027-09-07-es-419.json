@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tea-oxidation-categories-2027-09-07-es-419",
+  "puzzleFamilyId": "tea-oxidation-categories-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-07",
+  "timezone": "UTC",
+  "theme": "Tipos de té por nivel de oxidación",
+  "items": [
+    {
+      "itemId": "tea-oxidation-categories-4",
+      "label": "Sencha japonés"
+    },
+    {
+      "itemId": "tea-oxidation-categories-8",
+      "label": "Oolong de alta montaña"
+    },
+    {
+      "itemId": "tea-oxidation-categories-1",
+      "label": "Té pu-erh"
+    },
+    {
+      "itemId": "tea-oxidation-categories-6",
+      "label": "Longjing (Pozo del Dragón)"
+    },
+    {
+      "itemId": "tea-oxidation-categories-10",
+      "label": "Té negro Darjeeling"
+    },
+    {
+      "itemId": "tea-oxidation-categories-2",
+      "label": "Aguja de plata (Baihao Yinzhen)"
+    },
+    {
+      "itemId": "tea-oxidation-categories-7",
+      "label": "Oolong Tieguanyin"
+    },
+    {
+      "itemId": "tea-oxidation-categories-5",
+      "label": "Matcha"
+    },
+    {
+      "itemId": "tea-oxidation-categories-9",
+      "label": "Té negro Assam"
+    },
+    {
+      "itemId": "tea-oxidation-categories-3",
+      "label": "Peonía blanca (Baimudan)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría de procesamiento y oxidación de cada té verdadero",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Té oscuro posfermentado",
+        "capacity": 1,
+        "itemIds": [
+          "tea-oxidation-categories-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Tés blancos",
+        "capacity": 2,
+        "itemIds": [
+          "tea-oxidation-categories-2",
+          "tea-oxidation-categories-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Tés verdes sin oxidar",
+        "capacity": 3,
+        "itemIds": [
+          "tea-oxidation-categories-4",
+          "tea-oxidation-categories-5",
+          "tea-oxidation-categories-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Tés oolong y negros",
+        "capacity": 4,
+        "itemIds": [
+          "tea-oxidation-categories-7",
+          "tea-oxidation-categories-8",
+          "tea-oxidation-categories-9",
+          "tea-oxidation-categories-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por procesamiento: té oscuro posfermentado (pu-erh), té blanco de mínima oxidación (aguja de plata, peonía blanca), tés verdes sin oxidar (sencha, matcha, longjing) y tés oolong y negros oxidados (tieguanyin, oolong de alta montaña, assam, darjeeling).",
+  "sources": [
+    {
+      "title": "FAO Tea Classification",
+      "url": "https://www.fao.org/markets-and-trade/commodities/tea/en/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

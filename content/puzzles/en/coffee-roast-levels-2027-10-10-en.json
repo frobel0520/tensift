@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "coffee-roast-levels-2027-10-10-en",
+  "puzzleFamilyId": "coffee-roast-levels-001",
+  "locale": "en",
+  "publishDate": "2027-10-10",
+  "timezone": "UTC",
+  "theme": "Coffee Roast & Drink Formats",
+  "items": [
+    {
+      "itemId": "coffee-roast-levels-4",
+      "label": "Single Espresso Shot"
+    },
+    {
+      "itemId": "coffee-roast-levels-8",
+      "label": "Caffè Latte"
+    },
+    {
+      "itemId": "coffee-roast-levels-1",
+      "label": "Green Coffee Bean"
+    },
+    {
+      "itemId": "coffee-roast-levels-6",
+      "label": "Australian Long Black"
+    },
+    {
+      "itemId": "coffee-roast-levels-10",
+      "label": "Cortado"
+    },
+    {
+      "itemId": "coffee-roast-levels-2",
+      "label": "Light Cinnamon Roast"
+    },
+    {
+      "itemId": "coffee-roast-levels-7",
+      "label": "Cappuccino"
+    },
+    {
+      "itemId": "coffee-roast-levels-5",
+      "label": "Caffè Americano"
+    },
+    {
+      "itemId": "coffee-roast-levels-9",
+      "label": "Flat White"
+    },
+    {
+      "itemId": "coffee-roast-levels-3",
+      "label": "Medium City Roast"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Coffee category (Green Unroasted Bean, Roast Levels, Black Espresso/Water Drinks, or Espresso-Milk Drinks)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Unroasted Raw Bean",
+        "capacity": 1,
+        "itemIds": [
+          "coffee-roast-levels-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Roast Degree Levels",
+        "capacity": 2,
+        "itemIds": [
+          "coffee-roast-levels-2",
+          "coffee-roast-levels-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Black & Water Espresso",
+        "capacity": 3,
+        "itemIds": [
+          "coffee-roast-levels-4",
+          "coffee-roast-levels-5",
+          "coffee-roast-levels-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Espresso + Steamed Milk",
+        "capacity": 4,
+        "itemIds": [
+          "coffee-roast-levels-7",
+          "coffee-roast-levels-8",
+          "coffee-roast-levels-9",
+          "coffee-roast-levels-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by coffee category: Unroasted Raw Bean (Green Coffee Bean), Roast Levels (Light Cinnamon Roast, Medium City Roast), Black & Water-Diluted Drinks (Single Espresso, Americano, Long Black), and Milk-Espresso Drinks (Cappuccino, Caffè Latte, Flat White, Cortado).",
+  "sources": [
+    {
+      "title": "Specialty Coffee Association: Coffee Standards",
+      "url": "https://sca.coffee/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

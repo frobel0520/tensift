@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "wine-styles-fermentation-001",
+  "theme": "Wine Styles & Production",
+  "publishDate": "2027-09-21",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "wine-styles-fermentation-1",
+        "rivalGroupId": "group-4",
+        "risk": "Provence Rosé is a still wine without bubbles.",
+        "resolution": "Rosé is produced by brief red-grape skin maceration for pink hue (group-1), distinct from classic still red/white varietals (group-4)."
+      },
+      {
+        "itemId": "wine-styles-fermentation-2",
+        "rivalGroupId": "group-4",
+        "risk": "Port is made from red wine grapes.",
+        "resolution": "Port is fortified with distilled grape spirit during fermentation (group-2), not an unfortified still table wine (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

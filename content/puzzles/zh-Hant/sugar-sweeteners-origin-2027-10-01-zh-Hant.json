@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sugar-sweeteners-origin-2027-10-01-zh-hant",
+  "puzzleFamilyId": "sugar-sweeteners-origin-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-01",
+  "timezone": "UTC",
+  "theme": "天然糖類與代糖來源",
+  "items": [
+    {
+      "itemId": "sugar-sweeteners-origin-4",
+      "label": "木糖醇（Xylitol）"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-8",
+      "label": "甜菜糖"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-1",
+      "label": "蔗糖素（Sucralose）"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-6",
+      "label": "山梨糖醇（Sorbitol）"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-10",
+      "label": "椰花蜜糖（棕櫚糖）"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-2",
+      "label": "純楓糖漿"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-7",
+      "label": "精製甘蔗白砂糖"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-5",
+      "label": "赤藻糖醇（Erythritol）"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-9",
+      "label": "高果糖玉米糖漿"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-3",
+      "label": "樺樹汁糖漿"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各甜味劑的化學與來源分類（零卡合成代糖、樹汁糖漿、糖醇或蔗糖／甜菜／澱粉熱量糖）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "零卡合成代糖",
+        "capacity": 1,
+        "itemIds": [
+          "sugar-sweeteners-origin-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "樹汁熬製糖漿",
+        "capacity": 2,
+        "itemIds": [
+          "sugar-sweeteners-origin-2",
+          "sugar-sweeteners-origin-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "糖醇類（Polyols）",
+        "capacity": 3,
+        "itemIds": [
+          "sugar-sweeteners-origin-4",
+          "sugar-sweeteners-origin-5",
+          "sugar-sweeteners-origin-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "傳統熱量糖與果糖漿",
+        "capacity": 4,
+        "itemIds": [
+          "sugar-sweeteners-origin-7",
+          "sugar-sweeteners-origin-8",
+          "sugar-sweeteners-origin-9",
+          "sugar-sweeteners-origin-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依甜味劑類別分類：零熱量合成代糖（蔗糖素 Sucralose）、樹汁熬製糖漿（純楓糖漿、樺樹糖漿）、多元糖醇（木糖醇、赤藻糖醇、山梨糖醇）與傳統熱量糖（精製甘蔗白糖、甜菜糖、高果糖玉米糖漿、椰糖）。",
+  "sources": [
+    {
+      "title": "FDA: High-Intensity Sweeteners & Sugars",
+      "url": "https://www.fda.gov/food/food-additives-petitions/high-intensity-sweeteners",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

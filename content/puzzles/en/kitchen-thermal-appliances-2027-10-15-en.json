@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "kitchen-thermal-appliances-2027-10-15-en",
+  "puzzleFamilyId": "kitchen-thermal-appliances-001",
+  "locale": "en",
+  "publishDate": "2027-10-15",
+  "timezone": "UTC",
+  "theme": "Kitchen Heating Appliances",
+  "items": [
+    {
+      "itemId": "kitchen-thermal-appliances-4",
+      "label": "Sous-Vide Immersion Circulator"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-8",
+      "label": "Countertop Air Fryer"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-1",
+      "label": "Microwave Oven"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-6",
+      "label": "Electric Bain-Marie Warmer"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-10",
+      "label": "Electric Waffle Iron"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-2",
+      "label": "Induction Cooktop"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-7",
+      "label": "Convection Electric Oven"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-5",
+      "label": "Sous-Vide Water Oven"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-9",
+      "label": "Pop-Up Bread Toaster"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-3",
+      "label": "IH Induction Rice Cooker"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Primary heating technology (Magnetron Microwaves, Electromagnetic Induction, Precision Water-Bath Sous-Vide, or Radiant/Convection Heating)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Dielectric Microwaves",
+        "capacity": 1,
+        "itemIds": [
+          "kitchen-thermal-appliances-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Electromagnetic Induction",
+        "capacity": 2,
+        "itemIds": [
+          "kitchen-thermal-appliances-2",
+          "kitchen-thermal-appliances-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Precision Water-Bath",
+        "capacity": 3,
+        "itemIds": [
+          "kitchen-thermal-appliances-4",
+          "kitchen-thermal-appliances-5",
+          "kitchen-thermal-appliances-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Resistance & Convection",
+        "capacity": 4,
+        "itemIds": [
+          "kitchen-thermal-appliances-7",
+          "kitchen-thermal-appliances-8",
+          "kitchen-thermal-appliances-9",
+          "kitchen-thermal-appliances-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by heating physics: Dielectric Microwaves (Microwave Oven), Electromagnetic Induction (Induction Cooktop, IH Induction Rice Cooker), Precision Water-Bath Circulation (Sous-Vide Immersion Circulator, Sous-Vide Water Oven, Electric Bain-Marie Warmer), and Resistance & Convection Heating (Convection Electric Oven, Countertop Air Fryer, Pop-Up Bread Toaster, Electric Waffle Iron).",
+  "sources": [
+    {
+      "title": "NIST & IEC Household Cooking Standards",
+      "url": "https://www.iec.ch/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

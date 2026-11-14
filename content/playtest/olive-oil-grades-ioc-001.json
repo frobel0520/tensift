@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "olive-oil-grades-ioc-001",
+  "theme": "Olive Oil Quality Grades",
+  "publishDate": "2027-10-18",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "olive-oil-grades-ioc-1",
+        "rivalGroupId": "group-4",
+        "risk": "Lampante has \"Virgin Olive Oil\" in its technical name.",
+        "resolution": "Lampante has >2% free acidity and sensory defects, making it unfit for direct consumption without refining (group-1), unlike edible virgin grades (group-4)."
+      },
+      {
+        "itemId": "olive-oil-grades-ioc-5",
+        "rivalGroupId": "group-4",
+        "risk": "Pure Olive Oil is marketed as 100% olive oil.",
+        "resolution": "Classic/Pure Olive Oil is a blend of chemically/thermally refined olive oil and virgin oil (group-3), not unrefined mechanical virgin oil (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

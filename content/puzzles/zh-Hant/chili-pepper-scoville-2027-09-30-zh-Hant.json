@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chili-pepper-scoville-2027-09-30-zh-hant",
+  "puzzleFamilyId": "chili-pepper-scoville-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-30",
+  "timezone": "UTC",
+  "theme": "辣椒品種辣度分級",
+  "items": [
+    {
+      "itemId": "chili-pepper-scoville-4",
+      "label": "卡宴辣椒（Cayenne）"
+    },
+    {
+      "itemId": "chili-pepper-scoville-8",
+      "label": "蘇格蘭帽辣椒"
+    },
+    {
+      "itemId": "chili-pepper-scoville-1",
+      "label": "甜彩椒（0 SHU）"
+    },
+    {
+      "itemId": "chili-pepper-scoville-6",
+      "label": "塔巴斯科辣椒"
+    },
+    {
+      "itemId": "chili-pepper-scoville-10",
+      "label": "卡羅萊納死神辣椒"
+    },
+    {
+      "itemId": "chili-pepper-scoville-2",
+      "label": "波布拉諾辣椒（Poblano）"
+    },
+    {
+      "itemId": "chili-pepper-scoville-7",
+      "label": "哈瓦那辣椒（Habanero）"
+    },
+    {
+      "itemId": "chili-pepper-scoville-5",
+      "label": "泰國鳥眼朝天椒"
+    },
+    {
+      "itemId": "chili-pepper-scoville-9",
+      "label": "印度鬼椒（Bhut Jolokia）"
+    },
+    {
+      "itemId": "chili-pepper-scoville-3",
+      "label": "墨西哥哈拉佩尼奧辣椒"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各辣椒品種在史高維爾辣度指標（SHU）的區間分級（零辣度甜椒、微辣、中高辣或極辣辣椒）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "0 SHU（無辣度）",
+        "capacity": 1,
+        "itemIds": [
+          "chili-pepper-scoville-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "微辣（1,000–8,000 SHU）",
+        "capacity": 2,
+        "itemIds": [
+          "chili-pepper-scoville-2",
+          "chili-pepper-scoville-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "中高辣（3 萬–10 萬 SHU）",
+        "capacity": 3,
+        "itemIds": [
+          "chili-pepper-scoville-4",
+          "chili-pepper-scoville-5",
+          "chili-pepper-scoville-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "極辣與超辣（>15 萬 SHU）",
+        "capacity": 4,
+        "itemIds": [
+          "chili-pepper-scoville-7",
+          "chili-pepper-scoville-8",
+          "chili-pepper-scoville-9",
+          "chili-pepper-scoville-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依史高維爾辣度（SHU）分級：零辣度（甜彩椒 0 SHU）、微辣（波布拉諾辣椒、墨西哥哈拉佩尼奧辣椒 1,000–8,000 SHU）、中高辣（卡宴辣椒、泰國朝天椒、塔巴斯科辣椒 30,000–100,000 SHU）與極辣（哈瓦那辣椒、蘇格蘭帽辣椒、印度鬼椒、卡羅萊納死神辣椒 >150,000 SHU）。",
+  "sources": [
+    {
+      "title": "New Mexico State University Chile Pepper Institute",
+      "url": "https://cpi.nmsu.edu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

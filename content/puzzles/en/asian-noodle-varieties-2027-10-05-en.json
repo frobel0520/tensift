@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "asian-noodle-varieties-2027-10-05-en",
+  "puzzleFamilyId": "asian-noodle-varieties-001",
+  "locale": "en",
+  "publishDate": "2027-10-05",
+  "timezone": "UTC",
+  "theme": "Asian Noodle Varieties",
+  "items": [
+    {
+      "itemId": "asian-noodle-varieties-4",
+      "label": "Vietnamese Pho Noodles"
+    },
+    {
+      "itemId": "asian-noodle-varieties-8",
+      "label": "Alkaline Ramen"
+    },
+    {
+      "itemId": "asian-noodle-varieties-1",
+      "label": "Cellophane Glass Noodles"
+    },
+    {
+      "itemId": "asian-noodle-varieties-6",
+      "label": "Thin Rice Vermicelli"
+    },
+    {
+      "itemId": "asian-noodle-varieties-10",
+      "label": "Japanese Somen"
+    },
+    {
+      "itemId": "asian-noodle-varieties-2",
+      "label": "Japanese Soba"
+    },
+    {
+      "itemId": "asian-noodle-varieties-7",
+      "label": "Japanese Udon"
+    },
+    {
+      "itemId": "asian-noodle-varieties-5",
+      "label": "Flat Pad Thai Noodles"
+    },
+    {
+      "itemId": "asian-noodle-varieties-9",
+      "label": "Chinese Lo Mein"
+    },
+    {
+      "itemId": "asian-noodle-varieties-3",
+      "label": "Korean Naengmyeon"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Primary starch/flour base (Mung Bean Starch, Buckwheat Flour, Rice Flour, or Wheat Flour)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Mung Bean Starch",
+        "capacity": 1,
+        "itemIds": [
+          "asian-noodle-varieties-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Buckwheat Noodles",
+        "capacity": 2,
+        "itemIds": [
+          "asian-noodle-varieties-2",
+          "asian-noodle-varieties-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Rice Flour Noodles",
+        "capacity": 3,
+        "itemIds": [
+          "asian-noodle-varieties-4",
+          "asian-noodle-varieties-5",
+          "asian-noodle-varieties-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Wheat Flour Noodles",
+        "capacity": 4,
+        "itemIds": [
+          "asian-noodle-varieties-7",
+          "asian-noodle-varieties-8",
+          "asian-noodle-varieties-9",
+          "asian-noodle-varieties-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by flour/starch base: Mung Bean Starch (Cellophane Glass Noodles / Vermicelli), Buckwheat & Buckwheat-Wheat (Japanese Soba, Korean Naengmyeon), Rice Flour (Vietnamese Pho Rice Noodles, Pad Thai Flat Rice Noodles, Rice Vermicelli), and Wheat Flour (Japanese Udon, Ramen Alkaline Wheat, Chinese Lo Mein, Somen).",
+  "sources": [
+    {
+      "title": "FAO: Asian Noodles Processing",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

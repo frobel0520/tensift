@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "coffee-brewing-methods-001",
+  "theme": "Coffee Brewing Methods",
+  "publishDate": "2027-09-12",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "coffee-brewing-methods-1",
+        "rivalGroupId": "group-2",
+        "risk": "A Moka Pot makes strong espresso-like coffee.",
+        "resolution": "A Moka Pot generates ~1.5–2 bar of steam pressure (group-1), far below the ~9 bar required for true espresso (group-2)."
+      },
+      {
+        "itemId": "coffee-brewing-methods-4",
+        "rivalGroupId": "group-4",
+        "risk": "French Press uses a mesh filter.",
+        "resolution": "French Press steeps grounds in full water immersion before plunging (group-3), rather than gravity percolation through a filter bed (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

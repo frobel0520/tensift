@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "wine-styles-fermentation-2027-09-21-en",
+  "puzzleFamilyId": "wine-styles-fermentation-001",
+  "locale": "en",
+  "publishDate": "2027-09-21",
+  "timezone": "UTC",
+  "theme": "Wine Styles & Production",
+  "items": [
+    {
+      "itemId": "wine-styles-fermentation-4",
+      "label": "French Champagne"
+    },
+    {
+      "itemId": "wine-styles-fermentation-8",
+      "label": "Chardonnay"
+    },
+    {
+      "itemId": "wine-styles-fermentation-1",
+      "label": "Provence Rosé"
+    },
+    {
+      "itemId": "wine-styles-fermentation-6",
+      "label": "Spanish Cava"
+    },
+    {
+      "itemId": "wine-styles-fermentation-10",
+      "label": "Sauvignon Blanc"
+    },
+    {
+      "itemId": "wine-styles-fermentation-2",
+      "label": "Vintage Port"
+    },
+    {
+      "itemId": "wine-styles-fermentation-7",
+      "label": "Cabernet Sauvignon"
+    },
+    {
+      "itemId": "wine-styles-fermentation-5",
+      "label": "Italian Prosecco"
+    },
+    {
+      "itemId": "wine-styles-fermentation-9",
+      "label": "Pinot Noir"
+    },
+    {
+      "itemId": "wine-styles-fermentation-3",
+      "label": "Fino Sherry"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Vinification category (Rosé Skin-Contact, Fortified Wines, Sparkling Wines, or Still Table Wines)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Skin-Contact Rosé",
+        "capacity": 1,
+        "itemIds": [
+          "wine-styles-fermentation-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Fortified Wines",
+        "capacity": 2,
+        "itemIds": [
+          "wine-styles-fermentation-2",
+          "wine-styles-fermentation-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Sparkling Wines",
+        "capacity": 3,
+        "itemIds": [
+          "wine-styles-fermentation-4",
+          "wine-styles-fermentation-5",
+          "wine-styles-fermentation-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Still Table Varietals",
+        "capacity": 4,
+        "itemIds": [
+          "wine-styles-fermentation-7",
+          "wine-styles-fermentation-8",
+          "wine-styles-fermentation-9",
+          "wine-styles-fermentation-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by vinification: Brief Skin-Contact (Provence Rosé), Fortified with Grape Spirit (Port, Sherry), Secondary-Fermentation Sparkling (Champagne, Prosecco, Cava), and Still Table Wines (Cabernet Sauvignon, Chardonnay, Pinot Noir, Sauvignon Blanc).",
+  "sources": [
+    {
+      "title": "OIV: International Organisation of Vine and Wine",
+      "url": "https://www.oiv.int/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

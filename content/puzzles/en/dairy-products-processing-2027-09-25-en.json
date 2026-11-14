@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "dairy-products-processing-2027-09-25-en",
+  "puzzleFamilyId": "dairy-products-processing-001",
+  "locale": "en",
+  "publishDate": "2027-09-25",
+  "timezone": "UTC",
+  "theme": "Dairy Products by Process",
+  "items": [
+    {
+      "itemId": "dairy-products-processing-4",
+      "label": "Evaporated Milk"
+    },
+    {
+      "itemId": "dairy-products-processing-8",
+      "label": "Cottage Cheese"
+    },
+    {
+      "itemId": "dairy-products-processing-1",
+      "label": "Unsalted Butter"
+    },
+    {
+      "itemId": "dairy-products-processing-6",
+      "label": "Whole Milk Powder"
+    },
+    {
+      "itemId": "dairy-products-processing-10",
+      "label": "Quark"
+    },
+    {
+      "itemId": "dairy-products-processing-2",
+      "label": "Plain Cultured Yogurt"
+    },
+    {
+      "itemId": "dairy-products-processing-7",
+      "label": "Ricotta"
+    },
+    {
+      "itemId": "dairy-products-processing-5",
+      "label": "Sweetened Condensed Milk"
+    },
+    {
+      "itemId": "dairy-products-processing-9",
+      "label": "Indian Paneer"
+    },
+    {
+      "itemId": "dairy-products-processing-3",
+      "label": "Cultured Buttermilk"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Dairy processing method (Churned Butterfat, Acid/Rennet Curd, Cultured/Fermented Milk, or Concentrated/Evaporated Milk)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Churned Butterfat",
+        "capacity": 1,
+        "itemIds": [
+          "dairy-products-processing-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Cultured Fermented Milks",
+        "capacity": 2,
+        "itemIds": [
+          "dairy-products-processing-2",
+          "dairy-products-processing-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Concentrated & Dried Milks",
+        "capacity": 3,
+        "itemIds": [
+          "dairy-products-processing-4",
+          "dairy-products-processing-5",
+          "dairy-products-processing-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Fresh Coagulated Curds",
+        "capacity": 4,
+        "itemIds": [
+          "dairy-products-processing-7",
+          "dairy-products-processing-8",
+          "dairy-products-processing-9",
+          "dairy-products-processing-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by dairy process: Churned Butterfat (Unsalted Butter), Cultured Fermented Milks (Plain Yogurt, Cultured Buttermilk), Concentrated Milks (Evaporated Milk, Sweetened Condensed Milk, Whole Milk Powder), and Coagulated Fresh Curds (Ricotta, Cottage Cheese, Paneer, Quark).",
+  "sources": [
+    {
+      "title": "Codex Alimentarius: Milk & Milk Products",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cereal-grains-botany-2027-09-14-es-419",
+  "puzzleFamilyId": "cereal-grains-botany-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-14",
+  "timezone": "UTC",
+  "theme": "Cereales y pseudocereales",
+  "items": [
+    {
+      "itemId": "cereal-grains-botany-4",
+      "label": "Arroz"
+    },
+    {
+      "itemId": "cereal-grains-botany-8",
+      "label": "Cebada"
+    },
+    {
+      "itemId": "cereal-grains-botany-1",
+      "label": "Trigo sarraceno"
+    },
+    {
+      "itemId": "cereal-grains-botany-6",
+      "label": "Sorgo"
+    },
+    {
+      "itemId": "cereal-grains-botany-10",
+      "label": "Avena"
+    },
+    {
+      "itemId": "cereal-grains-botany-2",
+      "label": "Quinua"
+    },
+    {
+      "itemId": "cereal-grains-botany-7",
+      "label": "Trigo"
+    },
+    {
+      "itemId": "cereal-grains-botany-5",
+      "label": "Maíz"
+    },
+    {
+      "itemId": "cereal-grains-botany-9",
+      "label": "Centeno"
+    },
+    {
+      "itemId": "cereal-grains-botany-3",
+      "label": "Amaranto"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Familia botánica de cada grano o pseudocereal",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Poligonáceas",
+        "capacity": 1,
+        "itemIds": [
+          "cereal-grains-botany-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Amarantáceas (pseudocereales)",
+        "capacity": 2,
+        "itemIds": [
+          "cereal-grains-botany-2",
+          "cereal-grains-botany-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Gramíneas de clima cálido",
+        "capacity": 3,
+        "itemIds": [
+          "cereal-grains-botany-4",
+          "cereal-grains-botany-5",
+          "cereal-grains-botany-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Gramíneas de clima templado",
+        "capacity": 4,
+        "itemIds": [
+          "cereal-grains-botany-7",
+          "cereal-grains-botany-8",
+          "cereal-grains-botany-9",
+          "cereal-grains-botany-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por familia botánica: poligonáceas (trigo sarraceno), amarantáceas (quinua, amaranto), gramíneas cálidas (arroz, maíz, sorgo) y gramíneas templadas (trigo, cebada, centeno, avena).",
+  "sources": [
+    {
+      "title": "FAO: Cereals & Pseudocereals",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.64
+  },
+  "status": "scheduled"
+}

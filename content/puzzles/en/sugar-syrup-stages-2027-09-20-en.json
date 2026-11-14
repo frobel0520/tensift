@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sugar-syrup-stages-2027-09-20-en",
+  "puzzleFamilyId": "sugar-syrup-stages-001",
+  "locale": "en",
+  "publishDate": "2027-09-20",
+  "timezone": "UTC",
+  "theme": "Candy & Sugar Syrup Stages",
+  "items": [
+    {
+      "itemId": "sugar-syrup-stages-4",
+      "label": "Soft Ball (115 °C)"
+    },
+    {
+      "itemId": "sugar-syrup-stages-8",
+      "label": "Hard Crack (149 °C)"
+    },
+    {
+      "itemId": "sugar-syrup-stages-1",
+      "label": "Thread Stage (110–112 °C)"
+    },
+    {
+      "itemId": "sugar-syrup-stages-6",
+      "label": "Hard Ball (125 °C)"
+    },
+    {
+      "itemId": "sugar-syrup-stages-10",
+      "label": "Brittle Hard-Crack"
+    },
+    {
+      "itemId": "sugar-syrup-stages-2",
+      "label": "Light Amber Caramel"
+    },
+    {
+      "itemId": "sugar-syrup-stages-7",
+      "label": "Soft Crack (132 °C)"
+    },
+    {
+      "itemId": "sugar-syrup-stages-5",
+      "label": "Firm Ball (120 °C)"
+    },
+    {
+      "itemId": "sugar-syrup-stages-9",
+      "label": "Spun-Sugar Crack"
+    },
+    {
+      "itemId": "sugar-syrup-stages-3",
+      "label": "Dark Bitter Caramel"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Sugar concentration & texture stage (Thread Stage, Caramelization Stage, Ball Stages, or Crack Stages)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Thread Stage (110 °C)",
+        "capacity": 1,
+        "itemIds": [
+          "sugar-syrup-stages-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Caramelization (>160 °C)",
+        "capacity": 2,
+        "itemIds": [
+          "sugar-syrup-stages-2",
+          "sugar-syrup-stages-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Ball Stages (115–130 °C)",
+        "capacity": 3,
+        "itemIds": [
+          "sugar-syrup-stages-4",
+          "sugar-syrup-stages-5",
+          "sugar-syrup-stages-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Crack Stages (132–155 °C)",
+        "capacity": 4,
+        "itemIds": [
+          "sugar-syrup-stages-7",
+          "sugar-syrup-stages-8",
+          "sugar-syrup-stages-9",
+          "sugar-syrup-stages-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by sugar stage: Thread Stage (110–112 °C Thread Stage), Caramelization (160–175 °C Amber Caramel, Dark Caramel), Ball Stages (115 °C Soft Ball, 120 °C Firm Ball, 125 °C Hard Ball), and Crack & Hard Stages (132 °C Soft Crack, 149 °C Hard Crack, Spun Sugar Stage, Peanut Brittle Stage).",
+  "sources": [
+    {
+      "title": "Exploratorium: Science of Candy",
+      "url": "https://www.exploratorium.edu/explore/cooking/candy",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

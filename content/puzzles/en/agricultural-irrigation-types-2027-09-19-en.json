@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "agricultural-irrigation-types-2027-09-19-en",
+  "puzzleFamilyId": "agricultural-irrigation-types-001",
+  "locale": "en",
+  "publishDate": "2027-09-19",
+  "timezone": "UTC",
+  "theme": "Agricultural Irrigation Methods",
+  "items": [
+    {
+      "itemId": "agricultural-irrigation-types-4",
+      "label": "Center-Pivot Sprinkler"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-8",
+      "label": "Level Basin Flooding"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-1",
+      "label": "Subsurface Buried Drip"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-6",
+      "label": "Impact Rotor Sprinkler"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-10",
+      "label": "Terraced Paddy Flooding"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-2",
+      "label": "Surface Drip Emitter"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-7",
+      "label": "Furrow Irrigation"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-5",
+      "label": "Traveling Rain Gun"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-9",
+      "label": "Border Strip Flooding"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-3",
+      "label": "Micro-Jet Sprayer"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Water delivery mechanism (Subsurface Capillary, Drip/Micro-Irrigation, Pressurized Overhead Sprinklers, or Gravity Surface Flooding)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Subsurface Root-Zone",
+        "capacity": 1,
+        "itemIds": [
+          "agricultural-irrigation-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Surface Micro-Irrigation",
+        "capacity": 2,
+        "itemIds": [
+          "agricultural-irrigation-types-2",
+          "agricultural-irrigation-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Pressurized Overhead Sprinklers",
+        "capacity": 3,
+        "itemIds": [
+          "agricultural-irrigation-types-4",
+          "agricultural-irrigation-types-5",
+          "agricultural-irrigation-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Gravity Surface Flow",
+        "capacity": 4,
+        "itemIds": [
+          "agricultural-irrigation-types-7",
+          "agricultural-irrigation-types-8",
+          "agricultural-irrigation-types-9",
+          "agricultural-irrigation-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by irrigation mechanism: Subsurface Capillary (Subsurface Drip/Seepage), Micro-Point Surface (Surface Drip Emitter, Micro-Sprayer), Overhead Pressurized Sprinklers (Center-Pivot Sprinkler, Traveling Rain Gun, Solid-Set Impact Sprinkler), and Gravity Surface Flow (Furrow Irrigation, Basin Flooding, Border Strip Flooding, Paddy Terrace Flooding).",
+  "sources": [
+    {
+      "title": "FAO Irrigation Training Manual",
+      "url": "https://www.fao.org/land-water/water/water-management/en/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

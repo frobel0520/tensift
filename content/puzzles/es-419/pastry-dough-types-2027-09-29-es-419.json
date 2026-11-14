@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "pastry-dough-types-2027-09-29-es-419",
+  "puzzleFamilyId": "pastry-dough-types-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-29",
+  "timezone": "UTC",
+  "theme": "Masas clásicas de pastelería",
+  "items": [
+    {
+      "itemId": "pastry-dough-types-4",
+      "label": "Masa brisée"
+    },
+    {
+      "itemId": "pastry-dough-types-8",
+      "label": "Merengue suizo"
+    },
+    {
+      "itemId": "pastry-dough-types-1",
+      "label": "Masa filo"
+    },
+    {
+      "itemId": "pastry-dough-types-6",
+      "label": "Masa sablée"
+    },
+    {
+      "itemId": "pastry-dough-types-10",
+      "label": "Bizcocho angel food"
+    },
+    {
+      "itemId": "pastry-dough-types-2",
+      "label": "Masa de hojaldre"
+    },
+    {
+      "itemId": "pastry-dough-types-7",
+      "label": "Merengue francés"
+    },
+    {
+      "itemId": "pastry-dough-types-5",
+      "label": "Masa sucrée"
+    },
+    {
+      "itemId": "pastry-dough-types-9",
+      "label": "Bizcocho genovés"
+    },
+    {
+      "itemId": "pastry-dough-types-3",
+      "label": "Masa laminada de croissant"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Estructura física de cada masa o base de pastelería",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Láminas estiradas (filo)",
+        "capacity": 1,
+        "itemIds": [
+          "pastry-dough-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Masas laminadas",
+        "capacity": 2,
+        "itemIds": [
+          "pastry-dough-types-2",
+          "pastry-dough-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Masas quebradas",
+        "capacity": 3,
+        "itemIds": [
+          "pastry-dough-types-4",
+          "pastry-dough-types-5",
+          "pastry-dough-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Bases aireadas con huevo",
+        "capacity": 4,
+        "itemIds": [
+          "pastry-dough-types-7",
+          "pastry-dough-types-8",
+          "pastry-dough-types-9",
+          "pastry-dough-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por estructura: láminas estiradas finísimas (masa filo), masas laminadas con mantequilla (hojaldre, masa de croissant), masas quebradas (pâte brisée, pâte sucrée, pâte sablée) y bases aireadas con huevo (merengue francés, merengue suizo, bizcocho genovés, angel food).",
+  "sources": [
+    {
+      "title": "CIA Baking & Pastry Arts",
+      "url": "https://www.ciachef.edu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

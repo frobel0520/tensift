@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "rice-cultivar-types-001",
+  "theme": "World Rice Varieties",
+  "publishDate": "2027-10-20",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "rice-cultivar-types-6",
+        "rivalGroupId": "group-2",
+        "risk": "Koshihikari sushi rice sticks together.",
+        "resolution": "Koshihikari is a non-glutinous japonica table rice (~15–18% amylose, group-3), whereas waxy glutinous rices have virtually 0% amylose (group-2)."
+      },
+      {
+        "itemId": "rice-cultivar-types-1",
+        "rivalGroupId": "group-2",
+        "risk": "Many black rice varieties are glutinous.",
+        "resolution": "Pigmented black rice is distinguished by its anthocyanin-rich dark bran layer (group-1), unlike white milled glutinous rices (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

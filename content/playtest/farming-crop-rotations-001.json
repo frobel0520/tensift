@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "farming-crop-rotations-001",
+  "theme": "Agronomy & Farming Systems",
+  "publishDate": "2027-10-13",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "farming-crop-rotations-3",
+        "rivalGroupId": "group-4",
+        "risk": "Rye and Wheat are both cereal grasses.",
+        "resolution": "Winter Rye Cover Crop is grown unharvested to prevent erosion and scavenge nitrogen (group-2), whereas Winter Wheat is harvested as a grain crop (group-4)."
+      },
+      {
+        "itemId": "farming-crop-rotations-1",
+        "rivalGroupId": "group-4",
+        "risk": "Hydroponics grows annual crops like lettuce.",
+        "resolution": "NFT Hydroponics is a soilless recirculating water system (group-1), distinct from soil-planted annual field crops (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vinegar-types-sources-2027-10-12-zh-hant",
+  "puzzleFamilyId": "vinegar-types-sources-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-12",
+  "timezone": "UTC",
+  "theme": "世界食用醋原料分類",
+  "items": [
+    {
+      "itemId": "vinegar-types-sources-4",
+      "label": "蘋果醋"
+    },
+    {
+      "itemId": "vinegar-types-sources-8",
+      "label": "白葡萄酒醋"
+    },
+    {
+      "itemId": "vinegar-types-sources-1",
+      "label": "蒸餾白醋（精製醋）"
+    },
+    {
+      "itemId": "vinegar-types-sources-6",
+      "label": "柿子醋"
+    },
+    {
+      "itemId": "vinegar-types-sources-10",
+      "label": "摩德納巴薩米克醋"
+    },
+    {
+      "itemId": "vinegar-types-sources-2",
+      "label": "日本純米醋"
+    },
+    {
+      "itemId": "vinegar-types-sources-7",
+      "label": "紅葡萄酒醋"
+    },
+    {
+      "itemId": "vinegar-types-sources-5",
+      "label": "菲律賓椰子醋"
+    },
+    {
+      "itemId": "vinegar-types-sources-9",
+      "label": "西班牙雪莉酒醋"
+    },
+    {
+      "itemId": "vinegar-types-sources-3",
+      "label": "鎮江黑香醋"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各食用醋的發酵原料來源（蒸餾純酒精、發芽大麥麥芽、米糧或葡萄／水果）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "蒸餾純酒精醋",
+        "capacity": 1,
+        "itemIds": [
+          "vinegar-types-sources-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "稻米發酵醋",
+        "capacity": 2,
+        "itemIds": [
+          "vinegar-types-sources-2",
+          "vinegar-types-sources-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "蘋果與果實醋",
+        "capacity": 3,
+        "itemIds": [
+          "vinegar-types-sources-4",
+          "vinegar-types-sources-5",
+          "vinegar-types-sources-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "葡萄與葡萄酒醋",
+        "capacity": 4,
+        "itemIds": [
+          "vinegar-types-sources-7",
+          "vinegar-types-sources-8",
+          "vinegar-types-sources-9",
+          "vinegar-types-sources-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依發酵原料分類：蒸餾純酒精（蒸餾白醋）、稻米發酵（日本純米醋、鎮江香醋）、非葡萄水果與樹汁（蘋果醋、椰子醋、柿子醋）與葡萄及葡萄酒基底（紅酒醋、白酒醋、雪莉酒醋、摩德納巴薩米克醋）。",
+  "sources": [
+    {
+      "title": "Codex Alimentarius: Regional Vinegar Standards",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

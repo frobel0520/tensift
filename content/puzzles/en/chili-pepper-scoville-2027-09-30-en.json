@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chili-pepper-scoville-2027-09-30-en",
+  "puzzleFamilyId": "chili-pepper-scoville-001",
+  "locale": "en",
+  "publishDate": "2027-09-30",
+  "timezone": "UTC",
+  "theme": "Chili Peppers by Heat Tier",
+  "items": [
+    {
+      "itemId": "chili-pepper-scoville-4",
+      "label": "Cayenne Pepper"
+    },
+    {
+      "itemId": "chili-pepper-scoville-8",
+      "label": "Scotch Bonnet"
+    },
+    {
+      "itemId": "chili-pepper-scoville-1",
+      "label": "Sweet Bell Pepper (0 SHU)"
+    },
+    {
+      "itemId": "chili-pepper-scoville-6",
+      "label": "Tabasco Pepper"
+    },
+    {
+      "itemId": "chili-pepper-scoville-10",
+      "label": "Carolina Reaper"
+    },
+    {
+      "itemId": "chili-pepper-scoville-2",
+      "label": "Poblano Pepper"
+    },
+    {
+      "itemId": "chili-pepper-scoville-7",
+      "label": "Habanero Pepper"
+    },
+    {
+      "itemId": "chili-pepper-scoville-5",
+      "label": "Thai Bird’s Eye Chili"
+    },
+    {
+      "itemId": "chili-pepper-scoville-9",
+      "label": "Ghost Pepper (Bhut Jolokia)"
+    },
+    {
+      "itemId": "chili-pepper-scoville-3",
+      "label": "Jalapeño Pepper"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Scoville heat unit (SHU) tier (Zero-Heat Sweet, Mild 1k–10k SHU, Medium-Hot 25k–100k SHU, or Superhot >350k SHU)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "0 SHU (Sweet)",
+        "capacity": 1,
+        "itemIds": [
+          "chili-pepper-scoville-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Mild (1,000–8,000 SHU)",
+        "capacity": 2,
+        "itemIds": [
+          "chili-pepper-scoville-2",
+          "chili-pepper-scoville-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Medium-Hot (30k–100k SHU)",
+        "capacity": 3,
+        "itemIds": [
+          "chili-pepper-scoville-4",
+          "chili-pepper-scoville-5",
+          "chili-pepper-scoville-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Extra Hot & Superhot (>150k SHU)",
+        "capacity": 4,
+        "itemIds": [
+          "chili-pepper-scoville-7",
+          "chili-pepper-scoville-8",
+          "chili-pepper-scoville-9",
+          "chili-pepper-scoville-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by Scoville Heat Units: Zero-Heat (Sweet Bell Pepper, 0 SHU), Mild (Poblano, Jalapeño, 1,000–8,000 SHU), Medium-Hot (Cayenne, Thai Bird’s Eye, Tabasco, 30,000–100,000 SHU), and Very Hot / Superhot (Habanero, Scotch Bonnet, Ghost Pepper Bhut Jolokia, Carolina Reaper, >150,000 SHU).",
+  "sources": [
+    {
+      "title": "New Mexico State University Chile Pepper Institute",
+      "url": "https://cpi.nmsu.edu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

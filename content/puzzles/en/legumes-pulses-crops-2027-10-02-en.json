@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "legumes-pulses-crops-2027-10-02-en",
+  "puzzleFamilyId": "legumes-pulses-crops-001",
+  "locale": "en",
+  "publishDate": "2027-10-02",
+  "timezone": "UTC",
+  "theme": "Legumes & Pulses",
+  "items": [
+    {
+      "itemId": "legumes-pulses-crops-4",
+      "label": "Red Split Lentil"
+    },
+    {
+      "itemId": "legumes-pulses-crops-8",
+      "label": "Red Kidney Bean"
+    },
+    {
+      "itemId": "legumes-pulses-crops-1",
+      "label": "Yellow Soybean"
+    },
+    {
+      "itemId": "legumes-pulses-crops-6",
+      "label": "French Green Lentil"
+    },
+    {
+      "itemId": "legumes-pulses-crops-10",
+      "label": "Dried Fava Bean"
+    },
+    {
+      "itemId": "legumes-pulses-crops-2",
+      "label": "Snow Pea Pod"
+    },
+    {
+      "itemId": "legumes-pulses-crops-7",
+      "label": "Black Turtle Bean"
+    },
+    {
+      "itemId": "legumes-pulses-crops-5",
+      "label": "Brown Lentil"
+    },
+    {
+      "itemId": "legumes-pulses-crops-9",
+      "label": "Chickpea (Garbanzo)"
+    },
+    {
+      "itemId": "legumes-pulses-crops-3",
+      "label": "Green Snap Bean"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Agronomic legume class (Oilseed Legume, Fresh Green Pod/Pea, Lentil & Split-Pulse, or Dry Common/Fava Beans)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Oilseed Legume",
+        "capacity": 1,
+        "itemIds": [
+          "legumes-pulses-crops-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Fresh Immature Pods",
+        "capacity": 2,
+        "itemIds": [
+          "legumes-pulses-crops-2",
+          "legumes-pulses-crops-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Lentil Cultivars",
+        "capacity": 3,
+        "itemIds": [
+          "legumes-pulses-crops-4",
+          "legumes-pulses-crops-5",
+          "legumes-pulses-crops-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Dry Pulse Beans",
+        "capacity": 4,
+        "itemIds": [
+          "legumes-pulses-crops-7",
+          "legumes-pulses-crops-8",
+          "legumes-pulses-crops-9",
+          "legumes-pulses-crops-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by agronomic legume class: Oilseed Legume (Soybean), Fresh Green Pods/Peas (Snow Pea, Green Snap Bean), Lentil Cultivars (Red Split Lentil, Brown Lentil, French Green Puy Lentil), and Dry Pulse Beans (Black Bean, Kidney Bean, Chickpea / Garbanzo, Fava / Broad Bean).",
+  "sources": [
+    {
+      "title": "FAO: Pulses & Legumes Classification",
+      "url": "https://www.fao.org/pulses-2016/en/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.4
+  },
+  "status": "scheduled"
+}

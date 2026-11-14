@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "culinary-spices-plant-parts-2027-09-08-en",
+  "puzzleFamilyId": "culinary-spices-plant-parts-001",
+  "locale": "en",
+  "publishDate": "2027-09-08",
+  "timezone": "UTC",
+  "theme": "Spices by Plant Part",
+  "items": [
+    {
+      "itemId": "culinary-spices-plant-parts-4",
+      "label": "Turmeric"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-8",
+      "label": "Green Cardamom Pod"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-1",
+      "label": "Saffron Threads"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-6",
+      "label": "Galangal"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-10",
+      "label": "Star Anise"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-2",
+      "label": "Ceylon Cinnamon"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-7",
+      "label": "Black Peppercorn"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-5",
+      "label": "Ginger"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-9",
+      "label": "Cumin Seed"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-3",
+      "label": "Cassia Bark"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Botanical plant part harvested (Flower Stigmas, Tree Bark, Roots & Rhizomes, or Seeds & Dried Fruits)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Flower Stigmas",
+        "capacity": 1,
+        "itemIds": [
+          "culinary-spices-plant-parts-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Tree Bark",
+        "capacity": 2,
+        "itemIds": [
+          "culinary-spices-plant-parts-2",
+          "culinary-spices-plant-parts-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Rhizomes (Underground)",
+        "capacity": 3,
+        "itemIds": [
+          "culinary-spices-plant-parts-4",
+          "culinary-spices-plant-parts-5",
+          "culinary-spices-plant-parts-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Seeds & Dried Fruits",
+        "capacity": 4,
+        "itemIds": [
+          "culinary-spices-plant-parts-7",
+          "culinary-spices-plant-parts-8",
+          "culinary-spices-plant-parts-9",
+          "culinary-spices-plant-parts-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by botanical part: Flower Stigmas (Saffron), Dried Tree Bark (Ceylon Cinnamon, Cassia Bark), Underground Rhizomes (Turmeric, Ginger, Galangal), and Seeds & Dried Fruits (Black Peppercorn, Cardamom Pod, Cumin Seed, Star Anise).",
+  "sources": [
+    {
+      "title": "ISO 676: Spices and Condiments Nomenclature",
+      "url": "https://www.iso.org/standard/4839.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

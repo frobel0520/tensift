@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "agricultural-irrigation-types-2027-09-19-es-419",
+  "puzzleFamilyId": "agricultural-irrigation-types-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-19",
+  "timezone": "UTC",
+  "theme": "Métodos de riego agrícola",
+  "items": [
+    {
+      "itemId": "agricultural-irrigation-types-4",
+      "label": "Pivote central"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-8",
+      "label": "Riego por inundación en cuadros"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-1",
+      "label": "Goteo subterráneo"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-6",
+      "label": "Aspersor de impacto"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-10",
+      "label": "Inundación en terrazas"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-2",
+      "label": "Gotero superficial"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-7",
+      "label": "Riego por surcos"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-5",
+      "label": "Cañón de riego viajero"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-9",
+      "label": "Riego por melgas o fajas"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-3",
+      "label": "Microaspersor"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Mecanismo de aplicación de agua en riego agrícola",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Riego subsuperficial",
+        "capacity": 1,
+        "itemIds": [
+          "agricultural-irrigation-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Microrriego superficial",
+        "capacity": 2,
+        "itemIds": [
+          "agricultural-irrigation-types-2",
+          "agricultural-irrigation-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Aspersión presurizada",
+        "capacity": 3,
+        "itemIds": [
+          "agricultural-irrigation-types-4",
+          "agricultural-irrigation-types-5",
+          "agricultural-irrigation-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Riego por gravedad superficial",
+        "capacity": 4,
+        "itemIds": [
+          "agricultural-irrigation-types-7",
+          "agricultural-irrigation-types-8",
+          "agricultural-irrigation-types-9",
+          "agricultural-irrigation-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por mecanismo: subsuperficial (riego subterráneo por goteo), microrriego superficial (gotero superficial, microaspersor), aspersión presurizada (pivote central, cañón viajero, aspersor de impacto) y riego por gravedad superficial (surcos, melgas/cuadros, fajas, terrazas inundadas).",
+  "sources": [
+    {
+      "title": "FAO Irrigation Training Manual",
+      "url": "https://www.fao.org/land-water/water/water-management/en/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

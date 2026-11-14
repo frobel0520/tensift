@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "distilled-spirits-base-001",
+  "theme": "Distilled Spirits by Base Crop",
+  "publishDate": "2027-09-28",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "distilled-spirits-base-3",
+        "rivalGroupId": "group-1",
+        "risk": "Cachaça is a clear Latin American spirit like Blanco Tequila.",
+        "resolution": "Cachaça is distilled from fermented fresh sugarcane juice (group-2), whereas Tequila is distilled from blue Weber agave (group-1)."
+      },
+      {
+        "itemId": "distilled-spirits-base-5",
+        "rivalGroupId": "group-4",
+        "risk": "Grappa is unaged and clear.",
+        "resolution": "Grappa is distilled from grape pomace (group-3), not cereal grains (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

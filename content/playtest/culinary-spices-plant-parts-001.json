@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "culinary-spices-plant-parts-001",
+  "theme": "Spices by Plant Part",
+  "publishDate": "2027-09-08",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "culinary-spices-plant-parts-1",
+        "rivalGroupId": "group-4",
+        "risk": "Saffron comes from a crocus bulb.",
+        "resolution": "The harvested spice consists of the dried red flower stigmas (group-1), not seeds or fruits (group-4)."
+      },
+      {
+        "itemId": "culinary-spices-plant-parts-4",
+        "rivalGroupId": "group-2",
+        "risk": "Turmeric is dried and ground into bright powder.",
+        "resolution": "Turmeric is an underground rhizome in the ginger family (group-3), not tree bark (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

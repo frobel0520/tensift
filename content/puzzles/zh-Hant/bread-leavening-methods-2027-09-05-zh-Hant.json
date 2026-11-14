@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "bread-leavening-methods-2027-09-05-zh-hant",
+  "puzzleFamilyId": "bread-leavening-methods-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-05",
+  "timezone": "UTC",
+  "theme": "烘焙麵糰膨脹發酵方式",
+  "items": [
+    {
+      "itemId": "bread-leavening-methods-4",
+      "label": "愛爾蘭蘇打麵包"
+    },
+    {
+      "itemId": "bread-leavening-methods-8",
+      "label": "奶油布里歐許"
+    },
+    {
+      "itemId": "bread-leavening-methods-1",
+      "label": "泡芙麵糊（Choux）"
+    },
+    {
+      "itemId": "bread-leavening-methods-6",
+      "label": "美式泡打粉瑪芬"
+    },
+    {
+      "itemId": "bread-leavening-methods-10",
+      "label": "拿坡里披薩麵糰"
+    },
+    {
+      "itemId": "bread-leavening-methods-2",
+      "label": "舊金山酸種麵包"
+    },
+    {
+      "itemId": "bread-leavening-methods-7",
+      "label": "法式長棍麵包"
+    },
+    {
+      "itemId": "bread-leavening-methods-5",
+      "label": "酪乳比司吉"
+    },
+    {
+      "itemId": "bread-leavening-methods-9",
+      "label": "義式佛卡夏"
+    },
+    {
+      "itemId": "bread-leavening-methods-3",
+      "label": "法式鄉村酸種麵包"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各烘焙食品的主要膨脹動力來源（水蒸氣層壓、酸種天然酵母、化學膨鬆劑或商業酵母）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "水蒸氣膨脹麵糊",
+        "capacity": 1,
+        "itemIds": [
+          "bread-leavening-methods-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "天然酸種發酵",
+        "capacity": 2,
+        "itemIds": [
+          "bread-leavening-methods-2",
+          "bread-leavening-methods-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "化學膨鬆劑（泡打粉／蘇打）",
+        "capacity": 3,
+        "itemIds": [
+          "bread-leavening-methods-4",
+          "bread-leavening-methods-5",
+          "bread-leavening-methods-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "商業酵母發酵",
+        "capacity": 4,
+        "itemIds": [
+          "bread-leavening-methods-7",
+          "bread-leavening-methods-8",
+          "bread-leavening-methods-9",
+          "bread-leavening-methods-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依膨脹方式分類：純水蒸氣膨脹（泡芙麵糰 Choux）、天然酸種發酵（舊金山酸種麵包、鄉村酸種麵包）、化學膨鬆劑（愛爾蘭蘇打麵包、美式比司吉、瑪芬蛋糕）與商業酵母發酵（法式長棍、布里歐許、佛卡夏、披薩麵糰）。",
+  "sources": [
+    {
+      "title": "USDA FoodData Central: Baked Products",
+      "url": "https://fdc.nal.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

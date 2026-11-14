@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fermented-foods-microbes-2027-09-06-es-419",
+  "puzzleFamilyId": "fermented-foods-microbes-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-06",
+  "timezone": "UTC",
+  "theme": "Alimentos fermentados por proceso",
+  "items": [
+    {
+      "itemId": "fermented-foods-microbes-4",
+      "label": "Vino de uva"
+    },
+    {
+      "itemId": "fermented-foods-microbes-8",
+      "label": "Kimchi"
+    },
+    {
+      "itemId": "fermented-foods-microbes-1",
+      "label": "Vinagre de sidra de manzana"
+    },
+    {
+      "itemId": "fermented-foods-microbes-6",
+      "label": "Pan con levadura"
+    },
+    {
+      "itemId": "fermented-foods-microbes-10",
+      "label": "Kéfir de leche"
+    },
+    {
+      "itemId": "fermented-foods-microbes-2",
+      "label": "Salsa de soya fermentada"
+    },
+    {
+      "itemId": "fermented-foods-microbes-7",
+      "label": "Chucrut"
+    },
+    {
+      "itemId": "fermented-foods-microbes-5",
+      "label": "Cerveza de cebada"
+    },
+    {
+      "itemId": "fermented-foods-microbes-9",
+      "label": "Yogur fermentado"
+    },
+    {
+      "itemId": "fermented-foods-microbes-3",
+      "label": "Pasta de miso"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tipo de fermentación microbiana de cada alimento",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Fermentación acética",
+        "capacity": 1,
+        "itemIds": [
+          "fermented-foods-microbes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Fermentación con koji",
+        "capacity": 2,
+        "itemIds": [
+          "fermented-foods-microbes-2",
+          "fermented-foods-microbes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Fermentación por levaduras",
+        "capacity": 3,
+        "itemIds": [
+          "fermented-foods-microbes-4",
+          "fermented-foods-microbes-5",
+          "fermented-foods-microbes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Fermentación láctica",
+        "capacity": 4,
+        "itemIds": [
+          "fermented-foods-microbes-7",
+          "fermented-foods-microbes-8",
+          "fermented-foods-microbes-9",
+          "fermented-foods-microbes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por fermentación: acética (vinagre de sidra), moho koji en soya (salsa de soya, miso), alcohólica por levadura (vino, cerveza, pan con levadura) y láctica (chucrut, kimchi, yogur, kéfir).",
+  "sources": [
+    {
+      "title": "FAO: Fermented Foods & Microbiology",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

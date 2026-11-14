@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "coffee-brewing-methods-2027-09-12-zh-hant",
+  "puzzleFamilyId": "coffee-brewing-methods-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-12",
+  "timezone": "UTC",
+  "theme": "咖啡沖煮萃取方式",
+  "items": [
+    {
+      "itemId": "coffee-brewing-methods-4",
+      "label": "法式濾壓壺"
+    },
+    {
+      "itemId": "coffee-brewing-methods-8",
+      "label": "Chemex 手沖壺"
+    },
+    {
+      "itemId": "coffee-brewing-methods-1",
+      "label": "義式摩卡壺（Moka Pot）"
+    },
+    {
+      "itemId": "coffee-brewing-methods-6",
+      "label": "土耳其銅壺直煮"
+    },
+    {
+      "itemId": "coffee-brewing-methods-10",
+      "label": "美式自動滴濾機"
+    },
+    {
+      "itemId": "coffee-brewing-methods-2",
+      "label": "幫浦式義式濃縮機"
+    },
+    {
+      "itemId": "coffee-brewing-methods-7",
+      "label": "V60 錐形手沖濾杯"
+    },
+    {
+      "itemId": "coffee-brewing-methods-5",
+      "label": "冷萃浸泡咖啡"
+    },
+    {
+      "itemId": "coffee-brewing-methods-9",
+      "label": "Kalita 波浪平底濾杯"
+    },
+    {
+      "itemId": "coffee-brewing-methods-3",
+      "label": "拉霸式義式濃縮機"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各咖啡沖煮器具的物理萃取機制（摩卡壺蒸氣壓、高壓義式濃縮、全浸泡或重力手沖滴濾）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "爐火蒸氣壓力壺",
+        "capacity": 1,
+        "itemIds": [
+          "coffee-brewing-methods-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "高壓義式濃縮萃取",
+        "capacity": 2,
+        "itemIds": [
+          "coffee-brewing-methods-2",
+          "coffee-brewing-methods-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "全浸泡式萃取",
+        "capacity": 3,
+        "itemIds": [
+          "coffee-brewing-methods-4",
+          "coffee-brewing-methods-5",
+          "coffee-brewing-methods-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "重力手沖與滴濾",
+        "capacity": 4,
+        "itemIds": [
+          "coffee-brewing-methods-7",
+          "coffee-brewing-methods-8",
+          "coffee-brewing-methods-9",
+          "coffee-brewing-methods-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依萃取機制分類：爐火蒸氣壓（義式摩卡壺）、9 大氣壓高壓萃取（幫浦式義式濃縮機、拉霸式義式濃縮機）、全浸泡式（法式濾壓壺、冰滴／冷萃浸泡、土耳其壺煮）與重力滴濾式（V60 手沖濾杯、Chemex 濾壺、Kalita 波浪濾杯、美式滴濾咖啡機）。",
+  "sources": [
+    {
+      "title": "Specialty Coffee Association: Brewing Standards",
+      "url": "https://sca.coffee/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

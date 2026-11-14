@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "soil-texture-particles-001",
+  "theme": "Soil Science & Horizons",
+  "publishDate": "2027-09-18",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "soil-texture-particles-1",
+        "rivalGroupId": "group-4",
+        "risk": "Humus is concentrated in the O-horizon.",
+        "resolution": "Humus is the decomposed organic substance itself (group-1), whereas O/A/B/C are vertical depth layers in a soil profile (group-4)."
+      },
+      {
+        "itemId": "soil-texture-particles-5",
+        "rivalGroupId": "group-2",
+        "risk": "Sandy Loam contains sand.",
+        "resolution": "Sandy Loam is a USDA composite texture class mixing sand, silt, and clay (group-3), not a single-size mineral particle fraction (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

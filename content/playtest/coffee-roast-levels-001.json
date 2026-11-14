@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "coffee-roast-levels-001",
+  "theme": "Coffee Roast & Drink Formats",
+  "publishDate": "2027-10-10",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "coffee-roast-levels-1",
+        "rivalGroupId": "group-2",
+        "risk": "Green coffee is a stage in coffee bean processing.",
+        "resolution": "Green coffee is completely unroasted raw seed (group-1), before any thermal roast level is applied (group-2)."
+      },
+      {
+        "itemId": "coffee-roast-levels-6",
+        "rivalGroupId": "group-4",
+        "risk": "Long Black is an Australian cafe drink like Flat White.",
+        "resolution": "Long Black is espresso poured over hot water without milk (group-3), unlike steamed-milk drinks (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

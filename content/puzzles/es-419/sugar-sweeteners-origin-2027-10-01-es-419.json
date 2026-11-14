@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sugar-sweeteners-origin-2027-10-01-es-419",
+  "puzzleFamilyId": "sugar-sweeteners-origin-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-01",
+  "timezone": "UTC",
+  "theme": "Azúcares y edulcorantes",
+  "items": [
+    {
+      "itemId": "sugar-sweeteners-origin-4",
+      "label": "Xilitol"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-8",
+      "label": "Azúcar de remolacha"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-1",
+      "label": "Sucralosa"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-6",
+      "label": "Sorbitol"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-10",
+      "label": "Azúcar de palma de coco"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-2",
+      "label": "Jarabe de arce puro"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-7",
+      "label": "Azúcar blanco de caña"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-5",
+      "label": "Eritritol"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-9",
+      "label": "Jarabe de maíz de alta fructosa"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-3",
+      "label": "Jarabe de savia de abedul"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase química y origen de cada edulcorante",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Edulcorante sintético sin calorías",
+        "capacity": 1,
+        "itemIds": [
+          "sugar-sweeteners-origin-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Jarabes de savia arbórea",
+        "capacity": 2,
+        "itemIds": [
+          "sugar-sweeteners-origin-2",
+          "sugar-sweeteners-origin-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Polialcoholes",
+        "capacity": 3,
+        "itemIds": [
+          "sugar-sweeteners-origin-4",
+          "sugar-sweeteners-origin-5",
+          "sugar-sweeteners-origin-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Azúcares calóricos",
+        "capacity": 4,
+        "itemIds": [
+          "sugar-sweeteners-origin-7",
+          "sugar-sweeteners-origin-8",
+          "sugar-sweeteners-origin-9",
+          "sugar-sweeteners-origin-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase: sintético sin calorías (sucralosa), jarabes de savia arbórea (jarabe de arce, jarabe de abedul), polialcoholes (xilitol, eritritol, sorbitol) y azúcares calóricos (azúcar de caña, azúcar de remolacha, jarabe de maíz de alta fructosa, azúcar de palma).",
+  "sources": [
+    {
+      "title": "FDA: High-Intensity Sweeteners & Sugars",
+      "url": "https://www.fda.gov/food/food-additives-petitions/high-intensity-sweeteners",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

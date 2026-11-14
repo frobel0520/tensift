@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "pastry-dough-types-001",
+  "theme": "Classic Pastry Doughs",
+  "publishDate": "2027-09-29",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "pastry-dough-types-1",
+        "rivalGroupId": "group-2",
+        "risk": "Phyllo is layered with butter to make flaky baklava.",
+        "resolution": "Phyllo is unleavened stretched flour-water sheets brushed with fat (group-1), not butter-encased folded laminated dough (group-2)."
+      },
+      {
+        "itemId": "pastry-dough-types-6",
+        "rivalGroupId": "group-2",
+        "risk": "Pâte Sablée is tender and crumbly.",
+        "resolution": "Pâte Sablée is an unlaminated rubbed-fat shortcrust (group-3), not a folded laminated pastry (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

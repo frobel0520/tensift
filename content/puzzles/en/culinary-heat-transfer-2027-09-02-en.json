@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "culinary-heat-transfer-2027-09-02-en",
+  "puzzleFamilyId": "culinary-heat-transfer-001",
+  "locale": "en",
+  "publishDate": "2027-09-02",
+  "timezone": "UTC",
+  "theme": "Cooking Heat Transfer Methods",
+  "items": [
+    {
+      "itemId": "culinary-heat-transfer-4",
+      "label": "Oven Baking"
+    },
+    {
+      "itemId": "culinary-heat-transfer-8",
+      "label": "Gentle Poaching"
+    },
+    {
+      "itemId": "culinary-heat-transfer-1",
+      "label": "Microwave Heating"
+    },
+    {
+      "itemId": "culinary-heat-transfer-6",
+      "label": "Dry Pan Searing"
+    },
+    {
+      "itemId": "culinary-heat-transfer-10",
+      "label": "Covered Braising"
+    },
+    {
+      "itemId": "culinary-heat-transfer-2",
+      "label": "Overhead Broiling"
+    },
+    {
+      "itemId": "culinary-heat-transfer-7",
+      "label": "Boiling (100 °C)"
+    },
+    {
+      "itemId": "culinary-heat-transfer-5",
+      "label": "Deep-Fat Frying"
+    },
+    {
+      "itemId": "culinary-heat-transfer-9",
+      "label": "Steaming"
+    },
+    {
+      "itemId": "culinary-heat-transfer-3",
+      "label": "Charcoal Grilling"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Primary heat transfer medium (Electromagnetic Radiation/Microwaves, Radiant Dry Heat, Dry Hot-Air Convection/Oil, or Moist Water/Steam)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Dielectric Microwave",
+        "capacity": 1,
+        "itemIds": [
+          "culinary-heat-transfer-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Direct Radiant Heat",
+        "capacity": 2,
+        "itemIds": [
+          "culinary-heat-transfer-2",
+          "culinary-heat-transfer-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Dry Air & Hot Fat",
+        "capacity": 3,
+        "itemIds": [
+          "culinary-heat-transfer-4",
+          "culinary-heat-transfer-5",
+          "culinary-heat-transfer-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Moist Heat (Water & Steam)",
+        "capacity": 4,
+        "itemIds": [
+          "culinary-heat-transfer-7",
+          "culinary-heat-transfer-8",
+          "culinary-heat-transfer-9",
+          "culinary-heat-transfer-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by heat transfer: Electromagnetic Dielectric Heating (Microwave Heating), Radiant Direct Heat (Broiling, Open-Flame Grilling), Dry Air & Fat Conduction (Oven Baking, Deep-Fat Frying, Pan Searing), and Moist Water/Steam (Boiling, Poaching, Steaming, Braising).",
+  "sources": [
+    {
+      "title": "USDA Food Safety & Cooking Methods",
+      "url": "https://www.fsis.usda.gov/food-safety",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

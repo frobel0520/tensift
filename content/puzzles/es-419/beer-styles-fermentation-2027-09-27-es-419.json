@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "beer-styles-fermentation-2027-09-27-es-419",
+  "puzzleFamilyId": "beer-styles-fermentation-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-27",
+  "timezone": "UTC",
+  "theme": "Estilos de cerveza por fermentación",
+  "items": [
+    {
+      "itemId": "beer-styles-fermentation-4",
+      "label": "Pilsner checa"
+    },
+    {
+      "itemId": "beer-styles-fermentation-8",
+      "label": "Stout seca irlandesa"
+    },
+    {
+      "itemId": "beer-styles-fermentation-1",
+      "label": "Lambic belga"
+    },
+    {
+      "itemId": "beer-styles-fermentation-6",
+      "label": "Lager de Viena"
+    },
+    {
+      "itemId": "beer-styles-fermentation-10",
+      "label": "Tripel belga"
+    },
+    {
+      "itemId": "beer-styles-fermentation-2",
+      "label": "Hefeweizen bávara"
+    },
+    {
+      "itemId": "beer-styles-fermentation-7",
+      "label": "India Pale Ale (IPA)"
+    },
+    {
+      "itemId": "beer-styles-fermentation-5",
+      "label": "Munich Helles"
+    },
+    {
+      "itemId": "beer-styles-fermentation-9",
+      "label": "Porter inglesa"
+    },
+    {
+      "itemId": "beer-styles-fermentation-3",
+      "label": "Witbier belga"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tipo de levadura y fermentación de cada estilo de cerveza",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Fermentación espontánea",
+        "capacity": 1,
+        "itemIds": [
+          "beer-styles-fermentation-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Cervezas de trigo",
+        "capacity": 2,
+        "itemIds": [
+          "beer-styles-fermentation-2",
+          "beer-styles-fermentation-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Lagers (baja fermentación)",
+        "capacity": 3,
+        "itemIds": [
+          "beer-styles-fermentation-4",
+          "beer-styles-fermentation-5",
+          "beer-styles-fermentation-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Ales de cebada (alta fermentación)",
+        "capacity": 4,
+        "itemIds": [
+          "beer-styles-fermentation-7",
+          "beer-styles-fermentation-8",
+          "beer-styles-fermentation-9",
+          "beer-styles-fermentation-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por fermentación: espontánea silvestre (lambic belga), cervezas de trigo (hefeweizen, witbier belga), lagers de baja fermentación (pilsner checa, munich helles, lager viena) y ales de alta fermentación (IPA, stout seca irlandesa, porter inglesa, tripel belga).",
+  "sources": [
+    {
+      "title": "Brewers Association Beer Style Guidelines",
+      "url": "https://www.brewersassociation.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

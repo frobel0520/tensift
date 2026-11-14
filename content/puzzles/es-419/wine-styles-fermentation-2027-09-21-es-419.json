@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "wine-styles-fermentation-2027-09-21-es-419",
+  "puzzleFamilyId": "wine-styles-fermentation-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-21",
+  "timezone": "UTC",
+  "theme": "Estilos y elaboración de vinos",
+  "items": [
+    {
+      "itemId": "wine-styles-fermentation-4",
+      "label": "Champán"
+    },
+    {
+      "itemId": "wine-styles-fermentation-8",
+      "label": "Chardonnay"
+    },
+    {
+      "itemId": "wine-styles-fermentation-1",
+      "label": "Rosado de Provenza"
+    },
+    {
+      "itemId": "wine-styles-fermentation-6",
+      "label": "Cava"
+    },
+    {
+      "itemId": "wine-styles-fermentation-10",
+      "label": "Sauvignon Blanc"
+    },
+    {
+      "itemId": "wine-styles-fermentation-2",
+      "label": "Oporto"
+    },
+    {
+      "itemId": "wine-styles-fermentation-7",
+      "label": "Cabernet Sauvignon"
+    },
+    {
+      "itemId": "wine-styles-fermentation-5",
+      "label": "Prosecco"
+    },
+    {
+      "itemId": "wine-styles-fermentation-9",
+      "label": "Pinot Noir"
+    },
+    {
+      "itemId": "wine-styles-fermentation-3",
+      "label": "Jerez fino"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría de vinificación de cada estilo de vino",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Vino rosado",
+        "capacity": 1,
+        "itemIds": [
+          "wine-styles-fermentation-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Vinos fortificados",
+        "capacity": 2,
+        "itemIds": [
+          "wine-styles-fermentation-2",
+          "wine-styles-fermentation-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Vinos espumosos",
+        "capacity": 3,
+        "itemIds": [
+          "wine-styles-fermentation-4",
+          "wine-styles-fermentation-5",
+          "wine-styles-fermentation-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Vinos tranquilos de mesa",
+        "capacity": 4,
+        "itemIds": [
+          "wine-styles-fermentation-7",
+          "wine-styles-fermentation-8",
+          "wine-styles-fermentation-9",
+          "wine-styles-fermentation-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por vinificación: maceración breve (rosado de Provenza), fortificados con alcohol vínico (oportos, jerez), espumosos con segunda fermentación (champán, prosecco, cava) y vinos tranquilos de mesa (cabernet sauvignon, chardonnay, pinot noir, sauvignon blanc).",
+  "sources": [
+    {
+      "title": "OIV: International Organisation of Vine and Wine",
+      "url": "https://www.oiv.int/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

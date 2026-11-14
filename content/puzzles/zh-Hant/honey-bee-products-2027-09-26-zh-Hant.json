@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "honey-bee-products-2027-09-26-zh-hant",
+  "puzzleFamilyId": "honey-bee-products-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-26",
+  "timezone": "UTC",
+  "theme": "養蜂產物與蜂巢物質",
+  "items": [
+    {
+      "itemId": "honey-bee-products-4",
+      "label": "天然蜂花粉"
+    },
+    {
+      "itemId": "honey-bee-products-8",
+      "label": "麥蘆卡蜂蜜"
+    },
+    {
+      "itemId": "honey-bee-products-1",
+      "label": "蜂膠（Propolis）"
+    },
+    {
+      "itemId": "honey-bee-products-6",
+      "label": "天然巢蜜塊"
+    },
+    {
+      "itemId": "honey-bee-products-10",
+      "label": "洋槐（刺槐）蜂蜜"
+    },
+    {
+      "itemId": "honey-bee-products-2",
+      "label": "天然蜂蠟"
+    },
+    {
+      "itemId": "honey-bee-products-7",
+      "label": "三葉草蜂蜜"
+    },
+    {
+      "itemId": "honey-bee-products-5",
+      "label": "發酵蜂糧（Bee Bread）"
+    },
+    {
+      "itemId": "honey-bee-products-9",
+      "label": "蕎麥蜂蜜"
+    },
+    {
+      "itemId": "honey-bee-products-3",
+      "label": "蜂王乳（蜂王漿）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各養蜂產物在蜂群中的生理與採集來源（蜂蠟分泌物、植物樹脂與花粉、蜂王乳分泌物或花蜜蜂蜜）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "植物樹脂封膠",
+        "capacity": 1,
+        "itemIds": [
+          "honey-bee-products-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "工蜂腺體分泌物",
+        "capacity": 2,
+        "itemIds": [
+          "honey-bee-products-2",
+          "honey-bee-products-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "花粉與蜂巢儲糧",
+        "capacity": 3,
+        "itemIds": [
+          "honey-bee-products-4",
+          "honey-bee-products-5",
+          "honey-bee-products-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "單一花源液態蜂蜜",
+        "capacity": 4,
+        "itemIds": [
+          "honey-bee-products-7",
+          "honey-bee-products-8",
+          "honey-bee-products-9",
+          "honey-bee-products-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依蜂巢產物來源分類：植物樹脂封膠（蜂膠 Propolis）、工蜂腺體分泌（蜂蠟、蜂王乳）、花粉與巢脾產物（天然蜂花粉、發酵蜂糧、連巢蜂蜜框）與單一花源蜂蜜（三葉草蜜、麥蘆卡蜂蜜、蕎麥蜜、洋槐蜜）。",
+  "sources": [
+    {
+      "title": "FAO: Value-Added Products from Beekeeping",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

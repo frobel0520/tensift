@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chocolate-tea-caffeine-sources-2027-10-14-zh-hant",
+  "puzzleFamilyId": "chocolate-tea-caffeine-sources-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-14",
+  "timezone": "UTC",
+  "theme": "含咖啡因植物與飲品來源",
+  "items": [
+    {
+      "itemId": "chocolate-tea-caffeine-sources-4",
+      "label": "日本抹茶"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-8",
+      "label": "濾泡黑咖啡"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-1",
+      "label": "瓜拿納籽提神飲"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-6",
+      "label": "炭焙烏龍茶"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-10",
+      "label": "凍乾即溶咖啡"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-2",
+      "label": "南美瑪黛茶（Yerba Mate）"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-7",
+      "label": "義式濃縮咖啡"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-5",
+      "label": "阿薩姆紅茶"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-9",
+      "label": "冷萃黑咖啡"
+    },
+    {
+      "itemId": "chocolate-tea-caffeine-sources-3",
+      "label": "亞馬遜冬青茶（Guayusa）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各含咖啡因飲品的植物科屬來源（瓜拿納果、冬青屬植物、茶樹葉或咖啡屬咖啡豆）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "瓜拿納（無患子科）",
+        "capacity": 1,
+        "itemIds": [
+          "chocolate-tea-caffeine-sources-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "冬青屬植物茶飲",
+        "capacity": 2,
+        "itemIds": [
+          "chocolate-tea-caffeine-sources-2",
+          "chocolate-tea-caffeine-sources-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "山茶屬真茶葉",
+        "capacity": 3,
+        "itemIds": [
+          "chocolate-tea-caffeine-sources-4",
+          "chocolate-tea-caffeine-sources-5",
+          "chocolate-tea-caffeine-sources-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "咖啡屬咖啡豆飲品",
+        "capacity": 4,
+        "itemIds": [
+          "chocolate-tea-caffeine-sources-7",
+          "chocolate-tea-caffeine-sources-8",
+          "chocolate-tea-caffeine-sources-9",
+          "chocolate-tea-caffeine-sources-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依植物來源分類：無患子科瓜拿納（瓜拿納萃取飲）、冬青屬植物（南美瑪黛茶、亞馬遜冬青茶 Guayusa）、山茶屬茶葉（抹茶、阿薩姆紅茶、烏龍茶）與咖啡屬咖啡豆（義式濃縮、濾泡黑咖啡、冷萃咖啡、即溶咖啡）。",
+  "sources": [
+    {
+      "title": "USDA & EFSA: Caffeine Sources",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/caffeine",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "chili-pepper-scoville-001",
+  "theme": "Chili Peppers by Heat Tier",
+  "publishDate": "2027-09-30",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "chili-pepper-scoville-3",
+        "rivalGroupId": "group-3",
+        "risk": "Jalapeño is a well-known spicy chili.",
+        "resolution": "Jalapeño measures 2,500–8,000 SHU (group-2), far milder than Cayenne/Thai/Tabasco at 30,000–100,000 SHU (group-3)."
+      },
+      {
+        "itemId": "chili-pepper-scoville-7",
+        "rivalGroupId": "group-3",
+        "risk": "Habanero is used in everyday hot sauces.",
+        "resolution": "Habanero starts around 150,000–350,000 SHU (group-4), above the 30k–100k SHU tier (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

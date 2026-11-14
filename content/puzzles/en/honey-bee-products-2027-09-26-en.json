@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "honey-bee-products-2027-09-26-en",
+  "puzzleFamilyId": "honey-bee-products-001",
+  "locale": "en",
+  "publishDate": "2027-09-26",
+  "timezone": "UTC",
+  "theme": "Apiary & Bee Products",
+  "items": [
+    {
+      "itemId": "honey-bee-products-4",
+      "label": "Raw Bee Pollen"
+    },
+    {
+      "itemId": "honey-bee-products-8",
+      "label": "Manuka Honey"
+    },
+    {
+      "itemId": "honey-bee-products-1",
+      "label": "Propolis"
+    },
+    {
+      "itemId": "honey-bee-products-6",
+      "label": "Cut Honeycomb"
+    },
+    {
+      "itemId": "honey-bee-products-10",
+      "label": "Acacia Honey"
+    },
+    {
+      "itemId": "honey-bee-products-2",
+      "label": "Beeswax"
+    },
+    {
+      "itemId": "honey-bee-products-7",
+      "label": "Clover Honey"
+    },
+    {
+      "itemId": "honey-bee-products-5",
+      "label": "Fermented Bee Bread"
+    },
+    {
+      "itemId": "honey-bee-products-9",
+      "label": "Buckwheat Honey"
+    },
+    {
+      "itemId": "honey-bee-products-3",
+      "label": "Royal Jelly"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Hive product origin (Beeswax Structural Comb, Resin/Pollen Collections, Brood/Queen Secretion, or Nectar Honey Varieties)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Plant Resin Sealant",
+        "capacity": 1,
+        "itemIds": [
+          "honey-bee-products-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Bee Glandular Secretions",
+        "capacity": 2,
+        "itemIds": [
+          "honey-bee-products-2",
+          "honey-bee-products-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Pollen & Comb Stores",
+        "capacity": 3,
+        "itemIds": [
+          "honey-bee-products-4",
+          "honey-bee-products-5",
+          "honey-bee-products-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Monofloral Nectar Honeys",
+        "capacity": 4,
+        "itemIds": [
+          "honey-bee-products-7",
+          "honey-bee-products-8",
+          "honey-bee-products-9",
+          "honey-bee-products-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by hive origin: Plant Resin Sealant (Propolis), Bee Glandular Secretions (Beeswax, Royal Jelly), Pollen & Comb Stores (Raw Bee Pollen, Fermented Bee Bread, Cut Honeycomb), and Monofloral Nectar Honeys (Clover Honey, Manuka Honey, Buckwheat Honey, Acacia Honey).",
+  "sources": [
+    {
+      "title": "FAO: Value-Added Products from Beekeeping",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

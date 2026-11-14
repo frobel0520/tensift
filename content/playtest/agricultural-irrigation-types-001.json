@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "agricultural-irrigation-types-001",
+  "theme": "Agricultural Irrigation Methods",
+  "publishDate": "2027-09-19",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "agricultural-irrigation-types-1",
+        "rivalGroupId": "group-2",
+        "risk": "Subsurface drip uses drip emitters.",
+        "resolution": "Subsurface drip is buried below the soil surface directly in the root zone (group-1), unlike above-ground surface micro-irrigation (group-2)."
+      },
+      {
+        "itemId": "agricultural-irrigation-types-6",
+        "rivalGroupId": "group-2",
+        "risk": "Micro-sprayers spray water into the air.",
+        "resolution": "Micro-jets operate at low pressure near the base of individual trees/crops (group-2), unlike high-pressure overhead field sprinklers (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "bread-leavening-methods-2027-09-05-en",
+  "puzzleFamilyId": "bread-leavening-methods-001",
+  "locale": "en",
+  "publishDate": "2027-09-05",
+  "timezone": "UTC",
+  "theme": "Bread & Dough Leavening",
+  "items": [
+    {
+      "itemId": "bread-leavening-methods-4",
+      "label": "Irish Soda Bread"
+    },
+    {
+      "itemId": "bread-leavening-methods-8",
+      "label": "Butter Brioche"
+    },
+    {
+      "itemId": "bread-leavening-methods-1",
+      "label": "Choux Pastry (Profiterole)"
+    },
+    {
+      "itemId": "bread-leavening-methods-6",
+      "label": "Baking-Powder Muffin"
+    },
+    {
+      "itemId": "bread-leavening-methods-10",
+      "label": "Neapolitan Pizza Dough"
+    },
+    {
+      "itemId": "bread-leavening-methods-2",
+      "label": "San Francisco Sourdough"
+    },
+    {
+      "itemId": "bread-leavening-methods-7",
+      "label": "French Baguette"
+    },
+    {
+      "itemId": "bread-leavening-methods-5",
+      "label": "Buttermilk Biscuit"
+    },
+    {
+      "itemId": "bread-leavening-methods-9",
+      "label": "Italian Focaccia"
+    },
+    {
+      "itemId": "bread-leavening-methods-3",
+      "label": "Pain de Campagne"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Primary leavening agent (Steam/Mechanical Lamination, Wild Sourdough Culture, Chemical Baking Powder/Soda, or Commercial Baker’s Yeast)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Steam-Leavened Pastry",
+        "capacity": 1,
+        "itemIds": [
+          "bread-leavening-methods-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Wild Sourdough Culture",
+        "capacity": 2,
+        "itemIds": [
+          "bread-leavening-methods-2",
+          "bread-leavening-methods-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Chemical Leaveners",
+        "capacity": 3,
+        "itemIds": [
+          "bread-leavening-methods-4",
+          "bread-leavening-methods-5",
+          "bread-leavening-methods-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Commercial Baker’s Yeast",
+        "capacity": 4,
+        "itemIds": [
+          "bread-leavening-methods-7",
+          "bread-leavening-methods-8",
+          "bread-leavening-methods-9",
+          "bread-leavening-methods-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by leavening agent: Steam-Only Choux/Puff (Choux Pastry Profiterole), Wild Sourdough Starter (San Francisco Sourdough, Pain de Campagne), Chemical Leaveners (Irish Soda Bread, Buttermilk Biscuit, American Muffin), and Commercial Baker’s Yeast (French Baguette, Brioche, Focaccia, Pizza Dough).",
+  "sources": [
+    {
+      "title": "USDA FoodData Central: Baked Products",
+      "url": "https://fdc.nal.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "baking-sugar-types-001",
+  "theme": "Culinary Sugars & Syrups",
+  "publishDate": "2027-10-21",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "baking-sugar-types-1",
+        "rivalGroupId": "group-4",
+        "risk": "Powdered sugar is made from white sucrose.",
+        "resolution": "Confectioners’ sugar is pulverized into a fine anti-caking dust (group-1), not free-flowing dry crystals (group-4)."
+      },
+      {
+        "itemId": "baking-sugar-types-9",
+        "rivalGroupId": "group-3",
+        "risk": "Turbinado is amber-colored with trace molasses.",
+        "resolution": "Turbinado consists of large dry washed crystals (group-4), unlike moist molasses-coated soft brown sugars (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

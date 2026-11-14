@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "milling-flour-grades-2027-10-16-es-419",
+  "puzzleFamilyId": "milling-flour-grades-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-16",
+  "timezone": "UTC",
+  "theme": "Harinas y almidones culinarios",
+  "items": [
+    {
+      "itemId": "milling-flour-grades-4",
+      "label": "Harina de centeno"
+    },
+    {
+      "itemId": "milling-flour-grades-8",
+      "label": "Harina de trigo todo uso"
+    },
+    {
+      "itemId": "milling-flour-grades-1",
+      "label": "Fécula de maíz (maicena)"
+    },
+    {
+      "itemId": "milling-flour-grades-6",
+      "label": "Harina de arroz"
+    },
+    {
+      "itemId": "milling-flour-grades-10",
+      "label": "Gluten vital de trigo"
+    },
+    {
+      "itemId": "milling-flour-grades-2",
+      "label": "Harina de almendra"
+    },
+    {
+      "itemId": "milling-flour-grades-7",
+      "label": "Harina de trigo para repostería"
+    },
+    {
+      "itemId": "milling-flour-grades-5",
+      "label": "Harina de avena"
+    },
+    {
+      "itemId": "milling-flour-grades-9",
+      "label": "Harina de fuerza para pan"
+    },
+    {
+      "itemId": "milling-flour-grades-3",
+      "label": "Harina de garbanzo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría proteica y botánica de cada harina o almidón",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Almidón puro aislado",
+        "capacity": 1,
+        "itemIds": [
+          "milling-flour-grades-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Harinas de frutos secos y legumbres",
+        "capacity": 2,
+        "itemIds": [
+          "milling-flour-grades-2",
+          "milling-flour-grades-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Harinas de otros cereales",
+        "capacity": 3,
+        "itemIds": [
+          "milling-flour-grades-4",
+          "milling-flour-grades-5",
+          "milling-flour-grades-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Harinas de trigo por fuerza",
+        "capacity": 4,
+        "itemIds": [
+          "milling-flour-grades-7",
+          "milling-flour-grades-8",
+          "milling-flour-grades-9",
+          "milling-flour-grades-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por tipo: almidón puro (fécula de maíz), harinas sin gluten de frutos secos/legumbres (harina de almendra, harina de garbanzo), harinas de otros cereales (centeno, avena, arroz) y grados de harina de trigo (repostería ~7%, todo uso ~10%, fuerza/pan ~12.5%, gluten vital).",
+  "sources": [
+    {
+      "title": "USDA Wheat & Flour Standards",
+      "url": "https://www.ams.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "culinary-knife-cuts-2027-09-04-zh-hant",
+  "puzzleFamilyId": "culinary-knife-cuts-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-04",
+  "timezone": "UTC",
+  "theme": "西餐經典蔬菜刀工規格",
+  "items": [
+    {
+      "itemId": "culinary-knife-cuts-4",
+      "label": "細絲切（Julienne）"
+    },
+    {
+      "itemId": "culinary-knife-cuts-8",
+      "label": "馬賽多方丁（Macedoine）"
+    },
+    {
+      "itemId": "culinary-knife-cuts-1",
+      "label": "葉菜細絲切（Chiffonade）"
+    },
+    {
+      "itemId": "culinary-knife-cuts-6",
+      "label": "火柴棒切（Allumette）"
+    },
+    {
+      "itemId": "culinary-knife-cuts-10",
+      "label": "中丁（Medium Dice）"
+    },
+    {
+      "itemId": "culinary-knife-cuts-2",
+      "label": "圓片切（Rondelle）"
+    },
+    {
+      "itemId": "culinary-knife-cuts-7",
+      "label": "極細丁（Brunoise）"
+    },
+    {
+      "itemId": "culinary-knife-cuts-5",
+      "label": "粗條切（Batonnet）"
+    },
+    {
+      "itemId": "culinary-knife-cuts-9",
+      "label": "小丁（Small Dice）"
+    },
+    {
+      "itemId": "culinary-knife-cuts-3",
+      "label": "田園薄片切（Paysanne）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各西餐刀工的幾何形狀分類（細絲捲切、圓片／橄欖形、條狀切法或立方丁切法）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "葉菜捲切細絲",
+        "capacity": 1,
+        "itemIds": [
+          "culinary-knife-cuts-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "圓片與薄片切法",
+        "capacity": 2,
+        "itemIds": [
+          "culinary-knife-cuts-2",
+          "culinary-knife-cuts-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "長條與細絲切法",
+        "capacity": 3,
+        "itemIds": [
+          "culinary-knife-cuts-4",
+          "culinary-knife-cuts-5",
+          "culinary-knife-cuts-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "立方丁切法",
+        "capacity": 4,
+        "itemIds": [
+          "culinary-knife-cuts-7",
+          "culinary-knife-cuts-8",
+          "culinary-knife-cuts-9",
+          "culinary-knife-cuts-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依幾何形狀分類：葉菜捲切細絲（Chiffonade）、圓片與薄片（圓片切 Rondelle、田園薄片 Paysanne）、長條狀（細絲 Julienne、薯條狀 Batonnet、火柴棒 Allumette）與立方丁（極細丁 Brunoise、馬賽多丁 Macedoine、小丁、中丁）。",
+  "sources": [
+    {
+      "title": "CIA Culinary Knife Cuts Guide",
+      "url": "https://www.ciachef.edu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}
