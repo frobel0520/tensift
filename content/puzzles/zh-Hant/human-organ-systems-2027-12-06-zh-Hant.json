@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "human-organ-systems-2027-12-06-zh-hant",
+  "puzzleFamilyId": "human-organ-systems-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-06",
+  "timezone": "UTC",
+  "theme": "人體解剖學器官系統",
+  "items": [
+    {
+      "itemId": "human-organ-systems-4",
+      "label": "氣管"
+    },
+    {
+      "itemId": "human-organ-systems-8",
+      "label": "胃"
+    },
+    {
+      "itemId": "human-organ-systems-1",
+      "label": "皮膚（表皮與真皮）"
+    },
+    {
+      "itemId": "human-organ-systems-6",
+      "label": "肺泡"
+    },
+    {
+      "itemId": "human-organ-systems-10",
+      "label": "肝臟"
+    },
+    {
+      "itemId": "human-organ-systems-2",
+      "label": "甲狀腺"
+    },
+    {
+      "itemId": "human-organ-systems-7",
+      "label": "食道"
+    },
+    {
+      "itemId": "human-organ-systems-5",
+      "label": "支氣管"
+    },
+    {
+      "itemId": "human-organ-systems-9",
+      "label": "小腸"
+    },
+    {
+      "itemId": "human-organ-systems-3",
+      "label": "腎上腺"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各人體器官所屬的生理系統（皮膚系統、內分泌腺體、呼吸系統或消化系統）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "皮膚（被覆）系統",
+        "capacity": 1,
+        "itemIds": [
+          "human-organ-systems-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "內分泌系統腺體",
+        "capacity": 2,
+        "itemIds": [
+          "human-organ-systems-2",
+          "human-organ-systems-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "呼吸系統",
+        "capacity": 3,
+        "itemIds": [
+          "human-organ-systems-4",
+          "human-organ-systems-5",
+          "human-organ-systems-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "消化系統",
+        "capacity": 4,
+        "itemIds": [
+          "human-organ-systems-7",
+          "human-organ-systems-8",
+          "human-organ-systems-9",
+          "human-organ-systems-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依人體生理系統分類：皮膚系統（表皮與真皮皮膚）、內分泌系統（甲狀腺、腎上腺）、呼吸系統（氣管、支氣管樹、肺泡）與消化系統（食道、胃、小腸、肝臟）。",
+  "sources": [
+    {
+      "title": "NIH MedlinePlus: Body Systems",
+      "url": "https://medlineplus.gov/anatomy.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.2
+  },
+  "status": "scheduled"
+}

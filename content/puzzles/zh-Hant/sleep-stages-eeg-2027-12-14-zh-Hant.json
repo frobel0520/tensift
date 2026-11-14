@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sleep-stages-eeg-2027-12-14-zh-hant",
+  "puzzleFamilyId": "sleep-stages-eeg-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-14",
+  "timezone": "UTC",
+  "theme": "人類睡眠週期與腦波階段",
+  "items": [
+    {
+      "itemId": "sleep-stages-eeg-4",
+      "label": "N1 淺睡過渡期（θ 波）"
+    },
+    {
+      "itemId": "sleep-stages-eeg-8",
+      "label": "高振幅 δ 慢波（0.5–4 Hz）"
+    },
+    {
+      "itemId": "sleep-stages-eeg-1",
+      "label": "快速動眼期（REM）"
+    },
+    {
+      "itemId": "sleep-stages-eeg-6",
+      "label": "N2 K-複合波"
+    },
+    {
+      "itemId": "sleep-stages-eeg-10",
+      "label": "深睡夢遊發生視窗"
+    },
+    {
+      "itemId": "sleep-stages-eeg-2",
+      "label": "閉眼放鬆 α 波清醒期"
+    },
+    {
+      "itemId": "sleep-stages-eeg-7",
+      "label": "N3 深層慢波睡眠期"
+    },
+    {
+      "itemId": "sleep-stages-eeg-5",
+      "label": "N2 睡眠紡錘波（12–14 Hz）"
+    },
+    {
+      "itemId": "sleep-stages-eeg-9",
+      "label": "深睡生長激素分泌高峰"
+    },
+    {
+      "itemId": "sleep-stages-eeg-3",
+      "label": "專注清醒 β 波狀態"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "美國睡眠醫學會（AASM）睡眠分期與特徵腦波（清醒期、快速動眼期 REM、淺層非快速動眼期 N1/N2 或深層慢波睡眠 N3 特徵）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "快速動眼期（REM）",
+        "capacity": 1,
+        "itemIds": [
+          "sleep-stages-eeg-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "清醒期腦波狀態",
+        "capacity": 2,
+        "itemIds": [
+          "sleep-stages-eeg-2",
+          "sleep-stages-eeg-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "淺層非快速動眼期（N1/N2）",
+        "capacity": 3,
+        "itemIds": [
+          "sleep-stages-eeg-4",
+          "sleep-stages-eeg-5",
+          "sleep-stages-eeg-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "深層慢波睡眠期（N3）",
+        "capacity": 4,
+        "itemIds": [
+          "sleep-stages-eeg-7",
+          "sleep-stages-eeg-8",
+          "sleep-stages-eeg-9",
+          "sleep-stages-eeg-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依睡眠結構分類：快速動眼期（REM 做夢期）、清醒腦波狀態（閉眼放鬆 α 波、專注清醒 β 波）、淺層非快速動眼期（N1 入睡期、N2 睡眠紡錘波、N2 K-複合波）與深層慢波睡眠期（N3 深睡期、高振幅 δ 慢波、生長激素分泌高峰期、夢遊發生視窗）。",
+  "sources": [
+    {
+      "title": "NIH NINDS: Brain Basics — Understanding Sleep",
+      "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

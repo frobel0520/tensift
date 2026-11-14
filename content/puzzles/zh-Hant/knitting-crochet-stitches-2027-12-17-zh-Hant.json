@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "knitting-crochet-stitches-2027-12-17-zh-hant",
+  "puzzleFamilyId": "knitting-crochet-stitches-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-17",
+  "timezone": "UTC",
+  "theme": "針織、鉤針與刺繡工藝",
+  "items": [
+    {
+      "itemId": "knitting-crochet-stitches-4",
+      "label": "鉤針鎖針"
+    },
+    {
+      "itemId": "knitting-crochet-stitches-8",
+      "label": "棒針上針（反針）"
+    },
+    {
+      "itemId": "knitting-crochet-stitches-1",
+      "label": "梭編蕾絲（Tatting）"
+    },
+    {
+      "itemId": "knitting-crochet-stitches-6",
+      "label": "鉤針長針"
+    },
+    {
+      "itemId": "knitting-crochet-stitches-10",
+      "label": "平針面編織（正反交替）"
+    },
+    {
+      "itemId": "knitting-crochet-stitches-2",
+      "label": "法國結粒繡"
+    },
+    {
+      "itemId": "knitting-crochet-stitches-7",
+      "label": "棒針下針（正針）"
+    },
+    {
+      "itemId": "knitting-crochet-stitches-5",
+      "label": "鉤針短針"
+    },
+    {
+      "itemId": "knitting-crochet-stitches-9",
+      "label": "起伏針（全下針）"
+    },
+    {
+      "itemId": "knitting-crochet-stitches-3",
+      "label": "緞面平繡"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各纖維手工藝針法所屬的工藝類型（梭編蕾絲、布面刺繡、單支鉤針或雙針棒針編織）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "梭編蕾絲工藝",
+        "capacity": 1,
+        "itemIds": [
+          "knitting-crochet-stitches-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "布面刺繡針法",
+        "capacity": 2,
+        "itemIds": [
+          "knitting-crochet-stitches-2",
+          "knitting-crochet-stitches-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "鉤針針法",
+        "capacity": 3,
+        "itemIds": [
+          "knitting-crochet-stitches-4",
+          "knitting-crochet-stitches-5",
+          "knitting-crochet-stitches-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "棒針編織針法",
+        "capacity": 4,
+        "itemIds": [
+          "knitting-crochet-stitches-7",
+          "knitting-crochet-stitches-8",
+          "knitting-crochet-stitches-9",
+          "knitting-crochet-stitches-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依針藝類型分類：梭編蕾絲（梭編蕾絲 Tatting）、布面刺繡（法國結粒繡、緞面繡）、鉤針針法（鎖針、短針、長針）與棒針編織（下針／正針、上針／反針、起伏針、平針面編織）。",
+  "sources": [
+    {
+      "title": "Craft Yarn Council: Knitting & Crochet Standards",
+      "url": "https://www.craftyarncouncil.com/standards",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

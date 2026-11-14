@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cognitive-biases-psychology-2027-12-10-es-419",
+  "puzzleFamilyId": "cognitive-biases-psychology-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-10",
+  "timezone": "UTC",
+  "theme": "Sesgos cognitivos en psicología",
+  "items": [
+    {
+      "itemId": "cognitive-biases-psychology-4",
+      "label": "Heurística de disponibilidad"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-8",
+      "label": "Perseverancia de creencias"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-1",
+      "label": "Sesgo retrospectivo"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-6",
+      "label": "Falacia del costo hundido"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-10",
+      "label": "Sesgo de exceso de confianza"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-2",
+      "label": "Error fundamental de atribución"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-7",
+      "label": "Sesgo de confirmación"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-5",
+      "label": "Efecto de anclaje"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-9",
+      "label": "Efecto Dunning-Kruger"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-3",
+      "label": "Sesgo endogrupal"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Mecanismo psicológico de cada sesgo cognitivo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Sesgo de memoria retrospectiva",
+        "capacity": 1,
+        "itemIds": [
+          "cognitive-biases-psychology-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Sesgos de atribución social",
+        "capacity": 2,
+        "itemIds": [
+          "cognitive-biases-psychology-2",
+          "cognitive-biases-psychology-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Heurísticas de decisión y riesgo",
+        "capacity": 3,
+        "itemIds": [
+          "cognitive-biases-psychology-4",
+          "cognitive-biases-psychology-5",
+          "cognitive-biases-psychology-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Sesgos de creencia y autoevaluación",
+        "capacity": 4,
+        "itemIds": [
+          "cognitive-biases-psychology-7",
+          "cognitive-biases-psychology-8",
+          "cognitive-biases-psychology-9",
+          "cognitive-biases-psychology-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por mecanismo: memoria reconstructiva (sesgo retrospectivo), atribución social (error fundamental de atribución, sesgo endogrupal), heurísticas de probabilidad/decisión (heurística de disponibilidad, efecto de anclaje, falacia del costo hundido) y persistencia de creencias/autoevaluación (sesgo de confirmación, perseverancia de creencias, efecto Dunning-Kruger, exceso de confianza).",
+  "sources": [
+    {
+      "title": "APA Dictionary of Psychology: Cognitive Biases",
+      "url": "https://dictionary.apa.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "laundry-care-symbols-2027-12-01-zh-hant",
+  "puzzleFamilyId": "laundry-care-symbols-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-01",
+  "timezone": "UTC",
+  "theme": "國際衣物洗滌標示符號",
+  "items": [
+    {
+      "itemId": "laundry-care-symbols-4",
+      "label": "一點熨斗（低溫 110 °C）"
+    },
+    {
+      "itemId": "laundry-care-symbols-8",
+      "label": "手洗水盆圖示"
+    },
+    {
+      "itemId": "laundry-care-symbols-1",
+      "label": "圓圈 P（標準乾洗）"
+    },
+    {
+      "itemId": "laundry-care-symbols-6",
+      "label": "三點熨斗（高溫 200 °C）"
+    },
+    {
+      "itemId": "laundry-care-symbols-10",
+      "label": "方中直線（懸掛晾乾）"
+    },
+    {
+      "itemId": "laundry-care-symbols-2",
+      "label": "空心三角形（可漂白）"
+    },
+    {
+      "itemId": "laundry-care-symbols-7",
+      "label": "30 °C 溫和水洗槽"
+    },
+    {
+      "itemId": "laundry-care-symbols-5",
+      "label": "二點熨斗（中溫 150 °C）"
+    },
+    {
+      "itemId": "laundry-care-symbols-9",
+      "label": "方中帶圓（滾筒烘乾）"
+    },
+    {
+      "itemId": "laundry-care-symbols-3",
+      "label": "打叉三角形（不可漂白）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各衣物洗標符號在 ISO 3758 標準中的五大類歸屬（圓形乾洗、三角形漂白、熨斗整燙或水洗槽／方形烘乾）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "圓形乾洗標示",
+        "capacity": 1,
+        "itemIds": [
+          "laundry-care-symbols-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "三角形漂白標示",
+        "capacity": 2,
+        "itemIds": [
+          "laundry-care-symbols-2",
+          "laundry-care-symbols-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "熨斗整燙溫度標示",
+        "capacity": 3,
+        "itemIds": [
+          "laundry-care-symbols-4",
+          "laundry-care-symbols-5",
+          "laundry-care-symbols-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "水洗槽與烘晾方形標示",
+        "capacity": 4,
+        "itemIds": [
+          "laundry-care-symbols-7",
+          "laundry-care-symbols-8",
+          "laundry-care-symbols-9",
+          "laundry-care-symbols-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依 ISO 3758 洗標分類：乾洗圓形（P 字乾洗圓圈）、漂白三角形（允許漂白空心三角、禁止漂白叉號三角）、整燙熨斗（低溫一點熨燙、中溫二點熨燙、高溫三點熨燙）與水洗槽及烘乾方形（30 °C 機洗槽、手洗槽、低溫滾筒烘乾、懸掛晾乾）。",
+  "sources": [
+    {
+      "title": "ISO 3758: Textiles Care Labelling Code",
+      "url": "https://www.iso.org/standard/78246.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

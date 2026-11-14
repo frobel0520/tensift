@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "memory-systems-psychology-2027-12-23-zh-hant",
+  "puzzleFamilyId": "memory-systems-psychology-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-23",
+  "timezone": "UTC",
+  "theme": "認知心理學人類記憶系統",
+  "items": [
+    {
+      "itemId": "memory-systems-psychology-4",
+      "label": "動作程序性記憶（騎車／游泳）"
+    },
+    {
+      "itemId": "memory-systems-psychology-8",
+      "label": "語意知識記憶"
+    },
+    {
+      "itemId": "memory-systems-psychology-1",
+      "label": "視覺圖像瞬時記憶（Iconic）"
+    },
+    {
+      "itemId": "memory-systems-psychology-6",
+      "label": "知覺促發效應（Priming）"
+    },
+    {
+      "itemId": "memory-systems-psychology-10",
+      "label": "前瞻性待辦記憶"
+    },
+    {
+      "itemId": "memory-systems-psychology-2",
+      "label": "語音迴路（Phonological Loop）"
+    },
+    {
+      "itemId": "memory-systems-psychology-7",
+      "label": "情節事件記憶"
+    },
+    {
+      "itemId": "memory-systems-psychology-5",
+      "label": "古典制約反應記憶"
+    },
+    {
+      "itemId": "memory-systems-psychology-9",
+      "label": "自傳體個人史記憶"
+    },
+    {
+      "itemId": "memory-systems-psychology-3",
+      "label": "視覺空間畫板"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各記憶系統在認知心理學中的分類（感官瞬時記憶、工作記憶／短期記憶、非陳述性內隱記憶或外顯陳述性長期記憶）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "感官瞬時記憶（<1 秒）",
+        "capacity": 1,
+        "itemIds": [
+          "memory-systems-psychology-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "工作記憶子系統",
+        "capacity": 2,
+        "itemIds": [
+          "memory-systems-psychology-2",
+          "memory-systems-psychology-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "內隱非陳述性記憶",
+        "capacity": 3,
+        "itemIds": [
+          "memory-systems-psychology-4",
+          "memory-systems-psychology-5",
+          "memory-systems-psychology-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "外顯陳述性長期記憶",
+        "capacity": 4,
+        "itemIds": [
+          "memory-systems-psychology-7",
+          "memory-systems-psychology-8",
+          "memory-systems-psychology-9",
+          "memory-systems-psychology-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依認知記憶系統分類：感官瞬時登記（視覺影像瞬時記憶）、工作記憶子系統（語音迴路、視覺空間畫板）、非陳述性內隱記憶（動作程序性記憶、古典制約學習、知覺促發效應）與外顯陳述性記憶（情節記憶、語意記憶、自傳體記憶、前瞻性記憶）。",
+  "sources": [
+    {
+      "title": "APA Dictionary of Psychology: Memory Systems",
+      "url": "https://dictionary.apa.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

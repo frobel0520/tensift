@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "horology-watch-movements-001",
+  "theme": "Horology & Timekeeping Mechanisms",
+  "publishDate": "2027-12-04",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "horology-watch-movements-6",
+        "rivalGroupId": "group-1",
+        "risk": "Radio-controlled watches synchronize to atomic clock broadcasts.",
+        "resolution": "A radio-controlled watch keeps local time with an internal quartz crystal oscillator (group-3), rather than housing a cesium beam cavity (group-1)."
+      },
+      {
+        "itemId": "horology-watch-movements-2",
+        "rivalGroupId": "group-4",
+        "risk": "Pendulum clocks use mechanical gears and escapements.",
+        "resolution": "Pendulum clocks depend on Earth’s gravity for oscillation (group-2), whereas wristwatches use a sprung balance wheel (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "typography-print-anatomy-2027-12-21-es-419",
+  "puzzleFamilyId": "typography-print-anatomy-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-21",
+  "timezone": "UTC",
+  "theme": "Anatomía tipográfica de las letras",
+  "items": [
+    {
+      "itemId": "typography-print-anatomy-4",
+      "label": "Línea base"
+    },
+    {
+      "itemId": "typography-print-anatomy-8",
+      "label": "Trazo descendente"
+    },
+    {
+      "itemId": "typography-print-anatomy-1",
+      "label": "Interlineado (leading)"
+    },
+    {
+      "itemId": "typography-print-anatomy-6",
+      "label": "Altura de mayúsculas"
+    },
+    {
+      "itemId": "typography-print-anatomy-10",
+      "label": "Contrapunzón cerrado"
+    },
+    {
+      "itemId": "typography-print-anatomy-2",
+      "label": "Kerning (ajuste entre pares)"
+    },
+    {
+      "itemId": "typography-print-anatomy-7",
+      "label": "Trazo ascendente"
+    },
+    {
+      "itemId": "typography-print-anatomy-5",
+      "label": "Altura de x"
+    },
+    {
+      "itemId": "typography-print-anatomy-9",
+      "label": "Serifa (remate)"
+    },
+    {
+      "itemId": "typography-print-anatomy-3",
+      "label": "Tracking (espaciado uniforme)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría tipográfica de cada término de diseño",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Interlineado vertical",
+        "capacity": 1,
+        "itemIds": [
+          "typography-print-anatomy-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Espaciado horizontal",
+        "capacity": 2,
+        "itemIds": [
+          "typography-print-anatomy-2",
+          "typography-print-anatomy-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Líneas y alturas métricas",
+        "capacity": 3,
+        "itemIds": [
+          "typography-print-anatomy-4",
+          "typography-print-anatomy-5",
+          "typography-print-anatomy-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Partes anatómicas del glifo",
+        "capacity": 4,
+        "itemIds": [
+          "typography-print-anatomy-7",
+          "typography-print-anatomy-8",
+          "typography-print-anatomy-9",
+          "typography-print-anatomy-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por dimensión tipográfica: interlineado vertical (interlineado / leading), espaciado horizontal (kerning, tracking), líneas de referencia vertical (línea base, altura de x, altura de mayúsculas) y partes anatómicas del glifo (ascendente, descendente, remate/serifa, contrapunzón cerrado).",
+  "sources": [
+    {
+      "title": "W3C & Google Fonts Knowledge: Type Anatomy",
+      "url": "https://fonts.google.com/knowledge",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

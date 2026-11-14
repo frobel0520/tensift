@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "epidemiology-study-designs-2027-12-19-zh-hant",
+  "puzzleFamilyId": "epidemiology-study-designs-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-19",
+  "timezone": "UTC",
+  "theme": "醫學與流行病學研究設計",
+  "items": [
+    {
+      "itemId": "epidemiology-study-designs-4",
+      "label": "前瞻性世代追蹤研究"
+    },
+    {
+      "itemId": "epidemiology-study-designs-8",
+      "label": "雙盲第三期臨床試驗"
+    },
+    {
+      "itemId": "epidemiology-study-designs-1",
+      "label": "臨床個案報告"
+    },
+    {
+      "itemId": "epidemiology-study-designs-6",
+      "label": "回顧性世代研究"
+    },
+    {
+      "itemId": "epidemiology-study-designs-10",
+      "label": "群集隨機對照試驗"
+    },
+    {
+      "itemId": "epidemiology-study-designs-2",
+      "label": "橫斷面盛行率調查"
+    },
+    {
+      "itemId": "epidemiology-study-designs-7",
+      "label": "隨機對照試驗（RCT）"
+    },
+    {
+      "itemId": "epidemiology-study-designs-5",
+      "label": "病例對照研究"
+    },
+    {
+      "itemId": "epidemiology-study-designs-9",
+      "label": "交叉設計臨床試驗"
+    },
+    {
+      "itemId": "epidemiology-study-designs-3",
+      "label": "生態學群體相關研究"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "實證醫學研究設計的階層分類（單一個案報告、橫斷面／生態描述研究、分析性世代／病例對照或隨機介入臨床試驗）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "單一個案報告",
+        "capacity": 1,
+        "itemIds": [
+          "epidemiology-study-designs-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "描述性快照研究",
+        "capacity": 2,
+        "itemIds": [
+          "epidemiology-study-designs-2",
+          "epidemiology-study-designs-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "分析性觀察研究",
+        "capacity": 3,
+        "itemIds": [
+          "epidemiology-study-designs-4",
+          "epidemiology-study-designs-5",
+          "epidemiology-study-designs-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "介入性隨機臨床試驗",
+        "capacity": 4,
+        "itemIds": [
+          "epidemiology-study-designs-7",
+          "epidemiology-study-designs-8",
+          "epidemiology-study-designs-9",
+          "epidemiology-study-designs-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依實證醫學研究設計分類：單一個案（臨床個案報告）、描述性群體快照（橫斷面調查、生態學相關研究）、分析性觀察研究（前瞻性世代研究、病例對照研究、回顧性世代研究）與實驗介入性臨床試驗（隨機對照試驗 RCT、雙盲第三期臨床試驗、交叉試驗設計、群集隨機試驗）。",
+  "sources": [
+    {
+      "title": "CDC: Principles of Epidemiology — Study Designs",
+      "url": "https://www.cdc.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

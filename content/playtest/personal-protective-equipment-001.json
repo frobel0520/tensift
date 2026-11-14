@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "personal-protective-equipment-001",
+  "theme": "Industrial & Lab PPE Gear",
+  "publishDate": "2027-12-20",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "personal-protective-equipment-10",
+        "rivalGroupId": "group-3",
+        "risk": "Hard hats sit on the head near face shields.",
+        "resolution": "Hard hats protect the cranium from falling impact and electrical shock (group-4), whereas goggles/shields/respirators protect vision, face, and airways (group-3)."
+      },
+      {
+        "itemId": "personal-protective-equipment-1",
+        "rivalGroupId": "group-4",
+        "risk": "A full-body harness wraps around the torso and thighs.",
+        "resolution": "A fall-arrest harness is dedicated height-safety fall arrest equipment (group-1), distinct from impact/chemical barrier apparel (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

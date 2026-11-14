@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "horology-watch-movements-2027-12-04-en",
+  "puzzleFamilyId": "horology-watch-movements-001",
+  "locale": "en",
+  "publishDate": "2027-12-04",
+  "timezone": "UTC",
+  "theme": "Horology & Timekeeping Mechanisms",
+  "items": [
+    {
+      "itemId": "horology-watch-movements-4",
+      "label": "Battery Quartz Watch"
+    },
+    {
+      "itemId": "horology-watch-movements-8",
+      "label": "Automatic Rotor Mechanical"
+    },
+    {
+      "itemId": "horology-watch-movements-1",
+      "label": "Cesium-133 Atomic Clock"
+    },
+    {
+      "itemId": "horology-watch-movements-6",
+      "label": "Radio-Controlled Quartz"
+    },
+    {
+      "itemId": "horology-watch-movements-10",
+      "label": "Co-Axial Escapement"
+    },
+    {
+      "itemId": "horology-watch-movements-2",
+      "label": "Longcase Pendulum Clock"
+    },
+    {
+      "itemId": "horology-watch-movements-7",
+      "label": "Manual-Wind Mechanical"
+    },
+    {
+      "itemId": "horology-watch-movements-5",
+      "label": "Solar-Powered Quartz Watch"
+    },
+    {
+      "itemId": "horology-watch-movements-9",
+      "label": "Tourbillon Escapement"
+    },
+    {
+      "itemId": "horology-watch-movements-3",
+      "label": "Torsion-Pendulum Clock"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Oscillator / timekeeping standard (Cesium Atomic Microwave, Tuning-Fork Mechanical, Quartz Crystal Electronic, or Mechanical Balance-Wheel & Pendulum)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Atomic Microwave Transition",
+        "capacity": 1,
+        "itemIds": [
+          "horology-watch-movements-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Gravitational Pendulums",
+        "capacity": 2,
+        "itemIds": [
+          "horology-watch-movements-2",
+          "horology-watch-movements-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "32,768 Hz Quartz Crystal",
+        "capacity": 3,
+        "itemIds": [
+          "horology-watch-movements-4",
+          "horology-watch-movements-5",
+          "horology-watch-movements-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Mechanical Balance-Wheel",
+        "capacity": 4,
+        "itemIds": [
+          "horology-watch-movements-7",
+          "horology-watch-movements-8",
+          "horology-watch-movements-9",
+          "horology-watch-movements-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by timekeeping oscillator: Atomic Resonance (Cesium-133 Atomic Clock), Gravitational Pendulum Clocks (Longcase Grandfather Pendulum, Torsion-Pendulum Anniversary Clock), Quartz Crystal Watches (32,768 Hz Quartz Watch, Solar Quartz Watch, Radio-Controlled Quartz), and Mechanical Balance-Wheel Watches (Manual-Wind Mechanical, Automatic Rotor Mechanical, Tourbillon Escapement, Co-Axial Escapement).",
+  "sources": [
+    {
+      "title": "BIPM & Federation of the Swiss Watch Industry",
+      "url": "https://www.fhs.swiss/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

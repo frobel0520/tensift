@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ceramic-pottery-stages-2027-12-12-zh-hant",
+  "puzzleFamilyId": "ceramic-pottery-stages-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-12",
+  "timezone": "UTC",
+  "theme": "陶瓷工藝製作與燒製階段",
+  "items": [
+    {
+      "itemId": "ceramic-pottery-stages-4",
+      "label": "素燒（Bisque Firing）"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-8",
+      "label": "青瓷草木灰釉"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-1",
+      "label": "揉泥排氣（練土）"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-6",
+      "label": "樂燒後還原燒製"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-10",
+      "label": "化妝土刮花（Sgraffito）"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-2",
+      "label": "轆轤拉坯成形"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-7",
+      "label": "釉下彩繪"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-5",
+      "label": "高溫釉燒"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-9",
+      "label": "泥漿擠線裝飾（Slip Trailing）"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-3",
+      "label": "泥條與泥板手捏成形"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各陶瓷工藝步驟所屬的製程階段（練土備料、成形技法、窯燒階段或表面裝飾施釉）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "練土備料階段",
+        "capacity": 1,
+        "itemIds": [
+          "ceramic-pottery-stages-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "濕坯成形技法",
+        "capacity": 2,
+        "itemIds": [
+          "ceramic-pottery-stages-2",
+          "ceramic-pottery-stages-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "窯爐燒製階段",
+        "capacity": 3,
+        "itemIds": [
+          "ceramic-pottery-stages-4",
+          "ceramic-pottery-stages-5",
+          "ceramic-pottery-stages-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "坯體裝飾與施釉技法",
+        "capacity": 4,
+        "itemIds": [
+          "ceramic-pottery-stages-7",
+          "ceramic-pottery-stages-8",
+          "ceramic-pottery-stages-9",
+          "ceramic-pottery-stages-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依陶瓷製作階段分類：備土練土（揉泥排氣 Wedging）、成形技法（拉坯成形、泥條與泥板成形）、窯燒階段（素燒 Bisque、高溫釉燒、樂燒還原）、表面裝飾與施釉（釉下彩繪、青瓷灰釉、泥漿擠線、刮花技法）。",
+  "sources": [
+    {
+      "title": "Victoria and Albert Museum: Ceramics Techniques",
+      "url": "https://www.vam.ac.uk/collections/ceramics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

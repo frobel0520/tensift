@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "blood-cells-hematology-2027-12-13-es-419",
+  "puzzleFamilyId": "blood-cells-hematology-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-13",
+  "timezone": "UTC",
+  "theme": "Componentes de la sangre humana",
+  "items": [
+    {
+      "itemId": "blood-cells-hematology-4",
+      "label": "Neutrófilo"
+    },
+    {
+      "itemId": "blood-cells-hematology-8",
+      "label": "Linfocito B"
+    },
+    {
+      "itemId": "blood-cells-hematology-1",
+      "label": "Plasma sanguíneo"
+    },
+    {
+      "itemId": "blood-cells-hematology-6",
+      "label": "Basófilo"
+    },
+    {
+      "itemId": "blood-cells-hematology-10",
+      "label": "Célula asesina natural (NK)"
+    },
+    {
+      "itemId": "blood-cells-hematology-2",
+      "label": "Glóbulo rojo (eritrocito)"
+    },
+    {
+      "itemId": "blood-cells-hematology-7",
+      "label": "Monocito"
+    },
+    {
+      "itemId": "blood-cells-hematology-5",
+      "label": "Eosinófilo"
+    },
+    {
+      "itemId": "blood-cells-hematology-9",
+      "label": "Linfocito T citotóxico"
+    },
+    {
+      "itemId": "blood-cells-hematology-3",
+      "label": "Plaqueta (trombocito)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clasificación hematológica de los componentes sanguíneos",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Matriz líquida",
+        "capacity": 1,
+        "itemIds": [
+          "blood-cells-hematology-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Eritrocitos y plaquetas",
+        "capacity": 2,
+        "itemIds": [
+          "blood-cells-hematology-2",
+          "blood-cells-hematology-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Leucocitos granulocitos",
+        "capacity": 3,
+        "itemIds": [
+          "blood-cells-hematology-4",
+          "blood-cells-hematology-5",
+          "blood-cells-hematology-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Leucocitos agranulocitos",
+        "capacity": 4,
+        "itemIds": [
+          "blood-cells-hematology-7",
+          "blood-cells-hematology-8",
+          "blood-cells-hematology-9",
+          "blood-cells-hematology-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por hematología: matriz líquida (plasma sanguíneo), elementos formes no leucocitarios (glóbulo rojo/eritrocito, plaqueta/trombocito), granulocitos (neutrófilo, eosinófilo, basófilo) y agranulocitos (monocito, linfocito B, linfocito T citotóxico, célula NK).",
+  "sources": [
+    {
+      "title": "NIH NHLBI: Blood Components",
+      "url": "https://www.nhlbi.nih.gov/health/blood",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

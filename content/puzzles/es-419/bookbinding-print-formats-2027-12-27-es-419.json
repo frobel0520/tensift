@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "bookbinding-print-formats-2027-12-27-es-419",
+  "puzzleFamilyId": "bookbinding-print-formats-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-27",
+  "timezone": "UTC",
+  "theme": "Encuadernación y formatos impresos",
+  "items": [
+    {
+      "itemId": "bookbinding-print-formats-4",
+      "label": "Grapado a caballete"
+    },
+    {
+      "itemId": "bookbinding-print-formats-8",
+      "label": "Cubierta rígida de cartón"
+    },
+    {
+      "itemId": "bookbinding-print-formats-1",
+      "label": "Encuadernación japonesa"
+    },
+    {
+      "itemId": "bookbinding-print-formats-6",
+      "label": "Rústica con solapas"
+    },
+    {
+      "itemId": "bookbinding-print-formats-10",
+      "label": "Sobrecubierta"
+    },
+    {
+      "itemId": "bookbinding-print-formats-2",
+      "label": "Espiral plástica"
+    },
+    {
+      "itemId": "bookbinding-print-formats-7",
+      "label": "Pliegos cosidos (Smyth)"
+    },
+    {
+      "itemId": "bookbinding-print-formats-5",
+      "label": "Encuadernación rústica encolada"
+    },
+    {
+      "itemId": "bookbinding-print-formats-9",
+      "label": "Guardas y cabezada"
+    },
+    {
+      "itemId": "bookbinding-print-formats-3",
+      "label": "Doble anillo (Wire-O)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Estructura de encuadernación de cada formato impreso",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Cosido japonés visto",
+        "capacity": 1,
+        "itemIds": [
+          "bookbinding-print-formats-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Espiral y alambre mecánico",
+        "capacity": 2,
+        "itemIds": [
+          "bookbinding-print-formats-2",
+          "bookbinding-print-formats-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Tapa blanda (rústica)",
+        "capacity": 3,
+        "itemIds": [
+          "bookbinding-print-formats-4",
+          "bookbinding-print-formats-5",
+          "bookbinding-print-formats-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Tapa dura (cartoné)",
+        "capacity": 4,
+        "itemIds": [
+          "bookbinding-print-formats-7",
+          "bookbinding-print-formats-8",
+          "bookbinding-print-formats-9",
+          "bookbinding-print-formats-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por encuadernación: cosido visto (encuadernación japonesa de cuatro agujeros), espiral mecánica (espiral simple, doble anillo Wire-O), tapa blanda (grapado a caballete, encolado PUR, rústica con solapas) y tapa dura (pliegos cosidos Smyth, cubierta rígida, cabezada y guardas, sobrecubierta).",
+  "sources": [
+    {
+      "title": "Library of Congress: Bookbinding & Conservation",
+      "url": "https://www.loc.gov/preservation/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ceramic-pottery-stages-2027-12-12-en",
+  "puzzleFamilyId": "ceramic-pottery-stages-001",
+  "locale": "en",
+  "publishDate": "2027-12-12",
+  "timezone": "UTC",
+  "theme": "Ceramic & Pottery Production Stages",
+  "items": [
+    {
+      "itemId": "ceramic-pottery-stages-4",
+      "label": "Bisque Firing"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-8",
+      "label": "Celadon Ash Glazing"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-1",
+      "label": "Wedging & De-Airing Clay"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-6",
+      "label": "Raku Post-Firing Reduction"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-10",
+      "label": "Sgraffito Carving"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-2",
+      "label": "Potter’s Wheel Throwing"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-7",
+      "label": "Underglaze Brush Painting"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-5",
+      "label": "High-Fire Glaze Firing"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-9",
+      "label": "Slip Trailing"
+    },
+    {
+      "itemId": "ceramic-pottery-stages-3",
+      "label": "Coil & Slab Handbuilding"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Ceramic production stage (Clay Body Prep, Shaping & Forming, Kiln Firing Stages, or Surface Decoration & Glazing)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Clay Body Preparation",
+        "capacity": 1,
+        "itemIds": [
+          "ceramic-pottery-stages-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Wet Clay Forming",
+        "capacity": 2,
+        "itemIds": [
+          "ceramic-pottery-stages-2",
+          "ceramic-pottery-stages-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Kiln Firing Cycles",
+        "capacity": 3,
+        "itemIds": [
+          "ceramic-pottery-stages-4",
+          "ceramic-pottery-stages-5",
+          "ceramic-pottery-stages-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Surface Decoration & Glaze",
+        "capacity": 4,
+        "itemIds": [
+          "ceramic-pottery-stages-7",
+          "ceramic-pottery-stages-8",
+          "ceramic-pottery-stages-9",
+          "ceramic-pottery-stages-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by ceramic production stage: Clay Prep (Wedging & De-Airing Clay), Shaping & Forming (Wheel Throwing, Coil & Slab Building), Kiln Firing (Bisque Firing, High-Fire Glaze Firing, Raku Reduction Firing), and Surface Decoration (Underglaze Painting, Celadon Glaze, Slip Trailing, Sgraffito Carving).",
+  "sources": [
+    {
+      "title": "Victoria and Albert Museum: Ceramics Techniques",
+      "url": "https://www.vam.ac.uk/collections/ceramics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

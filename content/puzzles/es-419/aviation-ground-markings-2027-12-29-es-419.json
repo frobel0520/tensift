@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "aviation-ground-markings-2027-12-29-es-419",
+  "puzzleFamilyId": "aviation-ground-markings-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-29",
+  "timezone": "UTC",
+  "theme": "Superficies y señales aeroportuarias",
+  "items": [
+    {
+      "itemId": "aviation-ground-markings-4",
+      "label": "Línea central amarilla de rodaje"
+    },
+    {
+      "itemId": "aviation-ground-markings-8",
+      "label": "Marcas de punto de visada"
+    },
+    {
+      "itemId": "aviation-ground-markings-1",
+      "label": "Torre de control ATC"
+    },
+    {
+      "itemId": "aviation-ground-markings-6",
+      "label": "Luces azules de borde de rodaje"
+    },
+    {
+      "itemId": "aviation-ground-markings-10",
+      "label": "Luces PAPI de pendiente"
+    },
+    {
+      "itemId": "aviation-ground-markings-2",
+      "label": "Plataforma de estacionamiento"
+    },
+    {
+      "itemId": "aviation-ground-markings-7",
+      "label": "Barras blancas de umbral de pista"
+    },
+    {
+      "itemId": "aviation-ground-markings-5",
+      "label": "Señal de punto de espera"
+    },
+    {
+      "itemId": "aviation-ground-markings-9",
+      "label": "Umbral desplazado de pista"
+    },
+    {
+      "itemId": "aviation-ground-markings-3",
+      "label": "Puente de embarque"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Componente aeroportuario según normas OACI",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Control de tránsito aéreo",
+        "capacity": 1,
+        "itemIds": [
+          "aviation-ground-markings-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Plataforma y puertas",
+        "capacity": 2,
+        "itemIds": [
+          "aviation-ground-markings-2",
+          "aviation-ground-markings-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Calles de rodaje",
+        "capacity": 3,
+        "itemIds": [
+          "aviation-ground-markings-4",
+          "aviation-ground-markings-5",
+          "aviation-ground-markings-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Pista y luces de aproximación",
+        "capacity": 4,
+        "itemIds": [
+          "aviation-ground-markings-7",
+          "aviation-ground-markings-8",
+          "aviation-ground-markings-9",
+          "aviation-ground-markings-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por OACI: control aéreo (torre de control ATC), plataforma y puertas (plataforma de estacionamiento, puente de embarque), calles de rodaje (eje amarillo de rodaje, punto de espera en pista, luces azules de borde) y pista de aterrizaje (barras blancas de umbral, marcas de punto de visada, umbral desplazado, luces PAPI de pendiente).",
+  "sources": [
+    {
+      "title": "ICAO Annex 14: Aerodromes",
+      "url": "https://www.icao.int/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

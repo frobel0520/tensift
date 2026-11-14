@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tea-ceremony-ware-2027-12-30-zh-hant",
+  "puzzleFamilyId": "tea-ceremony-ware-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-30",
+  "timezone": "UTC",
+  "theme": "東亞茶道器具分類",
+  "items": [
+    {
+      "itemId": "tea-ceremony-ware-4",
+      "label": "竹製茶筅（Chasen）"
+    },
+    {
+      "itemId": "tea-ceremony-ware-8",
+      "label": "三才蓋碗（Gaiwan）"
+    },
+    {
+      "itemId": "tea-ceremony-ware-1",
+      "label": "鑄鐵煮水鐵瓶（Tetsubin）"
+    },
+    {
+      "itemId": "tea-ceremony-ware-6",
+      "label": "漆器棗形茶罐（Natsume）"
+    },
+    {
+      "itemId": "tea-ceremony-ware-10",
+      "label": "白瓷品茗杯"
+    },
+    {
+      "itemId": "tea-ceremony-ware-2",
+      "label": "竹製茶杓（Chashaku）"
+    },
+    {
+      "itemId": "tea-ceremony-ware-7",
+      "label": "宜興紫砂壺"
+    },
+    {
+      "itemId": "tea-ceremony-ware-5",
+      "label": "抹茶碗（Chawan）"
+    },
+    {
+      "itemId": "tea-ceremony-ware-9",
+      "label": "茶海（公道杯）"
+    },
+    {
+      "itemId": "tea-ceremony-ware-3",
+      "label": "細網茶漏（茶濾）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各傳統茶具在茶道沖泡中的功能（煮水鐵壺、取茶／濾茶具、抹茶點茶具或功夫茶沖泡／分茶器皿）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "煮水鐵壺",
+        "capacity": 1,
+        "itemIds": [
+          "tea-ceremony-ware-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "取茶與濾茶器具",
+        "capacity": 2,
+        "itemIds": [
+          "tea-ceremony-ware-2",
+          "tea-ceremony-ware-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "抹茶點茶器具",
+        "capacity": 3,
+        "itemIds": [
+          "tea-ceremony-ware-4",
+          "tea-ceremony-ware-5",
+          "tea-ceremony-ware-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "功夫泡茶與分茶器皿",
+        "capacity": 4,
+        "itemIds": [
+          "tea-ceremony-ware-7",
+          "tea-ceremony-ware-8",
+          "tea-ceremony-ware-9",
+          "tea-ceremony-ware-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依茶道功能分類：煮水器（鑄鐵鐵瓶 Tetsubin）、取茶與濾茶具（竹製茶杓、茶漏濾網）、日本抹茶點茶具（竹製茶筅 Chasen、抹茶碗 Chawan、棗形茶罐 Natsume）與功夫泡茶分茶具（宜興紫砂壺、蓋碗、茶海公道杯、品茗杯）。",
+  "sources": [
+    {
+      "title": "Britannica: Tea Ceremony Utensils",
+      "url": "https://www.britannica.com/topic/tea-ceremony",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

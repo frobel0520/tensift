@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "epidemic-transmission-routes-2027-12-31-zh-hant",
+  "puzzleFamilyId": "epidemic-transmission-routes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-31",
+  "timezone": "UTC",
+  "theme": "傳染病主要傳播途徑",
+  "items": [
+    {
+      "itemId": "epidemic-transmission-routes-4",
+      "label": "瘧疾（瘧蚊傳播）"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-8",
+      "label": "麻疹（高傳染空氣飛沫）"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-1",
+      "label": "破傷風（傷口接觸芽孢）"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-6",
+      "label": "萊姆病（硬蜱傳播）"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-10",
+      "label": "百日咳"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-2",
+      "label": "霍亂"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-7",
+      "label": "季節性流行性感冒"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-5",
+      "label": "登革熱（斑蚊傳播）"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-9",
+      "label": "肺結核"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-3",
+      "label": "傷寒"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各代表性傳染病的主要傳播途徑（體液接觸、飲水食物腸道途徑、病媒節肢動物傳播或飛沫／空氣呼吸道傳播）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "傷口土壤接觸感染",
+        "capacity": 1,
+        "itemIds": [
+          "epidemic-transmission-routes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "飲水與食物途徑",
+        "capacity": 2,
+        "itemIds": [
+          "epidemic-transmission-routes-2",
+          "epidemic-transmission-routes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "蚊蟲壁蝨病媒傳播",
+        "capacity": 3,
+        "itemIds": [
+          "epidemic-transmission-routes-4",
+          "epidemic-transmission-routes-5",
+          "epidemic-transmission-routes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "呼吸道飛沫與空氣傳播",
+        "capacity": 4,
+        "itemIds": [
+          "epidemic-transmission-routes-7",
+          "epidemic-transmission-routes-8",
+          "epidemic-transmission-routes-9",
+          "epidemic-transmission-routes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依主要傳播途徑分類：傷口直接接觸（破傷風梭菌傷口感染）、飲水與食物傳播（霍亂、傷寒）、病媒蚊蟲傳播（瘧疾、登革熱、萊姆病壁蝨）與飛沫及空氣呼吸道傳播（季節性流感、麻疹空氣傳播、肺結核、百日咳）。",
+  "sources": [
+    {
+      "title": "WHO & CDC: Disease Transmission Routes",
+      "url": "https://www.who.int/health-topics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

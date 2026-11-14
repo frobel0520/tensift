@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "electrical-plug-standards-2027-12-05-en",
+  "puzzleFamilyId": "electrical-plug-standards-001",
+  "locale": "en",
+  "publishDate": "2027-12-05",
+  "timezone": "UTC",
+  "theme": "World AC Power Plug Types",
+  "items": [
+    {
+      "itemId": "electrical-plug-standards-4",
+      "label": "Type C (Europlug)"
+    },
+    {
+      "itemId": "electrical-plug-standards-8",
+      "label": "Type J (Swiss 3-Pin)"
+    },
+    {
+      "itemId": "electrical-plug-standards-1",
+      "label": "Type G (UK Rectangular)"
+    },
+    {
+      "itemId": "electrical-plug-standards-6",
+      "label": "Type F (German Schuko)"
+    },
+    {
+      "itemId": "electrical-plug-standards-10",
+      "label": "Type N (Brazilian 3-Pin)"
+    },
+    {
+      "itemId": "electrical-plug-standards-2",
+      "label": "Type A (2-Pin Flat)"
+    },
+    {
+      "itemId": "electrical-plug-standards-7",
+      "label": "Type I (Angled V-Blades)"
+    },
+    {
+      "itemId": "electrical-plug-standards-5",
+      "label": "Type E (French Ground Pin)"
+    },
+    {
+      "itemId": "electrical-plug-standards-9",
+      "label": "Type L (Italian In-Line)"
+    },
+    {
+      "itemId": "electrical-plug-standards-3",
+      "label": "Type B (3-Pin Flat + Ground)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "IEC world plug pin geometry (3-Pin Rectangular UK Type G, 2-Pin Flat Unpolarized/Grounded North America & Japan, Recessed Round Schuko/French Europe, or Angled/Triple Round Plugs)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Rectangular 3-Blade (UK)",
+        "capacity": 1,
+        "itemIds": [
+          "electrical-plug-standards-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Flat Parallel Blades (US/JP)",
+        "capacity": 2,
+        "itemIds": [
+          "electrical-plug-standards-2",
+          "electrical-plug-standards-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "European 2-Pin Round",
+        "capacity": 3,
+        "itemIds": [
+          "electrical-plug-standards-4",
+          "electrical-plug-standards-5",
+          "electrical-plug-standards-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Angled & 3-Pin Round",
+        "capacity": 4,
+        "itemIds": [
+          "electrical-plug-standards-7",
+          "electrical-plug-standards-8",
+          "electrical-plug-standards-9",
+          "electrical-plug-standards-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by IEC plug geometry: Rectangular Three-Blade (UK Type G), Flat Parallel Blades (US/Japan Type A Two-Pin, North America Type B Three-Pin), European Round Two-Pin (Europlug Type C, French Type E, German Schuko Type F), and Angled/Triple Round Pin Plugs (Australia/China Type I Angled, Swiss Type J, Italian Type L, Brazil Type N).",
+  "sources": [
+    {
+      "title": "IEC World Plugs Reference",
+      "url": "https://www.iec.ch/world-plugs",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

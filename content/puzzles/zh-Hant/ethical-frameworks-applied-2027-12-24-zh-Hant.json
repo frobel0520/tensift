@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ethical-frameworks-applied-2027-12-24-zh-hant",
+  "puzzleFamilyId": "ethical-frameworks-applied-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-24",
+  "timezone": "UTC",
+  "theme": "生命倫理與研究倫理原則",
+  "items": [
+    {
+      "itemId": "ethical-frameworks-applied-4",
+      "label": "尊重個人自主原則"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-8",
+      "label": "篡改研究數據（Falsification）"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-1",
+      "label": "預防原則（Precautionary）"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-6",
+      "label": "正義公平分配原則"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-10",
+      "label": "未揭露利益衝突"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-2",
+      "label": "知情同意書與程序"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-7",
+      "label": "捏造研究數據（Fabrication）"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-5",
+      "label": "行善原則（利益最大化）"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-9",
+      "label": "學術抄襲剽竊（Plagiarism）"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-3",
+      "label": "臨床均勢（Equipoise）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各生命與研究倫理術語的分類（預防原則、臨床均勢與知情同意、貝爾蒙報告三大原則或研究不端行為）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "風險管理預防原則",
+        "capacity": 1,
+        "itemIds": [
+          "ethical-frameworks-applied-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "臨床試驗受試者保障",
+        "capacity": 2,
+        "itemIds": [
+          "ethical-frameworks-applied-2",
+          "ethical-frameworks-applied-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "貝爾蒙報告三大原則",
+        "capacity": 3,
+        "itemIds": [
+          "ethical-frameworks-applied-4",
+          "ethical-frameworks-applied-5",
+          "ethical-frameworks-applied-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "學術研究不端行為",
+        "capacity": 4,
+        "itemIds": [
+          "ethical-frameworks-applied-7",
+          "ethical-frameworks-applied-8",
+          "ethical-frameworks-applied-9",
+          "ethical-frameworks-applied-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依研究倫理分類：風險預防原則（預防原則）、臨床試驗保障（知情同意、臨床均勢 Equipoise）、貝爾蒙報告三大核心原則（尊重自主原則、行善／不傷害原則、正義公平原則）與學術研究不端行為（捏造數據、篡改數據、抄襲剽竊、未揭露利益衝突）。",
+  "sources": [
+    {
+      "title": "HHS Belmont Report & Bioethics",
+      "url": "https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

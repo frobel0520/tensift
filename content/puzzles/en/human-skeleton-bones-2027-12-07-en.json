@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "human-skeleton-bones-2027-12-07-en",
+  "puzzleFamilyId": "human-skeleton-bones-001",
+  "locale": "en",
+  "publishDate": "2027-12-07",
+  "timezone": "UTC",
+  "theme": "Human Skeletal Regions",
+  "items": [
+    {
+      "itemId": "human-skeleton-bones-4",
+      "label": "Humerus"
+    },
+    {
+      "itemId": "human-skeleton-bones-8",
+      "label": "Patella (Kneecap)"
+    },
+    {
+      "itemId": "human-skeleton-bones-1",
+      "label": "Clavicle (Collarbone)"
+    },
+    {
+      "itemId": "human-skeleton-bones-6",
+      "label": "Ulna"
+    },
+    {
+      "itemId": "human-skeleton-bones-10",
+      "label": "Fibula"
+    },
+    {
+      "itemId": "human-skeleton-bones-2",
+      "label": "Frontal Bone"
+    },
+    {
+      "itemId": "human-skeleton-bones-7",
+      "label": "Femur (Thigh Bone)"
+    },
+    {
+      "itemId": "human-skeleton-bones-5",
+      "label": "Radius"
+    },
+    {
+      "itemId": "human-skeleton-bones-9",
+      "label": "Tibia (Shinbone)"
+    },
+    {
+      "itemId": "human-skeleton-bones-3",
+      "label": "Mandible (Lower Jaw)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Skeletal region (Pelvic/Shoulder Girdle Clavicle, Cranium/Skull Bones, Upper Limb Arm/Forearm Bones, or Lower Limb Leg/Thigh Bones)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Shoulder Girdle",
+        "capacity": 1,
+        "itemIds": [
+          "human-skeleton-bones-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Skull & Jaw",
+        "capacity": 2,
+        "itemIds": [
+          "human-skeleton-bones-2",
+          "human-skeleton-bones-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Upper Limb (Arm & Forearm)",
+        "capacity": 3,
+        "itemIds": [
+          "human-skeleton-bones-4",
+          "human-skeleton-bones-5",
+          "human-skeleton-bones-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Lower Limb (Thigh & Leg)",
+        "capacity": 4,
+        "itemIds": [
+          "human-skeleton-bones-7",
+          "human-skeleton-bones-8",
+          "human-skeleton-bones-9",
+          "human-skeleton-bones-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by skeletal region: Shoulder Girdle (Clavicle Collarbone), Cranial & Facial Skull (Frontal Bone, Mandible Jawbone), Upper Limb (Humerus, Radius, Ulna), and Lower Limb (Femur, Patella Kneecap, Tibia Shinbone, Fibula).",
+  "sources": [
+    {
+      "title": "NIH SEER Training: Skeletal System",
+      "url": "https://training.seer.cancer.gov/anatomy/skeletal/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

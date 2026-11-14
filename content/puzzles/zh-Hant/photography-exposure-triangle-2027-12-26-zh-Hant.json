@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "photography-exposure-triangle-2027-12-26-zh-hant",
+  "puzzleFamilyId": "photography-exposure-triangle-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-26",
+  "timezone": "UTC",
+  "theme": "攝影曝光與光學控制要素",
+  "items": [
+    {
+      "itemId": "photography-exposure-triangle-4",
+      "label": "光圈 f 值"
+    },
+    {
+      "itemId": "photography-exposure-triangle-8",
+      "label": "B 快門長時間曝光"
+    },
+    {
+      "itemId": "photography-exposure-triangle-1",
+      "label": "ISO 感光度"
+    },
+    {
+      "itemId": "photography-exposure-triangle-6",
+      "label": "景深（DoF）"
+    },
+    {
+      "itemId": "photography-exposure-triangle-10",
+      "label": "矩陣權衡測光"
+    },
+    {
+      "itemId": "photography-exposure-triangle-2",
+      "label": "環形偏光鏡（CPL）"
+    },
+    {
+      "itemId": "photography-exposure-triangle-7",
+      "label": "快門速度"
+    },
+    {
+      "itemId": "photography-exposure-triangle-5",
+      "label": "鏡頭焦距（mm）"
+    },
+    {
+      "itemId": "photography-exposure-triangle-9",
+      "label": "點測光模式"
+    },
+    {
+      "itemId": "photography-exposure-triangle-3",
+      "label": "減光鏡（ND Filter）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各攝影操作要素的系統分類（感光度 ISO、鏡頭濾鏡配件、光圈與焦距光學控制或快門與測光模式）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "感光度增益",
+        "capacity": 1,
+        "itemIds": [
+          "photography-exposure-triangle-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "鏡頭光學濾鏡",
+        "capacity": 2,
+        "itemIds": [
+          "photography-exposure-triangle-2",
+          "photography-exposure-triangle-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "鏡頭光圈與焦距",
+        "capacity": 3,
+        "itemIds": [
+          "photography-exposure-triangle-4",
+          "photography-exposure-triangle-5",
+          "photography-exposure-triangle-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "快門與測光模式",
+        "capacity": 4,
+        "itemIds": [
+          "photography-exposure-triangle-7",
+          "photography-exposure-triangle-8",
+          "photography-exposure-triangle-9",
+          "photography-exposure-triangle-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依相機控制分類：感光元件增益（ISO 感光度）、鏡頭外接濾鏡（偏光鏡 CPL、減光鏡 ND）、鏡頭光學與光圈（光圈 f 值、焦距毫米數、景深控制）與快門及測光（快門速度、B 快門長曝、點測光、矩陣權衡測光）。",
+  "sources": [
+    {
+      "title": "ISO 12232: Photography Digital Still Cameras",
+      "url": "https://www.iso.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

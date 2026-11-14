@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cognitive-biases-psychology-2027-12-10-en",
+  "puzzleFamilyId": "cognitive-biases-psychology-001",
+  "locale": "en",
+  "publishDate": "2027-12-10",
+  "timezone": "UTC",
+  "theme": "Cognitive Biases in Psychology",
+  "items": [
+    {
+      "itemId": "cognitive-biases-psychology-4",
+      "label": "Availability Heuristic"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-8",
+      "label": "Belief Perseverance"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-1",
+      "label": "Hindsight Bias (\"Knew It All Along\")"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-6",
+      "label": "Sunk Cost Fallacy"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-10",
+      "label": "Overconfidence Bias"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-2",
+      "label": "Fundamental Attribution Error"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-7",
+      "label": "Confirmation Bias"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-5",
+      "label": "Anchoring Effect"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-9",
+      "label": "Dunning-Kruger Effect"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-3",
+      "label": "In-Group Favoritism Bias"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cognitive bias mechanism (Memory Recall Bias, Social Attribution Bias, Probability/Risk Judgment Biases, or Belief & Confirmation Biases)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Memory Reconstruction",
+        "capacity": 1,
+        "itemIds": [
+          "cognitive-biases-psychology-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Social Attribution Biases",
+        "capacity": 2,
+        "itemIds": [
+          "cognitive-biases-psychology-2",
+          "cognitive-biases-psychology-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Decision & Probability Heuristics",
+        "capacity": 3,
+        "itemIds": [
+          "cognitive-biases-psychology-4",
+          "cognitive-biases-psychology-5",
+          "cognitive-biases-psychology-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Belief & Self-Assessment Biases",
+        "capacity": 4,
+        "itemIds": [
+          "cognitive-biases-psychology-7",
+          "cognitive-biases-psychology-8",
+          "cognitive-biases-psychology-9",
+          "cognitive-biases-psychology-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by cognitive mechanism: Memory Reconstruction (Hindsight Bias), Social Attribution (Fundamental Attribution Error, In-Group Favoritism Bias), Decision & Probability Heuristics (Availability Heuristic, Anchoring Effect, Sunk Cost Fallacy), and Belief & Self-Assessment Biases (Confirmation Bias, Belief Perseverance, Dunning-Kruger Effect, Overconfidence Bias).",
+  "sources": [
+    {
+      "title": "APA Dictionary of Psychology: Cognitive Biases",
+      "url": "https://dictionary.apa.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

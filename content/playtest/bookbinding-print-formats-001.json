@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "bookbinding-print-formats-001",
+  "theme": "Bookbinding & Print Formats",
+  "publishDate": "2027-12-27",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "bookbinding-print-formats-1",
+        "rivalGroupId": "group-4",
+        "risk": "Both Japanese stab binding and Smyth sewing use thread.",
+        "resolution": "Japanese stab binding sews single leaves visibly through the outer margin (group-1), whereas Smyth sewing joins folded signatures internally inside a hardcover case (group-4)."
+      },
+      {
+        "itemId": "bookbinding-print-formats-6",
+        "rivalGroupId": "group-4",
+        "risk": "French flaps fold inward like a dust jacket.",
+        "resolution": "French flaps are integral extensions of a softcover wrap (group-3), not a separate removable jacket over a rigid hardcover board (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

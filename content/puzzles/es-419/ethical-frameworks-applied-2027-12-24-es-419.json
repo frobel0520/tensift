@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ethical-frameworks-applied-2027-12-24-es-419",
+  "puzzleFamilyId": "ethical-frameworks-applied-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-24",
+  "timezone": "UTC",
+  "theme": "Principios de bioética e investigación",
+  "items": [
+    {
+      "itemId": "ethical-frameworks-applied-4",
+      "label": "Respeto por las personas"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-8",
+      "label": "Falsificación de datos"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-1",
+      "label": "Principio de precaución"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-6",
+      "label": "Justicia distributiva"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-10",
+      "label": "Conflicto de intereses no declarado"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-2",
+      "label": "Consentimiento informado"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-7",
+      "label": "Fabricación de datos"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-5",
+      "label": "Beneficencia"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-9",
+      "label": "Plagio académico"
+    },
+    {
+      "itemId": "ethical-frameworks-applied-3",
+      "label": "Equipoise clínico"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría ética de cada principio o falta científica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Principio de precaución",
+        "capacity": 1,
+        "itemIds": [
+          "ethical-frameworks-applied-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Salvaguardas clínicas",
+        "capacity": 2,
+        "itemIds": [
+          "ethical-frameworks-applied-2",
+          "ethical-frameworks-applied-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Principios del Informe Belmont",
+        "capacity": 3,
+        "itemIds": [
+          "ethical-frameworks-applied-4",
+          "ethical-frameworks-applied-5",
+          "ethical-frameworks-applied-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Mala conducta científica",
+        "capacity": 4,
+        "itemIds": [
+          "ethical-frameworks-applied-7",
+          "ethical-frameworks-applied-8",
+          "ethical-frameworks-applied-9",
+          "ethical-frameworks-applied-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por bioética: principio ambiental (principio de precaución), salvaguardas clínicas (consentimiento informado, equipoise clínico), tres principios del Informe Belmont (respeto por las personas, beneficencia, justicia) y mala conducta científica (fabricación de datos, falsificación de datos, plagio, conflicto de intereses no declarado).",
+  "sources": [
+    {
+      "title": "HHS Belmont Report & Bioethics",
+      "url": "https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

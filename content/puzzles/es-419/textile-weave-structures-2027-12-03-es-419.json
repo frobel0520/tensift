@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "textile-weave-structures-2027-12-03-es-419",
+  "puzzleFamilyId": "textile-weave-structures-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-03",
+  "timezone": "UTC",
+  "theme": "Ligamentos y tejidos textiles",
+  "items": [
+    {
+      "itemId": "textile-weave-structures-4",
+      "label": "Punto jersey"
+    },
+    {
+      "itemId": "textile-weave-structures-8",
+      "label": "Sarga (denim)"
+    },
+    {
+      "itemId": "textile-weave-structures-1",
+      "label": "Fieltro de lana prensado"
+    },
+    {
+      "itemId": "textile-weave-structures-6",
+      "label": "Felpa francesa de punto"
+    },
+    {
+      "itemId": "textile-weave-structures-10",
+      "label": "Sarga en espiga"
+    },
+    {
+      "itemId": "textile-weave-structures-2",
+      "label": "Terciopelo"
+    },
+    {
+      "itemId": "textile-weave-structures-7",
+      "label": "Tafetán (ligamento plano)"
+    },
+    {
+      "itemId": "textile-weave-structures-5",
+      "label": "Punto canalé (elástico)"
+    },
+    {
+      "itemId": "textile-weave-structures-9",
+      "label": "Raso / satén"
+    },
+    {
+      "itemId": "textile-weave-structures-3",
+      "label": "Tela de toalla (rizo)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Estructura textil de fabricación de cada tela",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "No tejido (fieltro)",
+        "capacity": 1,
+        "itemIds": [
+          "textile-weave-structures-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Tejidos de pelo o rizo",
+        "capacity": 2,
+        "itemIds": [
+          "textile-weave-structures-2",
+          "textile-weave-structures-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Tejidos de punto",
+        "capacity": 3,
+        "itemIds": [
+          "textile-weave-structures-4",
+          "textile-weave-structures-5",
+          "textile-weave-structures-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Ligamentos planos de telar",
+        "capacity": 4,
+        "itemIds": [
+          "textile-weave-structures-7",
+          "textile-weave-structures-8",
+          "textile-weave-structures-9",
+          "textile-weave-structures-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por construcción: no tejido (fieltro prensado), tejidos de pelo/rizo (terciopelo, felpa/toalla), tejidos de punto por bucles (punto jersey, punto canalé, felpa francesa) y ligamentos de calada (tafetán/plano, sarga denim, raso/satén, espiga).",
+  "sources": [
+    {
+      "title": "ISO 8388 & Textile Institute",
+      "url": "https://www.iso.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "blood-cells-hematology-001",
+  "theme": "Human Blood Components",
+  "publishDate": "2027-12-13",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "blood-cells-hematology-1",
+        "rivalGroupId": "group-2",
+        "risk": "Plasma makes up ~55% of whole blood volume.",
+        "resolution": "Blood plasma is the acellular liquid matrix (group-1), whereas erythrocytes and platelets are cellular/fragment formed elements (group-2)."
+      },
+      {
+        "itemId": "blood-cells-hematology-7",
+        "rivalGroupId": "group-3",
+        "risk": "Monocytes are phagocytic innate immune cells like neutrophils.",
+        "resolution": "Monocytes lack prominent cytoplasmic granules and are classified as agranulocytes (group-4), unlike the three granulocytes (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

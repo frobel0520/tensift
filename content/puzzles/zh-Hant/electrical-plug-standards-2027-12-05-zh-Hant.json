@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "electrical-plug-standards-2027-12-05-zh-hant",
+  "puzzleFamilyId": "electrical-plug-standards-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-05",
+  "timezone": "UTC",
+  "theme": "世界各國電源插頭規格",
+  "items": [
+    {
+      "itemId": "electrical-plug-standards-4",
+      "label": "C 型插頭（歐規雙圓腳）"
+    },
+    {
+      "itemId": "electrical-plug-standards-8",
+      "label": "J 型插頭（瑞士三圓腳）"
+    },
+    {
+      "itemId": "electrical-plug-standards-1",
+      "label": "G 型插頭（英國三方腳）"
+    },
+    {
+      "itemId": "electrical-plug-standards-6",
+      "label": "F 型插頭（德規側邊接地）"
+    },
+    {
+      "itemId": "electrical-plug-standards-10",
+      "label": "N 型插頭（巴西三圓腳）"
+    },
+    {
+      "itemId": "electrical-plug-standards-2",
+      "label": "A 型插頭（雙扁腳）"
+    },
+    {
+      "itemId": "electrical-plug-standards-7",
+      "label": "I 型插頭（澳／中八字斜腳）"
+    },
+    {
+      "itemId": "electrical-plug-standards-5",
+      "label": "E 型插頭（法規圓孔接地）"
+    },
+    {
+      "itemId": "electrical-plug-standards-9",
+      "label": "L 型插頭（義大利一字三圓）"
+    },
+    {
+      "itemId": "electrical-plug-standards-3",
+      "label": "B 型插頭（雙扁腳＋圓接地）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各國電源插頭的接腳幾何形狀分類（英規三方腳 G 型、美日扁平雙腳 A/B 型、歐陸雙圓腳 C/E/F 型或八字斜腳／三圓腳）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "矩形三方腳（英規）",
+        "capacity": 1,
+        "itemIds": [
+          "electrical-plug-standards-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "平行扁平插腳（美日）",
+        "capacity": 2,
+        "itemIds": [
+          "electrical-plug-standards-2",
+          "electrical-plug-standards-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "歐陸雙圓腳規格",
+        "capacity": 3,
+        "itemIds": [
+          "electrical-plug-standards-4",
+          "electrical-plug-standards-5",
+          "electrical-plug-standards-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "八字斜腳與三圓腳規格",
+        "capacity": 4,
+        "itemIds": [
+          "electrical-plug-standards-7",
+          "electrical-plug-standards-8",
+          "electrical-plug-standards-9",
+          "electrical-plug-standards-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依 IEC 插頭接腳形狀分類：矩形三方腳（英規 Type G）、平行扁平腳（美日兩孔 Type A、北美三孔接地 Type B）、歐陸雙圓腳（歐規兩圓腳 Type C、法規 Type E、德規 Schuko Type F）與斜八字／三圓腳（澳中斜八字 Type I、瑞士 Type J、義大利 Type L、巴西 Type N）。",
+  "sources": [
+    {
+      "title": "IEC World Plugs Reference",
+      "url": "https://www.iec.ch/world-plugs",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

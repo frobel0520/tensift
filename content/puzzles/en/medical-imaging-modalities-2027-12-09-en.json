@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "medical-imaging-modalities-2027-12-09-en",
+  "puzzleFamilyId": "medical-imaging-modalities-001",
+  "locale": "en",
+  "publishDate": "2027-12-09",
+  "timezone": "UTC",
+  "theme": "Diagnostic Medical Imaging",
+  "items": [
+    {
+      "itemId": "medical-imaging-modalities-4",
+      "label": "Doppler Ultrasound"
+    },
+    {
+      "itemId": "medical-imaging-modalities-8",
+      "label": "Computed Tomography (CT)"
+    },
+    {
+      "itemId": "medical-imaging-modalities-1",
+      "label": "Flexible GI Endoscopy"
+    },
+    {
+      "itemId": "medical-imaging-modalities-6",
+      "label": "Functional MRI (fMRI)"
+    },
+    {
+      "itemId": "medical-imaging-modalities-10",
+      "label": "Dental Panoramic X-Ray"
+    },
+    {
+      "itemId": "medical-imaging-modalities-2",
+      "label": "PET Scan (Positron)"
+    },
+    {
+      "itemId": "medical-imaging-modalities-7",
+      "label": "Chest Radiograph (X-Ray)"
+    },
+    {
+      "itemId": "medical-imaging-modalities-5",
+      "label": "Structural Brain MRI"
+    },
+    {
+      "itemId": "medical-imaging-modalities-9",
+      "label": "Mammography"
+    },
+    {
+      "itemId": "medical-imaging-modalities-3",
+      "label": "SPECT Gamma Scan"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Physical imaging signal (Optical Endoscopy, Nuclear Gamma Emission, Non-Ionizing Acoustic/Magnetic, or Ionizing X-Ray Radiation)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Direct Optical Camera",
+        "capacity": 1,
+        "itemIds": [
+          "medical-imaging-modalities-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Nuclear Tracer Emission",
+        "capacity": 2,
+        "itemIds": [
+          "medical-imaging-modalities-2",
+          "medical-imaging-modalities-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Non-Ionizing Sound & MRI",
+        "capacity": 3,
+        "itemIds": [
+          "medical-imaging-modalities-4",
+          "medical-imaging-modalities-5",
+          "medical-imaging-modalities-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Ionizing X-Ray Radiation",
+        "capacity": 4,
+        "itemIds": [
+          "medical-imaging-modalities-7",
+          "medical-imaging-modalities-8",
+          "medical-imaging-modalities-9",
+          "medical-imaging-modalities-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by imaging physics: Direct Optical Fiber/Camera (Flexible Endoscopy), Nuclear Medicine Tracers (PET Positron Emission, SPECT Gamma Scan), Non-Ionizing Ultrasound & MRI (Doppler Ultrasound, Functional MRI fMRI, Structural T1 MRI), and Ionizing X-Ray Imaging (Chest Radiograph X-Ray, Computed Tomography CT, Mammography, Dental Panoramic X-Ray).",
+  "sources": [
+    {
+      "title": "WHO: Diagnostic Imaging Modalities",
+      "url": "https://www.who.int/health-topics/diagnostic-imaging",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "photography-exposure-triangle-2027-12-26-es-419",
+  "puzzleFamilyId": "photography-exposure-triangle-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-26",
+  "timezone": "UTC",
+  "theme": "Controles de cámara y fotografía",
+  "items": [
+    {
+      "itemId": "photography-exposure-triangle-4",
+      "label": "Apertura (número f)"
+    },
+    {
+      "itemId": "photography-exposure-triangle-8",
+      "label": "Modo Bulb (larga exposición)"
+    },
+    {
+      "itemId": "photography-exposure-triangle-1",
+      "label": "Sensibilidad ISO"
+    },
+    {
+      "itemId": "photography-exposure-triangle-6",
+      "label": "Profundidad de campo"
+    },
+    {
+      "itemId": "photography-exposure-triangle-10",
+      "label": "Medición matricial"
+    },
+    {
+      "itemId": "photography-exposure-triangle-2",
+      "label": "Filtro polarizador circular"
+    },
+    {
+      "itemId": "photography-exposure-triangle-7",
+      "label": "Velocidad de obturación"
+    },
+    {
+      "itemId": "photography-exposure-triangle-5",
+      "label": "Distancia focal (mm)"
+    },
+    {
+      "itemId": "photography-exposure-triangle-9",
+      "label": "Medición puntual"
+    },
+    {
+      "itemId": "photography-exposure-triangle-3",
+      "label": "Filtro de densidad neutra (ND)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría técnica de cada control fotográfico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Ganancia del sensor",
+        "capacity": 1,
+        "itemIds": [
+          "photography-exposure-triangle-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Filtros ópticos",
+        "capacity": 2,
+        "itemIds": [
+          "photography-exposure-triangle-2",
+          "photography-exposure-triangle-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Óptica y apertura",
+        "capacity": 3,
+        "itemIds": [
+          "photography-exposure-triangle-4",
+          "photography-exposure-triangle-5",
+          "photography-exposure-triangle-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Obturación y medición",
+        "capacity": 4,
+        "itemIds": [
+          "photography-exposure-triangle-7",
+          "photography-exposure-triangle-8",
+          "photography-exposure-triangle-9",
+          "photography-exposure-triangle-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por control: ganancia del sensor (sensibilidad ISO), filtros ópticos (polarizador circular CPL, densidad neutra ND), óptica del objetivo (apertura f-stop, distancia focal, profundidad de campo) y obturación/medición (velocidad de obturación, modo Bulb, medición puntual, medición matricial).",
+  "sources": [
+    {
+      "title": "ISO 12232: Photography Digital Still Cameras",
+      "url": "https://www.iso.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "resin-recycling-codes-001",
+  "theme": "Plastic Recycling Resin Codes",
+  "publishDate": "2027-11-30",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "resin-recycling-codes-6",
+        "rivalGroupId": "group-4",
+        "risk": "Liquid cartons have a thin polyethylene plastic/foil lining.",
+        "resolution": "Beverage cartons are ~75% paperboard fiber and sorted into fiber/carton streams (group-3), not solid numbered resin polymers (group-4)."
+      },
+      {
+        "itemId": "resin-recycling-codes-1",
+        "rivalGroupId": "group-2",
+        "risk": "Aluminum cans and glass bottles are both rigid beverage containers.",
+        "resolution": "Aluminum cans are non-ferrous metal (group-1), whereas flint and amber jars/bottles are silica glass (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

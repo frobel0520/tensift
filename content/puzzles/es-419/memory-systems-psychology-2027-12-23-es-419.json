@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "memory-systems-psychology-2027-12-23-es-419",
+  "puzzleFamilyId": "memory-systems-psychology-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-23",
+  "timezone": "UTC",
+  "theme": "Sistemas de memoria humana",
+  "items": [
+    {
+      "itemId": "memory-systems-psychology-4",
+      "label": "Memoria procedimental motora"
+    },
+    {
+      "itemId": "memory-systems-psychology-8",
+      "label": "Memoria semántica"
+    },
+    {
+      "itemId": "memory-systems-psychology-1",
+      "label": "Memoria icónica visual"
+    },
+    {
+      "itemId": "memory-systems-psychology-6",
+      "label": "Priming perceptivo"
+    },
+    {
+      "itemId": "memory-systems-psychology-10",
+      "label": "Memoria prospectiva"
+    },
+    {
+      "itemId": "memory-systems-psychology-2",
+      "label": "Bucle fonológico"
+    },
+    {
+      "itemId": "memory-systems-psychology-7",
+      "label": "Memoria episódica"
+    },
+    {
+      "itemId": "memory-systems-psychology-5",
+      "label": "Condicionamiento clásico"
+    },
+    {
+      "itemId": "memory-systems-psychology-9",
+      "label": "Memoria autobiográfica"
+    },
+    {
+      "itemId": "memory-systems-psychology-3",
+      "label": "Agenda visoespacial"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clasificación cognitiva de cada sistema de memoria",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Registro sensorial",
+        "capacity": 1,
+        "itemIds": [
+          "memory-systems-psychology-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Subcomponentes de memoria de trabajo",
+        "capacity": 2,
+        "itemIds": [
+          "memory-systems-psychology-2",
+          "memory-systems-psychology-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Memoria implícita (no declarativa)",
+        "capacity": 3,
+        "itemIds": [
+          "memory-systems-psychology-4",
+          "memory-systems-psychology-5",
+          "memory-systems-psychology-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Memoria explícita declarativa",
+        "capacity": 4,
+        "itemIds": [
+          "memory-systems-psychology-7",
+          "memory-systems-psychology-8",
+          "memory-systems-psychology-9",
+          "memory-systems-psychology-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por sistema: registro sensorial (memoria icónica visual), memoria de trabajo (bucle fonológico, agenda visoespacial), memoria implícita no declarativa (memoria procedimental motora, condicionamiento clásico, priming perceptivo) y memoria explícita declarativa (memoria episódica, memoria semántica, memoria autobiográfica, memoria prospectiva).",
+  "sources": [
+    {
+      "title": "APA Dictionary of Psychology: Memory Systems",
+      "url": "https://dictionary.apa.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

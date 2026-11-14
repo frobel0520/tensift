@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "bookbinding-print-formats-2027-12-27-zh-hant",
+  "puzzleFamilyId": "bookbinding-print-formats-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-27",
+  "timezone": "UTC",
+  "theme": "書籍裝幀與印刷結構",
+  "items": [
+    {
+      "itemId": "bookbinding-print-formats-4",
+      "label": "騎馬釘裝訂"
+    },
+    {
+      "itemId": "bookbinding-print-formats-8",
+      "label": "精裝硬殼書板"
+    },
+    {
+      "itemId": "bookbinding-print-formats-1",
+      "label": "日式四孔線裝"
+    },
+    {
+      "itemId": "bookbinding-print-formats-6",
+      "label": "摺口平裝本"
+    },
+    {
+      "itemId": "bookbinding-print-formats-10",
+      "label": "精裝外包書衣"
+    },
+    {
+      "itemId": "bookbinding-print-formats-2",
+      "label": "單螺旋線圈裝訂"
+    },
+    {
+      "itemId": "bookbinding-print-formats-7",
+      "label": "精裝鎖線書帖"
+    },
+    {
+      "itemId": "bookbinding-print-formats-5",
+      "label": "膠裝平裝書背"
+    },
+    {
+      "itemId": "bookbinding-print-formats-9",
+      "label": "精裝蝴蝶頁與堵頭布"
+    },
+    {
+      "itemId": "bookbinding-print-formats-3",
+      "label": "雙線圈（Wire-O）裝訂"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各書籍裝幀結構與部位的分類（日式線裝、線圈裝訂、平裝膠裝／騎馬釘或精裝穿線與書背結構）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "傳統外露線裝",
+        "capacity": 1,
+        "itemIds": [
+          "bookbinding-print-formats-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "線圈裝訂",
+        "capacity": 2,
+        "itemIds": [
+          "bookbinding-print-formats-2",
+          "bookbinding-print-formats-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "平裝書裝訂",
+        "capacity": 3,
+        "itemIds": [
+          "bookbinding-print-formats-4",
+          "bookbinding-print-formats-5",
+          "bookbinding-print-formats-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "精裝書結構與裝幀",
+        "capacity": 4,
+        "itemIds": [
+          "bookbinding-print-formats-7",
+          "bookbinding-print-formats-8",
+          "bookbinding-print-formats-9",
+          "bookbinding-print-formats-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依書籍裝幀結構分類：外露線裝（日式四孔線裝）、金屬／塑膠圈裝（單線圈裝、雙線圈 Wire-O 裝）、平裝固定法（騎馬釘、PUR 膠裝平裝、摺口平裝）與精裝書結構（穿線鎖線書帖、精裝硬殼書封、堵頭布與蝴蝶頁、精裝書衣）。",
+  "sources": [
+    {
+      "title": "Library of Congress: Bookbinding & Conservation",
+      "url": "https://www.loc.gov/preservation/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

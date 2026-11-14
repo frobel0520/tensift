@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "blood-cells-hematology-2027-12-13-en",
+  "puzzleFamilyId": "blood-cells-hematology-001",
+  "locale": "en",
+  "publishDate": "2027-12-13",
+  "timezone": "UTC",
+  "theme": "Human Blood Components",
+  "items": [
+    {
+      "itemId": "blood-cells-hematology-4",
+      "label": "Neutrophil"
+    },
+    {
+      "itemId": "blood-cells-hematology-8",
+      "label": "B-Lymphocyte"
+    },
+    {
+      "itemId": "blood-cells-hematology-1",
+      "label": "Blood Plasma"
+    },
+    {
+      "itemId": "blood-cells-hematology-6",
+      "label": "Basophil"
+    },
+    {
+      "itemId": "blood-cells-hematology-10",
+      "label": "Natural Killer (NK) Cell"
+    },
+    {
+      "itemId": "blood-cells-hematology-2",
+      "label": "Red Blood Cell (Erythrocyte)"
+    },
+    {
+      "itemId": "blood-cells-hematology-7",
+      "label": "Monocyte"
+    },
+    {
+      "itemId": "blood-cells-hematology-5",
+      "label": "Eosinophil"
+    },
+    {
+      "itemId": "blood-cells-hematology-9",
+      "label": "Cytotoxic T-Cell"
+    },
+    {
+      "itemId": "blood-cells-hematology-3",
+      "label": "Platelet (Thrombocyte)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Hematological component class (Liquid Extracellular Matrix, Non-Leukocyte Formed Elements, Granulocyte White Blood Cells, or Agranulocyte White Blood Cells)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Liquid Extracellular Matrix",
+        "capacity": 1,
+        "itemIds": [
+          "blood-cells-hematology-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Erythrocytes & Platelets",
+        "capacity": 2,
+        "itemIds": [
+          "blood-cells-hematology-2",
+          "blood-cells-hematology-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Granulocyte Leukocytes",
+        "capacity": 3,
+        "itemIds": [
+          "blood-cells-hematology-4",
+          "blood-cells-hematology-5",
+          "blood-cells-hematology-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Agranulocyte Leukocytes",
+        "capacity": 4,
+        "itemIds": [
+          "blood-cells-hematology-7",
+          "blood-cells-hematology-8",
+          "blood-cells-hematology-9",
+          "blood-cells-hematology-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by hematology class: Liquid Matrix (Blood Plasma), Non-Leukocyte Formed Elements (Red Blood Cell Erythrocyte, Platelet Thrombocyte), Granulocyte White Blood Cells (Neutrophil, Eosinophil, Basophil), and Agranulocyte White Blood Cells (Monocyte, B-Lymphocyte, Cytotoxic T-Cell, Natural Killer NK Cell).",
+  "sources": [
+    {
+      "title": "NIH NHLBI: Blood Components",
+      "url": "https://www.nhlbi.nih.gov/health/blood",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

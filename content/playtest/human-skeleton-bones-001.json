@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "human-skeleton-bones-001",
+  "theme": "Human Skeletal Regions",
+  "publishDate": "2027-12-07",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "human-skeleton-bones-1",
+        "rivalGroupId": "group-3",
+        "risk": "The clavicle articulates with the arm via the scapula.",
+        "resolution": "The clavicle belongs to the pectoral shoulder girdle (group-1), not the free upper limb arm/forearm (group-3)."
+      },
+      {
+        "itemId": "human-skeleton-bones-8",
+        "rivalGroupId": "group-1",
+        "risk": "The patella is a flat sesamoid bone rather than a long bone.",
+        "resolution": "Anatomically, the patella is part of the lower limb skeleton at the knee joint (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

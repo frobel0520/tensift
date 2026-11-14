@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "textile-weave-structures-2027-12-03-zh-hant",
+  "puzzleFamilyId": "textile-weave-structures-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-03",
+  "timezone": "UTC",
+  "theme": "紡織布料織法與結構",
+  "items": [
+    {
+      "itemId": "textile-weave-structures-4",
+      "label": "單面平紋針織（Jersey）"
+    },
+    {
+      "itemId": "textile-weave-structures-8",
+      "label": "丹寧斜紋織法（Twill）"
+    },
+    {
+      "itemId": "textile-weave-structures-1",
+      "label": "壓製羊毛氈"
+    },
+    {
+      "itemId": "textile-weave-structures-6",
+      "label": "針織魚鱗毛圈布"
+    },
+    {
+      "itemId": "textile-weave-structures-10",
+      "label": "人字斜紋織法"
+    },
+    {
+      "itemId": "textile-weave-structures-2",
+      "label": "割絨天鵝絨（Velvet）"
+    },
+    {
+      "itemId": "textile-weave-structures-7",
+      "label": "平紋織法（Plain Weave）"
+    },
+    {
+      "itemId": "textile-weave-structures-5",
+      "label": "羅紋針織（Rib Knit）"
+    },
+    {
+      "itemId": "textile-weave-structures-9",
+      "label": "緞紋織法（Satin）"
+    },
+    {
+      "itemId": "textile-weave-structures-3",
+      "label": "梭織毛巾布（Terrycloth）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各布料織法的物理成型分類（不織布毛氈、立體起絨織物、針織線圈結構或梭織機織結構）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "不織布壓縮氈",
+        "capacity": 1,
+        "itemIds": [
+          "textile-weave-structures-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "立體起絨／毛圈梭織",
+        "capacity": 2,
+        "itemIds": [
+          "textile-weave-structures-2",
+          "textile-weave-structures-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "針織線圈布料",
+        "capacity": 3,
+        "itemIds": [
+          "textile-weave-structures-4",
+          "textile-weave-structures-5",
+          "textile-weave-structures-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "基本梭織紋路",
+        "capacity": 4,
+        "itemIds": [
+          "textile-weave-structures-7",
+          "textile-weave-structures-8",
+          "textile-weave-structures-9",
+          "textile-weave-structures-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依紡織結構分類：不織壓縮氈（壓製羊毛氈）、起絨立體織物（天鵝絨、毛巾布）、針織線圈結構（汗布平針織、羅紋針織、魚鱗毛圈針織）與梭織機織結構（平紋織、斜紋丹寧、緞紋織、人字斜紋）。",
+  "sources": [
+    {
+      "title": "ISO 8388 & Textile Institute",
+      "url": "https://www.iso.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

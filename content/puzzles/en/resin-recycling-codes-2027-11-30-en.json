@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "resin-recycling-codes-2027-11-30-en",
+  "puzzleFamilyId": "resin-recycling-codes-001",
+  "locale": "en",
+  "publishDate": "2027-11-30",
+  "timezone": "UTC",
+  "theme": "Plastic Recycling Resin Codes",
+  "items": [
+    {
+      "itemId": "resin-recycling-codes-4",
+      "label": "Corrugated Cardboard Box"
+    },
+    {
+      "itemId": "resin-recycling-codes-8",
+      "label": "#2 HDPE Milk Jug"
+    },
+    {
+      "itemId": "resin-recycling-codes-1",
+      "label": "Aluminum Beverage Can"
+    },
+    {
+      "itemId": "resin-recycling-codes-6",
+      "label": "Liquid Paperboard Carton"
+    },
+    {
+      "itemId": "resin-recycling-codes-10",
+      "label": "#5 PP Yogurt Tub"
+    },
+    {
+      "itemId": "resin-recycling-codes-2",
+      "label": "Clear Flint Glass Jar"
+    },
+    {
+      "itemId": "resin-recycling-codes-7",
+      "label": "#1 PETE Water Bottle"
+    },
+    {
+      "itemId": "resin-recycling-codes-5",
+      "label": "White Office Paper"
+    },
+    {
+      "itemId": "resin-recycling-codes-9",
+      "label": "#4 LDPE Plastic Film"
+    },
+    {
+      "itemId": "resin-recycling-codes-3",
+      "label": "Amber Glass Bottle"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Recyclable packaging material class (Metal Beverage Can, Glass Container Grades, Paper & Fiberboard, or Numbered Plastic Resins)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Recyclable Metal Can",
+        "capacity": 1,
+        "itemIds": [
+          "resin-recycling-codes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Glass Containers",
+        "capacity": 2,
+        "itemIds": [
+          "resin-recycling-codes-2",
+          "resin-recycling-codes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Paper & Fiberboard",
+        "capacity": 3,
+        "itemIds": [
+          "resin-recycling-codes-4",
+          "resin-recycling-codes-5",
+          "resin-recycling-codes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Numbered Plastic Resins",
+        "capacity": 4,
+        "itemIds": [
+          "resin-recycling-codes-7",
+          "resin-recycling-codes-8",
+          "resin-recycling-codes-9",
+          "resin-recycling-codes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by recyclable packaging material: Metal (Aluminum Beverage Can), Glass Containers (Clear Flint Glass, Amber Bottle Glass), Paper & Fiberboard (Corrugated Cardboard, Office Paper, Aseptic Paperboard Carton), and Numbered Plastic Resins (#1 PETE Bottle, #2 HDPE Jug, #4 LDPE Film, #5 PP Tub).",
+  "sources": [
+    {
+      "title": "ASTM D7611: Resin Identification Codes",
+      "url": "https://www.astm.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

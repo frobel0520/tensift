@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "epidemiology-study-designs-2027-12-19-es-419",
+  "puzzleFamilyId": "epidemiology-study-designs-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-19",
+  "timezone": "UTC",
+  "theme": "Diseños de estudios clínicos y epidemiológicos",
+  "items": [
+    {
+      "itemId": "epidemiology-study-designs-4",
+      "label": "Cohorte prospectiva"
+    },
+    {
+      "itemId": "epidemiology-study-designs-8",
+      "label": "Ensayo fase III doble ciego"
+    },
+    {
+      "itemId": "epidemiology-study-designs-1",
+      "label": "Reporte de caso clínico"
+    },
+    {
+      "itemId": "epidemiology-study-designs-6",
+      "label": "Cohorte retrospectiva"
+    },
+    {
+      "itemId": "epidemiology-study-designs-10",
+      "label": "Ensayo aleatorizado por conglomerados"
+    },
+    {
+      "itemId": "epidemiology-study-designs-2",
+      "label": "Estudio transversal"
+    },
+    {
+      "itemId": "epidemiology-study-designs-7",
+      "label": "Ensayo clínico aleatorizado (ECA)"
+    },
+    {
+      "itemId": "epidemiology-study-designs-5",
+      "label": "Estudio de casos y controles"
+    },
+    {
+      "itemId": "epidemiology-study-designs-9",
+      "label": "Ensayo clínico cruzado"
+    },
+    {
+      "itemId": "epidemiology-study-designs-3",
+      "label": "Estudio ecológico"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tipo de diseño de investigación biomédica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Reporte individual",
+        "capacity": 1,
+        "itemIds": [
+          "epidemiology-study-designs-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Estudios descriptivos",
+        "capacity": 2,
+        "itemIds": [
+          "epidemiology-study-designs-2",
+          "epidemiology-study-designs-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Observacionales analíticos",
+        "capacity": 3,
+        "itemIds": [
+          "epidemiology-study-designs-4",
+          "epidemiology-study-designs-5",
+          "epidemiology-study-designs-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Ensayos experimentales aleatorizados",
+        "capacity": 4,
+        "itemIds": [
+          "epidemiology-study-designs-7",
+          "epidemiology-study-designs-8",
+          "epidemiology-study-designs-9",
+          "epidemiology-study-designs-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por diseño: observación única (reporte de caso clínico), estudios descriptivos (encuesta transversal, estudio ecológico), observacionales analíticos (cohorte prospectiva, casos y controles, cohorte retrospectiva) y ensayos experimentales (ensayo clínico aleatorizado ECA, ensayo fase III doble ciego, ensayo cruzado, ensayo aleatorizado por conglomerados).",
+  "sources": [
+    {
+      "title": "CDC: Principles of Epidemiology — Study Designs",
+      "url": "https://www.cdc.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

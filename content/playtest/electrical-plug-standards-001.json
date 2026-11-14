@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "electrical-plug-standards-001",
+  "theme": "World AC Power Plug Types",
+  "publishDate": "2027-12-05",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "electrical-plug-standards-7",
+        "rivalGroupId": "group-2",
+        "risk": "Type I uses flat metal blades.",
+        "resolution": "Type I blades are angled in an inverted V-shape (group-4), unlike the parallel vertical blades of Types A and B (group-2)."
+      },
+      {
+        "itemId": "electrical-plug-standards-9",
+        "rivalGroupId": "group-3",
+        "risk": "Type L is used in Italy, a European Union country.",
+        "resolution": "Type L has three in-line round pins (group-4), distinct from the two-pin Europlug/Schuko/French family (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

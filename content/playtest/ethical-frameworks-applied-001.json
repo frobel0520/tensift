@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "ethical-frameworks-applied-001",
+  "theme": "Bioethics & Research Ethics",
+  "publishDate": "2027-12-24",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "ethical-frameworks-applied-2",
+        "rivalGroupId": "group-3",
+        "risk": "Informed consent directly implements the Belmont principle of Respect for Persons.",
+        "resolution": "Informed consent is an operational clinical/IRB safeguard procedure (group-2), whereas Respect for Persons, Beneficence, and Justice are the three foundational Belmont Report principles (group-3)."
+      },
+      {
+        "itemId": "ethical-frameworks-applied-1",
+        "rivalGroupId": "group-3",
+        "risk": "The Precautionary Principle aims to prevent harm like Beneficence.",
+        "resolution": "The Precautionary Principle is a regulatory risk-governance rule under scientific uncertainty (group-1), not one of the three Belmont Report principles (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

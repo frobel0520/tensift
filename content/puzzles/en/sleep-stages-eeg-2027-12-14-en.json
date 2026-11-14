@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sleep-stages-eeg-2027-12-14-en",
+  "puzzleFamilyId": "sleep-stages-eeg-001",
+  "locale": "en",
+  "publishDate": "2027-12-14",
+  "timezone": "UTC",
+  "theme": "Human Sleep Architecture",
+  "items": [
+    {
+      "itemId": "sleep-stages-eeg-4",
+      "label": "Stage N1 (Theta Transition)"
+    },
+    {
+      "itemId": "sleep-stages-eeg-8",
+      "label": "High-Amplitude Delta Waves"
+    },
+    {
+      "itemId": "sleep-stages-eeg-1",
+      "label": "REM Sleep (Muscle Atonia)"
+    },
+    {
+      "itemId": "sleep-stages-eeg-6",
+      "label": "Stage N2 K-Complexes"
+    },
+    {
+      "itemId": "sleep-stages-eeg-10",
+      "label": "Somnambulism Slow-Wave Window"
+    },
+    {
+      "itemId": "sleep-stages-eeg-2",
+      "label": "Relaxed Eyes-Closed Alpha (8–12 Hz)"
+    },
+    {
+      "itemId": "sleep-stages-eeg-7",
+      "label": "Stage N3 Slow-Wave Sleep"
+    },
+    {
+      "itemId": "sleep-stages-eeg-5",
+      "label": "Stage N2 Sleep Spindles"
+    },
+    {
+      "itemId": "sleep-stages-eeg-9",
+      "label": "Peak GH-Secretion Sleep"
+    },
+    {
+      "itemId": "sleep-stages-eeg-3",
+      "label": "Alert Active Beta (>13 Hz)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "AASM sleep-wake stage & wave feature (Wakefulness Alpha/Beta, REM Dreaming Sleep, Non-REM Light Sleep N1/N2, or Deep Slow-Wave Sleep N3 & Oscillations)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "REM Dreaming Stage",
+        "capacity": 1,
+        "itemIds": [
+          "sleep-stages-eeg-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Wakefulness EEG States",
+        "capacity": 2,
+        "itemIds": [
+          "sleep-stages-eeg-2",
+          "sleep-stages-eeg-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Light Non-REM (N1 & N2)",
+        "capacity": 3,
+        "itemIds": [
+          "sleep-stages-eeg-4",
+          "sleep-stages-eeg-5",
+          "sleep-stages-eeg-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Deep Slow-Wave Sleep (N3)",
+        "capacity": 4,
+        "itemIds": [
+          "sleep-stages-eeg-7",
+          "sleep-stages-eeg-8",
+          "sleep-stages-eeg-9",
+          "sleep-stages-eeg-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by AASM sleep architecture: Rapid Eye Movement (REM Sleep), Quiet Wakefulness (Alpha-Wave Relaxed Wakefulness, Beta-Wave Alert Wakefulness), Light Non-REM Sleep (Stage N1 Light Drowsiness, Stage N2 Sleep Spindles, N2 K-Complexes), and Deep Slow-Wave Sleep (Stage N3 Delta Sleep, High-Amplitude Delta Waves, Growth-Hormone Peak Phase, Slow-Wave Parasomnia Window).",
+  "sources": [
+    {
+      "title": "NIH NINDS: Brain Basics — Understanding Sleep",
+      "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

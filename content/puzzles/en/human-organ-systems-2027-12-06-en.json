@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "human-organ-systems-2027-12-06-en",
+  "puzzleFamilyId": "human-organ-systems-001",
+  "locale": "en",
+  "publishDate": "2027-12-06",
+  "timezone": "UTC",
+  "theme": "Human Anatomy Organ Systems",
+  "items": [
+    {
+      "itemId": "human-organ-systems-4",
+      "label": "Trachea (Windpipe)"
+    },
+    {
+      "itemId": "human-organ-systems-8",
+      "label": "Stomach"
+    },
+    {
+      "itemId": "human-organ-systems-1",
+      "label": "Human Skin (Cutis)"
+    },
+    {
+      "itemId": "human-organ-systems-6",
+      "label": "Pulmonary Alveoli"
+    },
+    {
+      "itemId": "human-organ-systems-10",
+      "label": "Liver"
+    },
+    {
+      "itemId": "human-organ-systems-2",
+      "label": "Thyroid Gland"
+    },
+    {
+      "itemId": "human-organ-systems-7",
+      "label": "Esophagus"
+    },
+    {
+      "itemId": "human-organ-systems-5",
+      "label": "Bronchial Tree"
+    },
+    {
+      "itemId": "human-organ-systems-9",
+      "label": "Small Intestine"
+    },
+    {
+      "itemId": "human-organ-systems-3",
+      "label": "Adrenal Gland"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Physiological organ system (Integumentary System, Endocrine Glands, Respiratory System, or Digestive GI Tract & Accessory Organs)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Integumentary System",
+        "capacity": 1,
+        "itemIds": [
+          "human-organ-systems-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Endocrine Glands",
+        "capacity": 2,
+        "itemIds": [
+          "human-organ-systems-2",
+          "human-organ-systems-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Respiratory System",
+        "capacity": 3,
+        "itemIds": [
+          "human-organ-systems-4",
+          "human-organ-systems-5",
+          "human-organ-systems-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Digestive System",
+        "capacity": 4,
+        "itemIds": [
+          "human-organ-systems-7",
+          "human-organ-systems-8",
+          "human-organ-systems-9",
+          "human-organ-systems-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by organ system: Integumentary System (Epidermis & Dermis Skin), Endocrine System (Thyroid Gland, Adrenal Gland), Respiratory System (Trachea, Bronchial Tree, Pulmonary Alveoli), and Digestive System (Esophagus, Stomach, Small Intestine, Liver).",
+  "sources": [
+    {
+      "title": "NIH MedlinePlus: Body Systems",
+      "url": "https://medlineplus.gov/anatomy.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.2
+  },
+  "status": "scheduled"
+}

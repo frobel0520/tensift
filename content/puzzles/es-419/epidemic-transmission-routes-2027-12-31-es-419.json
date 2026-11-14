@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "epidemic-transmission-routes-2027-12-31-es-419",
+  "puzzleFamilyId": "epidemic-transmission-routes-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-31",
+  "timezone": "UTC",
+  "theme": "Vías de transmisión de enfermedades infecciosas",
+  "items": [
+    {
+      "itemId": "epidemic-transmission-routes-4",
+      "label": "Malaria (mosquito Anopheles)"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-8",
+      "label": "Sarampión"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-1",
+      "label": "Tétanos"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-6",
+      "label": "Enfermedad de Lyme (garrapata)"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-10",
+      "label": "Tos ferina (pertussis)"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-2",
+      "label": "Cólera"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-7",
+      "label": "Influenza estacional"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-5",
+      "label": "Dengue (mosquito Aedes)"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-9",
+      "label": "Tuberculosis pulmonar"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-3",
+      "label": "Fiebre tifoidea"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Vía principal de transmisión de cada enfermedad",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Contacto en herida",
+        "capacity": 1,
+        "itemIds": [
+          "epidemic-transmission-routes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Transmisión hídrica y alimentaria",
+        "capacity": 2,
+        "itemIds": [
+          "epidemic-transmission-routes-2",
+          "epidemic-transmission-routes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Transmitidas por vectores",
+        "capacity": 3,
+        "itemIds": [
+          "epidemic-transmission-routes-4",
+          "epidemic-transmission-routes-5",
+          "epidemic-transmission-routes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Vía aérea y gotículas respiratorias",
+        "capacity": 4,
+        "itemIds": [
+          "epidemic-transmission-routes-7",
+          "epidemic-transmission-routes-8",
+          "epidemic-transmission-routes-9",
+          "epidemic-transmission-routes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por vía: contacto en herida (tétanos), hídrica/alimentaria (cólera, fiebre tifoidea), vectores artrópodos (malaria, dengue, enfermedad de Lyme) y vía aérea/gotículas respiratorias (influenza, sarampión, tuberculosis pulmonar, tos ferina).",
+  "sources": [
+    {
+      "title": "WHO & CDC: Disease Transmission Routes",
+      "url": "https://www.who.int/health-topics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

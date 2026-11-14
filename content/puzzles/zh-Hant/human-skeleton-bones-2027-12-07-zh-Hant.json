@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "human-skeleton-bones-2027-12-07-zh-hant",
+  "puzzleFamilyId": "human-skeleton-bones-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-07",
+  "timezone": "UTC",
+  "theme": "人體骨骼區域分類",
+  "items": [
+    {
+      "itemId": "human-skeleton-bones-4",
+      "label": "肱骨（上臂）"
+    },
+    {
+      "itemId": "human-skeleton-bones-8",
+      "label": "髕骨（膝蓋骨）"
+    },
+    {
+      "itemId": "human-skeleton-bones-1",
+      "label": "鎖骨"
+    },
+    {
+      "itemId": "human-skeleton-bones-6",
+      "label": "尺骨（前臂內側）"
+    },
+    {
+      "itemId": "human-skeleton-bones-10",
+      "label": "腓骨（小腿外側）"
+    },
+    {
+      "itemId": "human-skeleton-bones-2",
+      "label": "額骨"
+    },
+    {
+      "itemId": "human-skeleton-bones-7",
+      "label": "股骨（大腿骨）"
+    },
+    {
+      "itemId": "human-skeleton-bones-5",
+      "label": "橈骨（前臂外側）"
+    },
+    {
+      "itemId": "human-skeleton-bones-9",
+      "label": "脛骨（小腿內側）"
+    },
+    {
+      "itemId": "human-skeleton-bones-3",
+      "label": "下頷骨"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各人體骨骼所屬的解剖部位（胸鎖帶骨、顱骨、上肢手臂骨或下肢腿骨）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "肩帶骨",
+        "capacity": 1,
+        "itemIds": [
+          "human-skeleton-bones-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "頭顱與頷骨",
+        "capacity": 2,
+        "itemIds": [
+          "human-skeleton-bones-2",
+          "human-skeleton-bones-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "上肢手臂骨骼",
+        "capacity": 3,
+        "itemIds": [
+          "human-skeleton-bones-4",
+          "human-skeleton-bones-5",
+          "human-skeleton-bones-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "下肢腿部骨骼",
+        "capacity": 4,
+        "itemIds": [
+          "human-skeleton-bones-7",
+          "human-skeleton-bones-8",
+          "human-skeleton-bones-9",
+          "human-skeleton-bones-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依骨骼部位分類：肩帶（鎖骨）、頭顱骨（額骨、下頷骨）、上肢骨（肱骨、橈骨、尺骨）與下肢骨（股骨、髕骨／膝蓋骨、脛骨、腓骨）。",
+  "sources": [
+    {
+      "title": "NIH SEER Training: Skeletal System",
+      "url": "https://training.seer.cancer.gov/anatomy/skeletal/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

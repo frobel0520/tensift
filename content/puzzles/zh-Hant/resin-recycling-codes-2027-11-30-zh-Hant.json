@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "resin-recycling-codes-2027-11-30-zh-hant",
+  "puzzleFamilyId": "resin-recycling-codes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-30",
+  "timezone": "UTC",
+  "theme": "塑膠資源回收材質辨識碼",
+  "items": [
+    {
+      "itemId": "resin-recycling-codes-4",
+      "label": "瓦楞紙箱"
+    },
+    {
+      "itemId": "resin-recycling-codes-8",
+      "label": "2 號 HDPE 鮮奶桶"
+    },
+    {
+      "itemId": "resin-recycling-codes-1",
+      "label": "鋁製飲料罐"
+    },
+    {
+      "itemId": "resin-recycling-codes-6",
+      "label": "飲料紙盒（利樂包）"
+    },
+    {
+      "itemId": "resin-recycling-codes-10",
+      "label": "5 號 PP 優格盒"
+    },
+    {
+      "itemId": "resin-recycling-codes-2",
+      "label": "透明無色玻璃罐"
+    },
+    {
+      "itemId": "resin-recycling-codes-7",
+      "label": "1 號 PET 礦泉水瓶"
+    },
+    {
+      "itemId": "resin-recycling-codes-5",
+      "label": "辦公室白紙"
+    },
+    {
+      "itemId": "resin-recycling-codes-9",
+      "label": "4 號 LDPE 軟質塑膠膜"
+    },
+    {
+      "itemId": "resin-recycling-codes-3",
+      "label": "琥珀色玻璃瓶"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "資源回收常見包裝材質的四大類別（鋁金屬罐、玻璃容器、紙類與纖維板或編號塑膠樹脂）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "回收金屬罐",
+        "capacity": 1,
+        "itemIds": [
+          "resin-recycling-codes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "玻璃容器類",
+        "capacity": 2,
+        "itemIds": [
+          "resin-recycling-codes-2",
+          "resin-recycling-codes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "紙類與纖維板",
+        "capacity": 3,
+        "itemIds": [
+          "resin-recycling-codes-4",
+          "resin-recycling-codes-5",
+          "resin-recycling-codes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "塑膠材質編號樹脂",
+        "capacity": 4,
+        "itemIds": [
+          "resin-recycling-codes-7",
+          "resin-recycling-codes-8",
+          "resin-recycling-codes-9",
+          "resin-recycling-codes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依資源回收材質分類：金屬（鋁製飲料罐）、玻璃容器（透明無色玻璃、琥珀／綠色玻璃）、紙類與纖維板（瓦楞紙箱、辦公室白紙、鋁箔利樂包紙盒）與塑膠回收編號樹脂（1 號 PET 寶特瓶、2 號 HDPE 鮮奶瓶、4 號 LDPE 薄膜袋、5 號 PP 優格杯）。",
+  "sources": [
+    {
+      "title": "ASTM D7611: Resin Identification Codes",
+      "url": "https://www.astm.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

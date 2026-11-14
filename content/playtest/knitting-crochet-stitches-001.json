@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "knitting-crochet-stitches-001",
+  "theme": "Needlecraft & Fiber Arts",
+  "publishDate": "2027-12-17",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "knitting-crochet-stitches-4",
+        "rivalGroupId": "group-2",
+        "risk": "Chain stitch also exists in surface embroidery.",
+        "resolution": "Here Crochet Chain Stitch (ch) is the foundational single-hook crochet foundation (group-3), distinct from needle embroidery (group-2)."
+      },
+      {
+        "itemId": "knitting-crochet-stitches-1",
+        "rivalGroupId": "group-3",
+        "risk": "Needle tatting can use a hook or long needle to make lace.",
+        "resolution": "Shuttle tatting uses a hand-held winding shuttle to form double-stitch rings and chains (group-1), not a crochet hook (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

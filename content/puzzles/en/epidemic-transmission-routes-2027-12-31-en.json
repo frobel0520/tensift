@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "epidemic-transmission-routes-2027-12-31-en",
+  "puzzleFamilyId": "epidemic-transmission-routes-001",
+  "locale": "en",
+  "publishDate": "2027-12-31",
+  "timezone": "UTC",
+  "theme": "Infectious Disease Transmission",
+  "items": [
+    {
+      "itemId": "epidemic-transmission-routes-4",
+      "label": "Malaria (Anopheles)"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-8",
+      "label": "Measles (Airborne)"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-1",
+      "label": "Tetanus (Wound Spores)"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-6",
+      "label": "Lyme Disease (Ixodes Tick)"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-10",
+      "label": "Pertussis (Whooping Cough)"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-2",
+      "label": "Cholera"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-7",
+      "label": "Seasonal Influenza"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-5",
+      "label": "Dengue Fever (Aedes)"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-9",
+      "label": "Pulmonary Tuberculosis"
+    },
+    {
+      "itemId": "epidemic-transmission-routes-3",
+      "label": "Typhoid Fever"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Primary transmission route (Direct Contact/Fecal-Oral, Waterborne/Foodborne Enteric, Arthropod Vector-Borne, or Airborne/Respiratory Droplet)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Wound Soil Contact",
+        "capacity": 1,
+        "itemIds": [
+          "epidemic-transmission-routes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Waterborne & Foodborne",
+        "capacity": 2,
+        "itemIds": [
+          "epidemic-transmission-routes-2",
+          "epidemic-transmission-routes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Arthropod Vector-Borne",
+        "capacity": 3,
+        "itemIds": [
+          "epidemic-transmission-routes-4",
+          "epidemic-transmission-routes-5",
+          "epidemic-transmission-routes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Respiratory & Airborne",
+        "capacity": 4,
+        "itemIds": [
+          "epidemic-transmission-routes-7",
+          "epidemic-transmission-routes-8",
+          "epidemic-transmission-routes-9",
+          "epidemic-transmission-routes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by primary transmission route: Direct Skin/Fluid Contact (Tetanus Wound Spores), Waterborne & Foodborne (Cholera, Typhoid Fever), Arthropod Vector-Borne (Malaria Mosquito, Dengue Fever Mosquito, Lyme Disease Tick), and Respiratory Droplet & Airborne (Influenza, Measles Airborne, Pulmonary Tuberculosis, Pertussis Whooping Cough).",
+  "sources": [
+    {
+      "title": "WHO & CDC: Disease Transmission Routes",
+      "url": "https://www.who.int/health-topics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

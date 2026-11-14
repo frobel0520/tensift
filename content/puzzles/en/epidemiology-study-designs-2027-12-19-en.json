@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "epidemiology-study-designs-2027-12-19-en",
+  "puzzleFamilyId": "epidemiology-study-designs-001",
+  "locale": "en",
+  "publishDate": "2027-12-19",
+  "timezone": "UTC",
+  "theme": "Clinical & Epidemiology Studies",
+  "items": [
+    {
+      "itemId": "epidemiology-study-designs-4",
+      "label": "Prospective Cohort Study"
+    },
+    {
+      "itemId": "epidemiology-study-designs-8",
+      "label": "Double-Blind Phase III Trial"
+    },
+    {
+      "itemId": "epidemiology-study-designs-1",
+      "label": "Clinical Case Report"
+    },
+    {
+      "itemId": "epidemiology-study-designs-6",
+      "label": "Retrospective Cohort Study"
+    },
+    {
+      "itemId": "epidemiology-study-designs-10",
+      "label": "Cluster-Randomized Trial"
+    },
+    {
+      "itemId": "epidemiology-study-designs-2",
+      "label": "Cross-Sectional Survey"
+    },
+    {
+      "itemId": "epidemiology-study-designs-7",
+      "label": "Randomized Controlled Trial (RCT)"
+    },
+    {
+      "itemId": "epidemiology-study-designs-5",
+      "label": "Case-Control Study"
+    },
+    {
+      "itemId": "epidemiology-study-designs-9",
+      "label": "Crossover Clinical Trial"
+    },
+    {
+      "itemId": "epidemiology-study-designs-3",
+      "label": "Ecological Population Study"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Study design hierarchy (Case Report, Cross-Sectional & Ecological Descriptive, Analytical Observational, or Interventional Clinical Trials)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Single-Patient Report",
+        "capacity": 1,
+        "itemIds": [
+          "epidemiology-study-designs-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Descriptive Snapshots",
+        "capacity": 2,
+        "itemIds": [
+          "epidemiology-study-designs-2",
+          "epidemiology-study-designs-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Analytical Observational",
+        "capacity": 3,
+        "itemIds": [
+          "epidemiology-study-designs-4",
+          "epidemiology-study-designs-5",
+          "epidemiology-study-designs-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Interventional Randomized Trials",
+        "capacity": 4,
+        "itemIds": [
+          "epidemiology-study-designs-7",
+          "epidemiology-study-designs-8",
+          "epidemiology-study-designs-9",
+          "epidemiology-study-designs-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by evidence design: Single-Patient Observation (Clinical Case Report), Descriptive Population Snapshots (Cross-Sectional Survey, Ecological Correlation Study), Analytical Observational Studies (Prospective Cohort Study, Case-Control Study, Retrospective Cohort Study), and Interventional Experimental Trials (Randomized Controlled Trial RCT, Double-Blind Phase III Trial, Crossover Clinical Trial, Cluster-Randomized Trial).",
+  "sources": [
+    {
+      "title": "CDC: Principles of Epidemiology — Study Designs",
+      "url": "https://www.cdc.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

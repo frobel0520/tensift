@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ghs-hazard-pictograms-2027-12-02-zh-hant",
+  "puzzleFamilyId": "ghs-hazard-pictograms-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-02",
+  "timezone": "UTC",
+  "theme": "GHS 化學品危害圖示分類",
+  "items": [
+    {
+      "itemId": "ghs-hazard-pictograms-4",
+      "label": "火焰（易燃物質）"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-8",
+      "label": "驚嘆號（皮膚／眼睛刺激）"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-1",
+      "label": "枯樹與死魚（水生環境危害）"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-6",
+      "label": "圓圈上火焰（氧化性物質）"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-10",
+      "label": "腐蝕液滴（腐蝕性）"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-2",
+      "label": "高壓氣體鋼瓶圖示"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-7",
+      "label": "骷髏頭與交叉骨（急毒性）"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-5",
+      "label": "爆炸彈（爆炸物）"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-9",
+      "label": "人體星芒（致癌／致突變）"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-3",
+      "label": "低溫液化氣體鋼瓶標示"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各 GHS 菱形警示圖示所代表的危害類別（環境水生危害、高壓氣體、物理性燃燒爆炸危害或人體健康毒性危害）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "環境生態危害",
+        "capacity": 1,
+        "itemIds": [
+          "ghs-hazard-pictograms-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "高壓氣體危害",
+        "capacity": 2,
+        "itemIds": [
+          "ghs-hazard-pictograms-2",
+          "ghs-hazard-pictograms-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "易燃、氧化與爆炸物理危害",
+        "capacity": 3,
+        "itemIds": [
+          "ghs-hazard-pictograms-4",
+          "ghs-hazard-pictograms-5",
+          "ghs-hazard-pictograms-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "人體健康毒性與腐蝕危害",
+        "capacity": 4,
+        "itemIds": [
+          "ghs-hazard-pictograms-7",
+          "ghs-hazard-pictograms-8",
+          "ghs-hazard-pictograms-9",
+          "ghs-hazard-pictograms-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依聯合國 GHS 危害分類：環境危害（枯樹死魚圖示）、高壓氣體（氣體鋼瓶圖示）、物理性燃燒爆炸危害（火焰、爆炸彈、圓圈上火焰氧化劑）與人體健康及腐蝕危害（骷髏頭急毒性、驚嘆號刺激性、人體星芒慢性危害、腐蝕液滴）。",
+  "sources": [
+    {
+      "title": "UNECE: GHS Hazard Pictograms",
+      "url": "https://unece.org/transport/dangerous-goods/ghs-pictograms",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

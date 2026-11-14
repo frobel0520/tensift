@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "laundry-care-symbols-001",
+  "theme": "ISO Textile Care Symbols",
+  "publishDate": "2027-12-01",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "laundry-care-symbols-1",
+        "rivalGroupId": "group-4",
+        "risk": "The tumble-dry symbol also features a circle.",
+        "resolution": "A standalone circle represents professional dry cleaning (group-1), whereas a circle inscribed inside a square denotes tumble drying (group-4)."
+      },
+      {
+        "itemId": "laundry-care-symbols-4",
+        "rivalGroupId": "group-4",
+        "risk": "Ironing dots use the same 1/2/3-dot scale as tumble-dry heat.",
+        "resolution": "The iron silhouette specifically governs pressing/ironing temperature (group-3), not washing or drying (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

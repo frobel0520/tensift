@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ghs-hazard-pictograms-2027-12-02-en",
+  "puzzleFamilyId": "ghs-hazard-pictograms-001",
+  "locale": "en",
+  "publishDate": "2027-12-02",
+  "timezone": "UTC",
+  "theme": "GHS Chemical Hazard Pictograms",
+  "items": [
+    {
+      "itemId": "ghs-hazard-pictograms-4",
+      "label": "Flame (Flammable)"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-8",
+      "label": "Exclamation Mark (Irritant)"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-1",
+      "label": "Dead Tree & Fish (Aquatic)"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-6",
+      "label": "Flame Over Circle (Oxidizer)"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-10",
+      "label": "Corrosion (Hand & Metal)"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-2",
+      "label": "Gas Cylinder"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-7",
+      "label": "Skull and Crossbones"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-5",
+      "label": "Exploding Bomb (Explosive)"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-9",
+      "label": "Health Hazard Silhouette"
+    },
+    {
+      "itemId": "ghs-hazard-pictograms-3",
+      "label": "Cryogenic Liquefied Gas"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "GHS hazard class (Environmental Aquatic Hazard, Compressed Gas Cylinder, Physical Fire/Explosion Hazards, or Human Health/Toxicity Hazards)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Environmental Hazard",
+        "capacity": 1,
+        "itemIds": [
+          "ghs-hazard-pictograms-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Compressed Gas",
+        "capacity": 2,
+        "itemIds": [
+          "ghs-hazard-pictograms-2",
+          "ghs-hazard-pictograms-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Fire, Oxidizer & Explosion",
+        "capacity": 3,
+        "itemIds": [
+          "ghs-hazard-pictograms-4",
+          "ghs-hazard-pictograms-5",
+          "ghs-hazard-pictograms-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Human Health & Corrosion",
+        "capacity": 4,
+        "itemIds": [
+          "ghs-hazard-pictograms-7",
+          "ghs-hazard-pictograms-8",
+          "ghs-hazard-pictograms-9",
+          "ghs-hazard-pictograms-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by GHS hazard class: Environmental (Dead Tree & Fish Aquatic Hazard), Pressurized Gas (Gas Cylinder), Physical Combustion/Oxidation (Flame, Exploding Bomb, Flame Over Circle Oxidizer), and Health & Toxicity (Skull & Crossbones, Exclamation Mark Irritant, Health Hazard Silhouette, Skin/Metal Corrosion).",
+  "sources": [
+    {
+      "title": "UNECE: GHS Hazard Pictograms",
+      "url": "https://unece.org/transport/dangerous-goods/ghs-pictograms",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

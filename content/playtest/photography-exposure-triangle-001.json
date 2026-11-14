@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "photography-exposure-triangle-001",
+  "theme": "Photography Camera Controls",
+  "publishDate": "2027-12-26",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "photography-exposure-triangle-1",
+        "rivalGroupId": "group-4",
+        "risk": "ISO forms part of the exposure triangle alongside aperture and shutter speed.",
+        "resolution": "ISO controls electronic sensor signal amplification (group-1), whereas shutter speed and metering govern body timing and light reading (group-4)."
+      },
+      {
+        "itemId": "photography-exposure-triangle-3",
+        "rivalGroupId": "group-3",
+        "risk": "An ND filter reduces light entering the lens like closing the aperture.",
+        "resolution": "An ND filter is an external glass attachment (group-2) that leaves optical depth of field unchanged, unlike the lens iris aperture (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

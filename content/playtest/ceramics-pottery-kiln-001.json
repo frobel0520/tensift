@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "ceramics-pottery-kiln-001",
+  "theme": "Ceramics & Pottery Firing Grades",
+  "publishDate": "2027-12-18",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "ceramics-pottery-kiln-8",
+        "rivalGroupId": "group-3",
+        "risk": "Bone china is fired slightly lower than hard-paste kaolin porcelain.",
+        "resolution": "Bone china achieves full vitrification and high translucency (group-4), unlike opaque stoneware (group-3)."
+      },
+      {
+        "itemId": "ceramics-pottery-kiln-1",
+        "rivalGroupId": "group-2",
+        "risk": "Greenware is often made from low-fire earthenware clay.",
+        "resolution": "Greenware has not yet undergone bisque firing in a kiln (group-1), unlike fired earthenware (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

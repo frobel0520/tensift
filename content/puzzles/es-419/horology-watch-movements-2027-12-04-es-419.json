@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "horology-watch-movements-2027-12-04-es-419",
+  "puzzleFamilyId": "horology-watch-movements-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-04",
+  "timezone": "UTC",
+  "theme": "Mecanismos de relojería",
+  "items": [
+    {
+      "itemId": "horology-watch-movements-4",
+      "label": "Reloj de cuarzo a pila"
+    },
+    {
+      "itemId": "horology-watch-movements-8",
+      "label": "Reloj mecánico automático"
+    },
+    {
+      "itemId": "horology-watch-movements-1",
+      "label": "Reloj atómico de cesio-133"
+    },
+    {
+      "itemId": "horology-watch-movements-6",
+      "label": "Reloj de cuarzo radiocontrolado"
+    },
+    {
+      "itemId": "horology-watch-movements-10",
+      "label": "Escape coaxial mecánico"
+    },
+    {
+      "itemId": "horology-watch-movements-2",
+      "label": "Reloj de péndulo largo"
+    },
+    {
+      "itemId": "horology-watch-movements-7",
+      "label": "Reloj mecánico de cuerda manual"
+    },
+    {
+      "itemId": "horology-watch-movements-5",
+      "label": "Reloj de cuarzo solar"
+    },
+    {
+      "itemId": "horology-watch-movements-9",
+      "label": "Reloj con tourbillon"
+    },
+    {
+      "itemId": "horology-watch-movements-3",
+      "label": "Reloj de péndulo de torsión"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Principio oscilador de cada mecanismo horario",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Transición atómica",
+        "capacity": 1,
+        "itemIds": [
+          "horology-watch-movements-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Relojes de péndulo",
+        "capacity": 2,
+        "itemIds": [
+          "horology-watch-movements-2",
+          "horology-watch-movements-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Oscilador de cristal de cuarzo",
+        "capacity": 3,
+        "itemIds": [
+          "horology-watch-movements-4",
+          "horology-watch-movements-5",
+          "horology-watch-movements-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Relojes mecánicos de volante",
+        "capacity": 4,
+        "itemIds": [
+          "horology-watch-movements-7",
+          "horology-watch-movements-8",
+          "horology-watch-movements-9",
+          "horology-watch-movements-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por oscilador: transición atómica (reloj atómico de cesio), péndulo gravitacional (reloj de péndulo de pie, reloj de péndulo de torsión), cristal de cuarzo (cuarzo analógico 32,768 Hz, cuarzo solar, cuarzo radiocontrolado) y volante mecánico (cuerda manual, automático con rotor, tourbillon, escape coaxial).",
+  "sources": [
+    {
+      "title": "BIPM & Federation of the Swiss Watch Industry",
+      "url": "https://www.fhs.swiss/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

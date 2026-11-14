@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "pharmacology-drug-classes-2027-12-08-zh-hant",
+  "puzzleFamilyId": "pharmacology-drug-classes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-08",
+  "timezone": "UTC",
+  "theme": "臨床藥物作用機轉分類",
+  "items": [
+    {
+      "itemId": "pharmacology-drug-classes-4",
+      "label": "布洛芬（Ibuprofen）"
+    },
+    {
+      "itemId": "pharmacology-drug-classes-8",
+      "label": "青黴素 G（盤尼西林）"
+    },
+    {
+      "itemId": "pharmacology-drug-classes-1",
+      "label": "人體胰島素"
+    },
+    {
+      "itemId": "pharmacology-drug-classes-6",
+      "label": "那普洛仙（Naproxen）"
+    },
+    {
+      "itemId": "pharmacology-drug-classes-10",
+      "label": "頭孢氨苄（Cephalexin）"
+    },
+    {
+      "itemId": "pharmacology-drug-classes-2",
+      "label": "華法林（Warfarin）"
+    },
+    {
+      "itemId": "pharmacology-drug-classes-7",
+      "label": "安莫西林（Amoxicillin）"
+    },
+    {
+      "itemId": "pharmacology-drug-classes-5",
+      "label": "乙醯胺酚（Paracetamol）"
+    },
+    {
+      "itemId": "pharmacology-drug-classes-9",
+      "label": "阿奇黴素（Azithromycin）"
+    },
+    {
+      "itemId": "pharmacology-drug-classes-3",
+      "label": "肝素（Heparin）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各常用臨床藥物的藥理類別（胰島素代謝荷爾蒙、抗凝血劑、止痛解熱消炎藥或抗生素抗菌藥）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "代謝荷爾蒙製劑",
+        "capacity": 1,
+        "itemIds": [
+          "pharmacology-drug-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "抗凝血劑",
+        "capacity": 2,
+        "itemIds": [
+          "pharmacology-drug-classes-2",
+          "pharmacology-drug-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "止痛解熱與消炎藥",
+        "capacity": 3,
+        "itemIds": [
+          "pharmacology-drug-classes-4",
+          "pharmacology-drug-classes-5",
+          "pharmacology-drug-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "抗菌抗生素",
+        "capacity": 4,
+        "itemIds": [
+          "pharmacology-drug-classes-7",
+          "pharmacology-drug-classes-8",
+          "pharmacology-drug-classes-9",
+          "pharmacology-drug-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依藥理分類：代謝荷爾蒙（基因重組人胰島素）、抗凝血劑（華法林 Warfarin、肝素 Heparin）、止痛退燒消炎藥（布洛芬 Ibuprofen、乙醯胺酚／普拿疼、那普洛仙 Naproxen）與抗生素（安莫西林 Amoxicillin、盤尼西林 G、阿奇黴素 Azithromycin、頭孢氨苄 Cephalexin）。",
+  "sources": [
+    {
+      "title": "WHO Model List of Essential Medicines",
+      "url": "https://www.who.int/groups/expert-committee-on-selection-and-use-of-essential-medicines/essential-medicines-lists",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

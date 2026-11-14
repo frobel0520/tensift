@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "first-aid-triage-priorities-001",
+  "theme": "Emergency First Aid & Triage",
+  "publishDate": "2027-12-28",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "first-aid-triage-priorities-1",
+        "rivalGroupId": "group-2",
+        "risk": "AEDs are used during CPR alongside rescue breathing.",
+        "resolution": "An AED delivers an electrical shock to restore cardiac rhythm (group-1), distinct from airway/ventilation maneuvers (group-2)."
+      },
+      {
+        "itemId": "first-aid-triage-priorities-5",
+        "rivalGroupId": "group-4",
+        "risk": "Tourniquets are applied to life-threatening Red-tag casualties.",
+        "resolution": "A tourniquet is a physical hemorrhage-control device (group-3), not a mass-casualty triage priority tag (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

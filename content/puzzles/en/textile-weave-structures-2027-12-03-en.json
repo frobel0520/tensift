@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "textile-weave-structures-2027-12-03-en",
+  "puzzleFamilyId": "textile-weave-structures-001",
+  "locale": "en",
+  "publishDate": "2027-12-03",
+  "timezone": "UTC",
+  "theme": "Textile Weaves & Knits",
+  "items": [
+    {
+      "itemId": "textile-weave-structures-4",
+      "label": "Single Jersey Knit"
+    },
+    {
+      "itemId": "textile-weave-structures-8",
+      "label": "Denim Twill Weave"
+    },
+    {
+      "itemId": "textile-weave-structures-1",
+      "label": "Pressed Wool Felt"
+    },
+    {
+      "itemId": "textile-weave-structures-6",
+      "label": "Knitted French Terry"
+    },
+    {
+      "itemId": "textile-weave-structures-10",
+      "label": "Herringbone Twill"
+    },
+    {
+      "itemId": "textile-weave-structures-2",
+      "label": "Cut-Pile Velvet"
+    },
+    {
+      "itemId": "textile-weave-structures-7",
+      "label": "Plain (Tabby) Weave"
+    },
+    {
+      "itemId": "textile-weave-structures-5",
+      "label": "1x1 Rib Knit"
+    },
+    {
+      "itemId": "textile-weave-structures-9",
+      "label": "Satin Weave"
+    },
+    {
+      "itemId": "textile-weave-structures-3",
+      "label": "Woven Terrycloth"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Fabric construction class (Non-Woven Felt, Pile Weaves, Knitted Loop Fabrics, or Basic Loom-Woven Structures)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Non-Woven Matting",
+        "capacity": 1,
+        "itemIds": [
+          "textile-weave-structures-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Raised Pile Weaves",
+        "capacity": 2,
+        "itemIds": [
+          "textile-weave-structures-2",
+          "textile-weave-structures-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Interlocking Loop Knits",
+        "capacity": 3,
+        "itemIds": [
+          "textile-weave-structures-4",
+          "textile-weave-structures-5",
+          "textile-weave-structures-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Flat Loom Weaves",
+        "capacity": 4,
+        "itemIds": [
+          "textile-weave-structures-7",
+          "textile-weave-structures-8",
+          "textile-weave-structures-9",
+          "textile-weave-structures-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by textile construction: Non-Woven Matting (Pressed Wool Felt), Pile-Loop Fabrics (Velvet, Terrycloth), Interlocking Loop Knits (Jersey Knit, Rib Knit, French Terry), and Shuttle-Loom Woven Weaves (Plain Weave, Denim Twill Weave, Satin Weave, Herringbone Twill).",
+  "sources": [
+    {
+      "title": "ISO 8388 & Textile Institute",
+      "url": "https://www.iso.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

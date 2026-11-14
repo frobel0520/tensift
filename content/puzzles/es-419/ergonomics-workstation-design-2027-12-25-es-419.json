@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ergonomics-workstation-design-2027-12-25-es-419",
+  "puzzleFamilyId": "ergonomics-workstation-design-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-25",
+  "timezone": "UTC",
+  "theme": "Ergonomía y factores humanos",
+  "items": [
+    {
+      "itemId": "ergonomics-workstation-design-4",
+      "label": "Postura neutra de muñeca"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-8",
+      "label": "Control acústico ambiental"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-1",
+      "label": "Envolvente de alcance (percentil 95)"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-6",
+      "label": "Tapete antifatiga"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-10",
+      "label": "Tasa de ventilación interior"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-2",
+      "label": "Fatiga de alarmas"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-7",
+      "label": "Iluminación sin deslumbramiento"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-5",
+      "label": "Soporte lumbar ajustable"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-9",
+      "label": "Confort térmico"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-3",
+      "label": "Compatibilidad control-pantalla"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Dominio ergonómico de cada factor laboral",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Antropometría",
+        "capacity": 1,
+        "itemIds": [
+          "ergonomics-workstation-design-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Ergonomía cognitiva",
+        "capacity": 2,
+        "itemIds": [
+          "ergonomics-workstation-design-2",
+          "ergonomics-workstation-design-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Biomecánica física",
+        "capacity": 3,
+        "itemIds": [
+          "ergonomics-workstation-design-4",
+          "ergonomics-workstation-design-5",
+          "ergonomics-workstation-design-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Factores ambientales",
+        "capacity": 4,
+        "itemIds": [
+          "ergonomics-workstation-design-7",
+          "ergonomics-workstation-design-8",
+          "ergonomics-workstation-design-9",
+          "ergonomics-workstation-design-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por dominio ergonómico: antropometría (alcance del percentil 95), ergonomía cognitiva (fatiga de alarmas, compatibilidad control-pantalla), biomecánica física (postura neutra de muñeca, soporte lumbar, tapete antifatiga) y factores ambientales (iluminación sin deslumbramiento, control acústico, confort térmico, ventilación).",
+  "sources": [
+    {
+      "title": "IEA: International Ergonomics Association",
+      "url": "https://iea.cc/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

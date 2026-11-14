@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "cardiology-ecg-diagnostics-001",
+  "theme": "Cardiac Anatomy & ECG Features",
+  "publishDate": "2027-12-22",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "cardiology-ecg-diagnostics-1",
+        "rivalGroupId": "group-4",
+        "risk": "The SA node initiates the electrical impulse seen on an ECG.",
+        "resolution": "The SA node is a physical anatomical cluster of pacemaker cells in the right atrium (group-1), not an ECG voltage deflection (group-4)."
+      },
+      {
+        "itemId": "cardiology-ecg-diagnostics-4",
+        "rivalGroupId": "group-2",
+        "risk": "The mitral valve separates the left atrium and left ventricle.",
+        "resolution": "The mitral valve is a one-way leaflet valve (group-3), not a pumping chamber (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

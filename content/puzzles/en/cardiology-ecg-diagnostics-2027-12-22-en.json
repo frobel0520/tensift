@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cardiology-ecg-diagnostics-2027-12-22-en",
+  "puzzleFamilyId": "cardiology-ecg-diagnostics-001",
+  "locale": "en",
+  "publishDate": "2027-12-22",
+  "timezone": "UTC",
+  "theme": "Cardiac Anatomy & ECG Features",
+  "items": [
+    {
+      "itemId": "cardiology-ecg-diagnostics-4",
+      "label": "Mitral (Bicuspid) Valve"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-8",
+      "label": "QRS Complex"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-1",
+      "label": "Sinoatrial (SA) Node"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-6",
+      "label": "Aortic Semilunar Valve"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-10",
+      "label": "PR Interval"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-2",
+      "label": "Right Atrium"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-7",
+      "label": "P-Wave"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-5",
+      "label": "Tricuspid Valve"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-9",
+      "label": "T-Wave"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-3",
+      "label": "Left Ventricle"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cardiac/ECG category (Pacemaker SA Node, Heart Chambers, Heart Valves, or ECG Waveform Deflections)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Natural Cardiac Pacemaker",
+        "capacity": 1,
+        "itemIds": [
+          "cardiology-ecg-diagnostics-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Heart Chambers",
+        "capacity": 2,
+        "itemIds": [
+          "cardiology-ecg-diagnostics-2",
+          "cardiology-ecg-diagnostics-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Heart Valves",
+        "capacity": 3,
+        "itemIds": [
+          "cardiology-ecg-diagnostics-4",
+          "cardiology-ecg-diagnostics-5",
+          "cardiology-ecg-diagnostics-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "ECG Waveform Components",
+        "capacity": 4,
+        "itemIds": [
+          "cardiology-ecg-diagnostics-7",
+          "cardiology-ecg-diagnostics-8",
+          "cardiology-ecg-diagnostics-9",
+          "cardiology-ecg-diagnostics-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by cardiac category: Primary Pacemaker (Sinoatrial SA Node), Heart Chambers (Right Atrium, Left Ventricle), Heart Valves (Mitral Bicuspid Valve, Tricuspid Valve, Aortic Semilunar Valve), and ECG Waveform Components (P-Wave Atrial Depolarization, QRS Ventricular Complex, T-Wave Repolarization, PR Interval).",
+  "sources": [
+    {
+      "title": "NIH NHLBI: How the Heart Works",
+      "url": "https://www.nhlbi.nih.gov/health/heart/anatomy",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

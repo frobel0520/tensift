@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "personal-protective-equipment-2027-12-20-zh-hant",
+  "puzzleFamilyId": "personal-protective-equipment-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-20",
+  "timezone": "UTC",
+  "theme": "職業安全個人防護具（PPE）",
+  "items": [
+    {
+      "itemId": "personal-protective-equipment-4",
+      "label": "N95 顆粒物防護口罩"
+    },
+    {
+      "itemId": "personal-protective-equipment-8",
+      "label": "鋼頭安全鞋"
+    },
+    {
+      "itemId": "personal-protective-equipment-1",
+      "label": "全身式防墜落安全帶"
+    },
+    {
+      "itemId": "personal-protective-equipment-6",
+      "label": "電焊防護面罩"
+    },
+    {
+      "itemId": "personal-protective-equipment-10",
+      "label": "工業絕緣安全帽"
+    },
+    {
+      "itemId": "personal-protective-equipment-2",
+      "label": "泡棉防音耳塞"
+    },
+    {
+      "itemId": "personal-protective-equipment-7",
+      "label": "防割工作手套"
+    },
+    {
+      "itemId": "personal-protective-equipment-5",
+      "label": "防化學噴濺護目鏡"
+    },
+    {
+      "itemId": "personal-protective-equipment-9",
+      "label": "化學防護連身衣"
+    },
+    {
+      "itemId": "personal-protective-equipment-3",
+      "label": "全罩式防音耳罩"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各個人防護具的防護身體部位與功能（高空防墜安全帶、聽力防護、呼吸與眼面防護或手足軀幹防護）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "高空防墜安全帶",
+        "capacity": 1,
+        "itemIds": [
+          "personal-protective-equipment-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "聽力防護具",
+        "capacity": 2,
+        "itemIds": [
+          "personal-protective-equipment-2",
+          "personal-protective-equipment-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "呼吸、眼部與面部防護",
+        "capacity": 3,
+        "itemIds": [
+          "personal-protective-equipment-4",
+          "personal-protective-equipment-5",
+          "personal-protective-equipment-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "頭、手、足與軀幹防護",
+        "capacity": 4,
+        "itemIds": [
+          "personal-protective-equipment-7",
+          "personal-protective-equipment-8",
+          "personal-protective-equipment-9",
+          "personal-protective-equipment-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依防護部位分類：高空防墜（全身式防墜安全帶）、聽力防護（隔音耳塞、防音耳罩）、眼面與呼吸防護（N95 防護口罩、防化學噴濺護目鏡、電焊防護面罩）與頭手足軀幹防護（防割手套、鋼頭安全鞋、化學防護連身衣、工地安全帽）。",
+  "sources": [
+    {
+      "title": "OSHA: Personal Protective Equipment",
+      "url": "https://www.osha.gov/personal-protective-equipment",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

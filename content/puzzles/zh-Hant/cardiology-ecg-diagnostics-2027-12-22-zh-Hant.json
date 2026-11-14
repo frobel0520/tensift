@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cardiology-ecg-diagnostics-2027-12-22-zh-hant",
+  "puzzleFamilyId": "cardiology-ecg-diagnostics-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-22",
+  "timezone": "UTC",
+  "theme": "心臟解剖與心電圖波形",
+  "items": [
+    {
+      "itemId": "cardiology-ecg-diagnostics-4",
+      "label": "二尖瓣（僧帽瓣）"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-8",
+      "label": "QRS 複合波（心室去極化）"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-1",
+      "label": "竇房結（SA Node）"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-6",
+      "label": "主動脈瓣"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-10",
+      "label": "PR 間期"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-2",
+      "label": "右心房"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-7",
+      "label": "P 波（心房去極化）"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-5",
+      "label": "三尖瓣"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-9",
+      "label": "T 波（心室再極化）"
+    },
+    {
+      "itemId": "cardiology-ecg-diagnostics-3",
+      "label": "左心室"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "心臟生理與心電圖術語的類別（節律點竇房結、心臟腔室、心臟瓣膜或心電圖波形）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "心臟天然節律點",
+        "capacity": 1,
+        "itemIds": [
+          "cardiology-ecg-diagnostics-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "心臟腔室",
+        "capacity": 2,
+        "itemIds": [
+          "cardiology-ecg-diagnostics-2",
+          "cardiology-ecg-diagnostics-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "心臟瓣膜",
+        "capacity": 3,
+        "itemIds": [
+          "cardiology-ecg-diagnostics-4",
+          "cardiology-ecg-diagnostics-5",
+          "cardiology-ecg-diagnostics-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "心電圖（ECG）波形",
+        "capacity": 4,
+        "itemIds": [
+          "cardiology-ecg-diagnostics-7",
+          "cardiology-ecg-diagnostics-8",
+          "cardiology-ecg-diagnostics-9",
+          "cardiology-ecg-diagnostics-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依心臟生理分類：主要節律點（竇房結 SA Node）、心臟腔室（右心房、左心室）、心臟瓣膜（二尖瓣／僧帽瓣、三尖瓣、主動脈半月瓣）與心電圖波形（P 波心房去極化、QRS 複合波、T 波心室再極化、PR 間期）。",
+  "sources": [
+    {
+      "title": "NIH NHLBI: How the Heart Works",
+      "url": "https://www.nhlbi.nih.gov/health/heart/anatomy",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

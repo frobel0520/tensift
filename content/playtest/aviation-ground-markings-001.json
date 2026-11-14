@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "aviation-ground-markings-001",
+  "theme": "Airport Airfield Surfaces & Signs",
+  "publishDate": "2027-12-29",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "aviation-ground-markings-5",
+        "rivalGroupId": "group-4",
+        "risk": "The Runway Holding Position Sign has the word Runway in it.",
+        "resolution": "Holding position signs and markings sit on the taxiway to prevent aircraft from entering an active runway (group-3)."
+      },
+      {
+        "itemId": "aviation-ground-markings-10",
+        "rivalGroupId": "group-3",
+        "risk": "PAPI lights sit beside the airfield pavement.",
+        "resolution": "PAPI lights provide vertical glide-slope guidance to landing aircraft aligned with the runway (group-4), not taxiway edge guidance (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "philosophy-major-branches-001",
+  "theme": "Core Branches of Philosophy",
+  "publishDate": "2027-12-11",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "philosophy-major-branches-6",
+        "rivalGroupId": "group-2",
+        "risk": "Skeptics question logical proofs.",
+        "resolution": "Philosophical skepticism investigates the limits and justification of knowledge (group-3, Epistemology), not formal inference rules (group-2)."
+      },
+      {
+        "itemId": "philosophy-major-branches-1",
+        "rivalGroupId": "group-4",
+        "risk": "Plato linked beauty and the moral good.",
+        "resolution": "Aesthetics is the dedicated branch studying beauty, taste, and art (group-1), distinct from moral/normative ethics (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

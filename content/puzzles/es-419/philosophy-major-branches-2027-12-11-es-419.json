@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "philosophy-major-branches-2027-12-11-es-419",
+  "puzzleFamilyId": "philosophy-major-branches-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-11",
+  "timezone": "UTC",
+  "theme": "Ramas principales de la filosofía",
+  "items": [
+    {
+      "itemId": "philosophy-major-branches-4",
+      "label": "Racionalismo"
+    },
+    {
+      "itemId": "philosophy-major-branches-8",
+      "label": "Deontología kantiana"
+    },
+    {
+      "itemId": "philosophy-major-branches-1",
+      "label": "Filosofía del arte y la belleza"
+    },
+    {
+      "itemId": "philosophy-major-branches-6",
+      "label": "Escepticismo filosófico"
+    },
+    {
+      "itemId": "philosophy-major-branches-10",
+      "label": "Contractualismo moral"
+    },
+    {
+      "itemId": "philosophy-major-branches-2",
+      "label": "Silogismo deductivo"
+    },
+    {
+      "itemId": "philosophy-major-branches-7",
+      "label": "Utilitarismo"
+    },
+    {
+      "itemId": "philosophy-major-branches-5",
+      "label": "Empirismo"
+    },
+    {
+      "itemId": "philosophy-major-branches-9",
+      "label": "Ética de la virtud"
+    },
+    {
+      "itemId": "philosophy-major-branches-3",
+      "label": "Inferencia inductiva"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Rama filosófica a la que pertenece cada concepto",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Estética",
+        "capacity": 1,
+        "itemIds": [
+          "philosophy-major-branches-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Lógica y razonamiento",
+        "capacity": 2,
+        "itemIds": [
+          "philosophy-major-branches-2",
+          "philosophy-major-branches-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Epistemología",
+        "capacity": 3,
+        "itemIds": [
+          "philosophy-major-branches-4",
+          "philosophy-major-branches-5",
+          "philosophy-major-branches-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Ética normativa",
+        "capacity": 4,
+        "itemIds": [
+          "philosophy-major-branches-7",
+          "philosophy-major-branches-8",
+          "philosophy-major-branches-9",
+          "philosophy-major-branches-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por rama filosófica: estética (filosofía del arte y la belleza), lógica (silogismo deductivo, inferencia inductiva), epistemología (racionalismo, empirismo, escepticismo filosófico) y ética (utilitarismo, deontología kantiana, ética de la virtud, ética del contrato social).",
+  "sources": [
+    {
+      "title": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

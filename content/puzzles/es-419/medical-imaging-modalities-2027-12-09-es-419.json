@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "medical-imaging-modalities-2027-12-09-es-419",
+  "puzzleFamilyId": "medical-imaging-modalities-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-09",
+  "timezone": "UTC",
+  "theme": "Modalidades de imagenología médica",
+  "items": [
+    {
+      "itemId": "medical-imaging-modalities-4",
+      "label": "Ecografía Doppler"
+    },
+    {
+      "itemId": "medical-imaging-modalities-8",
+      "label": "Tomografía computarizada (TC)"
+    },
+    {
+      "itemId": "medical-imaging-modalities-1",
+      "label": "Endoscopia óptica flexible"
+    },
+    {
+      "itemId": "medical-imaging-modalities-6",
+      "label": "Resonancia funcional (fMRI)"
+    },
+    {
+      "itemId": "medical-imaging-modalities-10",
+      "label": "Radiografía dental panorámica"
+    },
+    {
+      "itemId": "medical-imaging-modalities-2",
+      "label": "Tomografía PET"
+    },
+    {
+      "itemId": "medical-imaging-modalities-7",
+      "label": "Radiografía de tórax"
+    },
+    {
+      "itemId": "medical-imaging-modalities-5",
+      "label": "Resonancia magnética (MRI)"
+    },
+    {
+      "itemId": "medical-imaging-modalities-9",
+      "label": "Mamografía"
+    },
+    {
+      "itemId": "medical-imaging-modalities-3",
+      "label": "Tomografía SPECT"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Principio físico de cada técnica de diagnóstico por imagen",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Óptica directa",
+        "capacity": 1,
+        "itemIds": [
+          "medical-imaging-modalities-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Medicina nuclear (trazadores)",
+        "capacity": 2,
+        "itemIds": [
+          "medical-imaging-modalities-2",
+          "medical-imaging-modalities-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Ultrasonido y resonancia magnética",
+        "capacity": 3,
+        "itemIds": [
+          "medical-imaging-modalities-4",
+          "medical-imaging-modalities-5",
+          "medical-imaging-modalities-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Radiación ionizante (rayos X)",
+        "capacity": 4,
+        "itemIds": [
+          "medical-imaging-modalities-7",
+          "medical-imaging-modalities-8",
+          "medical-imaging-modalities-9",
+          "medical-imaging-modalities-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por física de imagen: óptica directa (endoscopia flexible), medicina nuclear (PET, SPECT), no ionizante por sonido/magnetismo (ecografía Doppler, RM funcional fMRI, resonancia magnética MRI) y radiación ionizante por rayos X (radiografía de tórax, tomografía computarizada TC, mamografía, radiografía dental).",
+  "sources": [
+    {
+      "title": "WHO: Diagnostic Imaging Modalities",
+      "url": "https://www.who.int/health-topics/diagnostic-imaging",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

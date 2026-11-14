@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ergonomics-workstation-design-2027-12-25-zh-hant",
+  "puzzleFamilyId": "ergonomics-workstation-design-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-25",
+  "timezone": "UTC",
+  "theme": "人因工程與職場設計",
+  "items": [
+    {
+      "itemId": "ergonomics-workstation-design-4",
+      "label": "手腕中立自然姿勢"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-8",
+      "label": "室內吸音降噪控制"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-1",
+      "label": "第 95 百分位伸及範圍"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-6",
+      "label": "站姿抗疲勞減壓墊"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-10",
+      "label": "室內新鮮空氣換氣率"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-2",
+      "label": "操作員警報疲勞"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-7",
+      "label": "無眩光作業照明"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-5",
+      "label": "可調式腰椎支撐"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-9",
+      "label": "熱舒適溫濕度區間"
+    },
+    {
+      "itemId": "ergonomics-workstation-design-3",
+      "label": "控制器與顯示器相容性"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各人因工程設計考量的領域分類（人體計測尺寸、認知人因、生理姿勢負荷或職場環境因子）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "人體計測尺寸設計",
+        "capacity": 1,
+        "itemIds": [
+          "ergonomics-workstation-design-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "認知人因工程",
+        "capacity": 2,
+        "itemIds": [
+          "ergonomics-workstation-design-2",
+          "ergonomics-workstation-design-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "生物力學與姿勢負荷",
+        "capacity": 3,
+        "itemIds": [
+          "ergonomics-workstation-design-4",
+          "ergonomics-workstation-design-5",
+          "ergonomics-workstation-design-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "職場物理環境因子",
+        "capacity": 4,
+        "itemIds": [
+          "ergonomics-workstation-design-7",
+          "ergonomics-workstation-design-8",
+          "ergonomics-workstation-design-9",
+          "ergonomics-workstation-design-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依人因工程領域分類：人體計測（第 95 百分位伸手包絡線）、認知人因（警報疲勞、控制與顯示相容性）、生物力學姿勢（手腕中立姿勢、腰椎支撐、抗疲勞站立墊）與環境因子（無眩光作業照明、室內吸音降噪、熱舒適溫濕度、室內通風換氣）。",
+  "sources": [
+    {
+      "title": "IEA: International Ergonomics Association",
+      "url": "https://iea.cc/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

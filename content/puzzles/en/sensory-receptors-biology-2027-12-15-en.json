@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sensory-receptors-biology-2027-12-15-en",
+  "puzzleFamilyId": "sensory-receptors-biology-001",
+  "locale": "en",
+  "publishDate": "2027-12-15",
+  "timezone": "UTC",
+  "theme": "Human Sensory Receptors",
+  "items": [
+    {
+      "itemId": "sensory-receptors-biology-4",
+      "label": "Cold-Sensitive Thermoreceptor"
+    },
+    {
+      "itemId": "sensory-receptors-biology-8",
+      "label": "Vestibular Otolith Organs"
+    },
+    {
+      "itemId": "sensory-receptors-biology-1",
+      "label": "Retinal Rods & Cones"
+    },
+    {
+      "itemId": "sensory-receptors-biology-6",
+      "label": "Polymodal Pain Nociceptor"
+    },
+    {
+      "itemId": "sensory-receptors-biology-10",
+      "label": "Pacinian Vibration Corpuscles"
+    },
+    {
+      "itemId": "sensory-receptors-biology-2",
+      "label": "Olfactory Receptor Neurons"
+    },
+    {
+      "itemId": "sensory-receptors-biology-7",
+      "label": "Cochlear Hair Cells (Hearing)"
+    },
+    {
+      "itemId": "sensory-receptors-biology-5",
+      "label": "Warmth-Sensitive Thermoreceptor"
+    },
+    {
+      "itemId": "sensory-receptors-biology-9",
+      "label": "Merkel Tactile Discs"
+    },
+    {
+      "itemId": "sensory-receptors-biology-3",
+      "label": "Taste Bud Gustatory Cells"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Primary stimulus modality (Photoreceptor Vision, Chemoreceptors Taste/Smell, Thermoreceptors & Nociceptors, or Mechanoreceptors Touch/Hearing/Balance)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Photoreceptors (Light)",
+        "capacity": 1,
+        "itemIds": [
+          "sensory-receptors-biology-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Chemoreceptors (Taste & Smell)",
+        "capacity": 2,
+        "itemIds": [
+          "sensory-receptors-biology-2",
+          "sensory-receptors-biology-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Thermo- & Nociceptors",
+        "capacity": 3,
+        "itemIds": [
+          "sensory-receptors-biology-4",
+          "sensory-receptors-biology-5",
+          "sensory-receptors-biology-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Mechanoreceptors",
+        "capacity": 4,
+        "itemIds": [
+          "sensory-receptors-biology-7",
+          "sensory-receptors-biology-8",
+          "sensory-receptors-biology-9",
+          "sensory-receptors-biology-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by stimulus modality: Photoreception (Retinal Rods & Cones), Chemoreception (Olfactory Epithelium Neurons, Taste Bud Gustatory Cells), Thermal & Pain Reception (Cold Thermoreceptors, Warmth Thermoreceptors, Mechanical/Thermal Nociceptors), and Mechanoreception (Cochlear Hair Cells, Vestibular Otolith Organs, Merkel Touch Discs, Pacinian Vibration Corpuscles).",
+  "sources": [
+    {
+      "title": "NCBI Bookshelf: Sensory Receptors",
+      "url": "https://www.ncbi.nlm.nih.gov/books/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

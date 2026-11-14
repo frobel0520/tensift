@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ceramics-pottery-kiln-2027-12-18-zh-hant",
+  "puzzleFamilyId": "ceramics-pottery-kiln-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-18",
+  "timezone": "UTC",
+  "theme": "陶瓷器胚體與燒成等級",
+  "items": [
+    {
+      "itemId": "ceramics-pottery-kiln-4",
+      "label": "鹽釉炻器"
+    },
+    {
+      "itemId": "ceramics-pottery-kiln-8",
+      "label": "骨瓷（Bone China）"
+    },
+    {
+      "itemId": "ceramics-pottery-kiln-1",
+      "label": "半乾修坯生坯（Greenware）"
+    },
+    {
+      "itemId": "ceramics-pottery-kiln-6",
+      "label": "耐高溫炻器烤盤"
+    },
+    {
+      "itemId": "ceramics-pottery-kiln-10",
+      "label": "景德鎮青花瓷"
+    },
+    {
+      "itemId": "ceramics-pottery-kiln-2",
+      "label": "紅陶（Terracotta）"
+    },
+    {
+      "itemId": "ceramics-pottery-kiln-7",
+      "label": "高嶺土硬瓷"
+    },
+    {
+      "itemId": "ceramics-pottery-kiln-5",
+      "label": "日本備前燒炻器"
+    },
+    {
+      "itemId": "ceramics-pottery-kiln-9",
+      "label": "龍泉青瓷"
+    },
+    {
+      "itemId": "ceramics-pottery-kiln-3",
+      "label": "錫釉馬約利卡陶器"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各陶瓷製品的坯土與燒結程度（未燒製生坯、低溫多孔陶土、中高溫炻器或高溫半透明瓷器）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "未燒製生坯",
+        "capacity": 1,
+        "itemIds": [
+          "ceramics-pottery-kiln-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "低溫多孔陶器",
+        "capacity": 2,
+        "itemIds": [
+          "ceramics-pottery-kiln-2",
+          "ceramics-pottery-kiln-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "中高溫炻器（Stoneware）",
+        "capacity": 3,
+        "itemIds": [
+          "ceramics-pottery-kiln-4",
+          "ceramics-pottery-kiln-5",
+          "ceramics-pottery-kiln-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "高溫瓷化瓷器",
+        "capacity": 4,
+        "itemIds": [
+          "ceramics-pottery-kiln-7",
+          "ceramics-pottery-kiln-8",
+          "ceramics-pottery-kiln-9",
+          "ceramics-pottery-kiln-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依陶瓷燒結程度分類：未入窯生坯（半乾修坯生坯）、低溫多孔陶器（紅陶 Terracotta、錫釉馬約利卡陶）、中高溫炻器（鹽釉炻器、備前燒炻器、耐高溫炻器烤盤）與完全瓷化高溫瓷器（高嶺土硬瓷、骨瓷、青瓷、景德鎮青花瓷）。",
+  "sources": [
+    {
+      "title": "Britannica: Pottery & Ceramic Firing",
+      "url": "https://www.britannica.com/art/pottery",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

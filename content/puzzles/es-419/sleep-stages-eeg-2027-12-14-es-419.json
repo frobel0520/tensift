@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sleep-stages-eeg-2027-12-14-es-419",
+  "puzzleFamilyId": "sleep-stages-eeg-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-14",
+  "timezone": "UTC",
+  "theme": "Fases del sueño humano",
+  "items": [
+    {
+      "itemId": "sleep-stages-eeg-4",
+      "label": "Fase N1 (transición theta)"
+    },
+    {
+      "itemId": "sleep-stages-eeg-8",
+      "label": "Ondas delta de alta amplitud"
+    },
+    {
+      "itemId": "sleep-stages-eeg-1",
+      "label": "Sueño REM (atonía muscular)"
+    },
+    {
+      "itemId": "sleep-stages-eeg-6",
+      "label": "Complejos K (N2)"
+    },
+    {
+      "itemId": "sleep-stages-eeg-10",
+      "label": "Ventana de sonambulismo N3"
+    },
+    {
+      "itemId": "sleep-stages-eeg-2",
+      "label": "Vigilia relajada (ondas alfa)"
+    },
+    {
+      "itemId": "sleep-stages-eeg-7",
+      "label": "Fase N3 de ondas lentas"
+    },
+    {
+      "itemId": "sleep-stages-eeg-5",
+      "label": "Husos del sueño (N2)"
+    },
+    {
+      "itemId": "sleep-stages-eeg-9",
+      "label": "Pico de hormona de crecimiento"
+    },
+    {
+      "itemId": "sleep-stages-eeg-3",
+      "label": "Vigilia alerta (ondas beta)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría polisomnográfica de cada fase u onda del sueño",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Sueño REM",
+        "capacity": 1,
+        "itemIds": [
+          "sleep-stages-eeg-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Estados de vigilia",
+        "capacity": 2,
+        "itemIds": [
+          "sleep-stages-eeg-2",
+          "sleep-stages-eeg-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Sueño ligero No-REM (N1 y N2)",
+        "capacity": 3,
+        "itemIds": [
+          "sleep-stages-eeg-4",
+          "sleep-stages-eeg-5",
+          "sleep-stages-eeg-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Sueño profundo de ondas lentas (N3)",
+        "capacity": 4,
+        "itemIds": [
+          "sleep-stages-eeg-7",
+          "sleep-stages-eeg-8",
+          "sleep-stages-eeg-9",
+          "sleep-stages-eeg-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por arquitectura del sueño AASM: sueño REM (movimientos oculares rápidos), vigilia (vigilia relajada alfa, vigilia alerta beta), sueño ligero No-REM (fase N1, husos del sueño N2, complejos K N2) y sueño profundo de ondas lentas (fase N3, ondas delta, pico de hormona del crecimiento, ventana de parasomnias lentas).",
+  "sources": [
+    {
+      "title": "NIH NINDS: Brain Basics — Understanding Sleep",
+      "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

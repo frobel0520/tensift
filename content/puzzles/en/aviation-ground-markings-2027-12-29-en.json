@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "aviation-ground-markings-2027-12-29-en",
+  "puzzleFamilyId": "aviation-ground-markings-001",
+  "locale": "en",
+  "publishDate": "2027-12-29",
+  "timezone": "UTC",
+  "theme": "Airport Airfield Surfaces & Signs",
+  "items": [
+    {
+      "itemId": "aviation-ground-markings-4",
+      "label": "Yellow Taxiway Centerline"
+    },
+    {
+      "itemId": "aviation-ground-markings-8",
+      "label": "Runway Aiming Point Markers"
+    },
+    {
+      "itemId": "aviation-ground-markings-1",
+      "label": "ATC Control Tower"
+    },
+    {
+      "itemId": "aviation-ground-markings-6",
+      "label": "Blue Taxiway Edge Lights"
+    },
+    {
+      "itemId": "aviation-ground-markings-10",
+      "label": "PAPI Approach Slope Lights"
+    },
+    {
+      "itemId": "aviation-ground-markings-2",
+      "label": "Aircraft Parking Apron"
+    },
+    {
+      "itemId": "aviation-ground-markings-7",
+      "label": "White Runway Threshold Bars"
+    },
+    {
+      "itemId": "aviation-ground-markings-5",
+      "label": "Runway Holding Position Sign"
+    },
+    {
+      "itemId": "aviation-ground-markings-9",
+      "label": "Displaced Runway Threshold"
+    },
+    {
+      "itemId": "aviation-ground-markings-3",
+      "label": "Passenger Jet Bridge"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "ICAO airfield component (Control Tower ATC, Passenger/Cargo Apron & Gates, Taxiway Markings, or Runway Markings & Lighting)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Air Traffic Control",
+        "capacity": 1,
+        "itemIds": [
+          "aviation-ground-markings-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Apron & Gate Area",
+        "capacity": 2,
+        "itemIds": [
+          "aviation-ground-markings-2",
+          "aviation-ground-markings-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Taxiway System",
+        "capacity": 3,
+        "itemIds": [
+          "aviation-ground-markings-4",
+          "aviation-ground-markings-5",
+          "aviation-ground-markings-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Runway Markings & Approach",
+        "capacity": 4,
+        "itemIds": [
+          "aviation-ground-markings-7",
+          "aviation-ground-markings-8",
+          "aviation-ground-markings-9",
+          "aviation-ground-markings-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by ICAO airfield component: Air Traffic Control (ATC Control Tower), Apron & Gate Area (Aircraft Parking Apron, Jet Boarding Bridge), Taxiway System (Yellow Taxiway Centerline, Runway Holding Position Sign, Taxiway Blue Edge Lights), and Runway System (White Runway Threshold Bars, Runway Aiming Point Markers, Runway Displaced Threshold, PAPI Approach Slope Lights).",
+  "sources": [
+    {
+      "title": "ICAO Annex 14: Aerodromes",
+      "url": "https://www.icao.int/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}
