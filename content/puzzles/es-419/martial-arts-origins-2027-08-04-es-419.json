@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "martial-arts-origins-2027-08-04-es-419",
+  "puzzleFamilyId": "martial-arts-origins-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-04",
+  "timezone": "UTC",
+  "theme": "Artes marciales por país de origen",
+  "items": [
+    {
+      "itemId": "martial-arts-origins-4",
+      "label": "Tai chi"
+    },
+    {
+      "itemId": "martial-arts-origins-8",
+      "label": "Karate"
+    },
+    {
+      "itemId": "martial-arts-origins-1",
+      "label": "Capoeira"
+    },
+    {
+      "itemId": "martial-arts-origins-6",
+      "label": "Kung fu shaolin"
+    },
+    {
+      "itemId": "martial-arts-origins-10",
+      "label": "Aikido japonés"
+    },
+    {
+      "itemId": "martial-arts-origins-2",
+      "label": "Taekwondo"
+    },
+    {
+      "itemId": "martial-arts-origins-7",
+      "label": "Judo"
+    },
+    {
+      "itemId": "martial-arts-origins-5",
+      "label": "Wing chun"
+    },
+    {
+      "itemId": "martial-arts-origins-9",
+      "label": "Kendo"
+    },
+    {
+      "itemId": "martial-arts-origins-3",
+      "label": "Hapkido coreano"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "País de origen de cada arte marcial",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Brasil",
+        "capacity": 1,
+        "itemIds": [
+          "martial-arts-origins-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Corea",
+        "capacity": 2,
+        "itemIds": [
+          "martial-arts-origins-2",
+          "martial-arts-origins-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "China",
+        "capacity": 3,
+        "itemIds": [
+          "martial-arts-origins-4",
+          "martial-arts-origins-5",
+          "martial-arts-origins-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Japón",
+        "capacity": 4,
+        "itemIds": [
+          "martial-arts-origins-7",
+          "martial-arts-origins-8",
+          "martial-arts-origins-9",
+          "martial-arts-origins-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por origen: Brasil (capoeira), Corea (taekwondo, hapkido), China (tai chi, wing chun, kung fu shaolin) y Japón (judo, karate, kendo, aikido).",
+  "sources": [
+    {
+      "title": "UNESCO & IOC Martial Arts Heritage",
+      "url": "https://olympics.com/en/sports/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

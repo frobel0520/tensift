@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "skiing-snowboard-disciplines-2027-08-07-zh-hant",
+  "puzzleFamilyId": "skiing-snowboard-disciplines-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-07",
+  "timezone": "UTC",
+  "theme": "滑雪與單板滑雪項目",
+  "items": [
+    {
+      "itemId": "skiing-snowboard-disciplines-4",
+      "label": "雪上技巧（Moguls）"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-8",
+      "label": "超級大曲道（Super-G）"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-1",
+      "label": "冬季兩項（滑雪＋射擊）"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-6",
+      "label": "障礙技巧（Slopestyle）"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-10",
+      "label": "高山曲道"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-2",
+      "label": "跳台滑雪"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-7",
+      "label": "高山滑降"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-5",
+      "label": "U 型場地技巧（Halfpipe）"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-9",
+      "label": "大曲道"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-3",
+      "label": "北歐兩項"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各雪上競技項目的分科（冬季兩項、跳台與北歐兩項、自由式／單板或高山滑雪）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "冬季兩項",
+        "capacity": 1,
+        "itemIds": [
+          "skiing-snowboard-disciplines-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "跳台滑雪與北歐兩項",
+        "capacity": 2,
+        "itemIds": [
+          "skiing-snowboard-disciplines-2",
+          "skiing-snowboard-disciplines-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "自由式與單板技巧",
+        "capacity": 3,
+        "itemIds": [
+          "skiing-snowboard-disciplines-4",
+          "skiing-snowboard-disciplines-5",
+          "skiing-snowboard-disciplines-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "高山滑雪",
+        "capacity": 4,
+        "itemIds": [
+          "skiing-snowboard-disciplines-7",
+          "skiing-snowboard-disciplines-8",
+          "skiing-snowboard-disciplines-9",
+          "skiing-snowboard-disciplines-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依雪上項目分類：冬季兩項（越野滑雪加步槍射擊）、跳台與北歐兩項（跳台滑雪、北歐兩項）、自由式與單板（雪上技巧、U 型場地、障礙技巧）與高山滑雪（滑降、超級大曲道、大曲道、曲道）。",
+  "sources": [
+    {
+      "title": "FIS: Ski & Snowboard Disciplines",
+      "url": "https://www.fis-ski.com/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

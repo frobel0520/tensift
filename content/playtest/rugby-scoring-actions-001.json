@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "rugby-scoring-actions-001",
+  "theme": "Rugby Union Scoring & Phases",
+  "publishDate": "2027-08-27",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "rugby-scoring-actions-1",
+        "rivalGroupId": "group-2",
+        "risk": "A Try is a scoring play like a Conversion.",
+        "resolution": "A Try is grounded across the try line for 5 points (group-1), whereas Conversions and Penalty Goals are kicks through the posts (group-2)."
+      },
+      {
+        "itemId": "rugby-scoring-actions-7",
+        "rivalGroupId": "group-3",
+        "risk": "Rucks and Scrums both involve packs binding together.",
+        "resolution": "A Scrum is a formal set-piece restart after a stoppage (group-3), whereas a Ruck forms dynamically in open play (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

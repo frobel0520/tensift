@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tennis-scoring-terms-2027-08-14-zh-hant",
+  "puzzleFamilyId": "tennis-scoring-terms-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-14",
+  "timezone": "UTC",
+  "theme": "網球計分與賽制術語",
+  "items": [
+    {
+      "itemId": "tennis-scoring-terms-4",
+      "label": "分（Point）"
+    },
+    {
+      "itemId": "tennis-scoring-terms-8",
+      "label": "十五（15）"
+    },
+    {
+      "itemId": "tennis-scoring-terms-1",
+      "label": "搶七決勝局（Tiebreak）"
+    },
+    {
+      "itemId": "tennis-scoring-terms-6",
+      "label": "盤（Set）"
+    },
+    {
+      "itemId": "tennis-scoring-terms-10",
+      "label": "四十（40）"
+    },
+    {
+      "itemId": "tennis-scoring-terms-2",
+      "label": "平分（Deuce）"
+    },
+    {
+      "itemId": "tennis-scoring-terms-7",
+      "label": "零分（Love）"
+    },
+    {
+      "itemId": "tennis-scoring-terms-5",
+      "label": "局（Game）"
+    },
+    {
+      "itemId": "tennis-scoring-terms-9",
+      "label": "三十（30）"
+    },
+    {
+      "itemId": "tennis-scoring-terms-3",
+      "label": "佔先（Advantage）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各網球計分術語的類別（搶七決勝局、平分／佔先狀態、賽制層級單位或單局點數報分）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "搶七決勝局",
+        "capacity": 1,
+        "itemIds": [
+          "tennis-scoring-terms-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "平分與佔先",
+        "capacity": 2,
+        "itemIds": [
+          "tennis-scoring-terms-2",
+          "tennis-scoring-terms-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "比賽結構單位",
+        "capacity": 3,
+        "itemIds": [
+          "tennis-scoring-terms-4",
+          "tennis-scoring-terms-5",
+          "tennis-scoring-terms-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "單局點數報分",
+        "capacity": 4,
+        "itemIds": [
+          "tennis-scoring-terms-7",
+          "tennis-scoring-terms-8",
+          "tennis-scoring-terms-9",
+          "tennis-scoring-terms-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依網球計分分類：搶七決勝（搶七局）、平分與佔先（Deuce 平分、Advantage 佔先）、比賽結構單位（分 Point、局 Game、盤 Set）與單局報分（Love 零分、15、30、40）。",
+  "sources": [
+    {
+      "title": "ITF Rules of Tennis",
+      "url": "https://www.itftennis.com/en/about-us/governance/rules-and-regulations/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

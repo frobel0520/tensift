@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "cricket-dismissal-modes-001",
+  "theme": "Cricket Dismissal Modes",
+  "publishDate": "2027-08-18",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "cricket-dismissal-modes-1",
+        "rivalGroupId": "group-2",
+        "risk": "Timed Out is a rare procedural dismissal.",
+        "resolution": "Timed Out occurs before facing a ball due to arrival delay (group-1), not during active ball play (group-2)."
+      },
+      {
+        "itemId": "cricket-dismissal-modes-5",
+        "rivalGroupId": "group-4",
+        "risk": "Stumped occurs off a bowler’s delivery.",
+        "resolution": "Stumped requires the batter stepping out of the popping crease while the wicketkeeper breaks the stumps (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

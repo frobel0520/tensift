@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "basketball-violations-fouls-2027-08-17-zh-hant",
+  "puzzleFamilyId": "basketball-violations-fouls-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-17",
+  "timezone": "UTC",
+  "theme": "籃球違例與犯規判決",
+  "items": [
+    {
+      "itemId": "basketball-violations-fouls-4",
+      "label": "走步違例"
+    },
+    {
+      "itemId": "basketball-violations-fouls-8",
+      "label": "防守阻擋犯規"
+    },
+    {
+      "itemId": "basketball-violations-fouls-1",
+      "label": "妨礙中籃（干擾球）"
+    },
+    {
+      "itemId": "basketball-violations-fouls-6",
+      "label": "翻球（攜帶球）"
+    },
+    {
+      "itemId": "basketball-violations-fouls-10",
+      "label": "違反運動道德犯規"
+    },
+    {
+      "itemId": "basketball-violations-fouls-2",
+      "label": "24 秒進攻違例"
+    },
+    {
+      "itemId": "basketball-violations-fouls-7",
+      "label": "進攻撞人犯規"
+    },
+    {
+      "itemId": "basketball-violations-fouls-5",
+      "label": "二次運球"
+    },
+    {
+      "itemId": "basketball-violations-fouls-9",
+      "label": "技術犯規"
+    },
+    {
+      "itemId": "basketball-violations-fouls-3",
+      "label": "8 秒未過半場違例"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各籃球裁判吹判項目的類別（妨礙中籃、計時違例、運球走步違例或犯規）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "妨礙中籃違例",
+        "capacity": 1,
+        "itemIds": [
+          "basketball-violations-fouls-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "計時違例",
+        "capacity": 2,
+        "itemIds": [
+          "basketball-violations-fouls-2",
+          "basketball-violations-fouls-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "運球與走步違例",
+        "capacity": 3,
+        "itemIds": [
+          "basketball-violations-fouls-4",
+          "basketball-violations-fouls-5",
+          "basketball-violations-fouls-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "個人與技術犯規",
+        "capacity": 4,
+        "itemIds": [
+          "basketball-violations-fouls-7",
+          "basketball-violations-fouls-8",
+          "basketball-violations-fouls-9",
+          "basketball-violations-fouls-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依籃球吹判分類：妨礙中籃（干擾球）、計時違例（24 秒進攻違例、8 秒過半場違例）、持球運球違例（走步、二次運球、翻球）與犯規（帶球撞人、阻擋犯規、技術犯規、違反運動道德犯規）。",
+  "sources": [
+    {
+      "title": "FIBA Official Basketball Rules",
+      "url": "https://www.fiba.basketball/rules",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

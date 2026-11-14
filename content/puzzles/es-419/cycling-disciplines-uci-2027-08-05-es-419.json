@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cycling-disciplines-uci-2027-08-05-es-419",
+  "puzzleFamilyId": "cycling-disciplines-uci-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-05",
+  "timezone": "UTC",
+  "theme": "Disciplinas de ciclismo UCI",
+  "items": [
+    {
+      "itemId": "cycling-disciplines-uci-4",
+      "label": "Cross-country olímpico (XCO)"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-8",
+      "label": "Contrarreloj individual"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-1",
+      "label": "BMX Freestyle Park"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-6",
+      "label": "Enduro MTB"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-10",
+      "label": "Criterium en ruta"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-2",
+      "label": "Keirin"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-7",
+      "label": "Carrera en ruta"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-5",
+      "label": "Descenso (DHI)"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-9",
+      "label": "Contrarreloj por equipos"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-3",
+      "label": "Madison"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Disciplina ciclista de cada prueba",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "BMX Freestyle",
+        "capacity": 1,
+        "itemIds": [
+          "cycling-disciplines-uci-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Ciclismo en pista",
+        "capacity": 2,
+        "itemIds": [
+          "cycling-disciplines-uci-2",
+          "cycling-disciplines-uci-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Ciclismo de montaña",
+        "capacity": 3,
+        "itemIds": [
+          "cycling-disciplines-uci-4",
+          "cycling-disciplines-uci-5",
+          "cycling-disciplines-uci-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Ciclismo en ruta",
+        "capacity": 4,
+        "itemIds": [
+          "cycling-disciplines-uci-7",
+          "cycling-disciplines-uci-8",
+          "cycling-disciplines-uci-9",
+          "cycling-disciplines-uci-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por disciplina: BMX (BMX freestyle park), pista en velódromo (keirin, madison), ciclismo de montaña (cross-country XCO, descenso DHI, enduro) y ruta (carrera en ruta, contrarreloj individual, contrarreloj por equipos, criterium).",
+  "sources": [
+    {
+      "title": "UCI: Cycling Disciplines",
+      "url": "https://www.uci.org/disciplines",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

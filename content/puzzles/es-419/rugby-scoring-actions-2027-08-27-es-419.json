@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "rugby-scoring-actions-2027-08-27-es-419",
+  "puzzleFamilyId": "rugby-scoring-actions-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-27",
+  "timezone": "UTC",
+  "theme": "Puntuación y fases en rugby union",
+  "items": [
+    {
+      "itemId": "rugby-scoring-actions-4",
+      "label": "Scrum (melé)"
+    },
+    {
+      "itemId": "rugby-scoring-actions-8",
+      "label": "Maul"
+    },
+    {
+      "itemId": "rugby-scoring-actions-1",
+      "label": "Try (5 puntos)"
+    },
+    {
+      "itemId": "rugby-scoring-actions-6",
+      "label": "Salida de mitad de cancha"
+    },
+    {
+      "itemId": "rugby-scoring-actions-10",
+      "label": "Offload"
+    },
+    {
+      "itemId": "rugby-scoring-actions-2",
+      "label": "Conversión (2 puntos)"
+    },
+    {
+      "itemId": "rugby-scoring-actions-7",
+      "label": "Ruck"
+    },
+    {
+      "itemId": "rugby-scoring-actions-5",
+      "label": "Lineout (lateral)"
+    },
+    {
+      "itemId": "rugby-scoring-actions-9",
+      "label": "Tackle"
+    },
+    {
+      "itemId": "rugby-scoring-actions-3",
+      "label": "Penal a los palos (3 puntos)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría reglamentaria de cada acción en rugby union",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Ensayo (5 puntos)",
+        "capacity": 1,
+        "itemIds": [
+          "rugby-scoring-actions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Patadas de puntuación",
+        "capacity": 2,
+        "itemIds": [
+          "rugby-scoring-actions-2",
+          "rugby-scoring-actions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Formaciones fijas y reinicios",
+        "capacity": 3,
+        "itemIds": [
+          "rugby-scoring-actions-4",
+          "rugby-scoring-actions-5",
+          "rugby-scoring-actions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Juego abierto",
+        "capacity": 4,
+        "itemIds": [
+          "rugby-scoring-actions-7",
+          "rugby-scoring-actions-8",
+          "rugby-scoring-actions-9",
+          "rugby-scoring-actions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: ensayo de 5 puntos (try), patadas de puntuación (conversión, golpe de castigo), formaciones fijas/reinicios (scrum, lineout, salida) y juego abierto (ruck, maul, tackle, offload).",
+  "sources": [
+    {
+      "title": "World Rugby Laws of the Game",
+      "url": "https://www.world.rugby/the-game/laws/home",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

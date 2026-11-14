@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "olympic-athletics-disciplines-2027-07-30-es-419",
+  "puzzleFamilyId": "olympic-athletics-disciplines-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-30",
+  "timezone": "UTC",
+  "theme": "Disciplinas de atletismo olímpico",
+  "items": [
+    {
+      "itemId": "olympic-athletics-disciplines-4",
+      "label": "Lanzamiento de bala"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-8",
+      "label": "400 metros con vallas"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-1",
+      "label": "Decatlón"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-6",
+      "label": "Lanzamiento de jabalina"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-10",
+      "label": "Relevo 4x100 metros"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-2",
+      "label": "Salto de altura"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-7",
+      "label": "100 metros planos"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-5",
+      "label": "Lanzamiento de disco"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-9",
+      "label": "1500 metros"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-3",
+      "label": "Salto de longitud"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría atlética de cada prueba olímpica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Pruebas combinadas",
+        "capacity": 1,
+        "itemIds": [
+          "olympic-athletics-disciplines-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Saltos",
+        "capacity": 2,
+        "itemIds": [
+          "olympic-athletics-disciplines-2",
+          "olympic-athletics-disciplines-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Lanzamientos",
+        "capacity": 3,
+        "itemIds": [
+          "olympic-athletics-disciplines-4",
+          "olympic-athletics-disciplines-5",
+          "olympic-athletics-disciplines-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Carreras en pista",
+        "capacity": 4,
+        "itemIds": [
+          "olympic-athletics-disciplines-7",
+          "olympic-athletics-disciplines-8",
+          "olympic-athletics-disciplines-9",
+          "olympic-athletics-disciplines-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por disciplina: combinadas (decatlón), saltos (salto de altura, salto de longitud), lanzamientos (bala, disco, jabalina) y carreras en pista (100 m planos, 400 m con vallas, 1500 m, relevo 4x100 m).",
+  "sources": [
+    {
+      "title": "World Athletics: Disciplines",
+      "url": "https://worldathletics.org/disciplines",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.2
+  },
+  "status": "scheduled"
+}

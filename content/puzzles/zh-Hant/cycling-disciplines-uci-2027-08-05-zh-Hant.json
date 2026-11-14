@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cycling-disciplines-uci-2027-08-05-zh-hant",
+  "puzzleFamilyId": "cycling-disciplines-uci-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-05",
+  "timezone": "UTC",
+  "theme": "自由車競技項目分類",
+  "items": [
+    {
+      "itemId": "cycling-disciplines-uci-4",
+      "label": "登山車越野賽（XCO）"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-8",
+      "label": "公路個人計時賽"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-1",
+      "label": "BMX 自由式公園賽"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-6",
+      "label": "登山車耐力賽（Enduro）"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-10",
+      "label": "公路城市繞圈賽"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-2",
+      "label": "競輪賽（Keirin）"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-7",
+      "label": "公路大組賽"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-5",
+      "label": "登山車下坡賽（DHI）"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-9",
+      "label": "公路團隊計時賽"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-3",
+      "label": "美式接力賽（Madison）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各自由車項目所屬的競賽分科（極限單車、場地自由車、登山車或公路自由車）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "BMX 極限單車",
+        "capacity": 1,
+        "itemIds": [
+          "cycling-disciplines-uci-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "場地自由車",
+        "capacity": 2,
+        "itemIds": [
+          "cycling-disciplines-uci-2",
+          "cycling-disciplines-uci-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "登山車越野",
+        "capacity": 3,
+        "itemIds": [
+          "cycling-disciplines-uci-4",
+          "cycling-disciplines-uci-5",
+          "cycling-disciplines-uci-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "公路自由車",
+        "capacity": 4,
+        "itemIds": [
+          "cycling-disciplines-uci-7",
+          "cycling-disciplines-uci-8",
+          "cycling-disciplines-uci-9",
+          "cycling-disciplines-uci-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依自由車競賽分科分類：極限單車（BMX 自由式公園賽）、場地自由車（競輪賽、美式接力賽）、登山車（越野賽 XCO、下坡賽 DHI、耐力賽）與公路自由車（公路大組賽、個人計時賽、團隊計時賽、繞圈賽）。",
+  "sources": [
+    {
+      "title": "UCI: Cycling Disciplines",
+      "url": "https://www.uci.org/disciplines",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

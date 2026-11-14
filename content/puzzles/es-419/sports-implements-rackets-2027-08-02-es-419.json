@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sports-implements-rackets-2027-08-02-es-419",
+  "puzzleFamilyId": "sports-implements-rackets-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-02",
+  "timezone": "UTC",
+  "theme": "Raquetas, bates y palos deportivos",
+  "items": [
+    {
+      "itemId": "sports-implements-rackets-4",
+      "label": "Raqueta de tenis"
+    },
+    {
+      "itemId": "sports-implements-rackets-8",
+      "label": "Bate de críquet"
+    },
+    {
+      "itemId": "sports-implements-rackets-1",
+      "label": "Cesta de jai alai"
+    },
+    {
+      "itemId": "sports-implements-rackets-6",
+      "label": "Raqueta de squash"
+    },
+    {
+      "itemId": "sports-implements-rackets-10",
+      "label": "Palo de golf"
+    },
+    {
+      "itemId": "sports-implements-rackets-2",
+      "label": "Paleta de tenis de mesa"
+    },
+    {
+      "itemId": "sports-implements-rackets-7",
+      "label": "Bate de béisbol"
+    },
+    {
+      "itemId": "sports-implements-rackets-5",
+      "label": "Raqueta de bádminton"
+    },
+    {
+      "itemId": "sports-implements-rackets-9",
+      "label": "Palo de hockey sobre césped"
+    },
+    {
+      "itemId": "sports-implements-rackets-3",
+      "label": "Pala de pickleball"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase constructiva de cada implemento deportivo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Cesta tejida",
+        "capacity": 1,
+        "itemIds": [
+          "sports-implements-rackets-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Palas sólidas sin cuerdas",
+        "capacity": 2,
+        "itemIds": [
+          "sports-implements-rackets-2",
+          "sports-implements-rackets-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Raquetas encordadas",
+        "capacity": 3,
+        "itemIds": [
+          "sports-implements-rackets-4",
+          "sports-implements-rackets-5",
+          "sports-implements-rackets-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Bates y palos",
+        "capacity": 4,
+        "itemIds": [
+          "sports-implements-rackets-7",
+          "sports-implements-rackets-8",
+          "sports-implements-rackets-9",
+          "sports-implements-rackets-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por construcción: cesta tejida (cesta punta / jai alai), palas sólidas (pala de tenis de mesa, pala de pickleball), raquetas encordadas (tenis, bádminton, squash) y bates/palos (bate de béisbol, bate de críquet, palo de hockey, palo de golf).",
+  "sources": [
+    {
+      "title": "ITTF & ITF Equipment Standards",
+      "url": "https://www.itftennis.com/en/about-us/governance/rules-and-regulations/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "sport-ball-types-001",
+  "theme": "Sports by Projectile Type",
+  "publishDate": "2027-07-29",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "sport-ball-types-1",
+        "rivalGroupId": "group-2",
+        "risk": "A shuttlecock is non-spherical.",
+        "resolution": "Badminton uses a feathered/skirted cone shuttlecock (group-1), distinct from oval balls and flat vulcanized pucks (group-2)."
+      },
+      {
+        "itemId": "sport-ball-types-5",
+        "rivalGroupId": "group-2",
+        "risk": "Field Hockey shares Hockey with Ice Hockey.",
+        "resolution": "Field hockey uses a hard spherical ball (group-3), whereas ice hockey uses a flat cylindrical puck (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

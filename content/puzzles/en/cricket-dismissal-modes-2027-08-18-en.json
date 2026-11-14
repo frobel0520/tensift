@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cricket-dismissal-modes-2027-08-18-en",
+  "puzzleFamilyId": "cricket-dismissal-modes-001",
+  "locale": "en",
+  "publishDate": "2027-08-18",
+  "timezone": "UTC",
+  "theme": "Cricket Dismissal Modes",
+  "items": [
+    {
+      "itemId": "cricket-dismissal-modes-4",
+      "label": "Run Out"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-8",
+      "label": "Caught"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-1",
+      "label": "Timed Out"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-6",
+      "label": "Hit Wicket"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-10",
+      "label": "Retired Out"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-2",
+      "label": "Hit the Ball Twice"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-7",
+      "label": "Bowled"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-5",
+      "label": "Stumped"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-9",
+      "label": "Leg Before Wicket (LBW)"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-3",
+      "label": "Obstructing the Field"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cricket dismissal class (Timed Out, Rare Technical Breaches, Stump/Crease Dismissals, or Primary Ball-Delivery Dismissals)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Non-Arrival Timeout",
+        "capacity": 1,
+        "itemIds": [
+          "cricket-dismissal-modes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Rare Technical Breaches",
+        "capacity": 2,
+        "itemIds": [
+          "cricket-dismissal-modes-2",
+          "cricket-dismissal-modes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Crease & Stump-Line",
+        "capacity": 3,
+        "itemIds": [
+          "cricket-dismissal-modes-4",
+          "cricket-dismissal-modes-5",
+          "cricket-dismissal-modes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Primary Delivery & Retirement",
+        "capacity": 4,
+        "itemIds": [
+          "cricket-dismissal-modes-7",
+          "cricket-dismissal-modes-8",
+          "cricket-dismissal-modes-9",
+          "cricket-dismissal-modes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by cricket law: Non-Ball Arrival (Timed Out), Rare Technical Breaches (Hit the Ball Twice, Obstructing the Field), Crease & Stump-Line (Run Out, Stumped, Hit Wicket), and Primary Delivery/Retirement (Bowled, Caught, Leg Before Wicket, Retired Out).",
+  "sources": [
+    {
+      "title": "MCC Laws of Cricket: Dismissals",
+      "url": "https://www.lords.org/mcc/the-laws-of-cricket",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.72
+  },
+  "status": "scheduled"
+}

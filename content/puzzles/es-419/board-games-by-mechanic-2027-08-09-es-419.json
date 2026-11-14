@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "board-games-by-mechanic-2027-08-09-es-419",
+  "puzzleFamilyId": "board-games-by-mechanic-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-09",
+  "timezone": "UTC",
+  "theme": "Juegos de mesa clásicos por mecánica",
+  "items": [
+    {
+      "itemId": "board-games-by-mechanic-4",
+      "label": "Go"
+    },
+    {
+      "itemId": "board-games-by-mechanic-8",
+      "label": "Shogi"
+    },
+    {
+      "itemId": "board-games-by-mechanic-1",
+      "label": "Oware (mancala)"
+    },
+    {
+      "itemId": "board-games-by-mechanic-6",
+      "label": "Reversi (Othello)"
+    },
+    {
+      "itemId": "board-games-by-mechanic-10",
+      "label": "Damas"
+    },
+    {
+      "itemId": "board-games-by-mechanic-2",
+      "label": "Backgammon"
+    },
+    {
+      "itemId": "board-games-by-mechanic-7",
+      "label": "Ajedrez"
+    },
+    {
+      "itemId": "board-games-by-mechanic-5",
+      "label": "Hex"
+    },
+    {
+      "itemId": "board-games-by-mechanic-9",
+      "label": "Xiangqi"
+    },
+    {
+      "itemId": "board-games-by-mechanic-3",
+      "label": "Parchís (Ludo)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Mecánica central de cada juego de tablero clásico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Mancala (siembra)",
+        "capacity": 1,
+        "itemIds": [
+          "board-games-by-mechanic-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Carrera con dados",
+        "capacity": 2,
+        "itemIds": [
+          "board-games-by-mechanic-2",
+          "board-games-by-mechanic-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Territorio y conexión",
+        "capacity": 3,
+        "itemIds": [
+          "board-games-by-mechanic-4",
+          "board-games-by-mechanic-5",
+          "board-games-by-mechanic-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Captura y jaque",
+        "capacity": 4,
+        "itemIds": [
+          "board-games-by-mechanic-7",
+          "board-games-by-mechanic-8",
+          "board-games-by-mechanic-9",
+          "board-games-by-mechanic-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por mecánica: siembra mancala (oware), carrera con dados (backgammon, parchís/ludo), territorio y conexión (go, hex, reversi/othello) y captura/jaque (ajedrez, shogi, xiangqi, damas).",
+  "sources": [
+    {
+      "title": "Britannica: Board Games",
+      "url": "https://www.britannica.com/topic/board-game",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

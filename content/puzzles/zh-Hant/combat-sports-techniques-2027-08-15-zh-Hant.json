@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "combat-sports-techniques-2027-08-15-zh-hant",
+  "puzzleFamilyId": "combat-sports-techniques-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-15",
+  "timezone": "UTC",
+  "theme": "格鬥技擊技術分類",
+  "items": [
+    {
+      "itemId": "combat-sports-techniques-4",
+      "label": "旋踢（迴旋踢）"
+    },
+    {
+      "itemId": "combat-sports-techniques-8",
+      "label": "後手直拳（Cross）"
+    },
+    {
+      "itemId": "combat-sports-techniques-1",
+      "label": "十字固（Armbar）"
+    },
+    {
+      "itemId": "combat-sports-techniques-6",
+      "label": "箍頸膝撞"
+    },
+    {
+      "itemId": "combat-sports-techniques-10",
+      "label": "上勾拳（Uppercut）"
+    },
+    {
+      "itemId": "combat-sports-techniques-2",
+      "label": "大腰摔（Hip Throw）"
+    },
+    {
+      "itemId": "combat-sports-techniques-7",
+      "label": "刺拳（Jab）"
+    },
+    {
+      "itemId": "combat-sports-techniques-5",
+      "label": "正蹬踢"
+    },
+    {
+      "itemId": "combat-sports-techniques-9",
+      "label": "平勾拳（Hook）"
+    },
+    {
+      "itemId": "combat-sports-techniques-3",
+      "label": "雙腿抱摔"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各格鬥技術的攻擊與控制類別（關節技降服、摔投與抱摔、踢擊與膝撞或拳擊出拳）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "關節降服技",
+        "capacity": 1,
+        "itemIds": [
+          "combat-sports-techniques-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "摔投與抱摔技",
+        "capacity": 2,
+        "itemIds": [
+          "combat-sports-techniques-2",
+          "combat-sports-techniques-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "踢擊與膝擊",
+        "capacity": 3,
+        "itemIds": [
+          "combat-sports-techniques-4",
+          "combat-sports-techniques-5",
+          "combat-sports-techniques-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "拳擊基本拳法",
+        "capacity": 4,
+        "itemIds": [
+          "combat-sports-techniques-7",
+          "combat-sports-techniques-8",
+          "combat-sports-techniques-9",
+          "combat-sports-techniques-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依格鬥技術分類：降服關節技（十字固 Armbar）、摔投技（腰車過肩摔、雙腿抱摔）、腿擊與膝擊（旋踢、正蹬踢、膝撞）與拳擊拳法（刺拳、直拳、勾拳、上勾拳）。",
+  "sources": [
+    {
+      "title": "World Boxing & UWW Wrestling",
+      "url": "https://uww.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

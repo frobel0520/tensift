@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "swimming-strokes-events-2027-08-01-en",
+  "puzzleFamilyId": "swimming-strokes-events-001",
+  "locale": "en",
+  "publishDate": "2027-08-01",
+  "timezone": "UTC",
+  "theme": "Competitive Swimming Events",
+  "items": [
+    {
+      "itemId": "swimming-strokes-events-4",
+      "label": "Butterfly Stroke"
+    },
+    {
+      "itemId": "swimming-strokes-events-8",
+      "label": "100m Freestyle"
+    },
+    {
+      "itemId": "swimming-strokes-events-1",
+      "label": "400m Individual Medley"
+    },
+    {
+      "itemId": "swimming-strokes-events-6",
+      "label": "Breaststroke"
+    },
+    {
+      "itemId": "swimming-strokes-events-10",
+      "label": "1500m Freestyle"
+    },
+    {
+      "itemId": "swimming-strokes-events-2",
+      "label": "4x100m Freestyle Relay"
+    },
+    {
+      "itemId": "swimming-strokes-events-7",
+      "label": "50m Freestyle"
+    },
+    {
+      "itemId": "swimming-strokes-events-5",
+      "label": "Backstroke"
+    },
+    {
+      "itemId": "swimming-strokes-events-9",
+      "label": "400m Freestyle"
+    },
+    {
+      "itemId": "swimming-strokes-events-3",
+      "label": "4x100m Medley Relay"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Swimming event format (Individual Medley, Team Relays, Form Strokes, or Freestyle Distances)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Individual Medley",
+        "capacity": 1,
+        "itemIds": [
+          "swimming-strokes-events-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Team Relays",
+        "capacity": 2,
+        "itemIds": [
+          "swimming-strokes-events-2",
+          "swimming-strokes-events-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Form Strokes",
+        "capacity": 3,
+        "itemIds": [
+          "swimming-strokes-events-4",
+          "swimming-strokes-events-5",
+          "swimming-strokes-events-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Freestyle Distances",
+        "capacity": 4,
+        "itemIds": [
+          "swimming-strokes-events-7",
+          "swimming-strokes-events-8",
+          "swimming-strokes-events-9",
+          "swimming-strokes-events-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by swimming format: Individual Medley (400m Individual Medley), Team Relays (4x100m Freestyle Relay, 4x100m Medley Relay), Form Strokes (Butterfly, Backstroke, Breaststroke), and Freestyle Distances (50m Freestyle, 100m Freestyle, 400m Freestyle, 1500m Freestyle).",
+  "sources": [
+    {
+      "title": "World Aquatics: Swimming Rules",
+      "url": "https://www.worldaquatics.com/swimming",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

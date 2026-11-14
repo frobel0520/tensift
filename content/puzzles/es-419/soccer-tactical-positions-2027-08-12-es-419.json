@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "soccer-tactical-positions-2027-08-12-es-419",
+  "puzzleFamilyId": "soccer-tactical-positions-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-12",
+  "timezone": "UTC",
+  "theme": "Posiciones tácticas en el fútbol",
+  "items": [
+    {
+      "itemId": "soccer-tactical-positions-4",
+      "label": "Mediocampista defensivo"
+    },
+    {
+      "itemId": "soccer-tactical-positions-8",
+      "label": "Lateral izquierdo"
+    },
+    {
+      "itemId": "soccer-tactical-positions-1",
+      "label": "Portero"
+    },
+    {
+      "itemId": "soccer-tactical-positions-6",
+      "label": "Mediapunta"
+    },
+    {
+      "itemId": "soccer-tactical-positions-10",
+      "label": "Líbero"
+    },
+    {
+      "itemId": "soccer-tactical-positions-2",
+      "label": "Delantero centro"
+    },
+    {
+      "itemId": "soccer-tactical-positions-7",
+      "label": "Defensa central"
+    },
+    {
+      "itemId": "soccer-tactical-positions-5",
+      "label": "Mediocentro"
+    },
+    {
+      "itemId": "soccer-tactical-positions-9",
+      "label": "Lateral derecho"
+    },
+    {
+      "itemId": "soccer-tactical-positions-3",
+      "label": "Segundo delantero"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Línea de juego de cada posición futbolística",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Portero / Arquero",
+        "capacity": 1,
+        "itemIds": [
+          "soccer-tactical-positions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Delanteros",
+        "capacity": 2,
+        "itemIds": [
+          "soccer-tactical-positions-2",
+          "soccer-tactical-positions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Mediocampistas",
+        "capacity": 3,
+        "itemIds": [
+          "soccer-tactical-positions-4",
+          "soccer-tactical-positions-5",
+          "soccer-tactical-positions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Defensores",
+        "capacity": 4,
+        "itemIds": [
+          "soccer-tactical-positions-7",
+          "soccer-tactical-positions-8",
+          "soccer-tactical-positions-9",
+          "soccer-tactical-positions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por línea: arquero (portero), delanteros (delantero centro, segundo delantero), mediocampistas (pivote defensivo, mediocentro, enganche/mediapunta) y defensores (defensa central, lateral izquierdo, lateral derecho, líbero).",
+  "sources": [
+    {
+      "title": "IFAB Laws of the Game",
+      "url": "https://www.theifab.com/laws-of-the-game-documents/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

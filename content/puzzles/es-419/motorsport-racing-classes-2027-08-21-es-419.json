@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "motorsport-racing-classes-2027-08-21-es-419",
+  "puzzleFamilyId": "motorsport-racing-classes-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-21",
+  "timezone": "UTC",
+  "theme": "Categorías de automovilismo y motociclismo",
+  "items": [
+    {
+      "itemId": "motorsport-racing-classes-4",
+      "label": "MotoGP"
+    },
+    {
+      "itemId": "motorsport-racing-classes-8",
+      "label": "IndyCar"
+    },
+    {
+      "itemId": "motorsport-racing-classes-1",
+      "label": "NHRA Top Fuel"
+    },
+    {
+      "itemId": "motorsport-racing-classes-6",
+      "label": "Superbikes (WorldSBK)"
+    },
+    {
+      "itemId": "motorsport-racing-classes-10",
+      "label": "24 Horas de Le Mans (WEC)"
+    },
+    {
+      "itemId": "motorsport-racing-classes-2",
+      "label": "WRC Rally Mundial"
+    },
+    {
+      "itemId": "motorsport-racing-classes-7",
+      "label": "Fórmula 1"
+    },
+    {
+      "itemId": "motorsport-racing-classes-5",
+      "label": "Motocross (MXGP)"
+    },
+    {
+      "itemId": "motorsport-racing-classes-9",
+      "label": "NASCAR Cup Series"
+    },
+    {
+      "itemId": "motorsport-racing-classes-3",
+      "label": "Rally Dakar"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría de cada campeonato de motor",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Carreras de aceleración (drag)",
+        "capacity": 1,
+        "itemIds": [
+          "motorsport-racing-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Rally y todoterreno",
+        "capacity": 2,
+        "itemIds": [
+          "motorsport-racing-classes-2",
+          "motorsport-racing-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Motociclismo",
+        "capacity": 3,
+        "itemIds": [
+          "motorsport-racing-classes-4",
+          "motorsport-racing-classes-5",
+          "motorsport-racing-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Automovilismo en circuito",
+        "capacity": 4,
+        "itemIds": [
+          "motorsport-racing-classes-7",
+          "motorsport-racing-classes-8",
+          "motorsport-racing-classes-9",
+          "motorsport-racing-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: aceleración (NHRA Top Fuel), rally y todoterreno (WRC, Rally Dakar), motociclismo (MotoGP, Motocross MXGP, WorldSBK) y automovilismo en circuito (Fórmula 1, IndyCar, NASCAR Cup, WEC Le Mans).",
+  "sources": [
+    {
+      "title": "FIA & FIM Motorsports",
+      "url": "https://www.fia.com/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "combat-sports-techniques-001",
+  "theme": "Combat Sports Techniques",
+  "publishDate": "2027-08-15",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "combat-sports-techniques-1",
+        "rivalGroupId": "group-2",
+        "risk": "Both submissions and takedowns are grappling moves.",
+        "resolution": "An armbar is a ground joint-lock submission (group-1), whereas throws and takedowns bring a standing opponent down (group-2)."
+      },
+      {
+        "itemId": "combat-sports-techniques-6",
+        "rivalGroupId": "group-2",
+        "risk": "Clinching can lead to trips or takedowns.",
+        "resolution": "A knee strike is a percussive lower-limb strike (group-3), not a throw or takedown (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

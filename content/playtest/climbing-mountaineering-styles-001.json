@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "climbing-mountaineering-styles-001",
+  "theme": "Climbing & Mountaineering",
+  "publishDate": "2027-08-23",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "climbing-mountaineering-styles-3",
+        "rivalGroupId": "group-3",
+        "risk": "Speed climbing uses an auto-belay rope.",
+        "resolution": "Speed climbing is an Olympic standardized 15m sprint format (group-2), distinct from general roped rock climbing styles (group-3)."
+      },
+      {
+        "itemId": "climbing-mountaineering-styles-1",
+        "rivalGroupId": "group-4",
+        "risk": "Mountaineering involves snow and ice.",
+        "resolution": "Waterfall ice climbing uses ice axes and crampons on vertical frozen water (group-1), whereas mountaineering spans glaciers and peaks (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

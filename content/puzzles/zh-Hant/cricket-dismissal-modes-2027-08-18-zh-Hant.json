@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cricket-dismissal-modes-2027-08-18-zh-hant",
+  "puzzleFamilyId": "cricket-dismissal-modes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-18",
+  "timezone": "UTC",
+  "theme": "板球出局方式分類",
+  "items": [
+    {
+      "itemId": "cricket-dismissal-modes-4",
+      "label": "跑殺（Run Out）"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-8",
+      "label": "接殺（Caught）"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-1",
+      "label": "超時出局（Timed Out）"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-6",
+      "label": "誤觸己方球門（Hit Wicket）"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-10",
+      "label": "退場出局（Retired Out）"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-2",
+      "label": "二次擊球出局"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-7",
+      "label": "投殺（Bowled）"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-5",
+      "label": "守門員擊柱（Stumped）"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-9",
+      "label": "腿前阻殺（LBW）"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-3",
+      "label": "妨礙守備出局"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "板球十種出局方式的類別（超時未上場、罕見技術違規、球門／界線出局或主要投球出局）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "超時未上場",
+        "capacity": 1,
+        "itemIds": [
+          "cricket-dismissal-modes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "罕見技術違規",
+        "capacity": 2,
+        "itemIds": [
+          "cricket-dismissal-modes-2",
+          "cricket-dismissal-modes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "球門區與跑壘出局",
+        "capacity": 3,
+        "itemIds": [
+          "cricket-dismissal-modes-4",
+          "cricket-dismissal-modes-5",
+          "cricket-dismissal-modes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "主要投殺接殺與退場",
+        "capacity": 4,
+        "itemIds": [
+          "cricket-dismissal-modes-7",
+          "cricket-dismissal-modes-8",
+          "cricket-dismissal-modes-9",
+          "cricket-dismissal-modes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依板球規則分類：未上場（超時出局）、罕見違規（二次擊球、妨礙守備）、球門線與擊球區出局（跑殺 Run Out、擊柱出局 Stumped、誤觸球門 Hit Wicket）與主要投球出局及退場（投殺 Bowled、接殺 Caught、腿前阻殺 LBW、退場出局）。",
+  "sources": [
+    {
+      "title": "MCC Laws of Cricket: Dismissals",
+      "url": "https://www.lords.org/mcc/the-laws-of-cricket",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.72
+  },
+  "status": "scheduled"
+}

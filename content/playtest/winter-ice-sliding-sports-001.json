@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "winter-ice-sliding-sports-001",
+  "theme": "Winter Ice & Sliding Sports",
+  "publishDate": "2027-08-06",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "winter-ice-sliding-sports-1",
+        "rivalGroupId": "group-2",
+        "risk": "Skeleton uses the same sliding track as luge and bobsleigh.",
+        "resolution": "Skeleton riders slide prone head-first (group-1), distinct from seated bobsleigh and supine feet-first luge (group-2)."
+      },
+      {
+        "itemId": "winter-ice-sliding-sports-6",
+        "rivalGroupId": "group-4",
+        "risk": "Ice dance uses skating blades on an oval rink.",
+        "resolution": "Ice dance is an artistic judged discipline (group-3), not a timed race (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

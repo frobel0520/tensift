@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "rowing-boat-classes-2027-08-29-es-419",
+  "puzzleFamilyId": "rowing-boat-classes-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-29",
+  "timezone": "UTC",
+  "theme": "Categorías de remo olímpico",
+  "items": [
+    {
+      "itemId": "rowing-boat-classes-4",
+      "label": "Dos sin timonel (2-)"
+    },
+    {
+      "itemId": "rowing-boat-classes-8",
+      "label": "Cuádruple scull (4x)"
+    },
+    {
+      "itemId": "rowing-boat-classes-1",
+      "label": "Scull individual (1x)"
+    },
+    {
+      "itemId": "rowing-boat-classes-6",
+      "label": "Doble scull ligero (L2x)"
+    },
+    {
+      "itemId": "rowing-boat-classes-10",
+      "label": "Cuatro mixto adaptado PR3"
+    },
+    {
+      "itemId": "rowing-boat-classes-2",
+      "label": "Ocho masculino (M8+)"
+    },
+    {
+      "itemId": "rowing-boat-classes-7",
+      "label": "Cuatro sin timonel (4-)"
+    },
+    {
+      "itemId": "rowing-boat-classes-5",
+      "label": "Doble scull (2x)"
+    },
+    {
+      "itemId": "rowing-boat-classes-9",
+      "label": "Cuatro con timonel (4+)"
+    },
+    {
+      "itemId": "rowing-boat-classes-3",
+      "label": "Ocho femenino (W8+)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clasificación por número de remeros y tipo de remo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Scull individual (1x)",
+        "capacity": 1,
+        "itemIds": [
+          "rowing-boat-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Ocho con timonel (8+)",
+        "capacity": 2,
+        "itemIds": [
+          "rowing-boat-classes-2",
+          "rowing-boat-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Botes de dos remeros",
+        "capacity": 3,
+        "itemIds": [
+          "rowing-boat-classes-4",
+          "rowing-boat-classes-5",
+          "rowing-boat-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Botes de cuatro remeros",
+        "capacity": 4,
+        "itemIds": [
+          "rowing-boat-classes-7",
+          "rowing-boat-classes-8",
+          "rowing-boat-classes-9",
+          "rowing-boat-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase de bote: individual (scull individual 1x), ocho con timonel (ocho masculino 8+, ocho femenino 8+), botes de dos remeros (dos sin timonel 2-, doble scull 2x, doble scull ligero L2x) y botes de cuatro remeros (cuatro sin timonel 4-, cuádruple scull 4x, cuatro con timonel 4+, cuatro mixto PR3 4+).",
+  "sources": [
+    {
+      "title": "World Rowing: Boat Classes",
+      "url": "https://worldrowing.com/about/organisation/boat-classes/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

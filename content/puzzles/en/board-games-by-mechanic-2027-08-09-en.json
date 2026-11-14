@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "board-games-by-mechanic-2027-08-09-en",
+  "puzzleFamilyId": "board-games-by-mechanic-001",
+  "locale": "en",
+  "publishDate": "2027-08-09",
+  "timezone": "UTC",
+  "theme": "Classic Board Games",
+  "items": [
+    {
+      "itemId": "board-games-by-mechanic-4",
+      "label": "Go (Weiqi)"
+    },
+    {
+      "itemId": "board-games-by-mechanic-8",
+      "label": "Shogi"
+    },
+    {
+      "itemId": "board-games-by-mechanic-1",
+      "label": "Oware (Mancala)"
+    },
+    {
+      "itemId": "board-games-by-mechanic-6",
+      "label": "Reversi (Othello)"
+    },
+    {
+      "itemId": "board-games-by-mechanic-10",
+      "label": "Checkers (Draughts)"
+    },
+    {
+      "itemId": "board-games-by-mechanic-2",
+      "label": "Backgammon"
+    },
+    {
+      "itemId": "board-games-by-mechanic-7",
+      "label": "Chess"
+    },
+    {
+      "itemId": "board-games-by-mechanic-5",
+      "label": "Hex"
+    },
+    {
+      "itemId": "board-games-by-mechanic-9",
+      "label": "Xiangqi"
+    },
+    {
+      "itemId": "board-games-by-mechanic-3",
+      "label": "Pachisi (Ludo)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Core mechanic (Count-and-Capture Mancala, Dice-Race, Territory/Connection, or Piece-Capture Chess Family)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Seed-Sowing Mancala",
+        "capacity": 1,
+        "itemIds": [
+          "board-games-by-mechanic-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Dice-Driven Race",
+        "capacity": 2,
+        "itemIds": [
+          "board-games-by-mechanic-2",
+          "board-games-by-mechanic-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Territory & Connection",
+        "capacity": 3,
+        "itemIds": [
+          "board-games-by-mechanic-4",
+          "board-games-by-mechanic-5",
+          "board-games-by-mechanic-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Piece-Capture & Check",
+        "capacity": 4,
+        "itemIds": [
+          "board-games-by-mechanic-7",
+          "board-games-by-mechanic-8",
+          "board-games-by-mechanic-9",
+          "board-games-by-mechanic-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by core mechanic: Seed-Sowing Mancala (Oware), Dice-Driven Race (Backgammon, Pachisi / Ludo), Territory & Connection (Go, Hex, Reversi / Othello), and Capture & Check/Elimination (Chess, Shogi, Xiangqi, Checkers).",
+  "sources": [
+    {
+      "title": "Britannica: Board Games",
+      "url": "https://www.britannica.com/topic/board-game",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

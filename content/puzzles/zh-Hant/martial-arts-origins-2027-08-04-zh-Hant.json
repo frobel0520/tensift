@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "martial-arts-origins-2027-08-04-zh-hant",
+  "puzzleFamilyId": "martial-arts-origins-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-04",
+  "timezone": "UTC",
+  "theme": "各國傳統武術發源地",
+  "items": [
+    {
+      "itemId": "martial-arts-origins-4",
+      "label": "太極拳"
+    },
+    {
+      "itemId": "martial-arts-origins-8",
+      "label": "空手道"
+    },
+    {
+      "itemId": "martial-arts-origins-1",
+      "label": "卡波耶拉（巴西戰舞）"
+    },
+    {
+      "itemId": "martial-arts-origins-6",
+      "label": "少林功夫"
+    },
+    {
+      "itemId": "martial-arts-origins-10",
+      "label": "日式合氣道（Aikido）"
+    },
+    {
+      "itemId": "martial-arts-origins-2",
+      "label": "跆拳道"
+    },
+    {
+      "itemId": "martial-arts-origins-7",
+      "label": "柔道"
+    },
+    {
+      "itemId": "martial-arts-origins-5",
+      "label": "詠春拳"
+    },
+    {
+      "itemId": "martial-arts-origins-9",
+      "label": "劍道"
+    },
+    {
+      "itemId": "martial-arts-origins-3",
+      "label": "韓式合氣道（Hapkido）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各武術流派的發源國家（巴西、韓國、中國或日本）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "巴西",
+        "capacity": 1,
+        "itemIds": [
+          "martial-arts-origins-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "韓國",
+        "capacity": 2,
+        "itemIds": [
+          "martial-arts-origins-2",
+          "martial-arts-origins-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "中國",
+        "capacity": 3,
+        "itemIds": [
+          "martial-arts-origins-4",
+          "martial-arts-origins-5",
+          "martial-arts-origins-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "日本",
+        "capacity": 4,
+        "itemIds": [
+          "martial-arts-origins-7",
+          "martial-arts-origins-8",
+          "martial-arts-origins-9",
+          "martial-arts-origins-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依發源國家分類：巴西（卡波耶拉戰舞）、韓國（跆拳道、合氣道 Hapkido）、中國（太極拳、詠春拳、少林功夫）與日本（柔道、空手道、劍道、合氣道 Aikido）。",
+  "sources": [
+    {
+      "title": "UNESCO & IOC Martial Arts Heritage",
+      "url": "https://olympics.com/en/sports/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

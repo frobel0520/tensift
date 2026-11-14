@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "martial-arts-origins-001",
+  "theme": "Martial Arts by Origin",
+  "publishDate": "2027-08-04",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "martial-arts-origins-3",
+        "rivalGroupId": "group-4",
+        "risk": "Hapkido and Aikido share the same Chinese characters.",
+        "resolution": "Hapkido was codified in Korea (group-2), whereas Aikido was founded by Morihei Ueshiba in Japan (group-4)."
+      },
+      {
+        "itemId": "martial-arts-origins-8",
+        "rivalGroupId": "group-3",
+        "risk": "Karate has historical roots from Ryukyu/China.",
+        "resolution": "Modern Karate was systematized in Okinawa and mainland Japan (group-4), not mainland China (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

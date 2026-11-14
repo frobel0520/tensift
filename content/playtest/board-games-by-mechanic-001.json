@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "board-games-by-mechanic-001",
+  "theme": "Classic Board Games",
+  "publishDate": "2027-08-09",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "board-games-by-mechanic-6",
+        "rivalGroupId": "group-4",
+        "risk": "Othello flips opponent discs.",
+        "resolution": "Othello is a territory-majority placement game where pieces never move after placement (group-3), unlike moving-piece capture games (group-4)."
+      },
+      {
+        "itemId": "board-games-by-mechanic-1",
+        "rivalGroupId": "group-2",
+        "risk": "Mancala moves seeds around pits in a circuit.",
+        "resolution": "Oware is a deterministic count-and-sow game without dice (group-1), unlike dice race games (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "climbing-mountaineering-styles-2027-08-23-es-419",
+  "puzzleFamilyId": "climbing-mountaineering-styles-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-23",
+  "timezone": "UTC",
+  "theme": "Modalidades de escalada y montañismo",
+  "items": [
+    {
+      "itemId": "climbing-mountaineering-styles-4",
+      "label": "Escalada deportiva de primero"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-8",
+      "label": "Vía ferrata"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-1",
+      "label": "Escalada en cascadas de hielo"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-6",
+      "label": "Escalada tradicional"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-10",
+      "label": "Escalada en gran pared (big wall)"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-2",
+      "label": "Búlder"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-7",
+      "label": "Alpinismo de alta montaña"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-5",
+      "label": "Escalada en polea (top-rope)"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-9",
+      "label": "Escalada artificial"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-3",
+      "label": "Escalada de velocidad"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Modalidad técnica de cada estilo de escalada",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Escalada en hielo",
+        "capacity": 1,
+        "itemIds": [
+          "climbing-mountaineering-styles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Búlder y velocidad",
+        "capacity": 2,
+        "itemIds": [
+          "climbing-mountaineering-styles-2",
+          "climbing-mountaineering-styles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Escalada en roca con cuerda",
+        "capacity": 3,
+        "itemIds": [
+          "climbing-mountaineering-styles-4",
+          "climbing-mountaineering-styles-5",
+          "climbing-mountaineering-styles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Alpinismo y escalada asistida",
+        "capacity": 4,
+        "itemIds": [
+          "climbing-mountaineering-styles-7",
+          "climbing-mountaineering-styles-8",
+          "climbing-mountaineering-styles-9",
+          "climbing-mountaineering-styles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por modalidad: escalada en hielo (cascadas de hielo), competición sin cuerda/velocidad (búlder, escalada de velocidad), roca con cuerda (deportiva de primero, top-rope, clásica/tradicional) y alpina/asistida (alta montaña, vía ferrata, artificial, big wall).",
+  "sources": [
+    {
+      "title": "IFSC & UIAA Climbing Standards",
+      "url": "https://www.ifsc-climbing.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "board-game-mechanics-modern-2027-09-01-en",
+  "puzzleFamilyId": "board-game-mechanics-modern-001",
+  "locale": "en",
+  "publishDate": "2027-09-01",
+  "timezone": "UTC",
+  "theme": "Modern Tabletop Mechanics",
+  "items": [
+    {
+      "itemId": "board-game-mechanics-modern-4",
+      "label": "Deck-Building"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-8",
+      "label": "Tile Placement"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-1",
+      "label": "Hidden Roles Deduction"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-6",
+      "label": "Trick-Taking"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-10",
+      "label": "Set Collection"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-2",
+      "label": "Legacy Game Permanence"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-7",
+      "label": "Worker Placement"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-5",
+      "label": "Card Drafting"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-9",
+      "label": "Area Majority Control"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-3",
+      "label": "Episodic Campaign Arc"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Modern tabletop mechanic (Social Deduction, Legacy/Campaign, Card & Deck Mechanics, or Spatial & Action Selection)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Social Deduction",
+        "capacity": 1,
+        "itemIds": [
+          "board-game-mechanics-modern-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Legacy & Campaign",
+        "capacity": 2,
+        "itemIds": [
+          "board-game-mechanics-modern-2",
+          "board-game-mechanics-modern-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Card-Driven Mechanics",
+        "capacity": 3,
+        "itemIds": [
+          "board-game-mechanics-modern-4",
+          "board-game-mechanics-modern-5",
+          "board-game-mechanics-modern-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Board & Action Mechanics",
+        "capacity": 4,
+        "itemIds": [
+          "board-game-mechanics-modern-7",
+          "board-game-mechanics-modern-8",
+          "board-game-mechanics-modern-9",
+          "board-game-mechanics-modern-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by tabletop mechanic: Social Deduction (Hidden Roles / Mafia), Campaign & Legacy (Legacy Sticker Permanence, Episodic Campaign), Card-Driven Mechanics (Deck-Building, Card Drafting, Trick-Taking), and Board & Action Mechanics (Worker Placement, Tile Placement, Area Control, Set Collection).",
+  "sources": [
+    {
+      "title": "BoardGameGeek Mechanics Taxonomy",
+      "url": "https://boardgamegeek.com/browse/boardgamemechanic",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

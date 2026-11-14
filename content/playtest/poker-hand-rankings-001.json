@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "poker-hand-rankings-001",
+  "theme": "Standard 5-Card Poker Hands",
+  "publishDate": "2027-08-10",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "poker-hand-rankings-1",
+        "rivalGroupId": "group-2",
+        "risk": "Royal Flush is technically an Ace-high Straight Flush.",
+        "resolution": "Standard rankings list Royal Flush as the singular #1 tier (group-1) above lower Straight Flushes (group-2)."
+      },
+      {
+        "itemId": "poker-hand-rankings-4",
+        "rivalGroupId": "group-4",
+        "risk": "Full House combines Three of a Kind and a Pair.",
+        "resolution": "Full House is a 5-card rank #4 hand (group-3), above standalone Three of a Kind (#7, group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

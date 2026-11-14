@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cycling-disciplines-uci-2027-08-05-en",
+  "puzzleFamilyId": "cycling-disciplines-uci-001",
+  "locale": "en",
+  "publishDate": "2027-08-05",
+  "timezone": "UTC",
+  "theme": "UCI Cycling Disciplines",
+  "items": [
+    {
+      "itemId": "cycling-disciplines-uci-4",
+      "label": "Cross-Country (XCO)"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-8",
+      "label": "Individual Time Trial"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-1",
+      "label": "BMX Freestyle Park"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-6",
+      "label": "MTB Enduro"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-10",
+      "label": "Road Criterium"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-2",
+      "label": "Keirin"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-7",
+      "label": "Road Race"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-5",
+      "label": "Downhill (DHI)"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-9",
+      "label": "Team Time Trial"
+    },
+    {
+      "itemId": "cycling-disciplines-uci-3",
+      "label": "Madison"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cycling discipline (BMX Freestyle, Track Velodrome, Mountain Bike Off-Road, or Road Racing)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "BMX Freestyle",
+        "capacity": 1,
+        "itemIds": [
+          "cycling-disciplines-uci-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Track Velodrome",
+        "capacity": 2,
+        "itemIds": [
+          "cycling-disciplines-uci-2",
+          "cycling-disciplines-uci-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Mountain Bike (MTB)",
+        "capacity": 3,
+        "itemIds": [
+          "cycling-disciplines-uci-4",
+          "cycling-disciplines-uci-5",
+          "cycling-disciplines-uci-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Road Cycling",
+        "capacity": 4,
+        "itemIds": [
+          "cycling-disciplines-uci-7",
+          "cycling-disciplines-uci-8",
+          "cycling-disciplines-uci-9",
+          "cycling-disciplines-uci-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by cycling discipline: BMX (BMX Freestyle Park), Track Velodrome (Keirin, Madison), Mountain Bike (Cross-Country XCO, Downhill DHI, Enduro), and Road Cycling (Road Race, Individual Time Trial, Team Time Trial, Criterium).",
+  "sources": [
+    {
+      "title": "UCI: Cycling Disciplines",
+      "url": "https://www.uci.org/disciplines",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

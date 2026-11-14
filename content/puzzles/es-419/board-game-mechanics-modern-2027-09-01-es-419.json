@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "board-game-mechanics-modern-2027-09-01-es-419",
+  "puzzleFamilyId": "board-game-mechanics-modern-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-01",
+  "timezone": "UTC",
+  "theme": "Mecánicas modernas de juegos de mesa",
+  "items": [
+    {
+      "itemId": "board-game-mechanics-modern-4",
+      "label": "Construcción de mazos"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-8",
+      "label": "Colocación de losetas"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-1",
+      "label": "Roles ocultos"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-6",
+      "label": "Juego de bazas"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-10",
+      "label": "Colección de sets"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-2",
+      "label": "Mecánica Legacy"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-7",
+      "label": "Colocación de trabajadores"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-5",
+      "label": "Draft de cartas"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-9",
+      "label": "Control de áreas"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-3",
+      "label": "Campaña por escenarios"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Familia mecánica de cada juego de mesa moderno",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Deducción social",
+        "capacity": 1,
+        "itemIds": [
+          "board-game-mechanics-modern-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Legacy y campaña",
+        "capacity": 2,
+        "itemIds": [
+          "board-game-mechanics-modern-2",
+          "board-game-mechanics-modern-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Mecánicas de cartas",
+        "capacity": 3,
+        "itemIds": [
+          "board-game-mechanics-modern-4",
+          "board-game-mechanics-modern-5",
+          "board-game-mechanics-modern-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Tablero y selección de acciones",
+        "capacity": 4,
+        "itemIds": [
+          "board-game-mechanics-modern-7",
+          "board-game-mechanics-modern-8",
+          "board-game-mechanics-modern-9",
+          "board-game-mechanics-modern-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por mecánica: deducción social (roles ocultos), campaña/legacy (legacy permanente, campaña por episodios), mecánicas de cartas (construcción de mazos, draft de cartas, bazas) y tablero/acciones (colocación de trabajadores, colocación de losetas, control de áreas, colección de sets).",
+  "sources": [
+    {
+      "title": "BoardGameGeek Mechanics Taxonomy",
+      "url": "https://boardgamegeek.com/browse/boardgamemechanic",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

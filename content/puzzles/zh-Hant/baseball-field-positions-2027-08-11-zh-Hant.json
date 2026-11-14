@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "baseball-field-positions-2027-08-11-zh-hant",
+  "puzzleFamilyId": "baseball-field-positions-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-11",
+  "timezone": "UTC",
+  "theme": "棒球守備與打擊位置",
+  "items": [
+    {
+      "itemId": "baseball-field-positions-4",
+      "label": "左外野手"
+    },
+    {
+      "itemId": "baseball-field-positions-8",
+      "label": "二壘手"
+    },
+    {
+      "itemId": "baseball-field-positions-1",
+      "label": "指定打擊（DH）"
+    },
+    {
+      "itemId": "baseball-field-positions-6",
+      "label": "右外野手"
+    },
+    {
+      "itemId": "baseball-field-positions-10",
+      "label": "游擊手"
+    },
+    {
+      "itemId": "baseball-field-positions-2",
+      "label": "投手"
+    },
+    {
+      "itemId": "baseball-field-positions-7",
+      "label": "一壘手"
+    },
+    {
+      "itemId": "baseball-field-positions-5",
+      "label": "中外野手"
+    },
+    {
+      "itemId": "baseball-field-positions-9",
+      "label": "三壘手"
+    },
+    {
+      "itemId": "baseball-field-positions-3",
+      "label": "捕手"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "棒球十個位置的角色分類（指定打擊、投捕搭檔、外野手或內野手）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "非守備打擊位置",
+        "capacity": 1,
+        "itemIds": [
+          "baseball-field-positions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "投捕搭檔",
+        "capacity": 2,
+        "itemIds": [
+          "baseball-field-positions-2",
+          "baseball-field-positions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "外野手",
+        "capacity": 3,
+        "itemIds": [
+          "baseball-field-positions-4",
+          "baseball-field-positions-5",
+          "baseball-field-positions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "內野手",
+        "capacity": 4,
+        "itemIds": [
+          "baseball-field-positions-7",
+          "baseball-field-positions-8",
+          "baseball-field-positions-9",
+          "baseball-field-positions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依棒球位置分類：非守備打擊手（指定打擊 DH）、投捕搭檔（投手、捕手）、外野手（左外野手、中外野手、右外野手）與內野手（一壘手、二壘手、三壘手、游擊手）。",
+  "sources": [
+    {
+      "title": "MLB Official Baseball Rules",
+      "url": "https://www.mlb.com/official-information",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.2
+  },
+  "status": "scheduled"
+}

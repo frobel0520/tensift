@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fencing-weapons-actions-2027-08-16-en",
+  "puzzleFamilyId": "fencing-weapons-actions-001",
+  "locale": "en",
+  "publishDate": "2027-08-16",
+  "timezone": "UTC",
+  "theme": "Olympic Fencing",
+  "items": [
+    {
+      "itemId": "fencing-weapons-actions-4",
+      "label": "Fencing Piste"
+    },
+    {
+      "itemId": "fencing-weapons-actions-8",
+      "label": "Retreat"
+    },
+    {
+      "itemId": "fencing-weapons-actions-1",
+      "label": "Sabre"
+    },
+    {
+      "itemId": "fencing-weapons-actions-6",
+      "label": "Wire-Mesh Mask"
+    },
+    {
+      "itemId": "fencing-weapons-actions-10",
+      "label": "Parry-Riposte"
+    },
+    {
+      "itemId": "fencing-weapons-actions-2",
+      "label": "Foil"
+    },
+    {
+      "itemId": "fencing-weapons-actions-7",
+      "label": "Advance"
+    },
+    {
+      "itemId": "fencing-weapons-actions-5",
+      "label": "Metallic Lamé"
+    },
+    {
+      "itemId": "fencing-weapons-actions-9",
+      "label": "Lunge"
+    },
+    {
+      "itemId": "fencing-weapons-actions-3",
+      "label": "Épée"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Fencing category (Cutting & Thrusting Weapon, Thrust-Only Weapons, Equipment/Strip, or Footwork & Blade Actions)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Cutting & Thrusting Weapon",
+        "capacity": 1,
+        "itemIds": [
+          "fencing-weapons-actions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Thrust-Only Weapons",
+        "capacity": 2,
+        "itemIds": [
+          "fencing-weapons-actions-2",
+          "fencing-weapons-actions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Strip & Gear",
+        "capacity": 3,
+        "itemIds": [
+          "fencing-weapons-actions-4",
+          "fencing-weapons-actions-5",
+          "fencing-weapons-actions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Footwork & Blade Actions",
+        "capacity": 4,
+        "itemIds": [
+          "fencing-weapons-actions-7",
+          "fencing-weapons-actions-8",
+          "fencing-weapons-actions-9",
+          "fencing-weapons-actions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by fencing category: Cutting & Thrusting (Sabre), Thrust-Only Weapons (Foil, Épée), Strip & Gear (Fencing Piste, Electric Lamé, Fencing Mask), and Actions & Footwork (Advance, Retreat, Lunge, Parry-Riposte).",
+  "sources": [
+    {
+      "title": "FIE: International Fencing Federation",
+      "url": "https://fie.org/fie/documents/rules",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

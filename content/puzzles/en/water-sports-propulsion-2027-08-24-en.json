@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "water-sports-propulsion-2027-08-24-en",
+  "puzzleFamilyId": "water-sports-propulsion-001",
+  "locale": "en",
+  "publishDate": "2027-08-24",
+  "timezone": "UTC",
+  "theme": "Water Surface Sports",
+  "items": [
+    {
+      "itemId": "water-sports-propulsion-4",
+      "label": "Shortboard Surfing"
+    },
+    {
+      "itemId": "water-sports-propulsion-8",
+      "label": "Whitewater Rafting"
+    },
+    {
+      "itemId": "water-sports-propulsion-1",
+      "label": "Wakeboarding"
+    },
+    {
+      "itemId": "water-sports-propulsion-6",
+      "label": "Stand-Up Paddleboarding (SUP)"
+    },
+    {
+      "itemId": "water-sports-propulsion-10",
+      "label": "Dragon Boat Racing"
+    },
+    {
+      "itemId": "water-sports-propulsion-2",
+      "label": "Windsurfing"
+    },
+    {
+      "itemId": "water-sports-propulsion-7",
+      "label": "Slalom Kayaking"
+    },
+    {
+      "itemId": "water-sports-propulsion-5",
+      "label": "Bodyboarding"
+    },
+    {
+      "itemId": "water-sports-propulsion-9",
+      "label": "Canadian Canoeing"
+    },
+    {
+      "itemId": "water-sports-propulsion-3",
+      "label": "Kitesurfing"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Propulsion & craft class (Boat-Towed Wake, Wind-Powered Sail/Kite, Standing/Wave Surf, or Seated Paddle Craft)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Boat-Towed Wake",
+        "capacity": 1,
+        "itemIds": [
+          "water-sports-propulsion-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Wind-Powered Boards",
+        "capacity": 2,
+        "itemIds": [
+          "water-sports-propulsion-2",
+          "water-sports-propulsion-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Wave & Standing Boards",
+        "capacity": 3,
+        "itemIds": [
+          "water-sports-propulsion-4",
+          "water-sports-propulsion-5",
+          "water-sports-propulsion-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Seated Paddle Craft",
+        "capacity": 4,
+        "itemIds": [
+          "water-sports-propulsion-7",
+          "water-sports-propulsion-8",
+          "water-sports-propulsion-9",
+          "water-sports-propulsion-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by propulsion/craft: Boat-Towed (Wakeboarding), Wind-Powered (Windsurfing, Kitesurfing), Wave & Standing Boards (Surfing, Bodyboarding, Stand-Up Paddleboarding), and Seated Paddle Craft (Kayaking, Whitewater Rafting, Canadian Canoeing, Dragon Boat Racing).",
+  "sources": [
+    {
+      "title": "ICF & ISA Water Sports",
+      "url": "https://www.canoeicf.com/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

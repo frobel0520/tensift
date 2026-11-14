@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "american-football-scoring-2027-08-28-en",
+  "puzzleFamilyId": "american-football-scoring-001",
+  "locale": "en",
+  "publishDate": "2027-08-28",
+  "timezone": "UTC",
+  "theme": "American Football Rules & Plays",
+  "items": [
+    {
+      "itemId": "american-football-scoring-4",
+      "label": "Touchdown (6 pts)"
+    },
+    {
+      "itemId": "american-football-scoring-8",
+      "label": "Hail Mary Pass"
+    },
+    {
+      "itemId": "american-football-scoring-1",
+      "label": "Safety (2 Points)"
+    },
+    {
+      "itemId": "american-football-scoring-6",
+      "label": "Pick-Six (Interception TD)"
+    },
+    {
+      "itemId": "american-football-scoring-10",
+      "label": "Screen Pass"
+    },
+    {
+      "itemId": "american-football-scoring-2",
+      "label": "Extra Point Kick (1 pt)"
+    },
+    {
+      "itemId": "american-football-scoring-7",
+      "label": "Quarterback Sneak"
+    },
+    {
+      "itemId": "american-football-scoring-5",
+      "label": "Field Goal (3 pts)"
+    },
+    {
+      "itemId": "american-football-scoring-9",
+      "label": "Play-Action Pass"
+    },
+    {
+      "itemId": "american-football-scoring-3",
+      "label": "Two-Point Conversion"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "NFL/American football category (Safety 2-pt, Point-After-TD Options, Field Goal/TD Scores, or Offensive Play Types)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "2-Point Defensive Score",
+        "capacity": 1,
+        "itemIds": [
+          "american-football-scoring-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Point-After-Touchdown",
+        "capacity": 2,
+        "itemIds": [
+          "american-football-scoring-2",
+          "american-football-scoring-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Primary Scoring Plays",
+        "capacity": 3,
+        "itemIds": [
+          "american-football-scoring-4",
+          "american-football-scoring-5",
+          "american-football-scoring-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Offensive Play Calls",
+        "capacity": 4,
+        "itemIds": [
+          "american-football-scoring-7",
+          "american-football-scoring-8",
+          "american-football-scoring-9",
+          "american-football-scoring-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by American football category: 2-Point Defensive Score (Safety), Point-After-TD Options (Extra Point Kick, Two-Point Conversion), Primary Scores (Touchdown 6-pt, Field Goal 3-pt, Pick-Six Interception TD), and Offensive Plays (Quarterback Sneak, Hail Mary Pass, Play-Action Pass, Screen Pass).",
+  "sources": [
+    {
+      "title": "NFL Official Playing Rules",
+      "url": "https://operations.nfl.com/the-rules/nfl-rulebook/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

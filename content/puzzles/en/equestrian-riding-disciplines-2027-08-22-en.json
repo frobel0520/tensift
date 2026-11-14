@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "equestrian-riding-disciplines-2027-08-22-en",
+  "puzzleFamilyId": "equestrian-riding-disciplines-001",
+  "locale": "en",
+  "publishDate": "2027-08-22",
+  "timezone": "UTC",
+  "theme": "Equestrian & Horse Sports",
+  "items": [
+    {
+      "itemId": "equestrian-riding-disciplines-4",
+      "label": "Eventing Dressage Phase"
+    },
+    {
+      "itemId": "equestrian-riding-disciplines-8",
+      "label": "Steeplechase Racing"
+    },
+    {
+      "itemId": "equestrian-riding-disciplines-1",
+      "label": "Polo"
+    },
+    {
+      "itemId": "equestrian-riding-disciplines-6",
+      "label": "Eventing Show Jumping Phase"
+    },
+    {
+      "itemId": "equestrian-riding-disciplines-10",
+      "label": "FEI Endurance Riding"
+    },
+    {
+      "itemId": "equestrian-riding-disciplines-2",
+      "label": "Western Reining"
+    },
+    {
+      "itemId": "equestrian-riding-disciplines-7",
+      "label": "Thoroughbred Flat Racing"
+    },
+    {
+      "itemId": "equestrian-riding-disciplines-5",
+      "label": "Eventing Cross-Country Phase"
+    },
+    {
+      "itemId": "equestrian-riding-disciplines-9",
+      "label": "Harness Trotting"
+    },
+    {
+      "itemId": "equestrian-riding-disciplines-3",
+      "label": "Barrel Racing"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Equestrian category (Mounted Ball Sport, Western Riding, Olympic Eventing Phases, or Horse Racing & Endurance)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Mounted Ball Sport",
+        "capacity": 1,
+        "itemIds": [
+          "equestrian-riding-disciplines-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Western Riding Events",
+        "capacity": 2,
+        "itemIds": [
+          "equestrian-riding-disciplines-2",
+          "equestrian-riding-disciplines-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Olympic Eventing Phases",
+        "capacity": 3,
+        "itemIds": [
+          "equestrian-riding-disciplines-4",
+          "equestrian-riding-disciplines-5",
+          "equestrian-riding-disciplines-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Racing & Endurance",
+        "capacity": 4,
+        "itemIds": [
+          "equestrian-riding-disciplines-7",
+          "equestrian-riding-disciplines-8",
+          "equestrian-riding-disciplines-9",
+          "equestrian-riding-disciplines-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by equestrian category: Mounted Ball Sport (Polo), Western Riding (Reining, Barrel Racing), Olympic Eventing Three Phases (Eventing Dressage, Eventing Cross-Country, Eventing Show Jumping), and Racing & Endurance (Thoroughbred Flat Racing, Steeplechase, Harness Trotting, Endurance Riding).",
+  "sources": [
+    {
+      "title": "FEI: Equestrian Disciplines",
+      "url": "https://www.fei.org/disciplines",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

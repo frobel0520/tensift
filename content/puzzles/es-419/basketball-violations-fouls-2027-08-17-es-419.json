@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "basketball-violations-fouls-2027-08-17-es-419",
+  "puzzleFamilyId": "basketball-violations-fouls-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-17",
+  "timezone": "UTC",
+  "theme": "Violaciones y faltas en baloncesto",
+  "items": [
+    {
+      "itemId": "basketball-violations-fouls-4",
+      "label": "Pasos (caminar)"
+    },
+    {
+      "itemId": "basketball-violations-fouls-8",
+      "label": "Falta de bloqueo"
+    },
+    {
+      "itemId": "basketball-violations-fouls-1",
+      "label": "Interferencia (goaltending)"
+    },
+    {
+      "itemId": "basketball-violations-fouls-6",
+      "label": "Acompañamiento (carrying)"
+    },
+    {
+      "itemId": "basketball-violations-fouls-10",
+      "label": "Falta antideportiva"
+    },
+    {
+      "itemId": "basketball-violations-fouls-2",
+      "label": "Violación de 24 segundos"
+    },
+    {
+      "itemId": "basketball-violations-fouls-7",
+      "label": "Falta en ataque (carga)"
+    },
+    {
+      "itemId": "basketball-violations-fouls-5",
+      "label": "Doble regate"
+    },
+    {
+      "itemId": "basketball-violations-fouls-9",
+      "label": "Falta técnica"
+    },
+    {
+      "itemId": "basketball-violations-fouls-3",
+      "label": "Violación de 8 segundos"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría arbitral de cada infracción en baloncesto",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Interferencia al aro",
+        "capacity": 1,
+        "itemIds": [
+          "basketball-violations-fouls-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Violaciones de reloj",
+        "capacity": 2,
+        "itemIds": [
+          "basketball-violations-fouls-2",
+          "basketball-violations-fouls-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Violaciones de manejo",
+        "capacity": 3,
+        "itemIds": [
+          "basketball-violations-fouls-4",
+          "basketball-violations-fouls-5",
+          "basketball-violations-fouls-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Faltas",
+        "capacity": 4,
+        "itemIds": [
+          "basketball-violations-fouls-7",
+          "basketball-violations-fouls-8",
+          "basketball-violations-fouls-9",
+          "basketball-violations-fouls-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por sanción: interferencia (tapón ilegal / goaltending), reloj (24 segundos, 8 segundos de campo trasero), manejo de balón (pasos, doble regate, acompañamiento) y faltas (falta en ataque, bloqueo, falta técnica, antideportiva).",
+  "sources": [
+    {
+      "title": "FIBA Official Basketball Rules",
+      "url": "https://www.fiba.basketball/rules",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

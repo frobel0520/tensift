@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "soccer-tactical-positions-2027-08-12-zh-hant",
+  "puzzleFamilyId": "soccer-tactical-positions-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-12",
+  "timezone": "UTC",
+  "theme": "足球場上戰術位置",
+  "items": [
+    {
+      "itemId": "soccer-tactical-positions-4",
+      "label": "防守中場（後腰）"
+    },
+    {
+      "itemId": "soccer-tactical-positions-8",
+      "label": "左後衛"
+    },
+    {
+      "itemId": "soccer-tactical-positions-1",
+      "label": "守門員"
+    },
+    {
+      "itemId": "soccer-tactical-positions-6",
+      "label": "進攻中場（前腰）"
+    },
+    {
+      "itemId": "soccer-tactical-positions-10",
+      "label": "清道夫（自由人）"
+    },
+    {
+      "itemId": "soccer-tactical-positions-2",
+      "label": "中鋒"
+    },
+    {
+      "itemId": "soccer-tactical-positions-7",
+      "label": "中後衛"
+    },
+    {
+      "itemId": "soccer-tactical-positions-5",
+      "label": "正中場"
+    },
+    {
+      "itemId": "soccer-tactical-positions-9",
+      "label": "右後衛"
+    },
+    {
+      "itemId": "soccer-tactical-positions-3",
+      "label": "二前鋒（影鋒）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各足球位置所屬的場上陣線（守門員、前鋒、中場或後衛）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "守門員",
+        "capacity": 1,
+        "itemIds": [
+          "soccer-tactical-positions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "前鋒",
+        "capacity": 2,
+        "itemIds": [
+          "soccer-tactical-positions-2",
+          "soccer-tactical-positions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "中場",
+        "capacity": 3,
+        "itemIds": [
+          "soccer-tactical-positions-4",
+          "soccer-tactical-positions-5",
+          "soccer-tactical-positions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "後衛",
+        "capacity": 4,
+        "itemIds": [
+          "soccer-tactical-positions-7",
+          "soccer-tactical-positions-8",
+          "soccer-tactical-positions-9",
+          "soccer-tactical-positions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依場上陣線分類：守門員（門將）、前鋒（中鋒、影鋒／二前鋒）、中場（防守中場、正中場、進攻中場）與後衛（中後衛、左後衛、右後衛、清道夫）。",
+  "sources": [
+    {
+      "title": "IFAB Laws of the Game",
+      "url": "https://www.theifab.com/laws-of-the-game-documents/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

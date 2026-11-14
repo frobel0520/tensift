@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "combat-sports-techniques-2027-08-15-en",
+  "puzzleFamilyId": "combat-sports-techniques-001",
+  "locale": "en",
+  "publishDate": "2027-08-15",
+  "timezone": "UTC",
+  "theme": "Combat Sports Techniques",
+  "items": [
+    {
+      "itemId": "combat-sports-techniques-4",
+      "label": "Roundhouse Kick"
+    },
+    {
+      "itemId": "combat-sports-techniques-8",
+      "label": "Cross"
+    },
+    {
+      "itemId": "combat-sports-techniques-1",
+      "label": "Armbar (Juji-Gatame)"
+    },
+    {
+      "itemId": "combat-sports-techniques-6",
+      "label": "Clinch Knee Strike"
+    },
+    {
+      "itemId": "combat-sports-techniques-10",
+      "label": "Uppercut"
+    },
+    {
+      "itemId": "combat-sports-techniques-2",
+      "label": "Hip Throw (O-Goshi)"
+    },
+    {
+      "itemId": "combat-sports-techniques-7",
+      "label": "Jab"
+    },
+    {
+      "itemId": "combat-sports-techniques-5",
+      "label": "Front Push Kick"
+    },
+    {
+      "itemId": "combat-sports-techniques-9",
+      "label": "Hook"
+    },
+    {
+      "itemId": "combat-sports-techniques-3",
+      "label": "Double-Leg Takedown"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Combat technique class (Joint/Choke Submission, Throws & Takedowns, Kicks & Knees, or Boxing Punches)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Submission Hold",
+        "capacity": 1,
+        "itemIds": [
+          "combat-sports-techniques-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Throws & Takedowns",
+        "capacity": 2,
+        "itemIds": [
+          "combat-sports-techniques-2",
+          "combat-sports-techniques-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Kicks & Knees",
+        "capacity": 3,
+        "itemIds": [
+          "combat-sports-techniques-4",
+          "combat-sports-techniques-5",
+          "combat-sports-techniques-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Boxing Punches",
+        "capacity": 4,
+        "itemIds": [
+          "combat-sports-techniques-7",
+          "combat-sports-techniques-8",
+          "combat-sports-techniques-9",
+          "combat-sports-techniques-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by combat class: Submission (Armbar), Throws & Takedowns (Hip Throw, Double-Leg Takedown), Kicks & Knees (Roundhouse Kick, Front Push Kick, Knee Strike), and Boxing Punches (Jab, Cross, Hook, Uppercut).",
+  "sources": [
+    {
+      "title": "World Boxing & UWW Wrestling",
+      "url": "https://uww.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "winter-ice-sliding-sports-2027-08-06-zh-hant",
+  "puzzleFamilyId": "winter-ice-sliding-sports-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-06",
+  "timezone": "UTC",
+  "theme": "冬季冰上與滑橇運動",
+  "items": [
+    {
+      "itemId": "winter-ice-sliding-sports-4",
+      "label": "單人花式滑冰"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-8",
+      "label": "1500 公尺長道競速滑冰"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-1",
+      "label": "俯式冰橇（Skeleton）"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-6",
+      "label": "冰舞"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-10",
+      "label": "短道競速混合接力"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-2",
+      "label": "有舵雪車（Bobsleigh）"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-7",
+      "label": "500 公尺長道競速滑冰"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-5",
+      "label": "雙人花式滑冰"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-9",
+      "label": "500 公尺短道競速滑冰"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-3",
+      "label": "仰式無舵雪橇（Luge）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各冬季冰上運動的類別（俯式冰橇、坐／仰式雪車雪橇、花式滑冰或競速滑冰）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "俯式冰橇",
+        "capacity": 1,
+        "itemIds": [
+          "winter-ice-sliding-sports-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "雪車與仰式雪橇",
+        "capacity": 2,
+        "itemIds": [
+          "winter-ice-sliding-sports-2",
+          "winter-ice-sliding-sports-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "花式滑冰",
+        "capacity": 3,
+        "itemIds": [
+          "winter-ice-sliding-sports-4",
+          "winter-ice-sliding-sports-5",
+          "winter-ice-sliding-sports-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "競速滑冰",
+        "capacity": 4,
+        "itemIds": [
+          "winter-ice-sliding-sports-7",
+          "winter-ice-sliding-sports-8",
+          "winter-ice-sliding-sports-9",
+          "winter-ice-sliding-sports-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依冬季冰上運動分類：俯式冰橇（鋼架雪車 Skeleton）、坐／仰式滑橇（有舵雪車、無舵雪橇）、花式滑冰（男子單人、雙人滑冰、冰舞）與競速滑冰（500 公尺長道、1500 公尺長道、500 公尺短道、短道混合接力）。",
+  "sources": [
+    {
+      "title": "ISU & IBSF Winter Sports",
+      "url": "https://www.isu.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.4
+  },
+  "status": "scheduled"
+}

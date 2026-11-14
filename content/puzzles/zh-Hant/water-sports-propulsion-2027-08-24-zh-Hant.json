@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "water-sports-propulsion-2027-08-24-zh-hant",
+  "puzzleFamilyId": "water-sports-propulsion-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-24",
+  "timezone": "UTC",
+  "theme": "水上運動推進方式",
+  "items": [
+    {
+      "itemId": "water-sports-propulsion-4",
+      "label": "短板衝浪"
+    },
+    {
+      "itemId": "water-sports-propulsion-8",
+      "label": "激流橡皮艇泛舟"
+    },
+    {
+      "itemId": "water-sports-propulsion-1",
+      "label": "寬板滑水（Wakeboarding）"
+    },
+    {
+      "itemId": "water-sports-propulsion-6",
+      "label": "立式划槳（SUP）"
+    },
+    {
+      "itemId": "water-sports-propulsion-10",
+      "label": "龍舟競渡"
+    },
+    {
+      "itemId": "water-sports-propulsion-2",
+      "label": "風浪板（Windsurfing）"
+    },
+    {
+      "itemId": "water-sports-propulsion-7",
+      "label": "激流標竿皮划艇"
+    },
+    {
+      "itemId": "water-sports-propulsion-5",
+      "label": "趴板衝浪（Bodyboarding）"
+    },
+    {
+      "itemId": "water-sports-propulsion-9",
+      "label": "加拿大式單槳獨木舟"
+    },
+    {
+      "itemId": "water-sports-propulsion-3",
+      "label": "風箏衝浪（Kitesurfing）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各水上運動的動力與載具類別（船隻拖曳、風力驅動、浪板站立／俯臥或坐姿划槳船艇）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "船隻拖曳滑水",
+        "capacity": 1,
+        "itemIds": [
+          "water-sports-propulsion-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "風力驅動浪板",
+        "capacity": 2,
+        "itemIds": [
+          "water-sports-propulsion-2",
+          "water-sports-propulsion-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "衝浪與立槳板",
+        "capacity": 3,
+        "itemIds": [
+          "water-sports-propulsion-4",
+          "water-sports-propulsion-5",
+          "water-sports-propulsion-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "坐姿划槳船艇",
+        "capacity": 4,
+        "itemIds": [
+          "water-sports-propulsion-7",
+          "water-sports-propulsion-8",
+          "water-sports-propulsion-9",
+          "water-sports-propulsion-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依動力與載具分類：船隻拖曳（寬板滑水 Wakeboarding）、風力驅動（風浪板、風箏衝浪）、浪板運動（衝浪、趴板衝浪、立式划槳 SUP）與坐姿划槳船艇（獨木舟皮划艇、激流泛舟、加拿大式敞篷獨木舟、龍舟競渡）。",
+  "sources": [
+    {
+      "title": "ICF & ISA Water Sports",
+      "url": "https://www.canoeicf.com/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "card-games-by-deck-2027-08-08-zh-hant",
+  "puzzleFamilyId": "card-games-by-deck-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-08",
+  "timezone": "UTC",
+  "theme": "紙牌遊戲與專用牌組",
+  "items": [
+    {
+      "itemId": "card-games-by-deck-4",
+      "label": "義式布里斯科拉（Briscola）"
+    },
+    {
+      "itemId": "card-games-by-deck-8",
+      "label": "德州撲克"
+    },
+    {
+      "itemId": "card-games-by-deck-1",
+      "label": "法國塔羅牌戲"
+    },
+    {
+      "itemId": "card-games-by-deck-6",
+      "label": "南美特魯科（Truco）"
+    },
+    {
+      "itemId": "card-games-by-deck-10",
+      "label": "金羅美（Gin Rummy）"
+    },
+    {
+      "itemId": "card-games-by-deck-2",
+      "label": "德國斯卡特（Skat）"
+    },
+    {
+      "itemId": "card-games-by-deck-7",
+      "label": "合約橋牌"
+    },
+    {
+      "itemId": "card-games-by-deck-5",
+      "label": "義式掃帚牌（Scopa）"
+    },
+    {
+      "itemId": "card-games-by-deck-9",
+      "label": "克里比奇（Cribbage）"
+    },
+    {
+      "itemId": "card-games-by-deck-3",
+      "label": "法國貝洛特（Belote）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各紙牌遊戲所使用的標準牌組張數與體系（78 張塔羅牌、32 張德式牌、40 張拉丁牌或 52 張撲克牌）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "78 張塔羅牌組",
+        "capacity": 1,
+        "itemIds": [
+          "card-games-by-deck-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "32 張簡式牌組",
+        "capacity": 2,
+        "itemIds": [
+          "card-games-by-deck-2",
+          "card-games-by-deck-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "40 張拉丁牌組",
+        "capacity": 3,
+        "itemIds": [
+          "card-games-by-deck-4",
+          "card-games-by-deck-5",
+          "card-games-by-deck-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "52 張標準撲克牌",
+        "capacity": 4,
+        "itemIds": [
+          "card-games-by-deck-7",
+          "card-games-by-deck-8",
+          "card-games-by-deck-9",
+          "card-games-by-deck-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依牌組體系分類：78 張塔羅牌（法國塔羅牌戲）、32 張簡牌（斯卡特 Skat、貝洛特 Belote）、40 張拉丁牌（布里斯科拉、掃帚牌 Scopa、南美 Truco）與 52 張撲克牌（合約橋牌、德州撲克、克里比奇、金羅美）。",
+  "sources": [
+    {
+      "title": "Pagat: Card Games by Deck",
+      "url": "https://www.pagat.com/class/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

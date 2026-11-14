@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "motorsport-racing-classes-2027-08-21-zh-hant",
+  "puzzleFamilyId": "motorsport-racing-classes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-21",
+  "timezone": "UTC",
+  "theme": "賽車運動四大分類",
+  "items": [
+    {
+      "itemId": "motorsport-racing-classes-4",
+      "label": "MotoGP 世界摩托車錦標賽"
+    },
+    {
+      "itemId": "motorsport-racing-classes-8",
+      "label": "印第賽車（IndyCar）"
+    },
+    {
+      "itemId": "motorsport-racing-classes-1",
+      "label": "NHRA Top Fuel 直線加速賽"
+    },
+    {
+      "itemId": "motorsport-racing-classes-6",
+      "label": "世界超級機車賽（WSBK）"
+    },
+    {
+      "itemId": "motorsport-racing-classes-10",
+      "label": "WEC 利曼 24 小時耐力賽"
+    },
+    {
+      "itemId": "motorsport-racing-classes-2",
+      "label": "WRC 世界拉力錦標賽"
+    },
+    {
+      "itemId": "motorsport-racing-classes-7",
+      "label": "一級方程式賽車（F1）"
+    },
+    {
+      "itemId": "motorsport-racing-classes-5",
+      "label": "世界越野機車賽（MXGP）"
+    },
+    {
+      "itemId": "motorsport-racing-classes-9",
+      "label": "NASCAR 盃賽"
+    },
+    {
+      "itemId": "motorsport-racing-classes-3",
+      "label": "達卡越野拉力賽"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各賽車賽事所屬的競技類別（直線加速賽、越野拉力賽、機車賽事或場地汽車賽）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "直線加速賽",
+        "capacity": 1,
+        "itemIds": [
+          "motorsport-racing-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "拉力與越野賽",
+        "capacity": 2,
+        "itemIds": [
+          "motorsport-racing-classes-2",
+          "motorsport-racing-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "機車賽事",
+        "capacity": 3,
+        "itemIds": [
+          "motorsport-racing-classes-4",
+          "motorsport-racing-classes-5",
+          "motorsport-racing-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "場地汽車賽",
+        "capacity": 4,
+        "itemIds": [
+          "motorsport-racing-classes-7",
+          "motorsport-racing-classes-8",
+          "motorsport-racing-classes-9",
+          "motorsport-racing-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依賽車類別分類：直線加速賽（NHRA Top Fuel）、越野與拉力賽（世界拉力錦標賽 WRC、達卡拉力賽）、機車賽事（MotoGP、世界越野機車 MXGP、世界超級機車 WSBK）與場地汽車賽（一級方程式 F1、印第賽車 IndyCar、NASCAR 盃賽、WEC 利曼耐力賽）。",
+  "sources": [
+    {
+      "title": "FIA & FIM Motorsports",
+      "url": "https://www.fia.com/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

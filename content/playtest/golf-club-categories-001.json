@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "golf-club-categories-001",
+  "theme": "Golf Club Categories",
+  "publishDate": "2027-08-13",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "golf-club-categories-6",
+        "rivalGroupId": "group-4",
+        "risk": "Hybrids replace long irons like the 3-iron.",
+        "resolution": "A hybrid combines wood-like hollow head design with iron length (group-3), distinct from traditional numbered irons (group-4)."
+      },
+      {
+        "itemId": "golf-club-categories-2",
+        "rivalGroupId": "group-4",
+        "risk": "Wedges are short-shafted irons.",
+        "resolution": "Pitching and sand wedges form the specialized high-loft wedge class (group-2), separate from numbered irons 3–9 (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

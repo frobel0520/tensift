@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "rowing-boat-classes-2027-08-29-zh-hant",
+  "puzzleFamilyId": "rowing-boat-classes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-29",
+  "timezone": "UTC",
+  "theme": "奧運划船艇級分類",
+  "items": [
+    {
+      "itemId": "rowing-boat-classes-4",
+      "label": "雙人單槳無舵（2-）"
+    },
+    {
+      "itemId": "rowing-boat-classes-8",
+      "label": "四人雙槳（4x）"
+    },
+    {
+      "itemId": "rowing-boat-classes-1",
+      "label": "單人雙槳（1x）"
+    },
+    {
+      "itemId": "rowing-boat-classes-6",
+      "label": "輕量級雙人雙槳（L2x）"
+    },
+    {
+      "itemId": "rowing-boat-classes-10",
+      "label": "帕奧 PR3 混合四人有舵"
+    },
+    {
+      "itemId": "rowing-boat-classes-2",
+      "label": "男子八人單槳有舵（M8+）"
+    },
+    {
+      "itemId": "rowing-boat-classes-7",
+      "label": "四人單槳無舵（4-）"
+    },
+    {
+      "itemId": "rowing-boat-classes-5",
+      "label": "雙人雙槳（2x）"
+    },
+    {
+      "itemId": "rowing-boat-classes-9",
+      "label": "四人單槳有舵（4+）"
+    },
+    {
+      "itemId": "rowing-boat-classes-3",
+      "label": "女子八人單槳有舵（W8+）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各划船項目的船員人數與單雙槳分類（單人雙槳、八人有舵、雙人級或四人級）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "單人雙槳（1x）",
+        "capacity": 1,
+        "itemIds": [
+          "rowing-boat-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "八人有舵艇（8+）",
+        "capacity": 2,
+        "itemIds": [
+          "rowing-boat-classes-2",
+          "rowing-boat-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "雙人艇（2x / 2-）",
+        "capacity": 3,
+        "itemIds": [
+          "rowing-boat-classes-4",
+          "rowing-boat-classes-5",
+          "rowing-boat-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "四人艇（4x / 4- / 4+）",
+        "capacity": 4,
+        "itemIds": [
+          "rowing-boat-classes-7",
+          "rowing-boat-classes-8",
+          "rowing-boat-classes-9",
+          "rowing-boat-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依奧運划船艇級分類：單人雙槳（單人雙槳 1x）、八人有舵（男子八人單槳有舵 8+、女子八人單槳有舵 8+）、雙人艇（雙人單槳無舵 2-、雙人雙槳 2x、輕量級雙人雙槳 L2x）與四人艇（四人單槳無舵 4-、四人雙槳 4x、四人單槳有舵 4+、帕奧 PR3 混合四人有舵）。",
+  "sources": [
+    {
+      "title": "World Rowing: Boat Classes",
+      "url": "https://worldrowing.com/about/organisation/boat-classes/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

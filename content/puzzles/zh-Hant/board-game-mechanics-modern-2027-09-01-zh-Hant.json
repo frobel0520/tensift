@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "board-game-mechanics-modern-2027-09-01-zh-hant",
+  "puzzleFamilyId": "board-game-mechanics-modern-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-01",
+  "timezone": "UTC",
+  "theme": "現代桌遊核心機制",
+  "items": [
+    {
+      "itemId": "board-game-mechanics-modern-4",
+      "label": "牌庫構築（DBG）"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-8",
+      "label": "板塊拼放"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-1",
+      "label": "隱藏身分陣營推理"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-6",
+      "label": "吃墩機制（Trick-Taking）"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-10",
+      "label": "成套收集"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-2",
+      "label": "永久改動傳承機制"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-7",
+      "label": "工人放置（Worker Placement）"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-5",
+      "label": "輪抽選牌（Drafting）"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-9",
+      "label": "區域控制（區控）"
+    },
+    {
+      "itemId": "board-game-mechanics-modern-3",
+      "label": "章節劇本戰役"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "現代桌遊機制的四大分類（陣營推理、劇本傳承、卡牌構築／輪抽或板塊與行動選擇）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "陣營推理",
+        "capacity": 1,
+        "itemIds": [
+          "board-game-mechanics-modern-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "傳承與戰役",
+        "capacity": 2,
+        "itemIds": [
+          "board-game-mechanics-modern-2",
+          "board-game-mechanics-modern-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "卡牌核心機制",
+        "capacity": 3,
+        "itemIds": [
+          "board-game-mechanics-modern-4",
+          "board-game-mechanics-modern-5",
+          "board-game-mechanics-modern-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "圖版與行動選擇",
+        "capacity": 4,
+        "itemIds": [
+          "board-game-mechanics-modern-7",
+          "board-game-mechanics-modern-8",
+          "board-game-mechanics-modern-9",
+          "board-game-mechanics-modern-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依現代桌遊機制分類：陣營推理（隱藏身分陣營）、傳承戰役（永久貼紙傳承、章節式戰役）、卡牌機制（牌庫構築、輪抽選牌、吃墩機制）與圖版行動機制（工人放置、板塊拼放、區域控制、成套收集）。",
+  "sources": [
+    {
+      "title": "BoardGameGeek Mechanics Taxonomy",
+      "url": "https://boardgamegeek.com/browse/boardgamemechanic",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "athletics-throwing-implements-2027-08-26-zh-hant",
+  "puzzleFamilyId": "athletics-throwing-implements-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-26",
+  "timezone": "UTC",
+  "theme": "田徑投擲與器械規格",
+  "items": [
+    {
+      "itemId": "athletics-throwing-implements-4",
+      "label": "800 克男子標槍"
+    },
+    {
+      "itemId": "athletics-throwing-implements-8",
+      "label": "4 公斤女子鉛球"
+    },
+    {
+      "itemId": "athletics-throwing-implements-1",
+      "label": "35 磅室內重球"
+    },
+    {
+      "itemId": "athletics-throwing-implements-6",
+      "label": "500 克青少年標槍"
+    },
+    {
+      "itemId": "athletics-throwing-implements-10",
+      "label": "5 公斤 U18 男子鉛球"
+    },
+    {
+      "itemId": "athletics-throwing-implements-2",
+      "label": "7.26 公斤男子鏈球"
+    },
+    {
+      "itemId": "athletics-throwing-implements-7",
+      "label": "7.26 公斤成年男子鉛球"
+    },
+    {
+      "itemId": "athletics-throwing-implements-5",
+      "label": "600 克女子標槍"
+    },
+    {
+      "itemId": "athletics-throwing-implements-9",
+      "label": "6 公斤 U20 男子鉛球"
+    },
+    {
+      "itemId": "athletics-throwing-implements-3",
+      "label": "1 公斤女子鐵餅"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各田徑投擲器械的類別（重球、鏈球與鐵餅、標槍或各組別鉛球重量）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "室內重球",
+        "capacity": 1,
+        "itemIds": [
+          "athletics-throwing-implements-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "鏈球與鐵餅",
+        "capacity": 2,
+        "itemIds": [
+          "athletics-throwing-implements-2",
+          "athletics-throwing-implements-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "標槍規格",
+        "capacity": 3,
+        "itemIds": [
+          "athletics-throwing-implements-4",
+          "athletics-throwing-implements-5",
+          "athletics-throwing-implements-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "鉛球各組重量",
+        "capacity": 4,
+        "itemIds": [
+          "athletics-throwing-implements-7",
+          "athletics-throwing-implements-8",
+          "athletics-throwing-implements-9",
+          "athletics-throwing-implements-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依投擲器械分類：室內重球（35 磅室內重球）、旋轉鐵餅／鏈球（男子 7.26 公斤鏈球、女子 1 公斤鐵餅）、標槍類（男子 800 克標槍、女子 600 克標槍、青少年 500 克標槍）與各組鉛球（男子 7.26 公斤、女子 4 公斤、U20 6 公斤、U18 5 公斤鉛球）。",
+  "sources": [
+    {
+      "title": "World Athletics Technical Rules",
+      "url": "https://worldathletics.org/about-iaaf/documents/book-of-rules",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

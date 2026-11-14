@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "american-football-scoring-2027-08-28-zh-hant",
+  "puzzleFamilyId": "american-football-scoring-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-28",
+  "timezone": "UTC",
+  "theme": "美式足球計分與術語",
+  "items": [
+    {
+      "itemId": "american-football-scoring-4",
+      "label": "達陣（6 分）"
+    },
+    {
+      "itemId": "american-football-scoring-8",
+      "label": "萬福瑪莉亞孤注長傳"
+    },
+    {
+      "itemId": "american-football-scoring-1",
+      "label": "安全分（Safety，2 分）"
+    },
+    {
+      "itemId": "american-football-scoring-6",
+      "label": "抄截回攻達陣（Pick-Six）"
+    },
+    {
+      "itemId": "american-football-scoring-10",
+      "label": "掩護短傳（Screen）"
+    },
+    {
+      "itemId": "american-football-scoring-2",
+      "label": "加踢得分（1 分）"
+    },
+    {
+      "itemId": "american-football-scoring-7",
+      "label": "四分衛潛行衝陣"
+    },
+    {
+      "itemId": "american-football-scoring-5",
+      "label": "射門得分（3 分）"
+    },
+    {
+      "itemId": "american-football-scoring-9",
+      "label": "假跑真傳戰術"
+    },
+    {
+      "itemId": "american-football-scoring-3",
+      "label": "兩分轉換進攻"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "美式足球術語的類別（2 分安全分、達陣後附加分、射門／達陣得分或進攻戰術類型）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "防守方 2 分安全分",
+        "capacity": 1,
+        "itemIds": [
+          "american-football-scoring-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "達陣後附加分",
+        "capacity": 2,
+        "itemIds": [
+          "american-football-scoring-2",
+          "american-football-scoring-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "主要得分方式",
+        "capacity": 3,
+        "itemIds": [
+          "american-football-scoring-4",
+          "american-football-scoring-5",
+          "american-football-scoring-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "進攻戰術類型",
+        "capacity": 4,
+        "itemIds": [
+          "american-football-scoring-7",
+          "american-football-scoring-8",
+          "american-football-scoring-9",
+          "american-football-scoring-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依美式足球分類：2 分安全分（Safety）、達陣後附加分（1 分加踢、2 分轉換）、主要得分方式（達陣 6 分、射門 3 分、抄截回攻達陣 Pick-Six）與進攻戰術（四分衛潛行、萬福瑪莉亞長傳、假跑真傳、掩護短傳）。",
+  "sources": [
+    {
+      "title": "NFL Official Playing Rules",
+      "url": "https://operations.nfl.com/the-rules/nfl-rulebook/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

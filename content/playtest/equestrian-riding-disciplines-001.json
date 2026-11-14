@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "equestrian-riding-disciplines-001",
+  "theme": "Equestrian & Horse Sports",
+  "publishDate": "2027-08-22",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "equestrian-riding-disciplines-3",
+        "rivalGroupId": "group-4",
+        "risk": "Barrel Racing is a timed speed event.",
+        "resolution": "Barrel Racing is a Western rodeo arena event (group-2), not track horse racing or long-distance endurance (group-4)."
+      },
+      {
+        "itemId": "equestrian-riding-disciplines-8",
+        "rivalGroupId": "group-3",
+        "risk": "Steeplechase involves jumping obstacles.",
+        "resolution": "Steeplechase is a pari-mutuel horse race over hurdles/water jumps (group-4), not an Olympic Eventing phase (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sailing-vessel-classes-2027-08-30-es-419",
+  "puzzleFamilyId": "sailing-vessel-classes-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-30",
+  "timezone": "UTC",
+  "theme": "Clases de embarcaciones a vela",
+  "items": [
+    {
+      "itemId": "sailing-vessel-classes-4",
+      "label": "ILCA 7 (Laser)"
+    },
+    {
+      "itemId": "sailing-vessel-classes-8",
+      "label": "49er"
+    },
+    {
+      "itemId": "sailing-vessel-classes-1",
+      "label": "Formula Kite"
+    },
+    {
+      "itemId": "sailing-vessel-classes-6",
+      "label": "Optimist"
+    },
+    {
+      "itemId": "sailing-vessel-classes-10",
+      "label": "Snipe"
+    },
+    {
+      "itemId": "sailing-vessel-classes-2",
+      "label": "Nacra 17"
+    },
+    {
+      "itemId": "sailing-vessel-classes-7",
+      "label": "470"
+    },
+    {
+      "itemId": "sailing-vessel-classes-5",
+      "label": "Finn"
+    },
+    {
+      "itemId": "sailing-vessel-classes-9",
+      "label": "49erFX"
+    },
+    {
+      "itemId": "sailing-vessel-classes-3",
+      "label": "Catamarán Fórmula 18"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase de embarcación a vela según casco y tripulación",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Kite con hidrofoil",
+        "capacity": 1,
+        "itemIds": [
+          "sailing-vessel-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Multicascos (catamaranes)",
+        "capacity": 2,
+        "itemIds": [
+          "sailing-vessel-classes-2",
+          "sailing-vessel-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Monotipos individuales",
+        "capacity": 3,
+        "itemIds": [
+          "sailing-vessel-classes-4",
+          "sailing-vessel-classes-5",
+          "sailing-vessel-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Veleros dobles",
+        "capacity": 4,
+        "itemIds": [
+          "sailing-vessel-classes-7",
+          "sailing-vessel-classes-8",
+          "sailing-vessel-classes-9",
+          "sailing-vessel-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase: kite con foil (Formula Kite), multicascos (Nacra 17, catamarán F18), monotipos individuales (ILCA 7 / Laser, Finn, Optimist) y dobles/skiffs (470, 49er, 49erFX, Snipe).",
+  "sources": [
+    {
+      "title": "World Sailing: Olympic & Class Boats",
+      "url": "https://www.sailing.org/classes/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

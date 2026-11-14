@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "precision-target-cue-sports-001",
+  "theme": "Precision, Cue & Pin Sports",
+  "publishDate": "2027-08-20",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "precision-target-cue-sports-1",
+        "rivalGroupId": "group-4",
+        "risk": "Bowling and Lawn Bowls both roll heavy balls toward a target.",
+        "resolution": "Ten-Pin Bowling knocks down wooden/composite pins on an indoor lane (group-1), whereas Lawn Bowls/Bocce/Curling score by proximity to a jack/button (group-4)."
+      },
+      {
+        "itemId": "precision-target-cue-sports-3",
+        "rivalGroupId": "group-4",
+        "risk": "Cricket Darts shares a name with bat-and-ball Cricket.",
+        "resolution": "Cricket Darts is a dartboard sector-closing format (group-2), not a lawn sport."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

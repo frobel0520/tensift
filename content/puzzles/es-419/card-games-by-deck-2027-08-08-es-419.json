@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "card-games-by-deck-2027-08-08-es-419",
+  "puzzleFamilyId": "card-games-by-deck-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-08",
+  "timezone": "UTC",
+  "theme": "Juegos de cartas por tipo de baraja",
+  "items": [
+    {
+      "itemId": "card-games-by-deck-4",
+      "label": "Brisca (Briscola)"
+    },
+    {
+      "itemId": "card-games-by-deck-8",
+      "label": "Texas hold’em"
+    },
+    {
+      "itemId": "card-games-by-deck-1",
+      "label": "Tarot francés"
+    },
+    {
+      "itemId": "card-games-by-deck-6",
+      "label": "Truco argentino"
+    },
+    {
+      "itemId": "card-games-by-deck-10",
+      "label": "Gin rummy"
+    },
+    {
+      "itemId": "card-games-by-deck-2",
+      "label": "Skat"
+    },
+    {
+      "itemId": "card-games-by-deck-7",
+      "label": "Bridge de contrato"
+    },
+    {
+      "itemId": "card-games-by-deck-5",
+      "label": "Scopa"
+    },
+    {
+      "itemId": "card-games-by-deck-9",
+      "label": "Cribbage"
+    },
+    {
+      "itemId": "card-games-by-deck-3",
+      "label": "Belote"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Baraja estándar utilizada en cada juego",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Baraja de tarot (78 cartas)",
+        "capacity": 1,
+        "itemIds": [
+          "card-games-by-deck-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Baraja corta de 32 cartas",
+        "capacity": 2,
+        "itemIds": [
+          "card-games-by-deck-2",
+          "card-games-by-deck-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Baraja latina de 40 cartas",
+        "capacity": 3,
+        "itemIds": [
+          "card-games-by-deck-4",
+          "card-games-by-deck-5",
+          "card-games-by-deck-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Baraja inglesa de 52 cartas",
+        "capacity": 4,
+        "itemIds": [
+          "card-games-by-deck-7",
+          "card-games-by-deck-8",
+          "card-games-by-deck-9",
+          "card-games-by-deck-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por baraja: tarot de 78 cartas (tarot francés), baraja de 32 cartas (skat, belote), baraja latina de 40 cartas (briscola, scopa, truco) y baraja inglesa de 52 cartas (bridge, Texas hold’em, cribbage, gin rummy).",
+  "sources": [
+    {
+      "title": "Pagat: Card Games by Deck",
+      "url": "https://www.pagat.com/class/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

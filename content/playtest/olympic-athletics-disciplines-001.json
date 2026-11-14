@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "olympic-athletics-disciplines-001",
+  "theme": "Olympic Track & Field",
+  "publishDate": "2027-07-30",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "olympic-athletics-disciplines-1",
+        "rivalGroupId": "group-4",
+        "risk": "Decathlon includes several track running events.",
+        "resolution": "Decathlon is a 10-event combined competition (group-1), not a single track race (group-4)."
+      },
+      {
+        "itemId": "olympic-athletics-disciplines-8",
+        "rivalGroupId": "group-2",
+        "risk": "Hurdles involve leaping over barriers.",
+        "resolution": "400m Hurdles is a track running event (group-4), not a field jumping event (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

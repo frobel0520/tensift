@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "shooting-sports-events-2027-08-31-es-419",
+  "puzzleFamilyId": "shooting-sports-events-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-31",
+  "timezone": "UTC",
+  "theme": "Pruebas de tiro olímpico",
+  "items": [
+    {
+      "itemId": "shooting-sports-events-4",
+      "label": "Pistola de aire 10 m"
+    },
+    {
+      "itemId": "shooting-sports-events-8",
+      "label": "Rifle 50 m tres posiciones"
+    },
+    {
+      "itemId": "shooting-sports-events-1",
+      "label": "10 m blanco móvil"
+    },
+    {
+      "itemId": "shooting-sports-events-6",
+      "label": "Pistola deportiva 25 m"
+    },
+    {
+      "itemId": "shooting-sports-events-10",
+      "label": "Rifle estándar 300 m"
+    },
+    {
+      "itemId": "shooting-sports-events-2",
+      "label": "Foso olímpico (Trap)"
+    },
+    {
+      "itemId": "shooting-sports-events-7",
+      "label": "Rifle de aire 10 m"
+    },
+    {
+      "itemId": "shooting-sports-events-5",
+      "label": "Pistola tiro rápido 25 m"
+    },
+    {
+      "itemId": "shooting-sports-events-9",
+      "label": "Rifle 50 m tendido"
+    },
+    {
+      "itemId": "shooting-sports-events-3",
+      "label": "Skeet"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Disciplina de arma y blanco en tiro deportivo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Blanco móvil",
+        "capacity": 1,
+        "itemIds": [
+          "shooting-sports-events-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Tiro al plato (escopeta)",
+        "capacity": 2,
+        "itemIds": [
+          "shooting-sports-events-2",
+          "shooting-sports-events-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Pruebas de pistola",
+        "capacity": 3,
+        "itemIds": [
+          "shooting-sports-events-4",
+          "shooting-sports-events-5",
+          "shooting-sports-events-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Pruebas de rifle",
+        "capacity": 4,
+        "itemIds": [
+          "shooting-sports-events-7",
+          "shooting-sports-events-8",
+          "shooting-sports-events-9",
+          "shooting-sports-events-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por disciplina: blanco móvil (10 m blanco móvil), escopeta al plato (foso/trap, skeet), pistola (10 m aire, 25 m tiro rápido, 25 m deportiva) y rifle/carabina (10 m aire, 50 m tres posiciones, 50 m tendido, 300 m estándar).",
+  "sources": [
+    {
+      "title": "ISSF: International Shooting Sport Federation",
+      "url": "https://www.issf-sports.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

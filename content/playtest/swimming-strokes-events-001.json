@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "swimming-strokes-events-001",
+  "theme": "Competitive Swimming Events",
+  "publishDate": "2027-08-01",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "swimming-strokes-events-1",
+        "rivalGroupId": "group-2",
+        "risk": "Both 400m IM and Medley Relay swim all four strokes.",
+        "resolution": "400m IM is swum by a single athlete (group-1), whereas the Medley Relay uses four swimmers (group-2)."
+      },
+      {
+        "itemId": "swimming-strokes-events-2",
+        "rivalGroupId": "group-4",
+        "risk": "4x100m Freestyle Relay uses freestyle.",
+        "resolution": "It is a 4-swimmer team relay (group-2), not an individual freestyle distance (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

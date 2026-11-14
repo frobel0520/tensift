@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sport-ball-types-2027-07-29-es-419",
+  "puzzleFamilyId": "sport-ball-types-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-29",
+  "timezone": "UTC",
+  "theme": "Deportes por tipo de proyectil",
+  "items": [
+    {
+      "itemId": "sport-ball-types-4",
+      "label": "Béisbol"
+    },
+    {
+      "itemId": "sport-ball-types-8",
+      "label": "Baloncesto"
+    },
+    {
+      "itemId": "sport-ball-types-1",
+      "label": "Bádminton"
+    },
+    {
+      "itemId": "sport-ball-types-6",
+      "label": "Golf"
+    },
+    {
+      "itemId": "sport-ball-types-10",
+      "label": "Waterpolo"
+    },
+    {
+      "itemId": "sport-ball-types-2",
+      "label": "Rugby union"
+    },
+    {
+      "itemId": "sport-ball-types-7",
+      "label": "Fútbol"
+    },
+    {
+      "itemId": "sport-ball-types-5",
+      "label": "Hockey sobre césped"
+    },
+    {
+      "itemId": "sport-ball-types-9",
+      "label": "Voleibol"
+    },
+    {
+      "itemId": "sport-ball-types-3",
+      "label": "Hockey sobre hielo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tipo de proyectil usado en cada deporte",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Volante de plumas",
+        "capacity": 1,
+        "itemIds": [
+          "sport-ball-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "No esférico / disco",
+        "capacity": 2,
+        "itemIds": [
+          "sport-ball-types-2",
+          "sport-ball-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Pelota pequeña sólida",
+        "capacity": 3,
+        "itemIds": [
+          "sport-ball-types-4",
+          "sport-ball-types-5",
+          "sport-ball-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Balón inflado grande",
+        "capacity": 4,
+        "itemIds": [
+          "sport-ball-types-7",
+          "sport-ball-types-8",
+          "sport-ball-types-9",
+          "sport-ball-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por proyectil: volante con plumas (bádminton), no esférico/disco (rugby, hockey sobre hielo), pelota pequeña sólida (béisbol, hockey sobre césped, golf) y balón inflado grande (fútbol, baloncesto, voleibol, waterpolo).",
+  "sources": [
+    {
+      "title": "International Olympic Committee: Sports",
+      "url": "https://olympics.com/en/sports/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.24
+  },
+  "status": "scheduled"
+}

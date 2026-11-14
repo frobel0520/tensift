@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "shooting-sports-events-001",
+  "theme": "Olympic Shooting Events",
+  "publishDate": "2027-08-31",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "shooting-sports-events-1",
+        "rivalGroupId": "group-4",
+        "risk": "10m Running Target is shot with an air rifle.",
+        "resolution": "It is classified under the specialized Moving Target discipline (group-1), distinct from stationary precision Rifle events (group-4)."
+      },
+      {
+        "itemId": "shooting-sports-events-4",
+        "rivalGroupId": "group-4",
+        "risk": "10m Air Pistol and 10m Air Rifle share the 10m air range.",
+        "resolution": "10m Air Pistol uses a one-handed handgun (group-3), not a shoulder-stocked rifle (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

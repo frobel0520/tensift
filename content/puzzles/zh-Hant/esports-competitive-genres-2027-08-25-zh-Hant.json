@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "esports-competitive-genres-2027-08-25-zh-hant",
+  "puzzleFamilyId": "esports-competitive-genres-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-25",
+  "timezone": "UTC",
+  "theme": "電子競技遊戲類型",
+  "items": [
+    {
+      "itemId": "esports-competitive-genres-4",
+      "label": "星海爭霸 II"
+    },
+    {
+      "itemId": "esports-competitive-genres-8",
+      "label": "特戰英豪（Valorant）"
+    },
+    {
+      "itemId": "esports-competitive-genres-1",
+      "label": "osu! 節奏遊戲"
+    },
+    {
+      "itemId": "esports-competitive-genres-6",
+      "label": "Dota 2"
+    },
+    {
+      "itemId": "esports-competitive-genres-10",
+      "label": "Apex 英雄"
+    },
+    {
+      "itemId": "esports-competitive-genres-2",
+      "label": "快打旋風 6"
+    },
+    {
+      "itemId": "esports-competitive-genres-7",
+      "label": "絕對武力 2（CS2）"
+    },
+    {
+      "itemId": "esports-competitive-genres-5",
+      "label": "英雄聯盟"
+    },
+    {
+      "itemId": "esports-competitive-genres-9",
+      "label": "鬥陣特攻 2"
+    },
+    {
+      "itemId": "esports-competitive-genres-3",
+      "label": "鐵拳 8"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各電競代表遊戲所屬的競技類型（音樂節奏、格鬥對戰、即時戰略／MOBA 或第一人稱射擊）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "音樂節奏遊戲",
+        "capacity": 1,
+        "itemIds": [
+          "esports-competitive-genres-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "格鬥對戰遊戲",
+        "capacity": 2,
+        "itemIds": [
+          "esports-competitive-genres-2",
+          "esports-competitive-genres-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "即時戰略與 MOBA",
+        "capacity": 3,
+        "itemIds": [
+          "esports-competitive-genres-4",
+          "esports-competitive-genres-5",
+          "esports-competitive-genres-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "第一人稱射擊（FPS）",
+        "capacity": 4,
+        "itemIds": [
+          "esports-competitive-genres-7",
+          "esports-competitive-genres-8",
+          "esports-competitive-genres-9",
+          "esports-competitive-genres-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依電競類型分類：音樂節奏（osu!）、格鬥對戰（快打旋風 6、鐵拳 8）、戰略與 MOBA（星海爭霸 II、英雄聯盟、Dota 2）與第一人稱射擊 FPS（Counter-Strike 2、特戰英豪 Valorant、鬥陣特攻 2、Apex 英雄）。",
+  "sources": [
+    {
+      "title": "IESF: International Esports Federation",
+      "url": "https://iesf.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

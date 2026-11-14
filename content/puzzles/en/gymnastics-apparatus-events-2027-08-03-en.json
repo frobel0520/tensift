@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "gymnastics-apparatus-events-2027-08-03-en",
+  "puzzleFamilyId": "gymnastics-apparatus-events-001",
+  "locale": "en",
+  "publishDate": "2027-08-03",
+  "timezone": "UTC",
+  "theme": "Gymnastics Apparatus",
+  "items": [
+    {
+      "itemId": "gymnastics-apparatus-events-4",
+      "label": "Pommel Horse"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-8",
+      "label": "Rhythmic Ball"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-1",
+      "label": "Artistic Floor Exercise"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-6",
+      "label": "Horizontal Bar"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-10",
+      "label": "Rhythmic Ribbon"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-2",
+      "label": "Uneven Bars"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-7",
+      "label": "Rhythmic Hoop"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-5",
+      "label": "Still Rings"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-9",
+      "label": "Rhythmic Clubs"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-3",
+      "label": "Balance Beam"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Gymnastics apparatus group (Floor Exercise, Women-Only Artistic, Men-Only Artistic, or Rhythmic Hand Apparatus)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Floor Mat Event",
+        "capacity": 1,
+        "itemIds": [
+          "gymnastics-apparatus-events-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Women-Only Artistic",
+        "capacity": 2,
+        "itemIds": [
+          "gymnastics-apparatus-events-2",
+          "gymnastics-apparatus-events-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Men-Only Artistic",
+        "capacity": 3,
+        "itemIds": [
+          "gymnastics-apparatus-events-4",
+          "gymnastics-apparatus-events-5",
+          "gymnastics-apparatus-events-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Rhythmic Hand Apparatus",
+        "capacity": 4,
+        "itemIds": [
+          "gymnastics-apparatus-events-7",
+          "gymnastics-apparatus-events-8",
+          "gymnastics-apparatus-events-9",
+          "gymnastics-apparatus-events-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by gymnastics category: Floor Exercise (Artistic Floor Exercise), Women-Only Artistic (Uneven Bars, Balance Beam), Men-Only Artistic (Pommel Horse, Still Rings, Horizontal Bar), and Rhythmic Hand Apparatus (Rhythmic Hoop, Rhythmic Ball, Rhythmic Clubs, Rhythmic Ribbon).",
+  "sources": [
+    {
+      "title": "FIG: Gymnastics Disciplines",
+      "url": "https://www.gymnastics.sport/site/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

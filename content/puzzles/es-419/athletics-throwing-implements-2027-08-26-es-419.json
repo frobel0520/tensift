@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "athletics-throwing-implements-2027-08-26-es-419",
+  "puzzleFamilyId": "athletics-throwing-implements-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-26",
+  "timezone": "UTC",
+  "theme": "Implementos de lanzamiento en atletismo",
+  "items": [
+    {
+      "itemId": "athletics-throwing-implements-4",
+      "label": "Jabalina masculina de 800 g"
+    },
+    {
+      "itemId": "athletics-throwing-implements-8",
+      "label": "Bala femenina de 4 kg"
+    },
+    {
+      "itemId": "athletics-throwing-implements-1",
+      "label": "Peso de 35 lb bajo techo"
+    },
+    {
+      "itemId": "athletics-throwing-implements-6",
+      "label": "Jabalina juvenil de 500 g"
+    },
+    {
+      "itemId": "athletics-throwing-implements-10",
+      "label": "Bala sub-18 de 5 kg"
+    },
+    {
+      "itemId": "athletics-throwing-implements-2",
+      "label": "Martillo de 7.26 kg"
+    },
+    {
+      "itemId": "athletics-throwing-implements-7",
+      "label": "Bala masculina de 7.26 kg"
+    },
+    {
+      "itemId": "athletics-throwing-implements-5",
+      "label": "Jabalina femenina de 600 g"
+    },
+    {
+      "itemId": "athletics-throwing-implements-9",
+      "label": "Bala sub-20 de 6 kg"
+    },
+    {
+      "itemId": "athletics-throwing-implements-3",
+      "label": "Disco femenino de 1 kg"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría del implemento o peso reglamentario en atletismo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Lanzamiento de peso bajo techo",
+        "capacity": 1,
+        "itemIds": [
+          "athletics-throwing-implements-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Martillo y disco",
+        "capacity": 2,
+        "itemIds": [
+          "athletics-throwing-implements-2",
+          "athletics-throwing-implements-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Especificaciones de jabalina",
+        "capacity": 3,
+        "itemIds": [
+          "athletics-throwing-implements-4",
+          "athletics-throwing-implements-5",
+          "athletics-throwing-implements-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Pesos de bala",
+        "capacity": 4,
+        "itemIds": [
+          "athletics-throwing-implements-7",
+          "athletics-throwing-implements-8",
+          "athletics-throwing-implements-9",
+          "athletics-throwing-implements-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por implemento: peso bajo techo (peso de 35 lb), martillo y disco (martillo masculino 7.26 kg, disco femenino 1 kg), jabalinas (800 g, 600 g, 500 g) y balas de lanzamiento (7.26 kg, 4 kg, 6 kg sub-20, 5 kg sub-18).",
+  "sources": [
+    {
+      "title": "World Athletics Technical Rules",
+      "url": "https://worldathletics.org/about-iaaf/documents/book-of-rules",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

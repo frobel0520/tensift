@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "american-football-scoring-2027-08-28-es-419",
+  "puzzleFamilyId": "american-football-scoring-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-28",
+  "timezone": "UTC",
+  "theme": "Puntuación y jugadas en fútbol americano",
+  "items": [
+    {
+      "itemId": "american-football-scoring-4",
+      "label": "Touchdown (6 puntos)"
+    },
+    {
+      "itemId": "american-football-scoring-8",
+      "label": "Pase Hail Mary"
+    },
+    {
+      "itemId": "american-football-scoring-1",
+      "label": "Safety (2 puntos)"
+    },
+    {
+      "itemId": "american-football-scoring-6",
+      "label": "Pick-six (intercepción a touchdown)"
+    },
+    {
+      "itemId": "american-football-scoring-10",
+      "label": "Pase pantalla (screen)"
+    },
+    {
+      "itemId": "american-football-scoring-2",
+      "label": "Punto extra (1 punto)"
+    },
+    {
+      "itemId": "american-football-scoring-7",
+      "label": "Quarterback sneak"
+    },
+    {
+      "itemId": "american-football-scoring-5",
+      "label": "Gol de campo (3 puntos)"
+    },
+    {
+      "itemId": "american-football-scoring-9",
+      "label": "Play-action pass"
+    },
+    {
+      "itemId": "american-football-scoring-3",
+      "label": "Conversión de 2 puntos"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría de cada jugada o puntuación en fútbol americano",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Anotación defensiva (2 pts)",
+        "capacity": 1,
+        "itemIds": [
+          "american-football-scoring-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Punto tras touchdown",
+        "capacity": 2,
+        "itemIds": [
+          "american-football-scoring-2",
+          "american-football-scoring-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Anotaciones principales",
+        "capacity": 3,
+        "itemIds": [
+          "american-football-scoring-4",
+          "american-football-scoring-5",
+          "american-football-scoring-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Jugadas ofensivas",
+        "capacity": 4,
+        "itemIds": [
+          "american-football-scoring-7",
+          "american-football-scoring-8",
+          "american-football-scoring-9",
+          "american-football-scoring-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: puntuación defensiva (safety de 2 pts), punto tras touchdown (punto extra, conversión de 2 pts), anotaciones principales (touchdown 6 pts, gol de campo 3 pts, pick-six) y jugadas ofensivas (QB sneak, Hail Mary, play-action, pase pantalla).",
+  "sources": [
+    {
+      "title": "NFL Official Playing Rules",
+      "url": "https://operations.nfl.com/the-rules/nfl-rulebook/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

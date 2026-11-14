@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "rugby-scoring-actions-2027-08-27-zh-hant",
+  "puzzleFamilyId": "rugby-scoring-actions-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-27",
+  "timezone": "UTC",
+  "theme": "橄欖球計分與比賽階段",
+  "items": [
+    {
+      "itemId": "rugby-scoring-actions-4",
+      "label": "正集團（Scrum）"
+    },
+    {
+      "itemId": "rugby-scoring-actions-8",
+      "label": "冒爾推進（Maul）"
+    },
+    {
+      "itemId": "rugby-scoring-actions-1",
+      "label": "達陣（5 分）"
+    },
+    {
+      "itemId": "rugby-scoring-actions-6",
+      "label": "中線開球"
+    },
+    {
+      "itemId": "rugby-scoring-actions-10",
+      "label": "被擒抱前分球（Offload）"
+    },
+    {
+      "itemId": "rugby-scoring-actions-2",
+      "label": "達陣後加踢（2 分）"
+    },
+    {
+      "itemId": "rugby-scoring-actions-7",
+      "label": "拉克爭球（Ruck）"
+    },
+    {
+      "itemId": "rugby-scoring-actions-5",
+      "label": "邊線爭邊球（Lineout）"
+    },
+    {
+      "itemId": "rugby-scoring-actions-9",
+      "label": "擒抱（Tackle）"
+    },
+    {
+      "itemId": "rugby-scoring-actions-3",
+      "label": "罰踢得分（3 分）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "十五人制橄欖球術語的類別（5 分達陣、2～3 分踢球得分、定位球重啟或開放賽局階段）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "5 分達陣得分",
+        "capacity": 1,
+        "itemIds": [
+          "rugby-scoring-actions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "踢球得分（2–3 分）",
+        "capacity": 2,
+        "itemIds": [
+          "rugby-scoring-actions-2",
+          "rugby-scoring-actions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "定位球重啟",
+        "capacity": 3,
+        "itemIds": [
+          "rugby-scoring-actions-4",
+          "rugby-scoring-actions-5",
+          "rugby-scoring-actions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "開放賽局攻防",
+        "capacity": 4,
+        "itemIds": [
+          "rugby-scoring-actions-7",
+          "rugby-scoring-actions-8",
+          "rugby-scoring-actions-9",
+          "rugby-scoring-actions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依十五人制橄欖球分類：5 分得分（達陣 Try）、踢球得分（加踢 Conversion、罰踢得分）、定位球重啟（正集團 Scrum、邊線爭邊球 Lineout、開球）與開放賽局（拉克爭球 Ruck、冒爾推進 Maul、擒抱、倒地前傳球 Offload）。",
+  "sources": [
+    {
+      "title": "World Rugby Laws of the Game",
+      "url": "https://www.world.rugby/the-game/laws/home",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cricket-dismissal-modes-2027-08-18-es-419",
+  "puzzleFamilyId": "cricket-dismissal-modes-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-18",
+  "timezone": "UTC",
+  "theme": "Formas de eliminación en críquet",
+  "items": [
+    {
+      "itemId": "cricket-dismissal-modes-4",
+      "label": "Run out"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-8",
+      "label": "Caught"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-1",
+      "label": "Timed out"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-6",
+      "label": "Hit wicket"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-10",
+      "label": "Retired out"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-2",
+      "label": "Golpear la pelota dos veces"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-7",
+      "label": "Bowled"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-5",
+      "label": "Stumped"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-9",
+      "label": "LBW (pierna ante el wicket)"
+    },
+    {
+      "itemId": "cricket-dismissal-modes-3",
+      "label": "Obstrucción al campo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría reglamentaria de cada forma de out en críquet",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Fuera de tiempo",
+        "capacity": 1,
+        "itemIds": [
+          "cricket-dismissal-modes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Infracciones técnicas raras",
+        "capacity": 2,
+        "itemIds": [
+          "cricket-dismissal-modes-2",
+          "cricket-dismissal-modes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Crease y stumps",
+        "capacity": 3,
+        "itemIds": [
+          "cricket-dismissal-modes-4",
+          "cricket-dismissal-modes-5",
+          "cricket-dismissal-modes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Eliminaciones principales y retiro",
+        "capacity": 4,
+        "itemIds": [
+          "cricket-dismissal-modes-7",
+          "cricket-dismissal-modes-8",
+          "cricket-dismissal-modes-9",
+          "cricket-dismissal-modes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por reglamento: fuera de tiempo (timed out), faltas técnicas raras (golpear dos veces, obstrucción), en el crease/stumps (run out, stumped, hit wicket) y principales/retiro (bowled, caught, LBW, retired out).",
+  "sources": [
+    {
+      "title": "MCC Laws of Cricket: Dismissals",
+      "url": "https://www.lords.org/mcc/the-laws-of-cricket",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.72
+  },
+  "status": "scheduled"
+}

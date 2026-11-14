@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "esports-competitive-genres-001",
+  "theme": "Competitive Esports Genres",
+  "publishDate": "2027-08-25",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "esports-competitive-genres-9",
+        "rivalGroupId": "group-3",
+        "risk": "Overwatch 2 uses hero abilities like a MOBA.",
+        "resolution": "Overwatch 2 is played in first-person shooter perspective (group-4), unlike top-down RTS/MOBA titles (group-3)."
+      },
+      {
+        "itemId": "esports-competitive-genres-4",
+        "rivalGroupId": "group-2",
+        "risk": "StarCraft II is a 1v1 duel like fighting games.",
+        "resolution": "StarCraft II is a real-time strategy game with base building and armies (group-3), not a 1v1 fighting game (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

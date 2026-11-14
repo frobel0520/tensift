@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fencing-weapons-actions-2027-08-16-es-419",
+  "puzzleFamilyId": "fencing-weapons-actions-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-16",
+  "timezone": "UTC",
+  "theme": "Esgrima olímpica",
+  "items": [
+    {
+      "itemId": "fencing-weapons-actions-4",
+      "label": "Pista de esgrima"
+    },
+    {
+      "itemId": "fencing-weapons-actions-8",
+      "label": "Romper (retroceder)"
+    },
+    {
+      "itemId": "fencing-weapons-actions-1",
+      "label": "Sable"
+    },
+    {
+      "itemId": "fencing-weapons-actions-6",
+      "label": "Careta de esgrima"
+    },
+    {
+      "itemId": "fencing-weapons-actions-10",
+      "label": "Parada y respuesta"
+    },
+    {
+      "itemId": "fencing-weapons-actions-2",
+      "label": "Florete"
+    },
+    {
+      "itemId": "fencing-weapons-actions-7",
+      "label": "Marchar (avanzar)"
+    },
+    {
+      "itemId": "fencing-weapons-actions-5",
+      "label": "Chaqueta eléctrica (lamé)"
+    },
+    {
+      "itemId": "fencing-weapons-actions-9",
+      "label": "Fondo (lunge)"
+    },
+    {
+      "itemId": "fencing-weapons-actions-3",
+      "label": "Espada (épée)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría técnica de cada elemento de esgrima",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Arma de corte y estocada",
+        "capacity": 1,
+        "itemIds": [
+          "fencing-weapons-actions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Armas solo de estocada",
+        "capacity": 2,
+        "itemIds": [
+          "fencing-weapons-actions-2",
+          "fencing-weapons-actions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Pista y equipamiento",
+        "capacity": 3,
+        "itemIds": [
+          "fencing-weapons-actions-4",
+          "fencing-weapons-actions-5",
+          "fencing-weapons-actions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Desplazamientos y acciones",
+        "capacity": 4,
+        "itemIds": [
+          "fencing-weapons-actions-7",
+          "fencing-weapons-actions-8",
+          "fencing-weapons-actions-9",
+          "fencing-weapons-actions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: arma de corte y estocada (sable), armas solo de estocada (florete, espada), pista y equipo (pista, peto eléctrico, careta) y acciones/desplazamientos (avanzar, retroceder, fondo/estocada, parada y respuesta).",
+  "sources": [
+    {
+      "title": "FIE: International Fencing Federation",
+      "url": "https://fie.org/fie/documents/rules",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

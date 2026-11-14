@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "poker-hand-rankings-2027-08-10-zh-hant",
+  "puzzleFamilyId": "poker-hand-rankings-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-10",
+  "timezone": "UTC",
+  "theme": "標準五張撲克牌型階級",
+  "items": [
+    {
+      "itemId": "poker-hand-rankings-4",
+      "label": "葫蘆（Full House）"
+    },
+    {
+      "itemId": "poker-hand-rankings-8",
+      "label": "兩對"
+    },
+    {
+      "itemId": "poker-hand-rankings-1",
+      "label": "皇家同花順"
+    },
+    {
+      "itemId": "poker-hand-rankings-6",
+      "label": "順子"
+    },
+    {
+      "itemId": "poker-hand-rankings-10",
+      "label": "高牌（散牌）"
+    },
+    {
+      "itemId": "poker-hand-rankings-2",
+      "label": "同花順"
+    },
+    {
+      "itemId": "poker-hand-rankings-7",
+      "label": "三條"
+    },
+    {
+      "itemId": "poker-hand-rankings-5",
+      "label": "同花"
+    },
+    {
+      "itemId": "poker-hand-rankings-9",
+      "label": "一對"
+    },
+    {
+      "itemId": "poker-hand-rankings-3",
+      "label": "四條（鐵支）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "十種標準撲克牌型由強到弱的階層分組（皇家同花順、頂尖牌型、中階牌型或基礎對子與高牌）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "第 1 級：皇家同花順",
+        "capacity": 1,
+        "itemIds": [
+          "poker-hand-rankings-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "第 2–3 級：同花順與鐵支",
+        "capacity": 2,
+        "itemIds": [
+          "poker-hand-rankings-2",
+          "poker-hand-rankings-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "第 4–6 級：葫蘆、同花與順子",
+        "capacity": 3,
+        "itemIds": [
+          "poker-hand-rankings-4",
+          "poker-hand-rankings-5",
+          "poker-hand-rankings-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "第 7–10 級：三條、對子與高牌",
+        "capacity": 4,
+        "itemIds": [
+          "poker-hand-rankings-7",
+          "poker-hand-rankings-8",
+          "poker-hand-rankings-9",
+          "poker-hand-rankings-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依牌型強弱階層分類：第 1 級（皇家同花順）、第 2～3 級（同花順、四條鐵支）、第 4～6 級（葫蘆、同花、順子）與第 7～10 級（三條、兩對、一對、高牌散牌）。",
+  "sources": [
+    {
+      "title": "WSOP Official Poker Hand Rankings",
+      "url": "https://www.wsop.com/poker-hands/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

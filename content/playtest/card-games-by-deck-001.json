@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "card-games-by-deck-001",
+  "theme": "Card Games by Deck Type",
+  "publishDate": "2027-08-08",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "card-games-by-deck-1",
+        "rivalGroupId": "group-4",
+        "risk": "French Tarot is a trick-taking game like Bridge.",
+        "resolution": "French Tarot requires a 78-card tarot deck with 21 numbered trumps and the Fool (group-1), not a 52-card deck (group-4)."
+      },
+      {
+        "itemId": "card-games-by-deck-2",
+        "rivalGroupId": "group-4",
+        "risk": "Skat uses four suits.",
+        "resolution": "Skat uses a 32-card deck from 7 to Ace (group-2), not the full 52-card deck (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

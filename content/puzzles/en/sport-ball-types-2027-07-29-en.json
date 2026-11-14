@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sport-ball-types-2027-07-29-en",
+  "puzzleFamilyId": "sport-ball-types-001",
+  "locale": "en",
+  "publishDate": "2027-07-29",
+  "timezone": "UTC",
+  "theme": "Sports by Projectile Type",
+  "items": [
+    {
+      "itemId": "sport-ball-types-4",
+      "label": "Baseball"
+    },
+    {
+      "itemId": "sport-ball-types-8",
+      "label": "Basketball"
+    },
+    {
+      "itemId": "sport-ball-types-1",
+      "label": "Badminton"
+    },
+    {
+      "itemId": "sport-ball-types-6",
+      "label": "Golf"
+    },
+    {
+      "itemId": "sport-ball-types-10",
+      "label": "Water Polo"
+    },
+    {
+      "itemId": "sport-ball-types-2",
+      "label": "Rugby Union"
+    },
+    {
+      "itemId": "sport-ball-types-7",
+      "label": "Association Football"
+    },
+    {
+      "itemId": "sport-ball-types-5",
+      "label": "Field Hockey"
+    },
+    {
+      "itemId": "sport-ball-types-9",
+      "label": "Volleyball"
+    },
+    {
+      "itemId": "sport-ball-types-3",
+      "label": "Ice Hockey"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Projectile class (Feathered Shuttlecock, Non-Spherical/Puck, Small Solid Ball, or Large Inflated Ball)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Feathered Shuttlecock",
+        "capacity": 1,
+        "itemIds": [
+          "sport-ball-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Non-Spherical / Puck",
+        "capacity": 2,
+        "itemIds": [
+          "sport-ball-types-2",
+          "sport-ball-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Small Solid Ball",
+        "capacity": 3,
+        "itemIds": [
+          "sport-ball-types-4",
+          "sport-ball-types-5",
+          "sport-ball-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Large Inflated Ball",
+        "capacity": 4,
+        "itemIds": [
+          "sport-ball-types-7",
+          "sport-ball-types-8",
+          "sport-ball-types-9",
+          "sport-ball-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by projectile: Feathered Shuttlecock (Badminton), Non-Spherical/Puck (Rugby Union, Ice Hockey), Small Solid Ball (Baseball, Field Hockey, Golf), and Large Inflated Ball (Association Football, Basketball, Volleyball, Water Polo).",
+  "sources": [
+    {
+      "title": "International Olympic Committee: Sports",
+      "url": "https://olympics.com/en/sports/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.24
+  },
+  "status": "scheduled"
+}

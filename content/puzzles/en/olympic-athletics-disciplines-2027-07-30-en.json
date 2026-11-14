@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "olympic-athletics-disciplines-2027-07-30-en",
+  "puzzleFamilyId": "olympic-athletics-disciplines-001",
+  "locale": "en",
+  "publishDate": "2027-07-30",
+  "timezone": "UTC",
+  "theme": "Olympic Track & Field",
+  "items": [
+    {
+      "itemId": "olympic-athletics-disciplines-4",
+      "label": "Shot Put"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-8",
+      "label": "400m Hurdles"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-1",
+      "label": "Decathlon"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-6",
+      "label": "Javelin Throw"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-10",
+      "label": "4x100m Relay"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-2",
+      "label": "High Jump"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-7",
+      "label": "100m Sprint"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-5",
+      "label": "Discus Throw"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-9",
+      "label": "1500m Run"
+    },
+    {
+      "itemId": "olympic-athletics-disciplines-3",
+      "label": "Long Jump"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Athletics discipline group (Combined Events, Jumping Events, Throwing Events, or Track Running Events)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Combined Events",
+        "capacity": 1,
+        "itemIds": [
+          "olympic-athletics-disciplines-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Jumping Events",
+        "capacity": 2,
+        "itemIds": [
+          "olympic-athletics-disciplines-2",
+          "olympic-athletics-disciplines-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Throwing Events",
+        "capacity": 3,
+        "itemIds": [
+          "olympic-athletics-disciplines-4",
+          "olympic-athletics-disciplines-5",
+          "olympic-athletics-disciplines-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Track Running Events",
+        "capacity": 4,
+        "itemIds": [
+          "olympic-athletics-disciplines-7",
+          "olympic-athletics-disciplines-8",
+          "olympic-athletics-disciplines-9",
+          "olympic-athletics-disciplines-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by athletics discipline: Combined Events (Decathlon), Jumping Events (High Jump, Long Jump), Throwing Events (Shot Put, Discus Throw, Javelin Throw), and Track Running Events (100m Sprint, 400m Hurdles, 1500m Run, 4x100m Relay).",
+  "sources": [
+    {
+      "title": "World Athletics: Disciplines",
+      "url": "https://worldathletics.org/disciplines",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.2
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "gymnastics-apparatus-events-2027-08-03-zh-hant",
+  "puzzleFamilyId": "gymnastics-apparatus-events-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-03",
+  "timezone": "UTC",
+  "theme": "體操器械與項目",
+  "items": [
+    {
+      "itemId": "gymnastics-apparatus-events-4",
+      "label": "鞍馬"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-8",
+      "label": "韻律體操球"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-1",
+      "label": "競技體操地板"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-6",
+      "label": "單槓"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-10",
+      "label": "韻律體操彩帶"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-2",
+      "label": "高低槓"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-7",
+      "label": "韻律體操環"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-5",
+      "label": "吊環"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-9",
+      "label": "韻律體操棒"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-3",
+      "label": "平衡木"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各體操項目在競技體操與韻律體操中的器械歸屬",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "地板項目",
+        "capacity": 1,
+        "itemIds": [
+          "gymnastics-apparatus-events-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "女子競技專用器械",
+        "capacity": 2,
+        "itemIds": [
+          "gymnastics-apparatus-events-2",
+          "gymnastics-apparatus-events-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "男子競技專用器械",
+        "capacity": 3,
+        "itemIds": [
+          "gymnastics-apparatus-events-4",
+          "gymnastics-apparatus-events-5",
+          "gymnastics-apparatus-events-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "韻律體操手具",
+        "capacity": 4,
+        "itemIds": [
+          "gymnastics-apparatus-events-7",
+          "gymnastics-apparatus-events-8",
+          "gymnastics-apparatus-events-9",
+          "gymnastics-apparatus-events-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依體操器械分類：地板項目（競技體操地板）、女子競技專用器械（高低槓、平衡木）、男子競技專用器械（鞍馬、吊環、單槓）與韻律體操手具（環、球、棒、帶）。",
+  "sources": [
+    {
+      "title": "FIG: Gymnastics Disciplines",
+      "url": "https://www.gymnastics.sport/site/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}
