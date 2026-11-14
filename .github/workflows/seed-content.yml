@@ -14,6 +14,16 @@ on:
         options:
           - dry-run
           - apply
+      from_date:
+        description: 'Optional inclusive start publishDate (YYYY-MM-DD) for incremental seeding'
+        type: string
+        required: false
+        default: ''
+      to_date:
+        description: 'Optional inclusive end publishDate (YYYY-MM-DD) for incremental seeding'
+        type: string
+        required: false
+        default: ''
 
 permissions:
   contents: read
@@ -46,7 +56,18 @@ jobs:
         run: npm run validate:puzzles
 
       - name: Generate seed SQL without touching any database
-        run: npm run seed:puzzles
+        env:
+          SEED_FROM_DATE: ${{ inputs.from_date }}
+          SEED_TO_DATE: ${{ inputs.to_date }}
+        run: |
+          args=()
+          if [ -n "$SEED_FROM_DATE" ]; then
+            args+=(--from-date "$SEED_FROM_DATE")
+          fi
+          if [ -n "$SEED_TO_DATE" ]; then
+            args+=(--to-date "$SEED_TO_DATE")
+          fi
+          npm run seed:puzzles -- "${args[@]}"
 
       - name: Upload generated seed SQL
         uses: actions/upload-artifact@v7
@@ -90,4 +111,15 @@ jobs:
         run: npm run db:migrate:remote
 
       - name: Seed puzzles to remote D1
-        run: npm run db:seed:remote
+        env:
+          SEED_FROM_DATE: ${{ inputs.from_date }}
+          SEED_TO_DATE: ${{ inputs.to_date }}
+        run: |
+          args=()
+          if [ -n "$SEED_FROM_DATE" ]; then
+            args+=(--from-date "$SEED_FROM_DATE")
+          fi
+          if [ -n "$SEED_TO_DATE" ]; then
+            args+=(--to-date "$SEED_TO_DATE")
+          fi
+          npm run db:seed:remote -- "${args[@]}"

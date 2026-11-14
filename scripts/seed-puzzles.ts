@@ -12,6 +12,8 @@ export interface SeedCommandOptions {
   readonly outputPath: string;
   readonly databaseName?: string;
   readonly executionMode?: SeedExecutionMode;
+  readonly fromDate?: string;
+  readonly toDate?: string;
   readonly help: boolean;
 }
 
@@ -43,6 +45,27 @@ export async function loadAuthoringPuzzles(contentRoot: string = defaultContentR
 
   assertUniqueSeedKeys(records);
   return records;
+}
+
+/** Filter validated puzzle records to an inclusive publishDate range. */
+export function filterRecordsByDateRange(
+  records: readonly AuthoringPuzzleRecord[],
+  fromDate?: string,
+  toDate?: string,
+): readonly AuthoringPuzzleRecord[] {
+  if (!fromDate && !toDate) {
+    return records;
+  }
+
+  return records.filter((record) => {
+    if (fromDate && record.publishDate < fromDate) {
+      return false;
+    }
+    if (toDate && record.publishDate > toDate) {
+      return false;
+    }
+    return true;
+  });
 }
 
 /**
@@ -88,6 +111,8 @@ export function parseSeedArgs(
   let outputPath = join(resolvedRootDirectory, '.wrangler', 'tensift-seed.sql');
   let databaseName: string | undefined;
   let executionMode: SeedExecutionMode | undefined;
+  let fromDate: string | undefined;
+  let toDate: string | undefined;
   let help = false;
 
   for (let index = 0; index < argv.length; index += 1) {
@@ -107,7 +132,7 @@ export function parseSeedArgs(
       continue;
     }
 
-    if (argument === '--output' || argument === '--database') {
+    if (argument === '--output' || argument === '--database' || argument === '--from-date' || argument === '--to-date') {
       const value = argv[index + 1];
       if (!value || value.startsWith('--')) {
         throw new Error(`${argument} requires a value.`);
@@ -115,8 +140,12 @@ export function parseSeedArgs(
       index += 1;
       if (argument === '--output') {
         outputPath = resolve(rootDirectory, value);
-      } else {
+      } else if (argument === '--database') {
         databaseName = value;
+      } else if (argument === '--from-date') {
+        fromDate = assertIsoDate(value, '--from-date');
+      } else {
+        toDate = assertIsoDate(value, '--to-date');
       }
       continue;
     }
@@ -139,7 +168,29 @@ export function parseSeedArgs(
       continue;
     }
 
+    if (argument.startsWith('--from-date=')) {
+      const value = argument.slice('--from-date='.length);
+      if (!value) {
+        throw new Error('--from-date requires a value.');
+      }
+      fromDate = assertIsoDate(value, '--from-date');
+      continue;
+    }
+
+    if (argument.startsWith('--to-date=')) {
+      const value = argument.slice('--to-date='.length);
+      if (!value) {
+        throw new Error('--to-date requires a value.');
+      }
+      toDate = assertIsoDate(value, '--to-date');
+      continue;
+    }
+
     throw new Error(`Unknown seed option: ${argument}`);
+  }
+
+  if (fromDate && toDate && fromDate > toDate) {
+    throw new Error('--from-date must be on or before --to-date.');
   }
 
   if (help) {
@@ -148,6 +199,8 @@ export function parseSeedArgs(
       outputPath,
       databaseName,
       executionMode,
+      fromDate,
+      toDate,
       help: true,
     };
   }
@@ -165,6 +218,8 @@ export function parseSeedArgs(
     outputPath,
     databaseName,
     executionMode,
+    fromDate,
+    toDate,
     help: false,
   };
 }
@@ -176,11 +231,15 @@ export async function runSeedCommand(options: SeedCommandOptions): Promise<void>
     return;
   }
 
-  const records = await loadAuthoringPuzzles(options.contentRoot);
+  const allRecords = await loadAuthoringPuzzles(options.contentRoot);
+  const records = filterRecordsByDateRange(allRecords, options.fromDate, options.toDate);
   const sql = buildSeedSql(records);
   await mkdir(dirname(options.outputPath), { recursive: true });
   await writeFile(options.outputPath, sql, 'utf8');
-  console.log(`D1 seed SQL written to ${relative(projectRoot, options.outputPath) || options.outputPath} (${records.length} puzzles).`);
+  const rangeNote = options.fromDate || options.toDate
+    ? `, range ${options.fromDate ?? '*'}..${options.toDate ?? '*'}`
+    : '';
+  console.log(`D1 seed SQL written to ${relative(projectRoot, options.outputPath) || options.outputPath} (${records.length} puzzles${rangeNote}).`);
 
   if (!options.executionMode || !options.databaseName) {
     console.log('Dry run only: no D1 database was modified.');
@@ -190,15 +249,27 @@ export async function runSeedCommand(options: SeedCommandOptions): Promise<void>
   applySeedWithWrangler(options.databaseName, options.executionMode, options.outputPath);
 }
 
+function assertIsoDate(value: string, flag: string): string {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+    throw new Error(`${flag} must use YYYY-MM-DD.`);
+  }
+  const parsed = new Date(`${value}T00:00:00Z`);
+  if (!Number.isFinite(parsed.getTime()) || parsed.toISOString().slice(0, 10) !== value) {
+    throw new Error(`${flag} must be a valid calendar date.`);
+  }
+  return value;
+}
+
 const SEED_HELP_TEXT = `Usage:
-  npm run seed:puzzles -- [--output <path>]
-  npm run seed:puzzles -- --database <name> --local
-  npm run seed:puzzles -- --database <name> --remote
+  npm run seed:puzzles -- [--output <path>] [--from-date <YYYY-MM-DD>] [--to-date <YYYY-MM-DD>]
+  npm run seed:puzzles -- --database <name> --local [--from-date <YYYY-MM-DD>] [--to-date <YYYY-MM-DD>]
+  npm run seed:puzzles -- --database <name> --remote [--from-date <YYYY-MM-DD>] [--to-date <YYYY-MM-DD>]
 
 By default the command validates content/puzzles/**/*.json and writes
-.wrangler/tensift-seed.sql. It never changes a database unless --local or
---remote is explicitly provided. Remote execution requires an authenticated
-Wrangler session and an explicitly supplied database name.
+.wrangler/tensift-seed.sql. Use --from-date and/or --to-date to emit SQL for
+an inclusive publishDate range without touching earlier rows. It never changes
+a database unless --local or --remote is explicitly provided. Remote execution
+requires an authenticated Wrangler session and an explicitly supplied database name.
 `;
 
 async function collectJsonFiles(directory: string): Promise<string[]> {

@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 import countriesPuzzle from '../../content/puzzles/en/countries-continent-2026-09-01-en.json';
 import instrumentsPuzzle from '../../content/puzzles/en/instruments-family-2026-09-03-en.json';
 import type { AuthoringPuzzleRecord } from '../../src/domain/puzzle/authoring';
-import { buildSeedSql, loadAuthoringPuzzles, parseSeedArgs } from '../../scripts/seed-puzzles';
+import { buildSeedSql, filterRecordsByDateRange, loadAuthoringPuzzles, parseSeedArgs } from '../../scripts/seed-puzzles';
 
 const countryRecord = countriesPuzzle as AuthoringPuzzleRecord;
 const instrumentsRecord = instrumentsPuzzle as AuthoringPuzzleRecord;
@@ -90,5 +90,23 @@ describe('D1 puzzle seed generator', () => {
     expect(options.outputPath).toBe(resolve(rootDirectory, '.wrangler', 'tensift-seed.sql'));
     expect(() => parseSeedArgs(['--remote'])).toThrow('--remote requires --database <name>.');
     expect(() => parseSeedArgs(['--local', '--remote'])).toThrow('Choose only one seed execution mode');
+  });
+
+  it('parses and validates --from-date and --to-date options', () => {
+    const options = parseSeedArgs(['--from-date', '2026-11-22', '--to-date=2026-11-28']);
+    expect(options.fromDate).toBe('2026-11-22');
+    expect(options.toDate).toBe('2026-11-28');
+
+    expect(() => parseSeedArgs(['--from-date', '2026-02-30'])).toThrow('--from-date must be a valid calendar date.');
+    expect(() => parseSeedArgs(['--to-date', 'not-a-date'])).toThrow('--to-date must use YYYY-MM-DD.');
+    expect(() => parseSeedArgs(['--from-date', '2026-11-29', '--to-date', '2026-11-22'])).toThrow(
+      '--from-date must be on or before --to-date.',
+    );
+  });
+
+  it('filters records by inclusive publishDate range', () => {
+    const filtered = filterRecordsByDateRange([countryRecord, instrumentsRecord], '2026-08-29', '2026-08-30');
+    expect(filtered.map((record) => record.puzzleFamilyId)).toEqual(['countries-continent-001']);
+    expect(filterRecordsByDateRange([countryRecord, instrumentsRecord])).toHaveLength(2);
   });
 });
