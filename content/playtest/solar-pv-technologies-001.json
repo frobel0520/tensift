@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "solar-pv-technologies-001",
+  "theme": "Solar Power Technologies",
+  "publishDate": "2027-07-28",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "solar-pv-technologies-1",
+        "rivalGroupId": "group-2",
+        "risk": "Parabolic troughs are large solar arrays.",
+        "resolution": "CSP uses mirrors to heat fluid for a steam turbine (group-1), rather than direct photovoltaic semiconductor conversion (groups 2–3)."
+      },
+      {
+        "itemId": "solar-pv-technologies-6",
+        "rivalGroupId": "group-2",
+        "risk": "Perovskite is often stacked on silicon in tandem cells.",
+        "resolution": "Perovskite is an emerging non-silicon absorber class grouped with thin-film PV (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

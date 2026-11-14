@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "optical-fiber-components-2027-07-23-en",
+  "puzzleFamilyId": "optical-fiber-components-001",
+  "locale": "en",
+  "publishDate": "2027-07-23",
+  "timezone": "UTC",
+  "theme": "Fiber-Optic Components",
+  "items": [
+    {
+      "itemId": "optical-fiber-components-4",
+      "label": "WDM Multiplexer"
+    },
+    {
+      "itemId": "optical-fiber-components-8",
+      "label": "SC Connector"
+    },
+    {
+      "itemId": "optical-fiber-components-1",
+      "label": "Fusion Splice"
+    },
+    {
+      "itemId": "optical-fiber-components-6",
+      "label": "Fiber Bragg Grating"
+    },
+    {
+      "itemId": "optical-fiber-components-10",
+      "label": "MPO / MTP Connector"
+    },
+    {
+      "itemId": "optical-fiber-components-2",
+      "label": "Single-Mode Fiber (SMF)"
+    },
+    {
+      "itemId": "optical-fiber-components-7",
+      "label": "LC Connector"
+    },
+    {
+      "itemId": "optical-fiber-components-5",
+      "label": "Optical Circulator"
+    },
+    {
+      "itemId": "optical-fiber-components-9",
+      "label": "ST Connector"
+    },
+    {
+      "itemId": "optical-fiber-components-3",
+      "label": "Multi-Mode Fiber (MMF)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Fiber-optic role (Permanent Splice, Fiber Mode Types, Passive Wavelength Optics, or Physical Connectors)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Permanent Fiber Joint",
+        "capacity": 1,
+        "itemIds": [
+          "optical-fiber-components-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Fiber Core Modes",
+        "capacity": 2,
+        "itemIds": [
+          "optical-fiber-components-2",
+          "optical-fiber-components-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Passive Optical Devices",
+        "capacity": 3,
+        "itemIds": [
+          "optical-fiber-components-4",
+          "optical-fiber-components-5",
+          "optical-fiber-components-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Physical Fiber Connectors",
+        "capacity": 4,
+        "itemIds": [
+          "optical-fiber-components-7",
+          "optical-fiber-components-8",
+          "optical-fiber-components-9",
+          "optical-fiber-components-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by fiber-optic role: Permanent Joint (Fusion Splice), Fiber Types (Single-Mode Fiber, Multi-Mode Fiber), Passive Wavelength/Routing Optics (WDM Multiplexer, Optical Circulator, Fiber Bragg Grating), and Physical Connectors (LC, SC, ST, MPO/MTP).",
+  "sources": [
+    {
+      "title": "ITU-T: Optical Fibres & Systems",
+      "url": "https://www.itu.int/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

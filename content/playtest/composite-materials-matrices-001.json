@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "composite-materials-matrices-001",
+  "theme": "Composite Materials",
+  "publishDate": "2027-07-18",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "composite-materials-matrices-2",
+        "rivalGroupId": "group-1",
+        "risk": "Al-SiC contains silicon carbide ceramic particles.",
+        "resolution": "In Al-SiC, continuous aluminum is the matrix phase (group-2), unlike an all-ceramic matrix composite (group-1)."
+      },
+      {
+        "itemId": "composite-materials-matrices-10",
+        "rivalGroupId": "group-1",
+        "risk": "Basalt fiber is derived from volcanic rock.",
+        "resolution": "Basalt fiber is embedded in an epoxy/polymer resin matrix like fiberglass (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

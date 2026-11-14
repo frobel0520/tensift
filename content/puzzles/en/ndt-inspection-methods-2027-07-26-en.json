@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ndt-inspection-methods-2027-07-26-en",
+  "puzzleFamilyId": "ndt-inspection-methods-001",
+  "locale": "en",
+  "publishDate": "2027-07-26",
+  "timezone": "UTC",
+  "theme": "Non-Destructive Testing (NDT)",
+  "items": [
+    {
+      "itemId": "ndt-inspection-methods-4",
+      "label": "Ultrasonic Testing (UT)"
+    },
+    {
+      "itemId": "ndt-inspection-methods-8",
+      "label": "Acoustic Emission Monitoring"
+    },
+    {
+      "itemId": "ndt-inspection-methods-1",
+      "label": "Video Borescope"
+    },
+    {
+      "itemId": "ndt-inspection-methods-6",
+      "label": "Eddy Current Testing (ET)"
+    },
+    {
+      "itemId": "ndt-inspection-methods-10",
+      "label": "Vibration Analysis"
+    },
+    {
+      "itemId": "ndt-inspection-methods-2",
+      "label": "Liquid Penetrant Testing (PT)"
+    },
+    {
+      "itemId": "ndt-inspection-methods-7",
+      "label": "Infrared Thermography"
+    },
+    {
+      "itemId": "ndt-inspection-methods-5",
+      "label": "X-Ray Radiography (RT)"
+    },
+    {
+      "itemId": "ndt-inspection-methods-9",
+      "label": "Strain Gauge Testing"
+    },
+    {
+      "itemId": "ndt-inspection-methods-3",
+      "label": "Magnetic Particle Testing (MT)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Physical NDT modality (Optical Borescope, Surface Crack Dye/Magnetic, Volumetric Wave/Radiation, or Thermal/Mechanical Sensor Monitoring)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Remote Visual Optics",
+        "capacity": 1,
+        "itemIds": [
+          "ndt-inspection-methods-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Surface Crack Methods",
+        "capacity": 2,
+        "itemIds": [
+          "ndt-inspection-methods-2",
+          "ndt-inspection-methods-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Volumetric Wave & Radiation",
+        "capacity": 3,
+        "itemIds": [
+          "ndt-inspection-methods-4",
+          "ndt-inspection-methods-5",
+          "ndt-inspection-methods-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Thermal & Structural Monitoring",
+        "capacity": 4,
+        "itemIds": [
+          "ndt-inspection-methods-7",
+          "ndt-inspection-methods-8",
+          "ndt-inspection-methods-9",
+          "ndt-inspection-methods-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by NDT modality: Optical Visual (Video Borescope), Surface Crack Methods (Liquid Penetrant Testing, Magnetic Particle Testing), Volumetric Wave/EM Inspection (Ultrasonic Testing, Industrial X-Ray Radiography, Eddy Current Testing), and Structural/Thermal Monitoring (Infrared Thermography, Acoustic Emission, Strain Gauge Testing, Vibration Analysis).",
+  "sources": [
+    {
+      "title": "ASNT: Nondestructive Testing Methods",
+      "url": "https://www.asnt.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

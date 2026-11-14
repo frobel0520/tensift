@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "electric-motor-types-2027-07-15-zh-hant",
+  "puzzleFamilyId": "electric-motor-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-15",
+  "timezone": "UTC",
+  "theme": "電動馬達種類",
+  "items": [
+    {
+      "itemId": "electric-motor-types-4",
+      "label": "永磁有刷直流馬達"
+    },
+    {
+      "itemId": "electric-motor-types-8",
+      "label": "繞線轉子感應馬達"
+    },
+    {
+      "itemId": "electric-motor-types-1",
+      "label": "線性馬達"
+    },
+    {
+      "itemId": "electric-motor-types-6",
+      "label": "並激直流馬達"
+    },
+    {
+      "itemId": "electric-motor-types-10",
+      "label": "開關磁阻馬達"
+    },
+    {
+      "itemId": "electric-motor-types-2",
+      "label": "步進馬達"
+    },
+    {
+      "itemId": "electric-motor-types-7",
+      "label": "鼠籠式交流感應馬達"
+    },
+    {
+      "itemId": "electric-motor-types-5",
+      "label": "串激直流馬達"
+    },
+    {
+      "itemId": "electric-motor-types-9",
+      "label": "永磁同步馬達（PMSM）"
+    },
+    {
+      "itemId": "electric-motor-types-3",
+      "label": "無刷直流伺服馬達"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各電動馬達的電氣與結構類型（線性馬達、步進／無刷伺服、有刷直流或交流感應／同步）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "線性馬達",
+        "capacity": 1,
+        "itemIds": [
+          "electric-motor-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "步進與無刷直流伺服",
+        "capacity": 2,
+        "itemIds": [
+          "electric-motor-types-2",
+          "electric-motor-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "有刷直流馬達",
+        "capacity": 3,
+        "itemIds": [
+          "electric-motor-types-4",
+          "electric-motor-types-5",
+          "electric-motor-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "交流感應與同步馬達",
+        "capacity": 4,
+        "itemIds": [
+          "electric-motor-types-7",
+          "electric-motor-types-8",
+          "electric-motor-types-9",
+          "electric-motor-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依馬達架構分類：直線運動（線性馬達）、精密步進／無刷（步進馬達、無刷直流伺服）、有刷直流（永磁有刷直流、串激直流、並激直流）與交流感應／同步（鼠籠式感應、繞線轉子感應、永磁同步 PMSM、開關磁阻馬達）。",
+  "sources": [
+    {
+      "title": "IEEE: Electric Machines & Drives",
+      "url": "https://www.ieee.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

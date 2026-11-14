@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "semiconductor-fab-steps-2027-07-14-es-419",
+  "puzzleFamilyId": "semiconductor-fab-steps-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-14",
+  "timezone": "UTC",
+  "theme": "Fabricación de obleas semiconductoras",
+  "items": [
+    {
+      "itemId": "semiconductor-fab-steps-4",
+      "label": "Fotolitografía EUV"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-8",
+      "label": "Pulverización catódica (PVD)"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-1",
+      "label": "Crecimiento Czochralski"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-6",
+      "label": "Oxidación térmica"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-10",
+      "label": "Electrodeposición de cobre"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-2",
+      "label": "Grabado químico húmedo"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-7",
+      "label": "Deposición química de vapor (CVD)"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-5",
+      "label": "Implantación iónica"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-9",
+      "label": "Deposición por capas atómicas (ALD)"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-3",
+      "label": "Pulido químico-mecánico (CMP)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Etapa de fabricación semiconductora de cada proceso",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Crecimiento de lingote",
+        "capacity": 1,
+        "itemIds": [
+          "semiconductor-fab-steps-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Grabado y planarización",
+        "capacity": 2,
+        "itemIds": [
+          "semiconductor-fab-steps-2",
+          "semiconductor-fab-steps-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Litografía, dopaje y oxidación",
+        "capacity": 3,
+        "itemIds": [
+          "semiconductor-fab-steps-4",
+          "semiconductor-fab-steps-5",
+          "semiconductor-fab-steps-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Deposición de película delgada",
+        "capacity": 4,
+        "itemIds": [
+          "semiconductor-fab-steps-7",
+          "semiconductor-fab-steps-8",
+          "semiconductor-fab-steps-9",
+          "semiconductor-fab-steps-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por etapa: crecimiento cristalino (Czochralski), grabado y pulido (grabado húmedo, pulido CMP), litografía y dopaje (fotolitografía EUV, implantación iónica, oxidación térmica) y deposición de película delgada (CVD, PVD, ALD, electrodeposición).",
+  "sources": [
+    {
+      "title": "NIST: Semiconductor Metrology",
+      "url": "https://www.nist.gov/semiconductors",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

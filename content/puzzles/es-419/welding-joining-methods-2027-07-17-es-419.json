@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "welding-joining-methods-2027-07-17-es-419",
+  "puzzleFamilyId": "welding-joining-methods-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-17",
+  "timezone": "UTC",
+  "theme": "Soldadura y unión de metales",
+  "items": [
+    {
+      "itemId": "welding-joining-methods-4",
+      "label": "Soldadura por puntos"
+    },
+    {
+      "itemId": "welding-joining-methods-8",
+      "label": "Soldadura TIG / GTAW"
+    },
+    {
+      "itemId": "welding-joining-methods-1",
+      "label": "Soldadura ultrasónica"
+    },
+    {
+      "itemId": "welding-joining-methods-6",
+      "label": "Soldadura a tope por chispa"
+    },
+    {
+      "itemId": "welding-joining-methods-10",
+      "label": "Soldadura por láser"
+    },
+    {
+      "itemId": "welding-joining-methods-2",
+      "label": "Soldadura blanda"
+    },
+    {
+      "itemId": "welding-joining-methods-7",
+      "label": "Soldadura MIG / GMAW"
+    },
+    {
+      "itemId": "welding-joining-methods-5",
+      "label": "Soldadura por fricción-agitación"
+    },
+    {
+      "itemId": "welding-joining-methods-9",
+      "label": "Soldadura por electrodo (SMAW)"
+    },
+    {
+      "itemId": "welding-joining-methods-3",
+      "label": "Soldadura fuerte (brazing)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Mecanismo físico de unión metálica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Estado sólido ultrasónico",
+        "capacity": 1,
+        "itemIds": [
+          "welding-joining-methods-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Soldadura blanda y fuerte",
+        "capacity": 2,
+        "itemIds": [
+          "welding-joining-methods-2",
+          "welding-joining-methods-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Resistencia y fricción",
+        "capacity": 3,
+        "itemIds": [
+          "welding-joining-methods-4",
+          "welding-joining-methods-5",
+          "welding-joining-methods-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Soldadura por arco y haz",
+        "capacity": 4,
+        "itemIds": [
+          "welding-joining-methods-7",
+          "welding-joining-methods-8",
+          "welding-joining-methods-9",
+          "welding-joining-methods-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por mecanismo: ultrasónico (soldadura ultrasónica), aporte sin fusión (soldadura blanda, soldadura fuerte), resistencia y fricción (por puntos, fricción-agitación, a tope por chispa) y fusión por arco/haz (MIG, TIG, electrodo revestido SMAW, láser).",
+  "sources": [
+    {
+      "title": "AWS: Welding Processes",
+      "url": "https://www.aws.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

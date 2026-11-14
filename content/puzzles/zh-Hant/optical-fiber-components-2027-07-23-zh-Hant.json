@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "optical-fiber-components-2027-07-23-zh-hant",
+  "puzzleFamilyId": "optical-fiber-components-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-23",
+  "timezone": "UTC",
+  "theme": "光纖通訊元件與接頭",
+  "items": [
+    {
+      "itemId": "optical-fiber-components-4",
+      "label": "波分多工器（WDM）"
+    },
+    {
+      "itemId": "optical-fiber-components-8",
+      "label": "SC 光纖接頭"
+    },
+    {
+      "itemId": "optical-fiber-components-1",
+      "label": "電弧熔接（Fusion Splice）"
+    },
+    {
+      "itemId": "optical-fiber-components-6",
+      "label": "光纖布拉格光柵（FBG）"
+    },
+    {
+      "itemId": "optical-fiber-components-10",
+      "label": "MPO / MTP 多芯接頭"
+    },
+    {
+      "itemId": "optical-fiber-components-2",
+      "label": "單模光纖（SMF）"
+    },
+    {
+      "itemId": "optical-fiber-components-7",
+      "label": "LC 光纖接頭"
+    },
+    {
+      "itemId": "optical-fiber-components-5",
+      "label": "光環行器"
+    },
+    {
+      "itemId": "optical-fiber-components-9",
+      "label": "ST 旋轉卡口接頭"
+    },
+    {
+      "itemId": "optical-fiber-components-3",
+      "label": "多模光纖（MMF）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各光纖通訊術語的分類（永久熔接、光纖模式類型、被動波分元件或光纖接頭）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "永久光纖接續",
+        "capacity": 1,
+        "itemIds": [
+          "optical-fiber-components-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "光纖傳輸模式",
+        "capacity": 2,
+        "itemIds": [
+          "optical-fiber-components-2",
+          "optical-fiber-components-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "被動光學元件",
+        "capacity": 3,
+        "itemIds": [
+          "optical-fiber-components-4",
+          "optical-fiber-components-5",
+          "optical-fiber-components-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "實體光纖連接器",
+        "capacity": 4,
+        "itemIds": [
+          "optical-fiber-components-7",
+          "optical-fiber-components-8",
+          "optical-fiber-components-9",
+          "optical-fiber-components-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依光纖通訊分類：永久接續（光纖熔接）、光纖模式（單模光纖 SMF、多模光纖 MMF）、被動光學元件（波分多工器 WDM、光環行器、光纖布拉格光柵）與實體接頭（LC 接頭、SC 接頭、ST 接頭、MPO/MTP 多芯接頭）。",
+  "sources": [
+    {
+      "title": "ITU-T: Optical Fibres & Systems",
+      "url": "https://www.itu.int/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "electric-motor-types-2027-07-15-es-419",
+  "puzzleFamilyId": "electric-motor-types-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-15",
+  "timezone": "UTC",
+  "theme": "Tipos de motores eléctricos",
+  "items": [
+    {
+      "itemId": "electric-motor-types-4",
+      "label": "DC con escobillas de imán permanente"
+    },
+    {
+      "itemId": "electric-motor-types-8",
+      "label": "Motor de rotor bobinado"
+    },
+    {
+      "itemId": "electric-motor-types-1",
+      "label": "Motor lineal de inducción"
+    },
+    {
+      "itemId": "electric-motor-types-6",
+      "label": "Motor DC derivación"
+    },
+    {
+      "itemId": "electric-motor-types-10",
+      "label": "Motor de reluctancia conmutada"
+    },
+    {
+      "itemId": "electric-motor-types-2",
+      "label": "Motor paso a paso"
+    },
+    {
+      "itemId": "electric-motor-types-7",
+      "label": "Motor de inducción jaula de ardilla"
+    },
+    {
+      "itemId": "electric-motor-types-5",
+      "label": "Motor DC serie"
+    },
+    {
+      "itemId": "electric-motor-types-9",
+      "label": "Motor síncrono de imanes permanentes"
+    },
+    {
+      "itemId": "electric-motor-types-3",
+      "label": "Servomotor DC sin escobillas"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Arquitectura eléctrica de cada motor",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Motor lineal",
+        "capacity": 1,
+        "itemIds": [
+          "electric-motor-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Paso a paso y BLDC",
+        "capacity": 2,
+        "itemIds": [
+          "electric-motor-types-2",
+          "electric-motor-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Motores DC con escobillas",
+        "capacity": 3,
+        "itemIds": [
+          "electric-motor-types-4",
+          "electric-motor-types-5",
+          "electric-motor-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "AC inducción y síncronos",
+        "capacity": 4,
+        "itemIds": [
+          "electric-motor-types-7",
+          "electric-motor-types-8",
+          "electric-motor-types-9",
+          "electric-motor-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por arquitectura: lineal (motor lineal de inducción), paso a paso y BLDC (paso a paso, servo DC sin escobillas), DC con escobillas (imán permanente, serie, derivación) y AC inducción/síncrono (jaula de ardilla, rotor bobinado, síncrono de imanes permanentes, reluctancia).",
+  "sources": [
+    {
+      "title": "IEEE: Electric Machines & Drives",
+      "url": "https://www.ieee.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

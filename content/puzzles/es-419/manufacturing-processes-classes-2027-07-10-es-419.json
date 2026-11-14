@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "manufacturing-processes-classes-2027-07-10-es-419",
+  "puzzleFamilyId": "manufacturing-processes-classes-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-10",
+  "timezone": "UTC",
+  "theme": "Procesos de manufactura industrial",
+  "items": [
+    {
+      "itemId": "manufacturing-processes-classes-4",
+      "label": "Fresado CNC"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-8",
+      "label": "Fundición a presión"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-1",
+      "label": "Estereolitografía (SLA)"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-6",
+      "label": "Rectificado plano"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-10",
+      "label": "Estampado de chapa"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-2",
+      "label": "Soldadura TIG"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-7",
+      "label": "Forja por estampación"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-5",
+      "label": "Torneado"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-9",
+      "label": "Extrusión metálica"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-3",
+      "label": "Soldadura fuerte (brazing)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría de proceso de manufactura",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Manufactura aditiva",
+        "capacity": 1,
+        "itemIds": [
+          "manufacturing-processes-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Procesos de unión",
+        "capacity": 2,
+        "itemIds": [
+          "manufacturing-processes-classes-2",
+          "manufacturing-processes-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Mecanizado sustractivo",
+        "capacity": 3,
+        "itemIds": [
+          "manufacturing-processes-classes-4",
+          "manufacturing-processes-classes-5",
+          "manufacturing-processes-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Conformado y fundición",
+        "capacity": 4,
+        "itemIds": [
+          "manufacturing-processes-classes-7",
+          "manufacturing-processes-classes-8",
+          "manufacturing-processes-classes-9",
+          "manufacturing-processes-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: aditiva (estereolitografía SLA), unión (soldadura TIG, soldadura fuerte), mecanizado sustractivo (fresado CNC, torneado, rectificado) y conformado/fundición (forja, fundición a presión, extrusión, estampado).",
+  "sources": [
+    {
+      "title": "ASME: Manufacturing Engineering",
+      "url": "https://www.asme.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "electrical-circuit-protection-001",
+  "theme": "Electrical Safety & Protection",
+  "publishDate": "2027-07-22",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "electrical-circuit-protection-10",
+        "rivalGroupId": "group-1",
+        "risk": "Lightning rods protect against massive lightning surges.",
+        "resolution": "A lightning rod channels strike current directly to earth (group-4), whereas an MOV clamps voltage transients inside circuits (group-1)."
+      },
+      {
+        "itemId": "electrical-circuit-protection-3",
+        "rivalGroupId": "group-3",
+        "risk": "Thermal cutoff fuses trip on heat like thermal-magnetic breakers.",
+        "resolution": "A thermal cutoff melts open permanently once triggered (group-2), unlike resettable circuit breakers (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

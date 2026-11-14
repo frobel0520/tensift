@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "optical-fiber-components-001",
+  "theme": "Fiber-Optic Components",
+  "publishDate": "2027-07-23",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "optical-fiber-components-1",
+        "rivalGroupId": "group-4",
+        "risk": "Fusion splices join two fibers like connectors.",
+        "resolution": "A fusion splice permanently melts glass ends together (group-1), unlike pluggable physical connectors (group-4)."
+      },
+      {
+        "itemId": "optical-fiber-components-6",
+        "rivalGroupId": "group-2",
+        "risk": "Fiber Bragg Gratings are written directly inside a fiber core.",
+        "resolution": "FBGs function as wavelength-selective passive filters/sensors (group-3), not general fiber transmission classes (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

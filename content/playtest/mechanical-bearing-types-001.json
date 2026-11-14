@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "mechanical-bearing-types-001",
+  "theme": "Mechanical Bearings",
+  "publishDate": "2027-07-25",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "mechanical-bearing-types-3",
+        "rivalGroupId": "group-4",
+        "risk": "Hydrodynamic Thrust Bearing supports axial thrust like Thrust Ball Bearing.",
+        "resolution": "A hydrodynamic bearing rides on a pressurized fluid film without rolling elements (group-2), unlike a thrust ball bearing (group-4)."
+      },
+      {
+        "itemId": "mechanical-bearing-types-6",
+        "rivalGroupId": "group-4",
+        "risk": "Needle bearings have thin rolling elements.",
+        "resolution": "Needle rollers are elongated cylinders (group-3), not spherical balls (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "semiconductor-fab-steps-2027-07-14-zh-hant",
+  "puzzleFamilyId": "semiconductor-fab-steps-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-14",
+  "timezone": "UTC",
+  "theme": "半導體晶圓製造製程",
+  "items": [
+    {
+      "itemId": "semiconductor-fab-steps-4",
+      "label": "極紫外光微影（EUV）"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-8",
+      "label": "物理氣相沉積濺鍍（PVD）"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-1",
+      "label": "柴氏單晶拉晶法"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-6",
+      "label": "高溫熱氧化"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-10",
+      "label": "銅電鍍沉積"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-2",
+      "label": "濕式化學蝕刻"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-7",
+      "label": "化學氣相沉積（CVD）"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-5",
+      "label": "離子佈植"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-9",
+      "label": "原子層沉積（ALD）"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-3",
+      "label": "化學機械研磨（CMP）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各半導體製程步驟所屬的晶圓製造階段（單晶長晶、蝕刻與平坦化、微影與摻雜或薄膜沉積）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "單晶長晶",
+        "capacity": 1,
+        "itemIds": [
+          "semiconductor-fab-steps-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "蝕刻與平坦化",
+        "capacity": 2,
+        "itemIds": [
+          "semiconductor-fab-steps-2",
+          "semiconductor-fab-steps-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "微影、摻雜與氧化",
+        "capacity": 3,
+        "itemIds": [
+          "semiconductor-fab-steps-4",
+          "semiconductor-fab-steps-5",
+          "semiconductor-fab-steps-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "薄膜沉積",
+        "capacity": 4,
+        "itemIds": [
+          "semiconductor-fab-steps-7",
+          "semiconductor-fab-steps-8",
+          "semiconductor-fab-steps-9",
+          "semiconductor-fab-steps-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依晶圓製造階段分類：單晶長晶（柴氏單晶拉晶）、蝕刻與平坦化（濕式化學蝕刻、化學機械研磨 CMP）、微影與摻雜氧化（EUV 光微影、離子佈植、熱氧化）與薄膜沉積（化學氣相沉積 CVD、物理氣相沉積 PVD、原子層沉積 ALD、電鍍銅）。",
+  "sources": [
+    {
+      "title": "NIST: Semiconductor Metrology",
+      "url": "https://www.nist.gov/semiconductors",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

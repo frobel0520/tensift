@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "knot-categories-uses-2027-07-05-zh-hant",
+  "puzzleFamilyId": "knot-categories-uses-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-05",
+  "timezone": "UTC",
+  "theme": "繩結用途分類",
+  "items": [
+    {
+      "itemId": "knot-categories-uses-4",
+      "label": "雙套結"
+    },
+    {
+      "itemId": "knot-categories-uses-8",
+      "label": "八字繩圈結"
+    },
+    {
+      "itemId": "knot-categories-uses-1",
+      "label": "單八字止滑結"
+    },
+    {
+      "itemId": "knot-categories-uses-6",
+      "label": "繫木結"
+    },
+    {
+      "itemId": "knot-categories-uses-10",
+      "label": "雙套稱人結"
+    },
+    {
+      "itemId": "knot-categories-uses-2",
+      "label": "單編結（接繩結）"
+    },
+    {
+      "itemId": "knot-categories-uses-7",
+      "label": "稱人結（單結繩圈）"
+    },
+    {
+      "itemId": "knot-categories-uses-5",
+      "label": "營繩結（可調抓結）"
+    },
+    {
+      "itemId": "knot-categories-uses-9",
+      "label": "阿爾卑斯蝴蝶結"
+    },
+    {
+      "itemId": "knot-categories-uses-3",
+      "label": "卡里克接繩結"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各繩結在繩藝中的用途分類（止滑結、接繩結、繫物結或繩圈結）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "止滑結",
+        "capacity": 1,
+        "itemIds": [
+          "knot-categories-uses-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "接繩結（兩繩相接）",
+        "capacity": 2,
+        "itemIds": [
+          "knot-categories-uses-2",
+          "knot-categories-uses-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "繫物結（繫於物體）",
+        "capacity": 3,
+        "itemIds": [
+          "knot-categories-uses-4",
+          "knot-categories-uses-5",
+          "knot-categories-uses-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "繩圈結",
+        "capacity": 4,
+        "itemIds": [
+          "knot-categories-uses-7",
+          "knot-categories-uses-8",
+          "knot-categories-uses-9",
+          "knot-categories-uses-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依繩結功能分類：止滑結（八字結）、接繩結（單編結、卡里克結）、繫物結（雙套結、營繩結、稱人木結）與繩圈結（稱人結、八字圈結、蝴蝶結、雙套稱人結）。",
+  "sources": [
+    {
+      "title": "International Guild of Knot Tyers",
+      "url": "https://www.igkt.net/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

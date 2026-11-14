@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "gear-types-axes-001",
+  "theme": "Mechanical Gear Types",
+  "publishDate": "2027-07-13",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "gear-types-axes-3",
+        "rivalGroupId": "group-3",
+        "risk": "Hypoid gears look almost identical to spiral bevel gears.",
+        "resolution": "Hypoid gear shafts are offset and do not intersect (group-2), whereas spiral bevel shafts intersect at a point (group-3)."
+      },
+      {
+        "itemId": "gear-types-axes-8",
+        "rivalGroupId": "group-2",
+        "risk": "Crossed helical gears can connect skew shafts.",
+        "resolution": "Standard helical gears are primarily used for parallel-shaft power transmission (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

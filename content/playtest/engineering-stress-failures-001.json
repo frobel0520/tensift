@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "engineering-stress-failures-001",
+  "theme": "Mechanical Stress & Failure",
+  "publishDate": "2027-07-07",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "engineering-stress-failures-1",
+        "rivalGroupId": "group-3",
+        "risk": "Torsion produces shear stress.",
+        "resolution": "Torsion is rotational twisting about an axis (group-1), distinct from uniform basic axial/direct shear stress states (group-3)."
+      },
+      {
+        "itemId": "engineering-stress-failures-2",
+        "rivalGroupId": "group-3",
+        "risk": "Buckling is caused by compression.",
+        "resolution": "Euler buckling is a geometric lateral instability of slender columns (group-2), not simple material compressive stress (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

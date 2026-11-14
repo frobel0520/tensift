@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "battery-chemistries-types-001",
+  "theme": "Batteries & Fuel Cells",
+  "publishDate": "2027-07-16",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "battery-chemistries-types-3",
+        "rivalGroupId": "group-4",
+        "risk": "CR2032 contains lithium.",
+        "resolution": "CR2032 is a non-rechargeable primary lithium metal cell (group-2), not a rechargeable lithium-ion chemistry (group-4)."
+      },
+      {
+        "itemId": "battery-chemistries-types-1",
+        "rivalGroupId": "group-3",
+        "risk": "Fuel cells power electric vehicles like batteries.",
+        "resolution": "A PEM fuel cell generates power from externally supplied hydrogen fuel rather than storing energy internally (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

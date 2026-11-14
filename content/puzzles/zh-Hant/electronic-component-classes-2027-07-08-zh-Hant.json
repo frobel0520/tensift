@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "electronic-component-classes-2027-07-08-zh-hant",
+  "puzzleFamilyId": "electronic-component-classes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-08",
+  "timezone": "UTC",
+  "theme": "電子元件四大分類",
+  "items": [
+    {
+      "itemId": "electronic-component-classes-4",
+      "label": "電阻器"
+    },
+    {
+      "itemId": "electronic-component-classes-8",
+      "label": "金氧半場效電晶體（MOSFET）"
+    },
+    {
+      "itemId": "electronic-component-classes-1",
+      "label": "自恢復保險絲（PTC）"
+    },
+    {
+      "itemId": "electronic-component-classes-6",
+      "label": "電感器"
+    },
+    {
+      "itemId": "electronic-component-classes-10",
+      "label": "稽納二極體（Zener）"
+    },
+    {
+      "itemId": "electronic-component-classes-2",
+      "label": "電磁繼電器"
+    },
+    {
+      "itemId": "electronic-component-classes-7",
+      "label": "雙極性接面電晶體（BJT）"
+    },
+    {
+      "itemId": "electronic-component-classes-5",
+      "label": "電容器"
+    },
+    {
+      "itemId": "electronic-component-classes-9",
+      "label": "運算放大器（Op-Amp）"
+    },
+    {
+      "itemId": "electronic-component-classes-3",
+      "label": "撥動開關"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各電子元件的電路類別（過電流保護、機電開關繼電器、被動線性元件或主動半導體）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "過電流保護元件",
+        "capacity": 1,
+        "itemIds": [
+          "electronic-component-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "機電開關與繼電器",
+        "capacity": 2,
+        "itemIds": [
+          "electronic-component-classes-2",
+          "electronic-component-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "被動線性元件",
+        "capacity": 3,
+        "itemIds": [
+          "electronic-component-classes-4",
+          "electronic-component-classes-5",
+          "electronic-component-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "主動與半導體元件",
+        "capacity": 4,
+        "itemIds": [
+          "electronic-component-classes-7",
+          "electronic-component-classes-8",
+          "electronic-component-classes-9",
+          "electronic-component-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依電子元件類別分類：過流保護（自恢復保險絲 PTC）、機電開關（電磁繼電器、撥動開關）、被動線性元件（電阻器、電容器、電感器）與主動半導體元件（雙極性電晶體 BJT、MOSFET、運算放大器、稽納二極體）。",
+  "sources": [
+    {
+      "title": "IEEE: Electronic Components",
+      "url": "https://www.ieee.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "iso-paper-series-001",
+  "theme": "Standard Paper & Envelope Sizes",
+  "publishDate": "2027-07-06",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "iso-paper-series-1",
+        "rivalGroupId": "group-4",
+        "risk": "ANSI A is roughly similar in size to A4.",
+        "resolution": "ANSI A follows the US inch standard (group-1), not the ISO 216 A-series (group-4)."
+      },
+      {
+        "itemId": "iso-paper-series-2",
+        "rivalGroupId": "group-4",
+        "risk": "C4 is sized to hold an unfolded A4 sheet.",
+        "resolution": "C4 and C5 belong to the ISO C envelope series (group-2), whose dimensions are geometric means of A and B."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

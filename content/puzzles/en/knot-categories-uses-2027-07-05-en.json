@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "knot-categories-uses-2027-07-05-en",
+  "puzzleFamilyId": "knot-categories-uses-001",
+  "locale": "en",
+  "publishDate": "2027-07-05",
+  "timezone": "UTC",
+  "theme": "Knots by Function",
+  "items": [
+    {
+      "itemId": "knot-categories-uses-4",
+      "label": "Clove Hitch"
+    },
+    {
+      "itemId": "knot-categories-uses-8",
+      "label": "Figure-Eight Loop"
+    },
+    {
+      "itemId": "knot-categories-uses-1",
+      "label": "Figure-Eight Stopper Knot"
+    },
+    {
+      "itemId": "knot-categories-uses-6",
+      "label": "Timber Hitch"
+    },
+    {
+      "itemId": "knot-categories-uses-10",
+      "label": "Bowline on a Bight"
+    },
+    {
+      "itemId": "knot-categories-uses-2",
+      "label": "Sheet Bend"
+    },
+    {
+      "itemId": "knot-categories-uses-7",
+      "label": "Bowline"
+    },
+    {
+      "itemId": "knot-categories-uses-5",
+      "label": "Taut-Line Hitch"
+    },
+    {
+      "itemId": "knot-categories-uses-9",
+      "label": "Alpine Butterfly Loop"
+    },
+    {
+      "itemId": "knot-categories-uses-3",
+      "label": "Carrick Bend"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Functional knot class (Stopper, Bend, Hitch, or Loop) in ropework",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Stopper Knot",
+        "capacity": 1,
+        "itemIds": [
+          "knot-categories-uses-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Bends (Rope-to-Rope)",
+        "capacity": 2,
+        "itemIds": [
+          "knot-categories-uses-2",
+          "knot-categories-uses-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Hitches (Rope-to-Object)",
+        "capacity": 3,
+        "itemIds": [
+          "knot-categories-uses-4",
+          "knot-categories-uses-5",
+          "knot-categories-uses-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Loop Knots",
+        "capacity": 4,
+        "itemIds": [
+          "knot-categories-uses-7",
+          "knot-categories-uses-8",
+          "knot-categories-uses-9",
+          "knot-categories-uses-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by knot function: Stopper (Figure-Eight Knot), Bends joining two ropes (Sheet Bend, Carrick Bend), Hitches tying rope to an object (Clove Hitch, Taut-Line Hitch, Timber Hitch), and Loops (Bowline, Figure-Eight Loop, Alpine Butterfly, Bowline on a Bight).",
+  "sources": [
+    {
+      "title": "International Guild of Knot Tyers",
+      "url": "https://www.igkt.net/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

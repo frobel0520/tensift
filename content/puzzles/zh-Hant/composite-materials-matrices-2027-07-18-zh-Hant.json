@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "composite-materials-matrices-2027-07-18-zh-hant",
+  "puzzleFamilyId": "composite-materials-matrices-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-18",
+  "timezone": "UTC",
+  "theme": "複合材料基體分類",
+  "items": [
+    {
+      "itemId": "composite-materials-matrices-4",
+      "label": "夾板（合板）"
+    },
+    {
+      "itemId": "composite-materials-matrices-8",
+      "label": "玻璃纖維複合材料（GFRP）"
+    },
+    {
+      "itemId": "composite-materials-matrices-1",
+      "label": "碳化矽陶瓷基複合材料"
+    },
+    {
+      "itemId": "composite-materials-matrices-6",
+      "label": "結構集成材（Glulam）"
+    },
+    {
+      "itemId": "composite-materials-matrices-10",
+      "label": "玄武岩纖維複合材料"
+    },
+    {
+      "itemId": "composite-materials-matrices-2",
+      "label": "鋁基碳化矽複合材料"
+    },
+    {
+      "itemId": "composite-materials-matrices-7",
+      "label": "碳纖維複合材料（CFRP）"
+    },
+    {
+      "itemId": "composite-materials-matrices-5",
+      "label": "中密度纖維板（MDF）"
+    },
+    {
+      "itemId": "composite-materials-matrices-9",
+      "label": "芳綸（克維拉）複合材料"
+    },
+    {
+      "itemId": "composite-materials-matrices-3",
+      "label": "鈦基碳化矽複合材料"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各複合材料所採用的基體或天然木質類別（陶瓷基、金屬基、工程木質或高分子纖維複合）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "陶瓷基複合材料",
+        "capacity": 1,
+        "itemIds": [
+          "composite-materials-matrices-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "金屬基複合材料",
+        "capacity": 2,
+        "itemIds": [
+          "composite-materials-matrices-2",
+          "composite-materials-matrices-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "工程木質複合板材",
+        "capacity": 3,
+        "itemIds": [
+          "composite-materials-matrices-4",
+          "composite-materials-matrices-5",
+          "composite-materials-matrices-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "高分子纖維複合材料",
+        "capacity": 4,
+        "itemIds": [
+          "composite-materials-matrices-7",
+          "composite-materials-matrices-8",
+          "composite-materials-matrices-9",
+          "composite-materials-matrices-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依複合材料基體分類：陶瓷基（碳化矽陶瓷基複合材料）、金屬基（鋁基碳化矽、鈦基複合材料）、工程木質複合（合板、密集板 MDF、集成材）與高分子纖維複合（碳纖維 CFRP、玻璃纖維 GFRP、克維拉芳綸複合、玄武岩纖維複合）。",
+  "sources": [
+    {
+      "title": "Britannica: Composite Material",
+      "url": "https://www.britannica.com/technology/composite-material",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.64
+  },
+  "status": "scheduled"
+}

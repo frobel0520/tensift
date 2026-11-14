@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "ndt-inspection-methods-001",
+  "theme": "Non-Destructive Testing (NDT)",
+  "publishDate": "2027-07-26",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "ndt-inspection-methods-8",
+        "rivalGroupId": "group-3",
+        "risk": "Acoustic Emission uses high-frequency sound waves like Ultrasonic Testing.",
+        "resolution": "Ultrasonic Testing actively pulses sound waves into a part (group-3), whereas Acoustic Emission passively listens to stress-induced crack emissions under load (group-4)."
+      },
+      {
+        "itemId": "ndt-inspection-methods-6",
+        "rivalGroupId": "group-2",
+        "risk": "Eddy current detects near-surface cracks.",
+        "resolution": "Eddy current uses electromagnetic induction coils (group-3), rather than surface dye or iron-powder indicators (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

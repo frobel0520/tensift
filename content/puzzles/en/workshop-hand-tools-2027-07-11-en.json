@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "workshop-hand-tools-2027-07-11-en",
+  "puzzleFamilyId": "workshop-hand-tools-001",
+  "locale": "en",
+  "publishDate": "2027-07-11",
+  "timezone": "UTC",
+  "theme": "Workshop Hand Tools",
+  "items": [
+    {
+      "itemId": "workshop-hand-tools-4",
+      "label": "Hacksaw"
+    },
+    {
+      "itemId": "workshop-hand-tools-8",
+      "label": "Torque Wrench"
+    },
+    {
+      "itemId": "workshop-hand-tools-1",
+      "label": "Vernier Caliper"
+    },
+    {
+      "itemId": "workshop-hand-tools-6",
+      "label": "Tin Snips"
+    },
+    {
+      "itemId": "workshop-hand-tools-10",
+      "label": "Hex Allen Key"
+    },
+    {
+      "itemId": "workshop-hand-tools-2",
+      "label": "Locking Pliers"
+    },
+    {
+      "itemId": "workshop-hand-tools-7",
+      "label": "Claw Hammer"
+    },
+    {
+      "itemId": "workshop-hand-tools-5",
+      "label": "Wood Chisel"
+    },
+    {
+      "itemId": "workshop-hand-tools-9",
+      "label": "Phillips Screwdriver"
+    },
+    {
+      "itemId": "workshop-hand-tools-3",
+      "label": "C-Clamp"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tool function (Precision Measurement, Gripping/Clamping, Cutting/Shearing, or Striking/Driving)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Precision Measurement",
+        "capacity": 1,
+        "itemIds": [
+          "workshop-hand-tools-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Gripping & Clamping",
+        "capacity": 2,
+        "itemIds": [
+          "workshop-hand-tools-2",
+          "workshop-hand-tools-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Cutting & Shearing",
+        "capacity": 3,
+        "itemIds": [
+          "workshop-hand-tools-4",
+          "workshop-hand-tools-5",
+          "workshop-hand-tools-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Striking & Driving",
+        "capacity": 4,
+        "itemIds": [
+          "workshop-hand-tools-7",
+          "workshop-hand-tools-8",
+          "workshop-hand-tools-9",
+          "workshop-hand-tools-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by tool function: Measurement (Vernier Caliper), Gripping & Clamping (Locking Pliers, C-Clamp), Cutting & Shaping (Hacksaw, Wood Chisel, Tin Snips), and Striking & Driving (Claw Hammer, Torque Wrench, Phillips Screwdriver, Hex Allen Key).",
+  "sources": [
+    {
+      "title": "Britannica: Hand Tools",
+      "url": "https://www.britannica.com/technology/hand-tool",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

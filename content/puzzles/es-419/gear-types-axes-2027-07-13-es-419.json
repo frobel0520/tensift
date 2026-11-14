@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "gear-types-axes-2027-07-13-es-419",
+  "puzzleFamilyId": "gear-types-axes-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-13",
+  "timezone": "UTC",
+  "theme": "Tipos de engranajes mecánicos",
+  "items": [
+    {
+      "itemId": "gear-types-axes-4",
+      "label": "Engranaje cónico recto"
+    },
+    {
+      "itemId": "gear-types-axes-8",
+      "label": "Engranaje helicoidal"
+    },
+    {
+      "itemId": "gear-types-axes-1",
+      "label": "Piñón y cremallera"
+    },
+    {
+      "itemId": "gear-types-axes-6",
+      "label": "Engranaje cónico 1:1 (miter)"
+    },
+    {
+      "itemId": "gear-types-axes-10",
+      "label": "Corona dentada interna"
+    },
+    {
+      "itemId": "gear-types-axes-2",
+      "label": "Tornillo sin fin y corona"
+    },
+    {
+      "itemId": "gear-types-axes-7",
+      "label": "Engranaje recto"
+    },
+    {
+      "itemId": "gear-types-axes-5",
+      "label": "Engranaje cónico espiral"
+    },
+    {
+      "itemId": "gear-types-axes-9",
+      "label": "Engranaje en espiga (doble helicoidal)"
+    },
+    {
+      "itemId": "gear-types-axes-3",
+      "label": "Engranaje hipoide"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Geometría de ejes de cada tipo de engranaje",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Conversión lineal",
+        "capacity": 1,
+        "itemIds": [
+          "gear-types-axes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Ejes cruzados no secantes",
+        "capacity": 2,
+        "itemIds": [
+          "gear-types-axes-2",
+          "gear-types-axes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Ejes secantes",
+        "capacity": 3,
+        "itemIds": [
+          "gear-types-axes-4",
+          "gear-types-axes-5",
+          "gear-types-axes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Ejes paralelos",
+        "capacity": 4,
+        "itemIds": [
+          "gear-types-axes-7",
+          "gear-types-axes-8",
+          "gear-types-axes-9",
+          "gear-types-axes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por geometría de ejes: movimiento lineal (piñón y cremallera), ejes cruzados no secantes (tornillo sin fin, hipoide), ejes secantes (cónico recto, cónico espiral, cónico a 90° miter) y ejes paralelos (recto, helicoidal, doble helicoidal, corona interna).",
+  "sources": [
+    {
+      "title": "AGMA: Gear Nomenclature",
+      "url": "https://www.agma.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

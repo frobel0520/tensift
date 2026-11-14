@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "electric-motor-types-2027-07-15-en",
+  "puzzleFamilyId": "electric-motor-types-001",
+  "locale": "en",
+  "publishDate": "2027-07-15",
+  "timezone": "UTC",
+  "theme": "Electric Motor Types",
+  "items": [
+    {
+      "itemId": "electric-motor-types-4",
+      "label": "Permanent-Magnet Brushed DC"
+    },
+    {
+      "itemId": "electric-motor-types-8",
+      "label": "Wound-Rotor Induction Motor"
+    },
+    {
+      "itemId": "electric-motor-types-1",
+      "label": "Linear Induction Motor"
+    },
+    {
+      "itemId": "electric-motor-types-6",
+      "label": "Shunt-Wound DC Motor"
+    },
+    {
+      "itemId": "electric-motor-types-10",
+      "label": "Switched Reluctance Motor"
+    },
+    {
+      "itemId": "electric-motor-types-2",
+      "label": "Stepper Motor"
+    },
+    {
+      "itemId": "electric-motor-types-7",
+      "label": "Squirrel-Cage Induction Motor"
+    },
+    {
+      "itemId": "electric-motor-types-5",
+      "label": "Series-Wound DC Motor"
+    },
+    {
+      "itemId": "electric-motor-types-9",
+      "label": "Permanent-Magnet Synchronous (PMSM)"
+    },
+    {
+      "itemId": "electric-motor-types-3",
+      "label": "Brushless DC (BLDC) Servo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Motor architecture (Linear Motor, Stepper/Brushless Servo, Brushed DC, or AC Induction/Synchronous)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Linear Motion",
+        "capacity": 1,
+        "itemIds": [
+          "electric-motor-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Stepper & BLDC Servo",
+        "capacity": 2,
+        "itemIds": [
+          "electric-motor-types-2",
+          "electric-motor-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Brushed DC Motors",
+        "capacity": 3,
+        "itemIds": [
+          "electric-motor-types-4",
+          "electric-motor-types-5",
+          "electric-motor-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "AC Induction & Synchronous",
+        "capacity": 4,
+        "itemIds": [
+          "electric-motor-types-7",
+          "electric-motor-types-8",
+          "electric-motor-types-9",
+          "electric-motor-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by motor architecture: Linear (Linear Induction Motor), Precision Stepper/BLDC (Stepper Motor, Brushless DC Servo), Brushed DC (Permanent-Magnet DC, Series-Wound DC, Shunt-Wound DC), and AC Induction/Synchronous (Squirrel-Cage Induction, Wound-Rotor Induction, Permanent-Magnet Synchronous, Switched Reluctance).",
+  "sources": [
+    {
+      "title": "IEEE: Electric Machines & Drives",
+      "url": "https://www.ieee.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "steel-heat-treatments-2027-07-20-zh-hant",
+  "puzzleFamilyId": "steel-heat-treatments-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-20",
+  "timezone": "UTC",
+  "theme": "鋼鐵熱處理與顯微組織",
+  "items": [
+    {
+      "itemId": "steel-heat-treatments-4",
+      "label": "水淬"
+    },
+    {
+      "itemId": "steel-heat-treatments-8",
+      "label": "麻田散鐵（馬氏體）"
+    },
+    {
+      "itemId": "steel-heat-treatments-1",
+      "label": "滲碳處理"
+    },
+    {
+      "itemId": "steel-heat-treatments-6",
+      "label": "回火"
+    },
+    {
+      "itemId": "steel-heat-treatments-10",
+      "label": "波來鐵（珠光體）"
+    },
+    {
+      "itemId": "steel-heat-treatments-2",
+      "label": "完全退火"
+    },
+    {
+      "itemId": "steel-heat-treatments-7",
+      "label": "沃斯田鐵（奧氏體）"
+    },
+    {
+      "itemId": "steel-heat-treatments-5",
+      "label": "油淬"
+    },
+    {
+      "itemId": "steel-heat-treatments-9",
+      "label": "肥粒鐵（鐵素體）"
+    },
+    {
+      "itemId": "steel-heat-treatments-3",
+      "label": "去應力退火"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各鋼鐵冶金術語的類別（表面硬化、退火軟化、淬火／回火或顯微組織相態）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "表面硬化處理",
+        "capacity": 1,
+        "itemIds": [
+          "steel-heat-treatments-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "退火軟化處理",
+        "capacity": 2,
+        "itemIds": [
+          "steel-heat-treatments-2",
+          "steel-heat-treatments-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "淬火與回火",
+        "capacity": 3,
+        "itemIds": [
+          "steel-heat-treatments-4",
+          "steel-heat-treatments-5",
+          "steel-heat-treatments-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "鋼鐵顯微組織相態",
+        "capacity": 4,
+        "itemIds": [
+          "steel-heat-treatments-7",
+          "steel-heat-treatments-8",
+          "steel-heat-treatments-9",
+          "steel-heat-treatments-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依鋼鐵冶金分類：表面滲碳硬化（滲碳處理）、退火軟化（完全退火、去應力退火）、淬火與回火（水淬、油淬、回火）與鋼鐵顯微組織（沃斯田鐵、麻田散鐵、肥粒鐵、波來鐵）。",
+  "sources": [
+    {
+      "title": "ASM International: Steel Heat Treating",
+      "url": "https://www.asminternational.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

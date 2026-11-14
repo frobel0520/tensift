@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "workshop-hand-tools-2027-07-11-zh-hant",
+  "puzzleFamilyId": "workshop-hand-tools-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-11",
+  "timezone": "UTC",
+  "theme": "金工與木工手工具",
+  "items": [
+    {
+      "itemId": "workshop-hand-tools-4",
+      "label": "弓形鋼鋸"
+    },
+    {
+      "itemId": "workshop-hand-tools-8",
+      "label": "扭力扳手"
+    },
+    {
+      "itemId": "workshop-hand-tools-1",
+      "label": "游標卡尺"
+    },
+    {
+      "itemId": "workshop-hand-tools-6",
+      "label": "鐵皮剪"
+    },
+    {
+      "itemId": "workshop-hand-tools-10",
+      "label": "內六角扳手"
+    },
+    {
+      "itemId": "workshop-hand-tools-2",
+      "label": "萬能鉗（固定鉗）"
+    },
+    {
+      "itemId": "workshop-hand-tools-7",
+      "label": "羊角錘"
+    },
+    {
+      "itemId": "workshop-hand-tools-5",
+      "label": "木工鑿刀"
+    },
+    {
+      "itemId": "workshop-hand-tools-9",
+      "label": "十字螺絲起子"
+    },
+    {
+      "itemId": "workshop-hand-tools-3",
+      "label": "C 型夾"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各手工具的主要操作功能（精密量測、夾持固定、切削剪斷或敲擊旋緊）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "精密量測工具",
+        "capacity": 1,
+        "itemIds": [
+          "workshop-hand-tools-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "夾持與固定工具",
+        "capacity": 2,
+        "itemIds": [
+          "workshop-hand-tools-2",
+          "workshop-hand-tools-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "切削與剪斷工具",
+        "capacity": 3,
+        "itemIds": [
+          "workshop-hand-tools-4",
+          "workshop-hand-tools-5",
+          "workshop-hand-tools-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "敲擊與旋緊工具",
+        "capacity": 4,
+        "itemIds": [
+          "workshop-hand-tools-7",
+          "workshop-hand-tools-8",
+          "workshop-hand-tools-9",
+          "workshop-hand-tools-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依工具操作功能分類：精密量測（游標卡尺）、夾持固定（萬能鉗、C 型夾）、切削剪斷（弓形鋼鋸、木工鑿刀、鐵皮剪）與敲擊旋緊（羊角錘、扭力扳手、十字螺絲起子、內六角扳手）。",
+  "sources": [
+    {
+      "title": "Britannica: Hand Tools",
+      "url": "https://www.britannica.com/technology/hand-tool",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

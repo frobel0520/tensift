@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "knot-categories-uses-001",
+  "theme": "Knots by Function",
+  "publishDate": "2027-07-05",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "knot-categories-uses-8",
+        "rivalGroupId": "group-1",
+        "risk": "Figure-Eight Loop shares the Figure-Eight name.",
+        "resolution": "Figure-Eight Loop forms a closed secure loop (group-4), whereas the simple Figure-Eight is a stopper knot (group-1)."
+      },
+      {
+        "itemId": "knot-categories-uses-4",
+        "rivalGroupId": "group-2",
+        "risk": "Clove Hitch can be tied around a post quickly.",
+        "resolution": "Hitches attach a rope to a spar, post, or ring (group-3), whereas bends join two rope ends together (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

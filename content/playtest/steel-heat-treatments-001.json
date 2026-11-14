@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "steel-heat-treatments-001",
+  "theme": "Metallurgy & Steel Phases",
+  "publishDate": "2027-07-20",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "steel-heat-treatments-8",
+        "rivalGroupId": "group-3",
+        "risk": "Martensite is formed directly by quenching.",
+        "resolution": "Martensite is a crystal microstructure phase (group-4), whereas water/oil quenching and tempering are heat-treatment processes (group-3)."
+      },
+      {
+        "itemId": "steel-heat-treatments-1",
+        "rivalGroupId": "group-3",
+        "risk": "Carburized parts are subsequently quenched.",
+        "resolution": "Carburizing diffuses carbon into the outer surface layer (group-1), distinct from bulk quenching/tempering (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

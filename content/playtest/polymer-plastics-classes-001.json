@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "polymer-plastics-classes-001",
+  "theme": "Polymers & Plastics",
+  "publishDate": "2027-07-09",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "polymer-plastics-classes-2",
+        "rivalGroupId": "group-4",
+        "risk": "Epoxy is used in high-strength aerospace composites.",
+        "resolution": "Epoxy cures irreversibly via cross-linking, making it a thermoset (group-2) rather than a remeltable engineering thermoplastic (group-4)."
+      },
+      {
+        "itemId": "polymer-plastics-classes-1",
+        "rivalGroupId": "group-2",
+        "risk": "Vulcanized rubber is cross-linked.",
+        "resolution": "Natural rubber exhibits high reversible elasticity as an elastomer (group-1), unlike rigid thermosets (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

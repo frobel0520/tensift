@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "audio-connectors-cables-2027-07-27-zh-hant",
+  "puzzleFamilyId": "audio-connectors-cables-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-27",
+  "timezone": "UTC",
+  "theme": "專業與消費性音訊接頭",
+  "items": [
+    {
+      "itemId": "audio-connectors-cables-4",
+      "label": "XLR 三針平衡接頭"
+    },
+    {
+      "itemId": "audio-connectors-cables-8",
+      "label": "6.3mm TS 單聲道樂器頭"
+    },
+    {
+      "itemId": "audio-connectors-cables-1",
+      "label": "TOSLINK 光纖接頭"
+    },
+    {
+      "itemId": "audio-connectors-cables-6",
+      "label": "Bantam TT 錄音室跳線頭"
+    },
+    {
+      "itemId": "audio-connectors-cables-10",
+      "label": "2.5 mm 超迷你接頭"
+    },
+    {
+      "itemId": "audio-connectors-cables-2",
+      "label": "Speakon 鎖定喇叭頭"
+    },
+    {
+      "itemId": "audio-connectors-cables-7",
+      "label": "RCA 梅花端子"
+    },
+    {
+      "itemId": "audio-connectors-cables-5",
+      "label": "6.3mm TRS 平衡接頭"
+    },
+    {
+      "itemId": "audio-connectors-cables-9",
+      "label": "3.5 mm 立體聲耳機頭"
+    },
+    {
+      "itemId": "audio-connectors-cables-3",
+      "label": "香蕉插接線柱"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各音訊接頭的訊號類型與應用等級（光纖數位、高功率喇叭、專業平衡類比或非平衡類比）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "光纖數位音訊",
+        "capacity": 1,
+        "itemIds": [
+          "audio-connectors-cables-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "被動喇叭功率端子",
+        "capacity": 2,
+        "itemIds": [
+          "audio-connectors-cables-2",
+          "audio-connectors-cables-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "專業平衡類比接頭",
+        "capacity": 3,
+        "itemIds": [
+          "audio-connectors-cables-4",
+          "audio-connectors-cables-5",
+          "audio-connectors-cables-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "非平衡類比接頭",
+        "capacity": 4,
+        "itemIds": [
+          "audio-connectors-cables-7",
+          "audio-connectors-cables-8",
+          "audio-connectors-cables-9",
+          "audio-connectors-cables-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依音訊訊號與用途分類：數位光纖（TOSLINK 光纖）、高功率被動喇叭（Speakon、香蕉插接線柱）、專業平衡類比（XLR 三針、6.3mm TRS 平衡、Bantam TT 跳線）與非平衡類比（RCA 梅花端子、6.3mm TS 樂器線、3.5mm 耳機孔、2.5mm 迷你接頭）。",
+  "sources": [
+    {
+      "title": "AES: Audio Engineering Connectors",
+      "url": "https://www.aes.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

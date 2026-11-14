@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "welding-joining-methods-001",
+  "theme": "Welding & Metal Joining",
+  "publishDate": "2027-07-17",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "welding-joining-methods-5",
+        "rivalGroupId": "group-1",
+        "risk": "Friction stir welding is a solid-state process like ultrasonic welding.",
+        "resolution": "Friction stir welding uses a rotating mechanical tool (group-3), distinct from high-frequency ultrasonic vibration (group-1)."
+      },
+      {
+        "itemId": "welding-joining-methods-3",
+        "rivalGroupId": "group-4",
+        "risk": "Brazing uses a torch flame.",
+        "resolution": "Brazing melts only the filler alloy below the base metal melting point (group-2), unlike fusion welding (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

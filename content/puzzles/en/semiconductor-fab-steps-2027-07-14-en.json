@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "semiconductor-fab-steps-2027-07-14-en",
+  "puzzleFamilyId": "semiconductor-fab-steps-001",
+  "locale": "en",
+  "publishDate": "2027-07-14",
+  "timezone": "UTC",
+  "theme": "Semiconductor Wafer Fab",
+  "items": [
+    {
+      "itemId": "semiconductor-fab-steps-4",
+      "label": "EUV Photolithography"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-8",
+      "label": "PVD Sputtering"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-1",
+      "label": "Czochralski Ingot Growth"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-6",
+      "label": "Thermal Oxidation"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-10",
+      "label": "Copper Electroplating"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-2",
+      "label": "Wet Chemical Etching"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-7",
+      "label": "Chemical Vapor Deposition (CVD)"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-5",
+      "label": "Ion Implantation"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-9",
+      "label": "Atomic Layer Deposition (ALD)"
+    },
+    {
+      "itemId": "semiconductor-fab-steps-3",
+      "label": "Chemical Mechanical Polishing (CMP)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Wafer fabrication stage (Ingot Crystal Growth, Etch & Planarization, Lithography & Doping, or Thin-Film Deposition)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Crystal Ingot Growth",
+        "capacity": 1,
+        "itemIds": [
+          "semiconductor-fab-steps-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Etch & Planarization",
+        "capacity": 2,
+        "itemIds": [
+          "semiconductor-fab-steps-2",
+          "semiconductor-fab-steps-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Lithography, Doping & Oxidation",
+        "capacity": 3,
+        "itemIds": [
+          "semiconductor-fab-steps-4",
+          "semiconductor-fab-steps-5",
+          "semiconductor-fab-steps-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Thin-Film Deposition",
+        "capacity": 4,
+        "itemIds": [
+          "semiconductor-fab-steps-7",
+          "semiconductor-fab-steps-8",
+          "semiconductor-fab-steps-9",
+          "semiconductor-fab-steps-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by fab stage: Crystal Growth (Czochralski Ingot Growth), Etch & Planarization (Wet Chemical Etch, CMP Polishing), Lithography & Doping (EUV Photolithography, Ion Implantation, Thermal Oxidation), and Thin-Film Deposition (CVD, PVD Sputtering, ALD, Copper Electroplating).",
+  "sources": [
+    {
+      "title": "NIST: Semiconductor Metrology",
+      "url": "https://www.nist.gov/semiconductors",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

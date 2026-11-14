@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "iso-paper-series-2027-07-06-en",
+  "puzzleFamilyId": "iso-paper-series-001",
+  "locale": "en",
+  "publishDate": "2027-07-06",
+  "timezone": "UTC",
+  "theme": "Standard Paper & Envelope Sizes",
+  "items": [
+    {
+      "itemId": "iso-paper-series-4",
+      "label": "B4 Sheet"
+    },
+    {
+      "itemId": "iso-paper-series-8",
+      "label": "A2 Sheet"
+    },
+    {
+      "itemId": "iso-paper-series-1",
+      "label": "ANSI A (8.5×11 in)"
+    },
+    {
+      "itemId": "iso-paper-series-6",
+      "label": "B6 Sheet"
+    },
+    {
+      "itemId": "iso-paper-series-10",
+      "label": "A5 Sheet"
+    },
+    {
+      "itemId": "iso-paper-series-2",
+      "label": "C4 Envelope"
+    },
+    {
+      "itemId": "iso-paper-series-7",
+      "label": "A1 Sheet"
+    },
+    {
+      "itemId": "iso-paper-series-5",
+      "label": "B5 Sheet"
+    },
+    {
+      "itemId": "iso-paper-series-9",
+      "label": "A4 Sheet"
+    },
+    {
+      "itemId": "iso-paper-series-3",
+      "label": "C5 Envelope"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Standard series (North American ANSI, ISO C-Series Envelopes, ISO B-Series, or ISO A-Series)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "North American ANSI",
+        "capacity": 1,
+        "itemIds": [
+          "iso-paper-series-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "ISO C-Series (Envelopes)",
+        "capacity": 2,
+        "itemIds": [
+          "iso-paper-series-2",
+          "iso-paper-series-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "ISO B-Series",
+        "capacity": 3,
+        "itemIds": [
+          "iso-paper-series-4",
+          "iso-paper-series-5",
+          "iso-paper-series-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "ISO A-Series",
+        "capacity": 4,
+        "itemIds": [
+          "iso-paper-series-7",
+          "iso-paper-series-8",
+          "iso-paper-series-9",
+          "iso-paper-series-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by paper standard series: North American ANSI (ANSI A / US Letter), ISO C-Series Envelopes (C4, C5), ISO B-Series (B4, B5, B6), and ISO A-Series (A1, A2, A4, A5).",
+  "sources": [
+    {
+      "title": "ISO 216 & ISO 269 Paper Standards",
+      "url": "https://www.iso.org/standard/36631.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

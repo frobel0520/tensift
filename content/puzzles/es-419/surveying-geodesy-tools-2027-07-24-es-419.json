@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "surveying-geodesy-tools-2027-07-24-es-419",
+  "puzzleFamilyId": "surveying-geodesy-tools-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-24",
+  "timezone": "UTC",
+  "theme": "Instrumentos de topografía y geodesia",
+  "items": [
+    {
+      "itemId": "surveying-geodesy-tools-4",
+      "label": "Teodolito"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-8",
+      "label": "Escáner LiDAR terrestre"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-1",
+      "label": "Plomada"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-6",
+      "label": "Distanciómetro electrónico (EDM)"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-10",
+      "label": "Satélite InSAR"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-2",
+      "label": "Nivel óptico"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-7",
+      "label": "Rover GNSS RTK"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-5",
+      "label": "Estación total"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-9",
+      "label": "Dron de fotogrametría"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-3",
+      "label": "Nivel láser rotativo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tecnología de medición de cada instrumento topográfico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Referencia vertical por gravedad",
+        "capacity": 1,
+        "itemIds": [
+          "surveying-geodesy-tools-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Instrumentos de nivelación",
+        "capacity": 2,
+        "itemIds": [
+          "surveying-geodesy-tools-2",
+          "surveying-geodesy-tools-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Estaciones angulares y EDM",
+        "capacity": 3,
+        "itemIds": [
+          "surveying-geodesy-tools-4",
+          "surveying-geodesy-tools-5",
+          "surveying-geodesy-tools-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "GNSS y mapeo 3D remoto",
+        "capacity": 4,
+        "itemIds": [
+          "surveying-geodesy-tools-7",
+          "surveying-geodesy-tools-8",
+          "surveying-geodesy-tools-9",
+          "surveying-geodesy-tools-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por tecnología: plomada (plomada), nivelación (nivel óptico, nivel láser), ángulo y distancia óptica (teodolito, estación total, distanciómetro EDM) y mapeo GNSS/3D (rover GNSS RTK, LiDAR terrestre, dron fotogramétrico, satélite InSAR).",
+  "sources": [
+    {
+      "title": "NGS / NOAA: Geodetic Surveying",
+      "url": "https://geodesy.noaa.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "robotics-kinematics-joints-001",
+  "theme": "Robotics Joints & Arms",
+  "publishDate": "2027-07-21",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "robotics-kinematics-joints-6",
+        "rivalGroupId": "group-2",
+        "risk": "A helical screw both rotates and translates.",
+        "resolution": "Because pitch couples rotation and translation, a helical joint has only 1 independent degree of freedom (group-3), unlike a cylindrical joint (2 DOF, group-2)."
+      },
+      {
+        "itemId": "robotics-kinematics-joints-1",
+        "rivalGroupId": "group-2",
+        "risk": "Ball joints provide multi-axis wrist motion like universal joints.",
+        "resolution": "A spherical joint allows 3 rotational DOFs (group-1), whereas a universal joint allows 2 (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

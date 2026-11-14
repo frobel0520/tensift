@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "polymer-plastics-classes-2027-07-09-es-419",
+  "puzzleFamilyId": "polymer-plastics-classes-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-09",
+  "timezone": "UTC",
+  "theme": "Polímeros y plásticos",
+  "items": [
+    {
+      "itemId": "polymer-plastics-classes-4",
+      "label": "Polietileno (PE)"
+    },
+    {
+      "itemId": "polymer-plastics-classes-8",
+      "label": "Poliamida (nailon)"
+    },
+    {
+      "itemId": "polymer-plastics-classes-1",
+      "label": "Caucho natural"
+    },
+    {
+      "itemId": "polymer-plastics-classes-6",
+      "label": "Poliestireno (PS)"
+    },
+    {
+      "itemId": "polymer-plastics-classes-10",
+      "label": "PTFE (teflón)"
+    },
+    {
+      "itemId": "polymer-plastics-classes-2",
+      "label": "Resina epoxi"
+    },
+    {
+      "itemId": "polymer-plastics-classes-7",
+      "label": "Policarbonato (PC)"
+    },
+    {
+      "itemId": "polymer-plastics-classes-5",
+      "label": "Polipropileno (PP)"
+    },
+    {
+      "itemId": "polymer-plastics-classes-9",
+      "label": "PEEK"
+    },
+    {
+      "itemId": "polymer-plastics-classes-3",
+      "label": "Resina fenólica (baquelita)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase térmica y mecánica de cada polímero",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Elastómero",
+        "capacity": 1,
+        "itemIds": [
+          "polymer-plastics-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Termoestables",
+        "capacity": 2,
+        "itemIds": [
+          "polymer-plastics-classes-2",
+          "polymer-plastics-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Termoplásticos de uso común",
+        "capacity": 3,
+        "itemIds": [
+          "polymer-plastics-classes-4",
+          "polymer-plastics-classes-5",
+          "polymer-plastics-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Termoplásticos de ingeniería",
+        "capacity": 4,
+        "itemIds": [
+          "polymer-plastics-classes-7",
+          "polymer-plastics-classes-8",
+          "polymer-plastics-classes-9",
+          "polymer-plastics-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase: elastómero (caucho natural), termoestables (resina epoxi, baquelita fenólica), termoplásticos de uso común (PE, PP, PS) y termoplásticos de ingeniería (policarbonato, nailon, PEEK, PTFE).",
+  "sources": [
+    {
+      "title": "IUPAC: Polymer Nomenclature",
+      "url": "https://iupac.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

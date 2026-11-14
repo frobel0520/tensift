@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "polymer-plastics-classes-2027-07-09-zh-hant",
+  "puzzleFamilyId": "polymer-plastics-classes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-09",
+  "timezone": "UTC",
+  "theme": "高分子聚合物分類",
+  "items": [
+    {
+      "itemId": "polymer-plastics-classes-4",
+      "label": "聚乙烯（PE）"
+    },
+    {
+      "itemId": "polymer-plastics-classes-8",
+      "label": "聚醯胺（尼龍）"
+    },
+    {
+      "itemId": "polymer-plastics-classes-1",
+      "label": "天然橡膠"
+    },
+    {
+      "itemId": "polymer-plastics-classes-6",
+      "label": "聚苯乙烯（PS）"
+    },
+    {
+      "itemId": "polymer-plastics-classes-10",
+      "label": "聚四氟乙烯（PTFE）"
+    },
+    {
+      "itemId": "polymer-plastics-classes-2",
+      "label": "環氧樹脂"
+    },
+    {
+      "itemId": "polymer-plastics-classes-7",
+      "label": "聚碳酸酯（PC）"
+    },
+    {
+      "itemId": "polymer-plastics-classes-5",
+      "label": "聚丙烯（PP）"
+    },
+    {
+      "itemId": "polymer-plastics-classes-9",
+      "label": "聚醚醚酮（PEEK）"
+    },
+    {
+      "itemId": "polymer-plastics-classes-3",
+      "label": "酚醛樹脂（電木）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各高分子材料的熱與力學分類（彈性體、熱固性樹脂、泛用熱塑性塑膠或工程塑膠）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "彈性體",
+        "capacity": 1,
+        "itemIds": [
+          "polymer-plastics-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "熱固性樹脂",
+        "capacity": 2,
+        "itemIds": [
+          "polymer-plastics-classes-2",
+          "polymer-plastics-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "泛用熱塑性塑膠",
+        "capacity": 3,
+        "itemIds": [
+          "polymer-plastics-classes-4",
+          "polymer-plastics-classes-5",
+          "polymer-plastics-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "工程熱塑性塑膠",
+        "capacity": 4,
+        "itemIds": [
+          "polymer-plastics-classes-7",
+          "polymer-plastics-classes-8",
+          "polymer-plastics-classes-9",
+          "polymer-plastics-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依高分子材料分類：彈性體（天然橡膠）、熱固性樹脂（環氧樹脂、酚醛樹脂／電木）、泛用熱塑性塑膠（聚乙烯 PE、聚丙烯 PP、聚苯乙烯 PS）與工程塑膠（聚碳酸酯 PC、聚醯胺／尼龍、PEEK、鐵氟龍 PTFE）。",
+  "sources": [
+    {
+      "title": "IUPAC: Polymer Nomenclature",
+      "url": "https://iupac.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

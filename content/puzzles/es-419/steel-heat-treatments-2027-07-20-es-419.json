@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "steel-heat-treatments-2027-07-20-es-419",
+  "puzzleFamilyId": "steel-heat-treatments-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-20",
+  "timezone": "UTC",
+  "theme": "Tratamientos térmicos y fases del acero",
+  "items": [
+    {
+      "itemId": "steel-heat-treatments-4",
+      "label": "Temple en agua"
+    },
+    {
+      "itemId": "steel-heat-treatments-8",
+      "label": "Martensita"
+    },
+    {
+      "itemId": "steel-heat-treatments-1",
+      "label": "Cementación (carburizado)"
+    },
+    {
+      "itemId": "steel-heat-treatments-6",
+      "label": "Revenido"
+    },
+    {
+      "itemId": "steel-heat-treatments-10",
+      "label": "Perlita"
+    },
+    {
+      "itemId": "steel-heat-treatments-2",
+      "label": "Recocido total"
+    },
+    {
+      "itemId": "steel-heat-treatments-7",
+      "label": "Austenita"
+    },
+    {
+      "itemId": "steel-heat-treatments-5",
+      "label": "Temple en aceite"
+    },
+    {
+      "itemId": "steel-heat-treatments-9",
+      "label": "Ferrita"
+    },
+    {
+      "itemId": "steel-heat-treatments-3",
+      "label": "Recocido de alivio de tensiones"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría metalúrgica de cada proceso o fase del acero",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Endurecimiento superficial",
+        "capacity": 1,
+        "itemIds": [
+          "steel-heat-treatments-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Recocido",
+        "capacity": 2,
+        "itemIds": [
+          "steel-heat-treatments-2",
+          "steel-heat-treatments-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Temple y revenido",
+        "capacity": 3,
+        "itemIds": [
+          "steel-heat-treatments-4",
+          "steel-heat-treatments-5",
+          "steel-heat-treatments-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Fases microestructurales",
+        "capacity": 4,
+        "itemIds": [
+          "steel-heat-treatments-7",
+          "steel-heat-treatments-8",
+          "steel-heat-treatments-9",
+          "steel-heat-treatments-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: endurecimiento superficial (cementación), recocido (recocido total, alivio de tensiones), temple y revenido (temple en agua, temple en aceite, revenido) y fases microestructurales (austenita, martensita, ferrita, perlita).",
+  "sources": [
+    {
+      "title": "ASM International: Steel Heat Treating",
+      "url": "https://www.asminternational.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

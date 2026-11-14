@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "gear-types-axes-2027-07-13-en",
+  "puzzleFamilyId": "gear-types-axes-001",
+  "locale": "en",
+  "publishDate": "2027-07-13",
+  "timezone": "UTC",
+  "theme": "Mechanical Gear Types",
+  "items": [
+    {
+      "itemId": "gear-types-axes-4",
+      "label": "Straight Bevel Gear"
+    },
+    {
+      "itemId": "gear-types-axes-8",
+      "label": "Helical Gear"
+    },
+    {
+      "itemId": "gear-types-axes-1",
+      "label": "Rack and Pinion"
+    },
+    {
+      "itemId": "gear-types-axes-6",
+      "label": "Miter Gear"
+    },
+    {
+      "itemId": "gear-types-axes-10",
+      "label": "Internal Ring Gear"
+    },
+    {
+      "itemId": "gear-types-axes-2",
+      "label": "Worm and Worm Wheel"
+    },
+    {
+      "itemId": "gear-types-axes-7",
+      "label": "Spur Gear"
+    },
+    {
+      "itemId": "gear-types-axes-5",
+      "label": "Spiral Bevel Gear"
+    },
+    {
+      "itemId": "gear-types-axes-9",
+      "label": "Herringbone Gear"
+    },
+    {
+      "itemId": "gear-types-axes-3",
+      "label": "Hypoid Gear"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Shaft/motion geometry (Linear Rack-and-Pinion, Non-Intersecting Skew, Intersecting Shafts, or Parallel Shafts)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Linear Conversion",
+        "capacity": 1,
+        "itemIds": [
+          "gear-types-axes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Non-Intersecting Skew Shafts",
+        "capacity": 2,
+        "itemIds": [
+          "gear-types-axes-2",
+          "gear-types-axes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Intersecting Shafts",
+        "capacity": 3,
+        "itemIds": [
+          "gear-types-axes-4",
+          "gear-types-axes-5",
+          "gear-types-axes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Parallel Shafts",
+        "capacity": 4,
+        "itemIds": [
+          "gear-types-axes-7",
+          "gear-types-axes-8",
+          "gear-types-axes-9",
+          "gear-types-axes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by shaft geometry: Linear Motion (Rack and Pinion), Non-Intersecting Skew Shafts (Worm Gear, Hypoid Gear), Intersecting Shafts (Straight Bevel, Spiral Bevel, Miter Gear), and Parallel Shafts (Spur Gear, Helical Gear, Herringbone Gear, Internal Ring Gear).",
+  "sources": [
+    {
+      "title": "AGMA: Gear Nomenclature",
+      "url": "https://www.agma.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

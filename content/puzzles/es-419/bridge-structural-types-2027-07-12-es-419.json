@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "bridge-structural-types-2027-07-12-es-419",
+  "puzzleFamilyId": "bridge-structural-types-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-12",
+  "timezone": "UTC",
+  "theme": "Tipos estructurales de puentes",
+  "items": [
+    {
+      "itemId": "bridge-structural-types-4",
+      "label": "Puente de arco de mampostería"
+    },
+    {
+      "itemId": "bridge-structural-types-8",
+      "label": "Puente atirantado"
+    },
+    {
+      "itemId": "bridge-structural-types-1",
+      "label": "Puente de pontones"
+    },
+    {
+      "itemId": "bridge-structural-types-6",
+      "label": "Puente de viga cajón"
+    },
+    {
+      "itemId": "bridge-structural-types-10",
+      "label": "Puente extradosado"
+    },
+    {
+      "itemId": "bridge-structural-types-2",
+      "label": "Puente en ménsula"
+    },
+    {
+      "itemId": "bridge-structural-types-7",
+      "label": "Puente colgante"
+    },
+    {
+      "itemId": "bridge-structural-types-5",
+      "label": "Puente de arco atirantado"
+    },
+    {
+      "itemId": "bridge-structural-types-9",
+      "label": "Puente colgante autoanclado"
+    },
+    {
+      "itemId": "bridge-structural-types-3",
+      "label": "Puente en celosía Warren"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Sistema estructural portante de cada puente",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Puente flotante",
+        "capacity": 1,
+        "itemIds": [
+          "bridge-structural-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Ménsula y celosía",
+        "capacity": 2,
+        "itemIds": [
+          "bridge-structural-types-2",
+          "bridge-structural-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Arco y viga",
+        "capacity": 3,
+        "itemIds": [
+          "bridge-structural-types-4",
+          "bridge-structural-types-5",
+          "bridge-structural-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Soportados por cables",
+        "capacity": 4,
+        "itemIds": [
+          "bridge-structural-types-7",
+          "bridge-structural-types-8",
+          "bridge-structural-types-9",
+          "bridge-structural-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por sistema estructural: flotante (puente de pontones), voladizo y celosía (en ménsula, celosía Warren), arco y viga (arco de mampostería, arco atirantado, viga cajón) y atirantados/colgantes (colgante, atirantado, colgante autoanclado, extradosado).",
+  "sources": [
+    {
+      "title": "Britannica: Bridge Engineering",
+      "url": "https://www.britannica.com/technology/bridge-engineering",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

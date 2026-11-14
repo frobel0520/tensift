@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "electrical-circuit-protection-2027-07-22-en",
+  "puzzleFamilyId": "electrical-circuit-protection-001",
+  "locale": "en",
+  "publishDate": "2027-07-22",
+  "timezone": "UTC",
+  "theme": "Electrical Safety & Protection",
+  "items": [
+    {
+      "itemId": "electrical-circuit-protection-4",
+      "label": "Miniature Circuit Breaker (MCB)"
+    },
+    {
+      "itemId": "electrical-circuit-protection-8",
+      "label": "Isolation Transformer"
+    },
+    {
+      "itemId": "electrical-circuit-protection-1",
+      "label": "Metal-Oxide Varistor (MOV)"
+    },
+    {
+      "itemId": "electrical-circuit-protection-6",
+      "label": "AFCI Arc-Fault Breaker"
+    },
+    {
+      "itemId": "electrical-circuit-protection-10",
+      "label": "Lightning Rod"
+    },
+    {
+      "itemId": "electrical-circuit-protection-2",
+      "label": "Cartridge Fuse"
+    },
+    {
+      "itemId": "electrical-circuit-protection-7",
+      "label": "Earth Ground Rod"
+    },
+    {
+      "itemId": "electrical-circuit-protection-5",
+      "label": "GFCI / RCD Ground-Fault Breaker"
+    },
+    {
+      "itemId": "electrical-circuit-protection-9",
+      "label": "Equipotential Bonding"
+    },
+    {
+      "itemId": "electrical-circuit-protection-3",
+      "label": "Thermal Cutoff Fuse"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Protection role (Transient Surge Suppressor, One-Time Fuse, Resettable Circuit Breaker, or Grounding & Isolation)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Surge Suppression",
+        "capacity": 1,
+        "itemIds": [
+          "electrical-circuit-protection-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "One-Time Melting Fuses",
+        "capacity": 2,
+        "itemIds": [
+          "electrical-circuit-protection-2",
+          "electrical-circuit-protection-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Resettable Circuit Breakers",
+        "capacity": 3,
+        "itemIds": [
+          "electrical-circuit-protection-4",
+          "electrical-circuit-protection-5",
+          "electrical-circuit-protection-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Grounding & Isolation",
+        "capacity": 4,
+        "itemIds": [
+          "electrical-circuit-protection-7",
+          "electrical-circuit-protection-8",
+          "electrical-circuit-protection-9",
+          "electrical-circuit-protection-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by protection role: Surge Suppression (MOV Varistor), Melting Fuses (Cartridge Fuse, Thermal Cutoff Fuse), Circuit Breakers (MCB Thermal-Magnetic, GFCI/RCD Residual-Current, AFCI Arc-Fault), and Grounding & Isolation (Earth Ground Rod, Isolation Transformer, Equipotential Bonding, Lightning Rod).",
+  "sources": [
+    {
+      "title": "NFPA 70: National Electrical Code Basics",
+      "url": "https://www.nfpa.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

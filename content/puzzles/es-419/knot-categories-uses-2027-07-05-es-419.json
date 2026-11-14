@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "knot-categories-uses-2027-07-05-es-419",
+  "puzzleFamilyId": "knot-categories-uses-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-05",
+  "timezone": "UTC",
+  "theme": "Nudos por función",
+  "items": [
+    {
+      "itemId": "knot-categories-uses-4",
+      "label": "Ballestrinque"
+    },
+    {
+      "itemId": "knot-categories-uses-8",
+      "label": "Ocho doble (lazo)"
+    },
+    {
+      "itemId": "knot-categories-uses-1",
+      "label": "Nudo en ocho simple"
+    },
+    {
+      "itemId": "knot-categories-uses-6",
+      "label": "Vuelta de braza"
+    },
+    {
+      "itemId": "knot-categories-uses-10",
+      "label": "As de guía por seno"
+    },
+    {
+      "itemId": "knot-categories-uses-2",
+      "label": "Vuelta de escota"
+    },
+    {
+      "itemId": "knot-categories-uses-7",
+      "label": "As de guía"
+    },
+    {
+      "itemId": "knot-categories-uses-5",
+      "label": "Nudo tensor"
+    },
+    {
+      "itemId": "knot-categories-uses-9",
+      "label": "Mariposa alpina"
+    },
+    {
+      "itemId": "knot-categories-uses-3",
+      "label": "Nudo Carrick"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase funcional de cada nudo en cabuyería",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Nudo de tope",
+        "capacity": 1,
+        "itemIds": [
+          "knot-categories-uses-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Empalmes (cabo a cabo)",
+        "capacity": 2,
+        "itemIds": [
+          "knot-categories-uses-2",
+          "knot-categories-uses-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Cotes / amarres a objeto",
+        "capacity": 3,
+        "itemIds": [
+          "knot-categories-uses-4",
+          "knot-categories-uses-5",
+          "knot-categories-uses-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Nudos de lazo",
+        "capacity": 4,
+        "itemIds": [
+          "knot-categories-uses-7",
+          "knot-categories-uses-8",
+          "knot-categories-uses-9",
+          "knot-categories-uses-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por función: tope (nudo en ocho), empalmes (vuelta de escota, nudo Carrick), cotes/amarres (ballestrinque, nudo tensor, vuelta de braza) y lazos (as de guía, ocho doble, mariposa alpina, as de guía por seno).",
+  "sources": [
+    {
+      "title": "International Guild of Knot Tyers",
+      "url": "https://www.igkt.net/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

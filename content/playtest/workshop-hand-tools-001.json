@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "workshop-hand-tools-001",
+  "theme": "Workshop Hand Tools",
+  "publishDate": "2027-07-11",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "workshop-hand-tools-8",
+        "rivalGroupId": "group-1",
+        "risk": "A torque wrench measures applied rotational torque.",
+        "resolution": "A torque wrench’s primary action is driving/tightening fasteners (group-4), unlike a dedicated measuring instrument like a caliper (group-1)."
+      },
+      {
+        "itemId": "workshop-hand-tools-2",
+        "rivalGroupId": "group-4",
+        "risk": "Pliers are sometimes used to turn stuck nuts.",
+        "resolution": "Locking pliers are designed for gripping and clamping (group-2), not precision driving (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

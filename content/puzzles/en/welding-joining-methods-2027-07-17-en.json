@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "welding-joining-methods-2027-07-17-en",
+  "puzzleFamilyId": "welding-joining-methods-001",
+  "locale": "en",
+  "publishDate": "2027-07-17",
+  "timezone": "UTC",
+  "theme": "Welding & Metal Joining",
+  "items": [
+    {
+      "itemId": "welding-joining-methods-4",
+      "label": "Spot Resistance Welding"
+    },
+    {
+      "itemId": "welding-joining-methods-8",
+      "label": "TIG / GTAW Welding"
+    },
+    {
+      "itemId": "welding-joining-methods-1",
+      "label": "Ultrasonic Welding"
+    },
+    {
+      "itemId": "welding-joining-methods-6",
+      "label": "Flash Butt Welding"
+    },
+    {
+      "itemId": "welding-joining-methods-10",
+      "label": "Laser Beam Welding"
+    },
+    {
+      "itemId": "welding-joining-methods-2",
+      "label": "Soft Soldering"
+    },
+    {
+      "itemId": "welding-joining-methods-7",
+      "label": "MIG / GMAW Welding"
+    },
+    {
+      "itemId": "welding-joining-methods-5",
+      "label": "Friction Stir Welding"
+    },
+    {
+      "itemId": "welding-joining-methods-9",
+      "label": "Stick / SMAW Welding"
+    },
+    {
+      "itemId": "welding-joining-methods-3",
+      "label": "Torch Brazing"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Joining mechanism (Ultrasonic Solid-State, Non-Fusion Filler, Resistance/Friction, or Fusion Arc/Beam)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Ultrasonic Solid-State",
+        "capacity": 1,
+        "itemIds": [
+          "welding-joining-methods-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Soldering & Brazing (Non-Fusion)",
+        "capacity": 2,
+        "itemIds": [
+          "welding-joining-methods-2",
+          "welding-joining-methods-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Resistance & Friction",
+        "capacity": 3,
+        "itemIds": [
+          "welding-joining-methods-4",
+          "welding-joining-methods-5",
+          "welding-joining-methods-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Fusion Arc & Beam Welding",
+        "capacity": 4,
+        "itemIds": [
+          "welding-joining-methods-7",
+          "welding-joining-methods-8",
+          "welding-joining-methods-9",
+          "welding-joining-methods-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by joining mechanism: Ultrasonic (Ultrasonic Welding), Non-Fusion Filler (Soft Soldering, Torch Brazing), Resistance & Friction (Spot Resistance Welding, Friction Stir Welding, Flash Butt Welding), and Fusion Arc/Beam (MIG/GMAW, TIG/GTAW, Stick SMAW, Laser Beam Welding).",
+  "sources": [
+    {
+      "title": "AWS: Welding Processes",
+      "url": "https://www.aws.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

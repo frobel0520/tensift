@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "manufacturing-processes-classes-001",
+  "theme": "Manufacturing Processes",
+  "publishDate": "2027-07-10",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "manufacturing-processes-classes-10",
+        "rivalGroupId": "group-3",
+        "risk": "Stamping can punch holes out of sheet metal.",
+        "resolution": "Sheet metal stamping is a press-forming process (group-4), distinct from chip-removing CNC/lathe/grinding machining (group-3)."
+      },
+      {
+        "itemId": "manufacturing-processes-classes-1",
+        "rivalGroupId": "group-4",
+        "risk": "SLA cures liquid photopolymer in a vat.",
+        "resolution": "SLA builds parts layer-by-layer without a solid mold, classifying it as additive manufacturing (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

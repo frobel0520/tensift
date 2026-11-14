@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "electric-motor-types-001",
+  "theme": "Electric Motor Types",
+  "publishDate": "2027-07-15",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "electric-motor-types-1",
+        "rivalGroupId": "group-4",
+        "risk": "Linear Induction Motor uses AC induction.",
+        "resolution": "A linear motor produces direct linear thrust rather than rotary shaft torque (group-1)."
+      },
+      {
+        "itemId": "electric-motor-types-3",
+        "rivalGroupId": "group-3",
+        "risk": "BLDC has DC in its name.",
+        "resolution": "BLDC uses electronic commutation without mechanical brushes (group-2), unlike brushed DC motors (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

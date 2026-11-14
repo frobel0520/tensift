@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "welding-joining-methods-2027-07-17-zh-hant",
+  "puzzleFamilyId": "welding-joining-methods-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-17",
+  "timezone": "UTC",
+  "theme": "金屬焊接與接合工法",
+  "items": [
+    {
+      "itemId": "welding-joining-methods-4",
+      "label": "電阻點焊"
+    },
+    {
+      "itemId": "welding-joining-methods-8",
+      "label": "TIG 鎢極惰氣保護焊"
+    },
+    {
+      "itemId": "welding-joining-methods-1",
+      "label": "超音波焊接"
+    },
+    {
+      "itemId": "welding-joining-methods-6",
+      "label": "閃光對焊"
+    },
+    {
+      "itemId": "welding-joining-methods-10",
+      "label": "雷射光束焊接"
+    },
+    {
+      "itemId": "welding-joining-methods-2",
+      "label": "軟焊（焊錫）"
+    },
+    {
+      "itemId": "welding-joining-methods-7",
+      "label": "MIG 金屬惰氣保護焊"
+    },
+    {
+      "itemId": "welding-joining-methods-5",
+      "label": "摩擦攪拌焊接"
+    },
+    {
+      "itemId": "welding-joining-methods-9",
+      "label": "手工電弧焊（SMAW）"
+    },
+    {
+      "itemId": "welding-joining-methods-3",
+      "label": "火焰硬焊（銅焊）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各金屬接合工法的熱源與熔融機制（超音波固態、低溫填料釬焊、電阻／摩擦或電弧／雷射熔焊）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "超音波固態焊接",
+        "capacity": 1,
+        "itemIds": [
+          "welding-joining-methods-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "軟焊與硬釬焊（不熔母材）",
+        "capacity": 2,
+        "itemIds": [
+          "welding-joining-methods-2",
+          "welding-joining-methods-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "電阻與摩擦焊接",
+        "capacity": 3,
+        "itemIds": [
+          "welding-joining-methods-4",
+          "welding-joining-methods-5",
+          "welding-joining-methods-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "電弧與雷射熔焊",
+        "capacity": 4,
+        "itemIds": [
+          "welding-joining-methods-7",
+          "welding-joining-methods-8",
+          "welding-joining-methods-9",
+          "welding-joining-methods-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依接合機制分類：超音波固態（超音波焊接）、不熔母材填料（軟焊錫、硬釬焊）、電阻與摩擦（電阻點焊、摩擦攪拌焊、閃光對焊）與電弧／光束熔焊（MIG 焊、TIG 氬焊、手工電弧焊 SMAW、雷射焊接）。",
+  "sources": [
+    {
+      "title": "AWS: Welding Processes",
+      "url": "https://www.aws.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

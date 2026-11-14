@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "electronic-component-classes-2027-07-08-en",
+  "puzzleFamilyId": "electronic-component-classes-001",
+  "locale": "en",
+  "publishDate": "2027-07-08",
+  "timezone": "UTC",
+  "theme": "Electronic Components",
+  "items": [
+    {
+      "itemId": "electronic-component-classes-4",
+      "label": "Resistor"
+    },
+    {
+      "itemId": "electronic-component-classes-8",
+      "label": "MOSFET"
+    },
+    {
+      "itemId": "electronic-component-classes-1",
+      "label": "Resettable PTC Fuse"
+    },
+    {
+      "itemId": "electronic-component-classes-6",
+      "label": "Inductor"
+    },
+    {
+      "itemId": "electronic-component-classes-10",
+      "label": "Zener Diode"
+    },
+    {
+      "itemId": "electronic-component-classes-2",
+      "label": "Electromechanical Relay"
+    },
+    {
+      "itemId": "electronic-component-classes-7",
+      "label": "Bipolar Junction Transistor (BJT)"
+    },
+    {
+      "itemId": "electronic-component-classes-5",
+      "label": "Capacitor"
+    },
+    {
+      "itemId": "electronic-component-classes-9",
+      "label": "Operational Amplifier (Op-Amp)"
+    },
+    {
+      "itemId": "electronic-component-classes-3",
+      "label": "Toggle Switch"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Electronic class (Resettable Protection, Electromechanical Switch/Relay, Passive Linear, or Active Semiconductor)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Overcurrent Protection",
+        "capacity": 1,
+        "itemIds": [
+          "electronic-component-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Electromechanical Switches",
+        "capacity": 2,
+        "itemIds": [
+          "electronic-component-classes-2",
+          "electronic-component-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Passive Linear Components",
+        "capacity": 3,
+        "itemIds": [
+          "electronic-component-classes-4",
+          "electronic-component-classes-5",
+          "electronic-component-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Active & Semiconductor Devices",
+        "capacity": 4,
+        "itemIds": [
+          "electronic-component-classes-7",
+          "electronic-component-classes-8",
+          "electronic-component-classes-9",
+          "electronic-component-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by electronic class: Overcurrent Protection (Resettable PTC Fuse), Electromechanical Switches (Electromechanical Relay, Toggle Switch), Passive Linear Components (Resistor, Capacitor, Inductor), and Active Semiconductor Devices (BJT Transistor, MOSFET, Operational Amplifier, Zener Diode).",
+  "sources": [
+    {
+      "title": "IEEE: Electronic Components",
+      "url": "https://www.ieee.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

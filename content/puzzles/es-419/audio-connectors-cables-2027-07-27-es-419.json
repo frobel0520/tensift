@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "audio-connectors-cables-2027-07-27-es-419",
+  "puzzleFamilyId": "audio-connectors-cables-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-27",
+  "timezone": "UTC",
+  "theme": "Conectores de audio",
+  "items": [
+    {
+      "itemId": "audio-connectors-cables-4",
+      "label": "XLR de 3 pines"
+    },
+    {
+      "itemId": "audio-connectors-cables-8",
+      "label": "TS de 1/4\" (instrumento)"
+    },
+    {
+      "itemId": "audio-connectors-cables-1",
+      "label": "TOSLINK óptico"
+    },
+    {
+      "itemId": "audio-connectors-cables-6",
+      "label": "Conector Bantam (TT)"
+    },
+    {
+      "itemId": "audio-connectors-cables-10",
+      "label": "Jack de 2.5 mm"
+    },
+    {
+      "itemId": "audio-connectors-cables-2",
+      "label": "Neutrik Speakon"
+    },
+    {
+      "itemId": "audio-connectors-cables-7",
+      "label": "RCA Phono"
+    },
+    {
+      "itemId": "audio-connectors-cables-5",
+      "label": "TRS de 1/4\" balanceado"
+    },
+    {
+      "itemId": "audio-connectors-cables-9",
+      "label": "Minijack de 3.5 mm"
+    },
+    {
+      "itemId": "audio-connectors-cables-3",
+      "label": "Borne tipo banana"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase de señal y uso de cada conector de audio",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Óptico digital",
+        "capacity": 1,
+        "itemIds": [
+          "audio-connectors-cables-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Terminales de altavoz",
+        "capacity": 2,
+        "itemIds": [
+          "audio-connectors-cables-2",
+          "audio-connectors-cables-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Analógico balanceado profesional",
+        "capacity": 3,
+        "itemIds": [
+          "audio-connectors-cables-4",
+          "audio-connectors-cables-5",
+          "audio-connectors-cables-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Analógico no balanceado",
+        "capacity": 4,
+        "itemIds": [
+          "audio-connectors-cables-7",
+          "audio-connectors-cables-8",
+          "audio-connectors-cables-9",
+          "audio-connectors-cables-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase de señal: óptico digital (TOSLINK S/PDIF), altavoz de potencia (Speakon, borne tipo banana), analógico balanceado profesional (XLR 3 pines, TRS 1/4\", Bantam TT) y analógico no balanceado (RCA, TS 1/4\" de instrumento, minijack 3.5 mm, 2.5 mm).",
+  "sources": [
+    {
+      "title": "AES: Audio Engineering Connectors",
+      "url": "https://www.aes.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

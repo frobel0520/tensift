@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fluid-power-components-2027-07-19-zh-hant",
+  "puzzleFamilyId": "fluid-power-components-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-19",
+  "timezone": "UTC",
+  "theme": "液壓與氣壓傳動元件",
+  "items": [
+    {
+      "itemId": "fluid-power-components-4",
+      "label": "直線液壓缸"
+    },
+    {
+      "itemId": "fluid-power-components-8",
+      "label": "安全溢流閥"
+    },
+    {
+      "itemId": "fluid-power-components-1",
+      "label": "液壓蓄能器"
+    },
+    {
+      "itemId": "fluid-power-components-6",
+      "label": "氣壓活塞缸"
+    },
+    {
+      "itemId": "fluid-power-components-10",
+      "label": "針閥（流量控制）"
+    },
+    {
+      "itemId": "fluid-power-components-2",
+      "label": "外嚙合齒輪泵"
+    },
+    {
+      "itemId": "fluid-power-components-7",
+      "label": "單向止回閥"
+    },
+    {
+      "itemId": "fluid-power-components-5",
+      "label": "旋轉葉片致動器"
+    },
+    {
+      "itemId": "fluid-power-components-9",
+      "label": "滑閥式方向控制閥"
+    },
+    {
+      "itemId": "fluid-power-components-3",
+      "label": "往復式空氣壓縮機"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各流體動力元件在系統中的功能（蓄能器、泵浦／壓縮機、致動器或控制閥）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "壓力儲能元件",
+        "capacity": 1,
+        "itemIds": [
+          "fluid-power-components-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "泵浦與壓縮機",
+        "capacity": 2,
+        "itemIds": [
+          "fluid-power-components-2",
+          "fluid-power-components-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "致動器",
+        "capacity": 3,
+        "itemIds": [
+          "fluid-power-components-4",
+          "fluid-power-components-5",
+          "fluid-power-components-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "控制閥件",
+        "capacity": 4,
+        "itemIds": [
+          "fluid-power-components-7",
+          "fluid-power-components-8",
+          "fluid-power-components-9",
+          "fluid-power-components-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依流體動力功能分類：儲能（液壓蓄能器）、產生壓力（齒輪泵、往復式空壓機）、致動器（液壓缸、擺動葉片致動器、氣壓活塞缸）與控制閥（止回閥、溢流洩壓閥、滑閥方向閥、針閥節流閥）。",
+  "sources": [
+    {
+      "title": "ISO 1219: Fluid Power Systems",
+      "url": "https://www.iso.org/standard/52304.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

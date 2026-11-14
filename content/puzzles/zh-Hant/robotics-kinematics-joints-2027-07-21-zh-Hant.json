@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "robotics-kinematics-joints-2027-07-21-zh-hant",
+  "puzzleFamilyId": "robotics-kinematics-joints-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-21",
+  "timezone": "UTC",
+  "theme": "機器人運動關節與構型",
+  "items": [
+    {
+      "itemId": "robotics-kinematics-joints-4",
+      "label": "旋轉鉸鏈關節（Revolute）"
+    },
+    {
+      "itemId": "robotics-kinematics-joints-8",
+      "label": "SCARA 水平多關節手臂"
+    },
+    {
+      "itemId": "robotics-kinematics-joints-1",
+      "label": "球窩關節（Spherical）"
+    },
+    {
+      "itemId": "robotics-kinematics-joints-6",
+      "label": "螺旋運動副（Helical）"
+    },
+    {
+      "itemId": "robotics-kinematics-joints-10",
+      "label": "Delta 並聯機械手臂"
+    },
+    {
+      "itemId": "robotics-kinematics-joints-2",
+      "label": "萬向接頭（Hooke）"
+    },
+    {
+      "itemId": "robotics-kinematics-joints-7",
+      "label": "六軸關節型機械手臂"
+    },
+    {
+      "itemId": "robotics-kinematics-joints-5",
+      "label": "直線滑動關節（Prismatic）"
+    },
+    {
+      "itemId": "robotics-kinematics-joints-9",
+      "label": "直角坐標龍門手臂"
+    },
+    {
+      "itemId": "robotics-kinematics-joints-3",
+      "label": "圓柱運動副"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各機器人運動副或機械手臂構型的自由度與系統分類",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "3 自由度球面關節",
+        "capacity": 1,
+        "itemIds": [
+          "robotics-kinematics-joints-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "2 自由度運動副",
+        "capacity": 2,
+        "itemIds": [
+          "robotics-kinematics-joints-2",
+          "robotics-kinematics-joints-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "1 自由度基本關節",
+        "capacity": 3,
+        "itemIds": [
+          "robotics-kinematics-joints-4",
+          "robotics-kinematics-joints-5",
+          "robotics-kinematics-joints-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "工業機械手臂構型",
+        "capacity": 4,
+        "itemIds": [
+          "robotics-kinematics-joints-7",
+          "robotics-kinematics-joints-8",
+          "robotics-kinematics-joints-9",
+          "robotics-kinematics-joints-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依運動學自由度與構型分類：3 自由度球面副（球窩關節）、2 自由度運動副（萬向接頭、圓柱副）、1 自由度基本關節（旋轉鉸鏈副、直線滑動副、螺旋副）與工業機械手臂構型（六軸關節手臂、SCARA 平面手臂、直角坐標龍門型、Delta 並聯手臂）。",
+  "sources": [
+    {
+      "title": "ISO 8373: Robotics Vocabulary",
+      "url": "https://www.iso.org/standard/75539.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}
