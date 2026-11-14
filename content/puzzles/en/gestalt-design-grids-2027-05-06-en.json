@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "gestalt-design-grids-2027-05-06-en",
+  "puzzleFamilyId": "gestalt-design-grids-001",
+  "locale": "en",
+  "publishDate": "2027-05-06",
+  "timezone": "UTC",
+  "theme": "Graphic Design Principles",
+  "items": [
+    {
+      "itemId": "gestalt-design-grids-4",
+      "label": "Scale Contrast"
+    },
+    {
+      "itemId": "gestalt-design-grids-8",
+      "label": "Modular Grid"
+    },
+    {
+      "itemId": "gestalt-design-grids-1",
+      "label": "Law of Closure"
+    },
+    {
+      "itemId": "gestalt-design-grids-6",
+      "label": "Typographic Hierarchy"
+    },
+    {
+      "itemId": "gestalt-design-grids-10",
+      "label": "Baseline Grid"
+    },
+    {
+      "itemId": "gestalt-design-grids-2",
+      "label": "Law of Similarity"
+    },
+    {
+      "itemId": "gestalt-design-grids-7",
+      "label": "Column Grid"
+    },
+    {
+      "itemId": "gestalt-design-grids-5",
+      "label": "Color Contrast"
+    },
+    {
+      "itemId": "gestalt-design-grids-9",
+      "label": "Manuscript Grid"
+    },
+    {
+      "itemId": "gestalt-design-grids-3",
+      "label": "Law of Proximity"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Design domain (Gestalt Closure, Gestalt Grouping, Visual Contrast, or Layout Grids)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Gestalt Closure",
+        "capacity": 1,
+        "itemIds": [
+          "gestalt-design-grids-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Gestalt Grouping",
+        "capacity": 2,
+        "itemIds": [
+          "gestalt-design-grids-2",
+          "gestalt-design-grids-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Contrast & Hierarchy",
+        "capacity": 3,
+        "itemIds": [
+          "gestalt-design-grids-4",
+          "gestalt-design-grids-5",
+          "gestalt-design-grids-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Layout Grid Systems",
+        "capacity": 4,
+        "itemIds": [
+          "gestalt-design-grids-7",
+          "gestalt-design-grids-8",
+          "gestalt-design-grids-9",
+          "gestalt-design-grids-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by design principle: Gestalt Closure (Closure), Gestalt Grouping (Similarity, Proximity), Visual Contrast & Hierarchy (Scale Contrast, Color Contrast, Typographic Hierarchy), and Layout Grid Systems (Column Grid, Modular Grid, Manuscript Grid, Baseline Grid).",
+  "sources": [
+    {
+      "title": "Interaction Design Foundation: Gestalt Principles",
+      "url": "https://www.interaction-design.org/literature/topics/gestalt-principles",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

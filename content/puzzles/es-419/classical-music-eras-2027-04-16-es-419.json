@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "classical-music-eras-2027-04-16-es-419",
+  "puzzleFamilyId": "classical-music-eras-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-16",
+  "timezone": "UTC",
+  "theme": "Compositores por período musical",
+  "items": [
+    {
+      "itemId": "classical-music-eras-4",
+      "label": "Wolfgang Amadeus Mozart"
+    },
+    {
+      "itemId": "classical-music-eras-8",
+      "label": "Georg Friedrich Händel"
+    },
+    {
+      "itemId": "classical-music-eras-1",
+      "label": "Palestrina"
+    },
+    {
+      "itemId": "classical-music-eras-6",
+      "label": "Ludwig van Beethoven"
+    },
+    {
+      "itemId": "classical-music-eras-10",
+      "label": "Henry Purcell"
+    },
+    {
+      "itemId": "classical-music-eras-2",
+      "label": "Frédéric Chopin"
+    },
+    {
+      "itemId": "classical-music-eras-7",
+      "label": "Johann Sebastian Bach"
+    },
+    {
+      "itemId": "classical-music-eras-5",
+      "label": "Joseph Haydn"
+    },
+    {
+      "itemId": "classical-music-eras-9",
+      "label": "Antonio Vivaldi"
+    },
+    {
+      "itemId": "classical-music-eras-3",
+      "label": "Piotr Ilich Chaikovski"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Período histórico principal de cada compositor",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Renacimiento",
+        "capacity": 1,
+        "itemIds": [
+          "classical-music-eras-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Romanticismo",
+        "capacity": 2,
+        "itemIds": [
+          "classical-music-eras-2",
+          "classical-music-eras-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Clasicismo",
+        "capacity": 3,
+        "itemIds": [
+          "classical-music-eras-4",
+          "classical-music-eras-5",
+          "classical-music-eras-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Barroco",
+        "capacity": 4,
+        "itemIds": [
+          "classical-music-eras-7",
+          "classical-music-eras-8",
+          "classical-music-eras-9",
+          "classical-music-eras-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por período: Renacimiento (Palestrina), Romanticismo (Chopin, Chaikovski), Clasicismo (Mozart, Haydn, Beethoven) y Barroco (Bach, Händel, Vivaldi, Purcell).",
+  "sources": [
+    {
+      "title": "Britannica: Western Music Periods",
+      "url": "https://www.britannica.com/art/Western-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

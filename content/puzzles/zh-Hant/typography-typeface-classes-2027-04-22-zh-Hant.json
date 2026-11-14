@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "typography-typeface-classes-2027-04-22-zh-hant",
+  "puzzleFamilyId": "typography-typeface-classes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-22",
+  "timezone": "UTC",
+  "theme": "印刷字體分類",
+  "items": [
+    {
+      "itemId": "typography-typeface-classes-4",
+      "label": "舊式襯線體"
+    },
+    {
+      "itemId": "typography-typeface-classes-8",
+      "label": "幾何無襯線體"
+    },
+    {
+      "itemId": "typography-typeface-classes-1",
+      "label": "Textura 哥德黑體"
+    },
+    {
+      "itemId": "typography-typeface-classes-6",
+      "label": "粗襯線體（埃及體）"
+    },
+    {
+      "itemId": "typography-typeface-classes-10",
+      "label": "新怪誕無襯線體"
+    },
+    {
+      "itemId": "typography-typeface-classes-2",
+      "label": "毛筆手寫體"
+    },
+    {
+      "itemId": "typography-typeface-classes-7",
+      "label": "怪誕無襯線體"
+    },
+    {
+      "itemId": "typography-typeface-classes-5",
+      "label": "過渡襯線體"
+    },
+    {
+      "itemId": "typography-typeface-classes-9",
+      "label": "人文無襯線體"
+    },
+    {
+      "itemId": "typography-typeface-classes-3",
+      "label": "秘書手寫斜體"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各字體所屬的印刷字體大類（哥德黑體、手寫體、襯線體或無襯線體）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "哥德黑體",
+        "capacity": 1,
+        "itemIds": [
+          "typography-typeface-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "手寫書法體",
+        "capacity": 2,
+        "itemIds": [
+          "typography-typeface-classes-2",
+          "typography-typeface-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "襯線體",
+        "capacity": 3,
+        "itemIds": [
+          "typography-typeface-classes-4",
+          "typography-typeface-classes-5",
+          "typography-typeface-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "無襯線體",
+        "capacity": 4,
+        "itemIds": [
+          "typography-typeface-classes-7",
+          "typography-typeface-classes-8",
+          "typography-typeface-classes-9",
+          "typography-typeface-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依字體分類系統：哥德黑體（Textura 黑體）、手寫／書法體（毛筆手寫體、秘書手寫斜體）、襯線體（舊式襯線、過渡襯線、粗襯線）與無襯線體（怪誕無襯線、幾何無襯線、人文無襯線、新怪誕無襯線）。",
+  "sources": [
+    {
+      "title": "ATypI: Vox-ATypI Type Classification",
+      "url": "https://www.atypi.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "painting-media-binders-001",
+  "theme": "Painting Media & Binders",
+  "publishDate": "2027-04-20",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "painting-media-binders-2",
+        "rivalGroupId": "group-4",
+        "risk": "Egg tempera is thinned with water during painting.",
+        "resolution": "Egg tempera’s binder is egg yolk protein (group-2), unlike gum arabic or acrylic polymer (group-4)."
+      },
+      {
+        "itemId": "painting-media-binders-9",
+        "rivalGroupId": "group-3",
+        "risk": "Acrylic can mimic thick oil impasto.",
+        "resolution": "Acrylic uses a water-dispersed synthetic polymer emulsion (group-4), not a drying oil (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

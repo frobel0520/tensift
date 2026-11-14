@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chord-note-counts-2027-04-13-es-419",
+  "puzzleFamilyId": "chord-note-counts-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-13",
+  "timezone": "UTC",
+  "theme": "Acordes por número de notas",
+  "items": [
+    {
+      "itemId": "chord-note-counts-4",
+      "label": "Tríada mayor"
+    },
+    {
+      "itemId": "chord-note-counts-8",
+      "label": "Acorde de séptima de dominante"
+    },
+    {
+      "itemId": "chord-note-counts-1",
+      "label": "Nota única (monofonía)"
+    },
+    {
+      "itemId": "chord-note-counts-6",
+      "label": "Tríada disminuida"
+    },
+    {
+      "itemId": "chord-note-counts-10",
+      "label": "Acorde de séptima disminuida"
+    },
+    {
+      "itemId": "chord-note-counts-2",
+      "label": "Acorde de quinta"
+    },
+    {
+      "itemId": "chord-note-counts-7",
+      "label": "Acorde de séptima mayor"
+    },
+    {
+      "itemId": "chord-note-counts-5",
+      "label": "Tríada menor"
+    },
+    {
+      "itemId": "chord-note-counts-9",
+      "label": "Acorde de séptima menor"
+    },
+    {
+      "itemId": "chord-note-counts-3",
+      "label": "Díada armónica"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cantidad exacta de alturas distintas en cada estructura",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "1 nota",
+        "capacity": 1,
+        "itemIds": [
+          "chord-note-counts-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "2 notas",
+        "capacity": 2,
+        "itemIds": [
+          "chord-note-counts-2",
+          "chord-note-counts-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "3 notas (tríadas)",
+        "capacity": 3,
+        "itemIds": [
+          "chord-note-counts-4",
+          "chord-note-counts-5",
+          "chord-note-counts-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "4 notas (séptimas)",
+        "capacity": 4,
+        "itemIds": [
+          "chord-note-counts-7",
+          "chord-note-counts-8",
+          "chord-note-counts-9",
+          "chord-note-counts-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por número de notas: 1 nota (nota única), 2 notas (acorde de quinta, díada armónica), 3 notas (tríada mayor, menor, disminuida) y 4 notas (séptima mayor, dominante, menor, disminuida).",
+  "sources": [
+    {
+      "title": "Britannica: Chord in Music",
+      "url": "https://www.britannica.com/art/chord-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ceramic-wares-types-2027-04-28-en",
+  "puzzleFamilyId": "ceramic-wares-types-001",
+  "locale": "en",
+  "publishDate": "2027-04-28",
+  "timezone": "UTC",
+  "theme": "Ceramic Ware Classes",
+  "items": [
+    {
+      "itemId": "ceramic-wares-types-4",
+      "label": "Salt-Glazed Stoneware"
+    },
+    {
+      "itemId": "ceramic-wares-types-8",
+      "label": "Soft-Paste Porcelain"
+    },
+    {
+      "itemId": "ceramic-wares-types-1",
+      "label": "Terracotta"
+    },
+    {
+      "itemId": "ceramic-wares-types-6",
+      "label": "Bizen Ware"
+    },
+    {
+      "itemId": "ceramic-wares-types-10",
+      "label": "Imari Porcelain"
+    },
+    {
+      "itemId": "ceramic-wares-types-2",
+      "label": "Faience"
+    },
+    {
+      "itemId": "ceramic-wares-types-7",
+      "label": "Hard-Paste Porcelain"
+    },
+    {
+      "itemId": "ceramic-wares-types-5",
+      "label": "Celadon Stoneware"
+    },
+    {
+      "itemId": "ceramic-wares-types-9",
+      "label": "Bone China"
+    },
+    {
+      "itemId": "ceramic-wares-types-3",
+      "label": "Majolica"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Ceramic clay body class (Terracotta, Tin-Glazed Earthenware, Stoneware, or Porcelain)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Terracotta",
+        "capacity": 1,
+        "itemIds": [
+          "ceramic-wares-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Tin-Glazed Earthenware",
+        "capacity": 2,
+        "itemIds": [
+          "ceramic-wares-types-2",
+          "ceramic-wares-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Stoneware",
+        "capacity": 3,
+        "itemIds": [
+          "ceramic-wares-types-4",
+          "ceramic-wares-types-5",
+          "ceramic-wares-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Porcelain",
+        "capacity": 4,
+        "itemIds": [
+          "ceramic-wares-types-7",
+          "ceramic-wares-types-8",
+          "ceramic-wares-types-9",
+          "ceramic-wares-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by ceramic body class: Terracotta (Terracotta), Tin-Glazed Earthenware (Faience, Majolica), Stoneware (Salt-glazed Stoneware, Celadon Stoneware, Bizen Ware), and Porcelain (Hard-paste Porcelain, Soft-paste Porcelain, Bone China, Imari Porcelain).",
+  "sources": [
+    {
+      "title": "V&A Museum: Ceramics Guide",
+      "url": "https://www.vam.ac.uk/collections/ceramics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

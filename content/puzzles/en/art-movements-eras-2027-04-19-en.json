@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "art-movements-eras-2027-04-19-en",
+  "puzzleFamilyId": "art-movements-eras-001",
+  "locale": "en",
+  "publishDate": "2027-04-19",
+  "timezone": "UTC",
+  "theme": "Western Art Movements",
+  "items": [
+    {
+      "itemId": "art-movements-eras-4",
+      "label": "Cubism"
+    },
+    {
+      "itemId": "art-movements-eras-8",
+      "label": "Pop Art"
+    },
+    {
+      "itemId": "art-movements-eras-1",
+      "label": "High Renaissance"
+    },
+    {
+      "itemId": "art-movements-eras-6",
+      "label": "Surrealism"
+    },
+    {
+      "itemId": "art-movements-eras-10",
+      "label": "Conceptual Art"
+    },
+    {
+      "itemId": "art-movements-eras-2",
+      "label": "Romanticism"
+    },
+    {
+      "itemId": "art-movements-eras-7",
+      "label": "Abstract Expressionism"
+    },
+    {
+      "itemId": "art-movements-eras-5",
+      "label": "Fauvism"
+    },
+    {
+      "itemId": "art-movements-eras-9",
+      "label": "Minimalism"
+    },
+    {
+      "itemId": "art-movements-eras-3",
+      "label": "Impressionism"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Historical period (Renaissance, 19th Century, Early 20th Century, or Post-1945) of each art movement",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Renaissance",
+        "capacity": 1,
+        "itemIds": [
+          "art-movements-eras-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "19th Century",
+        "capacity": 2,
+        "itemIds": [
+          "art-movements-eras-2",
+          "art-movements-eras-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Early 20th Century (Pre-WWII)",
+        "capacity": 3,
+        "itemIds": [
+          "art-movements-eras-4",
+          "art-movements-eras-5",
+          "art-movements-eras-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Post-1945",
+        "capacity": 4,
+        "itemIds": [
+          "art-movements-eras-7",
+          "art-movements-eras-8",
+          "art-movements-eras-9",
+          "art-movements-eras-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by historical era: Renaissance (High Renaissance), 19th Century (Romanticism, Impressionism), Early 20th Century (Cubism, Fauvism, Surrealism), and Post-1945 Contemporary (Abstract Expressionism, Pop Art, Minimalism, Conceptual Art).",
+  "sources": [
+    {
+      "title": "Tate: Art Terms & Movements",
+      "url": "https://www.tate.org.uk/art/art-terms",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

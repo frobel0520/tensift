@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "famous-museums-countries-001",
+  "theme": "World Art Museums",
+  "publishDate": "2027-04-30",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "famous-museums-countries-3",
+        "rivalGroupId": "group-4",
+        "risk": "Tate Modern is a modern art museum like MoMA.",
+        "resolution": "Tate Modern is in London, United Kingdom (group-2), whereas MoMA is in New York, United States (group-4)."
+      },
+      {
+        "itemId": "famous-museums-countries-1",
+        "rivalGroupId": "group-3",
+        "risk": "Prado houses European masters like the Louvre.",
+        "resolution": "Museo del Prado is in Madrid, Spain (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

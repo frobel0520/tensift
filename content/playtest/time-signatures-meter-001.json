@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "time-signatures-meter-001",
+  "theme": "Musical Time Signatures",
+  "publishDate": "2027-04-14",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "time-signatures-meter-2",
+        "rivalGroupId": "group-3",
+        "risk": "6/8 has 6 eighth notes, a multiple of 3.",
+        "resolution": "6/8 is grouped as two dotted-quarter beats, making it compound duple (group-2), unlike simple triple 3/4 (group-3)."
+      },
+      {
+        "itemId": "time-signatures-meter-5",
+        "rivalGroupId": "group-2",
+        "risk": "3/8 shares the eighth-note denominator with 6/8.",
+        "resolution": "3/8 has three simple beats per bar (group-3), not two compound beats (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "typography-typeface-classes-001",
+  "theme": "Typeface Classifications",
+  "publishDate": "2027-04-22",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "typography-typeface-classes-9",
+        "rivalGroupId": "group-3",
+        "risk": "Humanist Sans is inspired by Renaissance proportions.",
+        "resolution": "Humanist Sans lacks serifs and belongs to Sans-Serif (group-4), unlike Old Style Serif (group-3)."
+      },
+      {
+        "itemId": "typography-typeface-classes-6",
+        "rivalGroupId": "group-4",
+        "risk": "Slab serifs have uniform stroke weight like geometric sans.",
+        "resolution": "Slab serifs feature thick, block-like serifs (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

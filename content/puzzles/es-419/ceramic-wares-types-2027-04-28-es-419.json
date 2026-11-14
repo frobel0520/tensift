@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ceramic-wares-types-2027-04-28-es-419",
+  "puzzleFamilyId": "ceramic-wares-types-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-28",
+  "timezone": "UTC",
+  "theme": "Tipos de cerámica",
+  "items": [
+    {
+      "itemId": "ceramic-wares-types-4",
+      "label": "Gres vidriado a la sal"
+    },
+    {
+      "itemId": "ceramic-wares-types-8",
+      "label": "Porcelana blanda"
+    },
+    {
+      "itemId": "ceramic-wares-types-1",
+      "label": "Terracota"
+    },
+    {
+      "itemId": "ceramic-wares-types-6",
+      "label": "Cerámica Bizen"
+    },
+    {
+      "itemId": "ceramic-wares-types-10",
+      "label": "Porcelana Imari"
+    },
+    {
+      "itemId": "ceramic-wares-types-2",
+      "label": "Fayenza"
+    },
+    {
+      "itemId": "ceramic-wares-types-7",
+      "label": "Porcelana dura"
+    },
+    {
+      "itemId": "ceramic-wares-types-5",
+      "label": "Gres celadón"
+    },
+    {
+      "itemId": "ceramic-wares-types-9",
+      "label": "Porcelana de hueso"
+    },
+    {
+      "itemId": "ceramic-wares-types-3",
+      "label": "Mayólica"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase de pasta cerámica y cocción de cada pieza",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Terracota",
+        "capacity": 1,
+        "itemIds": [
+          "ceramic-wares-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Loza estannífera",
+        "capacity": 2,
+        "itemIds": [
+          "ceramic-wares-types-2",
+          "ceramic-wares-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Gres",
+        "capacity": 3,
+        "itemIds": [
+          "ceramic-wares-types-4",
+          "ceramic-wares-types-5",
+          "ceramic-wares-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Porcelana",
+        "capacity": 4,
+        "itemIds": [
+          "ceramic-wares-types-7",
+          "ceramic-wares-types-8",
+          "ceramic-wares-types-9",
+          "ceramic-wares-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase cerámica: terracota (terracota), loza estannífera (fayenza, mayólica), gres (gres a la sal, gres celadón, cerámica Bizen) y porcelana (porcelana dura, porcelana blanda, porcelana de hueso, porcelana Imari).",
+  "sources": [
+    {
+      "title": "V&A Museum: Ceramics Guide",
+      "url": "https://www.vam.ac.uk/collections/ceramics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

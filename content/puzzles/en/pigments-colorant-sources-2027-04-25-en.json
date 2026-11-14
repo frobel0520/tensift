@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "pigments-colorant-sources-2027-04-25-en",
+  "puzzleFamilyId": "pigments-colorant-sources-001",
+  "locale": "en",
+  "publishDate": "2027-04-25",
+  "timezone": "UTC",
+  "theme": "Historical Pigments & Dyes",
+  "items": [
+    {
+      "itemId": "pigments-colorant-sources-4",
+      "label": "Ultramarine (Lapis Lazuli)"
+    },
+    {
+      "itemId": "pigments-colorant-sources-8",
+      "label": "Cochineal Carmine"
+    },
+    {
+      "itemId": "pigments-colorant-sources-1",
+      "label": "Phthalocyanine Blue"
+    },
+    {
+      "itemId": "pigments-colorant-sources-6",
+      "label": "Cadmium Yellow"
+    },
+    {
+      "itemId": "pigments-colorant-sources-10",
+      "label": "Sepia"
+    },
+    {
+      "itemId": "pigments-colorant-sources-2",
+      "label": "Yellow Ochre"
+    },
+    {
+      "itemId": "pigments-colorant-sources-7",
+      "label": "Indigo"
+    },
+    {
+      "itemId": "pigments-colorant-sources-5",
+      "label": "Vermilion (Cinnabar)"
+    },
+    {
+      "itemId": "pigments-colorant-sources-9",
+      "label": "Tyrian Purple"
+    },
+    {
+      "itemId": "pigments-colorant-sources-3",
+      "label": "Burnt Sienna"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Origin source (Modern Synthetic, Earth Ochre, Mineral/Inorganic, or Organic/Biological)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Modern Synthetic",
+        "capacity": 1,
+        "itemIds": [
+          "pigments-colorant-sources-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Earth Ochre Pigments",
+        "capacity": 2,
+        "itemIds": [
+          "pigments-colorant-sources-2",
+          "pigments-colorant-sources-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Mineral / Inorganic",
+        "capacity": 3,
+        "itemIds": [
+          "pigments-colorant-sources-4",
+          "pigments-colorant-sources-5",
+          "pigments-colorant-sources-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Organic / Biological",
+        "capacity": 4,
+        "itemIds": [
+          "pigments-colorant-sources-7",
+          "pigments-colorant-sources-8",
+          "pigments-colorant-sources-9",
+          "pigments-colorant-sources-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by origin: Modern Synthetic (Phthalocyanine Blue), Earth Ochres (Yellow Ochre, Burnt Sienna), Mineral/Inorganic (Ultramarine Lapis Lazuli, Vermilion Cinnabar, Cadmium Yellow), and Organic/Biological (Indigo, Cochineal Carmine, Tyrian Purple, Sepia).",
+  "sources": [
+    {
+      "title": "Pigments through the Ages (WebExhibits)",
+      "url": "https://www.webexhibits.org/pigments/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

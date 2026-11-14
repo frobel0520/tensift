@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "paper-screen-aspect-ratios-2027-05-08-en",
+  "puzzleFamilyId": "paper-screen-aspect-ratios-001",
+  "locale": "en",
+  "publishDate": "2027-05-08",
+  "timezone": "UTC",
+  "theme": "Standard Aspect Ratios",
+  "items": [
+    {
+      "itemId": "paper-screen-aspect-ratios-4",
+      "label": "16:9 Widescreen HD"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-8",
+      "label": "3:2 35mm Film"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-1",
+      "label": "1:1 Medium Format Square"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-6",
+      "label": "1.85:1 Theatrical Flat"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-10",
+      "label": "US Letter (8.5×11 in)"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-2",
+      "label": "A4 Paper"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-7",
+      "label": "4:3 Academy / TV"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-5",
+      "label": "2.39:1 Anamorphic Scope"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-9",
+      "label": "5:4 Large Format"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-3",
+      "label": "A3 Paper"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Aspect ratio family (1:1 Square, ISO 1:√2, Widescreen Cinema/HD, or Traditional Print/Photo)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "1:1 Square",
+        "capacity": 1,
+        "itemIds": [
+          "paper-screen-aspect-ratios-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "ISO 216 (1:√2)",
+        "capacity": 2,
+        "itemIds": [
+          "paper-screen-aspect-ratios-2",
+          "paper-screen-aspect-ratios-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Widescreen Cinema & HD",
+        "capacity": 3,
+        "itemIds": [
+          "paper-screen-aspect-ratios-4",
+          "paper-screen-aspect-ratios-5",
+          "paper-screen-aspect-ratios-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Classic Photo & US Print",
+        "capacity": 4,
+        "itemIds": [
+          "paper-screen-aspect-ratios-7",
+          "paper-screen-aspect-ratios-8",
+          "paper-screen-aspect-ratios-9",
+          "paper-screen-aspect-ratios-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by aspect ratio family: 1:1 Square (1:1 Square), ISO 216 1:√2 (A4 Paper, A3 Paper), Widescreen Video/Cinema (16:9 HD, 2.39:1 Anamorphic, 1.85:1 Flat), and Classic Print/Photo (4:3 Standard, 3:2 35mm Film, 5:4 Large Format, US Letter 8.5×11).",
+  "sources": [
+    {
+      "title": "ISO 216 Paper Sizes",
+      "url": "https://www.iso.org/standard/36631.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

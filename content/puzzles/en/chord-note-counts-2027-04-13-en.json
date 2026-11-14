@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chord-note-counts-2027-04-13-en",
+  "puzzleFamilyId": "chord-note-counts-001",
+  "locale": "en",
+  "publishDate": "2027-04-13",
+  "timezone": "UTC",
+  "theme": "Chords by Pitch Count",
+  "items": [
+    {
+      "itemId": "chord-note-counts-4",
+      "label": "Major Triad"
+    },
+    {
+      "itemId": "chord-note-counts-8",
+      "label": "Dominant Seventh Chord"
+    },
+    {
+      "itemId": "chord-note-counts-1",
+      "label": "Single Pitch (Monophony)"
+    },
+    {
+      "itemId": "chord-note-counts-6",
+      "label": "Diminished Triad"
+    },
+    {
+      "itemId": "chord-note-counts-10",
+      "label": "Diminished Seventh Chord"
+    },
+    {
+      "itemId": "chord-note-counts-2",
+      "label": "Power Chord (Fifth)"
+    },
+    {
+      "itemId": "chord-note-counts-7",
+      "label": "Major Seventh Chord"
+    },
+    {
+      "itemId": "chord-note-counts-5",
+      "label": "Minor Triad"
+    },
+    {
+      "itemId": "chord-note-counts-9",
+      "label": "Minor Seventh Chord"
+    },
+    {
+      "itemId": "chord-note-counts-3",
+      "label": "Harmonic Dyad"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Exact number of distinct pitch classes (1, 2, 3, or 4) in each harmonic structure",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "1 Pitch",
+        "capacity": 1,
+        "itemIds": [
+          "chord-note-counts-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "2 Pitches",
+        "capacity": 2,
+        "itemIds": [
+          "chord-note-counts-2",
+          "chord-note-counts-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "3 Pitches (Triads)",
+        "capacity": 3,
+        "itemIds": [
+          "chord-note-counts-4",
+          "chord-note-counts-5",
+          "chord-note-counts-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "4 Pitches (Sevenths)",
+        "capacity": 4,
+        "itemIds": [
+          "chord-note-counts-7",
+          "chord-note-counts-8",
+          "chord-note-counts-9",
+          "chord-note-counts-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by distinct pitch count: 1 note (Single Pitch / Monophony), 2 notes (Power Chord, Harmonic Dyad), 3 notes (Major Triad, Minor Triad, Diminished Triad), and 4 notes (Major Seventh, Dominant Seventh, Minor Seventh, Diminished Seventh).",
+  "sources": [
+    {
+      "title": "Britannica: Chord in Music",
+      "url": "https://www.britannica.com/art/chord-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

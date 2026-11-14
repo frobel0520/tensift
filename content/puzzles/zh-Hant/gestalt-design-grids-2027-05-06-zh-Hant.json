@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "gestalt-design-grids-2027-05-06-zh-hant",
+  "puzzleFamilyId": "gestalt-design-grids-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-06",
+  "timezone": "UTC",
+  "theme": "平面設計與版面原理",
+  "items": [
+    {
+      "itemId": "gestalt-design-grids-4",
+      "label": "比例對比"
+    },
+    {
+      "itemId": "gestalt-design-grids-8",
+      "label": "模組網格"
+    },
+    {
+      "itemId": "gestalt-design-grids-1",
+      "label": "完形閉合原則"
+    },
+    {
+      "itemId": "gestalt-design-grids-6",
+      "label": "字體層級"
+    },
+    {
+      "itemId": "gestalt-design-grids-10",
+      "label": "基線網格"
+    },
+    {
+      "itemId": "gestalt-design-grids-2",
+      "label": "相似性原則"
+    },
+    {
+      "itemId": "gestalt-design-grids-7",
+      "label": "欄位網格"
+    },
+    {
+      "itemId": "gestalt-design-grids-5",
+      "label": "色彩對比"
+    },
+    {
+      "itemId": "gestalt-design-grids-9",
+      "label": "手稿網格"
+    },
+    {
+      "itemId": "gestalt-design-grids-3",
+      "label": "接近性原則"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各平面設計概念所屬的原理類別（完形閉合、群組原則、對比層級或網格系統）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "完形閉合",
+        "capacity": 1,
+        "itemIds": [
+          "gestalt-design-grids-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "完形群組原則",
+        "capacity": 2,
+        "itemIds": [
+          "gestalt-design-grids-2",
+          "gestalt-design-grids-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "對比與視覺層級",
+        "capacity": 3,
+        "itemIds": [
+          "gestalt-design-grids-4",
+          "gestalt-design-grids-5",
+          "gestalt-design-grids-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "版面網格系統",
+        "capacity": 4,
+        "itemIds": [
+          "gestalt-design-grids-7",
+          "gestalt-design-grids-8",
+          "gestalt-design-grids-9",
+          "gestalt-design-grids-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依平面設計原理分類：完形閉合（閉合原則）、群組原則（相似性、接近性）、視覺對比與層級（比例對比、色彩對比、字體層級）與版面網格系統（欄位網格、模組網格、手稿單欄網格、基線網格）。",
+  "sources": [
+    {
+      "title": "Interaction Design Foundation: Gestalt Principles",
+      "url": "https://www.interaction-design.org/literature/topics/gestalt-principles",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

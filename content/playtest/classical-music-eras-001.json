@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "classical-music-eras-001",
+  "theme": "Composers by Musical Era",
+  "publishDate": "2027-04-16",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "classical-music-eras-6",
+        "rivalGroupId": "group-2",
+        "risk": "Beethoven bridged Classical and Romantic styles.",
+        "resolution": "Beethoven is one of the three pillars of the First Viennese School of the Classical era (group-3) alongside Haydn and Mozart."
+      },
+      {
+        "itemId": "classical-music-eras-1",
+        "rivalGroupId": "group-4",
+        "risk": "Palestrina wrote polyphonic church music like Bach.",
+        "resolution": "Palestrina (1525–1594) was a leading Renaissance polyphonist (group-1), preceding the Baroque era (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

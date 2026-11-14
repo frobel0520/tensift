@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "woodworking-joinery-types-2027-05-09-es-419",
+  "puzzleFamilyId": "woodworking-joinery-types-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-09",
+  "timezone": "UTC",
+  "theme": "Ensambles de carpintería",
+  "items": [
+    {
+      "itemId": "woodworking-joinery-types-4",
+      "label": "Cola de milano pasante"
+    },
+    {
+      "itemId": "woodworking-joinery-types-8",
+      "label": "Caja y espiga ciega"
+    },
+    {
+      "itemId": "woodworking-joinery-types-1",
+      "label": "Unión con galleta"
+    },
+    {
+      "itemId": "woodworking-joinery-types-6",
+      "label": "Ensamble de dedos"
+    },
+    {
+      "itemId": "woodworking-joinery-types-10",
+      "label": "Espiga clavijada"
+    },
+    {
+      "itemId": "woodworking-joinery-types-2",
+      "label": "Unión a tope"
+    },
+    {
+      "itemId": "woodworking-joinery-types-7",
+      "label": "Caja y espiga pasante"
+    },
+    {
+      "itemId": "woodworking-joinery-types-5",
+      "label": "Cola de milano semiciega"
+    },
+    {
+      "itemId": "woodworking-joinery-types-9",
+      "label": "Ensamble de horquilla"
+    },
+    {
+      "itemId": "woodworking-joinery-types-3",
+      "label": "Ensamble a media madera"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Familia de ensamble de carpintería",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Unión con galleta",
+        "capacity": 1,
+        "itemIds": [
+          "woodworking-joinery-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "A tope y media madera",
+        "capacity": 2,
+        "itemIds": [
+          "woodworking-joinery-types-2",
+          "woodworking-joinery-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Cola de milano y dedos",
+        "capacity": 3,
+        "itemIds": [
+          "woodworking-joinery-types-4",
+          "woodworking-joinery-types-5",
+          "woodworking-joinery-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Familia de caja y espiga",
+        "capacity": 4,
+        "itemIds": [
+          "woodworking-joinery-types-7",
+          "woodworking-joinery-types-8",
+          "woodworking-joinery-types-9",
+          "woodworking-joinery-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por familia: galleta (unión con galleta), a tope y media madera (unión a tope, ensamble a media madera), cola de milano y dedos (cola de milano pasante, semiciega, ensamble de dedos) y caja y espiga (pasante, ciega, horquilla, espiga clavijada).",
+  "sources": [
+    {
+      "title": "Britannica: Woodworking Joinery",
+      "url": "https://www.britannica.com/technology/joinery",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

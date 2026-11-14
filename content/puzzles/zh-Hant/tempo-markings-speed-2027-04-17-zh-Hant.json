@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tempo-markings-speed-2027-04-17-zh-hant",
+  "puzzleFamilyId": "tempo-markings-speed-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-17",
+  "timezone": "UTC",
+  "theme": "音樂速度術語分級",
+  "items": [
+    {
+      "itemId": "tempo-markings-speed-4",
+      "label": "Andante（行板）"
+    },
+    {
+      "itemId": "tempo-markings-speed-8",
+      "label": "Vivace（活潑的快板）"
+    },
+    {
+      "itemId": "tempo-markings-speed-1",
+      "label": "Largo（最緩板）"
+    },
+    {
+      "itemId": "tempo-markings-speed-6",
+      "label": "Allegretto（小快板）"
+    },
+    {
+      "itemId": "tempo-markings-speed-10",
+      "label": "Prestissimo（最急板）"
+    },
+    {
+      "itemId": "tempo-markings-speed-2",
+      "label": "Adagio（柔板）"
+    },
+    {
+      "itemId": "tempo-markings-speed-7",
+      "label": "Allegro（快板）"
+    },
+    {
+      "itemId": "tempo-markings-speed-5",
+      "label": "Moderato（中板）"
+    },
+    {
+      "itemId": "tempo-markings-speed-9",
+      "label": "Presto（急板）"
+    },
+    {
+      "itemId": "tempo-markings-speed-3",
+      "label": "Lento（慢板）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各義大利文音樂速度術語的速度分級（極慢、慢板、中速或快板）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "極慢板（<60 BPM）",
+        "capacity": 1,
+        "itemIds": [
+          "tempo-markings-speed-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "慢板（60–76 BPM）",
+        "capacity": 2,
+        "itemIds": [
+          "tempo-markings-speed-2",
+          "tempo-markings-speed-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "中速／行板（76–120 BPM）",
+        "capacity": 3,
+        "itemIds": [
+          "tempo-markings-speed-4",
+          "tempo-markings-speed-5",
+          "tempo-markings-speed-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "快板與急板（>120 BPM）",
+        "capacity": 4,
+        "itemIds": [
+          "tempo-markings-speed-7",
+          "tempo-markings-speed-8",
+          "tempo-markings-speed-9",
+          "tempo-markings-speed-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依速度快慢分級：極慢板（Largo）、慢板（Adagio、Lento）、中速／行板（Andante、Moderato、Allegretto）與快板／急板（Allegro、Vivace、Presto、Prestissimo）。",
+  "sources": [
+    {
+      "title": "Britannica: Tempo in Music",
+      "url": "https://www.britannica.com/art/tempo",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

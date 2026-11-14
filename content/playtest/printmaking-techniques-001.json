@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "printmaking-techniques-001",
+  "theme": "Printmaking Techniques",
+  "publishDate": "2027-04-27",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "printmaking-techniques-6",
+        "rivalGroupId": "group-4",
+        "risk": "Wood Engraving contains Engraving.",
+        "resolution": "Wood engraving inks the raised surface of end-grain woodblocks, making it a relief process (group-3), unlike metal intaglio engraving (group-4)."
+      },
+      {
+        "itemId": "printmaking-techniques-2",
+        "rivalGroupId": "group-4",
+        "risk": "Lithography uses heavy stone slabs.",
+        "resolution": "Lithography prints from a chemically treated flat surface using oil-water repulsion (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

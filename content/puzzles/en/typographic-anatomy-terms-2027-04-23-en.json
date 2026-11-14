@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "typographic-anatomy-terms-2027-04-23-en",
+  "puzzleFamilyId": "typographic-anatomy-terms-001",
+  "locale": "en",
+  "publishDate": "2027-04-23",
+  "timezone": "UTC",
+  "theme": "Letterform Anatomy",
+  "items": [
+    {
+      "itemId": "typographic-anatomy-terms-4",
+      "label": "Ascender"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-8",
+      "label": "Bowl"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-1",
+      "label": "Cap Height"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-6",
+      "label": "Tittle (dot on i/j)"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-10",
+      "label": "Eye (in lowercase e)"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-2",
+      "label": "Descender"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-7",
+      "label": "Counter"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-5",
+      "label": "Apex"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-9",
+      "label": "Aperture"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-3",
+      "label": "Tail (on Q, g, y)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Metric/structural role (Vertical Metric Line, Lower Extension, Upper Feature, or Enclosed/Interior Space)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Vertical Metric Line",
+        "capacity": 1,
+        "itemIds": [
+          "typographic-anatomy-terms-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Below-Baseline Features",
+        "capacity": 2,
+        "itemIds": [
+          "typographic-anatomy-terms-2",
+          "typographic-anatomy-terms-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Upper Letter Features",
+        "capacity": 3,
+        "itemIds": [
+          "typographic-anatomy-terms-4",
+          "typographic-anatomy-terms-5",
+          "typographic-anatomy-terms-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Interior & Enclosed Spaces",
+        "capacity": 4,
+        "itemIds": [
+          "typographic-anatomy-terms-7",
+          "typographic-anatomy-terms-8",
+          "typographic-anatomy-terms-9",
+          "typographic-anatomy-terms-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by anatomical role: Vertical Height Reference (Cap Height), Lower Extensions below baseline (Descender, Tail), Upper Features above x-height (Ascender, Apex, Tittle), and Interior/Enclosed Spaces (Counter, Bowl, Aperture, Eye).",
+  "sources": [
+    {
+      "title": "Google Fonts Knowledge: Anatomy of a Typeface",
+      "url": "https://fonts.google.com/knowledge/glossary",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

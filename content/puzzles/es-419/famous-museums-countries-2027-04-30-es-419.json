@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "famous-museums-countries-2027-04-30-es-419",
+  "puzzleFamilyId": "famous-museums-countries-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-30",
+  "timezone": "UTC",
+  "theme": "Museos de arte por país",
+  "items": [
+    {
+      "itemId": "famous-museums-countries-4",
+      "label": "Museo del Louvre"
+    },
+    {
+      "itemId": "famous-museums-countries-8",
+      "label": "Museo de Arte Moderno (MoMA)"
+    },
+    {
+      "itemId": "famous-museums-countries-1",
+      "label": "Museo del Prado"
+    },
+    {
+      "itemId": "famous-museums-countries-6",
+      "label": "Centro Pompidou"
+    },
+    {
+      "itemId": "famous-museums-countries-10",
+      "label": "Centro Getty"
+    },
+    {
+      "itemId": "famous-museums-countries-2",
+      "label": "Museo Británico"
+    },
+    {
+      "itemId": "famous-museums-countries-7",
+      "label": "Museo Metropolitano de Arte"
+    },
+    {
+      "itemId": "famous-museums-countries-5",
+      "label": "Museo de Orsay"
+    },
+    {
+      "itemId": "famous-museums-countries-9",
+      "label": "Instituto de Arte de Chicago"
+    },
+    {
+      "itemId": "famous-museums-countries-3",
+      "label": "Tate Modern"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "País donde se ubica cada museo de arte",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "España",
+        "capacity": 1,
+        "itemIds": [
+          "famous-museums-countries-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Reino Unido",
+        "capacity": 2,
+        "itemIds": [
+          "famous-museums-countries-2",
+          "famous-museums-countries-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Francia",
+        "capacity": 3,
+        "itemIds": [
+          "famous-museums-countries-4",
+          "famous-museums-countries-5",
+          "famous-museums-countries-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Estados Unidos",
+        "capacity": 4,
+        "itemIds": [
+          "famous-museums-countries-7",
+          "famous-museums-countries-8",
+          "famous-museums-countries-9",
+          "famous-museums-countries-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por país: España (Museo del Prado), Reino Unido (Museo Británico, Tate Modern), Francia (Louvre, Museo de Orsay, Centro Pompidou) y Estados Unidos (Met, MoMA, Instituto de Arte de Chicago, Centro Getty).",
+  "sources": [
+    {
+      "title": "ICOM: International Council of Museums",
+      "url": "https://icom.museum/en/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

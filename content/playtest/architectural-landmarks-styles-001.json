@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "architectural-landmarks-styles-001",
+  "theme": "Landmarks by Architectural Style",
+  "publishDate": "2027-05-05",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "architectural-landmarks-styles-1",
+        "rivalGroupId": "group-4",
+        "risk": "Chrysler Building is a 20th-century skyscraper.",
+        "resolution": "Built in 1930 with stylized sunbursts, it is an icon of Art Deco (group-1), not International Style modernism (group-4)."
+      },
+      {
+        "itemId": "architectural-landmarks-styles-3",
+        "rivalGroupId": "group-3",
+        "risk": "St. Peter's Basilica is a historic European cathedral.",
+        "resolution": "St. Peter’s Basilica in Rome is Renaissance/Baroque (group-2), unlike French and German Gothic cathedrals (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

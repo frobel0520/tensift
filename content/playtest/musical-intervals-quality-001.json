@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "musical-intervals-quality-001",
+  "theme": "Musical Interval Qualities",
+  "publishDate": "2027-04-12",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "musical-intervals-quality-1",
+        "rivalGroupId": "group-4",
+        "risk": "Augmented Fourth is a fourth like Perfect Fourth.",
+        "resolution": "Spanning 6 semitones, the Augmented Fourth is the tritone (group-1), distinct from the 5-semitone Perfect Fourth (group-4)."
+      },
+      {
+        "itemId": "musical-intervals-quality-6",
+        "rivalGroupId": "group-4",
+        "risk": "Major Sixth is consonant.",
+        "resolution": "Sixths are major or minor (group-3), never perfect in standard Western theory."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

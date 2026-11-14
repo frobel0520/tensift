@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "musical-dynamics-levels-2027-04-18-en",
+  "puzzleFamilyId": "musical-dynamics-levels-001",
+  "locale": "en",
+  "publishDate": "2027-04-18",
+  "timezone": "UTC",
+  "theme": "Musical Dynamic Markings",
+  "items": [
+    {
+      "itemId": "musical-dynamics-levels-4",
+      "label": "Mezzo-forte (mf)"
+    },
+    {
+      "itemId": "musical-dynamics-levels-8",
+      "label": "Diminuendo"
+    },
+    {
+      "itemId": "musical-dynamics-levels-1",
+      "label": "Pianissimo (pp)"
+    },
+    {
+      "itemId": "musical-dynamics-levels-6",
+      "label": "Fortissimo (ff)"
+    },
+    {
+      "itemId": "musical-dynamics-levels-10",
+      "label": "Forte-piano (fp)"
+    },
+    {
+      "itemId": "musical-dynamics-levels-2",
+      "label": "Piano (p)"
+    },
+    {
+      "itemId": "musical-dynamics-levels-7",
+      "label": "Crescendo"
+    },
+    {
+      "itemId": "musical-dynamics-levels-5",
+      "label": "Forte (f)"
+    },
+    {
+      "itemId": "musical-dynamics-levels-9",
+      "label": "Sforzando (sfz)"
+    },
+    {
+      "itemId": "musical-dynamics-levels-3",
+      "label": "Mezzo-piano (mp)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Loudness or change category (Very Soft, Soft, Loud, or Dynamic Change)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Very Soft",
+        "capacity": 1,
+        "itemIds": [
+          "musical-dynamics-levels-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Soft",
+        "capacity": 2,
+        "itemIds": [
+          "musical-dynamics-levels-2",
+          "musical-dynamics-levels-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Loud",
+        "capacity": 3,
+        "itemIds": [
+          "musical-dynamics-levels-4",
+          "musical-dynamics-levels-5",
+          "musical-dynamics-levels-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Dynamic Transitions & Accents",
+        "capacity": 4,
+        "itemIds": [
+          "musical-dynamics-levels-7",
+          "musical-dynamics-levels-8",
+          "musical-dynamics-levels-9",
+          "musical-dynamics-levels-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by dynamic function: Very Soft (pp), Soft (p, mp), Loud (mf, f, ff), and Changing/Accented Dynamics (Crescendo, Diminuendo, Sforzando, Forte-piano).",
+  "sources": [
+    {
+      "title": "Britannica: Dynamics in Music",
+      "url": "https://www.britannica.com/art/dynamics-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

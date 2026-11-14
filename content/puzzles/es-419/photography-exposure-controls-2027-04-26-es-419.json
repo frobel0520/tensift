@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "photography-exposure-controls-2027-04-26-es-419",
+  "puzzleFamilyId": "photography-exposure-controls-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-26",
+  "timezone": "UTC",
+  "theme": "Controles de exposición fotográfica",
+  "items": [
+    {
+      "itemId": "photography-exposure-controls-4",
+      "label": "Número f (F-Stop)"
+    },
+    {
+      "itemId": "photography-exposure-controls-8",
+      "label": "Histograma"
+    },
+    {
+      "itemId": "photography-exposure-controls-1",
+      "label": "Sensibilidad ISO"
+    },
+    {
+      "itemId": "photography-exposure-controls-6",
+      "label": "Bokeh"
+    },
+    {
+      "itemId": "photography-exposure-controls-10",
+      "label": "Horquillado automático"
+    },
+    {
+      "itemId": "photography-exposure-controls-2",
+      "label": "Modo Bulb"
+    },
+    {
+      "itemId": "photography-exposure-controls-7",
+      "label": "Medición puntual"
+    },
+    {
+      "itemId": "photography-exposure-controls-5",
+      "label": "Profundidad de campo"
+    },
+    {
+      "itemId": "photography-exposure-controls-9",
+      "label": "Compensación de exposición"
+    },
+    {
+      "itemId": "photography-exposure-controls-3",
+      "label": "Sincronización de alta velocidad"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Subsistema de cámara de cada control fotográfico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Sensibilidad del sensor",
+        "capacity": 1,
+        "itemIds": [
+          "photography-exposure-controls-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Control de obturación",
+        "capacity": 2,
+        "itemIds": [
+          "photography-exposure-controls-2",
+          "photography-exposure-controls-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Óptica y diafragma",
+        "capacity": 3,
+        "itemIds": [
+          "photography-exposure-controls-4",
+          "photography-exposure-controls-5",
+          "photography-exposure-controls-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Medición y exposición",
+        "capacity": 4,
+        "itemIds": [
+          "photography-exposure-controls-7",
+          "photography-exposure-controls-8",
+          "photography-exposure-controls-9",
+          "photography-exposure-controls-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por subsistema: sensibilidad (ISO), obturación (modo Bulb, sincronización de alta velocidad), óptica de lente (número f, profundidad de campo, bokeh) y medición (medición puntual, histograma, compensación, horquillado).",
+  "sources": [
+    {
+      "title": "Britannica: Photography Exposure",
+      "url": "https://www.britannica.com/technology/photography",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "film-camera-shots-2027-05-04-zh-hant",
+  "puzzleFamilyId": "film-camera-shots-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-04",
+  "timezone": "UTC",
+  "theme": "電影鏡頭景別與運鏡",
+  "items": [
+    {
+      "itemId": "film-camera-shots-4",
+      "label": "特寫（CU）"
+    },
+    {
+      "itemId": "film-camera-shots-8",
+      "label": "垂直俯仰（Tilt）"
+    },
+    {
+      "itemId": "film-camera-shots-1",
+      "label": "建立鏡頭（遠景）"
+    },
+    {
+      "itemId": "film-camera-shots-6",
+      "label": "頸部特寫"
+    },
+    {
+      "itemId": "film-camera-shots-10",
+      "label": "升降鏡頭（Crane）"
+    },
+    {
+      "itemId": "film-camera-shots-2",
+      "label": "中景（MS）"
+    },
+    {
+      "itemId": "film-camera-shots-7",
+      "label": "水平搖鏡（Pan）"
+    },
+    {
+      "itemId": "film-camera-shots-5",
+      "label": "大特寫（ECU）"
+    },
+    {
+      "itemId": "film-camera-shots-9",
+      "label": "推軌鏡頭（Dolly）"
+    },
+    {
+      "itemId": "film-camera-shots-3",
+      "label": "牛仔鏡頭（七分身）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各電影攝影術語的分類（遠景建立鏡頭、中景構圖、特寫構圖或攝影機運動）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "遠景建立鏡頭",
+        "capacity": 1,
+        "itemIds": [
+          "film-camera-shots-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "中景構圖",
+        "capacity": 2,
+        "itemIds": [
+          "film-camera-shots-2",
+          "film-camera-shots-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "特寫構圖",
+        "capacity": 3,
+        "itemIds": [
+          "film-camera-shots-4",
+          "film-camera-shots-5",
+          "film-camera-shots-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "攝影機運鏡",
+        "capacity": 4,
+        "itemIds": [
+          "film-camera-shots-7",
+          "film-camera-shots-8",
+          "film-camera-shots-9",
+          "film-camera-shots-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依電影攝影分類：遠景建立（建立鏡頭）、中景構圖（中景、牛仔鏡頭）、特寫構圖（特寫、大特寫、頸部特寫）與運鏡（水平搖鏡 Pan、垂直俯仰 Tilt、推軌 Dolly、升降 Crane）。",
+  "sources": [
+    {
+      "title": "StudioBinder: Camera Shots & Movements",
+      "url": "https://www.studiobinder.com/blog/types-of-camera-shots-sizes-in-film/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "hornbostel-sachs-instruments-2027-04-11-zh-hant",
+  "puzzleFamilyId": "hornbostel-sachs-instruments-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-11",
+  "timezone": "UTC",
+  "theme": "霍恩博斯特爾—薩克斯樂器分類",
+  "items": [
+    {
+      "itemId": "hornbostel-sachs-instruments-4",
+      "label": "木琴"
+    },
+    {
+      "itemId": "hornbostel-sachs-instruments-8",
+      "label": "鋼琴"
+    },
+    {
+      "itemId": "hornbostel-sachs-instruments-1",
+      "label": "定音鼓"
+    },
+    {
+      "itemId": "hornbostel-sachs-instruments-6",
+      "label": "馬林巴木琴"
+    },
+    {
+      "itemId": "hornbostel-sachs-instruments-10",
+      "label": "吉他"
+    },
+    {
+      "itemId": "hornbostel-sachs-instruments-2",
+      "label": "長笛"
+    },
+    {
+      "itemId": "hornbostel-sachs-instruments-7",
+      "label": "小提琴"
+    },
+    {
+      "itemId": "hornbostel-sachs-instruments-5",
+      "label": "三角鐵"
+    },
+    {
+      "itemId": "hornbostel-sachs-instruments-9",
+      "label": "豎琴"
+    },
+    {
+      "itemId": "hornbostel-sachs-instruments-3",
+      "label": "單簧管"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各樂器依霍恩博斯特爾—薩克斯系統分類的發聲原理（膜鳴、氣鳴、體鳴或弦鳴）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "膜鳴樂器",
+        "capacity": 1,
+        "itemIds": [
+          "hornbostel-sachs-instruments-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "氣鳴樂器",
+        "capacity": 2,
+        "itemIds": [
+          "hornbostel-sachs-instruments-2",
+          "hornbostel-sachs-instruments-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "體鳴樂器",
+        "capacity": 3,
+        "itemIds": [
+          "hornbostel-sachs-instruments-4",
+          "hornbostel-sachs-instruments-5",
+          "hornbostel-sachs-instruments-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "弦鳴樂器",
+        "capacity": 4,
+        "itemIds": [
+          "hornbostel-sachs-instruments-7",
+          "hornbostel-sachs-instruments-8",
+          "hornbostel-sachs-instruments-9",
+          "hornbostel-sachs-instruments-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依霍恩博斯特爾—薩克斯樂器分類法：膜鳴樂器（定音鼓）、氣鳴樂器（長笛、單簧管）、體鳴樂器（木琴、三角鐵、馬林巴木琴）與弦鳴樂器（小提琴、鋼琴、豎琴、吉他）。",
+  "sources": [
+    {
+      "title": "MIMO: Hornbostel-Sachs Classification",
+      "url": "https://mimo-international.com/MIMO/instrument-classification.aspx",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

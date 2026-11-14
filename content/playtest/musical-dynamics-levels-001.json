@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "musical-dynamics-levels-001",
+  "theme": "Musical Dynamic Markings",
+  "publishDate": "2027-04-18",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "musical-dynamics-levels-10",
+        "rivalGroupId": "group-3",
+        "risk": "Forte-piano starts with Forte.",
+        "resolution": "Forte-piano indicates an immediate transition from loud to soft (group-4), not a sustained loud level (group-3)."
+      },
+      {
+        "itemId": "musical-dynamics-levels-4",
+        "rivalGroupId": "group-2",
+        "risk": "Mezzo-forte begins with Mezzo like Mezzo-piano.",
+        "resolution": "Mezzo-forte is moderately loud (group-3), whereas mezzo-piano is moderately soft (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

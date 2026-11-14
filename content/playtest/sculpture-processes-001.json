@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "sculpture-processes-001",
+  "theme": "Sculpture Techniques",
+  "publishDate": "2027-04-29",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "sculpture-processes-7",
+        "rivalGroupId": "group-2",
+        "risk": "Lost-wax starts with a wax model.",
+        "resolution": "Lost-wax bronze casting pours molten metal into a refractory mold (group-4), whereas direct wax modeling is additive shaping (group-2)."
+      },
+      {
+        "itemId": "sculpture-processes-9",
+        "rivalGroupId": "group-2",
+        "risk": "Slip casting uses liquid clay.",
+        "resolution": "Slip casting pours liquid clay into a plaster mold (group-4), unlike hand clay modeling (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

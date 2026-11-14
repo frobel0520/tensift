@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "musical-notation-symbols-2027-05-01-zh-hant",
+  "puzzleFamilyId": "musical-notation-symbols-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-01",
+  "timezone": "UTC",
+  "theme": "五線譜記號分類",
+  "items": [
+    {
+      "itemId": "musical-notation-symbols-4",
+      "label": "升記號（♯）"
+    },
+    {
+      "itemId": "musical-notation-symbols-8",
+      "label": "低音譜號（F 譜號）"
+    },
+    {
+      "itemId": "musical-notation-symbols-1",
+      "label": "延長記號（Fermata）"
+    },
+    {
+      "itemId": "musical-notation-symbols-6",
+      "label": "還原記號（♮）"
+    },
+    {
+      "itemId": "musical-notation-symbols-10",
+      "label": "次中音譜號"
+    },
+    {
+      "itemId": "musical-notation-symbols-2",
+      "label": "Segno 反覆記號"
+    },
+    {
+      "itemId": "musical-notation-symbols-7",
+      "label": "高音譜號（G 譜號）"
+    },
+    {
+      "itemId": "musical-notation-symbols-5",
+      "label": "降記號（♭）"
+    },
+    {
+      "itemId": "musical-notation-symbols-9",
+      "label": "中音譜號（C 譜號）"
+    },
+    {
+      "itemId": "musical-notation-symbols-3",
+      "label": "Coda 尾聲記號"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各五線譜記號的樂理功能（延長記號、反覆跳躍記號、臨時升降記號或譜號）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "延長記號",
+        "capacity": 1,
+        "itemIds": [
+          "musical-notation-symbols-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "反覆導航記號",
+        "capacity": 2,
+        "itemIds": [
+          "musical-notation-symbols-2",
+          "musical-notation-symbols-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "升降還原記號",
+        "capacity": 3,
+        "itemIds": [
+          "musical-notation-symbols-4",
+          "musical-notation-symbols-5",
+          "musical-notation-symbols-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "譜號",
+        "capacity": 4,
+        "itemIds": [
+          "musical-notation-symbols-7",
+          "musical-notation-symbols-8",
+          "musical-notation-symbols-9",
+          "musical-notation-symbols-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依記譜功能分類：延長記號（延長記號 Fermata）、反覆導航記號（Segno 記號、尾聲記號 Coda）、臨時記號（升記號、降記號、還原記號）與譜號（高音譜號、低音譜號、中音譜號、次中音譜號）。",
+  "sources": [
+    {
+      "title": "Britannica: Musical Notation",
+      "url": "https://www.britannica.com/art/musical-notation",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

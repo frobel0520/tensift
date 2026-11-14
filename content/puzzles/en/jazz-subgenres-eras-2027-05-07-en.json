@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "jazz-subgenres-eras-2027-05-07-en",
+  "puzzleFamilyId": "jazz-subgenres-eras-001",
+  "locale": "en",
+  "publishDate": "2027-05-07",
+  "timezone": "UTC",
+  "theme": "Jazz Styles by Era",
+  "items": [
+    {
+      "itemId": "jazz-subgenres-eras-4",
+      "label": "Bebop"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-8",
+      "label": "Modal Jazz"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-1",
+      "label": "Ragtime"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-6",
+      "label": "Hard Bop"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-10",
+      "label": "Soul Jazz"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-2",
+      "label": "New Orleans Dixieland"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-7",
+      "label": "Free Jazz"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-5",
+      "label": "Cool Jazz"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-9",
+      "label": "Jazz Fusion"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-3",
+      "label": "Big Band Swing"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Formative era (Pre-1920 Ragtime, 1920s–30s Swing/Dixieland, 1940s–50s Modern, or 1960s–70s Avant-Garde/Fusion)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Pre-1920s Forerunner",
+        "capacity": 1,
+        "itemIds": [
+          "jazz-subgenres-eras-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "1920s–1930s",
+        "capacity": 2,
+        "itemIds": [
+          "jazz-subgenres-eras-2",
+          "jazz-subgenres-eras-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "1940s–1950s",
+        "capacity": 3,
+        "itemIds": [
+          "jazz-subgenres-eras-4",
+          "jazz-subgenres-eras-5",
+          "jazz-subgenres-eras-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "1960s–1970s",
+        "capacity": 4,
+        "itemIds": [
+          "jazz-subgenres-eras-7",
+          "jazz-subgenres-eras-8",
+          "jazz-subgenres-eras-9",
+          "jazz-subgenres-eras-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by formative era: Pre-1920s (Ragtime), 1920s–1930s (New Orleans Dixieland, Big Band Swing), 1940s–1950s (Bebop, Cool Jazz, Hard Bop), and 1960s–1970s (Free Jazz, Modal Jazz, Jazz Fusion, Soul Jazz).",
+  "sources": [
+    {
+      "title": "Smithsonian: Jazz History",
+      "url": "https://americanhistory.si.edu/explore/stories/jazz",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

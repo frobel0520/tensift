@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "color-wheel-harmonies-001",
+  "theme": "Color Wheel Harmonies",
+  "publishDate": "2027-04-24",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "color-wheel-harmonies-5",
+        "rivalGroupId": "group-2",
+        "risk": "Split-Complementary contains Complementary.",
+        "resolution": "Split-complementary pairs one base hue with two hues adjacent to its complement, totaling 3 hues (group-3)."
+      },
+      {
+        "itemId": "color-wheel-harmonies-9",
+        "rivalGroupId": "group-2",
+        "risk": "Double Complementary contains Complementary.",
+        "resolution": "Double complementary uses two pairs of complements, totaling 4 hues (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

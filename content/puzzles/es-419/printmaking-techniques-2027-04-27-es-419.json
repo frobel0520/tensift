@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "printmaking-techniques-2027-04-27-es-419",
+  "puzzleFamilyId": "printmaking-techniques-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-27",
+  "timezone": "UTC",
+  "theme": "Técnicas de grabado",
+  "items": [
+    {
+      "itemId": "printmaking-techniques-4",
+      "label": "Xilografía"
+    },
+    {
+      "itemId": "printmaking-techniques-8",
+      "label": "Grabado a buril"
+    },
+    {
+      "itemId": "printmaking-techniques-1",
+      "label": "Serigrafía"
+    },
+    {
+      "itemId": "printmaking-techniques-6",
+      "label": "Grabado en madera a testa"
+    },
+    {
+      "itemId": "printmaking-techniques-10",
+      "label": "Aguatinta"
+    },
+    {
+      "itemId": "printmaking-techniques-2",
+      "label": "Litografía sobre piedra"
+    },
+    {
+      "itemId": "printmaking-techniques-7",
+      "label": "Aguafuerte"
+    },
+    {
+      "itemId": "printmaking-techniques-5",
+      "label": "Linograbado"
+    },
+    {
+      "itemId": "printmaking-techniques-9",
+      "label": "Punta seca"
+    },
+    {
+      "itemId": "printmaking-techniques-3",
+      "label": "Litografía offset"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Principio de impresión de la matriz (estarcido, planográfico, relieve o huecograbado)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Estarcido",
+        "capacity": 1,
+        "itemIds": [
+          "printmaking-techniques-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Planográfico",
+        "capacity": 2,
+        "itemIds": [
+          "printmaking-techniques-2",
+          "printmaking-techniques-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Relieve",
+        "capacity": 3,
+        "itemIds": [
+          "printmaking-techniques-4",
+          "printmaking-techniques-5",
+          "printmaking-techniques-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Huecograbado (Intaglio)",
+        "capacity": 4,
+        "itemIds": [
+          "printmaking-techniques-7",
+          "printmaking-techniques-8",
+          "printmaking-techniques-9",
+          "printmaking-techniques-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por matriz: estarcido (serigrafía), planográfico (litografía en piedra, offset), relieve (xilografía, linograbado, xilografía a contrafibra) y huecograbado (aguafuerte, buril, punta seca, aguatinta).",
+  "sources": [
+    {
+      "title": "MoMA: Printmaking Techniques",
+      "url": "https://www.moma.org/collection/terms/printmaking",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.62
+  },
+  "status": "scheduled"
+}

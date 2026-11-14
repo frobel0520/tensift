@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "pigments-colorant-sources-2027-04-25-es-419",
+  "puzzleFamilyId": "pigments-colorant-sources-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-25",
+  "timezone": "UTC",
+  "theme": "Pigmentos y tintes históricos",
+  "items": [
+    {
+      "itemId": "pigments-colorant-sources-4",
+      "label": "Ultramar (lapislázuli)"
+    },
+    {
+      "itemId": "pigments-colorant-sources-8",
+      "label": "Carmín de cochinilla"
+    },
+    {
+      "itemId": "pigments-colorant-sources-1",
+      "label": "Azul ftalocianina"
+    },
+    {
+      "itemId": "pigments-colorant-sources-6",
+      "label": "Amarillo cadmio"
+    },
+    {
+      "itemId": "pigments-colorant-sources-10",
+      "label": "Sepia"
+    },
+    {
+      "itemId": "pigments-colorant-sources-2",
+      "label": "Ocre amarillo"
+    },
+    {
+      "itemId": "pigments-colorant-sources-7",
+      "label": "Índigo"
+    },
+    {
+      "itemId": "pigments-colorant-sources-5",
+      "label": "Bermellón (cinabrio)"
+    },
+    {
+      "itemId": "pigments-colorant-sources-9",
+      "label": "Púrpura de Tiro"
+    },
+    {
+      "itemId": "pigments-colorant-sources-3",
+      "label": "Siena tostada"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Origen químico o natural de cada pigmento o tinte",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Sintético moderno",
+        "capacity": 1,
+        "itemIds": [
+          "pigments-colorant-sources-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Tierras ocres",
+        "capacity": 2,
+        "itemIds": [
+          "pigments-colorant-sources-2",
+          "pigments-colorant-sources-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Mineral / Inorgánico",
+        "capacity": 3,
+        "itemIds": [
+          "pigments-colorant-sources-4",
+          "pigments-colorant-sources-5",
+          "pigments-colorant-sources-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Orgánico / Biológico",
+        "capacity": 4,
+        "itemIds": [
+          "pigments-colorant-sources-7",
+          "pigments-colorant-sources-8",
+          "pigments-colorant-sources-9",
+          "pigments-colorant-sources-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por origen: sintético moderno (azul ftalocianina), tierras ocres (ocre amarillo, siena tostada), minerales inorgánicos (ultramar de lapislázuli, bermellón, amarillo cadmio) y orgánicos biológicos (índigo, carmín de cochinilla, púrpura de Tiro, sepia).",
+  "sources": [
+    {
+      "title": "Pigments through the Ages (WebExhibits)",
+      "url": "https://www.webexhibits.org/pigments/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

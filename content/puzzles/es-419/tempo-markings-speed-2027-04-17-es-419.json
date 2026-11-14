@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tempo-markings-speed-2027-04-17-es-419",
+  "puzzleFamilyId": "tempo-markings-speed-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-17",
+  "timezone": "UTC",
+  "theme": "Indicaciones de tempo musical",
+  "items": [
+    {
+      "itemId": "tempo-markings-speed-4",
+      "label": "Andante"
+    },
+    {
+      "itemId": "tempo-markings-speed-8",
+      "label": "Vivace"
+    },
+    {
+      "itemId": "tempo-markings-speed-1",
+      "label": "Largo"
+    },
+    {
+      "itemId": "tempo-markings-speed-6",
+      "label": "Allegretto"
+    },
+    {
+      "itemId": "tempo-markings-speed-10",
+      "label": "Prestissimo"
+    },
+    {
+      "itemId": "tempo-markings-speed-2",
+      "label": "Adagio"
+    },
+    {
+      "itemId": "tempo-markings-speed-7",
+      "label": "Allegro"
+    },
+    {
+      "itemId": "tempo-markings-speed-5",
+      "label": "Moderato"
+    },
+    {
+      "itemId": "tempo-markings-speed-9",
+      "label": "Presto"
+    },
+    {
+      "itemId": "tempo-markings-speed-3",
+      "label": "Lento"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Nivel de velocidad de cada indicación de tempo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Muy lento (<60 BPM)",
+        "capacity": 1,
+        "itemIds": [
+          "tempo-markings-speed-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Lento (60–76 BPM)",
+        "capacity": 2,
+        "itemIds": [
+          "tempo-markings-speed-2",
+          "tempo-markings-speed-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Moderado (76–120 BPM)",
+        "capacity": 3,
+        "itemIds": [
+          "tempo-markings-speed-4",
+          "tempo-markings-speed-5",
+          "tempo-markings-speed-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Rápido (>120 BPM)",
+        "capacity": 4,
+        "itemIds": [
+          "tempo-markings-speed-7",
+          "tempo-markings-speed-8",
+          "tempo-markings-speed-9",
+          "tempo-markings-speed-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por velocidad: muy lento (Largo), lento (Adagio, Lento), moderado (Andante, Moderato, Allegretto) y rápido (Allegro, Vivace, Presto, Prestissimo).",
+  "sources": [
+    {
+      "title": "Britannica: Tempo in Music",
+      "url": "https://www.britannica.com/art/tempo",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "dance-styles-origins-001",
+  "theme": "Dance Styles by Origin",
+  "publishDate": "2027-05-03",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "dance-styles-origins-1",
+        "rivalGroupId": "group-3",
+        "risk": "Ballet was heavily developed in Central and Eastern Europe.",
+        "resolution": "Classical ballet originated in Italian Renaissance and French royal courts (group-1), distinct from Central/Eastern European folk-derived ballroom dances (group-3)."
+      },
+      {
+        "itemId": "dance-styles-origins-9",
+        "rivalGroupId": "group-2",
+        "risk": "Salsa crystallized in New York City.",
+        "resolution": "Salsa grew from Cuban and Puerto Rican Latin musical traditions (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

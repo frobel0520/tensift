@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "musical-notation-symbols-2027-05-01-es-419",
+  "puzzleFamilyId": "musical-notation-symbols-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-01",
+  "timezone": "UTC",
+  "theme": "Símbolos de notación musical",
+  "items": [
+    {
+      "itemId": "musical-notation-symbols-4",
+      "label": "Sostenido (♯)"
+    },
+    {
+      "itemId": "musical-notation-symbols-8",
+      "label": "Clave de fa"
+    },
+    {
+      "itemId": "musical-notation-symbols-1",
+      "label": "Calderón"
+    },
+    {
+      "itemId": "musical-notation-symbols-6",
+      "label": "Becuadro (♮)"
+    },
+    {
+      "itemId": "musical-notation-symbols-10",
+      "label": "Clave de do en cuarta"
+    },
+    {
+      "itemId": "musical-notation-symbols-2",
+      "label": "Segno"
+    },
+    {
+      "itemId": "musical-notation-symbols-7",
+      "label": "Clave de sol"
+    },
+    {
+      "itemId": "musical-notation-symbols-5",
+      "label": "Bemol (♭)"
+    },
+    {
+      "itemId": "musical-notation-symbols-9",
+      "label": "Clave de do en tercera"
+    },
+    {
+      "itemId": "musical-notation-symbols-3",
+      "label": "Coda"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Función musical de cada símbolo de partitura",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Prolongación",
+        "capacity": 1,
+        "itemIds": [
+          "musical-notation-symbols-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Signos de repetición",
+        "capacity": 2,
+        "itemIds": [
+          "musical-notation-symbols-2",
+          "musical-notation-symbols-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Alteraciones",
+        "capacity": 3,
+        "itemIds": [
+          "musical-notation-symbols-4",
+          "musical-notation-symbols-5",
+          "musical-notation-symbols-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Claves",
+        "capacity": 4,
+        "itemIds": [
+          "musical-notation-symbols-7",
+          "musical-notation-symbols-8",
+          "musical-notation-symbols-9",
+          "musical-notation-symbols-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por función: calderón (calderón), signos de navegación (dal segno, coda), alteraciones (sostenido, bemol, becuadro) y claves (clave de sol, fa, do en tercera, do en cuarta).",
+  "sources": [
+    {
+      "title": "Britannica: Musical Notation",
+      "url": "https://www.britannica.com/art/musical-notation",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

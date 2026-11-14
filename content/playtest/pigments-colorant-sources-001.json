@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "pigments-colorant-sources-001",
+  "theme": "Historical Pigments & Dyes",
+  "publishDate": "2027-04-25",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "pigments-colorant-sources-1",
+        "rivalGroupId": "group-3",
+        "risk": "Phthalo Blue is a vivid artist pigment like Ultramarine.",
+        "resolution": "Phthalocyanine Blue was synthesized in the 1930s (group-1), unlike natural mineral lapis lazuli (group-3)."
+      },
+      {
+        "itemId": "pigments-colorant-sources-10",
+        "rivalGroupId": "group-2",
+        "risk": "Sepia is brownish like Burnt Sienna.",
+        "resolution": "True sepia comes from cuttlefish ink sacs (group-4), not iron-oxide earth clay (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

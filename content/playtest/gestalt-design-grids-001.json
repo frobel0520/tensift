@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "gestalt-design-grids-001",
+  "theme": "Graphic Design Principles",
+  "publishDate": "2027-05-06",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "gestalt-design-grids-1",
+        "rivalGroupId": "group-2",
+        "risk": "Closure is a Gestalt principle like Similarity and Proximity.",
+        "resolution": "Closure describes mentally completing an incomplete shape (group-1), whereas Similarity and Proximity govern grouping separate elements (group-2)."
+      },
+      {
+        "itemId": "gestalt-design-grids-10",
+        "rivalGroupId": "group-3",
+        "risk": "Baseline grid aligns typography.",
+        "resolution": "A baseline grid is a structural layout grid (group-4), not a visual contrast/hierarchy cue (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

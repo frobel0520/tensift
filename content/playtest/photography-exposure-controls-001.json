@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "photography-exposure-controls-001",
+  "theme": "Photography Exposure Controls",
+  "publishDate": "2027-04-26",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "photography-exposure-controls-1",
+        "rivalGroupId": "group-4",
+        "risk": "ISO is part of the exposure triangle.",
+        "resolution": "ISO specifically controls sensor gain/sensitivity (group-1), rather than metering or exposure adjustment tools (group-4)."
+      },
+      {
+        "itemId": "photography-exposure-controls-5",
+        "rivalGroupId": "group-2",
+        "risk": "Motion blur is controlled by shutter.",
+        "resolution": "Depth of field is governed by lens aperture, focal length, and distance (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

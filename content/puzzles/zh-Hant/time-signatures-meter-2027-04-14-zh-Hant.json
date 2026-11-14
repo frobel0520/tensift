@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "time-signatures-meter-2027-04-14-zh-hant",
+  "puzzleFamilyId": "time-signatures-meter-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-14",
+  "timezone": "UTC",
+  "theme": "拍號與節拍類型",
+  "items": [
+    {
+      "itemId": "time-signatures-meter-4",
+      "label": "3/4 拍"
+    },
+    {
+      "itemId": "time-signatures-meter-8",
+      "label": "4/4 拍"
+    },
+    {
+      "itemId": "time-signatures-meter-1",
+      "label": "5/4 拍"
+    },
+    {
+      "itemId": "time-signatures-meter-6",
+      "label": "3/2 拍"
+    },
+    {
+      "itemId": "time-signatures-meter-10",
+      "label": "4/2 拍"
+    },
+    {
+      "itemId": "time-signatures-meter-2",
+      "label": "6/8 拍"
+    },
+    {
+      "itemId": "time-signatures-meter-7",
+      "label": "2/4 拍"
+    },
+    {
+      "itemId": "time-signatures-meter-5",
+      "label": "3/8 拍"
+    },
+    {
+      "itemId": "time-signatures-meter-9",
+      "label": "2/2 拍（二二拍）"
+    },
+    {
+      "itemId": "time-signatures-meter-3",
+      "label": "6/4 拍"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各拍號的節拍結構分類（混合拍子、複二拍子、單三拍子或單二／四拍子）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "不規則混合拍子",
+        "capacity": 1,
+        "itemIds": [
+          "time-signatures-meter-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "複二拍子",
+        "capacity": 2,
+        "itemIds": [
+          "time-signatures-meter-2",
+          "time-signatures-meter-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "單三拍子",
+        "capacity": 3,
+        "itemIds": [
+          "time-signatures-meter-4",
+          "time-signatures-meter-5",
+          "time-signatures-meter-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "單二與單四拍子",
+        "capacity": 4,
+        "itemIds": [
+          "time-signatures-meter-7",
+          "time-signatures-meter-8",
+          "time-signatures-meter-9",
+          "time-signatures-meter-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依節拍類型分類：混合／不規則拍子（5/4）、複二拍子（6/8、6/4）、單三拍子（3/4、3/8、3/2）與單二／四拍子（2/4、4/4、2/2、4/2）。",
+  "sources": [
+    {
+      "title": "Britannica: Meter in Music",
+      "url": "https://www.britannica.com/art/meter-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

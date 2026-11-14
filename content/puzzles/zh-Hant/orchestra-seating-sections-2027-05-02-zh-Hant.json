@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "orchestra-seating-sections-2027-05-02-zh-hant",
+  "puzzleFamilyId": "orchestra-seating-sections-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-02",
+  "timezone": "UTC",
+  "theme": "交響樂團四大樂器組",
+  "items": [
+    {
+      "itemId": "orchestra-seating-sections-4",
+      "label": "小號"
+    },
+    {
+      "itemId": "orchestra-seating-sections-8",
+      "label": "小鼓"
+    },
+    {
+      "itemId": "orchestra-seating-sections-1",
+      "label": "低音提琴"
+    },
+    {
+      "itemId": "orchestra-seating-sections-6",
+      "label": "長號"
+    },
+    {
+      "itemId": "orchestra-seating-sections-10",
+      "label": "鐘琴"
+    },
+    {
+      "itemId": "orchestra-seating-sections-2",
+      "label": "雙簧管"
+    },
+    {
+      "itemId": "orchestra-seating-sections-7",
+      "label": "定音鼓"
+    },
+    {
+      "itemId": "orchestra-seating-sections-5",
+      "label": "法國號"
+    },
+    {
+      "itemId": "orchestra-seating-sections-9",
+      "label": "鈸"
+    },
+    {
+      "itemId": "orchestra-seating-sections-3",
+      "label": "低音管（巴松管）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各樂器在現代交響樂團中所屬的樂器組別（弦樂、木管、銅管或打擊樂）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "弦樂組",
+        "capacity": 1,
+        "itemIds": [
+          "orchestra-seating-sections-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "木管組",
+        "capacity": 2,
+        "itemIds": [
+          "orchestra-seating-sections-2",
+          "orchestra-seating-sections-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "銅管組",
+        "capacity": 3,
+        "itemIds": [
+          "orchestra-seating-sections-4",
+          "orchestra-seating-sections-5",
+          "orchestra-seating-sections-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "打擊樂組",
+        "capacity": 4,
+        "itemIds": [
+          "orchestra-seating-sections-7",
+          "orchestra-seating-sections-8",
+          "orchestra-seating-sections-9",
+          "orchestra-seating-sections-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依交響樂團編制分類：弦樂組（低音提琴）、木管組（雙簧管、低音管）、銅管組（小號、法國號、長號）與打擊樂組（定音鼓、小鼓、鈸、鐘琴）。",
+  "sources": [
+    {
+      "title": "Britannica: Symphony Orchestra",
+      "url": "https://www.britannica.com/art/orchestra-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "art-movements-eras-2027-04-19-es-419",
+  "puzzleFamilyId": "art-movements-eras-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-19",
+  "timezone": "UTC",
+  "theme": "Movimientos artísticos occidentales",
+  "items": [
+    {
+      "itemId": "art-movements-eras-4",
+      "label": "Cubismo"
+    },
+    {
+      "itemId": "art-movements-eras-8",
+      "label": "Arte pop"
+    },
+    {
+      "itemId": "art-movements-eras-1",
+      "label": "Alto Renacimiento"
+    },
+    {
+      "itemId": "art-movements-eras-6",
+      "label": "Surrealismo"
+    },
+    {
+      "itemId": "art-movements-eras-10",
+      "label": "Arte conceptual"
+    },
+    {
+      "itemId": "art-movements-eras-2",
+      "label": "Romanticismo"
+    },
+    {
+      "itemId": "art-movements-eras-7",
+      "label": "Expresionismo abstracto"
+    },
+    {
+      "itemId": "art-movements-eras-5",
+      "label": "Fauvismo"
+    },
+    {
+      "itemId": "art-movements-eras-9",
+      "label": "Minimalismo"
+    },
+    {
+      "itemId": "art-movements-eras-3",
+      "label": "Impresionismo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Período histórico de cada movimiento artístico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Renacimiento",
+        "capacity": 1,
+        "itemIds": [
+          "art-movements-eras-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Siglo XIX",
+        "capacity": 2,
+        "itemIds": [
+          "art-movements-eras-2",
+          "art-movements-eras-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Principios del siglo XX",
+        "capacity": 3,
+        "itemIds": [
+          "art-movements-eras-4",
+          "art-movements-eras-5",
+          "art-movements-eras-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Posguerra (desde 1945)",
+        "capacity": 4,
+        "itemIds": [
+          "art-movements-eras-7",
+          "art-movements-eras-8",
+          "art-movements-eras-9",
+          "art-movements-eras-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por época: Renacimiento (Alto Renacimiento), siglo XIX (Romanticismo, Impresionismo), principios del XX (Cubismo, Fauvismo, Surrealismo) y posguerra (Expresionismo abstracto, Arte pop, Minimalismo, Arte conceptual).",
+  "sources": [
+    {
+      "title": "Tate: Art Terms & Movements",
+      "url": "https://www.tate.org.uk/art/art-terms",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

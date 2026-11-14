@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "musical-intervals-quality-2027-04-12-es-419",
+  "puzzleFamilyId": "musical-intervals-quality-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-12",
+  "timezone": "UTC",
+  "theme": "Cualidades de los intervalos musicales",
+  "items": [
+    {
+      "itemId": "musical-intervals-quality-4",
+      "label": "Segunda mayor"
+    },
+    {
+      "itemId": "musical-intervals-quality-8",
+      "label": "Cuarta justa"
+    },
+    {
+      "itemId": "musical-intervals-quality-1",
+      "label": "Cuarta aumentada (tritono)"
+    },
+    {
+      "itemId": "musical-intervals-quality-6",
+      "label": "Sexta mayor"
+    },
+    {
+      "itemId": "musical-intervals-quality-10",
+      "label": "Octava justa"
+    },
+    {
+      "itemId": "musical-intervals-quality-2",
+      "label": "Tercera menor"
+    },
+    {
+      "itemId": "musical-intervals-quality-7",
+      "label": "Unísono justo"
+    },
+    {
+      "itemId": "musical-intervals-quality-5",
+      "label": "Tercera mayor"
+    },
+    {
+      "itemId": "musical-intervals-quality-9",
+      "label": "Quinta justa"
+    },
+    {
+      "itemId": "musical-intervals-quality-3",
+      "label": "Séptima menor"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría de cualidad de cada intervalo musical",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Tritono",
+        "capacity": 1,
+        "itemIds": [
+          "musical-intervals-quality-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Intervalos menores",
+        "capacity": 2,
+        "itemIds": [
+          "musical-intervals-quality-2",
+          "musical-intervals-quality-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Intervalos mayores",
+        "capacity": 3,
+        "itemIds": [
+          "musical-intervals-quality-4",
+          "musical-intervals-quality-5",
+          "musical-intervals-quality-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Intervalos justos",
+        "capacity": 4,
+        "itemIds": [
+          "musical-intervals-quality-7",
+          "musical-intervals-quality-8",
+          "musical-intervals-quality-9",
+          "musical-intervals-quality-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por cualidad: tritono (cuarta aumentada), menores (tercera menor, séptima menor), mayores (segunda mayor, tercera mayor, sexta mayor) y justos (unísono, cuarta justa, quinta justa, octava).",
+  "sources": [
+    {
+      "title": "Britannica: Musical Interval",
+      "url": "https://www.britannica.com/art/interval-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

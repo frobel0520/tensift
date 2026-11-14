@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "time-signatures-meter-2027-04-14-en",
+  "puzzleFamilyId": "time-signatures-meter-001",
+  "locale": "en",
+  "publishDate": "2027-04-14",
+  "timezone": "UTC",
+  "theme": "Musical Time Signatures",
+  "items": [
+    {
+      "itemId": "time-signatures-meter-4",
+      "label": "3/4 Time"
+    },
+    {
+      "itemId": "time-signatures-meter-8",
+      "label": "4/4 Time"
+    },
+    {
+      "itemId": "time-signatures-meter-1",
+      "label": "5/4 Time"
+    },
+    {
+      "itemId": "time-signatures-meter-6",
+      "label": "3/2 Time"
+    },
+    {
+      "itemId": "time-signatures-meter-10",
+      "label": "4/2 Time"
+    },
+    {
+      "itemId": "time-signatures-meter-2",
+      "label": "6/8 Time"
+    },
+    {
+      "itemId": "time-signatures-meter-7",
+      "label": "2/4 Time"
+    },
+    {
+      "itemId": "time-signatures-meter-5",
+      "label": "3/8 Time"
+    },
+    {
+      "itemId": "time-signatures-meter-9",
+      "label": "2/2 Time (Cut Time)"
+    },
+    {
+      "itemId": "time-signatures-meter-3",
+      "label": "6/4 Time"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Metric classification (Irregular/Additive, Compound Duple, Simple Triple, or Simple Duple/Quadruple)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Irregular / Additive",
+        "capacity": 1,
+        "itemIds": [
+          "time-signatures-meter-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Compound Duple",
+        "capacity": 2,
+        "itemIds": [
+          "time-signatures-meter-2",
+          "time-signatures-meter-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Simple Triple",
+        "capacity": 3,
+        "itemIds": [
+          "time-signatures-meter-4",
+          "time-signatures-meter-5",
+          "time-signatures-meter-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Simple Duple & Quadruple",
+        "capacity": 4,
+        "itemIds": [
+          "time-signatures-meter-7",
+          "time-signatures-meter-8",
+          "time-signatures-meter-9",
+          "time-signatures-meter-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by metric type: Irregular/Additive (5/4), Compound Duple (6/8, 6/4), Simple Triple (3/4, 3/8, 3/2), and Simple Duple/Quadruple (2/4, 4/4, 2/2, 4/2).",
+  "sources": [
+    {
+      "title": "Britannica: Meter in Music",
+      "url": "https://www.britannica.com/art/meter-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "musical-notation-symbols-2027-05-01-en",
+  "puzzleFamilyId": "musical-notation-symbols-001",
+  "locale": "en",
+  "publishDate": "2027-05-01",
+  "timezone": "UTC",
+  "theme": "Musical Notation Symbols",
+  "items": [
+    {
+      "itemId": "musical-notation-symbols-4",
+      "label": "Sharp (♯)"
+    },
+    {
+      "itemId": "musical-notation-symbols-8",
+      "label": "Bass Clef (F Clef)"
+    },
+    {
+      "itemId": "musical-notation-symbols-1",
+      "label": "Fermata"
+    },
+    {
+      "itemId": "musical-notation-symbols-6",
+      "label": "Natural (♮)"
+    },
+    {
+      "itemId": "musical-notation-symbols-10",
+      "label": "Tenor Clef"
+    },
+    {
+      "itemId": "musical-notation-symbols-2",
+      "label": "Segno (Sign)"
+    },
+    {
+      "itemId": "musical-notation-symbols-7",
+      "label": "Treble Clef (G Clef)"
+    },
+    {
+      "itemId": "musical-notation-symbols-5",
+      "label": "Flat (♭)"
+    },
+    {
+      "itemId": "musical-notation-symbols-9",
+      "label": "Alto Clef (C Clef)"
+    },
+    {
+      "itemId": "musical-notation-symbols-3",
+      "label": "Coda Sign"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Notational function (Duration Hold, Navigation Sign, Pitch Accidental, or Staff Clef)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Duration Hold",
+        "capacity": 1,
+        "itemIds": [
+          "musical-notation-symbols-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Navigation Signs",
+        "capacity": 2,
+        "itemIds": [
+          "musical-notation-symbols-2",
+          "musical-notation-symbols-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Pitch Accidentals",
+        "capacity": 3,
+        "itemIds": [
+          "musical-notation-symbols-4",
+          "musical-notation-symbols-5",
+          "musical-notation-symbols-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Staff Clefs",
+        "capacity": 4,
+        "itemIds": [
+          "musical-notation-symbols-7",
+          "musical-notation-symbols-8",
+          "musical-notation-symbols-9",
+          "musical-notation-symbols-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by notational function: Duration Hold (Fermata), Navigation Signs (Dal Segno, Coda), Pitch Accidentals (Sharp, Flat, Natural), and Staff Clefs (Treble Clef, Bass Clef, Alto Clef, Tenor Clef).",
+  "sources": [
+    {
+      "title": "Britannica: Musical Notation",
+      "url": "https://www.britannica.com/art/musical-notation",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

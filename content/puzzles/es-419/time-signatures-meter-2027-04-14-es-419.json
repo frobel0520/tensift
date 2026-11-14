@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "time-signatures-meter-2027-04-14-es-419",
+  "puzzleFamilyId": "time-signatures-meter-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-14",
+  "timezone": "UTC",
+  "theme": "Compases musicales",
+  "items": [
+    {
+      "itemId": "time-signatures-meter-4",
+      "label": "Compás de 3/4"
+    },
+    {
+      "itemId": "time-signatures-meter-8",
+      "label": "Compás de 4/4"
+    },
+    {
+      "itemId": "time-signatures-meter-1",
+      "label": "Compás de 5/4"
+    },
+    {
+      "itemId": "time-signatures-meter-6",
+      "label": "Compás de 3/2"
+    },
+    {
+      "itemId": "time-signatures-meter-10",
+      "label": "Compás de 4/2"
+    },
+    {
+      "itemId": "time-signatures-meter-2",
+      "label": "Compás de 6/8"
+    },
+    {
+      "itemId": "time-signatures-meter-7",
+      "label": "Compás de 2/4"
+    },
+    {
+      "itemId": "time-signatures-meter-5",
+      "label": "Compás de 3/8"
+    },
+    {
+      "itemId": "time-signatures-meter-9",
+      "label": "Compás de 2/2"
+    },
+    {
+      "itemId": "time-signatures-meter-3",
+      "label": "Compás de 6/4"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clasificación métrica de cada compás musical",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Compás irregular",
+        "capacity": 1,
+        "itemIds": [
+          "time-signatures-meter-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Compás compuesto binario",
+        "capacity": 2,
+        "itemIds": [
+          "time-signatures-meter-2",
+          "time-signatures-meter-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Compás simple ternario",
+        "capacity": 3,
+        "itemIds": [
+          "time-signatures-meter-4",
+          "time-signatures-meter-5",
+          "time-signatures-meter-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Simple binario y cuaternario",
+        "capacity": 4,
+        "itemIds": [
+          "time-signatures-meter-7",
+          "time-signatures-meter-8",
+          "time-signatures-meter-9",
+          "time-signatures-meter-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por métrica: irregular (5/4), compuesto binario (6/8, 6/4), simple ternario (3/4, 3/8, 3/2) y simple binario/cuaternario (2/4, 4/4, 2/2, 4/2).",
+  "sources": [
+    {
+      "title": "Britannica: Meter in Music",
+      "url": "https://www.britannica.com/art/meter-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "hornbostel-sachs-instruments-001",
+  "theme": "Hornbostel–Sachs Instrument Classes",
+  "publishDate": "2027-04-11",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "hornbostel-sachs-instruments-8",
+        "rivalGroupId": "group-3",
+        "risk": "The piano is played with hammers like a percussion instrument.",
+        "resolution": "Sound in a piano is produced by vibrating strings struck by hammers, classifying it as a chordophone (group-4)."
+      },
+      {
+        "itemId": "hornbostel-sachs-instruments-4",
+        "rivalGroupId": "group-1",
+        "risk": "Xylophone is in the percussion section with timpani.",
+        "resolution": "A xylophone’s wooden bars vibrate directly without a stretched membrane, making it an idiophone (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

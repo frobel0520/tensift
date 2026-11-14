@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "typographic-anatomy-terms-2027-04-23-es-419",
+  "puzzleFamilyId": "typographic-anatomy-terms-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-23",
+  "timezone": "UTC",
+  "theme": "Anatomía tipográfica",
+  "items": [
+    {
+      "itemId": "typographic-anatomy-terms-4",
+      "label": "Ascendente"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-8",
+      "label": "Panza (bowl)"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-1",
+      "label": "Altura de mayúsculas"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-6",
+      "label": "Punto (tittle)"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-10",
+      "label": "Ojo (de la e)"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-2",
+      "label": "Descendente"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-7",
+      "label": "Contrapunzón"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-5",
+      "label": "Ápice"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-9",
+      "label": "Abertura"
+    },
+    {
+      "itemId": "typographic-anatomy-terms-3",
+      "label": "Cola"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Posición o función estructural de cada parte de la letra",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Línea métrica vertical",
+        "capacity": 1,
+        "itemIds": [
+          "typographic-anatomy-terms-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Rasgos bajo la línea base",
+        "capacity": 2,
+        "itemIds": [
+          "typographic-anatomy-terms-2",
+          "typographic-anatomy-terms-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Rasgos superiores",
+        "capacity": 3,
+        "itemIds": [
+          "typographic-anatomy-terms-4",
+          "typographic-anatomy-terms-5",
+          "typographic-anatomy-terms-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Espacios interiores y cerrados",
+        "capacity": 4,
+        "itemIds": [
+          "typographic-anatomy-terms-7",
+          "typographic-anatomy-terms-8",
+          "typographic-anatomy-terms-9",
+          "typographic-anatomy-terms-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por anatomía: métrica vertical (altura de mayúsculas), extensiones inferiores (descendente, cola), rasgos superiores (ascendente, ápice, punto) y espacios interiores (contrapunzón, panza, abertura, ojo).",
+  "sources": [
+    {
+      "title": "Google Fonts Knowledge: Anatomy of a Typeface",
+      "url": "https://fonts.google.com/knowledge/glossary",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

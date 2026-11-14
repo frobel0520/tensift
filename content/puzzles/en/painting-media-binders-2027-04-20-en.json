@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "painting-media-binders-2027-04-20-en",
+  "puzzleFamilyId": "painting-media-binders-001",
+  "locale": "en",
+  "publishDate": "2027-04-20",
+  "timezone": "UTC",
+  "theme": "Painting Media & Binders",
+  "items": [
+    {
+      "itemId": "painting-media-binders-4",
+      "label": "Linseed Oil Paint"
+    },
+    {
+      "itemId": "painting-media-binders-8",
+      "label": "Gouache"
+    },
+    {
+      "itemId": "painting-media-binders-1",
+      "label": "Encaustic"
+    },
+    {
+      "itemId": "painting-media-binders-6",
+      "label": "Poppy Oil Paint"
+    },
+    {
+      "itemId": "painting-media-binders-10",
+      "label": "Poster Paint"
+    },
+    {
+      "itemId": "painting-media-binders-2",
+      "label": "Egg Tempera"
+    },
+    {
+      "itemId": "painting-media-binders-7",
+      "label": "Transparent Watercolor"
+    },
+    {
+      "itemId": "painting-media-binders-5",
+      "label": "Walnut Oil Paint"
+    },
+    {
+      "itemId": "painting-media-binders-9",
+      "label": "Acrylic Paint"
+    },
+    {
+      "itemId": "painting-media-binders-3",
+      "label": "Casein Paint"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Primary binder/vehicle (Beeswax, Protein/Egg-Casein, Drying Oil, or Water-dispersed Gum/Polymer)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Beeswax Binder",
+        "capacity": 1,
+        "itemIds": [
+          "painting-media-binders-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Protein Binders",
+        "capacity": 2,
+        "itemIds": [
+          "painting-media-binders-2",
+          "painting-media-binders-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Drying Oil Binders",
+        "capacity": 3,
+        "itemIds": [
+          "painting-media-binders-4",
+          "painting-media-binders-5",
+          "painting-media-binders-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Water-Dispersed Gum / Polymer",
+        "capacity": 4,
+        "itemIds": [
+          "painting-media-binders-7",
+          "painting-media-binders-8",
+          "painting-media-binders-9",
+          "painting-media-binders-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by primary binder: Beeswax (Encaustic), Protein emulsion (Egg Tempera, Casein Paint), Drying Oil (Linseed Oil Paint, Walnut Oil Paint, Poppy Oil Paint), and Water-dispersed Gum/Polymer (Transparent Watercolor, Gouache, Acrylic Paint, Poster Paint).",
+  "sources": [
+    {
+      "title": "National Gallery of Art: Painting Materials",
+      "url": "https://www.nga.gov/conservation/science.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

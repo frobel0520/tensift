@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "paper-screen-aspect-ratios-2027-05-08-zh-hant",
+  "puzzleFamilyId": "paper-screen-aspect-ratios-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-08",
+  "timezone": "UTC",
+  "theme": "紙張與螢幕長寬比",
+  "items": [
+    {
+      "itemId": "paper-screen-aspect-ratios-4",
+      "label": "16:9 寬螢幕 HD"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-8",
+      "label": "3:2 35mm 底片比例"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-1",
+      "label": "1:1 中片幅正方比例"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-6",
+      "label": "1.85:1 電影院寬銀幕"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-10",
+      "label": "美規 Letter（8.5×11 吋）"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-2",
+      "label": "A4 紙張"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-7",
+      "label": "4:3 傳統電視比例"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-5",
+      "label": "2.39:1 變形寬銀幕"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-9",
+      "label": "5:4 大片幅比例"
+    },
+    {
+      "itemId": "paper-screen-aspect-ratios-3",
+      "label": "A3 紙張"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各標準尺寸或格式的長寬比例類別",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "1:1 正方形",
+        "capacity": 1,
+        "itemIds": [
+          "paper-screen-aspect-ratios-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "ISO 216（1:√2 比例）",
+        "capacity": 2,
+        "itemIds": [
+          "paper-screen-aspect-ratios-2",
+          "paper-screen-aspect-ratios-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "寬銀幕電影與高畫質",
+        "capacity": 3,
+        "itemIds": [
+          "paper-screen-aspect-ratios-4",
+          "paper-screen-aspect-ratios-5",
+          "paper-screen-aspect-ratios-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "傳統攝影與美規紙張",
+        "capacity": 4,
+        "itemIds": [
+          "paper-screen-aspect-ratios-7",
+          "paper-screen-aspect-ratios-8",
+          "paper-screen-aspect-ratios-9",
+          "paper-screen-aspect-ratios-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依長寬比例家族分類：1:1 正方形（1:1 正方格式）、ISO 216 1:√2（A4 紙張、A3 紙張）、寬銀幕影像（16:9 HD、2.39:1 變形寬銀幕、1.85:1 寬銀幕）與傳統攝影／紙張（4:3 標準、3:2 35mm 底片、5:4 大片幅、美規 Letter 8.5×11）。",
+  "sources": [
+    {
+      "title": "ISO 216 Paper Sizes",
+      "url": "https://www.iso.org/standard/36631.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

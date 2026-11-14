@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "printmaking-techniques-2027-04-27-zh-hant",
+  "puzzleFamilyId": "printmaking-techniques-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-27",
+  "timezone": "UTC",
+  "theme": "版畫製作技法分類",
+  "items": [
+    {
+      "itemId": "printmaking-techniques-4",
+      "label": "木刻版畫"
+    },
+    {
+      "itemId": "printmaking-techniques-8",
+      "label": "銅版雕刻"
+    },
+    {
+      "itemId": "printmaking-techniques-1",
+      "label": "網版印刷（絹印）"
+    },
+    {
+      "itemId": "printmaking-techniques-6",
+      "label": "木口木刻"
+    },
+    {
+      "itemId": "printmaking-techniques-10",
+      "label": "飛塵蝕刻（Aquatint）"
+    },
+    {
+      "itemId": "printmaking-techniques-2",
+      "label": "石版畫"
+    },
+    {
+      "itemId": "printmaking-techniques-7",
+      "label": "蝕刻版畫"
+    },
+    {
+      "itemId": "printmaking-techniques-5",
+      "label": "亞麻油氈版畫"
+    },
+    {
+      "itemId": "printmaking-techniques-9",
+      "label": "乾刻法"
+    },
+    {
+      "itemId": "printmaking-techniques-3",
+      "label": "平版膠印"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各版畫技法的印版原理（孔版、平版、凸版或凹版）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "孔版印刷",
+        "capacity": 1,
+        "itemIds": [
+          "printmaking-techniques-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "平版印刷",
+        "capacity": 2,
+        "itemIds": [
+          "printmaking-techniques-2",
+          "printmaking-techniques-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "凸版印刷",
+        "capacity": 3,
+        "itemIds": [
+          "printmaking-techniques-4",
+          "printmaking-techniques-5",
+          "printmaking-techniques-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "凹版印刷",
+        "capacity": 4,
+        "itemIds": [
+          "printmaking-techniques-7",
+          "printmaking-techniques-8",
+          "printmaking-techniques-9",
+          "printmaking-techniques-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依版畫印版原理分類：孔版（網版印刷）、平版（石版畫、平版膠印）、凸版（木刻版畫、亞麻油氈版畫、木口木刻）與凹版（蝕刻版畫、銅版雕刻、乾刻法、飛塵蝕刻）。",
+  "sources": [
+    {
+      "title": "MoMA: Printmaking Techniques",
+      "url": "https://www.moma.org/collection/terms/printmaking",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.62
+  },
+  "status": "scheduled"
+}
