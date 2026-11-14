@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "symmetry-transformations-001",
+  "theme": "Geometric Transformations",
+  "publishDate": "2027-02-28",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "symmetry-transformations-4",
+        "rivalGroupId": "group-4",
+        "risk": "Reflections preserve all distances like rotations.",
+        "resolution": "Reflections reverse handedness/orientation (group-3), whereas translations and rotations preserve orientation (group-4)."
+      },
+      {
+        "itemId": "symmetry-transformations-2",
+        "rivalGroupId": "group-1",
+        "risk": "Dilation alters size.",
+        "resolution": "Uniform dilation is an affine similarity transformation (group-2), unlike non-affine perspective projection (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

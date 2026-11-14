@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "number-sequences-2027-02-13-es-419",
+  "puzzleFamilyId": "number-sequences-001",
+  "locale": "es-419",
+  "publishDate": "2027-02-13",
+  "timezone": "UTC",
+  "theme": "Sucesiones de enteros",
+  "items": [
+    {
+      "itemId": "number-sequences-4",
+      "label": "3, 7, 11, 15"
+    },
+    {
+      "itemId": "number-sequences-8",
+      "label": "1, 3, 6, 10, 15"
+    },
+    {
+      "itemId": "number-sequences-1",
+      "label": "1, 1, 2, 3, 5, 8"
+    },
+    {
+      "itemId": "number-sequences-6",
+      "label": "5, 2, -1, -4"
+    },
+    {
+      "itemId": "number-sequences-10",
+      "label": "1, 5, 12, 22, 35"
+    },
+    {
+      "itemId": "number-sequences-2",
+      "label": "2, 6, 18, 54"
+    },
+    {
+      "itemId": "number-sequences-7",
+      "label": "1, 4, 9, 16, 25"
+    },
+    {
+      "itemId": "number-sequences-5",
+      "label": "10, 20, 30, 40"
+    },
+    {
+      "itemId": "number-sequences-9",
+      "label": "2, 6, 12, 20, 30"
+    },
+    {
+      "itemId": "number-sequences-3",
+      "label": "1, 2, 4, 8, 16"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Regla de generación de cada sucesión",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Recurrencia de Fibonacci",
+        "capacity": 1,
+        "itemIds": [
+          "number-sequences-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Progresiones geométricas",
+        "capacity": 2,
+        "itemIds": [
+          "number-sequences-2",
+          "number-sequences-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Progresiones aritméticas",
+        "capacity": 3,
+        "itemIds": [
+          "number-sequences-4",
+          "number-sequences-5",
+          "number-sequences-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Sucesiones cuadráticas",
+        "capacity": 4,
+        "itemIds": [
+          "number-sequences-7",
+          "number-sequences-8",
+          "number-sequences-9",
+          "number-sequences-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por regla de generación: recurrencia de Fibonacci, progresiones geométricas, progresiones aritméticas y sucesiones cuadráticas.",
+  "sources": [
+    {
+      "title": "OEIS: On-Line Encyclopedia of Integer Sequences",
+      "url": "https://oeis.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

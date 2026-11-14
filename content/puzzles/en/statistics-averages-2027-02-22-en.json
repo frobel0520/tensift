@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "statistics-averages-2027-02-22-en",
+  "puzzleFamilyId": "statistics-averages-001",
+  "locale": "en",
+  "publishDate": "2027-02-22",
+  "timezone": "UTC",
+  "theme": "Descriptive Statistics",
+  "items": [
+    {
+      "itemId": "statistics-averages-4",
+      "label": "Variance"
+    },
+    {
+      "itemId": "statistics-averages-8",
+      "label": "Median"
+    },
+    {
+      "itemId": "statistics-averages-1",
+      "label": "Skewness"
+    },
+    {
+      "itemId": "statistics-averages-6",
+      "label": "Interquartile range"
+    },
+    {
+      "itemId": "statistics-averages-10",
+      "label": "Geometric mean"
+    },
+    {
+      "itemId": "statistics-averages-2",
+      "label": "90th percentile"
+    },
+    {
+      "itemId": "statistics-averages-7",
+      "label": "Arithmetic mean"
+    },
+    {
+      "itemId": "statistics-averages-5",
+      "label": "Standard deviation"
+    },
+    {
+      "itemId": "statistics-averages-9",
+      "label": "Mode"
+    },
+    {
+      "itemId": "statistics-averages-3",
+      "label": "First quartile (Q1)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Statistical property measured: shape, quantile position, spread, or central tendency",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Distribution shape",
+        "capacity": 1,
+        "itemIds": [
+          "statistics-averages-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Quantile positions",
+        "capacity": 2,
+        "itemIds": [
+          "statistics-averages-2",
+          "statistics-averages-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Measures of spread",
+        "capacity": 3,
+        "itemIds": [
+          "statistics-averages-4",
+          "statistics-averages-5",
+          "statistics-averages-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Central tendency",
+        "capacity": 4,
+        "itemIds": [
+          "statistics-averages-7",
+          "statistics-averages-8",
+          "statistics-averages-9",
+          "statistics-averages-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by statistical category: distribution shape (skewness), quantile positions (90th percentile, Q1), measures of spread (variance, standard deviation, IQR), and central tendency (arithmetic mean, median, mode, geometric mean).",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH: Measures of Location and Spread",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda35.htm",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

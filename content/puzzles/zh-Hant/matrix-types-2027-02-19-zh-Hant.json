@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "matrix-types-2027-02-19-zh-hant",
+  "puzzleFamilyId": "matrix-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-02-19",
+  "timezone": "UTC",
+  "theme": "線性代數特殊矩陣",
+  "items": [
+    {
+      "itemId": "matrix-types-4",
+      "label": "上三角矩陣"
+    },
+    {
+      "itemId": "matrix-types-8",
+      "label": "反對稱矩陣（Aᵀ = -A）"
+    },
+    {
+      "itemId": "matrix-types-1",
+      "label": "零矩陣（全為 0）"
+    },
+    {
+      "itemId": "matrix-types-6",
+      "label": "嚴格上三角矩陣"
+    },
+    {
+      "itemId": "matrix-types-10",
+      "label": "厄米特矩陣（H* = H）"
+    },
+    {
+      "itemId": "matrix-types-2",
+      "label": "單位矩陣 I"
+    },
+    {
+      "itemId": "matrix-types-7",
+      "label": "對稱矩陣（Aᵀ = A）"
+    },
+    {
+      "itemId": "matrix-types-5",
+      "label": "下三角矩陣"
+    },
+    {
+      "itemId": "matrix-types-9",
+      "label": "正交矩陣（QᵀQ = I）"
+    },
+    {
+      "itemId": "matrix-types-3",
+      "label": "對角矩陣"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各矩陣的定義結構或代數性質",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "零矩陣",
+        "capacity": 1,
+        "itemIds": [
+          "matrix-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "對角矩陣類",
+        "capacity": 2,
+        "itemIds": [
+          "matrix-types-2",
+          "matrix-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "三角矩陣類",
+        "capacity": 3,
+        "itemIds": [
+          "matrix-types-4",
+          "matrix-types-5",
+          "matrix-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "轉置與共軛定義類",
+        "capacity": 4,
+        "itemIds": [
+          "matrix-types-7",
+          "matrix-types-8",
+          "matrix-types-9",
+          "matrix-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依矩陣結構與代數性質分類：零矩陣、對角矩陣家族（單位矩陣、對角矩陣）、三角矩陣家族（上三角、下三角、嚴格上三角）與轉置／共軛對稱家族（對稱矩陣、反對稱矩陣、正交矩陣、厄米特矩陣）。",
+  "sources": [
+    {
+      "title": "Wolfram MathWorld: Matrix",
+      "url": "https://mathworld.wolfram.com/Matrix.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

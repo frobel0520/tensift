@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "platonic-solids-faces-2027-02-11-zh-hant",
+  "puzzleFamilyId": "platonic-solids-faces-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-02-11",
+  "timezone": "UTC",
+  "theme": "多面體面數",
+  "items": [
+    {
+      "itemId": "platonic-solids-faces-4",
+      "label": "正八面體"
+    },
+    {
+      "itemId": "platonic-solids-faces-8",
+      "label": "正二十面體"
+    },
+    {
+      "itemId": "platonic-solids-faces-1",
+      "label": "正四面體"
+    },
+    {
+      "itemId": "platonic-solids-faces-6",
+      "label": "七角錐"
+    },
+    {
+      "itemId": "platonic-solids-faces-10",
+      "label": "菱形十二面體"
+    },
+    {
+      "itemId": "platonic-solids-faces-2",
+      "label": "正六面體（立方體）"
+    },
+    {
+      "itemId": "platonic-solids-faces-7",
+      "label": "正十二面體"
+    },
+    {
+      "itemId": "platonic-solids-faces-5",
+      "label": "六角柱"
+    },
+    {
+      "itemId": "platonic-solids-faces-9",
+      "label": "十角柱"
+    },
+    {
+      "itemId": "platonic-solids-faces-3",
+      "label": "五角錐"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各凸多面體的面數區間",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "4 個面",
+        "capacity": 1,
+        "itemIds": [
+          "platonic-solids-faces-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "6 個面",
+        "capacity": 2,
+        "itemIds": [
+          "platonic-solids-faces-2",
+          "platonic-solids-faces-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "8 個面",
+        "capacity": 3,
+        "itemIds": [
+          "platonic-solids-faces-4",
+          "platonic-solids-faces-5",
+          "platonic-solids-faces-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "12 個面以上",
+        "capacity": 4,
+        "itemIds": [
+          "platonic-solids-faces-7",
+          "platonic-solids-faces-8",
+          "platonic-solids-faces-9",
+          "platonic-solids-faces-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依凸多面體的面數區間歸類：4 面（正四面體）、6 面（正立方體、五角錐）、8 面（正八面體、六角柱、七角錐）與 12 面以上（正十二面體、正二十面體、十角柱、菱形十二面體）。",
+  "sources": [
+    {
+      "title": "Britannica: Polyhedron",
+      "url": "https://www.britannica.com/science/polyhedron",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.52
+  },
+  "status": "scheduled"
+}

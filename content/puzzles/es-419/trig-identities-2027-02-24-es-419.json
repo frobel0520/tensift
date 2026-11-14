@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "trig-identities-2027-02-24-es-419",
+  "puzzleFamilyId": "trig-identities-001",
+  "locale": "es-419",
+  "publishDate": "2027-02-24",
+  "timezone": "UTC",
+  "theme": "Valores trigonométricos",
+  "items": [
+    {
+      "itemId": "trig-identities-4",
+      "label": "sen(0°)"
+    },
+    {
+      "itemId": "trig-identities-8",
+      "label": "cos(0°)"
+    },
+    {
+      "itemId": "trig-identities-1",
+      "label": "tan(90°)"
+    },
+    {
+      "itemId": "trig-identities-6",
+      "label": "tan(180°)"
+    },
+    {
+      "itemId": "trig-identities-10",
+      "label": "cot(45°)"
+    },
+    {
+      "itemId": "trig-identities-2",
+      "label": "cos(180°)"
+    },
+    {
+      "itemId": "trig-identities-7",
+      "label": "sen(90°)"
+    },
+    {
+      "itemId": "trig-identities-5",
+      "label": "cos(90°)"
+    },
+    {
+      "itemId": "trig-identities-9",
+      "label": "tan(45°)"
+    },
+    {
+      "itemId": "trig-identities-3",
+      "label": "sen(270°)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Valor exacto (-1, 0, 1 o indefinido) de cada expresión",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Indefinido",
+        "capacity": 1,
+        "itemIds": [
+          "trig-identities-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Igual a -1",
+        "capacity": 2,
+        "itemIds": [
+          "trig-identities-2",
+          "trig-identities-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Igual a 0",
+        "capacity": 3,
+        "itemIds": [
+          "trig-identities-4",
+          "trig-identities-5",
+          "trig-identities-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Igual a +1",
+        "capacity": 4,
+        "itemIds": [
+          "trig-identities-7",
+          "trig-identities-8",
+          "trig-identities-9",
+          "trig-identities-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por su valor exacto: indefinido (tan 90°), -1 (cos 180°, sen 270°), 0 (sen 0°, cos 90°, tan 180°) y +1 (sen 90°, cos 0°, tan 45°, cot 45°).",
+  "sources": [
+    {
+      "title": "NIST DLMF: Elementary Functions",
+      "url": "https://dlmf.nist.gov/4",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.62
+  },
+  "status": "scheduled"
+}

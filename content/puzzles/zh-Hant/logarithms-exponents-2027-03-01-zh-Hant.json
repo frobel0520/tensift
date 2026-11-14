@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "logarithms-exponents-2027-03-01-zh-hant",
+  "puzzleFamilyId": "logarithms-exponents-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-01",
+  "timezone": "UTC",
+  "theme": "對數與指數運算",
+  "items": [
+    {
+      "itemId": "logarithms-exponents-4",
+      "label": "log₂(4)"
+    },
+    {
+      "itemId": "logarithms-exponents-8",
+      "label": "log₁₀(1000)"
+    },
+    {
+      "itemId": "logarithms-exponents-1",
+      "label": "log₁₀(1)"
+    },
+    {
+      "itemId": "logarithms-exponents-6",
+      "label": "√4"
+    },
+    {
+      "itemId": "logarithms-exponents-10",
+      "label": "ln(e³)"
+    },
+    {
+      "itemId": "logarithms-exponents-2",
+      "label": "ln(e)"
+    },
+    {
+      "itemId": "logarithms-exponents-7",
+      "label": "log₂(8)"
+    },
+    {
+      "itemId": "logarithms-exponents-5",
+      "label": "log₁₀(100)"
+    },
+    {
+      "itemId": "logarithms-exponents-9",
+      "label": "∛27"
+    },
+    {
+      "itemId": "logarithms-exponents-3",
+      "label": "5⁰"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各對數或指數運算式的精確整數值（0、1、2、3）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "等於 0",
+        "capacity": 1,
+        "itemIds": [
+          "logarithms-exponents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "等於 1",
+        "capacity": 2,
+        "itemIds": [
+          "logarithms-exponents-2",
+          "logarithms-exponents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "等於 2",
+        "capacity": 3,
+        "itemIds": [
+          "logarithms-exponents-4",
+          "logarithms-exponents-5",
+          "logarithms-exponents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "等於 3",
+        "capacity": 4,
+        "itemIds": [
+          "logarithms-exponents-7",
+          "logarithms-exponents-8",
+          "logarithms-exponents-9",
+          "logarithms-exponents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依各運算式的精確結果分類：0（log₁₀(1)）、1（ln(e)、5⁰）、2（log₂(4)、log₁₀(100)、√4）與 3（log₂(8)、log₁₀(1000)、∛27、ln(e³)）。",
+  "sources": [
+    {
+      "title": "NIST DLMF: Logarithm Function",
+      "url": "https://dlmf.nist.gov/4.2",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

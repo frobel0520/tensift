@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "trig-identities-001",
+  "theme": "Trigonometric Values",
+  "publishDate": "2027-02-24",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "trig-identities-1",
+        "rivalGroupId": "group-3",
+        "risk": "cos(90°) is 0, tempting players to group all 90° expressions together.",
+        "resolution": "tan(90°) = sin(90°)/cos(90°) = 1/0, which is undefined (group-1), not 0 (group-3)."
+      },
+      {
+        "itemId": "trig-identities-2",
+        "rivalGroupId": "group-4",
+        "risk": "cos(0°) is +1 and cos(180°) has magnitude 1.",
+        "resolution": "cos(180°) equals -1 (group-2), whereas cos(0°) equals +1 (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

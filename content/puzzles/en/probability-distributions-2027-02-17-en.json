@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "probability-distributions-2027-02-17-en",
+  "puzzleFamilyId": "probability-distributions-001",
+  "locale": "en",
+  "publishDate": "2027-02-17",
+  "timezone": "UTC",
+  "theme": "Probability Distributions",
+  "items": [
+    {
+      "itemId": "probability-distributions-4",
+      "label": "Beta distribution"
+    },
+    {
+      "itemId": "probability-distributions-8",
+      "label": "Student’s t-distribution"
+    },
+    {
+      "itemId": "probability-distributions-1",
+      "label": "Bernoulli distribution"
+    },
+    {
+      "itemId": "probability-distributions-6",
+      "label": "Triangular distribution"
+    },
+    {
+      "itemId": "probability-distributions-10",
+      "label": "Chi-squared distribution"
+    },
+    {
+      "itemId": "probability-distributions-2",
+      "label": "Poisson distribution"
+    },
+    {
+      "itemId": "probability-distributions-7",
+      "label": "Normal (Gaussian) distribution"
+    },
+    {
+      "itemId": "probability-distributions-5",
+      "label": "Continuous uniform distribution"
+    },
+    {
+      "itemId": "probability-distributions-9",
+      "label": "Exponential distribution"
+    },
+    {
+      "itemId": "probability-distributions-3",
+      "label": "Geometric distribution"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Support domain (discrete vs continuous bounded or unbounded)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Binary discrete {0, 1}",
+        "capacity": 1,
+        "itemIds": [
+          "probability-distributions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Countably infinite discrete",
+        "capacity": 2,
+        "itemIds": [
+          "probability-distributions-2",
+          "probability-distributions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Bounded continuous interval",
+        "capacity": 3,
+        "itemIds": [
+          "probability-distributions-4",
+          "probability-distributions-5",
+          "probability-distributions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Unbounded continuous",
+        "capacity": 4,
+        "itemIds": [
+          "probability-distributions-7",
+          "probability-distributions-8",
+          "probability-distributions-9",
+          "probability-distributions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by support: finite binary {0, 1} (Bernoulli), countable non-negative integers (Poisson, Geometric), bounded continuous interval (Beta, Continuous Uniform, Triangular), and unbounded continuous (Normal, Student’s t, Exponential, Chi-squared).",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH: Engineering Statistics Handbook",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.72
+  },
+  "status": "scheduled"
+}

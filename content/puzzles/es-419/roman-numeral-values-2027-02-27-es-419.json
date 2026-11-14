@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "roman-numeral-values-2027-02-27-es-419",
+  "puzzleFamilyId": "roman-numeral-values-001",
+  "locale": "es-419",
+  "publishDate": "2027-02-27",
+  "timezone": "UTC",
+  "theme": "Valores de números romanos",
+  "items": [
+    {
+      "itemId": "roman-numeral-values-4",
+      "label": "CC"
+    },
+    {
+      "itemId": "roman-numeral-values-8",
+      "label": "CM"
+    },
+    {
+      "itemId": "roman-numeral-values-1",
+      "label": "IV"
+    },
+    {
+      "itemId": "roman-numeral-values-6",
+      "label": "CD"
+    },
+    {
+      "itemId": "roman-numeral-values-10",
+      "label": "MM"
+    },
+    {
+      "itemId": "roman-numeral-values-2",
+      "label": "XL"
+    },
+    {
+      "itemId": "roman-numeral-values-7",
+      "label": "D"
+    },
+    {
+      "itemId": "roman-numeral-values-5",
+      "label": "CCC"
+    },
+    {
+      "itemId": "roman-numeral-values-9",
+      "label": "M"
+    },
+    {
+      "itemId": "roman-numeral-values-3",
+      "label": "XC"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Rango numérico de cada expresión romana",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Menor de 10",
+        "capacity": 1,
+        "itemIds": [
+          "roman-numeral-values-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "De 10 a 99",
+        "capacity": 2,
+        "itemIds": [
+          "roman-numeral-values-2",
+          "roman-numeral-values-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "De 100 a 499",
+        "capacity": 3,
+        "itemIds": [
+          "roman-numeral-values-4",
+          "roman-numeral-values-5",
+          "roman-numeral-values-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "500 o más",
+        "capacity": 4,
+        "itemIds": [
+          "roman-numeral-values-7",
+          "roman-numeral-values-8",
+          "roman-numeral-values-9",
+          "roman-numeral-values-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por rango numérico: 1–9 (IV), 10–99 (XL, XC), 100–499 (CC, CCC, CD) y 500 o más (D, CM, M, MM).",
+  "sources": [
+    {
+      "title": "Britannica: Roman Numeral",
+      "url": "https://www.britannica.com/topic/Roman-numeral",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.38
+  },
+  "status": "scheduled"
+}

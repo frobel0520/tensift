@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "set-theory-operations-001",
+  "theme": "Set Theory Cardinality",
+  "publishDate": "2027-02-25",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "set-theory-operations-8",
+        "rivalGroupId": "group-3",
+        "risk": "{1, 2} has only 2 elements.",
+        "resolution": "The power set P({1, 2}) = {∅, {1}, {2}, {1, 2}} has 2² = 4 elements (group-4)."
+      },
+      {
+        "itemId": "set-theory-operations-4",
+        "rivalGroupId": "group-2",
+        "risk": "Union symbol ∪ can be visually confused with intersection ∩ ({1, 2} ∩ {2} has 1 element).",
+        "resolution": "Union combines all elements, so {1, 2} ∪ {2} = {1, 2} has cardinality 2 (group-3), not 1 (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

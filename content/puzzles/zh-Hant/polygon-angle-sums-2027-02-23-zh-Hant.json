@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "polygon-angle-sums-2027-02-23-zh-hant",
+  "puzzleFamilyId": "polygon-angle-sums-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-02-23",
+  "timezone": "UTC",
+  "theme": "凸多邊形對角線數",
+  "items": [
+    {
+      "itemId": "polygon-angle-sums-4",
+      "label": "正五邊形"
+    },
+    {
+      "itemId": "polygon-angle-sums-8",
+      "label": "八邊形"
+    },
+    {
+      "itemId": "polygon-angle-sums-1",
+      "label": "三角形"
+    },
+    {
+      "itemId": "polygon-angle-sums-6",
+      "label": "不規則凸五邊形"
+    },
+    {
+      "itemId": "polygon-angle-sums-10",
+      "label": "十邊形"
+    },
+    {
+      "itemId": "polygon-angle-sums-2",
+      "label": "正方形"
+    },
+    {
+      "itemId": "polygon-angle-sums-7",
+      "label": "七邊形"
+    },
+    {
+      "itemId": "polygon-angle-sums-5",
+      "label": "正六邊形"
+    },
+    {
+      "itemId": "polygon-angle-sums-9",
+      "label": "九邊形"
+    },
+    {
+      "itemId": "polygon-angle-sums-3",
+      "label": "菱形"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各凸多邊形的對角線總數區間",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "0 條對角線",
+        "capacity": 1,
+        "itemIds": [
+          "polygon-angle-sums-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "2 條對角線",
+        "capacity": 2,
+        "itemIds": [
+          "polygon-angle-sums-2",
+          "polygon-angle-sums-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "5 條或 9 條對角線",
+        "capacity": 3,
+        "itemIds": [
+          "polygon-angle-sums-4",
+          "polygon-angle-sums-5",
+          "polygon-angle-sums-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "14 條以上對角線",
+        "capacity": 4,
+        "itemIds": [
+          "polygon-angle-sums-7",
+          "polygon-angle-sums-8",
+          "polygon-angle-sums-9",
+          "polygon-angle-sums-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依凸多邊形的對角線總數區間分類：0 條（三角形）、2 條（正方形、菱形）、5 或 9 條（正五邊形、正六邊形、不規則凸五邊形）與 14 條以上（七邊形、八邊形、九邊形、十邊形）。",
+  "sources": [
+    {
+      "title": "Wolfram MathWorld: Polygon Diagonal",
+      "url": "https://mathworld.wolfram.com/PolygonDiagonal.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.54
+  },
+  "status": "scheduled"
+}

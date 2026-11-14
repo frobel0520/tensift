@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "symmetry-transformations-2027-02-28-es-419",
+  "puzzleFamilyId": "symmetry-transformations-001",
+  "locale": "es-419",
+  "publishDate": "2027-02-28",
+  "timezone": "UTC",
+  "theme": "Transformaciones geométricas",
+  "items": [
+    {
+      "itemId": "symmetry-transformations-4",
+      "label": "Reflexión respecto al eje x"
+    },
+    {
+      "itemId": "symmetry-transformations-8",
+      "label": "Rotación de 90°"
+    },
+    {
+      "itemId": "symmetry-transformations-1",
+      "label": "Proyección en perspectiva"
+    },
+    {
+      "itemId": "symmetry-transformations-6",
+      "label": "Simetría respecto a y = x"
+    },
+    {
+      "itemId": "symmetry-transformations-10",
+      "label": "Transformación identidad"
+    },
+    {
+      "itemId": "symmetry-transformations-2",
+      "label": "Homotecia uniforme (×2)"
+    },
+    {
+      "itemId": "symmetry-transformations-7",
+      "label": "Traslación paralela"
+    },
+    {
+      "itemId": "symmetry-transformations-5",
+      "label": "Reflexión con deslizamiento"
+    },
+    {
+      "itemId": "symmetry-transformations-9",
+      "label": "Giro de 180°"
+    },
+    {
+      "itemId": "symmetry-transformations-3",
+      "label": "Estiramiento horizontal"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Propiedad invariante de cada transformación geométrica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Proyectiva (no afín)",
+        "capacity": 1,
+        "itemIds": [
+          "symmetry-transformations-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Transformaciones de escala",
+        "capacity": 2,
+        "itemIds": [
+          "symmetry-transformations-2",
+          "symmetry-transformations-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Isometrías inversas",
+        "capacity": 3,
+        "itemIds": [
+          "symmetry-transformations-4",
+          "symmetry-transformations-5",
+          "symmetry-transformations-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Movimientos rígidos directos",
+        "capacity": 4,
+        "itemIds": [
+          "symmetry-transformations-7",
+          "symmetry-transformations-8",
+          "symmetry-transformations-9",
+          "symmetry-transformations-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por invariante geométrico: proyección perspectiva, transformaciones de escala (homotecia uniforme, estiramiento horizontal), isometrías inversas (reflexión axial, reflexión con deslizamiento, simetría respecto a y=x) e isometrías directas (traslación, rotación de 90°, giro de 180°, identidad).",
+  "sources": [
+    {
+      "title": "Britannica: Geometric Transformation",
+      "url": "https://www.britannica.com/science/transformation-mathematics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

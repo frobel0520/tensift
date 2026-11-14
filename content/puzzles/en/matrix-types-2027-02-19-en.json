@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "matrix-types-2027-02-19-en",
+  "puzzleFamilyId": "matrix-types-001",
+  "locale": "en",
+  "publishDate": "2027-02-19",
+  "timezone": "UTC",
+  "theme": "Linear Algebra Matrices",
+  "items": [
+    {
+      "itemId": "matrix-types-4",
+      "label": "Upper triangular matrix"
+    },
+    {
+      "itemId": "matrix-types-8",
+      "label": "Skew-symmetric (Aᵀ = -A)"
+    },
+    {
+      "itemId": "matrix-types-1",
+      "label": "Zero matrix (all 0s)"
+    },
+    {
+      "itemId": "matrix-types-6",
+      "label": "Strictly upper triangular"
+    },
+    {
+      "itemId": "matrix-types-10",
+      "label": "Hermitian (H* = H)"
+    },
+    {
+      "itemId": "matrix-types-2",
+      "label": "Identity matrix I"
+    },
+    {
+      "itemId": "matrix-types-7",
+      "label": "Symmetric (Aᵀ = A)"
+    },
+    {
+      "itemId": "matrix-types-5",
+      "label": "Lower triangular matrix"
+    },
+    {
+      "itemId": "matrix-types-9",
+      "label": "Orthogonal (QᵀQ = I)"
+    },
+    {
+      "itemId": "matrix-types-3",
+      "label": "Diagonal matrix"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Defining structural or algebraic property of each matrix",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Zero matrix",
+        "capacity": 1,
+        "itemIds": [
+          "matrix-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Diagonal matrices",
+        "capacity": 2,
+        "itemIds": [
+          "matrix-types-2",
+          "matrix-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Triangular matrices",
+        "capacity": 3,
+        "itemIds": [
+          "matrix-types-4",
+          "matrix-types-5",
+          "matrix-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Transpose/adjoint-defined",
+        "capacity": 4,
+        "itemIds": [
+          "matrix-types-7",
+          "matrix-types-8",
+          "matrix-types-9",
+          "matrix-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by matrix property: zero/null matrix, diagonal matrices (Identity I, Diagonal matrix), triangular matrices (Upper triangular, Lower triangular, Strictly upper triangular), and transpose/adjoint classes (Symmetric, Skew-symmetric, Orthogonal, Hermitian).",
+  "sources": [
+    {
+      "title": "Wolfram MathWorld: Matrix",
+      "url": "https://mathworld.wolfram.com/Matrix.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "logical-connectives-2027-02-18-en",
+  "puzzleFamilyId": "logical-connectives-001",
+  "locale": "en",
+  "publishDate": "2027-02-18",
+  "timezone": "UTC",
+  "theme": "Propositional Logic",
+  "items": [
+    {
+      "itemId": "logical-connectives-4",
+      "label": "P ∧ Q (AND)"
+    },
+    {
+      "itemId": "logical-connectives-8",
+      "label": "Modus tollens"
+    },
+    {
+      "itemId": "logical-connectives-1",
+      "label": "¬P (NOT)"
+    },
+    {
+      "itemId": "logical-connectives-6",
+      "label": "P → Q (Implies)"
+    },
+    {
+      "itemId": "logical-connectives-10",
+      "label": "Law of excluded middle"
+    },
+    {
+      "itemId": "logical-connectives-2",
+      "label": "∀x (Universal)"
+    },
+    {
+      "itemId": "logical-connectives-7",
+      "label": "Modus ponens"
+    },
+    {
+      "itemId": "logical-connectives-5",
+      "label": "P ∨ Q (OR)"
+    },
+    {
+      "itemId": "logical-connectives-9",
+      "label": "De Morgan’s laws"
+    },
+    {
+      "itemId": "logical-connectives-3",
+      "label": "∃x (Existential)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Logical operation or property of each operator or inference rule",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Unary negation",
+        "capacity": 1,
+        "itemIds": [
+          "logical-connectives-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Predicate quantifiers",
+        "capacity": 2,
+        "itemIds": [
+          "logical-connectives-2",
+          "logical-connectives-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Binary connectives",
+        "capacity": 3,
+        "itemIds": [
+          "logical-connectives-4",
+          "logical-connectives-5",
+          "logical-connectives-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Inference rules & laws",
+        "capacity": 4,
+        "itemIds": [
+          "logical-connectives-7",
+          "logical-connectives-8",
+          "logical-connectives-9",
+          "logical-connectives-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by logic category: unary negation (¬P), quantifiers (∀x, ∃x), binary connectives (P ∧ Q, P ∨ Q, P → Q), and classical inference rules or laws (Modus ponens, Modus tollens, De Morgan’s laws, Law of excluded middle).",
+  "sources": [
+    {
+      "title": "Stanford Encyclopedia of Philosophy: Classical Logic",
+      "url": "https://plato.stanford.edu/entries/logic-classical/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

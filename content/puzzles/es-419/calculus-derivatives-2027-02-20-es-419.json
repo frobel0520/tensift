@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "calculus-derivatives-2027-02-20-es-419",
+  "puzzleFamilyId": "calculus-derivatives-001",
+  "locale": "es-419",
+  "publishDate": "2027-02-20",
+  "timezone": "UTC",
+  "theme": "Reglas de cálculo",
+  "items": [
+    {
+      "itemId": "calculus-derivatives-4",
+      "label": "Teorema del Valor Medio"
+    },
+    {
+      "itemId": "calculus-derivatives-8",
+      "label": "Regla del producto"
+    },
+    {
+      "itemId": "calculus-derivatives-1",
+      "label": "Regla de L’Hôpital"
+    },
+    {
+      "itemId": "calculus-derivatives-6",
+      "label": "Teorema Fundamental del Cálculo"
+    },
+    {
+      "itemId": "calculus-derivatives-10",
+      "label": "Regla de la cadena"
+    },
+    {
+      "itemId": "calculus-derivatives-2",
+      "label": "Sustitución en integrales"
+    },
+    {
+      "itemId": "calculus-derivatives-7",
+      "label": "Regla de la potencia"
+    },
+    {
+      "itemId": "calculus-derivatives-5",
+      "label": "Teorema del Valor Intermedio"
+    },
+    {
+      "itemId": "calculus-derivatives-9",
+      "label": "Regla del cociente"
+    },
+    {
+      "itemId": "calculus-derivatives-3",
+      "label": "Integración por partes"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Rol en el cálculo diferencial e integral",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Límites indeterminados",
+        "capacity": 1,
+        "itemIds": [
+          "calculus-derivatives-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Técnicas de integración",
+        "capacity": 2,
+        "itemIds": [
+          "calculus-derivatives-2",
+          "calculus-derivatives-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Teoremas fundamentales",
+        "capacity": 3,
+        "itemIds": [
+          "calculus-derivatives-4",
+          "calculus-derivatives-5",
+          "calculus-derivatives-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Reglas de derivación",
+        "capacity": 4,
+        "itemIds": [
+          "calculus-derivatives-7",
+          "calculus-derivatives-8",
+          "calculus-derivatives-9",
+          "calculus-derivatives-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por rol en cálculo: límites (regla de L’Hôpital), técnicas de integración (sustitución, integración por partes), teoremas fundamentales (Valor Medio, Valor Intermedio, Teorema Fundamental del Cálculo) y reglas de derivación (potencia, producto, cociente, cadena).",
+  "sources": [
+    {
+      "title": "MIT OpenCourseWare: Single Variable Calculus",
+      "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

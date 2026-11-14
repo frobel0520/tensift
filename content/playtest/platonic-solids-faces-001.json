@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "platonic-solids-faces-001",
+  "theme": "Polyhedra Face Counts",
+  "publishDate": "2027-02-11",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "platonic-solids-faces-3",
+        "rivalGroupId": "group-1",
+        "risk": "Pyramids often evoke the 4-faced tetrahedron.",
+        "resolution": "A pentagonal pyramid has 1 pentagon base + 5 triangles = 6 faces (group-2)."
+      },
+      {
+        "itemId": "platonic-solids-faces-5",
+        "rivalGroupId": "group-2",
+        "risk": "Hexagonal has \"hex-\" meaning six.",
+        "resolution": "A hexagonal prism has 2 hexagonal bases + 6 rectangular sides = 8 faces (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

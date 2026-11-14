@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "logarithms-exponents-001",
+  "theme": "Logarithms & Powers",
+  "publishDate": "2027-03-01",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "logarithms-exponents-3",
+        "rivalGroupId": "group-1",
+        "risk": "5⁰ has a zero in the exponent.",
+        "resolution": "Any nonzero number to the 0th power equals 1 (group-2), whereas log₁₀(1) = 0 (group-1)."
+      },
+      {
+        "itemId": "logarithms-exponents-1",
+        "rivalGroupId": "group-2",
+        "risk": "log₁₀(1) has 1 as its argument.",
+        "resolution": "10⁰ = 1, so log₁₀(1) = 0 (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

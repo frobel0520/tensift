@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "polygon-angle-sums-2027-02-23-en",
+  "puzzleFamilyId": "polygon-angle-sums-001",
+  "locale": "en",
+  "publishDate": "2027-02-23",
+  "timezone": "UTC",
+  "theme": "Polygon Diagonals",
+  "items": [
+    {
+      "itemId": "polygon-angle-sums-4",
+      "label": "Regular pentagon"
+    },
+    {
+      "itemId": "polygon-angle-sums-8",
+      "label": "Octagon"
+    },
+    {
+      "itemId": "polygon-angle-sums-1",
+      "label": "Triangle"
+    },
+    {
+      "itemId": "polygon-angle-sums-6",
+      "label": "Irregular convex pentagon"
+    },
+    {
+      "itemId": "polygon-angle-sums-10",
+      "label": "Decagon"
+    },
+    {
+      "itemId": "polygon-angle-sums-2",
+      "label": "Square"
+    },
+    {
+      "itemId": "polygon-angle-sums-7",
+      "label": "Heptagon"
+    },
+    {
+      "itemId": "polygon-angle-sums-5",
+      "label": "Regular hexagon"
+    },
+    {
+      "itemId": "polygon-angle-sums-9",
+      "label": "Nonagon"
+    },
+    {
+      "itemId": "polygon-angle-sums-3",
+      "label": "Rhombus"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Total number of diagonals n(n-3)/2 of each convex polygon",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "0 diagonals",
+        "capacity": 1,
+        "itemIds": [
+          "polygon-angle-sums-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "2 diagonals",
+        "capacity": 2,
+        "itemIds": [
+          "polygon-angle-sums-2",
+          "polygon-angle-sums-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "5 or 9 diagonals",
+        "capacity": 3,
+        "itemIds": [
+          "polygon-angle-sums-4",
+          "polygon-angle-sums-5",
+          "polygon-angle-sums-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "14 or more diagonals",
+        "capacity": 4,
+        "itemIds": [
+          "polygon-angle-sums-7",
+          "polygon-angle-sums-8",
+          "polygon-angle-sums-9",
+          "polygon-angle-sums-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by diagonal count: 0 diagonals (triangle), 2 diagonals (square, rhombus), 5 or 9 diagonals (regular pentagon, regular hexagon, irregular convex pentagon), and 14 or more diagonals (heptagon, octagon, nonagon, decagon).",
+  "sources": [
+    {
+      "title": "Wolfram MathWorld: Polygon Diagonal",
+      "url": "https://mathworld.wolfram.com/PolygonDiagonal.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.54
+  },
+  "status": "scheduled"
+}

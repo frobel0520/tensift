@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "prime-classifications-2027-02-14-es-419",
+  "puzzleFamilyId": "prime-classifications-001",
+  "locale": "es-419",
+  "publishDate": "2027-02-14",
+  "timezone": "UTC",
+  "theme": "Factores primos con multiplicidad",
+  "items": [
+    {
+      "itemId": "prime-classifications-4",
+      "label": "12"
+    },
+    {
+      "itemId": "prime-classifications-8",
+      "label": "24"
+    },
+    {
+      "itemId": "prime-classifications-1",
+      "label": "17"
+    },
+    {
+      "itemId": "prime-classifications-6",
+      "label": "30"
+    },
+    {
+      "itemId": "prime-classifications-10",
+      "label": "40"
+    },
+    {
+      "itemId": "prime-classifications-2",
+      "label": "15"
+    },
+    {
+      "itemId": "prime-classifications-7",
+      "label": "16"
+    },
+    {
+      "itemId": "prime-classifications-5",
+      "label": "18"
+    },
+    {
+      "itemId": "prime-classifications-9",
+      "label": "36"
+    },
+    {
+      "itemId": "prime-classifications-3",
+      "label": "21"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cantidad de factores primos con multiplicidad Ω(n)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "1 factor primo (primo)",
+        "capacity": 1,
+        "itemIds": [
+          "prime-classifications-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "2 factores primos",
+        "capacity": 2,
+        "itemIds": [
+          "prime-classifications-2",
+          "prime-classifications-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "3 factores primos",
+        "capacity": 3,
+        "itemIds": [
+          "prime-classifications-4",
+          "prime-classifications-5",
+          "prime-classifications-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "4 factores primos",
+        "capacity": 4,
+        "itemIds": [
+          "prime-classifications-7",
+          "prime-classifications-8",
+          "prime-classifications-9",
+          "prime-classifications-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por cantidad total de factores primos con multiplicidad Ω(n): 1 (17), 2 (15, 21), 3 (12, 18, 30) y 4 (16, 24, 36, 40).",
+  "sources": [
+    {
+      "title": "Wolfram MathWorld: Prime Factorization",
+      "url": "https://mathworld.wolfram.com/PrimeFactorization.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.72
+  },
+  "status": "scheduled"
+}

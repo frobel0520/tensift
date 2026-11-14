@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "matrix-types-001",
+  "theme": "Linear Algebra Matrices",
+  "publishDate": "2027-02-19",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "matrix-types-2",
+        "rivalGroupId": "group-4",
+        "risk": "The identity matrix is symmetric and orthogonal.",
+        "resolution": "Identity I is a special diagonal matrix (group-2), whereas group-4 holds general transpose/adjoint classes."
+      },
+      {
+        "itemId": "matrix-types-1",
+        "rivalGroupId": "group-2",
+        "risk": "The zero matrix has zeros off the diagonal.",
+        "resolution": "The zero matrix is uniquely defined by having every entry equal to 0 (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

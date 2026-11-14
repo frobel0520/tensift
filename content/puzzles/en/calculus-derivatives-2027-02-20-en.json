@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "calculus-derivatives-2027-02-20-en",
+  "puzzleFamilyId": "calculus-derivatives-001",
+  "locale": "en",
+  "publishDate": "2027-02-20",
+  "timezone": "UTC",
+  "theme": "Calculus Rules",
+  "items": [
+    {
+      "itemId": "calculus-derivatives-4",
+      "label": "Mean Value Theorem"
+    },
+    {
+      "itemId": "calculus-derivatives-8",
+      "label": "Product rule"
+    },
+    {
+      "itemId": "calculus-derivatives-1",
+      "label": "L’Hôpital’s rule"
+    },
+    {
+      "itemId": "calculus-derivatives-6",
+      "label": "Fundamental Theorem of Calculus"
+    },
+    {
+      "itemId": "calculus-derivatives-10",
+      "label": "Chain rule"
+    },
+    {
+      "itemId": "calculus-derivatives-2",
+      "label": "u-substitution"
+    },
+    {
+      "itemId": "calculus-derivatives-7",
+      "label": "Power rule"
+    },
+    {
+      "itemId": "calculus-derivatives-5",
+      "label": "Intermediate Value Theorem"
+    },
+    {
+      "itemId": "calculus-derivatives-9",
+      "label": "Quotient rule"
+    },
+    {
+      "itemId": "calculus-derivatives-3",
+      "label": "Integration by parts"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Role in differential and integral calculus",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Indeterminate limits",
+        "capacity": 1,
+        "itemIds": [
+          "calculus-derivatives-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Integration techniques",
+        "capacity": 2,
+        "itemIds": [
+          "calculus-derivatives-2",
+          "calculus-derivatives-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Core calculus theorems",
+        "capacity": 3,
+        "itemIds": [
+          "calculus-derivatives-4",
+          "calculus-derivatives-5",
+          "calculus-derivatives-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Differentiation rules",
+        "capacity": 4,
+        "itemIds": [
+          "calculus-derivatives-7",
+          "calculus-derivatives-8",
+          "calculus-derivatives-9",
+          "calculus-derivatives-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by calculus role: limit evaluation (L’Hôpital’s rule), integration methods (substitution, integration by parts), core theorems (Mean Value Theorem, Intermediate Value Theorem, Fundamental Theorem of Calculus), and differentiation rules (Power, Product, Quotient, Chain rules).",
+  "sources": [
+    {
+      "title": "MIT OpenCourseWare: Single Variable Calculus",
+      "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

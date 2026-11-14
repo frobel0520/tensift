@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "graph-theory-terms-001",
+  "theme": "Graph Theory",
+  "publishDate": "2027-02-21",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "graph-theory-terms-2",
+        "rivalGroupId": "group-4",
+        "risk": "A spanning tree is a type of graph.",
+        "resolution": "Spanning tree and DAG are specifically acyclic structures (group-2), separated from general graph classes (group-4)."
+      },
+      {
+        "itemId": "graph-theory-terms-1",
+        "rivalGroupId": "group-3",
+        "risk": "Algorithms often read adjacency matrices.",
+        "resolution": "An adjacency matrix is a static data representation (group-1), not an algorithm (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

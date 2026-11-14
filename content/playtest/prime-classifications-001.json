@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "prime-classifications-001",
+  "theme": "Prime Factor Counts",
+  "publishDate": "2027-02-14",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "prime-classifications-7",
+        "rivalGroupId": "group-1",
+        "risk": "16 has only one distinct prime factor (2).",
+        "resolution": "Counting with multiplicity, 16 = 2×2×2×2 has 4 prime factors (group-4)."
+      },
+      {
+        "itemId": "prime-classifications-4",
+        "rivalGroupId": "group-2",
+        "risk": "12 has two distinct prime factors (2 and 3).",
+        "resolution": "12 = 2×2×3 has 3 prime factors counted with multiplicity (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

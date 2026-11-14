@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "coordinate-quadrants-2027-03-03-en",
+  "puzzleFamilyId": "coordinate-quadrants-001",
+  "locale": "en",
+  "publishDate": "2027-03-03",
+  "timezone": "UTC",
+  "theme": "Cartesian Plane",
+  "items": [
+    {
+      "itemId": "coordinate-quadrants-4",
+      "label": "(-1, -1)"
+    },
+    {
+      "itemId": "coordinate-quadrants-8",
+      "label": "(3, 8)"
+    },
+    {
+      "itemId": "coordinate-quadrants-1",
+      "label": "(0, 0)"
+    },
+    {
+      "itemId": "coordinate-quadrants-6",
+      "label": "(-6, -3)"
+    },
+    {
+      "itemId": "coordinate-quadrants-10",
+      "label": "(9, 4)"
+    },
+    {
+      "itemId": "coordinate-quadrants-2",
+      "label": "(-2, 5)"
+    },
+    {
+      "itemId": "coordinate-quadrants-7",
+      "label": "(1, 1)"
+    },
+    {
+      "itemId": "coordinate-quadrants-5",
+      "label": "(-4, -9)"
+    },
+    {
+      "itemId": "coordinate-quadrants-9",
+      "label": "(5, 2)"
+    },
+    {
+      "itemId": "coordinate-quadrants-3",
+      "label": "(-7, 1)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Location of each (x, y) point: Origin, Quadrant II, Quadrant III, or Quadrant I",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Origin (0, 0)",
+        "capacity": 1,
+        "itemIds": [
+          "coordinate-quadrants-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Quadrant II (-, +)",
+        "capacity": 2,
+        "itemIds": [
+          "coordinate-quadrants-2",
+          "coordinate-quadrants-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Quadrant III (-, -)",
+        "capacity": 3,
+        "itemIds": [
+          "coordinate-quadrants-4",
+          "coordinate-quadrants-5",
+          "coordinate-quadrants-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Quadrant I (+, +)",
+        "capacity": 4,
+        "itemIds": [
+          "coordinate-quadrants-7",
+          "coordinate-quadrants-8",
+          "coordinate-quadrants-9",
+          "coordinate-quadrants-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by Cartesian location: Origin (0, 0), Quadrant II (-, +), Quadrant III (-, -), and Quadrant I (+, +).",
+  "sources": [
+    {
+      "title": "Britannica: Cartesian Coordinates",
+      "url": "https://www.britannica.com/science/Cartesian-coordinates",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

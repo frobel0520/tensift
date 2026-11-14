@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "roman-numeral-values-001",
+  "theme": "Roman Numeral Values",
+  "publishDate": "2027-02-27",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "roman-numeral-values-6",
+        "rivalGroupId": "group-4",
+        "risk": "CD uses D (500).",
+        "resolution": "CD = 500 − 100 = 400, which is in 100–499 (group-3)."
+      },
+      {
+        "itemId": "roman-numeral-values-3",
+        "rivalGroupId": "group-3",
+        "risk": "XC uses C (100).",
+        "resolution": "XC = 100 − 10 = 90, which is in 10–99 (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

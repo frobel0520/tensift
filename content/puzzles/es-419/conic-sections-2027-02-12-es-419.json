@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "conic-sections-2027-02-12-es-419",
+  "puzzleFamilyId": "conic-sections-001",
+  "locale": "es-419",
+  "publishDate": "2027-02-12",
+  "timezone": "UTC",
+  "theme": "Secciones cónicas",
+  "items": [
+    {
+      "itemId": "conic-sections-4",
+      "label": "x²/9 + y²/4 = 1"
+    },
+    {
+      "itemId": "conic-sections-8",
+      "label": "xy = 1"
+    },
+    {
+      "itemId": "conic-sections-1",
+      "label": "x² + y² = 1"
+    },
+    {
+      "itemId": "conic-sections-6",
+      "label": "Órbita del cometa Halley"
+    },
+    {
+      "itemId": "conic-sections-10",
+      "label": "Perfil de torre de enfriamiento"
+    },
+    {
+      "itemId": "conic-sections-2",
+      "label": "y = x²"
+    },
+    {
+      "itemId": "conic-sections-7",
+      "label": "x² - y² = 1"
+    },
+    {
+      "itemId": "conic-sections-5",
+      "label": "Órbita de la Tierra"
+    },
+    {
+      "itemId": "conic-sections-9",
+      "label": "Trayectoria interestelar abierta"
+    },
+    {
+      "itemId": "conic-sections-3",
+      "label": "Reflector parabólico"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase de excentricidad de cada cónica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Círculo (e = 0)",
+        "capacity": 1,
+        "itemIds": [
+          "conic-sections-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Parábola (e = 1)",
+        "capacity": 2,
+        "itemIds": [
+          "conic-sections-2",
+          "conic-sections-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Elipse (0 < e < 1)",
+        "capacity": 3,
+        "itemIds": [
+          "conic-sections-4",
+          "conic-sections-5",
+          "conic-sections-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Hipérbola (e > 1)",
+        "capacity": 4,
+        "itemIds": [
+          "conic-sections-7",
+          "conic-sections-8",
+          "conic-sections-9",
+          "conic-sections-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por excentricidad e: círculo (e = 0), parábola (e = 1), elipses (0 < e < 1) e hipérbolas (e > 1).",
+  "sources": [
+    {
+      "title": "Britannica: Conic Section",
+      "url": "https://www.britannica.com/science/conic-section",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

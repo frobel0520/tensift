@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fractions-decimals-2027-03-02-en",
+  "puzzleFamilyId": "fractions-decimals-001",
+  "locale": "en",
+  "publishDate": "2027-03-02",
+  "timezone": "UTC",
+  "theme": "Equivalent Fractions",
+  "items": [
+    {
+      "itemId": "fractions-decimals-4",
+      "label": "50%"
+    },
+    {
+      "itemId": "fractions-decimals-8",
+      "label": "6/8"
+    },
+    {
+      "itemId": "fractions-decimals-1",
+      "label": "12.5%"
+    },
+    {
+      "itemId": "fractions-decimals-6",
+      "label": "4/8"
+    },
+    {
+      "itemId": "fractions-decimals-10",
+      "label": "0.75"
+    },
+    {
+      "itemId": "fractions-decimals-2",
+      "label": "25%"
+    },
+    {
+      "itemId": "fractions-decimals-7",
+      "label": "75%"
+    },
+    {
+      "itemId": "fractions-decimals-5",
+      "label": "3/6"
+    },
+    {
+      "itemId": "fractions-decimals-9",
+      "label": "9/12"
+    },
+    {
+      "itemId": "fractions-decimals-3",
+      "label": "2/8"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Exact rational value (1/8, 1/4, 1/2, or 3/4) of each expression",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Equals 1/8 (0.125)",
+        "capacity": 1,
+        "itemIds": [
+          "fractions-decimals-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Equals 1/4 (0.25)",
+        "capacity": 2,
+        "itemIds": [
+          "fractions-decimals-2",
+          "fractions-decimals-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Equals 1/2 (0.5)",
+        "capacity": 3,
+        "itemIds": [
+          "fractions-decimals-4",
+          "fractions-decimals-5",
+          "fractions-decimals-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Equals 3/4 (0.75)",
+        "capacity": 4,
+        "itemIds": [
+          "fractions-decimals-7",
+          "fractions-decimals-8",
+          "fractions-decimals-9",
+          "fractions-decimals-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by exact rational value: 0.125 (12.5%), 0.25 (25%, 2/8), 0.5 (50%, 3/6, 4/8), and 0.75 (75%, 6/8, 9/12, 0.75).",
+  "sources": [
+    {
+      "title": "NIST: Rational Numbers & Percentages",
+      "url": "https://www.nist.gov/pml/owm/metric-si/unit-conversion",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

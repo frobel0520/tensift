@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "calculus-derivatives-001",
+  "theme": "Calculus Rules",
+  "publishDate": "2027-02-20",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "calculus-derivatives-1",
+        "rivalGroupId": "group-4",
+        "risk": "L’Hôpital’s rule differentiates numerator and denominator.",
+        "resolution": "L’Hôpital’s rule is a limit evaluation technique (group-1), not a general derivative formula (group-4)."
+      },
+      {
+        "itemId": "calculus-derivatives-3",
+        "rivalGroupId": "group-4",
+        "risk": "Integration by parts is the integral counterpart of the product rule.",
+        "resolution": "Integration by parts is an integration technique (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "statistics-averages-001",
+  "theme": "Descriptive Statistics",
+  "publishDate": "2027-02-22",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "statistics-averages-6",
+        "rivalGroupId": "group-2",
+        "risk": "Interquartile range is computed from Q3 and Q1.",
+        "resolution": "IQR = Q3 − Q1 measures spread/dispersion (group-3), whereas Q1 itself is a quantile position (group-2)."
+      },
+      {
+        "itemId": "statistics-averages-8",
+        "rivalGroupId": "group-2",
+        "risk": "The median equals the 50th percentile (Q2).",
+        "resolution": "The median is primarily one of the classic measures of central tendency (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

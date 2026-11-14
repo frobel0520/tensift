@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "symmetry-transformations-2027-02-28-en",
+  "puzzleFamilyId": "symmetry-transformations-001",
+  "locale": "en",
+  "publishDate": "2027-02-28",
+  "timezone": "UTC",
+  "theme": "Geometric Transformations",
+  "items": [
+    {
+      "itemId": "symmetry-transformations-4",
+      "label": "Reflection across x-axis"
+    },
+    {
+      "itemId": "symmetry-transformations-8",
+      "label": "90° rotation"
+    },
+    {
+      "itemId": "symmetry-transformations-1",
+      "label": "Perspective projection"
+    },
+    {
+      "itemId": "symmetry-transformations-6",
+      "label": "Mirror across y = x"
+    },
+    {
+      "itemId": "symmetry-transformations-10",
+      "label": "Identity map"
+    },
+    {
+      "itemId": "symmetry-transformations-2",
+      "label": "Uniform dilation (×2)"
+    },
+    {
+      "itemId": "symmetry-transformations-7",
+      "label": "Parallel translation"
+    },
+    {
+      "itemId": "symmetry-transformations-5",
+      "label": "Glide reflection"
+    },
+    {
+      "itemId": "symmetry-transformations-9",
+      "label": "180° half-turn"
+    },
+    {
+      "itemId": "symmetry-transformations-3",
+      "label": "Horizontal stretch"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Whether the transformation preserves size/shape or alters scale/orientation",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Projective (non-affine)",
+        "capacity": 1,
+        "itemIds": [
+          "symmetry-transformations-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Scaling transformations",
+        "capacity": 2,
+        "itemIds": [
+          "symmetry-transformations-2",
+          "symmetry-transformations-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Orientation-reversing isometries",
+        "capacity": 3,
+        "itemIds": [
+          "symmetry-transformations-4",
+          "symmetry-transformations-5",
+          "symmetry-transformations-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Direct rigid motions",
+        "capacity": 4,
+        "itemIds": [
+          "symmetry-transformations-7",
+          "symmetry-transformations-8",
+          "symmetry-transformations-9",
+          "symmetry-transformations-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by transformation property: non-affine projective warp (perspective projection), scaling (uniform dilation, horizontal stretch), orientation-reversing isometries (reflection, glide reflection, mirror across y=x), and direct rigid motions (translation, 90° rotation, 180° half-turn, identity).",
+  "sources": [
+    {
+      "title": "Britannica: Geometric Transformation",
+      "url": "https://www.britannica.com/science/transformation-mathematics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.66
+  },
+  "status": "scheduled"
+}

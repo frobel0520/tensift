@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "base-conversions-2027-02-15-zh-hant",
+  "puzzleFamilyId": "base-conversions-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-02-15",
+  "timezone": "UTC",
+  "theme": "進位制數值等價",
+  "items": [
+    {
+      "itemId": "base-conversions-4",
+      "label": "0xF"
+    },
+    {
+      "itemId": "base-conversions-8",
+      "label": "0b10000"
+    },
+    {
+      "itemId": "base-conversions-1",
+      "label": "0b111"
+    },
+    {
+      "itemId": "base-conversions-6",
+      "label": "0o17"
+    },
+    {
+      "itemId": "base-conversions-10",
+      "label": "4²"
+    },
+    {
+      "itemId": "base-conversions-2",
+      "label": "0xA"
+    },
+    {
+      "itemId": "base-conversions-7",
+      "label": "0x10"
+    },
+    {
+      "itemId": "base-conversions-5",
+      "label": "0b1111"
+    },
+    {
+      "itemId": "base-conversions-9",
+      "label": "0o20"
+    },
+    {
+      "itemId": "base-conversions-3",
+      "label": "0o12"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各進位制表示法所代表的十進位數值",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "等於十進位 7",
+        "capacity": 1,
+        "itemIds": [
+          "base-conversions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "等於十進位 10",
+        "capacity": 2,
+        "itemIds": [
+          "base-conversions-2",
+          "base-conversions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "等於十進位 15",
+        "capacity": 3,
+        "itemIds": [
+          "base-conversions-4",
+          "base-conversions-5",
+          "base-conversions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "等於十進位 16",
+        "capacity": 4,
+        "itemIds": [
+          "base-conversions-7",
+          "base-conversions-8",
+          "base-conversions-9",
+          "base-conversions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依各表示法換算後的十進位數值分類：7（0b111）、10（0xA、0o12）、15（0xF、0b1111、0o17）與 16（0x10、0b10000、0o20、4²）。",
+  "sources": [
+    {
+      "title": "NIST: Binary and Hexadecimal",
+      "url": "https://www.nist.gov/pml/owm/metric-si/si-prefixes",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

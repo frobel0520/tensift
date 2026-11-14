@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "calculus-derivatives-2027-02-20-zh-hant",
+  "puzzleFamilyId": "calculus-derivatives-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-02-20",
+  "timezone": "UTC",
+  "theme": "微積分基本法則",
+  "items": [
+    {
+      "itemId": "calculus-derivatives-4",
+      "label": "均值定理"
+    },
+    {
+      "itemId": "calculus-derivatives-8",
+      "label": "乘法法則"
+    },
+    {
+      "itemId": "calculus-derivatives-1",
+      "label": "羅必達法則"
+    },
+    {
+      "itemId": "calculus-derivatives-6",
+      "label": "微積分基本定理"
+    },
+    {
+      "itemId": "calculus-derivatives-10",
+      "label": "連鎖律"
+    },
+    {
+      "itemId": "calculus-derivatives-2",
+      "label": "變數代換積分法"
+    },
+    {
+      "itemId": "calculus-derivatives-7",
+      "label": "冪次法則"
+    },
+    {
+      "itemId": "calculus-derivatives-5",
+      "label": "中間值定理"
+    },
+    {
+      "itemId": "calculus-derivatives-9",
+      "label": "除法法則"
+    },
+    {
+      "itemId": "calculus-derivatives-3",
+      "label": "分部積分法"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各法則或定理在微積分中的用途",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "不定型極限求值",
+        "capacity": 1,
+        "itemIds": [
+          "calculus-derivatives-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "積分計算技巧",
+        "capacity": 2,
+        "itemIds": [
+          "calculus-derivatives-2",
+          "calculus-derivatives-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "微積分核心定理",
+        "capacity": 3,
+        "itemIds": [
+          "calculus-derivatives-4",
+          "calculus-derivatives-5",
+          "calculus-derivatives-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "微分求導法則",
+        "capacity": 4,
+        "itemIds": [
+          "calculus-derivatives-7",
+          "calculus-derivatives-8",
+          "calculus-derivatives-9",
+          "calculus-derivatives-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依微積分用途分類：極限求值（羅必達法則）、積分技巧（變數代換法、分部積分法）、核心定理（均值定理、中間值定理、微積分基本定理）與微分求導法則（冪次法則、乘法法則、除法法則、連鎖律）。",
+  "sources": [
+    {
+      "title": "MIT OpenCourseWare: Single Variable Calculus",
+      "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

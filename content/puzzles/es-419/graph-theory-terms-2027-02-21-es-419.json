@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "graph-theory-terms-2027-02-21-es-419",
+  "puzzleFamilyId": "graph-theory-terms-001",
+  "locale": "es-419",
+  "publishDate": "2027-02-21",
+  "timezone": "UTC",
+  "theme": "Teoría de grafos",
+  "items": [
+    {
+      "itemId": "graph-theory-terms-4",
+      "label": "Algoritmo de Dijkstra"
+    },
+    {
+      "itemId": "graph-theory-terms-8",
+      "label": "Grafo bipartito"
+    },
+    {
+      "itemId": "graph-theory-terms-1",
+      "label": "Matriz de adyacencia"
+    },
+    {
+      "itemId": "graph-theory-terms-6",
+      "label": "Búsqueda en profundidad (DFS)"
+    },
+    {
+      "itemId": "graph-theory-terms-10",
+      "label": "Grafo euleriano"
+    },
+    {
+      "itemId": "graph-theory-terms-2",
+      "label": "Árbol de expansión"
+    },
+    {
+      "itemId": "graph-theory-terms-7",
+      "label": "Grafo completo"
+    },
+    {
+      "itemId": "graph-theory-terms-5",
+      "label": "Búsqueda en anchura (BFS)"
+    },
+    {
+      "itemId": "graph-theory-terms-9",
+      "label": "Grafo plano"
+    },
+    {
+      "itemId": "graph-theory-terms-3",
+      "label": "Grafo acíclico dirigido"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría en teoría de grafos",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Representación matricial",
+        "capacity": 1,
+        "itemIds": [
+          "graph-theory-terms-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Estructuras acíclicas",
+        "capacity": 2,
+        "itemIds": [
+          "graph-theory-terms-2",
+          "graph-theory-terms-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Algoritmos de recorrido",
+        "capacity": 3,
+        "itemIds": [
+          "graph-theory-terms-4",
+          "graph-theory-terms-5",
+          "graph-theory-terms-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Clases de grafos",
+        "capacity": 4,
+        "itemIds": [
+          "graph-theory-terms-7",
+          "graph-theory-terms-8",
+          "graph-theory-terms-9",
+          "graph-theory-terms-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por concepto de grafos: representación (matriz de adyacencia), estructuras acíclicas (árbol de expansión, grafo acíclico dirigido), algoritmos de recorrido/camino (Dijkstra, BFS, DFS) y clases de grafos (completo, bipartito, plano, euleriano).",
+  "sources": [
+    {
+      "title": "NIST: Graph Theory Terms",
+      "url": "https://xlinux.nist.gov/dads/HTML/graph.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

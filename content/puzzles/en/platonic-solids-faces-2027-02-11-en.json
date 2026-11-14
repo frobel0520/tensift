@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "platonic-solids-faces-2027-02-11-en",
+  "puzzleFamilyId": "platonic-solids-faces-001",
+  "locale": "en",
+  "publishDate": "2027-02-11",
+  "timezone": "UTC",
+  "theme": "Polyhedra Face Counts",
+  "items": [
+    {
+      "itemId": "platonic-solids-faces-4",
+      "label": "Regular octahedron"
+    },
+    {
+      "itemId": "platonic-solids-faces-8",
+      "label": "Regular icosahedron"
+    },
+    {
+      "itemId": "platonic-solids-faces-1",
+      "label": "Regular tetrahedron"
+    },
+    {
+      "itemId": "platonic-solids-faces-6",
+      "label": "Heptagonal pyramid"
+    },
+    {
+      "itemId": "platonic-solids-faces-10",
+      "label": "Rhombic dodecahedron"
+    },
+    {
+      "itemId": "platonic-solids-faces-2",
+      "label": "Cube (hexahedron)"
+    },
+    {
+      "itemId": "platonic-solids-faces-7",
+      "label": "Regular dodecahedron"
+    },
+    {
+      "itemId": "platonic-solids-faces-5",
+      "label": "Hexagonal prism"
+    },
+    {
+      "itemId": "platonic-solids-faces-9",
+      "label": "Decagonal prism"
+    },
+    {
+      "itemId": "platonic-solids-faces-3",
+      "label": "Pentagonal pyramid"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Exact number of faces on each convex polyhedron",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "4 faces",
+        "capacity": 1,
+        "itemIds": [
+          "platonic-solids-faces-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "6 faces",
+        "capacity": 2,
+        "itemIds": [
+          "platonic-solids-faces-2",
+          "platonic-solids-faces-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "8 faces",
+        "capacity": 3,
+        "itemIds": [
+          "platonic-solids-faces-4",
+          "platonic-solids-faces-5",
+          "platonic-solids-faces-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "12 or more faces",
+        "capacity": 4,
+        "itemIds": [
+          "platonic-solids-faces-7",
+          "platonic-solids-faces-8",
+          "platonic-solids-faces-9",
+          "platonic-solids-faces-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by face count: 4 faces (regular tetrahedron), 6 faces (cube, pentagonal pyramid), 8 faces (regular octahedron, hexagonal prism, heptagonal pyramid), and 12 or more faces (dodecahedron, icosahedron, decagonal prism, rhombic dodecahedron).",
+  "sources": [
+    {
+      "title": "Britannica: Polyhedron",
+      "url": "https://www.britannica.com/science/polyhedron",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.52
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "triangle-classifications-2027-02-16-zh-hant",
+  "puzzleFamilyId": "triangle-classifications-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-02-16",
+  "timezone": "UTC",
+  "theme": "三角形分類",
+  "items": [
+    {
+      "itemId": "triangle-classifications-4",
+      "label": "20°-40°-120°"
+    },
+    {
+      "itemId": "triangle-classifications-8",
+      "label": "40°-70°-70°"
+    },
+    {
+      "itemId": "triangle-classifications-1",
+      "label": "60°-60°-60°"
+    },
+    {
+      "itemId": "triangle-classifications-6",
+      "label": "15°-65°-100°"
+    },
+    {
+      "itemId": "triangle-classifications-10",
+      "label": "45°-65°-70°"
+    },
+    {
+      "itemId": "triangle-classifications-2",
+      "label": "45°-45°-90°"
+    },
+    {
+      "itemId": "triangle-classifications-7",
+      "label": "50°-60°-70°"
+    },
+    {
+      "itemId": "triangle-classifications-5",
+      "label": "30°-30°-120°"
+    },
+    {
+      "itemId": "triangle-classifications-9",
+      "label": "55°-55°-70°"
+    },
+    {
+      "itemId": "triangle-classifications-3",
+      "label": "30°-60°-90°"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "依角度分類的三角形類型",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "等角正三角形（60°-60°-60°）",
+        "capacity": 1,
+        "itemIds": [
+          "triangle-classifications-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "直角三角形（含 90°）",
+        "capacity": 2,
+        "itemIds": [
+          "triangle-classifications-2",
+          "triangle-classifications-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "鈍角三角形（> 90°）",
+        "capacity": 3,
+        "itemIds": [
+          "triangle-classifications-4",
+          "triangle-classifications-5",
+          "triangle-classifications-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "非正三角形之銳角三角形",
+        "capacity": 4,
+        "itemIds": [
+          "triangle-classifications-7",
+          "triangle-classifications-8",
+          "triangle-classifications-9",
+          "triangle-classifications-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依角度三元組分類：等角正三角形（60°-60°-60°）、直角三角形（含 90°）、鈍角三角形（最大角 > 90°）與非正三角形的銳角三角形（三角皆 < 90°）。",
+  "sources": [
+    {
+      "title": "Britannica: Triangle",
+      "url": "https://www.britannica.com/science/triangle-mathematics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.35
+  },
+  "status": "scheduled"
+}

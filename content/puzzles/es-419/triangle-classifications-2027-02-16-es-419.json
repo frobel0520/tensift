@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "triangle-classifications-2027-02-16-es-419",
+  "puzzleFamilyId": "triangle-classifications-001",
+  "locale": "es-419",
+  "publishDate": "2027-02-16",
+  "timezone": "UTC",
+  "theme": "Tipos de triángulos",
+  "items": [
+    {
+      "itemId": "triangle-classifications-4",
+      "label": "20°-40°-120°"
+    },
+    {
+      "itemId": "triangle-classifications-8",
+      "label": "40°-70°-70°"
+    },
+    {
+      "itemId": "triangle-classifications-1",
+      "label": "60°-60°-60°"
+    },
+    {
+      "itemId": "triangle-classifications-6",
+      "label": "15°-65°-100°"
+    },
+    {
+      "itemId": "triangle-classifications-10",
+      "label": "45°-65°-70°"
+    },
+    {
+      "itemId": "triangle-classifications-2",
+      "label": "45°-45°-90°"
+    },
+    {
+      "itemId": "triangle-classifications-7",
+      "label": "50°-60°-70°"
+    },
+    {
+      "itemId": "triangle-classifications-5",
+      "label": "30°-30°-120°"
+    },
+    {
+      "itemId": "triangle-classifications-9",
+      "label": "55°-55°-70°"
+    },
+    {
+      "itemId": "triangle-classifications-3",
+      "label": "30°-60°-90°"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clasificación angular de cada triángulo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Equilátero (60°-60°-60°)",
+        "capacity": 1,
+        "itemIds": [
+          "triangle-classifications-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Triángulos rectángulos (90°)",
+        "capacity": 2,
+        "itemIds": [
+          "triangle-classifications-2",
+          "triangle-classifications-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Triángulos obtusángulos (> 90°)",
+        "capacity": 3,
+        "itemIds": [
+          "triangle-classifications-4",
+          "triangle-classifications-5",
+          "triangle-classifications-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Acutángulos no equiláteros (< 90°)",
+        "capacity": 4,
+        "itemIds": [
+          "triangle-classifications-7",
+          "triangle-classifications-8",
+          "triangle-classifications-9",
+          "triangle-classifications-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por ángulos: equilátero 60°-60°-60° (1), triángulos rectángulos con 90° (2), obtusángulos con un ángulo > 90° (3) y acutángulos no equiláteros (4).",
+  "sources": [
+    {
+      "title": "Britannica: Triangle",
+      "url": "https://www.britannica.com/science/triangle-mathematics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.35
+  },
+  "status": "scheduled"
+}
