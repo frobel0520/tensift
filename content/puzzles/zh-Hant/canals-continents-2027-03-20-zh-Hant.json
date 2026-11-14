@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "canals-continents-2027-03-20-zh-hant",
+  "puzzleFamilyId": "canals-continents-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-20",
+  "timezone": "UTC",
+  "theme": "世界重要運河",
+  "items": [
+    {
+      "itemId": "canals-continents-4",
+      "label": "京杭大運河"
+    },
+    {
+      "itemId": "canals-continents-8",
+      "label": "科林斯運河"
+    },
+    {
+      "itemId": "canals-continents-1",
+      "label": "蘇伊士運河"
+    },
+    {
+      "itemId": "canals-continents-6",
+      "label": "英迪拉·甘地運河"
+    },
+    {
+      "itemId": "canals-continents-10",
+      "label": "曼徹斯特運河"
+    },
+    {
+      "itemId": "canals-continents-2",
+      "label": "巴拿馬運河"
+    },
+    {
+      "itemId": "canals-continents-7",
+      "label": "基爾運河"
+    },
+    {
+      "itemId": "canals-continents-5",
+      "label": "卡拉庫姆運河"
+    },
+    {
+      "itemId": "canals-continents-9",
+      "label": "萊茵—美因—多瑙運河"
+    },
+    {
+      "itemId": "canals-continents-3",
+      "label": "伊利運河"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各主要運河所在的洲別（非洲、美洲、亞洲或歐洲）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "非洲",
+        "capacity": 1,
+        "itemIds": [
+          "canals-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "美洲",
+        "capacity": 2,
+        "itemIds": [
+          "canals-continents-2",
+          "canals-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "亞洲",
+        "capacity": 3,
+        "itemIds": [
+          "canals-continents-4",
+          "canals-continents-5",
+          "canals-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "歐洲",
+        "capacity": 4,
+        "itemIds": [
+          "canals-continents-7",
+          "canals-continents-8",
+          "canals-continents-9",
+          "canals-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依所屬大洲分類：非洲（蘇伊士運河）、美洲（巴拿馬運河、伊利運河）、亞洲（京杭大運河、卡拉庫姆運河、英迪拉·甘地運河）與歐洲（基爾運河、科林斯運河、萊茵—美因—多瑙運河、曼徹斯特運河）。",
+  "sources": [
+    {
+      "title": "Britannica: Canal Engineering",
+      "url": "https://www.britannica.com/technology/canal-waterway",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

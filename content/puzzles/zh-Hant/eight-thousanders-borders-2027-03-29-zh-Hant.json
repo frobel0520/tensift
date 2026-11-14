@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "eight-thousanders-borders-2027-03-29-zh-hant",
+  "puzzleFamilyId": "eight-thousanders-borders-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-29",
+  "timezone": "UTC",
+  "theme": "八千公尺巨峰所屬國界",
+  "items": [
+    {
+      "itemId": "eight-thousanders-borders-4",
+      "label": "安納布爾納一峰"
+    },
+    {
+      "itemId": "eight-thousanders-borders-8",
+      "label": "洛子峰"
+    },
+    {
+      "itemId": "eight-thousanders-borders-1",
+      "label": "希夏邦馬峰"
+    },
+    {
+      "itemId": "eight-thousanders-borders-6",
+      "label": "道拉吉里一峰"
+    },
+    {
+      "itemId": "eight-thousanders-borders-10",
+      "label": "卓奧友峰"
+    },
+    {
+      "itemId": "eight-thousanders-borders-2",
+      "label": "K2（喬戈里峰）"
+    },
+    {
+      "itemId": "eight-thousanders-borders-7",
+      "label": "聖母峰"
+    },
+    {
+      "itemId": "eight-thousanders-borders-5",
+      "label": "馬納斯盧峰"
+    },
+    {
+      "itemId": "eight-thousanders-borders-9",
+      "label": "馬卡魯峰"
+    },
+    {
+      "itemId": "eight-thousanders-borders-3",
+      "label": "布洛阿特峰"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各座八千公尺以上高峰所在的國家或雙邊國界",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "僅在中國境內",
+        "capacity": 1,
+        "itemIds": [
+          "eight-thousanders-borders-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "巴基斯坦—中國國界",
+        "capacity": 2,
+        "itemIds": [
+          "eight-thousanders-borders-2",
+          "eight-thousanders-borders-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "僅在尼泊爾境內",
+        "capacity": 3,
+        "itemIds": [
+          "eight-thousanders-borders-4",
+          "eight-thousanders-borders-5",
+          "eight-thousanders-borders-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "尼泊爾—中國國界",
+        "capacity": 4,
+        "itemIds": [
+          "eight-thousanders-borders-7",
+          "eight-thousanders-borders-8",
+          "eight-thousanders-borders-9",
+          "eight-thousanders-borders-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依所屬國家或國界分類：僅在中國境內（希夏邦馬峰）、巴基斯坦—中國國界（K2 喬戈里峰、布洛阿特峰）、僅在尼泊爾境內（安納布爾納一峰、馬納斯盧峰、道拉吉里一峰）與尼泊爾—中國國界（聖母峰、洛子峰、馬卡魯峰、卓奧友峰）。",
+  "sources": [
+    {
+      "title": "Britannica: Eight-Thousanders",
+      "url": "https://www.britannica.com/place/Himalayas",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.72
+  },
+  "status": "scheduled"
+}

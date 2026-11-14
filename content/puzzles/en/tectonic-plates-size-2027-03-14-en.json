@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tectonic-plates-size-2027-03-14-en",
+  "puzzleFamilyId": "tectonic-plates-size-001",
+  "locale": "en",
+  "publishDate": "2027-03-14",
+  "timezone": "UTC",
+  "theme": "Tectonic Plates by Tier",
+  "items": [
+    {
+      "itemId": "tectonic-plates-size-4",
+      "label": "Arabian Plate"
+    },
+    {
+      "itemId": "tectonic-plates-size-8",
+      "label": "Eurasian Plate"
+    },
+    {
+      "itemId": "tectonic-plates-size-1",
+      "label": "Juan de Fuca Plate"
+    },
+    {
+      "itemId": "tectonic-plates-size-6",
+      "label": "Nazca Plate"
+    },
+    {
+      "itemId": "tectonic-plates-size-10",
+      "label": "North American Plate"
+    },
+    {
+      "itemId": "tectonic-plates-size-2",
+      "label": "Caribbean Plate"
+    },
+    {
+      "itemId": "tectonic-plates-size-7",
+      "label": "Pacific Plate"
+    },
+    {
+      "itemId": "tectonic-plates-size-5",
+      "label": "Indian Plate"
+    },
+    {
+      "itemId": "tectonic-plates-size-9",
+      "label": "African Plate"
+    },
+    {
+      "itemId": "tectonic-plates-size-3",
+      "label": "Cocos Plate"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Area tier (Microplate, Minor, Secondary, or Major Primary) of each tectonic plate",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Microplate (<1M km²)",
+        "capacity": 1,
+        "itemIds": [
+          "tectonic-plates-size-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Minor Plate (1–5M km²)",
+        "capacity": 2,
+        "itemIds": [
+          "tectonic-plates-size-2",
+          "tectonic-plates-size-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Secondary Plate (5–20M km²)",
+        "capacity": 3,
+        "itemIds": [
+          "tectonic-plates-size-4",
+          "tectonic-plates-size-5",
+          "tectonic-plates-size-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Major Plate (>20M km²)",
+        "capacity": 4,
+        "itemIds": [
+          "tectonic-plates-size-7",
+          "tectonic-plates-size-8",
+          "tectonic-plates-size-9",
+          "tectonic-plates-size-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by plate size tier: Microplate (Juan de Fuca), Minor (<5M km²: Caribbean, Cocos), Secondary (5–20M km²: Arabian, Indian, Nazca), and Major (>20M km²: Pacific, Eurasian, African, North American).",
+  "sources": [
+    {
+      "title": "USGS: Major Tectonic Plates",
+      "url": "https://www.usgs.gov/programs/earthquake-hazards/science/tectonic-plates",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.64
+  },
+  "status": "scheduled"
+}

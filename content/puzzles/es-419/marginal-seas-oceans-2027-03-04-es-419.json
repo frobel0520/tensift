@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "marginal-seas-oceans-2027-03-04-es-419",
+  "puzzleFamilyId": "marginal-seas-oceans-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-04",
+  "timezone": "UTC",
+  "theme": "Mares marginales por océano",
+  "items": [
+    {
+      "itemId": "marginal-seas-oceans-4",
+      "label": "Mar Caribe"
+    },
+    {
+      "itemId": "marginal-seas-oceans-8",
+      "label": "Mar del Coral"
+    },
+    {
+      "itemId": "marginal-seas-oceans-1",
+      "label": "Mar de Beaufort"
+    },
+    {
+      "itemId": "marginal-seas-oceans-6",
+      "label": "Mar de los Sargazos"
+    },
+    {
+      "itemId": "marginal-seas-oceans-10",
+      "label": "Mar de Tasmania"
+    },
+    {
+      "itemId": "marginal-seas-oceans-2",
+      "label": "Mar Arábigo"
+    },
+    {
+      "itemId": "marginal-seas-oceans-7",
+      "label": "Mar de Bering"
+    },
+    {
+      "itemId": "marginal-seas-oceans-5",
+      "label": "Mar del Norte"
+    },
+    {
+      "itemId": "marginal-seas-oceans-9",
+      "label": "Mar de Ojotsk"
+    },
+    {
+      "itemId": "marginal-seas-oceans-3",
+      "label": "Mar de Andamán"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Océano principal al que pertenece cada mar marginal",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Océano Ártico",
+        "capacity": 1,
+        "itemIds": [
+          "marginal-seas-oceans-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Océano Índico",
+        "capacity": 2,
+        "itemIds": [
+          "marginal-seas-oceans-2",
+          "marginal-seas-oceans-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Océano Atlántico",
+        "capacity": 3,
+        "itemIds": [
+          "marginal-seas-oceans-4",
+          "marginal-seas-oceans-5",
+          "marginal-seas-oceans-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Océano Pacífico",
+        "capacity": 4,
+        "itemIds": [
+          "marginal-seas-oceans-7",
+          "marginal-seas-oceans-8",
+          "marginal-seas-oceans-9",
+          "marginal-seas-oceans-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por cuenca oceánica principal: Ártico (mar de Beaufort), Índico (mar Arábigo, mar de Andamán), Atlántico (mar Caribe, mar del Norte, mar de los Sargazos) y Pacífico (mar de Bering, mar del Coral, mar de Ojotsk, mar de Tasmania).",
+  "sources": [
+    {
+      "title": "IHO: Limits of Oceans and Seas",
+      "url": "https://iho.int/en/standards-and-specifications",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

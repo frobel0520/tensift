@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "koppen-climate-groups-2027-03-13-en",
+  "puzzleFamilyId": "koppen-climate-groups-001",
+  "locale": "en",
+  "publishDate": "2027-03-13",
+  "timezone": "UTC",
+  "theme": "Köppen Climate Classification",
+  "items": [
+    {
+      "itemId": "koppen-climate-groups-4",
+      "label": "Hot Desert (BWh)"
+    },
+    {
+      "itemId": "koppen-climate-groups-8",
+      "label": "Humid Subtropical (Cfa)"
+    },
+    {
+      "itemId": "koppen-climate-groups-1",
+      "label": "Tundra (ET)"
+    },
+    {
+      "itemId": "koppen-climate-groups-6",
+      "label": "Hot Semi-Arid (BSh)"
+    },
+    {
+      "itemId": "koppen-climate-groups-10",
+      "label": "Subtropical Highland (Cwb)"
+    },
+    {
+      "itemId": "koppen-climate-groups-2",
+      "label": "Humid Continental (Dfa)"
+    },
+    {
+      "itemId": "koppen-climate-groups-7",
+      "label": "Mediterranean (Csa)"
+    },
+    {
+      "itemId": "koppen-climate-groups-5",
+      "label": "Cold Desert (BWk)"
+    },
+    {
+      "itemId": "koppen-climate-groups-9",
+      "label": "Oceanic (Cfb)"
+    },
+    {
+      "itemId": "koppen-climate-groups-3",
+      "label": "Subarctic (Dfc)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Major Köppen climate letter group (E Polar, D Continental, B Arid, or C Temperate)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Group E (Polar)",
+        "capacity": 1,
+        "itemIds": [
+          "koppen-climate-groups-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Group D (Continental)",
+        "capacity": 2,
+        "itemIds": [
+          "koppen-climate-groups-2",
+          "koppen-climate-groups-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Group B (Arid)",
+        "capacity": 3,
+        "itemIds": [
+          "koppen-climate-groups-4",
+          "koppen-climate-groups-5",
+          "koppen-climate-groups-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Group C (Temperate)",
+        "capacity": 4,
+        "itemIds": [
+          "koppen-climate-groups-7",
+          "koppen-climate-groups-8",
+          "koppen-climate-groups-9",
+          "koppen-climate-groups-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by Köppen main letter: E Polar (Tundra ET), D Continental (Humid Continental Dfa, Subarctic Dfc), B Arid (Hot Desert BWh, Cold Desert BWk, Hot Semi-arid BSh), and C Temperate (Mediterranean Csa, Humid Subtropical Cfa, Oceanic Cfb, Subtropical Highland Cwb).",
+  "sources": [
+    {
+      "title": "NOAA: Köppen-Geiger Climate Classification",
+      "url": "https://www.weather.gov/jetstream/climates",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

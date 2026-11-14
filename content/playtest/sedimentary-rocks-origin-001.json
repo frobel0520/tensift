@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "sedimentary-rocks-origin-001",
+  "theme": "Rock Types by Class",
+  "publishDate": "2027-04-02",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "sedimentary-rocks-origin-1",
+        "rivalGroupId": "group-2",
+        "risk": "Marble is a metamorphic rock like slate and schist.",
+        "resolution": "Marble lacks parallel mineral alignment (foliation) and is non-foliated metamorphic (group-1)."
+      },
+      {
+        "itemId": "sedimentary-rocks-origin-8",
+        "rivalGroupId": "group-2",
+        "risk": "Shale splits into thin layers like slate.",
+        "resolution": "Shale is a clastic sedimentary rock (group-4) that becomes metamorphic slate only after heat and pressure."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

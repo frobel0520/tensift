@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "trench-deepest-oceans-2027-04-05-es-419",
+  "puzzleFamilyId": "trench-deepest-oceans-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-05",
+  "timezone": "UTC",
+  "theme": "Fosas oceánicas por región",
+  "items": [
+    {
+      "itemId": "trench-deepest-oceans-4",
+      "label": "Fosa de las Marianas"
+    },
+    {
+      "itemId": "trench-deepest-oceans-8",
+      "label": "Fosa de Kermadec"
+    },
+    {
+      "itemId": "trench-deepest-oceans-1",
+      "label": "Fosa de la Sonda (Java)"
+    },
+    {
+      "itemId": "trench-deepest-oceans-6",
+      "label": "Fosa de las Kuriles"
+    },
+    {
+      "itemId": "trench-deepest-oceans-10",
+      "label": "Fosa de las Nuevas Hébridas"
+    },
+    {
+      "itemId": "trench-deepest-oceans-2",
+      "label": "Fosa de Puerto Rico"
+    },
+    {
+      "itemId": "trench-deepest-oceans-7",
+      "label": "Fosa de Tonga"
+    },
+    {
+      "itemId": "trench-deepest-oceans-5",
+      "label": "Fosa de Japón"
+    },
+    {
+      "itemId": "trench-deepest-oceans-9",
+      "label": "Fosa de Perú-Chile"
+    },
+    {
+      "itemId": "trench-deepest-oceans-3",
+      "label": "Fosa de Romanche"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cuenca oceánica donde se ubica cada fosa submarina",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Océano Índico",
+        "capacity": 1,
+        "itemIds": [
+          "trench-deepest-oceans-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Océano Atlántico",
+        "capacity": 2,
+        "itemIds": [
+          "trench-deepest-oceans-2",
+          "trench-deepest-oceans-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Pacífico Norte",
+        "capacity": 3,
+        "itemIds": [
+          "trench-deepest-oceans-4",
+          "trench-deepest-oceans-5",
+          "trench-deepest-oceans-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Pacífico Sur",
+        "capacity": 4,
+        "itemIds": [
+          "trench-deepest-oceans-7",
+          "trench-deepest-oceans-8",
+          "trench-deepest-oceans-9",
+          "trench-deepest-oceans-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por cuenca oceánica: Índico (fosa de la Sonda), Atlántico (fosa de Puerto Rico, fosa de Romanche), Pacífico Norte (Mariana, Japón, Kuriles-Kamchatka) y Pacífico Sur (Tonga, Kermadec, Perú-Chile, Nuevas Hébridas).",
+  "sources": [
+    {
+      "title": "NOAA: Ocean Trenches",
+      "url": "https://oceanexplorer.noaa.gov/facts/tectonic-features.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

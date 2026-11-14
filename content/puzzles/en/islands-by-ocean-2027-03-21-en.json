@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "islands-by-ocean-2027-03-21-en",
+  "puzzleFamilyId": "islands-by-ocean-001",
+  "locale": "en",
+  "publishDate": "2027-03-21",
+  "timezone": "UTC",
+  "theme": "Major Islands by Ocean",
+  "items": [
+    {
+      "itemId": "islands-by-ocean-4",
+      "label": "Greenland"
+    },
+    {
+      "itemId": "islands-by-ocean-8",
+      "label": "Borneo"
+    },
+    {
+      "itemId": "islands-by-ocean-1",
+      "label": "Ross Island"
+    },
+    {
+      "itemId": "islands-by-ocean-6",
+      "label": "Iceland"
+    },
+    {
+      "itemId": "islands-by-ocean-10",
+      "label": "Luzon"
+    },
+    {
+      "itemId": "islands-by-ocean-2",
+      "label": "Madagascar"
+    },
+    {
+      "itemId": "islands-by-ocean-7",
+      "label": "New Guinea"
+    },
+    {
+      "itemId": "islands-by-ocean-5",
+      "label": "Great Britain"
+    },
+    {
+      "itemId": "islands-by-ocean-9",
+      "label": "Honshu"
+    },
+    {
+      "itemId": "islands-by-ocean-3",
+      "label": "Sri Lanka"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Ocean (Southern, Indian, Atlantic, or Pacific) surrounding each island",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Southern Ocean",
+        "capacity": 1,
+        "itemIds": [
+          "islands-by-ocean-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Indian Ocean",
+        "capacity": 2,
+        "itemIds": [
+          "islands-by-ocean-2",
+          "islands-by-ocean-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Atlantic Ocean",
+        "capacity": 3,
+        "itemIds": [
+          "islands-by-ocean-4",
+          "islands-by-ocean-5",
+          "islands-by-ocean-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Pacific Ocean",
+        "capacity": 4,
+        "itemIds": [
+          "islands-by-ocean-7",
+          "islands-by-ocean-8",
+          "islands-by-ocean-9",
+          "islands-by-ocean-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by surrounding ocean: Southern Ocean (Ross Island), Indian Ocean (Madagascar, Sri Lanka), Atlantic Ocean (Greenland, Great Britain, Iceland), and Pacific Ocean (New Guinea, Borneo, Honshu, Luzon).",
+  "sources": [
+    {
+      "title": "USGS: Largest Islands of the World",
+      "url": "https://www.usgs.gov/faqs/what-are-largest-islands-world",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "atmospheric-wind-belts-2027-03-24-zh-hant",
+  "puzzleFamilyId": "atmospheric-wind-belts-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-24",
+  "timezone": "UTC",
+  "theme": "全球大氣環流與風帶",
+  "items": [
+    {
+      "itemId": "atmospheric-wind-belts-4",
+      "label": "盛行西風帶"
+    },
+    {
+      "itemId": "atmospheric-wind-belts-8",
+      "label": "副熱帶無風帶（馬緯度）"
+    },
+    {
+      "itemId": "atmospheric-wind-belts-1",
+      "label": "間熱帶輻合區（ITCZ）"
+    },
+    {
+      "itemId": "atmospheric-wind-belts-6",
+      "label": "溫帶氣旋"
+    },
+    {
+      "itemId": "atmospheric-wind-belts-10",
+      "label": "季風"
+    },
+    {
+      "itemId": "atmospheric-wind-belts-2",
+      "label": "極地渦旋"
+    },
+    {
+      "itemId": "atmospheric-wind-belts-7",
+      "label": "信風（貿易風）"
+    },
+    {
+      "itemId": "atmospheric-wind-belts-5",
+      "label": "極鋒噴射氣流"
+    },
+    {
+      "itemId": "atmospheric-wind-belts-9",
+      "label": "熱帶氣旋"
+    },
+    {
+      "itemId": "atmospheric-wind-belts-3",
+      "label": "極地東風帶"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各行星風系與氣壓帶主要分布的緯度區域",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "赤道帶",
+        "capacity": 1,
+        "itemIds": [
+          "atmospheric-wind-belts-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "極地帶",
+        "capacity": 2,
+        "itemIds": [
+          "atmospheric-wind-belts-2",
+          "atmospheric-wind-belts-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "中緯度帶",
+        "capacity": 3,
+        "itemIds": [
+          "atmospheric-wind-belts-4",
+          "atmospheric-wind-belts-5",
+          "atmospheric-wind-belts-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "熱帶與副熱帶",
+        "capacity": 4,
+        "itemIds": [
+          "atmospheric-wind-belts-7",
+          "atmospheric-wind-belts-8",
+          "atmospheric-wind-belts-9",
+          "atmospheric-wind-belts-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依緯度帶分類：赤道帶（間熱帶輻合區 ITCZ）、極地（極地渦旋、極地東風帶）、中緯度（盛行西風帶、極鋒噴射氣流、溫帶氣旋）與熱帶／副熱帶（信風／貿易風、副熱帶無風帶、熱帶氣旋、季風）。",
+  "sources": [
+    {
+      "title": "NOAA: Global Atmospheric Circulations",
+      "url": "https://www.noaa.gov/jetstream/global/global-atmospheric-circulations",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.62
+  },
+  "status": "scheduled"
+}

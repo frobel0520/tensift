@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "islands-by-ocean-2027-03-21-es-419",
+  "puzzleFamilyId": "islands-by-ocean-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-21",
+  "timezone": "UTC",
+  "theme": "Grandes islas por océano",
+  "items": [
+    {
+      "itemId": "islands-by-ocean-4",
+      "label": "Groenlandia"
+    },
+    {
+      "itemId": "islands-by-ocean-8",
+      "label": "Borneo"
+    },
+    {
+      "itemId": "islands-by-ocean-1",
+      "label": "Isla de Ross"
+    },
+    {
+      "itemId": "islands-by-ocean-6",
+      "label": "Islandia"
+    },
+    {
+      "itemId": "islands-by-ocean-10",
+      "label": "Luzón"
+    },
+    {
+      "itemId": "islands-by-ocean-2",
+      "label": "Madagascar"
+    },
+    {
+      "itemId": "islands-by-ocean-7",
+      "label": "Nueva Guinea"
+    },
+    {
+      "itemId": "islands-by-ocean-5",
+      "label": "Gran Bretaña"
+    },
+    {
+      "itemId": "islands-by-ocean-9",
+      "label": "Honshu"
+    },
+    {
+      "itemId": "islands-by-ocean-3",
+      "label": "Sri Lanka"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Océano en el que se ubica cada isla",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Océano Antártico",
+        "capacity": 1,
+        "itemIds": [
+          "islands-by-ocean-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Océano Índico",
+        "capacity": 2,
+        "itemIds": [
+          "islands-by-ocean-2",
+          "islands-by-ocean-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Océano Atlántico",
+        "capacity": 3,
+        "itemIds": [
+          "islands-by-ocean-4",
+          "islands-by-ocean-5",
+          "islands-by-ocean-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Océano Pacífico",
+        "capacity": 4,
+        "itemIds": [
+          "islands-by-ocean-7",
+          "islands-by-ocean-8",
+          "islands-by-ocean-9",
+          "islands-by-ocean-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por océano: Antártico (isla de Ross), Índico (Madagascar, Sri Lanka), Atlántico (Groenlandia, Gran Bretaña, Islandia) y Pacífico (Nueva Guinea, Borneo, Honshu, Luzón).",
+  "sources": [
+    {
+      "title": "USGS: Largest Islands of the World",
+      "url": "https://www.usgs.gov/faqs/what-are-largest-islands-world",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

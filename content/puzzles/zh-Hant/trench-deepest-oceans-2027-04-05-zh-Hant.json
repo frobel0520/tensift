@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "trench-deepest-oceans-2027-04-05-zh-hant",
+  "puzzleFamilyId": "trench-deepest-oceans-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-05",
+  "timezone": "UTC",
+  "theme": "世界海溝所在海域",
+  "items": [
+    {
+      "itemId": "trench-deepest-oceans-4",
+      "label": "馬里亞納海溝"
+    },
+    {
+      "itemId": "trench-deepest-oceans-8",
+      "label": "克馬德克海溝"
+    },
+    {
+      "itemId": "trench-deepest-oceans-1",
+      "label": "巽他（爪哇）海溝"
+    },
+    {
+      "itemId": "trench-deepest-oceans-6",
+      "label": "千島—堪察加海溝"
+    },
+    {
+      "itemId": "trench-deepest-oceans-10",
+      "label": "新赫布里底海溝"
+    },
+    {
+      "itemId": "trench-deepest-oceans-2",
+      "label": "波多黎各海溝"
+    },
+    {
+      "itemId": "trench-deepest-oceans-7",
+      "label": "東加海溝"
+    },
+    {
+      "itemId": "trench-deepest-oceans-5",
+      "label": "日本海溝"
+    },
+    {
+      "itemId": "trench-deepest-oceans-9",
+      "label": "秘魯—智利海溝"
+    },
+    {
+      "itemId": "trench-deepest-oceans-3",
+      "label": "羅曼什海溝"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各深海海溝所屬的海域（印度洋、大西洋、北太平洋或南太平洋）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "印度洋海溝",
+        "capacity": 1,
+        "itemIds": [
+          "trench-deepest-oceans-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "大西洋海溝",
+        "capacity": 2,
+        "itemIds": [
+          "trench-deepest-oceans-2",
+          "trench-deepest-oceans-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "北太平洋海溝",
+        "capacity": 3,
+        "itemIds": [
+          "trench-deepest-oceans-4",
+          "trench-deepest-oceans-5",
+          "trench-deepest-oceans-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "南太平洋海溝",
+        "capacity": 4,
+        "itemIds": [
+          "trench-deepest-oceans-7",
+          "trench-deepest-oceans-8",
+          "trench-deepest-oceans-9",
+          "trench-deepest-oceans-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依所屬海域分類：印度洋（巽他／爪哇海溝）、大西洋（波多黎各海溝、羅曼什海溝）、北太平洋（馬里亞納海溝、日本海溝、千島—堪察加海溝）與南太平洋（東加海溝、克馬德克海溝、秘魯—智利海溝、新赫布里底海溝）。",
+  "sources": [
+    {
+      "title": "NOAA: Ocean Trenches",
+      "url": "https://oceanexplorer.noaa.gov/facts/tectonic-features.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

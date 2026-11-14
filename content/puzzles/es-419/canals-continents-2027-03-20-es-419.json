@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "canals-continents-2027-03-20-es-419",
+  "puzzleFamilyId": "canals-continents-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-20",
+  "timezone": "UTC",
+  "theme": "Grandes canales por continente",
+  "items": [
+    {
+      "itemId": "canals-continents-4",
+      "label": "Gran Canal de China"
+    },
+    {
+      "itemId": "canals-continents-8",
+      "label": "Canal de Corinto"
+    },
+    {
+      "itemId": "canals-continents-1",
+      "label": "Canal de Suez"
+    },
+    {
+      "itemId": "canals-continents-6",
+      "label": "Canal Indira Gandhi"
+    },
+    {
+      "itemId": "canals-continents-10",
+      "label": "Canal de Mánchester"
+    },
+    {
+      "itemId": "canals-continents-2",
+      "label": "Canal de Panamá"
+    },
+    {
+      "itemId": "canals-continents-7",
+      "label": "Canal de Kiel"
+    },
+    {
+      "itemId": "canals-continents-5",
+      "label": "Canal de Karakum"
+    },
+    {
+      "itemId": "canals-continents-9",
+      "label": "Canal Rin-Meno-Danubio"
+    },
+    {
+      "itemId": "canals-continents-3",
+      "label": "Canal de Erie"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Continente donde se encuentra cada canal",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "África",
+        "capacity": 1,
+        "itemIds": [
+          "canals-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "América",
+        "capacity": 2,
+        "itemIds": [
+          "canals-continents-2",
+          "canals-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Asia",
+        "capacity": 3,
+        "itemIds": [
+          "canals-continents-4",
+          "canals-continents-5",
+          "canals-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Europa",
+        "capacity": 4,
+        "itemIds": [
+          "canals-continents-7",
+          "canals-continents-8",
+          "canals-continents-9",
+          "canals-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por continente: África (canal de Suez), América (canal de Panamá, canal de Erie), Asia (Gran Canal de China, Karakum, Indira Gandhi) y Europa (Kiel, Corinto, Rin-Meno-Danubio, Mánchester).",
+  "sources": [
+    {
+      "title": "Britannica: Canal Engineering",
+      "url": "https://www.britannica.com/technology/canal-waterway",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

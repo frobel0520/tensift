@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tundra-alpine-zones-2027-04-01-es-419",
+  "puzzleFamilyId": "tundra-alpine-zones-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-01",
+  "timezone": "UTC",
+  "theme": "Pisos altitudinales de vegetación",
+  "items": [
+    {
+      "itemId": "tundra-alpine-zones-4",
+      "label": "Matorral krummholz"
+    },
+    {
+      "itemId": "tundra-alpine-zones-8",
+      "label": "Robledal montano"
+    },
+    {
+      "itemId": "tundra-alpine-zones-1",
+      "label": "Zona glacial permanente"
+    },
+    {
+      "itemId": "tundra-alpine-zones-6",
+      "label": "Límite arbóreo"
+    },
+    {
+      "itemId": "tundra-alpine-zones-10",
+      "label": "Valle de piedemonte"
+    },
+    {
+      "itemId": "tundra-alpine-zones-2",
+      "label": "Tundra alpina"
+    },
+    {
+      "itemId": "tundra-alpine-zones-7",
+      "label": "Bosque nuboso montano"
+    },
+    {
+      "itemId": "tundra-alpine-zones-5",
+      "label": "Bosque subalpino de coníferas"
+    },
+    {
+      "itemId": "tundra-alpine-zones-9",
+      "label": "Sabana de piedemonte"
+    },
+    {
+      "itemId": "tundra-alpine-zones-3",
+      "label": "Pradera de plantas en cojín"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Piso altitudinal de montaña de cada zona",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Piso nival",
+        "capacity": 1,
+        "itemIds": [
+          "tundra-alpine-zones-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Piso alpino",
+        "capacity": 2,
+        "itemIds": [
+          "tundra-alpine-zones-2",
+          "tundra-alpine-zones-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Piso subalpino",
+        "capacity": 3,
+        "itemIds": [
+          "tundra-alpine-zones-4",
+          "tundra-alpine-zones-5",
+          "tundra-alpine-zones-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Piso montano y piedemonte",
+        "capacity": 4,
+        "itemIds": [
+          "tundra-alpine-zones-7",
+          "tundra-alpine-zones-8",
+          "tundra-alpine-zones-9",
+          "tundra-alpine-zones-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por piso altitudinal: nival (zona glacial permanente), alpino (tundra alpina, plantas en cojín), subalpino (krummholz, bosque subalpino de coníferas, límite del bosque) y montano/piedemonte (bosque nuboso, robledal montano, sabana de piedemonte, valle).",
+  "sources": [
+    {
+      "title": "Britannica: Altitudinal Zonation",
+      "url": "https://www.britannica.com/science/altitudinal-zonation",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "latitude-parallels-tropics-001",
+  "theme": "Notable Parallels & Meridians",
+  "publishDate": "2027-04-06",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "latitude-parallels-tropics-7",
+        "rivalGroupId": "group-1",
+        "risk": "Prime Meridian is at 0° just like the Equator.",
+        "resolution": "The Prime Meridian runs north–south as 0° longitude (group-4), whereas the Equator is 0° latitude (group-1)."
+      },
+      {
+        "itemId": "latitude-parallels-tropics-6",
+        "rivalGroupId": "group-2",
+        "risk": "17°N is inside the tropical zone.",
+        "resolution": "The 17th Parallel North is a historic political boundary parallel (group-3), not an astronomical tropic (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

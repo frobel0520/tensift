@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ocean-currents-temp-2027-04-04-en",
+  "puzzleFamilyId": "ocean-currents-temp-001",
+  "locale": "en",
+  "publishDate": "2027-04-04",
+  "timezone": "UTC",
+  "theme": "Major Ocean Currents",
+  "items": [
+    {
+      "itemId": "ocean-currents-temp-4",
+      "label": "Humboldt Current"
+    },
+    {
+      "itemId": "ocean-currents-temp-8",
+      "label": "Kuroshio Current"
+    },
+    {
+      "itemId": "ocean-currents-temp-1",
+      "label": "Equatorial Counter Current"
+    },
+    {
+      "itemId": "ocean-currents-temp-6",
+      "label": "California Current"
+    },
+    {
+      "itemId": "ocean-currents-temp-10",
+      "label": "Brazil Current"
+    },
+    {
+      "itemId": "ocean-currents-temp-2",
+      "label": "Canary Current"
+    },
+    {
+      "itemId": "ocean-currents-temp-7",
+      "label": "Gulf Stream"
+    },
+    {
+      "itemId": "ocean-currents-temp-5",
+      "label": "Oyashio Current"
+    },
+    {
+      "itemId": "ocean-currents-temp-9",
+      "label": "Agulhas Current"
+    },
+    {
+      "itemId": "ocean-currents-temp-3",
+      "label": "Benguela Current"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Thermal nature (Warm vs. Cold) and ocean basin of each current",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Equatorial Counter Current",
+        "capacity": 1,
+        "itemIds": [
+          "ocean-currents-temp-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Cold Atlantic Currents",
+        "capacity": 2,
+        "itemIds": [
+          "ocean-currents-temp-2",
+          "ocean-currents-temp-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Cold Pacific Currents",
+        "capacity": 3,
+        "itemIds": [
+          "ocean-currents-temp-4",
+          "ocean-currents-temp-5",
+          "ocean-currents-temp-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Major Warm Currents",
+        "capacity": 4,
+        "itemIds": [
+          "ocean-currents-temp-7",
+          "ocean-currents-temp-8",
+          "ocean-currents-temp-9",
+          "ocean-currents-temp-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by thermal nature and ocean: Equatorial Counter Current (Equatorial Counter Current), Cold Atlantic Currents (Canary, Benguela), Cold Pacific Currents (Humboldt, Oyashio, California), and Warm Currents (Gulf Stream, Kuroshio, Agulhas, Brazil).",
+  "sources": [
+    {
+      "title": "NOAA: Ocean Currents",
+      "url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-currents",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.52
+  },
+  "status": "scheduled"
+}

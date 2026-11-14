@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tundra-alpine-zones-2027-04-01-zh-hant",
+  "puzzleFamilyId": "tundra-alpine-zones-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-01",
+  "timezone": "UTC",
+  "theme": "山地垂直植群帶",
+  "items": [
+    {
+      "itemId": "tundra-alpine-zones-4",
+      "label": "高山矮曲林（Krummholz）"
+    },
+    {
+      "itemId": "tundra-alpine-zones-8",
+      "label": "山地櫟林"
+    },
+    {
+      "itemId": "tundra-alpine-zones-1",
+      "label": "永久積雪冰川帶"
+    },
+    {
+      "itemId": "tundra-alpine-zones-6",
+      "label": "林木線（Timberline）"
+    },
+    {
+      "itemId": "tundra-alpine-zones-10",
+      "label": "山麓河谷"
+    },
+    {
+      "itemId": "tundra-alpine-zones-2",
+      "label": "高山苔原"
+    },
+    {
+      "itemId": "tundra-alpine-zones-7",
+      "label": "山地雲霧林"
+    },
+    {
+      "itemId": "tundra-alpine-zones-5",
+      "label": "亞高山針葉林"
+    },
+    {
+      "itemId": "tundra-alpine-zones-9",
+      "label": "山麓稀樹草原"
+    },
+    {
+      "itemId": "tundra-alpine-zones-3",
+      "label": "高山墊狀植物帶"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各高山生態帶所屬的垂直海拔高度層級",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "永久冰雪帶",
+        "capacity": 1,
+        "itemIds": [
+          "tundra-alpine-zones-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "高山苔原帶（林線以上）",
+        "capacity": 2,
+        "itemIds": [
+          "tundra-alpine-zones-2",
+          "tundra-alpine-zones-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "亞高山帶",
+        "capacity": 3,
+        "itemIds": [
+          "tundra-alpine-zones-4",
+          "tundra-alpine-zones-5",
+          "tundra-alpine-zones-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "山地與山麓帶",
+        "capacity": 4,
+        "itemIds": [
+          "tundra-alpine-zones-7",
+          "tundra-alpine-zones-8",
+          "tundra-alpine-zones-9",
+          "tundra-alpine-zones-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依山地海拔由高至低分類：冰雪帶（永久積雪冰川帶）、高山帶（高山苔原、墊狀植物帶）、亞高山帶（矮曲林帶、亞高山針葉林、林木線）與山地／丘陵帶（雲霧林、山地櫟林、山麓稀樹草原、山麓河谷）。",
+  "sources": [
+    {
+      "title": "Britannica: Altitudinal Zonation",
+      "url": "https://www.britannica.com/science/altitudinal-zonation",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

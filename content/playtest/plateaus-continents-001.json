@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "plateaus-continents-001",
+  "theme": "World Plateaus by Continent",
+  "publishDate": "2027-04-07",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "plateaus-continents-5",
+        "rivalGroupId": "group-1",
+        "risk": "Columbia sounds like Colombia in South America.",
+        "resolution": "The Columbia Plateau is in the Pacific Northwest of the United States, North America (group-3)."
+      },
+      {
+        "itemId": "plateaus-continents-9",
+        "rivalGroupId": "group-2",
+        "risk": "Anatolia is in the Mediterranean region.",
+        "resolution": "The Anatolian Plateau forms the Asian heartland of Türkiye (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

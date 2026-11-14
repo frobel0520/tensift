@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ocean-currents-temp-2027-04-04-es-419",
+  "puzzleFamilyId": "ocean-currents-temp-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-04",
+  "timezone": "UTC",
+  "theme": "Corrientes oceánicas principales",
+  "items": [
+    {
+      "itemId": "ocean-currents-temp-4",
+      "label": "Corriente de Humboldt"
+    },
+    {
+      "itemId": "ocean-currents-temp-8",
+      "label": "Corriente de Kuroshio"
+    },
+    {
+      "itemId": "ocean-currents-temp-1",
+      "label": "Contracorriente Ecuatorial"
+    },
+    {
+      "itemId": "ocean-currents-temp-6",
+      "label": "Corriente de California"
+    },
+    {
+      "itemId": "ocean-currents-temp-10",
+      "label": "Corriente del Brasil"
+    },
+    {
+      "itemId": "ocean-currents-temp-2",
+      "label": "Corriente de las Canarias"
+    },
+    {
+      "itemId": "ocean-currents-temp-7",
+      "label": "Corriente del Golfo"
+    },
+    {
+      "itemId": "ocean-currents-temp-5",
+      "label": "Corriente de Oyashio"
+    },
+    {
+      "itemId": "ocean-currents-temp-9",
+      "label": "Corriente de las Agujas"
+    },
+    {
+      "itemId": "ocean-currents-temp-3",
+      "label": "Corriente de Benguela"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Naturaleza térmica y cuenca de cada corriente oceánica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Contracorriente ecuatorial",
+        "capacity": 1,
+        "itemIds": [
+          "ocean-currents-temp-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Corrientes frías del Atlántico",
+        "capacity": 2,
+        "itemIds": [
+          "ocean-currents-temp-2",
+          "ocean-currents-temp-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Corrientes frías del Pacífico",
+        "capacity": 3,
+        "itemIds": [
+          "ocean-currents-temp-4",
+          "ocean-currents-temp-5",
+          "ocean-currents-temp-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Principales corrientes cálidas",
+        "capacity": 4,
+        "itemIds": [
+          "ocean-currents-temp-7",
+          "ocean-currents-temp-8",
+          "ocean-currents-temp-9",
+          "ocean-currents-temp-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por tipo térmico y cuenca: contracorriente ecuatorial (Contracorriente Ecuatorial), frías del Atlántico (Canarias, Benguela), frías del Pacífico (Humboldt, Oyashio, California) y cálidas principales (Corriente del Golfo, Kuroshio, Agulhas, Brasil).",
+  "sources": [
+    {
+      "title": "NOAA: Ocean Currents",
+      "url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-currents",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.52
+  },
+  "status": "scheduled"
+}

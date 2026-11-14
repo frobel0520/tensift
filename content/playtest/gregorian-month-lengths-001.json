@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "gregorian-month-lengths-001",
+  "theme": "Gregorian Month Lengths",
+  "publishDate": "2027-03-08",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "gregorian-month-lengths-8",
+        "rivalGroupId": "group-2",
+        "risk": "Consecutive months rarely both have 31 days.",
+        "resolution": "July and August are the famous consecutive pair that both have 31 days in the second half of the year (group-4)."
+      },
+      {
+        "itemId": "gregorian-month-lengths-3",
+        "rivalGroupId": "group-3",
+        "risk": "June is adjacent to May and July.",
+        "resolution": "June has 30 days in the first half of the year (group-2), unlike 31-day May and July."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

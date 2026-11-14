@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "coastal-landforms-process-2027-03-26-es-419",
+  "puzzleFamilyId": "coastal-landforms-process-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-26",
+  "timezone": "UTC",
+  "theme": "Geoformas costeras",
+  "items": [
+    {
+      "itemId": "coastal-landforms-process-4",
+      "label": "Flecha litoral"
+    },
+    {
+      "itemId": "coastal-landforms-process-8",
+      "label": "Arco marino"
+    },
+    {
+      "itemId": "coastal-landforms-process-1",
+      "label": "Atolón"
+    },
+    {
+      "itemId": "coastal-landforms-process-6",
+      "label": "Isla barrera"
+    },
+    {
+      "itemId": "coastal-landforms-process-10",
+      "label": "Plataforma de abrasión"
+    },
+    {
+      "itemId": "coastal-landforms-process-2",
+      "label": "Llanura de marea"
+    },
+    {
+      "itemId": "coastal-landforms-process-7",
+      "label": "Acantilado marino"
+    },
+    {
+      "itemId": "coastal-landforms-process-5",
+      "label": "Tómbolo"
+    },
+    {
+      "itemId": "coastal-landforms-process-9",
+      "label": "Farallón"
+    },
+    {
+      "itemId": "coastal-landforms-process-3",
+      "label": "Marisma"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Proceso dominante de cada geoforma costera",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Arrecife coralino",
+        "capacity": 1,
+        "itemIds": [
+          "coastal-landforms-process-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Deposición mareal",
+        "capacity": 2,
+        "itemIds": [
+          "coastal-landforms-process-2",
+          "coastal-landforms-process-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Deriva litoral",
+        "capacity": 3,
+        "itemIds": [
+          "coastal-landforms-process-4",
+          "coastal-landforms-process-5",
+          "coastal-landforms-process-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Erosión por oleaje",
+        "capacity": 4,
+        "itemIds": [
+          "coastal-landforms-process-7",
+          "coastal-landforms-process-8",
+          "coastal-landforms-process-9",
+          "coastal-landforms-process-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por proceso: coralino (atolón), mareal (llanura de marea, marisma), deriva litoral (flecha litoral, tómbolo, isla barrera) y erosión por oleaje (acantilado, arco marino, farallón, plataforma de abrasión).",
+  "sources": [
+    {
+      "title": "NPS: Coastal Landforms",
+      "url": "https://www.nps.gov/subjects/geology/coastal-landforms.htm",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.46
+  },
+  "status": "scheduled"
+}

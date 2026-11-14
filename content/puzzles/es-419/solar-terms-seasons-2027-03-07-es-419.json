@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "solar-terms-seasons-2027-03-07-es-419",
+  "puzzleFamilyId": "solar-terms-seasons-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-07",
+  "timezone": "UTC",
+  "theme": "24 términos solares por estación",
+  "items": [
+    {
+      "itemId": "solar-terms-seasons-4",
+      "label": "Lixia (Inicio de verano)"
+    },
+    {
+      "itemId": "solar-terms-seasons-8",
+      "label": "Bailu (Rocío blanco)"
+    },
+    {
+      "itemId": "solar-terms-seasons-1",
+      "label": "Dongzhi (Solsticio de invierno)"
+    },
+    {
+      "itemId": "solar-terms-seasons-6",
+      "label": "Dashu (Calor mayor)"
+    },
+    {
+      "itemId": "solar-terms-seasons-10",
+      "label": "Shuangjiang (Descenso de escarcha)"
+    },
+    {
+      "itemId": "solar-terms-seasons-2",
+      "label": "Lichun (Inicio de primavera)"
+    },
+    {
+      "itemId": "solar-terms-seasons-7",
+      "label": "Liqiu (Inicio de otoño)"
+    },
+    {
+      "itemId": "solar-terms-seasons-5",
+      "label": "Xiazhi (Solsticio de verano)"
+    },
+    {
+      "itemId": "solar-terms-seasons-9",
+      "label": "Qiufen (Equinoccio de otoño)"
+    },
+    {
+      "itemId": "solar-terms-seasons-3",
+      "label": "Chunfen (Equinoccio de primavera)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Estación astronómica de cada término solar tradicional",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Invierno",
+        "capacity": 1,
+        "itemIds": [
+          "solar-terms-seasons-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Primavera",
+        "capacity": 2,
+        "itemIds": [
+          "solar-terms-seasons-2",
+          "solar-terms-seasons-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Verano",
+        "capacity": 3,
+        "itemIds": [
+          "solar-terms-seasons-4",
+          "solar-terms-seasons-5",
+          "solar-terms-seasons-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Otoño",
+        "capacity": 4,
+        "itemIds": [
+          "solar-terms-seasons-7",
+          "solar-terms-seasons-8",
+          "solar-terms-seasons-9",
+          "solar-terms-seasons-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por estación: invierno (Dongzhi), primavera (Lichun, Chunfen), verano (Lixia, Xiazhi, Dashu) y otoño (Liqiu, Bailu, Qiufen, Shuangjiang).",
+  "sources": [
+    {
+      "title": "UNESCO: The Twenty-Four Solar Terms",
+      "url": "https://ich.unesco.org/en/RL/the-twenty-four-solar-terms-knowledge-in-china-of-time-and-practices-developed-through-observation-of-the-sun-s-annual-motion-00647",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

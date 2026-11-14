@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "national-parks-continents-2027-03-22-es-419",
+  "puzzleFamilyId": "national-parks-continents-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-22",
+  "timezone": "UTC",
+  "theme": "Parques nacionales icónicos",
+  "items": [
+    {
+      "itemId": "national-parks-continents-4",
+      "label": "Parque Nacional Serengueti"
+    },
+    {
+      "itemId": "national-parks-continents-8",
+      "label": "Yosemite"
+    },
+    {
+      "itemId": "national-parks-continents-1",
+      "label": "Parque Nacional Kakadu"
+    },
+    {
+      "itemId": "national-parks-continents-6",
+      "label": "Área de Conservación de Ngorongoro"
+    },
+    {
+      "itemId": "national-parks-continents-10",
+      "label": "Parque Nacional Banff"
+    },
+    {
+      "itemId": "national-parks-continents-2",
+      "label": "Torres del Paine"
+    },
+    {
+      "itemId": "national-parks-continents-7",
+      "label": "Yellowstone"
+    },
+    {
+      "itemId": "national-parks-continents-5",
+      "label": "Parque Nacional Kruger"
+    },
+    {
+      "itemId": "national-parks-continents-9",
+      "label": "Gran Cañón"
+    },
+    {
+      "itemId": "national-parks-continents-3",
+      "label": "Parque Nacional Iguazú"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Continente donde se ubica cada parque nacional",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Oceanía",
+        "capacity": 1,
+        "itemIds": [
+          "national-parks-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Sudamérica",
+        "capacity": 2,
+        "itemIds": [
+          "national-parks-continents-2",
+          "national-parks-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "África",
+        "capacity": 3,
+        "itemIds": [
+          "national-parks-continents-4",
+          "national-parks-continents-5",
+          "national-parks-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Norteamérica",
+        "capacity": 4,
+        "itemIds": [
+          "national-parks-continents-7",
+          "national-parks-continents-8",
+          "national-parks-continents-9",
+          "national-parks-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por continente: Oceanía (Kakadu), Sudamérica (Torres del Paine, Iguazú), África (Serengueti, Kruger, Ngorongoro) y Norteamérica (Yellowstone, Yosemite, Gran Cañón, Banff).",
+  "sources": [
+    {
+      "title": "UNESCO World Heritage List",
+      "url": "https://whc.unesco.org/en/list/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "coastal-landforms-process-2027-03-26-en",
+  "puzzleFamilyId": "coastal-landforms-process-001",
+  "locale": "en",
+  "publishDate": "2027-03-26",
+  "timezone": "UTC",
+  "theme": "Coastal Landforms",
+  "items": [
+    {
+      "itemId": "coastal-landforms-process-4",
+      "label": "Sand Spit"
+    },
+    {
+      "itemId": "coastal-landforms-process-8",
+      "label": "Sea Arch"
+    },
+    {
+      "itemId": "coastal-landforms-process-1",
+      "label": "Atoll"
+    },
+    {
+      "itemId": "coastal-landforms-process-6",
+      "label": "Barrier Island"
+    },
+    {
+      "itemId": "coastal-landforms-process-10",
+      "label": "Wave-Cut Platform"
+    },
+    {
+      "itemId": "coastal-landforms-process-2",
+      "label": "Tidal Flat"
+    },
+    {
+      "itemId": "coastal-landforms-process-7",
+      "label": "Sea Cliff"
+    },
+    {
+      "itemId": "coastal-landforms-process-5",
+      "label": "Tombolo"
+    },
+    {
+      "itemId": "coastal-landforms-process-9",
+      "label": "Sea Stack"
+    },
+    {
+      "itemId": "coastal-landforms-process-3",
+      "label": "Salt Marsh"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Dominant coastal formation type (Biological Coral, Tidal Flat, Longshore Drift, or Wave Erosion)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Biological Coral Reef",
+        "capacity": 1,
+        "itemIds": [
+          "coastal-landforms-process-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Tidal Deposition",
+        "capacity": 2,
+        "itemIds": [
+          "coastal-landforms-process-2",
+          "coastal-landforms-process-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Longshore Drift Deposition",
+        "capacity": 3,
+        "itemIds": [
+          "coastal-landforms-process-4",
+          "coastal-landforms-process-5",
+          "coastal-landforms-process-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Wave Erosion",
+        "capacity": 4,
+        "itemIds": [
+          "coastal-landforms-process-7",
+          "coastal-landforms-process-8",
+          "coastal-landforms-process-9",
+          "coastal-landforms-process-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by formation process: Coral reef (Atoll), Tidal deposition (Tidal Flat, Salt Marsh), Longshore drift deposition (Spit, Tombolo, Barrier Island), and Wave erosion (Sea Cliff, Sea Arch, Sea Stack, Wave-Cut Platform).",
+  "sources": [
+    {
+      "title": "NPS: Coastal Landforms",
+      "url": "https://www.nps.gov/subjects/geology/coastal-landforms.htm",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.46
+  },
+  "status": "scheduled"
+}

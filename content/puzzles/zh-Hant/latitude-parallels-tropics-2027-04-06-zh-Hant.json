@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "latitude-parallels-tropics-2027-04-06-zh-hant",
+  "puzzleFamilyId": "latitude-parallels-tropics-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-06",
+  "timezone": "UTC",
+  "theme": "地球重要經緯線",
+  "items": [
+    {
+      "itemId": "latitude-parallels-tropics-4",
+      "label": "北緯 38 度線"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-8",
+      "label": "180 度經線"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-1",
+      "label": "赤道（0°）"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-6",
+      "label": "北緯 17 度線"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-10",
+      "label": "東經 120 度線（東亞時區基準）"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-2",
+      "label": "北回歸線"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-7",
+      "label": "本初經線（0°）"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-5",
+      "label": "北緯 49 度線"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-9",
+      "label": "東經 15 度線（中歐時區基準）"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-3",
+      "label": "南回歸線"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各重要經緯線的幾何分類（赤道、極圈、回歸線或主要經線）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "赤道",
+        "capacity": 1,
+        "itemIds": [
+          "latitude-parallels-tropics-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "南北回歸線（約 23.4°）",
+        "capacity": 2,
+        "itemIds": [
+          "latitude-parallels-tropics-2",
+          "latitude-parallels-tropics-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "歷史國界緯線",
+        "capacity": 3,
+        "itemIds": [
+          "latitude-parallels-tropics-4",
+          "latitude-parallels-tropics-5",
+          "latitude-parallels-tropics-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "重要參考經線",
+        "capacity": 4,
+        "itemIds": [
+          "latitude-parallels-tropics-7",
+          "latitude-parallels-tropics-8",
+          "latitude-parallels-tropics-9",
+          "latitude-parallels-tropics-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依經緯線性質分類：赤道（0° 赤道）、回歸線（北回歸線、南回歸線）、歷史著名國界緯線（北緯 38 度線、北緯 49 度線、北緯 17 度線）與重要經線（本初經線、180 度經線、東經 15 度線、東經 120 度線）。",
+  "sources": [
+    {
+      "title": "Britannica: Latitude and Longitude",
+      "url": "https://www.britannica.com/science/latitude",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

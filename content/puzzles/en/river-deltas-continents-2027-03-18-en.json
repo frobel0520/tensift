@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "river-deltas-continents-2027-03-18-en",
+  "puzzleFamilyId": "river-deltas-continents-001",
+  "locale": "en",
+  "publishDate": "2027-03-18",
+  "timezone": "UTC",
+  "theme": "Major River Deltas",
+  "items": [
+    {
+      "itemId": "river-deltas-continents-4",
+      "label": "Danube Delta"
+    },
+    {
+      "itemId": "river-deltas-continents-8",
+      "label": "Mekong Delta"
+    },
+    {
+      "itemId": "river-deltas-continents-1",
+      "label": "Orinoco Delta"
+    },
+    {
+      "itemId": "river-deltas-continents-6",
+      "label": "Volga Delta"
+    },
+    {
+      "itemId": "river-deltas-continents-10",
+      "label": "Yangtze Delta"
+    },
+    {
+      "itemId": "river-deltas-continents-2",
+      "label": "Nile Delta"
+    },
+    {
+      "itemId": "river-deltas-continents-7",
+      "label": "Ganges–Brahmaputra Delta"
+    },
+    {
+      "itemId": "river-deltas-continents-5",
+      "label": "Rhine–Meuse–Scheldt Delta"
+    },
+    {
+      "itemId": "river-deltas-continents-9",
+      "label": "Lena Delta"
+    },
+    {
+      "itemId": "river-deltas-continents-3",
+      "label": "Niger Delta"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Continent (South America, Africa, Europe, or Asia) of each river delta",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "South America",
+        "capacity": 1,
+        "itemIds": [
+          "river-deltas-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Africa",
+        "capacity": 2,
+        "itemIds": [
+          "river-deltas-continents-2",
+          "river-deltas-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Europe",
+        "capacity": 3,
+        "itemIds": [
+          "river-deltas-continents-4",
+          "river-deltas-continents-5",
+          "river-deltas-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Asia",
+        "capacity": 4,
+        "itemIds": [
+          "river-deltas-continents-7",
+          "river-deltas-continents-8",
+          "river-deltas-continents-9",
+          "river-deltas-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by continent: South America (Orinoco), Africa (Nile, Niger), Europe (Danube, Rhine–Meuse–Scheldt, Volga), and Asia (Ganges–Brahmaputra, Mekong, Lena, Yangtze).",
+  "sources": [
+    {
+      "title": "NASA Earth Observatory: River Deltas",
+      "url": "https://earthobservatory.nasa.gov/features/WorldOfChange",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

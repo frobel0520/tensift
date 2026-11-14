@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "gregorian-month-lengths-2027-03-08-en",
+  "puzzleFamilyId": "gregorian-month-lengths-001",
+  "locale": "en",
+  "publishDate": "2027-03-08",
+  "timezone": "UTC",
+  "theme": "Gregorian Month Lengths",
+  "items": [
+    {
+      "itemId": "gregorian-month-lengths-4",
+      "label": "January"
+    },
+    {
+      "itemId": "gregorian-month-lengths-8",
+      "label": "August"
+    },
+    {
+      "itemId": "gregorian-month-lengths-1",
+      "label": "February"
+    },
+    {
+      "itemId": "gregorian-month-lengths-6",
+      "label": "May"
+    },
+    {
+      "itemId": "gregorian-month-lengths-10",
+      "label": "December"
+    },
+    {
+      "itemId": "gregorian-month-lengths-2",
+      "label": "April"
+    },
+    {
+      "itemId": "gregorian-month-lengths-7",
+      "label": "July"
+    },
+    {
+      "itemId": "gregorian-month-lengths-5",
+      "label": "March"
+    },
+    {
+      "itemId": "gregorian-month-lengths-9",
+      "label": "October"
+    },
+    {
+      "itemId": "gregorian-month-lengths-3",
+      "label": "June"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Day count (28/29, 30, or 31) combined with first vs. second half of the year",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "28 or 29 Days",
+        "capacity": 1,
+        "itemIds": [
+          "gregorian-month-lengths-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "30 Days (Jan–Jun)",
+        "capacity": 2,
+        "itemIds": [
+          "gregorian-month-lengths-2",
+          "gregorian-month-lengths-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "31 Days (Jan–Jun)",
+        "capacity": 3,
+        "itemIds": [
+          "gregorian-month-lengths-4",
+          "gregorian-month-lengths-5",
+          "gregorian-month-lengths-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "31 Days (Jul–Dec)",
+        "capacity": 4,
+        "itemIds": [
+          "gregorian-month-lengths-7",
+          "gregorian-month-lengths-8",
+          "gregorian-month-lengths-9",
+          "gregorian-month-lengths-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by day count and half-year: 28/29 days (February), 30 days in H1 (April, June), 31 days in H1 (January, March, May), and 31 days in H2 (July, August, October, December).",
+  "sources": [
+    {
+      "title": "NIST: The Gregorian Calendar",
+      "url": "https://www.nist.gov/pml/time-and-frequency-division/popular-links/walk-through-time/walk-through-time-calendars",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

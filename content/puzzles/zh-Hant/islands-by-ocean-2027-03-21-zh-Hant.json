@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "islands-by-ocean-2027-03-21-zh-hant",
+  "puzzleFamilyId": "islands-by-ocean-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-21",
+  "timezone": "UTC",
+  "theme": "世界大島所屬大洋",
+  "items": [
+    {
+      "itemId": "islands-by-ocean-4",
+      "label": "格陵蘭"
+    },
+    {
+      "itemId": "islands-by-ocean-8",
+      "label": "婆羅洲"
+    },
+    {
+      "itemId": "islands-by-ocean-1",
+      "label": "羅斯島"
+    },
+    {
+      "itemId": "islands-by-ocean-6",
+      "label": "冰島"
+    },
+    {
+      "itemId": "islands-by-ocean-10",
+      "label": "呂宋島"
+    },
+    {
+      "itemId": "islands-by-ocean-2",
+      "label": "馬達加斯加"
+    },
+    {
+      "itemId": "islands-by-ocean-7",
+      "label": "新幾內亞島"
+    },
+    {
+      "itemId": "islands-by-ocean-5",
+      "label": "大不列顛島"
+    },
+    {
+      "itemId": "islands-by-ocean-9",
+      "label": "本州島"
+    },
+    {
+      "itemId": "islands-by-ocean-3",
+      "label": "斯里蘭卡"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各島嶼所處的大洋（南冰洋、印度洋、大西洋或太平洋）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "南冰洋",
+        "capacity": 1,
+        "itemIds": [
+          "islands-by-ocean-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "印度洋",
+        "capacity": 2,
+        "itemIds": [
+          "islands-by-ocean-2",
+          "islands-by-ocean-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "大西洋",
+        "capacity": 3,
+        "itemIds": [
+          "islands-by-ocean-4",
+          "islands-by-ocean-5",
+          "islands-by-ocean-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "太平洋",
+        "capacity": 4,
+        "itemIds": [
+          "islands-by-ocean-7",
+          "islands-by-ocean-8",
+          "islands-by-ocean-9",
+          "islands-by-ocean-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依所屬大洋分類：南冰洋（羅斯島）、印度洋（馬達加斯加、斯里蘭卡）、大西洋（格陵蘭、大不列顛島、冰島）與太平洋（新幾內亞島、婆羅洲、本州島、呂宋島）。",
+  "sources": [
+    {
+      "title": "USGS: Largest Islands of the World",
+      "url": "https://www.usgs.gov/faqs/what-are-largest-islands-world",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

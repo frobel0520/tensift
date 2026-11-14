@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "mountain-ranges-continents-001",
+  "theme": "Mountain Ranges by Continent",
+  "publishDate": "2027-03-09",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "mountain-ranges-continents-2",
+        "rivalGroupId": "group-3",
+        "risk": "The Atlas Mountains face the Mediterranean near southern Europe.",
+        "resolution": "The Atlas range runs across Morocco, Algeria, and Tunisia in northwestern Africa (group-2)."
+      },
+      {
+        "itemId": "mountain-ranges-continents-8",
+        "rivalGroupId": "group-3",
+        "risk": "Central Asian ranges are sometimes confused with the Caucasus.",
+        "resolution": "The Karakoram spans Pakistan, India, and China in Asia (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

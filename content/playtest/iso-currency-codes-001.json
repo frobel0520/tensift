@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "iso-currency-codes-001",
+  "theme": "ISO 4217 Currency Codes",
+  "publishDate": "2027-03-05",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "iso-currency-codes-9",
+        "rivalGroupId": "group-3",
+        "risk": "CHF starts with C like CAD.",
+        "resolution": "CHF stands for Confoederatio Helvetica Franc (Swiss franc), a European currency (group-4)."
+      },
+      {
+        "itemId": "iso-currency-codes-1",
+        "rivalGroupId": "group-4",
+        "risk": "ZAR starts with Z and R, derived from Dutch Zuid-Afrikaanse Rand.",
+        "resolution": "ZAR is the currency of South Africa in Africa (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

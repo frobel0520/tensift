@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "desert-continents-2027-03-11-es-419",
+  "puzzleFamilyId": "desert-continents-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-11",
+  "timezone": "UTC",
+  "theme": "Desiertos del mundo por continente",
+  "items": [
+    {
+      "itemId": "desert-continents-4",
+      "label": "Desierto del Sahara"
+    },
+    {
+      "itemId": "desert-continents-8",
+      "label": "Desierto de Taklamakán"
+    },
+    {
+      "itemId": "desert-continents-1",
+      "label": "Desierto de Tabernas"
+    },
+    {
+      "itemId": "desert-continents-6",
+      "label": "Desierto del Namib"
+    },
+    {
+      "itemId": "desert-continents-10",
+      "label": "Desierto de Arabia"
+    },
+    {
+      "itemId": "desert-continents-2",
+      "label": "Desierto de Mojave"
+    },
+    {
+      "itemId": "desert-continents-7",
+      "label": "Desierto de Gobi"
+    },
+    {
+      "itemId": "desert-continents-5",
+      "label": "Desierto del Kalahari"
+    },
+    {
+      "itemId": "desert-continents-9",
+      "label": "Desierto de Thar"
+    },
+    {
+      "itemId": "desert-continents-3",
+      "label": "Desierto de Sonora"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Continente donde se ubica cada desierto",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Europa",
+        "capacity": 1,
+        "itemIds": [
+          "desert-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Norteamérica",
+        "capacity": 2,
+        "itemIds": [
+          "desert-continents-2",
+          "desert-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "África",
+        "capacity": 3,
+        "itemIds": [
+          "desert-continents-4",
+          "desert-continents-5",
+          "desert-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Asia",
+        "capacity": 4,
+        "itemIds": [
+          "desert-continents-7",
+          "desert-continents-8",
+          "desert-continents-9",
+          "desert-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por continente: Europa (Tabernas), Norteamérica (Mojave, Sonora), África (Sahara, Kalahari, Namib) y Asia (Gobi, Taklamakán, Thar, desierto de Arabia).",
+  "sources": [
+    {
+      "title": "USGS: Deserts Geology and Resources",
+      "url": "https://pubs.usgs.gov/gip/deserts/types/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

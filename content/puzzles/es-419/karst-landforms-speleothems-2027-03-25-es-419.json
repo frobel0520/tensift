@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "karst-landforms-speleothems-2027-03-25-es-419",
+  "puzzleFamilyId": "karst-landforms-speleothems-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-25",
+  "timezone": "UTC",
+  "theme": "Formaciones kársticas y espeleotemas",
+  "items": [
+    {
+      "itemId": "karst-landforms-speleothems-4",
+      "label": "Estalactita"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-8",
+      "label": "Poljé"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-1",
+      "label": "Columna"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-6",
+      "label": "Cortina (espeleotema)"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-10",
+      "label": "Karst en torres"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-2",
+      "label": "Estalagmita"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-7",
+      "label": "Dolina"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-5",
+      "label": "Macarrón (espeleotema)"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-9",
+      "label": "Lapiaz"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-3",
+      "label": "Colada estalagmítica"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Ubicación de formación (columna unida, suelo, techo o superficie)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Unión techo-suelo",
+        "capacity": 1,
+        "itemIds": [
+          "karst-landforms-speleothems-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Suelo de cueva",
+        "capacity": 2,
+        "itemIds": [
+          "karst-landforms-speleothems-2",
+          "karst-landforms-speleothems-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Techo de cueva",
+        "capacity": 3,
+        "itemIds": [
+          "karst-landforms-speleothems-4",
+          "karst-landforms-speleothems-5",
+          "karst-landforms-speleothems-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Karst superficial",
+        "capacity": 4,
+        "itemIds": [
+          "karst-landforms-speleothems-7",
+          "karst-landforms-speleothems-8",
+          "karst-landforms-speleothems-9",
+          "karst-landforms-speleothems-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por ubicación: unión techo-suelo (columna), suelo de cueva (estalagmita, colada), techo de cueva (estalactita, macarrón, cortina) y superficie (dolina, poljé, lapiaz, karst en torres).",
+  "sources": [
+    {
+      "title": "NPS: Caves and Karst",
+      "url": "https://www.nps.gov/subjects/caves/index.htm",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

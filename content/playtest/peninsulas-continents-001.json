@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "peninsulas-continents-001",
+  "theme": "Major Peninsulas",
+  "publishDate": "2027-03-19",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "peninsulas-continents-10",
+        "rivalGroupId": "group-2",
+        "risk": "Kamchatka lies near Alaska across the Bering Sea.",
+        "resolution": "Kamchatka is in the Russian Far East in Asia (group-4)."
+      },
+      {
+        "itemId": "peninsulas-continents-7",
+        "rivalGroupId": "group-1",
+        "risk": "The Arabian Peninsula is separated from Africa only by the narrow Red Sea.",
+        "resolution": "Geographically, the Arabian Peninsula is part of West Asia (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

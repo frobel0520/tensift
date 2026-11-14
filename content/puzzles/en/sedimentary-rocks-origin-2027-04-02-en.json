@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sedimentary-rocks-origin-2027-04-02-en",
+  "puzzleFamilyId": "sedimentary-rocks-origin-001",
+  "locale": "en",
+  "publishDate": "2027-04-02",
+  "timezone": "UTC",
+  "theme": "Rock Types by Class",
+  "items": [
+    {
+      "itemId": "sedimentary-rocks-origin-4",
+      "label": "Granite"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-8",
+      "label": "Shale"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-1",
+      "label": "Marble"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-6",
+      "label": "Diorite"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-10",
+      "label": "Siltstone"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-2",
+      "label": "Slate"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-7",
+      "label": "Sandstone"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-5",
+      "label": "Gabbro"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-9",
+      "label": "Conglomerate"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-3",
+      "label": "Schist"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Geological rock origin (Foliated Metamorphic, Non-foliated Metamorphic, Intrusive Igneous, or Clastic Sedimentary)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Non-Foliated Metamorphic",
+        "capacity": 1,
+        "itemIds": [
+          "sedimentary-rocks-origin-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Foliated Metamorphic",
+        "capacity": 2,
+        "itemIds": [
+          "sedimentary-rocks-origin-2",
+          "sedimentary-rocks-origin-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Intrusive Igneous",
+        "capacity": 3,
+        "itemIds": [
+          "sedimentary-rocks-origin-4",
+          "sedimentary-rocks-origin-5",
+          "sedimentary-rocks-origin-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Clastic Sedimentary",
+        "capacity": 4,
+        "itemIds": [
+          "sedimentary-rocks-origin-7",
+          "sedimentary-rocks-origin-8",
+          "sedimentary-rocks-origin-9",
+          "sedimentary-rocks-origin-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by specific rock class: Non-foliated Metamorphic (Marble), Foliated Metamorphic (Slate, Schist), Intrusive Igneous (Granite, Gabbro, Diorite), and Clastic Sedimentary (Sandstone, Shale, Conglomerate, Siltstone).",
+  "sources": [
+    {
+      "title": "USGS: Three Types of Rock",
+      "url": "https://www.usgs.gov/faqs/what-are-three-main-types-rocks",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.64
+  },
+  "status": "scheduled"
+}

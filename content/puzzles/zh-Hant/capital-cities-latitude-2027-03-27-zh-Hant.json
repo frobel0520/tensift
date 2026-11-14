@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "capital-cities-latitude-2027-03-27-zh-hant",
+  "puzzleFamilyId": "capital-cities-latitude-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-27",
+  "timezone": "UTC",
+  "theme": "世界首都的緯度帶",
+  "items": [
+    {
+      "itemId": "capital-cities-latitude-4",
+      "label": "基多"
+    },
+    {
+      "itemId": "capital-cities-latitude-8",
+      "label": "威靈頓"
+    },
+    {
+      "itemId": "capital-cities-latitude-1",
+      "label": "曼谷"
+    },
+    {
+      "itemId": "capital-cities-latitude-6",
+      "label": "新加坡"
+    },
+    {
+      "itemId": "capital-cities-latitude-10",
+      "label": "巴西利亞"
+    },
+    {
+      "itemId": "capital-cities-latitude-2",
+      "label": "雷克雅維克"
+    },
+    {
+      "itemId": "capital-cities-latitude-7",
+      "label": "坎培拉"
+    },
+    {
+      "itemId": "capital-cities-latitude-5",
+      "label": "坎帕拉"
+    },
+    {
+      "itemId": "capital-cities-latitude-9",
+      "label": "普利托利亞"
+    },
+    {
+      "itemId": "capital-cities-latitude-3",
+      "label": "赫爾辛基"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各國首都所在的緯度帶（10°–20°N、60°N 以上極北、赤道附近 5° 內、南半球）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "北半球熱帶（10°–20°N）",
+        "capacity": 1,
+        "itemIds": [
+          "capital-cities-latitude-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "高緯度（60°N 以上）",
+        "capacity": 2,
+        "itemIds": [
+          "capital-cities-latitude-2",
+          "capital-cities-latitude-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "赤道附近（5° 以內）",
+        "capacity": 3,
+        "itemIds": [
+          "capital-cities-latitude-4",
+          "capital-cities-latitude-5",
+          "capital-cities-latitude-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "南半球（5°S 以南）",
+        "capacity": 4,
+        "itemIds": [
+          "capital-cities-latitude-7",
+          "capital-cities-latitude-8",
+          "capital-cities-latitude-9",
+          "capital-cities-latitude-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依緯度帶分類：北半球熱帶 10°–20°N（曼谷）、高緯度 >60°N（雷克雅維克、赫爾辛基）、赤道附近 5° 內（基多、坎帕拉、新加坡）與南半球（坎培拉、威靈頓、普利托利亞、巴西利亞）。",
+  "sources": [
+    {
+      "title": "UN: World Capital Cities",
+      "url": "https://unstats.un.org/unsd/methodology/m49/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

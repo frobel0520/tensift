@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sovereign-microstates-region-2027-04-09-zh-hant",
+  "puzzleFamilyId": "sovereign-microstates-region-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-09",
+  "timezone": "UTC",
+  "theme": "世界袖珍國家地區分布",
+  "items": [
+    {
+      "itemId": "sovereign-microstates-region-4",
+      "label": "諾魯"
+    },
+    {
+      "itemId": "sovereign-microstates-region-8",
+      "label": "摩納哥"
+    },
+    {
+      "itemId": "sovereign-microstates-region-1",
+      "label": "新加坡"
+    },
+    {
+      "itemId": "sovereign-microstates-region-6",
+      "label": "帛琉"
+    },
+    {
+      "itemId": "sovereign-microstates-region-10",
+      "label": "列支敦斯登"
+    },
+    {
+      "itemId": "sovereign-microstates-region-2",
+      "label": "馬爾地夫"
+    },
+    {
+      "itemId": "sovereign-microstates-region-7",
+      "label": "梵蒂岡"
+    },
+    {
+      "itemId": "sovereign-microstates-region-5",
+      "label": "吐瓦魯"
+    },
+    {
+      "itemId": "sovereign-microstates-region-9",
+      "label": "聖馬利諾"
+    },
+    {
+      "itemId": "sovereign-microstates-region-3",
+      "label": "塞席爾"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各極小面積主權國家所在的地理區域",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "亞洲",
+        "capacity": 1,
+        "itemIds": [
+          "sovereign-microstates-region-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "印度洋",
+        "capacity": 2,
+        "itemIds": [
+          "sovereign-microstates-region-2",
+          "sovereign-microstates-region-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "太平洋",
+        "capacity": 3,
+        "itemIds": [
+          "sovereign-microstates-region-4",
+          "sovereign-microstates-region-5",
+          "sovereign-microstates-region-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "歐洲",
+        "capacity": 4,
+        "itemIds": [
+          "sovereign-microstates-region-7",
+          "sovereign-microstates-region-8",
+          "sovereign-microstates-region-9",
+          "sovereign-microstates-region-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依地理區域分類：亞洲（新加坡）、印度洋（馬爾地夫、塞席爾）、太平洋（諾魯、吐瓦魯、帛琉）與歐洲（梵蒂岡、摩納哥、聖馬利諾、列支敦斯登）。",
+  "sources": [
+    {
+      "title": "UN Member States & Territories",
+      "url": "https://www.un.org/en/about-us/member-states",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

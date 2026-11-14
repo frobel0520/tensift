@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "country-driving-side-2027-03-28-es-419",
+  "puzzleFamilyId": "country-driving-side-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-28",
+  "timezone": "UTC",
+  "theme": "Sentido de circulación vial",
+  "items": [
+    {
+      "itemId": "country-driving-side-4",
+      "label": "Sudáfrica"
+    },
+    {
+      "itemId": "country-driving-side-8",
+      "label": "Canadá"
+    },
+    {
+      "itemId": "country-driving-side-1",
+      "label": "Japón"
+    },
+    {
+      "itemId": "country-driving-side-6",
+      "label": "Tanzania"
+    },
+    {
+      "itemId": "country-driving-side-10",
+      "label": "Brasil"
+    },
+    {
+      "itemId": "country-driving-side-2",
+      "label": "Guyana"
+    },
+    {
+      "itemId": "country-driving-side-7",
+      "label": "Estados Unidos"
+    },
+    {
+      "itemId": "country-driving-side-5",
+      "label": "Kenia"
+    },
+    {
+      "itemId": "country-driving-side-9",
+      "label": "México"
+    },
+    {
+      "itemId": "country-driving-side-3",
+      "label": "Surinam"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Lado de circulación y región geográfica de cada país",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Izquierda (Asia Oriental)",
+        "capacity": 1,
+        "itemIds": [
+          "country-driving-side-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Izquierda (Sudamérica)",
+        "capacity": 2,
+        "itemIds": [
+          "country-driving-side-2",
+          "country-driving-side-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Izquierda (África)",
+        "capacity": 3,
+        "itemIds": [
+          "country-driving-side-4",
+          "country-driving-side-5",
+          "country-driving-side-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Derecha (América)",
+        "capacity": 4,
+        "itemIds": [
+          "country-driving-side-7",
+          "country-driving-side-8",
+          "country-driving-side-9",
+          "country-driving-side-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por sentido y región: izquierda en Asia Oriental (Japón), izquierda en Sudamérica (Guyana, Surinam), izquierda en África (Sudáfrica, Kenia, Tanzania) y derecha en América (EE. UU., Canadá, México, Brasil).",
+  "sources": [
+    {
+      "title": "Britannica: Rule of the Road",
+      "url": "https://www.britannica.com/topic/rule-of-the-road",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

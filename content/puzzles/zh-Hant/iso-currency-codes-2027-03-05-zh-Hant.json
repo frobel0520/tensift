@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "iso-currency-codes-2027-03-05-zh-hant",
+  "puzzleFamilyId": "iso-currency-codes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-05",
+  "timezone": "UTC",
+  "theme": "ISO 4217 貨幣代碼",
+  "items": [
+    {
+      "itemId": "iso-currency-codes-4",
+      "label": "CAD（加幣）"
+    },
+    {
+      "itemId": "iso-currency-codes-8",
+      "label": "GBP（英鎊）"
+    },
+    {
+      "itemId": "iso-currency-codes-1",
+      "label": "ZAR（南非蘭特）"
+    },
+    {
+      "itemId": "iso-currency-codes-6",
+      "label": "MXN（墨西哥披索）"
+    },
+    {
+      "itemId": "iso-currency-codes-10",
+      "label": "NOK（挪威克朗）"
+    },
+    {
+      "itemId": "iso-currency-codes-2",
+      "label": "AUD（澳幣）"
+    },
+    {
+      "itemId": "iso-currency-codes-7",
+      "label": "EUR（歐元）"
+    },
+    {
+      "itemId": "iso-currency-codes-5",
+      "label": "BRL（巴西雷亞爾）"
+    },
+    {
+      "itemId": "iso-currency-codes-9",
+      "label": "CHF（瑞士法郎）"
+    },
+    {
+      "itemId": "iso-currency-codes-3",
+      "label": "NZD（紐幣）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各 ISO 4217 貨幣代碼主要流通的地理區域",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "非洲",
+        "capacity": 1,
+        "itemIds": [
+          "iso-currency-codes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "大洋洲",
+        "capacity": 2,
+        "itemIds": [
+          "iso-currency-codes-2",
+          "iso-currency-codes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "美洲",
+        "capacity": 3,
+        "itemIds": [
+          "iso-currency-codes-4",
+          "iso-currency-codes-5",
+          "iso-currency-codes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "歐洲",
+        "capacity": 4,
+        "itemIds": [
+          "iso-currency-codes-7",
+          "iso-currency-codes-8",
+          "iso-currency-codes-9",
+          "iso-currency-codes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依主要流通區域分類：非洲（ZAR 南非蘭特）、大洋洲（AUD 澳幣、NZD 紐幣）、美洲（CAD 加幣、BRL 巴西雷亞爾、MXN 墨西哥披索）與歐洲（EUR 歐元、GBP 英鎊、CHF 瑞士法郎、NOK 挪威克朗）。",
+  "sources": [
+    {
+      "title": "ISO 4217 Currency Codes",
+      "url": "https://www.iso.org/iso-4217-currency-codes.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

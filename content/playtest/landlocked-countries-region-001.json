@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "landlocked-countries-region-001",
+  "theme": "Landlocked Countries",
+  "publishDate": "2027-03-10",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "landlocked-countries-region-1",
+        "rivalGroupId": "group-3",
+        "risk": "Uzbekistan is in Asia like Mongolia, Nepal, and Laos.",
+        "resolution": "Uzbekistan is uniquely double-landlocked—every neighbor is also landlocked (group-1), unlike Mongolia, Nepal, and Laos (group-3)."
+      },
+      {
+        "itemId": "landlocked-countries-region-2",
+        "rivalGroupId": "group-4",
+        "risk": "Bolivia has a naval force for Lake Titicaca and rivers.",
+        "resolution": "Bolivia and Paraguay are the only two landlocked countries in South America (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

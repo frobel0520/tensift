@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "straits-regions-2027-03-16-zh-hant",
+  "puzzleFamilyId": "straits-regions-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-16",
+  "timezone": "UTC",
+  "theme": "世界海峽所在區域",
+  "items": [
+    {
+      "itemId": "straits-regions-4",
+      "label": "麥哲倫海峽"
+    },
+    {
+      "itemId": "straits-regions-8",
+      "label": "巽他海峽"
+    },
+    {
+      "itemId": "straits-regions-1",
+      "label": "白令海峽"
+    },
+    {
+      "itemId": "straits-regions-6",
+      "label": "佛羅里達海峽"
+    },
+    {
+      "itemId": "straits-regions-10",
+      "label": "朝鮮海峽"
+    },
+    {
+      "itemId": "straits-regions-2",
+      "label": "直布羅陀海峽"
+    },
+    {
+      "itemId": "straits-regions-7",
+      "label": "麻六甲海峽"
+    },
+    {
+      "itemId": "straits-regions-5",
+      "label": "胡安德富卡海峽"
+    },
+    {
+      "itemId": "straits-regions-9",
+      "label": "臺灣海峽"
+    },
+    {
+      "itemId": "straits-regions-3",
+      "label": "曼德海峽"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各重要海峽所在的地理區域",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "北冰洋—太平洋門戶",
+        "capacity": 1,
+        "itemIds": [
+          "straits-regions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "地中海與紅海門戶",
+        "capacity": 2,
+        "itemIds": [
+          "straits-regions-2",
+          "straits-regions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "美洲海域",
+        "capacity": 3,
+        "itemIds": [
+          "straits-regions-4",
+          "straits-regions-5",
+          "straits-regions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "東亞與東南亞",
+        "capacity": 4,
+        "itemIds": [
+          "straits-regions-7",
+          "straits-regions-8",
+          "straits-regions-9",
+          "straits-regions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依地理區域分類：白令極地（白令海峽）、歐非／紅海門戶（直布羅陀海峽、曼德海峽）、美洲（麥哲倫海峽、胡安德富卡海峽、佛羅里達海峽）與東亞／東南亞（麻六甲海峽、巽他海峽、臺灣海峽、朝鮮海峽）。",
+  "sources": [
+    {
+      "title": "Britannica: Strait Geography",
+      "url": "https://www.britannica.com/science/strait",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.46
+  },
+  "status": "scheduled"
+}

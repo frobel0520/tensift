@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "marginal-seas-oceans-001",
+  "theme": "Marginal Seas by Ocean",
+  "publishDate": "2027-03-04",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "marginal-seas-oceans-1",
+        "rivalGroupId": "group-4",
+        "risk": "Beaufort Sea borders Alaska and Yukon near the Pacific side.",
+        "resolution": "It lies north of Alaska and Canada in the Arctic Ocean (group-1), separated from the Bering Sea by the Chukchi Sea."
+      },
+      {
+        "itemId": "marginal-seas-oceans-3",
+        "rivalGroupId": "group-4",
+        "risk": "Andaman Sea lies near Southeast Asia.",
+        "resolution": "It sits west of the Malay Peninsula and Myanmar, forming part of the Indian Ocean (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

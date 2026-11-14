@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "karst-landforms-speleothems-001",
+  "theme": "Karst & Cave Formations",
+  "publishDate": "2027-03-25",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "karst-landforms-speleothems-1",
+        "rivalGroupId": "group-2",
+        "risk": "Columns stand on the cave floor.",
+        "resolution": "A column forms only when a ceiling stalactite and floor stalagmite merge together (group-1)."
+      },
+      {
+        "itemId": "karst-landforms-speleothems-4",
+        "rivalGroupId": "group-2",
+        "risk": "Stalactite and stalagmite are frequently swapped.",
+        "resolution": "Stalactites hang from the ceiling (group-3), while stalagmites grow upward from the floor (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

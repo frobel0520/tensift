@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "calendar-leap-rules-2027-03-30-es-419",
+  "puzzleFamilyId": "calendar-leap-rules-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-30",
+  "timezone": "UTC",
+  "theme": "Sistemas de calendario y años bisiestos",
+  "items": [
+    {
+      "itemId": "calendar-leap-rules-4",
+      "label": "Calendario juliano"
+    },
+    {
+      "itemId": "calendar-leap-rules-8",
+      "label": "Calendario juliano revisado"
+    },
+    {
+      "itemId": "calendar-leap-rules-1",
+      "label": "Calendario islámico"
+    },
+    {
+      "itemId": "calendar-leap-rules-6",
+      "label": "Calendario etíope"
+    },
+    {
+      "itemId": "calendar-leap-rules-10",
+      "label": "Calendario baháʼí"
+    },
+    {
+      "itemId": "calendar-leap-rules-2",
+      "label": "Calendario chino tradicional"
+    },
+    {
+      "itemId": "calendar-leap-rules-7",
+      "label": "Calendario gregoriano"
+    },
+    {
+      "itemId": "calendar-leap-rules-5",
+      "label": "Calendario copto"
+    },
+    {
+      "itemId": "calendar-leap-rules-9",
+      "label": "Calendario persa solar"
+    },
+    {
+      "itemId": "calendar-leap-rules-3",
+      "label": "Calendario hebreo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Base astronómica y regla de ajuste de cada calendario",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Lunar puro (sin bisiesto)",
+        "capacity": 1,
+        "itemIds": [
+          "calendar-leap-rules-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Lunisolar (mes intercalar)",
+        "capacity": 2,
+        "itemIds": [
+          "calendar-leap-rules-2",
+          "calendar-leap-rules-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Solar (bisiesto cada 4 años)",
+        "capacity": 3,
+        "itemIds": [
+          "calendar-leap-rules-4",
+          "calendar-leap-rules-5",
+          "calendar-leap-rules-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Solar (ajuste secular)",
+        "capacity": 4,
+        "itemIds": [
+          "calendar-leap-rules-7",
+          "calendar-leap-rules-8",
+          "calendar-leap-rules-9",
+          "calendar-leap-rules-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por base y ajuste: lunar puro (calendario islámico), lunisolar con mes bisiesto (chino tradicional, hebreo), solar juliano cada 4 años (juliano, copto, etíope) y solar con corrección secular (gregoriano, juliano revisado, persa solar, baháʼí).",
+  "sources": [
+    {
+      "title": "USNO: Calendars and Leap Years",
+      "url": "https://aa.usno.navy.mil/faq/calendars",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.7
+  },
+  "status": "scheduled"
+}

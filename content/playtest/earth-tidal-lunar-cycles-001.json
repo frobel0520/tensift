@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "earth-tidal-lunar-cycles-001",
+  "theme": "Tides & Coastal Water Cycles",
+  "publishDate": "2027-04-10",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "earth-tidal-lunar-cycles-2",
+        "rivalGroupId": "group-4",
+        "risk": "Spring tides occur on a fortnightly cycle.",
+        "resolution": "Spring and neap tides describe fortnightly amplitude extremes from Sun–Moon alignment (group-2), whereas diurnal/semidiurnal/mixed/nodal describe periodic waveform types (group-4)."
+      },
+      {
+        "itemId": "earth-tidal-lunar-cycles-1",
+        "rivalGroupId": "group-3",
+        "risk": "A tidal bore is an incoming surge of water.",
+        "resolution": "A tidal bore is a solitary wave propagating upriver against the current (group-1), rather than a standard open-water current phase (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

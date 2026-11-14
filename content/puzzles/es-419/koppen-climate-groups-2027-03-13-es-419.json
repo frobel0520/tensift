@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "koppen-climate-groups-2027-03-13-es-419",
+  "puzzleFamilyId": "koppen-climate-groups-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-13",
+  "timezone": "UTC",
+  "theme": "Clasificación climática de Köppen",
+  "items": [
+    {
+      "itemId": "koppen-climate-groups-4",
+      "label": "Desértico cálido (BWh)"
+    },
+    {
+      "itemId": "koppen-climate-groups-8",
+      "label": "Subtropical húmedo (Cfa)"
+    },
+    {
+      "itemId": "koppen-climate-groups-1",
+      "label": "Tundra (ET)"
+    },
+    {
+      "itemId": "koppen-climate-groups-6",
+      "label": "Semiárido cálido (BSh)"
+    },
+    {
+      "itemId": "koppen-climate-groups-10",
+      "label": "De montaña subtropical (Cwb)"
+    },
+    {
+      "itemId": "koppen-climate-groups-2",
+      "label": "Continental húmedo (Dfa)"
+    },
+    {
+      "itemId": "koppen-climate-groups-7",
+      "label": "Mediterráneo (Csa)"
+    },
+    {
+      "itemId": "koppen-climate-groups-5",
+      "label": "Desértico frío (BWk)"
+    },
+    {
+      "itemId": "koppen-climate-groups-9",
+      "label": "Oceánico (Cfb)"
+    },
+    {
+      "itemId": "koppen-climate-groups-3",
+      "label": "Subártico (Dfc)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Grupo principal de Köppen (E, D, B o C) de cada clima",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Grupo E (Polar)",
+        "capacity": 1,
+        "itemIds": [
+          "koppen-climate-groups-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Grupo D (Continental)",
+        "capacity": 2,
+        "itemIds": [
+          "koppen-climate-groups-2",
+          "koppen-climate-groups-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Grupo B (Árido)",
+        "capacity": 3,
+        "itemIds": [
+          "koppen-climate-groups-4",
+          "koppen-climate-groups-5",
+          "koppen-climate-groups-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Grupo C (Templado)",
+        "capacity": 4,
+        "itemIds": [
+          "koppen-climate-groups-7",
+          "koppen-climate-groups-8",
+          "koppen-climate-groups-9",
+          "koppen-climate-groups-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por letra principal de Köppen: E polar (Tundra ET), D continental (Dfa, Dfc), B árido (BWh, BWk, BSh) y C templado (Csa, Cfa, Cfb, Cwb).",
+  "sources": [
+    {
+      "title": "NOAA: Köppen-Geiger Climate Classification",
+      "url": "https://www.weather.gov/jetstream/climates",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.68
+  },
+  "status": "scheduled"
+}

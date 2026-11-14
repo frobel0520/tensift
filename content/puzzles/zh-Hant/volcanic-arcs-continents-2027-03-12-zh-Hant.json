@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "volcanic-arcs-continents-2027-03-12-zh-hant",
+  "puzzleFamilyId": "volcanic-arcs-continents-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-12",
+  "timezone": "UTC",
+  "theme": "世界名火山與大洲",
+  "items": [
+    {
+      "itemId": "volcanic-arcs-continents-4",
+      "label": "埃特納火山"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-8",
+      "label": "皮納圖博火山"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-1",
+      "label": "埃里伯斯山"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-6",
+      "label": "斯特龍博利火山"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-10",
+      "label": "默拉皮火山"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-2",
+      "label": "吉力馬札羅山"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-7",
+      "label": "富士山"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-5",
+      "label": "維蘇威火山"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-9",
+      "label": "喀拉喀托火山"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-3",
+      "label": "尼拉貢戈火山"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各知名火山所在的洲別（南極洲、非洲、歐洲或亞洲）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "南極洲",
+        "capacity": 1,
+        "itemIds": [
+          "volcanic-arcs-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "非洲",
+        "capacity": 2,
+        "itemIds": [
+          "volcanic-arcs-continents-2",
+          "volcanic-arcs-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "歐洲",
+        "capacity": 3,
+        "itemIds": [
+          "volcanic-arcs-continents-4",
+          "volcanic-arcs-continents-5",
+          "volcanic-arcs-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "亞洲",
+        "capacity": 4,
+        "itemIds": [
+          "volcanic-arcs-continents-7",
+          "volcanic-arcs-continents-8",
+          "volcanic-arcs-continents-9",
+          "volcanic-arcs-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依所屬大洲分類：南極洲（埃里伯斯山）、非洲（吉力馬札羅山、尼拉貢戈火山）、歐洲（埃特納火山、維蘇威火山、斯特龍博利火山）與亞洲（富士山、皮納圖博火山、喀拉喀托火山、默拉皮火山）。",
+  "sources": [
+    {
+      "title": "Smithsonian Global Volcanism Program",
+      "url": "https://volcano.si.edu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tectonic-plates-size-2027-03-14-es-419",
+  "puzzleFamilyId": "tectonic-plates-size-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-14",
+  "timezone": "UTC",
+  "theme": "Placas tectónicas por tamaño",
+  "items": [
+    {
+      "itemId": "tectonic-plates-size-4",
+      "label": "Placa Arábiga"
+    },
+    {
+      "itemId": "tectonic-plates-size-8",
+      "label": "Placa Euroasiática"
+    },
+    {
+      "itemId": "tectonic-plates-size-1",
+      "label": "Placa de Juan de Fuca"
+    },
+    {
+      "itemId": "tectonic-plates-size-6",
+      "label": "Placa de Nazca"
+    },
+    {
+      "itemId": "tectonic-plates-size-10",
+      "label": "Placa Norteamericana"
+    },
+    {
+      "itemId": "tectonic-plates-size-2",
+      "label": "Placa del Caribe"
+    },
+    {
+      "itemId": "tectonic-plates-size-7",
+      "label": "Placa del Pacífico"
+    },
+    {
+      "itemId": "tectonic-plates-size-5",
+      "label": "Placa Índica"
+    },
+    {
+      "itemId": "tectonic-plates-size-9",
+      "label": "Placa Africana"
+    },
+    {
+      "itemId": "tectonic-plates-size-3",
+      "label": "Placa de Cocos"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría de tamaño de cada placa tectónica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Microplaca (<1M km²)",
+        "capacity": 1,
+        "itemIds": [
+          "tectonic-plates-size-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Placa menor (1–5M km²)",
+        "capacity": 2,
+        "itemIds": [
+          "tectonic-plates-size-2",
+          "tectonic-plates-size-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Placa secundaria (5–20M km²)",
+        "capacity": 3,
+        "itemIds": [
+          "tectonic-plates-size-4",
+          "tectonic-plates-size-5",
+          "tectonic-plates-size-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Placa principal (>20M km²)",
+        "capacity": 4,
+        "itemIds": [
+          "tectonic-plates-size-7",
+          "tectonic-plates-size-8",
+          "tectonic-plates-size-9",
+          "tectonic-plates-size-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por tamaño: microplaca (Juan de Fuca), menores (Caribe, Cocos), secundarias (Arábiga, Índica, Nazca) y principales (Pacífica, Euroasiática, Africana, Norteamericana).",
+  "sources": [
+    {
+      "title": "USGS: Major Tectonic Plates",
+      "url": "https://www.usgs.gov/programs/earthquake-hazards/science/tectonic-plates",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.64
+  },
+  "status": "scheduled"
+}

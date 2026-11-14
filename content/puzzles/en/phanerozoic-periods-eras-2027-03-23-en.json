@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "phanerozoic-periods-eras-2027-03-23-en",
+  "puzzleFamilyId": "phanerozoic-periods-eras-001",
+  "locale": "en",
+  "publishDate": "2027-03-23",
+  "timezone": "UTC",
+  "theme": "Phanerozoic Geologic Periods",
+  "items": [
+    {
+      "itemId": "phanerozoic-periods-eras-4",
+      "label": "Triassic"
+    },
+    {
+      "itemId": "phanerozoic-periods-eras-8",
+      "label": "Ordovician"
+    },
+    {
+      "itemId": "phanerozoic-periods-eras-1",
+      "label": "Quaternary"
+    },
+    {
+      "itemId": "phanerozoic-periods-eras-6",
+      "label": "Cretaceous"
+    },
+    {
+      "itemId": "phanerozoic-periods-eras-10",
+      "label": "Devonian"
+    },
+    {
+      "itemId": "phanerozoic-periods-eras-2",
+      "label": "Paleogene"
+    },
+    {
+      "itemId": "phanerozoic-periods-eras-7",
+      "label": "Cambrian"
+    },
+    {
+      "itemId": "phanerozoic-periods-eras-5",
+      "label": "Jurassic"
+    },
+    {
+      "itemId": "phanerozoic-periods-eras-9",
+      "label": "Silurian"
+    },
+    {
+      "itemId": "phanerozoic-periods-eras-3",
+      "label": "Neogene"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Geologic era (Quaternary, Cenozoic Tertiary, Mesozoic, or Paleozoic) of each period",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Quaternary",
+        "capacity": 1,
+        "itemIds": [
+          "phanerozoic-periods-eras-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Earlier Cenozoic",
+        "capacity": 2,
+        "itemIds": [
+          "phanerozoic-periods-eras-2",
+          "phanerozoic-periods-eras-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Mesozoic Era",
+        "capacity": 3,
+        "itemIds": [
+          "phanerozoic-periods-eras-4",
+          "phanerozoic-periods-eras-5",
+          "phanerozoic-periods-eras-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Paleozoic Era",
+        "capacity": 4,
+        "itemIds": [
+          "phanerozoic-periods-eras-7",
+          "phanerozoic-periods-eras-8",
+          "phanerozoic-periods-eras-9",
+          "phanerozoic-periods-eras-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by geologic era: Quaternary (Quaternary), earlier Cenozoic (Paleogene, Neogene), Mesozoic (Triassic, Jurassic, Cretaceous), and Paleozoic (Cambrian, Ordovician, Silurian, Devonian).",
+  "sources": [
+    {
+      "title": "ICS: International Chronostratigraphic Chart",
+      "url": "https://stratigraphy.org/chart",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

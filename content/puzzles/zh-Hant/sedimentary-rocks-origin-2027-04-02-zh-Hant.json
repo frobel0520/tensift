@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sedimentary-rocks-origin-2027-04-02-zh-hant",
+  "puzzleFamilyId": "sedimentary-rocks-origin-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-02",
+  "timezone": "UTC",
+  "theme": "岩石三大類與亞類",
+  "items": [
+    {
+      "itemId": "sedimentary-rocks-origin-4",
+      "label": "花崗岩"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-8",
+      "label": "頁岩"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-1",
+      "label": "大理岩"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-6",
+      "label": "閃長岩"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-10",
+      "label": "粉砂岩"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-2",
+      "label": "板岩"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-7",
+      "label": "砂岩"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-5",
+      "label": "輝長岩"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-9",
+      "label": "礫岩"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-3",
+      "label": "片岩"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各岩石所屬的地質成因分類（葉理變質岩、無葉理變質岩、深成火成岩或碎屑沉積岩）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "無葉理變質岩",
+        "capacity": 1,
+        "itemIds": [
+          "sedimentary-rocks-origin-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "葉理變質岩",
+        "capacity": 2,
+        "itemIds": [
+          "sedimentary-rocks-origin-2",
+          "sedimentary-rocks-origin-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "深成火成岩",
+        "capacity": 3,
+        "itemIds": [
+          "sedimentary-rocks-origin-4",
+          "sedimentary-rocks-origin-5",
+          "sedimentary-rocks-origin-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "碎屑沉積岩",
+        "capacity": 4,
+        "itemIds": [
+          "sedimentary-rocks-origin-7",
+          "sedimentary-rocks-origin-8",
+          "sedimentary-rocks-origin-9",
+          "sedimentary-rocks-origin-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依岩石細分成因分類：無葉理變質岩（大理岩）、葉理變質岩（板岩、片岩）、深成火成岩（花崗岩、輝長岩、閃長岩）與碎屑沉積岩（砂岩、頁岩、礫岩、粉砂岩）。",
+  "sources": [
+    {
+      "title": "USGS: Three Types of Rock",
+      "url": "https://www.usgs.gov/faqs/what-are-three-main-types-rocks",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.64
+  },
+  "status": "scheduled"
+}

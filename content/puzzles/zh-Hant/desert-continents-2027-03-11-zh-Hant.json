@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "desert-continents-2027-03-11-zh-hant",
+  "puzzleFamilyId": "desert-continents-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-11",
+  "timezone": "UTC",
+  "theme": "世界沙漠與大洲",
+  "items": [
+    {
+      "itemId": "desert-continents-4",
+      "label": "撒哈拉沙漠"
+    },
+    {
+      "itemId": "desert-continents-8",
+      "label": "塔克拉瑪干沙漠"
+    },
+    {
+      "itemId": "desert-continents-1",
+      "label": "塔韋爾納斯沙漠"
+    },
+    {
+      "itemId": "desert-continents-6",
+      "label": "納米比沙漠"
+    },
+    {
+      "itemId": "desert-continents-10",
+      "label": "阿拉伯沙漠"
+    },
+    {
+      "itemId": "desert-continents-2",
+      "label": "莫哈韋沙漠"
+    },
+    {
+      "itemId": "desert-continents-7",
+      "label": "戈壁沙漠"
+    },
+    {
+      "itemId": "desert-continents-5",
+      "label": "喀拉哈里沙漠"
+    },
+    {
+      "itemId": "desert-continents-9",
+      "label": "塔爾沙漠"
+    },
+    {
+      "itemId": "desert-continents-3",
+      "label": "索諾拉沙漠"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各沙漠所在的洲別（歐洲、北美洲、非洲或亞洲）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "歐洲",
+        "capacity": 1,
+        "itemIds": [
+          "desert-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "北美洲",
+        "capacity": 2,
+        "itemIds": [
+          "desert-continents-2",
+          "desert-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "非洲",
+        "capacity": 3,
+        "itemIds": [
+          "desert-continents-4",
+          "desert-continents-5",
+          "desert-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "亞洲",
+        "capacity": 4,
+        "itemIds": [
+          "desert-continents-7",
+          "desert-continents-8",
+          "desert-continents-9",
+          "desert-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依所屬大洲分類：歐洲（塔韋爾納斯沙漠）、北美洲（莫哈韋沙漠、索諾拉沙漠）、非洲（撒哈拉沙漠、喀拉哈里沙漠、納米比沙漠）與亞洲（戈壁沙漠、塔克拉瑪干沙漠、塔爾沙漠、阿拉伯沙漠）。",
+  "sources": [
+    {
+      "title": "USGS: Deserts Geology and Resources",
+      "url": "https://pubs.usgs.gov/gip/deserts/types/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

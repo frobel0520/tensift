@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "marginal-seas-oceans-2027-03-04-zh-hant",
+  "puzzleFamilyId": "marginal-seas-oceans-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-04",
+  "timezone": "UTC",
+  "theme": "邊緣海所屬大洋",
+  "items": [
+    {
+      "itemId": "marginal-seas-oceans-4",
+      "label": "加勒比海"
+    },
+    {
+      "itemId": "marginal-seas-oceans-8",
+      "label": "珊瑚海"
+    },
+    {
+      "itemId": "marginal-seas-oceans-1",
+      "label": "波弗特海"
+    },
+    {
+      "itemId": "marginal-seas-oceans-6",
+      "label": "馬尾藻海"
+    },
+    {
+      "itemId": "marginal-seas-oceans-10",
+      "label": "塔斯曼海"
+    },
+    {
+      "itemId": "marginal-seas-oceans-2",
+      "label": "阿拉伯海"
+    },
+    {
+      "itemId": "marginal-seas-oceans-7",
+      "label": "白令海"
+    },
+    {
+      "itemId": "marginal-seas-oceans-5",
+      "label": "北海"
+    },
+    {
+      "itemId": "marginal-seas-oceans-9",
+      "label": "鄂霍次克海"
+    },
+    {
+      "itemId": "marginal-seas-oceans-3",
+      "label": "安達曼海"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各邊緣海所屬的主要大洋（北冰洋、印度洋、大西洋或太平洋）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "北冰洋",
+        "capacity": 1,
+        "itemIds": [
+          "marginal-seas-oceans-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "印度洋",
+        "capacity": 2,
+        "itemIds": [
+          "marginal-seas-oceans-2",
+          "marginal-seas-oceans-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "大西洋",
+        "capacity": 3,
+        "itemIds": [
+          "marginal-seas-oceans-4",
+          "marginal-seas-oceans-5",
+          "marginal-seas-oceans-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "太平洋",
+        "capacity": 4,
+        "itemIds": [
+          "marginal-seas-oceans-7",
+          "marginal-seas-oceans-8",
+          "marginal-seas-oceans-9",
+          "marginal-seas-oceans-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依各邊緣海所屬的主要大洋分類：北冰洋（波弗特海）、印度洋（阿拉伯海、安達曼海）、大西洋（加勒比海、北海、馬尾藻海）與太平洋（白令海、珊瑚海、鄂霍次克海、塔斯曼海）。",
+  "sources": [
+    {
+      "title": "IHO: Limits of Oceans and Seas",
+      "url": "https://iho.int/en/standards-and-specifications",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "lakes-origin-types-2027-04-08-en",
+  "puzzleFamilyId": "lakes-origin-types-001",
+  "locale": "en",
+  "publishDate": "2027-04-08",
+  "timezone": "UTC",
+  "theme": "Lakes by Geological Origin",
+  "items": [
+    {
+      "itemId": "lakes-origin-types-4",
+      "label": "Crater Lake (Oregon)"
+    },
+    {
+      "itemId": "lakes-origin-types-8",
+      "label": "Lake Tanganyika"
+    },
+    {
+      "itemId": "lakes-origin-types-1",
+      "label": "Lake Bosumtwi"
+    },
+    {
+      "itemId": "lakes-origin-types-6",
+      "label": "Lake Taupō"
+    },
+    {
+      "itemId": "lakes-origin-types-10",
+      "label": "Dead Sea"
+    },
+    {
+      "itemId": "lakes-origin-types-2",
+      "label": "Lake Chicot"
+    },
+    {
+      "itemId": "lakes-origin-types-7",
+      "label": "Lake Baikal"
+    },
+    {
+      "itemId": "lakes-origin-types-5",
+      "label": "Lake Toba"
+    },
+    {
+      "itemId": "lakes-origin-types-9",
+      "label": "Lake Malawi"
+    },
+    {
+      "itemId": "lakes-origin-types-3",
+      "label": "Carter Lake"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Geological formation origin (Impact Crater, Oxbow Fluvial, Volcanic Caldera, or Tectonic Rift/Basin)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Impact Crater Lake",
+        "capacity": 1,
+        "itemIds": [
+          "lakes-origin-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Oxbow Lakes (Fluvial)",
+        "capacity": 2,
+        "itemIds": [
+          "lakes-origin-types-2",
+          "lakes-origin-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Volcanic Caldera Lakes",
+        "capacity": 3,
+        "itemIds": [
+          "lakes-origin-types-4",
+          "lakes-origin-types-5",
+          "lakes-origin-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Tectonic Rift Lakes",
+        "capacity": 4,
+        "itemIds": [
+          "lakes-origin-types-7",
+          "lakes-origin-types-8",
+          "lakes-origin-types-9",
+          "lakes-origin-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by formation origin: Impact Crater (Lake Bosumtwi), Oxbow/Fluvial (Lake Chicot, Carter Lake), Volcanic Caldera (Crater Lake, Lake Toba, Lake Taupō), and Tectonic Rift/Basin (Lake Baikal, Lake Tanganyika, Lake Malawi, Dead Sea).",
+  "sources": [
+    {
+      "title": "USGS: How Lakes Form",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/science/lakes-and-reservoirs",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.7
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "calendar-leap-rules-2027-03-30-zh-hant",
+  "puzzleFamilyId": "calendar-leap-rules-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-30",
+  "timezone": "UTC",
+  "theme": "曆法種類與置閏規則",
+  "items": [
+    {
+      "itemId": "calendar-leap-rules-4",
+      "label": "儒略曆"
+    },
+    {
+      "itemId": "calendar-leap-rules-8",
+      "label": "修正儒略曆"
+    },
+    {
+      "itemId": "calendar-leap-rules-1",
+      "label": "伊斯蘭希吉來曆"
+    },
+    {
+      "itemId": "calendar-leap-rules-6",
+      "label": "衣索比亞曆"
+    },
+    {
+      "itemId": "calendar-leap-rules-10",
+      "label": "巴哈伊曆"
+    },
+    {
+      "itemId": "calendar-leap-rules-2",
+      "label": "傳統農曆"
+    },
+    {
+      "itemId": "calendar-leap-rules-7",
+      "label": "格里曆（公曆）"
+    },
+    {
+      "itemId": "calendar-leap-rules-5",
+      "label": "科普特曆"
+    },
+    {
+      "itemId": "calendar-leap-rules-9",
+      "label": "伊朗太陽希吉來曆"
+    },
+    {
+      "itemId": "calendar-leap-rules-3",
+      "label": "希伯來曆"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各傳統與現代曆法的天文基準與置閏規則",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "純陰曆（不置閏）",
+        "capacity": 1,
+        "itemIds": [
+          "calendar-leap-rules-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "陰陽合曆（置閏月）",
+        "capacity": 2,
+        "itemIds": [
+          "calendar-leap-rules-2",
+          "calendar-leap-rules-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "陽曆（單純四年一閏）",
+        "capacity": 3,
+        "itemIds": [
+          "calendar-leap-rules-4",
+          "calendar-leap-rules-5",
+          "calendar-leap-rules-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "陽曆（百年修正置閏）",
+        "capacity": 4,
+        "itemIds": [
+          "calendar-leap-rules-7",
+          "calendar-leap-rules-8",
+          "calendar-leap-rules-9",
+          "calendar-leap-rules-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依天文基準與置閏規則分類：純陰曆無閏（伊斯蘭希吉來曆）、陰陽合曆置閏月（農曆、希伯來曆）、四年一閏陽曆（儒略曆、科普特曆、衣索比亞曆）與百年修正陽曆（公曆／格里曆、修正儒略曆、伊朗太陽希吉來曆、巴哈伊曆）。",
+  "sources": [
+    {
+      "title": "USNO: Calendars and Leap Years",
+      "url": "https://aa.usno.navy.mil/faq/calendars",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.7
+  },
+  "status": "scheduled"
+}

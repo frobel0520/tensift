@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "world-waterfalls-continents-2027-03-31-es-419",
+  "puzzleFamilyId": "world-waterfalls-continents-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-31",
+  "timezone": "UTC",
+  "theme": "Cataratas famosas por continente",
+  "items": [
+    {
+      "itemId": "world-waterfalls-continents-4",
+      "label": "Cataratas del Niágara"
+    },
+    {
+      "itemId": "world-waterfalls-continents-8",
+      "label": "Salto del Tugela"
+    },
+    {
+      "itemId": "world-waterfalls-continents-1",
+      "label": "Cataratas del Rin"
+    },
+    {
+      "itemId": "world-waterfalls-continents-6",
+      "label": "Cataratas Multnomah"
+    },
+    {
+      "itemId": "world-waterfalls-continents-10",
+      "label": "Cataratas Augrabies"
+    },
+    {
+      "itemId": "world-waterfalls-continents-2",
+      "label": "Salto Ángel"
+    },
+    {
+      "itemId": "world-waterfalls-continents-7",
+      "label": "Cataratas Victoria"
+    },
+    {
+      "itemId": "world-waterfalls-continents-5",
+      "label": "Cataratas de Yosemite"
+    },
+    {
+      "itemId": "world-waterfalls-continents-9",
+      "label": "Cataratas del Nilo Azul"
+    },
+    {
+      "itemId": "world-waterfalls-continents-3",
+      "label": "Cataratas del Iguazú"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Continente donde se ubica cada catarata",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Europa",
+        "capacity": 1,
+        "itemIds": [
+          "world-waterfalls-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Sudamérica",
+        "capacity": 2,
+        "itemIds": [
+          "world-waterfalls-continents-2",
+          "world-waterfalls-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Norteamérica",
+        "capacity": 3,
+        "itemIds": [
+          "world-waterfalls-continents-4",
+          "world-waterfalls-continents-5",
+          "world-waterfalls-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "África",
+        "capacity": 4,
+        "itemIds": [
+          "world-waterfalls-continents-7",
+          "world-waterfalls-continents-8",
+          "world-waterfalls-continents-9",
+          "world-waterfalls-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por continente: Europa (cataratas del Rin), Sudamérica (Salto Ángel, Cataratas del Iguazú), Norteamérica (Niágara, Yosemite, Multnomah) y África (Victoria, Tugela, Nilo Azul, Augrabies).",
+  "sources": [
+    {
+      "title": "Britannica: Waterfall",
+      "url": "https://www.britannica.com/science/waterfall-geology",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

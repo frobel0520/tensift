@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "national-parks-continents-001",
+  "theme": "Iconic National Parks",
+  "publishDate": "2027-03-22",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "national-parks-continents-1",
+        "rivalGroupId": "group-3",
+        "risk": "Kakadu sounds like an African place name.",
+        "resolution": "Kakadu National Park is in the Northern Territory of Australia, Oceania (group-1)."
+      },
+      {
+        "itemId": "national-parks-continents-10",
+        "rivalGroupId": "group-3",
+        "risk": "Banff is in Canada rather than the US.",
+        "resolution": "Both Canada and the US are in North America (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

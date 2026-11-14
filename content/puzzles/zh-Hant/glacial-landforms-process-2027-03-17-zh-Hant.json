@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "glacial-landforms-process-2027-03-17-zh-hant",
+  "puzzleFamilyId": "glacial-landforms-process-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-17",
+  "timezone": "UTC",
+  "theme": "冰川地形分類",
+  "items": [
+    {
+      "itemId": "glacial-landforms-process-4",
+      "label": "冰磧"
+    },
+    {
+      "itemId": "glacial-landforms-process-8",
+      "label": "刃嶺"
+    },
+    {
+      "itemId": "glacial-landforms-process-1",
+      "label": "永凍土"
+    },
+    {
+      "itemId": "glacial-landforms-process-6",
+      "label": "蛇形丘"
+    },
+    {
+      "itemId": "glacial-landforms-process-10",
+      "label": "峽灣"
+    },
+    {
+      "itemId": "glacial-landforms-process-2",
+      "label": "冰水外洗平原"
+    },
+    {
+      "itemId": "glacial-landforms-process-7",
+      "label": "冰斗"
+    },
+    {
+      "itemId": "glacial-landforms-process-5",
+      "label": "鼓丘"
+    },
+    {
+      "itemId": "glacial-landforms-process-9",
+      "label": "角峰"
+    },
+    {
+      "itemId": "glacial-landforms-process-3",
+      "label": "冰磧壺穴湖"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各冰川相關地形的形成作用類型（凍土、融水、堆積或侵蝕）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "冰緣凍土",
+        "capacity": 1,
+        "itemIds": [
+          "glacial-landforms-process-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "冰水作用地形",
+        "capacity": 2,
+        "itemIds": [
+          "glacial-landforms-process-2",
+          "glacial-landforms-process-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "冰川堆積地形",
+        "capacity": 3,
+        "itemIds": [
+          "glacial-landforms-process-4",
+          "glacial-landforms-process-5",
+          "glacial-landforms-process-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "冰川侵蝕地形",
+        "capacity": 4,
+        "itemIds": [
+          "glacial-landforms-process-7",
+          "glacial-landforms-process-8",
+          "glacial-landforms-process-9",
+          "glacial-landforms-process-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依形成作用分類：凍土環境（永凍土）、冰水融水（冰水外洗平原、冰磧湖／壺穴湖）、冰川堆積（冰磧、鼓丘、蛇形丘）與冰川侵蝕（冰斗、刃嶺、角峰、峽灣）。",
+  "sources": [
+    {
+      "title": "NPS: Glacial Landforms",
+      "url": "https://www.nps.gov/subjects/geology/glacial-landforms.htm",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.65
+  },
+  "status": "scheduled"
+}

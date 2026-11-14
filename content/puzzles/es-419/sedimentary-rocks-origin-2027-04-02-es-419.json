@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sedimentary-rocks-origin-2027-04-02-es-419",
+  "puzzleFamilyId": "sedimentary-rocks-origin-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-02",
+  "timezone": "UTC",
+  "theme": "Tipos de rocas por origen",
+  "items": [
+    {
+      "itemId": "sedimentary-rocks-origin-4",
+      "label": "Granito"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-8",
+      "label": "Lutita"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-1",
+      "label": "Mármol"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-6",
+      "label": "Diorita"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-10",
+      "label": "Limolita"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-2",
+      "label": "Pizarra"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-7",
+      "label": "Arenisca"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-5",
+      "label": "Gabro"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-9",
+      "label": "Conglomerado"
+    },
+    {
+      "itemId": "sedimentary-rocks-origin-3",
+      "label": "Esquisto"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Origen geológico específico de cada roca",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Metamórfica no foliada",
+        "capacity": 1,
+        "itemIds": [
+          "sedimentary-rocks-origin-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Metamórfica foliada",
+        "capacity": 2,
+        "itemIds": [
+          "sedimentary-rocks-origin-2",
+          "sedimentary-rocks-origin-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Ígnea intrusiva",
+        "capacity": 3,
+        "itemIds": [
+          "sedimentary-rocks-origin-4",
+          "sedimentary-rocks-origin-5",
+          "sedimentary-rocks-origin-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Sedimentaria clástica",
+        "capacity": 4,
+        "itemIds": [
+          "sedimentary-rocks-origin-7",
+          "sedimentary-rocks-origin-8",
+          "sedimentary-rocks-origin-9",
+          "sedimentary-rocks-origin-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por clase específica: metamórfica no foliada (mármol), metamórfica foliada (pizarra, esquisto), ígnea intrusiva (granito, gabro, diorita) y sedimentaria clástica (arenisca, lutita, conglomerado, limolita).",
+  "sources": [
+    {
+      "title": "USGS: Three Types of Rock",
+      "url": "https://www.usgs.gov/faqs/what-are-three-main-types-rocks",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.64
+  },
+  "status": "scheduled"
+}

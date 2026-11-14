@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "world-waterfalls-continents-2027-03-31-en",
+  "puzzleFamilyId": "world-waterfalls-continents-001",
+  "locale": "en",
+  "publishDate": "2027-03-31",
+  "timezone": "UTC",
+  "theme": "Famous Waterfalls",
+  "items": [
+    {
+      "itemId": "world-waterfalls-continents-4",
+      "label": "Niagara Falls"
+    },
+    {
+      "itemId": "world-waterfalls-continents-8",
+      "label": "Tugela Falls"
+    },
+    {
+      "itemId": "world-waterfalls-continents-1",
+      "label": "Rhine Falls"
+    },
+    {
+      "itemId": "world-waterfalls-continents-6",
+      "label": "Multnomah Falls"
+    },
+    {
+      "itemId": "world-waterfalls-continents-10",
+      "label": "Augrabies Falls"
+    },
+    {
+      "itemId": "world-waterfalls-continents-2",
+      "label": "Angel Falls"
+    },
+    {
+      "itemId": "world-waterfalls-continents-7",
+      "label": "Victoria Falls"
+    },
+    {
+      "itemId": "world-waterfalls-continents-5",
+      "label": "Yosemite Falls"
+    },
+    {
+      "itemId": "world-waterfalls-continents-9",
+      "label": "Blue Nile Falls"
+    },
+    {
+      "itemId": "world-waterfalls-continents-3",
+      "label": "Iguazu Falls"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Continent (Europe, South America, North America, or Africa) of each waterfall",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Europe",
+        "capacity": 1,
+        "itemIds": [
+          "world-waterfalls-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "South America",
+        "capacity": 2,
+        "itemIds": [
+          "world-waterfalls-continents-2",
+          "world-waterfalls-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "North America",
+        "capacity": 3,
+        "itemIds": [
+          "world-waterfalls-continents-4",
+          "world-waterfalls-continents-5",
+          "world-waterfalls-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Africa",
+        "capacity": 4,
+        "itemIds": [
+          "world-waterfalls-continents-7",
+          "world-waterfalls-continents-8",
+          "world-waterfalls-continents-9",
+          "world-waterfalls-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by continent: Europe (Rhine Falls), South America (Angel Falls, Iguazu Falls), North America (Niagara Falls, Yosemite Falls, Multnomah Falls), and Africa (Victoria Falls, Tugela Falls, Blue Nile Falls, Augrabies Falls).",
+  "sources": [
+    {
+      "title": "Britannica: Waterfall",
+      "url": "https://www.britannica.com/science/waterfall-geology",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

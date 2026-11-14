@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "solar-terms-seasons-2027-03-07-en",
+  "puzzleFamilyId": "solar-terms-seasons-001",
+  "locale": "en",
+  "publishDate": "2027-03-07",
+  "timezone": "UTC",
+  "theme": "24 Solar Terms by Season",
+  "items": [
+    {
+      "itemId": "solar-terms-seasons-4",
+      "label": "Lixia (Start of Summer)"
+    },
+    {
+      "itemId": "solar-terms-seasons-8",
+      "label": "Bailu (White Dew)"
+    },
+    {
+      "itemId": "solar-terms-seasons-1",
+      "label": "Dongzhi (Winter Solstice)"
+    },
+    {
+      "itemId": "solar-terms-seasons-6",
+      "label": "Dashu (Major Heat)"
+    },
+    {
+      "itemId": "solar-terms-seasons-10",
+      "label": "Shuangjiang (Frost Descent)"
+    },
+    {
+      "itemId": "solar-terms-seasons-2",
+      "label": "Lichun (Start of Spring)"
+    },
+    {
+      "itemId": "solar-terms-seasons-7",
+      "label": "Liqiu (Start of Autumn)"
+    },
+    {
+      "itemId": "solar-terms-seasons-5",
+      "label": "Xiazhi (Summer Solstice)"
+    },
+    {
+      "itemId": "solar-terms-seasons-9",
+      "label": "Qiufen (Autumn Equinox)"
+    },
+    {
+      "itemId": "solar-terms-seasons-3",
+      "label": "Chunfen (Spring Equinox)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Astronomical season (Winter, Spring, Summer, or Autumn) of each traditional solar term",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Winter",
+        "capacity": 1,
+        "itemIds": [
+          "solar-terms-seasons-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Spring",
+        "capacity": 2,
+        "itemIds": [
+          "solar-terms-seasons-2",
+          "solar-terms-seasons-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Summer",
+        "capacity": 3,
+        "itemIds": [
+          "solar-terms-seasons-4",
+          "solar-terms-seasons-5",
+          "solar-terms-seasons-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Autumn",
+        "capacity": 4,
+        "itemIds": [
+          "solar-terms-seasons-7",
+          "solar-terms-seasons-8",
+          "solar-terms-seasons-9",
+          "solar-terms-seasons-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by season: Winter (Dongzhi / Winter Solstice), Spring (Lichun, Chunfen), Summer (Lixia, Xiazhi, Dashu), and Autumn (Liqiu, Bailu, Qiufen, Shuangjiang).",
+  "sources": [
+    {
+      "title": "UNESCO: The Twenty-Four Solar Terms",
+      "url": "https://ich.unesco.org/en/RL/the-twenty-four-solar-terms-knowledge-in-china-of-time-and-practices-developed-through-observation-of-the-sun-s-annual-motion-00647",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

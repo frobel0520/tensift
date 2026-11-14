@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "peninsulas-continents-2027-03-19-en",
+  "puzzleFamilyId": "peninsulas-continents-001",
+  "locale": "en",
+  "publishDate": "2027-03-19",
+  "timezone": "UTC",
+  "theme": "Major Peninsulas",
+  "items": [
+    {
+      "itemId": "peninsulas-continents-4",
+      "label": "Iberian Peninsula"
+    },
+    {
+      "itemId": "peninsulas-continents-8",
+      "label": "Korean Peninsula"
+    },
+    {
+      "itemId": "peninsulas-continents-1",
+      "label": "Somali Peninsula"
+    },
+    {
+      "itemId": "peninsulas-continents-6",
+      "label": "Scandinavian Peninsula"
+    },
+    {
+      "itemId": "peninsulas-continents-10",
+      "label": "Kamchatka Peninsula"
+    },
+    {
+      "itemId": "peninsulas-continents-2",
+      "label": "Yucatán Peninsula"
+    },
+    {
+      "itemId": "peninsulas-continents-7",
+      "label": "Arabian Peninsula"
+    },
+    {
+      "itemId": "peninsulas-continents-5",
+      "label": "Italian Peninsula"
+    },
+    {
+      "itemId": "peninsulas-continents-9",
+      "label": "Indochinese Peninsula"
+    },
+    {
+      "itemId": "peninsulas-continents-3",
+      "label": "Baja California"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Continent (Africa, North America, Europe, or Asia) of each peninsula",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Africa",
+        "capacity": 1,
+        "itemIds": [
+          "peninsulas-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "North America",
+        "capacity": 2,
+        "itemIds": [
+          "peninsulas-continents-2",
+          "peninsulas-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Europe",
+        "capacity": 3,
+        "itemIds": [
+          "peninsulas-continents-4",
+          "peninsulas-continents-5",
+          "peninsulas-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Asia",
+        "capacity": 4,
+        "itemIds": [
+          "peninsulas-continents-7",
+          "peninsulas-continents-8",
+          "peninsulas-continents-9",
+          "peninsulas-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by continent: Africa (Somali Peninsula), North America (Yucatán, Baja California), Europe (Iberian, Italian, Scandinavian), and Asia (Arabian, Korean, Indochinese, Kamchatka).",
+  "sources": [
+    {
+      "title": "Britannica: Peninsula",
+      "url": "https://www.britannica.com/science/peninsula",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

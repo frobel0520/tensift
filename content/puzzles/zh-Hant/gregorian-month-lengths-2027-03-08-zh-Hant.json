@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "gregorian-month-lengths-2027-03-08-zh-hant",
+  "puzzleFamilyId": "gregorian-month-lengths-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-08",
+  "timezone": "UTC",
+  "theme": "公曆月份天數與上下半年",
+  "items": [
+    {
+      "itemId": "gregorian-month-lengths-4",
+      "label": "一月"
+    },
+    {
+      "itemId": "gregorian-month-lengths-8",
+      "label": "八月"
+    },
+    {
+      "itemId": "gregorian-month-lengths-1",
+      "label": "二月"
+    },
+    {
+      "itemId": "gregorian-month-lengths-6",
+      "label": "五月"
+    },
+    {
+      "itemId": "gregorian-month-lengths-10",
+      "label": "十二月"
+    },
+    {
+      "itemId": "gregorian-month-lengths-2",
+      "label": "四月"
+    },
+    {
+      "itemId": "gregorian-month-lengths-7",
+      "label": "七月"
+    },
+    {
+      "itemId": "gregorian-month-lengths-5",
+      "label": "三月"
+    },
+    {
+      "itemId": "gregorian-month-lengths-9",
+      "label": "十月"
+    },
+    {
+      "itemId": "gregorian-month-lengths-3",
+      "label": "六月"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各月份的天數（28/29、30 或 31 天）與所屬上／下半年",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "28 或 29 天",
+        "capacity": 1,
+        "itemIds": [
+          "gregorian-month-lengths-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "30 天（上半年）",
+        "capacity": 2,
+        "itemIds": [
+          "gregorian-month-lengths-2",
+          "gregorian-month-lengths-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "31 天（上半年）",
+        "capacity": 3,
+        "itemIds": [
+          "gregorian-month-lengths-4",
+          "gregorian-month-lengths-5",
+          "gregorian-month-lengths-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "31 天（下半年）",
+        "capacity": 4,
+        "itemIds": [
+          "gregorian-month-lengths-7",
+          "gregorian-month-lengths-8",
+          "gregorian-month-lengths-9",
+          "gregorian-month-lengths-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依天數與上下半年分類：28/29 天（二月）、上半年 30 天（四月、六月）、上半年 31 天（一月、三月、五月）與下半年 31 天（七月、八月、十月、十二月）。",
+  "sources": [
+    {
+      "title": "NIST: The Gregorian Calendar",
+      "url": "https://www.nist.gov/pml/time-and-frequency-division/popular-links/walk-through-time/walk-through-time-calendars",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}
