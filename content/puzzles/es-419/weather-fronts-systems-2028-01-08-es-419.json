@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "weather-fronts-systems-2028-01-08-es-419",
+  "puzzleFamilyId": "weather-fronts-systems-001",
+  "locale": "es-419",
+  "publishDate": "2028-01-08",
+  "timezone": "UTC",
+  "theme": "Frentes y sistemas meteorológicos",
+  "items": [
+    {
+      "itemId": "weather-fronts-systems-4",
+      "label": "Frente ocluido frío"
+    },
+    {
+      "itemId": "weather-fronts-systems-8",
+      "label": "Anticiclón subtropical"
+    },
+    {
+      "itemId": "weather-fronts-systems-1",
+      "label": "Frente estacionario"
+    },
+    {
+      "itemId": "weather-fronts-systems-6",
+      "label": "Línea seca (dryline)"
+    },
+    {
+      "itemId": "weather-fronts-systems-10",
+      "label": "Baja térmica"
+    },
+    {
+      "itemId": "weather-fronts-systems-2",
+      "label": "Frente frío"
+    },
+    {
+      "itemId": "weather-fronts-systems-7",
+      "label": "Ciclón extratropical"
+    },
+    {
+      "itemId": "weather-fronts-systems-5",
+      "label": "Frente ocluido cálido"
+    },
+    {
+      "itemId": "weather-fronts-systems-9",
+      "label": "Ciclón tropical (huracán)"
+    },
+    {
+      "itemId": "weather-fronts-systems-3",
+      "label": "Frente cálido"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tipo de estructura meteorológica sinóptica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Frente estacionario",
+        "capacity": 1,
+        "itemIds": [
+          "weather-fronts-systems-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Frentes térmicos móviles",
+        "capacity": 2,
+        "itemIds": [
+          "weather-fronts-systems-2",
+          "weather-fronts-systems-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Frentes ocluidos y línea seca",
+        "capacity": 3,
+        "itemIds": [
+          "weather-fronts-systems-4",
+          "weather-fronts-systems-5",
+          "weather-fronts-systems-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Sistemas báricos cerrados",
+        "capacity": 4,
+        "itemIds": [
+          "weather-fronts-systems-7",
+          "weather-fronts-systems-8",
+          "weather-fronts-systems-9",
+          "weather-fronts-systems-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por estructura sinóptica: frente estacionario (frente estacionario), frentes térmicos móviles (frente frío, frente cálido), límites ocluidos y secos (ocluido frío, ocluido cálido, línea seca) y sistemas báricos (ciclón extratropical, anticiclón subtropical, ciclón tropical, baja térmica).",
+  "sources": [
+    {
+      "title": "NOAA National Weather Service: Weather Fronts",
+      "url": "https://www.weather.gov/jetstream/airmasses",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

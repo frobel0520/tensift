@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "archery-bow-equipment-2028-01-10-en",
+  "puzzleFamilyId": "archery-bow-equipment-001",
+  "locale": "en",
+  "publishDate": "2028-01-10",
+  "timezone": "UTC",
+  "theme": "Archery Bow & Arrow Anatomy",
+  "items": [
+    {
+      "itemId": "archery-bow-equipment-4",
+      "label": "Central Bow Riser"
+    },
+    {
+      "itemId": "archery-bow-equipment-8",
+      "label": "Tubular Arrow Shaft"
+    },
+    {
+      "itemId": "archery-bow-equipment-1",
+      "label": "Braided Bowstring"
+    },
+    {
+      "itemId": "archery-bow-equipment-6",
+      "label": "Front Stabilizer Rod"
+    },
+    {
+      "itemId": "archery-bow-equipment-10",
+      "label": "Plastic Arrow Nock"
+    },
+    {
+      "itemId": "archery-bow-equipment-2",
+      "label": "Aperture Bow Sight"
+    },
+    {
+      "itemId": "archery-bow-equipment-7",
+      "label": "Metal Arrowhead Point"
+    },
+    {
+      "itemId": "archery-bow-equipment-5",
+      "label": "Upper & Lower Bow Limbs"
+    },
+    {
+      "itemId": "archery-bow-equipment-9",
+      "label": "Fletching Vanes"
+    },
+    {
+      "itemId": "archery-bow-equipment-3",
+      "label": "Launcher Arrow Rest"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Archery assembly subsystem (Bowstring Assembly, Aiming & Rest Accessories, Structural Bow Frame, or Arrow Components)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Bowstring Assembly",
+        "capacity": 1,
+        "itemIds": [
+          "archery-bow-equipment-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Sight & Arrow Rest Accessories",
+        "capacity": 2,
+        "itemIds": [
+          "archery-bow-equipment-2",
+          "archery-bow-equipment-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Structural Bow Frame",
+        "capacity": 3,
+        "itemIds": [
+          "archery-bow-equipment-4",
+          "archery-bow-equipment-5",
+          "archery-bow-equipment-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Four-Part Arrow Anatomy",
+        "capacity": 4,
+        "itemIds": [
+          "archery-bow-equipment-7",
+          "archery-bow-equipment-8",
+          "archery-bow-equipment-9",
+          "archery-bow-equipment-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by archery subsystem: Bowstring (Dacron/FastFlight Bowstring), Aiming & Support Accessories (Bow Sight Pin, Arrow Rest), Structural Bow Frame (Bow Riser Handle, Flexing Bow Limbs, Stabilizer Rod), and Arrow Components (Field/Target Point, Carbon/Aluminum Shaft, Fletching Vanes, Arrow Nock).",
+  "sources": [
+    {
+      "title": "World Archery: Equipment & Rules",
+      "url": "https://www.worldarchery.sport/sport/equipment",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

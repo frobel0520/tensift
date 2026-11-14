@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "archery-bow-equipment-001",
+  "theme": "Archery Bow & Arrow Anatomy",
+  "publishDate": "2028-01-10",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "archery-bow-equipment-10",
+        "rivalGroupId": "group-1",
+        "risk": "The arrow nock clips directly onto the bowstring serving.",
+        "resolution": "The nock is the rear end cap of the arrow (group-4), not the bowstring itself (group-1)."
+      },
+      {
+        "itemId": "archery-bow-equipment-3",
+        "rivalGroupId": "group-3",
+        "risk": "The arrow rest bolts onto the central riser.",
+        "resolution": "The arrow rest is an attachable aiming/launch accessory alongside the bow sight (group-2), whereas the riser, limbs, and stabilizer form the primary bow frame (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

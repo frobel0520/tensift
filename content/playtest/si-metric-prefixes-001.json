@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "si-metric-prefixes-001",
+  "theme": "SI Metric Prefixes by Scale",
+  "publishDate": "2028-01-01",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "si-metric-prefixes-1",
+        "rivalGroupId": "group-2",
+        "risk": "Nano is a negative-exponent SI prefix like milli and centi.",
+        "resolution": "Nano (10^-9) is isolated in the nanoscale tier (group-1), distinct from the everyday millimeter/centimeter sub-units (group-2)."
+      },
+      {
+        "itemId": "si-metric-prefixes-6",
+        "rivalGroupId": "group-4",
+        "risk": "Kilobyte is often grouped with megabyte and gigabyte in computing.",
+        "resolution": "Kilo is 10^3 and belongs to the small multiples tier 10^1–10^3 (group-3), whereas mega through peta span 10^6–10^15 (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

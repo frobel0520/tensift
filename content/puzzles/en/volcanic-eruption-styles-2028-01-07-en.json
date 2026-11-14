@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "volcanic-eruption-styles-2028-01-07-en",
+  "puzzleFamilyId": "volcanic-eruption-styles-001",
+  "locale": "en",
+  "publishDate": "2028-01-07",
+  "timezone": "UTC",
+  "theme": "Volcanic Eruption Styles",
+  "items": [
+    {
+      "itemId": "volcanic-eruption-styles-4",
+      "label": "Surtseyan Hydrovolcanic"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-8",
+      "label": "Plinian Stratospheric Column"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-1",
+      "label": "Hawaiian Effusive Eruption"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-6",
+      "label": "Phreatic Steam Explosion"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-10",
+      "label": "Caldera-Forming Ignimbrite"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-2",
+      "label": "Strombolian Gas-Burst"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-7",
+      "label": "Sub-Plinian Column"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-5",
+      "label": "Peléan Dome-Collapse"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-9",
+      "label": "Ultra-Plinian Eruption"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-3",
+      "label": "Vulcanian Cannon-Blast"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Volcanological eruption mechanism (Effusive Hawaiian Lava, Mild Strombolian/Vulcanian Explosions, Steam/Hydrovolcanic & Dome Collapse, or Plinian High-Column & Caldera)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Effusive Basaltic Lava",
+        "capacity": 1,
+        "itemIds": [
+          "volcanic-eruption-styles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Strombolian & Vulcanian",
+        "capacity": 2,
+        "itemIds": [
+          "volcanic-eruption-styles-2",
+          "volcanic-eruption-styles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Phreatic, Surtseyan & Peléan",
+        "capacity": 3,
+        "itemIds": [
+          "volcanic-eruption-styles-4",
+          "volcanic-eruption-styles-5",
+          "volcanic-eruption-styles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Plinian & Caldera-Forming",
+        "capacity": 4,
+        "itemIds": [
+          "volcanic-eruption-styles-7",
+          "volcanic-eruption-styles-8",
+          "volcanic-eruption-styles-9",
+          "volcanic-eruption-styles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by eruption style: Effusive Lava (Hawaiian Effusive), Mild-to-Moderate Explosive (Strombolian Burst, Vulcanian Explosion), Hydrovolcanic & Dome-Collapse (Surtseyan Phreatomagmatic, Peléan Pyroclastic Surge, Phreatic Steam Blast), and Plinian & Caldera-Forming (Sub-Plinian, Plinian Stratospheric Column, Ultra-Plinian, Caldera-Forming Ignimbrite).",
+  "sources": [
+    {
+      "title": "USGS Volcano Hazards Program: Eruption Styles",
+      "url": "https://www.usgs.gov/programs/VHP",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.62
+  },
+  "status": "scheduled"
+}

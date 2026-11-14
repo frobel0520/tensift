@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "observatory-wavelengths-2028-01-03-en",
+  "puzzleFamilyId": "observatory-wavelengths-001",
+  "locale": "en",
+  "publishDate": "2028-01-03",
+  "timezone": "UTC",
+  "theme": "Astronomical Observatories by Band",
+  "items": [
+    {
+      "itemId": "observatory-wavelengths-4",
+      "label": "W. M. Keck Observatory"
+    },
+    {
+      "itemId": "observatory-wavelengths-8",
+      "label": "James Webb Space Telescope"
+    },
+    {
+      "itemId": "observatory-wavelengths-1",
+      "label": "LIGO Observatory"
+    },
+    {
+      "itemId": "observatory-wavelengths-6",
+      "label": "Subaru Telescope"
+    },
+    {
+      "itemId": "observatory-wavelengths-10",
+      "label": "Fermi Gamma-Ray Telescope"
+    },
+    {
+      "itemId": "observatory-wavelengths-2",
+      "label": "ALMA Millimeter Array"
+    },
+    {
+      "itemId": "observatory-wavelengths-7",
+      "label": "Hubble Space Telescope"
+    },
+    {
+      "itemId": "observatory-wavelengths-5",
+      "label": "ESO Very Large Telescope (VLT)"
+    },
+    {
+      "itemId": "observatory-wavelengths-9",
+      "label": "Chandra X-Ray Observatory"
+    },
+    {
+      "itemId": "observatory-wavelengths-3",
+      "label": "Very Large Array (VLA)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Detection channel & deployment (Gravitational-Wave Interferometer, Ground Radio Arrays, Ground Optical/IR Telescopes, or Space Telescopes)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Gravitational-Wave Interferometer",
+        "capacity": 1,
+        "itemIds": [
+          "observatory-wavelengths-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Ground Radio Telescope Arrays",
+        "capacity": 2,
+        "itemIds": [
+          "observatory-wavelengths-2",
+          "observatory-wavelengths-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Ground Optical/IR Telescopes",
+        "capacity": 3,
+        "itemIds": [
+          "observatory-wavelengths-4",
+          "observatory-wavelengths-5",
+          "observatory-wavelengths-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Space-Based Observatories",
+        "capacity": 4,
+        "itemIds": [
+          "observatory-wavelengths-7",
+          "observatory-wavelengths-8",
+          "observatory-wavelengths-9",
+          "observatory-wavelengths-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by observatory type: Gravitational-Wave Interferometer (LIGO), Ground Radio Arrays (ALMA, Very Large Array VLA), Ground Optical/IR Telescopes (Keck Observatory, Very Large Telescope VLT, Subaru Telescope), and Space Telescopes (Hubble, James Webb, Chandra X-Ray, Fermi Gamma-Ray).",
+  "sources": [
+    {
+      "title": "NASA Astrophysics Missions & Observatories",
+      "url": "https://science.nasa.gov/astrophysics/missions/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "posix-streams-signals-2028-01-04-zh-hant",
+  "puzzleFamilyId": "posix-streams-signals-001",
+  "locale": "zh-Hant",
+  "publishDate": "2028-01-04",
+  "timezone": "UTC",
+  "theme": "POSIX 標準串流、權限位元與訊號",
+  "items": [
+    {
+      "itemId": "posix-streams-signals-4",
+      "label": "讀取權限（r = 4）"
+    },
+    {
+      "itemId": "posix-streams-signals-8",
+      "label": "SIGKILL（強制終止訊號 9）"
+    },
+    {
+      "itemId": "posix-streams-signals-1",
+      "label": "stdin（標準輸入 fd 0）"
+    },
+    {
+      "itemId": "posix-streams-signals-6",
+      "label": "執行權限（x = 1）"
+    },
+    {
+      "itemId": "posix-streams-signals-10",
+      "label": "SIGHUP（掛斷重載訊號 1）"
+    },
+    {
+      "itemId": "posix-streams-signals-2",
+      "label": "stdout（標準輸出 fd 1）"
+    },
+    {
+      "itemId": "posix-streams-signals-7",
+      "label": "SIGTERM（終止請求訊號 15）"
+    },
+    {
+      "itemId": "posix-streams-signals-5",
+      "label": "寫入權限（w = 2）"
+    },
+    {
+      "itemId": "posix-streams-signals-9",
+      "label": "SIGINT（中斷訊號 Ctrl+C, 2）"
+    },
+    {
+      "itemId": "posix-streams-signals-3",
+      "label": "stderr（標準錯誤 fd 2）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各 POSIX 系統識別項所屬的作業系統機制類別（標準輸入串流、標準輸出／錯誤串流、檔案權限位元或行程控制訊號）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "標準輸入串流",
+        "capacity": 1,
+        "itemIds": [
+          "posix-streams-signals-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "標準輸出與錯誤串流",
+        "capacity": 2,
+        "itemIds": [
+          "posix-streams-signals-2",
+          "posix-streams-signals-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Unix 檔案權限位元",
+        "capacity": 3,
+        "itemIds": [
+          "posix-streams-signals-4",
+          "posix-streams-signals-5",
+          "posix-streams-signals-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "POSIX 行程控制訊號",
+        "capacity": 4,
+        "itemIds": [
+          "posix-streams-signals-7",
+          "posix-streams-signals-8",
+          "posix-streams-signals-9",
+          "posix-streams-signals-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依 POSIX 核心機制分類：標準輸入串流（stdin fd 0）、標準輸出與錯誤串流（stdout fd 1、stderr fd 2）、檔案權限位元（讀取 r=4、寫入 w=2、執行 x=1）與行程控制訊號（SIGTERM 15、SIGKILL 9、SIGINT 2、SIGHUP 1）。",
+  "sources": [
+    {
+      "title": "IEEE Std 1003.1 (POSIX.1) Specification",
+      "url": "https://pubs.opengroup.org/onlinepubs/9699919799/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

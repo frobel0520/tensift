@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "volcanic-eruption-styles-001",
+  "theme": "Volcanic Eruption Styles",
+  "publishDate": "2028-01-07",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "volcanic-eruption-styles-1",
+        "rivalGroupId": "group-2",
+        "risk": "Hawaiian eruptions can produce tall lava fountains.",
+        "resolution": "Hawaiian eruptions are low-viscosity effusive lava flows (group-1), whereas Strombolian and Vulcanian eruptions are discrete explosive blasts (group-2)."
+      },
+      {
+        "itemId": "volcanic-eruption-styles-5",
+        "rivalGroupId": "group-4",
+        "risk": "Peléan eruptions generate devastating pyroclastic flows.",
+        "resolution": "Peléan eruptions are driven by viscous lava-dome collapse (group-3), distinct from sustained stratospheric Plinian columns (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

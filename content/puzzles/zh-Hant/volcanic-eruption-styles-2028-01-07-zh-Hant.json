@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "volcanic-eruption-styles-2028-01-07-zh-hant",
+  "puzzleFamilyId": "volcanic-eruption-styles-001",
+  "locale": "zh-Hant",
+  "publishDate": "2028-01-07",
+  "timezone": "UTC",
+  "theme": "火山噴發型態分類",
+  "items": [
+    {
+      "itemId": "volcanic-eruption-styles-4",
+      "label": "敘爾特塞式水岩漿噴發"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-8",
+      "label": "普林尼式平流層噴發柱"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-1",
+      "label": "夏威夷式溢流噴發"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-6",
+      "label": "水蒸氣潛水噴發（Phreatic）"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-10",
+      "label": "破火山口塌陷噴發"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-2",
+      "label": "史特龍博利式噴發"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-7",
+      "label": "亞普林尼式噴發"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-5",
+      "label": "培雷式熔岩穹丘噴發"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-9",
+      "label": "超普林尼式極端噴發"
+    },
+    {
+      "itemId": "volcanic-eruption-styles-3",
+      "label": "伏爾坎式爆裂噴發"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各火山噴發型態的動力機制（夏威夷式溢流熔岩、中低強度爆裂噴發、水氣／熔岩穹丘崩塌噴發或普林尼式高空柱／破火山口噴發）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "溢流玄武岩熔岩",
+        "capacity": 1,
+        "itemIds": [
+          "volcanic-eruption-styles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "中低強度爆裂噴發",
+        "capacity": 2,
+        "itemIds": [
+          "volcanic-eruption-styles-2",
+          "volcanic-eruption-styles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "水氣互動與穹丘碎屑流",
+        "capacity": 3,
+        "itemIds": [
+          "volcanic-eruption-styles-4",
+          "volcanic-eruption-styles-5",
+          "volcanic-eruption-styles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "普林尼式高柱與破火山口級",
+        "capacity": 4,
+        "itemIds": [
+          "volcanic-eruption-styles-7",
+          "volcanic-eruption-styles-8",
+          "volcanic-eruption-styles-9",
+          "volcanic-eruption-styles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依火山噴發機制分類：安靜溢流熔岩（夏威夷式）、中低強度爆裂噴發（史特龍博利式、伏爾坎式）、水氣互動與穹丘崩塌（敘爾特塞式水岩漿噴發、培雷式火山碎屑流、水蒸氣噴發）與普林尼高空柱及破火山口級（亞普林尼式、普林尼式平流層噴發柱、超普林尼式、破火山口熔結凝灰岩噴發）。",
+  "sources": [
+    {
+      "title": "USGS Volcano Hazards Program: Eruption Styles",
+      "url": "https://www.usgs.gov/programs/VHP",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "hard",
+    "score": 0.62
+  },
+  "status": "scheduled"
+}

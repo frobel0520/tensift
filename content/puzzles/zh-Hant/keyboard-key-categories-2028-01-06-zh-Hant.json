@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "keyboard-key-categories-2028-01-06-zh-hant",
+  "puzzleFamilyId": "keyboard-key-categories-001",
+  "locale": "zh-Hant",
+  "publishDate": "2028-01-06",
+  "timezone": "UTC",
+  "theme": "電腦鍵盤按鍵功能分類",
+  "items": [
+    {
+      "itemId": "keyboard-key-categories-4",
+      "label": "上下左右方向鍵"
+    },
+    {
+      "itemId": "keyboard-key-categories-8",
+      "label": "Caps Lock 大寫鎖定鍵"
+    },
+    {
+      "itemId": "keyboard-key-categories-1",
+      "label": "Esc 跳脫鍵"
+    },
+    {
+      "itemId": "keyboard-key-categories-6",
+      "label": "Page Up 上頁鍵"
+    },
+    {
+      "itemId": "keyboard-key-categories-10",
+      "label": "Enter 確認換行鍵"
+    },
+    {
+      "itemId": "keyboard-key-categories-2",
+      "label": "Shift 上檔鍵"
+    },
+    {
+      "itemId": "keyboard-key-categories-7",
+      "label": "F1 功能鍵"
+    },
+    {
+      "itemId": "keyboard-key-categories-5",
+      "label": "Home 行首鍵"
+    },
+    {
+      "itemId": "keyboard-key-categories-9",
+      "label": "Tab 定位跳格鍵"
+    },
+    {
+      "itemId": "keyboard-key-categories-3",
+      "label": "Ctrl 控制鍵"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各鍵盤按鍵的功能類別（跳脫取消鍵、組合修飾鍵、游標導覽鍵或功能／鎖定／輸入鍵）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "跳脫取消鍵",
+        "capacity": 1,
+        "itemIds": [
+          "keyboard-key-categories-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "組合修飾鍵",
+        "capacity": 2,
+        "itemIds": [
+          "keyboard-key-categories-2",
+          "keyboard-key-categories-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "游標導覽鍵",
+        "capacity": 3,
+        "itemIds": [
+          "keyboard-key-categories-4",
+          "keyboard-key-categories-5",
+          "keyboard-key-categories-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "功能、鎖定與動作鍵",
+        "capacity": 4,
+        "itemIds": [
+          "keyboard-key-categories-7",
+          "keyboard-key-categories-8",
+          "keyboard-key-categories-9",
+          "keyboard-key-categories-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依鍵盤按鍵功能分類：跳脫取消鍵（Esc）、組合修飾鍵（Shift、Ctrl）、游標導覽鍵（方向鍵、Home、Page Up）與功能／鎖定／確認鍵（F1 功能鍵、Caps Lock 大寫鎖定、Tab 定位鍵、Enter 確認鍵）。",
+  "sources": [
+    {
+      "title": "ISO/IEC 9995: Keyboard Layouts",
+      "url": "https://www.iso.org/standard/51645.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

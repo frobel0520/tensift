@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "knot-tying-purposes-001",
+  "theme": "Nautical & Climbing Knots",
+  "publishDate": "2028-01-05",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "knot-tying-purposes-1",
+        "rivalGroupId": "group-4",
+        "risk": "Both Figure-Eight Stopper and Figure-Eight Loop share the figure-8 bight.",
+        "resolution": "The single figure-eight stopper thickens a rope end to prevent slipping through a block (group-1), whereas the figure-eight loop forms a closed eye (group-4)."
+      },
+      {
+        "itemId": "knot-tying-purposes-2",
+        "rivalGroupId": "group-4",
+        "risk": "Sheet Bend shares the same geometric structure as the Bowline.",
+        "resolution": "A Sheet Bend joins two separate rope ends together (group-2), whereas a Bowline forms a non-slipping loop in a single rope (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

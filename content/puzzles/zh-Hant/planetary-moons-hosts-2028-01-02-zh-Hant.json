@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "planetary-moons-hosts-2028-01-02-zh-hant",
+  "puzzleFamilyId": "planetary-moons-hosts-001",
+  "locale": "zh-Hant",
+  "publishDate": "2028-01-02",
+  "timezone": "UTC",
+  "theme": "太陽系主要衛星與所屬母行星",
+  "items": [
+    {
+      "itemId": "planetary-moons-hosts-4",
+      "label": "土衛六泰坦（Titan）"
+    },
+    {
+      "itemId": "planetary-moons-hosts-8",
+      "label": "木衛二歐羅巴（Europa）"
+    },
+    {
+      "itemId": "planetary-moons-hosts-1",
+      "label": "火衛一（Phobos）"
+    },
+    {
+      "itemId": "planetary-moons-hosts-6",
+      "label": "土衛一彌瑪斯（Mimas）"
+    },
+    {
+      "itemId": "planetary-moons-hosts-10",
+      "label": "木衛四卡利斯托（Callisto）"
+    },
+    {
+      "itemId": "planetary-moons-hosts-2",
+      "label": "月球（Luna）"
+    },
+    {
+      "itemId": "planetary-moons-hosts-7",
+      "label": "木衛一艾奧（Io）"
+    },
+    {
+      "itemId": "planetary-moons-hosts-5",
+      "label": "土衛二恩克拉多斯（Enceladus）"
+    },
+    {
+      "itemId": "planetary-moons-hosts-9",
+      "label": "木衛三甘尼米德（Ganymede）"
+    },
+    {
+      "itemId": "planetary-moons-hosts-3",
+      "label": "冥衛一卡戎（Charon）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各天然衛星所繞行的母行星或矮行星（火星、地球與冥王星系統、土星或木星伽利略衛星）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "火星衛星",
+        "capacity": 1,
+        "itemIds": [
+          "planetary-moons-hosts-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "地球與冥王星大衛星",
+        "capacity": 2,
+        "itemIds": [
+          "planetary-moons-hosts-2",
+          "planetary-moons-hosts-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "土星主要衛星",
+        "capacity": 3,
+        "itemIds": [
+          "planetary-moons-hosts-4",
+          "planetary-moons-hosts-5",
+          "planetary-moons-hosts-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "木星四大伽利略衛星",
+        "capacity": 4,
+        "itemIds": [
+          "planetary-moons-hosts-7",
+          "planetary-moons-hosts-8",
+          "planetary-moons-hosts-9",
+          "planetary-moons-hosts-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依所屬母星分類：火星衛星（火衛一弗伯斯）、地月與冥王星系統（月球、冥衛一卡戎）、土星衛星（泰坦土衛六、恩克拉多斯土衛二、彌瑪斯土衛一）與木星四大伽利略衛星（艾奧木衛一、歐羅巴木衛二、甘尼米德木衛三、卡利斯托木衛四）。",
+  "sources": [
+    {
+      "title": "NASA Solar System Exploration: Moons",
+      "url": "https://science.nasa.gov/solar-system/moons/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

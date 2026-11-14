@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "planetary-moons-hosts-001",
+  "theme": "Solar System Moons by Host",
+  "publishDate": "2028-01-02",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "planetary-moons-hosts-4",
+        "rivalGroupId": "group-4",
+        "risk": "Titan is a giant icy moon often compared directly with Ganymede.",
+        "resolution": "Titan orbits Saturn (group-3), whereas Io, Europa, Ganymede, and Callisto are Jupiter’s four Galilean moons (group-4)."
+      },
+      {
+        "itemId": "planetary-moons-hosts-5",
+        "rivalGroupId": "group-4",
+        "risk": "Enceladus has a subsurface ocean like Europa.",
+        "resolution": "Enceladus orbits Saturn (group-3), not Jupiter (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "archery-bow-equipment-2028-01-10-zh-hant",
+  "puzzleFamilyId": "archery-bow-equipment-001",
+  "locale": "zh-Hant",
+  "publishDate": "2028-01-10",
+  "timezone": "UTC",
+  "theme": "射箭弓具與箭矢構造",
+  "items": [
+    {
+      "itemId": "archery-bow-equipment-4",
+      "label": "中央弓把（Riser）"
+    },
+    {
+      "itemId": "archery-bow-equipment-8",
+      "label": "碳纖維／鋁合金箭桿"
+    },
+    {
+      "itemId": "archery-bow-equipment-1",
+      "label": "編織弓弦（Bowstring）"
+    },
+    {
+      "itemId": "archery-bow-equipment-6",
+      "label": "前平衡穩定桿"
+    },
+    {
+      "itemId": "archery-bow-equipment-10",
+      "label": "箭尾弦扣（Nock）"
+    },
+    {
+      "itemId": "archery-bow-equipment-2",
+      "label": "弓用光學準星瞄具"
+    },
+    {
+      "itemId": "archery-bow-equipment-7",
+      "label": "金屬箭頭（Point）"
+    },
+    {
+      "itemId": "archery-bow-equipment-5",
+      "label": "上下彈性弓臂（Limbs）"
+    },
+    {
+      "itemId": "archery-bow-equipment-9",
+      "label": "穩定箭羽（Fletching）"
+    },
+    {
+      "itemId": "archery-bow-equipment-3",
+      "label": "支撐箭台（Arrow Rest）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各射箭器材零件所屬的構造部位（弓弦總成、瞄準與箭台配件、弓身結構框架或箭矢組件）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "弓弦總成",
+        "capacity": 1,
+        "itemIds": [
+          "archery-bow-equipment-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "瞄具與箭台配件",
+        "capacity": 2,
+        "itemIds": [
+          "archery-bow-equipment-2",
+          "archery-bow-equipment-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "弓身主體框架",
+        "capacity": 3,
+        "itemIds": [
+          "archery-bow-equipment-4",
+          "archery-bow-equipment-5",
+          "archery-bow-equipment-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "箭矢四大構造",
+        "capacity": 4,
+        "itemIds": [
+          "archery-bow-equipment-7",
+          "archery-bow-equipment-8",
+          "archery-bow-equipment-9",
+          "archery-bow-equipment-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依射箭器材構造分類：弓弦總成（弓弦本體）、瞄準與支撐配件（準星瞄具、箭台）、弓身結構框架（弓把 Riser、上下弓臂 Limbs、平衡穩定桿）與箭矢組件（箭頭、箭桿、箭羽、箭尾扣 Nock）。",
+  "sources": [
+    {
+      "title": "World Archery: Equipment & Rules",
+      "url": "https://www.worldarchery.sport/sport/equipment",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "observatory-wavelengths-2028-01-03-zh-hant",
+  "puzzleFamilyId": "observatory-wavelengths-001",
+  "locale": "zh-Hant",
+  "publishDate": "2028-01-03",
+  "timezone": "UTC",
+  "theme": "天文觀測台與太空望遠鏡波段",
+  "items": [
+    {
+      "itemId": "observatory-wavelengths-4",
+      "label": "夏威夷凱克天文台（Keck）"
+    },
+    {
+      "itemId": "observatory-wavelengths-8",
+      "label": "韋伯太空望遠鏡（JWST）"
+    },
+    {
+      "itemId": "observatory-wavelengths-1",
+      "label": "LIGO 重力波觀測站"
+    },
+    {
+      "itemId": "observatory-wavelengths-6",
+      "label": "昴星團光學望遠鏡（Subaru）"
+    },
+    {
+      "itemId": "observatory-wavelengths-10",
+      "label": "費米伽瑪射線太空望遠鏡"
+    },
+    {
+      "itemId": "observatory-wavelengths-2",
+      "label": "阿塔卡馬大型毫米波陣列（ALMA）"
+    },
+    {
+      "itemId": "observatory-wavelengths-7",
+      "label": "哈伯太空望遠鏡（Hubble）"
+    },
+    {
+      "itemId": "observatory-wavelengths-5",
+      "label": "歐南台甚大望遠鏡（VLT）"
+    },
+    {
+      "itemId": "observatory-wavelengths-9",
+      "label": "錢德拉 X 射線太空望遠鏡"
+    },
+    {
+      "itemId": "observatory-wavelengths-3",
+      "label": "美國甚大天線陣（VLA）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各天文台或望遠鏡的觀測波段與部署環境（重力波干涉儀、地面電波陣列、地面光學／紅外望遠鏡或太空望遠鏡）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "重力波雷射干涉儀",
+        "capacity": 1,
+        "itemIds": [
+          "observatory-wavelengths-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "地面電波望遠鏡陣列",
+        "capacity": 2,
+        "itemIds": [
+          "observatory-wavelengths-2",
+          "observatory-wavelengths-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "地面光學與紅外望遠鏡",
+        "capacity": 3,
+        "itemIds": [
+          "observatory-wavelengths-4",
+          "observatory-wavelengths-5",
+          "observatory-wavelengths-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "太空軌道望遠鏡",
+        "capacity": 4,
+        "itemIds": [
+          "observatory-wavelengths-7",
+          "observatory-wavelengths-8",
+          "observatory-wavelengths-9",
+          "observatory-wavelengths-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依觀測方式與部署分類：重力波干涉儀（LIGO）、地面電波望遠鏡陣列（ALMA、VLA 特大天線陣）、地面光學與紅外望遠鏡（凱克天文台、甚大望遠鏡 VLT、昴星團望遠鏡 Subaru）與太空軌道望遠鏡（哈伯、韋伯、錢德拉 X 射線、費米伽瑪射線）。",
+  "sources": [
+    {
+      "title": "NASA Astrophysics Missions & Observatories",
+      "url": "https://science.nasa.gov/astrophysics/missions/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

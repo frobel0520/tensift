@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "keyboard-key-categories-2028-01-06-en",
+  "puzzleFamilyId": "keyboard-key-categories-001",
+  "locale": "en",
+  "publishDate": "2028-01-06",
+  "timezone": "UTC",
+  "theme": "Computer Keyboard Key Roles",
+  "items": [
+    {
+      "itemId": "keyboard-key-categories-4",
+      "label": "Arrow Direction Keys"
+    },
+    {
+      "itemId": "keyboard-key-categories-8",
+      "label": "Caps Lock Key"
+    },
+    {
+      "itemId": "keyboard-key-categories-1",
+      "label": "Escape (Esc)"
+    },
+    {
+      "itemId": "keyboard-key-categories-6",
+      "label": "Page Up (PgUp) Key"
+    },
+    {
+      "itemId": "keyboard-key-categories-10",
+      "label": "Enter (Return) Key"
+    },
+    {
+      "itemId": "keyboard-key-categories-2",
+      "label": "Shift Key"
+    },
+    {
+      "itemId": "keyboard-key-categories-7",
+      "label": "F1 Function Key"
+    },
+    {
+      "itemId": "keyboard-key-categories-5",
+      "label": "Home Key"
+    },
+    {
+      "itemId": "keyboard-key-categories-9",
+      "label": "Tab Key"
+    },
+    {
+      "itemId": "keyboard-key-categories-3",
+      "label": "Control (Ctrl) Key"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Keyboard functional role (Escape/Cancel Key, Chorded Modifier Keys, Cursor Navigation Keys, or Function/Action/Lock Keys)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Escape / Abort Key",
+        "capacity": 1,
+        "itemIds": [
+          "keyboard-key-categories-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Chorded Modifier Keys",
+        "capacity": 2,
+        "itemIds": [
+          "keyboard-key-categories-2",
+          "keyboard-key-categories-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Cursor Navigation Keys",
+        "capacity": 3,
+        "itemIds": [
+          "keyboard-key-categories-4",
+          "keyboard-key-categories-5",
+          "keyboard-key-categories-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Function, Lock & Action Keys",
+        "capacity": 4,
+        "itemIds": [
+          "keyboard-key-categories-7",
+          "keyboard-key-categories-8",
+          "keyboard-key-categories-9",
+          "keyboard-key-categories-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by keyboard role: Escape/Cancel Key (Escape Esc), Modifier Keys (Shift, Control Ctrl), Cursor Navigation Keys (Arrow Keys, Home, Page Up), and Function & Action/Lock Keys (F1 Function Key, Caps Lock, Tab, Enter Return).",
+  "sources": [
+    {
+      "title": "ISO/IEC 9995: Keyboard Layouts",
+      "url": "https://www.iso.org/standard/51645.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

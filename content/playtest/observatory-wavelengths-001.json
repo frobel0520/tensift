@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "observatory-wavelengths-001",
+  "theme": "Astronomical Observatories by Band",
+  "publishDate": "2028-01-03",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "observatory-wavelengths-8",
+        "rivalGroupId": "group-3",
+        "risk": "JWST observes in the infrared like Keck and VLT.",
+        "resolution": "JWST is a space-based observatory at Sun-Earth L2 (group-4), whereas Keck, VLT, and Subaru are ground-based observatories (group-3)."
+      },
+      {
+        "itemId": "observatory-wavelengths-1",
+        "rivalGroupId": "group-3",
+        "risk": "LIGO uses laser optics inside vacuum arms.",
+        "resolution": "LIGO detects spacetime strain from gravitational waves (group-1), not electromagnetic photons from stars (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

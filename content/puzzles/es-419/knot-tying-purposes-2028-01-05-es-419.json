@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "knot-tying-purposes-2028-01-05-es-419",
+  "puzzleFamilyId": "knot-tying-purposes-001",
+  "locale": "es-419",
+  "publishDate": "2028-01-05",
+  "timezone": "UTC",
+  "theme": "Nudos náuticos y de escalada",
+  "items": [
+    {
+      "itemId": "knot-tying-purposes-4",
+      "label": "Nudo ballestrinque"
+    },
+    {
+      "itemId": "knot-tying-purposes-8",
+      "label": "Nudo mariposa alpina"
+    },
+    {
+      "itemId": "knot-tying-purposes-1",
+      "label": "Nudo en ocho simple"
+    },
+    {
+      "itemId": "knot-tying-purposes-6",
+      "label": "Dos medios cotes"
+    },
+    {
+      "itemId": "knot-tying-purposes-10",
+      "label": "Gaza de pescador"
+    },
+    {
+      "itemId": "knot-tying-purposes-2",
+      "label": "Vuelta de escota"
+    },
+    {
+      "itemId": "knot-tying-purposes-7",
+      "label": "As de guía (bowline)"
+    },
+    {
+      "itemId": "knot-tying-purposes-5",
+      "label": "Nudo tensor (taut-line)"
+    },
+    {
+      "itemId": "knot-tying-purposes-9",
+      "label": "Nudo en ocho doble"
+    },
+    {
+      "itemId": "knot-tying-purposes-3",
+      "label": "Nudo Carrick"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Función estructural de cada nudo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Nudo tope",
+        "capacity": 1,
+        "itemIds": [
+          "knot-tying-purposes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Empalmes entre cuerdas",
+        "capacity": 2,
+        "itemIds": [
+          "knot-tying-purposes-2",
+          "knot-tying-purposes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Nudos de amarre (hitches)",
+        "capacity": 3,
+        "itemIds": [
+          "knot-tying-purposes-4",
+          "knot-tying-purposes-5",
+          "knot-tying-purposes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Nudos de gaza fija",
+        "capacity": 4,
+        "itemIds": [
+          "knot-tying-purposes-7",
+          "knot-tying-purposes-8",
+          "knot-tying-purposes-9",
+          "knot-tying-purposes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por función: nudo tope (nudo en ocho simple), empalmes entre cuerdas (vuelta de escota, nudo Carrick), nudos de amarre a postes (ballestrinque, nudo tensor, dos cotes) y gazas o lazos (as de guía, mariposa alpina, ocho doble, pescador doble).",
+  "sources": [
+    {
+      "title": "Animated Knots by Grog: Knot Categories",
+      "url": "https://www.animatedknots.com/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}
