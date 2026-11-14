@@ -1,51 +1,51 @@
 {
   "schemaVersion": 1,
-  "puzzleId": "orchestral-families-2026-11-27-zh-Hant",
+  "puzzleId": "orchestral-families-2026-11-27-en",
   "puzzleFamilyId": "orchestral-families-002",
-  "locale": "zh-Hant",
+  "locale": "en",
   "publishDate": "2026-11-27",
   "timezone": "UTC",
-  "theme": "管弦樂團座位",
+  "theme": "Orchestra Seating",
   "items": [
     {
       "itemId": "orchestral-families-1",
-      "label": "三角鐵"
+      "label": "Triangle"
     },
     {
       "itemId": "orchestral-families-2",
-      "label": "低音管"
+      "label": "Bassoon"
     },
     {
       "itemId": "orchestral-families-3",
-      "label": "雙簧管"
+      "label": "Oboe"
     },
     {
       "itemId": "orchestral-families-4",
-      "label": "法國號"
+      "label": "French horn"
     },
     {
       "itemId": "orchestral-families-5",
-      "label": "小號"
+      "label": "Trumpet"
     },
     {
       "itemId": "orchestral-families-6",
-      "label": "長號"
+      "label": "Trombone"
     },
     {
       "itemId": "orchestral-families-7",
-      "label": "小提琴"
+      "label": "Violin"
     },
     {
       "itemId": "orchestral-families-8",
-      "label": "中提琴"
+      "label": "Viola"
     },
     {
       "itemId": "orchestral-families-9",
-      "label": "大提琴"
+      "label": "Cello"
     },
     {
       "itemId": "orchestral-families-10",
-      "label": "低音提琴"
+      "label": "Double bass"
     }
   ],
   "rows": [
@@ -67,11 +67,11 @@
     }
   ],
   "solution": {
-    "hiddenDimension": "管弦樂團慣用的樂器家族",
+    "hiddenDimension": "Conventional orchestral instrument family",
     "groups": [
       {
         "groupId": "group-1",
-        "label": "打擊樂器",
+        "label": "Percussion",
         "capacity": 1,
         "itemIds": [
           "orchestral-families-1"
@@ -79,7 +79,7 @@
       },
       {
         "groupId": "group-2",
-        "label": "木管樂器",
+        "label": "Woodwinds",
         "capacity": 2,
         "itemIds": [
           "orchestral-families-2",
@@ -88,7 +88,7 @@
       },
       {
         "groupId": "group-3",
-        "label": "銅管樂器",
+        "label": "Brass",
         "capacity": 3,
         "itemIds": [
           "orchestral-families-4",
@@ -98,7 +98,7 @@
       },
       {
         "groupId": "group-4",
-        "label": "弦樂器",
+        "label": "Strings",
         "capacity": 4,
         "itemIds": [
           "orchestral-families-7",
@@ -113,7 +113,7 @@
     "maxUses": 1,
     "policy": "random-unlocked-correct-row"
   },
-  "explanation": "依管弦樂團慣用的四大家族分組；三角鐵是打擊樂器，四種提琴同屬弦樂器，不按大小分組。",
+  "explanation": "Use the four conventional orchestral families. Triangle belongs to percussion, and the four bowed string instruments belong together. Do not classify by physical size.",
   "sources": [
     {
       "title": "Carnegie Hall: Instrument Families",
@@ -125,5 +125,5 @@
     "band": "medium",
     "score": 0.45
   },
-  "status": "draft"
+  "status": "scheduled"
 }

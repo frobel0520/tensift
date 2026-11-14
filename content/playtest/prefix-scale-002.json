@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "prefix-scale-002",
+  "theme": "Metric Multipliers",
+  "publishDate": "2026-11-22",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "prefix-scale-1",
+        "rivalGroupId": "group-4",
+        "risk": "Players may confuse lowercase m (milli) with uppercase M (mega) or group mA with MW/MJ/MV as electrical units.",
+        "resolution": "Case is strictly distinct in SI: mA uses milli (0.001) whereas MHz, MW, MJ, and MV use mega (1000000)."
+      },
+      {
+        "itemId": "prefix-scale-5",
+        "rivalGroupId": "group-2",
+        "risk": "Players may group kg with cm/km or treat kg as the SI base unit of mass with multiplier 1.",
+        "resolution": "The dimension is the unit prefix multiplier relative to the root unit symbol: kilo (k) is 1000, matching km and kW."
+      }
+    ],
+    "notes": "Promoted from content/candidates/batch-7 after author factual and three-locale review."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

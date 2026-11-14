@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "puzzleId": "prefix-scale-2026-11-22-zh-Hant",
+  "puzzleId": "prefix-scale-2026-11-22-es-419",
   "puzzleFamilyId": "prefix-scale-002",
-  "locale": "zh-Hant",
+  "locale": "es-419",
   "publishDate": "2026-11-22",
   "timezone": "UTC",
-  "theme": "公制前綴倍率",
+  "theme": "Multiplicadores métricos",
   "items": [
     {
       "itemId": "prefix-scale-1",
@@ -67,11 +67,11 @@
     }
   ],
   "solution": {
-    "hiddenDimension": "單位前綴所代表的倍率",
+    "hiddenDimension": "El multiplicador del prefijo",
     "groups": [
       {
         "groupId": "group-1",
-        "label": "毫：千分之一",
+        "label": "Mili: 0.001",
         "capacity": 1,
         "itemIds": [
           "prefix-scale-1"
@@ -79,7 +79,7 @@
       },
       {
         "groupId": "group-2",
-        "label": "厘：百分之一",
+        "label": "Centi: 0.01",
         "capacity": 2,
         "itemIds": [
           "prefix-scale-2",
@@ -88,7 +88,7 @@
       },
       {
         "groupId": "group-3",
-        "label": "千：一千倍",
+        "label": "Kilo: 1000",
         "capacity": 3,
         "itemIds": [
           "prefix-scale-4",
@@ -98,7 +98,7 @@
       },
       {
         "groupId": "group-4",
-        "label": "百萬：一百萬倍",
+        "label": "Mega: 1000000",
         "capacity": 4,
         "itemIds": [
           "prefix-scale-7",
@@ -113,7 +113,7 @@
     "maxUses": 1,
     "policy": "random-unlocked-correct-row"
   },
-  "explanation": "依前綴倍率分組，不依測量的物理量。大小寫不同：m 是毫，M 是百萬。",
+  "explanation": "Agrupa por el multiplicador del prefijo, no por la magnitud medida. La m significa mili y la M significa mega.",
   "sources": [
     {
       "title": "NIST: Metric (SI) Prefixes",
@@ -125,5 +125,5 @@
     "band": "medium",
     "score": 0.45
   },
-  "status": "draft"
+  "status": "scheduled"
 }

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "vertebrate-groups-002",
+  "theme": "Backbone Neighbors",
+  "publishDate": "2026-11-26",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "vertebrate-groups-9",
+        "rivalGroupId": "group-1",
+        "risk": "Dolphins and otters live in water, tempting an aquatic habitat grouping with guppy.",
+        "resolution": "The dimension is traditional school-level vertebrate class: dolphins and otters are mammals (group-4)."
+      },
+      {
+        "itemId": "vertebrate-groups-4",
+        "rivalGroupId": "group-2",
+        "risk": "Modern cladistics nests birds within Reptilia.",
+        "resolution": "The puzzle uses the stated traditional five-class vertebrate convention where birds (group-3) are separate from reptiles (group-2)."
+      }
+    ],
+    "notes": "Promoted from content/candidates/batch-7 after three-locale zoology review."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

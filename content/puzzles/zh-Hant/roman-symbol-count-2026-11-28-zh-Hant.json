@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "puzzleId": "roman-symbol-count-2026-11-28-en",
+  "puzzleId": "roman-symbol-count-2026-11-28-zh-hant",
   "puzzleFamilyId": "roman-symbol-count-002",
-  "locale": "en",
+  "locale": "zh-Hant",
   "publishDate": "2026-11-28",
   "timezone": "UTC",
-  "theme": "Roman Numeral Lengths",
+  "theme": "羅馬數字的字數",
   "items": [
     {
       "itemId": "roman-symbol-count-1",
@@ -67,11 +67,11 @@
     }
   ],
   "solution": {
-    "hiddenDimension": "The number of printed symbols in each Roman numeral",
+    "hiddenDimension": "每個羅馬數字使用的符號數",
     "groups": [
       {
         "groupId": "group-1",
-        "label": "One symbol",
+        "label": "一個符號",
         "capacity": 1,
         "itemIds": [
           "roman-symbol-count-1"
@@ -79,7 +79,7 @@
       },
       {
         "groupId": "group-2",
-        "label": "Two symbols",
+        "label": "兩個符號",
         "capacity": 2,
         "itemIds": [
           "roman-symbol-count-2",
@@ -88,7 +88,7 @@
       },
       {
         "groupId": "group-3",
-        "label": "Three symbols",
+        "label": "三個符號",
         "capacity": 3,
         "itemIds": [
           "roman-symbol-count-4",
@@ -98,7 +98,7 @@
       },
       {
         "groupId": "group-4",
-        "label": "Four symbols",
+        "label": "四個符號",
         "capacity": 4,
         "itemIds": [
           "roman-symbol-count-7",
@@ -113,7 +113,7 @@
     "maxUses": 1,
     "policy": "random-unlocked-correct-row"
   },
-  "explanation": "Count the printed Roman symbols, not the numerical value. IV and IX each use two symbols even though they represent different numbers.",
+  "explanation": "數印出的羅馬符號，不是數值；IV與IX雖代表不同數字，但都只用了兩個符號。",
   "sources": [
     {
       "title": "Math Is Fun: Roman Numerals",
@@ -125,5 +125,5 @@
     "band": "easy",
     "score": 0.3
   },
-  "status": "draft"
+  "status": "scheduled"
 }

@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "puzzleId": "equal-durations-2026-11-24-en",
+  "puzzleId": "equal-durations-2026-11-24-zh-hant",
   "puzzleFamilyId": "equal-durations-002",
-  "locale": "en",
+  "locale": "zh-Hant",
   "publishDate": "2026-11-24",
   "timezone": "UTC",
-  "theme": "Equal Durations",
+  "theme": "相同的時間長度",
   "items": [
     {
       "itemId": "equal-durations-1",
@@ -67,11 +67,11 @@
     }
   ],
   "solution": {
-    "hiddenDimension": "The fixed duration represented by each expression",
+    "hiddenDimension": "各式代表的固定時間長度",
     "groups": [
       {
         "groupId": "group-1",
-        "label": "One second",
+        "label": "一秒",
         "capacity": 1,
         "itemIds": [
           "equal-durations-1"
@@ -79,7 +79,7 @@
       },
       {
         "groupId": "group-2",
-        "label": "One minute",
+        "label": "一分鐘",
         "capacity": 2,
         "itemIds": [
           "equal-durations-2",
@@ -88,7 +88,7 @@
       },
       {
         "groupId": "group-3",
-        "label": "One hour",
+        "label": "一小時",
         "capacity": 3,
         "itemIds": [
           "equal-durations-4",
@@ -98,7 +98,7 @@
       },
       {
         "groupId": "group-4",
-        "label": "One day of 24 hours",
+        "label": "固定24小時的一日",
         "capacity": 4,
         "itemIds": [
           "equal-durations-7",
@@ -113,7 +113,7 @@
     "maxUses": 1,
     "policy": "random-unlocked-correct-row"
   },
-  "explanation": "Use fixed unit conversions: a minute has 60 seconds, an hour has 60 minutes, and this day means exactly 24 hours, not a daylight-saving calendar day.",
+  "explanation": "依固定單位換算：一分鐘60秒、一小時60分鐘。這裡的一日固定24小時，不採夏令時間的民用日長。",
   "sources": [
     {
       "title": "NIST SP 330: Non-SI units accepted with the SI",
@@ -125,5 +125,5 @@
     "band": "easy",
     "score": 0.3
   },
-  "status": "draft"
+  "status": "scheduled"
 }

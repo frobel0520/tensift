@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "puzzleId": "equal-distances-2026-11-23-en",
+  "puzzleId": "equal-distances-2026-11-23-zh-hant",
   "puzzleFamilyId": "equal-distances-002",
-  "locale": "en",
+  "locale": "zh-Hant",
   "publishDate": "2026-11-23",
   "timezone": "UTC",
-  "theme": "Equal Distances",
+  "theme": "相同的距離",
   "items": [
     {
       "itemId": "equal-distances-1",
@@ -67,11 +67,11 @@
     }
   ],
   "solution": {
-    "hiddenDimension": "The length represented by each expression",
+    "hiddenDimension": "各式代表的實際長度",
     "groups": [
       {
         "groupId": "group-1",
-        "label": "One millimeter",
+        "label": "一毫米",
         "capacity": 1,
         "itemIds": [
           "equal-distances-1"
@@ -79,7 +79,7 @@
       },
       {
         "groupId": "group-2",
-        "label": "One centimeter",
+        "label": "一公分",
         "capacity": 2,
         "itemIds": [
           "equal-distances-2",
@@ -88,7 +88,7 @@
       },
       {
         "groupId": "group-3",
-        "label": "One meter",
+        "label": "一公尺",
         "capacity": 3,
         "itemIds": [
           "equal-distances-4",
@@ -98,7 +98,7 @@
       },
       {
         "groupId": "group-4",
-        "label": "One kilometer",
+        "label": "一公里",
         "capacity": 4,
         "itemIds": [
           "equal-distances-7",
@@ -113,7 +113,7 @@
     "maxUses": 1,
     "policy": "random-unlocked-correct-row"
   },
-  "explanation": "Convert every expression to meters before grouping. The unit written on an item does not determine its group; its total length does.",
+  "explanation": "先全部換算成公尺，再依實際長度分組；不是依式子裡出現哪個單位分組。",
   "sources": [
     {
       "title": "NIST: Metric (SI) Prefixes",
@@ -125,5 +125,5 @@
     "band": "easy",
     "score": 0.3
   },
-  "status": "draft"
+  "status": "scheduled"
 }

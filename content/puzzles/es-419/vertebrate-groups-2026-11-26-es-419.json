@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "puzzleId": "vertebrate-groups-2026-11-26-en",
+  "puzzleId": "vertebrate-groups-2026-11-26-es-419",
   "puzzleFamilyId": "vertebrate-groups-002",
-  "locale": "en",
+  "locale": "es-419",
   "publishDate": "2026-11-26",
   "timezone": "UTC",
-  "theme": "Backbone Neighbors",
+  "theme": "Vecinos vertebrados",
   "items": [
     {
       "itemId": "vertebrate-groups-1",
@@ -17,35 +17,35 @@
     },
     {
       "itemId": "vertebrate-groups-3",
-      "label": "Alligator"
+      "label": "Aligátor"
     },
     {
       "itemId": "vertebrate-groups-4",
-      "label": "Robin"
+      "label": "Petirrojo"
     },
     {
       "itemId": "vertebrate-groups-5",
-      "label": "Flamingo"
+      "label": "Flamenco"
     },
     {
       "itemId": "vertebrate-groups-6",
-      "label": "Pelican"
+      "label": "Pelícano"
     },
     {
       "itemId": "vertebrate-groups-7",
-      "label": "Otter"
+      "label": "Nutria"
     },
     {
       "itemId": "vertebrate-groups-8",
-      "label": "Rabbit"
+      "label": "Conejo"
     },
     {
       "itemId": "vertebrate-groups-9",
-      "label": "Dolphin"
+      "label": "Delfín"
     },
     {
       "itemId": "vertebrate-groups-10",
-      "label": "Giraffe"
+      "label": "Jirafa"
     }
   ],
   "rows": [
@@ -67,11 +67,11 @@
     }
   ],
   "solution": {
-    "hiddenDimension": "Traditional school-level vertebrate groups",
+    "hiddenDimension": "Grupos tradicionales de vertebrados en la escuela",
     "groups": [
       {
         "groupId": "group-1",
-        "label": "Fish",
+        "label": "Peces",
         "capacity": 1,
         "itemIds": [
           "vertebrate-groups-1"
@@ -88,7 +88,7 @@
       },
       {
         "groupId": "group-3",
-        "label": "Birds",
+        "label": "Aves",
         "capacity": 3,
         "itemIds": [
           "vertebrate-groups-4",
@@ -98,7 +98,7 @@
       },
       {
         "groupId": "group-4",
-        "label": "Mammals",
+        "label": "Mamíferos",
         "capacity": 4,
         "itemIds": [
           "vertebrate-groups-7",
@@ -113,7 +113,7 @@
     "maxUses": 1,
     "policy": "random-unlocked-correct-row"
   },
-  "explanation": "Use the traditional school groups, with birds separate from reptiles. Habitat does not decide the group: dolphins and otters are mammals.",
+  "explanation": "Usa los grupos escolares tradicionales, separando aves y reptiles. El hábitat no decide el grupo: delfines y nutrias son mamíferos.",
   "sources": [
     {
       "title": "Oxford University Museum of Natural History: Animal groups",
@@ -125,5 +125,5 @@
     "band": "medium",
     "score": 0.45
   },
-  "status": "draft"
+  "status": "scheduled"
 }

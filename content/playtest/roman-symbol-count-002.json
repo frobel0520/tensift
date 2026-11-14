@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "roman-symbol-count-002",
+  "theme": "Roman Numeral Lengths",
+  "publishDate": "2026-11-28",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "roman-symbol-count-2",
+        "rivalGroupId": "group-3",
+        "risk": "IV (4) and III (3) are consecutive small values.",
+        "resolution": "Grouping is by printed symbol count in canonical subtractive notation: IV has 2 symbols (group-2), III has 3 (group-3)."
+      },
+      {
+        "itemId": "roman-symbol-count-7",
+        "rivalGroupId": "group-2",
+        "risk": "VIII (8) is numerically smaller than IX (9) and XII (12).",
+        "resolution": "VIII has 4 printed symbols (group-4), whereas IX has 2 (group-2) and XII has 3 (group-3)."
+      }
+    ],
+    "notes": "Promoted from content/candidates/batch-7 after canonical Roman numeral checks."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

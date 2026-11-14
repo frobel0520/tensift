@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "puzzleId": "media-type-families-2026-11-25-zh-Hant",
+  "puzzleId": "media-type-families-2026-11-25-en",
   "puzzleFamilyId": "media-type-families-002",
-  "locale": "zh-Hant",
+  "locale": "en",
   "publishDate": "2026-11-25",
   "timezone": "UTC",
-  "theme": "網頁檔案類型",
+  "theme": "Web File Families",
   "items": [
     {
       "itemId": "media-type-families-1",
@@ -67,11 +67,11 @@
     }
   ],
   "solution": {
-    "hiddenDimension": "副檔名慣用MIME類型的第一層分類",
+    "hiddenDimension": "The conventional top-level MIME media type for the extension",
     "groups": [
       {
         "groupId": "group-1",
-        "label": "影像",
+        "label": "Image",
         "capacity": 1,
         "itemIds": [
           "media-type-families-1"
@@ -79,7 +79,7 @@
       },
       {
         "groupId": "group-2",
-        "label": "音訊",
+        "label": "Audio",
         "capacity": 2,
         "itemIds": [
           "media-type-families-2",
@@ -88,7 +88,7 @@
       },
       {
         "groupId": "group-3",
-        "label": "影片",
+        "label": "Video",
         "capacity": 3,
         "itemIds": [
           "media-type-families-4",
@@ -98,7 +98,7 @@
       },
       {
         "groupId": "group-4",
-        "label": "文字",
+        "label": "Text",
         "capacity": 4,
         "itemIds": [
           "media-type-families-7",
@@ -113,7 +113,7 @@
     "maxUses": 1,
     "policy": "random-unlocked-correct-row"
   },
-  "explanation": "依副檔名慣用的MIME類型分為影像、音訊、影片與文字；不按誤標副檔名或僅含音軌的特殊容器個案分類。",
+  "explanation": "Use the conventional media type listed for each extension: image, audio, video, or text. A mislabeled file or an audio-only video container does not change this convention.",
   "sources": [
     {
       "title": "MDN: Common media types",
@@ -125,5 +125,5 @@
     "band": "medium",
     "score": 0.45
   },
-  "status": "draft"
+  "status": "scheduled"
 }

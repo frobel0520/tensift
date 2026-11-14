@@ -1,51 +1,51 @@
 {
   "schemaVersion": 1,
-  "puzzleId": "vertebrate-groups-2026-11-26-zh-Hant",
+  "puzzleId": "vertebrate-groups-2026-11-26-en",
   "puzzleFamilyId": "vertebrate-groups-002",
-  "locale": "zh-Hant",
+  "locale": "en",
   "publishDate": "2026-11-26",
   "timezone": "UTC",
-  "theme": "有脊椎的鄰居",
+  "theme": "Backbone Neighbors",
   "items": [
     {
       "itemId": "vertebrate-groups-1",
-      "label": "孔雀魚"
+      "label": "Guppy"
     },
     {
       "itemId": "vertebrate-groups-2",
-      "label": "鬣蜥"
+      "label": "Iguana"
     },
     {
       "itemId": "vertebrate-groups-3",
-      "label": "短吻鱷"
+      "label": "Alligator"
     },
     {
       "itemId": "vertebrate-groups-4",
-      "label": "知更鳥"
+      "label": "Robin"
     },
     {
       "itemId": "vertebrate-groups-5",
-      "label": "紅鶴"
+      "label": "Flamingo"
     },
     {
       "itemId": "vertebrate-groups-6",
-      "label": "鵜鶘"
+      "label": "Pelican"
     },
     {
       "itemId": "vertebrate-groups-7",
-      "label": "水獺"
+      "label": "Otter"
     },
     {
       "itemId": "vertebrate-groups-8",
-      "label": "兔子"
+      "label": "Rabbit"
     },
     {
       "itemId": "vertebrate-groups-9",
-      "label": "海豚"
+      "label": "Dolphin"
     },
     {
       "itemId": "vertebrate-groups-10",
-      "label": "長頸鹿"
+      "label": "Giraffe"
     }
   ],
   "rows": [
@@ -67,11 +67,11 @@
     }
   ],
   "solution": {
-    "hiddenDimension": "學校常用的傳統脊椎動物類群",
+    "hiddenDimension": "Traditional school-level vertebrate groups",
     "groups": [
       {
         "groupId": "group-1",
-        "label": "魚類",
+        "label": "Fish",
         "capacity": 1,
         "itemIds": [
           "vertebrate-groups-1"
@@ -79,7 +79,7 @@
       },
       {
         "groupId": "group-2",
-        "label": "爬蟲類",
+        "label": "Reptiles",
         "capacity": 2,
         "itemIds": [
           "vertebrate-groups-2",
@@ -88,7 +88,7 @@
       },
       {
         "groupId": "group-3",
-        "label": "鳥類",
+        "label": "Birds",
         "capacity": 3,
         "itemIds": [
           "vertebrate-groups-4",
@@ -98,7 +98,7 @@
       },
       {
         "groupId": "group-4",
-        "label": "哺乳類",
+        "label": "Mammals",
         "capacity": 4,
         "itemIds": [
           "vertebrate-groups-7",
@@ -113,7 +113,7 @@
     "maxUses": 1,
     "policy": "random-unlocked-correct-row"
   },
-  "explanation": "採學校常見的傳統分類，鳥類另列，不採支序分類；也不依棲地分組，海豚和水獺都是哺乳類。",
+  "explanation": "Use the traditional school groups, with birds separate from reptiles. Habitat does not decide the group: dolphins and otters are mammals.",
   "sources": [
     {
       "title": "Oxford University Museum of Natural History: Animal groups",
@@ -125,5 +125,5 @@
     "band": "medium",
     "score": 0.45
   },
-  "status": "draft"
+  "status": "scheduled"
 }

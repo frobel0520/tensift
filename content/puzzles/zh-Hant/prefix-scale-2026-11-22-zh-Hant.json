@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "puzzleId": "prefix-scale-2026-11-22-en",
+  "puzzleId": "prefix-scale-2026-11-22-zh-hant",
   "puzzleFamilyId": "prefix-scale-002",
-  "locale": "en",
+  "locale": "zh-Hant",
   "publishDate": "2026-11-22",
   "timezone": "UTC",
-  "theme": "Metric Multipliers",
+  "theme": "公制前綴倍率",
   "items": [
     {
       "itemId": "prefix-scale-1",
@@ -67,11 +67,11 @@
     }
   ],
   "solution": {
-    "hiddenDimension": "The multiplier of the unit prefix",
+    "hiddenDimension": "單位前綴所代表的倍率",
     "groups": [
       {
         "groupId": "group-1",
-        "label": "Milli: 0.001",
+        "label": "毫：千分之一",
         "capacity": 1,
         "itemIds": [
           "prefix-scale-1"
@@ -79,7 +79,7 @@
       },
       {
         "groupId": "group-2",
-        "label": "Centi: 0.01",
+        "label": "厘：百分之一",
         "capacity": 2,
         "itemIds": [
           "prefix-scale-2",
@@ -88,7 +88,7 @@
       },
       {
         "groupId": "group-3",
-        "label": "Kilo: 1000",
+        "label": "千：一千倍",
         "capacity": 3,
         "itemIds": [
           "prefix-scale-4",
@@ -98,7 +98,7 @@
       },
       {
         "groupId": "group-4",
-        "label": "Mega: 1000000",
+        "label": "百萬：一百萬倍",
         "capacity": 4,
         "itemIds": [
           "prefix-scale-7",
@@ -113,7 +113,7 @@
     "maxUses": 1,
     "policy": "random-unlocked-correct-row"
   },
-  "explanation": "Group by the prefix multiplier, regardless of the measured quantity. Case matters: m means milli and M means mega.",
+  "explanation": "依前綴倍率分組，不依測量的物理量。大小寫不同：m 是毫，M 是百萬。",
   "sources": [
     {
       "title": "NIST: Metric (SI) Prefixes",
@@ -125,5 +125,5 @@
     "band": "medium",
     "score": 0.45
   },
-  "status": "draft"
+  "status": "scheduled"
 }

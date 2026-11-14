@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "orchestral-families-002",
+  "theme": "Orchestra Seating",
+  "publishDate": "2026-11-27",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "orchestral-families-4",
+        "rivalGroupId": "group-2",
+        "risk": "French horn often sits near or blends with woodwind quintets.",
+        "resolution": "In standard symphony orchestra families, French horn is a brass instrument (group-3)."
+      },
+      {
+        "itemId": "orchestral-families-1",
+        "rivalGroupId": "group-3",
+        "risk": "Triangle is made of metal like brass instruments.",
+        "resolution": "Orchestral family is by sound production / section: triangle is percussion (group-1), not brass."
+      }
+    ],
+    "notes": "Promoted from content/candidates/batch-7 after three-locale instrument review."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

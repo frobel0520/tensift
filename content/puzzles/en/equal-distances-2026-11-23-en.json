@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "puzzleId": "equal-distances-2026-11-23-es-419",
+  "puzzleId": "equal-distances-2026-11-23-en",
   "puzzleFamilyId": "equal-distances-002",
-  "locale": "es-419",
+  "locale": "en",
   "publishDate": "2026-11-23",
   "timezone": "UTC",
-  "theme": "Distancias iguales",
+  "theme": "Equal Distances",
   "items": [
     {
       "itemId": "equal-distances-1",
@@ -67,11 +67,11 @@
     }
   ],
   "solution": {
-    "hiddenDimension": "La longitud de cada expresión",
+    "hiddenDimension": "The length represented by each expression",
     "groups": [
       {
         "groupId": "group-1",
-        "label": "Un milímetro",
+        "label": "One millimeter",
         "capacity": 1,
         "itemIds": [
           "equal-distances-1"
@@ -79,7 +79,7 @@
       },
       {
         "groupId": "group-2",
-        "label": "Un centímetro",
+        "label": "One centimeter",
         "capacity": 2,
         "itemIds": [
           "equal-distances-2",
@@ -88,7 +88,7 @@
       },
       {
         "groupId": "group-3",
-        "label": "Un metro",
+        "label": "One meter",
         "capacity": 3,
         "itemIds": [
           "equal-distances-4",
@@ -98,7 +98,7 @@
       },
       {
         "groupId": "group-4",
-        "label": "Un kilómetro",
+        "label": "One kilometer",
         "capacity": 4,
         "itemIds": [
           "equal-distances-7",
@@ -113,7 +113,7 @@
     "maxUses": 1,
     "policy": "random-unlocked-correct-row"
   },
-  "explanation": "Convierte cada expresión a metros. El grupo depende de la longitud total, no de la unidad escrita.",
+  "explanation": "Convert every expression to meters before grouping. The unit written on an item does not determine its group; its total length does.",
   "sources": [
     {
       "title": "NIST: Metric (SI) Prefixes",
@@ -125,5 +125,5 @@
     "band": "easy",
     "score": 0.3
   },
-  "status": "draft"
+  "status": "scheduled"
 }

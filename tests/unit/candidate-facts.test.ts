@@ -1,7 +1,7 @@
 import {readFile} from 'node:fs/promises';
 import {describe,it,expect} from 'vitest';
 import {checkCandidateFacts,checkPuzzleFacts} from '../../scripts/check-candidate-facts.mjs';
-const load=async (name: string)=>JSON.parse(await readFile(new URL(`../../content/candidates/batch-7/en/${name}`,import.meta.url),'utf8'));
+const load=async (name: string)=>JSON.parse(await readFile(new URL(`../../content/puzzles/en/${name}`,import.meta.url),'utf8'));
 describe('candidate factual review, separate from blind testing',()=>{
  it('checks all three locales and 210 item assignments without promotion',async()=>{
   expect(await checkCandidateFacts()).toEqual({families:7,puzzles:21,items:210,status:'author-factual-check-only',blindPlaytest:'pending'});
