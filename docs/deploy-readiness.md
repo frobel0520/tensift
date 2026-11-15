@@ -1,15 +1,13 @@
 # Tensift deploy-readiness checklist
 
-Updated: 2026-10-29. The site is deployed; ad serving remains disabled and AdSense re-review is unverified. Current progress is [progress.md](../progress.md). This checklist separates completed engineering/readback from human, billing and production-policy acceptance.
+Updated: 2026-11-15. Tensift has been finalized as a **300-level pure-static standalone edition** (PR #42, merged to `main`). Gameplay runs 100% client-side from static locale bundles (`src/data/catalog-{en,zh-Hant,es-419}.json`), so D1 seeding, daily runway checks, and `scan:bundle` are superseded for gameplay. Ad serving remains disabled and AdSense re-review is unverified. Current progress is [progress.md](../progress.md).
 
 ## Current deployment and catalog evidence
 
-- Production: https://tensift.pages.dev, Cloudflare Pages with D1 binding. No paid custom domain is required; the actual account plan/billing is still unverified.
-- Main contains 85 authored families / 255 locale records through 2026-11-21. The October 3 seed run37135703571 applied 255 records. That historical seed is not a new whole-database inventory.
-- Fresh remote audit [40801570799](https://github.com/frobel0520/tensift/actions/runs/40801570799) independently verified all 72 date/locale groups from October29 through November21: exactly one scheduled row each, missing=[], one SELECT /149 rows read. Do not seed or reset receipts merely to inspect coverage.
-- Supported locales are `en`, `zh-Hant` and `es-419`. Historical zh-Hans routes below the old baseline are not instructions for new records.
-- Current-base Harbor middleware #25 is merged and [Deploy40799560966](https://github.com/frobel0520/tensift/actions/runs/40799560966) succeeded. Daily production smoke is separate from maintenance-mode health-bypass acceptance, which remains untested.
-- #27 prepared seven new families /21 localized candidates for November22–28 outside the production catalog/seed. #29 completed author factual/unit, locale and original-copy/source review, with210 assignments and eight factual-corruption regressions. All remain draft; blind testers=0. The November22 release gap is still open.
+- Production: https://tensift.pages.dev, deployed as a static Cloudflare Pages site (`dist/`), with Pages Functions (`functions/`) serving editorial pages, `/api/health`, and Harbor maintenance middleware.
+- `main` contains **300 curated general-audience families / 900 locale records** (`en`, `zh-Hant`, `es-419`), compiled into `src/data/catalog-{en,zh-Hant,es-419}.json` via `scripts/build-static-catalog.ts`.
+- Supported locales are `en`, `zh-Hant` and `es-419`. Historical `zh-Hans` routes below the old baseline are not instructions for new records.
+- Current-base Harbor middleware #25 is merged and maintenance-mode `/api/health` bypass was verified on 2026-11-14 (`docs/evidence/2026-11-14-maintenance-health-bypass.md`).
 
 ## Local engineering checks
 
@@ -21,12 +19,16 @@ npm run validate:puzzles
 npm run typecheck
 npm test
 npm run build
-npm run scan:bundle
-node --experimental-strip-types scripts/check-candidate-batch.mjs
-node scripts/check-candidate-facts.mjs
+npm run build:functions
 ```
 
-For local HTTP testing, use an isolated Wrangler/D1 state; do not reset an unknown local database or run remote seed as a smoke test. Health must return status ok with puzzleCatalogVersion d1. Today's endpoint must return only the safe DTO. Reveal is the answer-bearing response and must use Cache-Control no-store. Verify locale/session isolation, same-receipt hint idempotency and localStorage resume. Existing automated/fixture evidence does not replace complete mobile/assistive-technology or independent blind feedback.
+To regenerate static client bundles after editing `content/puzzles/**`:
+
+```sh
+node --experimental-strip-types scripts/build-static-catalog.ts
+```
+
+*(Historical note: prior to PR #42, daily D1 seeding, `npm run scan:bundle`, and `check:runway` were required for the server-authoritative daily edition; those D1/runway notes below are retained as historical context.)*
 
 ## Content release conditions
 
