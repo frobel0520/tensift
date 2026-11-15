@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ancient-wonders-seven-2027-11-15-en",
+  "puzzleFamilyId": "ancient-wonders-seven-001",
+  "locale": "en",
+  "publishDate": "2027-11-15",
+  "timezone": "UTC",
+  "theme": "Seven Wonders of the Ancient World",
+  "items": [
+    {
+      "itemId": "ancient-wonders-seven-4",
+      "label": "Hanging Gardens of Babylon"
+    },
+    {
+      "itemId": "ancient-wonders-seven-8",
+      "label": "Parthenon of Athens"
+    },
+    {
+      "itemId": "ancient-wonders-seven-1",
+      "label": "Great Pyramid of Giza"
+    },
+    {
+      "itemId": "ancient-wonders-seven-6",
+      "label": "Lighthouse of Alexandria"
+    },
+    {
+      "itemId": "ancient-wonders-seven-10",
+      "label": "Pantheon of Rome"
+    },
+    {
+      "itemId": "ancient-wonders-seven-2",
+      "label": "Colossus of Rhodes"
+    },
+    {
+      "itemId": "ancient-wonders-seven-7",
+      "label": "Temple of Artemis at Ephesus"
+    },
+    {
+      "itemId": "ancient-wonders-seven-5",
+      "label": "Mausoleum at Halicarnassus"
+    },
+    {
+      "itemId": "ancient-wonders-seven-9",
+      "label": "Temple of Apollo at Delphi"
+    },
+    {
+      "itemId": "ancient-wonders-seven-3",
+      "label": "Statue of Zeus at Olympia"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Classical monument class (Surviving Ancient Pyramid, Colossal Statues, Gardens/Mausoleum/Pharos, or Greco-Roman Temples)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Surviving Ancient Wonder",
+        "capacity": 1,
+        "itemIds": [
+          "ancient-wonders-seven-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Colossal Statues",
+        "capacity": 2,
+        "itemIds": [
+          "ancient-wonders-seven-2",
+          "ancient-wonders-seven-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Gardens, Mausoleum & Pharos",
+        "capacity": 3,
+        "itemIds": [
+          "ancient-wonders-seven-4",
+          "ancient-wonders-seven-5",
+          "ancient-wonders-seven-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Classical Greek & Roman Temples",
+        "capacity": 4,
+        "itemIds": [
+          "ancient-wonders-seven-7",
+          "ancient-wonders-seven-8",
+          "ancient-wonders-seven-9",
+          "ancient-wonders-seven-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by monument class: Surviving Ancient Wonder (Great Pyramid of Giza), Colossal Statues (Colossus of Rhodes, Statue of Zeus at Olympia), Royal Garden, Tomb & Pharos (Hanging Gardens of Babylon, Mausoleum at Halicarnassus, Lighthouse of Alexandria), and Classical Temples (Temple of Artemis at Ephesus, Athenian Parthenon, Temple of Apollo at Delphi, Roman Pantheon).",
+  "sources": [
+    {
+      "title": "Britannica: Seven Wonders of the World",
+      "url": "https://www.britannica.com/topic/Seven-Wonders-of-the-World",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "comets-asteroids-families-2027-07-01-es-419",
+  "puzzleFamilyId": "comets-asteroids-families-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-01",
+  "timezone": "UTC",
+  "theme": "Cometas y asteroides famosos",
+  "items": [
+    {
+      "itemId": "comets-asteroids-families-4",
+      "label": "Cometa Hale-Bopp"
+    },
+    {
+      "itemId": "comets-asteroids-families-8",
+      "label": "2 Palas"
+    },
+    {
+      "itemId": "comets-asteroids-families-1",
+      "label": "1I/ʻOumuamua"
+    },
+    {
+      "itemId": "comets-asteroids-families-6",
+      "label": "Cometa McNaught"
+    },
+    {
+      "itemId": "comets-asteroids-families-10",
+      "label": "16 Psique"
+    },
+    {
+      "itemId": "comets-asteroids-families-2",
+      "label": "Cometa Halley (76 años)"
+    },
+    {
+      "itemId": "comets-asteroids-families-7",
+      "label": "4 Vesta"
+    },
+    {
+      "itemId": "comets-asteroids-families-5",
+      "label": "Cometa Hyakutake"
+    },
+    {
+      "itemId": "comets-asteroids-families-9",
+      "label": "3 Juno"
+    },
+    {
+      "itemId": "comets-asteroids-families-3",
+      "label": "Cometa Encke (3.3 años)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase orbital de cada cometa o asteroide",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Visitante interestelar",
+        "capacity": 1,
+        "itemIds": [
+          "comets-asteroids-families-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Cometas de período corto",
+        "capacity": 2,
+        "itemIds": [
+          "comets-asteroids-families-2",
+          "comets-asteroids-families-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Cometas de período largo",
+        "capacity": 3,
+        "itemIds": [
+          "comets-asteroids-families-4",
+          "comets-asteroids-families-5",
+          "comets-asteroids-families-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Asteroides del cinturón principal",
+        "capacity": 4,
+        "itemIds": [
+          "comets-asteroids-families-7",
+          "comets-asteroids-families-8",
+          "comets-asteroids-families-9",
+          "comets-asteroids-families-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase orbital: objeto interestelar (1I/ʻOumuamua), cometas de período corto (Halley, Encke), cometas de período largo (Hale-Bopp, Hyakutake, McNaught) y asteroides del cinturón principal (Vesta, Palas, Juno, Psique).",
+  "sources": [
+    {
+      "title": "NASA JPL: Small-Body Database",
+      "url": "https://ssd.jpl.nasa.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

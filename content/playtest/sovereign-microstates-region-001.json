@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "sovereign-microstates-region-001",
+  "theme": "World Microstates",
+  "publishDate": "2027-04-09",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "sovereign-microstates-region-2",
+        "rivalGroupId": "group-1",
+        "risk": "Maldives is politically part of South Asia.",
+        "resolution": "Geographically, the Maldives and Seychelles are Indian Ocean island microstates (group-2), distinct from mainland/peninsular Singapore (group-1)."
+      },
+      {
+        "itemId": "sovereign-microstates-region-6",
+        "rivalGroupId": "group-2",
+        "risk": "Palau is an island nation.",
+        "resolution": "Palau lies in Micronesia in the western Pacific Ocean (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

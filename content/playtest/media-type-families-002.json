@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "media-type-families-002",
+  "theme": "Web File Families",
+  "publishDate": "2026-11-25",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "media-type-families-1",
+        "rivalGroupId": "group-4",
+        "risk": ".svg files are XML text under the hood, tempting players to place .svg in Text.",
+        "resolution": "Registered IANA/MDN top-level MIME type for .svg is image/svg+xml (Image, group-1)."
+      },
+      {
+        "itemId": "media-type-families-5",
+        "rivalGroupId": "group-2",
+        "risk": "MP4 and WebM containers can carry audio-only streams.",
+        "resolution": "Conventional extension-to-MIME mapping assigns .mp4 and .webm to video/* (Video, group-3)."
+      }
+    ],
+    "notes": "Promoted from content/candidates/batch-7 after author MIME registry review."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

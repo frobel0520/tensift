@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "si-metric-prefixes-2028-01-01-zh-hant",
+  "puzzleFamilyId": "si-metric-prefixes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2028-01-01",
+  "timezone": "UTC",
+  "theme": "國際單位制（SI）十進制詞頭級距",
+  "items": [
+    {
+      "itemId": "si-metric-prefixes-4",
+      "label": "十（deca, 10^1）"
+    },
+    {
+      "itemId": "si-metric-prefixes-8",
+      "label": "吉／十億（giga, 10^9）"
+    },
+    {
+      "itemId": "si-metric-prefixes-1",
+      "label": "奈（nano, 10^-9）"
+    },
+    {
+      "itemId": "si-metric-prefixes-6",
+      "label": "千（kilo, 10^3）"
+    },
+    {
+      "itemId": "si-metric-prefixes-10",
+      "label": "拍／千兆（peta, 10^15）"
+    },
+    {
+      "itemId": "si-metric-prefixes-2",
+      "label": "毫（milli, 10^-3）"
+    },
+    {
+      "itemId": "si-metric-prefixes-7",
+      "label": "百萬（mega, 10^6）"
+    },
+    {
+      "itemId": "si-metric-prefixes-5",
+      "label": "百（hecto, 10^2）"
+    },
+    {
+      "itemId": "si-metric-prefixes-9",
+      "label": "兆／太（tera, 10^12）"
+    },
+    {
+      "itemId": "si-metric-prefixes-3",
+      "label": "釐（centi, 10^-2）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各 SI 詞頭所屬的十進制數量級區間（奈米級微觀次單位、日常毫／釐次單位、十至千倍數或百萬至拍級超大倍數）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "微觀奈米級（10^-9）",
+        "capacity": 1,
+        "itemIds": [
+          "si-metric-prefixes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "日常次單位（10^-3 至 10^-2）",
+        "capacity": 2,
+        "itemIds": [
+          "si-metric-prefixes-2",
+          "si-metric-prefixes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "常用小倍數（10^1 至 10^3）",
+        "capacity": 3,
+        "itemIds": [
+          "si-metric-prefixes-4",
+          "si-metric-prefixes-5",
+          "si-metric-prefixes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "百萬以上大倍數（10^6 至 10^15）",
+        "capacity": 4,
+        "itemIds": [
+          "si-metric-prefixes-7",
+          "si-metric-prefixes-8",
+          "si-metric-prefixes-9",
+          "si-metric-prefixes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依國際單位制十進制級距分類：微觀奈米級（奈 nano 10^-9）、日常小於 1 次單位（毫 milli 10^-3、釐 centi 10^-2）、常用小倍數（十 deca 10^1、百 hecto 10^2、千 kilo 10^3）與百萬以上超大倍數（百萬 mega 10^6、吉 giga 10^9、兆 tera 10^12、拍 peta 10^15）。",
+  "sources": [
+    {
+      "title": "BIPM: SI Prefixes",
+      "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

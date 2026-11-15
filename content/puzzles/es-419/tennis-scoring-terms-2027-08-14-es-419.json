@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tennis-scoring-terms-2027-08-14-es-419",
+  "puzzleFamilyId": "tennis-scoring-terms-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-14",
+  "timezone": "UTC",
+  "theme": "Términos de puntuación en tenis",
+  "items": [
+    {
+      "itemId": "tennis-scoring-terms-4",
+      "label": "Punto"
+    },
+    {
+      "itemId": "tennis-scoring-terms-8",
+      "label": "Quince (15)"
+    },
+    {
+      "itemId": "tennis-scoring-terms-1",
+      "label": "Tiebreak a 7 puntos"
+    },
+    {
+      "itemId": "tennis-scoring-terms-6",
+      "label": "Set"
+    },
+    {
+      "itemId": "tennis-scoring-terms-10",
+      "label": "Cuarenta (40)"
+    },
+    {
+      "itemId": "tennis-scoring-terms-2",
+      "label": "Deuce (iguales)"
+    },
+    {
+      "itemId": "tennis-scoring-terms-7",
+      "label": "Cero (Love)"
+    },
+    {
+      "itemId": "tennis-scoring-terms-5",
+      "label": "Juego"
+    },
+    {
+      "itemId": "tennis-scoring-terms-9",
+      "label": "Treinta (30)"
+    },
+    {
+      "itemId": "tennis-scoring-terms-3",
+      "label": "Ventaja"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría de cada término de puntuación en tenis",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Desempate (Tiebreak)",
+        "capacity": 1,
+        "itemIds": [
+          "tennis-scoring-terms-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Iguales y ventaja",
+        "capacity": 2,
+        "itemIds": [
+          "tennis-scoring-terms-2",
+          "tennis-scoring-terms-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Unidades del partido",
+        "capacity": 3,
+        "itemIds": [
+          "tennis-scoring-terms-4",
+          "tennis-scoring-terms-5",
+          "tennis-scoring-terms-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Cantos de puntuación",
+        "capacity": 4,
+        "itemIds": [
+          "tennis-scoring-terms-7",
+          "tennis-scoring-terms-8",
+          "tennis-scoring-terms-9",
+          "tennis-scoring-terms-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: desempate (tiebreak), igualdad y ventaja (deuce, ventaja), unidades del partido (punto, juego, set) y cantos de puntuación (cero/love, quince, treinta, cuarenta).",
+  "sources": [
+    {
+      "title": "ITF Rules of Tennis",
+      "url": "https://www.itftennis.com/en/about-us/governance/rules-and-regulations/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

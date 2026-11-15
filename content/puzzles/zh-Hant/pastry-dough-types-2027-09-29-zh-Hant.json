@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "pastry-dough-types-2027-09-29-zh-hant",
+  "puzzleFamilyId": "pastry-dough-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-29",
+  "timezone": "UTC",
+  "theme": "經典西點派皮與麵糰",
+  "items": [
+    {
+      "itemId": "pastry-dough-types-4",
+      "label": "法式鹹派脆皮（Brisée）"
+    },
+    {
+      "itemId": "pastry-dough-types-8",
+      "label": "瑞士蛋白霜"
+    },
+    {
+      "itemId": "pastry-dough-types-1",
+      "label": "菲洛極薄酥皮（Phyllo）"
+    },
+    {
+      "itemId": "pastry-dough-types-6",
+      "label": "沙布列酥餅皮（Sablée）"
+    },
+    {
+      "itemId": "pastry-dough-types-10",
+      "label": "天使蛋糕蛋白泡"
+    },
+    {
+      "itemId": "pastry-dough-types-2",
+      "label": "法式千層酥皮"
+    },
+    {
+      "itemId": "pastry-dough-types-7",
+      "label": "法式蛋白霜"
+    },
+    {
+      "itemId": "pastry-dough-types-5",
+      "label": "法式甜塔皮（Sucrée）"
+    },
+    {
+      "itemId": "pastry-dough-types-9",
+      "label": "熱諾瓦士海綿蛋糕"
+    },
+    {
+      "itemId": "pastry-dough-types-3",
+      "label": "可頌發酵千層麵糰"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各經典西點麵皮與基底的物理結構（拉延極薄麵皮、折疊千層酥皮、脆餅派皮或蛋白打發氣泡體）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "拉延極薄麵皮",
+        "capacity": 1,
+        "itemIds": [
+          "pastry-dough-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "折疊千層麵糰",
+        "capacity": 2,
+        "itemIds": [
+          "pastry-dough-types-2",
+          "pastry-dough-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "油粉脆餅塔皮",
+        "capacity": 3,
+        "itemIds": [
+          "pastry-dough-types-4",
+          "pastry-dough-types-5",
+          "pastry-dough-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "打發蛋泡基底",
+        "capacity": 4,
+        "itemIds": [
+          "pastry-dough-types-7",
+          "pastry-dough-types-8",
+          "pastry-dough-types-9",
+          "pastry-dough-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依西點結構分類：極薄拉延麵皮（希臘菲洛酥皮 Phyllo）、折疊千層油皮（千層酥皮、可頌麵糰）、油粉拌合脆派皮（鹹派皮 Brisée、甜塔皮 Sucrée、沙布列酥餅皮 Sablée）與打發蛋白／全蛋氣泡基底（法式蛋白霜、瑞士蛋白霜、海綿蛋糕、天使蛋糕）。",
+  "sources": [
+    {
+      "title": "CIA Baking & Pastry Arts",
+      "url": "https://www.ciachef.edu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

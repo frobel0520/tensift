@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "plateaus-continents-2027-04-07-es-419",
+  "puzzleFamilyId": "plateaus-continents-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-07",
+  "timezone": "UTC",
+  "theme": "Mesetas del mundo por continente",
+  "items": [
+    {
+      "itemId": "plateaus-continents-4",
+      "label": "Meseta del Colorado"
+    },
+    {
+      "itemId": "plateaus-continents-8",
+      "label": "Meseta del Decán"
+    },
+    {
+      "itemId": "plateaus-continents-1",
+      "label": "Altiplano andino"
+    },
+    {
+      "itemId": "plateaus-continents-6",
+      "label": "Altiplanicie Mexicana"
+    },
+    {
+      "itemId": "plateaus-continents-10",
+      "label": "Meseta de Mongolia"
+    },
+    {
+      "itemId": "plateaus-continents-2",
+      "label": "Macizo Etíope"
+    },
+    {
+      "itemId": "plateaus-continents-7",
+      "label": "Meseta del Tíbet"
+    },
+    {
+      "itemId": "plateaus-continents-5",
+      "label": "Meseta del Columbia"
+    },
+    {
+      "itemId": "plateaus-continents-9",
+      "label": "Meseta de Anatolia"
+    },
+    {
+      "itemId": "plateaus-continents-3",
+      "label": "Meseta de África Oriental"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Continente donde se ubica cada meseta",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Sudamérica",
+        "capacity": 1,
+        "itemIds": [
+          "plateaus-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "África",
+        "capacity": 2,
+        "itemIds": [
+          "plateaus-continents-2",
+          "plateaus-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Norteamérica",
+        "capacity": 3,
+        "itemIds": [
+          "plateaus-continents-4",
+          "plateaus-continents-5",
+          "plateaus-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Asia",
+        "capacity": 4,
+        "itemIds": [
+          "plateaus-continents-7",
+          "plateaus-continents-8",
+          "plateaus-continents-9",
+          "plateaus-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por continente: Sudamérica (Altiplano), África (macizo Etíope, meseta de África Oriental), Norteamérica (meseta del Colorado, Columbia, Mexicana) y Asia (Tíbet, Decán, Anatolia, Mongolia).",
+  "sources": [
+    {
+      "title": "Britannica: Plateau",
+      "url": "https://www.britannica.com/science/plateau-landform",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

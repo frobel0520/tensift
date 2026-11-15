@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "literary-forms-genres-2027-05-21-es-419",
+  "puzzleFamilyId": "literary-forms-genres-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-21",
+  "timezone": "UTC",
+  "theme": "Formas y géneros literarios",
+  "items": [
+    {
+      "itemId": "literary-forms-genres-4",
+      "label": "Poema épico"
+    },
+    {
+      "itemId": "literary-forms-genres-8",
+      "label": "Autobiografía"
+    },
+    {
+      "itemId": "literary-forms-genres-1",
+      "label": "Novela epistolar"
+    },
+    {
+      "itemId": "literary-forms-genres-6",
+      "label": "Tragedia teatral"
+    },
+    {
+      "itemId": "literary-forms-genres-10",
+      "label": "Memorias"
+    },
+    {
+      "itemId": "literary-forms-genres-2",
+      "label": "Cuento"
+    },
+    {
+      "itemId": "literary-forms-genres-7",
+      "label": "Biografía"
+    },
+    {
+      "itemId": "literary-forms-genres-5",
+      "label": "Soneto"
+    },
+    {
+      "itemId": "literary-forms-genres-9",
+      "label": "Ensayo"
+    },
+    {
+      "itemId": "literary-forms-genres-3",
+      "label": "Novela corta"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría literaria de cada formato",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Formato epistolar",
+        "capacity": 1,
+        "itemIds": [
+          "literary-forms-genres-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Ficción breve",
+        "capacity": 2,
+        "itemIds": [
+          "literary-forms-genres-2",
+          "literary-forms-genres-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Verso y drama",
+        "capacity": 3,
+        "itemIds": [
+          "literary-forms-genres-4",
+          "literary-forms-genres-5",
+          "literary-forms-genres-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "No ficción en prosa",
+        "capacity": 4,
+        "itemIds": [
+          "literary-forms-genres-7",
+          "literary-forms-genres-8",
+          "literary-forms-genres-9",
+          "literary-forms-genres-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por formato: novela epistolar (novela epistolar), ficción breve (cuento, novela corta), verso y drama (poema épico, soneto, tragedia) y no ficción (biografía, autobiografía, ensayo, memorias).",
+  "sources": [
+    {
+      "title": "Britannica: Literary Genres",
+      "url": "https://www.britannica.com/art/literature",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

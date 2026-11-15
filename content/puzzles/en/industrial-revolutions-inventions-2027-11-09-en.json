@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "industrial-revolutions-inventions-2027-11-09-en",
+  "puzzleFamilyId": "industrial-revolutions-inventions-001",
+  "locale": "en",
+  "publishDate": "2027-11-09",
+  "timezone": "UTC",
+  "theme": "Industrial Revolutions Timeline",
+  "items": [
+    {
+      "itemId": "industrial-revolutions-inventions-4",
+      "label": "AC Electrical Power Grid"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-8",
+      "label": "Spinning Jenny"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-1",
+      "label": "Autonomous AI & IoT Robotics"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-6",
+      "label": "Bessemer Steel Converter"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-10",
+      "label": "Early Steam Locomotive"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-2",
+      "label": "Silicon Microprocessor (1971)"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-7",
+      "label": "Watt Condensing Steam Engine"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-5",
+      "label": "Moving Auto Assembly Line"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-9",
+      "label": "Mechanized Power Loom"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-3",
+      "label": "ARPANET Packet Network"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Industrial Revolution wave (4th Cyber-Physical/AI, 3rd Digital/Semiconductor, 2nd Electrification/Assembly Line, or 1st Steam/Mechanization)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "4th: Cyber-Physical & AI",
+        "capacity": 1,
+        "itemIds": [
+          "industrial-revolutions-inventions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "3rd: Digital & Semiconductor",
+        "capacity": 2,
+        "itemIds": [
+          "industrial-revolutions-inventions-2",
+          "industrial-revolutions-inventions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "2nd: Electrification & Mass Prod.",
+        "capacity": 3,
+        "itemIds": [
+          "industrial-revolutions-inventions-4",
+          "industrial-revolutions-inventions-5",
+          "industrial-revolutions-inventions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "1st: Steam & Textile Mechanization",
+        "capacity": 4,
+        "itemIds": [
+          "industrial-revolutions-inventions-7",
+          "industrial-revolutions-inventions-8",
+          "industrial-revolutions-inventions-9",
+          "industrial-revolutions-inventions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by Industrial Revolution: Fourth Industry 4.0 (Generative Transformer AI), Third Digital Revolution (Microprocessor IC, ARPANET Packet Switching), Second Electrical/Mass-Production (Alternating-Current Grid, Moving Assembly Line, Bessemer Steel Process), and First Mechanization (Watt Steam Engine, Spinning Jenny, Power Loom, Steam Locomotive).",
+  "sources": [
+    {
+      "title": "Britannica: Industrial Revolution",
+      "url": "https://www.britannica.com/event/Industrial-Revolution",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

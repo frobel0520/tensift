@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "workshop-hand-tools-2027-07-11-es-419",
+  "puzzleFamilyId": "workshop-hand-tools-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-11",
+  "timezone": "UTC",
+  "theme": "Herramientas manuales de taller",
+  "items": [
+    {
+      "itemId": "workshop-hand-tools-4",
+      "label": "Sierra de arco para metal"
+    },
+    {
+      "itemId": "workshop-hand-tools-8",
+      "label": "Llave dinamométrica"
+    },
+    {
+      "itemId": "workshop-hand-tools-1",
+      "label": "Calibre pie de rey"
+    },
+    {
+      "itemId": "workshop-hand-tools-6",
+      "label": "Tijera hojalatera"
+    },
+    {
+      "itemId": "workshop-hand-tools-10",
+      "label": "Llave Allen"
+    },
+    {
+      "itemId": "workshop-hand-tools-2",
+      "label": "Pinza de presión"
+    },
+    {
+      "itemId": "workshop-hand-tools-7",
+      "label": "Martillo de uña"
+    },
+    {
+      "itemId": "workshop-hand-tools-5",
+      "label": "Formón para madera"
+    },
+    {
+      "itemId": "workshop-hand-tools-9",
+      "label": "Destornillador Phillips"
+    },
+    {
+      "itemId": "workshop-hand-tools-3",
+      "label": "Prensa en C"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Función operativa de cada herramienta manual",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Medición de precisión",
+        "capacity": 1,
+        "itemIds": [
+          "workshop-hand-tools-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Sujeción y apriete",
+        "capacity": 2,
+        "itemIds": [
+          "workshop-hand-tools-2",
+          "workshop-hand-tools-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Corte y cizallado",
+        "capacity": 3,
+        "itemIds": [
+          "workshop-hand-tools-4",
+          "workshop-hand-tools-5",
+          "workshop-hand-tools-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Golpe y torsión",
+        "capacity": 4,
+        "itemIds": [
+          "workshop-hand-tools-7",
+          "workshop-hand-tools-8",
+          "workshop-hand-tools-9",
+          "workshop-hand-tools-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por función: medición (calibre pie de rey), sujeción (pinza de presión, prensa C), corte (sierra para metal, formón, tijera hojalatera) y golpe/ajuste (martillo de uña, llave dinamométrica, destornillador Phillips, llave Allen).",
+  "sources": [
+    {
+      "title": "Britannica: Hand Tools",
+      "url": "https://www.britannica.com/technology/hand-tool",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

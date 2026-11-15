@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "pasta-shapes-taxonomy-2027-09-13-zh-hant",
+  "puzzleFamilyId": "pasta-shapes-taxonomy-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-13",
+  "timezone": "UTC",
+  "theme": "義大利麵條形狀分類",
+  "items": [
+    {
+      "itemId": "pasta-shapes-taxonomy-4",
+      "label": "斜紋筆管麵（Penne）"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-8",
+      "label": "寬扁長麵（Fettuccine）"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-1",
+      "label": "千層麵皮（Lasagna）"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-6",
+      "label": "彎管通心粉（Macaroni）"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-10",
+      "label": "天使細麵（Capellini）"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-2",
+      "label": "義式方餃（Ravioli）"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-7",
+      "label": "義大利直麵（Spaghetti）"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-5",
+      "label": "粗直紋管麵（Rigatoni）"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-9",
+      "label": "細扁長麵（Linguine）"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-3",
+      "label": "義式環形小餃（Tortellini）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各義大利麵體的幾何造型分類（寬扁千層麵皮、包餡麵餃、空心管麵或長條細麵）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "寬扁麵皮",
+        "capacity": 1,
+        "itemIds": [
+          "pasta-shapes-taxonomy-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "包餡麵餃",
+        "capacity": 2,
+        "itemIds": [
+          "pasta-shapes-taxonomy-2",
+          "pasta-shapes-taxonomy-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "空心管麵",
+        "capacity": 3,
+        "itemIds": [
+          "pasta-shapes-taxonomy-4",
+          "pasta-shapes-taxonomy-5",
+          "pasta-shapes-taxonomy-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "長條麵類",
+        "capacity": 4,
+        "itemIds": [
+          "pasta-shapes-taxonomy-7",
+          "pasta-shapes-taxonomy-8",
+          "pasta-shapes-taxonomy-9",
+          "pasta-shapes-taxonomy-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依造型分類：寬扁麵皮（千層麵 Lasagna）、包餡麵餃（義式方餃 Ravioli、義式餛飩 Tortellini）、空心管麵（筆管麵 Penne、水管麵 Rigatoni、通心粉 Macaroni）與長條麵（直麵 Spaghetti、寬扁麵 Fettuccine、細扁麵 Linguine、天使細麵 Capellini）。",
+  "sources": [
+    {
+      "title": "Italian Culinary Institute: Pasta Shapes",
+      "url": "https://www.britannica.com/topic/pasta",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.18
+  },
+  "status": "scheduled"
+}

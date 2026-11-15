@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "roman-numeral-values-2027-02-27-zh-hant",
+  "puzzleFamilyId": "roman-numeral-values-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-02-27",
+  "timezone": "UTC",
+  "theme": "羅馬數字數值區間",
+  "items": [
+    {
+      "itemId": "roman-numeral-values-4",
+      "label": "CC"
+    },
+    {
+      "itemId": "roman-numeral-values-8",
+      "label": "CM"
+    },
+    {
+      "itemId": "roman-numeral-values-1",
+      "label": "IV"
+    },
+    {
+      "itemId": "roman-numeral-values-6",
+      "label": "CD"
+    },
+    {
+      "itemId": "roman-numeral-values-10",
+      "label": "MM"
+    },
+    {
+      "itemId": "roman-numeral-values-2",
+      "label": "XL"
+    },
+    {
+      "itemId": "roman-numeral-values-7",
+      "label": "D"
+    },
+    {
+      "itemId": "roman-numeral-values-5",
+      "label": "CCC"
+    },
+    {
+      "itemId": "roman-numeral-values-9",
+      "label": "M"
+    },
+    {
+      "itemId": "roman-numeral-values-3",
+      "label": "XC"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各羅馬數字表達式的數值大小區間",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "小於 10",
+        "capacity": 1,
+        "itemIds": [
+          "roman-numeral-values-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "10 至 99",
+        "capacity": 2,
+        "itemIds": [
+          "roman-numeral-values-2",
+          "roman-numeral-values-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "100 至 499",
+        "capacity": 3,
+        "itemIds": [
+          "roman-numeral-values-4",
+          "roman-numeral-values-5",
+          "roman-numeral-values-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "500 以上",
+        "capacity": 4,
+        "itemIds": [
+          "roman-numeral-values-7",
+          "roman-numeral-values-8",
+          "roman-numeral-values-9",
+          "roman-numeral-values-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依羅馬數字代表的數值區間歸類：1–9（IV）、10–99（XL、XC）、100–499（CC、CCC、CD）與 500 以上（D、CM、M、MM）。",
+  "sources": [
+    {
+      "title": "Britannica: Roman Numeral",
+      "url": "https://www.britannica.com/topic/Roman-numeral",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.38
+  },
+  "status": "scheduled"
+}

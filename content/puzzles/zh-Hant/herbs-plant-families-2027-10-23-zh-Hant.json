@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "herbs-plant-families-2027-10-23-zh-hant",
+  "puzzleFamilyId": "herbs-plant-families-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-23",
+  "timezone": "UTC",
+  "theme": "烹飪香草植物的科屬分類",
+  "items": [
+    {
+      "itemId": "herbs-plant-families-4",
+      "label": "平葉巴西里（歐芹）"
+    },
+    {
+      "itemId": "herbs-plant-families-8",
+      "label": "迷迭香"
+    },
+    {
+      "itemId": "herbs-plant-families-1",
+      "label": "月桂葉"
+    },
+    {
+      "itemId": "herbs-plant-families-6",
+      "label": "蒔蘿（Dill）"
+    },
+    {
+      "itemId": "herbs-plant-families-10",
+      "label": "奧勒岡（牛至）"
+    },
+    {
+      "itemId": "herbs-plant-families-2",
+      "label": "蝦夷蔥（細香蔥）"
+    },
+    {
+      "itemId": "herbs-plant-families-7",
+      "label": "甜羅勒（九層塔屬）"
+    },
+    {
+      "itemId": "herbs-plant-families-5",
+      "label": "香菜（芫荽）"
+    },
+    {
+      "itemId": "herbs-plant-families-9",
+      "label": "百里香"
+    },
+    {
+      "itemId": "herbs-plant-families-3",
+      "label": "韭菜（蒜蔥）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各烹飪香草所屬的植物學科別（樟科月桂、石蒜科蔥蒜、傘形科或唇形科薄荷家族）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "樟科（Lauraceae）",
+        "capacity": 1,
+        "itemIds": [
+          "herbs-plant-families-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "石蒜科蔥屬香草",
+        "capacity": 2,
+        "itemIds": [
+          "herbs-plant-families-2",
+          "herbs-plant-families-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "傘形科（Apiaceae）",
+        "capacity": 3,
+        "itemIds": [
+          "herbs-plant-families-4",
+          "herbs-plant-families-5",
+          "herbs-plant-families-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "唇形科（Lamiaceae）",
+        "capacity": 4,
+        "itemIds": [
+          "herbs-plant-families-7",
+          "herbs-plant-families-8",
+          "herbs-plant-families-9",
+          "herbs-plant-families-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依植物科別分類：樟科（月桂葉）、石蒜科蔥屬（蝦夷蔥 Chives、韭菜）、傘形科（巴西里／歐芹、香菜／芫荽、蒔蘿）與唇形科（甜羅勒／九層塔、迷迭香、百里香、奧勒岡）。",
+  "sources": [
+    {
+      "title": "USDA PLANTS Database: Culinary Herbs",
+      "url": "https://plants.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

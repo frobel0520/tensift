@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "crewed-spaceflight-programs-001",
+  "theme": "Historic Crewed Space Missions",
+  "publishDate": "2027-06-12",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "crewed-spaceflight-programs-2",
+        "rivalGroupId": "group-4",
+        "risk": "Freedom 7 has a spacecraft nickname like Apollo lunar modules.",
+        "resolution": "Freedom 7 (Alan Shepard) and Friendship 7 (John Glenn) were Project Mercury flights (group-2)."
+      },
+      {
+        "itemId": "crewed-spaceflight-programs-1",
+        "rivalGroupId": "group-2",
+        "risk": "Vostok 1 flew in 1961 alongside Mercury.",
+        "resolution": "Vostok 1 was the Soviet Vostok program (group-1), distinct from US Project Mercury (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

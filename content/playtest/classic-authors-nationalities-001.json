@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "classic-authors-nationalities-001",
+  "theme": "Classic Authors by Country",
+  "publishDate": "2027-05-27",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "classic-authors-nationalities-1",
+        "rivalGroupId": "group-2",
+        "risk": "Andersen is often paired with the Brothers Grimm as a fairy-tale writer.",
+        "resolution": "Andersen was Danish (group-1), whereas the Brothers Grimm were German (group-2)."
+      },
+      {
+        "itemId": "classic-authors-nationalities-3",
+        "rivalGroupId": "group-3",
+        "risk": "Hoffmann’s Nutcracker became famous through Tchaikovsky’s Russian ballet.",
+        "resolution": "E. T. A. Hoffmann was a German Romantic author (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

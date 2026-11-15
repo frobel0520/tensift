@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "golf-club-categories-2027-08-13-zh-hant",
+  "puzzleFamilyId": "golf-club-categories-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-13",
+  "timezone": "UTC",
+  "theme": "高爾夫球桿分類",
+  "items": [
+    {
+      "itemId": "golf-club-categories-4",
+      "label": "一號開球木桿（Driver）"
+    },
+    {
+      "itemId": "golf-club-categories-8",
+      "label": "5 號鐵桿"
+    },
+    {
+      "itemId": "golf-club-categories-1",
+      "label": "果嶺推桿"
+    },
+    {
+      "itemId": "golf-club-categories-6",
+      "label": "混合桿（小雞腿）"
+    },
+    {
+      "itemId": "golf-club-categories-10",
+      "label": "9 號鐵桿"
+    },
+    {
+      "itemId": "golf-club-categories-2",
+      "label": "劈起桿（PW）"
+    },
+    {
+      "itemId": "golf-club-categories-7",
+      "label": "3 號鐵桿"
+    },
+    {
+      "itemId": "golf-club-categories-5",
+      "label": "三號球道木桿"
+    },
+    {
+      "itemId": "golf-club-categories-9",
+      "label": "7 號鐵桿"
+    },
+    {
+      "itemId": "golf-club-categories-3",
+      "label": "沙坑桿（SW）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各高爾夫球桿的桿頭類別（推桿、挖起桿、木桿／混合桿或鐵桿）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "推桿",
+        "capacity": 1,
+        "itemIds": [
+          "golf-club-categories-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "挖起桿",
+        "capacity": 2,
+        "itemIds": [
+          "golf-club-categories-2",
+          "golf-club-categories-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "木桿與混合桿",
+        "capacity": 3,
+        "itemIds": [
+          "golf-club-categories-4",
+          "golf-club-categories-5",
+          "golf-club-categories-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "編號鐵桿",
+        "capacity": 4,
+        "itemIds": [
+          "golf-club-categories-7",
+          "golf-club-categories-8",
+          "golf-club-categories-9",
+          "golf-club-categories-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依高爾夫球桿類別分類：推桿（果嶺推桿）、挖起桿（劈起桿、沙坑桿）、木桿與混合桿（開球木桿 Driver、球道木桿、小雞腿混合桿）與編號鐵桿（3 號鐵、5 號鐵、7 號鐵、9 號鐵）。",
+  "sources": [
+    {
+      "title": "R&A & USGA Rules of Golf",
+      "url": "https://www.randa.org/rog",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

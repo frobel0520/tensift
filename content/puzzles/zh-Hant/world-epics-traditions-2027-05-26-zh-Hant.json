@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "world-epics-traditions-2027-05-26-zh-hant",
+  "puzzleFamilyId": "world-epics-traditions-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-26",
+  "timezone": "UTC",
+  "theme": "世界史詩文學傳統",
+  "items": [
+    {
+      "itemId": "world-epics-traditions-4",
+      "label": "《伊利亞德》"
+    },
+    {
+      "itemId": "world-epics-traditions-8",
+      "label": "《神曲》"
+    },
+    {
+      "itemId": "world-epics-traditions-1",
+      "label": "《吉爾伽美什史詩》"
+    },
+    {
+      "itemId": "world-epics-traditions-6",
+      "label": "《阿爾戈英雄紀》"
+    },
+    {
+      "itemId": "world-epics-traditions-10",
+      "label": "《失樂園》"
+    },
+    {
+      "itemId": "world-epics-traditions-2",
+      "label": "《摩訶婆羅多》"
+    },
+    {
+      "itemId": "world-epics-traditions-7",
+      "label": "《貝奧武夫》"
+    },
+    {
+      "itemId": "world-epics-traditions-5",
+      "label": "《奧德賽》"
+    },
+    {
+      "itemId": "world-epics-traditions-9",
+      "label": "《羅蘭之歌》"
+    },
+    {
+      "itemId": "world-epics-traditions-3",
+      "label": "《羅摩衍那》"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各部經典史詩所屬的文化與歷史文學傳統",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "美索不達米亞",
+        "capacity": 1,
+        "itemIds": [
+          "world-epics-traditions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "印度梵語史詩",
+        "capacity": 2,
+        "itemIds": [
+          "world-epics-traditions-2",
+          "world-epics-traditions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "古希臘史詩",
+        "capacity": 3,
+        "itemIds": [
+          "world-epics-traditions-4",
+          "world-epics-traditions-5",
+          "world-epics-traditions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "中世紀與文藝復興歐洲",
+        "capacity": 4,
+        "itemIds": [
+          "world-epics-traditions-7",
+          "world-epics-traditions-8",
+          "world-epics-traditions-9",
+          "world-epics-traditions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依文學傳統分類：美索不達米亞（《吉爾伽美什史詩》）、印度梵語（《摩訶婆羅多》、《羅摩衍那》）、古希臘（《伊利亞德》、《奧德賽》、《阿爾戈英雄紀》）與中世紀／文藝復興歐洲（《貝奧武夫》、《神曲》、《羅蘭之歌》、《失樂園》）。",
+  "sources": [
+    {
+      "title": "Britannica: Epic Literature",
+      "url": "https://www.britannica.com/art/epic",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

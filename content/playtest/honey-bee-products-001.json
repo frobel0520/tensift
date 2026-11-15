@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "honey-bee-products-001",
+  "theme": "Apiary & Bee Products",
+  "publishDate": "2027-09-26",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "honey-bee-products-1",
+        "rivalGroupId": "group-2",
+        "risk": "Propolis is used to build and seal the hive like beeswax.",
+        "resolution": "Propolis is collected from tree buds and sap resins (group-1), whereas beeswax and royal jelly are synthesized by bee glands (group-2)."
+      },
+      {
+        "itemId": "honey-bee-products-6",
+        "rivalGroupId": "group-4",
+        "risk": "Cut honeycomb contains liquid honey.",
+        "resolution": "Cut honeycomb is a solid wax-and-nectar hive structure (group-3), distinct from extracted liquid monofloral honeys (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

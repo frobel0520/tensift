@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "stellar-remnants-endpoints-2027-06-19-es-419",
+  "puzzleFamilyId": "stellar-remnants-endpoints-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-19",
+  "timezone": "UTC",
+  "theme": "Remanentes estelares y agujeros negros",
+  "items": [
+    {
+      "itemId": "stellar-remnants-endpoints-4",
+      "label": "Púlsar de radio"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-8",
+      "label": "Agujero negro intermedio"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-1",
+      "label": "Enana marrón"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-6",
+      "label": "Púlsar de milisegundos"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-10",
+      "label": "Agujero negro primordial"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-2",
+      "label": "Enana blanca de carbono-oxígeno"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-7",
+      "label": "Agujero negro estelar"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-5",
+      "label": "Magnetar"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-9",
+      "label": "Agujero negro supermasivo"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-3",
+      "label": "Enana blanca de helio"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase astrofísica de cada objeto compacto o subestelar",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Objeto subestelar",
+        "capacity": 1,
+        "itemIds": [
+          "stellar-remnants-endpoints-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Enanas blancas",
+        "capacity": 2,
+        "itemIds": [
+          "stellar-remnants-endpoints-2",
+          "stellar-remnants-endpoints-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Estrellas de neutrones",
+        "capacity": 3,
+        "itemIds": [
+          "stellar-remnants-endpoints-4",
+          "stellar-remnants-endpoints-5",
+          "stellar-remnants-endpoints-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Agujeros negros",
+        "capacity": 4,
+        "itemIds": [
+          "stellar-remnants-endpoints-7",
+          "stellar-remnants-endpoints-8",
+          "stellar-remnants-endpoints-9",
+          "stellar-remnants-endpoints-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase: subestelar (enana marrón), enanas blancas (de carbono-oxígeno, de helio), estrellas de neutrones (púlsar de radio, magnetar, púlsar de milisegundos) y agujeros negros (estelar, intermedio, supermasivo, primordial).",
+  "sources": [
+    {
+      "title": "NASA: Black Holes & Neutron Stars",
+      "url": "https://science.nasa.gov/astrophysics/focus-areas/black-holes/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

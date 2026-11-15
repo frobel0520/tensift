@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "punctuation-marks-roles-2027-05-17-en",
+  "puzzleFamilyId": "punctuation-marks-roles-001",
+  "locale": "en",
+  "publishDate": "2027-05-17",
+  "timezone": "UTC",
+  "theme": "Punctuation Marks by Role",
+  "items": [
+    {
+      "itemId": "punctuation-marks-roles-4",
+      "label": "Comma (,)"
+    },
+    {
+      "itemId": "punctuation-marks-roles-8",
+      "label": "Square Brackets [ ]"
+    },
+    {
+      "itemId": "punctuation-marks-roles-1",
+      "label": "Apostrophe (')"
+    },
+    {
+      "itemId": "punctuation-marks-roles-6",
+      "label": "Colon (:)"
+    },
+    {
+      "itemId": "punctuation-marks-roles-10",
+      "label": "Angle Brackets < >"
+    },
+    {
+      "itemId": "punctuation-marks-roles-2",
+      "label": "Question Mark (?)"
+    },
+    {
+      "itemId": "punctuation-marks-roles-7",
+      "label": "Parentheses ( )"
+    },
+    {
+      "itemId": "punctuation-marks-roles-5",
+      "label": "Semicolon (;)"
+    },
+    {
+      "itemId": "punctuation-marks-roles-9",
+      "label": "Quotation Marks \" \""
+    },
+    {
+      "itemId": "punctuation-marks-roles-3",
+      "label": "Exclamation Mark (!)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Syntactic role (Word-Level Apostrophe, Terminal Sentence Mark, Clause Separator, or Enclosing Pair)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Word-Level Mark",
+        "capacity": 1,
+        "itemIds": [
+          "punctuation-marks-roles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Terminal Sentence Marks",
+        "capacity": 2,
+        "itemIds": [
+          "punctuation-marks-roles-2",
+          "punctuation-marks-roles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Clause & List Separators",
+        "capacity": 3,
+        "itemIds": [
+          "punctuation-marks-roles-4",
+          "punctuation-marks-roles-5",
+          "punctuation-marks-roles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Enclosing Pairs",
+        "capacity": 4,
+        "itemIds": [
+          "punctuation-marks-roles-7",
+          "punctuation-marks-roles-8",
+          "punctuation-marks-roles-9",
+          "punctuation-marks-roles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by syntactic role: Word-level Apostrophe (Apostrophe), Terminal Marks (Question Mark, Exclamation Mark), Clause Separators (Comma, Semicolon, Colon), and Enclosing Pairs (Parentheses, Square Brackets, Quotation Marks, Angle Brackets).",
+  "sources": [
+    {
+      "title": "Chicago Manual of Style: Punctuation",
+      "url": "https://www.chicagomanualofstyle.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "milling-flour-grades-2027-10-16-zh-hant",
+  "puzzleFamilyId": "milling-flour-grades-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-16",
+  "timezone": "UTC",
+  "theme": "烘焙麵粉與澱粉分類",
+  "items": [
+    {
+      "itemId": "milling-flour-grades-4",
+      "label": "黑麥麵粉"
+    },
+    {
+      "itemId": "milling-flour-grades-8",
+      "label": "中筋通用麵粉"
+    },
+    {
+      "itemId": "milling-flour-grades-1",
+      "label": "玉米澱粉（太白粉／玉米粉）"
+    },
+    {
+      "itemId": "milling-flour-grades-6",
+      "label": "在來米粉（白米粉）"
+    },
+    {
+      "itemId": "milling-flour-grades-10",
+      "label": "小麥蛋白粉（麵筋粉）"
+    },
+    {
+      "itemId": "milling-flour-grades-2",
+      "label": "烘焙純杏仁粉"
+    },
+    {
+      "itemId": "milling-flour-grades-7",
+      "label": "低筋蛋糕麵粉"
+    },
+    {
+      "itemId": "milling-flour-grades-5",
+      "label": "全燕麥粉"
+    },
+    {
+      "itemId": "milling-flour-grades-9",
+      "label": "高筋麵包麵粉"
+    },
+    {
+      "itemId": "milling-flour-grades-3",
+      "label": "鷹嘴豆粉（Besan）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各烘焙粉類的原料與蛋白質分級（純精製澱粉、無麩質堅果／豆粉、非小麥穀物粉或小麥麵粉筋度分級）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "純精製澱粉",
+        "capacity": 1,
+        "itemIds": [
+          "milling-flour-grades-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "堅果與豆類粉",
+        "capacity": 2,
+        "itemIds": [
+          "milling-flour-grades-2",
+          "milling-flour-grades-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "非小麥穀物粉",
+        "capacity": 3,
+        "itemIds": [
+          "milling-flour-grades-4",
+          "milling-flour-grades-5",
+          "milling-flour-grades-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "小麥麵粉筋度分級",
+        "capacity": 4,
+        "itemIds": [
+          "milling-flour-grades-7",
+          "milling-flour-grades-8",
+          "milling-flour-grades-9",
+          "milling-flour-grades-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依粉類來源與筋度分類：純精製澱粉（玉米澱粉 Cornstarch）、無麩質堅果豆粉（杏仁粉、鷹嘴豆粉）、非小麥穀物粉（黑麥粉、燕麥粉、在來米粉）與小麥麵粉筋度級別（低筋蛋糕粉、中筋通用粉、高筋麵包粉、小麥麵筋粉）。",
+  "sources": [
+    {
+      "title": "USDA Wheat & Flour Standards",
+      "url": "https://www.ams.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

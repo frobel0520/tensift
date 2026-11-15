@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "landlocked-countries-region-2027-03-10-en",
+  "puzzleFamilyId": "landlocked-countries-region-001",
+  "locale": "en",
+  "publishDate": "2027-03-10",
+  "timezone": "UTC",
+  "theme": "Landlocked Countries",
+  "items": [
+    {
+      "itemId": "landlocked-countries-region-4",
+      "label": "Mongolia"
+    },
+    {
+      "itemId": "landlocked-countries-region-8",
+      "label": "Austria"
+    },
+    {
+      "itemId": "landlocked-countries-region-1",
+      "label": "Uzbekistan"
+    },
+    {
+      "itemId": "landlocked-countries-region-6",
+      "label": "Laos"
+    },
+    {
+      "itemId": "landlocked-countries-region-10",
+      "label": "Czechia"
+    },
+    {
+      "itemId": "landlocked-countries-region-2",
+      "label": "Bolivia"
+    },
+    {
+      "itemId": "landlocked-countries-region-7",
+      "label": "Switzerland"
+    },
+    {
+      "itemId": "landlocked-countries-region-5",
+      "label": "Nepal"
+    },
+    {
+      "itemId": "landlocked-countries-region-9",
+      "label": "Hungary"
+    },
+    {
+      "itemId": "landlocked-countries-region-3",
+      "label": "Paraguay"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Double-landlocked status or continent of each landlocked country",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Double-Landlocked (Asia)",
+        "capacity": 1,
+        "itemIds": [
+          "landlocked-countries-region-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "South America",
+        "capacity": 2,
+        "itemIds": [
+          "landlocked-countries-region-2",
+          "landlocked-countries-region-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Single-Landlocked (Asia)",
+        "capacity": 3,
+        "itemIds": [
+          "landlocked-countries-region-4",
+          "landlocked-countries-region-5",
+          "landlocked-countries-region-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Europe",
+        "capacity": 4,
+        "itemIds": [
+          "landlocked-countries-region-7",
+          "landlocked-countries-region-8",
+          "landlocked-countries-region-9",
+          "landlocked-countries-region-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by landlocked status and continent: double-landlocked in Asia (Uzbekistan), South America (Bolivia, Paraguay), single-landlocked in Asia (Mongolia, Nepal, Laos), and Europe (Switzerland, Austria, Hungary, Czechia).",
+  "sources": [
+    {
+      "title": "UN-OHRLLS: Landlocked Developing Countries",
+      "url": "https://www.un.org/ohrlls/content/about-landlocked-developing-countries",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

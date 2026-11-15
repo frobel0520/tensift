@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "testing-pyramid-levels-2027-01-25-zh-hant",
+  "puzzleFamilyId": "testing-pyramid-levels-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-01-25",
+  "timezone": "UTC",
+  "theme": "軟體測試類型",
+  "items": [
+    {
+      "itemId": "testing-pyramid-levels-4",
+      "label": "負載測試"
+    },
+    {
+      "itemId": "testing-pyramid-levels-8",
+      "label": "回歸測試"
+    },
+    {
+      "itemId": "testing-pyramid-levels-1",
+      "label": "靜態語法檢查"
+    },
+    {
+      "itemId": "testing-pyramid-levels-6",
+      "label": "滲透測試"
+    },
+    {
+      "itemId": "testing-pyramid-levels-10",
+      "label": "使用者驗收測試"
+    },
+    {
+      "itemId": "testing-pyramid-levels-2",
+      "label": "單元測試"
+    },
+    {
+      "itemId": "testing-pyramid-levels-7",
+      "label": "冒煙測試"
+    },
+    {
+      "itemId": "testing-pyramid-levels-5",
+      "label": "壓力測試"
+    },
+    {
+      "itemId": "testing-pyramid-levels-9",
+      "label": "端對端測試"
+    },
+    {
+      "itemId": "testing-pyramid-levels-3",
+      "label": "整合測試"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各軟體測試方法的驗證範疇",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "靜態分析（不執行程式）",
+        "capacity": 1,
+        "itemIds": [
+          "testing-pyramid-levels-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "程式碼層級功能測試",
+        "capacity": 2,
+        "itemIds": [
+          "testing-pyramid-levels-2",
+          "testing-pyramid-levels-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "效能壓測與資安測試",
+        "capacity": 3,
+        "itemIds": [
+          "testing-pyramid-levels-4",
+          "testing-pyramid-levels-5",
+          "testing-pyramid-levels-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "系統與發布驗證",
+        "capacity": 4,
+        "itemIds": [
+          "testing-pyramid-levels-7",
+          "testing-pyramid-levels-8",
+          "testing-pyramid-levels-9",
+          "testing-pyramid-levels-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依軟體測試性質與階段分類：靜態語法檢查（靜態分析／Linter）、元件整合層級（單元測試、整合測試）、非功能壓力與資安（負載測試、壓力測試、滲透測試）與系統端對端／驗收（冒煙測試、回歸測試、端對端測試、使用者驗收測試）。",
+  "sources": [
+    {
+      "title": "ISTQB: Standard Glossary of Terms Used in Software Testing",
+      "url": "https://glossary.istqb.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

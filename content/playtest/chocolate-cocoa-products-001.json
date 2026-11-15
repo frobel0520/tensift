@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "chocolate-cocoa-products-001",
+  "theme": "Cocoa & Chocolate Grades",
+  "publishDate": "2027-09-16",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "chocolate-cocoa-products-2",
+        "rivalGroupId": "group-4",
+        "risk": "White chocolate is sold in molded bars like dark and milk chocolate.",
+        "resolution": "White chocolate contains cocoa butter, sugar, and milk solids with zero non-fat cocoa liquor (group-2), unlike cocoa-mass bars (group-4)."
+      },
+      {
+        "itemId": "chocolate-cocoa-products-1",
+        "rivalGroupId": "group-3",
+        "risk": "Cacao nibs and cocoa powder are both unsweetened baking ingredients.",
+        "resolution": "Cacao nibs retain full natural cocoa butter (~50% fat, group-1), whereas cocoa powders are pressed to remove most cocoa butter (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

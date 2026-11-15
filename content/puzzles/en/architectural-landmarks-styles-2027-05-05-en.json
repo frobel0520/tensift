@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "architectural-landmarks-styles-2027-05-05-en",
+  "puzzleFamilyId": "architectural-landmarks-styles-001",
+  "locale": "en",
+  "publishDate": "2027-05-05",
+  "timezone": "UTC",
+  "theme": "Landmarks by Architectural Style",
+  "items": [
+    {
+      "itemId": "architectural-landmarks-styles-4",
+      "label": "Notre-Dame de Paris"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-8",
+      "label": "Villa Savoye"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-1",
+      "label": "Chrysler Building"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-6",
+      "label": "Cologne Cathedral"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-10",
+      "label": "Guggenheim Museum Bilbao"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-2",
+      "label": "Palace of Versailles"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-7",
+      "label": "Fallingwater"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-5",
+      "label": "Chartres Cathedral"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-9",
+      "label": "Sydney Opera House"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-3",
+      "label": "St. Peter's Basilica"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Architectural style (Art Deco, Baroque, Gothic, or Modernist/Contemporary) of each landmark",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Art Deco",
+        "capacity": 1,
+        "itemIds": [
+          "architectural-landmarks-styles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Baroque",
+        "capacity": 2,
+        "itemIds": [
+          "architectural-landmarks-styles-2",
+          "architectural-landmarks-styles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Gothic",
+        "capacity": 3,
+        "itemIds": [
+          "architectural-landmarks-styles-4",
+          "architectural-landmarks-styles-5",
+          "architectural-landmarks-styles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Modernist & Contemporary",
+        "capacity": 4,
+        "itemIds": [
+          "architectural-landmarks-styles-7",
+          "architectural-landmarks-styles-8",
+          "architectural-landmarks-styles-9",
+          "architectural-landmarks-styles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by architectural style: Art Deco (Chrysler Building), Baroque (Palace of Versailles, St. Peter's Basilica), Gothic (Notre-Dame de Paris, Chartres Cathedral, Cologne Cathedral), and Modernist/Contemporary (Fallingwater, Villa Savoye, Sydney Opera House, Guggenheim Bilbao).",
+  "sources": [
+    {
+      "title": "UNESCO & Britannica Architecture",
+      "url": "https://www.britannica.com/art/architecture",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

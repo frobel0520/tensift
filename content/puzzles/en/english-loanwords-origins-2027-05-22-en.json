@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "english-loanwords-origins-2027-05-22-en",
+  "puzzleFamilyId": "english-loanwords-origins-001",
+  "locale": "en",
+  "publishDate": "2027-05-22",
+  "timezone": "UTC",
+  "theme": "English Loanwords by Origin",
+  "items": [
+    {
+      "itemId": "english-loanwords-origins-4",
+      "label": "Origami"
+    },
+    {
+      "itemId": "english-loanwords-origins-8",
+      "label": "Cuisine"
+    },
+    {
+      "itemId": "english-loanwords-origins-1",
+      "label": "Yacht"
+    },
+    {
+      "itemId": "english-loanwords-origins-6",
+      "label": "Haiku"
+    },
+    {
+      "itemId": "english-loanwords-origins-10",
+      "label": "Fiancé"
+    },
+    {
+      "itemId": "english-loanwords-origins-2",
+      "label": "Algebra"
+    },
+    {
+      "itemId": "english-loanwords-origins-7",
+      "label": "Ballet"
+    },
+    {
+      "itemId": "english-loanwords-origins-5",
+      "label": "Tsunami"
+    },
+    {
+      "itemId": "english-loanwords-origins-9",
+      "label": "Entrepreneur"
+    },
+    {
+      "itemId": "english-loanwords-origins-3",
+      "label": "Zenith"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Donor language (Dutch, Arabic, Japanese, or French) of each English loanword",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "From Dutch",
+        "capacity": 1,
+        "itemIds": [
+          "english-loanwords-origins-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "From Arabic",
+        "capacity": 2,
+        "itemIds": [
+          "english-loanwords-origins-2",
+          "english-loanwords-origins-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "From Japanese",
+        "capacity": 3,
+        "itemIds": [
+          "english-loanwords-origins-4",
+          "english-loanwords-origins-5",
+          "english-loanwords-origins-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "From French",
+        "capacity": 4,
+        "itemIds": [
+          "english-loanwords-origins-7",
+          "english-loanwords-origins-8",
+          "english-loanwords-origins-9",
+          "english-loanwords-origins-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by donor language: Dutch (Yacht), Arabic (Algebra, Zenith), Japanese (Origami, Tsunami, Haiku), and French (Ballet, Cuisine, Entrepreneur, Fiancé).",
+  "sources": [
+    {
+      "title": "Oxford English Dictionary: Loanwords",
+      "url": "https://www.oed.com/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

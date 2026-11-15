@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "culinary-spices-plant-parts-2027-09-08-es-419",
+  "puzzleFamilyId": "culinary-spices-plant-parts-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-08",
+  "timezone": "UTC",
+  "theme": "Especias por parte de la planta",
+  "items": [
+    {
+      "itemId": "culinary-spices-plant-parts-4",
+      "label": "Cúrcuma"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-8",
+      "label": "Cardamomo verde"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-1",
+      "label": "Hebras de azafrán"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-6",
+      "label": "Galanga"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-10",
+      "label": "Anís estrellado"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-2",
+      "label": "Canela de Ceilán"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-7",
+      "label": "Pimienta negra"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-5",
+      "label": "Jengibre"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-9",
+      "label": "Semilla de comino"
+    },
+    {
+      "itemId": "culinary-spices-plant-parts-3",
+      "label": "Corteza de casia"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Parte botánica cosechada de cada especia",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Estigmas florales",
+        "capacity": 1,
+        "itemIds": [
+          "culinary-spices-plant-parts-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Corteza de árbol",
+        "capacity": 2,
+        "itemIds": [
+          "culinary-spices-plant-parts-2",
+          "culinary-spices-plant-parts-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Rizomas subterráneos",
+        "capacity": 3,
+        "itemIds": [
+          "culinary-spices-plant-parts-4",
+          "culinary-spices-plant-parts-5",
+          "culinary-spices-plant-parts-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Semillas y frutos secos",
+        "capacity": 4,
+        "itemIds": [
+          "culinary-spices-plant-parts-7",
+          "culinary-spices-plant-parts-8",
+          "culinary-spices-plant-parts-9",
+          "culinary-spices-plant-parts-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por parte botánica: estigmas florales (azafrán), corteza de árbol (canela de Ceilán, casia), rizomas subterráneos (cúrcuma, jengibre, galanga) y semillas/frutos secos (pimienta negra, cardamomo, comino, anís estrellado).",
+  "sources": [
+    {
+      "title": "ISO 676: Spices and Condiments Nomenclature",
+      "url": "https://www.iso.org/standard/4839.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "solar-terms-seasons-2027-03-07-zh-hant",
+  "puzzleFamilyId": "solar-terms-seasons-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-07",
+  "timezone": "UTC",
+  "theme": "二十四節氣與季節",
+  "items": [
+    {
+      "itemId": "solar-terms-seasons-4",
+      "label": "立夏"
+    },
+    {
+      "itemId": "solar-terms-seasons-8",
+      "label": "白露"
+    },
+    {
+      "itemId": "solar-terms-seasons-1",
+      "label": "冬至"
+    },
+    {
+      "itemId": "solar-terms-seasons-6",
+      "label": "大暑"
+    },
+    {
+      "itemId": "solar-terms-seasons-10",
+      "label": "霜降"
+    },
+    {
+      "itemId": "solar-terms-seasons-2",
+      "label": "立春"
+    },
+    {
+      "itemId": "solar-terms-seasons-7",
+      "label": "立秋"
+    },
+    {
+      "itemId": "solar-terms-seasons-5",
+      "label": "夏至"
+    },
+    {
+      "itemId": "solar-terms-seasons-9",
+      "label": "秋分"
+    },
+    {
+      "itemId": "solar-terms-seasons-3",
+      "label": "春分"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各傳統節氣所屬的季節（冬、春、夏、秋）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "冬季節氣",
+        "capacity": 1,
+        "itemIds": [
+          "solar-terms-seasons-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "春季節氣",
+        "capacity": 2,
+        "itemIds": [
+          "solar-terms-seasons-2",
+          "solar-terms-seasons-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "夏季節氣",
+        "capacity": 3,
+        "itemIds": [
+          "solar-terms-seasons-4",
+          "solar-terms-seasons-5",
+          "solar-terms-seasons-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "秋季節氣",
+        "capacity": 4,
+        "itemIds": [
+          "solar-terms-seasons-7",
+          "solar-terms-seasons-8",
+          "solar-terms-seasons-9",
+          "solar-terms-seasons-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依二十四節氣所屬季節分類：冬季（冬至）、春季（立春、春分）、夏季（立夏、夏至、大暑）與秋季（立秋、白露、秋分、霜降）。",
+  "sources": [
+    {
+      "title": "UNESCO: The Twenty-Four Solar Terms",
+      "url": "https://ich.unesco.org/en/RL/the-twenty-four-solar-terms-knowledge-in-china-of-time-and-practices-developed-through-observation-of-the-sun-s-annual-motion-00647",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

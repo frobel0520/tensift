@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "shakespeare-plays-genres-001",
+  "theme": "Shakespeare Plays by Genre",
+  "publishDate": "2027-05-20",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "shakespeare-plays-genres-1",
+        "rivalGroupId": "group-3",
+        "risk": "The Tempest was listed first among Comedies in the First Folio.",
+        "resolution": "Modern scholarship classifies The Tempest as a Late Romance (group-1), distinct from earlier festive comedies (group-3)."
+      },
+      {
+        "itemId": "shakespeare-plays-genres-3",
+        "rivalGroupId": "group-4",
+        "risk": "Richard III ends with the king’s death.",
+        "resolution": "Richard III is part of Shakespeare’s English History cycle (group-2), not the four great tragedies (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

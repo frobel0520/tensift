@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "atmosphere-layers-001",
+  "theme": "Atmospheric Layers",
+  "publishDate": "2026-12-04",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "atmosphere-layers-3",
+        "rivalGroupId": "group-4",
+        "risk": "Clouds generally form in the troposphere.",
+        "resolution": "Noctilucent clouds form in the upper mesosphere around 80 km altitude (group-2)."
+      },
+      {
+        "itemId": "atmosphere-layers-5",
+        "rivalGroupId": "group-4",
+        "risk": "Weather balloons measure weather.",
+        "resolution": "High-altitude weather balloons ascend into the stratosphere (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

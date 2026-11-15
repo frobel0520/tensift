@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "aircraft-control-surfaces-001",
+  "theme": "Aircraft Control Surfaces",
+  "publishDate": "2027-06-21",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "aircraft-control-surfaces-2",
+        "rivalGroupId": "group-3",
+        "risk": "Flaps are movable surfaces on the wing like ailerons.",
+        "resolution": "Flaps are secondary high-lift devices for takeoff/landing (group-2), not primary roll/pitch/yaw axis controls (group-3)."
+      },
+      {
+        "itemId": "aircraft-control-surfaces-9",
+        "rivalGroupId": "group-3",
+        "risk": "Trim tabs are attached to primary control surfaces.",
+        "resolution": "Trim tabs relieve control-stick pressure rather than commanding primary maneuvers (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

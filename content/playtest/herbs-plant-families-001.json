@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "herbs-plant-families-001",
+  "theme": "Culinary Herbs by Plant Family",
+  "publishDate": "2027-10-23",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "herbs-plant-families-1",
+        "rivalGroupId": "group-4",
+        "risk": "Bay laurel is a classic Mediterranean herb.",
+        "resolution": "Bay laurel is an evergreen tree leaf in Lauraceae (group-1), not a square-stemmed Lamiaceae mint-family herb (group-4)."
+      },
+      {
+        "itemId": "herbs-plant-families-4",
+        "rivalGroupId": "group-4",
+        "risk": "Parsley and cilantro are soft green Mediterranean/Latin herbs.",
+        "resolution": "Parsley, cilantro, and dill are hollow-stemmed umbellifers in Apiaceae (group-3), not Lamiaceae (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

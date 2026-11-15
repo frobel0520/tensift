@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sculpture-processes-2027-04-29-en",
+  "puzzleFamilyId": "sculpture-processes-001",
+  "locale": "en",
+  "publishDate": "2027-04-29",
+  "timezone": "UTC",
+  "theme": "Sculpture Techniques",
+  "items": [
+    {
+      "itemId": "sculpture-processes-4",
+      "label": "Marble Carving"
+    },
+    {
+      "itemId": "sculpture-processes-8",
+      "label": "Sand Casting"
+    },
+    {
+      "itemId": "sculpture-processes-1",
+      "label": "Found-Object Assemblage"
+    },
+    {
+      "itemId": "sculpture-processes-6",
+      "label": "Ice Sculpting"
+    },
+    {
+      "itemId": "sculpture-processes-10",
+      "label": "Resin Casting"
+    },
+    {
+      "itemId": "sculpture-processes-2",
+      "label": "Clay Modeling"
+    },
+    {
+      "itemId": "sculpture-processes-7",
+      "label": "Lost-Wax Bronze Casting"
+    },
+    {
+      "itemId": "sculpture-processes-5",
+      "label": "Wood Carving"
+    },
+    {
+      "itemId": "sculpture-processes-9",
+      "label": "Slip Casting"
+    },
+    {
+      "itemId": "sculpture-processes-3",
+      "label": "Wax Modeling"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Sculptural process (Assemblage, Modeling, Subtractive Carving, or Mold Casting)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Assemblage",
+        "capacity": 1,
+        "itemIds": [
+          "sculpture-processes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Additive Modeling",
+        "capacity": 2,
+        "itemIds": [
+          "sculpture-processes-2",
+          "sculpture-processes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Subtractive Carving",
+        "capacity": 3,
+        "itemIds": [
+          "sculpture-processes-4",
+          "sculpture-processes-5",
+          "sculpture-processes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Mold Casting",
+        "capacity": 4,
+        "itemIds": [
+          "sculpture-processes-7",
+          "sculpture-processes-8",
+          "sculpture-processes-9",
+          "sculpture-processes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by sculptural method: Assemblage (Found-Object Assemblage), Additive Modeling (Clay Modeling, Wax Modeling), Subtractive Carving (Marble Carving, Wood Carving, Ice Sculpting), and Mold Casting (Lost-Wax Bronze, Sand Casting, Slip Casting, Resin Casting).",
+  "sources": [
+    {
+      "title": "Tate: Sculpture Techniques",
+      "url": "https://www.tate.org.uk/art/art-terms/s/sculpture",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

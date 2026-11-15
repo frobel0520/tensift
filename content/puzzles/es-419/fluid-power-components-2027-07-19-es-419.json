@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fluid-power-components-2027-07-19-es-419",
+  "puzzleFamilyId": "fluid-power-components-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-19",
+  "timezone": "UTC",
+  "theme": "Componentes hidráulicos y neumáticos",
+  "items": [
+    {
+      "itemId": "fluid-power-components-4",
+      "label": "Cilindro hidráulico lineal"
+    },
+    {
+      "itemId": "fluid-power-components-8",
+      "label": "Válvula de alivio"
+    },
+    {
+      "itemId": "fluid-power-components-1",
+      "label": "Acumulador hidráulico"
+    },
+    {
+      "itemId": "fluid-power-components-6",
+      "label": "Cilindro neumático"
+    },
+    {
+      "itemId": "fluid-power-components-10",
+      "label": "Válvula de aguja"
+    },
+    {
+      "itemId": "fluid-power-components-2",
+      "label": "Bomba de engranajes"
+    },
+    {
+      "itemId": "fluid-power-components-7",
+      "label": "Válvula antirretorno"
+    },
+    {
+      "itemId": "fluid-power-components-5",
+      "label": "Actuador rotativo de paletas"
+    },
+    {
+      "itemId": "fluid-power-components-9",
+      "label": "Válvula direccional de corredera"
+    },
+    {
+      "itemId": "fluid-power-components-3",
+      "label": "Compresor alternativo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Función de cada componente fluido-mecánico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Almacenamiento de presión",
+        "capacity": 1,
+        "itemIds": [
+          "fluid-power-components-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Bombas y compresores",
+        "capacity": 2,
+        "itemIds": [
+          "fluid-power-components-2",
+          "fluid-power-components-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Actuadores",
+        "capacity": 3,
+        "itemIds": [
+          "fluid-power-components-4",
+          "fluid-power-components-5",
+          "fluid-power-components-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Válvulas de control",
+        "capacity": 4,
+        "itemIds": [
+          "fluid-power-components-7",
+          "fluid-power-components-8",
+          "fluid-power-components-9",
+          "fluid-power-components-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por función: almacenamiento (acumulador hidráulico), generación (bomba de engranajes, compresor alternativo), actuadores (cilindro hidráulico, actuador rotativo, pistón neumático) y válvulas (antirretorno, alivio de presión, direccional de corredera, aguja).",
+  "sources": [
+    {
+      "title": "ISO 1219: Fluid Power Systems",
+      "url": "https://www.iso.org/standard/52304.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

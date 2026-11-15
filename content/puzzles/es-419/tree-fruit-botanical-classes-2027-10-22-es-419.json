@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tree-fruit-botanical-classes-2027-10-22-es-419",
+  "puzzleFamilyId": "tree-fruit-botanical-classes-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-22",
+  "timezone": "UTC",
+  "theme": "Frutas de huerta por tipo botánico",
+  "items": [
+    {
+      "itemId": "tree-fruit-botanical-classes-4",
+      "label": "Durazno (melocotón)"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-8",
+      "label": "Pera europea"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-1",
+      "label": "Kiwi"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-6",
+      "label": "Ciruela europea"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-10",
+      "label": "Pera asiática (nashi)"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-2",
+      "label": "Zarzamora"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-7",
+      "label": "Manzana"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-5",
+      "label": "Cereza dulce"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-9",
+      "label": "Membrillo"
+    },
+    {
+      "itemId": "tree-fruit-botanical-classes-3",
+      "label": "Frambuesa roja"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tipo botánico de fruto de cada fruta de huerta",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Baya verdadera",
+        "capacity": 1,
+        "itemIds": [
+          "tree-fruit-botanical-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Polidrupas agregadas",
+        "capacity": 2,
+        "itemIds": [
+          "tree-fruit-botanical-classes-2",
+          "tree-fruit-botanical-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Drupas (frutas de hueso)",
+        "capacity": 3,
+        "itemIds": [
+          "tree-fruit-botanical-classes-4",
+          "tree-fruit-botanical-classes-5",
+          "tree-fruit-botanical-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Pomos (frutas de pepita)",
+        "capacity": 4,
+        "itemIds": [
+          "tree-fruit-botanical-classes-7",
+          "tree-fruit-botanical-classes-8",
+          "tree-fruit-botanical-classes-9",
+          "tree-fruit-botanical-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por botánica: baya verdadera (kiwi), polidrupas agregadas (zarzamora, frambuesa roja), drupas con hueso (durazno, cereza dulce, ciruela) y pomos con corazón (manzana, pera europea, membrillo, pera asiática).",
+  "sources": [
+    {
+      "title": "Britannica: Fruit Botanical Types",
+      "url": "https://www.britannica.com/science/fruit-plant-reproductive-body",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

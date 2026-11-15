@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "solar-pv-technologies-2027-07-28-es-419",
+  "puzzleFamilyId": "solar-pv-technologies-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-28",
+  "timezone": "UTC",
+  "theme": "Tecnologías de energía solar",
+  "items": [
+    {
+      "itemId": "solar-pv-technologies-4",
+      "label": "Telururo de cadmio (CdTe)"
+    },
+    {
+      "itemId": "solar-pv-technologies-8",
+      "label": "Microinversor"
+    },
+    {
+      "itemId": "solar-pv-technologies-1",
+      "label": "Colector cilindroparabólico CSP"
+    },
+    {
+      "itemId": "solar-pv-technologies-6",
+      "label": "Celda solar de perovskita"
+    },
+    {
+      "itemId": "solar-pv-technologies-10",
+      "label": "Medidor bidireccional"
+    },
+    {
+      "itemId": "solar-pv-technologies-2",
+      "label": "Silicio monocristalino"
+    },
+    {
+      "itemId": "solar-pv-technologies-7",
+      "label": "Inversor de cadena"
+    },
+    {
+      "itemId": "solar-pv-technologies-5",
+      "label": "Película delgada CIGS"
+    },
+    {
+      "itemId": "solar-pv-technologies-9",
+      "label": "Controlador MPPT"
+    },
+    {
+      "itemId": "solar-pv-technologies-3",
+      "label": "Silicio policristalino"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría tecnológica de cada componente solar",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Termosolar de concentración",
+        "capacity": 1,
+        "itemIds": [
+          "solar-pv-technologies-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Silicio cristalino",
+        "capacity": 2,
+        "itemIds": [
+          "solar-pv-technologies-2",
+          "solar-pv-technologies-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Película delgada y emergentes",
+        "capacity": 3,
+        "itemIds": [
+          "solar-pv-technologies-4",
+          "solar-pv-technologies-5",
+          "solar-pv-technologies-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Electrónica de sistema (BOS)",
+        "capacity": 4,
+        "itemIds": [
+          "solar-pv-technologies-7",
+          "solar-pv-technologies-8",
+          "solar-pv-technologies-9",
+          "solar-pv-technologies-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: termosolar de concentración (cilindroparabólico CSP), silicio cristalino (monocristalino, policristalino), película delgada/emergente (CdTe, CIGS, perovskita) y electrónica de sistema (inversor de cadena, microinversor, controlador MPPT, medidor bidireccional).",
+  "sources": [
+    {
+      "title": "NREL: Solar Photovoltaic Technology",
+      "url": "https://www.nrel.gov/research/re-solar.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

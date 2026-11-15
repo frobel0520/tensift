@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "astronomical-eclipses-alignments-001",
+  "theme": "Eclipses & Planetary Alignments",
+  "publishDate": "2027-06-16",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "astronomical-eclipses-alignments-1",
+        "rivalGroupId": "group-3",
+        "risk": "During a transit, Venus passes in front of the Sun.",
+        "resolution": "Venus covers only a tiny dot on the solar disk, classified as a planetary transit (group-1) rather than a solar eclipse (group-3)."
+      },
+      {
+        "itemId": "astronomical-eclipses-alignments-8",
+        "rivalGroupId": "group-2",
+        "risk": "Lunar Occultation involves the Moon.",
+        "resolution": "Lunar occultation occurs when the Moon passes in front of a distant star or planet (group-4), not Earth’s shadow (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

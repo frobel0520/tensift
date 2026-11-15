@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "american-football-scoring-001",
+  "theme": "American Football Rules & Plays",
+  "publishDate": "2027-08-28",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "american-football-scoring-1",
+        "rivalGroupId": "group-3",
+        "risk": "Safety is a scoring play.",
+        "resolution": "A Safety is uniquely awarded to the defense for tackling an opponent in their own end zone (group-1), unlike standard offensive/return TDs and field goals (group-3)."
+      },
+      {
+        "itemId": "american-football-scoring-2",
+        "rivalGroupId": "group-3",
+        "risk": "Extra Point Kick goes through the uprights like a Field Goal.",
+        "resolution": "The Extra Point Kick is a 1-point try only available immediately after a touchdown (group-2), not a 3-point Field Goal (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

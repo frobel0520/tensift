@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "electrical-plug-standards-2027-12-05-es-419",
+  "puzzleFamilyId": "electrical-plug-standards-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-05",
+  "timezone": "UTC",
+  "theme": "Tipos de enchufes eléctricos mundiales",
+  "items": [
+    {
+      "itemId": "electrical-plug-standards-4",
+      "label": "Enchufe Tipo C (Europlug)"
+    },
+    {
+      "itemId": "electrical-plug-standards-8",
+      "label": "Enchufe Tipo J (Suiza)"
+    },
+    {
+      "itemId": "electrical-plug-standards-1",
+      "label": "Enchufe Tipo G (Reino Unido)"
+    },
+    {
+      "itemId": "electrical-plug-standards-6",
+      "label": "Enchufe Tipo F (Schuko)"
+    },
+    {
+      "itemId": "electrical-plug-standards-10",
+      "label": "Enchufe Tipo N (Brasil)"
+    },
+    {
+      "itemId": "electrical-plug-standards-2",
+      "label": "Enchufe Tipo A (2 patas planas)"
+    },
+    {
+      "itemId": "electrical-plug-standards-7",
+      "label": "Enchufe Tipo I (en V)"
+    },
+    {
+      "itemId": "electrical-plug-standards-5",
+      "label": "Enchufe Tipo E (francés)"
+    },
+    {
+      "itemId": "electrical-plug-standards-9",
+      "label": "Enchufe Tipo L (Italia)"
+    },
+    {
+      "itemId": "electrical-plug-standards-3",
+      "label": "Enchufe Tipo B (3 patas)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Geometría de clavijas de cada enchufe estándar IEC",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Tres clavijas rectangulares (UK)",
+        "capacity": 1,
+        "itemIds": [
+          "electrical-plug-standards-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Láminas planas paralelas",
+        "capacity": 2,
+        "itemIds": [
+          "electrical-plug-standards-2",
+          "electrical-plug-standards-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Dos clavijas redondas europeas",
+        "capacity": 3,
+        "itemIds": [
+          "electrical-plug-standards-4",
+          "electrical-plug-standards-5",
+          "electrical-plug-standards-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "En ángulo y tres clavijas redondas",
+        "capacity": 4,
+        "itemIds": [
+          "electrical-plug-standards-7",
+          "electrical-plug-standards-8",
+          "electrical-plug-standards-9",
+          "electrical-plug-standards-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por geometría IEC: tres clavijas rectangulares (Tipo G británico), láminas planas paralelas (Tipo A dos patas, Tipo B tres patas), dos clavijas redondas europeas (Europlug Tipo C, francés Tipo E, Schuko Tipo F) y clavijas en ángulo o tres redondas (Tipo I Australia/Argentina, Tipo J Suiza, Tipo L Italia, Tipo N Brasil).",
+  "sources": [
+    {
+      "title": "IEC World Plugs Reference",
+      "url": "https://www.iec.ch/world-plugs",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

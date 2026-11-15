@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "crewed-spaceflight-programs-2027-06-12-en",
+  "puzzleFamilyId": "crewed-spaceflight-programs-001",
+  "locale": "en",
+  "publishDate": "2027-06-12",
+  "timezone": "UTC",
+  "theme": "Historic Crewed Space Missions",
+  "items": [
+    {
+      "itemId": "crewed-spaceflight-programs-4",
+      "label": "Gemini 4"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-8",
+      "label": "Apollo 11"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-1",
+      "label": "Vostok 1"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-6",
+      "label": "Gemini 12"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-10",
+      "label": "Apollo 17"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-2",
+      "label": "Freedom 7"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-7",
+      "label": "Apollo 8"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-5",
+      "label": "Gemini 8"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-9",
+      "label": "Apollo 13"
+    },
+    {
+      "itemId": "crewed-spaceflight-programs-3",
+      "label": "Friendship 7"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Spacecraft program (Vostok, Mercury, Gemini, or Apollo) of each historic crewed flight",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Vostok Program",
+        "capacity": 1,
+        "itemIds": [
+          "crewed-spaceflight-programs-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Project Mercury",
+        "capacity": 2,
+        "itemIds": [
+          "crewed-spaceflight-programs-2",
+          "crewed-spaceflight-programs-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Project Gemini",
+        "capacity": 3,
+        "itemIds": [
+          "crewed-spaceflight-programs-4",
+          "crewed-spaceflight-programs-5",
+          "crewed-spaceflight-programs-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Apollo Program",
+        "capacity": 4,
+        "itemIds": [
+          "crewed-spaceflight-programs-7",
+          "crewed-spaceflight-programs-8",
+          "crewed-spaceflight-programs-9",
+          "crewed-spaceflight-programs-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by program: Vostok (Vostok 1), Project Mercury (Freedom 7, Friendship 7), Project Gemini (Gemini 4, Gemini 8, Gemini 12), and Apollo Program (Apollo 8, Apollo 11, Apollo 13, Apollo 17).",
+  "sources": [
+    {
+      "title": "NASA: Human Spaceflight History",
+      "url": "https://www.nasa.gov/history/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "board-games-by-mechanic-2027-08-09-zh-hant",
+  "puzzleFamilyId": "board-games-by-mechanic-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-09",
+  "timezone": "UTC",
+  "theme": "經典圖版棋類機制",
+  "items": [
+    {
+      "itemId": "board-games-by-mechanic-4",
+      "label": "圍棋"
+    },
+    {
+      "itemId": "board-games-by-mechanic-8",
+      "label": "日本將棋"
+    },
+    {
+      "itemId": "board-games-by-mechanic-1",
+      "label": "奧瓦雷播棋（Oware）"
+    },
+    {
+      "itemId": "board-games-by-mechanic-6",
+      "label": "黑白棋（Reversi）"
+    },
+    {
+      "itemId": "board-games-by-mechanic-10",
+      "label": "西洋跳棋"
+    },
+    {
+      "itemId": "board-games-by-mechanic-2",
+      "label": "西洋雙陸棋"
+    },
+    {
+      "itemId": "board-games-by-mechanic-7",
+      "label": "西洋棋"
+    },
+    {
+      "itemId": "board-games-by-mechanic-5",
+      "label": "六邊形連線棋（Hex）"
+    },
+    {
+      "itemId": "board-games-by-mechanic-9",
+      "label": "中國象棋"
+    },
+    {
+      "itemId": "board-games-by-mechanic-3",
+      "label": "印度十字戲（飛行棋）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各經典棋類遊戲的核心玩法機制（播棋計數、擲骰競速、圍地連線或吃子將帥棋類）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "播棋計數類",
+        "capacity": 1,
+        "itemIds": [
+          "board-games-by-mechanic-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "擲骰競速類",
+        "capacity": 2,
+        "itemIds": [
+          "board-games-by-mechanic-2",
+          "board-games-by-mechanic-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "圍地與連線類",
+        "capacity": 3,
+        "itemIds": [
+          "board-games-by-mechanic-4",
+          "board-games-by-mechanic-5",
+          "board-games-by-mechanic-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "吃子將殺類",
+        "capacity": 4,
+        "itemIds": [
+          "board-games-by-mechanic-7",
+          "board-games-by-mechanic-8",
+          "board-games-by-mechanic-9",
+          "board-games-by-mechanic-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依核心機制分類：播棋計數（Oware 播棋）、擲骰競速（西洋雙陸棋、十字戲／飛行棋）、圍地與連線（圍棋、六邊棋 Hex、黑白棋）與吃子將殺／殲滅（西洋棋、日本將棋、中國象棋、西洋跳棋）。",
+  "sources": [
+    {
+      "title": "Britannica: Board Games",
+      "url": "https://www.britannica.com/topic/board-game",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

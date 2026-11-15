@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "rivers-drainage-basins-001",
+  "theme": "Rivers by Drainage Basin",
+  "publishDate": "2027-03-15",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "rivers-drainage-basins-9",
+        "rivalGroupId": "group-3",
+        "risk": "The Mississippi flows into the Gulf of Mexico.",
+        "resolution": "The Gulf of Mexico is a marginal basin of the Atlantic Ocean (group-4)."
+      },
+      {
+        "itemId": "rivers-drainage-basins-4",
+        "rivalGroupId": "group-2",
+        "risk": "The Nile originates in East Africa near the Indian Ocean.",
+        "resolution": "The Nile flows northward to empty into the Mediterranean Sea (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

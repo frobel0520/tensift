@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "maritime-discovery-explorers-001",
+  "theme": "Age of Exploration Voyages",
+  "publishDate": "2027-11-22",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "maritime-discovery-explorers-6",
+        "rivalGroupId": "group-4",
+        "risk": "Henry Hudson searched for the Northwest and Northeast Arctic passages.",
+        "resolution": "Hudson sailed in 1607–1611 mapping New York and Hudson Bay in North America (group-3), centuries before the 19th–20th century polar expeditions (group-4)."
+      },
+      {
+        "itemId": "maritime-discovery-explorers-1",
+        "rivalGroupId": "group-2",
+        "risk": "Elcano’s return leg rounded the Cape of Good Hope.",
+        "resolution": "Magellan–Elcano achieved the first complete global circumnavigation via the Pacific (group-1), unlike early Portuguese Indian Ocean voyages (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

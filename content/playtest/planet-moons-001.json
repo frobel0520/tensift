@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "planet-moons-001",
+  "theme": "Moons of the Solar System",
+  "publishDate": "2026-12-21",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "planet-moons-1",
+        "rivalGroupId": "group-3",
+        "risk": "Triton and Titan have very similar names.",
+        "resolution": "Titan orbits Saturn (group-3), whereas Triton orbits Neptune (group-1)."
+      },
+      {
+        "itemId": "planet-moons-8",
+        "rivalGroupId": "group-3",
+        "risk": "Europa and Enceladus are both icy ocean moons.",
+        "resolution": "Europa is a Galilean moon of Jupiter (group-4), while Enceladus orbits Saturn (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

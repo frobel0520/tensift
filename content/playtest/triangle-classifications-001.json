@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "triangle-classifications-001",
+  "theme": "Triangle Types",
+  "publishDate": "2027-02-16",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "triangle-classifications-1",
+        "rivalGroupId": "group-4",
+        "risk": "60°-60°-60° has all angles under 90°.",
+        "resolution": "60°-60°-60° is uniquely equiangular/equilateral (group-1), separated from non-equilateral acute triangles (group-4)."
+      },
+      {
+        "itemId": "triangle-classifications-5",
+        "rivalGroupId": "group-2",
+        "risk": "30°-30°-120° is isosceles like 45°-45°-90°.",
+        "resolution": "Grouping is by largest angle: 120° > 90° is obtuse (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

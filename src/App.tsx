@@ -9,9 +9,12 @@ import {
 import type { CSSProperties, DragEvent } from 'react';
 import {
   ApiRequestError,
-  createApiClient,
-  type TensiftApiClient,
 } from './api/client';
+import {
+  createStandaloneClient,
+  type LevelSummary,
+  type StandalonePuzzleClient,
+} from './api/standalone';
 import {
   SUPPORTED_LOCALES,
   normalizeLocale,
@@ -39,16 +42,23 @@ import {
 import { buildSharePayload, shareResult, type ShareResultOutcome } from './ui/share';
 
 const LOCALE_STORAGE_KEY = 'tensift:locale';
+const CURRENT_LEVEL_STORAGE_KEY = 'tensift:v1:current-level';
+const SOLVED_LEVELS_STORAGE_KEY = 'tensift:v1:solved-levels';
+const TOTAL_LEVELS = 300;
 type BusyAction = 'loading' | 'checking' | 'hint' | 'reveal' | null;
 type ShareUiState = ShareResultOutcome | 'sharing' | 'error' | null;
 
 export function App() {
   const [locale, setLocale] = useState<Locale>(() => getInitialLocale());
   const [theme, setTheme] = useState<ThemeMode>(() => readStoredTheme(getLocalStorage()));
+  const [currentLevel, setCurrentLevel] = useState<number>(() => getInitialLevel());
+  const [levelSummaries, setLevelSummaries] = useState<readonly LevelSummary[]>([]);
+  const [solvedFamilyIds, setSolvedFamilyIds] = useState<ReadonlySet<string>>(() => getInitialSolvedFamilies());
+  const [levelPickerOpen, setLevelPickerOpen] = useState(false);
   const [reloadToken, setReloadToken] = useState(0);
   const [busyAction, setBusyAction] = useState<BusyAction>('loading');
   const [state, dispatch] = useReducer(gameReducer, undefined, createInitialGameState);
-  const apiClient = useMemo<TensiftApiClient>(() => createApiClient(), []);
+  const apiClient = useMemo<StandalonePuzzleClient>(() => createStandaloneClient(), []);
   const clientSessionId = useRef(createClientSessionId()).current;
   const hintIdempotencyKey = useRef<string | null>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
@@ -65,17 +75,33 @@ export function App() {
   }, [theme]);
 
   useEffect(() => {
+    try {
+      getLocalStorage()?.setItem(CURRENT_LEVEL_STORAGE_KEY, String(currentLevel));
+    } catch {
+      // Ignore storage write failures.
+    }
+  }, [currentLevel]);
+
+  useEffect(() => {
     let cancelled = false;
     setBusyAction('loading');
     dispatch({ type: 'puzzle/loading' });
 
-    void apiClient.getToday(locale)
-      .then((puzzle) => {
+    void Promise.all([
+      apiClient.getLevel(locale, currentLevel),
+      apiClient.getLevelSummaries(locale),
+    ])
+      .then(([puzzle, summaries]) => {
         if (cancelled) {
           return;
         }
+        setLevelSummaries(summaries);
         const storage = getLocalStorage();
         const session = storage ? loadSession(storage, puzzle) : null;
+        const currentSummary = summaries.find((s) => s.puzzleId === puzzle.puzzleId);
+        if (session?.solved && currentSummary) {
+          markFamilySolved(currentSummary.puzzleFamilyId, setSolvedFamilyIds);
+        }
         dispatch({
           type: 'puzzle/loaded',
           puzzle,
@@ -95,7 +121,7 @@ export function App() {
     return () => {
       cancelled = true;
     };
-  }, [apiClient, locale, reloadToken]);
+  }, [apiClient, currentLevel, locale, reloadToken]);
 
   useEffect(() => {
     if (!state.puzzle || (state.phase !== 'ready' && state.phase !== 'solved')) {
@@ -165,6 +191,10 @@ export function App() {
       });
 
       if (response.solved) {
+        const currentSummary = levelSummaries.find((s) => s.puzzleId === puzzleId);
+        if (currentSummary) {
+          markFamilySolved(currentSummary.puzzleFamilyId, setSolvedFamilyIds);
+        }
         setBusyAction('reveal');
         const reveal = await apiClient.reveal(puzzleId, clientSessionId);
         dispatch({ type: 'reveal/accepted', reveal });
@@ -178,7 +208,7 @@ export function App() {
     } finally {
       setBusyAction(null);
     }
-  }, [apiClient, busyAction, clientSessionId, state]);
+  }, [apiClient, busyAction, clientSessionId, levelSummaries, state]);
 
   const handleHint = useCallback(async () => {
     if (!state.puzzle || busyAction !== null || state.phase !== 'ready' || state.hintUsed) {
@@ -303,6 +333,14 @@ export function App() {
           state={state}
           busyAction={busyAction}
           errorMessage={errorMessage}
+          currentLevel={currentLevel}
+          totalLevels={levelSummaries.length || TOTAL_LEVELS}
+          solvedCount={solvedFamilyIds.size}
+          onSelectLevel={(level) => {
+            setCurrentLevel(level);
+            setLevelPickerOpen(false);
+          }}
+          onOpenLevelPicker={() => setLevelPickerOpen(true)}
           onCheck={handleCheck}
           onHint={handleHint}
           onReveal={handleReveal}
@@ -320,8 +358,28 @@ export function App() {
           attempts={state.attempts}
           hintUsed={state.hintUsed}
           solved={state.solved}
+          currentLevel={currentLevel}
+          totalLevels={levelSummaries.length || TOTAL_LEVELS}
+          onNextLevel={() => {
+            dispatch({ type: 'result/closed' });
+            setCurrentLevel((lvl) => Math.min(levelSummaries.length || TOTAL_LEVELS, lvl + 1));
+          }}
           closeButtonRef={closeButtonRef}
           onClose={() => dispatch({ type: 'result/closed' })}
+        />
+      )}
+
+      {levelPickerOpen && (
+        <LevelPickerModal
+          copy={copy}
+          summaries={levelSummaries}
+          currentLevel={currentLevel}
+          solvedFamilyIds={solvedFamilyIds}
+          onSelectLevel={(level) => {
+            setCurrentLevel(level);
+            setLevelPickerOpen(false);
+          }}
+          onClose={() => setLevelPickerOpen(false)}
         />
       )}
     </main>
@@ -333,6 +391,11 @@ interface PuzzleViewProps {
   readonly state: ReturnType<typeof createInitialGameState>;
   readonly busyAction: BusyAction;
   readonly errorMessage: string | null;
+  readonly currentLevel: number;
+  readonly totalLevels: number;
+  readonly solvedCount: number;
+  readonly onSelectLevel: (level: number) => void;
+  readonly onOpenLevelPicker: () => void;
   readonly onCheck: () => void;
   readonly onHint: () => void;
   readonly onReveal: () => void;
@@ -344,6 +407,11 @@ function PuzzleView({
   state,
   busyAction,
   errorMessage,
+  currentLevel,
+  totalLevels,
+  solvedCount,
+  onSelectLevel,
+  onOpenLevelPicker,
   onCheck,
   onHint,
   onReveal,
@@ -363,9 +431,35 @@ function PuzzleView({
   return (
     <div className="game-layout">
       <section className="game-column" aria-labelledby="puzzle-title">
+        <div className="level-nav" aria-label={copy.levelPickerTitle}>
+          <button
+            className="button level-nav-btn"
+            type="button"
+            disabled={currentLevel <= 1}
+            onClick={() => onSelectLevel(Math.max(1, currentLevel - 1))}
+          >
+            ← {copy.prevLevel}
+          </button>
+          <button
+            className="button level-nav-picker"
+            type="button"
+            onClick={onOpenLevelPicker}
+          >
+            {interpolate(copy.levelsButton, { solved: solvedCount, total: totalLevels })}
+          </button>
+          <button
+            className="button level-nav-btn"
+            type="button"
+            disabled={currentLevel >= totalLevels}
+            onClick={() => onSelectLevel(Math.min(totalLevels, currentLevel + 1))}
+          >
+            {copy.nextLevel} →
+          </button>
+        </div>
+
         <div className="puzzle-meta">
           <div>
-            <p className="topic-label">{copy.topicLabel}</p>
+            <p className="topic-label">{interpolate(copy.topicLabel, { level: currentLevel, total: totalLevels })}</p>
             <h2 className="topic-name" id="puzzle-title">{puzzle.theme}</h2>
           </div>
           <div className="checks" aria-label={`${copy.attempts}: ${state.attempts}`}>
@@ -542,6 +636,9 @@ interface RevealModalProps {
   readonly attempts: number;
   readonly hintUsed: boolean;
   readonly solved: boolean;
+  readonly currentLevel: number;
+  readonly totalLevels: number;
+  readonly onNextLevel: () => void;
   readonly closeButtonRef: React.RefObject<HTMLButtonElement | null>;
   readonly onClose: () => void;
 }
@@ -555,6 +652,9 @@ function RevealModal({
   attempts,
   hintUsed,
   solved,
+  currentLevel,
+  totalLevels,
+  onNextLevel,
   closeButtonRef,
   onClose,
 }: RevealModalProps) {
@@ -632,10 +732,124 @@ function RevealModal({
           <p className="share-status" role="status" aria-live="polite">{shareState === 'shared' ? copy.shareShared : copy.shareCopied}</p>
         )}
         <div className="result-actions">
-          <button className="button button-primary result-share-action" type="button" onClick={() => void handleShare()} disabled={shareState === 'sharing'}>
+          {currentLevel < totalLevels && (
+            <button className="button button-primary" type="button" onClick={onNextLevel}>
+              {copy.nextLevel} →
+            </button>
+          )}
+          <button className="button result-share-action" type="button" onClick={() => void handleShare()} disabled={shareState === 'sharing'}>
             {shareLabel}
           </button>
           <button className="button result-close-action" type="button" onClick={onClose}>{copy.close}</button>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+interface LevelPickerModalProps {
+  readonly copy: UiMessages;
+  readonly summaries: readonly LevelSummary[];
+  readonly currentLevel: number;
+  readonly solvedFamilyIds: ReadonlySet<string>;
+  readonly onSelectLevel: (level: number) => void;
+  readonly onClose: () => void;
+}
+
+function LevelPickerModal({
+  copy,
+  summaries,
+  currentLevel,
+  solvedFamilyIds,
+  onSelectLevel,
+  onClose,
+}: LevelPickerModalProps) {
+  const [query, setQuery] = useState('');
+  const normalizedQuery = query.trim().toLowerCase();
+  const total = summaries.length || TOTAL_LEVELS;
+  const filtered = summaries.filter((item) => {
+    if (!normalizedQuery) {
+      return true;
+    }
+    return String(item.level).includes(normalizedQuery)
+      || item.theme.toLowerCase().includes(normalizedQuery);
+  });
+
+  const handleNextUnsolved = () => {
+    const after = summaries.find((item) => item.level > currentLevel && !solvedFamilyIds.has(item.puzzleFamilyId));
+    const first = after ?? summaries.find((item) => !solvedFamilyIds.has(item.puzzleFamilyId));
+    if (first) {
+      onSelectLevel(first.level);
+    }
+  };
+
+  const handleRandom = () => {
+    if (summaries.length === 0) {
+      return;
+    }
+    const idx = Math.floor(secureRandomFraction() * summaries.length);
+    onSelectLevel(summaries[idx].level);
+  };
+
+  const difficultyLabel = (band: LevelSummary['difficulty']['band']): string => {
+    if (band === 'easy') return copy.difficultyEasy;
+    if (band === 'hard') return copy.difficultyHard;
+    return copy.difficultyMedium;
+  };
+
+  return (
+    <div className="modal-backdrop" role="presentation" onMouseDown={(event) => {
+      if (event.target === event.currentTarget) {
+        onClose();
+      }
+    }}>
+      <section className="result-card level-picker-card" role="dialog" aria-modal="true" aria-labelledby="level-picker-title">
+        <button className="result-close" type="button" aria-label={copy.close} onClick={onClose}>×</button>
+        <p className="result-kicker">{interpolate(copy.completedProgress, { solved: solvedFamilyIds.size, total })}</p>
+        <h2 id="level-picker-title">{copy.levelPickerTitle}</h2>
+
+        <div className="level-picker-toolbar">
+          <input
+            className="level-search-input"
+            type="search"
+            value={query}
+            placeholder={copy.levelSearchPlaceholder}
+            aria-label={copy.levelSearchPlaceholder}
+            onChange={(event) => setQuery(event.target.value)}
+          />
+          <div className="level-picker-quick">
+            <button className="button" type="button" onClick={handleNextUnsolved}>
+              {copy.nextUnsolved}
+            </button>
+            <button className="button" type="button" onClick={handleRandom}>
+              {copy.randomLevel}
+            </button>
+          </div>
+        </div>
+
+        <div className="level-grid" role="list">
+          {filtered.map((item) => {
+            const isSolved = solvedFamilyIds.has(item.puzzleFamilyId);
+            const isCurrent = item.level === currentLevel;
+            return (
+              <button
+                key={item.puzzleFamilyId}
+                type="button"
+                role="listitem"
+                className={`level-tile${isCurrent ? ' is-current' : ''}${isSolved ? ' is-solved' : ''}`}
+                onClick={() => onSelectLevel(item.level)}
+              >
+                <span className="level-tile-num">#{item.level}</span>
+                <span className="level-tile-theme">{item.theme}</span>
+                <span className="level-tile-meta">
+                  <span className={`difficulty-pill difficulty-pill--${item.difficulty.band}`}>
+                    {difficultyLabel(item.difficulty.band)}
+                  </span>
+                  {isSolved && <span className="level-solved-mark">✓ {copy.levelSolvedLabel}</span>}
+                </span>
+              </button>
+            );
+          })}
         </div>
       </section>
     </div>
@@ -812,4 +1026,55 @@ function getLocalStorage(): Storage | null {
 
 function isLocale(value: string): value is Locale {
   return (SUPPORTED_LOCALES as readonly string[]).includes(value);
+}
+
+function getInitialLevel(): number {
+  const param = Number(new URLSearchParams(window.location.search).get('level'));
+  if (Number.isInteger(param) && param >= 1 && param <= TOTAL_LEVELS) {
+    return param;
+  }
+  try {
+    const stored = Number(window.localStorage.getItem(CURRENT_LEVEL_STORAGE_KEY));
+    if (Number.isInteger(stored) && stored >= 1 && stored <= TOTAL_LEVELS) {
+      return stored;
+    }
+  } catch {
+    // Storage is optional.
+  }
+  return 1;
+}
+
+function getInitialSolvedFamilies(): ReadonlySet<string> {
+  try {
+    const raw = window.localStorage.getItem(SOLVED_LEVELS_STORAGE_KEY);
+    if (!raw) {
+      return new Set();
+    }
+    const parsed = JSON.parse(raw) as unknown;
+    if (Array.isArray(parsed)) {
+      return new Set(parsed.filter((item): item is string => typeof item === 'string'));
+    }
+  } catch {
+    // Storage is optional.
+  }
+  return new Set();
+}
+
+function markFamilySolved(
+  familyId: string,
+  setSolvedFamilyIds: React.Dispatch<React.SetStateAction<ReadonlySet<string>>>,
+): void {
+  setSolvedFamilyIds((prev) => {
+    if (prev.has(familyId)) {
+      return prev;
+    }
+    const next = new Set(prev);
+    next.add(familyId);
+    try {
+      window.localStorage.setItem(SOLVED_LEVELS_STORAGE_KEY, JSON.stringify([...next]));
+    } catch {
+      // Ignore storage write failures.
+    }
+    return next;
+  });
 }

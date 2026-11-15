@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "photosynthesis-pathways-2027-02-02-es-419",
+  "puzzleFamilyId": "photosynthesis-pathways-001",
+  "locale": "es-419",
+  "publishDate": "2027-02-02",
+  "timezone": "UTC",
+  "theme": "Macromoléculas biológicas",
+  "items": [
+    {
+      "itemId": "photosynthesis-pathways-4",
+      "label": "Almidón"
+    },
+    {
+      "itemId": "photosynthesis-pathways-8",
+      "label": "Colágeno"
+    },
+    {
+      "itemId": "photosynthesis-pathways-1",
+      "label": "ARN mensajero"
+    },
+    {
+      "itemId": "photosynthesis-pathways-6",
+      "label": "Glucógeno"
+    },
+    {
+      "itemId": "photosynthesis-pathways-10",
+      "label": "Insulina"
+    },
+    {
+      "itemId": "photosynthesis-pathways-2",
+      "label": "Triglicérido"
+    },
+    {
+      "itemId": "photosynthesis-pathways-7",
+      "label": "Hemoglobina"
+    },
+    {
+      "itemId": "photosynthesis-pathways-5",
+      "label": "Celulosa"
+    },
+    {
+      "itemId": "photosynthesis-pathways-9",
+      "label": "Queratina"
+    },
+    {
+      "itemId": "photosynthesis-pathways-3",
+      "label": "Colesterol"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase de biomolécula a la que pertenece",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Ácido nucleico",
+        "capacity": 1,
+        "itemIds": [
+          "photosynthesis-pathways-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Lípidos",
+        "capacity": 2,
+        "itemIds": [
+          "photosynthesis-pathways-2",
+          "photosynthesis-pathways-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Carbohidratos",
+        "capacity": 3,
+        "itemIds": [
+          "photosynthesis-pathways-4",
+          "photosynthesis-pathways-5",
+          "photosynthesis-pathways-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Proteínas",
+        "capacity": 4,
+        "itemIds": [
+          "photosynthesis-pathways-7",
+          "photosynthesis-pathways-8",
+          "photosynthesis-pathways-9",
+          "photosynthesis-pathways-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por clase de biomolécula: ácido nucleico (ARN mensajero), lípidos (triglicérido, colesterol), carbohidratos (almidón, celulosa, glucógeno) y proteínas (hemoglobina, colágeno, queratina, insulina).",
+  "sources": [
+    {
+      "title": "NIH NIGMS: Inside the Cell",
+      "url": "https://www.nigms.nih.gov/education/fact-sheets",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.35
+  },
+  "status": "scheduled"
+}

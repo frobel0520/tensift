@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sports-implements-rackets-2027-08-02-zh-hant",
+  "puzzleFamilyId": "sports-implements-rackets-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-02",
+  "timezone": "UTC",
+  "theme": "運動球拍、球棒與球桿",
+  "items": [
+    {
+      "itemId": "sports-implements-rackets-4",
+      "label": "網球拍"
+    },
+    {
+      "itemId": "sports-implements-rackets-8",
+      "label": "板球棒"
+    },
+    {
+      "itemId": "sports-implements-rackets-1",
+      "label": "回力球編織籃（Cesta）"
+    },
+    {
+      "itemId": "sports-implements-rackets-6",
+      "label": "壁球拍"
+    },
+    {
+      "itemId": "sports-implements-rackets-10",
+      "label": "高爾夫球桿"
+    },
+    {
+      "itemId": "sports-implements-rackets-2",
+      "label": "桌球拍"
+    },
+    {
+      "itemId": "sports-implements-rackets-7",
+      "label": "棒球棒"
+    },
+    {
+      "itemId": "sports-implements-rackets-5",
+      "label": "羽毛球拍"
+    },
+    {
+      "itemId": "sports-implements-rackets-9",
+      "label": "草地曲棍球桿"
+    },
+    {
+      "itemId": "sports-implements-rackets-3",
+      "label": "匹克球拍"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各運動手持擊球器具的構造類別（編織拋球籃、實心球拍、穿線網拍或戶外球棒／球桿）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "編織拋球籃",
+        "capacity": 1,
+        "itemIds": [
+          "sports-implements-rackets-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "實心無網線球拍",
+        "capacity": 2,
+        "itemIds": [
+          "sports-implements-rackets-2",
+          "sports-implements-rackets-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "穿線網拍",
+        "capacity": 3,
+        "itemIds": [
+          "sports-implements-rackets-4",
+          "sports-implements-rackets-5",
+          "sports-implements-rackets-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "戶外球棒與球桿",
+        "capacity": 4,
+        "itemIds": [
+          "sports-implements-rackets-7",
+          "sports-implements-rackets-8",
+          "sports-implements-rackets-9",
+          "sports-implements-rackets-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依擊球器具構造分類：編織拋球籃（回力球 Cesta）、實心無網線球拍（桌球拍、匹克球拍）、穿線球拍（網球拍、羽毛球拍、壁球拍）與戶外球棒與球桿（棒球棒、板球棒、草地曲棍球桿、高爾夫球桿）。",
+  "sources": [
+    {
+      "title": "ITTF & ITF Equipment Standards",
+      "url": "https://www.itftennis.com/en/about-us/governance/rules-and-regulations/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

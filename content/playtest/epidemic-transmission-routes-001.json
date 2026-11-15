@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "epidemic-transmission-routes-001",
+  "theme": "Infectious Disease Transmission",
+  "publishDate": "2027-12-31",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "epidemic-transmission-routes-1",
+        "rivalGroupId": "group-3",
+        "risk": "Tetanus is an acute neuromuscular toxin disease.",
+        "resolution": "Tetanus enters directly via contaminated skin wounds from soil spores (group-1), not via biting arthropod vectors (group-3)."
+      },
+      {
+        "itemId": "epidemic-transmission-routes-3",
+        "rivalGroupId": "group-4",
+        "risk": "Typhoid fever causes high fever and systemic illness.",
+        "resolution": "Typhoid is transmitted by contaminated water and food (group-2), not respiratory aerosols (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

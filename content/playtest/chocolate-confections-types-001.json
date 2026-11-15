@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "chocolate-confections-types-001",
+  "theme": "Classic Confections & Candies",
+  "publishDate": "2027-10-04",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "chocolate-confections-types-3",
+        "rivalGroupId": "group-1",
+        "risk": "Marshmallows contain gelatin like gummy bears.",
+        "resolution": "Marshmallows are whipped into an aerated sugar-foam (group-2), whereas gummy bears are dense unwhipped gelatin gels (group-1)."
+      },
+      {
+        "itemId": "chocolate-confections-types-2",
+        "rivalGroupId": "group-3",
+        "risk": "Nougat contains roasted almonds or pistachios.",
+        "resolution": "Nougat’s base is whipped egg-white honey foam (group-2), not ground nut-and-sugar paste (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

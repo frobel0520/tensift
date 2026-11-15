@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "tea-ceremony-ware-001",
+  "theme": "Traditional Tea Ware Utensils",
+  "publishDate": "2027-12-30",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "tea-ceremony-ware-1",
+        "rivalGroupId": "group-4",
+        "risk": "Tetsubin resembles a teapot with a spout and handle.",
+        "resolution": "A traditional Tetsubin is a bare cast-iron kettle used to boil water over heat (group-1), not a clay/porcelain vessel for steeping loose leaves (group-4)."
+      },
+      {
+        "itemId": "tea-ceremony-ware-8",
+        "rivalGroupId": "group-3",
+        "risk": "A Gaiwan is a bowl used in Asian tea rituals like a Chawan.",
+        "resolution": "A Gaiwan is a small lidded Chinese steeping vessel for whole-leaf gongfu tea (group-4), whereas a Chawan is an open Japanese bowl for whisking powdered matcha (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

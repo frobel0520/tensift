@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "mountain-ranges-continents-2027-03-09-en",
+  "puzzleFamilyId": "mountain-ranges-continents-001",
+  "locale": "en",
+  "publishDate": "2027-03-09",
+  "timezone": "UTC",
+  "theme": "Mountain Ranges by Continent",
+  "items": [
+    {
+      "itemId": "mountain-ranges-continents-4",
+      "label": "Alps"
+    },
+    {
+      "itemId": "mountain-ranges-continents-8",
+      "label": "Karakoram"
+    },
+    {
+      "itemId": "mountain-ranges-continents-1",
+      "label": "Transantarctic Mountains"
+    },
+    {
+      "itemId": "mountain-ranges-continents-6",
+      "label": "Carpathians"
+    },
+    {
+      "itemId": "mountain-ranges-continents-10",
+      "label": "Tian Shan"
+    },
+    {
+      "itemId": "mountain-ranges-continents-2",
+      "label": "Atlas Mountains"
+    },
+    {
+      "itemId": "mountain-ranges-continents-7",
+      "label": "Himalayas"
+    },
+    {
+      "itemId": "mountain-ranges-continents-5",
+      "label": "Pyrenees"
+    },
+    {
+      "itemId": "mountain-ranges-continents-9",
+      "label": "Kunlun Mountains"
+    },
+    {
+      "itemId": "mountain-ranges-continents-3",
+      "label": "Drakensberg"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Continent (Antarctica, Africa, Europe, or Asia) where each mountain range lies",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Antarctica",
+        "capacity": 1,
+        "itemIds": [
+          "mountain-ranges-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Africa",
+        "capacity": 2,
+        "itemIds": [
+          "mountain-ranges-continents-2",
+          "mountain-ranges-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Europe",
+        "capacity": 3,
+        "itemIds": [
+          "mountain-ranges-continents-4",
+          "mountain-ranges-continents-5",
+          "mountain-ranges-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Asia",
+        "capacity": 4,
+        "itemIds": [
+          "mountain-ranges-continents-7",
+          "mountain-ranges-continents-8",
+          "mountain-ranges-continents-9",
+          "mountain-ranges-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by continent: Antarctica (Transantarctic Mountains), Africa (Atlas, Drakensberg), Europe (Alps, Pyrenees, Carpathians), and Asia (Himalayas, Karakoram, Kunlun, Tian Shan).",
+  "sources": [
+    {
+      "title": "Britannica: Mountain Ranges",
+      "url": "https://www.britannica.com/science/mountain-landform",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

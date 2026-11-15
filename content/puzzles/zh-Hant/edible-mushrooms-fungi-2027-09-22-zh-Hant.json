@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "edible-mushrooms-fungi-2027-09-22-zh-hant",
+  "puzzleFamilyId": "edible-mushrooms-fungi-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-22",
+  "timezone": "UTC",
+  "theme": "食用菇類與真菌分類",
+  "items": [
+    {
+      "itemId": "edible-mushrooms-fungi-4",
+      "label": "黑木耳"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-8",
+      "label": "平菇（秀珍菇）"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-1",
+      "label": "佩里戈爾黑松露"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-6",
+      "label": "舞菇（灰樹花）"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-10",
+      "label": "金針菇"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-2",
+      "label": "黑羊肚菌"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-7",
+      "label": "香菇"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-5",
+      "label": "猴頭菇"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-9",
+      "label": "白色洋菇"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-3",
+      "label": "黃羊肚菌"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各食用真菌的子實體構造分類（地下塊菌松露、羊肚菌囊果、木生膠質／多孔菌或菌褶傘菌）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "地下塊菌",
+        "capacity": 1,
+        "itemIds": [
+          "edible-mushrooms-fungi-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "蜂巢狀羊肚菌",
+        "capacity": 2,
+        "itemIds": [
+          "edible-mushrooms-fungi-2",
+          "edible-mushrooms-fungi-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "木耳、齒菌與多孔菌",
+        "capacity": 3,
+        "itemIds": [
+          "edible-mushrooms-fungi-4",
+          "edible-mushrooms-fungi-5",
+          "edible-mushrooms-fungi-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "菌褶傘菌類",
+        "capacity": 4,
+        "itemIds": [
+          "edible-mushrooms-fungi-7",
+          "edible-mushrooms-fungi-8",
+          "edible-mushrooms-fungi-9",
+          "edible-mushrooms-fungi-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依真菌構造分類：地下塊菌（法國黑松露）、蜂巢狀子囊菌（黑羊肚菌、黃羊肚菌）、木生膠質與多孔／齒菌（黑木耳、猴頭菇、舞菇）與傘狀菌褶菇（香菇、秀珍菇／平菇、洋菇、金針菇）。",
+  "sources": [
+    {
+      "title": "FAO: Wild Edible Fungi",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

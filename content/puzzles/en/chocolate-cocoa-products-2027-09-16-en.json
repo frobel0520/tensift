@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chocolate-cocoa-products-2027-09-16-en",
+  "puzzleFamilyId": "chocolate-cocoa-products-001",
+  "locale": "en",
+  "publishDate": "2027-09-16",
+  "timezone": "UTC",
+  "theme": "Cocoa & Chocolate Grades",
+  "items": [
+    {
+      "itemId": "chocolate-cocoa-products-4",
+      "label": "Natural Cocoa Powder"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-8",
+      "label": "85% Extra-Dark Chocolate"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-1",
+      "label": "Roasted Cacao Nibs"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-6",
+      "label": "Black Cocoa Powder"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-10",
+      "label": "Gianduja Chocolate"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-2",
+      "label": "White Chocolate"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-7",
+      "label": "70% Dark Chocolate"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-5",
+      "label": "Dutch-Processed Cocoa"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-9",
+      "label": "Milk Chocolate"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-3",
+      "label": "Caramelized Blonde Chocolate"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cocoa solid/butter composition (100% Roasted Nibs/Liquor, Cocoa-Butter-Only White Chocolate, Defatted Cocoa Powders, or Sweetened Dark & Milk Chocolates)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Pure Unsweetened Cacao",
+        "capacity": 1,
+        "itemIds": [
+          "chocolate-cocoa-products-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Cocoa-Butter-Only (No Liquor)",
+        "capacity": 2,
+        "itemIds": [
+          "chocolate-cocoa-products-2",
+          "chocolate-cocoa-products-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Defatted Cocoa Powders",
+        "capacity": 3,
+        "itemIds": [
+          "chocolate-cocoa-products-4",
+          "chocolate-cocoa-products-5",
+          "chocolate-cocoa-products-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Cocoa-Mass Eating Bars",
+        "capacity": 4,
+        "itemIds": [
+          "chocolate-cocoa-products-7",
+          "chocolate-cocoa-products-8",
+          "chocolate-cocoa-products-9",
+          "chocolate-cocoa-products-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by cocoa composition: Pure Unsweetened Cacao (Roasted Cacao Nibs), Cocoa-Butter-Only (White Chocolate, Caramelized Blonde Chocolate), Defatted Cocoa Powders (Natural Cocoa Powder, Dutch-Processed Cocoa, Black Cocoa Powder), and Cocoa-Mass Bars (70% Dark Chocolate, 85% Extra-Dark, Milk Chocolate, Gianduja Hazelnut Chocolate).",
+  "sources": [
+    {
+      "title": "Codex Alimentarius: Chocolate Standard",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

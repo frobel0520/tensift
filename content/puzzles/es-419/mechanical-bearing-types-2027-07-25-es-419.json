@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "mechanical-bearing-types-2027-07-25-es-419",
+  "puzzleFamilyId": "mechanical-bearing-types-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-25",
+  "timezone": "UTC",
+  "theme": "Rodamientos y cojinetes mecánicos",
+  "items": [
+    {
+      "itemId": "mechanical-bearing-types-4",
+      "label": "Rodamiento de rodillos cilíndricos"
+    },
+    {
+      "itemId": "mechanical-bearing-types-8",
+      "label": "Rodamiento de contacto angular"
+    },
+    {
+      "itemId": "mechanical-bearing-types-1",
+      "label": "Cojinete magnético activo"
+    },
+    {
+      "itemId": "mechanical-bearing-types-6",
+      "label": "Rodamiento de agujas"
+    },
+    {
+      "itemId": "mechanical-bearing-types-10",
+      "label": "Rodamiento autoalineable de bolas"
+    },
+    {
+      "itemId": "mechanical-bearing-types-2",
+      "label": "Buje liso de bronce"
+    },
+    {
+      "itemId": "mechanical-bearing-types-7",
+      "label": "Rodamiento rígido de bolas"
+    },
+    {
+      "itemId": "mechanical-bearing-types-5",
+      "label": "Rodamiento de rodillos cónicos"
+    },
+    {
+      "itemId": "mechanical-bearing-types-9",
+      "label": "Rodamiento axial de bolas"
+    },
+    {
+      "itemId": "mechanical-bearing-types-3",
+      "label": "Cojinete hidrodinámico axial"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Mecanismo de soporte de cada cojinete o rodamiento",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Levitación magnética",
+        "capacity": 1,
+        "itemIds": [
+          "mechanical-bearing-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Cojinetes lisos y fluidodinámicos",
+        "capacity": 2,
+        "itemIds": [
+          "mechanical-bearing-types-2",
+          "mechanical-bearing-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Rodamientos de rodillos",
+        "capacity": 3,
+        "itemIds": [
+          "mechanical-bearing-types-4",
+          "mechanical-bearing-types-5",
+          "mechanical-bearing-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Rodamientos de bolas",
+        "capacity": 4,
+        "itemIds": [
+          "mechanical-bearing-types-7",
+          "mechanical-bearing-types-8",
+          "mechanical-bearing-types-9",
+          "mechanical-bearing-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por mecanismo: magnético sin contacto (cojinete magnético activo), fricción/película fluida (buje de bronce, cojinete hidrodinámico), de rodillos (cilíndricos, cónicos, de agujas) y de bolas (rígido de bolas, contacto angular, axial de bolas, autoalineable).",
+  "sources": [
+    {
+      "title": "ISO 15241: Rolling Bearings",
+      "url": "https://www.iso.org/standard/54372.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "shakespeare-plays-genres-2027-05-20-zh-hant",
+  "puzzleFamilyId": "shakespeare-plays-genres-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-20",
+  "timezone": "UTC",
+  "theme": "莎士比亞劇作體裁",
+  "items": [
+    {
+      "itemId": "shakespeare-plays-genres-4",
+      "label": "《第十二夜》"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-8",
+      "label": "《馬克白》"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-1",
+      "label": "《暴風雨》"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-6",
+      "label": "《無事生非》"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-10",
+      "label": "《李爾王》"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-2",
+      "label": "《亨利五世》"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-7",
+      "label": "《哈姆雷特》"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-5",
+      "label": "《仲夏夜之夢》"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-9",
+      "label": "《奧賽羅》"
+    },
+    {
+      "itemId": "shakespeare-plays-genres-3",
+      "label": "《理查三世》"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各莎士比亞劇作的傳統分類體裁（晚期傳奇劇、歷史劇、喜劇或悲劇）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "晚期傳奇劇",
+        "capacity": 1,
+        "itemIds": [
+          "shakespeare-plays-genres-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "歷史劇",
+        "capacity": 2,
+        "itemIds": [
+          "shakespeare-plays-genres-2",
+          "shakespeare-plays-genres-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "喜劇",
+        "capacity": 3,
+        "itemIds": [
+          "shakespeare-plays-genres-4",
+          "shakespeare-plays-genres-5",
+          "shakespeare-plays-genres-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "悲劇",
+        "capacity": 4,
+        "itemIds": [
+          "shakespeare-plays-genres-7",
+          "shakespeare-plays-genres-8",
+          "shakespeare-plays-genres-9",
+          "shakespeare-plays-genres-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依劇作體裁分類：晚期傳奇劇（《暴風雨》）、歷史劇（《亨利五世》、《理查三世》）、喜劇（《第十二夜》、《仲夏夜之夢》、《無事生非》）與四大悲劇（《哈姆雷特》、《馬克白》、《奧賽羅》、《李爾王》）。",
+  "sources": [
+    {
+      "title": "Folger Shakespeare Library",
+      "url": "https://www.folger.edu/explore/shakespeares-works/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

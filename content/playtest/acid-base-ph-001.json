@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "acid-base-ph-001",
+  "theme": "Acids and Bases",
+  "publishDate": "2026-12-15",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "acid-base-ph-4",
+        "rivalGroupId": "group-4",
+        "risk": "Acetic acid is corrosive when concentrated.",
+        "resolution": "Acetic acid only partially ionizes in water, making it a weak acid (group-3)."
+      },
+      {
+        "itemId": "acid-base-ph-7",
+        "rivalGroupId": "group-3",
+        "risk": "Hydrochloric acid is present in the stomach.",
+        "resolution": "HCl dissociates completely in water, making it a strong acid (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

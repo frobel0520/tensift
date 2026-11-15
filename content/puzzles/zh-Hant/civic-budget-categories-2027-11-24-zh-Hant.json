@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "civic-budget-categories-2027-11-24-zh-hant",
+  "puzzleFamilyId": "civic-budget-categories-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-24",
+  "timezone": "UTC",
+  "theme": "政府財政預算與公債分類",
+  "items": [
+    {
+      "itemId": "civic-budget-categories-4",
+      "label": "年度國防預算"
+    },
+    {
+      "itemId": "civic-budget-categories-8",
+      "label": "中期國庫票據（2–10 年）"
+    },
+    {
+      "itemId": "civic-budget-categories-1",
+      "label": "主權財富基金"
+    },
+    {
+      "itemId": "civic-budget-categories-6",
+      "label": "公共科學研究經費"
+    },
+    {
+      "itemId": "civic-budget-categories-10",
+      "label": "抗通膨連結公債（TIPS）"
+    },
+    {
+      "itemId": "civic-budget-categories-2",
+      "label": "法定公共退休年金"
+    },
+    {
+      "itemId": "civic-budget-categories-7",
+      "label": "短期國庫券（1 年內）"
+    },
+    {
+      "itemId": "civic-budget-categories-5",
+      "label": "交通基礎建設撥款"
+    },
+    {
+      "itemId": "civic-budget-categories-9",
+      "label": "長期政府公債（20–30 年）"
+    },
+    {
+      "itemId": "civic-budget-categories-3",
+      "label": "法定醫療保險給付"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各政府財政項目的預算性質（主權財富基金、法定強制性社會支出、自由裁量公共預算或主權公債融資工具）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "國家主權儲備基金",
+        "capacity": 1,
+        "itemIds": [
+          "civic-budget-categories-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "法定強制性社福支出",
+        "capacity": 2,
+        "itemIds": [
+          "civic-budget-categories-2",
+          "civic-budget-categories-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "年度裁量性公共支出",
+        "capacity": 3,
+        "itemIds": [
+          "civic-budget-categories-4",
+          "civic-budget-categories-5",
+          "civic-budget-categories-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "主權公債融資工具",
+        "capacity": 4,
+        "itemIds": [
+          "civic-budget-categories-7",
+          "civic-budget-categories-8",
+          "civic-budget-categories-9",
+          "civic-budget-categories-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依公共財政性質分類：國家長期儲備（主權財富基金）、法定強制性社福支出（公共退休年金、全民健保給付）、年度裁量支出（國防預算撥款、基礎建設補助、基礎科學研究經費）與主權債務工具（短期國庫券、中期國庫票據、長期公債、抗通膨公債）。",
+  "sources": [
+    {
+      "title": "IMF Government Finance Statistics Manual",
+      "url": "https://www.imf.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

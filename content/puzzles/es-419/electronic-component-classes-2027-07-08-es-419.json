@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "electronic-component-classes-2027-07-08-es-419",
+  "puzzleFamilyId": "electronic-component-classes-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-08",
+  "timezone": "UTC",
+  "theme": "Componentes electrónicos",
+  "items": [
+    {
+      "itemId": "electronic-component-classes-4",
+      "label": "Resistor"
+    },
+    {
+      "itemId": "electronic-component-classes-8",
+      "label": "MOSFET"
+    },
+    {
+      "itemId": "electronic-component-classes-1",
+      "label": "Fusible rearmable PTC"
+    },
+    {
+      "itemId": "electronic-component-classes-6",
+      "label": "Inductor"
+    },
+    {
+      "itemId": "electronic-component-classes-10",
+      "label": "Diodo Zener"
+    },
+    {
+      "itemId": "electronic-component-classes-2",
+      "label": "Relé electromecánico"
+    },
+    {
+      "itemId": "electronic-component-classes-7",
+      "label": "Transistor BJT"
+    },
+    {
+      "itemId": "electronic-component-classes-5",
+      "label": "Capacitor"
+    },
+    {
+      "itemId": "electronic-component-classes-9",
+      "label": "Amplificador operacional"
+    },
+    {
+      "itemId": "electronic-component-classes-3",
+      "label": "Interruptor de palanca"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría electrónica de cada componente",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Protección contra sobrecorriente",
+        "capacity": 1,
+        "itemIds": [
+          "electronic-component-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Interruptores electromecánicos",
+        "capacity": 2,
+        "itemIds": [
+          "electronic-component-classes-2",
+          "electronic-component-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Componentes pasivos lineales",
+        "capacity": 3,
+        "itemIds": [
+          "electronic-component-classes-4",
+          "electronic-component-classes-5",
+          "electronic-component-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Dispositivos semiconductores",
+        "capacity": 4,
+        "itemIds": [
+          "electronic-component-classes-7",
+          "electronic-component-classes-8",
+          "electronic-component-classes-9",
+          "electronic-component-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase: protección (fusible PTC), electromecánicos (relé electromecánico, interruptor de palanca), pasivos lineales (resistor, capacitor, inductor) y semiconductores activos (transistor BJT, MOSFET, amplificador operacional, diodo Zener).",
+  "sources": [
+    {
+      "title": "IEEE: Electronic Components",
+      "url": "https://www.ieee.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

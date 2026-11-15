@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "solar-pv-technologies-2027-07-28-en",
+  "puzzleFamilyId": "solar-pv-technologies-001",
+  "locale": "en",
+  "publishDate": "2027-07-28",
+  "timezone": "UTC",
+  "theme": "Solar Power Technologies",
+  "items": [
+    {
+      "itemId": "solar-pv-technologies-4",
+      "label": "Cadmium Telluride (CdTe)"
+    },
+    {
+      "itemId": "solar-pv-technologies-8",
+      "label": "Microinverter"
+    },
+    {
+      "itemId": "solar-pv-technologies-1",
+      "label": "Parabolic Trough CSP"
+    },
+    {
+      "itemId": "solar-pv-technologies-6",
+      "label": "Perovskite Solar Cell"
+    },
+    {
+      "itemId": "solar-pv-technologies-10",
+      "label": "Bidirectional Net Meter"
+    },
+    {
+      "itemId": "solar-pv-technologies-2",
+      "label": "Monocrystalline Silicon"
+    },
+    {
+      "itemId": "solar-pv-technologies-7",
+      "label": "String Inverter"
+    },
+    {
+      "itemId": "solar-pv-technologies-5",
+      "label": "CIGS Thin-Film"
+    },
+    {
+      "itemId": "solar-pv-technologies-9",
+      "label": "MPPT Charge Controller"
+    },
+    {
+      "itemId": "solar-pv-technologies-3",
+      "label": "Polycrystalline Silicon"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Solar engineering category (Concentrating Thermal CSP, Crystalline Silicon PV, Thin-Film/Emerging PV, or Balance-of-System Electronics)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Concentrating Solar Thermal (CSP)",
+        "capacity": 1,
+        "itemIds": [
+          "solar-pv-technologies-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Crystalline Silicon PV",
+        "capacity": 2,
+        "itemIds": [
+          "solar-pv-technologies-2",
+          "solar-pv-technologies-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Thin-Film & Emerging PV",
+        "capacity": 3,
+        "itemIds": [
+          "solar-pv-technologies-4",
+          "solar-pv-technologies-5",
+          "solar-pv-technologies-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Balance-of-System Electronics",
+        "capacity": 4,
+        "itemIds": [
+          "solar-pv-technologies-7",
+          "solar-pv-technologies-8",
+          "solar-pv-technologies-9",
+          "solar-pv-technologies-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by solar technology category: Concentrating Solar Thermal (Parabolic Trough CSP), Crystalline Silicon Wafer PV (Monocrystalline Silicon, Polycrystalline Silicon), Thin-Film & Emerging PV (CdTe Thin-Film, CIGS Thin-Film, Perovskite Solar Cell), and Balance-of-System Power Electronics (String Inverter, Microinverter, MPPT Charge Controller, Bidirectional Net Meter).",
+  "sources": [
+    {
+      "title": "NREL: Solar Photovoltaic Technology",
+      "url": "https://www.nrel.gov/research/re-solar.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

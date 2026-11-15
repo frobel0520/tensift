@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "aerodynamic-mach-regimes-2027-06-28-en",
+  "puzzleFamilyId": "aerodynamic-mach-regimes-001",
+  "locale": "en",
+  "publishDate": "2027-06-28",
+  "timezone": "UTC",
+  "theme": "Aerodynamic Speed Regimes",
+  "items": [
+    {
+      "itemId": "aerodynamic-mach-regimes-4",
+      "label": "Mach Cone (Sonic Boom)"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-8",
+      "label": "Re-entry Plasma Sheath"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-1",
+      "label": "Propeller & Regional Cruise"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-6",
+      "label": "SR-71 Cruise (Mach 3.2)"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-10",
+      "label": "Hypersonic Boost-Glide"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-2",
+      "label": "Critical Mach Number"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-7",
+      "label": "Scramjet Flight (Mach 7)"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-5",
+      "label": "Concorde Cruise (Mach 2.02)"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-9",
+      "label": "Orbital Re-entry (Mach 25)"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-3",
+      "label": "Transonic Wave Drag Rise"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Mach number regime (Subsonic <0.8, Transonic 0.8–1.2, Supersonic 1.2–5.0, or Hypersonic >5.0)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Subsonic (M < 0.8)",
+        "capacity": 1,
+        "itemIds": [
+          "aerodynamic-mach-regimes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Transonic (M 0.8–1.2)",
+        "capacity": 2,
+        "itemIds": [
+          "aerodynamic-mach-regimes-2",
+          "aerodynamic-mach-regimes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Supersonic (M 1.2–5.0)",
+        "capacity": 3,
+        "itemIds": [
+          "aerodynamic-mach-regimes-4",
+          "aerodynamic-mach-regimes-5",
+          "aerodynamic-mach-regimes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Hypersonic (M > 5.0)",
+        "capacity": 4,
+        "itemIds": [
+          "aerodynamic-mach-regimes-7",
+          "aerodynamic-mach-regimes-8",
+          "aerodynamic-mach-regimes-9",
+          "aerodynamic-mach-regimes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by Mach regime: Subsonic M < 0.8 (Subsonic Airliner Cruise), Transonic 0.8–1.2 (Critical Mach Number, Transonic Wave Drag Rise), Supersonic 1.2–5.0 (Mach 2 Supercruise, Mach Cone / Sonic Boom, Concorde Mach 2.02), and Hypersonic M > 5.0 (Scramjet Flight Mach 7, Re-entry Plasma Sheath, Orbital Re-entry Mach 25, Boost-Glide Hypersonic).",
+  "sources": [
+    {
+      "title": "NASA: Speed Regimes",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/mach.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "canals-continents-001",
+  "theme": "Major Canals by Continent",
+  "publishDate": "2027-03-20",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "canals-continents-1",
+        "rivalGroupId": "group-3",
+        "risk": "Suez connects the Mediterranean to the Red Sea bordering Asia.",
+        "resolution": "The Suez Canal runs through Egypt, which is primarily in Africa (group-1)."
+      },
+      {
+        "itemId": "canals-continents-8",
+        "rivalGroupId": "group-3",
+        "risk": "Corinth Canal is near the eastern Mediterranean.",
+        "resolution": "Corinth is in Greece, Europe (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

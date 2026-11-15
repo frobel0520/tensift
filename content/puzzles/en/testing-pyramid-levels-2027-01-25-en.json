@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "testing-pyramid-levels-2027-01-25-en",
+  "puzzleFamilyId": "testing-pyramid-levels-001",
+  "locale": "en",
+  "publishDate": "2027-01-25",
+  "timezone": "UTC",
+  "theme": "Software Testing",
+  "items": [
+    {
+      "itemId": "testing-pyramid-levels-4",
+      "label": "Load test"
+    },
+    {
+      "itemId": "testing-pyramid-levels-8",
+      "label": "Regression test"
+    },
+    {
+      "itemId": "testing-pyramid-levels-1",
+      "label": "Static linter check"
+    },
+    {
+      "itemId": "testing-pyramid-levels-6",
+      "label": "Penetration test"
+    },
+    {
+      "itemId": "testing-pyramid-levels-10",
+      "label": "User acceptance test"
+    },
+    {
+      "itemId": "testing-pyramid-levels-2",
+      "label": "Unit test"
+    },
+    {
+      "itemId": "testing-pyramid-levels-7",
+      "label": "Smoke test"
+    },
+    {
+      "itemId": "testing-pyramid-levels-5",
+      "label": "Stress test"
+    },
+    {
+      "itemId": "testing-pyramid-levels-9",
+      "label": "End-to-end test"
+    },
+    {
+      "itemId": "testing-pyramid-levels-3",
+      "label": "Integration test"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Testing scope or non-functional quality focus",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Static analysis (no run)",
+        "capacity": 1,
+        "itemIds": [
+          "testing-pyramid-levels-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Code-level functional scope",
+        "capacity": 2,
+        "itemIds": [
+          "testing-pyramid-levels-2",
+          "testing-pyramid-levels-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Load & security testing",
+        "capacity": 3,
+        "itemIds": [
+          "testing-pyramid-levels-4",
+          "testing-pyramid-levels-5",
+          "testing-pyramid-levels-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "System & release verification",
+        "capacity": 4,
+        "itemIds": [
+          "testing-pyramid-levels-7",
+          "testing-pyramid-levels-8",
+          "testing-pyramid-levels-9",
+          "testing-pyramid-levels-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by software testing scope: static analysis (linter), code-level functional scope (unit, integration), load and security testing (load, stress, penetration), and system/release verification (smoke, regression, end-to-end, UAT).",
+  "sources": [
+    {
+      "title": "ISTQB: Standard Glossary of Terms Used in Software Testing",
+      "url": "https://glossary.istqb.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

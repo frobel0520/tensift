@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "icao-phonetic-alphabet-001",
+  "theme": "ICAO Phonetic Alphabet",
+  "publishDate": "2027-06-22",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "icao-phonetic-alphabet-5",
+        "rivalGroupId": "group-1",
+        "risk": "Oscar begins with a vowel like Alfa.",
+        "resolution": "Oscar represents O in the M–P range (group-3), whereas Alfa represents A (group-1)."
+      },
+      {
+        "itemId": "icao-phonetic-alphabet-8",
+        "rivalGroupId": "group-2",
+        "risk": "Tango is a dance name like Foxtrot.",
+        "resolution": "Tango starts with T in the S–Z range (group-4), not B–D (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

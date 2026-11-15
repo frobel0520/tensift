@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "sugar-sweeteners-origin-001",
+  "theme": "Sugars & Sweeteners",
+  "publishDate": "2027-10-01",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "sugar-sweeteners-origin-1",
+        "rivalGroupId": "group-3",
+        "risk": "Sucralose is derived chemically from sucrose.",
+        "resolution": "Sucralose is a chlorinated high-intensity synthetic sweetener (~600x sweeter, group-1), not a sugar alcohol polyol (group-3)."
+      },
+      {
+        "itemId": "sugar-sweeteners-origin-10",
+        "rivalGroupId": "group-2",
+        "risk": "Coconut palm sugar comes from palm flower sap.",
+        "resolution": "Coconut palm sugar is sold as a granulated/block sucrose sugar (group-4), unlike tapped deciduous tree-trunk syrups (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

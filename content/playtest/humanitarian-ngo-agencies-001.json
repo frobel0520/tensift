@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "humanitarian-ngo-agencies-001",
+  "theme": "Global Humanitarian & Aid Bodies",
+  "publishDate": "2027-11-27",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "humanitarian-ngo-agencies-4",
+        "rivalGroupId": "group-1",
+        "risk": "Doctors Without Borders shares \"Without Borders\" with RSF.",
+        "resolution": "MSF is an emergency medical humanitarian NGO (group-3), whereas RSF monitors journalist safety and press freedom (group-1)."
+      },
+      {
+        "itemId": "humanitarian-ngo-agencies-5",
+        "rivalGroupId": "group-4",
+        "risk": "Save the Children focuses on children like UNICEF.",
+        "resolution": "Save the Children is an independent non-governmental charity (group-3), whereas UNICEF is an intergovernmental UN fund (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

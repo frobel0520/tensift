@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "laundry-care-symbols-2027-12-01-es-419",
+  "puzzleFamilyId": "laundry-care-symbols-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-01",
+  "timezone": "UTC",
+  "theme": "Símbolos ISO de cuidado textil",
+  "items": [
+    {
+      "itemId": "laundry-care-symbols-4",
+      "label": "Plancha 1 punto (110 °C)"
+    },
+    {
+      "itemId": "laundry-care-symbols-8",
+      "label": "Lavado a mano en tina"
+    },
+    {
+      "itemId": "laundry-care-symbols-1",
+      "label": "Círculo P (lavado en seco)"
+    },
+    {
+      "itemId": "laundry-care-symbols-6",
+      "label": "Plancha 3 puntos (200 °C)"
+    },
+    {
+      "itemId": "laundry-care-symbols-10",
+      "label": "Cuadrado con línea (colgar)"
+    },
+    {
+      "itemId": "laundry-care-symbols-2",
+      "label": "Triángulo abierto (blanquear)"
+    },
+    {
+      "itemId": "laundry-care-symbols-7",
+      "label": "Tina de lavado 30 °C"
+    },
+    {
+      "itemId": "laundry-care-symbols-5",
+      "label": "Plancha 2 puntos (150 °C)"
+    },
+    {
+      "itemId": "laundry-care-symbols-9",
+      "label": "Cuadrado con círculo (secadora)"
+    },
+    {
+      "itemId": "laundry-care-symbols-3",
+      "label": "Triángulo tachado (no blanquear)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Familia de símbolos de cuidado textil ISO 3758",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Limpieza en seco (círculo)",
+        "capacity": 1,
+        "itemIds": [
+          "laundry-care-symbols-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Blanqueado (triángulo)",
+        "capacity": 2,
+        "itemIds": [
+          "laundry-care-symbols-2",
+          "laundry-care-symbols-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Planchado (puntos de calor)",
+        "capacity": 3,
+        "itemIds": [
+          "laundry-care-symbols-4",
+          "laundry-care-symbols-5",
+          "laundry-care-symbols-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Lavado y secado",
+        "capacity": 4,
+        "itemIds": [
+          "laundry-care-symbols-7",
+          "laundry-care-symbols-8",
+          "laundry-care-symbols-9",
+          "laundry-care-symbols-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por familia ISO 3758: lavado en seco (círculo con letra P), blanqueado (triángulo abierto, triángulo tachado), planchado (plancha 1 punto, 2 puntos, 3 puntos) y lavado/secado (tina 30 °C, lavado a mano, secadora baja, secado colgado).",
+  "sources": [
+    {
+      "title": "ISO 3758: Textiles Care Labelling Code",
+      "url": "https://www.iso.org/standard/78246.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

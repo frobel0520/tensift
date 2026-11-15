@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "stellar-remnants-endpoints-2027-06-19-en",
+  "puzzleFamilyId": "stellar-remnants-endpoints-001",
+  "locale": "en",
+  "publishDate": "2027-06-19",
+  "timezone": "UTC",
+  "theme": "Stellar Remnants & Black Holes",
+  "items": [
+    {
+      "itemId": "stellar-remnants-endpoints-4",
+      "label": "Radio Pulsar"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-8",
+      "label": "Intermediate-Mass Black Hole"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-1",
+      "label": "Brown Dwarf"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-6",
+      "label": "Millisecond Pulsar"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-10",
+      "label": "Primordial Black Hole"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-2",
+      "label": "Carbon-Oxygen White Dwarf"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-7",
+      "label": "Stellar-Mass Black Hole"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-5",
+      "label": "Magnetar"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-9",
+      "label": "Supermassive Black Hole"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-3",
+      "label": "Helium White Dwarf"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Astrophysical compact/substellar class (Substellar Brown Dwarf, White Dwarf/Ia, Neutron Star, or Black Hole)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Substellar Object",
+        "capacity": 1,
+        "itemIds": [
+          "stellar-remnants-endpoints-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "White Dwarfs",
+        "capacity": 2,
+        "itemIds": [
+          "stellar-remnants-endpoints-2",
+          "stellar-remnants-endpoints-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Neutron Stars",
+        "capacity": 3,
+        "itemIds": [
+          "stellar-remnants-endpoints-4",
+          "stellar-remnants-endpoints-5",
+          "stellar-remnants-endpoints-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Black Holes",
+        "capacity": 4,
+        "itemIds": [
+          "stellar-remnants-endpoints-7",
+          "stellar-remnants-endpoints-8",
+          "stellar-remnants-endpoints-9",
+          "stellar-remnants-endpoints-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by compact/substellar class: Substellar (Brown Dwarf), Degenerate Electron Matter (Carbon-Oxygen White Dwarf, Helium White Dwarf), Neutron Stars (Radio Pulsar, Magnetar, Millisecond Pulsar), and Black Holes (Stellar-Mass, Intermediate-Mass, Supermassive, Primordial Black Hole).",
+  "sources": [
+    {
+      "title": "NASA: Black Holes & Neutron Stars",
+      "url": "https://science.nasa.gov/astrophysics/focus-areas/black-holes/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

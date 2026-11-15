@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "sports-implements-rackets-001",
+  "theme": "Sports Bats, Rackets & Sticks",
+  "publishDate": "2027-08-02",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "sports-implements-rackets-2",
+        "rivalGroupId": "group-3",
+        "risk": "Table tennis is also called ping-pong tennis.",
+        "resolution": "A table tennis blade has a solid wood/composite face with rubber (group-2), not strung mesh (group-3)."
+      },
+      {
+        "itemId": "sports-implements-rackets-8",
+        "rivalGroupId": "group-2",
+        "risk": "A cricket bat has a flat hitting blade.",
+        "resolution": "Cricket bats are long-handled outdoor bats used on a pitch (group-4), not short court paddles (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

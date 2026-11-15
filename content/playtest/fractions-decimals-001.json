@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "fractions-decimals-001",
+  "theme": "Equivalent Fractions",
+  "publishDate": "2027-03-02",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "fractions-decimals-3",
+        "rivalGroupId": "group-1",
+        "risk": "2/8 has denominator 8 like 1/8.",
+        "resolution": "2/8 simplifies to 1/4 = 0.25 (group-2), not 0.125 (group-1)."
+      },
+      {
+        "itemId": "fractions-decimals-8",
+        "rivalGroupId": "group-3",
+        "risk": "6/8 has denominator 8.",
+        "resolution": "6/8 simplifies to 3/4 = 0.75 (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "spaceport-launch-sites-2027-07-02-es-419",
+  "puzzleFamilyId": "spaceport-launch-sites-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-02",
+  "timezone": "UTC",
+  "theme": "Puertos espaciales del mundo",
+  "items": [
+    {
+      "itemId": "spaceport-launch-sites-4",
+      "label": "Cosmódromo de Baikonur"
+    },
+    {
+      "itemId": "spaceport-launch-sites-8",
+      "label": "Cabo Cañaveral"
+    },
+    {
+      "itemId": "spaceport-launch-sites-1",
+      "label": "Puerto espacial de Kourou"
+    },
+    {
+      "itemId": "spaceport-launch-sites-6",
+      "label": "Cosmódromo de Vostochni"
+    },
+    {
+      "itemId": "spaceport-launch-sites-10",
+      "label": "Instalación de Vuelo Wallops"
+    },
+    {
+      "itemId": "spaceport-launch-sites-2",
+      "label": "Centro Espacial de Tanegashima"
+    },
+    {
+      "itemId": "spaceport-launch-sites-7",
+      "label": "Centro Espacial Kennedy"
+    },
+    {
+      "itemId": "spaceport-launch-sites-5",
+      "label": "Cosmódromo de Plesetsk"
+    },
+    {
+      "itemId": "spaceport-launch-sites-9",
+      "label": "Base Vandenberg"
+    },
+    {
+      "itemId": "spaceport-launch-sites-3",
+      "label": "Centro Espacial de Uchinoura"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "País u operador nacional de cada puerto espacial",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Guayana Francesa (ESA)",
+        "capacity": 1,
+        "itemIds": [
+          "spaceport-launch-sites-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Japón",
+        "capacity": 2,
+        "itemIds": [
+          "spaceport-launch-sites-2",
+          "spaceport-launch-sites-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Rusia / Roscosmos",
+        "capacity": 3,
+        "itemIds": [
+          "spaceport-launch-sites-4",
+          "spaceport-launch-sites-5",
+          "spaceport-launch-sites-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Estados Unidos",
+        "capacity": 4,
+        "itemIds": [
+          "spaceport-launch-sites-7",
+          "spaceport-launch-sites-8",
+          "spaceport-launch-sites-9",
+          "spaceport-launch-sites-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por país/operador: Guayana Francesa / ESA (Kourou), Japón (Tanegashima, Uchinoura), Rusia/Kazajistán (Baikonur, Plesetsk, Vostochni) y Estados Unidos (Kennedy, Cabo Cañaveral, Vandenberg, Wallops).",
+  "sources": [
+    {
+      "title": "ESA & NASA Launch Facilities",
+      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Europe_s_Spaceport",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

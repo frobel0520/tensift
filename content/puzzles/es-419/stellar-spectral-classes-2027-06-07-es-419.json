@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "stellar-spectral-classes-2027-06-07-es-419",
+  "puzzleFamilyId": "stellar-spectral-classes-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-07",
+  "timezone": "UTC",
+  "theme": "Clases espectrales estelares",
+  "items": [
+    {
+      "itemId": "stellar-spectral-classes-4",
+      "label": "Clase F"
+    },
+    {
+      "itemId": "stellar-spectral-classes-8",
+      "label": "Clase L (enana marrón)"
+    },
+    {
+      "itemId": "stellar-spectral-classes-1",
+      "label": "Clase O"
+    },
+    {
+      "itemId": "stellar-spectral-classes-6",
+      "label": "Clase K"
+    },
+    {
+      "itemId": "stellar-spectral-classes-10",
+      "label": "Clase Y"
+    },
+    {
+      "itemId": "stellar-spectral-classes-2",
+      "label": "Clase B"
+    },
+    {
+      "itemId": "stellar-spectral-classes-7",
+      "label": "Clase M (enana roja)"
+    },
+    {
+      "itemId": "stellar-spectral-classes-5",
+      "label": "Clase G (solar)"
+    },
+    {
+      "itemId": "stellar-spectral-classes-9",
+      "label": "Clase T"
+    },
+    {
+      "itemId": "stellar-spectral-classes-3",
+      "label": "Clase A"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Nivel térmico de cada clase espectral estelar",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Azul muy caliente (>30 000 K)",
+        "capacity": 1,
+        "itemIds": [
+          "stellar-spectral-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Azul-blanca (7500–30 000 K)",
+        "capacity": 2,
+        "itemIds": [
+          "stellar-spectral-classes-2",
+          "stellar-spectral-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Intermedias F/G/K (3700–7500 K)",
+        "capacity": 3,
+        "itemIds": [
+          "stellar-spectral-classes-4",
+          "stellar-spectral-classes-5",
+          "stellar-spectral-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Enanas frías (<3700 K)",
+        "capacity": 4,
+        "itemIds": [
+          "stellar-spectral-classes-7",
+          "stellar-spectral-classes-8",
+          "stellar-spectral-classes-9",
+          "stellar-spectral-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por temperatura superficial: muy caliente (clase O), azul-blanca (clases B, A), intermedia amarillo-naranja (clases F, G, K) y enanas frías rojas/marrones (clases M, L, T, Y).",
+  "sources": [
+    {
+      "title": "NASA: Stellar Spectral Classification",
+      "url": "https://science.nasa.gov/universe/stars/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

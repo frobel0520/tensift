@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "poker-hand-rankings-2027-08-10-en",
+  "puzzleFamilyId": "poker-hand-rankings-001",
+  "locale": "en",
+  "publishDate": "2027-08-10",
+  "timezone": "UTC",
+  "theme": "Standard 5-Card Poker Hands",
+  "items": [
+    {
+      "itemId": "poker-hand-rankings-4",
+      "label": "Full House"
+    },
+    {
+      "itemId": "poker-hand-rankings-8",
+      "label": "Two Pair"
+    },
+    {
+      "itemId": "poker-hand-rankings-1",
+      "label": "Royal Flush"
+    },
+    {
+      "itemId": "poker-hand-rankings-6",
+      "label": "Straight"
+    },
+    {
+      "itemId": "poker-hand-rankings-10",
+      "label": "High Card"
+    },
+    {
+      "itemId": "poker-hand-rankings-2",
+      "label": "Straight Flush"
+    },
+    {
+      "itemId": "poker-hand-rankings-7",
+      "label": "Three of a Kind"
+    },
+    {
+      "itemId": "poker-hand-rankings-5",
+      "label": "Flush"
+    },
+    {
+      "itemId": "poker-hand-rankings-9",
+      "label": "One Pair"
+    },
+    {
+      "itemId": "poker-hand-rankings-3",
+      "label": "Four of a Kind"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Hand-ranking tier from highest to lowest (Royal Flush, Top Straight Flush & Quads, Mid 5-Card/Trips, or Low Pair & High-Card Hands)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Rank 1: Royal Flush",
+        "capacity": 1,
+        "itemIds": [
+          "poker-hand-rankings-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Ranks 2–3: Straight Flush & Quads",
+        "capacity": 2,
+        "itemIds": [
+          "poker-hand-rankings-2",
+          "poker-hand-rankings-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Ranks 4–6: Boat, Flush & Straight",
+        "capacity": 3,
+        "itemIds": [
+          "poker-hand-rankings-4",
+          "poker-hand-rankings-5",
+          "poker-hand-rankings-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Ranks 7–10: Trips, Pairs & High Card",
+        "capacity": 4,
+        "itemIds": [
+          "poker-hand-rankings-7",
+          "poker-hand-rankings-8",
+          "poker-hand-rankings-9",
+          "poker-hand-rankings-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by poker rank tier: Rank 1 (Royal Flush), Ranks 2–3 (Straight Flush, Four of a Kind), Ranks 4–6 (Full House, Flush, Straight), and Ranks 7–10 (Three of a Kind, Two Pair, One Pair, High Card).",
+  "sources": [
+    {
+      "title": "WSOP Official Poker Hand Rankings",
+      "url": "https://www.wsop.com/poker-hands/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

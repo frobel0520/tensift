@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "corporate-business-entities-2027-11-16-zh-hant",
+  "puzzleFamilyId": "corporate-business-entities-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-16",
+  "timezone": "UTC",
+  "theme": "企業與商業組織法律型態",
+  "items": [
+    {
+      "itemId": "corporate-business-entities-4",
+      "label": "消費合作社"
+    },
+    {
+      "itemId": "corporate-business-entities-8",
+      "label": "S 型稅務穿透公司"
+    },
+    {
+      "itemId": "corporate-business-entities-1",
+      "label": "獨資企業（Sole Proprietorship）"
+    },
+    {
+      "itemId": "corporate-business-entities-6",
+      "label": "公益非營利組織"
+    },
+    {
+      "itemId": "corporate-business-entities-10",
+      "label": "公開發行股份有限公司（PLC）"
+    },
+    {
+      "itemId": "corporate-business-entities-2",
+      "label": "無限合夥（GP）"
+    },
+    {
+      "itemId": "corporate-business-entities-7",
+      "label": "C 型股份有限公司"
+    },
+    {
+      "itemId": "corporate-business-entities-5",
+      "label": "信用合作社"
+    },
+    {
+      "itemId": "corporate-business-entities-9",
+      "label": "有限責任公司（LLC）"
+    },
+    {
+      "itemId": "corporate-business-entities-3",
+      "label": "有限合夥（LP）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各商業組織的法人格與責任型態（獨資企業、合夥企業、非營利／合作社組織或有限責任公司法人）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "個人獨資商號",
+        "capacity": 1,
+        "itemIds": [
+          "corporate-business-entities-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "合夥企業",
+        "capacity": 2,
+        "itemIds": [
+          "corporate-business-entities-2",
+          "corporate-business-entities-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "合作社與非營利組織",
+        "capacity": 3,
+        "itemIds": [
+          "corporate-business-entities-4",
+          "corporate-business-entities-5",
+          "corporate-business-entities-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "有限責任公司與股份法人",
+        "capacity": 4,
+        "itemIds": [
+          "corporate-business-entities-7",
+          "corporate-business-entities-8",
+          "corporate-business-entities-9",
+          "corporate-business-entities-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依商業法律型態分類：個人獨資（獨資商號）、合夥企業（無限合夥、有限合夥）、合作與非營利組織（消費合作社、信用合作社、公益非營利組織）與有限責任公司法人（C 型股份有限公司、S 型閉鎖公司、有限責任公司 LLC、公開上市公司 PLC）。",
+  "sources": [
+    {
+      "title": "U.S. Small Business Administration: Business Structures",
+      "url": "https://www.sba.gov/business-guide/launch-your-business/choose-business-structure",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

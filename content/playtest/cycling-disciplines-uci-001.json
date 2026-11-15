@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "cycling-disciplines-uci-001",
+  "theme": "UCI Cycling Disciplines",
+  "publishDate": "2027-08-05",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "cycling-disciplines-uci-10",
+        "rivalGroupId": "group-2",
+        "risk": "A criterium is run on short repeated laps like track racing.",
+        "resolution": "A road criterium is raced on closed city streets with road bikes (group-4), not a banked velodrome (group-2)."
+      },
+      {
+        "itemId": "cycling-disciplines-uci-2",
+        "rivalGroupId": "group-4",
+        "risk": "Keirin is a mass-start sprint.",
+        "resolution": "Keirin takes place on a velodrome track behind a derny pacer (group-2), not on open roads (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

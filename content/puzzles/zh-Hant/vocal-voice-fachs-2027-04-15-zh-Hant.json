@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vocal-voice-fachs-2027-04-15-zh-hant",
+  "puzzleFamilyId": "vocal-voice-fachs-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-15",
+  "timezone": "UTC",
+  "theme": "古典聲樂音域分類",
+  "items": [
+    {
+      "itemId": "vocal-voice-fachs-4",
+      "label": "女低音"
+    },
+    {
+      "itemId": "vocal-voice-fachs-8",
+      "label": "抒情女高音"
+    },
+    {
+      "itemId": "vocal-voice-fachs-1",
+      "label": "深沉男低音"
+    },
+    {
+      "itemId": "vocal-voice-fachs-6",
+      "label": "假聲男高音"
+    },
+    {
+      "itemId": "vocal-voice-fachs-10",
+      "label": "強抒情女高音"
+    },
+    {
+      "itemId": "vocal-voice-fachs-2",
+      "label": "抒情男高音"
+    },
+    {
+      "itemId": "vocal-voice-fachs-7",
+      "label": "花腔女高音"
+    },
+    {
+      "itemId": "vocal-voice-fachs-5",
+      "label": "次女高音"
+    },
+    {
+      "itemId": "vocal-voice-fachs-9",
+      "label": "戲劇女高音"
+    },
+    {
+      "itemId": "vocal-voice-fachs-3",
+      "label": "戲劇男高音"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各古典聲樂聲部所屬的核心音域類別（男低音、男高音、女低／次女高音或女高音）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "男低音",
+        "capacity": 1,
+        "itemIds": [
+          "vocal-voice-fachs-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "男高音",
+        "capacity": 2,
+        "itemIds": [
+          "vocal-voice-fachs-2",
+          "vocal-voice-fachs-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "女低音與次女高音域",
+        "capacity": 3,
+        "itemIds": [
+          "vocal-voice-fachs-4",
+          "vocal-voice-fachs-5",
+          "vocal-voice-fachs-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "女高音",
+        "capacity": 4,
+        "itemIds": [
+          "vocal-voice-fachs-7",
+          "vocal-voice-fachs-8",
+          "vocal-voice-fachs-9",
+          "vocal-voice-fachs-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依核心聲部音域分類：男低音（深沉男低音）、男高音（抒情男高音、戲劇男高音）、中／低女聲域（女低音、次女高音、假聲男高音）與女高音（花腔女高音、抒情女高音、戲劇女高音、強抒情女高音）。",
+  "sources": [
+    {
+      "title": "Britannica: Voice Classification",
+      "url": "https://www.britannica.com/art/voice-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

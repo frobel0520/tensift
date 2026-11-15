@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "dance-styles-origins-2027-05-03-en",
+  "puzzleFamilyId": "dance-styles-origins-001",
+  "locale": "en",
+  "publishDate": "2027-05-03",
+  "timezone": "UTC",
+  "theme": "Dance Styles by Origin",
+  "items": [
+    {
+      "itemId": "dance-styles-origins-4",
+      "label": "Viennese Waltz"
+    },
+    {
+      "itemId": "dance-styles-origins-8",
+      "label": "Samba"
+    },
+    {
+      "itemId": "dance-styles-origins-1",
+      "label": "Classical Ballet"
+    },
+    {
+      "itemId": "dance-styles-origins-6",
+      "label": "Mazurka"
+    },
+    {
+      "itemId": "dance-styles-origins-10",
+      "label": "Cumbia"
+    },
+    {
+      "itemId": "dance-styles-origins-2",
+      "label": "Tap Dance"
+    },
+    {
+      "itemId": "dance-styles-origins-7",
+      "label": "Tango"
+    },
+    {
+      "itemId": "dance-styles-origins-5",
+      "label": "Polka"
+    },
+    {
+      "itemId": "dance-styles-origins-9",
+      "label": "Salsa"
+    },
+    {
+      "itemId": "dance-styles-origins-3",
+      "label": "Charleston"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cultural origin region (Classical European Court, United States, Central/Eastern Europe, or Latin America)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "European Court Tradition",
+        "capacity": 1,
+        "itemIds": [
+          "dance-styles-origins-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "United States",
+        "capacity": 2,
+        "itemIds": [
+          "dance-styles-origins-2",
+          "dance-styles-origins-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Central & Eastern Europe",
+        "capacity": 3,
+        "itemIds": [
+          "dance-styles-origins-4",
+          "dance-styles-origins-5",
+          "dance-styles-origins-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Latin America",
+        "capacity": 4,
+        "itemIds": [
+          "dance-styles-origins-7",
+          "dance-styles-origins-8",
+          "dance-styles-origins-9",
+          "dance-styles-origins-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by cultural origin: Classical European Court (Ballet), United States (Tap Dance, Charleston), Central/Eastern Europe (Waltz, Polka, Mazurka), and Latin America (Tango, Samba, Salsa, Cumbia).",
+  "sources": [
+    {
+      "title": "Britannica: Dance History",
+      "url": "https://www.britannica.com/art/dance",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

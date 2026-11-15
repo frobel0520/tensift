@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "edible-mushrooms-fungi-001",
+  "theme": "Culinary Fungi & Mushrooms",
+  "publishDate": "2027-09-22",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "edible-mushrooms-fungi-1",
+        "rivalGroupId": "group-2",
+        "risk": "Both truffles and morels are prized Ascomycota fungi.",
+        "resolution": "Truffles fruit entirely underground (hypogeous, group-1), whereas morels produce above-ground honeycomb caps (group-2)."
+      },
+      {
+        "itemId": "edible-mushrooms-fungi-7",
+        "rivalGroupId": "group-3",
+        "risk": "Shiitake grows on hardwood logs.",
+        "resolution": "Shiitake has classic radiating gills beneath a cap (group-4), unlike gill-less wood ear, toothed lion’s mane, and pored maitake (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

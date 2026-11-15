@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "gymnastics-apparatus-events-2027-08-03-es-419",
+  "puzzleFamilyId": "gymnastics-apparatus-events-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-03",
+  "timezone": "UTC",
+  "theme": "Aparatos de gimnasia",
+  "items": [
+    {
+      "itemId": "gymnastics-apparatus-events-4",
+      "label": "Caballo con arcos"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-8",
+      "label": "Pelota de rítmica"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-1",
+      "label": "Suelo artístico"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-6",
+      "label": "Barra fija"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-10",
+      "label": "Cinta de rítmica"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-2",
+      "label": "Barras asimétricas"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-7",
+      "label": "Aro de rítmica"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-5",
+      "label": "Anillas"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-9",
+      "label": "Mazas de rítmica"
+    },
+    {
+      "itemId": "gymnastics-apparatus-events-3",
+      "label": "Viga de equilibrio"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clasificación de cada aparato en gimnasia artística o rítmica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Ejercicio de suelo",
+        "capacity": 1,
+        "itemIds": [
+          "gymnastics-apparatus-events-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Artística femenina",
+        "capacity": 2,
+        "itemIds": [
+          "gymnastics-apparatus-events-2",
+          "gymnastics-apparatus-events-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Artística masculina",
+        "capacity": 3,
+        "itemIds": [
+          "gymnastics-apparatus-events-4",
+          "gymnastics-apparatus-events-5",
+          "gymnastics-apparatus-events-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Aparatos de gimnasia rítmica",
+        "capacity": 4,
+        "itemIds": [
+          "gymnastics-apparatus-events-7",
+          "gymnastics-apparatus-events-8",
+          "gymnastics-apparatus-events-9",
+          "gymnastics-apparatus-events-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: suelo artístico (ejercicio de suelo), artística femenina (barras asimétricas, viga de equilibrio), artística masculina (caballo con arcos, anillas, barra fija) y aparatos manuales de rítmica (aro, pelota, mazas, cinta).",
+  "sources": [
+    {
+      "title": "FIG: Gymnastics Disciplines",
+      "url": "https://www.gymnastics.sport/site/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

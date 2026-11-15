@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ecological-interactions-2027-02-04-zh-hant",
+  "puzzleFamilyId": "ecological-interactions-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-02-04",
+  "timezone": "UTC",
+  "theme": "生態種間關係",
+  "items": [
+    {
+      "itemId": "ecological-interactions-4",
+      "label": "蜱蟲吸食鹿血"
+    },
+    {
+      "itemId": "ecological-interactions-8",
+      "label": "小丑魚與海葵"
+    },
+    {
+      "itemId": "ecological-interactions-1",
+      "label": "兩樹種爭奪陽光"
+    },
+    {
+      "itemId": "ecological-interactions-6",
+      "label": "哺乳動物腸道絛蟲"
+    },
+    {
+      "itemId": "ecological-interactions-10",
+      "label": "地衣中的真菌與藻類"
+    },
+    {
+      "itemId": "ecological-interactions-2",
+      "label": "藤壺附生鯨魚體表"
+    },
+    {
+      "itemId": "ecological-interactions-7",
+      "label": "蜜蜂為苜蓿授粉"
+    },
+    {
+      "itemId": "ecological-interactions-5",
+      "label": "杜鵑在鶯鳥巢中寄生"
+    },
+    {
+      "itemId": "ecological-interactions-9",
+      "label": "豆科植物與根瘤菌"
+    },
+    {
+      "itemId": "ecological-interactions-3",
+      "label": "附生樹幹的蘭花"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "互動雙方在生態關係中的利害結果",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "種間競爭（-/-）",
+        "capacity": 1,
+        "itemIds": [
+          "ecological-interactions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "片利共生（+/0）",
+        "capacity": 2,
+        "itemIds": [
+          "ecological-interactions-2",
+          "ecological-interactions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "寄生或捕食（+/-）",
+        "capacity": 3,
+        "itemIds": [
+          "ecological-interactions-4",
+          "ecological-interactions-5",
+          "ecological-interactions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "互利共生（+/+）",
+        "capacity": 4,
+        "itemIds": [
+          "ecological-interactions-7",
+          "ecological-interactions-8",
+          "ecological-interactions-9",
+          "ecological-interactions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依種間互動對雙方的利害關係分類：競爭（-/-）、片利共生（+/0）、寄生或捕食（+/-）與互利共生（+/+）。",
+  "sources": [
+    {
+      "title": "Nature Education: Species Interactions",
+      "url": "https://www.nature.com/scitable/knowledge/library/species-interactions-and-competition-102131429/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "unesco-world-heritage-criteria-2027-11-06-en",
+  "puzzleFamilyId": "unesco-world-heritage-criteria-001",
+  "locale": "en",
+  "publishDate": "2027-11-06",
+  "timezone": "UTC",
+  "theme": "Historical Empires by Peak Era",
+  "items": [
+    {
+      "itemId": "unesco-world-heritage-criteria-4",
+      "label": "Umayyad Caliphate"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-8",
+      "label": "Mughal Empire"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-1",
+      "label": "Achaemenid Persian Empire"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-6",
+      "label": "Mali Empire"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-10",
+      "label": "Qing Dynasty"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-2",
+      "label": "Roman Empire"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-7",
+      "label": "Ottoman Empire"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-5",
+      "label": "Mongol Empire"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-9",
+      "label": "Spanish Habsburg Empire"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-3",
+      "label": "Han Dynasty"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Era of imperial peak (Bronze/Iron Age Near East, Classical Antiquity, Medieval 600–1450 CE, or Early Modern 1450–1800 CE)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Iron Age Near East (6th–4th c. BCE)",
+        "capacity": 1,
+        "itemIds": [
+          "unesco-world-heritage-criteria-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Classical Antiquity (200 BCE–200 CE)",
+        "capacity": 2,
+        "itemIds": [
+          "unesco-world-heritage-criteria-2",
+          "unesco-world-heritage-criteria-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Medieval Era (650–1400 CE)",
+        "capacity": 3,
+        "itemIds": [
+          "unesco-world-heritage-criteria-4",
+          "unesco-world-heritage-criteria-5",
+          "unesco-world-heritage-criteria-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Early Modern Empires (1500–1800)",
+        "capacity": 4,
+        "itemIds": [
+          "unesco-world-heritage-criteria-7",
+          "unesco-world-heritage-criteria-8",
+          "unesco-world-heritage-criteria-9",
+          "unesco-world-heritage-criteria-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by peak era: Achaemenid/Iron Age (Achaemenid Persian Empire, 500 BCE), Classical Antiquity (Roman Empire, Han Dynasty), Medieval Era (Umayyad Caliphate, Mongol Empire, Mali Empire), and Early Modern Era (Ottoman Empire, Mughal Empire, Spanish Empire, Qing Dynasty).",
+  "sources": [
+    {
+      "title": "Britannica: World Empires Timeline",
+      "url": "https://www.britannica.com/topic/empire-political-science",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

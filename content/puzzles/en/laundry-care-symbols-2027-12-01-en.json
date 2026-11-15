@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "laundry-care-symbols-2027-12-01-en",
+  "puzzleFamilyId": "laundry-care-symbols-001",
+  "locale": "en",
+  "publishDate": "2027-12-01",
+  "timezone": "UTC",
+  "theme": "ISO Textile Care Symbols",
+  "items": [
+    {
+      "itemId": "laundry-care-symbols-4",
+      "label": "One-Dot Iron (110 °C Max)"
+    },
+    {
+      "itemId": "laundry-care-symbols-8",
+      "label": "Hand-in-Tub Wash"
+    },
+    {
+      "itemId": "laundry-care-symbols-1",
+      "label": "Circle P (Dry Clean)"
+    },
+    {
+      "itemId": "laundry-care-symbols-6",
+      "label": "Three-Dot Iron (200 °C Max)"
+    },
+    {
+      "itemId": "laundry-care-symbols-10",
+      "label": "Square Vertical-Line Drip Dry"
+    },
+    {
+      "itemId": "laundry-care-symbols-2",
+      "label": "Open Triangle (Bleach Allowed)"
+    },
+    {
+      "itemId": "laundry-care-symbols-7",
+      "label": "30 °C Wash Tub"
+    },
+    {
+      "itemId": "laundry-care-symbols-5",
+      "label": "Two-Dot Iron (150 °C Max)"
+    },
+    {
+      "itemId": "laundry-care-symbols-9",
+      "label": "Square-Circle Tumble Dry"
+    },
+    {
+      "itemId": "laundry-care-symbols-3",
+      "label": "Crossed Triangle (No Bleach)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "ISO 3758 care symbol family (Dry Cleaning Circle, Bleaching Triangle, Ironing Iron Icon, or Washing Tub & Drying Square)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Dry Cleaning Circle",
+        "capacity": 1,
+        "itemIds": [
+          "laundry-care-symbols-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Bleaching Triangles",
+        "capacity": 2,
+        "itemIds": [
+          "laundry-care-symbols-2",
+          "laundry-care-symbols-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Ironing Temperature Dots",
+        "capacity": 3,
+        "itemIds": [
+          "laundry-care-symbols-4",
+          "laundry-care-symbols-5",
+          "laundry-care-symbols-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Washing Tubs & Drying Squares",
+        "capacity": 4,
+        "itemIds": [
+          "laundry-care-symbols-7",
+          "laundry-care-symbols-8",
+          "laundry-care-symbols-9",
+          "laundry-care-symbols-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by ISO 3758 symbol family: Dry Cleaning Circle (Circle with Letter P), Bleaching Triangles (Open Triangle, Crossed-Out Do Not Bleach), Ironing Icons (Low Iron 1-Dot, Medium Iron 2-Dot, High Iron 3-Dot), and Washing & Drying (30 °C Wash Tub, Hand-Wash Tub, Tumble Dry Low, Line Dry Square).",
+  "sources": [
+    {
+      "title": "ISO 3758: Textiles Care Labelling Code",
+      "url": "https://www.iso.org/standard/78246.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

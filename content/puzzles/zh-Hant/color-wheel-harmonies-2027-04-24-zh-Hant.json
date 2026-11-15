@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "color-wheel-harmonies-2027-04-24-zh-hant",
+  "puzzleFamilyId": "color-wheel-harmonies-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-24",
+  "timezone": "UTC",
+  "theme": "色彩學配色方案",
+  "items": [
+    {
+      "itemId": "color-wheel-harmonies-4",
+      "label": "三等分配色（Triadic）"
+    },
+    {
+      "itemId": "color-wheel-harmonies-8",
+      "label": "正方形四色配色"
+    },
+    {
+      "itemId": "color-wheel-harmonies-1",
+      "label": "單色配色"
+    },
+    {
+      "itemId": "color-wheel-harmonies-6",
+      "label": "鄰近三色"
+    },
+    {
+      "itemId": "color-wheel-harmonies-10",
+      "label": "CMYK 四色組"
+    },
+    {
+      "itemId": "color-wheel-harmonies-2",
+      "label": "互補雙色"
+    },
+    {
+      "itemId": "color-wheel-harmonies-7",
+      "label": "矩形四色配色"
+    },
+    {
+      "itemId": "color-wheel-harmonies-5",
+      "label": "分裂互補三色"
+    },
+    {
+      "itemId": "color-wheel-harmonies-9",
+      "label": "雙重互補四色"
+    },
+    {
+      "itemId": "color-wheel-harmonies-3",
+      "label": "冷暖雙色對比"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各配色方案在色相環上所取用的色相數量（1、2、3 或 4 色）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "1 個色相",
+        "capacity": 1,
+        "itemIds": [
+          "color-wheel-harmonies-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "2 個色相",
+        "capacity": 2,
+        "itemIds": [
+          "color-wheel-harmonies-2",
+          "color-wheel-harmonies-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "3 個色相",
+        "capacity": 3,
+        "itemIds": [
+          "color-wheel-harmonies-4",
+          "color-wheel-harmonies-5",
+          "color-wheel-harmonies-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "4 個色相",
+        "capacity": 4,
+        "itemIds": [
+          "color-wheel-harmonies-7",
+          "color-wheel-harmonies-8",
+          "color-wheel-harmonies-9",
+          "color-wheel-harmonies-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依色相環取色數量分類：1 色相（單色配色）、2 色相（互補色、冷暖對比雙色）、3 色相（三等分互補、分裂互補、鄰近三色）與 4 色相（矩形四色、正方形四色、雙重互補、CMYK 四色印刷）。",
+  "sources": [
+    {
+      "title": "Britannica: Color Wheel",
+      "url": "https://www.britannica.com/art/color-wheel",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

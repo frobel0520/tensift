@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "human-brain-lobes-2027-02-03-en",
+  "puzzleFamilyId": "human-brain-lobes-001",
+  "locale": "en",
+  "publishDate": "2027-02-03",
+  "timezone": "UTC",
+  "theme": "Brain Structures",
+  "items": [
+    {
+      "itemId": "human-brain-lobes-4",
+      "label": "Hippocampus"
+    },
+    {
+      "itemId": "human-brain-lobes-8",
+      "label": "Parietal lobe"
+    },
+    {
+      "itemId": "human-brain-lobes-1",
+      "label": "Cerebellum"
+    },
+    {
+      "itemId": "human-brain-lobes-6",
+      "label": "Thalamus"
+    },
+    {
+      "itemId": "human-brain-lobes-10",
+      "label": "Occipital lobe"
+    },
+    {
+      "itemId": "human-brain-lobes-2",
+      "label": "Pons"
+    },
+    {
+      "itemId": "human-brain-lobes-7",
+      "label": "Frontal lobe"
+    },
+    {
+      "itemId": "human-brain-lobes-5",
+      "label": "Amygdala"
+    },
+    {
+      "itemId": "human-brain-lobes-9",
+      "label": "Temporal lobe"
+    },
+    {
+      "itemId": "human-brain-lobes-3",
+      "label": "Medulla oblongata"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Anatomical division: brainstem, cerebellum, limbic/subcortical, or cerebral cortex lobes",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Cerebellum",
+        "capacity": 1,
+        "itemIds": [
+          "human-brain-lobes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Brainstem",
+        "capacity": 2,
+        "itemIds": [
+          "human-brain-lobes-2",
+          "human-brain-lobes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Subcortical limbic & relay",
+        "capacity": 3,
+        "itemIds": [
+          "human-brain-lobes-4",
+          "human-brain-lobes-5",
+          "human-brain-lobes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Cerebral cortex lobes",
+        "capacity": 4,
+        "itemIds": [
+          "human-brain-lobes-7",
+          "human-brain-lobes-8",
+          "human-brain-lobes-9",
+          "human-brain-lobes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by brain division: cerebellum, brainstem (pons, medulla oblongata), subcortical limbic/relay nuclei (hippocampus, amygdala, thalamus), and the four cerebral cortex lobes (frontal, parietal, temporal, occipital).",
+  "sources": [
+    {
+      "title": "NIH NINDS: Brain Basics",
+      "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

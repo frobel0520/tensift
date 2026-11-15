@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ship-types-propulsion-2027-06-25-es-419",
+  "puzzleFamilyId": "ship-types-propulsion-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-25",
+  "timezone": "UTC",
+  "theme": "Barcos por era de propulsión",
+  "items": [
+    {
+      "itemId": "ship-types-propulsion-4",
+      "label": "Vapor de ruedas"
+    },
+    {
+      "itemId": "ship-types-propulsion-8",
+      "label": "Buque metanero (LNG)"
+    },
+    {
+      "itemId": "ship-types-propulsion-1",
+      "label": "Trirreme"
+    },
+    {
+      "itemId": "ship-types-propulsion-6",
+      "label": "Transatlántico de vapor"
+    },
+    {
+      "itemId": "ship-types-propulsion-10",
+      "label": "Buque granelero"
+    },
+    {
+      "itemId": "ship-types-propulsion-2",
+      "label": "Clíper"
+    },
+    {
+      "itemId": "ship-types-propulsion-7",
+      "label": "Portacontenedores"
+    },
+    {
+      "itemId": "ship-types-propulsion-5",
+      "label": "Acorazado ironclad"
+    },
+    {
+      "itemId": "ship-types-propulsion-9",
+      "label": "Rompehielos nuclear"
+    },
+    {
+      "itemId": "ship-types-propulsion-3",
+      "label": "Galeón"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Era de propulsión principal de cada embarcación",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Antigüedad a remo",
+        "capacity": 1,
+        "itemIds": [
+          "ship-types-propulsion-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Era de la vela",
+        "capacity": 2,
+        "itemIds": [
+          "ship-types-propulsion-2",
+          "ship-types-propulsion-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Era del vapor",
+        "capacity": 3,
+        "itemIds": [
+          "ship-types-propulsion-4",
+          "ship-types-propulsion-5",
+          "ship-types-propulsion-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Buques modernos (diésel/nuclear)",
+        "capacity": 4,
+        "itemIds": [
+          "ship-types-propulsion-7",
+          "ship-types-propulsion-8",
+          "ship-types-propulsion-9",
+          "ship-types-propulsion-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por propulsión: remos de la antigüedad (trirreme), era de la vela (clíper, galeón), era del vapor (vapor de ruedas, acorazado ironclad) y motores/nucleares modernos (portacontenedores, metanero LNG, rompehielos nuclear, granelero).",
+  "sources": [
+    {
+      "title": "Britannica: History of Ships",
+      "url": "https://www.britannica.com/technology/ship",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

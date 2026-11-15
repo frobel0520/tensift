@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tea-ceremony-ware-2027-12-30-es-419",
+  "puzzleFamilyId": "tea-ceremony-ware-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-30",
+  "timezone": "UTC",
+  "theme": "Utensilios tradicionales del té",
+  "items": [
+    {
+      "itemId": "tea-ceremony-ware-4",
+      "label": "Batidor de bambú (chasen)"
+    },
+    {
+      "itemId": "tea-ceremony-ware-8",
+      "label": "Gaiwan con tapa"
+    },
+    {
+      "itemId": "tea-ceremony-ware-1",
+      "label": "Tetera de hierro tetsubin"
+    },
+    {
+      "itemId": "tea-ceremony-ware-6",
+      "label": "Recipiente natsume"
+    },
+    {
+      "itemId": "tea-ceremony-ware-10",
+      "label": "Taza de degustación"
+    },
+    {
+      "itemId": "tea-ceremony-ware-2",
+      "label": "Cuchara de bambú (chashaku)"
+    },
+    {
+      "itemId": "tea-ceremony-ware-7",
+      "label": "Tetera de arcilla Yixing"
+    },
+    {
+      "itemId": "tea-ceremony-ware-5",
+      "label": "Cuenco chawan para matcha"
+    },
+    {
+      "itemId": "tea-ceremony-ware-9",
+      "label": "Jarra de reparto (cha hai)"
+    },
+    {
+      "itemId": "tea-ceremony-ware-3",
+      "label": "Colador fino de té"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Función ceremonial de cada utensilio de té",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Hervidor de agua",
+        "capacity": 1,
+        "itemIds": [
+          "tea-ceremony-ware-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Dosificación y filtrado",
+        "capacity": 2,
+        "itemIds": [
+          "tea-ceremony-ware-2",
+          "tea-ceremony-ware-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Juego para batir matcha",
+        "capacity": 3,
+        "itemIds": [
+          "tea-ceremony-ware-4",
+          "tea-ceremony-ware-5",
+          "tea-ceremony-ware-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Servicio y preparación gongfu",
+        "capacity": 4,
+        "itemIds": [
+          "tea-ceremony-ware-7",
+          "tea-ceremony-ware-8",
+          "tea-ceremony-ware-9",
+          "tea-ceremony-ware-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por función: hervidor de agua (tetera de hierro tetsubin), dosificación y filtrado (cuchara de bambú chashaku, colador de té), preparación de matcha (batidor chasen, cuenco chawan, recipiente natsume) y servicio gongfu (tetera de arcilla Yixing, gaiwan con tapa, jarra cha hai, taza de cata).",
+  "sources": [
+    {
+      "title": "Britannica: Tea Ceremony Utensils",
+      "url": "https://www.britannica.com/topic/tea-ceremony",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "battery-chemistries-types-2027-07-16-es-419",
+  "puzzleFamilyId": "battery-chemistries-types-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-16",
+  "timezone": "UTC",
+  "theme": "Químicas de baterías y pilas",
+  "items": [
+    {
+      "itemId": "battery-chemistries-types-4",
+      "label": "Batería de plomo-ácido"
+    },
+    {
+      "itemId": "battery-chemistries-types-8",
+      "label": "Fosfato de hierro-litio (LFP)"
+    },
+    {
+      "itemId": "battery-chemistries-types-1",
+      "label": "Celda de combustible PEM"
+    },
+    {
+      "itemId": "battery-chemistries-types-6",
+      "label": "Níquel-metal hidruro (NiMH)"
+    },
+    {
+      "itemId": "battery-chemistries-types-10",
+      "label": "Ion-litio de estado sólido"
+    },
+    {
+      "itemId": "battery-chemistries-types-2",
+      "label": "Alcalina (Zn-MnO2)"
+    },
+    {
+      "itemId": "battery-chemistries-types-7",
+      "label": "Óxido de litio-cobalto (LCO)"
+    },
+    {
+      "itemId": "battery-chemistries-types-5",
+      "label": "Níquel-cadmio (NiCd)"
+    },
+    {
+      "itemId": "battery-chemistries-types-9",
+      "label": "Litio NMC"
+    },
+    {
+      "itemId": "battery-chemistries-types-3",
+      "label": "Pila de botón de litio (CR2032)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Familia electroquímica de cada celda o batería",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Celda de combustible",
+        "capacity": 1,
+        "itemIds": [
+          "battery-chemistries-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Primarias (no recargables)",
+        "capacity": 2,
+        "itemIds": [
+          "battery-chemistries-types-2",
+          "battery-chemistries-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Recargables de plomo y níquel",
+        "capacity": 3,
+        "itemIds": [
+          "battery-chemistries-types-4",
+          "battery-chemistries-types-5",
+          "battery-chemistries-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Recargables de ion-litio",
+        "capacity": 4,
+        "itemIds": [
+          "battery-chemistries-types-7",
+          "battery-chemistries-types-8",
+          "battery-chemistries-types-9",
+          "battery-chemistries-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por familia electroquímica: celda de combustible (PEM de hidrógeno), primarias no recargables (alcalina Zn-MnO2, botón de litio CR2032), recargables de plomo/níquel (plomo-ácido, NiCd, NiMH) y recargables de ion-litio (LCO, LFP, NMC, estado sólido).",
+  "sources": [
+    {
+      "title": "US DOE: Battery Basics & Chemistries",
+      "url": "https://www.energy.gov/eere/vehicles/batteries-charging-and-electric-vehicles",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

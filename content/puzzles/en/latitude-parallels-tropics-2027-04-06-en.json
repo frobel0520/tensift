@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "latitude-parallels-tropics-2027-04-06-en",
+  "puzzleFamilyId": "latitude-parallels-tropics-001",
+  "locale": "en",
+  "publishDate": "2027-04-06",
+  "timezone": "UTC",
+  "theme": "Notable Parallels & Meridians",
+  "items": [
+    {
+      "itemId": "latitude-parallels-tropics-4",
+      "label": "38th Parallel North"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-8",
+      "label": "180th Meridian"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-1",
+      "label": "Equator (0°)"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-6",
+      "label": "17th Parallel North"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-10",
+      "label": "120°E Meridian (CST)"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-2",
+      "label": "Tropic of Cancer"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-7",
+      "label": "Prime Meridian (0°)"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-5",
+      "label": "49th Parallel North"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-9",
+      "label": "15°E Meridian (CET)"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-3",
+      "label": "Tropic of Capricorn"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Geometric category (Equator, Polar Circles, Tropics, or Major Meridians)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "The Equator",
+        "capacity": 1,
+        "itemIds": [
+          "latitude-parallels-tropics-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Tropics (23.4°)",
+        "capacity": 2,
+        "itemIds": [
+          "latitude-parallels-tropics-2",
+          "latitude-parallels-tropics-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Historic Border Parallels",
+        "capacity": 3,
+        "itemIds": [
+          "latitude-parallels-tropics-4",
+          "latitude-parallels-tropics-5",
+          "latitude-parallels-tropics-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Reference Meridians",
+        "capacity": 4,
+        "itemIds": [
+          "latitude-parallels-tropics-7",
+          "latitude-parallels-tropics-8",
+          "latitude-parallels-tropics-9",
+          "latitude-parallels-tropics-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by geographic reference category: The Equator (0°), Tropics (Tropic of Cancer, Tropic of Capricorn), Historic Border Parallels (38th Parallel North, 49th Parallel North, 17th Parallel North), and Reference Meridians (Prime Meridian, 180th Meridian, 15°E Meridian, 120°E Meridian).",
+  "sources": [
+    {
+      "title": "Britannica: Latitude and Longitude",
+      "url": "https://www.britannica.com/science/latitude",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

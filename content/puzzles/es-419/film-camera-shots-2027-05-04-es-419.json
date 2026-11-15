@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "film-camera-shots-2027-05-04-es-419",
+  "puzzleFamilyId": "film-camera-shots-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-04",
+  "timezone": "UTC",
+  "theme": "Planos y movimientos de cámara",
+  "items": [
+    {
+      "itemId": "film-camera-shots-4",
+      "label": "Primer plano"
+    },
+    {
+      "itemId": "film-camera-shots-8",
+      "label": "Inclinación (Tilt)"
+    },
+    {
+      "itemId": "film-camera-shots-1",
+      "label": "Plano de situación"
+    },
+    {
+      "itemId": "film-camera-shots-6",
+      "label": "Plano detalle rostro"
+    },
+    {
+      "itemId": "film-camera-shots-10",
+      "label": "Plano grúa"
+    },
+    {
+      "itemId": "film-camera-shots-2",
+      "label": "Plano medio"
+    },
+    {
+      "itemId": "film-camera-shots-7",
+      "label": "Paneo"
+    },
+    {
+      "itemId": "film-camera-shots-5",
+      "label": "Primerísimo primer plano"
+    },
+    {
+      "itemId": "film-camera-shots-9",
+      "label": "Travelling (Dolly)"
+    },
+    {
+      "itemId": "film-camera-shots-3",
+      "label": "Plano americano"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría cinematográfica (plano general, medio, cercano o movimiento)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Plano general de situación",
+        "capacity": 1,
+        "itemIds": [
+          "film-camera-shots-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Encuadre medio",
+        "capacity": 2,
+        "itemIds": [
+          "film-camera-shots-2",
+          "film-camera-shots-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Primer plano",
+        "capacity": 3,
+        "itemIds": [
+          "film-camera-shots-4",
+          "film-camera-shots-5",
+          "film-camera-shots-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Movimientos de cámara",
+        "capacity": 4,
+        "itemIds": [
+          "film-camera-shots-7",
+          "film-camera-shots-8",
+          "film-camera-shots-9",
+          "film-camera-shots-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: plano general (plano de situación), plano medio (plano medio, plano americano), primer plano (primer plano, primerísimo primer plano, plano detalle rostro) y movimientos (paneo, inclinación, travelling/dolly, grúa).",
+  "sources": [
+    {
+      "title": "StudioBinder: Camera Shots & Movements",
+      "url": "https://www.studiobinder.com/blog/types-of-camera-shots-sizes-in-film/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

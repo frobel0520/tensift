@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "punctuation-marks-roles-001",
+  "theme": "Punctuation Marks by Role",
+  "publishDate": "2027-05-17",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "punctuation-marks-roles-1",
+        "rivalGroupId": "group-4",
+        "risk": "Single quotation marks look like apostrophes.",
+        "resolution": "An apostrophe marks possession or omission within a word (group-1), not a paired enclosing delimiter (group-4)."
+      },
+      {
+        "itemId": "punctuation-marks-roles-5",
+        "rivalGroupId": "group-2",
+        "risk": "Semicolon links complete sentences.",
+        "resolution": "A semicolon joins closely related independent clauses internally (group-3), rather than terminating a sentence (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "taxonomic-ranks-001",
+  "theme": "Linnaean Taxonomy",
+  "publishDate": "2027-02-06",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "taxonomic-ranks-1",
+        "rivalGroupId": "group-2",
+        "risk": "Eukarya is a broad high-level taxon like Animalia.",
+        "resolution": "Eukarya is a Domain above Kingdoms (group-1)."
+      },
+      {
+        "itemId": "taxonomic-ranks-6",
+        "rivalGroupId": "group-2",
+        "risk": "Lepidoptera is a large insect group.",
+        "resolution": "Lepidoptera (butterflies and moths) is an Order within Insecta (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "esports-competitive-genres-2027-08-25-en",
+  "puzzleFamilyId": "esports-competitive-genres-001",
+  "locale": "en",
+  "publishDate": "2027-08-25",
+  "timezone": "UTC",
+  "theme": "Competitive Esports Genres",
+  "items": [
+    {
+      "itemId": "esports-competitive-genres-4",
+      "label": "StarCraft II"
+    },
+    {
+      "itemId": "esports-competitive-genres-8",
+      "label": "Valorant"
+    },
+    {
+      "itemId": "esports-competitive-genres-1",
+      "label": "osu!"
+    },
+    {
+      "itemId": "esports-competitive-genres-6",
+      "label": "Dota 2"
+    },
+    {
+      "itemId": "esports-competitive-genres-10",
+      "label": "Apex Legends"
+    },
+    {
+      "itemId": "esports-competitive-genres-2",
+      "label": "Street Fighter 6"
+    },
+    {
+      "itemId": "esports-competitive-genres-7",
+      "label": "Counter-Strike 2"
+    },
+    {
+      "itemId": "esports-competitive-genres-5",
+      "label": "League of Legends"
+    },
+    {
+      "itemId": "esports-competitive-genres-9",
+      "label": "Overwatch 2"
+    },
+    {
+      "itemId": "esports-competitive-genres-3",
+      "label": "Tekken 8"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Esports genre (Rhythm Game, Fighting Games, Strategy & MOBA, or First-Person Shooters)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Rhythm Game",
+        "capacity": 1,
+        "itemIds": [
+          "esports-competitive-genres-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Fighting Games",
+        "capacity": 2,
+        "itemIds": [
+          "esports-competitive-genres-2",
+          "esports-competitive-genres-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Strategy & MOBA",
+        "capacity": 3,
+        "itemIds": [
+          "esports-competitive-genres-4",
+          "esports-competitive-genres-5",
+          "esports-competitive-genres-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "First-Person Shooters (FPS)",
+        "capacity": 4,
+        "itemIds": [
+          "esports-competitive-genres-7",
+          "esports-competitive-genres-8",
+          "esports-competitive-genres-9",
+          "esports-competitive-genres-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by esports genre: Rhythm (osu!), Fighting Games (Street Fighter 6, Tekken 8), Strategy & MOBA (StarCraft II, League of Legends, Dota 2), and First-Person Shooters (Counter-Strike 2, Valorant, Overwatch 2, Apex Legends).",
+  "sources": [
+    {
+      "title": "IESF: International Esports Federation",
+      "url": "https://iesf.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

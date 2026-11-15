@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "coastal-landforms-process-2027-03-26-zh-hant",
+  "puzzleFamilyId": "coastal-landforms-process-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-26",
+  "timezone": "UTC",
+  "theme": "海岸地形作用",
+  "items": [
+    {
+      "itemId": "coastal-landforms-process-4",
+      "label": "沙嘴"
+    },
+    {
+      "itemId": "coastal-landforms-process-8",
+      "label": "海蝕拱門"
+    },
+    {
+      "itemId": "coastal-landforms-process-1",
+      "label": "環礁"
+    },
+    {
+      "itemId": "coastal-landforms-process-6",
+      "label": "屏障島"
+    },
+    {
+      "itemId": "coastal-landforms-process-10",
+      "label": "海蝕平台"
+    },
+    {
+      "itemId": "coastal-landforms-process-2",
+      "label": "潮坪"
+    },
+    {
+      "itemId": "coastal-landforms-process-7",
+      "label": "海蝕崖"
+    },
+    {
+      "itemId": "coastal-landforms-process-5",
+      "label": "連島沙洲"
+    },
+    {
+      "itemId": "coastal-landforms-process-9",
+      "label": "海蝕柱"
+    },
+    {
+      "itemId": "coastal-landforms-process-3",
+      "label": "鹽沼"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各海岸地形的主導成因（生物造礁、潮汐作用、沿岸漂沙堆積或海浪侵蝕）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "珊瑚生物礁",
+        "capacity": 1,
+        "itemIds": [
+          "coastal-landforms-process-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "潮汐堆積地形",
+        "capacity": 2,
+        "itemIds": [
+          "coastal-landforms-process-2",
+          "coastal-landforms-process-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "沿岸漂沙堆積",
+        "capacity": 3,
+        "itemIds": [
+          "coastal-landforms-process-4",
+          "coastal-landforms-process-5",
+          "coastal-landforms-process-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "海浪侵蝕地形",
+        "capacity": 4,
+        "itemIds": [
+          "coastal-landforms-process-7",
+          "coastal-landforms-process-8",
+          "coastal-landforms-process-9",
+          "coastal-landforms-process-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依海岸成因分類：珊瑚生物礁（環礁）、潮汐堆積（潮坪、鹽沼）、沿岸漂沙堆積（沙嘴、連島沙洲、屏障島）與海浪侵蝕（海蝕崖、海蝕拱門、海蝕柱、海蝕平台）。",
+  "sources": [
+    {
+      "title": "NPS: Coastal Landforms",
+      "url": "https://www.nps.gov/subjects/geology/coastal-landforms.htm",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.46
+  },
+  "status": "scheduled"
+}

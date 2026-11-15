@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "airport-airside-markings-2027-06-24-zh-hant",
+  "puzzleFamilyId": "airport-airside-markings-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-24",
+  "timezone": "UTC",
+  "theme": "機場空側區域與空域",
+  "items": [
+    {
+      "itemId": "airport-airside-markings-4",
+      "label": "跑道頭門檻標線"
+    },
+    {
+      "itemId": "airport-airside-markings-8",
+      "label": "終端管制區（TMA）"
+    },
+    {
+      "itemId": "airport-airside-markings-1",
+      "label": "直升機停機坪（H）"
+    },
+    {
+      "itemId": "airport-airside-markings-6",
+      "label": "接地區標線"
+    },
+    {
+      "itemId": "airport-airside-markings-10",
+      "label": "禁飛空域"
+    },
+    {
+      "itemId": "airport-airside-markings-2",
+      "label": "滑行道黃色中心線"
+    },
+    {
+      "itemId": "airport-airside-markings-7",
+      "label": "機場管制區（CTR）"
+    },
+    {
+      "itemId": "airport-airside-markings-5",
+      "label": "跑道瞄準點標線"
+    },
+    {
+      "itemId": "airport-airside-markings-9",
+      "label": "限制空域"
+    },
+    {
+      "itemId": "airport-airside-markings-3",
+      "label": "跑道等待線"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各航空設施或區域所屬的分類（直升機坪、滑行道標線、跑道標線或管制空域）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "垂直起降坪",
+        "capacity": 1,
+        "itemIds": [
+          "airport-airside-markings-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "滑行道標線",
+        "capacity": 2,
+        "itemIds": [
+          "airport-airside-markings-2",
+          "airport-airside-markings-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "跑道標線",
+        "capacity": 3,
+        "itemIds": [
+          "airport-airside-markings-4",
+          "airport-airside-markings-5",
+          "airport-airside-markings-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "空域區域分類",
+        "capacity": 4,
+        "itemIds": [
+          "airport-airside-markings-7",
+          "airport-airside-markings-8",
+          "airport-airside-markings-9",
+          "airport-airside-markings-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依航空設施與空域分類：垂直起降坪（直升機坪 H）、滑行道標線（滑行道中心線、跑道等待線）、跑道標線（跑道頭門檻線、瞄準點、接地區）與空域分類（機場管制區 CTR、終端管制區 TMA、限制空域、禁飛空域）。",
+  "sources": [
+    {
+      "title": "ICAO Annex 14: Aerodromes",
+      "url": "https://www.icao.int/safety/Pages/default.aspx",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

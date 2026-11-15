@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "gregorian-month-lengths-2027-03-08-es-419",
+  "puzzleFamilyId": "gregorian-month-lengths-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-08",
+  "timezone": "UTC",
+  "theme": "Duración de meses gregorianos",
+  "items": [
+    {
+      "itemId": "gregorian-month-lengths-4",
+      "label": "Enero"
+    },
+    {
+      "itemId": "gregorian-month-lengths-8",
+      "label": "Agosto"
+    },
+    {
+      "itemId": "gregorian-month-lengths-1",
+      "label": "Febrero"
+    },
+    {
+      "itemId": "gregorian-month-lengths-6",
+      "label": "Mayo"
+    },
+    {
+      "itemId": "gregorian-month-lengths-10",
+      "label": "Diciembre"
+    },
+    {
+      "itemId": "gregorian-month-lengths-2",
+      "label": "Abril"
+    },
+    {
+      "itemId": "gregorian-month-lengths-7",
+      "label": "Julio"
+    },
+    {
+      "itemId": "gregorian-month-lengths-5",
+      "label": "Marzo"
+    },
+    {
+      "itemId": "gregorian-month-lengths-9",
+      "label": "Octubre"
+    },
+    {
+      "itemId": "gregorian-month-lengths-3",
+      "label": "Junio"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cantidad de días y mitad del año de cada mes gregoriano",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "28 o 29 días",
+        "capacity": 1,
+        "itemIds": [
+          "gregorian-month-lengths-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "30 días (ene–jun)",
+        "capacity": 2,
+        "itemIds": [
+          "gregorian-month-lengths-2",
+          "gregorian-month-lengths-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "31 días (ene–jun)",
+        "capacity": 3,
+        "itemIds": [
+          "gregorian-month-lengths-4",
+          "gregorian-month-lengths-5",
+          "gregorian-month-lengths-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "31 días (jul–dic)",
+        "capacity": 4,
+        "itemIds": [
+          "gregorian-month-lengths-7",
+          "gregorian-month-lengths-8",
+          "gregorian-month-lengths-9",
+          "gregorian-month-lengths-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por días y semestre: 28/29 días (febrero), 30 días en 1.er semestre (abril, junio), 31 días en 1.er semestre (enero, marzo, mayo) y 31 días en 2.º semestre (julio, agosto, octubre, diciembre).",
+  "sources": [
+    {
+      "title": "NIST: The Gregorian Calendar",
+      "url": "https://www.nist.gov/pml/time-and-frequency-division/popular-links/walk-through-time/walk-through-time-calendars",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

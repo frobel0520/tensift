@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "architectural-landmarks-styles-2027-05-05-es-419",
+  "puzzleFamilyId": "architectural-landmarks-styles-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-05",
+  "timezone": "UTC",
+  "theme": "Monumentos por estilo arquitectónico",
+  "items": [
+    {
+      "itemId": "architectural-landmarks-styles-4",
+      "label": "Catedral de Notre-Dame"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-8",
+      "label": "Villa Savoya"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-1",
+      "label": "Edificio Chrysler"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-6",
+      "label": "Catedral de Colonia"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-10",
+      "label": "Museo Guggenheim Bilbao"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-2",
+      "label": "Palacio de Versalles"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-7",
+      "label": "Casa de la Cascada"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-5",
+      "label": "Catedral de Chartres"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-9",
+      "label": "Ópera de Sídney"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-3",
+      "label": "Basílica de San Pedro"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Estilo arquitectónico de cada edificio emblemático",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Art Déco",
+        "capacity": 1,
+        "itemIds": [
+          "architectural-landmarks-styles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Barroco",
+        "capacity": 2,
+        "itemIds": [
+          "architectural-landmarks-styles-2",
+          "architectural-landmarks-styles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Gótico",
+        "capacity": 3,
+        "itemIds": [
+          "architectural-landmarks-styles-4",
+          "architectural-landmarks-styles-5",
+          "architectural-landmarks-styles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Moderno y contemporáneo",
+        "capacity": 4,
+        "itemIds": [
+          "architectural-landmarks-styles-7",
+          "architectural-landmarks-styles-8",
+          "architectural-landmarks-styles-9",
+          "architectural-landmarks-styles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por estilo: Art Déco (Edificio Chrysler), Barroco (Palacio de Versalles, Basílica de San Pedro), Gótico (Notre-Dame, Chartres, Colonia) y Moderno/Contemporáneo (Casa de la Cascada, Villa Savoya, Ópera de Sídney, Guggenheim Bilbao).",
+  "sources": [
+    {
+      "title": "UNESCO & Britannica Architecture",
+      "url": "https://www.britannica.com/art/architecture",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ecological-interactions-2027-02-04-es-419",
+  "puzzleFamilyId": "ecological-interactions-001",
+  "locale": "es-419",
+  "publishDate": "2027-02-04",
+  "timezone": "UTC",
+  "theme": "Relaciones ecológicas",
+  "items": [
+    {
+      "itemId": "ecological-interactions-4",
+      "label": "Garrapata en un ciervo"
+    },
+    {
+      "itemId": "ecological-interactions-8",
+      "label": "Pez payaso y anémona"
+    },
+    {
+      "itemId": "ecological-interactions-1",
+      "label": "Dos árboles compitiendo por luz"
+    },
+    {
+      "itemId": "ecological-interactions-6",
+      "label": "Tenia en intestino"
+    },
+    {
+      "itemId": "ecological-interactions-10",
+      "label": "Hongos y algas en un liquen"
+    },
+    {
+      "itemId": "ecological-interactions-2",
+      "label": "Percebes sobre una ballena"
+    },
+    {
+      "itemId": "ecological-interactions-7",
+      "label": "Abeja polinizando trébol"
+    },
+    {
+      "itemId": "ecological-interactions-5",
+      "label": "Cuco en nido ajeno"
+    },
+    {
+      "itemId": "ecological-interactions-9",
+      "label": "Rizobios en raíces de leguminosa"
+    },
+    {
+      "itemId": "ecological-interactions-3",
+      "label": "Orquídea epífita en una rama"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Efecto (+/0/-) sobre las especies que interactúan",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Competencia (-/-)",
+        "capacity": 1,
+        "itemIds": [
+          "ecological-interactions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Comensalismo (+/0)",
+        "capacity": 2,
+        "itemIds": [
+          "ecological-interactions-2",
+          "ecological-interactions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Antagonismo / Parasitismo (+/-)",
+        "capacity": 3,
+        "itemIds": [
+          "ecological-interactions-4",
+          "ecological-interactions-5",
+          "ecological-interactions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Mutualismo (+/+)",
+        "capacity": 4,
+        "itemIds": [
+          "ecological-interactions-7",
+          "ecological-interactions-8",
+          "ecological-interactions-9",
+          "ecological-interactions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por tipo de interacción ecológica: competencia (-/-), comensalismo (+/0), parasitismo o depredación (+/-) y mutualismo (+/+).",
+  "sources": [
+    {
+      "title": "Nature Education: Species Interactions",
+      "url": "https://www.nature.com/scitable/knowledge/library/species-interactions-and-competition-102131429/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

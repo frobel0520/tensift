@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ancient-civilizations-regions-2027-10-28-es-419",
+  "puzzleFamilyId": "ancient-civilizations-regions-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-28",
+  "timezone": "UTC",
+  "theme": "Civilizaciones antiguas por región",
+  "items": [
+    {
+      "itemId": "ancient-civilizations-regions-4",
+      "label": "Civilización maya"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-8",
+      "label": "Imperio acadio"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-1",
+      "label": "Civilización del Indo (Harappa)"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-6",
+      "label": "Imperio inca"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-10",
+      "label": "Fenicia"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-2",
+      "label": "Antiguo Egipto"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-7",
+      "label": "Sumeria"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-5",
+      "label": "Imperio azteca"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-9",
+      "label": "Imperio babilónico"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-3",
+      "label": "Reino de Kush"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Región geográfica nuclear de cada civilización antigua",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Valle del Indo",
+        "capacity": 1,
+        "itemIds": [
+          "ancient-civilizations-regions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Valle del Nilo",
+        "capacity": 2,
+        "itemIds": [
+          "ancient-civilizations-regions-2",
+          "ancient-civilizations-regions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "América precolombina",
+        "capacity": 3,
+        "itemIds": [
+          "ancient-civilizations-regions-4",
+          "ancient-civilizations-regions-5",
+          "ancient-civilizations-regions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Mesopotamia y Levante",
+        "capacity": 4,
+        "itemIds": [
+          "ancient-civilizations-regions-7",
+          "ancient-civilizations-regions-8",
+          "ancient-civilizations-regions-9",
+          "ancient-civilizations-regions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por región: valle del Indo (civilización del Indo / Harappa), valle del Nilo (Egipto faraónico, Reino de Kush), América precolombina (mayas, aztecas, incas) y Mesopotamia/Levante (Sumeria, Imperio acadio, Babilonia, Fenicia).",
+  "sources": [
+    {
+      "title": "UNESCO World Heritage: Ancient Civilizations",
+      "url": "https://whc.unesco.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

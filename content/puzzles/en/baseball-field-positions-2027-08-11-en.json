@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "baseball-field-positions-2027-08-11-en",
+  "puzzleFamilyId": "baseball-field-positions-001",
+  "locale": "en",
+  "publishDate": "2027-08-11",
+  "timezone": "UTC",
+  "theme": "Baseball Lineup Positions",
+  "items": [
+    {
+      "itemId": "baseball-field-positions-4",
+      "label": "Left Fielder"
+    },
+    {
+      "itemId": "baseball-field-positions-8",
+      "label": "Second Baseman"
+    },
+    {
+      "itemId": "baseball-field-positions-1",
+      "label": "Designated Hitter (DH)"
+    },
+    {
+      "itemId": "baseball-field-positions-6",
+      "label": "Right Fielder"
+    },
+    {
+      "itemId": "baseball-field-positions-10",
+      "label": "Shortstop"
+    },
+    {
+      "itemId": "baseball-field-positions-2",
+      "label": "Pitcher"
+    },
+    {
+      "itemId": "baseball-field-positions-7",
+      "label": "First Baseman"
+    },
+    {
+      "itemId": "baseball-field-positions-5",
+      "label": "Center Fielder"
+    },
+    {
+      "itemId": "baseball-field-positions-9",
+      "label": "Third Baseman"
+    },
+    {
+      "itemId": "baseball-field-positions-3",
+      "label": "Catcher"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Baseball role (Designated Hitter, Battery, Outfielders, or Infielders)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Non-Fielding Hitter",
+        "capacity": 1,
+        "itemIds": [
+          "baseball-field-positions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "The Battery",
+        "capacity": 2,
+        "itemIds": [
+          "baseball-field-positions-2",
+          "baseball-field-positions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Outfielders",
+        "capacity": 3,
+        "itemIds": [
+          "baseball-field-positions-4",
+          "baseball-field-positions-5",
+          "baseball-field-positions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Infielders",
+        "capacity": 4,
+        "itemIds": [
+          "baseball-field-positions-7",
+          "baseball-field-positions-8",
+          "baseball-field-positions-9",
+          "baseball-field-positions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by baseball role: Non-Fielding Hitter (Designated Hitter), The Battery (Pitcher, Catcher), Outfielders (Left Fielder, Center Fielder, Right Fielder), and Infielders (First Baseman, Second Baseman, Third Baseman, Shortstop).",
+  "sources": [
+    {
+      "title": "MLB Official Baseball Rules",
+      "url": "https://www.mlb.com/official-information",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.2
+  },
+  "status": "scheduled"
+}

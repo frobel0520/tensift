@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "architectural-orders-vaults-2027-04-21-es-419",
+  "puzzleFamilyId": "architectural-orders-vaults-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-21",
+  "timezone": "UTC",
+  "theme": "Órdenes clásicos y arquitectura gótica",
+  "items": [
+    {
+      "itemId": "architectural-orders-vaults-4",
+      "label": "Orden dórico"
+    },
+    {
+      "itemId": "architectural-orders-vaults-8",
+      "label": "Arco apuntado"
+    },
+    {
+      "itemId": "architectural-orders-vaults-1",
+      "label": "Orden toscano"
+    },
+    {
+      "itemId": "architectural-orders-vaults-6",
+      "label": "Orden corintio"
+    },
+    {
+      "itemId": "architectural-orders-vaults-10",
+      "label": "Rosetón"
+    },
+    {
+      "itemId": "architectural-orders-vaults-2",
+      "label": "Clave de arco"
+    },
+    {
+      "itemId": "architectural-orders-vaults-7",
+      "label": "Arbotante"
+    },
+    {
+      "itemId": "architectural-orders-vaults-5",
+      "label": "Orden jónico"
+    },
+    {
+      "itemId": "architectural-orders-vaults-9",
+      "label": "Bóveda de crucería"
+    },
+    {
+      "itemId": "architectural-orders-vaults-3",
+      "label": "Dovela"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tradición arquitectónica de cada elemento",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Orden toscano",
+        "capacity": 1,
+        "itemIds": [
+          "architectural-orders-vaults-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Piezas de arco",
+        "capacity": 2,
+        "itemIds": [
+          "architectural-orders-vaults-2",
+          "architectural-orders-vaults-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Órdenes griegos clásicos",
+        "capacity": 3,
+        "itemIds": [
+          "architectural-orders-vaults-4",
+          "architectural-orders-vaults-5",
+          "architectural-orders-vaults-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Elementos góticos",
+        "capacity": 4,
+        "itemIds": [
+          "architectural-orders-vaults-7",
+          "architectural-orders-vaults-8",
+          "architectural-orders-vaults-9",
+          "architectural-orders-vaults-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría arquitectónica: orden toscano (orden toscano), dovelas de arco romano (clave, dovela), órdenes griegos clásicos (dórico, jónico, corintio) y elementos góticos (arbotante, arco apuntado, bóveda de crucería, rosetón).",
+  "sources": [
+    {
+      "title": "Britannica: Classical Orders",
+      "url": "https://www.britannica.com/technology/order-architecture",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

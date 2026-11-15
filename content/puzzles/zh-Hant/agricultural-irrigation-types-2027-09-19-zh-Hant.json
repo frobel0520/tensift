@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "agricultural-irrigation-types-2027-09-19-zh-hant",
+  "puzzleFamilyId": "agricultural-irrigation-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-19",
+  "timezone": "UTC",
+  "theme": "農業灌溉系統類型",
+  "items": [
+    {
+      "itemId": "agricultural-irrigation-types-4",
+      "label": "中心支軸圓形噴灌"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-8",
+      "label": "平田圍堰漫灌"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-1",
+      "label": "地下埋管滴灌"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-6",
+      "label": "固定式衝擊搖臂噴頭"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-10",
+      "label": "梯田蓄水灌溉"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-2",
+      "label": "地表滴灌管"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-7",
+      "label": "畦溝灌溉"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-5",
+      "label": "移動式高壓噴槍"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-9",
+      "label": "長帶狀畦灌"
+    },
+    {
+      "itemId": "agricultural-irrigation-types-3",
+      "label": "微噴頭灌溉"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各農業灌溉系統的輸水物理方式（地下滲灌、滴灌／微噴、加壓高空噴灌或重力地表漫灌／溝灌）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "地下根區滲灌",
+        "capacity": 1,
+        "itemIds": [
+          "agricultural-irrigation-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "地表微灌系統",
+        "capacity": 2,
+        "itemIds": [
+          "agricultural-irrigation-types-2",
+          "agricultural-irrigation-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "高壓空中噴灌",
+        "capacity": 3,
+        "itemIds": [
+          "agricultural-irrigation-types-4",
+          "agricultural-irrigation-types-5",
+          "agricultural-irrigation-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "重力地表漫灌與溝灌",
+        "capacity": 4,
+        "itemIds": [
+          "agricultural-irrigation-types-7",
+          "agricultural-irrigation-types-8",
+          "agricultural-irrigation-types-9",
+          "agricultural-irrigation-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依灌溉輸水機制分類：地下毛細滲灌（地下埋管滲灌）、定點微灌（地表滴灌器、微噴頭）、加壓高空噴灌（中心支軸圓形噴灌、移動式大噴槍、固定式搖臂噴頭）與重力地表流灌（畦溝灌溉、格田漫灌、帶狀畦灌、梯田蓄水漫灌）。",
+  "sources": [
+    {
+      "title": "FAO Irrigation Training Manual",
+      "url": "https://www.fao.org/land-water/water/water-management/en/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

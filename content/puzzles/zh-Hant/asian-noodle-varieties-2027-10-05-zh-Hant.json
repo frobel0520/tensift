@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "asian-noodle-varieties-2027-10-05-zh-hant",
+  "puzzleFamilyId": "asian-noodle-varieties-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-05",
+  "timezone": "UTC",
+  "theme": "亞洲麵條原料分類",
+  "items": [
+    {
+      "itemId": "asian-noodle-varieties-4",
+      "label": "越南河粉（Phở）"
+    },
+    {
+      "itemId": "asian-noodle-varieties-8",
+      "label": "日式鹼水拉麵"
+    },
+    {
+      "itemId": "asian-noodle-varieties-1",
+      "label": "綠豆冬粉（粉絲）"
+    },
+    {
+      "itemId": "asian-noodle-varieties-6",
+      "label": "細米粉（炊粉）"
+    },
+    {
+      "itemId": "asian-noodle-varieties-10",
+      "label": "日本細素麵（Somen）"
+    },
+    {
+      "itemId": "asian-noodle-varieties-2",
+      "label": "日本蕎麥麵（Soba）"
+    },
+    {
+      "itemId": "asian-noodle-varieties-7",
+      "label": "日本烏龍麵（Udon）"
+    },
+    {
+      "itemId": "asian-noodle-varieties-5",
+      "label": "泰式寬河粉"
+    },
+    {
+      "itemId": "asian-noodle-varieties-9",
+      "label": "中華小麥撈麵"
+    },
+    {
+      "itemId": "asian-noodle-varieties-3",
+      "label": "韓式蕎麥冷麵"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各亞洲麵條的主要澱粉或麵粉原料（綠豆澱粉、蕎麥粉、在來米粉或小麥麵粉）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "綠豆澱粉冬粉",
+        "capacity": 1,
+        "itemIds": [
+          "asian-noodle-varieties-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "蕎麥麵條",
+        "capacity": 2,
+        "itemIds": [
+          "asian-noodle-varieties-2",
+          "asian-noodle-varieties-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "米漿／米粉麵條",
+        "capacity": 3,
+        "itemIds": [
+          "asian-noodle-varieties-4",
+          "asian-noodle-varieties-5",
+          "asian-noodle-varieties-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "小麥麵粉麵條",
+        "capacity": 4,
+        "itemIds": [
+          "asian-noodle-varieties-7",
+          "asian-noodle-varieties-8",
+          "asian-noodle-varieties-9",
+          "asian-noodle-varieties-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依原料澱粉分類：綠豆澱粉（冬粉／粉絲）、蕎麥粉（日本蕎麥麵 Soba、韓式冷麵）、在來米漿（越南河粉、泰式河粉、新竹米粉）與小麥麵粉（日本烏龍麵、鹼水拉麵、中華撈麵、細素麵 Somen）。",
+  "sources": [
+    {
+      "title": "FAO: Asian Noodles Processing",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

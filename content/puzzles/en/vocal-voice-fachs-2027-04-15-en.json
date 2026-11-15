@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vocal-voice-fachs-2027-04-15-en",
+  "puzzleFamilyId": "vocal-voice-fachs-001",
+  "locale": "en",
+  "publishDate": "2027-04-15",
+  "timezone": "UTC",
+  "theme": "Classical Voice Classifications",
+  "items": [
+    {
+      "itemId": "vocal-voice-fachs-4",
+      "label": "Contralto"
+    },
+    {
+      "itemId": "vocal-voice-fachs-8",
+      "label": "Lyric Soprano"
+    },
+    {
+      "itemId": "vocal-voice-fachs-1",
+      "label": "Basso Profundo"
+    },
+    {
+      "itemId": "vocal-voice-fachs-6",
+      "label": "Countertenor"
+    },
+    {
+      "itemId": "vocal-voice-fachs-10",
+      "label": "Spinto Soprano"
+    },
+    {
+      "itemId": "vocal-voice-fachs-2",
+      "label": "Lyric Tenor"
+    },
+    {
+      "itemId": "vocal-voice-fachs-7",
+      "label": "Coloratura Soprano"
+    },
+    {
+      "itemId": "vocal-voice-fachs-5",
+      "label": "Mezzo-Soprano"
+    },
+    {
+      "itemId": "vocal-voice-fachs-9",
+      "label": "Dramatic Soprano"
+    },
+    {
+      "itemId": "vocal-voice-fachs-3",
+      "label": "Dramatic Tenor"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Core vocal register (Bass, Tenor, Alto/Mezzo, or Soprano) of each operatic voice type",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Bass",
+        "capacity": 1,
+        "itemIds": [
+          "vocal-voice-fachs-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Tenor",
+        "capacity": 2,
+        "itemIds": [
+          "vocal-voice-fachs-2",
+          "vocal-voice-fachs-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Alto & Mezzo Register",
+        "capacity": 3,
+        "itemIds": [
+          "vocal-voice-fachs-4",
+          "vocal-voice-fachs-5",
+          "vocal-voice-fachs-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Soprano",
+        "capacity": 4,
+        "itemIds": [
+          "vocal-voice-fachs-7",
+          "vocal-voice-fachs-8",
+          "vocal-voice-fachs-9",
+          "vocal-voice-fachs-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by core vocal register: Bass (Basso Profundo), Tenor (Lyric Tenor, Dramatic Tenor), Alto/Mezzo (Contralto, Mezzo-Soprano, Countertenor), and Soprano (Coloratura, Lyric, Dramatic, Spinto Soprano).",
+  "sources": [
+    {
+      "title": "Britannica: Voice Classification",
+      "url": "https://www.britannica.com/art/voice-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

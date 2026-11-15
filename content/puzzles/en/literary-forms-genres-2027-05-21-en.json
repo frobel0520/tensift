@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "literary-forms-genres-2027-05-21-en",
+  "puzzleFamilyId": "literary-forms-genres-001",
+  "locale": "en",
+  "publishDate": "2027-05-21",
+  "timezone": "UTC",
+  "theme": "Literary Forms & Genres",
+  "items": [
+    {
+      "itemId": "literary-forms-genres-4",
+      "label": "Epic Poem"
+    },
+    {
+      "itemId": "literary-forms-genres-8",
+      "label": "Autobiography"
+    },
+    {
+      "itemId": "literary-forms-genres-1",
+      "label": "Epistolary Novel"
+    },
+    {
+      "itemId": "literary-forms-genres-6",
+      "label": "Stage Tragedy"
+    },
+    {
+      "itemId": "literary-forms-genres-10",
+      "label": "Memoir"
+    },
+    {
+      "itemId": "literary-forms-genres-2",
+      "label": "Short Story"
+    },
+    {
+      "itemId": "literary-forms-genres-7",
+      "label": "Biography"
+    },
+    {
+      "itemId": "literary-forms-genres-5",
+      "label": "Sonnet"
+    },
+    {
+      "itemId": "literary-forms-genres-9",
+      "label": "Personal Essay"
+    },
+    {
+      "itemId": "literary-forms-genres-3",
+      "label": "Novella"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Literary format (Epistolary Novel, Short Fiction, Verse/Drama, or Prose Nonfiction)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Epistolary Format",
+        "capacity": 1,
+        "itemIds": [
+          "literary-forms-genres-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Short Fiction",
+        "capacity": 2,
+        "itemIds": [
+          "literary-forms-genres-2",
+          "literary-forms-genres-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Verse & Drama",
+        "capacity": 3,
+        "itemIds": [
+          "literary-forms-genres-4",
+          "literary-forms-genres-5",
+          "literary-forms-genres-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Prose Nonfiction",
+        "capacity": 4,
+        "itemIds": [
+          "literary-forms-genres-7",
+          "literary-forms-genres-8",
+          "literary-forms-genres-9",
+          "literary-forms-genres-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by literary format: Epistolary Novel (Epistolary Novel), Short Fiction (Short Story, Novella), Verse & Drama (Epic Poem, Sonnet, Stage Tragedy), and Prose Nonfiction (Biography, Autobiography, Essay, Memoir).",
+  "sources": [
+    {
+      "title": "Britannica: Literary Genres",
+      "url": "https://www.britannica.com/art/literature",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

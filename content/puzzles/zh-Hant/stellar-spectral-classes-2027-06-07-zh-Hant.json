@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "stellar-spectral-classes-2027-06-07-zh-hant",
+  "puzzleFamilyId": "stellar-spectral-classes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-07",
+  "timezone": "UTC",
+  "theme": "恆星光譜分類（OBAFGKM）",
+  "items": [
+    {
+      "itemId": "stellar-spectral-classes-4",
+      "label": "F 型星"
+    },
+    {
+      "itemId": "stellar-spectral-classes-8",
+      "label": "L 型褐矮星"
+    },
+    {
+      "itemId": "stellar-spectral-classes-1",
+      "label": "O 型星"
+    },
+    {
+      "itemId": "stellar-spectral-classes-6",
+      "label": "K 型星"
+    },
+    {
+      "itemId": "stellar-spectral-classes-10",
+      "label": "Y 型超冷褐矮星"
+    },
+    {
+      "itemId": "stellar-spectral-classes-2",
+      "label": "B 型星"
+    },
+    {
+      "itemId": "stellar-spectral-classes-7",
+      "label": "M 型星（紅矮星）"
+    },
+    {
+      "itemId": "stellar-spectral-classes-5",
+      "label": "G 型星（類太陽）"
+    },
+    {
+      "itemId": "stellar-spectral-classes-9",
+      "label": "T 型褐矮星"
+    },
+    {
+      "itemId": "stellar-spectral-classes-3",
+      "label": "A 型星"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各恆星與褐矮星光譜型態的表面溫度分級（最熱藍星、藍白星、類太陽中溫星或低溫紅／褐矮星）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "極高溫藍星（>30,000 K）",
+        "capacity": 1,
+        "itemIds": [
+          "stellar-spectral-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "高溫藍白星（7,500–30,000 K）",
+        "capacity": 2,
+        "itemIds": [
+          "stellar-spectral-classes-2",
+          "stellar-spectral-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "中溫 F/G/K 型星（3,700–7,500 K）",
+        "capacity": 3,
+        "itemIds": [
+          "stellar-spectral-classes-4",
+          "stellar-spectral-classes-5",
+          "stellar-spectral-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "低溫紅矮星與褐矮星（<3,700 K）",
+        "capacity": 4,
+        "itemIds": [
+          "stellar-spectral-classes-7",
+          "stellar-spectral-classes-8",
+          "stellar-spectral-classes-9",
+          "stellar-spectral-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依表面溫度分級：極高溫藍星（O 型星）、高溫藍白星（B 型、A 型）、中溫黃白至橙星（F 型、G 型、K 型）與低溫紅／褐矮星（M 型、L 型、T 型、Y 型）。",
+  "sources": [
+    {
+      "title": "NASA: Stellar Spectral Classification",
+      "url": "https://science.nasa.gov/universe/stars/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

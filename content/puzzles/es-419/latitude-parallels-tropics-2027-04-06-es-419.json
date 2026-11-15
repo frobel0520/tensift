@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "latitude-parallels-tropics-2027-04-06-es-419",
+  "puzzleFamilyId": "latitude-parallels-tropics-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-06",
+  "timezone": "UTC",
+  "theme": "Paralelos y meridianos notables",
+  "items": [
+    {
+      "itemId": "latitude-parallels-tropics-4",
+      "label": "Paralelo 38 norte"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-8",
+      "label": "Meridiano 180°"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-1",
+      "label": "Ecuador (0°)"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-6",
+      "label": "Paralelo 17 norte"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-10",
+      "label": "Meridiano 120°E"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-2",
+      "label": "Trópico de Cáncer"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-7",
+      "label": "Meridiano de Greenwich (0°)"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-5",
+      "label": "Paralelo 49 norte"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-9",
+      "label": "Meridiano 15°E"
+    },
+    {
+      "itemId": "latitude-parallels-tropics-3",
+      "label": "Trópico de Capricornio"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría geográfica de cada línea de referencia",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "El Ecuador",
+        "capacity": 1,
+        "itemIds": [
+          "latitude-parallels-tropics-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Trópicos (23.4°)",
+        "capacity": 2,
+        "itemIds": [
+          "latitude-parallels-tropics-2",
+          "latitude-parallels-tropics-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Paralelos fronterizos históricos",
+        "capacity": 3,
+        "itemIds": [
+          "latitude-parallels-tropics-4",
+          "latitude-parallels-tropics-5",
+          "latitude-parallels-tropics-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Meridianos de referencia",
+        "capacity": 4,
+        "itemIds": [
+          "latitude-parallels-tropics-7",
+          "latitude-parallels-tropics-8",
+          "latitude-parallels-tropics-9",
+          "latitude-parallels-tropics-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: ecuador (Ecuador 0°), trópicos (Trópico de Cáncer, Trópico de Capricornio), paralelos fronterizos históricos (Paralelo 38 N, Paralelo 49 N, Paralelo 17 N) y meridianos clave (Meridiano de Greenwich, Meridiano 180°, Meridiano 15°E, Meridiano 120°E).",
+  "sources": [
+    {
+      "title": "Britannica: Latitude and Longitude",
+      "url": "https://www.britannica.com/science/latitude",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

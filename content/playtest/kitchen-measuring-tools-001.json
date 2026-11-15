@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "kitchen-measuring-tools-001",
+  "theme": "Kitchen & Baking Instruments",
+  "publishDate": "2027-10-08",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "kitchen-measuring-tools-1",
+        "rivalGroupId": "group-3",
+        "risk": "Refractometers are used in candy and jam making.",
+        "resolution": "A Brix refractometer measures dissolved sugar percentage via refractive index (group-1), not temperature (group-3)."
+      },
+      {
+        "itemId": "kitchen-measuring-tools-7",
+        "rivalGroupId": "group-2",
+        "risk": "Dry measuring cups measure flour for baking.",
+        "resolution": "Measuring cups measure volume in mL or cups (group-4), not mass in grams (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

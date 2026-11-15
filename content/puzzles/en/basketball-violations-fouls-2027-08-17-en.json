@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "basketball-violations-fouls-2027-08-17-en",
+  "puzzleFamilyId": "basketball-violations-fouls-001",
+  "locale": "en",
+  "publishDate": "2027-08-17",
+  "timezone": "UTC",
+  "theme": "Basketball Rules & Calls",
+  "items": [
+    {
+      "itemId": "basketball-violations-fouls-4",
+      "label": "Traveling"
+    },
+    {
+      "itemId": "basketball-violations-fouls-8",
+      "label": "Blocking Foul"
+    },
+    {
+      "itemId": "basketball-violations-fouls-1",
+      "label": "Goaltending"
+    },
+    {
+      "itemId": "basketball-violations-fouls-6",
+      "label": "Carrying / Palming"
+    },
+    {
+      "itemId": "basketball-violations-fouls-10",
+      "label": "Unsportsmanlike Foul"
+    },
+    {
+      "itemId": "basketball-violations-fouls-2",
+      "label": "24-Second Shot Clock"
+    },
+    {
+      "itemId": "basketball-violations-fouls-7",
+      "label": "Charging Foul"
+    },
+    {
+      "itemId": "basketball-violations-fouls-5",
+      "label": "Double Dribble"
+    },
+    {
+      "itemId": "basketball-violations-fouls-9",
+      "label": "Technical Foul"
+    },
+    {
+      "itemId": "basketball-violations-fouls-3",
+      "label": "8-Second Backcourt"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Basketball rule category (Goaltending, Clock Violations, Ball-Handling Violations, or Fouls)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Rim / Basket Interference",
+        "capacity": 1,
+        "itemIds": [
+          "basketball-violations-fouls-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Clock Violations",
+        "capacity": 2,
+        "itemIds": [
+          "basketball-violations-fouls-2",
+          "basketball-violations-fouls-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Ball-Handling Violations",
+        "capacity": 3,
+        "itemIds": [
+          "basketball-violations-fouls-4",
+          "basketball-violations-fouls-5",
+          "basketball-violations-fouls-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Personal & Technical Fouls",
+        "capacity": 4,
+        "itemIds": [
+          "basketball-violations-fouls-7",
+          "basketball-violations-fouls-8",
+          "basketball-violations-fouls-9",
+          "basketball-violations-fouls-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by basketball call: Goaltending (Goaltending), Clock Violations (24-Second Shot Clock, 8-Second Backcourt), Ball-Handling Violations (Traveling, Double Dribble, Palming / Carrying), and Fouls (Charging Foul, Blocking Foul, Technical Foul, Unsportsmanlike Foul).",
+  "sources": [
+    {
+      "title": "FIBA Official Basketball Rules",
+      "url": "https://www.fiba.basketball/rules",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

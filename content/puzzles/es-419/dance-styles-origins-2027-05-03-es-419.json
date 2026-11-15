@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "dance-styles-origins-2027-05-03-es-419",
+  "puzzleFamilyId": "dance-styles-origins-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-03",
+  "timezone": "UTC",
+  "theme": "Estilos de danza por origen",
+  "items": [
+    {
+      "itemId": "dance-styles-origins-4",
+      "label": "Vals vienés"
+    },
+    {
+      "itemId": "dance-styles-origins-8",
+      "label": "Samba"
+    },
+    {
+      "itemId": "dance-styles-origins-1",
+      "label": "Ballet clásico"
+    },
+    {
+      "itemId": "dance-styles-origins-6",
+      "label": "Mazurca"
+    },
+    {
+      "itemId": "dance-styles-origins-10",
+      "label": "Cumbia"
+    },
+    {
+      "itemId": "dance-styles-origins-2",
+      "label": "Tap (claqué)"
+    },
+    {
+      "itemId": "dance-styles-origins-7",
+      "label": "Tango"
+    },
+    {
+      "itemId": "dance-styles-origins-5",
+      "label": "Polca"
+    },
+    {
+      "itemId": "dance-styles-origins-9",
+      "label": "Salsa"
+    },
+    {
+      "itemId": "dance-styles-origins-3",
+      "label": "Charlestón"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Región de origen cultural de cada estilo de danza",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Tradición cortesana europea",
+        "capacity": 1,
+        "itemIds": [
+          "dance-styles-origins-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Estados Unidos",
+        "capacity": 2,
+        "itemIds": [
+          "dance-styles-origins-2",
+          "dance-styles-origins-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Europa Central y Oriental",
+        "capacity": 3,
+        "itemIds": [
+          "dance-styles-origins-4",
+          "dance-styles-origins-5",
+          "dance-styles-origins-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "América Latina",
+        "capacity": 4,
+        "itemIds": [
+          "dance-styles-origins-7",
+          "dance-styles-origins-8",
+          "dance-styles-origins-9",
+          "dance-styles-origins-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por origen: corte europea clásica (ballet), Estados Unidos (tap, charlestón), Europa central/oriental (vals, polca, mazurca) y América Latina (tango, samba, salsa, cumbia).",
+  "sources": [
+    {
+      "title": "Britannica: Dance History",
+      "url": "https://www.britannica.com/art/dance",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

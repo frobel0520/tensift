@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "english-loanwords-origins-2027-05-22-zh-hant",
+  "puzzleFamilyId": "english-loanwords-origins-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-22",
+  "timezone": "UTC",
+  "theme": "英語外來詞來源語言",
+  "items": [
+    {
+      "itemId": "english-loanwords-origins-4",
+      "label": "Origami（摺紙）"
+    },
+    {
+      "itemId": "english-loanwords-origins-8",
+      "label": "Cuisine（料理）"
+    },
+    {
+      "itemId": "english-loanwords-origins-1",
+      "label": "Yacht（遊艇）"
+    },
+    {
+      "itemId": "english-loanwords-origins-6",
+      "label": "Haiku（俳句）"
+    },
+    {
+      "itemId": "english-loanwords-origins-10",
+      "label": "Fiancé（未婚夫）"
+    },
+    {
+      "itemId": "english-loanwords-origins-2",
+      "label": "Algebra（代數）"
+    },
+    {
+      "itemId": "english-loanwords-origins-7",
+      "label": "Ballet（芭蕾）"
+    },
+    {
+      "itemId": "english-loanwords-origins-5",
+      "label": "Tsunami（海嘯）"
+    },
+    {
+      "itemId": "english-loanwords-origins-9",
+      "label": "Entrepreneur（企業家）"
+    },
+    {
+      "itemId": "english-loanwords-origins-3",
+      "label": "Zenith（天頂）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各英語常用外來詞的原始借入語言（荷蘭語、阿拉伯語、日語或法語）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "源自荷蘭語",
+        "capacity": 1,
+        "itemIds": [
+          "english-loanwords-origins-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "源自阿拉伯語",
+        "capacity": 2,
+        "itemIds": [
+          "english-loanwords-origins-2",
+          "english-loanwords-origins-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "源自日語",
+        "capacity": 3,
+        "itemIds": [
+          "english-loanwords-origins-4",
+          "english-loanwords-origins-5",
+          "english-loanwords-origins-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "源自法語",
+        "capacity": 4,
+        "itemIds": [
+          "english-loanwords-origins-7",
+          "english-loanwords-origins-8",
+          "english-loanwords-origins-9",
+          "english-loanwords-origins-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依借入語言分類：荷蘭語（Yacht 遊艇）、阿拉伯語（Algebra 代數、Zenith 天頂）、日語（Origami 摺紙、Tsunami 海嘯、Haiku 俳句）與法語（Ballet 芭蕾、Cuisine 料理、Entrepreneur 企業家、Fiancé 未婚夫）。",
+  "sources": [
+    {
+      "title": "Oxford English Dictionary: Loanwords",
+      "url": "https://www.oed.com/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

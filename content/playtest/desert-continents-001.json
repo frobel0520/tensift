@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "desert-continents-001",
+  "theme": "World Deserts by Continent",
+  "publishDate": "2027-03-11",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "desert-continents-1",
+        "rivalGroupId": "group-3",
+        "risk": "Tabernas in Spain is sometimes assumed to be North African.",
+        "resolution": "Tabernas Desert in Almería, Spain is Europe’s only true desert (group-1)."
+      },
+      {
+        "itemId": "desert-continents-10",
+        "rivalGroupId": "group-3",
+        "risk": "The Arabian Desert borders the Red Sea opposite the Sahara.",
+        "resolution": "The Arabian Peninsula is part of West Asia (group-4), not Africa (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

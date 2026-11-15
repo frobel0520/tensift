@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "earth-orbital-regimes-2027-06-10-es-419",
+  "puzzleFamilyId": "earth-orbital-regimes-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-10",
+  "timezone": "UTC",
+  "theme": "Regímenes orbitales espaciales",
+  "items": [
+    {
+      "itemId": "earth-orbital-regimes-4",
+      "label": "Órbita GPS (~20 200 km)"
+    },
+    {
+      "itemId": "earth-orbital-regimes-8",
+      "label": "Órbita geosíncrona (GSO)"
+    },
+    {
+      "itemId": "earth-orbital-regimes-1",
+      "label": "Órbita heliosíncrona (SSO)"
+    },
+    {
+      "itemId": "earth-orbital-regimes-6",
+      "label": "Órbita GLONASS (~19 100 km)"
+    },
+    {
+      "itemId": "earth-orbital-regimes-10",
+      "label": "Órbita halo L2 Sol-Tierra"
+    },
+    {
+      "itemId": "earth-orbital-regimes-2",
+      "label": "Órbita de la EEI (~400 km)"
+    },
+    {
+      "itemId": "earth-orbital-regimes-7",
+      "label": "Órbita geoestacionaria (GEO)"
+    },
+    {
+      "itemId": "earth-orbital-regimes-5",
+      "label": "Órbita Galileo (~23 222 km)"
+    },
+    {
+      "itemId": "earth-orbital-regimes-9",
+      "label": "Órbita Molniya"
+    },
+    {
+      "itemId": "earth-orbital-regimes-3",
+      "label": "Órbita del Hubble (~540 km)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Régimen orbital por altitud y geometría",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Órbita heliosíncrona",
+        "capacity": 1,
+        "itemIds": [
+          "earth-orbital-regimes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Órbita terrestre baja (LEO)",
+        "capacity": 2,
+        "itemIds": [
+          "earth-orbital-regimes-2",
+          "earth-orbital-regimes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Órbita terrestre media (MEO)",
+        "capacity": 3,
+        "itemIds": [
+          "earth-orbital-regimes-4",
+          "earth-orbital-regimes-5",
+          "earth-orbital-regimes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Órbitas altas, síncronas y L2",
+        "capacity": 4,
+        "itemIds": [
+          "earth-orbital-regimes-7",
+          "earth-orbital-regimes-8",
+          "earth-orbital-regimes-9",
+          "earth-orbital-regimes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por régimen: órbita heliosíncrona (SSO), órbita terrestre baja (EEI, Hubble), órbita terrestre media (GPS, Galileo, GLONASS) y órbitas altas/geoestacionarias/L2 (GEO, GSO, Molniya, halo L2).",
+  "sources": [
+    {
+      "title": "ESA: Types of Orbits",
+      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

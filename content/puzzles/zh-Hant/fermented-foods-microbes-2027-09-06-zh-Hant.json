@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fermented-foods-microbes-2027-09-06-zh-hant",
+  "puzzleFamilyId": "fermented-foods-microbes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-06",
+  "timezone": "UTC",
+  "theme": "發酵食品與發酵類型",
+  "items": [
+    {
+      "itemId": "fermented-foods-microbes-4",
+      "label": "葡萄酒"
+    },
+    {
+      "itemId": "fermented-foods-microbes-8",
+      "label": "韓式泡菜"
+    },
+    {
+      "itemId": "fermented-foods-microbes-1",
+      "label": "蘋果醋"
+    },
+    {
+      "itemId": "fermented-foods-microbes-6",
+      "label": "酵母發酵麵包"
+    },
+    {
+      "itemId": "fermented-foods-microbes-10",
+      "label": "克菲爾發酵乳"
+    },
+    {
+      "itemId": "fermented-foods-microbes-2",
+      "label": "釀造醬油"
+    },
+    {
+      "itemId": "fermented-foods-microbes-7",
+      "label": "德國酸菜"
+    },
+    {
+      "itemId": "fermented-foods-microbes-5",
+      "label": "大麥啤酒"
+    },
+    {
+      "itemId": "fermented-foods-microbes-9",
+      "label": "原味優格"
+    },
+    {
+      "itemId": "fermented-foods-microbes-3",
+      "label": "味噌醬"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各發酵食品的主要微生物發酵類型（醋酸發酵、鹼性納豆菌、酒精酵母發酵或乳酸菌發酵）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "醋酸菌發酵",
+        "capacity": 1,
+        "itemIds": [
+          "fermented-foods-microbes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "麴菌豆類發酵",
+        "capacity": 2,
+        "itemIds": [
+          "fermented-foods-microbes-2",
+          "fermented-foods-microbes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "酵母酒精與產氣發酵",
+        "capacity": 3,
+        "itemIds": [
+          "fermented-foods-microbes-4",
+          "fermented-foods-microbes-5",
+          "fermented-foods-microbes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "乳酸菌發酵",
+        "capacity": 4,
+        "itemIds": [
+          "fermented-foods-microbes-7",
+          "fermented-foods-microbes-8",
+          "fermented-foods-microbes-9",
+          "fermented-foods-microbes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依發酵微生物分類：醋酸菌發酵（蘋果醋）、麴菌發酵豆製品（醬油、味噌）、酵母酒精發酵（葡萄酒、大麥啤酒、酵母麵包）與乳酸菌發酵（德國酸菜、韓式泡菜、優格、克菲爾發酵乳）。",
+  "sources": [
+    {
+      "title": "FAO: Fermented Foods & Microbiology",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

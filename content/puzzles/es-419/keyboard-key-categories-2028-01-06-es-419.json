@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "keyboard-key-categories-2028-01-06-es-419",
+  "puzzleFamilyId": "keyboard-key-categories-001",
+  "locale": "es-419",
+  "publishDate": "2028-01-06",
+  "timezone": "UTC",
+  "theme": "Categorías de teclas del teclado",
+  "items": [
+    {
+      "itemId": "keyboard-key-categories-4",
+      "label": "Teclas de flecha"
+    },
+    {
+      "itemId": "keyboard-key-categories-8",
+      "label": "Tecla Bloq Mayús"
+    },
+    {
+      "itemId": "keyboard-key-categories-1",
+      "label": "Tecla Escape (Esc)"
+    },
+    {
+      "itemId": "keyboard-key-categories-6",
+      "label": "Tecla Re Pág (Page Up)"
+    },
+    {
+      "itemId": "keyboard-key-categories-10",
+      "label": "Tecla Enter (Intro)"
+    },
+    {
+      "itemId": "keyboard-key-categories-2",
+      "label": "Tecla Shift (Mayús)"
+    },
+    {
+      "itemId": "keyboard-key-categories-7",
+      "label": "Tecla de función F1"
+    },
+    {
+      "itemId": "keyboard-key-categories-5",
+      "label": "Tecla Inicio (Home)"
+    },
+    {
+      "itemId": "keyboard-key-categories-9",
+      "label": "Tecla Tabulador (Tab)"
+    },
+    {
+      "itemId": "keyboard-key-categories-3",
+      "label": "Tecla Control (Ctrl)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Función operativa de cada tecla en el teclado",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Tecla de escape",
+        "capacity": 1,
+        "itemIds": [
+          "keyboard-key-categories-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Teclas modificadoras",
+        "capacity": 2,
+        "itemIds": [
+          "keyboard-key-categories-2",
+          "keyboard-key-categories-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Teclas de navegación",
+        "capacity": 3,
+        "itemIds": [
+          "keyboard-key-categories-4",
+          "keyboard-key-categories-5",
+          "keyboard-key-categories-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Función, bloqueo y acción",
+        "capacity": 4,
+        "itemIds": [
+          "keyboard-key-categories-7",
+          "keyboard-key-categories-8",
+          "keyboard-key-categories-9",
+          "keyboard-key-categories-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por función: tecla de escape (Esc), teclas modificadoras (Shift, Control/Ctrl), teclas de navegación (flechas, Inicio/Home, Re Pág) y teclas de función, bloqueo y acción (F1, Bloq Mayús, Tab, Enter).",
+  "sources": [
+    {
+      "title": "ISO/IEC 9995: Keyboard Layouts",
+      "url": "https://www.iso.org/standard/51645.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

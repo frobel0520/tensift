@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ancient-wonders-seven-2027-11-15-zh-hant",
+  "puzzleFamilyId": "ancient-wonders-seven-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-15",
+  "timezone": "UTC",
+  "theme": "古代世界七大奇觀分類",
+  "items": [
+    {
+      "itemId": "ancient-wonders-seven-4",
+      "label": "巴比倫空中花園"
+    },
+    {
+      "itemId": "ancient-wonders-seven-8",
+      "label": "雅典帕德嫩神廟"
+    },
+    {
+      "itemId": "ancient-wonders-seven-1",
+      "label": "吉薩大金字塔（埃及）"
+    },
+    {
+      "itemId": "ancient-wonders-seven-6",
+      "label": "亞歷山大港法羅斯燈塔"
+    },
+    {
+      "itemId": "ancient-wonders-seven-10",
+      "label": "羅馬萬神殿"
+    },
+    {
+      "itemId": "ancient-wonders-seven-2",
+      "label": "羅得島太陽神銅像"
+    },
+    {
+      "itemId": "ancient-wonders-seven-7",
+      "label": "以弗所阿耳忒彌斯神廟"
+    },
+    {
+      "itemId": "ancient-wonders-seven-5",
+      "label": "哈利卡納蘇斯摩索拉斯陵墓"
+    },
+    {
+      "itemId": "ancient-wonders-seven-9",
+      "label": "德爾菲阿波羅神廟"
+    },
+    {
+      "itemId": "ancient-wonders-seven-3",
+      "label": "奧林匹亞宙斯巨像"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "古典奇觀與神廟的類型及現存狀態（唯一現存古奇觀金字塔、古代巨像、花園／陵墓／燈塔或希臘羅馬神廟）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "唯一現存古代奇觀",
+        "capacity": 1,
+        "itemIds": [
+          "ancient-wonders-seven-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "古代巨型雕像",
+        "capacity": 2,
+        "itemIds": [
+          "ancient-wonders-seven-2",
+          "ancient-wonders-seven-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "花園、陵墓與燈塔奇觀",
+        "capacity": 3,
+        "itemIds": [
+          "ancient-wonders-seven-4",
+          "ancient-wonders-seven-5",
+          "ancient-wonders-seven-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "希臘與羅馬神廟",
+        "capacity": 4,
+        "itemIds": [
+          "ancient-wonders-seven-7",
+          "ancient-wonders-seven-8",
+          "ancient-wonders-seven-9",
+          "ancient-wonders-seven-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依古蹟類型分類：唯一現存七大奇觀（吉薩大金字塔）、古代巨型雕像（羅得島太陽神銅像、奧林匹亞宙斯神像）、花園／陵墓與燈塔（巴比倫空中花園、摩索拉斯陵墓、亞歷山大燈塔）與希臘羅馬神廟（以弗所阿耳忒彌斯神廟、雅典帕德嫩神廟、德爾菲阿波羅神廟、羅馬萬神殿）。",
+  "sources": [
+    {
+      "title": "Britannica: Seven Wonders of the World",
+      "url": "https://www.britannica.com/topic/Seven-Wonders-of-the-World",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

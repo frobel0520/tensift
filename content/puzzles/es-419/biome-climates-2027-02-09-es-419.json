@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "biome-climates-2027-02-09-es-419",
+  "puzzleFamilyId": "biome-climates-001",
+  "locale": "es-419",
+  "publishDate": "2027-02-09",
+  "timezone": "UTC",
+  "theme": "Biomas terrestres",
+  "items": [
+    {
+      "itemId": "biome-climates-4",
+      "label": "Sabana del Serengueti"
+    },
+    {
+      "itemId": "biome-climates-8",
+      "label": "Taiga boreal siberiana"
+    },
+    {
+      "itemId": "biome-climates-1",
+      "label": "Tundra ártica de permafrost"
+    },
+    {
+      "itemId": "biome-climates-6",
+      "label": "Pradera norteamericana"
+    },
+    {
+      "itemId": "biome-climates-10",
+      "label": "Bosque lluvioso templado"
+    },
+    {
+      "itemId": "biome-climates-2",
+      "label": "Desierto del Sahara"
+    },
+    {
+      "itemId": "biome-climates-7",
+      "label": "Selva tropical amazónica"
+    },
+    {
+      "itemId": "biome-climates-5",
+      "label": "Estepa euroasiática"
+    },
+    {
+      "itemId": "biome-climates-9",
+      "label": "Bosque templado caducifolio"
+    },
+    {
+      "itemId": "biome-climates-3",
+      "label": "Desierto de Atacama"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Gran categoría de bioma terrestre",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Tundra polar",
+        "capacity": 1,
+        "itemIds": [
+          "biome-climates-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Desiertos áridos",
+        "capacity": 2,
+        "itemIds": [
+          "biome-climates-2",
+          "biome-climates-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Pastizales y sabanas",
+        "capacity": 3,
+        "itemIds": [
+          "biome-climates-4",
+          "biome-climates-5",
+          "biome-climates-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Biomas forestales",
+        "capacity": 4,
+        "itemIds": [
+          "biome-climates-7",
+          "biome-climates-8",
+          "biome-climates-9",
+          "biome-climates-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por bioma terrestre: tundra polar (tundra ártica), desiertos áridos (Sahara, Atacama), pastizales y sabanas (Serengueti, estepa euroasiática, pradera) y bosques (selva amazónica, taiga siberiana, bosque templado caducifolio, bosque lluvioso templado).",
+  "sources": [
+    {
+      "title": "NASA Earth Observatory: Biomes",
+      "url": "https://earthobservatory.nasa.gov/biome",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.35
+  },
+  "status": "scheduled"
+}

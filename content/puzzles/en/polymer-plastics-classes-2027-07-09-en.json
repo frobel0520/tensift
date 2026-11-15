@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "polymer-plastics-classes-2027-07-09-en",
+  "puzzleFamilyId": "polymer-plastics-classes-001",
+  "locale": "en",
+  "publishDate": "2027-07-09",
+  "timezone": "UTC",
+  "theme": "Polymers & Plastics",
+  "items": [
+    {
+      "itemId": "polymer-plastics-classes-4",
+      "label": "Polyethylene (PE)"
+    },
+    {
+      "itemId": "polymer-plastics-classes-8",
+      "label": "Polyamide (Nylon)"
+    },
+    {
+      "itemId": "polymer-plastics-classes-1",
+      "label": "Natural Rubber (Polyisoprene)"
+    },
+    {
+      "itemId": "polymer-plastics-classes-6",
+      "label": "Polystyrene (PS)"
+    },
+    {
+      "itemId": "polymer-plastics-classes-10",
+      "label": "PTFE (Teflon)"
+    },
+    {
+      "itemId": "polymer-plastics-classes-2",
+      "label": "Epoxy Resin"
+    },
+    {
+      "itemId": "polymer-plastics-classes-7",
+      "label": "Polycarbonate (PC)"
+    },
+    {
+      "itemId": "polymer-plastics-classes-5",
+      "label": "Polypropylene (PP)"
+    },
+    {
+      "itemId": "polymer-plastics-classes-9",
+      "label": "PEEK"
+    },
+    {
+      "itemId": "polymer-plastics-classes-3",
+      "label": "Phenolic Resin (Bakelite)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Thermal/mechanical polymer class (Elastomer, Thermoset, Commodity Thermoplastic, or Engineering Thermoplastic)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Elastomer",
+        "capacity": 1,
+        "itemIds": [
+          "polymer-plastics-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Thermosets",
+        "capacity": 2,
+        "itemIds": [
+          "polymer-plastics-classes-2",
+          "polymer-plastics-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Commodity Thermoplastics",
+        "capacity": 3,
+        "itemIds": [
+          "polymer-plastics-classes-4",
+          "polymer-plastics-classes-5",
+          "polymer-plastics-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Engineering Thermoplastics",
+        "capacity": 4,
+        "itemIds": [
+          "polymer-plastics-classes-7",
+          "polymer-plastics-classes-8",
+          "polymer-plastics-classes-9",
+          "polymer-plastics-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by polymer class: Elastomer (Natural Rubber), Thermosets (Epoxy Resin, Phenolic Bakelite), Commodity Thermoplastics (Polyethylene PE, Polypropylene PP, Polystyrene PS), and Engineering Thermoplastics (Polycarbonate PC, Polyamide Nylon, PEEK, PTFE Teflon).",
+  "sources": [
+    {
+      "title": "IUPAC: Polymer Nomenclature",
+      "url": "https://iupac.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

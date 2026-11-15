@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "rivers-drainage-basins-2027-03-15-es-419",
+  "puzzleFamilyId": "rivers-drainage-basins-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-15",
+  "timezone": "UTC",
+  "theme": "Ríos por cuenca de desembocadura",
+  "items": [
+    {
+      "itemId": "rivers-drainage-basins-4",
+      "label": "Río Nilo"
+    },
+    {
+      "itemId": "rivers-drainage-basins-8",
+      "label": "Río Congo"
+    },
+    {
+      "itemId": "rivers-drainage-basins-1",
+      "label": "Río Lena"
+    },
+    {
+      "itemId": "rivers-drainage-basins-6",
+      "label": "Río Po"
+    },
+    {
+      "itemId": "rivers-drainage-basins-10",
+      "label": "Río Paraná"
+    },
+    {
+      "itemId": "rivers-drainage-basins-2",
+      "label": "Río Ganges"
+    },
+    {
+      "itemId": "rivers-drainage-basins-7",
+      "label": "Río Amazonas"
+    },
+    {
+      "itemId": "rivers-drainage-basins-5",
+      "label": "Río Ródano"
+    },
+    {
+      "itemId": "rivers-drainage-basins-9",
+      "label": "Río Misisipi"
+    },
+    {
+      "itemId": "rivers-drainage-basins-3",
+      "label": "Río Indo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Océano o mar en el que desemboca cada río",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Océano Ártico",
+        "capacity": 1,
+        "itemIds": [
+          "rivers-drainage-basins-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Océano Índico",
+        "capacity": 2,
+        "itemIds": [
+          "rivers-drainage-basins-2",
+          "rivers-drainage-basins-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Mar Mediterráneo",
+        "capacity": 3,
+        "itemIds": [
+          "rivers-drainage-basins-4",
+          "rivers-drainage-basins-5",
+          "rivers-drainage-basins-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Océano Atlántico",
+        "capacity": 4,
+        "itemIds": [
+          "rivers-drainage-basins-7",
+          "rivers-drainage-basins-8",
+          "rivers-drainage-basins-9",
+          "rivers-drainage-basins-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por desembocadura: Ártico (Lena), Índico (Ganges, Indo), Mediterráneo (Nilo, Ródano, Po) y Atlántico (Amazonas, Congo, Misisipi, Paraná).",
+  "sources": [
+    {
+      "title": "Britannica: Major Rivers of the World",
+      "url": "https://www.britannica.com/science/river",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

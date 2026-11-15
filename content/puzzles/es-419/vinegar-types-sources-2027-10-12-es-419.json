@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vinegar-types-sources-2027-10-12-es-419",
+  "puzzleFamilyId": "vinegar-types-sources-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-12",
+  "timezone": "UTC",
+  "theme": "Vinagres culinarios por materia prima",
+  "items": [
+    {
+      "itemId": "vinegar-types-sources-4",
+      "label": "Vinagre de sidra de manzana"
+    },
+    {
+      "itemId": "vinegar-types-sources-8",
+      "label": "Vinagre de vino blanco"
+    },
+    {
+      "itemId": "vinegar-types-sources-1",
+      "label": "Vinagre blanco destilado"
+    },
+    {
+      "itemId": "vinegar-types-sources-6",
+      "label": "Vinagre de caqui"
+    },
+    {
+      "itemId": "vinegar-types-sources-10",
+      "label": "Vinagre balsámico de Módena"
+    },
+    {
+      "itemId": "vinegar-types-sources-2",
+      "label": "Vinagre de arroz japonés"
+    },
+    {
+      "itemId": "vinegar-types-sources-7",
+      "label": "Vinagre de vino tinto"
+    },
+    {
+      "itemId": "vinegar-types-sources-5",
+      "label": "Vinagre de coco"
+    },
+    {
+      "itemId": "vinegar-types-sources-9",
+      "label": "Vinagre de jerez"
+    },
+    {
+      "itemId": "vinegar-types-sources-3",
+      "label": "Vinagre negro Chinkiang"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Base fermentable de cada tipo de vinagre",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Etanol destilado",
+        "capacity": 1,
+        "itemIds": [
+          "vinegar-types-sources-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Vinagres de arroz",
+        "capacity": 2,
+        "itemIds": [
+          "vinegar-types-sources-2",
+          "vinegar-types-sources-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Vinagres de otras frutas",
+        "capacity": 3,
+        "itemIds": [
+          "vinegar-types-sources-4",
+          "vinegar-types-sources-5",
+          "vinegar-types-sources-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Vinagres de uva y vino",
+        "capacity": 4,
+        "itemIds": [
+          "vinegar-types-sources-7",
+          "vinegar-types-sources-8",
+          "vinegar-types-sources-9",
+          "vinegar-types-sources-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por materia prima: etanol destilado (vinagre blanco destilado), arroz (vinagre de arroz japonés, vinagre negro Chinkiang), frutas no uvas (vinagre de sidra de manzana, vinagre de coco, vinagre de caqui) y uva/vino (vinagre de vino tinto, vinagre de vino blanco, vinagre de jerez, vinagre balsámico de Módena).",
+  "sources": [
+    {
+      "title": "Codex Alimentarius: Regional Vinegar Standards",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

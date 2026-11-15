@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "nobel-literature-languages-2027-06-01-en",
+  "puzzleFamilyId": "nobel-literature-languages-001",
+  "locale": "en",
+  "publishDate": "2027-06-01",
+  "timezone": "UTC",
+  "theme": "Nobel Literature by Language",
+  "items": [
+    {
+      "itemId": "nobel-literature-languages-4",
+      "label": "Gabriel García Márquez"
+    },
+    {
+      "itemId": "nobel-literature-languages-8",
+      "label": "Kazuo Ishiguro"
+    },
+    {
+      "itemId": "nobel-literature-languages-1",
+      "label": "Naguib Mahfouz"
+    },
+    {
+      "itemId": "nobel-literature-languages-6",
+      "label": "Mario Vargas Llosa"
+    },
+    {
+      "itemId": "nobel-literature-languages-10",
+      "label": "Ernest Hemingway"
+    },
+    {
+      "itemId": "nobel-literature-languages-2",
+      "label": "Yasunari Kawabata"
+    },
+    {
+      "itemId": "nobel-literature-languages-7",
+      "label": "Toni Morrison"
+    },
+    {
+      "itemId": "nobel-literature-languages-5",
+      "label": "Pablo Neruda"
+    },
+    {
+      "itemId": "nobel-literature-languages-9",
+      "label": "Seamus Heaney"
+    },
+    {
+      "itemId": "nobel-literature-languages-3",
+      "label": "Kenzaburō Ōe"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Primary literary language (Arabic, Japanese, Spanish, or English) of each Nobel laureate",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Arabic",
+        "capacity": 1,
+        "itemIds": [
+          "nobel-literature-languages-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Japanese",
+        "capacity": 2,
+        "itemIds": [
+          "nobel-literature-languages-2",
+          "nobel-literature-languages-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Spanish",
+        "capacity": 3,
+        "itemIds": [
+          "nobel-literature-languages-4",
+          "nobel-literature-languages-5",
+          "nobel-literature-languages-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "English",
+        "capacity": 4,
+        "itemIds": [
+          "nobel-literature-languages-7",
+          "nobel-literature-languages-8",
+          "nobel-literature-languages-9",
+          "nobel-literature-languages-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by primary literary language: Arabic (Naguib Mahfouz), Japanese (Yasunari Kawabata, Kenzaburō Ōe), Spanish (Gabriel García Márquez, Pablo Neruda, Mario Vargas Llosa), and English (Toni Morrison, Kazuo Ishiguro, Seamus Heaney, Ernest Hemingway).",
+  "sources": [
+    {
+      "title": "Nobel Prize in Literature Laureates",
+      "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

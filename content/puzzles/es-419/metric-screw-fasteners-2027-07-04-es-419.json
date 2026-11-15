@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "metric-screw-fasteners-2027-07-04-es-419",
+  "puzzleFamilyId": "metric-screw-fasteners-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-04",
+  "timezone": "UTC",
+  "theme": "Elementos de fijación mecánica",
+  "items": [
+    {
+      "itemId": "metric-screw-fasteners-4",
+      "label": "Tuerca hexagonal"
+    },
+    {
+      "itemId": "metric-screw-fasteners-8",
+      "label": "Tornillo Allen"
+    },
+    {
+      "itemId": "metric-screw-fasteners-1",
+      "label": "Circlip (anillo de seguridad)"
+    },
+    {
+      "itemId": "metric-screw-fasteners-6",
+      "label": "Tuerca autoblocante Nyloc"
+    },
+    {
+      "itemId": "metric-screw-fasteners-10",
+      "label": "Tornillo para madera"
+    },
+    {
+      "itemId": "metric-screw-fasteners-2",
+      "label": "Arandela plana"
+    },
+    {
+      "itemId": "metric-screw-fasteners-7",
+      "label": "Perno hexagonal"
+    },
+    {
+      "itemId": "metric-screw-fasteners-5",
+      "label": "Tuerca de mariposa"
+    },
+    {
+      "itemId": "metric-screw-fasteners-9",
+      "label": "Perno de carruaje"
+    },
+    {
+      "itemId": "metric-screw-fasteners-3",
+      "label": "Arandela de presión"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase funcional de cada elemento de fijación",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Anillo de retención",
+        "capacity": 1,
+        "itemIds": [
+          "metric-screw-fasteners-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Arandelas",
+        "capacity": 2,
+        "itemIds": [
+          "metric-screw-fasteners-2",
+          "metric-screw-fasteners-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Tuercas",
+        "capacity": 3,
+        "itemIds": [
+          "metric-screw-fasteners-4",
+          "metric-screw-fasteners-5",
+          "metric-screw-fasteners-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Pernos y tornillos",
+        "capacity": 4,
+        "itemIds": [
+          "metric-screw-fasteners-7",
+          "metric-screw-fasteners-8",
+          "metric-screw-fasteners-9",
+          "metric-screw-fasteners-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase: anillo de retención (circlip), arandelas (plana, de presión), tuercas (hexagonal, de mariposa, autoblocante) y pernos/tornillos (perno hexagonal, Allen, carruaje, tirafondo).",
+  "sources": [
+    {
+      "title": "ISO: Fasteners Standards (TC 2)",
+      "url": "https://www.iso.org/committee/45512.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "fermented-foods-microbes-001",
+  "theme": "Fermented Foods by Process",
+  "publishDate": "2027-09-06",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "fermented-foods-microbes-1",
+        "rivalGroupId": "group-3",
+        "risk": "Vinegar starts from fermented apple cider.",
+        "resolution": "Vinegar’s defining final step is Acetobacter oxidizing ethanol into acetic acid (group-1), not yeast alcohol production (group-3)."
+      },
+      {
+        "itemId": "fermented-foods-microbes-7",
+        "rivalGroupId": "group-1",
+        "risk": "Sauerkraut is sour and acidic like vinegar.",
+        "resolution": "Sauerkraut’s acidity comes from lactic acid bacteria (group-4), not acetic acid bacteria (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

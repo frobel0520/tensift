@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "rugby-scoring-actions-2027-08-27-en",
+  "puzzleFamilyId": "rugby-scoring-actions-001",
+  "locale": "en",
+  "publishDate": "2027-08-27",
+  "timezone": "UTC",
+  "theme": "Rugby Union Scoring & Phases",
+  "items": [
+    {
+      "itemId": "rugby-scoring-actions-4",
+      "label": "Scrum"
+    },
+    {
+      "itemId": "rugby-scoring-actions-8",
+      "label": "Maul"
+    },
+    {
+      "itemId": "rugby-scoring-actions-1",
+      "label": "Try (5 Points)"
+    },
+    {
+      "itemId": "rugby-scoring-actions-6",
+      "label": "Halfway Kick-Off"
+    },
+    {
+      "itemId": "rugby-scoring-actions-10",
+      "label": "Offload Pass"
+    },
+    {
+      "itemId": "rugby-scoring-actions-2",
+      "label": "Conversion Kick (2 pts)"
+    },
+    {
+      "itemId": "rugby-scoring-actions-7",
+      "label": "Ruck"
+    },
+    {
+      "itemId": "rugby-scoring-actions-5",
+      "label": "Lineout"
+    },
+    {
+      "itemId": "rugby-scoring-actions-9",
+      "label": "Tackle"
+    },
+    {
+      "itemId": "rugby-scoring-actions-3",
+      "label": "Penalty Goal (3 pts)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Rugby union category (5-Point Try, 2/3-Point Kicks, Set-Piece Restarts, or Open-Play Phases)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "5-Point Touchdown",
+        "capacity": 1,
+        "itemIds": [
+          "rugby-scoring-actions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Kicking Scores (2–3 pts)",
+        "capacity": 2,
+        "itemIds": [
+          "rugby-scoring-actions-2",
+          "rugby-scoring-actions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Set-Piece Restarts",
+        "capacity": 3,
+        "itemIds": [
+          "rugby-scoring-actions-4",
+          "rugby-scoring-actions-5",
+          "rugby-scoring-actions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Open-Play Actions",
+        "capacity": 4,
+        "itemIds": [
+          "rugby-scoring-actions-7",
+          "rugby-scoring-actions-8",
+          "rugby-scoring-actions-9",
+          "rugby-scoring-actions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by rugby category: 5-Point Score (Try), Kicking Scores (Conversion Kick, Penalty Goal), Set-Piece Restarts (Scrum, Lineout, Kick-off), and Open-Play Actions (Ruck, Maul, Tackle, Offload).",
+  "sources": [
+    {
+      "title": "World Rugby Laws of the Game",
+      "url": "https://www.world.rugby/the-game/laws/home",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

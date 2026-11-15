@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "jazz-subgenres-eras-2027-05-07-zh-hant",
+  "puzzleFamilyId": "jazz-subgenres-eras-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-07",
+  "timezone": "UTC",
+  "theme": "爵士樂流派演進時期",
+  "items": [
+    {
+      "itemId": "jazz-subgenres-eras-4",
+      "label": "咆勃爵士（Bebop）"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-8",
+      "label": "調式爵士"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-1",
+      "label": "散拍音樂（Ragtime）"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-6",
+      "label": "硬咆勃爵士"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-10",
+      "label": "靈魂爵士"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-2",
+      "label": "紐奧良迪克西蘭爵士"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-7",
+      "label": "自由爵士"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-5",
+      "label": "酷派爵士"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-9",
+      "label": "融合爵士"
+    },
+    {
+      "itemId": "jazz-subgenres-eras-3",
+      "label": "大樂團搖擺樂"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各爵士與前身流派興起的主要年代（1920 前、1920–30 年代、1940–50 年代或 1960–70 年代）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "1920 年前先驅",
+        "capacity": 1,
+        "itemIds": [
+          "jazz-subgenres-eras-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "1920–1930 年代",
+        "capacity": 2,
+        "itemIds": [
+          "jazz-subgenres-eras-2",
+          "jazz-subgenres-eras-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "1940–1950 年代",
+        "capacity": 3,
+        "itemIds": [
+          "jazz-subgenres-eras-4",
+          "jazz-subgenres-eras-5",
+          "jazz-subgenres-eras-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "1960–1970 年代",
+        "capacity": 4,
+        "itemIds": [
+          "jazz-subgenres-eras-7",
+          "jazz-subgenres-eras-8",
+          "jazz-subgenres-eras-9",
+          "jazz-subgenres-eras-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依興起年代分類：1920 年前（散拍音樂 Ragtime）、1920–30 年代（紐奧良迪克西蘭、大樂團搖擺樂）、1940–50 年代（咆勃 Bebop、酷派爵士、硬咆勃）與 1960–70 年代（自由爵士、調式爵士、融合爵士、靈魂爵士）。",
+  "sources": [
+    {
+      "title": "Smithsonian: Jazz History",
+      "url": "https://americanhistory.si.edu/explore/stories/jazz",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

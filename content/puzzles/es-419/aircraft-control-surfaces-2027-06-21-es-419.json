@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "aircraft-control-surfaces-2027-06-21-es-419",
+  "puzzleFamilyId": "aircraft-control-surfaces-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-21",
+  "timezone": "UTC",
+  "theme": "Superficies de control aeronáutico",
+  "items": [
+    {
+      "itemId": "aircraft-control-surfaces-4",
+      "label": "Alerones (alabeo)"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-8",
+      "label": "Estabilizador vertical"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-1",
+      "label": "Acelerador de motor"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-6",
+      "label": "Timón de dirección (guiñada)"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-10",
+      "label": "Winglet"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-2",
+      "label": "Flaps"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-7",
+      "label": "Estabilizador horizontal"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-5",
+      "label": "Timón de profundidad (cabeceo)"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-9",
+      "label": "Aleta compensadora (trim)"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-3",
+      "label": "Spoilers / aerofrenos"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Función aerodinámica de cada control o superficie",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Control de empuje",
+        "capacity": 1,
+        "itemIds": [
+          "aircraft-control-surfaces-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Dispositivos secundarios",
+        "capacity": 2,
+        "itemIds": [
+          "aircraft-control-surfaces-2",
+          "aircraft-control-surfaces-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Superficies primarias",
+        "capacity": 3,
+        "itemIds": [
+          "aircraft-control-surfaces-4",
+          "aircraft-control-surfaces-5",
+          "aircraft-control-surfaces-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Estabilizadores y compensación",
+        "capacity": 4,
+        "itemIds": [
+          "aircraft-control-surfaces-7",
+          "aircraft-control-surfaces-8",
+          "aircraft-control-surfaces-9",
+          "aircraft-control-surfaces-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por función: empuje (acelerador), hipersustentadores/frenos (flaps, spoilers), control primario de 3 ejes (alerones, timón de profundidad, timón de dirección) y estabilizadores/compensadores (estabilizador horizontal, vertical, aleta compensadora, winglet).",
+  "sources": [
+    {
+      "title": "NASA: Airplane Parts and Function",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/airplane-parts-function/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

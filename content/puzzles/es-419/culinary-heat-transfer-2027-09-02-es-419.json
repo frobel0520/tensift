@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "culinary-heat-transfer-2027-09-02-es-419",
+  "puzzleFamilyId": "culinary-heat-transfer-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-02",
+  "timezone": "UTC",
+  "theme": "Métodos de cocción por transferencia de calor",
+  "items": [
+    {
+      "itemId": "culinary-heat-transfer-4",
+      "label": "Horneado"
+    },
+    {
+      "itemId": "culinary-heat-transfer-8",
+      "label": "Escalfado (poach)"
+    },
+    {
+      "itemId": "culinary-heat-transfer-1",
+      "label": "Cocción en microondas"
+    },
+    {
+      "itemId": "culinary-heat-transfer-6",
+      "label": "Sellado en sartén"
+    },
+    {
+      "itemId": "culinary-heat-transfer-10",
+      "label": "Braseado"
+    },
+    {
+      "itemId": "culinary-heat-transfer-2",
+      "label": "Gratinado / broil"
+    },
+    {
+      "itemId": "culinary-heat-transfer-7",
+      "label": "Hervido (100 °C)"
+    },
+    {
+      "itemId": "culinary-heat-transfer-5",
+      "label": "Fritura profunda"
+    },
+    {
+      "itemId": "culinary-heat-transfer-9",
+      "label": "Cocción al vapor"
+    },
+    {
+      "itemId": "culinary-heat-transfer-3",
+      "label": "Asado a la parrilla"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Medio principal de transferencia de calor en cada técnica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Calentamiento por microondas",
+        "capacity": 1,
+        "itemIds": [
+          "culinary-heat-transfer-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Calor radiante directo",
+        "capacity": 2,
+        "itemIds": [
+          "culinary-heat-transfer-2",
+          "culinary-heat-transfer-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Aire seco y grasa caliente",
+        "capacity": 3,
+        "itemIds": [
+          "culinary-heat-transfer-4",
+          "culinary-heat-transfer-5",
+          "culinary-heat-transfer-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Calor húmedo (agua y vapor)",
+        "capacity": 4,
+        "itemIds": [
+          "culinary-heat-transfer-7",
+          "culinary-heat-transfer-8",
+          "culinary-heat-transfer-9",
+          "culinary-heat-transfer-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por transferencia de calor: calentamiento dieléctrico (microondas), calor radiante directo (gratinado/broil, parrilla a la brasa), aire seco/grasa (horneado, fritura profunda, sellado en sartén) y calor húmedo con agua/vapor (hervido, escalfado/poach, cocción al vapor, braseado).",
+  "sources": [
+    {
+      "title": "USDA Food Safety & Cooking Methods",
+      "url": "https://www.fsis.usda.gov/food-safety",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

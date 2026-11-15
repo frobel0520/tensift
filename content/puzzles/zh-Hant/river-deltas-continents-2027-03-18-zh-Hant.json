@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "river-deltas-continents-2027-03-18-zh-hant",
+  "puzzleFamilyId": "river-deltas-continents-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-18",
+  "timezone": "UTC",
+  "theme": "世界著名河口三角洲",
+  "items": [
+    {
+      "itemId": "river-deltas-continents-4",
+      "label": "多瑙河三角洲"
+    },
+    {
+      "itemId": "river-deltas-continents-8",
+      "label": "湄公河三角洲"
+    },
+    {
+      "itemId": "river-deltas-continents-1",
+      "label": "奧里諾科河三角洲"
+    },
+    {
+      "itemId": "river-deltas-continents-6",
+      "label": "窩瓦河三角洲"
+    },
+    {
+      "itemId": "river-deltas-continents-10",
+      "label": "長江三角洲"
+    },
+    {
+      "itemId": "river-deltas-continents-2",
+      "label": "尼羅河三角洲"
+    },
+    {
+      "itemId": "river-deltas-continents-7",
+      "label": "恆河—布拉馬普特拉河三角洲"
+    },
+    {
+      "itemId": "river-deltas-continents-5",
+      "label": "萊茵—馬斯—斯海爾德三角洲"
+    },
+    {
+      "itemId": "river-deltas-continents-9",
+      "label": "勒拿河三角洲"
+    },
+    {
+      "itemId": "river-deltas-continents-3",
+      "label": "尼日河三角洲"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各河口三角洲所在的洲別（南美洲、非洲、歐洲或亞洲）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "南美洲",
+        "capacity": 1,
+        "itemIds": [
+          "river-deltas-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "非洲",
+        "capacity": 2,
+        "itemIds": [
+          "river-deltas-continents-2",
+          "river-deltas-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "歐洲",
+        "capacity": 3,
+        "itemIds": [
+          "river-deltas-continents-4",
+          "river-deltas-continents-5",
+          "river-deltas-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "亞洲",
+        "capacity": 4,
+        "itemIds": [
+          "river-deltas-continents-7",
+          "river-deltas-continents-8",
+          "river-deltas-continents-9",
+          "river-deltas-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依所在大洲分類：南美洲（奧里諾科河三角洲）、非洲（尼羅河三角洲、尼日河三角洲）、歐洲（多瑙河三角洲、萊茵—馬斯—斯海爾德三角洲、窩瓦河三角洲）與亞洲（恆河—布拉馬普特拉河三角洲、湄公河三角洲、勒拿河三角洲、長江三角洲）。",
+  "sources": [
+    {
+      "title": "NASA Earth Observatory: River Deltas",
+      "url": "https://earthobservatory.nasa.gov/features/WorldOfChange",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

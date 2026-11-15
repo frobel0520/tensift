@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "rice-cultivar-types-2027-10-20-en",
+  "puzzleFamilyId": "rice-cultivar-types-001",
+  "locale": "en",
+  "publishDate": "2027-10-20",
+  "timezone": "UTC",
+  "theme": "World Rice Varieties",
+  "items": [
+    {
+      "itemId": "rice-cultivar-types-4",
+      "label": "Italian Arborio"
+    },
+    {
+      "itemId": "rice-cultivar-types-8",
+      "label": "Thai Jasmine (Hom Mali)"
+    },
+    {
+      "itemId": "rice-cultivar-types-1",
+      "label": "Black Forbidden Rice"
+    },
+    {
+      "itemId": "rice-cultivar-types-6",
+      "label": "Japanese Koshihikari"
+    },
+    {
+      "itemId": "rice-cultivar-types-10",
+      "label": "Parboiled Converted Rice"
+    },
+    {
+      "itemId": "rice-cultivar-types-2",
+      "label": "Thai Glutinous Sticky Rice"
+    },
+    {
+      "itemId": "rice-cultivar-types-7",
+      "label": "Indian Basmati"
+    },
+    {
+      "itemId": "rice-cultivar-types-5",
+      "label": "Italian Carnaroli"
+    },
+    {
+      "itemId": "rice-cultivar-types-9",
+      "label": "Long-Grain White Rice"
+    },
+    {
+      "itemId": "rice-cultivar-types-3",
+      "label": "Japanese Mochigome"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Rice grain & culinary class (Pigmented Black Rice, Glutinous Sticky Rices, Short/Medium Japonica & Risotto Rices, or Long-Grain Indica & Parboiled Rices)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Pigmented Black Rice",
+        "capacity": 1,
+        "itemIds": [
+          "rice-cultivar-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Glutinous Sticky Rices",
+        "capacity": 2,
+        "itemIds": [
+          "rice-cultivar-types-2",
+          "rice-cultivar-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Short/Medium Japonica & Risotto",
+        "capacity": 3,
+        "itemIds": [
+          "rice-cultivar-types-4",
+          "rice-cultivar-types-5",
+          "rice-cultivar-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Long-Grain Indica & Parboiled",
+        "capacity": 4,
+        "itemIds": [
+          "rice-cultivar-types-7",
+          "rice-cultivar-types-8",
+          "rice-cultivar-types-9",
+          "rice-cultivar-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by rice class: Anthocyanin Pigmented (Black Forbidden Rice), Waxy Glutinous Sticky Rice (Thai Glutinous Rice, Japanese Mochigome), Plump Short/Medium Japonica (Arborio Risotto, Carnaroli Risotto, Japanese Koshihikari), and Long-Grain Non-Sticky Indica/Parboiled (Indian Basmati, Thai Jasmine, Long-Grain White, Parboiled Rice).",
+  "sources": [
+    {
+      "title": "IRRI: International Rice Research Institute",
+      "url": "https://www.irri.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

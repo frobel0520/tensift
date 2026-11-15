@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "food-borne-pathogens-2027-10-11-en",
+  "puzzleFamilyId": "food-borne-pathogens-001",
+  "locale": "en",
+  "publishDate": "2027-10-11",
+  "timezone": "UTC",
+  "theme": "Food Safety Hazards",
+  "items": [
+    {
+      "itemId": "food-borne-pathogens-4",
+      "label": "Aflatoxin Mycotoxin"
+    },
+    {
+      "itemId": "food-borne-pathogens-8",
+      "label": "Listeria monocytogenes"
+    },
+    {
+      "itemId": "food-borne-pathogens-1",
+      "label": "Peanut Protein Allergen"
+    },
+    {
+      "itemId": "food-borne-pathogens-6",
+      "label": "Sanitizer Residue"
+    },
+    {
+      "itemId": "food-borne-pathogens-10",
+      "label": "Clostridium botulinum"
+    },
+    {
+      "itemId": "food-borne-pathogens-2",
+      "label": "Broken Glass Shard"
+    },
+    {
+      "itemId": "food-borne-pathogens-7",
+      "label": "Salmonella enterica"
+    },
+    {
+      "itemId": "food-borne-pathogens-5",
+      "label": "Pesticide Residue"
+    },
+    {
+      "itemId": "food-borne-pathogens-9",
+      "label": "Norovirus"
+    },
+    {
+      "itemId": "food-borne-pathogens-3",
+      "label": "Metal Wire Fragment"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "HACCP hazard type (Food Allergen, Physical Foreign Objects, Chemical Toxins/Contaminants, or Biological Pathogens)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Food Allergen",
+        "capacity": 1,
+        "itemIds": [
+          "food-borne-pathogens-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Physical Hazards",
+        "capacity": 2,
+        "itemIds": [
+          "food-borne-pathogens-2",
+          "food-borne-pathogens-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Chemical Hazards",
+        "capacity": 3,
+        "itemIds": [
+          "food-borne-pathogens-4",
+          "food-borne-pathogens-5",
+          "food-borne-pathogens-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Biological Pathogens",
+        "capacity": 4,
+        "itemIds": [
+          "food-borne-pathogens-7",
+          "food-borne-pathogens-8",
+          "food-borne-pathogens-9",
+          "food-borne-pathogens-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by HACCP hazard: Major Food Allergen (Peanut Protein), Physical Hazards (Broken Glass Shard, Metal Wire Fragment), Chemical Hazards (Aflatoxin Mold Toxin, Pesticide Residue, Cleaning Sanitizer Residue), and Biological Pathogens (Salmonella, Listeria monocytogenes, Norovirus, Clostridium botulinum).",
+  "sources": [
+    {
+      "title": "FDA HACCP Principles & Application",
+      "url": "https://www.fda.gov/food/hazard-analysis-critical-control-point-haccp/haccp-principles-application-guidelines",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.4
+  },
+  "status": "scheduled"
+}

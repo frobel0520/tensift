@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "coffee-brewing-methods-2027-09-12-es-419",
+  "puzzleFamilyId": "coffee-brewing-methods-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-12",
+  "timezone": "UTC",
+  "theme": "Métodos de extracción de café",
+  "items": [
+    {
+      "itemId": "coffee-brewing-methods-4",
+      "label": "Prensa francesa"
+    },
+    {
+      "itemId": "coffee-brewing-methods-8",
+      "label": "Chemex"
+    },
+    {
+      "itemId": "coffee-brewing-methods-1",
+      "label": "Cafetera moka italiana"
+    },
+    {
+      "itemId": "coffee-brewing-methods-6",
+      "label": "Café turco en cezve"
+    },
+    {
+      "itemId": "coffee-brewing-methods-10",
+      "label": "Cafetera de goteo automático"
+    },
+    {
+      "itemId": "coffee-brewing-methods-2",
+      "label": "Máquina espresso de bomba"
+    },
+    {
+      "itemId": "coffee-brewing-methods-7",
+      "label": "Hario V60"
+    },
+    {
+      "itemId": "coffee-brewing-methods-5",
+      "label": "Cold brew por inmersión"
+    },
+    {
+      "itemId": "coffee-brewing-methods-9",
+      "label": "Kalita Wave"
+    },
+    {
+      "itemId": "coffee-brewing-methods-3",
+      "label": "Espresso de palanca"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Mecanismo físico de extracción de cada cafetera",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Presión de vapor en estufa",
+        "capacity": 1,
+        "itemIds": [
+          "coffee-brewing-methods-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Espresso a alta presión",
+        "capacity": 2,
+        "itemIds": [
+          "coffee-brewing-methods-2",
+          "coffee-brewing-methods-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Inmersión total",
+        "capacity": 3,
+        "itemIds": [
+          "coffee-brewing-methods-4",
+          "coffee-brewing-methods-5",
+          "coffee-brewing-methods-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Goteo por gravedad (pour-over)",
+        "capacity": 4,
+        "itemIds": [
+          "coffee-brewing-methods-7",
+          "coffee-brewing-methods-8",
+          "coffee-brewing-methods-9",
+          "coffee-brewing-methods-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por física de extracción: presión de vapor (cafetera moka), alta presión de ~9 bares (máquina espresso de bomba, espresso de palanca), inmersión total (prensa francesa, cold brew por inmersión, ibrik turco) y goteo por gravedad (V60, Chemex, Kalita Wave, cafetera de goteo).",
+  "sources": [
+    {
+      "title": "Specialty Coffee Association: Brewing Standards",
+      "url": "https://sca.coffee/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

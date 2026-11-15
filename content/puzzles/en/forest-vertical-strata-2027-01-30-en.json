@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "forest-vertical-strata-2027-01-30-en",
+  "puzzleFamilyId": "forest-vertical-strata-001",
+  "locale": "en",
+  "publishDate": "2027-01-30",
+  "timezone": "UTC",
+  "theme": "Rainforest Layers",
+  "items": [
+    {
+      "itemId": "forest-vertical-strata-4",
+      "label": "Red-eyed tree frog"
+    },
+    {
+      "itemId": "forest-vertical-strata-8",
+      "label": "Baird’s tapir"
+    },
+    {
+      "itemId": "forest-vertical-strata-1",
+      "label": "Harpy eagle perch"
+    },
+    {
+      "itemId": "forest-vertical-strata-6",
+      "label": "Shade-loving heliconia"
+    },
+    {
+      "itemId": "forest-vertical-strata-10",
+      "label": "Decomposing leaf fungi"
+    },
+    {
+      "itemId": "forest-vertical-strata-2",
+      "label": "Three-toed sloth"
+    },
+    {
+      "itemId": "forest-vertical-strata-7",
+      "label": "Leafcutter ant trail"
+    },
+    {
+      "itemId": "forest-vertical-strata-5",
+      "label": "Blue morpho butterfly"
+    },
+    {
+      "itemId": "forest-vertical-strata-9",
+      "label": "Giant anteater"
+    },
+    {
+      "itemId": "forest-vertical-strata-3",
+      "label": "Keel-billed toucan"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Vertical stratum of a tropical rainforest",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Emergent layer (tallest crowns)",
+        "capacity": 1,
+        "itemIds": [
+          "forest-vertical-strata-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Canopy layer",
+        "capacity": 2,
+        "itemIds": [
+          "forest-vertical-strata-2",
+          "forest-vertical-strata-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Understory layer",
+        "capacity": 3,
+        "itemIds": [
+          "forest-vertical-strata-4",
+          "forest-vertical-strata-5",
+          "forest-vertical-strata-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Forest floor",
+        "capacity": 4,
+        "itemIds": [
+          "forest-vertical-strata-7",
+          "forest-vertical-strata-8",
+          "forest-vertical-strata-9",
+          "forest-vertical-strata-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by rainforest stratum from top to bottom: emergent layer (harpy eagle), canopy (sloth, toucan), understory (red-eyed tree frog, blue morpho butterfly, heliconia), and forest floor (leafcutter ant, tapir, giant anteater, decomposing fungi).",
+  "sources": [
+    {
+      "title": "National Geographic: Rainforest Strata",
+      "url": "https://education.nationalgeographic.org/resource/rain-forest/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

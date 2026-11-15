@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "narrative-point-of-view-2027-06-02-en",
+  "puzzleFamilyId": "narrative-point-of-view-001",
+  "locale": "en",
+  "publishDate": "2027-06-02",
+  "timezone": "UTC",
+  "theme": "Narrative Perspective & Time",
+  "items": [
+    {
+      "itemId": "narrative-point-of-view-4",
+      "label": "Third-Person Limited"
+    },
+    {
+      "itemId": "narrative-point-of-view-8",
+      "label": "Foreshadowing"
+    },
+    {
+      "itemId": "narrative-point-of-view-1",
+      "label": "Second-Person (\"You\")"
+    },
+    {
+      "itemId": "narrative-point-of-view-6",
+      "label": "Third-Person Objective"
+    },
+    {
+      "itemId": "narrative-point-of-view-10",
+      "label": "In Medias Res"
+    },
+    {
+      "itemId": "narrative-point-of-view-2",
+      "label": "First-Person Protagonist"
+    },
+    {
+      "itemId": "narrative-point-of-view-7",
+      "label": "Flashback (Analepsis)"
+    },
+    {
+      "itemId": "narrative-point-of-view-5",
+      "label": "Third-Person Omniscient"
+    },
+    {
+      "itemId": "narrative-point-of-view-9",
+      "label": "Frame Narrative"
+    },
+    {
+      "itemId": "narrative-point-of-view-3",
+      "label": "Unreliable First-Person Narrator"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Narratological category (Second-Person, First-Person, Third-Person, or Narrative Time Structure)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Second-Person",
+        "capacity": 1,
+        "itemIds": [
+          "narrative-point-of-view-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "First-Person Modes",
+        "capacity": 2,
+        "itemIds": [
+          "narrative-point-of-view-2",
+          "narrative-point-of-view-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Third-Person Modes",
+        "capacity": 3,
+        "itemIds": [
+          "narrative-point-of-view-4",
+          "narrative-point-of-view-5",
+          "narrative-point-of-view-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Narrative Time & Framing",
+        "capacity": 4,
+        "itemIds": [
+          "narrative-point-of-view-7",
+          "narrative-point-of-view-8",
+          "narrative-point-of-view-9",
+          "narrative-point-of-view-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by narratological category: Second-Person (Second-Person Narration), First-Person Modes (First-Person Protagonist, Unreliable Narrator), Third-Person Modes (Third-Person Limited, Third-Person Omniscient, Third-Person Objective), and Narrative Time/Framing (Flashback, Foreshadowing, Frame Narrative, In Medias Res).",
+  "sources": [
+    {
+      "title": "Purdue OWL: Narrative Point of View",
+      "url": "https://owl.purdue.edu/owl/subject_specific_writing/creative_writing/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

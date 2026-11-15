@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ecological-interactions-2027-02-04-en",
+  "puzzleFamilyId": "ecological-interactions-001",
+  "locale": "en",
+  "publishDate": "2027-02-04",
+  "timezone": "UTC",
+  "theme": "Ecological Relationships",
+  "items": [
+    {
+      "itemId": "ecological-interactions-4",
+      "label": "Tick feeding on a deer"
+    },
+    {
+      "itemId": "ecological-interactions-8",
+      "label": "Clownfish and sea anemone"
+    },
+    {
+      "itemId": "ecological-interactions-1",
+      "label": "Two tree species vying for sunlight"
+    },
+    {
+      "itemId": "ecological-interactions-6",
+      "label": "Tapeworm in mammal gut"
+    },
+    {
+      "itemId": "ecological-interactions-10",
+      "label": "Fungi and algae in lichen"
+    },
+    {
+      "itemId": "ecological-interactions-2",
+      "label": "Barnacles riding on a whale"
+    },
+    {
+      "itemId": "ecological-interactions-7",
+      "label": "Honeybee pollinating clover"
+    },
+    {
+      "itemId": "ecological-interactions-5",
+      "label": "Cuckoo chick in a warbler nest"
+    },
+    {
+      "itemId": "ecological-interactions-9",
+      "label": "Rhizobium bacteria in legume roots"
+    },
+    {
+      "itemId": "ecological-interactions-3",
+      "label": "Orchid perched on a tree branch"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Net fitness effect (+/0/-) on the interacting species",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Competition (-/-)",
+        "capacity": 1,
+        "itemIds": [
+          "ecological-interactions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Commensalism (+/0)",
+        "capacity": 2,
+        "itemIds": [
+          "ecological-interactions-2",
+          "ecological-interactions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Antagonism / Parasitism (+/-)",
+        "capacity": 3,
+        "itemIds": [
+          "ecological-interactions-4",
+          "ecological-interactions-5",
+          "ecological-interactions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Mutualism (+/+)",
+        "capacity": 4,
+        "itemIds": [
+          "ecological-interactions-7",
+          "ecological-interactions-8",
+          "ecological-interactions-9",
+          "ecological-interactions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by ecological interaction: competition (-/-), commensalism (+/0), parasitism/predation (+/-), and mutualism (+/+).",
+  "sources": [
+    {
+      "title": "Nature Education: Species Interactions",
+      "url": "https://www.nature.com/scitable/knowledge/library/species-interactions-and-competition-102131429/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

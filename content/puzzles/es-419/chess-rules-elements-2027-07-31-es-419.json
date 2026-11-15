@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chess-rules-elements-2027-07-31-es-419",
+  "puzzleFamilyId": "chess-rules-elements-001",
+  "locale": "es-419",
+  "publishDate": "2027-07-31",
+  "timezone": "UTC",
+  "theme": "Reglas y piezas del ajedrez",
+  "items": [
+    {
+      "itemId": "chess-rules-elements-4",
+      "label": "Ahogado"
+    },
+    {
+      "itemId": "chess-rules-elements-8",
+      "label": "Torre"
+    },
+    {
+      "itemId": "chess-rules-elements-1",
+      "label": "Captura al paso"
+    },
+    {
+      "itemId": "chess-rules-elements-6",
+      "label": "Regla de los 50 movimientos"
+    },
+    {
+      "itemId": "chess-rules-elements-10",
+      "label": "Caballo"
+    },
+    {
+      "itemId": "chess-rules-elements-2",
+      "label": "Enroque corto (0-0)"
+    },
+    {
+      "itemId": "chess-rules-elements-7",
+      "label": "Dama"
+    },
+    {
+      "itemId": "chess-rules-elements-5",
+      "label": "Triple repetición"
+    },
+    {
+      "itemId": "chess-rules-elements-9",
+      "label": "Alfil"
+    },
+    {
+      "itemId": "chess-rules-elements-3",
+      "label": "Enroque largo (0-0-0)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría reglamentaria de cada término de ajedrez",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Captura especial de peón",
+        "capacity": 1,
+        "itemIds": [
+          "chess-rules-elements-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Movimientos de enroque",
+        "capacity": 2,
+        "itemIds": [
+          "chess-rules-elements-2",
+          "chess-rules-elements-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Condiciones de tablas",
+        "capacity": 3,
+        "itemIds": [
+          "chess-rules-elements-4",
+          "chess-rules-elements-5",
+          "chess-rules-elements-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Piezas de ajedrez",
+        "capacity": 4,
+        "itemIds": [
+          "chess-rules-elements-7",
+          "chess-rules-elements-8",
+          "chess-rules-elements-9",
+          "chess-rules-elements-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: captura especial de peón (al paso), enroques (enroque corto, enroque largo), tablas (ahogado, triple repetición, regla de 50 jugadas) y piezas (dama, torre, alfil, caballo).",
+  "sources": [
+    {
+      "title": "FIDE Laws of Chess",
+      "url": "https://handbook.fide.com/chapter/E012023",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "nobel-literature-languages-001",
+  "theme": "Nobel Literature by Language",
+  "publishDate": "2027-06-01",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "nobel-literature-languages-8",
+        "rivalGroupId": "group-2",
+        "risk": "Kazuo Ishiguro was born in Nagasaki, Japan.",
+        "resolution": "Kazuo Ishiguro writes his novels in English in the United Kingdom (group-4), unlike Japanese-language laureates Kawabata and Ōe (group-2)."
+      },
+      {
+        "itemId": "nobel-literature-languages-1",
+        "rivalGroupId": "group-3",
+        "risk": "Mahfouz won the Nobel in 1988.",
+        "resolution": "Naguib Mahfouz is the sole Arabic-language Nobel laureate in literature (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

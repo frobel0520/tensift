@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "farming-crop-rotations-2027-10-13-es-419",
+  "puzzleFamilyId": "farming-crop-rotations-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-13",
+  "timezone": "UTC",
+  "theme": "Sistemas de cultivo agrícola",
+  "items": [
+    {
+      "itemId": "farming-crop-rotations-4",
+      "label": "Huerto de manzanos"
+    },
+    {
+      "itemId": "farming-crop-rotations-8",
+      "label": "Algodón"
+    },
+    {
+      "itemId": "farming-crop-rotations-1",
+      "label": "Hidroponía NFT"
+    },
+    {
+      "itemId": "farming-crop-rotations-6",
+      "label": "Almendral"
+    },
+    {
+      "itemId": "farming-crop-rotations-10",
+      "label": "Soya extensiva"
+    },
+    {
+      "itemId": "farming-crop-rotations-2",
+      "label": "Trébol de cobertura"
+    },
+    {
+      "itemId": "farming-crop-rotations-7",
+      "label": "Maíz extensivo"
+    },
+    {
+      "itemId": "farming-crop-rotations-5",
+      "label": "Olivar"
+    },
+    {
+      "itemId": "farming-crop-rotations-9",
+      "label": "Trigo de invierno"
+    },
+    {
+      "itemId": "farming-crop-rotations-3",
+      "label": "Centeno de cobertura"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Sistema agronómico de cada cultivo o método",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Hidroponía sin suelo",
+        "capacity": 1,
+        "itemIds": [
+          "farming-crop-rotations-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Cultivos de cobertura",
+        "capacity": 2,
+        "itemIds": [
+          "farming-crop-rotations-2",
+          "farming-crop-rotations-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Huertos leñosos perennes",
+        "capacity": 3,
+        "itemIds": [
+          "farming-crop-rotations-4",
+          "farming-crop-rotations-5",
+          "farming-crop-rotations-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Cultivos anuales extensivos",
+        "capacity": 4,
+        "itemIds": [
+          "farming-crop-rotations-7",
+          "farming-crop-rotations-8",
+          "farming-crop-rotations-9",
+          "farming-crop-rotations-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por sistema: cultivo sin suelo (hidroponía NFT), cultivos de cobertura (trébol encarnado, centeno de cobertura), huertos leñosos perennes (manzanar, olivar, almendral) y cultivos anuales extensivos (maíz de campo, algodón, trigo de invierno, soya extensiva).",
+  "sources": [
+    {
+      "title": "USDA Sustainable Agriculture & Agronomy",
+      "url": "https://www.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

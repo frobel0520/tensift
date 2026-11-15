@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "human-brain-lobes-001",
+  "theme": "Brain Structures",
+  "publishDate": "2027-02-03",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "human-brain-lobes-4",
+        "rivalGroupId": "group-4",
+        "risk": "The hippocampus lies inside the medial temporal lobe.",
+        "resolution": "Anatomically, the hippocampus is a deep subcortical/limbic structure (group-3), distinct from the four outer cortical lobes (group-4)."
+      },
+      {
+        "itemId": "human-brain-lobes-1",
+        "rivalGroupId": "group-2",
+        "risk": "The cerebellum sits next to the pons.",
+        "resolution": "The cerebellum is its own hindbrain division (group-1), separate from the brainstem (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

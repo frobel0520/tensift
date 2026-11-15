@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "bread-leavening-methods-001",
+  "theme": "Bread & Dough Leavening",
+  "publishDate": "2027-09-05",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "bread-leavening-methods-1",
+        "rivalGroupId": "group-3",
+        "risk": "Choux pastry puffs up dramatically without yeast.",
+        "resolution": "Choux relies purely on trapped water turning into steam (group-1), not chemical baking soda/powder (group-3)."
+      },
+      {
+        "itemId": "bread-leavening-methods-2",
+        "rivalGroupId": "group-4",
+        "risk": "Sourdough is yeast-fermented.",
+        "resolution": "Sourdough uses a wild symbiotic lactobacilli/yeast starter culture (group-2), distinct from commercial Saccharomyces cerevisiae baker’s yeast (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

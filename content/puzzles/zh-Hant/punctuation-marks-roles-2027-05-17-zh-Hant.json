@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "punctuation-marks-roles-2027-05-17-zh-hant",
+  "puzzleFamilyId": "punctuation-marks-roles-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-17",
+  "timezone": "UTC",
+  "theme": "標點符號功能分類",
+  "items": [
+    {
+      "itemId": "punctuation-marks-roles-4",
+      "label": "逗號（,）"
+    },
+    {
+      "itemId": "punctuation-marks-roles-8",
+      "label": "方括號 [ ]"
+    },
+    {
+      "itemId": "punctuation-marks-roles-1",
+      "label": "撇號（'）"
+    },
+    {
+      "itemId": "punctuation-marks-roles-6",
+      "label": "冒號（:）"
+    },
+    {
+      "itemId": "punctuation-marks-roles-10",
+      "label": "角括號 < >"
+    },
+    {
+      "itemId": "punctuation-marks-roles-2",
+      "label": "問號（?）"
+    },
+    {
+      "itemId": "punctuation-marks-roles-7",
+      "label": "圓括號 ( )"
+    },
+    {
+      "itemId": "punctuation-marks-roles-5",
+      "label": "分號（;）"
+    },
+    {
+      "itemId": "punctuation-marks-roles-9",
+      "label": "引號 \" \""
+    },
+    {
+      "itemId": "punctuation-marks-roles-3",
+      "label": "驚嘆號（!）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各標點符號在句法中的功能（詞內撇號、句末終止符、句內分隔符或成對括弧／引號）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "詞內標記",
+        "capacity": 1,
+        "itemIds": [
+          "punctuation-marks-roles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "句末終止符號",
+        "capacity": 2,
+        "itemIds": [
+          "punctuation-marks-roles-2",
+          "punctuation-marks-roles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "句內分隔符號",
+        "capacity": 3,
+        "itemIds": [
+          "punctuation-marks-roles-4",
+          "punctuation-marks-roles-5",
+          "punctuation-marks-roles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "成對包夾符號",
+        "capacity": 4,
+        "itemIds": [
+          "punctuation-marks-roles-7",
+          "punctuation-marks-roles-8",
+          "punctuation-marks-roles-9",
+          "punctuation-marks-roles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依標點符號功能分類：詞內符號（撇號 ’）、句末終止符號（問號、驚嘆號）、句內分隔符號（逗號、分號、冒號）與成對括弧引號（圓括號、方括號、雙引號、角括號）。",
+  "sources": [
+    {
+      "title": "Chicago Manual of Style: Punctuation",
+      "url": "https://www.chicagomanualofstyle.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "river-deltas-continents-001",
+  "theme": "Major River Deltas",
+  "publishDate": "2027-03-18",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "river-deltas-continents-6",
+        "rivalGroupId": "group-4",
+        "risk": "The Volga empties into the Caspian Sea near Asia.",
+        "resolution": "The Volga flows entirely through European Russia and its delta at Astrakhan is in Europe (group-3)."
+      },
+      {
+        "itemId": "river-deltas-continents-9",
+        "rivalGroupId": "group-3",
+        "risk": "The Lena is a Russian river.",
+        "resolution": "The Lena flows across Siberia in northern Asia (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

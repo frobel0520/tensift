@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "film-camera-shots-2027-05-04-en",
+  "puzzleFamilyId": "film-camera-shots-001",
+  "locale": "en",
+  "publishDate": "2027-05-04",
+  "timezone": "UTC",
+  "theme": "Cinema Shots & Camera Moves",
+  "items": [
+    {
+      "itemId": "film-camera-shots-4",
+      "label": "Close-Up"
+    },
+    {
+      "itemId": "film-camera-shots-8",
+      "label": "Tilt"
+    },
+    {
+      "itemId": "film-camera-shots-1",
+      "label": "Establishing Shot"
+    },
+    {
+      "itemId": "film-camera-shots-6",
+      "label": "Choker Shot"
+    },
+    {
+      "itemId": "film-camera-shots-10",
+      "label": "Crane Shot"
+    },
+    {
+      "itemId": "film-camera-shots-2",
+      "label": "Medium Shot"
+    },
+    {
+      "itemId": "film-camera-shots-7",
+      "label": "Pan"
+    },
+    {
+      "itemId": "film-camera-shots-5",
+      "label": "Extreme Close-Up"
+    },
+    {
+      "itemId": "film-camera-shots-9",
+      "label": "Dolly Shot"
+    },
+    {
+      "itemId": "film-camera-shots-3",
+      "label": "Cowboy Shot"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cinematographic category (Establishing Wide Shot, Medium Framing, Close Framing, or Camera Movement)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Wide Establishing Shot",
+        "capacity": 1,
+        "itemIds": [
+          "film-camera-shots-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Medium Framing",
+        "capacity": 2,
+        "itemIds": [
+          "film-camera-shots-2",
+          "film-camera-shots-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Close-Up Framing",
+        "capacity": 3,
+        "itemIds": [
+          "film-camera-shots-4",
+          "film-camera-shots-5",
+          "film-camera-shots-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Camera Movements",
+        "capacity": 4,
+        "itemIds": [
+          "film-camera-shots-7",
+          "film-camera-shots-8",
+          "film-camera-shots-9",
+          "film-camera-shots-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by cinematographic category: Wide Establishing (Establishing Shot), Medium Framing (Medium Shot, Cowboy Shot), Close Framing (Close-Up, Extreme Close-Up, Choker), and Camera Movements (Pan, Tilt, Dolly, Crane Shot).",
+  "sources": [
+    {
+      "title": "StudioBinder: Camera Shots & Movements",
+      "url": "https://www.studiobinder.com/blog/types-of-camera-shots-sizes-in-film/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

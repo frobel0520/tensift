@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "airport-airside-markings-2027-06-24-en",
+  "puzzleFamilyId": "airport-airside-markings-001",
+  "locale": "en",
+  "publishDate": "2027-06-24",
+  "timezone": "UTC",
+  "theme": "Airport Airside & Airspace",
+  "items": [
+    {
+      "itemId": "airport-airside-markings-4",
+      "label": "Runway Threshold"
+    },
+    {
+      "itemId": "airport-airside-markings-8",
+      "label": "Terminal Maneuvering Area (TMA)"
+    },
+    {
+      "itemId": "airport-airside-markings-1",
+      "label": "Helipad (H)"
+    },
+    {
+      "itemId": "airport-airside-markings-6",
+      "label": "Touchdown Zone"
+    },
+    {
+      "itemId": "airport-airside-markings-10",
+      "label": "Prohibited Airspace"
+    },
+    {
+      "itemId": "airport-airside-markings-2",
+      "label": "Taxiway Centerline"
+    },
+    {
+      "itemId": "airport-airside-markings-7",
+      "label": "Control Zone (CTR)"
+    },
+    {
+      "itemId": "airport-airside-markings-5",
+      "label": "Aiming Point Marking"
+    },
+    {
+      "itemId": "airport-airside-markings-9",
+      "label": "Restricted Airspace"
+    },
+    {
+      "itemId": "airport-airside-markings-3",
+      "label": "Runway Hold-Short Line"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Aviation infrastructure tier (Helipad, Taxiway Markings, Runway Markings, or Controlled Airspace)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Vertical Landing Pad",
+        "capacity": 1,
+        "itemIds": [
+          "airport-airside-markings-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Taxiway Markings",
+        "capacity": 2,
+        "itemIds": [
+          "airport-airside-markings-2",
+          "airport-airside-markings-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Runway Markings",
+        "capacity": 3,
+        "itemIds": [
+          "airport-airside-markings-4",
+          "airport-airside-markings-5",
+          "airport-airside-markings-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Airspace Classifications",
+        "capacity": 4,
+        "itemIds": [
+          "airport-airside-markings-7",
+          "airport-airside-markings-8",
+          "airport-airside-markings-9",
+          "airport-airside-markings-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by aviation tier: Vertical Landing Pad (Helipad H), Taxiway Elements (Taxiway Centerline, Hold-Short Line), Runway Markings (Runway Threshold, Aiming Point, Touchdown Zone), and Airspace Zones (Control Zone CTR, Terminal Control Area, Restricted Airspace, Prohibited Airspace).",
+  "sources": [
+    {
+      "title": "ICAO Annex 14: Aerodromes",
+      "url": "https://www.icao.int/safety/Pages/default.aspx",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

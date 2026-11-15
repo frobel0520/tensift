@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "utc-timezone-offsets-001",
+  "theme": "Standard UTC Offsets",
+  "publishDate": "2027-03-06",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "utc-timezone-offsets-3",
+        "rivalGroupId": "group-3",
+        "risk": "Lisbon is in continental Western Europe like Paris.",
+        "resolution": "Portugal observes UTC+0 (Western European Time), matching London (group-2) rather than Central European Time UTC+1 (group-3)."
+      },
+      {
+        "itemId": "utc-timezone-offsets-10",
+        "rivalGroupId": "group-3",
+        "risk": "Dili is in Southeast Asia.",
+        "resolution": "Timor-Leste observes UTC+9 year-round (group-4), matching Japan and Korea."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

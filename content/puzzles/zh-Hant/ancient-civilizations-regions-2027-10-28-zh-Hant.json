@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ancient-civilizations-regions-2027-10-28-zh-hant",
+  "puzzleFamilyId": "ancient-civilizations-regions-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-28",
+  "timezone": "UTC",
+  "theme": "古代文明地理分區",
+  "items": [
+    {
+      "itemId": "ancient-civilizations-regions-4",
+      "label": "馬雅文明"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-8",
+      "label": "阿卡德帝國"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-1",
+      "label": "哈拉帕（印度河）文明"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-6",
+      "label": "印加帝國"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-10",
+      "label": "腓尼基城邦"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-2",
+      "label": "古埃及文明"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-7",
+      "label": "蘇美文明"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-5",
+      "label": "阿茲特克帝國"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-9",
+      "label": "古巴比倫帝國"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-3",
+      "label": "庫施王國（努比亞）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各古文明的發源地理區域（印度河流域、尼羅河流域、中南美洲或兩河流域與黎凡特）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "印度河流域",
+        "capacity": 1,
+        "itemIds": [
+          "ancient-civilizations-regions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "尼羅河流域",
+        "capacity": 2,
+        "itemIds": [
+          "ancient-civilizations-regions-2",
+          "ancient-civilizations-regions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "前哥倫布時期美洲",
+        "capacity": 3,
+        "itemIds": [
+          "ancient-civilizations-regions-4",
+          "ancient-civilizations-regions-5",
+          "ancient-civilizations-regions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "美索不達米亞與黎凡特",
+        "capacity": 4,
+        "itemIds": [
+          "ancient-civilizations-regions-7",
+          "ancient-civilizations-regions-8",
+          "ancient-civilizations-regions-9",
+          "ancient-civilizations-regions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依地理區域分類：印度河流域（哈拉帕文明）、尼羅河流域（古埃及王國、庫施王國）、前哥倫布時期美洲（馬雅文明、阿茲特克帝國、印加帝國）與美索不達米亞及黎凡特（蘇美文明、阿卡德帝國、巴比倫帝國、腓尼基）。",
+  "sources": [
+    {
+      "title": "UNESCO World Heritage: Ancient Civilizations",
+      "url": "https://whc.unesco.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

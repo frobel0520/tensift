@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "winter-ice-sliding-sports-2027-08-06-es-419",
+  "puzzleFamilyId": "winter-ice-sliding-sports-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-06",
+  "timezone": "UTC",
+  "theme": "Deportes de hielo y deslizamiento",
+  "items": [
+    {
+      "itemId": "winter-ice-sliding-sports-4",
+      "label": "Patinaje artístico individual"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-8",
+      "label": "1500 m pista larga"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-1",
+      "label": "Skeleton"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-6",
+      "label": "Danza sobre hielo"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-10",
+      "label": "Relevo mixto en pista corta"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-2",
+      "label": "Bobsleigh"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-7",
+      "label": "500 m pista larga"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-5",
+      "label": "Patinaje en parejas"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-9",
+      "label": "500 m pista corta"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-3",
+      "label": "Luge"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría olímpica de cada deporte sobre hielo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Trineo boca abajo",
+        "capacity": 1,
+        "itemIds": [
+          "winter-ice-sliding-sports-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Bobsleigh y luge",
+        "capacity": 2,
+        "itemIds": [
+          "winter-ice-sliding-sports-2",
+          "winter-ice-sliding-sports-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Patinaje artístico",
+        "capacity": 3,
+        "itemIds": [
+          "winter-ice-sliding-sports-4",
+          "winter-ice-sliding-sports-5",
+          "winter-ice-sliding-sports-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Patinaje de velocidad",
+        "capacity": 4,
+        "itemIds": [
+          "winter-ice-sliding-sports-7",
+          "winter-ice-sliding-sports-8",
+          "winter-ice-sliding-sports-9",
+          "winter-ice-sliding-sports-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: trineo boca abajo (skeleton), trineos sentado/supino (bobsleigh, luge), patinaje artístico (individual masculino, parejas, danza sobre hielo) y patinaje de velocidad (500 m pista larga, 1500 m pista larga, 500 m pista corta, relevo mixto).",
+  "sources": [
+    {
+      "title": "ISU & IBSF Winter Sports",
+      "url": "https://www.isu.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.4
+  },
+  "status": "scheduled"
+}

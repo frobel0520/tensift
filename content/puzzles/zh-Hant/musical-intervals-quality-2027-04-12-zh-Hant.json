@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "musical-intervals-quality-2027-04-12-zh-hant",
+  "puzzleFamilyId": "musical-intervals-quality-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-12",
+  "timezone": "UTC",
+  "theme": "音程性質分類",
+  "items": [
+    {
+      "itemId": "musical-intervals-quality-4",
+      "label": "大二度"
+    },
+    {
+      "itemId": "musical-intervals-quality-8",
+      "label": "完全四度"
+    },
+    {
+      "itemId": "musical-intervals-quality-1",
+      "label": "增四度（三全音）"
+    },
+    {
+      "itemId": "musical-intervals-quality-6",
+      "label": "大六度"
+    },
+    {
+      "itemId": "musical-intervals-quality-10",
+      "label": "完全八度"
+    },
+    {
+      "itemId": "musical-intervals-quality-2",
+      "label": "小三度"
+    },
+    {
+      "itemId": "musical-intervals-quality-7",
+      "label": "完全一度"
+    },
+    {
+      "itemId": "musical-intervals-quality-5",
+      "label": "大三度"
+    },
+    {
+      "itemId": "musical-intervals-quality-9",
+      "label": "完全五度"
+    },
+    {
+      "itemId": "musical-intervals-quality-3",
+      "label": "小七度"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各音程在傳統樂理中的性質分類（三全音、小音程、大音程或完全音程）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "三全音",
+        "capacity": 1,
+        "itemIds": [
+          "musical-intervals-quality-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "小音程",
+        "capacity": 2,
+        "itemIds": [
+          "musical-intervals-quality-2",
+          "musical-intervals-quality-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "大音程",
+        "capacity": 3,
+        "itemIds": [
+          "musical-intervals-quality-4",
+          "musical-intervals-quality-5",
+          "musical-intervals-quality-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "完全音程",
+        "capacity": 4,
+        "itemIds": [
+          "musical-intervals-quality-7",
+          "musical-intervals-quality-8",
+          "musical-intervals-quality-9",
+          "musical-intervals-quality-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依音程性質分類：三全音（增四度）、小音程（小三度、小七度）、大音程（大二度、大三度、大六度）與完全音程（完全一度、完全四度、完全五度、完全八度）。",
+  "sources": [
+    {
+      "title": "Britannica: Musical Interval",
+      "url": "https://www.britannica.com/art/interval-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

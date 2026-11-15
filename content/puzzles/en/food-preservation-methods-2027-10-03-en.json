@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "food-preservation-methods-2027-10-03-en",
+  "puzzleFamilyId": "food-preservation-methods-001",
+  "locale": "en",
+  "publishDate": "2027-10-03",
+  "timezone": "UTC",
+  "theme": "Food Preservation Techniques",
+  "items": [
+    {
+      "itemId": "food-preservation-methods-4",
+      "label": "Retort Canning"
+    },
+    {
+      "itemId": "food-preservation-methods-8",
+      "label": "Dry Salt Curing"
+    },
+    {
+      "itemId": "food-preservation-methods-1",
+      "label": "Gamma Food Irradiation"
+    },
+    {
+      "itemId": "food-preservation-methods-6",
+      "label": "UHT Sterilization"
+    },
+    {
+      "itemId": "food-preservation-methods-10",
+      "label": "High-Sugar Jamming"
+    },
+    {
+      "itemId": "food-preservation-methods-2",
+      "label": "Freeze-Drying (Lyophilization)"
+    },
+    {
+      "itemId": "food-preservation-methods-7",
+      "label": "Blast Freezing"
+    },
+    {
+      "itemId": "food-preservation-methods-5",
+      "label": "HTST Pasteurization"
+    },
+    {
+      "itemId": "food-preservation-methods-9",
+      "label": "Vinegar Pickling"
+    },
+    {
+      "itemId": "food-preservation-methods-3",
+      "label": "Solar Dehydration"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Preservation principle (Ionizing Irradiation, Moisture Removal/Drying, Thermal Sterilization, or Chemical/Cold Inhibition)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Ionizing Irradiation",
+        "capacity": 1,
+        "itemIds": [
+          "food-preservation-methods-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Moisture Removal (Drying)",
+        "capacity": 2,
+        "itemIds": [
+          "food-preservation-methods-2",
+          "food-preservation-methods-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Thermal Heat Processing",
+        "capacity": 3,
+        "itemIds": [
+          "food-preservation-methods-4",
+          "food-preservation-methods-5",
+          "food-preservation-methods-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Cold & Chemical Inhibition",
+        "capacity": 4,
+        "itemIds": [
+          "food-preservation-methods-7",
+          "food-preservation-methods-8",
+          "food-preservation-methods-9",
+          "food-preservation-methods-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by preservation principle: Ionizing Irradiation (Gamma Food Irradiation), Moisture Removal (Freeze-Drying Lyophilization, Sun Dehydration), Thermal Processing (High-Pressure Retort Canning, HTST Pasteurization, UHT Sterilization), and Cold/Chemical Inhibition (Blast Freezing, Salt Curing, Vinegar Pickling, Sugar Preserving).",
+  "sources": [
+    {
+      "title": "FAO: Food Preservation Technologies",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

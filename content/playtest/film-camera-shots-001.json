@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "film-camera-shots-001",
+  "theme": "Cinema Shots & Camera Moves",
+  "publishDate": "2027-05-04",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "film-camera-shots-10",
+        "rivalGroupId": "group-1",
+        "risk": "A crane shot often pulls back to a wide view.",
+        "resolution": "Crane shot refers to the physical vertical/sweeping movement of the camera on a jib/crane (group-4), not a static framing size (group-1)."
+      },
+      {
+        "itemId": "film-camera-shots-3",
+        "rivalGroupId": "group-3",
+        "risk": "Cowboy shot frames a single actor.",
+        "resolution": "A cowboy shot frames from mid-thigh up (group-2), wider than close-ups (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

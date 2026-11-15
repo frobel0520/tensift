@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "poker-hand-rankings-2027-08-10-es-419",
+  "puzzleFamilyId": "poker-hand-rankings-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-10",
+  "timezone": "UTC",
+  "theme": "Jerarquía de manos de póker",
+  "items": [
+    {
+      "itemId": "poker-hand-rankings-4",
+      "label": "Full house"
+    },
+    {
+      "itemId": "poker-hand-rankings-8",
+      "label": "Doble pareja"
+    },
+    {
+      "itemId": "poker-hand-rankings-1",
+      "label": "Escalera real"
+    },
+    {
+      "itemId": "poker-hand-rankings-6",
+      "label": "Escalera"
+    },
+    {
+      "itemId": "poker-hand-rankings-10",
+      "label": "Carta alta"
+    },
+    {
+      "itemId": "poker-hand-rankings-2",
+      "label": "Escalera de color"
+    },
+    {
+      "itemId": "poker-hand-rankings-7",
+      "label": "Trío"
+    },
+    {
+      "itemId": "poker-hand-rankings-5",
+      "label": "Color"
+    },
+    {
+      "itemId": "poker-hand-rankings-9",
+      "label": "Una pareja"
+    },
+    {
+      "itemId": "poker-hand-rankings-3",
+      "label": "Póker (cuatro iguales)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Nivel jerárquico de cada una de las 10 manos de póker",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Rango 1: Escalera real",
+        "capacity": 1,
+        "itemIds": [
+          "poker-hand-rankings-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Rangos 2–3: Color corrido y póker",
+        "capacity": 2,
+        "itemIds": [
+          "poker-hand-rankings-2",
+          "poker-hand-rankings-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Rangos 4–6: Full, color y escalera",
+        "capacity": 3,
+        "itemIds": [
+          "poker-hand-rankings-4",
+          "poker-hand-rankings-5",
+          "poker-hand-rankings-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Rangos 7–10: Trío, pares y carta alta",
+        "capacity": 4,
+        "itemIds": [
+          "poker-hand-rankings-7",
+          "poker-hand-rankings-8",
+          "poker-hand-rankings-9",
+          "poker-hand-rankings-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por rango: nivel 1 (escalera real), niveles 2–3 (escalera de color, póker), niveles 4–6 (full house, color, escalera) y niveles 7–10 (trío, doble pareja, pareja, carta alta).",
+  "sources": [
+    {
+      "title": "WSOP Official Poker Hand Rankings",
+      "url": "https://www.wsop.com/poker-hands/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

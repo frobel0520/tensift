@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "combat-sports-techniques-2027-08-15-es-419",
+  "puzzleFamilyId": "combat-sports-techniques-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-15",
+  "timezone": "UTC",
+  "theme": "Técnicas de deportes de combate",
+  "items": [
+    {
+      "itemId": "combat-sports-techniques-4",
+      "label": "Patada circular"
+    },
+    {
+      "itemId": "combat-sports-techniques-8",
+      "label": "Recto (cross)"
+    },
+    {
+      "itemId": "combat-sports-techniques-1",
+      "label": "Llave de brazo (armbar)"
+    },
+    {
+      "itemId": "combat-sports-techniques-6",
+      "label": "Rodillazo en clinch"
+    },
+    {
+      "itemId": "combat-sports-techniques-10",
+      "label": "Uppercut"
+    },
+    {
+      "itemId": "combat-sports-techniques-2",
+      "label": "Proyección de cadera"
+    },
+    {
+      "itemId": "combat-sports-techniques-7",
+      "label": "Jab"
+    },
+    {
+      "itemId": "combat-sports-techniques-5",
+      "label": "Patada frontal"
+    },
+    {
+      "itemId": "combat-sports-techniques-9",
+      "label": "Gancho (hook)"
+    },
+    {
+      "itemId": "combat-sports-techniques-3",
+      "label": "Derribo a dos piernas"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase técnica de cada movimiento de combate",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Llave de sumisión",
+        "capacity": 1,
+        "itemIds": [
+          "combat-sports-techniques-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Proyecciones y derribos",
+        "capacity": 2,
+        "itemIds": [
+          "combat-sports-techniques-2",
+          "combat-sports-techniques-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Patadas y rodillazos",
+        "capacity": 3,
+        "itemIds": [
+          "combat-sports-techniques-4",
+          "combat-sports-techniques-5",
+          "combat-sports-techniques-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Golpes de boxeo",
+        "capacity": 4,
+        "itemIds": [
+          "combat-sports-techniques-7",
+          "combat-sports-techniques-8",
+          "combat-sports-techniques-9",
+          "combat-sports-techniques-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase: sumisión (llave de brazo / armbar), derribos y proyecciones (proyección de cadera, derribo a dos piernas), patadas y rodillas (patada circular, patada frontal, rodillazo) y golpes de boxeo (jab, recto/cross, gancho, uppercut).",
+  "sources": [
+    {
+      "title": "World Boxing & UWW Wrestling",
+      "url": "https://uww.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

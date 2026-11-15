@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "world-waterfalls-continents-001",
+  "theme": "Famous Waterfalls",
+  "publishDate": "2027-03-31",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "world-waterfalls-continents-7",
+        "rivalGroupId": "group-3",
+        "risk": "Victoria is a British royal name, also a city in Canada.",
+        "resolution": "Victoria Falls (Mosi-oa-Tunya) is on the Zambezi River between Zambia and Zimbabwe in Africa (group-4)."
+      },
+      {
+        "itemId": "world-waterfalls-continents-2",
+        "rivalGroupId": "group-3",
+        "risk": "Angel Falls is sometimes confused with North American parks.",
+        "resolution": "Angel Falls is in Venezuela, South America (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

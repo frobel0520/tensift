@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "baseball-field-positions-001",
+  "theme": "Baseball Lineup Positions",
+  "publishDate": "2027-08-11",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "baseball-field-positions-2",
+        "rivalGroupId": "group-4",
+        "risk": "Pitchers and catchers stand inside the infield diamond.",
+        "resolution": "Pitcher and catcher form the battery (group-2), distinct from the four infielders (group-4)."
+      },
+      {
+        "itemId": "baseball-field-positions-1",
+        "rivalGroupId": "group-2",
+        "risk": "DH bats in place of a pitcher.",
+        "resolution": "DH is a batting-only lineup role (group-1), not a defensive battery player (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "stock-market-indices-regions-2027-11-21-es-419",
+  "puzzleFamilyId": "stock-market-indices-regions-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-21",
+  "timezone": "UTC",
+  "theme": "Índices bursátiles mundiales por región",
+  "items": [
+    {
+      "itemId": "stock-market-indices-regions-4",
+      "label": "DAX 40 (Alemania)"
+    },
+    {
+      "itemId": "stock-market-indices-regions-8",
+      "label": "KOSPI (Corea del Sur)"
+    },
+    {
+      "itemId": "stock-market-indices-regions-1",
+      "label": "Ibovespa (Brasil)"
+    },
+    {
+      "itemId": "stock-market-indices-regions-6",
+      "label": "EURO STOXX 50"
+    },
+    {
+      "itemId": "stock-market-indices-regions-10",
+      "label": "ASX 200 (Australia)"
+    },
+    {
+      "itemId": "stock-market-indices-regions-2",
+      "label": "FTSE 100 (Londres)"
+    },
+    {
+      "itemId": "stock-market-indices-regions-7",
+      "label": "Nikkei 225 (Japón)"
+    },
+    {
+      "itemId": "stock-market-indices-regions-5",
+      "label": "CAC 40 (Francia)"
+    },
+    {
+      "itemId": "stock-market-indices-regions-9",
+      "label": "TAIEX (Taiwán)"
+    },
+    {
+      "itemId": "stock-market-indices-regions-3",
+      "label": "SMI (Suiza)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Región bursátil de cada índice financiero",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "América Latina",
+        "capacity": 1,
+        "itemIds": [
+          "stock-market-indices-regions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Reino Unido y Suiza",
+        "capacity": 2,
+        "itemIds": [
+          "stock-market-indices-regions-2",
+          "stock-market-indices-regions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Índices de la Eurozona",
+        "capacity": 3,
+        "itemIds": [
+          "stock-market-indices-regions-4",
+          "stock-market-indices-regions-5",
+          "stock-market-indices-regions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Índices de Asia-Pacífico",
+        "capacity": 4,
+        "itemIds": [
+          "stock-market-indices-regions-7",
+          "stock-market-indices-regions-8",
+          "stock-market-indices-regions-9",
+          "stock-market-indices-regions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por región: América Latina (Ibovespa de Brasil), Europa fuera de la eurozona (FTSE 100 Reino Unido, SMI Suiza), eurozona (DAX 40 Alemania, CAC 40 Francia, EURO STOXX 50) y Asia-Pacífico (Nikkei 225 Japón, KOSPI Corea del Sur, TAIEX Taiwán, ASX 200 Australia).",
+  "sources": [
+    {
+      "title": "World Federation of Exchanges",
+      "url": "https://www.world-exchanges.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

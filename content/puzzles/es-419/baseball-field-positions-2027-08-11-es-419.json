@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "baseball-field-positions-2027-08-11-es-419",
+  "puzzleFamilyId": "baseball-field-positions-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-11",
+  "timezone": "UTC",
+  "theme": "Posiciones de béisbol",
+  "items": [
+    {
+      "itemId": "baseball-field-positions-4",
+      "label": "Jardinero izquierdo"
+    },
+    {
+      "itemId": "baseball-field-positions-8",
+      "label": "Segunda base"
+    },
+    {
+      "itemId": "baseball-field-positions-1",
+      "label": "Bateador designado"
+    },
+    {
+      "itemId": "baseball-field-positions-6",
+      "label": "Jardinero derecho"
+    },
+    {
+      "itemId": "baseball-field-positions-10",
+      "label": "Campocorto (shortstop)"
+    },
+    {
+      "itemId": "baseball-field-positions-2",
+      "label": "Lanzador"
+    },
+    {
+      "itemId": "baseball-field-positions-7",
+      "label": "Primera base"
+    },
+    {
+      "itemId": "baseball-field-positions-5",
+      "label": "Jardinero central"
+    },
+    {
+      "itemId": "baseball-field-positions-9",
+      "label": "Tercera base"
+    },
+    {
+      "itemId": "baseball-field-positions-3",
+      "label": "Receptor"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Rol táctico de cada posición en el béisbol",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Bateador sin fildeo",
+        "capacity": 1,
+        "itemIds": [
+          "baseball-field-positions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "La batería",
+        "capacity": 2,
+        "itemIds": [
+          "baseball-field-positions-2",
+          "baseball-field-positions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Jardineros",
+        "capacity": 3,
+        "itemIds": [
+          "baseball-field-positions-4",
+          "baseball-field-positions-5",
+          "baseball-field-positions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Jugadores de cuadro (infield)",
+        "capacity": 4,
+        "itemIds": [
+          "baseball-field-positions-7",
+          "baseball-field-positions-8",
+          "baseball-field-positions-9",
+          "baseball-field-positions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por rol: bateador sin fildeo (bateador designado), batería (lanzador, receptor), jardineros (izquierdo, central, derecho) y jugadores de cuadro (primera base, segunda base, tercera base, campocorto).",
+  "sources": [
+    {
+      "title": "MLB Official Baseball Rules",
+      "url": "https://www.mlb.com/official-information",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.2
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "surveying-geodesy-tools-2027-07-24-en",
+  "puzzleFamilyId": "surveying-geodesy-tools-001",
+  "locale": "en",
+  "publishDate": "2027-07-24",
+  "timezone": "UTC",
+  "theme": "Surveying & Geodesy Tools",
+  "items": [
+    {
+      "itemId": "surveying-geodesy-tools-4",
+      "label": "Theodolite"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-8",
+      "label": "Terrestrial LiDAR Scanner"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-1",
+      "label": "Plumb Bob"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-6",
+      "label": "Electronic Distance Meter (EDM)"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-10",
+      "label": "InSAR Satellite"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-2",
+      "label": "Optical Dumpy Level"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-7",
+      "label": "RTK GNSS Rover"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-5",
+      "label": "Total Station"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-9",
+      "label": "Photogrammetry Drone"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-3",
+      "label": "Rotary Laser Level"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Measurement technology (Gravity Plumb Line, Horizontal Leveling, Optical Angle/EDM Station, or Satellite/Laser 3D Mapping)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Gravity Vertical Reference",
+        "capacity": 1,
+        "itemIds": [
+          "surveying-geodesy-tools-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Leveling Instruments",
+        "capacity": 2,
+        "itemIds": [
+          "surveying-geodesy-tools-2",
+          "surveying-geodesy-tools-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Angle & EDM Stations",
+        "capacity": 3,
+        "itemIds": [
+          "surveying-geodesy-tools-4",
+          "surveying-geodesy-tools-5",
+          "surveying-geodesy-tools-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "GNSS & 3D Remote Mapping",
+        "capacity": 4,
+        "itemIds": [
+          "surveying-geodesy-tools-7",
+          "surveying-geodesy-tools-8",
+          "surveying-geodesy-tools-9",
+          "surveying-geodesy-tools-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by measurement technology: Gravity Plumb (Plumb Bob), Leveling (Optical Dumpy Level, Rotary Laser Level), Optical Angle & EDM (Theodolite, Total Station, Electronic Distance Meter), and GNSS & 3D Remote Mapping (RTK GNSS Rover, Terrestrial LiDAR, Photogrammetry Drone, InSAR Satellite).",
+  "sources": [
+    {
+      "title": "NGS / NOAA: Geodetic Surveying",
+      "url": "https://geodesy.noaa.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

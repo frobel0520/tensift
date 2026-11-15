@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "architectural-landmarks-styles-2027-05-05-zh-hant",
+  "puzzleFamilyId": "architectural-landmarks-styles-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-05",
+  "timezone": "UTC",
+  "theme": "世界名建築的建築風格",
+  "items": [
+    {
+      "itemId": "architectural-landmarks-styles-4",
+      "label": "巴黎聖母院"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-8",
+      "label": "薩伏伊別墅"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-1",
+      "label": "克萊斯勒大廈"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-6",
+      "label": "科隆主教座堂"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-10",
+      "label": "畢爾包古根漢美術館"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-2",
+      "label": "凡爾賽宮"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-7",
+      "label": "落水山莊"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-5",
+      "label": "沙特爾主教座堂"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-9",
+      "label": "雪梨歌劇院"
+    },
+    {
+      "itemId": "architectural-landmarks-styles-3",
+      "label": "聖伯多祿大殿"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各知名建築所屬的建築風格（裝飾藝術、巴洛克、哥德式或現代／當代主義）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "裝飾藝術風格",
+        "capacity": 1,
+        "itemIds": [
+          "architectural-landmarks-styles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "巴洛克風格",
+        "capacity": 2,
+        "itemIds": [
+          "architectural-landmarks-styles-2",
+          "architectural-landmarks-styles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "哥德式風格",
+        "capacity": 3,
+        "itemIds": [
+          "architectural-landmarks-styles-4",
+          "architectural-landmarks-styles-5",
+          "architectural-landmarks-styles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "現代與當代主義",
+        "capacity": 4,
+        "itemIds": [
+          "architectural-landmarks-styles-7",
+          "architectural-landmarks-styles-8",
+          "architectural-landmarks-styles-9",
+          "architectural-landmarks-styles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依建築風格分類：裝飾藝術（克萊斯勒大廈）、巴洛克（凡爾賽宮、聖伯多祿大殿）、哥德式（巴黎聖母院、沙特爾主教座堂、科隆主教座堂）與現代／當代建築（落水山莊、薩伏伊別墅、雪梨歌劇院、畢爾包古根漢美術館）。",
+  "sources": [
+    {
+      "title": "UNESCO & Britannica Architecture",
+      "url": "https://www.britannica.com/art/architecture",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

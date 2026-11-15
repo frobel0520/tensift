@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "tempo-markings-speed-001",
+  "theme": "Musical Tempo Markings",
+  "publishDate": "2027-04-17",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "tempo-markings-speed-6",
+        "rivalGroupId": "group-4",
+        "risk": "Allegretto resembles Allegro.",
+        "resolution": "Allegretto is moderately fast (~108–116 BPM, group-3), slower than full Allegro (>120 BPM, group-4)."
+      },
+      {
+        "itemId": "tempo-markings-speed-1",
+        "rivalGroupId": "group-2",
+        "risk": "Largo is a slow tempo.",
+        "resolution": "Largo (~40–60 BPM) is specifically the very slow, broad tempo tier (group-1), slower than Adagio and Lento (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

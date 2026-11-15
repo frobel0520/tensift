@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "lunar-surface-features-2027-07-03-zh-hant",
+  "puzzleFamilyId": "lunar-surface-features-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-03",
+  "timezone": "UTC",
+  "theme": "月球表面地形特徵",
+  "items": [
+    {
+      "itemId": "lunar-surface-features-4",
+      "label": "月球亞平寧山脈"
+    },
+    {
+      "itemId": "lunar-surface-features-8",
+      "label": "哥白尼撞擊坑"
+    },
+    {
+      "itemId": "lunar-surface-features-1",
+      "label": "風暴洋（Oceanus Procellarum）"
+    },
+    {
+      "itemId": "lunar-surface-features-6",
+      "label": "月球高加索山脈"
+    },
+    {
+      "itemId": "lunar-surface-features-10",
+      "label": "柏拉圖撞擊坑"
+    },
+    {
+      "itemId": "lunar-surface-features-2",
+      "label": "寧靜海（Mare Tranquillitatis）"
+    },
+    {
+      "itemId": "lunar-surface-features-7",
+      "label": "第谷撞擊坑"
+    },
+    {
+      "itemId": "lunar-surface-features-5",
+      "label": "月球阿爾卑斯山脈"
+    },
+    {
+      "itemId": "lunar-surface-features-9",
+      "label": "阿里斯塔克斯撞擊坑"
+    },
+    {
+      "itemId": "lunar-surface-features-3",
+      "label": "雨海（Mare Imbrium）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各月球地名所屬的地形類別（月洋、月海、月球山脈或撞擊坑）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "月洋",
+        "capacity": 1,
+        "itemIds": [
+          "lunar-surface-features-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "月海",
+        "capacity": 2,
+        "itemIds": [
+          "lunar-surface-features-2",
+          "lunar-surface-features-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "月球山脈",
+        "capacity": 3,
+        "itemIds": [
+          "lunar-surface-features-4",
+          "lunar-surface-features-5",
+          "lunar-surface-features-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "月球撞擊坑",
+        "capacity": 4,
+        "itemIds": [
+          "lunar-surface-features-7",
+          "lunar-surface-features-8",
+          "lunar-surface-features-9",
+          "lunar-surface-features-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依月球地形分類：月洋（風暴洋 Oceanus Procellarum）、月海（寧靜海、雨海）、月球山脈（亞平寧山脈、阿爾卑斯山脈、高加索山脈）與著名撞擊坑（第谷坑、哥白尼坑、阿里斯塔克斯坑、柏拉圖坑）。",
+  "sources": [
+    {
+      "title": "USGS: Gazetteer of Planetary Nomenclature (Moon)",
+      "url": "https://planetarynames.wr.usgs.gov/Page/MOON/target",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

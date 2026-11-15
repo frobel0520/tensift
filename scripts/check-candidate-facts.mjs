@@ -47,13 +47,16 @@ export function checkPuzzleFacts(puzzle){
  return {items:checked,status:'author-factual-check-only'};
 }
 
-export async function checkCandidateFacts(root=ROOT){
+export async function checkCandidateFacts(
+ root=ROOT,
+ puzzlesRoot=fileURLToPath(new URL('../content/puzzles',import.meta.url)),
+){
  const manifest=JSON.parse(await readFile(join(root,'manifest.json'),'utf8'));let puzzles=0,items=0;
  for(const family of manifest.families){
   if(family.blindPlaytest.status!=='pending'||family.blindPlaytest.testers!==0)throw Error('BLIND_EVIDENCE_REQUIRED_SEPARATELY');
   for(const file of family.files){
    if(!/^(en|zh-Hant|es-419)\/[a-zA-Z0-9-]+\.json$/.test(file))throw Error('INVALID_CANDIDATE_PATH');
-   const puzzle=JSON.parse(await readFile(join(root,file),'utf8'));if(puzzle.status!=='draft')throw Error('NOT_A_DRAFT');
+   const puzzle=JSON.parse(await readFile(join(puzzlesRoot,file),'utf8'));if(puzzle.status!=='scheduled')throw Error('NOT_SCHEDULED');
    items+=checkPuzzleFacts(puzzle).items;puzzles++;
   }
  }

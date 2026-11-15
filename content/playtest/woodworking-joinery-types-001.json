@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "woodworking-joinery-types-001",
+  "theme": "Woodworking Joinery",
+  "publishDate": "2027-05-09",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "woodworking-joinery-types-9",
+        "rivalGroupId": "group-2",
+        "risk": "Bridle joints look open like a lap joint.",
+        "resolution": "A bridle joint is an open-ended variant of the mortise-and-tenon family (group-4), not a simple lap joint (group-2)."
+      },
+      {
+        "itemId": "woodworking-joinery-types-1",
+        "rivalGroupId": "group-4",
+        "risk": "A biscuit acts like a small loose tenon.",
+        "resolution": "Compressed beech biscuits align edge-glued boards (group-1), distinct from structural mortise-and-tenon framing (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

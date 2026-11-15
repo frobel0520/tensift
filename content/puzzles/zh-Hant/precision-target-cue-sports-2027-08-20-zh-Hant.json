@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "precision-target-cue-sports-2027-08-20-zh-hant",
+  "puzzleFamilyId": "precision-target-cue-sports-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-20",
+  "timezone": "UTC",
+  "theme": "精準投擲與撞球運動",
+  "items": [
+    {
+      "itemId": "precision-target-cue-sports-4",
+      "label": "8 號球花式撞球"
+    },
+    {
+      "itemId": "precision-target-cue-sports-8",
+      "label": "冰壺（Curling）"
+    },
+    {
+      "itemId": "precision-target-cue-sports-1",
+      "label": "十瓶保齡球"
+    },
+    {
+      "itemId": "precision-target-cue-sports-6",
+      "label": "司諾克撞球"
+    },
+    {
+      "itemId": "precision-target-cue-sports-10",
+      "label": "義式滾球（Bocce）"
+    },
+    {
+      "itemId": "precision-target-cue-sports-2",
+      "label": "501 飛鏢賽"
+    },
+    {
+      "itemId": "precision-target-cue-sports-7",
+      "label": "反曲弓射箭"
+    },
+    {
+      "itemId": "precision-target-cue-sports-5",
+      "label": "9 號球花式撞球"
+    },
+    {
+      "itemId": "precision-target-cue-sports-9",
+      "label": "草地滾球"
+    },
+    {
+      "itemId": "precision-target-cue-sports-3",
+      "label": "飛鏢米老鼠賽（Cricket）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各精準運動的場地與器材分類（保齡球瓶、飛鏢賽制、撞球或戶外目標／滾球運動）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "保齡球瓶運動",
+        "capacity": 1,
+        "itemIds": [
+          "precision-target-cue-sports-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "飛鏢賽制",
+        "capacity": 2,
+        "itemIds": [
+          "precision-target-cue-sports-2",
+          "precision-target-cue-sports-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "撞球運動",
+        "capacity": 3,
+        "itemIds": [
+          "precision-target-cue-sports-4",
+          "precision-target-cue-sports-5",
+          "precision-target-cue-sports-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "射箭與草地／冰上滾球",
+        "capacity": 4,
+        "itemIds": [
+          "precision-target-cue-sports-7",
+          "precision-target-cue-sports-8",
+          "precision-target-cue-sports-9",
+          "precision-target-cue-sports-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依精準運動分類：球瓶運動（十瓶保齡球）、飛鏢賽制（501 減分賽、米老鼠 Cricket 賽）、撞球運動（8 號球、9 號球、司諾克）與靶標及草地滾球（反曲弓射箭、冰壺、草地滾球、義式滾球）。",
+  "sources": [
+    {
+      "title": "World Bowls & WCBS",
+      "url": "https://www.worldbowls.com/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

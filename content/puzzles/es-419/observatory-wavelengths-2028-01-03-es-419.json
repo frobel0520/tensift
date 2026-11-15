@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "observatory-wavelengths-2028-01-03-es-419",
+  "puzzleFamilyId": "observatory-wavelengths-001",
+  "locale": "es-419",
+  "publishDate": "2028-01-03",
+  "timezone": "UTC",
+  "theme": "Observatorios astronómicos por banda",
+  "items": [
+    {
+      "itemId": "observatory-wavelengths-4",
+      "label": "Observatorio W. M. Keck"
+    },
+    {
+      "itemId": "observatory-wavelengths-8",
+      "label": "Telescopio Espacial James Webb"
+    },
+    {
+      "itemId": "observatory-wavelengths-1",
+      "label": "Observatorio LIGO"
+    },
+    {
+      "itemId": "observatory-wavelengths-6",
+      "label": "Telescopio Subaru"
+    },
+    {
+      "itemId": "observatory-wavelengths-10",
+      "label": "Telescopio espacial Fermi"
+    },
+    {
+      "itemId": "observatory-wavelengths-2",
+      "label": "Arreglo milimétrico ALMA"
+    },
+    {
+      "itemId": "observatory-wavelengths-7",
+      "label": "Telescopio Espacial Hubble"
+    },
+    {
+      "itemId": "observatory-wavelengths-5",
+      "label": "Very Large Telescope (VLT)"
+    },
+    {
+      "itemId": "observatory-wavelengths-9",
+      "label": "Observatorio de rayos X Chandra"
+    },
+    {
+      "itemId": "observatory-wavelengths-3",
+      "label": "Very Large Array (VLA)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Canal de detección y ubicación de cada observatorio",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Interferómetro gravitacional",
+        "capacity": 1,
+        "itemIds": [
+          "observatory-wavelengths-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Radiotelescopios terrestres",
+        "capacity": 2,
+        "itemIds": [
+          "observatory-wavelengths-2",
+          "observatory-wavelengths-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Telescopios ópticos/IR en tierra",
+        "capacity": 3,
+        "itemIds": [
+          "observatory-wavelengths-4",
+          "observatory-wavelengths-5",
+          "observatory-wavelengths-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Observatorios espaciales",
+        "capacity": 4,
+        "itemIds": [
+          "observatory-wavelengths-7",
+          "observatory-wavelengths-8",
+          "observatory-wavelengths-9",
+          "observatory-wavelengths-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por tipo de observatorio: interferómetro gravitacional (LIGO), arreglos de radio en tierra (ALMA, VLA), telescopios ópticos/IR terrestres (Keck, VLT, Subaru) y telescopios espaciales (Hubble, James Webb, Chandra, Fermi).",
+  "sources": [
+    {
+      "title": "NASA Astrophysics Missions & Observatories",
+      "url": "https://science.nasa.gov/astrophysics/missions/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

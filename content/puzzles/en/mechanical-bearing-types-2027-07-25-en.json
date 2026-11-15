@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "mechanical-bearing-types-2027-07-25-en",
+  "puzzleFamilyId": "mechanical-bearing-types-001",
+  "locale": "en",
+  "publishDate": "2027-07-25",
+  "timezone": "UTC",
+  "theme": "Mechanical Bearings",
+  "items": [
+    {
+      "itemId": "mechanical-bearing-types-4",
+      "label": "Cylindrical Roller Bearing"
+    },
+    {
+      "itemId": "mechanical-bearing-types-8",
+      "label": "Angular-Contact Ball Bearing"
+    },
+    {
+      "itemId": "mechanical-bearing-types-1",
+      "label": "Active Magnetic Bearing"
+    },
+    {
+      "itemId": "mechanical-bearing-types-6",
+      "label": "Needle Roller Bearing"
+    },
+    {
+      "itemId": "mechanical-bearing-types-10",
+      "label": "Self-Aligning Ball Bearing"
+    },
+    {
+      "itemId": "mechanical-bearing-types-2",
+      "label": "Bronze Journal Bushing"
+    },
+    {
+      "itemId": "mechanical-bearing-types-7",
+      "label": "Deep-Groove Ball Bearing"
+    },
+    {
+      "itemId": "mechanical-bearing-types-5",
+      "label": "Tapered Roller Bearing"
+    },
+    {
+      "itemId": "mechanical-bearing-types-9",
+      "label": "Thrust Ball Bearing"
+    },
+    {
+      "itemId": "mechanical-bearing-types-3",
+      "label": "Hydrodynamic Thrust Bearing"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Load-support mechanism (Active Magnetic, Plain/Fluid Film, Roller Rolling-Element, or Ball Rolling-Element)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Magnetic Levitation",
+        "capacity": 1,
+        "itemIds": [
+          "mechanical-bearing-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Plain & Fluid-Film Bearings",
+        "capacity": 2,
+        "itemIds": [
+          "mechanical-bearing-types-2",
+          "mechanical-bearing-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Roller Bearings",
+        "capacity": 3,
+        "itemIds": [
+          "mechanical-bearing-types-4",
+          "mechanical-bearing-types-5",
+          "mechanical-bearing-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Ball Bearings",
+        "capacity": 4,
+        "itemIds": [
+          "mechanical-bearing-types-7",
+          "mechanical-bearing-types-8",
+          "mechanical-bearing-types-9",
+          "mechanical-bearing-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by bearing mechanism: Non-Contact Magnetic (Active Magnetic Bearing), Plain & Fluid Film (Bronze Journal Bushing, Hydrodynamic Thrust Bearing), Roller Bearings (Cylindrical Roller, Tapered Roller, Needle Roller), and Ball Bearings (Deep-Groove Ball, Angular-Contact Ball, Thrust Ball, Self-Aligning Ball).",
+  "sources": [
+    {
+      "title": "ISO 15241: Rolling Bearings",
+      "url": "https://www.iso.org/standard/54372.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

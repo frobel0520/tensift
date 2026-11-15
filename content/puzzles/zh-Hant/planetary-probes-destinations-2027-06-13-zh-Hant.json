@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "planetary-probes-destinations-2027-06-13-zh-hant",
+  "puzzleFamilyId": "planetary-probes-destinations-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-13",
+  "timezone": "UTC",
+  "theme": "行星探測器與探測目標",
+  "items": [
+    {
+      "itemId": "planetary-probes-destinations-4",
+      "label": "伽利略號（Galileo）"
+    },
+    {
+      "itemId": "planetary-probes-destinations-8",
+      "label": "機會號（Opportunity）"
+    },
+    {
+      "itemId": "planetary-probes-destinations-1",
+      "label": "信使號（MESSENGER）"
+    },
+    {
+      "itemId": "planetary-probes-destinations-6",
+      "label": "朱諾號（Juno）"
+    },
+    {
+      "itemId": "planetary-probes-destinations-10",
+      "label": "毅力號（Perseverance）"
+    },
+    {
+      "itemId": "planetary-probes-destinations-2",
+      "label": "金星 7 號（Venera 7）"
+    },
+    {
+      "itemId": "planetary-probes-destinations-7",
+      "label": "旅居者號（Sojourner）"
+    },
+    {
+      "itemId": "planetary-probes-destinations-5",
+      "label": "卡西尼—惠更斯號"
+    },
+    {
+      "itemId": "planetary-probes-destinations-9",
+      "label": "好奇號（Curiosity）"
+    },
+    {
+      "itemId": "planetary-probes-destinations-3",
+      "label": "麥哲倫號（Magellan）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各無人太空探測器或探測車的主要目標行星（水星、金星、木星／土星外行星或火星）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "水星探測",
+        "capacity": 1,
+        "itemIds": [
+          "planetary-probes-destinations-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "金星探測",
+        "capacity": 2,
+        "itemIds": [
+          "planetary-probes-destinations-2",
+          "planetary-probes-destinations-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "木星與土星外行星",
+        "capacity": 3,
+        "itemIds": [
+          "planetary-probes-destinations-4",
+          "planetary-probes-destinations-5",
+          "planetary-probes-destinations-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "火星探測車",
+        "capacity": 4,
+        "itemIds": [
+          "planetary-probes-destinations-7",
+          "planetary-probes-destinations-8",
+          "planetary-probes-destinations-9",
+          "planetary-probes-destinations-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依探測目標行星分類：水星（信使號 MESSENGER）、金星（金星 7 號、麥哲倫號）、外圍氣態巨行星（伽利略號、卡西尼—惠更斯號、朱諾號）與火星探測車（旅居者號、機會號、好奇號、毅力號）。",
+  "sources": [
+    {
+      "title": "NASA: Solar System Exploration Missions",
+      "url": "https://science.nasa.gov/solar-system/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

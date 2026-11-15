@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "astronomical-eclipses-alignments-2027-06-16-en",
+  "puzzleFamilyId": "astronomical-eclipses-alignments-001",
+  "locale": "en",
+  "publishDate": "2027-06-16",
+  "timezone": "UTC",
+  "theme": "Eclipses & Planetary Alignments",
+  "items": [
+    {
+      "itemId": "astronomical-eclipses-alignments-4",
+      "label": "Total Solar Eclipse"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-8",
+      "label": "Lunar Occultation"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-1",
+      "label": "Transit of Venus"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-6",
+      "label": "Partial Solar Eclipse"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-10",
+      "label": "Quadrature"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-2",
+      "label": "Total Lunar Eclipse"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-7",
+      "label": "Great Conjunction"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-5",
+      "label": "Annular Solar Eclipse"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-9",
+      "label": "Planetary Opposition"
+    },
+    {
+      "itemId": "astronomical-eclipses-alignments-3",
+      "label": "Penumbral Lunar Eclipse"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Astronomical event class (Transit, Lunar Eclipse, Solar Eclipse, or Orbital Aspect/Occultation)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Planetary Transit",
+        "capacity": 1,
+        "itemIds": [
+          "astronomical-eclipses-alignments-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Lunar Eclipses",
+        "capacity": 2,
+        "itemIds": [
+          "astronomical-eclipses-alignments-2",
+          "astronomical-eclipses-alignments-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Solar Eclipses",
+        "capacity": 3,
+        "itemIds": [
+          "astronomical-eclipses-alignments-4",
+          "astronomical-eclipses-alignments-5",
+          "astronomical-eclipses-alignments-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Aspects & Occultations",
+        "capacity": 4,
+        "itemIds": [
+          "astronomical-eclipses-alignments-7",
+          "astronomical-eclipses-alignments-8",
+          "astronomical-eclipses-alignments-9",
+          "astronomical-eclipses-alignments-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by event class: Planetary Transit (Transit of Venus), Lunar Eclipses (Total Lunar Eclipse, Penumbral Lunar Eclipse), Solar Eclipses (Total Solar Eclipse, Annular Solar Eclipse, Partial Solar Eclipse), and Planetary Aspects/Occultations (Great Conjunction, Lunar Occultation, Planetary Opposition, Quadrature).",
+  "sources": [
+    {
+      "title": "NASA: Eclipse Glossary",
+      "url": "https://science.nasa.gov/eclipses/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

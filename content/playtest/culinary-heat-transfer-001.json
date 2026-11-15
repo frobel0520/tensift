@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "culinary-heat-transfer-001",
+  "theme": "Cooking Heat Transfer Methods",
+  "publishDate": "2027-09-02",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "culinary-heat-transfer-5",
+        "rivalGroupId": "group-4",
+        "risk": "Deep-frying submerges food in liquid.",
+        "resolution": "Hot cooking oil transfers dry heat above 160 °C without water moisture (group-3), unlike aqueous moist-heat methods (group-4)."
+      },
+      {
+        "itemId": "culinary-heat-transfer-4",
+        "rivalGroupId": "group-2",
+        "risk": "Oven baking uses heating elements.",
+        "resolution": "Baking relies primarily on enclosed hot-air convection (group-3), rather than direct line-of-sight radiant flame/element (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

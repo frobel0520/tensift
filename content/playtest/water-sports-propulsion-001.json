@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "water-sports-propulsion-001",
+  "theme": "Water Surface Sports",
+  "publishDate": "2027-08-24",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "water-sports-propulsion-6",
+        "rivalGroupId": "group-4",
+        "risk": "SUP uses a paddle like canoeing.",
+        "resolution": "SUP is ridden standing on a surfboard-style board (group-3), whereas kayaks, canoes, and rafts are seated hull craft (group-4)."
+      },
+      {
+        "itemId": "water-sports-propulsion-1",
+        "rivalGroupId": "group-2",
+        "risk": "Wakeboarding uses a board on flat water.",
+        "resolution": "Wakeboarding is towed by a motorboat (group-1), not powered by wind sails or kites (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

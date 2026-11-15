@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "architectural-orders-vaults-2027-04-21-en",
+  "puzzleFamilyId": "architectural-orders-vaults-001",
+  "locale": "en",
+  "publishDate": "2027-04-21",
+  "timezone": "UTC",
+  "theme": "Classical & Gothic Architecture",
+  "items": [
+    {
+      "itemId": "architectural-orders-vaults-4",
+      "label": "Doric Order"
+    },
+    {
+      "itemId": "architectural-orders-vaults-8",
+      "label": "Pointed Arch"
+    },
+    {
+      "itemId": "architectural-orders-vaults-1",
+      "label": "Tuscan Order"
+    },
+    {
+      "itemId": "architectural-orders-vaults-6",
+      "label": "Corinthian Order"
+    },
+    {
+      "itemId": "architectural-orders-vaults-10",
+      "label": "Rose Window"
+    },
+    {
+      "itemId": "architectural-orders-vaults-2",
+      "label": "Keystone"
+    },
+    {
+      "itemId": "architectural-orders-vaults-7",
+      "label": "Flying Buttress"
+    },
+    {
+      "itemId": "architectural-orders-vaults-5",
+      "label": "Ionic Order"
+    },
+    {
+      "itemId": "architectural-orders-vaults-9",
+      "label": "Ribbed Vault"
+    },
+    {
+      "itemId": "architectural-orders-vaults-3",
+      "label": "Voussoir"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Architectural tradition (Roman Tuscan, Roman Arch Stones, Greek Orders, or Gothic Structural Elements)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Roman Tuscan Order",
+        "capacity": 1,
+        "itemIds": [
+          "architectural-orders-vaults-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Arch Masonry Stones",
+        "capacity": 2,
+        "itemIds": [
+          "architectural-orders-vaults-2",
+          "architectural-orders-vaults-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Greek Classical Orders",
+        "capacity": 3,
+        "itemIds": [
+          "architectural-orders-vaults-4",
+          "architectural-orders-vaults-5",
+          "architectural-orders-vaults-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Gothic Structural Elements",
+        "capacity": 4,
+        "itemIds": [
+          "architectural-orders-vaults-7",
+          "architectural-orders-vaults-8",
+          "architectural-orders-vaults-9",
+          "architectural-orders-vaults-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by architectural category: Roman Tuscan Order (Tuscan Order), Roman Arch Stones (Keystone, Voussoir), Greek Classical Orders (Doric, Ionic, Corinthian), and Gothic Structural Elements (Flying Buttress, Pointed Arch, Ribbed Vault, Rose Window).",
+  "sources": [
+    {
+      "title": "Britannica: Classical Orders",
+      "url": "https://www.britannica.com/technology/order-architecture",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

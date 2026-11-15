@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "baking-sugar-types-2027-10-21-zh-hant",
+  "puzzleFamilyId": "baking-sugar-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-21",
+  "timezone": "UTC",
+  "theme": "烘焙用糖與糖漿種類",
+  "items": [
+    {
+      "itemId": "baking-sugar-types-4",
+      "label": "淺紅糖（二砂糖系）"
+    },
+    {
+      "itemId": "baking-sugar-types-8",
+      "label": "超細特幼砂糖（Caster）"
+    },
+    {
+      "itemId": "baking-sugar-types-1",
+      "label": "烘焙純糖粉（10X）"
+    },
+    {
+      "itemId": "baking-sugar-types-6",
+      "label": "未精製黑糖（Muscovado）"
+    },
+    {
+      "itemId": "baking-sugar-types-10",
+      "label": "比利時珍珠粗糖粒"
+    },
+    {
+      "itemId": "baking-sugar-types-2",
+      "label": "黃金轉化糖漿"
+    },
+    {
+      "itemId": "baking-sugar-types-7",
+      "label": "標準細白砂糖"
+    },
+    {
+      "itemId": "baking-sugar-types-5",
+      "label": "深紅糖（黑糖）"
+    },
+    {
+      "itemId": "baking-sugar-types-9",
+      "label": "粗粒原蔗糖（Turbinado）"
+    },
+    {
+      "itemId": "baking-sugar-types-3",
+      "label": "大麥麥芽糖漿"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各烘焙糖品的物理形態與精製度（極細糖粉、液態轉化／麥芽糖漿、含糖蜜黑／紅糖或結晶砂糖）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "研磨極細糖粉",
+        "capacity": 1,
+        "itemIds": [
+          "baking-sugar-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "液態烘焙糖漿",
+        "capacity": 2,
+        "itemIds": [
+          "baking-sugar-types-2",
+          "baking-sugar-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "含糖蜜濕潤紅黑糖",
+        "capacity": 3,
+        "itemIds": [
+          "baking-sugar-types-4",
+          "baking-sugar-types-5",
+          "baking-sugar-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "乾性結晶砂糖",
+        "capacity": 4,
+        "itemIds": [
+          "baking-sugar-types-7",
+          "baking-sugar-types-8",
+          "baking-sugar-types-9",
+          "baking-sugar-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依烘焙糖品形態分類：研磨糖粉（純糖粉）、液態糖漿（黃金轉化糖漿、大麥麥芽糖漿）、含糖蜜濕潤紅黑糖（淺紅糖、深黑糖、黑糖蜜粗糖 Muscovado）與乾性結晶砂糖（細白砂糖、超細特幼砂 Caster、粗粒原蔗糖 Turbinado、珍珠裝飾粗糖）。",
+  "sources": [
+    {
+      "title": "USDA Sugar & Sweeteners Yearbook",
+      "url": "https://www.ers.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

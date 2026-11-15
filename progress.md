@@ -18,14 +18,20 @@ Seven new families / 21 localized draft candidates for November 22–28 are isol
 
 Added a read-only source metadata inventory for the existing three-locale catalog and a static TypeScript AST inventory of curated editorial references/copy counts. Reports contain family IDs, counts and metadata gaps only; no URLs or prose. PR #32 is merged with full CI and eleven new synthetic regressions passing. The actual full-catalog inventory40838749430 verified 255 locale files / 85 families / 315 well-formed citations and three editorial families / 117 localized paragraphs. Follow-up public publisher checks found two English reference paths returning 404, with correct article canonicals returning 200; the writing canonical also returned 200. Four JSON citation records are corrected (two English and two writing translations), with retrievedAt updated to 2026-10-29; puzzle/solution/status/date fields are unchanged. Earlier unavailable-page findings are historical. This changes repository metadata only: no production D1 seed/update, rights clearance or blind pass is implied. Content source inventory CI reads the complete checked-out catalog without Cloudflare, D1, external requests, seed or draft promotion. See docs/30-content-source-inventory.md. Rights clearance, live link verification and independent blind testing remain not assessed.
 
+## 300-Level Standalone Edition (Final Release)
+
+On branch `feat/300-level-standalone`, Tensift has been finalized as a **300-level pure-static standalone game** (900 trilingual puzzle JSONs across `en`, `zh-Hant`, `es-419`):
+- **Curated 300 Universal Levels**: Filtered out ~95 specialized/academic topics and duplicate/overlapping families from the 500-family expansion, retaining **300 accessible, general-audience levels** (`easy` / `medium` / `hard` progression) in `content/puzzles/{en,zh-Hant,es-419}/` with zero high-overlap duplicates.
+- **Pure-Static Client Engine**: Added [`scripts/build-static-catalog.ts`](scripts/build-static-catalog.ts) generating per-locale static level bundles (`src/data/catalog-{en,zh-Hant,es-419}.json`), and [`src/api/standalone.ts`](src/api/standalone.ts) running puzzle evaluation, hints, and reveal locally via `src/domain/puzzle/engine.ts` without requiring Cloudflare D1 or scheduled content seeding.
+- **Level Navigation & Persistence**: Updated [`src/App.tsx`](src/App.tsx), [`src/i18n/messages.ts`](src/i18n/messages.ts), and [`src/styles.css`](src/styles.css) with Previous/Next level controls, a searchable 300-level picker modal (with difficulty badges, solved indicators, "Next unsolved", and "Random" jump), and `localStorage` persistence for current level and solved progress.
+- **CI/CD Simplification**: Removed `scan:bundle` from `.github/workflows/ci.yml` and `.github/workflows/deploy.yml` since the standalone static edition intentionally bundles the 300-level catalog client-side.
+
 ## Pending
 
-- [x] 【高】Remote D1 coverage through 2026-11-21 verified in audit40801570799: 72 expected date/locale groups, exactly one scheduled row each; missing=[]; SELECT1/read149, no seed or action receipt reset.
-- [ ] 【中】Arrange independent blind playtests and record results in content/playtest; author review is not a blind pass. Enable strict-blind only when evidence supports it.
-- [ ] 【中】Maintain the daily publishing checks and add the next reviewed batch before the first authored gap, 2026-11-22. The earlier 10/05 batch-6 deadline is superseded.
-- [x] 【高】Middleware repair #25 is merged/deployed; production `/api/health` bypass verified during agreed maintenance window on 2026-11-14 12:24 UTC (`/` returned 503 with `Retry-After: 300`, `/api/health` returned 200 OK, restored `/` to 200). See [docs/evidence/2026-11-14-maintenance-health-bypass.md](docs/evidence/2026-11-14-maintenance-health-bypass.md).
+- [x] 【高】Remote D1 coverage through 2026-11-21 verified in audit40801570799 (superseded by standalone static edition; D1 seeding is no longer required for gameplay).
+- [ ] 【中】Optional: arrange independent blind playtests and record results in `content/playtest/` if strict-blind auditing is desired later.
 - [ ] 【低】Owner decision: request AdSense re-review if still desired; approval is not guaranteed and ad serving stays disabled.
-- [ ] 【中】Resolve remaining source/rights review and production free-plan/billing confirmation in docs/deploy-readiness.md; deployment success does not settle these conditions.
+- [ ] 【中】Resolve remaining source/rights review in `docs/deploy-readiness.md` if needed; deployment to Cloudflare Pages is purely static (`dist/`).
 
 ## Deferred decisions
 

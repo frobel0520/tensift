@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "verb-tense-aspects-001",
+  "theme": "Verb Moods & Aspects",
+  "publishDate": "2027-05-24",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "verb-tense-aspects-10",
+        "rivalGroupId": "group-3",
+        "risk": "Present Perfect Continuous contains Continuous.",
+        "resolution": "Present Perfect Continuous uses have/has + been + -ing, placing it in the Perfect family (group-4)."
+      },
+      {
+        "itemId": "verb-tense-aspects-1",
+        "rivalGroupId": "group-2",
+        "risk": "Imperative is a grammatical mood.",
+        "resolution": "Imperative issues direct commands (group-1), distinct from hypothetical/irrealis moods (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

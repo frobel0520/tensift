@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "skiing-snowboard-disciplines-001",
+  "theme": "Skiing & Snowboarding",
+  "publishDate": "2027-08-07",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "skiing-snowboard-disciplines-1",
+        "rivalGroupId": "group-2",
+        "risk": "Biathlon and Nordic Combined both include cross-country skiing.",
+        "resolution": "Biathlon pairs cross-country with rifle marksmanship (group-1), whereas Nordic Combined pairs it with ski jumping (group-2)."
+      },
+      {
+        "itemId": "skiing-snowboard-disciplines-4",
+        "rivalGroupId": "group-4",
+        "risk": "Moguls is timed down a steep slope.",
+        "resolution": "Moguls is a judged freestyle event with bumps and aerial jumps (group-3), not gated alpine racing (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

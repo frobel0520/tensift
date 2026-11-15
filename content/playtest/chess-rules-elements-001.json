@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "chess-rules-elements-001",
+  "theme": "Chess Rules & Pieces",
+  "publishDate": "2027-07-31",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "chess-rules-elements-1",
+        "rivalGroupId": "group-2",
+        "risk": "Both En Passant and Castling are special chess moves.",
+        "resolution": "En passant is a special pawn capture (group-1), whereas kingside/queenside castling are king-rook moves (group-2)."
+      },
+      {
+        "itemId": "chess-rules-elements-4",
+        "rivalGroupId": "group-1",
+        "risk": "Stalemate is a game-ending rule.",
+        "resolution": "Stalemate is a draw condition (group-3), not a capture rule (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "edible-mushrooms-fungi-2027-09-22-en",
+  "puzzleFamilyId": "edible-mushrooms-fungi-001",
+  "locale": "en",
+  "publishDate": "2027-09-22",
+  "timezone": "UTC",
+  "theme": "Culinary Fungi & Mushrooms",
+  "items": [
+    {
+      "itemId": "edible-mushrooms-fungi-4",
+      "label": "Black Wood Ear"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-8",
+      "label": "Oyster Mushroom"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-1",
+      "label": "Black Périgord Truffle"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-6",
+      "label": "Maitake (Hen of the Woods)"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-10",
+      "label": "Enoki Mushroom"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-2",
+      "label": "Black Morel"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-7",
+      "label": "Shiitake"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-5",
+      "label": "Lion’s Mane (Hericium)"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-9",
+      "label": "White Button Mushroom"
+    },
+    {
+      "itemId": "edible-mushrooms-fungi-3",
+      "label": "Blonde Morel"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Fruiting body & culinary class (Subterranean Truffle, Morel/Cup Fungi, Wood-Decay Polypore/Jelly Fungi, or Gilled Agaric Mushrooms)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Subterranean Truffle",
+        "capacity": 1,
+        "itemIds": [
+          "edible-mushrooms-fungi-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Honeycomb Morels",
+        "capacity": 2,
+        "itemIds": [
+          "edible-mushrooms-fungi-2",
+          "edible-mushrooms-fungi-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Wood-Ear & Tooth/Polypore",
+        "capacity": 3,
+        "itemIds": [
+          "edible-mushrooms-fungi-4",
+          "edible-mushrooms-fungi-5",
+          "edible-mushrooms-fungi-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Gilled Agaric Mushrooms",
+        "capacity": 4,
+        "itemIds": [
+          "edible-mushrooms-fungi-7",
+          "edible-mushrooms-fungi-8",
+          "edible-mushrooms-fungi-9",
+          "edible-mushrooms-fungi-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by fungal morphology: Subterranean Truffle (Black Périgord Truffle), Honeycomb Ascomycetes (Morel Mushroom, Cup Fungus? Let’s use Black Morel, Blonde Morel), Wood-Ears & Shelf Polypores (Wood Ear Fungus, Lion’s Mane, Maitake / Hen of the Woods), and Gilled Agarics (Shiitake, Oyster Mushroom, Button Champignon, Enoki).",
+  "sources": [
+    {
+      "title": "FAO: Wild Edible Fungi",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

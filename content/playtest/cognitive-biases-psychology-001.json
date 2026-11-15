@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "cognitive-biases-psychology-001",
+  "theme": "Cognitive Biases in Psychology",
+  "publishDate": "2027-12-10",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "cognitive-biases-psychology-1",
+        "rivalGroupId": "group-4",
+        "risk": "Hindsight bias reinforces overconfidence about past predictions.",
+        "resolution": "Hindsight bias specifically distorts retrospective memory of what one predicted before an event (group-1), unlike general overconfidence/belief persistence (group-4)."
+      },
+      {
+        "itemId": "cognitive-biases-psychology-4",
+        "rivalGroupId": "group-1",
+        "risk": "Availability heuristic relies on easily recalled examples from memory.",
+        "resolution": "Availability heuristic uses ease of recall to estimate future frequency or risk (group-3), rather than rewriting past predictions (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

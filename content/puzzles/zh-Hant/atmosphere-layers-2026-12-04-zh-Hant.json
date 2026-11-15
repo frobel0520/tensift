@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "atmosphere-layers-2026-12-04-zh-hant",
+  "puzzleFamilyId": "atmosphere-layers-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-04",
+  "timezone": "UTC",
+  "theme": "地球大氣分層",
+  "items": [
+    {
+      "itemId": "atmosphere-layers-4",
+      "label": "臭氧層"
+    },
+    {
+      "itemId": "atmosphere-layers-8",
+      "label": "積雲"
+    },
+    {
+      "itemId": "atmosphere-layers-1",
+      "label": "逸散的氫原子"
+    },
+    {
+      "itemId": "atmosphere-layers-6",
+      "label": "超音速客機巡航"
+    },
+    {
+      "itemId": "atmosphere-layers-10",
+      "label": "聖母峰頂"
+    },
+    {
+      "itemId": "atmosphere-layers-2",
+      "label": "燃燒的流星"
+    },
+    {
+      "itemId": "atmosphere-layers-7",
+      "label": "雷暴"
+    },
+    {
+      "itemId": "atmosphere-layers-5",
+      "label": "高空氣象氣球"
+    },
+    {
+      "itemId": "atmosphere-layers-9",
+      "label": "晨霧"
+    },
+    {
+      "itemId": "atmosphere-layers-3",
+      "label": "夜光雲"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各現象主要發生的地球大氣層",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "外氣層",
+        "capacity": 1,
+        "itemIds": [
+          "atmosphere-layers-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "中氣層",
+        "capacity": 2,
+        "itemIds": [
+          "atmosphere-layers-2",
+          "atmosphere-layers-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "平流層",
+        "capacity": 3,
+        "itemIds": [
+          "atmosphere-layers-4",
+          "atmosphere-layers-5",
+          "atmosphere-layers-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "對流層",
+        "capacity": 4,
+        "itemIds": [
+          "atmosphere-layers-7",
+          "atmosphere-layers-8",
+          "atmosphere-layers-9",
+          "atmosphere-layers-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依發生的地球大氣層歸類：外氣層、中氣層、平流層與對流層。",
+  "sources": [
+    {
+      "title": "NOAA: Layers of the Atmosphere",
+      "url": "https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

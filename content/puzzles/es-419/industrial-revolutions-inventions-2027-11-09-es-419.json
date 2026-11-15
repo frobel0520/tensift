@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "industrial-revolutions-inventions-2027-11-09-es-419",
+  "puzzleFamilyId": "industrial-revolutions-inventions-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-09",
+  "timezone": "UTC",
+  "theme": "Revoluciones industriales por hito",
+  "items": [
+    {
+      "itemId": "industrial-revolutions-inventions-4",
+      "label": "Red eléctrica de corriente alterna"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-8",
+      "label": "Hiladora Jenny"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-1",
+      "label": "IA autónoma e IoT industrial"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-6",
+      "label": "Convertidor Bessemer de acero"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-10",
+      "label": "Locomotora de vapor temprana"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-2",
+      "label": "Microprocesador de silicio"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-7",
+      "label": "Máquina de vapor de Watt"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-5",
+      "label": "Línea de ensamblaje móvil"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-9",
+      "label": "Telar mecánico"
+    },
+    {
+      "itemId": "industrial-revolutions-inventions-3",
+      "label": "Red de paquetes ARPANET"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Ola de la Revolución Industrial a la que pertenece cada invento",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "4.ª Revolución: IA y ciberfísica",
+        "capacity": 1,
+        "itemIds": [
+          "industrial-revolutions-inventions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "3.ª Revolución: Digital",
+        "capacity": 2,
+        "itemIds": [
+          "industrial-revolutions-inventions-2",
+          "industrial-revolutions-inventions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "2.ª Revolución: Electricidad y serie",
+        "capacity": 3,
+        "itemIds": [
+          "industrial-revolutions-inventions-4",
+          "industrial-revolutions-inventions-5",
+          "industrial-revolutions-inventions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "1.ª Revolución: Vapor y textil",
+        "capacity": 4,
+        "itemIds": [
+          "industrial-revolutions-inventions-7",
+          "industrial-revolutions-inventions-8",
+          "industrial-revolutions-inventions-9",
+          "industrial-revolutions-inventions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por revolución industrial: Cuarta 4.0 (IA generativa), Tercera digital (microprocesador, conmutación de paquetes ARPANET), Segunda eléctrica/en serie (red de corriente alterna, línea de ensamblaje móvil, proceso Bessemer) y Primera mecanización (máquina de vapor de Watt, hiladora Jenny, telar mecánico, locomotora de vapor).",
+  "sources": [
+    {
+      "title": "Britannica: Industrial Revolution",
+      "url": "https://www.britannica.com/event/Industrial-Revolution",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

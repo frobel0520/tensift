@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "phase-transitions-001",
+  "theme": "Phase Transitions",
+  "publishDate": "2026-12-02",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "phase-transitions-5",
+        "rivalGroupId": "group-2",
+        "risk": "Deposition sounds like condensation.",
+        "resolution": "Deposition turns gas directly into a solid (group-3), whereas condensation forms a liquid."
+      },
+      {
+        "itemId": "phase-transitions-9",
+        "rivalGroupId": "group-3",
+        "risk": "Sublimation involves a solid.",
+        "resolution": "Sublimation transitions from solid directly to gas (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

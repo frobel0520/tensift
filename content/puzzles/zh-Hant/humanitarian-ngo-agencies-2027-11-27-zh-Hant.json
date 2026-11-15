@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "humanitarian-ngo-agencies-2027-11-27-zh-hant",
+  "puzzleFamilyId": "humanitarian-ngo-agencies-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-27",
+  "timezone": "UTC",
+  "theme": "國際人道救援與醫療組織",
+  "items": [
+    {
+      "itemId": "humanitarian-ngo-agencies-4",
+      "label": "無國界醫生（MSF）"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-8",
+      "label": "聯合國難民署（UNHCR）"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-1",
+      "label": "無國界記者組織（RSF）"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-6",
+      "label": "樂施會（Oxfam）"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-10",
+      "label": "聯合國兒童基金會（UNICEF）"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-2",
+      "label": "國際特赦組織"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-7",
+      "label": "世界糧食計畫署（WFP）"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-5",
+      "label": "救助兒童會"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-9",
+      "label": "紅十字國際委員會（ICRC）"
+    },
+    {
+      "itemId": "humanitarian-ngo-agencies-3",
+      "label": "人權觀察組織（HRW）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各國際救援與倡議組織的核心使命分類（新聞自由監督、人權倡議 NGO、獨立醫療救援 NGO 或聯合國／紅十字人道機關）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "新聞自由監督組織",
+        "capacity": 1,
+        "itemIds": [
+          "humanitarian-ngo-agencies-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "人權倡議非政府組織",
+        "capacity": 2,
+        "itemIds": [
+          "humanitarian-ngo-agencies-2",
+          "humanitarian-ngo-agencies-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "獨立醫療與救援 NGO",
+        "capacity": 3,
+        "itemIds": [
+          "humanitarian-ngo-agencies-4",
+          "humanitarian-ngo-agencies-5",
+          "humanitarian-ngo-agencies-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "聯合國與紅十字人道機關",
+        "capacity": 4,
+        "itemIds": [
+          "humanitarian-ngo-agencies-7",
+          "humanitarian-ngo-agencies-8",
+          "humanitarian-ngo-agencies-9",
+          "humanitarian-ngo-agencies-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依核心使命分類：新聞自由監督（無國界記者 RSF）、人權倡議組織（國際特赦組織、人權觀察）、獨立人道醫療救援（無國界醫生 MSF、救助兒童會、樂施會 Oxfam）與政府間及紅十字人道機構（世界糧食計畫署 WFP、聯合國難民署 UNHCR、紅十字國際委員會 ICRC、聯合國兒童基金會 UNICEF）。",
+  "sources": [
+    {
+      "title": "OCHA: Humanitarian Partners & Agencies",
+      "url": "https://www.unocha.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

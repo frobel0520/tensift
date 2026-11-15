@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "urban-planning-zoning-2027-11-25-en",
+  "puzzleFamilyId": "urban-planning-zoning-001",
+  "locale": "en",
+  "publishDate": "2027-11-25",
+  "timezone": "UTC",
+  "theme": "Urban Planning & Land-Use Zones",
+  "items": [
+    {
+      "itemId": "urban-planning-zoning-4",
+      "label": "Light Manufacturing Zone"
+    },
+    {
+      "itemId": "urban-planning-zoning-8",
+      "label": "Medium-Density Townhouse Zone"
+    },
+    {
+      "itemId": "urban-planning-zoning-1",
+      "label": "Protected Agricultural Greenbelt"
+    },
+    {
+      "itemId": "urban-planning-zoning-6",
+      "label": "Freight Logistics Park"
+    },
+    {
+      "itemId": "urban-planning-zoning-10",
+      "label": "Residential-First Mixed Zone"
+    },
+    {
+      "itemId": "urban-planning-zoning-2",
+      "label": "Central Business District (CBD)"
+    },
+    {
+      "itemId": "urban-planning-zoning-7",
+      "label": "Single-Family Detached Zone"
+    },
+    {
+      "itemId": "urban-planning-zoning-5",
+      "label": "Heavy Industrial Port Zone"
+    },
+    {
+      "itemId": "urban-planning-zoning-9",
+      "label": "High-Rise Apartment Zone"
+    },
+    {
+      "itemId": "urban-planning-zoning-3",
+      "label": "Neighborhood Retail Corridor"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Land-use zoning category (Agricultural/Open Reserve, Commercial Business Districts, Industrial Zones, or Residential Housing Zones)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Agricultural Greenbelt",
+        "capacity": 1,
+        "itemIds": [
+          "urban-planning-zoning-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Commercial Business Districts",
+        "capacity": 2,
+        "itemIds": [
+          "urban-planning-zoning-2",
+          "urban-planning-zoning-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Industrial & Logistics Zones",
+        "capacity": 3,
+        "itemIds": [
+          "urban-planning-zoning-4",
+          "urban-planning-zoning-5",
+          "urban-planning-zoning-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Residential Housing Zones",
+        "capacity": 4,
+        "itemIds": [
+          "urban-planning-zoning-7",
+          "urban-planning-zoning-8",
+          "urban-planning-zoning-9",
+          "urban-planning-zoning-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by urban land use: Greenbelt & Agriculture (Protected Agricultural Greenbelt), Commercial & Business (Central Business District CBD, Neighborhood Retail Strip), Industrial & Logistics (Light Manufacturing Zone, Heavy Industrial Port Zone, Freight Logistics Park), and Residential Zones (Single-Family Detached Zone, Townhouse Medium-Density, High-Rise Apartment Zone, Mixed-Use Residential Tower).",
+  "sources": [
+    {
+      "title": "UN-Habitat: Urban Planning & Zoning",
+      "url": "https://unhabitat.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

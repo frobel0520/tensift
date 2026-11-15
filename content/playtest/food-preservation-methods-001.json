@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "food-preservation-methods-001",
+  "theme": "Food Preservation Techniques",
+  "publishDate": "2027-10-03",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "food-preservation-methods-2",
+        "rivalGroupId": "group-4",
+        "risk": "Freeze-drying begins by freezing food.",
+        "resolution": "Freeze-drying removes ~98% of water via sublimation (group-2), whereas blast freezing preserves food by keeping ice frozen (group-4)."
+      },
+      {
+        "itemId": "food-preservation-methods-1",
+        "rivalGroupId": "group-3",
+        "risk": "Gamma irradiation is a sterilization method.",
+        "resolution": "Irradiation is a cold non-thermal ionizing treatment (group-1), not thermal heat processing (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

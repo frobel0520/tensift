@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "base-conversions-001",
+  "theme": "Number Base Equivalents",
+  "publishDate": "2027-02-15",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "base-conversions-7",
+        "rivalGroupId": "group-2",
+        "risk": "0x10 looks like the decimal number 10.",
+        "resolution": "In hexadecimal (base 16), 0x10 equals 16 (group-4), whereas 0xA equals 10 (group-2)."
+      },
+      {
+        "itemId": "base-conversions-3",
+        "rivalGroupId": "group-4",
+        "risk": "0o12 has digits 1 and 2.",
+        "resolution": "In octal (base 8), 0o12 = 1×8 + 2 = 10 (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

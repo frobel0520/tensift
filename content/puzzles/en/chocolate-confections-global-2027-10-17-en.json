@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chocolate-confections-global-2027-10-17-en",
+  "puzzleFamilyId": "chocolate-confections-global-001",
+  "locale": "en",
+  "publishDate": "2027-10-17",
+  "timezone": "UTC",
+  "theme": "Traditional World Desserts",
+  "items": [
+    {
+      "itemId": "chocolate-confections-global-4",
+      "label": "Crème Brûlée"
+    },
+    {
+      "itemId": "chocolate-confections-global-8",
+      "label": "Panna Cotta"
+    },
+    {
+      "itemId": "chocolate-confections-global-1",
+      "label": "Pistachio Baklava"
+    },
+    {
+      "itemId": "chocolate-confections-global-6",
+      "label": "Mille-Feuille"
+    },
+    {
+      "itemId": "chocolate-confections-global-10",
+      "label": "Artisanal Gelato"
+    },
+    {
+      "itemId": "chocolate-confections-global-2",
+      "label": "Mochi Rice Cake"
+    },
+    {
+      "itemId": "chocolate-confections-global-7",
+      "label": "Tiramisu"
+    },
+    {
+      "itemId": "chocolate-confections-global-5",
+      "label": "Parisian Macaron"
+    },
+    {
+      "itemId": "chocolate-confections-global-9",
+      "label": "Sicilian Cannoli"
+    },
+    {
+      "itemId": "chocolate-confections-global-3",
+      "label": "Dorayaki Pancake"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Region of origin (Middle East/Levant, Japan, France, or Italy)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Middle East / Levant",
+        "capacity": 1,
+        "itemIds": [
+          "chocolate-confections-global-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Japan",
+        "capacity": 2,
+        "itemIds": [
+          "chocolate-confections-global-2",
+          "chocolate-confections-global-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "France",
+        "capacity": 3,
+        "itemIds": [
+          "chocolate-confections-global-4",
+          "chocolate-confections-global-5",
+          "chocolate-confections-global-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Italy",
+        "capacity": 4,
+        "itemIds": [
+          "chocolate-confections-global-7",
+          "chocolate-confections-global-8",
+          "chocolate-confections-global-9",
+          "chocolate-confections-global-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by origin: Middle East / Levant (Baklava), Japan (Mochi Rice Cake, Matcha Dorayaki), France (Crème Brûlée, Macaron, Mille-Feuille), and Italy (Tiramisu, Panna Cotta, Cannoli, Gelato).",
+  "sources": [
+    {
+      "title": "Britannica: World Desserts & Pastries",
+      "url": "https://www.britannica.com/topic/pastry",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.2
+  },
+  "status": "scheduled"
+}

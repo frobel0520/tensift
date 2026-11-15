@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "solar-terms-seasons-001",
+  "theme": "24 Solar Terms by Season",
+  "publishDate": "2027-03-07",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "solar-terms-seasons-10",
+        "rivalGroupId": "group-1",
+        "risk": "Frost (Shuangjiang) sounds like winter weather.",
+        "resolution": "Shuangjiang occurs in late October as the last solar term of autumn (group-4), before Lidong begins winter."
+      },
+      {
+        "itemId": "solar-terms-seasons-2",
+        "rivalGroupId": "group-1",
+        "risk": "Lichun falls in early February while weather is still cold.",
+        "resolution": "Lichun marks the astronomical start of spring (group-2) at 315° solar longitude."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

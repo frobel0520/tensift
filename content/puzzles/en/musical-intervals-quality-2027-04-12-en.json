@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "musical-intervals-quality-2027-04-12-en",
+  "puzzleFamilyId": "musical-intervals-quality-001",
+  "locale": "en",
+  "publishDate": "2027-04-12",
+  "timezone": "UTC",
+  "theme": "Musical Interval Qualities",
+  "items": [
+    {
+      "itemId": "musical-intervals-quality-4",
+      "label": "Major Second"
+    },
+    {
+      "itemId": "musical-intervals-quality-8",
+      "label": "Perfect Fourth"
+    },
+    {
+      "itemId": "musical-intervals-quality-1",
+      "label": "Augmented Fourth (Tritone)"
+    },
+    {
+      "itemId": "musical-intervals-quality-6",
+      "label": "Major Sixth"
+    },
+    {
+      "itemId": "musical-intervals-quality-10",
+      "label": "Perfect Octave"
+    },
+    {
+      "itemId": "musical-intervals-quality-2",
+      "label": "Minor Third"
+    },
+    {
+      "itemId": "musical-intervals-quality-7",
+      "label": "Perfect Unison"
+    },
+    {
+      "itemId": "musical-intervals-quality-5",
+      "label": "Major Third"
+    },
+    {
+      "itemId": "musical-intervals-quality-9",
+      "label": "Perfect Fifth"
+    },
+    {
+      "itemId": "musical-intervals-quality-3",
+      "label": "Minor Seventh"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Interval quality category (Tritone, Minor, Major, or Perfect) in standard diatonic theory",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Tritone",
+        "capacity": 1,
+        "itemIds": [
+          "musical-intervals-quality-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Minor Intervals",
+        "capacity": 2,
+        "itemIds": [
+          "musical-intervals-quality-2",
+          "musical-intervals-quality-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Major Intervals",
+        "capacity": 3,
+        "itemIds": [
+          "musical-intervals-quality-4",
+          "musical-intervals-quality-5",
+          "musical-intervals-quality-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Perfect Intervals",
+        "capacity": 4,
+        "itemIds": [
+          "musical-intervals-quality-7",
+          "musical-intervals-quality-8",
+          "musical-intervals-quality-9",
+          "musical-intervals-quality-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by interval quality: Tritone (Augmented Fourth), Minor Intervals (Minor Third, Minor Seventh), Major Intervals (Major Second, Major Third, Major Sixth), and Perfect Intervals (Unison, Perfect Fourth, Perfect Fifth, Octave).",
+  "sources": [
+    {
+      "title": "Britannica: Musical Interval",
+      "url": "https://www.britannica.com/art/interval-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

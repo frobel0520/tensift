@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "asian-noodle-varieties-2027-10-05-es-419",
+  "puzzleFamilyId": "asian-noodle-varieties-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-05",
+  "timezone": "UTC",
+  "theme": "Fideos asiáticos por ingrediente base",
+  "items": [
+    {
+      "itemId": "asian-noodle-varieties-4",
+      "label": "Fideos de pho"
+    },
+    {
+      "itemId": "asian-noodle-varieties-8",
+      "label": "Ramen alcalino"
+    },
+    {
+      "itemId": "asian-noodle-varieties-1",
+      "label": "Fideos celofán"
+    },
+    {
+      "itemId": "asian-noodle-varieties-6",
+      "label": "Vermicelli de arroz"
+    },
+    {
+      "itemId": "asian-noodle-varieties-10",
+      "label": "Somen"
+    },
+    {
+      "itemId": "asian-noodle-varieties-2",
+      "label": "Soba japonés"
+    },
+    {
+      "itemId": "asian-noodle-varieties-7",
+      "label": "Udon"
+    },
+    {
+      "itemId": "asian-noodle-varieties-5",
+      "label": "Fideos planos para pad thai"
+    },
+    {
+      "itemId": "asian-noodle-varieties-9",
+      "label": "Lo mein"
+    },
+    {
+      "itemId": "asian-noodle-varieties-3",
+      "label": "Naengmyeon coreano"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Harina o almidón principal de cada fideo asiático",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Almidón de frijol mungo",
+        "capacity": 1,
+        "itemIds": [
+          "asian-noodle-varieties-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Fideos de trigo sarraceno",
+        "capacity": 2,
+        "itemIds": [
+          "asian-noodle-varieties-2",
+          "asian-noodle-varieties-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Fideos de arroz",
+        "capacity": 3,
+        "itemIds": [
+          "asian-noodle-varieties-4",
+          "asian-noodle-varieties-5",
+          "asian-noodle-varieties-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Fideos de trigo",
+        "capacity": 4,
+        "itemIds": [
+          "asian-noodle-varieties-7",
+          "asian-noodle-varieties-8",
+          "asian-noodle-varieties-9",
+          "asian-noodle-varieties-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por base: almidón de frijol mungo (fideos celofán), trigo sarraceno (soba japonés, naengmyeon coreano), harina de arroz (pho vietnamita, pad thai ancho, vermicelli de arroz) y harina de trigo (udon, ramen alcalino, lo mein, somen).",
+  "sources": [
+    {
+      "title": "FAO: Asian Noodles Processing",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

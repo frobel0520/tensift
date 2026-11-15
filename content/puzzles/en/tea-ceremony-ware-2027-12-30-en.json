@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tea-ceremony-ware-2027-12-30-en",
+  "puzzleFamilyId": "tea-ceremony-ware-001",
+  "locale": "en",
+  "publishDate": "2027-12-30",
+  "timezone": "UTC",
+  "theme": "Traditional Tea Ware Utensils",
+  "items": [
+    {
+      "itemId": "tea-ceremony-ware-4",
+      "label": "Chasen Bamboo Whisk"
+    },
+    {
+      "itemId": "tea-ceremony-ware-8",
+      "label": "Lidded Gaiwan Cup"
+    },
+    {
+      "itemId": "tea-ceremony-ware-1",
+      "label": "Cast-Iron Tetsubin Kettle"
+    },
+    {
+      "itemId": "tea-ceremony-ware-6",
+      "label": "Natsume Tea Caddy"
+    },
+    {
+      "itemId": "tea-ceremony-ware-10",
+      "label": "Porcelain Tasting Cup"
+    },
+    {
+      "itemId": "tea-ceremony-ware-2",
+      "label": "Bamboo Tea Scoop (Chashaku)"
+    },
+    {
+      "itemId": "tea-ceremony-ware-7",
+      "label": "Yixing Zisha Clay Teapot"
+    },
+    {
+      "itemId": "tea-ceremony-ware-5",
+      "label": "Chawan Matcha Bowl"
+    },
+    {
+      "itemId": "tea-ceremony-ware-9",
+      "label": "Cha Hai Fairness Pitcher"
+    },
+    {
+      "itemId": "tea-ceremony-ware-3",
+      "label": "Fine Mesh Tea Strainer"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tea utensil function (Water Kettle Tetsubin, Tea Scoops & Strainers, Tea Whisking & Matcha Bowls, or Gongfu Brewing & Serving Vessels)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Water Boiling Kettle",
+        "capacity": 1,
+        "itemIds": [
+          "tea-ceremony-ware-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Scooping & Straining",
+        "capacity": 2,
+        "itemIds": [
+          "tea-ceremony-ware-2",
+          "tea-ceremony-ware-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Matcha Whisking Set",
+        "capacity": 3,
+        "itemIds": [
+          "tea-ceremony-ware-4",
+          "tea-ceremony-ware-5",
+          "tea-ceremony-ware-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Gongfu Steeping & Serving",
+        "capacity": 4,
+        "itemIds": [
+          "tea-ceremony-ware-7",
+          "tea-ceremony-ware-8",
+          "tea-ceremony-ware-9",
+          "tea-ceremony-ware-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by tea-ware function: Water Boiling Kettle (Cast-Iron Tetsubin), Leaf Scooping & Straining (Bamboo Chashaku Scoop, Fine Tea Strainer), Matcha Whisking Gear (Chasen Bamboo Whisk, Chawan Matcha Bowl, Tea Caddy Natsume), and Gongfu Steeping & Serving (Yixing Clay Teapot, Gaiwan Lidded Bowl, Cha Hai Fairness Pitcher, Tasting Aroma Cup).",
+  "sources": [
+    {
+      "title": "Britannica: Tea Ceremony Utensils",
+      "url": "https://www.britannica.com/topic/tea-ceremony",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

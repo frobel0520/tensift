@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "musical-notation-symbols-001",
+  "theme": "Musical Notation Symbols",
+  "publishDate": "2027-05-01",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "musical-notation-symbols-1",
+        "rivalGroupId": "group-2",
+        "risk": "Fermata often appears at the end of a section.",
+        "resolution": "A fermata holds a note or rest longer than its written value (group-1), rather than directing page jumps (group-2)."
+      },
+      {
+        "itemId": "musical-notation-symbols-6",
+        "rivalGroupId": "group-4",
+        "risk": "Natural is sometimes mistaken for a clef or key-signature reset.",
+        "resolution": "Natural (♮) is a pitch accidental that cancels a sharp or flat (group-3), not a staff clef (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

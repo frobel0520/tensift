@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "laboratory-glassware-2026-12-22-es-419",
+  "puzzleFamilyId": "laboratory-glassware-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-22",
+  "timezone": "UTC",
+  "theme": "Material de laboratorio",
+  "items": [
+    {
+      "itemId": "laboratory-glassware-4",
+      "label": "Embudo de decantación"
+    },
+    {
+      "itemId": "laboratory-glassware-8",
+      "label": "Bureta"
+    },
+    {
+      "itemId": "laboratory-glassware-1",
+      "label": "Balanza analítica"
+    },
+    {
+      "itemId": "laboratory-glassware-6",
+      "label": "Centrífuga"
+    },
+    {
+      "itemId": "laboratory-glassware-10",
+      "label": "Micropipeta"
+    },
+    {
+      "itemId": "laboratory-glassware-2",
+      "label": "Mechero Bunsen"
+    },
+    {
+      "itemId": "laboratory-glassware-7",
+      "label": "Probeta graduada"
+    },
+    {
+      "itemId": "laboratory-glassware-5",
+      "label": "Embudo Büchner"
+    },
+    {
+      "itemId": "laboratory-glassware-9",
+      "label": "Matraz aforado"
+    },
+    {
+      "itemId": "laboratory-glassware-3",
+      "label": "Manta calefactora"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Función principal de cada instrumento de laboratorio",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Medición de masa",
+        "capacity": 1,
+        "itemIds": [
+          "laboratory-glassware-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Calentamiento",
+        "capacity": 2,
+        "itemIds": [
+          "laboratory-glassware-2",
+          "laboratory-glassware-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Separación",
+        "capacity": 3,
+        "itemIds": [
+          "laboratory-glassware-4",
+          "laboratory-glassware-5",
+          "laboratory-glassware-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Medición de volumen líquido",
+        "capacity": 4,
+        "itemIds": [
+          "laboratory-glassware-7",
+          "laboratory-glassware-8",
+          "laboratory-glassware-9",
+          "laboratory-glassware-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por función de laboratorio: medir masa, calentar, separar mezclas y medir volumen líquido.",
+  "sources": [
+    {
+      "title": "ACS: Chemistry Laboratory Equipment",
+      "url": "https://www.acs.org/education.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.35
+  },
+  "status": "scheduled"
+}

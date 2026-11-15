@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "planet-moons-2026-12-21-en",
+  "puzzleFamilyId": "planet-moons-001",
+  "locale": "en",
+  "publishDate": "2026-12-21",
+  "timezone": "UTC",
+  "theme": "Moons of the Solar System",
+  "items": [
+    {
+      "itemId": "planet-moons-4",
+      "label": "Titan"
+    },
+    {
+      "itemId": "planet-moons-8",
+      "label": "Europa"
+    },
+    {
+      "itemId": "planet-moons-1",
+      "label": "Triton"
+    },
+    {
+      "itemId": "planet-moons-6",
+      "label": "Rhea"
+    },
+    {
+      "itemId": "planet-moons-10",
+      "label": "Callisto"
+    },
+    {
+      "itemId": "planet-moons-2",
+      "label": "Phobos"
+    },
+    {
+      "itemId": "planet-moons-7",
+      "label": "Io"
+    },
+    {
+      "itemId": "planet-moons-5",
+      "label": "Enceladus"
+    },
+    {
+      "itemId": "planet-moons-9",
+      "label": "Ganymede"
+    },
+    {
+      "itemId": "planet-moons-3",
+      "label": "Deimos"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The host planet orbited by each moon",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Neptune",
+        "capacity": 1,
+        "itemIds": [
+          "planet-moons-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Mars",
+        "capacity": 2,
+        "itemIds": [
+          "planet-moons-2",
+          "planet-moons-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Saturn",
+        "capacity": 3,
+        "itemIds": [
+          "planet-moons-4",
+          "planet-moons-5",
+          "planet-moons-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Jupiter",
+        "capacity": 4,
+        "itemIds": [
+          "planet-moons-7",
+          "planet-moons-8",
+          "planet-moons-9",
+          "planet-moons-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by host planet: Neptune (Triton), Mars (Phobos, Deimos), Saturn (Titan, Enceladus, Rhea), and Jupiter (Io, Europa, Ganymede, Callisto).",
+  "sources": [
+    {
+      "title": "NASA: Moons of Our Solar System",
+      "url": "https://science.nasa.gov/moons/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

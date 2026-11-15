@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "winter-ice-sliding-sports-2027-08-06-en",
+  "puzzleFamilyId": "winter-ice-sliding-sports-001",
+  "locale": "en",
+  "publishDate": "2027-08-06",
+  "timezone": "UTC",
+  "theme": "Winter Ice & Sliding Sports",
+  "items": [
+    {
+      "itemId": "winter-ice-sliding-sports-4",
+      "label": "Singles Figure Skating"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-8",
+      "label": "1500m Long Track"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-1",
+      "label": "Skeleton"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-6",
+      "label": "Ice Dance"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-10",
+      "label": "Short Track Mixed Relay"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-2",
+      "label": "Bobsleigh"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-7",
+      "label": "500m Long Track"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-5",
+      "label": "Pair Skating"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-9",
+      "label": "500m Short Track"
+    },
+    {
+      "itemId": "winter-ice-sliding-sports-3",
+      "label": "Luge"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Winter ice/sliding category (Head-First Skeleton, Seated/Supine Sledding, Figure Skating, or Speed Skating)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Head-First Sled",
+        "capacity": 1,
+        "itemIds": [
+          "winter-ice-sliding-sports-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Seated & Supine Sleds",
+        "capacity": 2,
+        "itemIds": [
+          "winter-ice-sliding-sports-2",
+          "winter-ice-sliding-sports-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Figure Skating",
+        "capacity": 3,
+        "itemIds": [
+          "winter-ice-sliding-sports-4",
+          "winter-ice-sliding-sports-5",
+          "winter-ice-sliding-sports-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Speed Skating",
+        "capacity": 4,
+        "itemIds": [
+          "winter-ice-sliding-sports-7",
+          "winter-ice-sliding-sports-8",
+          "winter-ice-sliding-sports-9",
+          "winter-ice-sliding-sports-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by winter ice sport: Head-First Sled (Skeleton), Seated/Supine Sleds (Bobsleigh, Luge), Figure Skating (Men’s Singles, Pair Skating, Ice Dance), and Speed Skating (500m Long Track, 1500m Long Track, 500m Short Track, Mixed Short Track Relay).",
+  "sources": [
+    {
+      "title": "ISU & IBSF Winter Sports",
+      "url": "https://www.isu.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.4
+  },
+  "status": "scheduled"
+}

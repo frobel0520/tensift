@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "space-telescopes-wavelengths-2027-06-09-en",
+  "puzzleFamilyId": "space-telescopes-wavelengths-001",
+  "locale": "en",
+  "publishDate": "2027-06-09",
+  "timezone": "UTC",
+  "theme": "Space Telescopes by Wavelength",
+  "items": [
+    {
+      "itemId": "space-telescopes-wavelengths-4",
+      "label": "Hubble Space Telescope"
+    },
+    {
+      "itemId": "space-telescopes-wavelengths-8",
+      "label": "Spitzer Space Telescope"
+    },
+    {
+      "itemId": "space-telescopes-wavelengths-1",
+      "label": "Fermi Gamma-ray Space Telescope"
+    },
+    {
+      "itemId": "space-telescopes-wavelengths-6",
+      "label": "Gaia"
+    },
+    {
+      "itemId": "space-telescopes-wavelengths-10",
+      "label": "WISE"
+    },
+    {
+      "itemId": "space-telescopes-wavelengths-2",
+      "label": "Chandra X-ray Observatory"
+    },
+    {
+      "itemId": "space-telescopes-wavelengths-7",
+      "label": "James Webb Space Telescope"
+    },
+    {
+      "itemId": "space-telescopes-wavelengths-5",
+      "label": "Kepler Space Telescope"
+    },
+    {
+      "itemId": "space-telescopes-wavelengths-9",
+      "label": "Herschel Space Observatory"
+    },
+    {
+      "itemId": "space-telescopes-wavelengths-3",
+      "label": "XMM-Newton"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Primary electromagnetic band (Gamma-Ray, X-Ray, Visible/Optical, or Infrared) observed by each space telescope",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Gamma-Ray",
+        "capacity": 1,
+        "itemIds": [
+          "space-telescopes-wavelengths-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "X-Ray",
+        "capacity": 2,
+        "itemIds": [
+          "space-telescopes-wavelengths-2",
+          "space-telescopes-wavelengths-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Visible / Optical",
+        "capacity": 3,
+        "itemIds": [
+          "space-telescopes-wavelengths-4",
+          "space-telescopes-wavelengths-5",
+          "space-telescopes-wavelengths-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Infrared",
+        "capacity": 4,
+        "itemIds": [
+          "space-telescopes-wavelengths-7",
+          "space-telescopes-wavelengths-8",
+          "space-telescopes-wavelengths-9",
+          "space-telescopes-wavelengths-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by primary wavelength band: Gamma-Ray (Fermi), X-Ray (Chandra, XMM-Newton), Visible/Optical (Hubble, Kepler, Gaia), and Infrared (James Webb JWST, Spitzer, Herschel, WISE).",
+  "sources": [
+    {
+      "title": "NASA: Great Observatories & Space Telescopes",
+      "url": "https://science.nasa.gov/astrophysics/programs/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.46
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "landlocked-countries-region-2027-03-10-zh-hant",
+  "puzzleFamilyId": "landlocked-countries-region-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-10",
+  "timezone": "UTC",
+  "theme": "內陸國分類",
+  "items": [
+    {
+      "itemId": "landlocked-countries-region-4",
+      "label": "蒙古"
+    },
+    {
+      "itemId": "landlocked-countries-region-8",
+      "label": "奧地利"
+    },
+    {
+      "itemId": "landlocked-countries-region-1",
+      "label": "烏茲別克"
+    },
+    {
+      "itemId": "landlocked-countries-region-6",
+      "label": "寮國"
+    },
+    {
+      "itemId": "landlocked-countries-region-10",
+      "label": "捷克"
+    },
+    {
+      "itemId": "landlocked-countries-region-2",
+      "label": "玻利維亞"
+    },
+    {
+      "itemId": "landlocked-countries-region-7",
+      "label": "瑞士"
+    },
+    {
+      "itemId": "landlocked-countries-region-5",
+      "label": "尼泊爾"
+    },
+    {
+      "itemId": "landlocked-countries-region-9",
+      "label": "匈牙利"
+    },
+    {
+      "itemId": "landlocked-countries-region-3",
+      "label": "巴拉圭"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各內陸國的雙重內陸性質或所屬洲別",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "亞洲雙重內陸國",
+        "capacity": 1,
+        "itemIds": [
+          "landlocked-countries-region-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "南美洲內陸國",
+        "capacity": 2,
+        "itemIds": [
+          "landlocked-countries-region-2",
+          "landlocked-countries-region-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "亞洲單重內陸國",
+        "capacity": 3,
+        "itemIds": [
+          "landlocked-countries-region-4",
+          "landlocked-countries-region-5",
+          "landlocked-countries-region-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "歐洲內陸國",
+        "capacity": 4,
+        "itemIds": [
+          "landlocked-countries-region-7",
+          "landlocked-countries-region-8",
+          "landlocked-countries-region-9",
+          "landlocked-countries-region-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依雙重內陸或洲別分類：亞洲雙重內陸國（烏茲別克）、南美洲內陸國（玻利維亞、巴拉圭）、亞洲單重內陸國（蒙古、尼泊爾、寮國）與歐洲內陸國（瑞士、奧地利、匈牙利、捷克）。",
+  "sources": [
+    {
+      "title": "UN-OHRLLS: Landlocked Developing Countries",
+      "url": "https://www.un.org/ohrlls/content/about-landlocked-developing-countries",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

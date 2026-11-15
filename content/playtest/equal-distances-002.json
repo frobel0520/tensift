@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "equal-distances-002",
+  "theme": "Equal Distances",
+  "publishDate": "2026-11-23",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "equal-distances-4",
+        "rivalGroupId": "group-2",
+        "risk": "100 cm uses centimeters, which shares a unit symbol with 100000 cm.",
+        "resolution": "Exact conversion gives 100 cm = 1 m (group-3), whereas 100000 cm = 1 km (group-4)."
+      },
+      {
+        "itemId": "equal-distances-5",
+        "rivalGroupId": "group-1",
+        "risk": "1000 mm is written in millimeters like 10 mm and 1000000 mm.",
+        "resolution": "Grouping is by physical length after unit conversion, so 1000 mm = 1 m (group-3)."
+      }
+    ],
+    "notes": "Promoted from content/candidates/batch-7 after exact micrometer conversion checks."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

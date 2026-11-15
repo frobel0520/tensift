@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "constellations-sky-regions-2027-06-14-en",
+  "puzzleFamilyId": "constellations-sky-regions-001",
+  "locale": "en",
+  "publishDate": "2027-06-14",
+  "timezone": "UTC",
+  "theme": "Constellations by Sky Region",
+  "items": [
+    {
+      "itemId": "constellations-sky-regions-4",
+      "label": "Taurus"
+    },
+    {
+      "itemId": "constellations-sky-regions-8",
+      "label": "Cygnus"
+    },
+    {
+      "itemId": "constellations-sky-regions-1",
+      "label": "Crux (Southern Cross)"
+    },
+    {
+      "itemId": "constellations-sky-regions-6",
+      "label": "Scorpius"
+    },
+    {
+      "itemId": "constellations-sky-regions-10",
+      "label": "Canis Major"
+    },
+    {
+      "itemId": "constellations-sky-regions-2",
+      "label": "Ursa Major"
+    },
+    {
+      "itemId": "constellations-sky-regions-7",
+      "label": "Orion"
+    },
+    {
+      "itemId": "constellations-sky-regions-5",
+      "label": "Leo"
+    },
+    {
+      "itemId": "constellations-sky-regions-9",
+      "label": "Lyra"
+    },
+    {
+      "itemId": "constellations-sky-regions-3",
+      "label": "Cassiopeia"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Celestial region (South Circumpolar, North Circumpolar, Zodiac Ecliptic, or Non-Zodiacal Bright Constellations)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "South Circumpolar",
+        "capacity": 1,
+        "itemIds": [
+          "constellations-sky-regions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "North Circumpolar",
+        "capacity": 2,
+        "itemIds": [
+          "constellations-sky-regions-2",
+          "constellations-sky-regions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Zodiacal Ecliptic",
+        "capacity": 3,
+        "itemIds": [
+          "constellations-sky-regions-4",
+          "constellations-sky-regions-5",
+          "constellations-sky-regions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Non-Zodiacal Bright Constellations",
+        "capacity": 4,
+        "itemIds": [
+          "constellations-sky-regions-7",
+          "constellations-sky-regions-8",
+          "constellations-sky-regions-9",
+          "constellations-sky-regions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by sky region: South Circumpolar (Crux), North Circumpolar (Ursa Major, Cassiopeia), Zodiacal Ecliptic (Taurus, Leo, Scorpius), and Non-Zodiacal Equatorial/Northern (Orion, Cygnus, Lyra, Canis Major).",
+  "sources": [
+    {
+      "title": "IAU: The Constellations",
+      "url": "https://www.iau.org/public/themes/constellations/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

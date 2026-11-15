@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "urban-planning-zoning-001",
+  "theme": "Urban Planning & Land-Use Zones",
+  "publishDate": "2027-11-25",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "urban-planning-zoning-10",
+        "rivalGroupId": "group-2",
+        "risk": "Mixed-use zones allow ground-floor shops.",
+        "resolution": "Residential-First Mixed Zone is primarily zoned for housing density (group-4), unlike dedicated commercial office/retail districts (group-2)."
+      },
+      {
+        "itemId": "urban-planning-zoning-1",
+        "rivalGroupId": "group-4",
+        "risk": "Rural zones contain farmhouses.",
+        "resolution": "Protected greenbelts restrict urban housing subdivisions to preserve farmland and open space (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "si-metric-prefixes-2028-01-01-es-419",
+  "puzzleFamilyId": "si-metric-prefixes-001",
+  "locale": "es-419",
+  "publishDate": "2028-01-01",
+  "timezone": "UTC",
+  "theme": "Prefijos métricos del SI por escala",
+  "items": [
+    {
+      "itemId": "si-metric-prefixes-4",
+      "label": "Deca (da, 10^1)"
+    },
+    {
+      "itemId": "si-metric-prefixes-8",
+      "label": "Giga (G, 10^9)"
+    },
+    {
+      "itemId": "si-metric-prefixes-1",
+      "label": "Nano (n, 10^-9)"
+    },
+    {
+      "itemId": "si-metric-prefixes-6",
+      "label": "Kilo (k, 10^3)"
+    },
+    {
+      "itemId": "si-metric-prefixes-10",
+      "label": "Peta (P, 10^15)"
+    },
+    {
+      "itemId": "si-metric-prefixes-2",
+      "label": "Mili (m, 10^-3)"
+    },
+    {
+      "itemId": "si-metric-prefixes-7",
+      "label": "Mega (M, 10^6)"
+    },
+    {
+      "itemId": "si-metric-prefixes-5",
+      "label": "Hecto (h, 10^2)"
+    },
+    {
+      "itemId": "si-metric-prefixes-9",
+      "label": "Tera (T, 10^12)"
+    },
+    {
+      "itemId": "si-metric-prefixes-3",
+      "label": "Centi (c, 10^-2)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Rango de potencia decimal de cada prefijo del SI",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Subunidad nanoscópica (10^-9)",
+        "capacity": 1,
+        "itemIds": [
+          "si-metric-prefixes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Subunidades cotidianas (10^-3 a 10^-2)",
+        "capacity": 2,
+        "itemIds": [
+          "si-metric-prefixes-2",
+          "si-metric-prefixes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Múltiplos pequeños (10^1 a 10^3)",
+        "capacity": 3,
+        "itemIds": [
+          "si-metric-prefixes-4",
+          "si-metric-prefixes-5",
+          "si-metric-prefixes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Grandes múltiplos (10^6 a 10^15)",
+        "capacity": 4,
+        "itemIds": [
+          "si-metric-prefixes-7",
+          "si-metric-prefixes-8",
+          "si-metric-prefixes-9",
+          "si-metric-prefixes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por escala del SI: subunidad nanoscópica (nano 10^-9), subunidades cotidianas (mili 10^-3, centi 10^-2), múltiplos pequeños (deca 10^1, hecto 10^2, kilo 10^3) y grandes múltiplos (mega 10^6, giga 10^9, tera 10^12, peta 10^15).",
+  "sources": [
+    {
+      "title": "BIPM: SI Prefixes",
+      "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chocolate-cocoa-products-2027-09-16-es-419",
+  "puzzleFamilyId": "chocolate-cocoa-products-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-16",
+  "timezone": "UTC",
+  "theme": "Productos de cacao y chocolate",
+  "items": [
+    {
+      "itemId": "chocolate-cocoa-products-4",
+      "label": "Cacao natural en polvo"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-8",
+      "label": "Chocolate extra amargo 85%"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-1",
+      "label": "Nibs de cacao tostados"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-6",
+      "label": "Cacao negro en polvo"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-10",
+      "label": "Chocolate gianduja"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-2",
+      "label": "Chocolate blanco"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-7",
+      "label": "Chocolate amargo 70%"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-5",
+      "label": "Cacao alcalinizado (holandés)"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-9",
+      "label": "Chocolate con leche"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-3",
+      "label": "Chocolate rubio caramelizado"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Composición de sólidos de cacao y manteca de cacao",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Cacao puro sin azúcar",
+        "capacity": 1,
+        "itemIds": [
+          "chocolate-cocoa-products-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Solo manteca de cacao",
+        "capacity": 2,
+        "itemIds": [
+          "chocolate-cocoa-products-2",
+          "chocolate-cocoa-products-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Cacao en polvo desgrasado",
+        "capacity": 3,
+        "itemIds": [
+          "chocolate-cocoa-products-4",
+          "chocolate-cocoa-products-5",
+          "chocolate-cocoa-products-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Tabletas con pasta de cacao",
+        "capacity": 4,
+        "itemIds": [
+          "chocolate-cocoa-products-7",
+          "chocolate-cocoa-products-8",
+          "chocolate-cocoa-products-9",
+          "chocolate-cocoa-products-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por composición: cacao puro sin azúcar (nibs de cacao), solo manteca de cacao (chocolate blanco, chocolate rubio caramelizado), polvos desgrasados (cacao natural, alcalinizado holandés, cacao negro) y tabletas con pasta de cacao (amargo 70%, extra amargo 85%, con leche, gianduja).",
+  "sources": [
+    {
+      "title": "Codex Alimentarius: Chocolate Standard",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

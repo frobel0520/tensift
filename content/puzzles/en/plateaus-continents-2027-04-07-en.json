@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "plateaus-continents-2027-04-07-en",
+  "puzzleFamilyId": "plateaus-continents-001",
+  "locale": "en",
+  "publishDate": "2027-04-07",
+  "timezone": "UTC",
+  "theme": "World Plateaus by Continent",
+  "items": [
+    {
+      "itemId": "plateaus-continents-4",
+      "label": "Colorado Plateau"
+    },
+    {
+      "itemId": "plateaus-continents-8",
+      "label": "Deccan Plateau"
+    },
+    {
+      "itemId": "plateaus-continents-1",
+      "label": "Altiplano"
+    },
+    {
+      "itemId": "plateaus-continents-6",
+      "label": "Mexican Plateau"
+    },
+    {
+      "itemId": "plateaus-continents-10",
+      "label": "Mongolian Plateau"
+    },
+    {
+      "itemId": "plateaus-continents-2",
+      "label": "Ethiopian Highlands"
+    },
+    {
+      "itemId": "plateaus-continents-7",
+      "label": "Tibetan Plateau"
+    },
+    {
+      "itemId": "plateaus-continents-5",
+      "label": "Columbia Plateau"
+    },
+    {
+      "itemId": "plateaus-continents-9",
+      "label": "Anatolian Plateau"
+    },
+    {
+      "itemId": "plateaus-continents-3",
+      "label": "East African Plateau"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Continent (South America, Africa, North America, or Asia) of each plateau",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "South America",
+        "capacity": 1,
+        "itemIds": [
+          "plateaus-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Africa",
+        "capacity": 2,
+        "itemIds": [
+          "plateaus-continents-2",
+          "plateaus-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "North America",
+        "capacity": 3,
+        "itemIds": [
+          "plateaus-continents-4",
+          "plateaus-continents-5",
+          "plateaus-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Asia",
+        "capacity": 4,
+        "itemIds": [
+          "plateaus-continents-7",
+          "plateaus-continents-8",
+          "plateaus-continents-9",
+          "plateaus-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by continent: South America (Altiplano), Africa (Ethiopian Highlands, East African Plateau), North America (Colorado Plateau, Columbia Plateau, Mexican Plateau), and Asia (Tibetan Plateau, Deccan Plateau, Anatolian Plateau, Mongolian Plateau).",
+  "sources": [
+    {
+      "title": "Britannica: Plateau",
+      "url": "https://www.britannica.com/science/plateau-landform",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

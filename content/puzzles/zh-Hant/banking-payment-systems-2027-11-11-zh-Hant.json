@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "banking-payment-systems-2027-11-11-zh-hant",
+  "puzzleFamilyId": "banking-payment-systems-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-11",
+  "timezone": "UTC",
+  "theme": "現代支付與金融清算系統",
+  "items": [
+    {
+      "itemId": "banking-payment-systems-4",
+      "label": "Visa 信用卡網路"
+    },
+    {
+      "itemId": "banking-payment-systems-8",
+      "label": "美國 ACH 自動票據交換"
+    },
+    {
+      "itemId": "banking-payment-systems-1",
+      "label": "比特幣閃電網路"
+    },
+    {
+      "itemId": "banking-payment-systems-6",
+      "label": "美國運通支付網路"
+    },
+    {
+      "itemId": "banking-payment-systems-10",
+      "label": "英國快速支付系統"
+    },
+    {
+      "itemId": "banking-payment-systems-2",
+      "label": "SWIFT 環球銀行電文網路"
+    },
+    {
+      "itemId": "banking-payment-systems-7",
+      "label": "美國 Fedwire 即時總額清算"
+    },
+    {
+      "itemId": "banking-payment-systems-5",
+      "label": "Mastercard 信用卡網路"
+    },
+    {
+      "itemId": "banking-payment-systems-9",
+      "label": "歐元區單一歐元支付區（SEPA）"
+    },
+    {
+      "itemId": "banking-payment-systems-3",
+      "label": "CLS 多幣別外匯清算系統"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各金融支付系統的清算層級（去中心化區塊鏈、跨境匯款電文系統、國際信用卡組織或各國國內轉帳清算網）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "去中心化加密支付層",
+        "capacity": 1,
+        "itemIds": [
+          "banking-payment-systems-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "跨境銀行電文與外匯清算",
+        "capacity": 2,
+        "itemIds": [
+          "banking-payment-systems-2",
+          "banking-payment-systems-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "國際信用卡組織網路",
+        "capacity": 3,
+        "itemIds": [
+          "banking-payment-systems-4",
+          "banking-payment-systems-5",
+          "banking-payment-systems-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "國內／區域銀行轉帳清算",
+        "capacity": 4,
+        "itemIds": [
+          "banking-payment-systems-7",
+          "banking-payment-systems-8",
+          "banking-payment-systems-9",
+          "banking-payment-systems-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依金融清算層級分類：去中心化帳本（比特幣閃電網路）、跨境銀行電文與外匯清算（SWIFT 環球銀行電文、CLS 外匯同步清算）、國際信用卡組織（Visa、Mastercard、美國運通）與國內銀行轉帳系統（美國 Fedwire、美國 ACH、歐元區 SEPA、英國快速支付）。",
+  "sources": [
+    {
+      "title": "BIS Committee on Payments and Market Infrastructures",
+      "url": "https://www.bis.org/cpmi/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

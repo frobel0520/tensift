@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "human-organ-systems-001",
+  "theme": "Human Anatomy Organ Systems",
+  "publishDate": "2027-12-06",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "human-organ-systems-7",
+        "rivalGroupId": "group-3",
+        "risk": "The esophagus runs right behind the trachea in the neck and thorax.",
+        "resolution": "The esophagus conducts food to the stomach as part of the digestive tract (group-4), not air to the lungs (group-3)."
+      },
+      {
+        "itemId": "human-organ-systems-10",
+        "rivalGroupId": "group-2",
+        "risk": "The liver secretes bile and regulates blood glucose.",
+        "resolution": "The liver is an accessory digestive organ producing bile (group-4), not a ductless endocrine gland (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

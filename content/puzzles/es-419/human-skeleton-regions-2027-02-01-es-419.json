@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "human-skeleton-regions-2027-02-01-es-419",
+  "puzzleFamilyId": "human-skeleton-regions-001",
+  "locale": "es-419",
+  "publishDate": "2027-02-01",
+  "timezone": "UTC",
+  "theme": "Huesos del esqueleto humano",
+  "items": [
+    {
+      "itemId": "human-skeleton-regions-4",
+      "label": "Húmero"
+    },
+    {
+      "itemId": "human-skeleton-regions-8",
+      "label": "Tibia"
+    },
+    {
+      "itemId": "human-skeleton-regions-1",
+      "label": "Esternón"
+    },
+    {
+      "itemId": "human-skeleton-regions-6",
+      "label": "Cúbito"
+    },
+    {
+      "itemId": "human-skeleton-regions-10",
+      "label": "Rótula"
+    },
+    {
+      "itemId": "human-skeleton-regions-2",
+      "label": "Mandíbula"
+    },
+    {
+      "itemId": "human-skeleton-regions-7",
+      "label": "Fémur"
+    },
+    {
+      "itemId": "human-skeleton-regions-5",
+      "label": "Radio"
+    },
+    {
+      "itemId": "human-skeleton-regions-9",
+      "label": "Peroné"
+    },
+    {
+      "itemId": "human-skeleton-regions-3",
+      "label": "Maxilar"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Región anatómica de cada hueso humano",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Tórax",
+        "capacity": 1,
+        "itemIds": [
+          "human-skeleton-regions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Cráneo y mandíbula",
+        "capacity": 2,
+        "itemIds": [
+          "human-skeleton-regions-2",
+          "human-skeleton-regions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Miembro superior",
+        "capacity": 3,
+        "itemIds": [
+          "human-skeleton-regions-4",
+          "human-skeleton-regions-5",
+          "human-skeleton-regions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Miembro inferior",
+        "capacity": 4,
+        "itemIds": [
+          "human-skeleton-regions-7",
+          "human-skeleton-regions-8",
+          "human-skeleton-regions-9",
+          "human-skeleton-regions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por región anatómica: tórax (esternón), cráneo/cara (mandíbula, maxilar), miembro superior (húmero, radio, cúbito) y miembro inferior (fémur, tibia, peroné, rótula).",
+  "sources": [
+    {
+      "title": "NIH SEER: Skeletal System",
+      "url": "https://training.seer.cancer.gov/anatomy/skeletal/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.38
+  },
+  "status": "scheduled"
+}

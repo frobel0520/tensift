@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "battery-chemistries-types-2027-07-16-zh-hant",
+  "puzzleFamilyId": "battery-chemistries-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-16",
+  "timezone": "UTC",
+  "theme": "電池與燃料電池化學體系",
+  "items": [
+    {
+      "itemId": "battery-chemistries-types-4",
+      "label": "鉛酸蓄電池"
+    },
+    {
+      "itemId": "battery-chemistries-types-8",
+      "label": "磷酸鋰鐵電池（LFP）"
+    },
+    {
+      "itemId": "battery-chemistries-types-1",
+      "label": "質子交換膜氫燃料電池"
+    },
+    {
+      "itemId": "battery-chemistries-types-6",
+      "label": "鎳氫電池（NiMH）"
+    },
+    {
+      "itemId": "battery-chemistries-types-10",
+      "label": "固態鋰離子電池"
+    },
+    {
+      "itemId": "battery-chemistries-types-2",
+      "label": "鹼性電池（鋅錳）"
+    },
+    {
+      "itemId": "battery-chemistries-types-7",
+      "label": "鈷酸鋰電池（LCO）"
+    },
+    {
+      "itemId": "battery-chemistries-types-5",
+      "label": "鎳鎘電池（NiCd）"
+    },
+    {
+      "itemId": "battery-chemistries-types-9",
+      "label": "三元鋰電池（NMC）"
+    },
+    {
+      "itemId": "battery-chemistries-types-3",
+      "label": "CR2032 一次性鋰鈕扣電池"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各電化學儲能／發電裝置的化學家族（氫燃料電池、一次性電池、鉛酸／鎳系二次電池或鋰離子二次電池）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "燃料電池",
+        "capacity": 1,
+        "itemIds": [
+          "battery-chemistries-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "一次性電池（不可充電）",
+        "capacity": 2,
+        "itemIds": [
+          "battery-chemistries-types-2",
+          "battery-chemistries-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "鉛酸與鎳系充電電池",
+        "capacity": 3,
+        "itemIds": [
+          "battery-chemistries-types-4",
+          "battery-chemistries-types-5",
+          "battery-chemistries-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "鋰離子充電電池家族",
+        "capacity": 4,
+        "itemIds": [
+          "battery-chemistries-types-7",
+          "battery-chemistries-types-8",
+          "battery-chemistries-types-9",
+          "battery-chemistries-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依電化學家族分類：氫燃料電池（質子交換膜燃料電池 PEM）、一次性電池（鹼性鋅錳電池、CR2032 鋰鈕扣電池）、鉛酸／鎳系充電電池（鉛酸電池、鎳鎘 NiCd、鎳氫 NiMH）與鋰離子充電電池（鈷酸鋰 LCO、磷酸鋰鐵 LFP、三元鋰 NMC、固態鋰電池）。",
+  "sources": [
+    {
+      "title": "US DOE: Battery Basics & Chemistries",
+      "url": "https://www.energy.gov/eere/vehicles/batteries-charging-and-electric-vehicles",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

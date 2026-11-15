@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "earth-orbital-regimes-2027-06-10-en",
+  "puzzleFamilyId": "earth-orbital-regimes-001",
+  "locale": "en",
+  "publishDate": "2027-06-10",
+  "timezone": "UTC",
+  "theme": "Earth & Deep-Space Orbits",
+  "items": [
+    {
+      "itemId": "earth-orbital-regimes-4",
+      "label": "GPS Orbit (~20,200 km)"
+    },
+    {
+      "itemId": "earth-orbital-regimes-8",
+      "label": "Geosynchronous Orbit (GSO)"
+    },
+    {
+      "itemId": "earth-orbital-regimes-1",
+      "label": "Sun-Synchronous Orbit (SSO)"
+    },
+    {
+      "itemId": "earth-orbital-regimes-6",
+      "label": "GLONASS Orbit (~19,100 km)"
+    },
+    {
+      "itemId": "earth-orbital-regimes-10",
+      "label": "Sun–Earth L2 Halo Orbit"
+    },
+    {
+      "itemId": "earth-orbital-regimes-2",
+      "label": "ISS Orbit (~400 km)"
+    },
+    {
+      "itemId": "earth-orbital-regimes-7",
+      "label": "Geostationary Orbit (GEO)"
+    },
+    {
+      "itemId": "earth-orbital-regimes-5",
+      "label": "Galileo Orbit (~23,222 km)"
+    },
+    {
+      "itemId": "earth-orbital-regimes-9",
+      "label": "Molniya Orbit"
+    },
+    {
+      "itemId": "earth-orbital-regimes-3",
+      "label": "Hubble Orbit (~540 km)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Orbital regime (Sun-Synchronous LEO, Non-Polar LEO, Medium Earth Orbit, or High/Geostationary/L2)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Sun-Synchronous Orbit",
+        "capacity": 1,
+        "itemIds": [
+          "earth-orbital-regimes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Low Earth Orbit (Non-Polar)",
+        "capacity": 2,
+        "itemIds": [
+          "earth-orbital-regimes-2",
+          "earth-orbital-regimes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Medium Earth Orbit (GNSS)",
+        "capacity": 3,
+        "itemIds": [
+          "earth-orbital-regimes-4",
+          "earth-orbital-regimes-5",
+          "earth-orbital-regimes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "High, Synchronous & L2 Orbits",
+        "capacity": 4,
+        "itemIds": [
+          "earth-orbital-regimes-7",
+          "earth-orbital-regimes-8",
+          "earth-orbital-regimes-9",
+          "earth-orbital-regimes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by orbital regime: Polar Sun-Synchronous (Sun-Synchronous Orbit), Low Earth Orbit (ISS Orbit, Hubble Orbit), Medium Earth Orbit (GPS Orbit, Galileo Orbit, GLONASS Orbit), and High/Geostationary/L2 (Geostationary GEO, Geosynchronous GSO, Molniya Orbit, Sun–Earth L2 Halo Orbit).",
+  "sources": [
+    {
+      "title": "ESA: Types of Orbits",
+      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "soil-macronutrients-plants-2027-10-06-zh-hant",
+  "puzzleFamilyId": "soil-macronutrients-plants-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-06",
+  "timezone": "UTC",
+  "theme": "植物必需礦物營養元素",
+  "items": [
+    {
+      "itemId": "soil-macronutrients-plants-4",
+      "label": "氮（N）"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-8",
+      "label": "鋅（Zn）"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-1",
+      "label": "碳（來自空氣二氧化碳）"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-6",
+      "label": "鉀（K）"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-10",
+      "label": "錳（Mn）"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-2",
+      "label": "鈣（Ca）"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-7",
+      "label": "鐵（Fe）"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-5",
+      "label": "磷（P）"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-9",
+      "label": "硼（B）"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-3",
+      "label": "鎂（Mg）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "植物必需營養素的類別（非礦物碳元素、次要巨量元素、三大主要肥料 NPK 或微量元素）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "非礦物基礎元素",
+        "capacity": 1,
+        "itemIds": [
+          "soil-macronutrients-plants-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "次要巨量營養元素",
+        "capacity": 2,
+        "itemIds": [
+          "soil-macronutrients-plants-2",
+          "soil-macronutrients-plants-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "三大主要肥料（NPK）",
+        "capacity": 3,
+        "itemIds": [
+          "soil-macronutrients-plants-4",
+          "soil-macronutrients-plants-5",
+          "soil-macronutrients-plants-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "微量營養元素",
+        "capacity": 4,
+        "itemIds": [
+          "soil-macronutrients-plants-7",
+          "soil-macronutrients-plants-8",
+          "soil-macronutrients-plants-9",
+          "soil-macronutrients-plants-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依植物營養學分類：非礦物基礎元素（二氧化碳來源的碳）、次要巨量元素（鈣、鎂）、三大主要肥料元素（氮、磷、鉀）與微量元素（鐵、鋅、硼、錳）。",
+  "sources": [
+    {
+      "title": "FAO: Plant Nutrition & Fertilizers",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

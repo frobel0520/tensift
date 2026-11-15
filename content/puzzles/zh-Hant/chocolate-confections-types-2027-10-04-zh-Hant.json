@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chocolate-confections-types-2027-10-04-zh-hant",
+  "puzzleFamilyId": "chocolate-confections-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-04",
+  "timezone": "UTC",
+  "theme": "經典糖果與甜點工藝",
+  "items": [
+    {
+      "itemId": "chocolate-confections-types-4",
+      "label": "杏仁膏（Marzipan）"
+    },
+    {
+      "itemId": "chocolate-confections-types-8",
+      "label": "英式脆太妃糖"
+    },
+    {
+      "itemId": "chocolate-confections-types-1",
+      "label": "明膠小熊軟糖"
+    },
+    {
+      "itemId": "chocolate-confections-types-6",
+      "label": "芝麻哈爾瓦酥糖（Halva）"
+    },
+    {
+      "itemId": "chocolate-confections-types-10",
+      "label": "美式軟質法奇糖（Fudge）"
+    },
+    {
+      "itemId": "chocolate-confections-types-2",
+      "label": "法式牛軋糖（Nougat）"
+    },
+    {
+      "itemId": "chocolate-confections-types-7",
+      "label": "法式軟焦糖"
+    },
+    {
+      "itemId": "chocolate-confections-types-5",
+      "label": "榛果帕林內（Praline）"
+    },
+    {
+      "itemId": "chocolate-confections-types-9",
+      "label": "蘇格蘭奶油糖（Butterscotch）"
+    },
+    {
+      "itemId": "chocolate-confections-types-3",
+      "label": "美式棉花糖"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各經典糖果的質地構造（明膠軟糖、充氣牛軋糖／棉花糖、堅果杏仁膏或奶油焦糖／太妃糖）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "明膠水膠體軟糖",
+        "capacity": 1,
+        "itemIds": [
+          "chocolate-confections-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "充氣蛋白糖泡",
+        "capacity": 2,
+        "itemIds": [
+          "chocolate-confections-types-2",
+          "chocolate-confections-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "堅果與種子糖膏",
+        "capacity": 3,
+        "itemIds": [
+          "chocolate-confections-types-4",
+          "chocolate-confections-types-5",
+          "chocolate-confections-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "熬煮奶油糖果",
+        "capacity": 4,
+        "itemIds": [
+          "chocolate-confections-types-7",
+          "chocolate-confections-types-8",
+          "chocolate-confections-types-9",
+          "chocolate-confections-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依糖果物理構造分類：膠體凝膠（明膠小熊軟糖）、充氣蛋白糖泡（法式牛軋糖、棉花糖）、堅果研磨糖膏（杏仁膏 Marzipan、榛果帕林內、芝麻哈爾瓦酥糖）與熬煮奶油糖（軟焦糖、英式太妃糖、奶油糖 Butterscotch、軟質牛奶糖 Fudge）。",
+  "sources": [
+    {
+      "title": "Britannica: Candy & Confectionery",
+      "url": "https://www.britannica.com/topic/candy",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

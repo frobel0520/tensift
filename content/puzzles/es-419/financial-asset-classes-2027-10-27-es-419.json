@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "financial-asset-classes-2027-10-27-es-419",
+  "puzzleFamilyId": "financial-asset-classes-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-27",
+  "timezone": "UTC",
+  "theme": "Instrumentos de mercados financieros",
+  "items": [
+    {
+      "itemId": "financial-asset-classes-4",
+      "label": "Bono soberano a 10 años"
+    },
+    {
+      "itemId": "financial-asset-classes-8",
+      "label": "Acción preferente"
+    },
+    {
+      "itemId": "financial-asset-classes-1",
+      "label": "Oro físico en lingotes"
+    },
+    {
+      "itemId": "financial-asset-classes-6",
+      "label": "Bono municipal"
+    },
+    {
+      "itemId": "financial-asset-classes-10",
+      "label": "Opción call sobre acción"
+    },
+    {
+      "itemId": "financial-asset-classes-2",
+      "label": "EUR/USD al contado"
+    },
+    {
+      "itemId": "financial-asset-classes-7",
+      "label": "Acción ordinaria"
+    },
+    {
+      "itemId": "financial-asset-classes-5",
+      "label": "Bono corporativo"
+    },
+    {
+      "itemId": "financial-asset-classes-9",
+      "label": "ETF de índice bursátil"
+    },
+    {
+      "itemId": "financial-asset-classes-3",
+      "label": "Forward USD/JPY"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clase de activo financiero de cada instrumento",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Materia prima física",
+        "capacity": 1,
+        "itemIds": [
+          "financial-asset-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Divisas (Forex)",
+        "capacity": 2,
+        "itemIds": [
+          "financial-asset-classes-2",
+          "financial-asset-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Renta fija (deuda)",
+        "capacity": 3,
+        "itemIds": [
+          "financial-asset-classes-4",
+          "financial-asset-classes-5",
+          "financial-asset-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Renta variable y derivados",
+        "capacity": 4,
+        "itemIds": [
+          "financial-asset-classes-7",
+          "financial-asset-classes-8",
+          "financial-asset-classes-9",
+          "financial-asset-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase de activo: materias primas (oro físico), divisas FX (EUR/USD al contado, forward USD/JPY), renta fija (bono del Tesoro a 10 años, bono corporativo, bono municipal) y renta variable (acción ordinaria, acción preferente, ETF bursátil, opción call sobre acciones).",
+  "sources": [
+    {
+      "title": "BIS: Financial Market Statistics",
+      "url": "https://www.bis.org/statistics/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

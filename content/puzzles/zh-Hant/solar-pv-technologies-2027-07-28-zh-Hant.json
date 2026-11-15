@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "solar-pv-technologies-2027-07-28-zh-hant",
+  "puzzleFamilyId": "solar-pv-technologies-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-28",
+  "timezone": "UTC",
+  "theme": "太陽能發電技術與設備",
+  "items": [
+    {
+      "itemId": "solar-pv-technologies-4",
+      "label": "碲化鎘（CdTe）薄膜電池"
+    },
+    {
+      "itemId": "solar-pv-technologies-8",
+      "label": "微型逆變器"
+    },
+    {
+      "itemId": "solar-pv-technologies-1",
+      "label": "拋物線槽式聚光發電（CSP）"
+    },
+    {
+      "itemId": "solar-pv-technologies-6",
+      "label": "鈣鈦礦太陽能電池"
+    },
+    {
+      "itemId": "solar-pv-technologies-10",
+      "label": "雙向淨計量電表"
+    },
+    {
+      "itemId": "solar-pv-technologies-2",
+      "label": "單晶矽太陽能電池"
+    },
+    {
+      "itemId": "solar-pv-technologies-7",
+      "label": "組串式逆變器"
+    },
+    {
+      "itemId": "solar-pv-technologies-5",
+      "label": "銅銦鎵硒（CIGS）薄膜電池"
+    },
+    {
+      "itemId": "solar-pv-technologies-9",
+      "label": "MPPT 最大功率追蹤控制器"
+    },
+    {
+      "itemId": "solar-pv-technologies-3",
+      "label": "多晶矽太陽能電池"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各太陽能發電術語的類別（聚光太陽熱能、晶矽光電模組、薄膜／新世代電池或電力轉換系統設備）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "聚光太陽熱能（CSP）",
+        "capacity": 1,
+        "itemIds": [
+          "solar-pv-technologies-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "晶矽太陽能電池",
+        "capacity": 2,
+        "itemIds": [
+          "solar-pv-technologies-2",
+          "solar-pv-technologies-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "薄膜與新世代光電",
+        "capacity": 3,
+        "itemIds": [
+          "solar-pv-technologies-4",
+          "solar-pv-technologies-5",
+          "solar-pv-technologies-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "電力轉換與系統設備",
+        "capacity": 4,
+        "itemIds": [
+          "solar-pv-technologies-7",
+          "solar-pv-technologies-8",
+          "solar-pv-technologies-9",
+          "solar-pv-technologies-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依太陽能技術分類：聚光太陽熱能（拋物線槽式聚光 CSP）、晶矽晶片模組（單晶矽太陽能板、多晶矽太陽能板）、薄膜與新世代光電（碲化鎘 CdTe 薄膜、銅銦鎵硒 CIGS 薄膜、鈣鈦礦太陽能電池）與電力轉換及系統設備（組串式逆變器、微型逆變器、MPPT 充電控制器、雙向智慧電表）。",
+  "sources": [
+    {
+      "title": "NREL: Solar Photovoltaic Technology",
+      "url": "https://www.nrel.gov/research/re-solar.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

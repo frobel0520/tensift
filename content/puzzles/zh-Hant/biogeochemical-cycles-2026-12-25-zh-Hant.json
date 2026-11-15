@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "biogeochemical-cycles-2026-12-25-zh-hant",
+  "puzzleFamilyId": "biogeochemical-cycles-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-12-25",
+  "timezone": "UTC",
+  "theme": "水循環過程",
+  "items": [
+    {
+      "itemId": "biogeochemical-cycles-4",
+      "label": "降雨"
+    },
+    {
+      "itemId": "biogeochemical-cycles-8",
+      "label": "融雪溪流"
+    },
+    {
+      "itemId": "biogeochemical-cycles-1",
+      "label": "入滲"
+    },
+    {
+      "itemId": "biogeochemical-cycles-6",
+      "label": "降雹"
+    },
+    {
+      "itemId": "biogeochemical-cycles-10",
+      "label": "河川出海"
+    },
+    {
+      "itemId": "biogeochemical-cycles-2",
+      "label": "海洋蒸發"
+    },
+    {
+      "itemId": "biogeochemical-cycles-7",
+      "label": "地表逕流"
+    },
+    {
+      "itemId": "biogeochemical-cycles-5",
+      "label": "降雪"
+    },
+    {
+      "itemId": "biogeochemical-cycles-9",
+      "label": "地下水排洩"
+    },
+    {
+      "itemId": "biogeochemical-cycles-3",
+      "label": "植物蒸散"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "水循環各過程的主要階段",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "地表入滲",
+        "capacity": 1,
+        "itemIds": [
+          "biogeochemical-cycles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "水氣進入大氣",
+        "capacity": 2,
+        "itemIds": [
+          "biogeochemical-cycles-2",
+          "biogeochemical-cycles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "大氣降水",
+        "capacity": 3,
+        "itemIds": [
+          "biogeochemical-cycles-4",
+          "biogeochemical-cycles-5",
+          "biogeochemical-cycles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "匯流向海",
+        "capacity": 4,
+        "itemIds": [
+          "biogeochemical-cycles-7",
+          "biogeochemical-cycles-8",
+          "biogeochemical-cycles-9",
+          "biogeochemical-cycles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依水循環階段分類：地下滲濾、大氣水氣上升、大氣降水與地表地下逕流。",
+  "sources": [
+    {
+      "title": "USGS: The Water Cycle",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

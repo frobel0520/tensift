@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "writing-systems-scripts-001",
+  "theme": "Writing Systems by Type",
+  "publishDate": "2027-05-10",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "writing-systems-scripts-1",
+        "rivalGroupId": "group-4",
+        "risk": "Hangul uses consonant and vowel letters.",
+        "resolution": "Hangul letter shapes systematically encode articulatory features, making it a featural script (group-1)."
+      },
+      {
+        "itemId": "writing-systems-scripts-2",
+        "rivalGroupId": "group-4",
+        "risk": "Arabic is commonly called the Arabic alphabet.",
+        "resolution": "Linguistically, Arabic and Hebrew primarily write consonants with optional vowel diacritics, classifying them as abjads (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

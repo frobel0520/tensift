@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "legumes-pulses-crops-001",
+  "theme": "Legumes & Pulses",
+  "publishDate": "2027-10-02",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "legumes-pulses-crops-1",
+        "rivalGroupId": "group-4",
+        "risk": "Soybeans are harvested as dry seeds.",
+        "resolution": "FAO classifies soybeans as an oilseed legume harvested primarily for oil/protein meal (group-1), not a dry pulse (group-4)."
+      },
+      {
+        "itemId": "legumes-pulses-crops-3",
+        "rivalGroupId": "group-4",
+        "risk": "Green Snap Bean is the same species as Kidney Bean.",
+        "resolution": "Green snap beans are harvested immature as fresh pod vegetables (group-2), not dry pulses (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

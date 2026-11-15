@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "earth-orbital-regimes-001",
+  "theme": "Earth & Deep-Space Orbits",
+  "publishDate": "2027-06-10",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "earth-orbital-regimes-1",
+        "rivalGroupId": "group-2",
+        "risk": "Sun-Synchronous orbits are usually at LEO altitudes (~600–800 km).",
+        "resolution": "SSO is a specialized near-polar retrograde orbit synchronized to local solar time (group-1), distinct from standard inclined LEO orbits (group-2)."
+      },
+      {
+        "itemId": "earth-orbital-regimes-9",
+        "rivalGroupId": "group-3",
+        "risk": "Molniya orbit has a 12-hour period like GPS.",
+        "resolution": "Molniya is a highly elliptical orbit reaching ~40,000 km apogee (group-4), unlike circular MEO navigation orbits (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

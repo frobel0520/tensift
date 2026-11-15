@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tea-oxidation-categories-2027-09-07-zh-hant",
+  "puzzleFamilyId": "tea-oxidation-categories-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-07",
+  "timezone": "UTC",
+  "theme": "茶葉發酵（氧化）程度分類",
+  "items": [
+    {
+      "itemId": "tea-oxidation-categories-4",
+      "label": "日本煎茶"
+    },
+    {
+      "itemId": "tea-oxidation-categories-8",
+      "label": "台灣高山烏龍"
+    },
+    {
+      "itemId": "tea-oxidation-categories-1",
+      "label": "普洱茶（熟茶）"
+    },
+    {
+      "itemId": "tea-oxidation-categories-6",
+      "label": "西湖龍井"
+    },
+    {
+      "itemId": "tea-oxidation-categories-10",
+      "label": "大吉嶺紅茶"
+    },
+    {
+      "itemId": "tea-oxidation-categories-2",
+      "label": "白毫銀針"
+    },
+    {
+      "itemId": "tea-oxidation-categories-7",
+      "label": "鐵觀音烏龍"
+    },
+    {
+      "itemId": "tea-oxidation-categories-5",
+      "label": "抹茶"
+    },
+    {
+      "itemId": "tea-oxidation-categories-9",
+      "label": "阿薩姆紅茶"
+    },
+    {
+      "itemId": "tea-oxidation-categories-3",
+      "label": "白牡丹"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "茶樹葉片依氧化與後發酵程度的傳統茶類歸屬（後發酵黑茶、微氧化白茶、不氧化綠茶或半／全氧化烏龍與紅茶）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "後發酵黑茶",
+        "capacity": 1,
+        "itemIds": [
+          "tea-oxidation-categories-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "白茶（微氧化）",
+        "capacity": 2,
+        "itemIds": [
+          "tea-oxidation-categories-2",
+          "tea-oxidation-categories-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "不發酵綠茶",
+        "capacity": 3,
+        "itemIds": [
+          "tea-oxidation-categories-4",
+          "tea-oxidation-categories-5",
+          "tea-oxidation-categories-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "烏龍茶與紅茶（半／全氧化）",
+        "capacity": 4,
+        "itemIds": [
+          "tea-oxidation-categories-7",
+          "tea-oxidation-categories-8",
+          "tea-oxidation-categories-9",
+          "tea-oxidation-categories-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依茶葉製程分類：後發酵黑茶（熟普洱茶）、微氧化白茶（白毫銀針、白牡丹）、不發酵綠茶（煎茶、抹茶、龍井茶）與半／全氧化烏龍及紅茶（鐵觀音烏龍、高山烏龍、阿薩姆紅茶、大吉嶺紅茶）。",
+  "sources": [
+    {
+      "title": "FAO Tea Classification",
+      "url": "https://www.fao.org/markets-and-trade/commodities/tea/en/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

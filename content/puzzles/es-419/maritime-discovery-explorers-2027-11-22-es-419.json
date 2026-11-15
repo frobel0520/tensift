@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "maritime-discovery-explorers-2027-11-22-es-419",
+  "puzzleFamilyId": "maritime-discovery-explorers-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-22",
+  "timezone": "UTC",
+  "theme": "Exploradores por región de destino",
+  "items": [
+    {
+      "itemId": "maritime-discovery-explorers-4",
+      "label": "Juan Caboto"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-8",
+      "label": "Robert Falcon Scott"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-1",
+      "label": "Expedición Magallanes-Elcano"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-6",
+      "label": "Henry Hudson"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-10",
+      "label": "Fridtjof Nansen"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-2",
+      "label": "Bartolomeu Dias"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-7",
+      "label": "Roald Amundsen"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-5",
+      "label": "Jacques Cartier"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-9",
+      "label": "Ernest Shackleton"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-3",
+      "label": "Vasco da Gama"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Región geográfica principal de cada expedición histórica",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Primera circunnavegación",
+        "capacity": 1,
+        "itemIds": [
+          "maritime-discovery-explorers-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Ruta del Cabo e Índico",
+        "capacity": 2,
+        "itemIds": [
+          "maritime-discovery-explorers-2",
+          "maritime-discovery-explorers-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Atlántico Norte y Norteamérica",
+        "capacity": 3,
+        "itemIds": [
+          "maritime-discovery-explorers-4",
+          "maritime-discovery-explorers-5",
+          "maritime-discovery-explorers-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Expediciones polares",
+        "capacity": 4,
+        "itemIds": [
+          "maritime-discovery-explorers-7",
+          "maritime-discovery-explorers-8",
+          "maritime-discovery-explorers-9",
+          "maritime-discovery-explorers-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por destino: primera circunnavegación (Magallanes y Elcano), ruta del Cabo hacia el Índico (Bartolomeu Dias, Vasco da Gama), Atlántico Norte y Norteamérica (Juan Caboto, Jacques Cartier, Henry Hudson) y expediciones polares (Amundsen, Scott, Shackleton, Nansen).",
+  "sources": [
+    {
+      "title": "Royal Geographical Society: Exploration History",
+      "url": "https://www.rgs.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

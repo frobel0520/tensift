@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "classical-music-eras-2027-04-16-zh-hant",
+  "puzzleFamilyId": "classical-music-eras-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-16",
+  "timezone": "UTC",
+  "theme": "古典作曲家與音樂時期",
+  "items": [
+    {
+      "itemId": "classical-music-eras-4",
+      "label": "莫札特"
+    },
+    {
+      "itemId": "classical-music-eras-8",
+      "label": "韓德爾"
+    },
+    {
+      "itemId": "classical-music-eras-1",
+      "label": "帕勒斯特里納"
+    },
+    {
+      "itemId": "classical-music-eras-6",
+      "label": "貝多芬"
+    },
+    {
+      "itemId": "classical-music-eras-10",
+      "label": "普賽爾"
+    },
+    {
+      "itemId": "classical-music-eras-2",
+      "label": "蕭邦"
+    },
+    {
+      "itemId": "classical-music-eras-7",
+      "label": "巴哈"
+    },
+    {
+      "itemId": "classical-music-eras-5",
+      "label": "海頓"
+    },
+    {
+      "itemId": "classical-music-eras-9",
+      "label": "韋瓦第"
+    },
+    {
+      "itemId": "classical-music-eras-3",
+      "label": "柴可夫斯基"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各位古典作曲家所屬的主要音樂史時期（文藝復興、浪漫、古典或巴洛克）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "文藝復興時期",
+        "capacity": 1,
+        "itemIds": [
+          "classical-music-eras-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "浪漫時期",
+        "capacity": 2,
+        "itemIds": [
+          "classical-music-eras-2",
+          "classical-music-eras-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "古典時期",
+        "capacity": 3,
+        "itemIds": [
+          "classical-music-eras-4",
+          "classical-music-eras-5",
+          "classical-music-eras-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "巴洛克時期",
+        "capacity": 4,
+        "itemIds": [
+          "classical-music-eras-7",
+          "classical-music-eras-8",
+          "classical-music-eras-9",
+          "classical-music-eras-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依音樂史時期分類：文藝復興時期（帕勒斯特里納）、浪漫時期（蕭邦、柴可夫斯基）、古典時期（莫札特、海頓、貝多芬）與巴洛克時期（巴哈、韓德爾、韋瓦第、普賽爾）。",
+  "sources": [
+    {
+      "title": "Britannica: Western Music Periods",
+      "url": "https://www.britannica.com/art/Western-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

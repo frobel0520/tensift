@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "si-base-quantities-2026-11-29-es-419",
+  "puzzleFamilyId": "si-base-quantities-001",
+  "locale": "es-419",
+  "publishDate": "2026-11-29",
+  "timezone": "UTC",
+  "theme": "Magnitudes básicas del SI",
+  "items": [
+    {
+      "itemId": "si-base-quantities-4",
+      "label": "Distancia de un maratón"
+    },
+    {
+      "itemId": "si-base-quantities-8",
+      "label": "Semivida radiactiva"
+    },
+    {
+      "itemId": "si-base-quantities-1",
+      "label": "Punto de ebullición del agua"
+    },
+    {
+      "itemId": "si-base-quantities-6",
+      "label": "Longitud de onda óptica"
+    },
+    {
+      "itemId": "si-base-quantities-10",
+      "label": "Ciclo de transición del cesio"
+    },
+    {
+      "itemId": "si-base-quantities-2",
+      "label": "Número de Avogadro de átomos"
+    },
+    {
+      "itemId": "si-base-quantities-7",
+      "label": "Período de un péndulo"
+    },
+    {
+      "itemId": "si-base-quantities-5",
+      "label": "Radio atómico"
+    },
+    {
+      "itemId": "si-base-quantities-9",
+      "label": "Tiempo de exposición"
+    },
+    {
+      "itemId": "si-base-quantities-3",
+      "label": "Cantidad estequiométrica de reactivo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "La unidad básica del SI correspondiente",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Kelvin (temperatura termodinámica)",
+        "capacity": 1,
+        "itemIds": [
+          "si-base-quantities-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Mol (cantidad de sustancia)",
+        "capacity": 2,
+        "itemIds": [
+          "si-base-quantities-2",
+          "si-base-quantities-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Metro (longitud)",
+        "capacity": 3,
+        "itemIds": [
+          "si-base-quantities-4",
+          "si-base-quantities-5",
+          "si-base-quantities-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Segundo (tiempo)",
+        "capacity": 4,
+        "itemIds": [
+          "si-base-quantities-7",
+          "si-base-quantities-8",
+          "si-base-quantities-9",
+          "si-base-quantities-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Cada grupo corresponde a una unidad básica del SI: kelvin (temperatura), mol (cantidad de sustancia), metro (longitud) y segundo (tiempo).",
+  "sources": [
+    {
+      "title": "BIPM: SI Base Units",
+      "url": "https://www.bipm.org/en/measurement-units/si-base-units",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

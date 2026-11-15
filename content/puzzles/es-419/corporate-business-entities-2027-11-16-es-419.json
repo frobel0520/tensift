@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "corporate-business-entities-2027-11-16-es-419",
+  "puzzleFamilyId": "corporate-business-entities-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-16",
+  "timezone": "UTC",
+  "theme": "Formas jurídicas de empresas",
+  "items": [
+    {
+      "itemId": "corporate-business-entities-4",
+      "label": "Cooperativa de consumo"
+    },
+    {
+      "itemId": "corporate-business-entities-8",
+      "label": "Corporación S"
+    },
+    {
+      "itemId": "corporate-business-entities-1",
+      "label": "Empresa unipersonal"
+    },
+    {
+      "itemId": "corporate-business-entities-6",
+      "label": "Organización sin fines de lucro"
+    },
+    {
+      "itemId": "corporate-business-entities-10",
+      "label": "Sociedad anónima pública (PLC)"
+    },
+    {
+      "itemId": "corporate-business-entities-2",
+      "label": "Sociedad colectiva (GP)"
+    },
+    {
+      "itemId": "corporate-business-entities-7",
+      "label": "Corporación C"
+    },
+    {
+      "itemId": "corporate-business-entities-5",
+      "label": "Cooperativa de crédito"
+    },
+    {
+      "itemId": "corporate-business-entities-9",
+      "label": "Sociedad de responsabilidad limitada (LLC)"
+    },
+    {
+      "itemId": "corporate-business-entities-3",
+      "label": "Sociedad en comandita (LP)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Responsabilidad legal y propiedad de cada entidad",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Empresa unipersonal",
+        "capacity": 1,
+        "itemIds": [
+          "corporate-business-entities-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Sociedades de personas",
+        "capacity": 2,
+        "itemIds": [
+          "corporate-business-entities-2",
+          "corporate-business-entities-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Cooperativas y sin fines de lucro",
+        "capacity": 3,
+        "itemIds": [
+          "corporate-business-entities-4",
+          "corporate-business-entities-5",
+          "corporate-business-entities-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Sociedades de capital / responsabilidad limitada",
+        "capacity": 4,
+        "itemIds": [
+          "corporate-business-entities-7",
+          "corporate-business-entities-8",
+          "corporate-business-entities-9",
+          "corporate-business-entities-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por estructura legal: empresa individual (empresa unipersonal), sociedades de personas (sociedad colectiva, sociedad en comandita), cooperativas y sin fines de lucro (cooperativa de consumo, cooperativa de crédito, ONG sin fines de lucro) y sociedades de responsabilidad limitada (corporación C, corporación S, LLC, sociedad anónima pública PLC).",
+  "sources": [
+    {
+      "title": "U.S. Small Business Administration: Business Structures",
+      "url": "https://www.sba.gov/business-guide/launch-your-business/choose-business-structure",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

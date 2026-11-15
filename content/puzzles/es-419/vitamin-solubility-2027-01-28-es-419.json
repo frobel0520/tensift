@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vitamin-solubility-2027-01-28-es-419",
+  "puzzleFamilyId": "vitamin-solubility-001",
+  "locale": "es-419",
+  "publishDate": "2027-01-28",
+  "timezone": "UTC",
+  "theme": "Solubilidad de vitaminas",
+  "items": [
+    {
+      "itemId": "vitamin-solubility-4",
+      "label": "Piridoxina (B6)"
+    },
+    {
+      "itemId": "vitamin-solubility-8",
+      "label": "Calciferol (Vitamina D)"
+    },
+    {
+      "itemId": "vitamin-solubility-1",
+      "label": "Ácido ascórbico (Vitamina C)"
+    },
+    {
+      "itemId": "vitamin-solubility-6",
+      "label": "Cobalamina (B12)"
+    },
+    {
+      "itemId": "vitamin-solubility-10",
+      "label": "Filoquinona (Vitamina K1)"
+    },
+    {
+      "itemId": "vitamin-solubility-2",
+      "label": "Tiamina (B1)"
+    },
+    {
+      "itemId": "vitamin-solubility-7",
+      "label": "Retinol (Vitamina A)"
+    },
+    {
+      "itemId": "vitamin-solubility-5",
+      "label": "Folato (B9)"
+    },
+    {
+      "itemId": "vitamin-solubility-9",
+      "label": "Tocoferol (Vitamina E)"
+    },
+    {
+      "itemId": "vitamin-solubility-3",
+      "label": "Riboflavina (B2)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Solubilidad y grupo funcional de cada vitamina",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Vitamina C hidrosoluble",
+        "capacity": 1,
+        "itemIds": [
+          "vitamin-solubility-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Complejo B inicial (B1, B2)",
+        "capacity": 2,
+        "itemIds": [
+          "vitamin-solubility-2",
+          "vitamin-solubility-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Complejo B tardío (B6, B9, B12)",
+        "capacity": 3,
+        "itemIds": [
+          "vitamin-solubility-4",
+          "vitamin-solubility-5",
+          "vitamin-solubility-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Vitaminas liposolubles (A, D, E, K)",
+        "capacity": 4,
+        "itemIds": [
+          "vitamin-solubility-7",
+          "vitamin-solubility-8",
+          "vitamin-solubility-9",
+          "vitamin-solubility-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por solubilidad y clase: vitamina C, coenzimas del complejo B (B1, B2), factores B hematopoyéticos (B6, B9, B12) y las cuatro vitaminas liposolubles (A, D, E, K).",
+  "sources": [
+    {
+      "title": "NIH ODS: Vitamin Fact Sheets",
+      "url": "https://ods.od.nih.gov/factsheets/list-VitaminsMinerals/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

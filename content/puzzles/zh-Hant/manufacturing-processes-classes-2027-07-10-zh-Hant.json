@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "manufacturing-processes-classes-2027-07-10-zh-hant",
+  "puzzleFamilyId": "manufacturing-processes-classes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-10",
+  "timezone": "UTC",
+  "theme": "工業製造加工分類",
+  "items": [
+    {
+      "itemId": "manufacturing-processes-classes-4",
+      "label": "CNC 銑削加工"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-8",
+      "label": "高壓壓鑄"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-1",
+      "label": "光固化立體列印（SLA）"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-6",
+      "label": "平面磨削"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-10",
+      "label": "鈑金沖壓"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-2",
+      "label": "TIG 鎢極氬弧焊"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-7",
+      "label": "落錘鍛造"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-5",
+      "label": "車床車削"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-9",
+      "label": "金屬擠型"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-3",
+      "label": "硬焊（銅焊）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各製造工法的製程分類（積層製造、接合、減法切削加工或塑性成形與鑄造）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "積層製造（3D 列印）",
+        "capacity": 1,
+        "itemIds": [
+          "manufacturing-processes-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "材料接合製程",
+        "capacity": 2,
+        "itemIds": [
+          "manufacturing-processes-classes-2",
+          "manufacturing-processes-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "減法切削加工",
+        "capacity": 3,
+        "itemIds": [
+          "manufacturing-processes-classes-4",
+          "manufacturing-processes-classes-5",
+          "manufacturing-processes-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "成形與鑄造製程",
+        "capacity": 4,
+        "itemIds": [
+          "manufacturing-processes-classes-7",
+          "manufacturing-processes-classes-8",
+          "manufacturing-processes-classes-9",
+          "manufacturing-processes-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依製程類別分類：積層製造（光固化立體列印 SLA）、接合（TIG 氬焊、硬焊）、減法切削（CNC 銑削、車床車削、平面磨削）與成形及鑄造（鍛造、壓鑄、擠型、鈑金沖壓）。",
+  "sources": [
+    {
+      "title": "ASME: Manufacturing Engineering",
+      "url": "https://www.asme.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

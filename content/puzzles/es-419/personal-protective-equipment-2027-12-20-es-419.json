@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "personal-protective-equipment-2027-12-20-es-419",
+  "puzzleFamilyId": "personal-protective-equipment-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-20",
+  "timezone": "UTC",
+  "theme": "Equipos de protección personal (EPP)",
+  "items": [
+    {
+      "itemId": "personal-protective-equipment-4",
+      "label": "Respirador N95"
+    },
+    {
+      "itemId": "personal-protective-equipment-8",
+      "label": "Botas con puntera de acero"
+    },
+    {
+      "itemId": "personal-protective-equipment-1",
+      "label": "Arnés anticaídas"
+    },
+    {
+      "itemId": "personal-protective-equipment-6",
+      "label": "Careta de soldador"
+    },
+    {
+      "itemId": "personal-protective-equipment-10",
+      "label": "Casco de seguridad industrial"
+    },
+    {
+      "itemId": "personal-protective-equipment-2",
+      "label": "Tapones auditivos de espuma"
+    },
+    {
+      "itemId": "personal-protective-equipment-7",
+      "label": "Guantes anticorte"
+    },
+    {
+      "itemId": "personal-protective-equipment-5",
+      "label": "Gafas antisalpicaduras"
+    },
+    {
+      "itemId": "personal-protective-equipment-9",
+      "label": "Overol de protección química"
+    },
+    {
+      "itemId": "personal-protective-equipment-3",
+      "label": "Orejeras antirruido"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Zona corporal protegida por cada equipo EPP",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Protección anticaídas",
+        "capacity": 1,
+        "itemIds": [
+          "personal-protective-equipment-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Protección auditiva",
+        "capacity": 2,
+        "itemIds": [
+          "personal-protective-equipment-2",
+          "personal-protective-equipment-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Protección respiratoria y facial",
+        "capacity": 3,
+        "itemIds": [
+          "personal-protective-equipment-4",
+          "personal-protective-equipment-5",
+          "personal-protective-equipment-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Cabeza, manos, pies y cuerpo",
+        "capacity": 4,
+        "itemIds": [
+          "personal-protective-equipment-7",
+          "personal-protective-equipment-8",
+          "personal-protective-equipment-9",
+          "personal-protective-equipment-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por zona: anticaídas (arnés de cuerpo completo), auditiva (tapones auditivos, orejeras antirruido), ocular/facial y respiratoria (respirador N95, gafas antisalpicaduras, careta de soldar) y cabeza/manos/pies/cuerpo (guantes anticorte, botas punta de acero, overol químico, casco de seguridad).",
+  "sources": [
+    {
+      "title": "OSHA: Personal Protective Equipment",
+      "url": "https://www.osha.gov/personal-protective-equipment",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

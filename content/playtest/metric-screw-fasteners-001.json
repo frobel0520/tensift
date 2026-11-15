@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "metric-screw-fasteners-001",
+  "theme": "Mechanical Fasteners",
+  "publishDate": "2027-07-04",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "metric-screw-fasteners-1",
+        "rivalGroupId": "group-2",
+        "risk": "A circlip is a flat metal ring like a washer.",
+        "resolution": "A circlip snaps into a machined shaft or bore groove to retain parts axially (group-1), unlike washers placed under bolt heads/nuts (group-2)."
+      },
+      {
+        "itemId": "metric-screw-fasteners-6",
+        "rivalGroupId": "group-2",
+        "risk": "Nyloc Lock Nut shares Lock with Split Lock Washer.",
+        "resolution": "Nyloc is an internally threaded nut (group-3), not an unthreaded washer (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

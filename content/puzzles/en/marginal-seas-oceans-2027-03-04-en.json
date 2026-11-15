@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "marginal-seas-oceans-2027-03-04-en",
+  "puzzleFamilyId": "marginal-seas-oceans-001",
+  "locale": "en",
+  "publishDate": "2027-03-04",
+  "timezone": "UTC",
+  "theme": "Marginal Seas by Ocean",
+  "items": [
+    {
+      "itemId": "marginal-seas-oceans-4",
+      "label": "Caribbean Sea"
+    },
+    {
+      "itemId": "marginal-seas-oceans-8",
+      "label": "Coral Sea"
+    },
+    {
+      "itemId": "marginal-seas-oceans-1",
+      "label": "Beaufort Sea"
+    },
+    {
+      "itemId": "marginal-seas-oceans-6",
+      "label": "Sargasso Sea"
+    },
+    {
+      "itemId": "marginal-seas-oceans-10",
+      "label": "Tasman Sea"
+    },
+    {
+      "itemId": "marginal-seas-oceans-2",
+      "label": "Arabian Sea"
+    },
+    {
+      "itemId": "marginal-seas-oceans-7",
+      "label": "Bering Sea"
+    },
+    {
+      "itemId": "marginal-seas-oceans-5",
+      "label": "North Sea"
+    },
+    {
+      "itemId": "marginal-seas-oceans-9",
+      "label": "Sea of Okhotsk"
+    },
+    {
+      "itemId": "marginal-seas-oceans-3",
+      "label": "Andaman Sea"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Major ocean basin (Arctic, Indian, Atlantic, or Pacific) to which each marginal sea belongs",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Arctic Ocean",
+        "capacity": 1,
+        "itemIds": [
+          "marginal-seas-oceans-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Indian Ocean",
+        "capacity": 2,
+        "itemIds": [
+          "marginal-seas-oceans-2",
+          "marginal-seas-oceans-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Atlantic Ocean",
+        "capacity": 3,
+        "itemIds": [
+          "marginal-seas-oceans-4",
+          "marginal-seas-oceans-5",
+          "marginal-seas-oceans-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Pacific Ocean",
+        "capacity": 4,
+        "itemIds": [
+          "marginal-seas-oceans-7",
+          "marginal-seas-oceans-8",
+          "marginal-seas-oceans-9",
+          "marginal-seas-oceans-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by major ocean basin: Arctic Ocean (Beaufort Sea), Indian Ocean (Arabian Sea, Andaman Sea), Atlantic Ocean (Caribbean Sea, North Sea, Sargasso Sea), and Pacific Ocean (Bering Sea, Coral Sea, Sea of Okhotsk, Tasman Sea).",
+  "sources": [
+    {
+      "title": "IHO: Limits of Oceans and Seas",
+      "url": "https://iho.int/en/standards-and-specifications",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

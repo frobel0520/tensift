@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "climbing-mountaineering-styles-2027-08-23-zh-hant",
+  "puzzleFamilyId": "climbing-mountaineering-styles-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-23",
+  "timezone": "UTC",
+  "theme": "攀岩與登山運動形式",
+  "items": [
+    {
+      "itemId": "climbing-mountaineering-styles-4",
+      "label": "先鋒運動攀登"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-8",
+      "label": "鐵索棧道攀登（Via Ferrata）"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-1",
+      "label": "瀑布冰攀"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-6",
+      "label": "傳統攀登（Trad）"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-10",
+      "label": "多日大岩壁攀登"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-2",
+      "label": "抱石（Bouldering）"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-7",
+      "label": "高海拔登山"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-5",
+      "label": "頂繩確保攀登"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-9",
+      "label": "人工輔助攀登（Aid）"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-3",
+      "label": "速度攀登"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各攀登運動的技術形式（冰攀、無繩／計時競賽、有繩岩壁攀登或高山／輔助攀登）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "冰壁攀登",
+        "capacity": 1,
+        "itemIds": [
+          "climbing-mountaineering-styles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "抱石與速度賽",
+        "capacity": 2,
+        "itemIds": [
+          "climbing-mountaineering-styles-2",
+          "climbing-mountaineering-styles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "有繩岩壁攀登",
+        "capacity": 3,
+        "itemIds": [
+          "climbing-mountaineering-styles-4",
+          "climbing-mountaineering-styles-5",
+          "climbing-mountaineering-styles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "高山與輔助攀登",
+        "capacity": 4,
+        "itemIds": [
+          "climbing-mountaineering-styles-7",
+          "climbing-mountaineering-styles-8",
+          "climbing-mountaineering-styles-9",
+          "climbing-mountaineering-styles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依攀登形式分類：冰攀（瀑布冰攀）、抱石與速度賽（抱石、速度攀登）、有繩岩壁攀登（先鋒運動攀登、頂繩攀登、傳統攀登）與高山及輔助攀登（高海拔登山、鐵索棧道 Via Ferrata、人工輔助攀登、大岩壁攀登）。",
+  "sources": [
+    {
+      "title": "IFSC & UIAA Climbing Standards",
+      "url": "https://www.ifsc-climbing.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

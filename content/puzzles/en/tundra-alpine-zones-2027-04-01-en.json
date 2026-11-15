@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tundra-alpine-zones-2027-04-01-en",
+  "puzzleFamilyId": "tundra-alpine-zones-001",
+  "locale": "en",
+  "publishDate": "2027-04-01",
+  "timezone": "UTC",
+  "theme": "Elevation Vegetation Zones",
+  "items": [
+    {
+      "itemId": "tundra-alpine-zones-4",
+      "label": "Krummholz Scrub"
+    },
+    {
+      "itemId": "tundra-alpine-zones-8",
+      "label": "Montane Oak Forest"
+    },
+    {
+      "itemId": "tundra-alpine-zones-1",
+      "label": "Permanent Glacier Zone"
+    },
+    {
+      "itemId": "tundra-alpine-zones-6",
+      "label": "Timberline"
+    },
+    {
+      "itemId": "tundra-alpine-zones-10",
+      "label": "Piedmont Valley"
+    },
+    {
+      "itemId": "tundra-alpine-zones-2",
+      "label": "Alpine Tundra"
+    },
+    {
+      "itemId": "tundra-alpine-zones-7",
+      "label": "Montane Cloud Forest"
+    },
+    {
+      "itemId": "tundra-alpine-zones-5",
+      "label": "Subalpine Conifer Forest"
+    },
+    {
+      "itemId": "tundra-alpine-zones-9",
+      "label": "Foothill Savanna"
+    },
+    {
+      "itemId": "tundra-alpine-zones-3",
+      "label": "Cushion Plant Meadow"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Mountain elevation belt (Snow/Nival, Alpine, Subalpine, or Montane) of each feature",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Nival Zone (Permanent Snow)",
+        "capacity": 1,
+        "itemIds": [
+          "tundra-alpine-zones-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Alpine Zone (Above Treeline)",
+        "capacity": 2,
+        "itemIds": [
+          "tundra-alpine-zones-2",
+          "tundra-alpine-zones-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Subalpine Zone",
+        "capacity": 3,
+        "itemIds": [
+          "tundra-alpine-zones-4",
+          "tundra-alpine-zones-5",
+          "tundra-alpine-zones-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Montane & Foothill Zone",
+        "capacity": 4,
+        "itemIds": [
+          "tundra-alpine-zones-7",
+          "tundra-alpine-zones-8",
+          "tundra-alpine-zones-9",
+          "tundra-alpine-zones-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by mountain elevation belt from highest to lowest: Nival/Permanent Snow (Nival Glacier Zone), Alpine above treeline (Alpine Tundra, Cushion Plants), Subalpine transition (Krummholz, Subalpine Conifer Forest, Timberline), and Montane lower slopes (Cloud Forest, Montane Oak Forest, Foothill Savanna, Piedmont Valley).",
+  "sources": [
+    {
+      "title": "Britannica: Altitudinal Zonation",
+      "url": "https://www.britannica.com/science/altitudinal-zonation",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

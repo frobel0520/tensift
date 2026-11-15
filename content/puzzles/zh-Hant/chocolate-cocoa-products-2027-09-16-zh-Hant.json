@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chocolate-cocoa-products-2027-09-16-zh-hant",
+  "puzzleFamilyId": "chocolate-cocoa-products-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-16",
+  "timezone": "UTC",
+  "theme": "可可與巧克力製品分類",
+  "items": [
+    {
+      "itemId": "chocolate-cocoa-products-4",
+      "label": "天然無糖可可粉"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-8",
+      "label": "85% 特濃黑巧克力"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-1",
+      "label": "烘烤可可碎仁（Nibs）"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-6",
+      "label": "超深鹼化黑可可粉"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-10",
+      "label": "榛果醬巧克力（Gianduja）"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-2",
+      "label": "白巧克力"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-7",
+      "label": "70% 黑巧克力"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-5",
+      "label": "荷蘭鹼化可可粉"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-9",
+      "label": "牛奶巧克力"
+    },
+    {
+      "itemId": "chocolate-cocoa-products-3",
+      "label": "焦糖黃金白巧克力"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各可可製品的固形物與可可脂組成（純可可碎／膏、純可可脂白巧、脫脂可可粉或含糖黑／牛奶巧克力）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "純無糖可可碎仁",
+        "capacity": 1,
+        "itemIds": [
+          "chocolate-cocoa-products-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "純可可脂製品（無可可膏）",
+        "capacity": 2,
+        "itemIds": [
+          "chocolate-cocoa-products-2",
+          "chocolate-cocoa-products-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "脫脂可可粉",
+        "capacity": 3,
+        "itemIds": [
+          "chocolate-cocoa-products-4",
+          "chocolate-cocoa-products-5",
+          "chocolate-cocoa-products-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "含可可膏調溫巧克力",
+        "capacity": 4,
+        "itemIds": [
+          "chocolate-cocoa-products-7",
+          "chocolate-cocoa-products-8",
+          "chocolate-cocoa-products-9",
+          "chocolate-cocoa-products-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依可可組成成分分類：純無糖可可（烘烤可可碎仁）、僅含可可脂（白巧克力、焦糖黃金白巧）、脫脂可可粉（天然可可粉、鹼化荷蘭可可粉、黑可可粉）與可可膏調溫巧克力（70% 黑巧、85% 特濃黑巧、牛奶巧克力、榛果醬巧克力 Gianduja）。",
+  "sources": [
+    {
+      "title": "Codex Alimentarius: Chocolate Standard",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

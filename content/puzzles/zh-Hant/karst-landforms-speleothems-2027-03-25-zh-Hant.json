@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "karst-landforms-speleothems-2027-03-25-zh-hant",
+  "puzzleFamilyId": "karst-landforms-speleothems-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-25",
+  "timezone": "UTC",
+  "theme": "喀斯特地形與鐘乳石",
+  "items": [
+    {
+      "itemId": "karst-landforms-speleothems-4",
+      "label": "鐘乳石"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-8",
+      "label": "溶蝕谷"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-1",
+      "label": "石柱"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-6",
+      "label": "石簾"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-10",
+      "label": "峰林（塔狀喀斯特）"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-2",
+      "label": "石筍"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-7",
+      "label": "滲穴（天坑）"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-5",
+      "label": "鵝管"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-9",
+      "label": "石灰岩鋪面"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-3",
+      "label": "流石"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各喀斯特與洞穴構造的形成位置（連接柱、洞底、洞頂或地表）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "頂底相連",
+        "capacity": 1,
+        "itemIds": [
+          "karst-landforms-speleothems-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "洞穴底部沉積",
+        "capacity": 2,
+        "itemIds": [
+          "karst-landforms-speleothems-2",
+          "karst-landforms-speleothems-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "洞穴頂部懸垂",
+        "capacity": 3,
+        "itemIds": [
+          "karst-landforms-speleothems-4",
+          "karst-landforms-speleothems-5",
+          "karst-landforms-speleothems-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "地表喀斯特地形",
+        "capacity": 4,
+        "itemIds": [
+          "karst-landforms-speleothems-7",
+          "karst-landforms-speleothems-8",
+          "karst-landforms-speleothems-9",
+          "karst-landforms-speleothems-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依形成位置分類：頂底相連（石柱）、洞穴底部（石筍、流石）、洞穴頂部（鐘乳石、鵝管、石簾）與地表溶蝕喀斯特（滲穴／天坑、溶蝕谷、石灰岩鋪面、峰林／塔狀喀斯特）。",
+  "sources": [
+    {
+      "title": "NPS: Caves and Karst",
+      "url": "https://www.nps.gov/subjects/caves/index.htm",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "swimming-strokes-events-2027-08-01-es-419",
+  "puzzleFamilyId": "swimming-strokes-events-001",
+  "locale": "es-419",
+  "publishDate": "2027-08-01",
+  "timezone": "UTC",
+  "theme": "Pruebas de natación competitiva",
+  "items": [
+    {
+      "itemId": "swimming-strokes-events-4",
+      "label": "Mariposa"
+    },
+    {
+      "itemId": "swimming-strokes-events-8",
+      "label": "100 m libre"
+    },
+    {
+      "itemId": "swimming-strokes-events-1",
+      "label": "400 m estilos individual"
+    },
+    {
+      "itemId": "swimming-strokes-events-6",
+      "label": "Pecho (braza)"
+    },
+    {
+      "itemId": "swimming-strokes-events-10",
+      "label": "1500 m libre"
+    },
+    {
+      "itemId": "swimming-strokes-events-2",
+      "label": "Relevo 4x100 m libre"
+    },
+    {
+      "itemId": "swimming-strokes-events-7",
+      "label": "50 m libre"
+    },
+    {
+      "itemId": "swimming-strokes-events-5",
+      "label": "Espalda"
+    },
+    {
+      "itemId": "swimming-strokes-events-9",
+      "label": "400 m libre"
+    },
+    {
+      "itemId": "swimming-strokes-events-3",
+      "label": "Relevo 4x100 m estilos"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Formato o estilo de cada prueba de natación",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Combinado individual",
+        "capacity": 1,
+        "itemIds": [
+          "swimming-strokes-events-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Relevos por equipos",
+        "capacity": 2,
+        "itemIds": [
+          "swimming-strokes-events-2",
+          "swimming-strokes-events-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Estilos reglamentarios",
+        "capacity": 3,
+        "itemIds": [
+          "swimming-strokes-events-4",
+          "swimming-strokes-events-5",
+          "swimming-strokes-events-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Distancias de estilo libre",
+        "capacity": 4,
+        "itemIds": [
+          "swimming-strokes-events-7",
+          "swimming-strokes-events-8",
+          "swimming-strokes-events-9",
+          "swimming-strokes-events-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por formato: combinado individual (400 m estilos), relevos (4x100 m libre, 4x100 m estilos), estilos reglamentarios (mariposa, espalda, pecho) y distancias de estilo libre (50 m, 100 m, 400 m, 1500 m libre).",
+  "sources": [
+    {
+      "title": "World Aquatics: Swimming Rules",
+      "url": "https://www.worldaquatics.com/swimming",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

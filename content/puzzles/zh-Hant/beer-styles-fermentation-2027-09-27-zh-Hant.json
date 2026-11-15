@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "beer-styles-fermentation-2027-09-27-zh-hant",
+  "puzzleFamilyId": "beer-styles-fermentation-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-27",
+  "timezone": "UTC",
+  "theme": "啤酒釀造發酵分類",
+  "items": [
+    {
+      "itemId": "beer-styles-fermentation-4",
+      "label": "波希米亞皮爾森拉格"
+    },
+    {
+      "itemId": "beer-styles-fermentation-8",
+      "label": "愛爾蘭乾司陶特黑啤"
+    },
+    {
+      "itemId": "beer-styles-fermentation-1",
+      "label": "比利時蘭比克酸啤酒"
+    },
+    {
+      "itemId": "beer-styles-fermentation-6",
+      "label": "維也納琥珀拉格"
+    },
+    {
+      "itemId": "beer-styles-fermentation-10",
+      "label": "比利時修道院三料愛爾"
+    },
+    {
+      "itemId": "beer-styles-fermentation-2",
+      "label": "巴伐利亞小麥啤酒"
+    },
+    {
+      "itemId": "beer-styles-fermentation-7",
+      "label": "印度淡愛爾（IPA）"
+    },
+    {
+      "itemId": "beer-styles-fermentation-5",
+      "label": "慕尼黑淡拉格（Helles）"
+    },
+    {
+      "itemId": "beer-styles-fermentation-9",
+      "label": "英式波特啤酒"
+    },
+    {
+      "itemId": "beer-styles-fermentation-3",
+      "label": "比利時小麥白啤酒"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各啤酒風格的酵母與發酵類型（野生自然發酵蘭比克、小麥啤酒、底層冷發酵拉格或頂層溫發酵愛爾）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "野生自然發酵（蘭比克）",
+        "capacity": 1,
+        "itemIds": [
+          "beer-styles-fermentation-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "小麥啤酒",
+        "capacity": 2,
+        "itemIds": [
+          "beer-styles-fermentation-2",
+          "beer-styles-fermentation-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "底層冷發酵拉格（Lager）",
+        "capacity": 3,
+        "itemIds": [
+          "beer-styles-fermentation-4",
+          "beer-styles-fermentation-5",
+          "beer-styles-fermentation-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "頂層溫發酵愛爾（Ale）",
+        "capacity": 4,
+        "itemIds": [
+          "beer-styles-fermentation-7",
+          "beer-styles-fermentation-8",
+          "beer-styles-fermentation-9",
+          "beer-styles-fermentation-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依發酵類型分類：野生菌自然發酵（比利時蘭比克酸啤酒）、小麥頂層發酵（德式小麥啤酒 Hefeweizen、比利時白啤酒）、底層冷發酵拉格（捷克皮爾森、慕尼黑淡拉格、維也納拉格）與大麥頂層發酵愛爾（印度淡愛爾 IPA、愛爾蘭乾司陶特、英式波特、比利時三料）。",
+  "sources": [
+    {
+      "title": "Brewers Association Beer Style Guidelines",
+      "url": "https://www.brewersassociation.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

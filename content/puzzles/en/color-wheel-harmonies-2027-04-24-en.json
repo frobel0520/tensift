@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "color-wheel-harmonies-2027-04-24-en",
+  "puzzleFamilyId": "color-wheel-harmonies-001",
+  "locale": "en",
+  "publishDate": "2027-04-24",
+  "timezone": "UTC",
+  "theme": "Color Wheel Harmonies",
+  "items": [
+    {
+      "itemId": "color-wheel-harmonies-4",
+      "label": "Triadic"
+    },
+    {
+      "itemId": "color-wheel-harmonies-8",
+      "label": "Square Harmony"
+    },
+    {
+      "itemId": "color-wheel-harmonies-1",
+      "label": "Monochromatic"
+    },
+    {
+      "itemId": "color-wheel-harmonies-6",
+      "label": "Analogous Triad"
+    },
+    {
+      "itemId": "color-wheel-harmonies-10",
+      "label": "CMYK Four-Color"
+    },
+    {
+      "itemId": "color-wheel-harmonies-2",
+      "label": "Complementary"
+    },
+    {
+      "itemId": "color-wheel-harmonies-7",
+      "label": "Tetradic Rectangle"
+    },
+    {
+      "itemId": "color-wheel-harmonies-5",
+      "label": "Split-Complementary"
+    },
+    {
+      "itemId": "color-wheel-harmonies-9",
+      "label": "Double Complementary"
+    },
+    {
+      "itemId": "color-wheel-harmonies-3",
+      "label": "Warm–Cool Pair"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Number of distinct hue positions (1, 2, 3, or 4) on the color wheel",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "1 Hue",
+        "capacity": 1,
+        "itemIds": [
+          "color-wheel-harmonies-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "2 Hues",
+        "capacity": 2,
+        "itemIds": [
+          "color-wheel-harmonies-2",
+          "color-wheel-harmonies-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "3 Hues",
+        "capacity": 3,
+        "itemIds": [
+          "color-wheel-harmonies-4",
+          "color-wheel-harmonies-5",
+          "color-wheel-harmonies-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "4 Hues",
+        "capacity": 4,
+        "itemIds": [
+          "color-wheel-harmonies-7",
+          "color-wheel-harmonies-8",
+          "color-wheel-harmonies-9",
+          "color-wheel-harmonies-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by number of hue positions: 1 hue (Monochromatic), 2 hues (Complementary, Warm–Cool Pair), 3 hues (Triadic, Split-Complementary, Analogous Triad), and 4 hues (Tetradic Rectangle, Square Harmony, Double Complementary, CMYK Four-Color).",
+  "sources": [
+    {
+      "title": "Britannica: Color Wheel",
+      "url": "https://www.britannica.com/art/color-wheel",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

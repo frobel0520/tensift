@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tea-oxidation-categories-2027-09-07-en",
+  "puzzleFamilyId": "tea-oxidation-categories-001",
+  "locale": "en",
+  "publishDate": "2027-09-07",
+  "timezone": "UTC",
+  "theme": "True Teas by Oxidation Level",
+  "items": [
+    {
+      "itemId": "tea-oxidation-categories-4",
+      "label": "Japanese Sencha"
+    },
+    {
+      "itemId": "tea-oxidation-categories-8",
+      "label": "Taiwan High-Mountain Oolong"
+    },
+    {
+      "itemId": "tea-oxidation-categories-1",
+      "label": "Pu-erh Tea"
+    },
+    {
+      "itemId": "tea-oxidation-categories-6",
+      "label": "Longjing (Dragon Well)"
+    },
+    {
+      "itemId": "tea-oxidation-categories-10",
+      "label": "Darjeeling Black Tea"
+    },
+    {
+      "itemId": "tea-oxidation-categories-2",
+      "label": "Silver Needle (Baihao Yinzhen)"
+    },
+    {
+      "itemId": "tea-oxidation-categories-7",
+      "label": "Tieguanyin Oolong"
+    },
+    {
+      "itemId": "tea-oxidation-categories-5",
+      "label": "Ceremonial Matcha"
+    },
+    {
+      "itemId": "tea-oxidation-categories-9",
+      "label": "Assam Black Tea"
+    },
+    {
+      "itemId": "tea-oxidation-categories-3",
+      "label": "White Peony (Baimudan)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Camellia sinensis processing class (Post-Fermented Dark Tea, Minimally Processed White Tea, Unoxidized Green Teas, or Oxidized/Semi-Oxidized Oolong & Black)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Post-Fermented Dark Tea",
+        "capacity": 1,
+        "itemIds": [
+          "tea-oxidation-categories-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "White Teas (Minimal)",
+        "capacity": 2,
+        "itemIds": [
+          "tea-oxidation-categories-2",
+          "tea-oxidation-categories-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Unoxidized Green Teas",
+        "capacity": 3,
+        "itemIds": [
+          "tea-oxidation-categories-4",
+          "tea-oxidation-categories-5",
+          "tea-oxidation-categories-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Oolong & Black Teas",
+        "capacity": 4,
+        "itemIds": [
+          "tea-oxidation-categories-7",
+          "tea-oxidation-categories-8",
+          "tea-oxidation-categories-9",
+          "tea-oxidation-categories-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by tea processing: Post-Fermented Dark Tea (Pu-erh Ripe Tea), Minimally Oxidized White Tea (Silver Needle, White Peony), Unoxidized Green Teas (Sencha, Matcha, Longjing Dragon Well), and Semi- to Full-Oxidized Oolong & Black Teas (Tieguanyin Oolong, High-Mountain Oolong, Assam Black, Darjeeling Black).",
+  "sources": [
+    {
+      "title": "FAO Tea Classification",
+      "url": "https://www.fao.org/markets-and-trade/commodities/tea/en/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

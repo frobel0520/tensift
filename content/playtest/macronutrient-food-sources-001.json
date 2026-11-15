@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "macronutrient-food-sources-001",
+  "theme": "Macronutrient-Rich Foods",
+  "publishDate": "2027-09-11",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "macronutrient-food-sources-1",
+        "rivalGroupId": "group-4",
+        "risk": "Psyllium husk is a carbohydrate.",
+        "resolution": "Psyllium is ~85% indigestible soluble/insoluble dietary fiber (group-1), not digestible caloric starch (group-4)."
+      },
+      {
+        "itemId": "macronutrient-food-sources-8",
+        "rivalGroupId": "group-1",
+        "risk": "Oats are known for beta-glucan fiber.",
+        "resolution": "By dry weight, rolled oats are ~66% digestible carbohydrate starch (group-4), unlike concentrated psyllium husk (group-1)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

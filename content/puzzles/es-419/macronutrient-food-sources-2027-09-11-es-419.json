@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "macronutrient-food-sources-2027-09-11-es-419",
+  "puzzleFamilyId": "macronutrient-food-sources-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-11",
+  "timezone": "UTC",
+  "theme": "Alimentos por macronutriente principal",
+  "items": [
+    {
+      "itemId": "macronutrient-food-sources-4",
+      "label": "Pechuga de pollo sin piel"
+    },
+    {
+      "itemId": "macronutrient-food-sources-8",
+      "label": "Avena en hojuelas"
+    },
+    {
+      "itemId": "macronutrient-food-sources-1",
+      "label": "Cáscara de psyllium"
+    },
+    {
+      "itemId": "macronutrient-food-sources-6",
+      "label": "Tofu firme"
+    },
+    {
+      "itemId": "macronutrient-food-sources-10",
+      "label": "Harina de maíz"
+    },
+    {
+      "itemId": "macronutrient-food-sources-2",
+      "label": "Aceite de oliva virgen extra"
+    },
+    {
+      "itemId": "macronutrient-food-sources-7",
+      "label": "Arroz blanco"
+    },
+    {
+      "itemId": "macronutrient-food-sources-5",
+      "label": "Clara de huevo"
+    },
+    {
+      "itemId": "macronutrient-food-sources-9",
+      "label": "Papa russet"
+    },
+    {
+      "itemId": "macronutrient-food-sources-3",
+      "label": "Mantequilla clarificada (ghee)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Componente nutricional dominante de cada alimento",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Fibra dietética concentrada",
+        "capacity": 1,
+        "itemIds": [
+          "macronutrient-food-sources-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Grasas y aceites puros",
+        "capacity": 2,
+        "itemIds": [
+          "macronutrient-food-sources-2",
+          "macronutrient-food-sources-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Fuentes de proteína",
+        "capacity": 3,
+        "itemIds": [
+          "macronutrient-food-sources-4",
+          "macronutrient-food-sources-5",
+          "macronutrient-food-sources-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Almidones básicos",
+        "capacity": 4,
+        "itemIds": [
+          "macronutrient-food-sources-7",
+          "macronutrient-food-sources-8",
+          "macronutrient-food-sources-9",
+          "macronutrient-food-sources-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por nutriente dominante: fibra dietética (psyllium), lípidos puros (aceite de oliva virgen extra, mantequilla clarificada ghee), proteínas magras (pechuga de pollo, clara de huevo, tofu firme) y almidones (arroz blanco, avena, papa, harina de maíz).",
+  "sources": [
+    {
+      "title": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

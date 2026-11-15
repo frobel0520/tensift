@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "government-system-types-2027-11-02-es-419",
+  "puzzleFamilyId": "government-system-types-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-02",
+  "timezone": "UTC",
+  "theme": "Formas de gobierno y Estado",
+  "items": [
+    {
+      "itemId": "government-system-types-4",
+      "label": "República parlamentaria"
+    },
+    {
+      "itemId": "government-system-types-8",
+      "label": "Estado unipartidista"
+    },
+    {
+      "itemId": "government-system-types-1",
+      "label": "Teocracia"
+    },
+    {
+      "itemId": "government-system-types-6",
+      "label": "República semipresidencialista"
+    },
+    {
+      "itemId": "government-system-types-10",
+      "label": "Autocracia personalista"
+    },
+    {
+      "itemId": "government-system-types-2",
+      "label": "Monarquía constitucional"
+    },
+    {
+      "itemId": "government-system-types-7",
+      "label": "Junta militar"
+    },
+    {
+      "itemId": "government-system-types-5",
+      "label": "República presidencialista"
+    },
+    {
+      "itemId": "government-system-types-9",
+      "label": "Dictadura totalitaria"
+    },
+    {
+      "itemId": "government-system-types-3",
+      "label": "Monarquía absoluta"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Estructura constitucional de cada forma de gobierno",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Teocracia",
+        "capacity": 1,
+        "itemIds": [
+          "government-system-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Monarquías",
+        "capacity": 2,
+        "itemIds": [
+          "government-system-types-2",
+          "government-system-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Repúblicas democráticas",
+        "capacity": 3,
+        "itemIds": [
+          "government-system-types-4",
+          "government-system-types-5",
+          "government-system-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Regímenes autocráticos",
+        "capacity": 4,
+        "itemIds": [
+          "government-system-types-7",
+          "government-system-types-8",
+          "government-system-types-9",
+          "government-system-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por estructura: autoridad religiosa (teocracia), monarquías (monarquía constitucional, monarquía absoluta), repúblicas democráticas (república parlamentaria, presidencialista, semipresidencialista) y regímenes autocráticos (junta militar, Estado unipartidista, dictadura totalitaria, autocracia personalista).",
+  "sources": [
+    {
+      "title": "Britannica: Political Systems",
+      "url": "https://www.britannica.com/topic/political-system",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

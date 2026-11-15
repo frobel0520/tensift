@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "kitchen-thermal-appliances-2027-10-15-es-419",
+  "puzzleFamilyId": "kitchen-thermal-appliances-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-15",
+  "timezone": "UTC",
+  "theme": "Electrodomésticos de cocina por principio térmico",
+  "items": [
+    {
+      "itemId": "kitchen-thermal-appliances-4",
+      "label": "Circulador sous-vide"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-8",
+      "label": "Freidora de aire"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-1",
+      "label": "Horno de microondas"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-6",
+      "label": "Baño María eléctrico"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-10",
+      "label": "Waflera eléctrica"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-2",
+      "label": "Estufa de inducción"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-7",
+      "label": "Horno eléctrico de convección"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-5",
+      "label": "Horno de agua sous-vide"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-9",
+      "label": "Tostadora eléctrica"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-3",
+      "label": "Arrocera de inducción"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Principio físico de calentamiento de cada aparato",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Microondas dieléctrico",
+        "capacity": 1,
+        "itemIds": [
+          "kitchen-thermal-appliances-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Inducción electromagnética",
+        "capacity": 2,
+        "itemIds": [
+          "kitchen-thermal-appliances-2",
+          "kitchen-thermal-appliances-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Baño de agua de precisión",
+        "capacity": 3,
+        "itemIds": [
+          "kitchen-thermal-appliances-4",
+          "kitchen-thermal-appliances-5",
+          "kitchen-thermal-appliances-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Resistencia y convección",
+        "capacity": 4,
+        "itemIds": [
+          "kitchen-thermal-appliances-7",
+          "kitchen-thermal-appliances-8",
+          "kitchen-thermal-appliances-9",
+          "kitchen-thermal-appliances-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por física térmica: microondas dieléctrico (horno microondas), inducción electromagnética (estufa de inducción, arrocera de inducción), baño de agua de precisión (circulador sous-vide, horno de agua sous-vide, baño María eléctrico) y resistencia/convección eléctrica (horno eléctrico, freidora de aire, tostadora, waflera).",
+  "sources": [
+    {
+      "title": "NIST & IEC Household Cooking Standards",
+      "url": "https://www.iec.ch/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

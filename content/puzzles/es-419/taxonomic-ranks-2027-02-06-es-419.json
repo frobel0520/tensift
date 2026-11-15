@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "taxonomic-ranks-2027-02-06-es-419",
+  "puzzleFamilyId": "taxonomic-ranks-001",
+  "locale": "es-419",
+  "publishDate": "2027-02-06",
+  "timezone": "UTC",
+  "theme": "Taxonomía linneana",
+  "items": [
+    {
+      "itemId": "taxonomic-ranks-4",
+      "label": "Carnivora"
+    },
+    {
+      "itemId": "taxonomic-ranks-8",
+      "label": "Canis lupus"
+    },
+    {
+      "itemId": "taxonomic-ranks-1",
+      "label": "Eukarya"
+    },
+    {
+      "itemId": "taxonomic-ranks-6",
+      "label": "Lepidoptera"
+    },
+    {
+      "itemId": "taxonomic-ranks-10",
+      "label": "Apis mellifera"
+    },
+    {
+      "itemId": "taxonomic-ranks-2",
+      "label": "Animalia"
+    },
+    {
+      "itemId": "taxonomic-ranks-7",
+      "label": "Homo sapiens"
+    },
+    {
+      "itemId": "taxonomic-ranks-5",
+      "label": "Primates"
+    },
+    {
+      "itemId": "taxonomic-ranks-9",
+      "label": "Panthera leo"
+    },
+    {
+      "itemId": "taxonomic-ranks-3",
+      "label": "Plantae"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría taxonómica de cada ejemplo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Dominio",
+        "capacity": 1,
+        "itemIds": [
+          "taxonomic-ranks-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Reinos",
+        "capacity": 2,
+        "itemIds": [
+          "taxonomic-ranks-2",
+          "taxonomic-ranks-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Órdenes",
+        "capacity": 3,
+        "itemIds": [
+          "taxonomic-ranks-4",
+          "taxonomic-ranks-5",
+          "taxonomic-ranks-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Especies (binomios)",
+        "capacity": 4,
+        "itemIds": [
+          "taxonomic-ranks-7",
+          "taxonomic-ranks-8",
+          "taxonomic-ranks-9",
+          "taxonomic-ranks-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por rango taxonómico: Dominio (Eukarya), Reinos (Animalia, Plantae), Órdenes (Carnivora, Primates, Lepidoptera) y Especies (Homo sapiens, Canis lupus, Panthera leo, Apis mellifera).",
+  "sources": [
+    {
+      "title": "Britannica: Taxonomy",
+      "url": "https://www.britannica.com/science/taxonomy",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

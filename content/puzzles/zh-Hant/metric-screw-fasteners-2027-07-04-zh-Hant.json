@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "metric-screw-fasteners-2027-07-04-zh-hant",
+  "puzzleFamilyId": "metric-screw-fasteners-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-04",
+  "timezone": "UTC",
+  "theme": "機械緊固件分類",
+  "items": [
+    {
+      "itemId": "metric-screw-fasteners-4",
+      "label": "六角螺帽"
+    },
+    {
+      "itemId": "metric-screw-fasteners-8",
+      "label": "內六角圓柱頭螺絲"
+    },
+    {
+      "itemId": "metric-screw-fasteners-1",
+      "label": "C 型扣環（彈性擋圈）"
+    },
+    {
+      "itemId": "metric-screw-fasteners-6",
+      "label": "尼龍防鬆螺帽"
+    },
+    {
+      "itemId": "metric-screw-fasteners-10",
+      "label": "木螺絲"
+    },
+    {
+      "itemId": "metric-screw-fasteners-2",
+      "label": "平墊圈"
+    },
+    {
+      "itemId": "metric-screw-fasteners-7",
+      "label": "六角螺栓"
+    },
+    {
+      "itemId": "metric-screw-fasteners-5",
+      "label": "蝶形螺帽"
+    },
+    {
+      "itemId": "metric-screw-fasteners-9",
+      "label": "馬車螺栓"
+    },
+    {
+      "itemId": "metric-screw-fasteners-3",
+      "label": "彈簧防鬆墊圈"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各機械緊固件的功能類別（扣環、墊圈、螺帽或螺栓／螺絲）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "扣環",
+        "capacity": 1,
+        "itemIds": [
+          "metric-screw-fasteners-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "墊圈",
+        "capacity": 2,
+        "itemIds": [
+          "metric-screw-fasteners-2",
+          "metric-screw-fasteners-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "螺帽",
+        "capacity": 3,
+        "itemIds": [
+          "metric-screw-fasteners-4",
+          "metric-screw-fasteners-5",
+          "metric-screw-fasteners-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "螺栓與螺絲",
+        "capacity": 4,
+        "itemIds": [
+          "metric-screw-fasteners-7",
+          "metric-screw-fasteners-8",
+          "metric-screw-fasteners-9",
+          "metric-screw-fasteners-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依緊固件類別分類：軸用扣環（C 型扣環）、墊圈（平墊圈、彈簧墊圈）、螺帽（六角螺帽、蝶形螺帽、尼龍防鬆螺帽）與螺栓螺絲（六角螺栓、內六角圓柱頭螺絲、馬車螺栓、木螺絲）。",
+  "sources": [
+    {
+      "title": "ISO: Fasteners Standards (TC 2)",
+      "url": "https://www.iso.org/committee/45512.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

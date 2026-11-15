@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "maritime-navigation-terms-2027-06-23-es-419",
+  "puzzleFamilyId": "maritime-navigation-terms-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-23",
+  "timezone": "UTC",
+  "theme": "Términos náuticos y navegación marítima",
+  "items": [
+    {
+      "itemId": "maritime-navigation-terms-4",
+      "label": "Proa"
+    },
+    {
+      "itemId": "maritime-navigation-terms-8",
+      "label": "Estribor"
+    },
+    {
+      "itemId": "maritime-navigation-terms-1",
+      "label": "Faro"
+    },
+    {
+      "itemId": "maritime-navigation-terms-6",
+      "label": "Centro del buque (combés)"
+    },
+    {
+      "itemId": "maritime-navigation-terms-10",
+      "label": "Sotavento"
+    },
+    {
+      "itemId": "maritime-navigation-terms-2",
+      "label": "Boya lateral"
+    },
+    {
+      "itemId": "maritime-navigation-terms-7",
+      "label": "Babor"
+    },
+    {
+      "itemId": "maritime-navigation-terms-5",
+      "label": "Popa"
+    },
+    {
+      "itemId": "maritime-navigation-terms-9",
+      "label": "Barlovento"
+    },
+    {
+      "itemId": "maritime-navigation-terms-3",
+      "label": "Boya cardinal"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría náutica de cada término",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Baliza costera fija",
+        "capacity": 1,
+        "itemIds": [
+          "maritime-navigation-terms-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Boyas flotantes",
+        "capacity": 2,
+        "itemIds": [
+          "maritime-navigation-terms-2",
+          "maritime-navigation-terms-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Posiciones longitudinales del casco",
+        "capacity": 3,
+        "itemIds": [
+          "maritime-navigation-terms-4",
+          "maritime-navigation-terms-5",
+          "maritime-navigation-terms-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Direcciones laterales y de viento",
+        "capacity": 4,
+        "itemIds": [
+          "maritime-navigation-terms-7",
+          "maritime-navigation-terms-8",
+          "maritime-navigation-terms-9",
+          "maritime-navigation-terms-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría náutica: faro fijo (faro), boyas flotantes (boya lateral, boya cardinal), ejes longitudinales del casco (proa, popa, combés/centro) y direcciones laterales/viento (babor, estribor, barlovento, sotavento).",
+  "sources": [
+    {
+      "title": "IALA: Maritime Buoyage System",
+      "url": "https://www.iala-aism.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

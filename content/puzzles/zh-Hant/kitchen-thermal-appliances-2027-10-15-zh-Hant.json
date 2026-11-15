@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "kitchen-thermal-appliances-2027-10-15-zh-hant",
+  "puzzleFamilyId": "kitchen-thermal-appliances-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-15",
+  "timezone": "UTC",
+  "theme": "現代廚房加熱電器原理",
+  "items": [
+    {
+      "itemId": "kitchen-thermal-appliances-4",
+      "label": "舒肥棒（低溫水浴循環機）"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-8",
+      "label": "氣炸鍋"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-1",
+      "label": "微波爐"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-6",
+      "label": "電熱隔水保溫槽"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-10",
+      "label": "電熱鬆餅機"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-2",
+      "label": "IH 電磁爐"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-7",
+      "label": "電熱旋風烤箱"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-5",
+      "label": "恆溫舒肥水浴機"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-9",
+      "label": "彈跳式烤麵包機"
+    },
+    {
+      "itemId": "kitchen-thermal-appliances-3",
+      "label": "IH 電磁加熱電子鍋"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各廚房電器的核心加熱物理原理（磁控管微波、電磁渦流感應、恆溫水浴舒肥或電熱輻射／對流）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "微波介電加熱",
+        "capacity": 1,
+        "itemIds": [
+          "kitchen-thermal-appliances-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "電磁渦流感應（IH）",
+        "capacity": 2,
+        "itemIds": [
+          "kitchen-thermal-appliances-2",
+          "kitchen-thermal-appliances-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "恆溫水浴循環",
+        "capacity": 3,
+        "itemIds": [
+          "kitchen-thermal-appliances-4",
+          "kitchen-thermal-appliances-5",
+          "kitchen-thermal-appliances-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "電熱管輻射與對流",
+        "capacity": 4,
+        "itemIds": [
+          "kitchen-thermal-appliances-7",
+          "kitchen-thermal-appliances-8",
+          "kitchen-thermal-appliances-9",
+          "kitchen-thermal-appliances-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依加熱原理分類：微波介電（微波爐）、電磁渦流感應（IH 電磁爐、IH 電子鍋）、恆溫水浴循環（舒肥機低溫慢煮棒、恆溫水浴機、隔水保溫槽 Bain-Marie）與電熱管對流／傳導（旋風電烤箱、氣炸鍋、彈跳烤麵包機、鬆餅機）。",
+  "sources": [
+    {
+      "title": "NIST & IEC Household Cooking Standards",
+      "url": "https://www.iec.ch/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

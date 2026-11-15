@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "pasta-shapes-taxonomy-2027-09-13-en",
+  "puzzleFamilyId": "pasta-shapes-taxonomy-001",
+  "locale": "en",
+  "publishDate": "2027-09-13",
+  "timezone": "UTC",
+  "theme": "Italian Pasta Shapes",
+  "items": [
+    {
+      "itemId": "pasta-shapes-taxonomy-4",
+      "label": "Penne Rigate"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-8",
+      "label": "Fettuccine"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-1",
+      "label": "Lasagna Sheets"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-6",
+      "label": "Elbow Macaroni"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-10",
+      "label": "Capellini (Angel Hair)"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-2",
+      "label": "Ravioli"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-7",
+      "label": "Spaghetti"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-5",
+      "label": "Rigatoni"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-9",
+      "label": "Linguine"
+    },
+    {
+      "itemId": "pasta-shapes-taxonomy-3",
+      "label": "Tortellini"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Pasta shape class (Flat Lasagna Sheets, Stuffed Pasta, Tubular Pasta, or Long Strand Pasta)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Flat Layered Sheets",
+        "capacity": 1,
+        "itemIds": [
+          "pasta-shapes-taxonomy-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Stuffed Pasta",
+        "capacity": 2,
+        "itemIds": [
+          "pasta-shapes-taxonomy-2",
+          "pasta-shapes-taxonomy-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Tubular Pasta",
+        "capacity": 3,
+        "itemIds": [
+          "pasta-shapes-taxonomy-4",
+          "pasta-shapes-taxonomy-5",
+          "pasta-shapes-taxonomy-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Long Strand & Ribbon",
+        "capacity": 4,
+        "itemIds": [
+          "pasta-shapes-taxonomy-7",
+          "pasta-shapes-taxonomy-8",
+          "pasta-shapes-taxonomy-9",
+          "pasta-shapes-taxonomy-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by pasta shape: Flat Sheets (Lasagna), Stuffed Pasta (Ravioli, Tortellini), Tubular Pasta (Penne, Rigatoni, Macaroni), and Long Strand Pasta (Spaghetti, Fettuccine, Linguine, Capellini).",
+  "sources": [
+    {
+      "title": "Italian Culinary Institute: Pasta Shapes",
+      "url": "https://www.britannica.com/topic/pasta",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.18
+  },
+  "status": "scheduled"
+}

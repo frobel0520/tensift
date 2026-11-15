@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "medical-imaging-modalities-2027-12-09-zh-hant",
+  "puzzleFamilyId": "medical-imaging-modalities-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-09",
+  "timezone": "UTC",
+  "theme": "臨床醫學影像技術原理",
+  "items": [
+    {
+      "itemId": "medical-imaging-modalities-4",
+      "label": "都卜勒超音波"
+    },
+    {
+      "itemId": "medical-imaging-modalities-8",
+      "label": "X 光電腦斷層（CT）"
+    },
+    {
+      "itemId": "medical-imaging-modalities-1",
+      "label": "光學腸胃內視鏡"
+    },
+    {
+      "itemId": "medical-imaging-modalities-6",
+      "label": "功能性磁振造影（fMRI）"
+    },
+    {
+      "itemId": "medical-imaging-modalities-10",
+      "label": "牙科全口 X 光攝影"
+    },
+    {
+      "itemId": "medical-imaging-modalities-2",
+      "label": "正子斷層掃描（PET）"
+    },
+    {
+      "itemId": "medical-imaging-modalities-7",
+      "label": "胸部 X 光攝影"
+    },
+    {
+      "itemId": "medical-imaging-modalities-5",
+      "label": "結構磁振造影（MRI）"
+    },
+    {
+      "itemId": "medical-imaging-modalities-9",
+      "label": "乳房 X 光攝影"
+    },
+    {
+      "itemId": "medical-imaging-modalities-3",
+      "label": "單光子斷層掃描（SPECT）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各醫學影像檢查的物理訊號來源（光學內視鏡、核醫伽瑪射線、非游離超音波／磁振或游離 X 光輻射）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "光學內視鏡攝影",
+        "capacity": 1,
+        "itemIds": [
+          "medical-imaging-modalities-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "核醫放射性示蹤掃描",
+        "capacity": 2,
+        "itemIds": [
+          "medical-imaging-modalities-2",
+          "medical-imaging-modalities-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "非游離超音波與磁振造影",
+        "capacity": 3,
+        "itemIds": [
+          "medical-imaging-modalities-4",
+          "medical-imaging-modalities-5",
+          "medical-imaging-modalities-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "游離 X 光輻射造影",
+        "capacity": 4,
+        "itemIds": [
+          "medical-imaging-modalities-7",
+          "medical-imaging-modalities-8",
+          "medical-imaging-modalities-9",
+          "medical-imaging-modalities-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依影像物理原理分類：光學直接攝影（軟式光學內視鏡）、核醫學示蹤伽瑪（正子斷層掃描 PET、單光子電腦斷層 SPECT）、非游離超音波與磁振（都卜勒超音波、功能性磁振造影 fMRI、結構磁振造影 MRI）與游離 X 光輻射（胸部 X 光片、電腦斷層掃描 CT、乳房 X 光攝影、牙科全口 X 光）。",
+  "sources": [
+    {
+      "title": "WHO: Diagnostic Imaging Modalities",
+      "url": "https://www.who.int/health-topics/diagnostic-imaging",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "swimming-strokes-events-2027-08-01-zh-hant",
+  "puzzleFamilyId": "swimming-strokes-events-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-01",
+  "timezone": "UTC",
+  "theme": "競技游泳項目與泳姿",
+  "items": [
+    {
+      "itemId": "swimming-strokes-events-4",
+      "label": "蝶式"
+    },
+    {
+      "itemId": "swimming-strokes-events-8",
+      "label": "100 公尺自由式"
+    },
+    {
+      "itemId": "swimming-strokes-events-1",
+      "label": "400 公尺個人混合式"
+    },
+    {
+      "itemId": "swimming-strokes-events-6",
+      "label": "蛙式"
+    },
+    {
+      "itemId": "swimming-strokes-events-10",
+      "label": "1500 公尺自由式"
+    },
+    {
+      "itemId": "swimming-strokes-events-2",
+      "label": "4×100 公尺自由式接力"
+    },
+    {
+      "itemId": "swimming-strokes-events-7",
+      "label": "50 公尺自由式"
+    },
+    {
+      "itemId": "swimming-strokes-events-5",
+      "label": "仰式"
+    },
+    {
+      "itemId": "swimming-strokes-events-9",
+      "label": "400 公尺自由式"
+    },
+    {
+      "itemId": "swimming-strokes-events-3",
+      "label": "4×100 公尺混合式接力"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各競技游泳項目的賽制與泳姿分類（個人混合式、接力賽、特定泳姿或自由式距離）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "個人混合式",
+        "capacity": 1,
+        "itemIds": [
+          "swimming-strokes-events-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "團體接力賽",
+        "capacity": 2,
+        "itemIds": [
+          "swimming-strokes-events-2",
+          "swimming-strokes-events-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "特定規定泳姿",
+        "capacity": 3,
+        "itemIds": [
+          "swimming-strokes-events-4",
+          "swimming-strokes-events-5",
+          "swimming-strokes-events-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "自由式距離項目",
+        "capacity": 4,
+        "itemIds": [
+          "swimming-strokes-events-7",
+          "swimming-strokes-events-8",
+          "swimming-strokes-events-9",
+          "swimming-strokes-events-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依游泳項目分類：個人混合式（400 公尺個人混合式）、接力賽（4×100 公尺自由式接力、4×100 公尺混合式接力）、特定泳姿（蝶式、仰式、蛙式）與自由式距離（50 公尺、100 公尺、400 公尺、1500 公尺自由式）。",
+  "sources": [
+    {
+      "title": "World Aquatics: Swimming Rules",
+      "url": "https://www.worldaquatics.com/swimming",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

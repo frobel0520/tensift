@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "capital-cities-latitude-2027-03-27-en",
+  "puzzleFamilyId": "capital-cities-latitude-001",
+  "locale": "en",
+  "publishDate": "2027-03-27",
+  "timezone": "UTC",
+  "theme": "World Capitals by Latitude",
+  "items": [
+    {
+      "itemId": "capital-cities-latitude-4",
+      "label": "Quito"
+    },
+    {
+      "itemId": "capital-cities-latitude-8",
+      "label": "Wellington"
+    },
+    {
+      "itemId": "capital-cities-latitude-1",
+      "label": "Bangkok"
+    },
+    {
+      "itemId": "capital-cities-latitude-6",
+      "label": "Singapore"
+    },
+    {
+      "itemId": "capital-cities-latitude-10",
+      "label": "Brasília"
+    },
+    {
+      "itemId": "capital-cities-latitude-2",
+      "label": "Reykjavik"
+    },
+    {
+      "itemId": "capital-cities-latitude-7",
+      "label": "Canberra"
+    },
+    {
+      "itemId": "capital-cities-latitude-5",
+      "label": "Kampala"
+    },
+    {
+      "itemId": "capital-cities-latitude-9",
+      "label": "Pretoria"
+    },
+    {
+      "itemId": "capital-cities-latitude-3",
+      "label": "Helsinki"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Latitude band (10°–20°N, >60°N Subarctic, Equatorial <5°, or Southern Hemisphere) of each capital",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Northern Tropics (10°–20°N)",
+        "capacity": 1,
+        "itemIds": [
+          "capital-cities-latitude-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Subarctic (>60°N)",
+        "capacity": 2,
+        "itemIds": [
+          "capital-cities-latitude-2",
+          "capital-cities-latitude-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Equatorial (<5°)",
+        "capacity": 3,
+        "itemIds": [
+          "capital-cities-latitude-4",
+          "capital-cities-latitude-5",
+          "capital-cities-latitude-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Southern Hemisphere (>5°S)",
+        "capacity": 4,
+        "itemIds": [
+          "capital-cities-latitude-7",
+          "capital-cities-latitude-8",
+          "capital-cities-latitude-9",
+          "capital-cities-latitude-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by latitude band: Tropical 10°–20°N (Bangkok), Subarctic >60°N (Reykjavik, Helsinki), Equatorial within 5° (Quito, Kampala, Singapore), and Southern Hemisphere (Canberra, Wellington, Pretoria, Brasília).",
+  "sources": [
+    {
+      "title": "UN: World Capital Cities",
+      "url": "https://unstats.un.org/unsd/methodology/m49/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "lunar-mars-landers-2027-06-27-zh-hant",
+  "puzzleFamilyId": "lunar-mars-landers-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-27",
+  "timezone": "UTC",
+  "theme": "月球與火星著陸器",
+  "items": [
+    {
+      "itemId": "lunar-mars-landers-4",
+      "label": "鷹號（阿波羅 11 號）"
+    },
+    {
+      "itemId": "lunar-mars-landers-8",
+      "label": "火星拓荒者號"
+    },
+    {
+      "itemId": "lunar-mars-landers-1",
+      "label": "月球 9 號（Luna 9）"
+    },
+    {
+      "itemId": "lunar-mars-landers-6",
+      "label": "水瓶座號（阿波羅 13 號）"
+    },
+    {
+      "itemId": "lunar-mars-landers-10",
+      "label": "洞察號（InSight）"
+    },
+    {
+      "itemId": "lunar-mars-landers-2",
+      "label": "勘測者 1 號"
+    },
+    {
+      "itemId": "lunar-mars-landers-7",
+      "label": "維京 1 號著陸器"
+    },
+    {
+      "itemId": "lunar-mars-landers-5",
+      "label": "無畏號（阿波羅 12 號）"
+    },
+    {
+      "itemId": "lunar-mars-landers-9",
+      "label": "鳳凰號火星著陸器"
+    },
+    {
+      "itemId": "lunar-mars-landers-3",
+      "label": "勘測者 3 號"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各無人或載人著陸器所屬的探測計畫（蘇聯月球號、美國勘測者號、阿波羅登月艙或火星著陸器）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "蘇聯月球號計畫",
+        "capacity": 1,
+        "itemIds": [
+          "lunar-mars-landers-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "美國勘測者號計畫",
+        "capacity": 2,
+        "itemIds": [
+          "lunar-mars-landers-2",
+          "lunar-mars-landers-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "阿波羅登月艙",
+        "capacity": 3,
+        "itemIds": [
+          "lunar-mars-landers-4",
+          "lunar-mars-landers-5",
+          "lunar-mars-landers-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "火星著陸器",
+        "capacity": 4,
+        "itemIds": [
+          "lunar-mars-landers-7",
+          "lunar-mars-landers-8",
+          "lunar-mars-landers-9",
+          "lunar-mars-landers-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依登陸計畫分類：蘇聯月球號（月球 9 號）、美國勘測者號（勘測者 1 號、3 號）、阿波羅登月艙（鷹號、無畏號、水瓶座號）與火星著陸器（維京 1 號、火星拓荒者號、鳳凰號、洞察號）。",
+  "sources": [
+    {
+      "title": "NASA: Moon & Mars Landers",
+      "url": "https://science.nasa.gov/mars/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "government-system-types-2027-11-02-en",
+  "puzzleFamilyId": "government-system-types-001",
+  "locale": "en",
+  "publishDate": "2027-11-02",
+  "timezone": "UTC",
+  "theme": "Forms of State Government",
+  "items": [
+    {
+      "itemId": "government-system-types-4",
+      "label": "Parliamentary Republic"
+    },
+    {
+      "itemId": "government-system-types-8",
+      "label": "One-Party State"
+    },
+    {
+      "itemId": "government-system-types-1",
+      "label": "Theocracy"
+    },
+    {
+      "itemId": "government-system-types-6",
+      "label": "Semi-Presidential Republic"
+    },
+    {
+      "itemId": "government-system-types-10",
+      "label": "Personalist Autocracy"
+    },
+    {
+      "itemId": "government-system-types-2",
+      "label": "Constitutional Monarchy"
+    },
+    {
+      "itemId": "government-system-types-7",
+      "label": "Military Junta"
+    },
+    {
+      "itemId": "government-system-types-5",
+      "label": "Presidential Republic"
+    },
+    {
+      "itemId": "government-system-types-9",
+      "label": "Totalitarian Dictatorship"
+    },
+    {
+      "itemId": "government-system-types-3",
+      "label": "Absolute Monarchy"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Constitutional governance structure (Theocracy, Monarchy Subtypes, Democratic Republic Subtypes, or Non-Democratic/Authoritarian Regimes)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Religious Theocracy",
+        "capacity": 1,
+        "itemIds": [
+          "government-system-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Monarchies",
+        "capacity": 2,
+        "itemIds": [
+          "government-system-types-2",
+          "government-system-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Democratic Republics",
+        "capacity": 3,
+        "itemIds": [
+          "government-system-types-4",
+          "government-system-types-5",
+          "government-system-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Autocratic & Authoritarian",
+        "capacity": 4,
+        "itemIds": [
+          "government-system-types-7",
+          "government-system-types-8",
+          "government-system-types-9",
+          "government-system-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by governance structure: Religious Authority (Theocracy), Monarchies (Constitutional Monarchy, Absolute Monarchy), Democratic Republics (Parliamentary Republic, Presidential Republic, Semi-Presidential Republic), and Non-Democratic / Autocratic Regimes (Military Junta, One-Party State, Totalitarian Dictatorship, Personalist Autocracy).",
+  "sources": [
+    {
+      "title": "Britannica: Political Systems",
+      "url": "https://www.britannica.com/topic/political-system",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

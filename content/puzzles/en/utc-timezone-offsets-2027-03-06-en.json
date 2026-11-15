@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "utc-timezone-offsets-2027-03-06-en",
+  "puzzleFamilyId": "utc-timezone-offsets-001",
+  "locale": "en",
+  "publishDate": "2027-03-06",
+  "timezone": "UTC",
+  "theme": "Standard UTC Offsets",
+  "items": [
+    {
+      "itemId": "utc-timezone-offsets-4",
+      "label": "Paris"
+    },
+    {
+      "itemId": "utc-timezone-offsets-8",
+      "label": "Seoul"
+    },
+    {
+      "itemId": "utc-timezone-offsets-1",
+      "label": "New York"
+    },
+    {
+      "itemId": "utc-timezone-offsets-6",
+      "label": "Rome"
+    },
+    {
+      "itemId": "utc-timezone-offsets-10",
+      "label": "Dili"
+    },
+    {
+      "itemId": "utc-timezone-offsets-2",
+      "label": "London"
+    },
+    {
+      "itemId": "utc-timezone-offsets-7",
+      "label": "Tokyo"
+    },
+    {
+      "itemId": "utc-timezone-offsets-5",
+      "label": "Berlin"
+    },
+    {
+      "itemId": "utc-timezone-offsets-9",
+      "label": "Pyongyang"
+    },
+    {
+      "itemId": "utc-timezone-offsets-3",
+      "label": "Lisbon"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Standard-time UTC offset (UTC-5, UTC+0, UTC+1, or UTC+9) of each city",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "UTC-5 (Standard)",
+        "capacity": 1,
+        "itemIds": [
+          "utc-timezone-offsets-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "UTC+0 (Standard)",
+        "capacity": 2,
+        "itemIds": [
+          "utc-timezone-offsets-2",
+          "utc-timezone-offsets-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "UTC+1 (Standard)",
+        "capacity": 3,
+        "itemIds": [
+          "utc-timezone-offsets-4",
+          "utc-timezone-offsets-5",
+          "utc-timezone-offsets-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "UTC+9 (Standard)",
+        "capacity": 4,
+        "itemIds": [
+          "utc-timezone-offsets-7",
+          "utc-timezone-offsets-8",
+          "utc-timezone-offsets-9",
+          "utc-timezone-offsets-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by standard-time UTC offset: UTC-5 (New York), UTC+0 (London, Lisbon), UTC+1 (Paris, Berlin, Rome), and UTC+9 (Tokyo, Seoul, Pyongyang, Dili).",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "soil-macronutrients-plants-001",
+  "theme": "Plant Mineral Nutrients",
+  "publishDate": "2027-10-06",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "soil-macronutrients-plants-1",
+        "rivalGroupId": "group-3",
+        "risk": "Carbon makes up ~45% of plant dry biomass.",
+        "resolution": "Carbon is a non-mineral element absorbed from atmospheric CO2 (group-1), not a soil-applied primary NPK fertilizer (group-3)."
+      },
+      {
+        "itemId": "soil-macronutrients-plants-3",
+        "rivalGroupId": "group-4",
+        "risk": "Magnesium is at the center of the chlorophyll molecule like iron is involved in synthesis.",
+        "resolution": "Magnesium is a secondary macronutrient needed in gram-per-kg quantities (group-2), whereas iron is a trace micronutrient (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

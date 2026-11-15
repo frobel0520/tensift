@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "photography-exposure-controls-2027-04-26-en",
+  "puzzleFamilyId": "photography-exposure-controls-001",
+  "locale": "en",
+  "publishDate": "2027-04-26",
+  "timezone": "UTC",
+  "theme": "Photography Exposure Controls",
+  "items": [
+    {
+      "itemId": "photography-exposure-controls-4",
+      "label": "F-Stop"
+    },
+    {
+      "itemId": "photography-exposure-controls-8",
+      "label": "Histogram"
+    },
+    {
+      "itemId": "photography-exposure-controls-1",
+      "label": "ISO Sensitivity"
+    },
+    {
+      "itemId": "photography-exposure-controls-6",
+      "label": "Bokeh"
+    },
+    {
+      "itemId": "photography-exposure-controls-10",
+      "label": "Auto Bracketing"
+    },
+    {
+      "itemId": "photography-exposure-controls-2",
+      "label": "Bulb Mode"
+    },
+    {
+      "itemId": "photography-exposure-controls-7",
+      "label": "Spot Metering"
+    },
+    {
+      "itemId": "photography-exposure-controls-5",
+      "label": "Depth of Field"
+    },
+    {
+      "itemId": "photography-exposure-controls-9",
+      "label": "Exposure Compensation"
+    },
+    {
+      "itemId": "photography-exposure-controls-3",
+      "label": "High-Speed Sync"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Camera subsystem (Sensor Sensitivity, Shutter Timing, Lens Optics, or Light Metering)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Sensor Sensitivity",
+        "capacity": 1,
+        "itemIds": [
+          "photography-exposure-controls-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Shutter Timing",
+        "capacity": 2,
+        "itemIds": [
+          "photography-exposure-controls-2",
+          "photography-exposure-controls-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Lens Aperture & Optics",
+        "capacity": 3,
+        "itemIds": [
+          "photography-exposure-controls-4",
+          "photography-exposure-controls-5",
+          "photography-exposure-controls-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Metering & Exposure Tools",
+        "capacity": 4,
+        "itemIds": [
+          "photography-exposure-controls-7",
+          "photography-exposure-controls-8",
+          "photography-exposure-controls-9",
+          "photography-exposure-controls-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by camera subsystem: Sensor Sensitivity (ISO), Shutter Timing (Bulb Mode, High-Speed Sync), Lens Aperture & Optics (F-stop, Depth of Field, Bokeh), and Light Metering & Exposure (Spot Metering, Histogram, Exposure Compensation, Bracketing).",
+  "sources": [
+    {
+      "title": "Britannica: Photography Exposure",
+      "url": "https://www.britannica.com/technology/photography",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "social-sciences-disciplines-001",
+  "theme": "Social Sciences & Humanities",
+  "publishDate": "2027-11-19",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "social-sciences-disciplines-1",
+        "rivalGroupId": "group-3",
+        "risk": "Demography uses statistical methods like sociology and economics.",
+        "resolution": "Demography is the specialized quantitative study of population births, deaths, and migration (group-1), distinct from broader social sciences (group-3)."
+      },
+      {
+        "itemId": "social-sciences-disciplines-8",
+        "rivalGroupId": "group-3",
+        "risk": "History is often grouped in social studies.",
+        "resolution": "History is traditionally classified under the Humanities (group-4) rather than empirical social sciences (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

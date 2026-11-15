@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "rivers-drainage-basins-2027-03-15-zh-hant",
+  "puzzleFamilyId": "rivers-drainage-basins-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-15",
+  "timezone": "UTC",
+  "theme": "世界大河的注入海域",
+  "items": [
+    {
+      "itemId": "rivers-drainage-basins-4",
+      "label": "尼羅河"
+    },
+    {
+      "itemId": "rivers-drainage-basins-8",
+      "label": "剛果河"
+    },
+    {
+      "itemId": "rivers-drainage-basins-1",
+      "label": "勒拿河"
+    },
+    {
+      "itemId": "rivers-drainage-basins-6",
+      "label": "波河"
+    },
+    {
+      "itemId": "rivers-drainage-basins-10",
+      "label": "巴拉那河"
+    },
+    {
+      "itemId": "rivers-drainage-basins-2",
+      "label": "恆河"
+    },
+    {
+      "itemId": "rivers-drainage-basins-7",
+      "label": "亞馬遜河"
+    },
+    {
+      "itemId": "rivers-drainage-basins-5",
+      "label": "隆河"
+    },
+    {
+      "itemId": "rivers-drainage-basins-9",
+      "label": "密西西比河"
+    },
+    {
+      "itemId": "rivers-drainage-basins-3",
+      "label": "印度河"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各條河流最終注入的大洋或海域",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "注入北冰洋",
+        "capacity": 1,
+        "itemIds": [
+          "rivers-drainage-basins-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "注入印度洋",
+        "capacity": 2,
+        "itemIds": [
+          "rivers-drainage-basins-2",
+          "rivers-drainage-basins-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "注入地中海",
+        "capacity": 3,
+        "itemIds": [
+          "rivers-drainage-basins-4",
+          "rivers-drainage-basins-5",
+          "rivers-drainage-basins-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "注入大西洋",
+        "capacity": 4,
+        "itemIds": [
+          "rivers-drainage-basins-7",
+          "rivers-drainage-basins-8",
+          "rivers-drainage-basins-9",
+          "rivers-drainage-basins-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依最終注入海域分類：北冰洋（勒拿河）、印度洋（恆河、印度河）、地中海（尼羅河、隆河、波河）與大西洋（亞馬遜河、剛果河、密西西比河、巴拉那河）。",
+  "sources": [
+    {
+      "title": "Britannica: Major Rivers of the World",
+      "url": "https://www.britannica.com/science/river",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sculpture-processes-2027-04-29-es-419",
+  "puzzleFamilyId": "sculpture-processes-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-29",
+  "timezone": "UTC",
+  "theme": "Técnicas escultóricas",
+  "items": [
+    {
+      "itemId": "sculpture-processes-4",
+      "label": "Talla en mármol"
+    },
+    {
+      "itemId": "sculpture-processes-8",
+      "label": "Fundición en arena"
+    },
+    {
+      "itemId": "sculpture-processes-1",
+      "label": "Ensamblaje de objetos"
+    },
+    {
+      "itemId": "sculpture-processes-6",
+      "label": "Escultura en hielo"
+    },
+    {
+      "itemId": "sculpture-processes-10",
+      "label": "Moldeo en resina"
+    },
+    {
+      "itemId": "sculpture-processes-2",
+      "label": "Modelado en arcilla"
+    },
+    {
+      "itemId": "sculpture-processes-7",
+      "label": "Bronce a la cera perdida"
+    },
+    {
+      "itemId": "sculpture-processes-5",
+      "label": "Talla en madera"
+    },
+    {
+      "itemId": "sculpture-processes-9",
+      "label": "Colada de barbotina"
+    },
+    {
+      "itemId": "sculpture-processes-3",
+      "label": "Modelado en cera"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Método de creación escultórica (ensamblaje, modelado, talla o fundición)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Ensamblaje",
+        "capacity": 1,
+        "itemIds": [
+          "sculpture-processes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Modelado aditivo",
+        "capacity": 2,
+        "itemIds": [
+          "sculpture-processes-2",
+          "sculpture-processes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Talla sustractiva",
+        "capacity": 3,
+        "itemIds": [
+          "sculpture-processes-4",
+          "sculpture-processes-5",
+          "sculpture-processes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Fundición y moldeo",
+        "capacity": 4,
+        "itemIds": [
+          "sculpture-processes-7",
+          "sculpture-processes-8",
+          "sculpture-processes-9",
+          "sculpture-processes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por método: ensamblaje (ensamblaje de objetos encontrados), modelado (modelado en arcilla, cera), talla sustractiva (talla en mármol, madera, hielo) y fundición/moldeo (bronce a la cera perdida, fundición en arena, colada de barbotina, resina).",
+  "sources": [
+    {
+      "title": "Tate: Sculpture Techniques",
+      "url": "https://www.tate.org.uk/art/art-terms/s/sculpture",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

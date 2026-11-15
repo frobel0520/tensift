@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "cooking-oils-smoke-point-001",
+  "theme": "Cooking Oils by Source",
+  "publishDate": "2027-09-24",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "cooking-oils-smoke-point-2",
+        "rivalGroupId": "group-4",
+        "risk": "Olive oil is a liquid plant oil.",
+        "resolution": "Olive oil and avocado oil are pressed from fleshy fruit pulp (group-2), whereas sunflower, canola, sesame, and soybean are pressed from seeds/beans (group-4)."
+      },
+      {
+        "itemId": "cooking-oils-smoke-point-4",
+        "rivalGroupId": "group-2",
+        "risk": "Coconut is a drupe fruit.",
+        "resolution": "Coconut oil, palm oil, and cocoa butter are tropical saturated fats solid or semi-solid at cool room temperature (group-3), unlike liquid fruit-pulp oils (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "board-game-mechanics-modern-001",
+  "theme": "Modern Tabletop Mechanics",
+  "publishDate": "2027-09-01",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "board-game-mechanics-modern-10",
+        "rivalGroupId": "group-3",
+        "risk": "Set collection often uses cards.",
+        "resolution": "Set collection is a general scoring/resource-grouping mechanic across tokens, tiles, or cards (group-4), not a card-play turn engine like drafting or trick-taking (group-3)."
+      },
+      {
+        "itemId": "board-game-mechanics-modern-1",
+        "rivalGroupId": "group-3",
+        "risk": "Hidden roles are usually dealt on cards.",
+        "resolution": "Hidden roles drive social deduction and bluffing (group-1), rather than deck/hand card mechanics (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

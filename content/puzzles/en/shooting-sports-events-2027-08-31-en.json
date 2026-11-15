@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "shooting-sports-events-2027-08-31-en",
+  "puzzleFamilyId": "shooting-sports-events-001",
+  "locale": "en",
+  "publishDate": "2027-08-31",
+  "timezone": "UTC",
+  "theme": "Olympic Shooting Events",
+  "items": [
+    {
+      "itemId": "shooting-sports-events-4",
+      "label": "10m Air Pistol"
+    },
+    {
+      "itemId": "shooting-sports-events-8",
+      "label": "50m Rifle 3 Positions"
+    },
+    {
+      "itemId": "shooting-sports-events-1",
+      "label": "10m Running Target"
+    },
+    {
+      "itemId": "shooting-sports-events-6",
+      "label": "25m Sport Pistol"
+    },
+    {
+      "itemId": "shooting-sports-events-10",
+      "label": "300m Standard Rifle"
+    },
+    {
+      "itemId": "shooting-sports-events-2",
+      "label": "Trap Shotgun"
+    },
+    {
+      "itemId": "shooting-sports-events-7",
+      "label": "10m Air Rifle"
+    },
+    {
+      "itemId": "shooting-sports-events-5",
+      "label": "25m Rapid Fire Pistol"
+    },
+    {
+      "itemId": "shooting-sports-events-9",
+      "label": "50m Rifle Prone"
+    },
+    {
+      "itemId": "shooting-sports-events-3",
+      "label": "Skeet Shotgun"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Shooting discipline (Running Target / Rapid Fire, Shotgun Clay Targets, Pistol Events, or Rifle Events)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Moving Target",
+        "capacity": 1,
+        "itemIds": [
+          "shooting-sports-events-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Shotgun Clay Targets",
+        "capacity": 2,
+        "itemIds": [
+          "shooting-sports-events-2",
+          "shooting-sports-events-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Pistol Events",
+        "capacity": 3,
+        "itemIds": [
+          "shooting-sports-events-4",
+          "shooting-sports-events-5",
+          "shooting-sports-events-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Rifle Events",
+        "capacity": 4,
+        "itemIds": [
+          "shooting-sports-events-7",
+          "shooting-sports-events-8",
+          "shooting-sports-events-9",
+          "shooting-sports-events-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by shooting discipline: Moving Target (10m Running Target), Shotgun Clay Targets (Trap, Skeet), Pistol Events (10m Air Pistol, 25m Rapid Fire Pistol, 25m Sport Pistol), and Rifle Events (10m Air Rifle, 50m Rifle 3 Positions, 50m Rifle Prone, 300m Standard Rifle).",
+  "sources": [
+    {
+      "title": "ISSF: International Shooting Sport Federation",
+      "url": "https://www.issf-sports.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

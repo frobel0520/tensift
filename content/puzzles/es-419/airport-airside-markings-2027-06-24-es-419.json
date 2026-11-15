@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "airport-airside-markings-2027-06-24-es-419",
+  "puzzleFamilyId": "airport-airside-markings-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-24",
+  "timezone": "UTC",
+  "theme": "Zonas aeroportuarias y espacio aéreo",
+  "items": [
+    {
+      "itemId": "airport-airside-markings-4",
+      "label": "Umbral de pista"
+    },
+    {
+      "itemId": "airport-airside-markings-8",
+      "label": "Área de control terminal (TMA)"
+    },
+    {
+      "itemId": "airport-airside-markings-1",
+      "label": "Helipuerto (H)"
+    },
+    {
+      "itemId": "airport-airside-markings-6",
+      "label": "Zona de toma de contacto"
+    },
+    {
+      "itemId": "airport-airside-markings-10",
+      "label": "Espacio aéreo prohibido"
+    },
+    {
+      "itemId": "airport-airside-markings-2",
+      "label": "Eje de calle de rodaje"
+    },
+    {
+      "itemId": "airport-airside-markings-7",
+      "label": "Zona de control (CTR)"
+    },
+    {
+      "itemId": "airport-airside-markings-5",
+      "label": "Marca de punto de visada"
+    },
+    {
+      "itemId": "airport-airside-markings-9",
+      "label": "Espacio aéreo restringido"
+    },
+    {
+      "itemId": "airport-airside-markings-3",
+      "label": "Línea de espera de pista"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría de infraestructura o espacio aéreo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Helipuerto",
+        "capacity": 1,
+        "itemIds": [
+          "airport-airside-markings-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Marcas de calle de rodaje",
+        "capacity": 2,
+        "itemIds": [
+          "airport-airside-markings-2",
+          "airport-airside-markings-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Marcas de pista",
+        "capacity": 3,
+        "itemIds": [
+          "airport-airside-markings-4",
+          "airport-airside-markings-5",
+          "airport-airside-markings-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Zonas de espacio aéreo",
+        "capacity": 4,
+        "itemIds": [
+          "airport-airside-markings-7",
+          "airport-airside-markings-8",
+          "airport-airside-markings-9",
+          "airport-airside-markings-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: helipuerto (helipuerto H), rodaje (eje de calle de rodaje, línea de espera), pista (umbral de pista, punto de visada, zona de toma de contacto) y espacio aéreo (zona de control CTR, área terminal TMA, restringido, prohibido).",
+  "sources": [
+    {
+      "title": "ICAO Annex 14: Aerodromes",
+      "url": "https://www.icao.int/safety/Pages/default.aspx",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

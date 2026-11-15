@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "surveying-geodesy-tools-2027-07-24-zh-hant",
+  "puzzleFamilyId": "surveying-geodesy-tools-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-24",
+  "timezone": "UTC",
+  "theme": "大地測量與工程測繪儀器",
+  "items": [
+    {
+      "itemId": "surveying-geodesy-tools-4",
+      "label": "經緯儀"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-8",
+      "label": "地面三維光達掃描儀"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-1",
+      "label": "鉛錘（吊線錘）"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-6",
+      "label": "電子測距儀（EDM）"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-10",
+      "label": "合成孔徑雷達干涉衛星（InSAR）"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-2",
+      "label": "光學水準儀"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-7",
+      "label": "RTK 衛星定位流動站"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-5",
+      "label": "全站儀"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-9",
+      "label": "航測無人機"
+    },
+    {
+      "itemId": "surveying-geodesy-tools-3",
+      "label": "旋轉雷射水平儀"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各測繪儀器的量測原理（重力垂線、水平儀、光學經緯／全站儀或衛星／雷射掃描）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "重力垂線基準",
+        "capacity": 1,
+        "itemIds": [
+          "surveying-geodesy-tools-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "水準高程儀器",
+        "capacity": 2,
+        "itemIds": [
+          "surveying-geodesy-tools-2",
+          "surveying-geodesy-tools-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "光學角度與測距儀",
+        "capacity": 3,
+        "itemIds": [
+          "surveying-geodesy-tools-4",
+          "surveying-geodesy-tools-5",
+          "surveying-geodesy-tools-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "衛星定位與三維遙測",
+        "capacity": 4,
+        "itemIds": [
+          "surveying-geodesy-tools-7",
+          "surveying-geodesy-tools-8",
+          "surveying-geodesy-tools-9",
+          "surveying-geodesy-tools-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依量測技術分類：重力垂線（鉛錘線）、水平儀（光學水準儀、旋轉雷射水平儀）、光學角度／測距（經緯儀、全站儀、電子測距儀 EDM）與衛星／三維遙測（RTK GNSS 流動站、地面光達 LiDAR、空拍測繪無人機、合成孔徑雷達干涉衛星 InSAR）。",
+  "sources": [
+    {
+      "title": "NGS / NOAA: Geodetic Surveying",
+      "url": "https://geodesy.noaa.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

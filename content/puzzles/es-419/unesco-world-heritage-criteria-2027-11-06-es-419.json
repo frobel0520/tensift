@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "unesco-world-heritage-criteria-2027-11-06-es-419",
+  "puzzleFamilyId": "unesco-world-heritage-criteria-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-06",
+  "timezone": "UTC",
+  "theme": "Imperios históricos por época de apogeo",
+  "items": [
+    {
+      "itemId": "unesco-world-heritage-criteria-4",
+      "label": "Califato omeya"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-8",
+      "label": "Imperio mogol"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-1",
+      "label": "Imperio persa aqueménida"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-6",
+      "label": "Imperio de Malí"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-10",
+      "label": "Dinastía Qing"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-2",
+      "label": "Imperio romano"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-7",
+      "label": "Imperio otomano"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-5",
+      "label": "Imperio mongol"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-9",
+      "label": "Imperio español"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-3",
+      "label": "Dinastía Han"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Época de máximo apogeo de cada imperio",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Edad del Hierro (siglos VI–IV a. C.)",
+        "capacity": 1,
+        "itemIds": [
+          "unesco-world-heritage-criteria-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Antigüedad clásica",
+        "capacity": 2,
+        "itemIds": [
+          "unesco-world-heritage-criteria-2",
+          "unesco-world-heritage-criteria-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Edad Media (650–1400)",
+        "capacity": 3,
+        "itemIds": [
+          "unesco-world-heritage-criteria-4",
+          "unesco-world-heritage-criteria-5",
+          "unesco-world-heritage-criteria-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Imperios modernos tempranos",
+        "capacity": 4,
+        "itemIds": [
+          "unesco-world-heritage-criteria-7",
+          "unesco-world-heritage-criteria-8",
+          "unesco-world-heritage-criteria-9",
+          "unesco-world-heritage-criteria-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por apogeo: Edad del Hierro (Imperio persa aqueménida), Antigüedad clásica (Imperio romano, dinastía Han), Edad Media (Califato omeya, Imperio mongol, Imperio de Malí) y Edad Moderna (Imperio otomano, Imperio mogol, Imperio español, dinastía Qing).",
+  "sources": [
+    {
+      "title": "Britannica: World Empires Timeline",
+      "url": "https://www.britannica.com/topic/empire-political-science",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

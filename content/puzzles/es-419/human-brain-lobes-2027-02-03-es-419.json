@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "human-brain-lobes-2027-02-03-es-419",
+  "puzzleFamilyId": "human-brain-lobes-001",
+  "locale": "es-419",
+  "publishDate": "2027-02-03",
+  "timezone": "UTC",
+  "theme": "Estructuras del cerebro",
+  "items": [
+    {
+      "itemId": "human-brain-lobes-4",
+      "label": "Hipocampo"
+    },
+    {
+      "itemId": "human-brain-lobes-8",
+      "label": "Lóbulo parietal"
+    },
+    {
+      "itemId": "human-brain-lobes-1",
+      "label": "Cerebelo"
+    },
+    {
+      "itemId": "human-brain-lobes-6",
+      "label": "Tálamo"
+    },
+    {
+      "itemId": "human-brain-lobes-10",
+      "label": "Lóbulo occipital"
+    },
+    {
+      "itemId": "human-brain-lobes-2",
+      "label": "Puente de Varolio"
+    },
+    {
+      "itemId": "human-brain-lobes-7",
+      "label": "Lóbulo frontal"
+    },
+    {
+      "itemId": "human-brain-lobes-5",
+      "label": "Amígdala"
+    },
+    {
+      "itemId": "human-brain-lobes-9",
+      "label": "Lóbulo temporal"
+    },
+    {
+      "itemId": "human-brain-lobes-3",
+      "label": "Bulbo raquídeo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "División anatómica del encéfalo",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Cerebelo",
+        "capacity": 1,
+        "itemIds": [
+          "human-brain-lobes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Tronco encefálico",
+        "capacity": 2,
+        "itemIds": [
+          "human-brain-lobes-2",
+          "human-brain-lobes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Estructuras subcorticales",
+        "capacity": 3,
+        "itemIds": [
+          "human-brain-lobes-4",
+          "human-brain-lobes-5",
+          "human-brain-lobes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Lóbulos de la corteza cerebral",
+        "capacity": 4,
+        "itemIds": [
+          "human-brain-lobes-7",
+          "human-brain-lobes-8",
+          "human-brain-lobes-9",
+          "human-brain-lobes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por división encefálica: cerebelo, tronco encefálico (puente, bulbo raquídeo), estructuras subcorticales (hipocampo, amígdala, tálamo) y los cuatro lóbulos corticales (frontal, parietal, temporal, occipital).",
+  "sources": [
+    {
+      "title": "NIH NINDS: Brain Basics",
+      "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.5
+  },
+  "status": "scheduled"
+}

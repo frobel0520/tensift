@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "phase-transitions-2026-12-02-es-419",
+  "puzzleFamilyId": "phase-transitions-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-02",
+  "timezone": "UTC",
+  "theme": "Cambios de estado",
+  "items": [
+    {
+      "itemId": "phase-transitions-4",
+      "label": "Solidificación"
+    },
+    {
+      "itemId": "phase-transitions-8",
+      "label": "Ebullición"
+    },
+    {
+      "itemId": "phase-transitions-1",
+      "label": "Ionización"
+    },
+    {
+      "itemId": "phase-transitions-6",
+      "label": "Cristalización"
+    },
+    {
+      "itemId": "phase-transitions-10",
+      "label": "Vaporización"
+    },
+    {
+      "itemId": "phase-transitions-2",
+      "label": "Fusión"
+    },
+    {
+      "itemId": "phase-transitions-7",
+      "label": "Evaporación"
+    },
+    {
+      "itemId": "phase-transitions-5",
+      "label": "Deposición"
+    },
+    {
+      "itemId": "phase-transitions-9",
+      "label": "Sublimación"
+    },
+    {
+      "itemId": "phase-transitions-3",
+      "label": "Condensación"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "El estado final de la transición de fase",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Resulta en plasma",
+        "capacity": 1,
+        "itemIds": [
+          "phase-transitions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Resulta en líquido",
+        "capacity": 2,
+        "itemIds": [
+          "phase-transitions-2",
+          "phase-transitions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Resulta en sólido",
+        "capacity": 3,
+        "itemIds": [
+          "phase-transitions-4",
+          "phase-transitions-5",
+          "phase-transitions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Resulta en gas",
+        "capacity": 4,
+        "itemIds": [
+          "phase-transitions-7",
+          "phase-transitions-8",
+          "phase-transitions-9",
+          "phase-transitions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados según el estado de la materia resultante: plasma, líquido, sólido o gas.",
+  "sources": [
+    {
+      "title": "NIST: Phase Transitions",
+      "url": "https://www.nist.gov/pml/thermodynamics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

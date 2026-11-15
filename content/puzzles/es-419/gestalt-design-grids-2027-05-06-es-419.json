@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "gestalt-design-grids-2027-05-06-es-419",
+  "puzzleFamilyId": "gestalt-design-grids-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-06",
+  "timezone": "UTC",
+  "theme": "Principios de diseño gráfico",
+  "items": [
+    {
+      "itemId": "gestalt-design-grids-4",
+      "label": "Contraste de escala"
+    },
+    {
+      "itemId": "gestalt-design-grids-8",
+      "label": "Retícula modular"
+    },
+    {
+      "itemId": "gestalt-design-grids-1",
+      "label": "Ley de cierre"
+    },
+    {
+      "itemId": "gestalt-design-grids-6",
+      "label": "Jerarquía tipográfica"
+    },
+    {
+      "itemId": "gestalt-design-grids-10",
+      "label": "Retícula de línea base"
+    },
+    {
+      "itemId": "gestalt-design-grids-2",
+      "label": "Ley de similitud"
+    },
+    {
+      "itemId": "gestalt-design-grids-7",
+      "label": "Retícula de columnas"
+    },
+    {
+      "itemId": "gestalt-design-grids-5",
+      "label": "Contraste de color"
+    },
+    {
+      "itemId": "gestalt-design-grids-9",
+      "label": "Retícula de manuscrito"
+    },
+    {
+      "itemId": "gestalt-design-grids-3",
+      "label": "Ley de proximidad"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría de diseño gráfico de cada principio",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Cierre Gestalt",
+        "capacity": 1,
+        "itemIds": [
+          "gestalt-design-grids-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Agrupación Gestalt",
+        "capacity": 2,
+        "itemIds": [
+          "gestalt-design-grids-2",
+          "gestalt-design-grids-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Contraste y jerarquía",
+        "capacity": 3,
+        "itemIds": [
+          "gestalt-design-grids-4",
+          "gestalt-design-grids-5",
+          "gestalt-design-grids-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Sistemas de retículas",
+        "capacity": 4,
+        "itemIds": [
+          "gestalt-design-grids-7",
+          "gestalt-design-grids-8",
+          "gestalt-design-grids-9",
+          "gestalt-design-grids-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: cierre Gestalt (cierre), agrupación Gestalt (similitud, proximidad), contraste y jerarquía (contraste de escala, contraste de color, jerarquía tipográfica) y retículas (retícula de columnas, modular, de manuscrito, de línea base).",
+  "sources": [
+    {
+      "title": "Interaction Design Foundation: Gestalt Principles",
+      "url": "https://www.interaction-design.org/literature/topics/gestalt-principles",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

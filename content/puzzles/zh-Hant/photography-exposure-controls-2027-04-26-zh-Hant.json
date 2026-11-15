@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "photography-exposure-controls-2027-04-26-zh-hant",
+  "puzzleFamilyId": "photography-exposure-controls-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-26",
+  "timezone": "UTC",
+  "theme": "攝影曝光與鏡頭控制",
+  "items": [
+    {
+      "itemId": "photography-exposure-controls-4",
+      "label": "光圈值（F-Stop）"
+    },
+    {
+      "itemId": "photography-exposure-controls-8",
+      "label": "曝光直方圖"
+    },
+    {
+      "itemId": "photography-exposure-controls-1",
+      "label": "ISO 感光度"
+    },
+    {
+      "itemId": "photography-exposure-controls-6",
+      "label": "散景（Bokeh）"
+    },
+    {
+      "itemId": "photography-exposure-controls-10",
+      "label": "自動包圍曝光"
+    },
+    {
+      "itemId": "photography-exposure-controls-2",
+      "label": "B 快門模式"
+    },
+    {
+      "itemId": "photography-exposure-controls-7",
+      "label": "點測光"
+    },
+    {
+      "itemId": "photography-exposure-controls-5",
+      "label": "景深"
+    },
+    {
+      "itemId": "photography-exposure-controls-9",
+      "label": "曝光補償"
+    },
+    {
+      "itemId": "photography-exposure-controls-3",
+      "label": "高速快門同步"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各攝影術語所屬的相機控制系統（感光度、快門時間、鏡頭光學或測光動態範圍）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "感光元件靈敏度",
+        "capacity": 1,
+        "itemIds": [
+          "photography-exposure-controls-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "快門時序控制",
+        "capacity": 2,
+        "itemIds": [
+          "photography-exposure-controls-2",
+          "photography-exposure-controls-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "鏡頭光圈與光學",
+        "capacity": 3,
+        "itemIds": [
+          "photography-exposure-controls-4",
+          "photography-exposure-controls-5",
+          "photography-exposure-controls-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "測光與曝光工具",
+        "capacity": 4,
+        "itemIds": [
+          "photography-exposure-controls-7",
+          "photography-exposure-controls-8",
+          "photography-exposure-controls-9",
+          "photography-exposure-controls-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依相機系統分類：感光元件靈敏度（ISO）、快門時序（B 快門、高速同步）、鏡頭光圈與光學（光圈值 f-stop、景深、散景）與測光／曝光調整（點測光、直方圖、曝光補償、包圍曝光）。",
+  "sources": [
+    {
+      "title": "Britannica: Photography Exposure",
+      "url": "https://www.britannica.com/technology/photography",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chess-rules-elements-2027-07-31-zh-hant",
+  "puzzleFamilyId": "chess-rules-elements-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-07-31",
+  "timezone": "UTC",
+  "theme": "西洋棋規則與棋子",
+  "items": [
+    {
+      "itemId": "chess-rules-elements-4",
+      "label": "逼和"
+    },
+    {
+      "itemId": "chess-rules-elements-8",
+      "label": "城堡"
+    },
+    {
+      "itemId": "chess-rules-elements-1",
+      "label": "吃過路兵"
+    },
+    {
+      "itemId": "chess-rules-elements-6",
+      "label": "五十步規則"
+    },
+    {
+      "itemId": "chess-rules-elements-10",
+      "label": "騎士"
+    },
+    {
+      "itemId": "chess-rules-elements-2",
+      "label": "短易位（王翼易位）"
+    },
+    {
+      "itemId": "chess-rules-elements-7",
+      "label": "皇后"
+    },
+    {
+      "itemId": "chess-rules-elements-5",
+      "label": "三次重複局面"
+    },
+    {
+      "itemId": "chess-rules-elements-9",
+      "label": "主教"
+    },
+    {
+      "itemId": "chess-rules-elements-3",
+      "label": "長易位（后翼易位）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各西洋棋名詞所屬的規則類別（特殊兵吃子、王車易位、和局條件或棋子種類）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "特殊兵吃子",
+        "capacity": 1,
+        "itemIds": [
+          "chess-rules-elements-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "王車易位",
+        "capacity": 2,
+        "itemIds": [
+          "chess-rules-elements-2",
+          "chess-rules-elements-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "和局條件",
+        "capacity": 3,
+        "itemIds": [
+          "chess-rules-elements-4",
+          "chess-rules-elements-5",
+          "chess-rules-elements-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "西洋棋棋子",
+        "capacity": 4,
+        "itemIds": [
+          "chess-rules-elements-7",
+          "chess-rules-elements-8",
+          "chess-rules-elements-9",
+          "chess-rules-elements-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依西洋棋規則分類：特殊吃兵（吃過路兵）、王車易位（短易位、長易位）、和局條件（逼和、三次重複局面、五十步規則）與棋子種類（皇后、城堡、主教、騎士）。",
+  "sources": [
+    {
+      "title": "FIDE Laws of Chess",
+      "url": "https://handbook.fide.com/chapter/E012023",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "aircraft-control-surfaces-2027-06-21-en",
+  "puzzleFamilyId": "aircraft-control-surfaces-001",
+  "locale": "en",
+  "publishDate": "2027-06-21",
+  "timezone": "UTC",
+  "theme": "Aircraft Control Surfaces",
+  "items": [
+    {
+      "itemId": "aircraft-control-surfaces-4",
+      "label": "Ailerons (Roll)"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-8",
+      "label": "Vertical Stabilizer"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-1",
+      "label": "Engine Throttle"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-6",
+      "label": "Rudder (Yaw)"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-10",
+      "label": "Winglet"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-2",
+      "label": "Wing Flaps"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-7",
+      "label": "Horizontal Stabilizer"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-5",
+      "label": "Elevator (Pitch)"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-9",
+      "label": "Trim Tab"
+    },
+    {
+      "itemId": "aircraft-control-surfaces-3",
+      "label": "Spoilers / Speedbrakes"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Aerodynamic role (Engine Thrust, High-Lift/Drag Secondary Surface, Primary Axis Control, or Fixed Stabilizer/Trim/Tip)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Thrust Control",
+        "capacity": 1,
+        "itemIds": [
+          "aircraft-control-surfaces-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Secondary Lift & Drag Devices",
+        "capacity": 2,
+        "itemIds": [
+          "aircraft-control-surfaces-2",
+          "aircraft-control-surfaces-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Primary 3-Axis Surfaces",
+        "capacity": 3,
+        "itemIds": [
+          "aircraft-control-surfaces-4",
+          "aircraft-control-surfaces-5",
+          "aircraft-control-surfaces-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Stabilizers, Trim & Wingtips",
+        "capacity": 4,
+        "itemIds": [
+          "aircraft-control-surfaces-7",
+          "aircraft-control-surfaces-8",
+          "aircraft-control-surfaces-9",
+          "aircraft-control-surfaces-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by aerodynamic role: Thrust (Engine Throttle), Secondary Lift/Drag (Wing Flaps, Spoilers), Primary 3-Axis Controls (Ailerons, Elevator, Rudder), and Stabilizers, Trim & Tip Devices (Horizontal Stabilizer, Vertical Stabilizer, Trim Tab, Winglet).",
+  "sources": [
+    {
+      "title": "NASA: Airplane Parts and Function",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/airplane-parts-function/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

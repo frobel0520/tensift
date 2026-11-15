@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "maritime-chokepoints-world-2027-11-05-zh-hant",
+  "puzzleFamilyId": "maritime-chokepoints-world-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-05",
+  "timezone": "UTC",
+  "theme": "世界戰略海峽與運河水道",
+  "items": [
+    {
+      "itemId": "maritime-chokepoints-world-4",
+      "label": "直布羅陀海峽"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-8",
+      "label": "麻六甲海峽"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-1",
+      "label": "白令海峽"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-6",
+      "label": "達達尼爾海峽"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-10",
+      "label": "巽他海峽"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-2",
+      "label": "蘇伊士運河"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-7",
+      "label": "荷姆茲海峽"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-5",
+      "label": "博斯普魯斯海峽"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-9",
+      "label": "曼德海峽"
+    },
+    {
+      "itemId": "maritime-chokepoints-world-3",
+      "label": "巴拿馬運河"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各世界戰略水道的地理與性質分類（北極白令海峽、人工開鑿大運河、地中海／黑海海峽或印太航運要道）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "北極圈海峽門戶",
+        "capacity": 1,
+        "itemIds": [
+          "maritime-chokepoints-world-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "人工開鑿大運河",
+        "capacity": 2,
+        "itemIds": [
+          "maritime-chokepoints-world-2",
+          "maritime-chokepoints-world-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "地中海與黑海海峽",
+        "capacity": 3,
+        "itemIds": [
+          "maritime-chokepoints-world-4",
+          "maritime-chokepoints-world-5",
+          "maritime-chokepoints-world-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "印太與紅海戰略海峽",
+        "capacity": 4,
+        "itemIds": [
+          "maritime-chokepoints-world-7",
+          "maritime-chokepoints-world-8",
+          "maritime-chokepoints-world-9",
+          "maritime-chokepoints-world-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依地理與水道性質分類：北極門戶（白令海峽）、人工開鑿運河（蘇伊士運河、巴拿馬運河）、地中海與黑海海峽（直布羅陀海峽、博斯普魯斯海峽、達達尼爾海峽）與印太及紅海航運要道（荷姆茲海峽、麻六甲海峽、曼德海峽、巽他海峽）。",
+  "sources": [
+    {
+      "title": "UNCTAD: Review of Maritime Transport",
+      "url": "https://unctad.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "audio-connectors-cables-001",
+  "theme": "Audio Connectors & Jacks",
+  "publishDate": "2027-07-27",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "audio-connectors-cables-8",
+        "rivalGroupId": "group-3",
+        "risk": "1/4-inch TS looks nearly identical to 1/4-inch TRS.",
+        "resolution": "TS has only two conductors (Tip-Sleeve) and carries an unbalanced signal (group-4), whereas TRS has three conductors for balanced mono (group-3)."
+      },
+      {
+        "itemId": "audio-connectors-cables-2",
+        "rivalGroupId": "group-3",
+        "risk": "Speakon is a locking pro-audio connector like XLR.",
+        "resolution": "Speakon carries high-current amplified speaker loads (group-2), not low-level balanced mic/line signals (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

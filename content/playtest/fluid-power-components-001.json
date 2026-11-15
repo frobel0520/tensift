@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "fluid-power-components-001",
+  "theme": "Hydraulics & Pneumatics",
+  "publishDate": "2027-07-19",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "fluid-power-components-1",
+        "rivalGroupId": "group-3",
+        "risk": "Accumulators often contain a piston or bladder.",
+        "resolution": "An accumulator stores pressurized fluid energy (group-1), rather than performing mechanical work on a load like actuators (group-3)."
+      },
+      {
+        "itemId": "fluid-power-components-8",
+        "rivalGroupId": "group-1",
+        "risk": "Relief valves regulate system pressure.",
+        "resolution": "A relief valve opens to vent excess pressure as a control valve (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

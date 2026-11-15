@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "peninsulas-continents-2027-03-19-zh-hant",
+  "puzzleFamilyId": "peninsulas-continents-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-19",
+  "timezone": "UTC",
+  "theme": "世界主要半島",
+  "items": [
+    {
+      "itemId": "peninsulas-continents-4",
+      "label": "伊比利半島"
+    },
+    {
+      "itemId": "peninsulas-continents-8",
+      "label": "朝鮮半島"
+    },
+    {
+      "itemId": "peninsulas-continents-1",
+      "label": "索馬利半島"
+    },
+    {
+      "itemId": "peninsulas-continents-6",
+      "label": "斯堪地那維亞半島"
+    },
+    {
+      "itemId": "peninsulas-continents-10",
+      "label": "堪察加半島"
+    },
+    {
+      "itemId": "peninsulas-continents-2",
+      "label": "猶加敦半島"
+    },
+    {
+      "itemId": "peninsulas-continents-7",
+      "label": "阿拉伯半島"
+    },
+    {
+      "itemId": "peninsulas-continents-5",
+      "label": "義大利半島"
+    },
+    {
+      "itemId": "peninsulas-continents-9",
+      "label": "中南半島"
+    },
+    {
+      "itemId": "peninsulas-continents-3",
+      "label": "下加利福尼亞半島"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各主要半島所在的洲別（非洲、北美洲、歐洲或亞洲）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "非洲",
+        "capacity": 1,
+        "itemIds": [
+          "peninsulas-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "北美洲",
+        "capacity": 2,
+        "itemIds": [
+          "peninsulas-continents-2",
+          "peninsulas-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "歐洲",
+        "capacity": 3,
+        "itemIds": [
+          "peninsulas-continents-4",
+          "peninsulas-continents-5",
+          "peninsulas-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "亞洲",
+        "capacity": 4,
+        "itemIds": [
+          "peninsulas-continents-7",
+          "peninsulas-continents-8",
+          "peninsulas-continents-9",
+          "peninsulas-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依所屬大洲分類：非洲（索馬利半島）、北美洲（猶加敦半島、下加利福尼亞半島）、歐洲（伊比利半島、義大利半島、斯堪地那維亞半島）與亞洲（阿拉伯半島、朝鮮半島、中南半島、堪察加半島）。",
+  "sources": [
+    {
+      "title": "Britannica: Peninsula",
+      "url": "https://www.britannica.com/science/peninsula",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

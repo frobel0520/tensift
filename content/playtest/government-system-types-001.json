@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "government-system-types-001",
+  "theme": "Forms of State Government",
+  "publishDate": "2027-11-02",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "government-system-types-2",
+        "rivalGroupId": "group-3",
+        "risk": "Constitutional monarchies like the UK or Japan are parliamentary democracies.",
+        "resolution": "A constitutional monarchy retains a hereditary monarch as head of state (group-2), unlike non-monarchical republics (group-3)."
+      },
+      {
+        "itemId": "government-system-types-3",
+        "rivalGroupId": "group-4",
+        "risk": "Absolute monarchy concentrates unchecked power in one ruler.",
+        "resolution": "Absolute monarchy is defined by hereditary royal succession (group-2), distinct from modern non-hereditary autocracies (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "volcanic-arcs-continents-2027-03-12-en",
+  "puzzleFamilyId": "volcanic-arcs-continents-001",
+  "locale": "en",
+  "publishDate": "2027-03-12",
+  "timezone": "UTC",
+  "theme": "Famous Volcanoes by Continent",
+  "items": [
+    {
+      "itemId": "volcanic-arcs-continents-4",
+      "label": "Mount Etna"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-8",
+      "label": "Mount Pinatubo"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-1",
+      "label": "Mount Erebus"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-6",
+      "label": "Stromboli"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-10",
+      "label": "Mount Merapi"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-2",
+      "label": "Mount Kilimanjaro"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-7",
+      "label": "Mount Fuji"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-5",
+      "label": "Mount Vesuvius"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-9",
+      "label": "Krakatoa"
+    },
+    {
+      "itemId": "volcanic-arcs-continents-3",
+      "label": "Mount Nyiragongo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Continent (Antarctica, Africa, Europe, or Asia) where each volcano is located",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Antarctica",
+        "capacity": 1,
+        "itemIds": [
+          "volcanic-arcs-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Africa",
+        "capacity": 2,
+        "itemIds": [
+          "volcanic-arcs-continents-2",
+          "volcanic-arcs-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Europe",
+        "capacity": 3,
+        "itemIds": [
+          "volcanic-arcs-continents-4",
+          "volcanic-arcs-continents-5",
+          "volcanic-arcs-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Asia",
+        "capacity": 4,
+        "itemIds": [
+          "volcanic-arcs-continents-7",
+          "volcanic-arcs-continents-8",
+          "volcanic-arcs-continents-9",
+          "volcanic-arcs-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by continent: Antarctica (Mount Erebus), Africa (Kilimanjaro, Nyiragongo), Europe (Etna, Vesuvius, Stromboli), and Asia (Fuji, Pinatubo, Krakatoa, Merapi).",
+  "sources": [
+    {
+      "title": "Smithsonian Global Volcanism Program",
+      "url": "https://volcano.si.edu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

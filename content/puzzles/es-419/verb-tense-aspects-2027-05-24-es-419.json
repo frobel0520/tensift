@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "verb-tense-aspects-2027-05-24-es-419",
+  "puzzleFamilyId": "verb-tense-aspects-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-24",
+  "timezone": "UTC",
+  "theme": "Modos y aspectos verbales",
+  "items": [
+    {
+      "itemId": "verb-tense-aspects-4",
+      "label": "Presente progresivo"
+    },
+    {
+      "itemId": "verb-tense-aspects-8",
+      "label": "Pluscuamperfecto"
+    },
+    {
+      "itemId": "verb-tense-aspects-1",
+      "label": "Modo imperativo"
+    },
+    {
+      "itemId": "verb-tense-aspects-6",
+      "label": "Futuro progresivo"
+    },
+    {
+      "itemId": "verb-tense-aspects-10",
+      "label": "Pretérito perfecto continuo"
+    },
+    {
+      "itemId": "verb-tense-aspects-2",
+      "label": "Modo subjuntivo"
+    },
+    {
+      "itemId": "verb-tense-aspects-7",
+      "label": "Pretérito perfecto"
+    },
+    {
+      "itemId": "verb-tense-aspects-5",
+      "label": "Pasado progresivo"
+    },
+    {
+      "itemId": "verb-tense-aspects-9",
+      "label": "Futuro perfecto"
+    },
+    {
+      "itemId": "verb-tense-aspects-3",
+      "label": "Modo condicional"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría de modo o aspecto de cada forma verbal",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Modo imperativo",
+        "capacity": 1,
+        "itemIds": [
+          "verb-tense-aspects-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Modos hipotéticos",
+        "capacity": 2,
+        "itemIds": [
+          "verb-tense-aspects-2",
+          "verb-tense-aspects-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Aspecto progresivo",
+        "capacity": 3,
+        "itemIds": [
+          "verb-tense-aspects-4",
+          "verb-tense-aspects-5",
+          "verb-tense-aspects-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Aspecto perfecto",
+        "capacity": 4,
+        "itemIds": [
+          "verb-tense-aspects-7",
+          "verb-tense-aspects-8",
+          "verb-tense-aspects-9",
+          "verb-tense-aspects-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por modo/aspecto: imperativo (imperativo), hipotéticos (subjuntivo, condicional), progresivos (presente, pasado y futuro progresivo) y perfectos (presente perfecto, pluscuamperfecto, futuro perfecto, presente perfecto continuo).",
+  "sources": [
+    {
+      "title": "Cambridge Grammar: Tense and Aspect",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/tenses-and-time",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

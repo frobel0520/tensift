@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "battery-chemistries-types-2027-07-16-en",
+  "puzzleFamilyId": "battery-chemistries-types-001",
+  "locale": "en",
+  "publishDate": "2027-07-16",
+  "timezone": "UTC",
+  "theme": "Batteries & Fuel Cells",
+  "items": [
+    {
+      "itemId": "battery-chemistries-types-4",
+      "label": "Lead-Acid Battery"
+    },
+    {
+      "itemId": "battery-chemistries-types-8",
+      "label": "Lithium Iron Phosphate (LFP)"
+    },
+    {
+      "itemId": "battery-chemistries-types-1",
+      "label": "PEM Hydrogen Fuel Cell"
+    },
+    {
+      "itemId": "battery-chemistries-types-6",
+      "label": "Nickel-Metal Hydride (NiMH)"
+    },
+    {
+      "itemId": "battery-chemistries-types-10",
+      "label": "Solid-State Lithium-Ion"
+    },
+    {
+      "itemId": "battery-chemistries-types-2",
+      "label": "Alkaline (Zn-MnO2)"
+    },
+    {
+      "itemId": "battery-chemistries-types-7",
+      "label": "Lithium Cobalt Oxide (LCO)"
+    },
+    {
+      "itemId": "battery-chemistries-types-5",
+      "label": "Nickel-Cadmium (NiCd)"
+    },
+    {
+      "itemId": "battery-chemistries-types-9",
+      "label": "Lithium NMC"
+    },
+    {
+      "itemId": "battery-chemistries-types-3",
+      "label": "Lithium Coin Cell (CR2032)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Electrochemical cell family (Hydrogen Fuel Cell, Primary Non-Rechargeable, Lead/Nickel Secondary, or Lithium-Ion Rechargeable)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Fuel Cell (Continuous Feed)",
+        "capacity": 1,
+        "itemIds": [
+          "battery-chemistries-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Primary (Non-Rechargeable)",
+        "capacity": 2,
+        "itemIds": [
+          "battery-chemistries-types-2",
+          "battery-chemistries-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Lead & Nickel Rechargeable",
+        "capacity": 3,
+        "itemIds": [
+          "battery-chemistries-types-4",
+          "battery-chemistries-types-5",
+          "battery-chemistries-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Lithium-Ion Rechargeable",
+        "capacity": 4,
+        "itemIds": [
+          "battery-chemistries-types-7",
+          "battery-chemistries-types-8",
+          "battery-chemistries-types-9",
+          "battery-chemistries-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by electrochemical family: Hydrogen Fuel Cell (PEM Fuel Cell), Primary Non-Rechargeable (Alkaline Zinc-MnO2, Lithium Coin CR2032), Lead & Nickel Rechargeable (Lead-Acid, Nickel-Cadmium NiCd, Nickel-Metal Hydride NiMH), and Lithium-Ion Rechargeable (LCO, LFP, NMC, Solid-State Lithium).",
+  "sources": [
+    {
+      "title": "US DOE: Battery Basics & Chemistries",
+      "url": "https://www.energy.gov/eere/vehicles/batteries-charging-and-electric-vehicles",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

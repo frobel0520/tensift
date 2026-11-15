@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "baking-sugar-types-2027-10-21-en",
+  "puzzleFamilyId": "baking-sugar-types-001",
+  "locale": "en",
+  "publishDate": "2027-10-21",
+  "timezone": "UTC",
+  "theme": "Culinary Sugars & Syrups",
+  "items": [
+    {
+      "itemId": "baking-sugar-types-4",
+      "label": "Light Brown Sugar"
+    },
+    {
+      "itemId": "baking-sugar-types-8",
+      "label": "Superfine Caster Sugar"
+    },
+    {
+      "itemId": "baking-sugar-types-1",
+      "label": "Confectioners’ Powdered Sugar"
+    },
+    {
+      "itemId": "baking-sugar-types-6",
+      "label": "Muscovado Sugar"
+    },
+    {
+      "itemId": "baking-sugar-types-10",
+      "label": "Belgian Pearl Sugar"
+    },
+    {
+      "itemId": "baking-sugar-types-2",
+      "label": "Golden Invert Syrup"
+    },
+    {
+      "itemId": "baking-sugar-types-7",
+      "label": "Standard Granulated Sugar"
+    },
+    {
+      "itemId": "baking-sugar-types-5",
+      "label": "Dark Brown Sugar"
+    },
+    {
+      "itemId": "baking-sugar-types-9",
+      "label": "Turbinado Coarse Sugar"
+    },
+    {
+      "itemId": "baking-sugar-types-3",
+      "label": "Barley Malt Syrup"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Physical form & refining (Powdered Confectioners’ Sugar, Liquid Invert/Malt Syrups, Molasses-Coated Brown Sugars, or Crystalline Granulated Sugars)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Milled Powdered Sugar",
+        "capacity": 1,
+        "itemIds": [
+          "baking-sugar-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Liquid Baking Syrups",
+        "capacity": 2,
+        "itemIds": [
+          "baking-sugar-types-2",
+          "baking-sugar-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Molasses-Rich Soft Sugars",
+        "capacity": 3,
+        "itemIds": [
+          "baking-sugar-types-4",
+          "baking-sugar-types-5",
+          "baking-sugar-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Dry Crystalline Sugars",
+        "capacity": 4,
+        "itemIds": [
+          "baking-sugar-types-7",
+          "baking-sugar-types-8",
+          "baking-sugar-types-9",
+          "baking-sugar-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by sugar form: Milled Powder (Confectioners’ Powdered Sugar), Liquid Cooking Syrups (Golden Invert Syrup, Barley Malt Syrup), Molasses-Rich Soft Sugars (Light Brown Sugar, Dark Brown Sugar, Muscovado Sugar), and Coarse/Fine Dry Crystals (Granulated White Sugar, Caster Superfine Sugar, Turbinado Raw Sugar, Pearl Decorating Sugar).",
+  "sources": [
+    {
+      "title": "USDA Sugar & Sweeteners Yearbook",
+      "url": "https://www.ers.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

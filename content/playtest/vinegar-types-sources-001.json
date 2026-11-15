@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "vinegar-types-sources-001",
+  "theme": "Culinary Vinegars by Source",
+  "publishDate": "2027-10-12",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "vinegar-types-sources-10",
+        "rivalGroupId": "group-2",
+        "risk": "Balsamic and Chinkiang are both dark, sweet-tart aged vinegars.",
+        "resolution": "Balsamic Vinegar of Modena is made from concentrated grape must (group-4), whereas Chinkiang is fermented from glutinous rice (group-2)."
+      },
+      {
+        "itemId": "vinegar-types-sources-1",
+        "rivalGroupId": "group-2",
+        "risk": "Distilled white vinegar is clear like Japanese rice vinegar.",
+        "resolution": "Distilled white vinegar is made from purified distilled alcohol (group-1), not fermented rice (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

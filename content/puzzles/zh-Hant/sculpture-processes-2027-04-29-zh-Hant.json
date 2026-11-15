@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sculpture-processes-2027-04-29-zh-hant",
+  "puzzleFamilyId": "sculpture-processes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-29",
+  "timezone": "UTC",
+  "theme": "雕塑製作技法",
+  "items": [
+    {
+      "itemId": "sculpture-processes-4",
+      "label": "大理石雕刻"
+    },
+    {
+      "itemId": "sculpture-processes-8",
+      "label": "砂模鑄造"
+    },
+    {
+      "itemId": "sculpture-processes-1",
+      "label": "現成物組裝"
+    },
+    {
+      "itemId": "sculpture-processes-6",
+      "label": "冰雕"
+    },
+    {
+      "itemId": "sculpture-processes-10",
+      "label": "樹脂灌模"
+    },
+    {
+      "itemId": "sculpture-processes-2",
+      "label": "黏土塑形"
+    },
+    {
+      "itemId": "sculpture-processes-7",
+      "label": "失蠟法鑄銅"
+    },
+    {
+      "itemId": "sculpture-processes-5",
+      "label": "木雕"
+    },
+    {
+      "itemId": "sculpture-processes-9",
+      "label": "泥漿注漿成型"
+    },
+    {
+      "itemId": "sculpture-processes-3",
+      "label": "蠟模塑形"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各雕塑技法的創作方式（現成物組裝、塑性塑造、減法雕刻或翻模鑄造）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "現成物組裝",
+        "capacity": 1,
+        "itemIds": [
+          "sculpture-processes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "塑性塑造",
+        "capacity": 2,
+        "itemIds": [
+          "sculpture-processes-2",
+          "sculpture-processes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "減法雕刻",
+        "capacity": 3,
+        "itemIds": [
+          "sculpture-processes-4",
+          "sculpture-processes-5",
+          "sculpture-processes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "翻模鑄造",
+        "capacity": 4,
+        "itemIds": [
+          "sculpture-processes-7",
+          "sculpture-processes-8",
+          "sculpture-processes-9",
+          "sculpture-processes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依雕塑技法分類：組裝（現成物組裝）、塑形（黏土塑形、蠟模塑形）、減法雕刻（大理石雕、木雕、冰雕）與翻模鑄造（失蠟法鑄銅、砂模鑄造、泥漿注漿、樹脂灌模）。",
+  "sources": [
+    {
+      "title": "Tate: Sculpture Techniques",
+      "url": "https://www.tate.org.uk/art/art-terms/s/sculpture",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

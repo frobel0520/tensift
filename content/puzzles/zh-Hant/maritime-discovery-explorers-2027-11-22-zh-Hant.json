@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "maritime-discovery-explorers-2027-11-22-zh-hant",
+  "puzzleFamilyId": "maritime-discovery-explorers-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-22",
+  "timezone": "UTC",
+  "theme": "大航海時代與極地探險",
+  "items": [
+    {
+      "itemId": "maritime-discovery-explorers-4",
+      "label": "約翰·卡波特"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-8",
+      "label": "羅伯特·史考特"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-1",
+      "label": "麥哲倫—艾爾卡諾環球航行"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-6",
+      "label": "亨利·哈德遜"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-10",
+      "label": "弗里喬夫·南森"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-2",
+      "label": "巴爾托洛梅烏·迪亞士"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-7",
+      "label": "羅阿爾·阿蒙森"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-5",
+      "label": "雅克·卡蒂亞"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-9",
+      "label": "歐內斯特·薛克頓"
+    },
+    {
+      "itemId": "maritime-discovery-explorers-3",
+      "label": "瓦斯科·達伽馬"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各探險家的歷史航線與探索目標區域（首次環球航行、繞好望角赴印度洋、北美東岸與北極航道或南極大陸探索）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "首次環球航行",
+        "capacity": 1,
+        "itemIds": [
+          "maritime-discovery-explorers-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "好望角與印度洋航線",
+        "capacity": 2,
+        "itemIds": [
+          "maritime-discovery-explorers-2",
+          "maritime-discovery-explorers-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "北大西洋與北美航線",
+        "capacity": 3,
+        "itemIds": [
+          "maritime-discovery-explorers-4",
+          "maritime-discovery-explorers-5",
+          "maritime-discovery-explorers-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "極地探險時代",
+        "capacity": 4,
+        "itemIds": [
+          "maritime-discovery-explorers-7",
+          "maritime-discovery-explorers-8",
+          "maritime-discovery-explorers-9",
+          "maritime-discovery-explorers-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依探險區域分類：首次環球航行（麥哲倫與艾爾卡諾）、非洲好望角至印度洋航線（迪亞士、達伽馬）、北大西洋與北美航線（卡波特、卡蒂亞、哈德遜）與南北極地探險（阿蒙森、史考特、薛克頓、南森）。",
+  "sources": [
+    {
+      "title": "Royal Geographical Society: Exploration History",
+      "url": "https://www.rgs.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

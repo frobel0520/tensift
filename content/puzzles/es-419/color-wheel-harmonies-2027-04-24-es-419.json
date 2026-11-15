@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "color-wheel-harmonies-2027-04-24-es-419",
+  "puzzleFamilyId": "color-wheel-harmonies-001",
+  "locale": "es-419",
+  "publishDate": "2027-04-24",
+  "timezone": "UTC",
+  "theme": "Armonías del círculo cromático",
+  "items": [
+    {
+      "itemId": "color-wheel-harmonies-4",
+      "label": "Triádica"
+    },
+    {
+      "itemId": "color-wheel-harmonies-8",
+      "label": "Armonía cuadrada"
+    },
+    {
+      "itemId": "color-wheel-harmonies-1",
+      "label": "Monocromática"
+    },
+    {
+      "itemId": "color-wheel-harmonies-6",
+      "label": "Tríada análoga"
+    },
+    {
+      "itemId": "color-wheel-harmonies-10",
+      "label": "Cuatricromía CMYK"
+    },
+    {
+      "itemId": "color-wheel-harmonies-2",
+      "label": "Complementaria"
+    },
+    {
+      "itemId": "color-wheel-harmonies-7",
+      "label": "Tetrádica rectangular"
+    },
+    {
+      "itemId": "color-wheel-harmonies-5",
+      "label": "Complementaria dividida"
+    },
+    {
+      "itemId": "color-wheel-harmonies-9",
+      "label": "Doble complementaria"
+    },
+    {
+      "itemId": "color-wheel-harmonies-3",
+      "label": "Par cálido-frío"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Número de matices distintos en el círculo cromático",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "1 matiz",
+        "capacity": 1,
+        "itemIds": [
+          "color-wheel-harmonies-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "2 matices",
+        "capacity": 2,
+        "itemIds": [
+          "color-wheel-harmonies-2",
+          "color-wheel-harmonies-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "3 matices",
+        "capacity": 3,
+        "itemIds": [
+          "color-wheel-harmonies-4",
+          "color-wheel-harmonies-5",
+          "color-wheel-harmonies-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "4 matices",
+        "capacity": 4,
+        "itemIds": [
+          "color-wheel-harmonies-7",
+          "color-wheel-harmonies-8",
+          "color-wheel-harmonies-9",
+          "color-wheel-harmonies-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por cantidad de matices: 1 matiz (monocromática), 2 matices (complementaria, contraste cálido-frío), 3 matices (triádica, complementaria dividida, análoga triple) y 4 matices (tetrádica rectangular, cuadrada, doble complementaria, CMYK).",
+  "sources": [
+    {
+      "title": "Britannica: Color Wheel",
+      "url": "https://www.britannica.com/art/color-wheel",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

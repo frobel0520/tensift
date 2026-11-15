@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "national-parks-continents-2027-03-22-zh-hant",
+  "puzzleFamilyId": "national-parks-continents-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-22",
+  "timezone": "UTC",
+  "theme": "世界著名國家公園",
+  "items": [
+    {
+      "itemId": "national-parks-continents-4",
+      "label": "塞倫蓋蒂國家公園"
+    },
+    {
+      "itemId": "national-parks-continents-8",
+      "label": "優勝美地國家公園"
+    },
+    {
+      "itemId": "national-parks-continents-1",
+      "label": "卡卡杜國家公園"
+    },
+    {
+      "itemId": "national-parks-continents-6",
+      "label": "恩戈羅恩戈羅保護區"
+    },
+    {
+      "itemId": "national-parks-continents-10",
+      "label": "班夫國家公園"
+    },
+    {
+      "itemId": "national-parks-continents-2",
+      "label": "百內國家公園"
+    },
+    {
+      "itemId": "national-parks-continents-7",
+      "label": "黃石國家公園"
+    },
+    {
+      "itemId": "national-parks-continents-5",
+      "label": "克魯格國家公園"
+    },
+    {
+      "itemId": "national-parks-continents-9",
+      "label": "大峽谷國家公園"
+    },
+    {
+      "itemId": "national-parks-continents-3",
+      "label": "伊瓜蘇國家公園"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各國家公園所在的洲別（大洋洲、南美洲、非洲或北美洲）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "大洋洲",
+        "capacity": 1,
+        "itemIds": [
+          "national-parks-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "南美洲",
+        "capacity": 2,
+        "itemIds": [
+          "national-parks-continents-2",
+          "national-parks-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "非洲",
+        "capacity": 3,
+        "itemIds": [
+          "national-parks-continents-4",
+          "national-parks-continents-5",
+          "national-parks-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "北美洲",
+        "capacity": 4,
+        "itemIds": [
+          "national-parks-continents-7",
+          "national-parks-continents-8",
+          "national-parks-continents-9",
+          "national-parks-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依所在大洲分類：大洋洲（卡卡杜國家公園）、南美洲（百內國家公園、伊瓜蘇國家公園）、非洲（塞倫蓋蒂、克魯格、恩戈羅恩戈羅）與北美洲（黃石、優勝美地、大峽谷、班夫）。",
+  "sources": [
+    {
+      "title": "UNESCO World Heritage List",
+      "url": "https://whc.unesco.org/en/list/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

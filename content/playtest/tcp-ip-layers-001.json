@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "tcp-ip-layers-001",
+  "theme": "Internet Protocol Stack",
+  "publishDate": "2026-12-29",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "tcp-ip-layers-6",
+        "rivalGroupId": "group-2",
+        "risk": "ICMP is used by ping and traceroute diagnostics.",
+        "resolution": "ICMP operates at the Internet layer alongside IP (group-3), not Transport."
+      },
+      {
+        "itemId": "tcp-ip-layers-8",
+        "rivalGroupId": "group-2",
+        "risk": "DNS commonly runs over UDP port 53.",
+        "resolution": "DNS itself is an Application-layer protocol (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

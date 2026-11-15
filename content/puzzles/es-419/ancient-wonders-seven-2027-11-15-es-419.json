@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ancient-wonders-seven-2027-11-15-es-419",
+  "puzzleFamilyId": "ancient-wonders-seven-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-15",
+  "timezone": "UTC",
+  "theme": "Las Siete Maravillas del Mundo Antiguo",
+  "items": [
+    {
+      "itemId": "ancient-wonders-seven-4",
+      "label": "Jardines Colgantes de Babilonia"
+    },
+    {
+      "itemId": "ancient-wonders-seven-8",
+      "label": "Partenón de Atenas"
+    },
+    {
+      "itemId": "ancient-wonders-seven-1",
+      "label": "Gran Pirámide de Guiza"
+    },
+    {
+      "itemId": "ancient-wonders-seven-6",
+      "label": "Faro de Alejandría"
+    },
+    {
+      "itemId": "ancient-wonders-seven-10",
+      "label": "Panteón de Roma"
+    },
+    {
+      "itemId": "ancient-wonders-seven-2",
+      "label": "Coloso de Rodas"
+    },
+    {
+      "itemId": "ancient-wonders-seven-7",
+      "label": "Templo de Artemisa en Éfeso"
+    },
+    {
+      "itemId": "ancient-wonders-seven-5",
+      "label": "Mausoleo de Halicarnaso"
+    },
+    {
+      "itemId": "ancient-wonders-seven-9",
+      "label": "Templo de Apolo en Delfos"
+    },
+    {
+      "itemId": "ancient-wonders-seven-3",
+      "label": "Estatua de Zeus en Olimpia"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Clasificación de maravillas y templos de la Antigüedad",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Maravilla antigua superviviente",
+        "capacity": 1,
+        "itemIds": [
+          "ancient-wonders-seven-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Estatuas colosales",
+        "capacity": 2,
+        "itemIds": [
+          "ancient-wonders-seven-2",
+          "ancient-wonders-seven-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Jardines, mausoleo y faro",
+        "capacity": 3,
+        "itemIds": [
+          "ancient-wonders-seven-4",
+          "ancient-wonders-seven-5",
+          "ancient-wonders-seven-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Templos grecorromanos",
+        "capacity": 4,
+        "itemIds": [
+          "ancient-wonders-seven-7",
+          "ancient-wonders-seven-8",
+          "ancient-wonders-seven-9",
+          "ancient-wonders-seven-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por clase: maravilla superviviente (Gran Pirámide de Guiza), estatuas colosales (Coloso de Rodas, Zeus de Olimpia), jardín/mausoleo/faro (Jardines Colgantes, Mausoleo de Halicarnaso, Faro de Alejandría) y templos clásicos (Templo de Artemisa, Partenón, Templo de Apolo en Delfos, Panteón de Roma).",
+  "sources": [
+    {
+      "title": "Britannica: Seven Wonders of the World",
+      "url": "https://www.britannica.com/topic/Seven-Wonders-of-the-World",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

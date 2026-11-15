@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sound-acoustics-2026-12-26-en",
+  "puzzleFamilyId": "sound-acoustics-001",
+  "locale": "en",
+  "publishDate": "2026-12-26",
+  "timezone": "UTC",
+  "theme": "Acoustics & Sound",
+  "items": [
+    {
+      "itemId": "sound-acoustics-4",
+      "label": "Hertz"
+    },
+    {
+      "itemId": "sound-acoustics-8",
+      "label": "Hall reverberation"
+    },
+    {
+      "itemId": "sound-acoustics-1",
+      "label": "Doppler effect"
+    },
+    {
+      "itemId": "sound-acoustics-6",
+      "label": "Infrasound"
+    },
+    {
+      "itemId": "sound-acoustics-10",
+      "label": "Bat echolocation"
+    },
+    {
+      "itemId": "sound-acoustics-2",
+      "label": "Decibel level"
+    },
+    {
+      "itemId": "sound-acoustics-7",
+      "label": "Canyon echo"
+    },
+    {
+      "itemId": "sound-acoustics-5",
+      "label": "Ultrasound"
+    },
+    {
+      "itemId": "sound-acoustics-9",
+      "label": "Sonar ping return"
+    },
+    {
+      "itemId": "sound-acoustics-3",
+      "label": "Sound pressure"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Physical property or phenomenon of sound waves",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Motion-induced pitch shift",
+        "capacity": 1,
+        "itemIds": [
+          "sound-acoustics-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Amplitude & loudness",
+        "capacity": 2,
+        "itemIds": [
+          "sound-acoustics-2",
+          "sound-acoustics-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Frequency & pitch bands",
+        "capacity": 3,
+        "itemIds": [
+          "sound-acoustics-4",
+          "sound-acoustics-5",
+          "sound-acoustics-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Wave reflection in spaces",
+        "capacity": 4,
+        "itemIds": [
+          "sound-acoustics-7",
+          "sound-acoustics-8",
+          "sound-acoustics-9",
+          "sound-acoustics-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by acoustic category: Doppler frequency shift, loudness/amplitude, frequency/pitch, and reflection/echoes.",
+  "sources": [
+    {
+      "title": "Britannica: Acoustics",
+      "url": "https://www.britannica.com/science/acoustics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

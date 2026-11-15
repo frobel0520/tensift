@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "coffee-roast-levels-2027-10-10-es-419",
+  "puzzleFamilyId": "coffee-roast-levels-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-10",
+  "timezone": "UTC",
+  "theme": "Tuestes y bebidas de café",
+  "items": [
+    {
+      "itemId": "coffee-roast-levels-4",
+      "label": "Espresso simple"
+    },
+    {
+      "itemId": "coffee-roast-levels-8",
+      "label": "Café latte"
+    },
+    {
+      "itemId": "coffee-roast-levels-1",
+      "label": "Grano de café verde"
+    },
+    {
+      "itemId": "coffee-roast-levels-6",
+      "label": "Long black"
+    },
+    {
+      "itemId": "coffee-roast-levels-10",
+      "label": "Cortado"
+    },
+    {
+      "itemId": "coffee-roast-levels-2",
+      "label": "Tueste ligero"
+    },
+    {
+      "itemId": "coffee-roast-levels-7",
+      "label": "Capuchino"
+    },
+    {
+      "itemId": "coffee-roast-levels-5",
+      "label": "Café americano"
+    },
+    {
+      "itemId": "coffee-roast-levels-9",
+      "label": "Flat white"
+    },
+    {
+      "itemId": "coffee-roast-levels-3",
+      "label": "Tueste medio (City)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría de cada término cafetero",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Grano sin tostar",
+        "capacity": 1,
+        "itemIds": [
+          "coffee-roast-levels-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Niveles de tueste",
+        "capacity": 2,
+        "itemIds": [
+          "coffee-roast-levels-2",
+          "coffee-roast-levels-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Espresso solo y con agua",
+        "capacity": 3,
+        "itemIds": [
+          "coffee-roast-levels-4",
+          "coffee-roast-levels-5",
+          "coffee-roast-levels-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Bebidas de espresso con leche",
+        "capacity": 4,
+        "itemIds": [
+          "coffee-roast-levels-7",
+          "coffee-roast-levels-8",
+          "coffee-roast-levels-9",
+          "coffee-roast-levels-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría: grano crudo (grano de café verde), niveles de tueste (tueste ligero, tueste medio), cafés negros/con agua (espresso simple, americano, long black) y bebidas con leche (capuchino, café latte, flat white, cortado).",
+  "sources": [
+    {
+      "title": "Specialty Coffee Association: Coffee Standards",
+      "url": "https://sca.coffee/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

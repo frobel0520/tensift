@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "art-movements-eras-001",
+  "theme": "Western Art Movements",
+  "publishDate": "2027-04-19",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "art-movements-eras-7",
+        "rivalGroupId": "group-3",
+        "risk": "Abstract art began before WWII.",
+        "resolution": "Abstract Expressionism emerged in New York in the late 1940s after WWII (group-4)."
+      },
+      {
+        "itemId": "art-movements-eras-3",
+        "rivalGroupId": "group-3",
+        "risk": "Impressionism feels modern.",
+        "resolution": "Impressionism began in Paris in the 1870s during the 19th century (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

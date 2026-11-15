@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "shooting-sports-events-2027-08-31-zh-hant",
+  "puzzleFamilyId": "shooting-sports-events-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-08-31",
+  "timezone": "UTC",
+  "theme": "奧運射擊項目分類",
+  "items": [
+    {
+      "itemId": "shooting-sports-events-4",
+      "label": "10 公尺空氣手槍"
+    },
+    {
+      "itemId": "shooting-sports-events-8",
+      "label": "50 公尺步槍三姿"
+    },
+    {
+      "itemId": "shooting-sports-events-1",
+      "label": "10 公尺移動靶"
+    },
+    {
+      "itemId": "shooting-sports-events-6",
+      "label": "25 公尺運動手槍"
+    },
+    {
+      "itemId": "shooting-sports-events-10",
+      "label": "300 公尺標準步槍"
+    },
+    {
+      "itemId": "shooting-sports-events-2",
+      "label": "不定向飛靶（Trap）"
+    },
+    {
+      "itemId": "shooting-sports-events-7",
+      "label": "10 公尺空氣步槍"
+    },
+    {
+      "itemId": "shooting-sports-events-5",
+      "label": "25 公尺快射手槍"
+    },
+    {
+      "itemId": "shooting-sports-events-9",
+      "label": "50 公尺步槍臥射"
+    },
+    {
+      "itemId": "shooting-sports-events-3",
+      "label": "定向飛靶（Skeet）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各射擊項目的槍枝與靶標類別（移動靶、飛靶散彈槍、手槍或步槍）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "移動靶項目",
+        "capacity": 1,
+        "itemIds": [
+          "shooting-sports-events-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "飛靶散彈槍項目",
+        "capacity": 2,
+        "itemIds": [
+          "shooting-sports-events-2",
+          "shooting-sports-events-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "手槍項目",
+        "capacity": 3,
+        "itemIds": [
+          "shooting-sports-events-4",
+          "shooting-sports-events-5",
+          "shooting-sports-events-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "步槍項目",
+        "capacity": 4,
+        "itemIds": [
+          "shooting-sports-events-7",
+          "shooting-sports-events-8",
+          "shooting-sports-events-9",
+          "shooting-sports-events-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依射擊項目分類：移動靶（10 公尺移動靶）、飛靶散彈槍（不定向飛靶 Trap、定向飛靶 Skeet）、手槍項目（10 公尺空氣手槍、25 公尺快射手槍、25 公尺運動手槍）與步槍項目（10 公尺空氣步槍、50 公尺三姿步槍、50 公尺臥射步槍、300 公尺標準步槍）。",
+  "sources": [
+    {
+      "title": "ISSF: International Shooting Sport Federation",
+      "url": "https://www.issf-sports.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

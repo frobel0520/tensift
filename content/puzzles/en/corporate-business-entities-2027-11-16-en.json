@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "corporate-business-entities-2027-11-16-en",
+  "puzzleFamilyId": "corporate-business-entities-001",
+  "locale": "en",
+  "publishDate": "2027-11-16",
+  "timezone": "UTC",
+  "theme": "Business Legal Entities",
+  "items": [
+    {
+      "itemId": "corporate-business-entities-4",
+      "label": "Consumer Cooperative"
+    },
+    {
+      "itemId": "corporate-business-entities-8",
+      "label": "S-Corporation"
+    },
+    {
+      "itemId": "corporate-business-entities-1",
+      "label": "Sole Proprietorship"
+    },
+    {
+      "itemId": "corporate-business-entities-6",
+      "label": "Charitable Nonprofit"
+    },
+    {
+      "itemId": "corporate-business-entities-10",
+      "label": "Public Limited Company (PLC)"
+    },
+    {
+      "itemId": "corporate-business-entities-2",
+      "label": "General Partnership (GP)"
+    },
+    {
+      "itemId": "corporate-business-entities-7",
+      "label": "C-Corporation"
+    },
+    {
+      "itemId": "corporate-business-entities-5",
+      "label": "Member Credit Union"
+    },
+    {
+      "itemId": "corporate-business-entities-9",
+      "label": "Limited Liability Company (LLC)"
+    },
+    {
+      "itemId": "corporate-business-entities-3",
+      "label": "Limited Partnership (LP)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Legal liability & ownership structure (Sole Proprietorship, Partnerships, Non-Profit/Cooperative Entities, or Limited-Liability Corporations)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Unincorporated Individual",
+        "capacity": 1,
+        "itemIds": [
+          "corporate-business-entities-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Partnerships",
+        "capacity": 2,
+        "itemIds": [
+          "corporate-business-entities-2",
+          "corporate-business-entities-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Cooperatives & Nonprofits",
+        "capacity": 3,
+        "itemIds": [
+          "corporate-business-entities-4",
+          "corporate-business-entities-5",
+          "corporate-business-entities-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Limited-Liability Companies/Corps",
+        "capacity": 4,
+        "itemIds": [
+          "corporate-business-entities-7",
+          "corporate-business-entities-8",
+          "corporate-business-entities-9",
+          "corporate-business-entities-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by legal structure: Unincorporated Individual (Sole Proprietorship), Partnerships (General Partnership GP, Limited Partnership LP), Member/Mission Organizations (Consumer Cooperative, Credit Union, 501(c)(3) Nonprofit), and Limited-Liability Corporations (C-Corporation, S-Corporation, Limited Liability Company LLC, Public Limited Company PLC).",
+  "sources": [
+    {
+      "title": "U.S. Small Business Administration: Business Structures",
+      "url": "https://www.sba.gov/business-guide/launch-your-business/choose-business-structure",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

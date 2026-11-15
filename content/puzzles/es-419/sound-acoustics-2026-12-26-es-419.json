@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sound-acoustics-2026-12-26-es-419",
+  "puzzleFamilyId": "sound-acoustics-001",
+  "locale": "es-419",
+  "publishDate": "2026-12-26",
+  "timezone": "UTC",
+  "theme": "Acústica y sonido",
+  "items": [
+    {
+      "itemId": "sound-acoustics-4",
+      "label": "Hercio"
+    },
+    {
+      "itemId": "sound-acoustics-8",
+      "label": "Reverberación en sala"
+    },
+    {
+      "itemId": "sound-acoustics-1",
+      "label": "Efecto Doppler"
+    },
+    {
+      "itemId": "sound-acoustics-6",
+      "label": "Infrasonido"
+    },
+    {
+      "itemId": "sound-acoustics-10",
+      "label": "Ecolocalización de murciélago"
+    },
+    {
+      "itemId": "sound-acoustics-2",
+      "label": "Nivel en decibelios"
+    },
+    {
+      "itemId": "sound-acoustics-7",
+      "label": "Eco en un cañón"
+    },
+    {
+      "itemId": "sound-acoustics-5",
+      "label": "Ultrasonido"
+    },
+    {
+      "itemId": "sound-acoustics-9",
+      "label": "Retorno de sonar"
+    },
+    {
+      "itemId": "sound-acoustics-3",
+      "label": "Presión sonora"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Propiedad física o fenómeno acústico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Desplazamiento por movimiento",
+        "capacity": 1,
+        "itemIds": [
+          "sound-acoustics-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Amplitud e intensidad",
+        "capacity": 2,
+        "itemIds": [
+          "sound-acoustics-2",
+          "sound-acoustics-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Frecuencia y bandas",
+        "capacity": 3,
+        "itemIds": [
+          "sound-acoustics-4",
+          "sound-acoustics-5",
+          "sound-acoustics-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Reflexión de ondas sonoras",
+        "capacity": 4,
+        "itemIds": [
+          "sound-acoustics-7",
+          "sound-acoustics-8",
+          "sound-acoustics-9",
+          "sound-acoustics-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por categoría acústica: efecto Doppler, intensidad, frecuencia/tono y reflexión acústica.",
+  "sources": [
+    {
+      "title": "Britannica: Acoustics",
+      "url": "https://www.britannica.com/science/acoustics",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

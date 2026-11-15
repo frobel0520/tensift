@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "architectural-orders-vaults-2027-04-21-zh-hant",
+  "puzzleFamilyId": "architectural-orders-vaults-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-21",
+  "timezone": "UTC",
+  "theme": "古典柱式與哥德建築構造",
+  "items": [
+    {
+      "itemId": "architectural-orders-vaults-4",
+      "label": "多立克柱式"
+    },
+    {
+      "itemId": "architectural-orders-vaults-8",
+      "label": "尖拱"
+    },
+    {
+      "itemId": "architectural-orders-vaults-1",
+      "label": "托斯卡納柱式"
+    },
+    {
+      "itemId": "architectural-orders-vaults-6",
+      "label": "科林斯柱式"
+    },
+    {
+      "itemId": "architectural-orders-vaults-10",
+      "label": "玫瑰窗"
+    },
+    {
+      "itemId": "architectural-orders-vaults-2",
+      "label": "拱心石"
+    },
+    {
+      "itemId": "architectural-orders-vaults-7",
+      "label": "飛扶壁"
+    },
+    {
+      "itemId": "architectural-orders-vaults-5",
+      "label": "愛奧尼柱式"
+    },
+    {
+      "itemId": "architectural-orders-vaults-9",
+      "label": "肋骨拱頂"
+    },
+    {
+      "itemId": "architectural-orders-vaults-3",
+      "label": "拱楔石"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各建築構件所屬的建築傳統與構造類別",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "羅馬托斯卡納柱式",
+        "capacity": 1,
+        "itemIds": [
+          "architectural-orders-vaults-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "拱券石構件",
+        "capacity": 2,
+        "itemIds": [
+          "architectural-orders-vaults-2",
+          "architectural-orders-vaults-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "希臘古典三柱式",
+        "capacity": 3,
+        "itemIds": [
+          "architectural-orders-vaults-4",
+          "architectural-orders-vaults-5",
+          "architectural-orders-vaults-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "哥德式建築構件",
+        "capacity": 4,
+        "itemIds": [
+          "architectural-orders-vaults-7",
+          "architectural-orders-vaults-8",
+          "architectural-orders-vaults-9",
+          "architectural-orders-vaults-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依建築傳統與構造分類：羅馬托斯卡納柱式（托斯卡納柱式）、羅馬圓拱石構（拱心石、拱楔石）、希臘古典三柱式（多立克柱式、愛奧尼柱式、科林斯柱式）與哥德式結構（飛扶壁、尖拱、肋骨拱頂、玫瑰窗）。",
+  "sources": [
+    {
+      "title": "Britannica: Classical Orders",
+      "url": "https://www.britannica.com/technology/order-architecture",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

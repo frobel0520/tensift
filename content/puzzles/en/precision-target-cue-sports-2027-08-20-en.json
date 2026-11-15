@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "precision-target-cue-sports-2027-08-20-en",
+  "puzzleFamilyId": "precision-target-cue-sports-001",
+  "locale": "en",
+  "publishDate": "2027-08-20",
+  "timezone": "UTC",
+  "theme": "Precision, Cue & Pin Sports",
+  "items": [
+    {
+      "itemId": "precision-target-cue-sports-4",
+      "label": "Eight-Ball Pool"
+    },
+    {
+      "itemId": "precision-target-cue-sports-8",
+      "label": "Curling"
+    },
+    {
+      "itemId": "precision-target-cue-sports-1",
+      "label": "Ten-Pin Bowling"
+    },
+    {
+      "itemId": "precision-target-cue-sports-6",
+      "label": "Snooker"
+    },
+    {
+      "itemId": "precision-target-cue-sports-10",
+      "label": "Bocce"
+    },
+    {
+      "itemId": "precision-target-cue-sports-2",
+      "label": "501 Darts"
+    },
+    {
+      "itemId": "precision-target-cue-sports-7",
+      "label": "Recurve Archery"
+    },
+    {
+      "itemId": "precision-target-cue-sports-5",
+      "label": "Nine-Ball Pool"
+    },
+    {
+      "itemId": "precision-target-cue-sports-9",
+      "label": "Lawn Bowls"
+    },
+    {
+      "itemId": "precision-target-cue-sports-3",
+      "label": "Cricket Darts"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Precision sport class (Pin Bowling, Darts Formats, Cue Sports, or Outdoor Target/Bowl Sports)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Pin Bowling",
+        "capacity": 1,
+        "itemIds": [
+          "precision-target-cue-sports-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Darts Formats",
+        "capacity": 2,
+        "itemIds": [
+          "precision-target-cue-sports-2",
+          "precision-target-cue-sports-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Cue Sports",
+        "capacity": 3,
+        "itemIds": [
+          "precision-target-cue-sports-4",
+          "precision-target-cue-sports-5",
+          "precision-target-cue-sports-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Archery & Lawn/Ice Bowls",
+        "capacity": 4,
+        "itemIds": [
+          "precision-target-cue-sports-7",
+          "precision-target-cue-sports-8",
+          "precision-target-cue-sports-9",
+          "precision-target-cue-sports-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by precision sport class: Pin Bowling (Ten-Pin Bowling), Darts Formats (501 Darts, Cricket Darts), Cue Sports (Eight-Ball Pool, Nine-Ball Pool, Snooker), and Target & Lawn Bowl Sports (Recurve Archery, Curling, Lawn Bowls, Bocce).",
+  "sources": [
+    {
+      "title": "World Bowls & WCBS",
+      "url": "https://www.worldbowls.com/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

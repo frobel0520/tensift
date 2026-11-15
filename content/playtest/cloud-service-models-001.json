@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "cloud-service-models-001",
+  "theme": "Cloud Computing Models",
+  "publishDate": "2027-01-21",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "cloud-service-models-1",
+        "rivalGroupId": "group-3",
+        "risk": "AWS Lambda is a managed execution platform.",
+        "resolution": "AWS Lambda specifically represents event-driven Function-as-a-Service (group-1), distinct from full app platforms (group-3)."
+      },
+      {
+        "itemId": "cloud-service-models-2",
+        "rivalGroupId": "group-3",
+        "risk": "Developers deploy apps onto EC2.",
+        "resolution": "EC2 provides raw virtual machines and networking (IaaS, group-2) rather than a managed runtime platform."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

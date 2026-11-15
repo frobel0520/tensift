@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "culinary-heat-transfer-2027-09-02-zh-hant",
+  "puzzleFamilyId": "culinary-heat-transfer-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-02",
+  "timezone": "UTC",
+  "theme": "烹飪熱傳導與加熱方式",
+  "items": [
+    {
+      "itemId": "culinary-heat-transfer-4",
+      "label": "烤箱乾烤烘焙"
+    },
+    {
+      "itemId": "culinary-heat-transfer-8",
+      "label": "低溫水波煮（Poaching）"
+    },
+    {
+      "itemId": "culinary-heat-transfer-1",
+      "label": "微波加熱"
+    },
+    {
+      "itemId": "culinary-heat-transfer-6",
+      "label": "平底鍋乾煎"
+    },
+    {
+      "itemId": "culinary-heat-transfer-10",
+      "label": "加蓋紅燒燉煮"
+    },
+    {
+      "itemId": "culinary-heat-transfer-2",
+      "label": "上火炙烤（Broiling）"
+    },
+    {
+      "itemId": "culinary-heat-transfer-7",
+      "label": "滾水煮沸"
+    },
+    {
+      "itemId": "culinary-heat-transfer-5",
+      "label": "高溫油炸"
+    },
+    {
+      "itemId": "culinary-heat-transfer-9",
+      "label": "隔水清蒸"
+    },
+    {
+      "itemId": "culinary-heat-transfer-3",
+      "label": "炭火直烤"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各烹飪技法的主要熱傳遞介質（微波輻射、直火輻射、乾熱空氣／油炸或水／蒸氣濕熱）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "微波介電加熱",
+        "capacity": 1,
+        "itemIds": [
+          "culinary-heat-transfer-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "直火與紅外線輻射",
+        "capacity": 2,
+        "itemIds": [
+          "culinary-heat-transfer-2",
+          "culinary-heat-transfer-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "乾熱空氣與油脂導熱",
+        "capacity": 3,
+        "itemIds": [
+          "culinary-heat-transfer-4",
+          "culinary-heat-transfer-5",
+          "culinary-heat-transfer-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "水與蒸氣濕熱烹調",
+        "capacity": 4,
+        "itemIds": [
+          "culinary-heat-transfer-7",
+          "culinary-heat-transfer-8",
+          "culinary-heat-transfer-9",
+          "culinary-heat-transfer-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依熱傳遞方式分類：電磁介電加熱（微波加熱）、紅外線輻射直火（上火炙烤 Broiling、炭火直烤）、乾熱空氣與油導熱（烤箱烘焙、高溫油炸、平底鍋乾煎）與水或蒸氣濕熱（滾水煮、低溫水波煮 Poaching、隔水蒸、紅燒燉煮）。",
+  "sources": [
+    {
+      "title": "USDA Food Safety & Cooking Methods",
+      "url": "https://www.fsis.usda.gov/food-safety",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

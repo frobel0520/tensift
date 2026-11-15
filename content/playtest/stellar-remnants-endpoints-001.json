@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "stellar-remnants-endpoints-001",
+  "theme": "Stellar Remnants & Black Holes",
+  "publishDate": "2027-06-19",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "stellar-remnants-endpoints-1",
+        "rivalGroupId": "group-2",
+        "risk": "Brown dwarfs share the word dwarf with white dwarfs.",
+        "resolution": "Brown dwarfs never sustained hydrogen fusion (group-1), whereas white dwarfs are fusion-exhausted stellar cores (group-2)."
+      },
+      {
+        "itemId": "stellar-remnants-endpoints-5",
+        "rivalGroupId": "group-4",
+        "risk": "Magnetars are extreme relativistic objects.",
+        "resolution": "A magnetar is a neutron star with an ultra-strong magnetic field (group-3), not a black hole (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

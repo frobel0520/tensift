@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "herbs-plant-families-2027-10-23-en",
+  "puzzleFamilyId": "herbs-plant-families-001",
+  "locale": "en",
+  "publishDate": "2027-10-23",
+  "timezone": "UTC",
+  "theme": "Culinary Herbs by Plant Family",
+  "items": [
+    {
+      "itemId": "herbs-plant-families-4",
+      "label": "Flat-Leaf Parsley"
+    },
+    {
+      "itemId": "herbs-plant-families-8",
+      "label": "Rosemary"
+    },
+    {
+      "itemId": "herbs-plant-families-1",
+      "label": "Bay Laurel Leaf"
+    },
+    {
+      "itemId": "herbs-plant-families-6",
+      "label": "Fresh Dill"
+    },
+    {
+      "itemId": "herbs-plant-families-10",
+      "label": "Mediterranean Oregano"
+    },
+    {
+      "itemId": "herbs-plant-families-2",
+      "label": "Garden Chives"
+    },
+    {
+      "itemId": "herbs-plant-families-7",
+      "label": "Sweet Basil"
+    },
+    {
+      "itemId": "herbs-plant-families-5",
+      "label": "Cilantro (Coriander Leaf)"
+    },
+    {
+      "itemId": "herbs-plant-families-9",
+      "label": "Garden Thyme"
+    },
+    {
+      "itemId": "herbs-plant-families-3",
+      "label": "Garlic Chives"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Botanical family (Lauraceae Bay Laurel, Amaryllidaceae Alliums, Apiaceae Carrot/Parsley Family, or Lamiaceae Mint Family)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Lauraceae (Laurel Family)",
+        "capacity": 1,
+        "itemIds": [
+          "herbs-plant-families-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Allium Herbs",
+        "capacity": 2,
+        "itemIds": [
+          "herbs-plant-families-2",
+          "herbs-plant-families-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Apiaceae (Parsley Family)",
+        "capacity": 3,
+        "itemIds": [
+          "herbs-plant-families-4",
+          "herbs-plant-families-5",
+          "herbs-plant-families-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Lamiaceae (Mint Family)",
+        "capacity": 4,
+        "itemIds": [
+          "herbs-plant-families-7",
+          "herbs-plant-families-8",
+          "herbs-plant-families-9",
+          "herbs-plant-families-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by botanical family: Lauraceae (Bay Laurel Leaf), Amaryllidaceae Alliums (Chives, Garlic Chives), Apiaceae Parsley Family (Flat-Leaf Parsley, Cilantro / Coriander, Dill), and Lamiaceae Mint Family (Sweet Basil, Rosemary, Thyme, Oregano).",
+  "sources": [
+    {
+      "title": "USDA PLANTS Database: Culinary Herbs",
+      "url": "https://plants.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

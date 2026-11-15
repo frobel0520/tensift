@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cooking-oils-smoke-point-2027-09-24-en",
+  "puzzleFamilyId": "cooking-oils-smoke-point-001",
+  "locale": "en",
+  "publishDate": "2027-09-24",
+  "timezone": "UTC",
+  "theme": "Cooking Oils by Source",
+  "items": [
+    {
+      "itemId": "cooking-oils-smoke-point-4",
+      "label": "Coconut Oil"
+    },
+    {
+      "itemId": "cooking-oils-smoke-point-8",
+      "label": "Canola (Rapeseed) Oil"
+    },
+    {
+      "itemId": "cooking-oils-smoke-point-1",
+      "label": "Pork Lard"
+    },
+    {
+      "itemId": "cooking-oils-smoke-point-6",
+      "label": "Cocoa Butter"
+    },
+    {
+      "itemId": "cooking-oils-smoke-point-10",
+      "label": "Soybean Oil"
+    },
+    {
+      "itemId": "cooking-oils-smoke-point-2",
+      "label": "Olive Oil"
+    },
+    {
+      "itemId": "cooking-oils-smoke-point-7",
+      "label": "Sunflower Seed Oil"
+    },
+    {
+      "itemId": "cooking-oils-smoke-point-5",
+      "label": "Red Palm Oil"
+    },
+    {
+      "itemId": "cooking-oils-smoke-point-9",
+      "label": "Toasted Sesame Oil"
+    },
+    {
+      "itemId": "cooking-oils-smoke-point-3",
+      "label": "Avocado Oil"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Oil/fat source (Rendered Animal Fat, Fruit-Pulp Oils, Tropical Kernel/Palm Fats, or Seed & Grain Oils)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Rendered Animal Fat",
+        "capacity": 1,
+        "itemIds": [
+          "cooking-oils-smoke-point-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Fruit-Pulp Oils",
+        "capacity": 2,
+        "itemIds": [
+          "cooking-oils-smoke-point-2",
+          "cooking-oils-smoke-point-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Tropical Saturated Fats",
+        "capacity": 3,
+        "itemIds": [
+          "cooking-oils-smoke-point-4",
+          "cooking-oils-smoke-point-5",
+          "cooking-oils-smoke-point-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Seed & Legume Oils",
+        "capacity": 4,
+        "itemIds": [
+          "cooking-oils-smoke-point-7",
+          "cooking-oils-smoke-point-8",
+          "cooking-oils-smoke-point-9",
+          "cooking-oils-smoke-point-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by fat source: Rendered Animal Fat (Pork Lard), Fruit-Pulp Oils (Olive Oil, Avocado Oil), Tropical Palm/Coconut Fats (Coconut Oil, Red Palm Oil, Cocoa Butter), and Seed & Legume Oils (Sunflower Oil, Canola Rapeseed Oil, Sesame Oil, Soybean Oil).",
+  "sources": [
+    {
+      "title": "FAO: Fats and Fatty Acids in Human Nutrition",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

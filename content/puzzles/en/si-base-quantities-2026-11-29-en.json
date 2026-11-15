@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "si-base-quantities-2026-11-29-en",
+  "puzzleFamilyId": "si-base-quantities-001",
+  "locale": "en",
+  "publishDate": "2026-11-29",
+  "timezone": "UTC",
+  "theme": "SI Base Quantities",
+  "items": [
+    {
+      "itemId": "si-base-quantities-4",
+      "label": "Marathon distance"
+    },
+    {
+      "itemId": "si-base-quantities-8",
+      "label": "Radioactive half-life"
+    },
+    {
+      "itemId": "si-base-quantities-1",
+      "label": "Boiling point of water"
+    },
+    {
+      "itemId": "si-base-quantities-6",
+      "label": "Optical wavelength"
+    },
+    {
+      "itemId": "si-base-quantities-10",
+      "label": "Cesium transition cycle"
+    },
+    {
+      "itemId": "si-base-quantities-2",
+      "label": "Avogadro count of atoms"
+    },
+    {
+      "itemId": "si-base-quantities-7",
+      "label": "Pendulum period"
+    },
+    {
+      "itemId": "si-base-quantities-5",
+      "label": "Atomic radius"
+    },
+    {
+      "itemId": "si-base-quantities-9",
+      "label": "Shutter exposure"
+    },
+    {
+      "itemId": "si-base-quantities-3",
+      "label": "Stoichiometric reactant count"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "The SI base unit that measures each physical quantity",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Kelvin (thermodynamic temperature)",
+        "capacity": 1,
+        "itemIds": [
+          "si-base-quantities-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Mole (amount of substance)",
+        "capacity": 2,
+        "itemIds": [
+          "si-base-quantities-2",
+          "si-base-quantities-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Meter (length)",
+        "capacity": 3,
+        "itemIds": [
+          "si-base-quantities-4",
+          "si-base-quantities-5",
+          "si-base-quantities-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Second (time)",
+        "capacity": 4,
+        "itemIds": [
+          "si-base-quantities-7",
+          "si-base-quantities-8",
+          "si-base-quantities-9",
+          "si-base-quantities-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Each group corresponds to one SI base unit: kelvin (temperature), mole (amount of substance), meter (length), and second (time).",
+  "sources": [
+    {
+      "title": "BIPM: SI Base Units",
+      "url": "https://www.bipm.org/en/measurement-units/si-base-units",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

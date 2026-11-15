@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "dance-styles-origins-2027-05-03-zh-hant",
+  "puzzleFamilyId": "dance-styles-origins-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-03",
+  "timezone": "UTC",
+  "theme": "世界舞蹈發源地",
+  "items": [
+    {
+      "itemId": "dance-styles-origins-4",
+      "label": "維也納華爾滋"
+    },
+    {
+      "itemId": "dance-styles-origins-8",
+      "label": "森巴"
+    },
+    {
+      "itemId": "dance-styles-origins-1",
+      "label": "古典芭蕾舞"
+    },
+    {
+      "itemId": "dance-styles-origins-6",
+      "label": "馬祖卡舞"
+    },
+    {
+      "itemId": "dance-styles-origins-10",
+      "label": "坎比亞舞"
+    },
+    {
+      "itemId": "dance-styles-origins-2",
+      "label": "踢踏舞"
+    },
+    {
+      "itemId": "dance-styles-origins-7",
+      "label": "探戈"
+    },
+    {
+      "itemId": "dance-styles-origins-5",
+      "label": "波爾卡舞"
+    },
+    {
+      "itemId": "dance-styles-origins-9",
+      "label": "騷莎舞"
+    },
+    {
+      "itemId": "dance-styles-origins-3",
+      "label": "查爾斯頓舞"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各舞蹈形式的發源文化區域",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "歐洲宮廷古典傳統",
+        "capacity": 1,
+        "itemIds": [
+          "dance-styles-origins-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "美國",
+        "capacity": 2,
+        "itemIds": [
+          "dance-styles-origins-2",
+          "dance-styles-origins-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "中歐與東歐",
+        "capacity": 3,
+        "itemIds": [
+          "dance-styles-origins-4",
+          "dance-styles-origins-5",
+          "dance-styles-origins-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "拉丁美洲",
+        "capacity": 4,
+        "itemIds": [
+          "dance-styles-origins-7",
+          "dance-styles-origins-8",
+          "dance-styles-origins-9",
+          "dance-styles-origins-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依發源地與文化脈絡分類：古典歐洲宮廷（芭蕾舞）、美國（踢踏舞、查爾斯頓舞）、中／東歐（華爾滋、波爾卡、馬祖卡）與拉丁美洲（探戈、森巴、騷莎、坎比亞）。",
+  "sources": [
+    {
+      "title": "Britannica: Dance History",
+      "url": "https://www.britannica.com/art/dance",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

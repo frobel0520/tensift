@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "lunar-mars-landers-2027-06-27-es-419",
+  "puzzleFamilyId": "lunar-mars-landers-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-27",
+  "timezone": "UTC",
+  "theme": "Módulos de aterrizaje lunar y marciano",
+  "items": [
+    {
+      "itemId": "lunar-mars-landers-4",
+      "label": "Eagle (Apolo 11)"
+    },
+    {
+      "itemId": "lunar-mars-landers-8",
+      "label": "Mars Pathfinder"
+    },
+    {
+      "itemId": "lunar-mars-landers-1",
+      "label": "Luna 9"
+    },
+    {
+      "itemId": "lunar-mars-landers-6",
+      "label": "Aquarius (Apolo 13)"
+    },
+    {
+      "itemId": "lunar-mars-landers-10",
+      "label": "InSight"
+    },
+    {
+      "itemId": "lunar-mars-landers-2",
+      "label": "Surveyor 1"
+    },
+    {
+      "itemId": "lunar-mars-landers-7",
+      "label": "Viking 1"
+    },
+    {
+      "itemId": "lunar-mars-landers-5",
+      "label": "Intrepid (Apolo 12)"
+    },
+    {
+      "itemId": "lunar-mars-landers-9",
+      "label": "Phoenix"
+    },
+    {
+      "itemId": "lunar-mars-landers-3",
+      "label": "Surveyor 3"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Programa espacial de cada módulo de aterrizaje",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Programa soviético Luna",
+        "capacity": 1,
+        "itemIds": [
+          "lunar-mars-landers-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Programa Surveyor",
+        "capacity": 2,
+        "itemIds": [
+          "lunar-mars-landers-2",
+          "lunar-mars-landers-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Módulos lunares Apolo",
+        "capacity": 3,
+        "itemIds": [
+          "lunar-mars-landers-4",
+          "lunar-mars-landers-5",
+          "lunar-mars-landers-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Aterrizadores de Marte",
+        "capacity": 4,
+        "itemIds": [
+          "lunar-mars-landers-7",
+          "lunar-mars-landers-8",
+          "lunar-mars-landers-9",
+          "lunar-mars-landers-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por programa: Luna soviético (Luna 9), Surveyor estadounidense (Surveyor 1, Surveyor 3), módulos lunares Apolo (Eagle, Intrepid, Aquarius) y aterrizadores marcianos (Viking 1, Mars Pathfinder, Phoenix, InSight).",
+  "sources": [
+    {
+      "title": "NASA: Moon & Mars Landers",
+      "url": "https://science.nasa.gov/mars/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

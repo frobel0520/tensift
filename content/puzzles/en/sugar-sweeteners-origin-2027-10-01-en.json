@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "sugar-sweeteners-origin-2027-10-01-en",
+  "puzzleFamilyId": "sugar-sweeteners-origin-001",
+  "locale": "en",
+  "publishDate": "2027-10-01",
+  "timezone": "UTC",
+  "theme": "Sugars & Sweeteners",
+  "items": [
+    {
+      "itemId": "sugar-sweeteners-origin-4",
+      "label": "Xylitol"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-8",
+      "label": "Beet Sugar"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-1",
+      "label": "Sucralose"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-6",
+      "label": "Sorbitol"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-10",
+      "label": "Coconut Palm Sugar"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-2",
+      "label": "Pure Maple Syrup"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-7",
+      "label": "Granulated Cane Sugar"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-5",
+      "label": "Erythritol"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-9",
+      "label": "High-Fructose Corn Syrup"
+    },
+    {
+      "itemId": "sugar-sweeteners-origin-3",
+      "label": "Birch Sap Syrup"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Sweetener class (Zero-Calorie Synthetic, Tree-Sap Syrup, Sugar Alcohols / Polyols, or Caloric Cane/Beet/Starch Sugars)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Synthetic Zero-Calorie",
+        "capacity": 1,
+        "itemIds": [
+          "sugar-sweeteners-origin-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Tree-Sap Syrups",
+        "capacity": 2,
+        "itemIds": [
+          "sugar-sweeteners-origin-2",
+          "sugar-sweeteners-origin-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Sugar Alcohols (Polyols)",
+        "capacity": 3,
+        "itemIds": [
+          "sugar-sweeteners-origin-4",
+          "sugar-sweeteners-origin-5",
+          "sugar-sweeteners-origin-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Caloric Cane, Beet & Corn Sugars",
+        "capacity": 4,
+        "itemIds": [
+          "sugar-sweeteners-origin-7",
+          "sugar-sweeteners-origin-8",
+          "sugar-sweeteners-origin-9",
+          "sugar-sweeteners-origin-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by sweetener class: Zero-Calorie Synthetic (Sucralose), Tree-Sap Syrup (Pure Maple Syrup, Birch Syrup), Sugar Alcohols / Polyols (Xylitol, Erythritol, Sorbitol), and Caloric Refined/Natural Sugars (Granulated Cane Sugar, Beet Sugar, High-Fructose Corn Syrup, Palm Coconut Sugar).",
+  "sources": [
+    {
+      "title": "FDA: High-Intensity Sweeteners & Sugars",
+      "url": "https://www.fda.gov/food/food-additives-petitions/high-intensity-sweeteners",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

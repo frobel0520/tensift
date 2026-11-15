@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "tennis-scoring-terms-001",
+  "theme": "Tennis Match & Scoring Terms",
+  "publishDate": "2027-08-14",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "tennis-scoring-terms-1",
+        "rivalGroupId": "group-3",
+        "risk": "A tiebreak decides a set.",
+        "resolution": "A tiebreak is a special 7-point deciding procedure at 6–6 (group-1), not a standard match unit (group-3)."
+      },
+      {
+        "itemId": "tennis-scoring-terms-2",
+        "rivalGroupId": "group-4",
+        "risk": "Deuce occurs at 40–40.",
+        "resolution": "Deuce and Advantage are post-40 tie-breaking game states (group-2), not the four base point calls 0/15/30/40 (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

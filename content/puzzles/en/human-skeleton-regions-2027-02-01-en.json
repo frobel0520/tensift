@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "human-skeleton-regions-2027-02-01-en",
+  "puzzleFamilyId": "human-skeleton-regions-001",
+  "locale": "en",
+  "publishDate": "2027-02-01",
+  "timezone": "UTC",
+  "theme": "Human Skeleton Bones",
+  "items": [
+    {
+      "itemId": "human-skeleton-regions-4",
+      "label": "Humerus"
+    },
+    {
+      "itemId": "human-skeleton-regions-8",
+      "label": "Tibia"
+    },
+    {
+      "itemId": "human-skeleton-regions-1",
+      "label": "Sternum"
+    },
+    {
+      "itemId": "human-skeleton-regions-6",
+      "label": "Ulna"
+    },
+    {
+      "itemId": "human-skeleton-regions-10",
+      "label": "Patella"
+    },
+    {
+      "itemId": "human-skeleton-regions-2",
+      "label": "Mandible"
+    },
+    {
+      "itemId": "human-skeleton-regions-7",
+      "label": "Femur"
+    },
+    {
+      "itemId": "human-skeleton-regions-5",
+      "label": "Radius"
+    },
+    {
+      "itemId": "human-skeleton-regions-9",
+      "label": "Fibula"
+    },
+    {
+      "itemId": "human-skeleton-regions-3",
+      "label": "Maxilla"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Anatomical region of each human bone",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Thoracic midline",
+        "capacity": 1,
+        "itemIds": [
+          "human-skeleton-regions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Skull & jaw",
+        "capacity": 2,
+        "itemIds": [
+          "human-skeleton-regions-2",
+          "human-skeleton-regions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Upper limb",
+        "capacity": 3,
+        "itemIds": [
+          "human-skeleton-regions-4",
+          "human-skeleton-regions-5",
+          "human-skeleton-regions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Lower limb",
+        "capacity": 4,
+        "itemIds": [
+          "human-skeleton-regions-7",
+          "human-skeleton-regions-8",
+          "human-skeleton-regions-9",
+          "human-skeleton-regions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by anatomical region: axial thorax (sternum), skull/cranium (mandible, maxilla), upper limb (humerus, radius, ulna), and lower limb (femur, tibia, fibula, patella).",
+  "sources": [
+    {
+      "title": "NIH SEER: Skeletal System",
+      "url": "https://training.seer.cancer.gov/anatomy/skeletal/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.38
+  },
+  "status": "scheduled"
+}

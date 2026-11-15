@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "financial-asset-classes-2027-10-27-zh-hant",
+  "puzzleFamilyId": "financial-asset-classes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-27",
+  "timezone": "UTC",
+  "theme": "金融市場四大資產類別",
+  "items": [
+    {
+      "itemId": "financial-asset-classes-4",
+      "label": "十年期政府公債"
+    },
+    {
+      "itemId": "financial-asset-classes-8",
+      "label": "特別股（優先股）"
+    },
+    {
+      "itemId": "financial-asset-classes-1",
+      "label": "實體黃金條塊"
+    },
+    {
+      "itemId": "financial-asset-classes-6",
+      "label": "地方市政公債"
+    },
+    {
+      "itemId": "financial-asset-classes-10",
+      "label": "個股買權（Call Option）"
+    },
+    {
+      "itemId": "financial-asset-classes-2",
+      "label": "歐元／美元即期外匯"
+    },
+    {
+      "itemId": "financial-asset-classes-7",
+      "label": "普通股"
+    },
+    {
+      "itemId": "financial-asset-classes-5",
+      "label": "公司債券"
+    },
+    {
+      "itemId": "financial-asset-classes-9",
+      "label": "股價指數型 ETF"
+    },
+    {
+      "itemId": "financial-asset-classes-3",
+      "label": "美元／日圓遠期外匯"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各金融商品所屬的市場資產類別（實體商品期貨／貴金屬、外匯、固定收益債券或股權與股票衍生品）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "實體大宗商品",
+        "capacity": 1,
+        "itemIds": [
+          "financial-asset-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "外匯市場工具",
+        "capacity": 2,
+        "itemIds": [
+          "financial-asset-classes-2",
+          "financial-asset-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "固定收益債券",
+        "capacity": 3,
+        "itemIds": [
+          "financial-asset-classes-4",
+          "financial-asset-classes-5",
+          "financial-asset-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "股權與股票衍生品",
+        "capacity": 4,
+        "itemIds": [
+          "financial-asset-classes-7",
+          "financial-asset-classes-8",
+          "financial-asset-classes-9",
+          "financial-asset-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依資產類別分類：大宗商品（實體黃金條塊）、外匯市場（歐元兌美元即期、美元兌日圓遠期外匯）、固定收益債券（十年期公債、投資級公司債、市政公債）與股權及衍生品（普通股、特別股、股價指數 ETF、個股買權）。",
+  "sources": [
+    {
+      "title": "BIS: Financial Market Statistics",
+      "url": "https://www.bis.org/statistics/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

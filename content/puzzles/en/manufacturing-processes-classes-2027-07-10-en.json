@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "manufacturing-processes-classes-2027-07-10-en",
+  "puzzleFamilyId": "manufacturing-processes-classes-001",
+  "locale": "en",
+  "publishDate": "2027-07-10",
+  "timezone": "UTC",
+  "theme": "Manufacturing Processes",
+  "items": [
+    {
+      "itemId": "manufacturing-processes-classes-4",
+      "label": "CNC Milling"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-8",
+      "label": "High-Pressure Die Casting"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-1",
+      "label": "Stereolithography (SLA)"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-6",
+      "label": "Surface Grinding"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-10",
+      "label": "Sheet Metal Stamping"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-2",
+      "label": "TIG Welding"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-7",
+      "label": "Drop Forging"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-5",
+      "label": "Lathe Turning"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-9",
+      "label": "Metal Extrusion"
+    },
+    {
+      "itemId": "manufacturing-processes-classes-3",
+      "label": "Torch Brazing"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Process category (Additive 3D Printing, Joining, Subtractive Machining, or Forming & Casting)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Additive Manufacturing",
+        "capacity": 1,
+        "itemIds": [
+          "manufacturing-processes-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Joining Processes",
+        "capacity": 2,
+        "itemIds": [
+          "manufacturing-processes-classes-2",
+          "manufacturing-processes-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Subtractive Machining",
+        "capacity": 3,
+        "itemIds": [
+          "manufacturing-processes-classes-4",
+          "manufacturing-processes-classes-5",
+          "manufacturing-processes-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Forming & Casting",
+        "capacity": 4,
+        "itemIds": [
+          "manufacturing-processes-classes-7",
+          "manufacturing-processes-classes-8",
+          "manufacturing-processes-classes-9",
+          "manufacturing-processes-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by manufacturing category: Additive (Stereolithography SLA), Joining (TIG Welding, Torch Brazing), Subtractive Machining (CNC Milling, Lathe Turning, Surface Grinding), and Forming & Casting (Drop Forging, Die Casting, Extrusion, Sheet Metal Stamping).",
+  "sources": [
+    {
+      "title": "ASME: Manufacturing Engineering",
+      "url": "https://www.asme.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

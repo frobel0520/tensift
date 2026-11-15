@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "paper-screen-aspect-ratios-001",
+  "theme": "Standard Aspect Ratios",
+  "publishDate": "2027-05-08",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "paper-screen-aspect-ratios-10",
+        "rivalGroupId": "group-2",
+        "risk": "US Letter is a standard office paper size like A4.",
+        "resolution": "US Letter (8.5×11 in, ~1:1.294) does not follow the ISO 216 1:√2 ratio (group-2)."
+      },
+      {
+        "itemId": "paper-screen-aspect-ratios-7",
+        "rivalGroupId": "group-3",
+        "risk": "4:3 was used in classic cinema.",
+        "resolution": "4:3 is the narrower pre-widescreen standard (group-4), distinct from modern widescreen ratios >= 1.78 (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

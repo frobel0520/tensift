@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "utc-timezone-offsets-2027-03-06-es-419",
+  "puzzleFamilyId": "utc-timezone-offsets-001",
+  "locale": "es-419",
+  "publishDate": "2027-03-06",
+  "timezone": "UTC",
+  "theme": "Desfases horarios UTC estándar",
+  "items": [
+    {
+      "itemId": "utc-timezone-offsets-4",
+      "label": "París"
+    },
+    {
+      "itemId": "utc-timezone-offsets-8",
+      "label": "Seúl"
+    },
+    {
+      "itemId": "utc-timezone-offsets-1",
+      "label": "Nueva York"
+    },
+    {
+      "itemId": "utc-timezone-offsets-6",
+      "label": "Roma"
+    },
+    {
+      "itemId": "utc-timezone-offsets-10",
+      "label": "Dili"
+    },
+    {
+      "itemId": "utc-timezone-offsets-2",
+      "label": "Londres"
+    },
+    {
+      "itemId": "utc-timezone-offsets-7",
+      "label": "Tokio"
+    },
+    {
+      "itemId": "utc-timezone-offsets-5",
+      "label": "Berlín"
+    },
+    {
+      "itemId": "utc-timezone-offsets-9",
+      "label": "Pionyang"
+    },
+    {
+      "itemId": "utc-timezone-offsets-3",
+      "label": "Lisboa"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Desfase UTC estándar (sin horario de verano) de cada ciudad",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "UTC-5 (estándar)",
+        "capacity": 1,
+        "itemIds": [
+          "utc-timezone-offsets-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "UTC+0 (estándar)",
+        "capacity": 2,
+        "itemIds": [
+          "utc-timezone-offsets-2",
+          "utc-timezone-offsets-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "UTC+1 (estándar)",
+        "capacity": 3,
+        "itemIds": [
+          "utc-timezone-offsets-4",
+          "utc-timezone-offsets-5",
+          "utc-timezone-offsets-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "UTC+9 (estándar)",
+        "capacity": 4,
+        "itemIds": [
+          "utc-timezone-offsets-7",
+          "utc-timezone-offsets-8",
+          "utc-timezone-offsets-9",
+          "utc-timezone-offsets-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por desfase UTC en hora estándar: UTC-5 (Nueva York), UTC+0 (Londres, Lisboa), UTC+1 (París, Berlín, Roma) y UTC+9 (Tokio, Seúl, Pionyang, Dili).",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

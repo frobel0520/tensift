@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "space-telescopes-wavelengths-001",
+  "theme": "Space Telescopes by Wavelength",
+  "publishDate": "2027-06-09",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "space-telescopes-wavelengths-7",
+        "rivalGroupId": "group-3",
+        "risk": "JWST is often seen as the successor to Hubble.",
+        "resolution": "Unlike optical/UV Hubble (group-3), JWST is optimized for infrared astronomy (group-4)."
+      },
+      {
+        "itemId": "space-telescopes-wavelengths-1",
+        "rivalGroupId": "group-2",
+        "risk": "Gamma-ray and X-ray are both high-energy astronomy.",
+        "resolution": "Fermi observes gamma rays (group-1), higher energy than X-ray telescopes Chandra and XMM-Newton (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

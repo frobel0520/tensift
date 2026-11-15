@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "cheese-classification-milk-001",
+  "theme": "World Cheeses by Style",
+  "publishDate": "2027-09-09",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "cheese-classification-milk-1",
+        "rivalGroupId": "group-2",
+        "risk": "Fresh mozzarella is soft like Brie.",
+        "resolution": "Fresh mozzarella is an unripened spun-curd cheese (group-1), lacking the Penicillium candidum bloomy rind of Brie and Camembert (group-2)."
+      },
+      {
+        "itemId": "cheese-classification-milk-4",
+        "rivalGroupId": "group-2",
+        "risk": "Roquefort uses mold ripening like Brie.",
+        "resolution": "Blue cheeses are internally veined with Penicillium roqueforti (group-3), not surface-ripened with white mold (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

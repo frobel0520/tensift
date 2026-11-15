@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "capital-cities-latitude-001",
+  "theme": "World Capitals by Latitude",
+  "publishDate": "2027-03-27",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "capital-cities-latitude-1",
+        "rivalGroupId": "group-3",
+        "risk": "Bangkok is a hot Southeast Asian capital like Singapore.",
+        "resolution": "Bangkok sits at ~13.75°N (group-1), well north of the <5° equatorial zone containing Singapore (group-3)."
+      },
+      {
+        "itemId": "capital-cities-latitude-4",
+        "rivalGroupId": "group-4",
+        "risk": "Ecuador lies in South America.",
+        "resolution": "Quito sits at 0.18°S right on the equator (group-3), unlike Brasília at 15.8°S (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "karst-landforms-speleothems-2027-03-25-en",
+  "puzzleFamilyId": "karst-landforms-speleothems-001",
+  "locale": "en",
+  "publishDate": "2027-03-25",
+  "timezone": "UTC",
+  "theme": "Karst & Cave Formations",
+  "items": [
+    {
+      "itemId": "karst-landforms-speleothems-4",
+      "label": "Stalactite"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-8",
+      "label": "Karst Valley"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-1",
+      "label": "Column"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-6",
+      "label": "Drapery (Curtain)"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-10",
+      "label": "Tower Karst"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-2",
+      "label": "Stalagmite"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-7",
+      "label": "Sinkhole"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-5",
+      "label": "Soda Straw"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-9",
+      "label": "Limestone Pavement"
+    },
+    {
+      "itemId": "karst-landforms-speleothems-3",
+      "label": "Flowstone"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Formation position (Joined Column, Cave Floor, Cave Ceiling, or Surface Karst)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Ceiling-to-Floor",
+        "capacity": 1,
+        "itemIds": [
+          "karst-landforms-speleothems-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Cave Floor",
+        "capacity": 2,
+        "itemIds": [
+          "karst-landforms-speleothems-2",
+          "karst-landforms-speleothems-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Cave Ceiling",
+        "capacity": 3,
+        "itemIds": [
+          "karst-landforms-speleothems-4",
+          "karst-landforms-speleothems-5",
+          "karst-landforms-speleothems-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Surface Karst",
+        "capacity": 4,
+        "itemIds": [
+          "karst-landforms-speleothems-7",
+          "karst-landforms-speleothems-8",
+          "karst-landforms-speleothems-9",
+          "karst-landforms-speleothems-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by formation position: Joined ceiling-to-floor (Column), Cave floor speleothems (Stalagmite, Flowstone), Cave ceiling speleothems (Stalactite, Soda Straw, Drapery), and Surface dissolution karst (Sinkhole, Karst Valley, Limestone Pavement, Tower Karst).",
+  "sources": [
+    {
+      "title": "NPS: Caves and Karst",
+      "url": "https://www.nps.gov/subjects/caves/index.htm",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

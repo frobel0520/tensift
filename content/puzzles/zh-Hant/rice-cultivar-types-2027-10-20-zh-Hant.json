@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "rice-cultivar-types-2027-10-20-zh-hant",
+  "puzzleFamilyId": "rice-cultivar-types-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-10-20",
+  "timezone": "UTC",
+  "theme": "世界稻米品種與特性",
+  "items": [
+    {
+      "itemId": "rice-cultivar-types-4",
+      "label": "義大利阿博里奧燉飯米"
+    },
+    {
+      "itemId": "rice-cultivar-types-8",
+      "label": "泰國茉莉香米"
+    },
+    {
+      "itemId": "rice-cultivar-types-1",
+      "label": "黑秈米（紫黑米）"
+    },
+    {
+      "itemId": "rice-cultivar-types-6",
+      "label": "日本越光米"
+    },
+    {
+      "itemId": "rice-cultivar-types-10",
+      "label": "預熟蒸穀米（Parboiled）"
+    },
+    {
+      "itemId": "rice-cultivar-types-2",
+      "label": "泰國長糯米"
+    },
+    {
+      "itemId": "rice-cultivar-types-7",
+      "label": "印度巴斯馬蒂香米"
+    },
+    {
+      "itemId": "rice-cultivar-types-5",
+      "label": "義大利卡納羅利燉飯米"
+    },
+    {
+      "itemId": "rice-cultivar-types-9",
+      "label": "標準長粒白米"
+    },
+    {
+      "itemId": "rice-cultivar-types-3",
+      "label": "日本圓糯米（Mochigome）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各稻米品種的澱粉特性與料理分類（紫黑米、糯米類、短圓粒壽司／燉飯米或長秈香米／長粒米）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "花青素黑紫米",
+        "capacity": 1,
+        "itemIds": [
+          "rice-cultivar-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "高黏性糯米",
+        "capacity": 2,
+        "itemIds": [
+          "rice-cultivar-types-2",
+          "rice-cultivar-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "短圓粒壽司與燉飯米",
+        "capacity": 3,
+        "itemIds": [
+          "rice-cultivar-types-4",
+          "rice-cultivar-types-5",
+          "rice-cultivar-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "長粒秈米與蒸穀米",
+        "capacity": 4,
+        "itemIds": [
+          "rice-cultivar-types-7",
+          "rice-cultivar-types-8",
+          "rice-cultivar-types-9",
+          "rice-cultivar-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依稻米品種分類：花青素黑米（黑紫米）、高黏性糯米（泰國長糯米、日本圓糯米 Mochigome）、短圓粒粳米（義大利燉飯米 Arborio、卡納羅利米 Carnaroli、日本越光米）與長粒秈米（印度香米 Basmati、泰國茉莉香米、長粒白米、蒸穀米 Parboiled）。",
+  "sources": [
+    {
+      "title": "IRRI: International Rice Research Institute",
+      "url": "https://www.irri.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

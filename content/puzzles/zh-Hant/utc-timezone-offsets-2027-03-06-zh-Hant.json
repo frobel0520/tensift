@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "utc-timezone-offsets-2027-03-06-zh-hant",
+  "puzzleFamilyId": "utc-timezone-offsets-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-06",
+  "timezone": "UTC",
+  "theme": "標準時區 UTC 偏移量",
+  "items": [
+    {
+      "itemId": "utc-timezone-offsets-4",
+      "label": "巴黎"
+    },
+    {
+      "itemId": "utc-timezone-offsets-8",
+      "label": "首爾"
+    },
+    {
+      "itemId": "utc-timezone-offsets-1",
+      "label": "紐約"
+    },
+    {
+      "itemId": "utc-timezone-offsets-6",
+      "label": "羅馬"
+    },
+    {
+      "itemId": "utc-timezone-offsets-10",
+      "label": "帝力"
+    },
+    {
+      "itemId": "utc-timezone-offsets-2",
+      "label": "倫敦"
+    },
+    {
+      "itemId": "utc-timezone-offsets-7",
+      "label": "東京"
+    },
+    {
+      "itemId": "utc-timezone-offsets-5",
+      "label": "柏林"
+    },
+    {
+      "itemId": "utc-timezone-offsets-9",
+      "label": "平壤"
+    },
+    {
+      "itemId": "utc-timezone-offsets-3",
+      "label": "里斯本"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各城市在標準時間（非夏令時間）下的 UTC 偏移量",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "UTC-5（標準時間）",
+        "capacity": 1,
+        "itemIds": [
+          "utc-timezone-offsets-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "UTC+0（標準時間）",
+        "capacity": 2,
+        "itemIds": [
+          "utc-timezone-offsets-2",
+          "utc-timezone-offsets-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "UTC+1（標準時間）",
+        "capacity": 3,
+        "itemIds": [
+          "utc-timezone-offsets-4",
+          "utc-timezone-offsets-5",
+          "utc-timezone-offsets-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "UTC+9（標準時間）",
+        "capacity": 4,
+        "itemIds": [
+          "utc-timezone-offsets-7",
+          "utc-timezone-offsets-8",
+          "utc-timezone-offsets-9",
+          "utc-timezone-offsets-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依標準時間 UTC 偏移量分類：UTC-5（紐約）、UTC+0（倫敦、里斯本）、UTC+1（巴黎、柏林、羅馬）與 UTC+9（東京、首爾、平壤、帝力）。",
+  "sources": [
+    {
+      "title": "IANA Time Zone Database",
+      "url": "https://www.iana.org/time-zones",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

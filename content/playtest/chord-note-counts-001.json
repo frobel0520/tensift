@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "chord-note-counts-001",
+  "theme": "Chords by Pitch Count",
+  "publishDate": "2027-04-13",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "chord-note-counts-2",
+        "rivalGroupId": "group-3",
+        "risk": "Power chords are called chords.",
+        "resolution": "A power chord contains only root and fifth (2 pitch classes, group-2), lacking the third of a triad (group-3)."
+      },
+      {
+        "itemId": "chord-note-counts-7",
+        "rivalGroupId": "group-3",
+        "risk": "Major Seventh shares Major with Major Triad.",
+        "resolution": "Seventh chords add a fourth note (the 7th) on top of the triad (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

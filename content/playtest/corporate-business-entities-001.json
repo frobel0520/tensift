@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "corporate-business-entities-001",
+  "theme": "Business Legal Entities",
+  "publishDate": "2027-11-16",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "corporate-business-entities-1",
+        "rivalGroupId": "group-2",
+        "risk": "Sole proprietorships and general partnerships both carry unlimited personal liability.",
+        "resolution": "A sole proprietorship has a single individual owner (group-1), whereas partnerships require two or more co-owners (group-2)."
+      },
+      {
+        "itemId": "corporate-business-entities-9",
+        "rivalGroupId": "group-2",
+        "risk": "An LLC can be taxed as a partnership.",
+        "resolution": "An LLC is a statutory limited-liability entity shielding owners from personal business debt (group-4), unlike a general/limited partnership (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

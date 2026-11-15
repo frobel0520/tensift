@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "tennis-scoring-terms-2027-08-14-en",
+  "puzzleFamilyId": "tennis-scoring-terms-001",
+  "locale": "en",
+  "publishDate": "2027-08-14",
+  "timezone": "UTC",
+  "theme": "Tennis Match & Scoring Terms",
+  "items": [
+    {
+      "itemId": "tennis-scoring-terms-4",
+      "label": "Point"
+    },
+    {
+      "itemId": "tennis-scoring-terms-8",
+      "label": "Fifteen (15)"
+    },
+    {
+      "itemId": "tennis-scoring-terms-1",
+      "label": "7-Point Tiebreak"
+    },
+    {
+      "itemId": "tennis-scoring-terms-6",
+      "label": "Set"
+    },
+    {
+      "itemId": "tennis-scoring-terms-10",
+      "label": "Forty (40)"
+    },
+    {
+      "itemId": "tennis-scoring-terms-2",
+      "label": "Deuce (40–40)"
+    },
+    {
+      "itemId": "tennis-scoring-terms-7",
+      "label": "Love (0)"
+    },
+    {
+      "itemId": "tennis-scoring-terms-5",
+      "label": "Game"
+    },
+    {
+      "itemId": "tennis-scoring-terms-9",
+      "label": "Thirty (30)"
+    },
+    {
+      "itemId": "tennis-scoring-terms-3",
+      "label": "Advantage (Ad)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Tennis scoring category (Tiebreak, Deuce/Advantage States, Match Structure Units, or Game Point Calls)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Tiebreak",
+        "capacity": 1,
+        "itemIds": [
+          "tennis-scoring-terms-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Deuce & Advantage",
+        "capacity": 2,
+        "itemIds": [
+          "tennis-scoring-terms-2",
+          "tennis-scoring-terms-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Match Structure Units",
+        "capacity": 3,
+        "itemIds": [
+          "tennis-scoring-terms-4",
+          "tennis-scoring-terms-5",
+          "tennis-scoring-terms-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Game Point Calls",
+        "capacity": 4,
+        "itemIds": [
+          "tennis-scoring-terms-7",
+          "tennis-scoring-terms-8",
+          "tennis-scoring-terms-9",
+          "tennis-scoring-terms-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by tennis scoring category: Tiebreak (7-Point Tiebreak), Deuce & Advantage (Deuce, Advantage), Match Units (Point, Game, Set), and Game Point Calls (Love, Fifteen, Thirty, Forty).",
+  "sources": [
+    {
+      "title": "ITF Rules of Tennis",
+      "url": "https://www.itftennis.com/en/about-us/governance/rules-and-regulations/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "si-base-quantities-2026-11-29-zh-hant",
+  "puzzleFamilyId": "si-base-quantities-001",
+  "locale": "zh-Hant",
+  "publishDate": "2026-11-29",
+  "timezone": "UTC",
+  "theme": "國際單位制基本量",
+  "items": [
+    {
+      "itemId": "si-base-quantities-4",
+      "label": "馬拉松距離"
+    },
+    {
+      "itemId": "si-base-quantities-8",
+      "label": "放射性半衰期"
+    },
+    {
+      "itemId": "si-base-quantities-1",
+      "label": "水的沸點"
+    },
+    {
+      "itemId": "si-base-quantities-6",
+      "label": "光波波長"
+    },
+    {
+      "itemId": "si-base-quantities-10",
+      "label": "銫原子躍遷週期"
+    },
+    {
+      "itemId": "si-base-quantities-2",
+      "label": "亞佛加厥數個原子"
+    },
+    {
+      "itemId": "si-base-quantities-7",
+      "label": "單擺週期"
+    },
+    {
+      "itemId": "si-base-quantities-5",
+      "label": "原子半徑"
+    },
+    {
+      "itemId": "si-base-quantities-9",
+      "label": "快門曝光時間"
+    },
+    {
+      "itemId": "si-base-quantities-3",
+      "label": "化學計量反應物數"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "對應的國際單位制基本單位",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "克耳文（熱力學溫度）",
+        "capacity": 1,
+        "itemIds": [
+          "si-base-quantities-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "莫耳（物量）",
+        "capacity": 2,
+        "itemIds": [
+          "si-base-quantities-2",
+          "si-base-quantities-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "公尺（長度）",
+        "capacity": 3,
+        "itemIds": [
+          "si-base-quantities-4",
+          "si-base-quantities-5",
+          "si-base-quantities-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "秒（時間）",
+        "capacity": 4,
+        "itemIds": [
+          "si-base-quantities-7",
+          "si-base-quantities-8",
+          "si-base-quantities-9",
+          "si-base-quantities-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依國際單位制基本單位分類：克耳文（溫度）、莫耳（物量）、公尺（長度）、秒（時間）。",
+  "sources": [
+    {
+      "title": "BIPM: SI Base Units",
+      "url": "https://www.bipm.org/en/measurement-units/si-base-units",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

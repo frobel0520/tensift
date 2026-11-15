@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "musical-dynamics-levels-2027-04-18-zh-hant",
+  "puzzleFamilyId": "musical-dynamics-levels-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-18",
+  "timezone": "UTC",
+  "theme": "音樂力度記號分類",
+  "items": [
+    {
+      "itemId": "musical-dynamics-levels-4",
+      "label": "Mezzo-forte (mf 中強)"
+    },
+    {
+      "itemId": "musical-dynamics-levels-8",
+      "label": "Diminuendo（漸弱）"
+    },
+    {
+      "itemId": "musical-dynamics-levels-1",
+      "label": "Pianissimo (pp 極弱)"
+    },
+    {
+      "itemId": "musical-dynamics-levels-6",
+      "label": "Fortissimo (ff 極強)"
+    },
+    {
+      "itemId": "musical-dynamics-levels-10",
+      "label": "Forte-piano (fp 強後即弱)"
+    },
+    {
+      "itemId": "musical-dynamics-levels-2",
+      "label": "Piano (p 弱)"
+    },
+    {
+      "itemId": "musical-dynamics-levels-7",
+      "label": "Crescendo（漸強）"
+    },
+    {
+      "itemId": "musical-dynamics-levels-5",
+      "label": "Forte (f 強)"
+    },
+    {
+      "itemId": "musical-dynamics-levels-9",
+      "label": "Sforzando (sfz 突強)"
+    },
+    {
+      "itemId": "musical-dynamics-levels-3",
+      "label": "Mezzo-piano (mp 中弱)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各音樂力度記號的音量等級或變化類型（極弱、弱、強或漸變／突強）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "極弱音量",
+        "capacity": 1,
+        "itemIds": [
+          "musical-dynamics-levels-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "弱音量",
+        "capacity": 2,
+        "itemIds": [
+          "musical-dynamics-levels-2",
+          "musical-dynamics-levels-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "強音量",
+        "capacity": 3,
+        "itemIds": [
+          "musical-dynamics-levels-4",
+          "musical-dynamics-levels-5",
+          "musical-dynamics-levels-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "力度漸變與突強",
+        "capacity": 4,
+        "itemIds": [
+          "musical-dynamics-levels-7",
+          "musical-dynamics-levels-8",
+          "musical-dynamics-levels-9",
+          "musical-dynamics-levels-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依力度功能分類：極弱（pp）、弱音量（p、mp）、強音量（mf、f、ff）與力度變化／突強（Crescendo 漸強、Diminuendo 漸弱、Sforzando 突強、fp 強後即弱）。",
+  "sources": [
+    {
+      "title": "Britannica: Dynamics in Music",
+      "url": "https://www.britannica.com/art/dynamics-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "sound-acoustics-001",
+  "theme": "Acoustics & Sound",
+  "publishDate": "2026-12-26",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "sound-acoustics-1",
+        "rivalGroupId": "group-3",
+        "risk": "Doppler effect changes perceived frequency.",
+        "resolution": "Doppler effect is a specific motion-induced shift (group-1), distinct from frequency units and bands (group-3)."
+      },
+      {
+        "itemId": "sound-acoustics-10",
+        "rivalGroupId": "group-3",
+        "risk": "Bats emit ultrasonic pulses.",
+        "resolution": "Echolocation relies on detecting reflected sound echoes (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

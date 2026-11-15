@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "coastal-landforms-process-001",
+  "theme": "Coastal Landforms",
+  "publishDate": "2027-03-26",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "coastal-landforms-process-1",
+        "rivalGroupId": "group-3",
+        "risk": "Atolls form ring-shaped islands like barrier islands.",
+        "resolution": "Atolls are built by coral growth around a subsiding volcanic island (group-1), not sand drift (group-3)."
+      },
+      {
+        "itemId": "coastal-landforms-process-9",
+        "rivalGroupId": "group-3",
+        "risk": "A sea stack stands offshore like a small island.",
+        "resolution": "A sea stack is a rocky remnant left behind after a sea arch collapses due to wave erosion (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

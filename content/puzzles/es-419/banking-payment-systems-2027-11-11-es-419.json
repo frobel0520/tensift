@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "banking-payment-systems-2027-11-11-es-419",
+  "puzzleFamilyId": "banking-payment-systems-001",
+  "locale": "es-419",
+  "publishDate": "2027-11-11",
+  "timezone": "UTC",
+  "theme": "Sistemas de pago y liquidación bancaria",
+  "items": [
+    {
+      "itemId": "banking-payment-systems-4",
+      "label": "Red Visa"
+    },
+    {
+      "itemId": "banking-payment-systems-8",
+      "label": "Red ACH (EE. UU.)"
+    },
+    {
+      "itemId": "banking-payment-systems-1",
+      "label": "Red Lightning de Bitcoin"
+    },
+    {
+      "itemId": "banking-payment-systems-6",
+      "label": "Red American Express"
+    },
+    {
+      "itemId": "banking-payment-systems-10",
+      "label": "Faster Payments (Reino Unido)"
+    },
+    {
+      "itemId": "banking-payment-systems-2",
+      "label": "Mensajería interbancaria SWIFT"
+    },
+    {
+      "itemId": "banking-payment-systems-7",
+      "label": "Fedwire (EE. UU.)"
+    },
+    {
+      "itemId": "banking-payment-systems-5",
+      "label": "Red Mastercard"
+    },
+    {
+      "itemId": "banking-payment-systems-9",
+      "label": "Zona SEPA (Eurozona)"
+    },
+    {
+      "itemId": "banking-payment-systems-3",
+      "label": "Liquidación cambiaria CLS"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Capa de liquidación de cada red de pagos",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Capa cripto descentralizada",
+        "capacity": 1,
+        "itemIds": [
+          "banking-payment-systems-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Mensajería y liquidación transfronteriza",
+        "capacity": 2,
+        "itemIds": [
+          "banking-payment-systems-2",
+          "banking-payment-systems-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Redes de tarjetas de pago",
+        "capacity": 3,
+        "itemIds": [
+          "banking-payment-systems-4",
+          "banking-payment-systems-5",
+          "banking-payment-systems-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Rieles de transferencia bancaria",
+        "capacity": 4,
+        "itemIds": [
+          "banking-payment-systems-7",
+          "banking-payment-systems-8",
+          "banking-payment-systems-9",
+          "banking-payment-systems-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por red: libro descentralizado (Bitcoin Lightning), mensajería y liquidación transfronteriza (SWIFT, CLS FX), redes de tarjetas (Visa, Mastercard, American Express) y rieles bancarios domésticos/regionales (Fedwire, ACH, SEPA eurozona, Faster Payments Reino Unido).",
+  "sources": [
+    {
+      "title": "BIS Committee on Payments and Market Infrastructures",
+      "url": "https://www.bis.org/cpmi/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

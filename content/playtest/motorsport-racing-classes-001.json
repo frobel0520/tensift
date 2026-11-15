@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "motorsport-racing-classes-001",
+  "theme": "Motorsport Racing Classes",
+  "publishDate": "2027-08-21",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "motorsport-racing-classes-1",
+        "rivalGroupId": "group-4",
+        "risk": "Top Fuel dragsters are four-wheeled open-wheel cars.",
+        "resolution": "Drag racing is a 1,000-foot straight-line acceleration sprint (group-1), not closed-circuit lap racing (group-4)."
+      },
+      {
+        "itemId": "motorsport-racing-classes-5",
+        "rivalGroupId": "group-2",
+        "risk": "Motocross races on dirt tracks.",
+        "resolution": "MXGP is a two-wheeled FIM motorcycle championship (group-3), not four-wheeled rally/raid (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "medical-imaging-modalities-001",
+  "theme": "Diagnostic Medical Imaging",
+  "publishDate": "2027-12-09",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "medical-imaging-modalities-8",
+        "rivalGroupId": "group-3",
+        "risk": "CT and MRI are both 3D cross-sectional tomographic scanners.",
+        "resolution": "CT rotates an ionizing X-ray tube around the body (group-4), whereas MRI uses non-ionizing magnetic fields and radio waves (group-3)."
+      },
+      {
+        "itemId": "medical-imaging-modalities-2",
+        "rivalGroupId": "group-4",
+        "risk": "PET scans are frequently combined with CT scanners.",
+        "resolution": "PET detects gamma rays emitted from an injected radiotracer inside the body (group-2), not external X-ray transmission (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

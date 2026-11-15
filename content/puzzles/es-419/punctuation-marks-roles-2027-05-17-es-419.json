@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "punctuation-marks-roles-2027-05-17-es-419",
+  "puzzleFamilyId": "punctuation-marks-roles-001",
+  "locale": "es-419",
+  "publishDate": "2027-05-17",
+  "timezone": "UTC",
+  "theme": "Signos de puntuación por función",
+  "items": [
+    {
+      "itemId": "punctuation-marks-roles-4",
+      "label": "Coma (,)"
+    },
+    {
+      "itemId": "punctuation-marks-roles-8",
+      "label": "Corchetes [ ]"
+    },
+    {
+      "itemId": "punctuation-marks-roles-1",
+      "label": "Apóstrofo (')"
+    },
+    {
+      "itemId": "punctuation-marks-roles-6",
+      "label": "Dos puntos (:)"
+    },
+    {
+      "itemId": "punctuation-marks-roles-10",
+      "label": "Paréntesis angulares < >"
+    },
+    {
+      "itemId": "punctuation-marks-roles-2",
+      "label": "Signo de interrogación (?)"
+    },
+    {
+      "itemId": "punctuation-marks-roles-7",
+      "label": "Paréntesis ( )"
+    },
+    {
+      "itemId": "punctuation-marks-roles-5",
+      "label": "Punto y coma (;)"
+    },
+    {
+      "itemId": "punctuation-marks-roles-9",
+      "label": "Comillas \" \""
+    },
+    {
+      "itemId": "punctuation-marks-roles-3",
+      "label": "Signo de exclamación (!)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Función sintáctica de cada signo de puntuación",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Signo intraléxico",
+        "capacity": 1,
+        "itemIds": [
+          "punctuation-marks-roles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Signos de cierre",
+        "capacity": 2,
+        "itemIds": [
+          "punctuation-marks-roles-2",
+          "punctuation-marks-roles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Separadores de cláusula",
+        "capacity": 3,
+        "itemIds": [
+          "punctuation-marks-roles-4",
+          "punctuation-marks-roles-5",
+          "punctuation-marks-roles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Pares envolventes",
+        "capacity": 4,
+        "itemIds": [
+          "punctuation-marks-roles-7",
+          "punctuation-marks-roles-8",
+          "punctuation-marks-roles-9",
+          "punctuation-marks-roles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por función: apóstrofo (apóstrofo), cierre de oración (signo de interrogación, exclamación), separadores internos (coma, punto y coma, dos puntos) y pares envolventes (paréntesis, corchetes, comillas, paréntesis angulares).",
+  "sources": [
+    {
+      "title": "Chicago Manual of Style: Punctuation",
+      "url": "https://www.chicagomanualofstyle.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

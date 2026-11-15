@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "soil-macronutrients-plants-2027-10-06-es-419",
+  "puzzleFamilyId": "soil-macronutrients-plants-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-06",
+  "timezone": "UTC",
+  "theme": "Nutrientes minerales esenciales en plantas",
+  "items": [
+    {
+      "itemId": "soil-macronutrients-plants-4",
+      "label": "Nitrógeno (N)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-8",
+      "label": "Zinc (Zn)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-1",
+      "label": "Carbono (C del CO2)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-6",
+      "label": "Potasio (K)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-10",
+      "label": "Manganeso (Mn)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-2",
+      "label": "Calcio (Ca)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-7",
+      "label": "Hierro (Fe)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-5",
+      "label": "Fósforo (P)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-9",
+      "label": "Boro (B)"
+    },
+    {
+      "itemId": "soil-macronutrients-plants-3",
+      "label": "Magnesio (Mg)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Categoría nutricional vegetal de cada elemento",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Elemento no mineral",
+        "capacity": 1,
+        "itemIds": [
+          "soil-macronutrients-plants-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Macronutrientes secundarios",
+        "capacity": 2,
+        "itemIds": [
+          "soil-macronutrients-plants-2",
+          "soil-macronutrients-plants-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Macronutrientes primarios (NPK)",
+        "capacity": 3,
+        "itemIds": [
+          "soil-macronutrients-plants-4",
+          "soil-macronutrients-plants-5",
+          "soil-macronutrients-plants-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Micronutrientes",
+        "capacity": 4,
+        "itemIds": [
+          "soil-macronutrients-plants-7",
+          "soil-macronutrients-plants-8",
+          "soil-macronutrients-plants-9",
+          "soil-macronutrients-plants-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por nutrición vegetal: no mineral (carbono del CO2), macronutrientes secundarios (calcio, magnesio), macronutrientes primarios NPK (nitrógeno, fósforo, potasio) y micronutrientes (hierro, zinc, boro, manganeso).",
+  "sources": [
+    {
+      "title": "FAO: Plant Nutrition & Fertilizers",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

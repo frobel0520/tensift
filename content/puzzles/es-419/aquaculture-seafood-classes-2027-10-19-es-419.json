@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "aquaculture-seafood-classes-2027-10-19-es-419",
+  "puzzleFamilyId": "aquaculture-seafood-classes-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-19",
+  "timezone": "UTC",
+  "theme": "Mariscos y pescados por grupo biológico",
+  "items": [
+    {
+      "itemId": "aquaculture-seafood-classes-4",
+      "label": "Ostra del Pacífico"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-8",
+      "label": "Cangrejo real"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-1",
+      "label": "Erizo de mar"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-6",
+      "label": "Vieira"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-10",
+      "label": "Cangrejo de río"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-2",
+      "label": "Calamar"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-7",
+      "label": "Langosta del Atlántico"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-5",
+      "label": "Mejillón azul"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-9",
+      "label": "Langostino tigre"
+    },
+    {
+      "itemId": "aquaculture-seafood-classes-3",
+      "label": "Pulpo común"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Grupo biológico de cada marisco culinario",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Equinodermo",
+        "capacity": 1,
+        "itemIds": [
+          "aquaculture-seafood-classes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Cefalópodos",
+        "capacity": 2,
+        "itemIds": [
+          "aquaculture-seafood-classes-2",
+          "aquaculture-seafood-classes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Moluscos bivalvos",
+        "capacity": 3,
+        "itemIds": [
+          "aquaculture-seafood-classes-4",
+          "aquaculture-seafood-classes-5",
+          "aquaculture-seafood-classes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Crustáceos decápodos",
+        "capacity": 4,
+        "itemIds": [
+          "aquaculture-seafood-classes-7",
+          "aquaculture-seafood-classes-8",
+          "aquaculture-seafood-classes-9",
+          "aquaculture-seafood-classes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por biología: equinodermo (erizo de mar), cefalópodos (calamar, pulpo común), bivalvos (ostra, mejillón, vieira) y crustáceos decápodos (langosta, cangrejo real, langostino tigre, cangrejo de río).",
+  "sources": [
+    {
+      "title": "FAO: Aquatic Species Fact Sheets",
+      "url": "https://www.fao.org/fishery/en/species",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

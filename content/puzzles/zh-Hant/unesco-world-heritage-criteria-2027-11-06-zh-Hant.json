@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "unesco-world-heritage-criteria-2027-11-06-zh-hant",
+  "puzzleFamilyId": "unesco-world-heritage-criteria-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-11-06",
+  "timezone": "UTC",
+  "theme": "世界史上著名帝國興盛時期",
+  "items": [
+    {
+      "itemId": "unesco-world-heritage-criteria-4",
+      "label": "阿拉伯倭馬亞王朝"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-8",
+      "label": "印度蒙兀兒帝國"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-1",
+      "label": "波斯阿契美尼德帝國"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-6",
+      "label": "西非馬利帝國"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-10",
+      "label": "中國清朝"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-2",
+      "label": "羅馬帝國"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-7",
+      "label": "鄂圖曼土耳其帝國"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-5",
+      "label": "蒙古帝國"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-9",
+      "label": "西班牙殖民帝國"
+    },
+    {
+      "itemId": "unesco-world-heritage-criteria-3",
+      "label": "中國漢朝"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各歷史帝國達到鼎盛的時代（近東早期、古典時代、中世紀 600–1450 年或近代早期 1450–1800 年）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "鐵器時代近東帝國",
+        "capacity": 1,
+        "itemIds": [
+          "unesco-world-heritage-criteria-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "古典大帝國時代",
+        "capacity": 2,
+        "itemIds": [
+          "unesco-world-heritage-criteria-2",
+          "unesco-world-heritage-criteria-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "中世紀帝國（650–1400 年）",
+        "capacity": 3,
+        "itemIds": [
+          "unesco-world-heritage-criteria-4",
+          "unesco-world-heritage-criteria-5",
+          "unesco-world-heritage-criteria-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "近代早期帝國（1500–1800 年）",
+        "capacity": 4,
+        "itemIds": [
+          "unesco-world-heritage-criteria-7",
+          "unesco-world-heritage-criteria-8",
+          "unesco-world-heritage-criteria-9",
+          "unesco-world-heritage-criteria-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依鼎盛時期分類：鐵器近東古典前期（波斯阿契美尼德帝國）、東西古典大帝國（羅馬帝國、漢朝）、中世紀時期（倭馬亞王朝、蒙古帝國、馬利帝國）與近代早期大帝國（鄂圖曼帝國、蒙兀兒帝國、西班牙帝國、清朝）。",
+  "sources": [
+    {
+      "title": "Britannica: World Empires Timeline",
+      "url": "https://www.britannica.com/topic/empire-political-science",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

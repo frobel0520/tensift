@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "woodworking-joinery-types-2027-05-09-en",
+  "puzzleFamilyId": "woodworking-joinery-types-001",
+  "locale": "en",
+  "publishDate": "2027-05-09",
+  "timezone": "UTC",
+  "theme": "Woodworking Joinery",
+  "items": [
+    {
+      "itemId": "woodworking-joinery-types-4",
+      "label": "Through Dovetail"
+    },
+    {
+      "itemId": "woodworking-joinery-types-8",
+      "label": "Blind Mortise and Tenon"
+    },
+    {
+      "itemId": "woodworking-joinery-types-1",
+      "label": "Biscuit Joint"
+    },
+    {
+      "itemId": "woodworking-joinery-types-6",
+      "label": "Box (Finger) Joint"
+    },
+    {
+      "itemId": "woodworking-joinery-types-10",
+      "label": "Pegged Tenon Joint"
+    },
+    {
+      "itemId": "woodworking-joinery-types-2",
+      "label": "Butt Joint"
+    },
+    {
+      "itemId": "woodworking-joinery-types-7",
+      "label": "Through Mortise and Tenon"
+    },
+    {
+      "itemId": "woodworking-joinery-types-5",
+      "label": "Half-Blind Dovetail"
+    },
+    {
+      "itemId": "woodworking-joinery-types-9",
+      "label": "Bridle Joint"
+    },
+    {
+      "itemId": "woodworking-joinery-types-3",
+      "label": "Half-Lap Joint"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Joinery family (Biscuit Edge Joint, Butt/Lap, Dovetail/Box, or Mortise & Tenon)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Biscuit Edge Joint",
+        "capacity": 1,
+        "itemIds": [
+          "woodworking-joinery-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Butt & Lap Joints",
+        "capacity": 2,
+        "itemIds": [
+          "woodworking-joinery-types-2",
+          "woodworking-joinery-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Dovetail & Box Joints",
+        "capacity": 3,
+        "itemIds": [
+          "woodworking-joinery-types-4",
+          "woodworking-joinery-types-5",
+          "woodworking-joinery-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Mortise & Tenon Family",
+        "capacity": 4,
+        "itemIds": [
+          "woodworking-joinery-types-7",
+          "woodworking-joinery-types-8",
+          "woodworking-joinery-types-9",
+          "woodworking-joinery-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by joinery family: Edge Biscuit (Biscuit Joint), Butt & Lap (Butt Joint, Half-Lap Joint), Dovetail & Finger/Box (Through Dovetail, Half-Blind Dovetail, Box/Finger Joint), and Mortise & Tenon (Through Mortise & Tenon, Blind Mortise & Tenon, Bridle Joint, Pegged Tenon).",
+  "sources": [
+    {
+      "title": "Britannica: Woodworking Joinery",
+      "url": "https://www.britannica.com/technology/joinery",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

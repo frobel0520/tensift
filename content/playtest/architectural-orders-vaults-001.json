@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "architectural-orders-vaults-001",
+  "theme": "Classical & Gothic Architecture",
+  "publishDate": "2027-04-21",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "architectural-orders-vaults-1",
+        "rivalGroupId": "group-3",
+        "risk": "Tuscan is one of the five classical orders.",
+        "resolution": "Tuscan was developed in Roman/Renaissance theory (group-1), distinct from the three canonical Greek orders (group-3)."
+      },
+      {
+        "itemId": "architectural-orders-vaults-8",
+        "rivalGroupId": "group-2",
+        "risk": "Pointed Arch is an arch form.",
+        "resolution": "Pointed arches are a defining structural hallmark of Gothic architecture (group-4), whereas keystone and voussoir are individual masonry stones (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

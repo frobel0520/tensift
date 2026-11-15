@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "vegetable-botanical-parts-2027-09-23-es-419",
+  "puzzleFamilyId": "vegetable-botanical-parts-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-23",
+  "timezone": "UTC",
+  "theme": "Verduras por órgano vegetal",
+  "items": [
+    {
+      "itemId": "vegetable-botanical-parts-4",
+      "label": "Espinaca"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-8",
+      "label": "Pepino"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-1",
+      "label": "Alcachofa"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-6",
+      "label": "Lechuga romana"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-10",
+      "label": "Calabacín"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-2",
+      "label": "Cebolla amarilla"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-7",
+      "label": "Tomate"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-5",
+      "label": "Tallo de apio"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-9",
+      "label": "Pimiento morrón"
+    },
+    {
+      "itemId": "vegetable-botanical-parts-3",
+      "label": "Ajo"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Órgano vegetal comestible de cada verdura culinaria",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Botón floral",
+        "capacity": 1,
+        "itemIds": [
+          "vegetable-botanical-parts-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Bulbos subterráneos",
+        "capacity": 2,
+        "itemIds": [
+          "vegetable-botanical-parts-2",
+          "vegetable-botanical-parts-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Hojas y pecíolos",
+        "capacity": 3,
+        "itemIds": [
+          "vegetable-botanical-parts-4",
+          "vegetable-botanical-parts-5",
+          "vegetable-botanical-parts-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Frutos botánicos",
+        "capacity": 4,
+        "itemIds": [
+          "vegetable-botanical-parts-7",
+          "vegetable-botanical-parts-8",
+          "vegetable-botanical-parts-9",
+          "vegetable-botanical-parts-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por órgano: botón floral (alcachofa), bulbos subterráneos (cebolla, ajo), hojas y pecíolos (espinaca, apio, lechuga romana) y frutos botánicos usados como verdura (tomate, pepino, pimiento morrón, calabacín).",
+  "sources": [
+    {
+      "title": "USDA Plant Parts Used as Food",
+      "url": "https://www.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

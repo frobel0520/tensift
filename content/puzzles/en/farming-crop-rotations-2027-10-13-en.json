@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "farming-crop-rotations-2027-10-13-en",
+  "puzzleFamilyId": "farming-crop-rotations-001",
+  "locale": "en",
+  "publishDate": "2027-10-13",
+  "timezone": "UTC",
+  "theme": "Agronomy & Farming Systems",
+  "items": [
+    {
+      "itemId": "farming-crop-rotations-4",
+      "label": "Apple Orchard"
+    },
+    {
+      "itemId": "farming-crop-rotations-8",
+      "label": "Upland Cotton"
+    },
+    {
+      "itemId": "farming-crop-rotations-1",
+      "label": "NFT Hydroponics"
+    },
+    {
+      "itemId": "farming-crop-rotations-6",
+      "label": "Almond Orchard"
+    },
+    {
+      "itemId": "farming-crop-rotations-10",
+      "label": "Row-Crop Soybean"
+    },
+    {
+      "itemId": "farming-crop-rotations-2",
+      "label": "Crimson Clover Cover"
+    },
+    {
+      "itemId": "farming-crop-rotations-7",
+      "label": "Field Maize (Corn)"
+    },
+    {
+      "itemId": "farming-crop-rotations-5",
+      "label": "Olive Grove"
+    },
+    {
+      "itemId": "farming-crop-rotations-9",
+      "label": "Winter Wheat"
+    },
+    {
+      "itemId": "farming-crop-rotations-3",
+      "label": "Winter Rye Cover Crop"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Cultivation system (Soilless Hydroponics/Aeroponics, Cover & Soil-Building Crops, Perennial Tree Orchards, or Annual Field Row Crops)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Soilless Hydroponics",
+        "capacity": 1,
+        "itemIds": [
+          "farming-crop-rotations-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Soil-Building Cover Crops",
+        "capacity": 2,
+        "itemIds": [
+          "farming-crop-rotations-2",
+          "farming-crop-rotations-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Perennial Woody Orchards",
+        "capacity": 3,
+        "itemIds": [
+          "farming-crop-rotations-4",
+          "farming-crop-rotations-5",
+          "farming-crop-rotations-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Annual Field Row Crops",
+        "capacity": 4,
+        "itemIds": [
+          "farming-crop-rotations-7",
+          "farming-crop-rotations-8",
+          "farming-crop-rotations-9",
+          "farming-crop-rotations-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by farming system: Soilless Controlled Environment (NFT Hydroponics), Soil-Building Cover Crops (Crimson Clover Cover, Winter Rye Cover), Perennial Woody Orchards (Apple Orchard, Olive Grove, Almond Orchard), and Annual Field Row Crops (Field Corn / Maize, Upland Cotton, Winter Wheat, Soybean Row Crop).",
+  "sources": [
+    {
+      "title": "USDA Sustainable Agriculture & Agronomy",
+      "url": "https://www.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

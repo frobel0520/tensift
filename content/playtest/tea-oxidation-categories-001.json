@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "tea-oxidation-categories-001",
+  "theme": "True Teas by Oxidation Level",
+  "publishDate": "2027-09-07",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "tea-oxidation-categories-1",
+        "rivalGroupId": "group-4",
+        "risk": "Pu-erh brews dark reddish-brown like black tea.",
+        "resolution": "Pu-erh undergoes microbial post-fermentation (hei cha, group-1), distinct from enzymatic polyphenol oxidation in black/oolong teas (group-4)."
+      },
+      {
+        "itemId": "tea-oxidation-categories-2",
+        "rivalGroupId": "group-3",
+        "risk": "Silver Needle brews pale like green tea.",
+        "resolution": "White teas are withered and dried without pan-firing or steaming kill-green (group-2), unlike unoxidized green teas (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

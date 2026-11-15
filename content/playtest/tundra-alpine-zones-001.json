@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "tundra-alpine-zones-001",
+  "theme": "Elevation Vegetation Zones",
+  "publishDate": "2027-04-01",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "tundra-alpine-zones-4",
+        "rivalGroupId": "group-2",
+        "risk": "Krummholz trees are stunted like alpine shrubs.",
+        "resolution": "Krummholz consists of wind-sculpted trees forming the upper edge of the subalpine zone (group-3), right up to the treeline."
+      },
+      {
+        "itemId": "tundra-alpine-zones-7",
+        "rivalGroupId": "group-3",
+        "risk": "Cloud forests are high and misty.",
+        "resolution": "Montane cloud forests occur in the mid-elevation montane belt (group-4), well below the subalpine conifer zone."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "soil-texture-particles-2027-09-18-zh-hant",
+  "puzzleFamilyId": "soil-texture-particles-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-18",
+  "timezone": "UTC",
+  "theme": "土壤質地粒徑與土層",
+  "items": [
+    {
+      "itemId": "soil-texture-particles-4",
+      "label": "標準壤土（Loam）"
+    },
+    {
+      "itemId": "soil-texture-particles-8",
+      "label": "A 層（表土層）"
+    },
+    {
+      "itemId": "soil-texture-particles-1",
+      "label": "腐殖質（Humus）"
+    },
+    {
+      "itemId": "soil-texture-particles-6",
+      "label": "粉質黏壤土"
+    },
+    {
+      "itemId": "soil-texture-particles-10",
+      "label": "C 層（風化母質層）"
+    },
+    {
+      "itemId": "soil-texture-particles-2",
+      "label": "砂粒（0.05–2.0 mm）"
+    },
+    {
+      "itemId": "soil-texture-particles-7",
+      "label": "O 層（有機質層）"
+    },
+    {
+      "itemId": "soil-texture-particles-5",
+      "label": "砂質壤土"
+    },
+    {
+      "itemId": "soil-texture-particles-9",
+      "label": "B 層（澱積底土層）"
+    },
+    {
+      "itemId": "soil-texture-particles-3",
+      "label": "粉粒（0.002–0.05 mm）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "土壤學名詞的分類（有機腐殖質、礦物粒徑分級、壤土混合質地或土壤剖面層位）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "分解有機質",
+        "capacity": 1,
+        "itemIds": [
+          "soil-texture-particles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "礦物粒徑分級",
+        "capacity": 2,
+        "itemIds": [
+          "soil-texture-particles-2",
+          "soil-texture-particles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "壤土質地類別",
+        "capacity": 3,
+        "itemIds": [
+          "soil-texture-particles-4",
+          "soil-texture-particles-5",
+          "soil-texture-particles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "土壤剖面層位",
+        "capacity": 4,
+        "itemIds": [
+          "soil-texture-particles-7",
+          "soil-texture-particles-8",
+          "soil-texture-particles-9",
+          "soil-texture-particles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依土壤學分類：有機質（腐殖質 Humus）、礦物粒徑分級（砂粒、粉粒）、壤土質地類別（砂質壤土、粉質黏壤土、標準壤土）與土壤剖面層位（O 層有機層、A 層表土層、B 層底土層、C 層母質層）。",
+  "sources": [
+    {
+      "title": "USDA NRCS Soil Texture & Horizons",
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-texture-calculator",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

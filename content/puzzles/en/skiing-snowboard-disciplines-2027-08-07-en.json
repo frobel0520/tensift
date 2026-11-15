@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "skiing-snowboard-disciplines-2027-08-07-en",
+  "puzzleFamilyId": "skiing-snowboard-disciplines-001",
+  "locale": "en",
+  "publishDate": "2027-08-07",
+  "timezone": "UTC",
+  "theme": "Skiing & Snowboarding",
+  "items": [
+    {
+      "itemId": "skiing-snowboard-disciplines-4",
+      "label": "Moguls"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-8",
+      "label": "Super-G"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-1",
+      "label": "Biathlon (Ski + Rifle)"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-6",
+      "label": "Slopestyle"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-10",
+      "label": "Alpine Slalom"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-2",
+      "label": "Ski Jumping"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-7",
+      "label": "Alpine Downhill"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-5",
+      "label": "Halfpipe"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-9",
+      "label": "Giant Slalom"
+    },
+    {
+      "itemId": "skiing-snowboard-disciplines-3",
+      "label": "Nordic Combined"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Snow sport discipline (Biathlon, Jumping & Combined, Freestyle/Snowboard, or Alpine Racing)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Biathlon",
+        "capacity": 1,
+        "itemIds": [
+          "skiing-snowboard-disciplines-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Jumping & Nordic Combined",
+        "capacity": 2,
+        "itemIds": [
+          "skiing-snowboard-disciplines-2",
+          "skiing-snowboard-disciplines-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Freestyle & Snowboarding",
+        "capacity": 3,
+        "itemIds": [
+          "skiing-snowboard-disciplines-4",
+          "skiing-snowboard-disciplines-5",
+          "skiing-snowboard-disciplines-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Alpine Skiing",
+        "capacity": 4,
+        "itemIds": [
+          "skiing-snowboard-disciplines-7",
+          "skiing-snowboard-disciplines-8",
+          "skiing-snowboard-disciplines-9",
+          "skiing-snowboard-disciplines-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by snow discipline: Biathlon (Skiing + Rifle Shooting), Jumping & Combined (Ski Jumping, Nordic Combined), Freestyle & Snowboarding (Moguls, Halfpipe, Slopestyle), and Alpine Skiing (Downhill, Super-G, Giant Slalom, Slalom).",
+  "sources": [
+    {
+      "title": "FIS: Ski & Snowboard Disciplines",
+      "url": "https://www.fis-ski.com/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

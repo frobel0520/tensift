@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "planetary-probes-destinations-001",
+  "theme": "Planetary Probes & Rovers",
+  "publishDate": "2027-06-13",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "planetary-probes-destinations-1",
+        "rivalGroupId": "group-2",
+        "risk": "MESSENGER flew past Venus twice on its way.",
+        "resolution": "MESSENGER’s primary science mission was orbiting Mercury (group-1)."
+      },
+      {
+        "itemId": "planetary-probes-destinations-3",
+        "rivalGroupId": "group-4",
+        "risk": "Magellan mapped a terrestrial planet with radar.",
+        "resolution": "Magellan orbited Venus (group-2), not Mars (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

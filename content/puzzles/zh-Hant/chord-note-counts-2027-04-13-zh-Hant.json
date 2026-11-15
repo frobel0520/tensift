@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chord-note-counts-2027-04-13-zh-hant",
+  "puzzleFamilyId": "chord-note-counts-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-13",
+  "timezone": "UTC",
+  "theme": "和弦與音程的組成音數",
+  "items": [
+    {
+      "itemId": "chord-note-counts-4",
+      "label": "大三和弦"
+    },
+    {
+      "itemId": "chord-note-counts-8",
+      "label": "屬七和弦"
+    },
+    {
+      "itemId": "chord-note-counts-1",
+      "label": "單音（單聲部）"
+    },
+    {
+      "itemId": "chord-note-counts-6",
+      "label": "減三和弦"
+    },
+    {
+      "itemId": "chord-note-counts-10",
+      "label": "減七和弦"
+    },
+    {
+      "itemId": "chord-note-counts-2",
+      "label": "強力和弦（五度）"
+    },
+    {
+      "itemId": "chord-note-counts-7",
+      "label": "大七和弦"
+    },
+    {
+      "itemId": "chord-note-counts-5",
+      "label": "小三和弦"
+    },
+    {
+      "itemId": "chord-note-counts-9",
+      "label": "小七和弦"
+    },
+    {
+      "itemId": "chord-note-counts-3",
+      "label": "雙音和聲"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各音樂和聲結構所包含的不同音高數量（1、2、3 或 4 個音）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "1 個音",
+        "capacity": 1,
+        "itemIds": [
+          "chord-note-counts-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "2 個音",
+        "capacity": 2,
+        "itemIds": [
+          "chord-note-counts-2",
+          "chord-note-counts-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "3 個音（三和弦）",
+        "capacity": 3,
+        "itemIds": [
+          "chord-note-counts-4",
+          "chord-note-counts-5",
+          "chord-note-counts-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "4 個音（七和弦）",
+        "capacity": 4,
+        "itemIds": [
+          "chord-note-counts-7",
+          "chord-note-counts-8",
+          "chord-note-counts-9",
+          "chord-note-counts-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依組成音數分類：1 個音（單音）、2 個音（強力和弦、雙音和聲）、3 個音（大三和弦、小三和弦、減三和弦）與 4 個音（大七和弦、屬七和弦、小七和弦、減七和弦）。",
+  "sources": [
+    {
+      "title": "Britannica: Chord in Music",
+      "url": "https://www.britannica.com/art/chord-music",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "classic-authors-nationalities-2027-05-27-zh-hant",
+  "puzzleFamilyId": "classic-authors-nationalities-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-05-27",
+  "timezone": "UTC",
+  "theme": "世界經典文學家國籍",
+  "items": [
+    {
+      "itemId": "classic-authors-nationalities-4",
+      "label": "列夫·托爾斯泰"
+    },
+    {
+      "itemId": "classic-authors-nationalities-8",
+      "label": "珍·奧斯汀"
+    },
+    {
+      "itemId": "classic-authors-nationalities-1",
+      "label": "漢斯·克里斯蒂安·安徒生"
+    },
+    {
+      "itemId": "classic-authors-nationalities-6",
+      "label": "安東·契訶夫"
+    },
+    {
+      "itemId": "classic-authors-nationalities-10",
+      "label": "喬治·歐威爾"
+    },
+    {
+      "itemId": "classic-authors-nationalities-2",
+      "label": "格林兄弟"
+    },
+    {
+      "itemId": "classic-authors-nationalities-7",
+      "label": "查爾斯·狄更斯"
+    },
+    {
+      "itemId": "classic-authors-nationalities-5",
+      "label": "杜斯妥也夫斯基"
+    },
+    {
+      "itemId": "classic-authors-nationalities-9",
+      "label": "瑪麗·雪萊"
+    },
+    {
+      "itemId": "classic-authors-nationalities-3",
+      "label": "E. T. A. 霍夫曼"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各位經典作家的國籍（丹麥、德國、俄國或英國）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "丹麥",
+        "capacity": 1,
+        "itemIds": [
+          "classic-authors-nationalities-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "德國",
+        "capacity": 2,
+        "itemIds": [
+          "classic-authors-nationalities-2",
+          "classic-authors-nationalities-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "俄國",
+        "capacity": 3,
+        "itemIds": [
+          "classic-authors-nationalities-4",
+          "classic-authors-nationalities-5",
+          "classic-authors-nationalities-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "英國",
+        "capacity": 4,
+        "itemIds": [
+          "classic-authors-nationalities-7",
+          "classic-authors-nationalities-8",
+          "classic-authors-nationalities-9",
+          "classic-authors-nationalities-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依作家國籍分類：丹麥（安徒生）、德國（格林兄弟、霍夫曼）、俄國（托爾斯泰、杜斯妥也夫斯基、契訶夫）與英國（狄更斯、珍·奧斯汀、瑪麗·雪萊、喬治·歐威爾）。",
+  "sources": [
+    {
+      "title": "Britannica: World Literature Authors",
+      "url": "https://www.britannica.com/art/Western-literature",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "beer-styles-fermentation-2027-09-27-en",
+  "puzzleFamilyId": "beer-styles-fermentation-001",
+  "locale": "en",
+  "publishDate": "2027-09-27",
+  "timezone": "UTC",
+  "theme": "Beer Styles by Fermentation",
+  "items": [
+    {
+      "itemId": "beer-styles-fermentation-4",
+      "label": "Bohemian Pilsner"
+    },
+    {
+      "itemId": "beer-styles-fermentation-8",
+      "label": "Irish Dry Stout"
+    },
+    {
+      "itemId": "beer-styles-fermentation-1",
+      "label": "Belgian Lambic"
+    },
+    {
+      "itemId": "beer-styles-fermentation-6",
+      "label": "Vienna Lager"
+    },
+    {
+      "itemId": "beer-styles-fermentation-10",
+      "label": "Belgian Tripel"
+    },
+    {
+      "itemId": "beer-styles-fermentation-2",
+      "label": "Bavarian Hefeweizen"
+    },
+    {
+      "itemId": "beer-styles-fermentation-7",
+      "label": "India Pale Ale (IPA)"
+    },
+    {
+      "itemId": "beer-styles-fermentation-5",
+      "label": "Munich Helles"
+    },
+    {
+      "itemId": "beer-styles-fermentation-9",
+      "label": "English Brown Porter"
+    },
+    {
+      "itemId": "beer-styles-fermentation-3",
+      "label": "Belgian Witbier"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Yeast & fermentation class (Spontaneous Wild Lambic, Wheat/Weissbier Ales, Bottom-Fermented Lagers, or Top-Fermented Barley Ales)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Spontaneous Wild Lambic",
+        "capacity": 1,
+        "itemIds": [
+          "beer-styles-fermentation-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Wheat Beers (Weissbier)",
+        "capacity": 2,
+        "itemIds": [
+          "beer-styles-fermentation-2",
+          "beer-styles-fermentation-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Bottom-Fermented Lagers",
+        "capacity": 3,
+        "itemIds": [
+          "beer-styles-fermentation-4",
+          "beer-styles-fermentation-5",
+          "beer-styles-fermentation-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Top-Fermented Barley Ales",
+        "capacity": 4,
+        "itemIds": [
+          "beer-styles-fermentation-7",
+          "beer-styles-fermentation-8",
+          "beer-styles-fermentation-9",
+          "beer-styles-fermentation-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by fermentation class: Spontaneous Wild Fermentation (Belgian Lambic), Wheat-Malt Top-Fermented (Hefeweizen, Belgian Witbier), Bottom-Fermented Lagers (Czech Pilsner, Munich Helles, Vienna Lager), and Top-Fermented Barley Ales (India Pale Ale, Irish Dry Stout, English Porter, Belgian Tripel).",
+  "sources": [
+    {
+      "title": "Brewers Association Beer Style Guidelines",
+      "url": "https://www.brewersassociation.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

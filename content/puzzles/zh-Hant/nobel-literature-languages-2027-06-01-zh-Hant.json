@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "nobel-literature-languages-2027-06-01-zh-hant",
+  "puzzleFamilyId": "nobel-literature-languages-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-01",
+  "timezone": "UTC",
+  "theme": "諾貝爾文學獎得主語言",
+  "items": [
+    {
+      "itemId": "nobel-literature-languages-4",
+      "label": "加布列·賈西亞·馬奎斯"
+    },
+    {
+      "itemId": "nobel-literature-languages-8",
+      "label": "石黑一雄"
+    },
+    {
+      "itemId": "nobel-literature-languages-1",
+      "label": "納吉布·馬哈福茲"
+    },
+    {
+      "itemId": "nobel-literature-languages-6",
+      "label": "馬里奧·巴爾加斯·尤薩"
+    },
+    {
+      "itemId": "nobel-literature-languages-10",
+      "label": "歐內斯特·海明威"
+    },
+    {
+      "itemId": "nobel-literature-languages-2",
+      "label": "川端康成"
+    },
+    {
+      "itemId": "nobel-literature-languages-7",
+      "label": "東妮·莫里森"
+    },
+    {
+      "itemId": "nobel-literature-languages-5",
+      "label": "巴勃羅·聶魯達"
+    },
+    {
+      "itemId": "nobel-literature-languages-9",
+      "label": "謝默斯·希尼"
+    },
+    {
+      "itemId": "nobel-literature-languages-3",
+      "label": "大江健三郎"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各位諾貝爾文學獎得主的主要創作語言（阿拉伯語、日語、西班牙語或英語）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "阿拉伯語",
+        "capacity": 1,
+        "itemIds": [
+          "nobel-literature-languages-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "日語",
+        "capacity": 2,
+        "itemIds": [
+          "nobel-literature-languages-2",
+          "nobel-literature-languages-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "西班牙語",
+        "capacity": 3,
+        "itemIds": [
+          "nobel-literature-languages-4",
+          "nobel-literature-languages-5",
+          "nobel-literature-languages-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "英語",
+        "capacity": 4,
+        "itemIds": [
+          "nobel-literature-languages-7",
+          "nobel-literature-languages-8",
+          "nobel-literature-languages-9",
+          "nobel-literature-languages-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依主要創作語言分類：阿拉伯語（納吉布·馬哈福茲）、日語（川端康成、大江健三郎）、西班牙語（馬奎斯、聶魯達、尤薩）與英語（東妮·莫里森、石黑一雄、謝默斯·希尼、海明威）。",
+  "sources": [
+    {
+      "title": "Nobel Prize in Literature Laureates",
+      "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

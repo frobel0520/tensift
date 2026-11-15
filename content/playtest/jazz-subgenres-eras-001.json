@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "jazz-subgenres-eras-001",
+  "theme": "Jazz Styles by Era",
+  "publishDate": "2027-05-07",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "jazz-subgenres-eras-1",
+        "rivalGroupId": "group-2",
+        "risk": "Ragtime overlapped with early New Orleans jazz.",
+        "resolution": "Ragtime peaked from the 1890s to 1910s (group-1) as a piano precursor to 1920s jazz (group-2)."
+      },
+      {
+        "itemId": "jazz-subgenres-eras-8",
+        "rivalGroupId": "group-3",
+        "risk": "Kind of Blue was recorded in 1959.",
+        "resolution": "Modal Jazz flourished throughout the 1960s alongside Free Jazz and Fusion (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

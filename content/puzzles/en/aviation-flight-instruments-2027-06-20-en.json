@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "aviation-flight-instruments-2027-06-20-en",
+  "puzzleFamilyId": "aviation-flight-instruments-001",
+  "locale": "en",
+  "publishDate": "2027-06-20",
+  "timezone": "UTC",
+  "theme": "Aircraft Flight Instruments",
+  "items": [
+    {
+      "itemId": "aviation-flight-instruments-4",
+      "label": "Airspeed Indicator"
+    },
+    {
+      "itemId": "aviation-flight-instruments-8",
+      "label": "ILS (Instrument Landing System)"
+    },
+    {
+      "itemId": "aviation-flight-instruments-1",
+      "label": "Magnetic Compass"
+    },
+    {
+      "itemId": "aviation-flight-instruments-6",
+      "label": "Vertical Speed Indicator"
+    },
+    {
+      "itemId": "aviation-flight-instruments-10",
+      "label": "GNSS / Aviation GPS"
+    },
+    {
+      "itemId": "aviation-flight-instruments-2",
+      "label": "Attitude Indicator"
+    },
+    {
+      "itemId": "aviation-flight-instruments-7",
+      "label": "VOR Receiver"
+    },
+    {
+      "itemId": "aviation-flight-instruments-5",
+      "label": "Altimeter"
+    },
+    {
+      "itemId": "aviation-flight-instruments-9",
+      "label": "ADF (Automatic Direction Finder)"
+    },
+    {
+      "itemId": "aviation-flight-instruments-3",
+      "label": "Heading Indicator"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Measurement principle (Magnetic, Gyroscopic, Pitot-Static Pressure, or Radio/Satellite Navigation)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Magnetic Sensor",
+        "capacity": 1,
+        "itemIds": [
+          "aviation-flight-instruments-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Gyroscopic Instruments",
+        "capacity": 2,
+        "itemIds": [
+          "aviation-flight-instruments-2",
+          "aviation-flight-instruments-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Pitot-Static System",
+        "capacity": 3,
+        "itemIds": [
+          "aviation-flight-instruments-4",
+          "aviation-flight-instruments-5",
+          "aviation-flight-instruments-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Radio & Satellite Navigation",
+        "capacity": 4,
+        "itemIds": [
+          "aviation-flight-instruments-7",
+          "aviation-flight-instruments-8",
+          "aviation-flight-instruments-9",
+          "aviation-flight-instruments-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by sensing principle: Magnetic (Magnetic Compass), Gyroscopic (Attitude Indicator, Heading Indicator), Pitot-Static Air Data (Airspeed Indicator, Altimeter, Vertical Speed Indicator), and Radio/Satellite Navigation (VOR, ILS, ADF, GNSS/GPS).",
+  "sources": [
+    {
+      "title": "FAA: Pilot's Handbook of Aeronautical Knowledge",
+      "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

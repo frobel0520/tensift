@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "human-skeleton-regions-001",
+  "theme": "Human Skeleton Bones",
+  "publishDate": "2027-02-01",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "human-skeleton-regions-1",
+        "rivalGroupId": "group-2",
+        "risk": "Sternum, mandible, and maxilla are all part of the axial skeleton.",
+        "resolution": "The sternum is in the chest/thorax (group-1), distinct from skull bones (group-2)."
+      },
+      {
+        "itemId": "human-skeleton-regions-5",
+        "rivalGroupId": "group-4",
+        "risk": "Radius and fibula are both slender paired bones.",
+        "resolution": "The radius is in the forearm (group-3), whereas the fibula is in the lower leg (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

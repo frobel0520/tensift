@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "english-loanwords-origins-001",
+  "theme": "English Loanwords by Origin",
+  "publishDate": "2027-05-22",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "english-loanwords-origins-1",
+        "rivalGroupId": "group-4",
+        "risk": "Yacht has silent letters like French loanwords.",
+        "resolution": "Yacht derives from Early Modern Dutch jaght (group-1), not French (group-4)."
+      },
+      {
+        "itemId": "english-loanwords-origins-2",
+        "rivalGroupId": "group-4",
+        "risk": "Algebra entered English via Medieval Latin and Old French.",
+        "resolution": "Algebra ultimately originates from Arabic al-jabr (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

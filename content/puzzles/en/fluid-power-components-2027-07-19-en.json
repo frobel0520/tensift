@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "fluid-power-components-2027-07-19-en",
+  "puzzleFamilyId": "fluid-power-components-001",
+  "locale": "en",
+  "publishDate": "2027-07-19",
+  "timezone": "UTC",
+  "theme": "Hydraulics & Pneumatics",
+  "items": [
+    {
+      "itemId": "fluid-power-components-4",
+      "label": "Linear Hydraulic Cylinder"
+    },
+    {
+      "itemId": "fluid-power-components-8",
+      "label": "Pressure Relief Valve"
+    },
+    {
+      "itemId": "fluid-power-components-1",
+      "label": "Hydraulic Accumulator"
+    },
+    {
+      "itemId": "fluid-power-components-6",
+      "label": "Pneumatic Piston Cylinder"
+    },
+    {
+      "itemId": "fluid-power-components-10",
+      "label": "Needle Flow Valve"
+    },
+    {
+      "itemId": "fluid-power-components-2",
+      "label": "External Gear Pump"
+    },
+    {
+      "itemId": "fluid-power-components-7",
+      "label": "Check Valve"
+    },
+    {
+      "itemId": "fluid-power-components-5",
+      "label": "Rotary Vane Actuator"
+    },
+    {
+      "itemId": "fluid-power-components-9",
+      "label": "Spool Directional Valve"
+    },
+    {
+      "itemId": "fluid-power-components-3",
+      "label": "Reciprocating Air Compressor"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Fluid power role (Energy Storage Accumulator, Pumps/Compressors, Actuators, or Control Valves)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Pressure Storage",
+        "capacity": 1,
+        "itemIds": [
+          "fluid-power-components-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Pumps & Compressors",
+        "capacity": 2,
+        "itemIds": [
+          "fluid-power-components-2",
+          "fluid-power-components-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Actuators",
+        "capacity": 3,
+        "itemIds": [
+          "fluid-power-components-4",
+          "fluid-power-components-5",
+          "fluid-power-components-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Control Valves",
+        "capacity": 4,
+        "itemIds": [
+          "fluid-power-components-7",
+          "fluid-power-components-8",
+          "fluid-power-components-9",
+          "fluid-power-components-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by fluid power role: Storage (Hydraulic Accumulator), Pressure Generation (Gear Pump, Reciprocating Compressor), Actuators (Hydraulic Cylinder, Rotary Vane Actuator, Pneumatic Piston), and Control Valves (Check Valve, Pressure Relief Valve, Spool Directional Valve, Needle Flow Valve).",
+  "sources": [
+    {
+      "title": "ISO 1219: Fluid Power Systems",
+      "url": "https://www.iso.org/standard/52304.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

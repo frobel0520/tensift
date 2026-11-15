@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "number-sequences-001",
+  "theme": "Integer Sequences",
+  "publishDate": "2027-02-13",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "number-sequences-1",
+        "rivalGroupId": "group-2",
+        "risk": "1, 1, 2, 3, 5, 8 grows roughly exponentially.",
+        "resolution": "Each term equals the sum of the previous two (Fibonacci recurrence, group-1), not a constant ratio."
+      },
+      {
+        "itemId": "number-sequences-8",
+        "rivalGroupId": "group-3",
+        "risk": "1, 3, 6, 10, 15 starts small like an arithmetic sequence.",
+        "resolution": "Its first differences are 2, 3, 4, 5 (constant second difference 1), making it quadratic (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

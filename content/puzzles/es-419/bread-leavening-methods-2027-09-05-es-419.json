@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "bread-leavening-methods-2027-09-05-es-419",
+  "puzzleFamilyId": "bread-leavening-methods-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-05",
+  "timezone": "UTC",
+  "theme": "Métodos de leudado en panadería",
+  "items": [
+    {
+      "itemId": "bread-leavening-methods-4",
+      "label": "Pan de soda irlandés"
+    },
+    {
+      "itemId": "bread-leavening-methods-8",
+      "label": "Brioche"
+    },
+    {
+      "itemId": "bread-leavening-methods-1",
+      "label": "Pasta choux"
+    },
+    {
+      "itemId": "bread-leavening-methods-6",
+      "label": "Muffin con polvo de hornear"
+    },
+    {
+      "itemId": "bread-leavening-methods-10",
+      "label": "Masa de pizza napolitana"
+    },
+    {
+      "itemId": "bread-leavening-methods-2",
+      "label": "Pan de masa madre"
+    },
+    {
+      "itemId": "bread-leavening-methods-7",
+      "label": "Baguette francesa"
+    },
+    {
+      "itemId": "bread-leavening-methods-5",
+      "label": "Biscuit de suero de leche"
+    },
+    {
+      "itemId": "bread-leavening-methods-9",
+      "label": "Focaccia"
+    },
+    {
+      "itemId": "bread-leavening-methods-3",
+      "label": "Pain de campagne"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Agente leudante principal de cada producto horneado",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Leudado por vapor",
+        "capacity": 1,
+        "itemIds": [
+          "bread-leavening-methods-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Masa madre silvestre",
+        "capacity": 2,
+        "itemIds": [
+          "bread-leavening-methods-2",
+          "bread-leavening-methods-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Leudantes químicos",
+        "capacity": 3,
+        "itemIds": [
+          "bread-leavening-methods-4",
+          "bread-leavening-methods-5",
+          "bread-leavening-methods-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Levadura comercial",
+        "capacity": 4,
+        "itemIds": [
+          "bread-leavening-methods-7",
+          "bread-leavening-methods-8",
+          "bread-leavening-methods-9",
+          "bread-leavening-methods-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por leudante: vapor (pasta choux), masa madre silvestre (pan de masa madre, pain de campagne), leudantes químicos (pan de soda irlandés, biscuit, muffin) y levadura comercial (baguette, brioche, focaccia, masa de pizza).",
+  "sources": [
+    {
+      "title": "USDA FoodData Central: Baked Products",
+      "url": "https://fdc.nal.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

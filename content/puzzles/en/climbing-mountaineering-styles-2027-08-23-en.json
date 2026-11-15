@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "climbing-mountaineering-styles-2027-08-23-en",
+  "puzzleFamilyId": "climbing-mountaineering-styles-001",
+  "locale": "en",
+  "publishDate": "2027-08-23",
+  "timezone": "UTC",
+  "theme": "Climbing & Mountaineering",
+  "items": [
+    {
+      "itemId": "climbing-mountaineering-styles-4",
+      "label": "Lead Sport Climbing"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-8",
+      "label": "Via Ferrata"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-1",
+      "label": "Waterfall Ice Climbing"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-6",
+      "label": "Traditional (Trad) Climbing"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-10",
+      "label": "Big Wall Climbing"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-2",
+      "label": "Bouldering"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-7",
+      "label": "High-Altitude Mountaineering"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-5",
+      "label": "Top-Rope Climbing"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-9",
+      "label": "Aid Climbing"
+    },
+    {
+      "itemId": "climbing-mountaineering-styles-3",
+      "label": "Speed Climbing"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Climbing style (Ice Climbing, Unroped/Timed Competition, Roped Rock Climbing, or Alpine/Assisted Ascent)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Ice Climbing",
+        "capacity": 1,
+        "itemIds": [
+          "climbing-mountaineering-styles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Bouldering & Speed",
+        "capacity": 2,
+        "itemIds": [
+          "climbing-mountaineering-styles-2",
+          "climbing-mountaineering-styles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Roped Rock Climbing",
+        "capacity": 3,
+        "itemIds": [
+          "climbing-mountaineering-styles-4",
+          "climbing-mountaineering-styles-5",
+          "climbing-mountaineering-styles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Alpine & Assisted Ascent",
+        "capacity": 4,
+        "itemIds": [
+          "climbing-mountaineering-styles-7",
+          "climbing-mountaineering-styles-8",
+          "climbing-mountaineering-styles-9",
+          "climbing-mountaineering-styles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by climbing style: Ice Climbing (Waterfall Ice Climbing), Competition Boulder/Speed (Bouldering, Speed Climbing), Roped Rock Climbing (Lead Sport Climbing, Top-Rope Climbing, Traditional Gear Climbing), and Alpine & Assisted (High-Altitude Mountaineering, Via Ferrata, Aid Climbing, Big Wall Climbing).",
+  "sources": [
+    {
+      "title": "IFSC & UIAA Climbing Standards",
+      "url": "https://www.ifsc-climbing.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

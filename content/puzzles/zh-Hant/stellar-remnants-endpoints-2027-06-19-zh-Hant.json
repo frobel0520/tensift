@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "stellar-remnants-endpoints-2027-06-19-zh-hant",
+  "puzzleFamilyId": "stellar-remnants-endpoints-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-19",
+  "timezone": "UTC",
+  "theme": "恆星演化殘骸與黑洞",
+  "items": [
+    {
+      "itemId": "stellar-remnants-endpoints-4",
+      "label": "電波脈衝星"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-8",
+      "label": "中等質量黑洞"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-1",
+      "label": "褐矮星"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-6",
+      "label": "毫秒脈衝星"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-10",
+      "label": "太初黑洞"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-2",
+      "label": "碳氧白矮星"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-7",
+      "label": "恆星級黑洞"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-5",
+      "label": "磁星（Magnetar）"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-9",
+      "label": "超大質量黑洞"
+    },
+    {
+      "itemId": "stellar-remnants-endpoints-3",
+      "label": "氦白矮星"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各天體在恆星演化末期或次恆星狀態下的物理類別",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "次恆星天體",
+        "capacity": 1,
+        "itemIds": [
+          "stellar-remnants-endpoints-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "白矮星",
+        "capacity": 2,
+        "itemIds": [
+          "stellar-remnants-endpoints-2",
+          "stellar-remnants-endpoints-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "中子星家族",
+        "capacity": 3,
+        "itemIds": [
+          "stellar-remnants-endpoints-4",
+          "stellar-remnants-endpoints-5",
+          "stellar-remnants-endpoints-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "黑洞家族",
+        "capacity": 4,
+        "itemIds": [
+          "stellar-remnants-endpoints-7",
+          "stellar-remnants-endpoints-8",
+          "stellar-remnants-endpoints-9",
+          "stellar-remnants-endpoints-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依緻密天體類別分類：次恆星（褐矮星）、電子簡併態白矮星（碳氧白矮星、氦白矮星）、中子星（電波脈衝星、磁星、毫秒脈衝星）與黑洞（恆星級黑洞、中等質量黑洞、超大質量黑洞、太初黑洞）。",
+  "sources": [
+    {
+      "title": "NASA: Black Holes & Neutron Stars",
+      "url": "https://science.nasa.gov/astrophysics/focus-areas/black-holes/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

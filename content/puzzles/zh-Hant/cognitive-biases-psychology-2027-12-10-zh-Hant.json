@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "cognitive-biases-psychology-2027-12-10-zh-hant",
+  "puzzleFamilyId": "cognitive-biases-psychology-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-10",
+  "timezone": "UTC",
+  "theme": "心理學常見認知偏誤",
+  "items": [
+    {
+      "itemId": "cognitive-biases-psychology-4",
+      "label": "可得性捷思法"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-8",
+      "label": "信念固著效應"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-1",
+      "label": "後見之明偏誤（事後諸葛）"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-6",
+      "label": "沉沒成本謬誤"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-10",
+      "label": "過度自信偏誤"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-2",
+      "label": "基本歸因謬誤"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-7",
+      "label": "確認偏誤"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-5",
+      "label": "定錨效應"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-9",
+      "label": "達克效應（能力錯覺）"
+    },
+    {
+      "itemId": "cognitive-biases-psychology-3",
+      "label": "內團體偏私偏誤"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各認知偏誤的心理機制分類（記憶回溯偏誤、社會歸因偏誤、機率與風險判斷偏誤或信念與確認偏誤）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "記憶回溯重構偏誤",
+        "capacity": 1,
+        "itemIds": [
+          "cognitive-biases-psychology-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "社會歸因與團體偏誤",
+        "capacity": 2,
+        "itemIds": [
+          "cognitive-biases-psychology-2",
+          "cognitive-biases-psychology-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "決策與機率捷思偏誤",
+        "capacity": 3,
+        "itemIds": [
+          "cognitive-biases-psychology-4",
+          "cognitive-biases-psychology-5",
+          "cognitive-biases-psychology-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "信念固著與自我評估偏誤",
+        "capacity": 4,
+        "itemIds": [
+          "cognitive-biases-psychology-7",
+          "cognitive-biases-psychology-8",
+          "cognitive-biases-psychology-9",
+          "cognitive-biases-psychology-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依認知心理機制分類：記憶重構（後見之明偏誤）、社會歸因（基本歸因謬誤、內團體偏誤）、機率與決策捷思（可得性捷思、定錨效應、沉沒成本謬誤）與信念及自我評估偏誤（確認偏誤、信念固著、達克效應、過度自信偏誤）。",
+  "sources": [
+    {
+      "title": "APA Dictionary of Psychology: Cognitive Biases",
+      "url": "https://dictionary.apa.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "herbs-plant-families-2027-10-23-es-419",
+  "puzzleFamilyId": "herbs-plant-families-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-23",
+  "timezone": "UTC",
+  "theme": "Hierbas aromáticas por familia botánica",
+  "items": [
+    {
+      "itemId": "herbs-plant-families-4",
+      "label": "Perejil liso"
+    },
+    {
+      "itemId": "herbs-plant-families-8",
+      "label": "Romero"
+    },
+    {
+      "itemId": "herbs-plant-families-1",
+      "label": "Hoja de laurel"
+    },
+    {
+      "itemId": "herbs-plant-families-6",
+      "label": "Eneldo"
+    },
+    {
+      "itemId": "herbs-plant-families-10",
+      "label": "Orégano"
+    },
+    {
+      "itemId": "herbs-plant-families-2",
+      "label": "Cebollín (ciboulette)"
+    },
+    {
+      "itemId": "herbs-plant-families-7",
+      "label": "Albahaca dulce"
+    },
+    {
+      "itemId": "herbs-plant-families-5",
+      "label": "Cilantro"
+    },
+    {
+      "itemId": "herbs-plant-families-9",
+      "label": "Tomillo"
+    },
+    {
+      "itemId": "herbs-plant-families-3",
+      "label": "Cebollín chino"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Familia botánica de cada hierba culinaria",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Lauráceas",
+        "capacity": 1,
+        "itemIds": [
+          "herbs-plant-families-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Aliáceas (cebollines)",
+        "capacity": 2,
+        "itemIds": [
+          "herbs-plant-families-2",
+          "herbs-plant-families-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Apiáceas (umbelíferas)",
+        "capacity": 3,
+        "itemIds": [
+          "herbs-plant-families-4",
+          "herbs-plant-families-5",
+          "herbs-plant-families-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Lamiáceas (mentas)",
+        "capacity": 4,
+        "itemIds": [
+          "herbs-plant-families-7",
+          "herbs-plant-families-8",
+          "herbs-plant-families-9",
+          "herbs-plant-families-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por familia: lauráceas (hoja de laurel), amarilidáceas (cebollín, cebollín chino), apiáceas (perejil, cilantro, eneldo) y lamiáceas (albahaca, romero, tomillo, orégano).",
+  "sources": [
+    {
+      "title": "USDA PLANTS Database: Culinary Herbs",
+      "url": "https://plants.usda.gov/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

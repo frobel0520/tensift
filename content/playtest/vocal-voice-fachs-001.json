@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "vocal-voice-fachs-001",
+  "theme": "Classical Voice Classifications",
+  "publishDate": "2027-04-15",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "vocal-voice-fachs-6",
+        "rivalGroupId": "group-2",
+        "risk": "Countertenor has tenor in the name.",
+        "resolution": "Countertenors sing in the alto/mezzo range using head voice or falsetto (group-3), higher than standard tenors (group-2)."
+      },
+      {
+        "itemId": "vocal-voice-fachs-5",
+        "rivalGroupId": "group-4",
+        "risk": "Mezzo-Soprano ends with Soprano.",
+        "resolution": "Mezzo-soprano sits between contralto and soprano in the middle female register (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

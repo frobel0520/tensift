@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chili-pepper-scoville-2027-09-30-es-419",
+  "puzzleFamilyId": "chili-pepper-scoville-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-30",
+  "timezone": "UTC",
+  "theme": "Chiles por nivel de picor",
+  "items": [
+    {
+      "itemId": "chili-pepper-scoville-4",
+      "label": "Chile cayena"
+    },
+    {
+      "itemId": "chili-pepper-scoville-8",
+      "label": "Chile scotch bonnet"
+    },
+    {
+      "itemId": "chili-pepper-scoville-1",
+      "label": "Pimiento morrón dulce"
+    },
+    {
+      "itemId": "chili-pepper-scoville-6",
+      "label": "Chile tabasco"
+    },
+    {
+      "itemId": "chili-pepper-scoville-10",
+      "label": "Carolina Reaper"
+    },
+    {
+      "itemId": "chili-pepper-scoville-2",
+      "label": "Chile poblano"
+    },
+    {
+      "itemId": "chili-pepper-scoville-7",
+      "label": "Chile habanero"
+    },
+    {
+      "itemId": "chili-pepper-scoville-5",
+      "label": "Chile tailandés ojo de pájaro"
+    },
+    {
+      "itemId": "chili-pepper-scoville-9",
+      "label": "Chile fantasma (Bhut Jolokia)"
+    },
+    {
+      "itemId": "chili-pepper-scoville-3",
+      "label": "Chile jalapeño"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Rango en la escala Scoville (SHU) de cada chile",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "0 SHU (sin picor)",
+        "capacity": 1,
+        "itemIds": [
+          "chili-pepper-scoville-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Suave (1,000–8,000 SHU)",
+        "capacity": 2,
+        "itemIds": [
+          "chili-pepper-scoville-2",
+          "chili-pepper-scoville-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Medio-picante (30k–100k SHU)",
+        "capacity": 3,
+        "itemIds": [
+          "chili-pepper-scoville-4",
+          "chili-pepper-scoville-5",
+          "chili-pepper-scoville-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Muy picante (>150k SHU)",
+        "capacity": 4,
+        "itemIds": [
+          "chili-pepper-scoville-7",
+          "chili-pepper-scoville-8",
+          "chili-pepper-scoville-9",
+          "chili-pepper-scoville-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por escala Scoville: sin picor (pimiento morrón dulce, 0 SHU), suave (poblano, jalapeño, 1,000–8,000 SHU), medio-alto (cayena, chile ojo de pájaro tailandés, tabasco, 30,000–100,000 SHU) y muy picante/superpicante (habanero, scotch bonnet, bhut jolokia, carolina reaper, >150,000 SHU).",
+  "sources": [
+    {
+      "title": "New Mexico State University Chile Pepper Institute",
+      "url": "https://cpi.nmsu.edu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

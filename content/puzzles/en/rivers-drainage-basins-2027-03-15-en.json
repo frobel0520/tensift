@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "rivers-drainage-basins-2027-03-15-en",
+  "puzzleFamilyId": "rivers-drainage-basins-001",
+  "locale": "en",
+  "publishDate": "2027-03-15",
+  "timezone": "UTC",
+  "theme": "Rivers by Drainage Basin",
+  "items": [
+    {
+      "itemId": "rivers-drainage-basins-4",
+      "label": "Nile River"
+    },
+    {
+      "itemId": "rivers-drainage-basins-8",
+      "label": "Congo River"
+    },
+    {
+      "itemId": "rivers-drainage-basins-1",
+      "label": "Lena River"
+    },
+    {
+      "itemId": "rivers-drainage-basins-6",
+      "label": "Po River"
+    },
+    {
+      "itemId": "rivers-drainage-basins-10",
+      "label": "Paraná River"
+    },
+    {
+      "itemId": "rivers-drainage-basins-2",
+      "label": "Ganges River"
+    },
+    {
+      "itemId": "rivers-drainage-basins-7",
+      "label": "Amazon River"
+    },
+    {
+      "itemId": "rivers-drainage-basins-5",
+      "label": "Rhône River"
+    },
+    {
+      "itemId": "rivers-drainage-basins-9",
+      "label": "Mississippi River"
+    },
+    {
+      "itemId": "rivers-drainage-basins-3",
+      "label": "Indus River"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Ocean or sea (Arctic, Indian, Mediterranean, or Atlantic) into which each river empties",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Arctic Ocean",
+        "capacity": 1,
+        "itemIds": [
+          "rivers-drainage-basins-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Indian Ocean",
+        "capacity": 2,
+        "itemIds": [
+          "rivers-drainage-basins-2",
+          "rivers-drainage-basins-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Mediterranean Sea",
+        "capacity": 3,
+        "itemIds": [
+          "rivers-drainage-basins-4",
+          "rivers-drainage-basins-5",
+          "rivers-drainage-basins-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Atlantic Ocean",
+        "capacity": 4,
+        "itemIds": [
+          "rivers-drainage-basins-7",
+          "rivers-drainage-basins-8",
+          "rivers-drainage-basins-9",
+          "rivers-drainage-basins-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by outflow body: Arctic Ocean (Lena), Indian Ocean (Ganges, Indus), Mediterranean Sea (Nile, Rhône, Po), and Atlantic Ocean (Amazon, Congo, Mississippi, Paraná).",
+  "sources": [
+    {
+      "title": "Britannica: Major Rivers of the World",
+      "url": "https://www.britannica.com/science/river",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.44
+  },
+  "status": "scheduled"
+}

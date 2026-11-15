@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "vegetable-botanical-parts-001",
+  "theme": "Vegetables by Plant Organ",
+  "publishDate": "2027-09-23",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "vegetable-botanical-parts-5",
+        "rivalGroupId": "group-2",
+        "risk": "Celery grows upright from a basal crown.",
+        "resolution": "The edible celery stalk is an elongated leaf petiole (group-3), not an underground storage bulb (group-2)."
+      },
+      {
+        "itemId": "vegetable-botanical-parts-1",
+        "rivalGroupId": "group-3",
+        "risk": "Artichokes are eaten by peeling green bracts like leaves.",
+        "resolution": "An artichoke is an unopened flower bud (group-1), not vegetative foliage (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

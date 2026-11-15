@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "philosophy-major-branches-2027-12-11-en",
+  "puzzleFamilyId": "philosophy-major-branches-001",
+  "locale": "en",
+  "publishDate": "2027-12-11",
+  "timezone": "UTC",
+  "theme": "Core Branches of Philosophy",
+  "items": [
+    {
+      "itemId": "philosophy-major-branches-4",
+      "label": "Cartesian Rationalism"
+    },
+    {
+      "itemId": "philosophy-major-branches-8",
+      "label": "Kantian Deontology"
+    },
+    {
+      "itemId": "philosophy-major-branches-1",
+      "label": "Philosophy of Art & Beauty"
+    },
+    {
+      "itemId": "philosophy-major-branches-6",
+      "label": "Philosophical Skepticism"
+    },
+    {
+      "itemId": "philosophy-major-branches-10",
+      "label": "Moral Contractarianism"
+    },
+    {
+      "itemId": "philosophy-major-branches-2",
+      "label": "Deductive Syllogism"
+    },
+    {
+      "itemId": "philosophy-major-branches-7",
+      "label": "Utilitarianism"
+    },
+    {
+      "itemId": "philosophy-major-branches-5",
+      "label": "Lockean Empiricism"
+    },
+    {
+      "itemId": "philosophy-major-branches-9",
+      "label": "Virtue Ethics"
+    },
+    {
+      "itemId": "philosophy-major-branches-3",
+      "label": "Inductive Inference"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Philosophical branch (Aesthetics, Logic & Reasoning, Epistemology, or Moral & Political Ethics)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Aesthetics",
+        "capacity": 1,
+        "itemIds": [
+          "philosophy-major-branches-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Logic & Reasoning",
+        "capacity": 2,
+        "itemIds": [
+          "philosophy-major-branches-2",
+          "philosophy-major-branches-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Epistemology (Knowledge)",
+        "capacity": 3,
+        "itemIds": [
+          "philosophy-major-branches-4",
+          "philosophy-major-branches-5",
+          "philosophy-major-branches-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Normative Ethics",
+        "capacity": 4,
+        "itemIds": [
+          "philosophy-major-branches-7",
+          "philosophy-major-branches-8",
+          "philosophy-major-branches-9",
+          "philosophy-major-branches-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by philosophical branch: Aesthetics (Philosophy of Beauty & Art), Logic (Deductive Syllogism, Inductive Inference), Epistemology (Rationalism, Empiricism, Philosophical Skepticism), and Ethics (Utilitarianism, Kantian Deontology, Aristotelian Virtue Ethics, Social Contract Ethics).",
+  "sources": [
+    {
+      "title": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

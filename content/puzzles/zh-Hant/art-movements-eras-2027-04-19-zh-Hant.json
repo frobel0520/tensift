@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "art-movements-eras-2027-04-19-zh-hant",
+  "puzzleFamilyId": "art-movements-eras-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-19",
+  "timezone": "UTC",
+  "theme": "西方藝術流派時期",
+  "items": [
+    {
+      "itemId": "art-movements-eras-4",
+      "label": "立體派"
+    },
+    {
+      "itemId": "art-movements-eras-8",
+      "label": "普普藝術"
+    },
+    {
+      "itemId": "art-movements-eras-1",
+      "label": "盛期文藝復興"
+    },
+    {
+      "itemId": "art-movements-eras-6",
+      "label": "超現實主義"
+    },
+    {
+      "itemId": "art-movements-eras-10",
+      "label": "觀念藝術"
+    },
+    {
+      "itemId": "art-movements-eras-2",
+      "label": "浪漫主義"
+    },
+    {
+      "itemId": "art-movements-eras-7",
+      "label": "抽象表現主義"
+    },
+    {
+      "itemId": "art-movements-eras-5",
+      "label": "野獸派"
+    },
+    {
+      "itemId": "art-movements-eras-9",
+      "label": "極簡主義"
+    },
+    {
+      "itemId": "art-movements-eras-3",
+      "label": "印象派"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各西方藝術流派興起的主要歷史時期",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "文藝復興",
+        "capacity": 1,
+        "itemIds": [
+          "art-movements-eras-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "19 世紀",
+        "capacity": 2,
+        "itemIds": [
+          "art-movements-eras-2",
+          "art-movements-eras-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "20 世紀初（二戰前）",
+        "capacity": 3,
+        "itemIds": [
+          "art-movements-eras-4",
+          "art-movements-eras-5",
+          "art-movements-eras-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "1945 年戰後時期",
+        "capacity": 4,
+        "itemIds": [
+          "art-movements-eras-7",
+          "art-movements-eras-8",
+          "art-movements-eras-9",
+          "art-movements-eras-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依興起時期分類：文藝復興（盛期文藝復興）、19 世紀（浪漫主義、印象派）、20 世紀初（立體派、野獸派、超現實主義）與戰後當代（抽象表現主義、普普藝術、極簡主義、觀念藝術）。",
+  "sources": [
+    {
+      "title": "Tate: Art Terms & Movements",
+      "url": "https://www.tate.org.uk/art/art-terms",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.42
+  },
+  "status": "scheduled"
+}

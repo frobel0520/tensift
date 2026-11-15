@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "statistics-averages-2027-02-22-zh-hant",
+  "puzzleFamilyId": "statistics-averages-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-02-22",
+  "timezone": "UTC",
+  "theme": "敘述統計量數",
+  "items": [
+    {
+      "itemId": "statistics-averages-4",
+      "label": "變異數"
+    },
+    {
+      "itemId": "statistics-averages-8",
+      "label": "中位數"
+    },
+    {
+      "itemId": "statistics-averages-1",
+      "label": "偏態係數"
+    },
+    {
+      "itemId": "statistics-averages-6",
+      "label": "四分位距"
+    },
+    {
+      "itemId": "statistics-averages-10",
+      "label": "幾何平均數"
+    },
+    {
+      "itemId": "statistics-averages-2",
+      "label": "第 90 百分位數"
+    },
+    {
+      "itemId": "statistics-averages-7",
+      "label": "算術平均數"
+    },
+    {
+      "itemId": "statistics-averages-5",
+      "label": "標準差"
+    },
+    {
+      "itemId": "statistics-averages-9",
+      "label": "眾數"
+    },
+    {
+      "itemId": "statistics-averages-3",
+      "label": "第一四分位數（Q1）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各統計量所衡量的資料特徵",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "分布形狀",
+        "capacity": 1,
+        "itemIds": [
+          "statistics-averages-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "分位數位置",
+        "capacity": 2,
+        "itemIds": [
+          "statistics-averages-2",
+          "statistics-averages-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "離散程度量數",
+        "capacity": 3,
+        "itemIds": [
+          "statistics-averages-4",
+          "statistics-averages-5",
+          "statistics-averages-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "集中趨勢量數",
+        "capacity": 4,
+        "itemIds": [
+          "statistics-averages-7",
+          "statistics-averages-8",
+          "statistics-averages-9",
+          "statistics-averages-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依敘述統計分類：分布形狀（偏態）、位置分位數（第 90 百分位數、第一四分位數）、離散程度（變異數、標準差、四分位距）與集中趨勢（算術平均數、中位數、眾數、幾何平均數）。",
+  "sources": [
+    {
+      "title": "NIST/SEMATECH: Measures of Location and Spread",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda35.htm",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

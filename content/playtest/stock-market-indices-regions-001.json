@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "stock-market-indices-regions-001",
+  "theme": "Global Stock Market Indices",
+  "publishDate": "2027-11-21",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "stock-market-indices-regions-2",
+        "rivalGroupId": "group-3",
+        "risk": "London and Zurich are major European financial hubs.",
+        "resolution": "Neither the UK nor Switzerland uses the Euro currency (group-2), unlike Eurozone indices DAX, CAC, and EURO STOXX 50 (group-3)."
+      },
+      {
+        "itemId": "stock-market-indices-regions-10",
+        "rivalGroupId": "group-2",
+        "risk": "ASX 200 is a Commonwealth market like London’s FTSE 100.",
+        "resolution": "ASX 200 is headquartered in Sydney in the Asia-Pacific region (group-4), not Europe (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

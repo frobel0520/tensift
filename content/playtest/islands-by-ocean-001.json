@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "islands-by-ocean-001",
+  "theme": "Major Islands by Ocean",
+  "publishDate": "2027-03-21",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "islands-by-ocean-4",
+        "rivalGroupId": "group-1",
+        "risk": "Greenland extends far into the Arctic.",
+        "resolution": "Greenland lies primarily between the North Atlantic and Arctic, traditionally grouped with North Atlantic islands (group-3)."
+      },
+      {
+        "itemId": "islands-by-ocean-8",
+        "rivalGroupId": "group-2",
+        "risk": "Indonesia spans both Indian and Pacific waters.",
+        "resolution": "Borneo lies north of Java within the western Pacific marginal seas (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

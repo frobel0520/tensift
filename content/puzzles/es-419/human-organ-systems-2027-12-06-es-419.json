@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "human-organ-systems-2027-12-06-es-419",
+  "puzzleFamilyId": "human-organ-systems-001",
+  "locale": "es-419",
+  "publishDate": "2027-12-06",
+  "timezone": "UTC",
+  "theme": "Sistemas de órganos del cuerpo humano",
+  "items": [
+    {
+      "itemId": "human-organ-systems-4",
+      "label": "Tráquea"
+    },
+    {
+      "itemId": "human-organ-systems-8",
+      "label": "Estómago"
+    },
+    {
+      "itemId": "human-organ-systems-1",
+      "label": "Piel humana"
+    },
+    {
+      "itemId": "human-organ-systems-6",
+      "label": "Alvéolos pulmonares"
+    },
+    {
+      "itemId": "human-organ-systems-10",
+      "label": "Hígado"
+    },
+    {
+      "itemId": "human-organ-systems-2",
+      "label": "Glándula tiroides"
+    },
+    {
+      "itemId": "human-organ-systems-7",
+      "label": "Esófago"
+    },
+    {
+      "itemId": "human-organ-systems-5",
+      "label": "Árbol bronquial"
+    },
+    {
+      "itemId": "human-organ-systems-9",
+      "label": "Intestino delgado"
+    },
+    {
+      "itemId": "human-organ-systems-3",
+      "label": "Glándula suprarrenal"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Sistema fisiológico al que pertenece cada órgano",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Sistema tegumentario",
+        "capacity": 1,
+        "itemIds": [
+          "human-organ-systems-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Glándulas endocrinas",
+        "capacity": 2,
+        "itemIds": [
+          "human-organ-systems-2",
+          "human-organ-systems-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Sistema respiratorio",
+        "capacity": 3,
+        "itemIds": [
+          "human-organ-systems-4",
+          "human-organ-systems-5",
+          "human-organ-systems-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Sistema digestivo",
+        "capacity": 4,
+        "itemIds": [
+          "human-organ-systems-7",
+          "human-organ-systems-8",
+          "human-organ-systems-9",
+          "human-organ-systems-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por sistema: tegumentario (piel), endocrino (tiroides, glándula suprarrenal), respiratorio (tráquea, bronquios, alvéolos pulmonares) y digestivo (esófago, estómago, intestino delgado, hígado).",
+  "sources": [
+    {
+      "title": "NIH MedlinePlus: Body Systems",
+      "url": "https://medlineplus.gov/anatomy.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.2
+  },
+  "status": "scheduled"
+}

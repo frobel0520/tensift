@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "kitchen-measuring-tools-2027-10-08-en",
+  "puzzleFamilyId": "kitchen-measuring-tools-001",
+  "locale": "en",
+  "publishDate": "2027-10-08",
+  "timezone": "UTC",
+  "theme": "Kitchen & Baking Instruments",
+  "items": [
+    {
+      "itemId": "kitchen-measuring-tools-4",
+      "label": "Instant-Read Probe Thermometer"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-8",
+      "label": "Liquid Measuring Pitcher"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-1",
+      "label": "Brix Refractometer"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-6",
+      "label": "Hanging Oven Thermometer"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-10",
+      "label": "Bar Cocktail Jigger"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-2",
+      "label": "Digital Gram Scale"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-7",
+      "label": "Dry Measuring Cup"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-5",
+      "label": "Candy & Deep-Fry Thermometer"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-9",
+      "label": "Measuring Spoon Set"
+    },
+    {
+      "itemId": "kitchen-measuring-tools-3",
+      "label": "Mechanical Dial Scale"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Measured physical quantity (Hydrometer Specific Gravity, Mass/Weight Scales, Temperature Probes, or Volume Measures)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Sugar / Density Optical",
+        "capacity": 1,
+        "itemIds": [
+          "kitchen-measuring-tools-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Mass & Weight Scales",
+        "capacity": 2,
+        "itemIds": [
+          "kitchen-measuring-tools-2",
+          "kitchen-measuring-tools-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Temperature Gauges",
+        "capacity": 3,
+        "itemIds": [
+          "kitchen-measuring-tools-4",
+          "kitchen-measuring-tools-5",
+          "kitchen-measuring-tools-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Volume Measures",
+        "capacity": 4,
+        "itemIds": [
+          "kitchen-measuring-tools-7",
+          "kitchen-measuring-tools-8",
+          "kitchen-measuring-tools-9",
+          "kitchen-measuring-tools-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by physical quantity: Density / Sugar Concentration (Brix Refractometer), Mass / Weight (Digital Gram Scale, Mechanical Balance Scale), Temperature (Instant-Read Probe Thermometer, Candy Clip Thermometer, Oven-Cavity Thermometer), and Volume (Dry Measuring Cup, Liquid Spouted Pitcher, Measuring Spoons, Graduated Jigger).",
+  "sources": [
+    {
+      "title": "NIST: Kitchen Weights & Measures",
+      "url": "https://www.nist.gov/pml/owm",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.22
+  },
+  "status": "scheduled"
+}

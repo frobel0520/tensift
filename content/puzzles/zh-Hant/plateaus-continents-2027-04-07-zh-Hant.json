@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "plateaus-continents-2027-04-07-zh-hant",
+  "puzzleFamilyId": "plateaus-continents-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-07",
+  "timezone": "UTC",
+  "theme": "世界著名高原",
+  "items": [
+    {
+      "itemId": "plateaus-continents-4",
+      "label": "科羅拉多高原"
+    },
+    {
+      "itemId": "plateaus-continents-8",
+      "label": "德干高原"
+    },
+    {
+      "itemId": "plateaus-continents-1",
+      "label": "阿爾蒂普拉諾高原"
+    },
+    {
+      "itemId": "plateaus-continents-6",
+      "label": "墨西哥高原"
+    },
+    {
+      "itemId": "plateaus-continents-10",
+      "label": "蒙古高原"
+    },
+    {
+      "itemId": "plateaus-continents-2",
+      "label": "衣索比亞高原"
+    },
+    {
+      "itemId": "plateaus-continents-7",
+      "label": "青藏高原"
+    },
+    {
+      "itemId": "plateaus-continents-5",
+      "label": "哥倫比亞高原"
+    },
+    {
+      "itemId": "plateaus-continents-9",
+      "label": "安那托利亞高原"
+    },
+    {
+      "itemId": "plateaus-continents-3",
+      "label": "東非高原"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各主要高原所在的洲別（南美洲、非洲、北美洲或亞洲）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "南美洲",
+        "capacity": 1,
+        "itemIds": [
+          "plateaus-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "非洲",
+        "capacity": 2,
+        "itemIds": [
+          "plateaus-continents-2",
+          "plateaus-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "北美洲",
+        "capacity": 3,
+        "itemIds": [
+          "plateaus-continents-4",
+          "plateaus-continents-5",
+          "plateaus-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "亞洲",
+        "capacity": 4,
+        "itemIds": [
+          "plateaus-continents-7",
+          "plateaus-continents-8",
+          "plateaus-continents-9",
+          "plateaus-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依所屬大洲分類：南美洲（阿爾蒂普拉諾高原）、非洲（衣索比亞高原、東非高原）、北美洲（科羅拉多高原、哥倫比亞高原、墨西哥高原）與亞洲（青藏高原、德干高原、安那托利亞高原、蒙古高原）。",
+  "sources": [
+    {
+      "title": "Britannica: Plateau",
+      "url": "https://www.britannica.com/science/plateau-landform",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

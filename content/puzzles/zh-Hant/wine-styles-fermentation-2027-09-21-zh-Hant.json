@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "wine-styles-fermentation-2027-09-21-zh-hant",
+  "puzzleFamilyId": "wine-styles-fermentation-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-09-21",
+  "timezone": "UTC",
+  "theme": "葡萄酒風格與釀造法",
+  "items": [
+    {
+      "itemId": "wine-styles-fermentation-4",
+      "label": "法國香檳（Champagne）"
+    },
+    {
+      "itemId": "wine-styles-fermentation-8",
+      "label": "夏多內（白酒）"
+    },
+    {
+      "itemId": "wine-styles-fermentation-1",
+      "label": "普羅旺斯粉紅酒"
+    },
+    {
+      "itemId": "wine-styles-fermentation-6",
+      "label": "西班牙卡瓦（Cava）"
+    },
+    {
+      "itemId": "wine-styles-fermentation-10",
+      "label": "白蘇維濃（白酒）"
+    },
+    {
+      "itemId": "wine-styles-fermentation-2",
+      "label": "波特加烈酒（Port）"
+    },
+    {
+      "itemId": "wine-styles-fermentation-7",
+      "label": "卡本內蘇維濃（紅酒）"
+    },
+    {
+      "itemId": "wine-styles-fermentation-5",
+      "label": "義大利普羅塞克（Prosecco）"
+    },
+    {
+      "itemId": "wine-styles-fermentation-9",
+      "label": "黑皮諾（紅酒）"
+    },
+    {
+      "itemId": "wine-styles-fermentation-3",
+      "label": "雪莉加烈酒（Sherry）"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各葡萄酒的釀造工藝分類（粉紅短暫浸皮、加烈葡萄酒、氣泡酒或靜態佐餐酒）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "短暫浸皮粉紅酒",
+        "capacity": 1,
+        "itemIds": [
+          "wine-styles-fermentation-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "加烈葡萄酒",
+        "capacity": 2,
+        "itemIds": [
+          "wine-styles-fermentation-2",
+          "wine-styles-fermentation-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "氣泡葡萄酒",
+        "capacity": 3,
+        "itemIds": [
+          "wine-styles-fermentation-4",
+          "wine-styles-fermentation-5",
+          "wine-styles-fermentation-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "靜態單一品種酒",
+        "capacity": 4,
+        "itemIds": [
+          "wine-styles-fermentation-7",
+          "wine-styles-fermentation-8",
+          "wine-styles-fermentation-9",
+          "wine-styles-fermentation-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依釀造工藝分類：短暫浸皮（普羅旺斯粉紅酒）、添加烈酒加烈（波特酒、雪莉酒）、二次發酵氣泡酒（香檳、普羅塞克、卡瓦氣泡酒）與靜態佐餐酒（卡本內蘇維濃、夏多內、黑皮諾、白蘇維濃）。",
+  "sources": [
+    {
+      "title": "OIV: International Organisation of Vine and Wine",
+      "url": "https://www.oiv.int/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.28
+  },
+  "status": "scheduled"
+}

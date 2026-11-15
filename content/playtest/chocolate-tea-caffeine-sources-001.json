@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "chocolate-tea-caffeine-sources-001",
+  "theme": "Caffeinated Plants & Drinks",
+  "publishDate": "2027-10-14",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "chocolate-tea-caffeine-sources-2",
+        "rivalGroupId": "group-3",
+        "risk": "Yerba Mate is steeped in hot water like green tea.",
+        "resolution": "Yerba Mate comes from the South American holly Ilex paraguariensis (group-2), not Camellia sinensis (group-3)."
+      },
+      {
+        "itemId": "chocolate-tea-caffeine-sources-1",
+        "rivalGroupId": "group-4",
+        "risk": "Guarana seeds are roasted and ground like coffee beans.",
+        "resolution": "Guarana is a climbing Amazonian vine seed (group-1), unrelated to Coffea trees (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

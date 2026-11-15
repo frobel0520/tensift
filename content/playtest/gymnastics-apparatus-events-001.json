@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "gymnastics-apparatus-events-001",
+  "theme": "Gymnastics Apparatus",
+  "publishDate": "2027-08-03",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "gymnastics-apparatus-events-1",
+        "rivalGroupId": "group-4",
+        "risk": "Rhythmic gymnastics is also performed on a floor mat.",
+        "resolution": "Artistic Floor Exercise is a standalone acrobatic apparatus event (group-1), not a handheld rhythmic prop (group-4)."
+      },
+      {
+        "itemId": "gymnastics-apparatus-events-2",
+        "rivalGroupId": "group-3",
+        "risk": "Both Uneven Bars and Horizontal Bar are bar events.",
+        "resolution": "Uneven Bars is women-only artistic (group-2), whereas Horizontal Bar is men-only artistic (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

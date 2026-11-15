@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "constellations-sky-regions-2027-06-14-es-419",
+  "puzzleFamilyId": "constellations-sky-regions-001",
+  "locale": "es-419",
+  "publishDate": "2027-06-14",
+  "timezone": "UTC",
+  "theme": "Constelaciones por región celeste",
+  "items": [
+    {
+      "itemId": "constellations-sky-regions-4",
+      "label": "Tauro"
+    },
+    {
+      "itemId": "constellations-sky-regions-8",
+      "label": "Cisne (Cygnus)"
+    },
+    {
+      "itemId": "constellations-sky-regions-1",
+      "label": "Cruz del Sur (Crux)"
+    },
+    {
+      "itemId": "constellations-sky-regions-6",
+      "label": "Escorpio"
+    },
+    {
+      "itemId": "constellations-sky-regions-10",
+      "label": "Can Mayor"
+    },
+    {
+      "itemId": "constellations-sky-regions-2",
+      "label": "Osa Mayor"
+    },
+    {
+      "itemId": "constellations-sky-regions-7",
+      "label": "Orión"
+    },
+    {
+      "itemId": "constellations-sky-regions-5",
+      "label": "Leo"
+    },
+    {
+      "itemId": "constellations-sky-regions-9",
+      "label": "Lira"
+    },
+    {
+      "itemId": "constellations-sky-regions-3",
+      "label": "Casiopea"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Región celeste de cada constelación",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Circumpolar sur",
+        "capacity": 1,
+        "itemIds": [
+          "constellations-sky-regions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Circumpolar norte",
+        "capacity": 2,
+        "itemIds": [
+          "constellations-sky-regions-2",
+          "constellations-sky-regions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Eclíptica zodiacal",
+        "capacity": 3,
+        "itemIds": [
+          "constellations-sky-regions-4",
+          "constellations-sky-regions-5",
+          "constellations-sky-regions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Brillantes no zodiacales",
+        "capacity": 4,
+        "itemIds": [
+          "constellations-sky-regions-7",
+          "constellations-sky-regions-8",
+          "constellations-sky-regions-9",
+          "constellations-sky-regions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupadas por región celeste: circumpolar sur (Crux), circumpolar norte (Osa Mayor, Casiopea), eclíptica zodiacal (Tauro, Leo, Escorpio) y brillantes no zodiacales (Orión, Cisne, Lira, Can Mayor).",
+  "sources": [
+    {
+      "title": "IAU: The Constellations",
+      "url": "https://www.iau.org/public/themes/constellations/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

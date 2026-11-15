@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "mountain-ranges-continents-2027-03-09-zh-hant",
+  "puzzleFamilyId": "mountain-ranges-continents-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-03-09",
+  "timezone": "UTC",
+  "theme": "世界山脈與大洲",
+  "items": [
+    {
+      "itemId": "mountain-ranges-continents-4",
+      "label": "阿爾卑斯山脈"
+    },
+    {
+      "itemId": "mountain-ranges-continents-8",
+      "label": "喀喇崑崙山脈"
+    },
+    {
+      "itemId": "mountain-ranges-continents-1",
+      "label": "橫貫南極山脈"
+    },
+    {
+      "itemId": "mountain-ranges-continents-6",
+      "label": "喀爾巴阡山脈"
+    },
+    {
+      "itemId": "mountain-ranges-continents-10",
+      "label": "天山山脈"
+    },
+    {
+      "itemId": "mountain-ranges-continents-2",
+      "label": "阿特拉斯山脈"
+    },
+    {
+      "itemId": "mountain-ranges-continents-7",
+      "label": "喜馬拉雅山脈"
+    },
+    {
+      "itemId": "mountain-ranges-continents-5",
+      "label": "庇里牛斯山脈"
+    },
+    {
+      "itemId": "mountain-ranges-continents-9",
+      "label": "崑崙山脈"
+    },
+    {
+      "itemId": "mountain-ranges-continents-3",
+      "label": "德拉肯斯堡山脈"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各山脈主要所在的洲別（南極洲、非洲、歐洲或亞洲）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "南極洲",
+        "capacity": 1,
+        "itemIds": [
+          "mountain-ranges-continents-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "非洲",
+        "capacity": 2,
+        "itemIds": [
+          "mountain-ranges-continents-2",
+          "mountain-ranges-continents-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "歐洲",
+        "capacity": 3,
+        "itemIds": [
+          "mountain-ranges-continents-4",
+          "mountain-ranges-continents-5",
+          "mountain-ranges-continents-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "亞洲",
+        "capacity": 4,
+        "itemIds": [
+          "mountain-ranges-continents-7",
+          "mountain-ranges-continents-8",
+          "mountain-ranges-continents-9",
+          "mountain-ranges-continents-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依所屬大洲分類：南極洲（橫貫南極山脈）、非洲（阿特拉斯山脈、德拉肯斯堡山脈）、歐洲（阿爾卑斯山脈、庇里牛斯山脈、喀爾巴阡山脈）與亞洲（喜馬拉雅山脈、喀喇崑崙山脈、崑崙山脈、天山山脈）。",
+  "sources": [
+    {
+      "title": "Britannica: Mountain Ranges",
+      "url": "https://www.britannica.com/science/mountain-landform",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

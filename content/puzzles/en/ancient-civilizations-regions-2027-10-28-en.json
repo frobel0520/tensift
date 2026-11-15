@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "ancient-civilizations-regions-2027-10-28-en",
+  "puzzleFamilyId": "ancient-civilizations-regions-001",
+  "locale": "en",
+  "publishDate": "2027-10-28",
+  "timezone": "UTC",
+  "theme": "Ancient Civilizations by Region",
+  "items": [
+    {
+      "itemId": "ancient-civilizations-regions-4",
+      "label": "Maya Civilization"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-8",
+      "label": "Akkadian Empire"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-1",
+      "label": "Harappan (Indus) Civilization"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-6",
+      "label": "Inca Empire"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-10",
+      "label": "Phoenicia"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-2",
+      "label": "Ancient Egypt"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-7",
+      "label": "Sumer"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-5",
+      "label": "Aztec Empire"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-9",
+      "label": "Babylonian Empire"
+    },
+    {
+      "itemId": "ancient-civilizations-regions-3",
+      "label": "Kingdom of Kush"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Core geographic region (Indus Valley, Nile Valley, Mesoamerica & Andes, or Mesopotamia & Levant)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Indus Valley",
+        "capacity": 1,
+        "itemIds": [
+          "ancient-civilizations-regions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Nile River Valley",
+        "capacity": 2,
+        "itemIds": [
+          "ancient-civilizations-regions-2",
+          "ancient-civilizations-regions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Pre-Columbian Americas",
+        "capacity": 3,
+        "itemIds": [
+          "ancient-civilizations-regions-4",
+          "ancient-civilizations-regions-5",
+          "ancient-civilizations-regions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Mesopotamia & Levant",
+        "capacity": 4,
+        "itemIds": [
+          "ancient-civilizations-regions-7",
+          "ancient-civilizations-regions-8",
+          "ancient-civilizations-regions-9",
+          "ancient-civilizations-regions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by region: Indus Valley (Harappan Civilization), Nile Valley (Old Kingdom Egypt, Kingdom of Kush), Pre-Columbian Americas (Maya Civilization, Aztec Triple Alliance, Inca Empire), and Mesopotamia & Levant (Sumer, Akkadian Empire, Babylonian Empire, Phoenicia).",
+  "sources": [
+    {
+      "title": "UNESCO World Heritage: Ancient Civilizations",
+      "url": "https://whc.unesco.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

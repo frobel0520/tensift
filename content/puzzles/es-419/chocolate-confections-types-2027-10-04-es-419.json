@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chocolate-confections-types-2027-10-04-es-419",
+  "puzzleFamilyId": "chocolate-confections-types-001",
+  "locale": "es-419",
+  "publishDate": "2027-10-04",
+  "timezone": "UTC",
+  "theme": "Confitería y dulces clásicos",
+  "items": [
+    {
+      "itemId": "chocolate-confections-types-4",
+      "label": "Mazapán de almendra"
+    },
+    {
+      "itemId": "chocolate-confections-types-8",
+      "label": "Toffee inglés"
+    },
+    {
+      "itemId": "chocolate-confections-types-1",
+      "label": "Ositos de goma"
+    },
+    {
+      "itemId": "chocolate-confections-types-6",
+      "label": "Halva de sésamo"
+    },
+    {
+      "itemId": "chocolate-confections-types-10",
+      "label": "Fudge de chocolate"
+    },
+    {
+      "itemId": "chocolate-confections-types-2",
+      "label": "Nougat"
+    },
+    {
+      "itemId": "chocolate-confections-types-7",
+      "label": "Caramelo blando de mantequilla"
+    },
+    {
+      "itemId": "chocolate-confections-types-5",
+      "label": "Praliné de avellana"
+    },
+    {
+      "itemId": "chocolate-confections-types-9",
+      "label": "Butterscotch"
+    },
+    {
+      "itemId": "chocolate-confections-types-3",
+      "label": "Malvavisco"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Estructura física de cada dulce clásico",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Gel hidrocoloide (gomitas)",
+        "capacity": 1,
+        "itemIds": [
+          "chocolate-confections-types-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Espumas de azúcar aireadas",
+        "capacity": 2,
+        "itemIds": [
+          "chocolate-confections-types-2",
+          "chocolate-confections-types-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Pastas de frutos secos",
+        "capacity": 3,
+        "itemIds": [
+          "chocolate-confections-types-4",
+          "chocolate-confections-types-5",
+          "chocolate-confections-types-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Dulces cocidos con mantequilla",
+        "capacity": 4,
+        "itemIds": [
+          "chocolate-confections-types-7",
+          "chocolate-confections-types-8",
+          "chocolate-confections-types-9",
+          "chocolate-confections-types-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por estructura: gel hidrocoloide (gomitas de gelatina), espumas aireadas (turrón blando/nougat, malvavisco), pastas de frutos secos (mazapán, praliné de avellana, halva de sésamo) y dulces cocidos con mantequilla (caramelo blando, toffee inglés, butterscotch, fudge).",
+  "sources": [
+    {
+      "title": "Britannica: Candy & Confectionery",
+      "url": "https://www.britannica.com/topic/candy",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

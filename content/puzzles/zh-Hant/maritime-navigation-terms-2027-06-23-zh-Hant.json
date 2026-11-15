@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "maritime-navigation-terms-2027-06-23-zh-hant",
+  "puzzleFamilyId": "maritime-navigation-terms-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-23",
+  "timezone": "UTC",
+  "theme": "航海方位與助航設施",
+  "items": [
+    {
+      "itemId": "maritime-navigation-terms-4",
+      "label": "船艏（船頭）"
+    },
+    {
+      "itemId": "maritime-navigation-terms-8",
+      "label": "右舷（Starboard）"
+    },
+    {
+      "itemId": "maritime-navigation-terms-1",
+      "label": "燈塔"
+    },
+    {
+      "itemId": "maritime-navigation-terms-6",
+      "label": "舯（船身中段）"
+    },
+    {
+      "itemId": "maritime-navigation-terms-10",
+      "label": "下風處（背風側）"
+    },
+    {
+      "itemId": "maritime-navigation-terms-2",
+      "label": "側面標誌浮標"
+    },
+    {
+      "itemId": "maritime-navigation-terms-7",
+      "label": "左舷（Port）"
+    },
+    {
+      "itemId": "maritime-navigation-terms-5",
+      "label": "船艉（船尾）"
+    },
+    {
+      "itemId": "maritime-navigation-terms-9",
+      "label": "上風處（迎風側）"
+    },
+    {
+      "itemId": "maritime-navigation-terms-3",
+      "label": "方位標誌浮標"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各航海術語的類別（固定燈塔、浮標、船體縱向部位或左右／風向方位）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "岸上固定燈塔",
+        "capacity": 1,
+        "itemIds": [
+          "maritime-navigation-terms-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "海上浮標",
+        "capacity": 2,
+        "itemIds": [
+          "maritime-navigation-terms-2",
+          "maritime-navigation-terms-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "船體前後縱向部位",
+        "capacity": 3,
+        "itemIds": [
+          "maritime-navigation-terms-4",
+          "maritime-navigation-terms-5",
+          "maritime-navigation-terms-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "左右舷與風向方位",
+        "capacity": 4,
+        "itemIds": [
+          "maritime-navigation-terms-7",
+          "maritime-navigation-terms-8",
+          "maritime-navigation-terms-9",
+          "maritime-navigation-terms-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依航海類別分類：岸上燈塔（燈塔）、航道浮標（側面標誌浮標、方位標誌浮標）、船體縱向部位（船艏 Bow、船艉 Stern、舯 Amidships）與左右及風向（左舷 Port、右舷 Starboard、上風處 Windward、下風處 Leeward）。",
+  "sources": [
+    {
+      "title": "IALA: Maritime Buoyage System",
+      "url": "https://www.iala-aism.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.3
+  },
+  "status": "scheduled"
+}

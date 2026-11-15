@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "honey-bee-products-2027-09-26-es-419",
+  "puzzleFamilyId": "honey-bee-products-001",
+  "locale": "es-419",
+  "publishDate": "2027-09-26",
+  "timezone": "UTC",
+  "theme": "Productos de la colmena",
+  "items": [
+    {
+      "itemId": "honey-bee-products-4",
+      "label": "Polen apícola"
+    },
+    {
+      "itemId": "honey-bee-products-8",
+      "label": "Miel de manuka"
+    },
+    {
+      "itemId": "honey-bee-products-1",
+      "label": "Propóleo"
+    },
+    {
+      "itemId": "honey-bee-products-6",
+      "label": "Panal de miel cortado"
+    },
+    {
+      "itemId": "honey-bee-products-10",
+      "label": "Miel de acacia"
+    },
+    {
+      "itemId": "honey-bee-products-2",
+      "label": "Cera de abejas"
+    },
+    {
+      "itemId": "honey-bee-products-7",
+      "label": "Miel de trébol"
+    },
+    {
+      "itemId": "honey-bee-products-5",
+      "label": "Pan de abeja"
+    },
+    {
+      "itemId": "honey-bee-products-9",
+      "label": "Miel de trigo sarraceno"
+    },
+    {
+      "itemId": "honey-bee-products-3",
+      "label": "Jalea real"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Origen biológico dentro de la colmena de cada producto apícola",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Resina vegetal recolectada",
+        "capacity": 1,
+        "itemIds": [
+          "honey-bee-products-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Secreciones glandulares",
+        "capacity": 2,
+        "itemIds": [
+          "honey-bee-products-2",
+          "honey-bee-products-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Polen y reservas del panal",
+        "capacity": 3,
+        "itemIds": [
+          "honey-bee-products-4",
+          "honey-bee-products-5",
+          "honey-bee-products-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Mieles monoflorales",
+        "capacity": 4,
+        "itemIds": [
+          "honey-bee-products-7",
+          "honey-bee-products-8",
+          "honey-bee-products-9",
+          "honey-bee-products-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Agrupados por origen: resina vegetal recolectada (propóleo), secreciones glandulares (cera de abejas, jalea real), productos de polen y panal (polen apícola, pan de abeja fermentado, panal en marco) y mieles monoflorales (miel de trébol, miel de manuka, miel de trigo sarraceno, miel de acacia).",
+  "sources": [
+    {
+      "title": "FAO: Value-Added Products from Beekeeping",
+      "url": "https://www.fao.org/home/en",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

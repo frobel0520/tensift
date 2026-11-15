@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "soil-texture-particles-2027-09-18-en",
+  "puzzleFamilyId": "soil-texture-particles-001",
+  "locale": "en",
+  "publishDate": "2027-09-18",
+  "timezone": "UTC",
+  "theme": "Soil Science & Horizons",
+  "items": [
+    {
+      "itemId": "soil-texture-particles-4",
+      "label": "Balanced Loam"
+    },
+    {
+      "itemId": "soil-texture-particles-8",
+      "label": "A-Horizon (Topsoil)"
+    },
+    {
+      "itemId": "soil-texture-particles-1",
+      "label": "Humus"
+    },
+    {
+      "itemId": "soil-texture-particles-6",
+      "label": "Silty Clay Loam"
+    },
+    {
+      "itemId": "soil-texture-particles-10",
+      "label": "C-Horizon (Parent Rock)"
+    },
+    {
+      "itemId": "soil-texture-particles-2",
+      "label": "Sand (0.05–2.0 mm)"
+    },
+    {
+      "itemId": "soil-texture-particles-7",
+      "label": "O-Horizon (Organic)"
+    },
+    {
+      "itemId": "soil-texture-particles-5",
+      "label": "Sandy Loam"
+    },
+    {
+      "itemId": "soil-texture-particles-9",
+      "label": "B-Horizon (Subsoil)"
+    },
+    {
+      "itemId": "soil-texture-particles-3",
+      "label": "Silt (0.002–0.05 mm)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Soil classification group (Humus/Organic Matter, Mineral Particle Fractions, Loam Texture Mixtures, or Soil Profile Horizons)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Decomposed Organic Matter",
+        "capacity": 1,
+        "itemIds": [
+          "soil-texture-particles-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Mineral Particle Fractions",
+        "capacity": 2,
+        "itemIds": [
+          "soil-texture-particles-2",
+          "soil-texture-particles-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Loam Texture Classes",
+        "capacity": 3,
+        "itemIds": [
+          "soil-texture-particles-4",
+          "soil-texture-particles-5",
+          "soil-texture-particles-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Soil Profile Horizons",
+        "capacity": 4,
+        "itemIds": [
+          "soil-texture-particles-7",
+          "soil-texture-particles-8",
+          "soil-texture-particles-9",
+          "soil-texture-particles-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by soil science category: Organic Fraction (Humus), Mineral Particle Sizes (Sand, Silt), Loam Texture Classes (Sandy Loam, Silty Clay Loam, Loam), and Soil Profile Horizons (O-Horizon Organic, A-Horizon Topsoil, B-Horizon Subsoil, C-Horizon Parent Material).",
+  "sources": [
+    {
+      "title": "USDA NRCS Soil Texture & Horizons",
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-texture-calculator",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

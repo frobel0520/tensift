@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "international-organizations-hq-001",
+  "theme": "Global Institutions by Headquarters",
+  "publishDate": "2027-11-08",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "international-organizations-hq-8",
+        "rivalGroupId": "group-2",
+        "risk": "WTO works closely on global trade finance like the IMF.",
+        "resolution": "The WTO is headquartered in Geneva, Switzerland (group-4), whereas the Bretton Woods institutions (IMF & World Bank) sit in Washington, D.C. (group-2)."
+      },
+      {
+        "itemId": "international-organizations-hq-1",
+        "rivalGroupId": "group-4",
+        "risk": "IAEA is a major UN-system agency.",
+        "resolution": "The IAEA is headquartered at the Vienna International Centre in Austria (group-1), not Geneva (group-4)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "philosophy-major-branches-2027-12-11-zh-hant",
+  "puzzleFamilyId": "philosophy-major-branches-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-12-11",
+  "timezone": "UTC",
+  "theme": "哲學四大核心分支",
+  "items": [
+    {
+      "itemId": "philosophy-major-branches-4",
+      "label": "理性主義"
+    },
+    {
+      "itemId": "philosophy-major-branches-8",
+      "label": "康德義務論"
+    },
+    {
+      "itemId": "philosophy-major-branches-1",
+      "label": "藝術與美學理論"
+    },
+    {
+      "itemId": "philosophy-major-branches-6",
+      "label": "哲學懷疑論"
+    },
+    {
+      "itemId": "philosophy-major-branches-10",
+      "label": "道德契約論"
+    },
+    {
+      "itemId": "philosophy-major-branches-2",
+      "label": "演繹三段論"
+    },
+    {
+      "itemId": "philosophy-major-branches-7",
+      "label": "效益主義（功利主義）"
+    },
+    {
+      "itemId": "philosophy-major-branches-5",
+      "label": "經驗主義"
+    },
+    {
+      "itemId": "philosophy-major-branches-9",
+      "label": "德行倫理學"
+    },
+    {
+      "itemId": "philosophy-major-branches-3",
+      "label": "歸納推理"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各哲學概念所屬的學科分支（美學、邏輯學、知識論或倫理與政治哲學）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "美學",
+        "capacity": 1,
+        "itemIds": [
+          "philosophy-major-branches-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "邏輯學",
+        "capacity": 2,
+        "itemIds": [
+          "philosophy-major-branches-2",
+          "philosophy-major-branches-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "知識論（認識論）",
+        "capacity": 3,
+        "itemIds": [
+          "philosophy-major-branches-4",
+          "philosophy-major-branches-5",
+          "philosophy-major-branches-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "規範倫理學",
+        "capacity": 4,
+        "itemIds": [
+          "philosophy-major-branches-7",
+          "philosophy-major-branches-8",
+          "philosophy-major-branches-9",
+          "philosophy-major-branches-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依哲學分支分類：美學（藝術與美學理論）、邏輯學（演繹三段論、歸納推理）、知識論（理性主義、經驗主義、哲學懷疑論）與倫理學（效益主義、康德義務論、亞里斯多德德行倫理、社會契約論）。",
+  "sources": [
+    {
+      "title": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

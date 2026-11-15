@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "audio-connectors-cables-2027-07-27-en",
+  "puzzleFamilyId": "audio-connectors-cables-001",
+  "locale": "en",
+  "publishDate": "2027-07-27",
+  "timezone": "UTC",
+  "theme": "Audio Connectors & Jacks",
+  "items": [
+    {
+      "itemId": "audio-connectors-cables-4",
+      "label": "XLR 3-Pin"
+    },
+    {
+      "itemId": "audio-connectors-cables-8",
+      "label": "1/4-Inch TS Instrument"
+    },
+    {
+      "itemId": "audio-connectors-cables-1",
+      "label": "TOSLINK (S/PDIF Optical)"
+    },
+    {
+      "itemId": "audio-connectors-cables-6",
+      "label": "Bantam (TT) Patch Jack"
+    },
+    {
+      "itemId": "audio-connectors-cables-10",
+      "label": "2.5 mm Sub-Mini Jack"
+    },
+    {
+      "itemId": "audio-connectors-cables-2",
+      "label": "Neutrik Speakon"
+    },
+    {
+      "itemId": "audio-connectors-cables-7",
+      "label": "RCA Phono"
+    },
+    {
+      "itemId": "audio-connectors-cables-5",
+      "label": "1/4-Inch TRS Balanced"
+    },
+    {
+      "itemId": "audio-connectors-cables-9",
+      "label": "3.5 mm Aux Mini-Jack"
+    },
+    {
+      "itemId": "audio-connectors-cables-3",
+      "label": "Banana Binding Post"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Signal/application class (Optical Digital TOSLINK, High-Power Speaker, Balanced Pro Analog, or Unbalanced Analog)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Optical Digital",
+        "capacity": 1,
+        "itemIds": [
+          "audio-connectors-cables-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Passive Speaker Terminals",
+        "capacity": 2,
+        "itemIds": [
+          "audio-connectors-cables-2",
+          "audio-connectors-cables-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Balanced Pro Analog",
+        "capacity": 3,
+        "itemIds": [
+          "audio-connectors-cables-4",
+          "audio-connectors-cables-5",
+          "audio-connectors-cables-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Unbalanced Analog",
+        "capacity": 4,
+        "itemIds": [
+          "audio-connectors-cables-7",
+          "audio-connectors-cables-8",
+          "audio-connectors-cables-9",
+          "audio-connectors-cables-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by audio signal class: Optical Digital (TOSLINK S/PDIF), High-Power Passive Speaker (Speakon, Banana Binding Post), Balanced Pro Analog (XLR 3-Pin, 1/4-inch TRS Balanced, Bantam TT), and Unbalanced Analog (RCA Phono, 1/4-inch TS Instrument, 3.5 mm Aux Mini-Jack, 2.5 mm Sub-Mini).",
+  "sources": [
+    {
+      "title": "AES: Audio Engineering Connectors",
+      "url": "https://www.aes.org/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "famous-museums-countries-2027-04-30-zh-hant",
+  "puzzleFamilyId": "famous-museums-countries-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-04-30",
+  "timezone": "UTC",
+  "theme": "世界著名美術館所在國",
+  "items": [
+    {
+      "itemId": "famous-museums-countries-4",
+      "label": "羅浮宮"
+    },
+    {
+      "itemId": "famous-museums-countries-8",
+      "label": "現代藝術博物館（MoMA）"
+    },
+    {
+      "itemId": "famous-museums-countries-1",
+      "label": "普拉多博物館"
+    },
+    {
+      "itemId": "famous-museums-countries-6",
+      "label": "龐畢度中心"
+    },
+    {
+      "itemId": "famous-museums-countries-10",
+      "label": "蓋蒂中心"
+    },
+    {
+      "itemId": "famous-museums-countries-2",
+      "label": "大英博物館"
+    },
+    {
+      "itemId": "famous-museums-countries-7",
+      "label": "大都會藝術博物館"
+    },
+    {
+      "itemId": "famous-museums-countries-5",
+      "label": "奧賽美術館"
+    },
+    {
+      "itemId": "famous-museums-countries-9",
+      "label": "芝加哥藝術博物館"
+    },
+    {
+      "itemId": "famous-museums-countries-3",
+      "label": "泰特現代藝術館"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各知名博物館／美術館所在的國家（西班牙、英國、法國或美國）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "西班牙",
+        "capacity": 1,
+        "itemIds": [
+          "famous-museums-countries-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "英國",
+        "capacity": 2,
+        "itemIds": [
+          "famous-museums-countries-2",
+          "famous-museums-countries-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "法國",
+        "capacity": 3,
+        "itemIds": [
+          "famous-museums-countries-4",
+          "famous-museums-countries-5",
+          "famous-museums-countries-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "美國",
+        "capacity": 4,
+        "itemIds": [
+          "famous-museums-countries-7",
+          "famous-museums-countries-8",
+          "famous-museums-countries-9",
+          "famous-museums-countries-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依所在國家分類：西班牙（普拉多博物館）、英國（大英博物館、泰特現代藝術館）、法國（羅浮宮、奧賽美術館、龐畢度中心）與美國（大都會藝術博物館、現代藝術博物館 MoMA、芝加哥藝術博物館、蓋蒂中心）。",
+  "sources": [
+    {
+      "title": "ICOM: International Council of Museums",
+      "url": "https://icom.museum/en/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

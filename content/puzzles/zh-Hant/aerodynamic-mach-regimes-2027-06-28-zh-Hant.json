@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "aerodynamic-mach-regimes-2027-06-28-zh-hant",
+  "puzzleFamilyId": "aerodynamic-mach-regimes-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-28",
+  "timezone": "UTC",
+  "theme": "空氣動力學馬赫數區間",
+  "items": [
+    {
+      "itemId": "aerodynamic-mach-regimes-4",
+      "label": "馬赫錐（音爆）"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-8",
+      "label": "重返大氣電漿鞘"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-1",
+      "label": "螺旋槳與支線客機巡航"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-6",
+      "label": "SR-71 黑鳥巡航（3.2 馬赫）"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-10",
+      "label": "極音速助推滑翔"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-2",
+      "label": "臨界馬赫數"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-7",
+      "label": "超燃衝壓飛行（7 馬赫）"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-5",
+      "label": "協和號巡航（2.02 馬赫）"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-9",
+      "label": "軌道重返（25 馬赫）"
+    },
+    {
+      "itemId": "aerodynamic-mach-regimes-3",
+      "label": "穿音速波阻驟升"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各飛行狀態或現象所屬的馬赫數區間（次音速、穿音速、超音速或極音速）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "次音速（M < 0.8）",
+        "capacity": 1,
+        "itemIds": [
+          "aerodynamic-mach-regimes-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "穿音速（M 0.8–1.2）",
+        "capacity": 2,
+        "itemIds": [
+          "aerodynamic-mach-regimes-2",
+          "aerodynamic-mach-regimes-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "超音速（M 1.2–5.0）",
+        "capacity": 3,
+        "itemIds": [
+          "aerodynamic-mach-regimes-4",
+          "aerodynamic-mach-regimes-5",
+          "aerodynamic-mach-regimes-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "極音速（M > 5.0）",
+        "capacity": 4,
+        "itemIds": [
+          "aerodynamic-mach-regimes-7",
+          "aerodynamic-mach-regimes-8",
+          "aerodynamic-mach-regimes-9",
+          "aerodynamic-mach-regimes-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依馬赫數區間分類：次音速 M<0.8（次音速客機巡航）、穿音速 M 0.8–1.2（臨界馬赫數、穿音速波阻驟升）、超音速 M 1.2–5.0（2 馬赫超音速巡航、音爆馬赫錐、協和號 2.02 馬赫）與極音速 M>5.0（超燃衝壓 7 馬赫、重返大氣電漿鞘、軌道重返 25 馬赫、極音速助推滑翔）。",
+  "sources": [
+    {
+      "title": "NASA: Speed Regimes",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/mach.html",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.48
+  },
+  "status": "scheduled"
+}

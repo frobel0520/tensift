@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "volcanic-arcs-continents-001",
+  "theme": "Famous Volcanoes by Continent",
+  "publishDate": "2027-03-12",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "volcanic-arcs-continents-1",
+        "rivalGroupId": "group-3",
+        "risk": "Mount Erebus is named after an ancient Greek deity.",
+        "resolution": "Mount Erebus is Earth’s southernmost active volcano on Ross Island, Antarctica (group-1)."
+      },
+      {
+        "itemId": "volcanic-arcs-continents-4",
+        "rivalGroupId": "group-2",
+        "risk": "Etna in Sicily lies close to North Africa.",
+        "resolution": "Sicily and Mount Etna are in Italy, Europe (group-3)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "puzzleFamilyId": "un-principal-organs-agencies-001",
+  "theme": "United Nations System Bodies",
+  "publishDate": "2027-10-24",
+  "authorReview": {
+    "reviewedAt": "2026-11-14",
+    "reviewer": "author",
+    "verdict": "pass",
+    "checkedAlternates": [
+      {
+        "itemId": "un-principal-organs-agencies-7",
+        "rivalGroupId": "group-3",
+        "risk": "UNICEF is as famous globally as WHO and UNESCO.",
+        "resolution": "UNICEF is a subsidiary UN fund/programme created by the General Assembly (group-4), whereas WHO, UNESCO, and FAO are autonomous treaty-based Specialized Agencies (group-3)."
+      },
+      {
+        "itemId": "un-principal-organs-agencies-1",
+        "rivalGroupId": "group-2",
+        "risk": "The ICJ is a principal UN organ like the Security Council.",
+        "resolution": "The ICJ is the sole principal judicial court sitting in The Hague (group-1), distinct from political charter councils (group-2)."
+      }
+    ],
+    "notes": "Author factual, ambiguity, and three-locale review complete."
+  },
+  "blindPlaytest": {
+    "status": "pending",
+    "testers": 0,
+    "completedAt": null,
+    "notes": "Independent blind playtest pending."
+  }
+}

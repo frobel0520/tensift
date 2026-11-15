@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "chess-rules-elements-2027-07-31-en",
+  "puzzleFamilyId": "chess-rules-elements-001",
+  "locale": "en",
+  "publishDate": "2027-07-31",
+  "timezone": "UTC",
+  "theme": "Chess Rules & Pieces",
+  "items": [
+    {
+      "itemId": "chess-rules-elements-4",
+      "label": "Stalemate"
+    },
+    {
+      "itemId": "chess-rules-elements-8",
+      "label": "Rook"
+    },
+    {
+      "itemId": "chess-rules-elements-1",
+      "label": "En Passant"
+    },
+    {
+      "itemId": "chess-rules-elements-6",
+      "label": "Fifty-Move Rule"
+    },
+    {
+      "itemId": "chess-rules-elements-10",
+      "label": "Knight"
+    },
+    {
+      "itemId": "chess-rules-elements-2",
+      "label": "Kingside Castling (0-0)"
+    },
+    {
+      "itemId": "chess-rules-elements-7",
+      "label": "Queen"
+    },
+    {
+      "itemId": "chess-rules-elements-5",
+      "label": "Threefold Repetition"
+    },
+    {
+      "itemId": "chess-rules-elements-9",
+      "label": "Bishop"
+    },
+    {
+      "itemId": "chess-rules-elements-3",
+      "label": "Queenside Castling (0-0-0)"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "Chess rule category (Special Pawn Capture, Castling Moves, Draw Conditions, or Piece Types)",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "Special Pawn Capture",
+        "capacity": 1,
+        "itemIds": [
+          "chess-rules-elements-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "Castling Moves",
+        "capacity": 2,
+        "itemIds": [
+          "chess-rules-elements-2",
+          "chess-rules-elements-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "Draw Conditions",
+        "capacity": 3,
+        "itemIds": [
+          "chess-rules-elements-4",
+          "chess-rules-elements-5",
+          "chess-rules-elements-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "Chess Pieces",
+        "capacity": 4,
+        "itemIds": [
+          "chess-rules-elements-7",
+          "chess-rules-elements-8",
+          "chess-rules-elements-9",
+          "chess-rules-elements-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "Grouped by chess rule category: Special Pawn Capture (En Passant), Castling Moves (Kingside Castling, Queenside Castling), Draw Conditions (Stalemate, Threefold Repetition, Fifty-Move Rule), and Piece Types (Queen, Rook, Bishop, Knight).",
+  "sources": [
+    {
+      "title": "FIDE Laws of Chess",
+      "url": "https://handbook.fide.com/chapter/E012023",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "easy",
+    "score": 0.25
+  },
+  "status": "scheduled"
+}

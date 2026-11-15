@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "puzzleId": "constellations-sky-regions-2027-06-14-zh-hant",
+  "puzzleFamilyId": "constellations-sky-regions-001",
+  "locale": "zh-Hant",
+  "publishDate": "2027-06-14",
+  "timezone": "UTC",
+  "theme": "星座的天球區域分類",
+  "items": [
+    {
+      "itemId": "constellations-sky-regions-4",
+      "label": "金牛座"
+    },
+    {
+      "itemId": "constellations-sky-regions-8",
+      "label": "天鵝座"
+    },
+    {
+      "itemId": "constellations-sky-regions-1",
+      "label": "南十字座"
+    },
+    {
+      "itemId": "constellations-sky-regions-6",
+      "label": "天蠍座"
+    },
+    {
+      "itemId": "constellations-sky-regions-10",
+      "label": "大犬座"
+    },
+    {
+      "itemId": "constellations-sky-regions-2",
+      "label": "大熊座"
+    },
+    {
+      "itemId": "constellations-sky-regions-7",
+      "label": "獵戶座"
+    },
+    {
+      "itemId": "constellations-sky-regions-5",
+      "label": "獅子座"
+    },
+    {
+      "itemId": "constellations-sky-regions-9",
+      "label": "天琴座"
+    },
+    {
+      "itemId": "constellations-sky-regions-3",
+      "label": "仙后座"
+    }
+  ],
+  "rows": [
+    {
+      "rowId": "row-1",
+      "capacity": 1
+    },
+    {
+      "rowId": "row-2",
+      "capacity": 2
+    },
+    {
+      "rowId": "row-3",
+      "capacity": 3
+    },
+    {
+      "rowId": "row-4",
+      "capacity": 4
+    }
+  ],
+  "solution": {
+    "hiddenDimension": "各星座在天球上的分布區域（南天極周極、北天極周極、黃道十二宮或非黃道亮星座）",
+    "groups": [
+      {
+        "groupId": "group-1",
+        "label": "南天周極星座",
+        "capacity": 1,
+        "itemIds": [
+          "constellations-sky-regions-1"
+        ]
+      },
+      {
+        "groupId": "group-2",
+        "label": "北天周極星座",
+        "capacity": 2,
+        "itemIds": [
+          "constellations-sky-regions-2",
+          "constellations-sky-regions-3"
+        ]
+      },
+      {
+        "groupId": "group-3",
+        "label": "黃道星座",
+        "capacity": 3,
+        "itemIds": [
+          "constellations-sky-regions-4",
+          "constellations-sky-regions-5",
+          "constellations-sky-regions-6"
+        ]
+      },
+      {
+        "groupId": "group-4",
+        "label": "非黃道亮星座",
+        "capacity": 4,
+        "itemIds": [
+          "constellations-sky-regions-7",
+          "constellations-sky-regions-8",
+          "constellations-sky-regions-9",
+          "constellations-sky-regions-10"
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "maxUses": 1,
+    "policy": "random-unlocked-correct-row"
+  },
+  "explanation": "依天球位置分類：南天周極（南十字座）、北天周極（大熊座、仙后座）、黃道星座（金牛座、獅子座、天蠍座）與非黃道亮星座（獵戶座、天鵝座、天琴座、大犬座）。",
+  "sources": [
+    {
+      "title": "IAU: The Constellations",
+      "url": "https://www.iau.org/public/themes/constellations/",
+      "retrievedAt": "2026-11-14"
+    }
+  ],
+  "difficulty": {
+    "band": "medium",
+    "score": 0.45
+  },
+  "status": "scheduled"
+}
