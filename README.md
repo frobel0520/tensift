@@ -1,27 +1,28 @@
 # Tensift
 
-> Tensift is a multilingual hidden-rule sorting puzzle. The browser app serves one daily puzzle, while Cloudflare Pages Functions keep the canonical answer in D1.
+> Tensift is a multilingual hidden-rule sorting puzzle, finalized as a **300-level pure-static standalone edition**. All 300 curated levels run client-side in the browser with no database or daily schedule dependency.
 
 ## Overview
 
-**Play:** https://tensift.pages.dev/ — also listed on the [Playmint](https://playmint.pages.dev/) puzzle hub; the header's “More games” link goes back there (since 2026-09-25).
+**Play:** https://tensift.pages.dev/ — also listed on the [Playmint](https://playmint.pages.dev/) puzzle hub; the header's “More games” link goes back there.
 
 ## Main features and content
 
+- **300 curated general-audience levels** with `easy` / `medium` / `hard` progression.
 - Ten familiar items share one visible topic.
 - Sort them into four unlabeled rows with capacities 1, 2, 3, and 4.
 - Every row is produced by the same hidden classification dimension.
-- Fill the board before checking the arrangement.
-- Checks are unlimited; the interface records total attempts.
-- One Hint may be used at any time. It places and locks one item in the correct row.
+- Fill the board before checking the arrangement; checks are unlimited and total attempts are recorded.
+- One Hint may be used at any time to place and lock one item in the correct row.
 - Reveal answer is always available from the lower-right button.
+- **Level navigation & persistence**: Previous/Next level controls, a searchable 300-level picker modal (difficulty badges, solved indicators, “Next unsolved”, and “Random” jump), and `localStorage` persistence for current level and solved progress.
 - Results can be shared without spoilers using the device share sheet or a clipboard fallback.
 
 ## Status and known limitations
 
-Prototype approved on 2026-08-29. Deployed to production at https://tensift.pages.dev (Cloudflare Pages project `tensift` + D1 database `tensift`). Publisher content pages are live and ad serving is disabled (see [Publisher content and AdSense](#publisher-content-and-adsense)). Service state and remaining items are tracked in [`docs/deploy-readiness.md`](docs/deploy-readiness.md).
+Prototype approved on 2026-08-29. Finalized as a **300-level pure-static standalone edition** in PR #42 (2026-11-15) and deployed to Cloudflare Pages at https://tensift.pages.dev. The project is now in **maintenance-only** mode with no ongoing daily content updates. Publisher content pages are live and ad serving is disabled (see [Publisher content and AdSense](#publisher-content-and-adsense)). Service state and verification gates are tracked in [`docs/deploy-readiness.md`](docs/deploy-readiness.md) and [`progress.md`](progress.md).
 
-SA / production design draft: [`docs/sa-production-design.md`](docs/sa-production-design.md). The implementation-level design is [`docs/system-design.md`](docs/system-design.md). The authoring contract is [`docs/puzzle.schema.json`](docs/puzzle.schema.json); proposed architecture decisions are recorded in [`docs/adr-0001-server-authoritative-answer-boundary.md`](docs/adr-0001-server-authoritative-answer-boundary.md) and [`docs/adr-0002-locale-authored-content.md`](docs/adr-0002-locale-authored-content.md).
+Historical architecture & design documents: [`docs/sa-production-design.md`](docs/sa-production-design.md), [`docs/system-design.md`](docs/system-design.md), [`docs/puzzle.schema.json`](docs/puzzle.schema.json), [`docs/adr-0001-server-authoritative-answer-boundary.md`](docs/adr-0001-server-authoritative-answer-boundary.md), and [`docs/adr-0002-locale-authored-content.md`](docs/adr-0002-locale-authored-content.md).
 
 ## License and sources
 
@@ -35,191 +36,85 @@ No license file is present in the repository root; this README does not declare 
 - Traditional Chinese, Taiwan usage (`zh-Hant`; replaced Simplified Chinese `zh-Hans` on 2026-09-25, and old `zh-Hans` links and saved preferences map to `zh-Hant`)
 - Latin American neutral Spanish (`es-419`)
 
-Each locale has 85 authored daily puzzles in `content/puzzles/<locale>/`, with publish dates from 2026-08-29 to 2026-11-21 (255 files across the three locales). The prototype started from three families: Countries, Animals, and Musical Instruments.
+Each locale has **300 curated levels** in `content/puzzles/<locale>/` (900 JSON files across the three locales), compiled into static client bundles at `src/data/catalog-{en,zh-Hant,es-419}.json`.
 
 ## Run locally
 
-Install dependencies and use the Vite app for front-end-only work:
+Install dependencies and run the pure-static Vite app:
 
-```powershell
+```sh
 npm install
 npm run dev
 ```
 
-For the real same-origin Pages Function + local D1 flow, build first and run Wrangler Pages Dev:
+To rebuild the static catalog bundles from `content/puzzles/`, validate, test, and build `dist/`:
 
-```powershell
-npm run db:migrate:local
-npm run db:seed:local
+```sh
+node --experimental-strip-types scripts/build-static-catalog.ts
+npm run validate:puzzles
+npm run typecheck
+npm test
+npm run build
+npm run preview
+```
+
+To preview with Cloudflare Pages Functions (editorial pages, `/api/health`, Harbor maintenance middleware):
+
+```sh
 npm run build
 npm run cf:dev
 ```
 
-The app is served at `http://localhost:8788/` by Pages Dev. The root [`index.html`](index.html) remains the approved prototype reference and is not the production entry point.
+The app is served at `http://localhost:8788/` by Pages Dev.
 
 ## Project documents
 
-The `docs` directory contains the approved project plan, prototype test plan, pilot puzzle pack, SA / production design, and system design package.
+The `docs` directory contains the approved project plan, prototype test plan, pilot puzzle pack, SA / production design, system design package, and deploy-readiness checklist.
 
 ## Production app
 
-The Vite/React app lives in `app/` and imports typed contracts from `shared/`. Pages Functions expose the D1-backed health, today, check, hint, and reveal contracts. Production build output is flattened to `dist/index.html` for Cloudflare Pages. The client never ships solution groups; answers are returned only by the explicit reveal request.
+The Vite/React app lives in `src/` (with shared contracts in `shared/`). [`src/api/standalone.ts`](src/api/standalone.ts) loads the per-locale static bundles (`src/data/catalog-{en,zh-Hant,es-419}.json`) generated by [`scripts/build-static-catalog.ts`](scripts/build-static-catalog.ts) and runs puzzle evaluation, hints, and answer reveal locally via `src/domain/puzzle/engine.ts` without requiring Cloudflare D1. Production build output is flattened to `dist/index.html` for Cloudflare Pages.
 
-The Cloudflare Pages Function entry points are under `functions/`; D1 migrations are under `migrations/`. The `DB` binding in `wrangler.toml` points to the configured `tensift` database. Content is added in batches through pull requests and checked by the [ambiguity guard](#ambiguity-guard); no family has a blind playtest pass yet.
+Server-rendered editorial pages (`/learn/{locale}/how-to-play`, `/archive`, `/about`, `/privacy`, `/sitemap.xml`) and Harbor maintenance middleware live under `functions/` and `server/editorial/`.
 
 ## Deployment
 
-The branching model is `main` plus short-lived feature branches. Every change
-reaches `main` through a pull request, which runs the `CI` workflow.
+The branching model is `main` plus short-lived feature branches. Every change reaches `main` through a pull request, which runs the `CI` workflow (`validate:puzzles`, `typecheck`, `test`, `build`, `build:functions`, and `npm audit`).
 
-Merging to `main` then runs the `Deploy` workflow: it repeats every CI gate
-(content validation, type check, tests, build, bundle-leak scan) and then
-publishes the verified `dist/` to the Cloudflare Pages project `tensift` as a
-production deployment. `main` is covered by `Deploy` rather than `CI`, so the
-gates never run twice for one commit.
+Merging to `main` runs the `Deploy` workflow: it repeats every verification gate and publishes the verified `dist/` to the Cloudflare Pages project `tensift` as a production deployment.
 
 Required repository configuration (Settings > Secrets and variables > Actions):
 
 | Kind | Name | Value |
 |---|---|---|
-| Secret | `CLOUDFLARE_API_TOKEN` | A Cloudflare API token with the `Cloudflare Pages: Edit` and `D1: Edit` permissions on this account |
-| Secret | `CLOUDFLARE_ACCOUNT_ID` | The Cloudflare account ID that owns the `tensift` Pages project and D1 database |
+| Secret | `CLOUDFLARE_API_TOKEN` | A Cloudflare API token with `Cloudflare Pages: Edit` (and `D1: Edit` if using legacy D1 scripts) |
+| Secret | `CLOUDFLARE_ACCOUNT_ID` | The Cloudflare account ID that owns the `tensift` Pages project |
 
-Until both Cloudflare credentials exist, the workflow runs every verification
-gate and then skips deployment with a notice. AdSense build variables are no
-longer deployment prerequisites: ad serving is deliberately disabled during
-publisher-content remediation. Never put credentials in a `VITE_*` variable.
+Until both Cloudflare credentials exist, the workflow runs every verification gate and skips deployment with a notice. Never put credentials in a `VITE_*` variable. Manual `npm run cf:deploy` from a workstation still works as a fallback.
 
-Manual `npm run cf:deploy` from a workstation still works and is the fallback if
-Actions is unavailable.
+### Ambiguity guard & playtest ledgers
 
-### Seeding content from CI
+`content/playtest/<familyId>.json` records author ambiguity reviews (`checkedAlternates`, `rivalGroupId`, `resolution`) for curated puzzle families. `npm run check:playtest` verifies author review coverage; `blindPlaytest.status` remains `"pending"` until independent blind testing is recorded.
 
-Content is production data, so it is never written on push. The
-`Seed content to D1` workflow is manual (Actions > Seed content to D1 > Run
-workflow) and takes a `mode` input:
+### Legacy D1 / daily-runway tooling
 
-- `dry-run` (default) validates every file under `content/puzzles/**` and
-  uploads the generated `tensift-seed.sql` as a run artifact. It does not touch
-  the database.
-- `apply` does the same, then applies D1 migrations and seeds the remote
-  `tensift` database.
-
-The seed replaces each puzzle by `puzzleId` (delete then insert), so it is
-idempotent for the records present in `content/` and leaves any other record
-untouched. To require a human approval before `apply`, add required reviewers to
-the `production` environment in repository settings.
-
-### Scheduled checks
-
-Publishing needs no cron. The `today` query selects on
-`publish_date = <current UTC date> AND status IN ('scheduled','published')`, so
-a scheduled record becomes playable on its own date. Scheduling is used for
-verification and for content supply instead.
-
-| Workflow | Schedule | Fails when |
-|---|---|---|
-| `Daily production smoke` | 00:15 UTC daily | `/api/health` is not `ok`/`d1`, or any of the three locales has no playable puzzle for today's UTC date, or the safe DTO carries an answer field |
-| `Content alarm` | 01:00 UTC Mondays, and on any PR touching `content/puzzles/**` or `content/playtest/**` | Fewer than 14 consecutive complete days of authored content remain from today, or a puzzle family scheduled from 2026-09-28 onward has no recorded ambiguity review |
-
-Both can be run on demand from the Actions tab. GitHub emails the repository
-owner when a scheduled run fails, which is the notification path for both.
-
-Run them locally with:
-
-```powershell
-npm run smoke:production
-npm run check:runway
-npm run check:playtest
-```
-
-`smoke:production` accepts `--base-url` to point at a preview deployment;
-`check:runway` accepts `--min-days` and `--date`; `check:playtest` accepts
-`--date`, `--author-review-from`, `--blind-lead-days`, and `--strict-blind`.
-
-Runway is measured as the number of days from today with a complete locale set,
-stopping at the first gap — not the total file count, because one missing locale
-is the day the daily release breaks. The date comes from each file's
-`publishDate` field, not its filename: several filenames carry a different date
-than the record inside them.
-
-### Ambiguity guard
-
-A puzzle only works if the intended grouping is the dominant reading of its ten
-items, and no schema can prove that. `content/playtest/<familyId>.json` carries
-the review instead: which item was tested against which rival group, and why the
-intended group wins.
-
-The guard has two strengths on purpose. Author review is a hard failure for any
-family publishing on or after `2026-09-28`; the thirty families before that date
-are the pre-existing backlog and are listed on every run without failing it.
-Blind playtesting — the only check that catches readings the author cannot see —
-is reported as debt for any family within seven days of release, and becomes a
-failure under `--strict-blind`. Turn that flag on (`strict_blind` in the
-workflow dispatch inputs) once blind testing is actually running; today no
-family has a blind pass, so it would fail every run.
-
-A blind pass needs at least two testers recorded in `blindPlaytest.testers`.
+Prior to the 300-level standalone edition, Tensift served one daily puzzle from Cloudflare D1. Legacy scripts (`scripts/seed-puzzles.ts`, `scripts/check-content-runway.mjs`) and D1 migrations (`migrations/`) remain in the repository for historical reference, but D1 seeding is **not required** for gameplay in the standalone edition.
 
 ## Harbor maintenance mode
 
 `functions/_middleware.js` is generated by Harbor (`npm run build:middleware` in the Harbor repo) — do not edit it by hand. It reads the `tensift` runtime config from https://harbor-1wk.pages.dev:
 
-- When maintenance mode is on, every route returns `503` except `/health` and `/api/health`, so the daily smoke check and Harbor's own probe keep working.
+- When maintenance mode is on, every route returns `503` except `/health` and `/api/health`.
 - A signed `harbor_preview` cookie or query parameter lets the owner view the site during maintenance; the only secret needed is `HARBOR_PREVIEW_SECRET`.
 - If Harbor cannot be reached or returns an invalid config, the middleware fails open and serves the game normally.
 
 ## Publisher content and AdSense
 
-Ad serving is disabled on gameplay and editorial pages. The ad component, its
-`VITE_ADSENSE_*` build variables and the ad-network CSP allowances have been
-removed; any leftover `VITE_ADSENSE_*` values are ignored. Ownership metadata
-and the existing `/ads.txt` Function remain; keep the `ADSENSE_PUBLISHER_ID`
-Function variable for verification.
+Ad serving is disabled on gameplay and editorial pages. The ad component, its `VITE_ADSENSE_*` build variables, and ad-network CSP allowances have been removed. Ownership metadata and the `/ads.txt` Function remain; keep the `ADSENSE_PUBLISHER_ID` Function variable for verification.
 
-`/learn/{locale}/how-to-play`, `/archive`, `/about`, and `/privacy` are complete
-server-rendered HTML pages for `en`, `zh-Hant`, and `es-419`. Selected historical
-explanations live at `/learn/{locale}/archive/{countries|animals|instruments}`.
-These routes work without JavaScript and D1. Use Pages Dev, not Vite alone, to
-preview them. `/sitemap.xml` lists only available pages and is linked by robots.txt.
+`/learn/{locale}/how-to-play`, `/archive`, `/about`, and `/privacy` are server-rendered HTML pages for `en`, `zh-Hant`, and `es-419`, with selected historical explanations at `/learn/{locale}/archive/{countries|animals|instruments}`. `/sitemap.xml` lists available pages and is linked by `robots.txt`.
 
-The explicitly selected records and original editorial copy live in
-`server/editorial/`. Add each article in all three languages with reasoning,
-limitations and references; do not automatically turn every scheduled record
-into a thin article. A selected answer becomes public only after its UTC
-`publishDate`, using the server clock. Never import this catalog into `src/`.
-`scan:bundle` still scans the entire browser artifact without exemptions.
-`build:functions` separately verifies the server bundle outside `dist/`.
-
-Before enabling ads again, review placements, implement any required consent
-management and update the privacy notice. Ownership verification is not ad
-approval. These changes do not guarantee AdSense acceptance; request review
-only after the deployed content and account requirements have been checked.
-
-The animal-covering wording correction also requires a D1 content update to
-affect the live game. Merging a frontend deployment alone does not seed D1.
-
-### D1 migration and puzzle seed
-
-The checked-in `wrangler.toml` contains the `DB` binding for the configured `tensift` database. Use an environment-specific Wrangler config when targeting another database.
-
-Apply the checked-in schema to a local Wrangler D1 database, then generate and import the normalized puzzle records:
-
-```powershell
-npm run db:migrate:local
-npm run seed:puzzles
-# inspect .wrangler/tensift-seed.sql, then apply it when ready
-npm run db:seed:local
-```
-
-`seed:puzzles` is a dry run by default. It validates every file under `content/puzzles/**/*.json` and writes `.wrangler/tensift-seed.sql`; it does not modify any database. The `db:seed:local` and `db:seed:remote` shortcuts use the database name `tensift`. For another binding, use the explicit form:
-
-```powershell
-npm run seed:puzzles -- --database <database-name> --local
-npm run seed:puzzles -- --database <database-name> --remote
-```
-
-Remote execution is intentionally opt-in and requires an authenticated Wrangler session plus a real D1 binding. Do not run it until the migration and generated SQL have been reviewed.
+Before enabling ads again, review placements, implement any required consent management, and update the privacy notice. Ownership verification is not ad approval.
 
 Approved baseline:
 
@@ -228,4 +123,4 @@ Approved baseline:
 - One Hint available at any time; it places and locks one item in the correct row.
 - Reveal answer is aligned in the right column and can be closed with the close button or Escape.
 - English, Traditional Chinese (Taiwan), and neutral Latin American Spanish locale switching.
-- No Tweaks panel; feedback is the exact total of correctly grouped items.
+- Level 1–300 navigation with searchable level picker and `localStorage` progress persistence.
