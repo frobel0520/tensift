@@ -1,11 +1,8 @@
 name: Daily production smoke
 
-# The `today` endpoint selects by the current UTC date, so a missing record for
-# one locale only surfaces when a player hits it. Run shortly after the UTC
-# date rolls over so a broken release is caught before the audience wakes up.
+# Legacy daily-D1 smoke check. Scheduled cron disabled for the 300-level
+# standalone edition; keep workflow_dispatch for manual runs if needed.
 on:
-  schedule:
-    - cron: '15 0 * * *'
   workflow_dispatch:
     inputs:
       base_url:
