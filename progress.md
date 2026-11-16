@@ -1,25 +1,26 @@
 # Tensift Progress
 
-Updated: 2026-11-15 (Asia/Taipei).
+Updated: 2026-11-16 (Asia/Taipei).
 
-## Current status (300-Level Standalone Edition — Final Release)
+## Current status (Closed / Maintenance-Only — 300-Level Standalone Edition)
 
-Tensift is finalized and merged to `main` (PR #42, commit `be59283`) as a **300-level pure-static standalone game** (900 trilingual puzzle JSONs across `en`, `zh-Hant`, `es-419`). The project is now in **maintenance-only** mode with no ongoing daily content updates:
+Tensift is finalized, deployed, and **closed to active feature/content development** (maintenance-only). All deliverables are merged to `main`:
 
-- **Curated 300 Universal Levels**: Filtered out ~95 specialized/academic topics and duplicate/overlapping families from the 500-family expansion (PR #41 closed/superseded), retaining **300 accessible, general-audience levels** (`easy` / `medium` / `hard` progression) in `content/puzzles/{en,zh-Hant,es-419}/` with zero high-overlap duplicates.
+- **Curated 300 Universal Levels (PR #42, `be59283`)**: Filtered out ~95 specialized/academic topics and duplicate/overlapping families from the 500-family expansion (PR #41 closed/superseded), retaining **300 accessible, general-audience levels** (`easy` / `medium` / `hard` progression; 900 trilingual JSONs across `en`, `zh-Hant`, `es-419`) in `content/puzzles/{en,zh-Hant,es-419}/` with zero high-overlap duplicates.
 - **Pure-Static Client Engine**: [`scripts/build-static-catalog.ts`](scripts/build-static-catalog.ts) generates per-locale static level bundles (`src/data/catalog-{en,zh-Hant,es-419}.json`), and [`src/api/standalone.ts`](src/api/standalone.ts) runs puzzle evaluation, hints, and reveal locally via `src/domain/puzzle/engine.ts` without requiring Cloudflare D1 or scheduled content seeding.
 - **Level Navigation & Persistence**: [`src/App.tsx`](src/App.tsx), [`src/i18n/messages.ts`](src/i18n/messages.ts), and [`src/styles.css`](src/styles.css) provide Previous/Next level controls, a searchable 300-level picker modal (with difficulty badges, solved indicators, "Next unsolved", and "Random" jump), and `localStorage` persistence for current level and solved progress.
-- **CI/CD**: Removed `scan:bundle` from `.github/workflows/ci.yml` and `.github/workflows/deploy.yml` since the standalone static edition intentionally bundles the 300-level catalog client-side. All CI gates (`validate:puzzles`, `typecheck`, `test`, `build`, `build:functions`, `check:playtest`) pass on `main` (Deploy `43698925812`).
+- **CI/CD & Production Deployment**: Removed `scan:bundle` from `.github/workflows/ci.yml` and `.github/workflows/deploy.yml`, and disabled legacy daily/weekly cron schedules in `.github/workflows/daily-smoke.yml` and `.github/workflows/content-alarm.yml` (PR #45, `b392439`). All CI gates (`validate:puzzles`, `typecheck`, `test`, `build`, `build:functions`, `check:playtest`) pass on `main`, and `Deploy to Cloudflare Pages` succeeded (`43698925812`) to https://tensift.pages.dev.
+- **Documentation & Issue Cleanup**: Consolidated `README.md`, `docs/deploy-readiness.md`, and `progress.md` (PR #43, PR #44) and closed obsolete Issue #24. Zero open PRs and zero open issues remain.
 - **Full 300-Level Playthrough Verification (2026-11-15)**:
   - **Engine Simulation (900/900 passed, 0 failures)**: Verified all 300 levels across `en`, `zh-Hant`, and `es-419` via `src/api/standalone.ts` (`getLevel`, incorrect-placement `check`, `hint`, full-solution `check`, and `reveal` with non-empty explanations/sources and zero answer leakage).
   - **Browser E2E (300/300 levels passed, 0 `console.error`, 0 `pageerror`)**: Built `dist/` and played Level 1 through Level 300 end-to-end in headless Playwright Chromium against `npm run preview`, verifying card/row rendering, Check/Next progression (`Levels (300/300)`), Hint locking, Reveal modal (`Escape`/close), Level Picker modal (solved badge, difficulty tags, search, Next unsolved, Random), trilingual switching (`en`/`zh-Hant`/`es-419`), and `localStorage` persistence across reload.
 
 ## Pending
 
-- [x] 【高】Remote D1 coverage through 2026-11-21 verified in audit 40801570799 (superseded by standalone static edition; D1 seeding is no longer required for gameplay).
-- [ ] 【中】Optional: arrange independent blind playtests and record results in `content/playtest/` if strict-blind auditing is desired later.
-- [ ] 【低】Owner decision: request AdSense re-review if still desired; approval is not guaranteed and ad serving stays disabled.
-- [ ] 【中】Resolve remaining source/rights review in `docs/deploy-readiness.md` if needed; deployment to Cloudflare Pages is purely static (`dist/`).
+None for release/closure. Optional future owner decisions (deferred):
+- [ ] 【低】Optional: arrange independent blind playtests and record results in `content/playtest/` if strict-blind auditing is desired later.
+- [ ] 【低】Optional: request AdSense re-review if still desired; approval is not guaranteed and ad serving stays disabled.
+- [ ] 【低】Optional: resolve remaining older-content source/rights review in `docs/deploy-readiness.md` if needed.
 
 ## Deferred decisions
 
