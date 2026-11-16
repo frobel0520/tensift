@@ -5,9 +5,9 @@ name: Content alarm
 #     next batch gets written while there is still time to playtest it;
 #   - playtest ledger: fails when a family scheduled from the enforcement date
 #     onward has no recorded ambiguity review, and reports the blind-test debt.
+# Scheduled cron disabled for the 300-level standalone edition (no ongoing
+# daily content updates); keep workflow_dispatch and PR checks on content/.
 on:
-  schedule:
-    - cron: '0 1 * * 1'
   workflow_dispatch:
     inputs:
       min_days:
