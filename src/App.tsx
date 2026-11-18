@@ -32,6 +32,7 @@ import {
 } from './domain/game/state';
 import { loadSession, saveSession } from './domain/game/session';
 import { getMessages, type UiMessages } from './i18n/messages';
+import { placementRule, useCoarsePointer } from './ui/pointer';
 import { SiteNavigation } from './ui/site-navigation';
 import {
   isThemeMode,
@@ -417,6 +418,7 @@ function PuzzleView({
   onReveal,
   onDispatch,
 }: PuzzleViewProps) {
+  const coarsePointer = useCoarsePointer();
   const puzzle = state.puzzle;
   if (!puzzle) {
     return null;
@@ -614,7 +616,7 @@ function PuzzleView({
         <h2>{copy.findLens}</h2>
         <p>{copy.rulesBody}</p>
         <ul>
-          <li>{copy.ruleTap}</li>
+          <li>{placementRule(copy, coarsePointer)}</li>
           <li>{copy.ruleUnlimited}</li>
           <li>{copy.ruleHint}</li>
         </ul>
