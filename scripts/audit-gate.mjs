@@ -35,7 +35,8 @@ function npmFindings(report) {
   const roots = (name, seen = new Set()) => {
     if (seen.has(name) || !vulns[name]) return [];
     seen.add(name);
-    return vulns[name].via.flatMap((v) => (typeof v === "string" ? roots(v, seen) : [ghsaOf(v.url) ?? `unknown:${v.source}`]));
+    // 只看 high/critical 的根源；medium 以下與原本 --audit-level=high 一樣不擋
+    return vulns[name].via.flatMap((v) => (typeof v === "string" ? roots(v, seen) : BLOCKING.has(v.severity) ? [ghsaOf(v.url) ?? `unknown:${v.source}`] : []));
   };
   return Object.entries(vulns)
     .filter(([, v]) => BLOCKING.has(v.severity))
@@ -53,6 +54,7 @@ function pnpmFindings(report) {
 /** 純函式：回傳被擋下與被例外放行的項目。 */
 export function evaluate(report, tool, active) {
   const findings = tool === "pnpm" ? pnpmFindings(report) : npmFindings(report);
+  // 追不到任何 high/critical 根源時保守擋下，避免把格式異常當成通過
   const blocked = findings.filter((f) => f.advisories.length === 0 || f.advisories.some((id) => !active.has(id)));
   const excused = findings.filter((f) => !blocked.includes(f));
   return { blocked, excused };
