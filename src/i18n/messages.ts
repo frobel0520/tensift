@@ -21,6 +21,7 @@ export interface UiMessages {
   readonly findLens: string;
   readonly rulesBody: string;
   readonly ruleTap: string;
+  readonly ruleTapTouch: string;
   readonly ruleUnlimited: string;
   readonly ruleHint: string;
   readonly loadingTitle: string;
@@ -106,6 +107,7 @@ const messages: Record<Locale, UiMessages> = {
     findLens: 'Find the lens.',
     rulesBody: 'Every row uses the same kind of fact. The numbers tell you how many cards belong — not what the groups mean.',
     ruleTap: 'Tap a card, then tap a slot — or drag it.',
+    ruleTapTouch: 'Tap a card, then tap a slot to place it.',
     ruleUnlimited: 'Checks are unlimited.',
     ruleHint: 'Use one hint whenever you want; it places and locks a card.',
     loadingTitle: 'Preparing puzzle',
@@ -189,6 +191,7 @@ const messages: Record<Locale, UiMessages> = {
     findLens: '找到觀察角度。',
     rulesBody: '每一列都使用同一種事實。數字只告訴你每組有幾張卡，並不告訴你分組的含義。',
     ruleTap: '點選卡片，再點選格子；也可以拖曳。',
+    ruleTapTouch: '點選卡片，再點選要放入的格子。',
     ruleUnlimited: '檢查次數不限。',
     ruleHint: '隨時使用一次提示；它會放置並鎖定一張卡。',
     loadingTitle: '正在載入關卡',
@@ -272,6 +275,7 @@ const messages: Record<Locale, UiMessages> = {
     findLens: 'Encuentra el enfoque.',
     rulesBody: 'Cada fila usa el mismo tipo de dato. Los números indican cuántas tarjetas van juntas, no qué significa cada grupo.',
     ruleTap: 'Toca una tarjeta y luego una casilla, o arrástrala.',
+    ruleTapTouch: 'Toca una tarjeta y luego la casilla donde quieres colocarla.',
     ruleUnlimited: 'Puedes comprobar las veces que quieras.',
     ruleHint: 'Usa una pista cuando quieras; colocará y bloqueará una tarjeta.',
     loadingTitle: 'Preparando el nivel',
