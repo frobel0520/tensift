@@ -43,6 +43,7 @@ function htmlResponse(html: string, status = 200): Response {
       'X-Content-Type-Options': 'nosniff',
       'Referrer-Policy': 'strict-origin-when-cross-origin',
       // Pages _headers applies to static assets, not Function responses.
+      'Cross-Origin-Opener-Policy': 'same-origin',
       'Content-Security-Policy': "default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
     },
   });

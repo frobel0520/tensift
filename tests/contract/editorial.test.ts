@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import { readFileSync } from 'node:fs';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { createElement } from 'react';
 import { SiteNavigation } from '../../src/ui/site-navigation';
@@ -8,6 +9,15 @@ import { escapeHtml, renderEditorial, renderSitemap } from '../../server/editori
 
 const now = new Date('2026-09-19T08:00:00Z');
 const request = (path: string) => new Request(`https://tensift.pages.dev${path}`);
+
+it('isolates the opener for game and editorial documents', () => {
+  const headers = readFileSync(new URL('../../public/_headers', import.meta.url), 'utf8');
+  const globalRule = headers.split(/\r?\n\r?\n/).find((rule) => rule.startsWith('/*'));
+  expect(globalRule).toMatch(/^ +Cross-Origin-Opener-Policy: same-origin$/m);
+  for (const path of ['/learn/en/how-to-play', '/learn/en/unknown']) {
+    expect(renderEditorial(request(path), now).headers.get('Cross-Origin-Opener-Policy')).toBe('same-origin');
+  }
+});
 
 describe('public editorial pages', () => {
   for (const locale of SUPPORTED_LOCALES) {
