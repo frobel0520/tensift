@@ -1,6 +1,6 @@
 # Tensift Progress
 
-Updated: 2026-11-16 (Asia/Taipei).
+Updated: 2026-11-23 (Asia/Taipei).
 
 ## Current status (Closed / Maintenance-Only — 300-Level Standalone Edition)
 
@@ -14,6 +14,10 @@ Tensift is finalized, deployed, and **closed to active feature/content developme
 - **Full 300-Level Playthrough Verification (2026-11-15)**:
   - **Engine Simulation (900/900 passed, 0 failures)**: Verified all 300 levels across `en`, `zh-Hant`, and `es-419` via `src/api/standalone.ts` (`getLevel`, incorrect-placement `check`, `hint`, full-solution `check`, and `reveal` with non-empty explanations/sources and zero answer leakage).
   - **Browser E2E (300/300 levels passed, 0 `console.error`, 0 `pageerror`)**: Built `dist/` and played Level 1 through Level 300 end-to-end in headless Playwright Chromium against `npm run preview`, verifying card/row rendering, Check/Next progression (`Levels (300/300)`), Hint locking, Reveal modal (`Escape`/close), Level Picker modal (solved badge, difficulty tags, search, Next unsolved, Random), trilingual switching (`en`/`zh-Hant`/`es-419`), and `localStorage` persistence across reload.
+
+## Security maintenance (2026-11-23)
+
+- Configure `Cross-Origin-Opener-Policy: same-origin` for the game and editorial HTML. Production deployment and Harbor inspection are pending.
 
 ## Pending
 
