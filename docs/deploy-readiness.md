@@ -34,13 +34,25 @@ node --experimental-strip-types scripts/build-static-catalog.ts
 
 For each family and locale:
 
-1. Retain source/provenance and complete the relevant rights review. The new author review covers only the21 candidates; it is not a legal opinion or a blanket clearance for all older articles/puzzles.
+1. Retain source/provenance and complete the relevant rights review. The new author review covers only the 21 candidates; it is not a legal opinion or a blanket clearance for all older articles/puzzles.
 2. Obtain independent blind playtests, record actual results under content/playtest and keep strict-blind disabled until evidence supports it. Author checks and automated factual checks are not blind passes.
 3. Promote only reviewed records to one scheduled/published record per locale/date. Keep drafts outside the production loader; preserve the UTC date and UNIQUE(locale,publish_date) contract.
 4. Run safe projection/bundle scans and record the release/rollback plan. Do not expose solutions in browser fixtures.
 5. Remote seed is a separately controlled operation: it replaces records by puzzleId and clears their action receipts. Do not seed a live day merely to validate or inspect it.
 
-Candidate-specific rival interpretations and source-review scope are in [author-review.md](../content/candidates/batch-7/author-review.md). Older content's unresolved rights/provenance and blind-test debt remain open; the historical batch descriptions are not approval evidence.
+Candidate-specific rival interpretations and source-review scope are in [author-review.md](../content/candidates/batch-7/author-review.md). The historical batch descriptions do not provide approval evidence.
+
+### Published catalog source evidence — 2026-11-25
+
+At main commit `76d9cd0`, `node scripts/audit-content-sources.mjs` covered the entire published catalog and the curated editorial copy. The audit reads repository metadata without requesting source sites.
+
+| Scope | Repository evidence | Remaining evidence |
+|---|---|---|
+| Published puzzles | 300 families across 900 locale records. All 954 citations passed the metadata checks. No missing locale, missing citation, invalid citation, or cross-locale source-set difference was found. | Citation entries contain title, URL and retrieval date only. Record the origin and applicable rights evidence for any reused text or assets; external link availability and factual accuracy were outside this pass. |
+| Published editorial copy | Three families across nine locale entries, 117 paragraphs, and five supplemental references that passed the format check. | Cross-reference original authorship or reuse permission for the published copy by family and locale. Supplemental citations do not establish where the prose originated. |
+| Batch 7 drafts | The author review documents the reference and original-explanation scope for 21 drafts. | Apply that evidence only to those drafts. Independent blind playtests and published-catalog review remain separate. |
+
+Keep the rights review open. For each published family that needs follow-up, record the family, locale, content or asset in question, and a traceable authorship or permission reference. Mark items with missing evidence as unresolved in the review. The [inventory guide](30-content-source-inventory.md) documents the script and its evidence limits.
 
 ## CI, publication and remaining external conditions
 
