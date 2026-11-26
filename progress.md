@@ -23,10 +23,11 @@ Tensift is finalized, deployed, and **closed to active feature/content developme
 
 None for release/closure. Optional future owner decisions (deferred):
 - [ ] 【低】Optional: arrange independent blind playtests and record results in `content/playtest/` if strict-blind auditing is desired later.
-- AdSense 重新審查：2026-11-25 Owner 決定不申請，任務已取消；廣告維持停用。
 - [ ] 【低】Optional: resolve remaining older-content source/rights review in `docs/deploy-readiness.md` if needed.
 
 ## Deferred decisions
+
+- AdSense 重新審查：2026-11-25 Owner 決定不申請，任務已取消；廣告維持停用。
 
 Guest accounts/cross-device streaks, image share cards, analytics and re-enabling advertising remain proposals or deferred choices. They are not active implementation tasks. LinkedIn remains a discovery channel; direct Games Hub submission is not available.
 
