@@ -21,9 +21,14 @@ Tensift is finalized, deployed, and **closed to active feature/content developme
 
 ## Pending
 
-None for release/closure. Optional future owner decisions (deferred):
-- [ ] 【低】Optional: arrange independent blind playtests and record results in `content/playtest/` if strict-blind auditing is desired later.
-- [ ] 【低】Optional: resolve remaining older-content source/rights review in `docs/deploy-readiness.md` if needed.
+None.
+
+## Optional (deferred, not tracked as pending)
+
+2026-11-27 Owner decision: optional items and real-device checks are not pending work; the matching Harbor board tasks are cancelled.
+
+- Arrange independent blind playtests and record results in `content/playtest/` if strict-blind auditing is desired later.
+- Resolve remaining older-content source/rights review in `docs/deploy-readiness.md` if needed.
 
 ## Cancelled
 
