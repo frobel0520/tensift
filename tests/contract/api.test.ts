@@ -147,6 +147,41 @@ describe('Pages Function API contracts', () => {
     expect(body).toHaveProperty('groups');
     expect(JSON.stringify(body)).toContain('Oceania');
     expect(response.headers.get('cache-control')).toBe('no-store');
+    expect(response.headers.get('x-content-type-options')).toBe('nosniff');
+    expect(response.headers.get('x-frame-options')).toBe('DENY');
+  });
+
+  it('blocks check, hint, and reveal for draft or future-scheduled puzzles', async () => {
+    const futurePuzzle: AuthoringPuzzleRecord = {
+      ...fixture,
+      publishDate: '2099-12-31',
+      status: 'scheduled',
+    };
+    const draftPuzzle: AuthoringPuzzleRecord = {
+      ...fixture,
+      publishDate: new Date().toISOString().slice(0, 10),
+      status: 'draft',
+    };
+
+    const futureReveal = await reveal(context({
+      request: jsonRequest({ clientSessionId: 'session-future' }),
+      env: { DB: new FakeD1Database(futurePuzzle) },
+      params: { puzzleId: futurePuzzle.puzzleId },
+    }));
+    expect(futureReveal.status).toBe(409);
+
+    const draftCheck = await check(context({
+      request: jsonRequest({
+        clientSessionId: 'session-draft',
+        placements: draftPuzzle.items.map((item, idx) => ({
+          itemId: item.itemId,
+          rowId: idx === 0 ? 'row-1' : idx < 3 ? 'row-2' : idx < 6 ? 'row-3' : 'row-4',
+        })),
+      }),
+      env: { DB: new FakeD1Database(draftPuzzle) },
+      params: { puzzleId: draftPuzzle.puzzleId },
+    }));
+    expect(draftCheck.status).toBe(404);
   });
 
   it('reports D1 connectivity through health without returning puzzle data', async () => {
@@ -195,11 +230,14 @@ class FakeD1Database implements D1Database {
 
     if (operation === 'first' && query.includes('FROM puzzles')) {
       const isReleaseQuery = query.includes('locale = ?');
+      const isReleasedStatus = this.puzzle.status === 'published' || this.puzzle.status === 'scheduled';
       const found = isReleaseQuery
         ? values[0] === this.puzzle.locale
           && values[1] === this.puzzle.publishDate
-          && (this.puzzle.status === 'published' || this.puzzle.status === 'scheduled')
-        : values[0] === this.puzzle.puzzleId;
+          && isReleasedStatus
+        : values[0] === this.puzzle.puzzleId
+          && isReleasedStatus
+          && this.puzzle.publishDate <= String(values[1]);
       return found ? toPuzzleRow(this.puzzle) as T : null;
     }
 
@@ -263,6 +301,16 @@ class FakeD1Database implements D1Database {
           retrieved_at: source.retrievedAt,
         })),
       } as unknown as { readonly results: readonly T[] };
+    }
+
+    if (operation === 'run' && query.includes('DELETE FROM action_receipts')) {
+      const now = String(values[0]);
+      for (const [key, entry] of this.receipts.entries()) {
+        if (entry.expiresAt <= now) {
+          this.receipts.delete(key);
+        }
+      }
+      return undefined;
     }
 
     if (operation === 'run' && query.includes('INSERT INTO action_receipts')) {

@@ -18,7 +18,7 @@ import type { D1Database } from '../types';
  */
 export interface PuzzleRepository {
   findReleasedPuzzle(locale: Locale, publishDate: string): Promise<AuthoringPuzzleRecord | null>;
-  findPuzzleById(puzzleId: string): Promise<AuthoringPuzzleRecord | null>;
+  findPuzzleById(puzzleId: string, maxPublishDate?: string): Promise<AuthoringPuzzleRecord | null>;
   findActionReceipt(
     puzzleId: string,
     clientSessionId: string,
@@ -132,6 +132,8 @@ const FIND_PUZZLE_BY_ID_SQL = `
 SELECT${SELECT_PUZZLE_COLUMNS}
 FROM puzzles
 WHERE puzzle_id = ?
+  AND status IN ('scheduled', 'published')
+  AND publish_date <= ?
 LIMIT 1`;
 
 const FIND_ITEMS_SQL = `
@@ -183,10 +185,13 @@ export class D1PuzzleRepository implements PuzzleRepository {
     return row ? this.loadBundle(row) : null;
   }
 
-  public async findPuzzleById(puzzleId: string): Promise<AuthoringPuzzleRecord | null> {
+  public async findPuzzleById(
+    puzzleId: string,
+    maxPublishDate: string = new Date().toISOString().slice(0, 10),
+  ): Promise<AuthoringPuzzleRecord | null> {
     const row = await this.db
       .prepare(FIND_PUZZLE_BY_ID_SQL)
-      .bind(puzzleId)
+      .bind(puzzleId, maxPublishDate)
       .first<PuzzleRowRecord>();
 
     return row ? this.loadBundle(row) : null;
@@ -228,6 +233,11 @@ export class D1PuzzleRepository implements PuzzleRepository {
     expiresAt: string,
     now: string,
   ): Promise<void> {
+    await this.db
+      .prepare('DELETE FROM action_receipts WHERE expires_at <= ?')
+      .bind(now)
+      .run();
+
     await this.db
       .prepare(`
         INSERT INTO action_receipts
