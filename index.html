@@ -904,7 +904,7 @@
           const card = document.createElement("div");
           card.className = "result-group";
           const names = puzzle.items.filter((item) => item.group === groupIndex).map((item) => item.name).join(", ");
-          card.innerHTML = `<strong>${groupIndex + 1} · ${groupName}</strong>${names}`;
+          const strong = document.createElement("strong"); strong.textContent = `${groupIndex + 1} · ${groupName}`; card.append(strong, names);
           elements.resultGroups.append(card);
         });
         elements.resultModal.hidden = false;
